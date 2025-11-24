@@ -146,8 +146,8 @@ export const DraggableWindow = ({
     setIsSplitScreen(newSplitState);
     
     if (newSplitState) {
-      // Enable split screen
-      const halfWidth = window.innerWidth / 2;
+      // Enable split screen - start at 50%
+      const halfWidth = window.innerWidth * 0.5;
       setPosition({ x: halfWidth, y: 0 });
       setSize({ width: halfWidth, height: window.innerHeight });
     } else {
