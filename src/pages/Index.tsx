@@ -2,12 +2,9 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { BookOpen, Target, Trophy } from "lucide-react";
-
 const Index = () => {
   const navigate = useNavigate();
-
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-muted">
+  return <div className="min-h-screen bg-gradient-to-b from-background to-muted">
       {/* Hero Section */}
       <section className="container mx-auto px-4 pt-20 pb-12">
         <div className="text-center max-w-4xl mx-auto">
@@ -21,11 +18,7 @@ const Index = () => {
             Master the SAT Math section with our comprehensive question bank. 
             Practice with real-world problems and achieve your perfect score.
           </p>
-          <Button 
-            size="lg" 
-            className="text-lg px-8"
-            onClick={() => navigate("/question/1")}
-          >
+          <Button size="lg" className="text-lg px-8" onClick={() => navigate("/question/1")}>
             <BookOpen className="mr-2 h-5 w-5" />
             Start Practicing
           </Button>
@@ -68,29 +61,7 @@ const Index = () => {
       </section>
 
       {/* Quick Start */}
-      <section className="container mx-auto px-4 py-12">
-        <Card className="max-w-3xl mx-auto p-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to ace the SAT?</h2>
-          <p className="text-muted-foreground mb-6">
-            Jump right into question 1 or browse all 100 questions to find what you need.
-          </p>
-          <div className="flex gap-4 justify-center flex-wrap">
-            <Button 
-              size="lg"
-              onClick={() => navigate("/question/1")}
-            >
-              Start with Question 1
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              onClick={() => navigate("/question/50")}
-            >
-              Jump to Question 50
-            </Button>
-          </div>
-        </Card>
-      </section>
+      
 
       {/* Footer */}
       <footer className="border-t border-border mt-12">
@@ -98,8 +69,6 @@ const Index = () => {
           <p>© 2024 1600.now - SAT Math Practice Platform</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
