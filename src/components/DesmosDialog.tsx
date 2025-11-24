@@ -12,7 +12,7 @@ export const DesmosDialog = ({ onSplitScreenChange }: DesmosDialogProps) => {
 
   return (
     <>
-      <Button variant="outline" size="sm" onClick={() => setIsOpen(true)}>
+      <Button variant="outline" size="sm" onClick={() => setIsOpen(!isOpen)}>
         <Calculator className="mr-2 h-4 w-4" />
         Desmos Calculator
       </Button>

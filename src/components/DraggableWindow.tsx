@@ -46,7 +46,7 @@ export const DraggableWindow = ({
   }, [isOpen, defaultWidth, defaultHeight]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
-    if ((e.target as HTMLElement).closest(".window-header")) {
+    if (!isSplitScreen && (e.target as HTMLElement).closest(".window-header")) {
       setIsDragging(true);
       setDragOffset({
         x: e.clientX - position.x,
@@ -56,6 +56,7 @@ export const DraggableWindow = ({
   };
 
   const handleResizeStart = (e: React.MouseEvent, edge: string) => {
+    if (isSplitScreen) return; // Don't allow resizing in split screen mode
     e.preventDefault();
     e.stopPropagation();
     setIsResizing(edge);
@@ -172,7 +173,8 @@ export const DraggableWindow = ({
       ref={windowRef}
       className={cn(
         "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden z-50",
-        isDragging ? "cursor-grabbing" : ""
+        isDragging ? "cursor-grabbing" : "",
+        isSplitScreen ? "pointer-events-auto" : ""
       )}
       style={{
         left: position.x,
@@ -227,7 +229,10 @@ export const DraggableWindow = ({
       </>
 
       {/* Window Header */}
-      <div className="window-header flex items-center justify-between px-4 py-3 bg-muted border-b border-border cursor-grab active:cursor-grabbing">
+      <div className={cn(
+        "window-header flex items-center justify-between px-4 py-3 bg-muted border-b border-border",
+        isSplitScreen ? "cursor-default" : "cursor-grab active:cursor-grabbing"
+      )}>
         <h3 className="font-semibold text-foreground">{title}</h3>
         <div className="flex items-center gap-2">
           <Button
