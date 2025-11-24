@@ -3,7 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Calculator } from "lucide-react";
 import { DraggableWindow } from "./DraggableWindow";
 
-export const DesmosDialog = () => {
+interface DesmosDialogProps {
+  onSplitScreenChange?: (isSplit: boolean) => void;
+}
+
+export const DesmosDialog = ({ onSplitScreenChange }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -15,10 +19,14 @@ export const DesmosDialog = () => {
 
       <DraggableWindow
         isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
+        onClose={() => {
+          setIsOpen(false);
+          onSplitScreenChange?.(false);
+        }}
         title="Desmos Graphing Calculator"
         defaultWidth={900}
         defaultHeight={650}
+        onSplitScreenChange={onSplitScreenChange}
       >
         <iframe
           src="https://www.desmos.com/testing/cb-sat-ap/graphing"
