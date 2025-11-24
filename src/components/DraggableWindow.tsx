@@ -26,6 +26,7 @@ export const DraggableWindow = ({
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
   const [isDragging, setIsDragging] = useState(false);
   const [isResizing, setIsResizing] = useState<string | null>(null);
+  const [isSplitScreen, setIsSplitScreen] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
   const windowRef = useRef<HTMLDivElement>(null);
@@ -37,6 +38,10 @@ export const DraggableWindow = ({
       const centerY = (window.innerHeight - defaultHeight) / 2;
       setPosition({ x: Math.max(0, centerX), y: Math.max(0, centerY) });
       setSize({ width: defaultWidth, height: defaultHeight });
+      setIsSplitScreen(false);
+      if (onSplitScreenChange) {
+        onSplitScreenChange(false);
+      }
     }
   }, [isOpen, defaultWidth, defaultHeight]);
 
@@ -136,16 +141,25 @@ export const DraggableWindow = ({
   }, [isDragging, isResizing, dragOffset, position, size, resizeStart]);
 
   const toggleSplitScreen = () => {
-    const halfWidth = window.innerWidth / 2;
-    const newPos = { x: halfWidth, y: 0 };
-    const newSize = { width: halfWidth, height: window.innerHeight };
+    const newSplitState = !isSplitScreen;
+    setIsSplitScreen(newSplitState);
     
-    setPosition(newPos);
-    setSize(newSize);
+    if (newSplitState) {
+      // Enable split screen
+      const halfWidth = window.innerWidth / 2;
+      setPosition({ x: halfWidth, y: 0 });
+      setSize({ width: halfWidth, height: window.innerHeight });
+    } else {
+      // Disable split screen - return to center
+      const centerX = (window.innerWidth - defaultWidth) / 2;
+      const centerY = (window.innerHeight - defaultHeight) / 2;
+      setPosition({ x: Math.max(0, centerX), y: Math.max(0, centerY) });
+      setSize({ width: defaultWidth, height: defaultHeight });
+    }
     
     // Notify parent component
     if (onSplitScreenChange) {
-      onSplitScreenChange(true);
+      onSplitScreenChange(newSplitState);
     }
   };
 
@@ -219,9 +233,9 @@ export const DraggableWindow = ({
           <Button
             variant="ghost"
             size="icon"
-            className="h-8 w-8"
+            className={cn("h-8 w-8", isSplitScreen && "bg-primary/20")}
             onClick={toggleSplitScreen}
-            title="Split screen"
+            title={isSplitScreen ? "Exit split screen" : "Split screen"}
           >
             <Columns2 className="h-4 w-4" />
           </Button>
@@ -229,7 +243,13 @@ export const DraggableWindow = ({
             variant="ghost"
             size="icon"
             className="h-8 w-8"
-            onClick={onClose}
+            onClick={() => {
+              setIsSplitScreen(false);
+              if (onSplitScreenChange) {
+                onSplitScreenChange(false);
+              }
+              onClose();
+            }}
           >
             <X className="h-4 w-4" />
           </Button>
