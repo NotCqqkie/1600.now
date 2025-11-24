@@ -118,4 +118,29 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  /* MathJax content styling */
+  mjx-container {
+    display: inline-block !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+
+  /* Ensure MathJax SVGs scale properly */
+  mjx-container svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Prevent text overflow in all contexts */
+  .break-words {
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .overflow-wrap-anywhere {
+    overflow-wrap: anywhere;
+  }
 }

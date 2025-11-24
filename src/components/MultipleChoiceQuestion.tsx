@@ -57,12 +57,12 @@ export const MultipleChoiceQuestion = ({
             <Label 
               htmlFor={choice.id} 
               className={cn(
-                "flex-1 cursor-pointer font-medium",
+                "flex-1 cursor-pointer font-medium break-words overflow-wrap-anywhere",
                 struckOut.has(choice.id) && "line-through text-muted-foreground"
               )}
             >
               <span className="font-semibold mr-2">{choice.id})</span>
-              <span>{"$$" + choice.text + "$$"}</span>
+              <span className="break-words">{"$$" + choice.text + "$$"}</span>
             </Label>
           </div>
         ))}
