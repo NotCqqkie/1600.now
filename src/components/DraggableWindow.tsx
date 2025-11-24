@@ -10,6 +10,7 @@ interface DraggableWindowProps {
   children: React.ReactNode;
   defaultWidth?: number;
   defaultHeight?: number;
+  onSplitScreenChange?: (isSplit: boolean) => void;
 }
 
 export const DraggableWindow = ({
@@ -19,12 +20,12 @@ export const DraggableWindow = ({
   children,
   defaultWidth = 800,
   defaultHeight = 600,
+  onSplitScreenChange,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
   const [isDragging, setIsDragging] = useState(false);
   const [isResizing, setIsResizing] = useState<string | null>(null);
-  const [isSplitScreen, setIsSplitScreen] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
   const windowRef = useRef<HTMLDivElement>(null);
@@ -36,7 +37,6 @@ export const DraggableWindow = ({
       const centerY = (window.innerHeight - defaultHeight) / 2;
       setPosition({ x: Math.max(0, centerX), y: Math.max(0, centerY) });
       setSize({ width: defaultWidth, height: defaultHeight });
-      setIsSplitScreen(false);
     }
   }, [isOpen, defaultWidth, defaultHeight]);
 
@@ -66,7 +66,7 @@ export const DraggableWindow = ({
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      if (isDragging && !isSplitScreen) {
+      if (isDragging) {
         const newX = e.clientX - dragOffset.x;
         const newY = e.clientY - dragOffset.y;
         
@@ -80,7 +80,7 @@ export const DraggableWindow = ({
         });
       }
 
-      if (isResizing && !isSplitScreen) {
+      if (isResizing) {
         const deltaX = e.clientX - resizeStart.x;
         const deltaY = e.clientY - resizeStart.y;
         
@@ -133,10 +133,20 @@ export const DraggableWindow = ({
       document.removeEventListener("mousemove", handleMouseMove);
       document.removeEventListener("mouseup", handleMouseUp);
     };
-  }, [isDragging, isResizing, dragOffset, position, size, resizeStart, isSplitScreen]);
+  }, [isDragging, isResizing, dragOffset, position, size, resizeStart]);
 
   const toggleSplitScreen = () => {
-    setIsSplitScreen(!isSplitScreen);
+    const halfWidth = window.innerWidth / 2;
+    const newPos = { x: halfWidth, y: 0 };
+    const newSize = { width: halfWidth, height: window.innerHeight };
+    
+    setPosition(newPos);
+    setSize(newSize);
+    
+    // Notify parent component
+    if (onSplitScreenChange) {
+      onSplitScreenChange(true);
+    }
   };
 
   if (!isOpen) return null;
@@ -147,35 +157,19 @@ export const DraggableWindow = ({
     <div
       ref={windowRef}
       className={cn(
-        "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden",
-        isDragging ? "cursor-grabbing" : "",
-        isSplitScreen ? "z-40" : "z-50"
+        "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden z-50",
+        isDragging ? "cursor-grabbing" : ""
       )}
-      style={
-        isSplitScreen
-          ? {
-              right: 0,
-              top: 0,
-              bottom: 0,
-              width: "50%",
-              height: "100vh",
-              borderRadius: 0,
-              borderRight: 0,
-              borderTop: 0,
-              borderBottom: 0,
-            }
-          : {
-              left: position.x,
-              top: position.y,
-              width: size.width,
-              height: size.height,
-            }
-      }
+      style={{
+        left: position.x,
+        top: position.y,
+        width: size.width,
+        height: size.height,
+      }}
       onMouseDown={handleMouseDown}
     >
       {/* Resize Handles */}
-      {!isSplitScreen && (
-        <>
+      <>
           {/* Top */}
           <div
             className={cn(resizeHandleClass, "top-0 left-0 right-0 h-1 cursor-n-resize")}
@@ -216,8 +210,7 @@ export const DraggableWindow = ({
             className={cn(resizeHandleClass, "bottom-0 right-0 w-3 h-3 cursor-se-resize")}
             onMouseDown={(e) => handleResizeStart(e, "bottom-right")}
           />
-        </>
-      )}
+      </>
 
       {/* Window Header */}
       <div className="window-header flex items-center justify-between px-4 py-3 bg-muted border-b border-border cursor-grab active:cursor-grabbing">

@@ -4,7 +4,11 @@ import { FileText } from "lucide-react";
 import referenceSheet from "@/assets/sat-reference-sheet.png";
 import { DraggableWindow } from "./DraggableWindow";
 
-export const FormulaSheetDialog = () => {
+interface FormulaSheetDialogProps {
+  onSplitScreenChange?: (isSplit: boolean) => void;
+}
+
+export const FormulaSheetDialog = ({ onSplitScreenChange }: FormulaSheetDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -16,10 +20,14 @@ export const FormulaSheetDialog = () => {
 
       <DraggableWindow
         isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
+        onClose={() => {
+          setIsOpen(false);
+          onSplitScreenChange?.(false);
+        }}
         title="SAT Math Reference Sheet"
         defaultWidth={800}
         defaultHeight={700}
+        onSplitScreenChange={onSplitScreenChange}
       >
         <div className="w-full h-full overflow-auto p-4">
           <img
