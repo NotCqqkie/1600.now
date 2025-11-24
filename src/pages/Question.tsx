@@ -29,6 +29,8 @@ const Question = () => {
   const [strikeoutMode, setStrikeoutMode] = useState(false);
   const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
   const [isSplitScreenActive, setIsSplitScreenActive] = useState(false);
+  const [splitPosition, setSplitPosition] = useState(50);
+  const [isResizingSplit, setIsResizingSplit] = useState(false);
 
   const currentQuestion = questions.find(q => q.id === questionNumber);
   
@@ -51,6 +53,31 @@ const Question = () => {
     setFreeResponseAnswer("");
     setCheckButtonVariant("default");
   }, [questionNumber]);
+
+  useEffect(() => {
+    if (!isSplitScreenActive) return;
+
+    const handleMouseMove = (e: MouseEvent) => {
+      if (isResizingSplit) {
+        const newPosition = (e.clientX / window.innerWidth) * 100;
+        setSplitPosition(Math.max(20, Math.min(80, newPosition)));
+      }
+    };
+
+    const handleMouseUp = () => {
+      setIsResizingSplit(false);
+    };
+
+    if (isResizingSplit) {
+      document.addEventListener('mousemove', handleMouseMove);
+      document.addEventListener('mouseup', handleMouseUp);
+    }
+
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, [isResizingSplit, isSplitScreenActive]);
 
   const handlePrevious = () => {
     if (questionNumber > 1) {
@@ -95,11 +122,20 @@ const Question = () => {
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
+      {/* Split Screen Divider */}
+      {isSplitScreenActive && (
+        <div 
+          className="fixed top-0 bottom-0 w-1 bg-border hover:bg-primary/50 cursor-col-resize z-50 transition-colors"
+          style={{ left: `${splitPosition}%` }}
+          onMouseDown={() => setIsResizingSplit(true)}
+        />
+      )}
+
       {/* Header */}
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div 
           className="container mx-auto px-4 py-4"
-          style={isSplitScreenActive ? { maxWidth: "50%", marginLeft: 0 } : undefined}
+          style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : undefined}
         >
           <div className="flex items-center justify-between">
             <Button
@@ -121,7 +157,7 @@ const Question = () => {
       {/* Main Content */}
       <main 
         className="flex-1 px-4 py-8"
-        style={isSplitScreenActive ? { maxWidth: "50%", marginLeft: 0 } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
+        style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
         <Card className="p-8 relative" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem" }}>
           {/* Question Number Badge */}
