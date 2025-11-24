@@ -31,6 +31,7 @@ const Question = () => {
   const [isSplitScreenActive, setIsSplitScreenActive] = useState(false);
   const [splitPosition, setSplitPosition] = useState(50);
   const [isResizingSplit, setIsResizingSplit] = useState(false);
+  const [attemptCount, setAttemptCount] = useState(0);
 
   // Reset split position when split screen is deactivated
   useEffect(() => {
@@ -59,6 +60,7 @@ const Question = () => {
     setSelectedAnswer("");
     setFreeResponseAnswer("");
     setCheckButtonVariant("default");
+    setAttemptCount(0);
   }, [questionNumber]);
 
   useEffect(() => {
@@ -67,8 +69,8 @@ const Question = () => {
     const handleMouseMove = (e: MouseEvent) => {
       if (isResizingSplit) {
         const newPosition = (e.clientX / window.innerWidth) * 100;
-        // Limit between 35% and 65% to prevent content compression
-        setSplitPosition(Math.max(35, Math.min(65, newPosition)));
+        // Limit between 30% and 70% to prevent button compression
+        setSplitPosition(Math.max(30, Math.min(70, newPosition)));
       }
     };
 
@@ -114,13 +116,23 @@ const Question = () => {
     const isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(currentQuestion.correctAnswer);
 
     setChecked(true);
+    const newAttemptCount = attemptCount + 1;
+    setAttemptCount(newAttemptCount);
 
     if (isCorrect) {
       setCheckButtonVariant("success");
       toast.success("Correct!");
+      
+      // Save status to localStorage
+      const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
+      localStorage.setItem(`question-${questionNumber}-status`, status);
     } else {
       setCheckButtonVariant("destructive");
       toast.error("Incorrect. Try again!");
+      
+      // Save incorrect status
+      localStorage.setItem(`question-${questionNumber}-status`, 'incorrect');
+      
       setTimeout(() => {
         setChecked(false);
         setCheckButtonVariant("default");
@@ -170,7 +182,7 @@ const Question = () => {
 
       {/* Main Content */}
       <main 
-        className="flex-1 px-4 py-8"
+        className="flex-1 px-4 py-8 pb-28"
         style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
         <Card className="p-4 sm:p-6 md:p-8 relative" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem" }}>
@@ -184,20 +196,26 @@ const Question = () => {
             <Button
               variant="ghost"
               size="sm"
-              onClick={() => setMarkedForReview(!markedForReview)}
+              onClick={() => {
+                const newValue = !markedForReview;
+                setMarkedForReview(newValue);
+                localStorage.setItem(`question-${questionNumber}-flagged`, newValue.toString());
+              }}
               className={markedForReview ? "text-destructive" : ""}
             >
               <Bookmark className={markedForReview ? "fill-current" : ""} />
               Mark for Review
             </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => setStrikeoutMode(!strikeoutMode)}
-              className={strikeoutMode ? "bg-muted" : ""}
-            >
-              <Slash className="h-4 w-4" />
-            </Button>
+            {currentQuestion.type === 'multiple-choice' && (
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setStrikeoutMode(!strikeoutMode)}
+                className={strikeoutMode ? "bg-muted" : ""}
+              >
+                <Slash className="h-4 w-4" />
+              </Button>
+            )}
           </div>
 
           {/* Question Content */}
@@ -232,46 +250,55 @@ const Question = () => {
             </div>
           )}
         </Card>
+      </main>
 
-        {/* Bottom Navigation */}
-        <div className="mt-8 flex justify-between items-center" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem" }}>
-          {/* Left: Previous Button */}
-          <Button
-            variant="outline"
-            onClick={handlePrevious}
-            disabled={questionNumber === 1}
-          >
-            <ChevronLeft className="mr-2 h-4 w-4" />
-            Previous
-          </Button>
-
-          {/* Center: Navigation Sheet */}
-          <NavigationSheet currentQuestion={questionNumber} />
-
-          {/* Right: Explanation, Check, Next */}
-          <div className="flex gap-2">
-            <ExplanationDialog />
-            <Button 
-              onClick={handleCheck}
-              disabled={checked && checkButtonVariant === "success"}
-              variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
-              className={checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""}
-            >
-              <Check className="mr-2 h-4 w-4" />
-              Check
-            </Button>
+      {/* Bottom Navigation - Fixed at bottom */}
+      <div 
+        className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-20"
+        style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
+      >
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex justify-between items-center gap-4">
+            {/* Left: Previous Button */}
             <Button
-              onClick={handleNext}
-              disabled={questionNumber === 100}
+              variant="outline"
+              onClick={handlePrevious}
+              disabled={questionNumber === 1}
+              className="shrink-0"
             >
-              Next
-              <ChevronRight className="ml-2 h-4 w-4" />
+              <ChevronLeft className="mr-2 h-4 w-4" />
+              Previous
             </Button>
+
+            {/* Center: Navigation Sheet */}
+            <NavigationSheet currentQuestion={questionNumber} />
+
+            {/* Right: Explanation, Check, Next */}
+            <div className="flex gap-2 shrink-0">
+              <ExplanationDialog />
+              <Button 
+                onClick={handleCheck}
+                disabled={checked && checkButtonVariant === "success"}
+                variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
+                className={checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""}
+              >
+                <Check className="mr-2 h-4 w-4" />
+                Check
+              </Button>
+              <Button
+                onClick={handleNext}
+                disabled={questionNumber === 100}
+              >
+                Next
+                <ChevronRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 };
 
 export default Question;
+
