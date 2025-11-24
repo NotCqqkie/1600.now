@@ -19,10 +19,7 @@ export const DesmosDialog = ({ onSplitScreenChange }: DesmosDialogProps) => {
 
       <DraggableWindow
         isOpen={isOpen}
-        onClose={() => {
-          setIsOpen(false);
-          onSplitScreenChange?.(false);
-        }}
+        onClose={() => setIsOpen(false)}
         title="Desmos Graphing Calculator"
         defaultWidth={900}
         defaultHeight={650}
