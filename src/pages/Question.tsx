@@ -18,7 +18,7 @@ declare global {
   }
 }
 
-const Question = () => {
+function Question() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const questionNumber = parseInt(id || "1");
@@ -298,6 +298,6 @@ const Question = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Question;
