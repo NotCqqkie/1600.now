@@ -5,9 +5,10 @@ import { DraggableWindow } from "./DraggableWindow";
 
 interface DesmosDialogProps {
   onSplitScreenChange?: (isSplit: boolean) => void;
+  splitPosition?: number;
 }
 
-export const DesmosDialog = ({ onSplitScreenChange }: DesmosDialogProps) => {
+export const DesmosDialog = ({ onSplitScreenChange, splitPosition }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -24,6 +25,7 @@ export const DesmosDialog = ({ onSplitScreenChange }: DesmosDialogProps) => {
         defaultWidth={900}
         defaultHeight={650}
         onSplitScreenChange={onSplitScreenChange}
+        splitPosition={splitPosition}
       >
         <iframe
           src="https://www.desmos.com/testing/cb-sat-ap/graphing"
