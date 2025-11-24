@@ -2,6 +2,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
 import { NavigationSheet } from "@/components/NavigationSheet";
 import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
@@ -9,6 +10,7 @@ import { ExplanationDialog } from "@/components/ExplanationDialog";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { ChevronLeft, ChevronRight, Check, Bookmark, Slash } from "lucide-react";
 import { toast } from "sonner";
+import { questions } from "@/data/questions";
 
 declare global {
   interface Window {
@@ -22,16 +24,16 @@ const Question = () => {
   const questionNumber = parseInt(id || "1");
   const [checked, setChecked] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
+  const [freeResponseAnswer, setFreeResponseAnswer] = useState<string>("");
   const [markedForReview, setMarkedForReview] = useState(false);
   const [strikeoutMode, setStrikeoutMode] = useState(false);
+  const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
 
-  // Example multiple choice options
-  const choices = [
-    { id: "A", text: "-3" },
-    { id: "B", text: "6" },
-    { id: "C", text: "18" },
-    { id: "D", text: "30" },
-  ];
+  const currentQuestion = questions.find(q => q.id === questionNumber);
+  
+  if (!currentQuestion) {
+    return <div>Question not found</div>;
+  }
 
   useEffect(() => {
     // Load MathJax
@@ -45,6 +47,8 @@ const Question = () => {
     }
     setChecked(false);
     setSelectedAnswer("");
+    setFreeResponseAnswer("");
+    setCheckButtonVariant("default");
   }, [questionNumber]);
 
   const handlePrevious = () => {
@@ -60,8 +64,32 @@ const Question = () => {
   };
 
   const handleCheck = () => {
+    const userAnswer = currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer;
+    
+    if (!userAnswer) {
+      toast.error("Please provide an answer");
+      return;
+    }
+
+    const normalizeAnswer = (answer: string) => {
+      return answer.toString().trim().toLowerCase().replace(/\s+/g, '');
+    };
+
+    const isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(currentQuestion.correctAnswer);
+
     setChecked(true);
-    toast.success("Answer checked! Add your answer verification logic here.");
+
+    if (isCorrect) {
+      setCheckButtonVariant("success");
+      toast.success("Correct!");
+    } else {
+      setCheckButtonVariant("destructive");
+      toast.error("Incorrect. Try again!");
+      setTimeout(() => {
+        setChecked(false);
+        setCheckButtonVariant("default");
+      }, 1500);
+    }
   };
 
   return (
@@ -119,24 +147,33 @@ const Question = () => {
           <div className="mb-8">
             <div className="prose prose-lg max-w-none">
               <div id="question-content">
-                {/* Example LaTeX - Replace this with your actual question */}
-                <p className="text-lg mb-4">
-                  {"$$3x = 12$$"}
-                  {"$$-3x + y = -6$$"}
-                </p>
-                <p className="text-base text-foreground mb-6">
-                  The solution to the given system of equations is (x, y). What is the value of y?
+                <p className="text-lg text-foreground mb-6">
+                  {"$$" + currentQuestion.text + "$$"}
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Multiple Choice Answer Area */}
-          <MultipleChoiceQuestion 
-            choices={choices}
-            selectedAnswer={selectedAnswer}
-            onAnswerChange={setSelectedAnswer}
-          />
+          {/* Answer Area */}
+          {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
+            <MultipleChoiceQuestion 
+              choices={currentQuestion.choices}
+              selectedAnswer={selectedAnswer}
+              onAnswerChange={setSelectedAnswer}
+              strikeoutMode={strikeoutMode}
+            />
+          ) : (
+            <div className="space-y-3">
+              <label className="text-sm font-medium text-foreground">Your Answer:</label>
+              <Input
+                type="text"
+                value={freeResponseAnswer}
+                onChange={(e) => setFreeResponseAnswer(e.target.value)}
+                placeholder="Enter your answer"
+                className="max-w-md"
+              />
+            </div>
+          )}
         </Card>
 
         {/* Bottom Navigation */}
@@ -159,7 +196,9 @@ const Question = () => {
             <ExplanationDialog />
             <Button 
               onClick={handleCheck}
-              disabled={checked}
+              disabled={checked && checkButtonVariant === "success"}
+              variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
+              className={checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""}
             >
               <Check className="mr-2 h-4 w-4" />
               Check
