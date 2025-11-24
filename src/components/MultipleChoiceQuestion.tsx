@@ -12,12 +12,14 @@ interface MultipleChoiceQuestionProps {
   choices: Choice[];
   selectedAnswer?: string;
   onAnswerChange?: (answer: string) => void;
+  strikeoutMode?: boolean;
 }
 
 export const MultipleChoiceQuestion = ({ 
   choices, 
   selectedAnswer,
-  onAnswerChange 
+  onAnswerChange,
+  strikeoutMode = false
 }: MultipleChoiceQuestionProps) => {
   const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
 
@@ -43,7 +45,13 @@ export const MultipleChoiceQuestion = ({
               "flex items-center space-x-3 rounded-lg border-2 border-border p-4 hover:bg-muted/50 transition-colors cursor-pointer",
               selectedAnswer === choice.id && "border-primary bg-primary/5"
             )}
-            onClick={() => onAnswerChange?.(choice.id)}
+            onClick={(e) => {
+              if (strikeoutMode) {
+                toggleStrikeout(choice.id);
+              } else {
+                onAnswerChange?.(choice.id);
+              }
+            }}
           >
             <RadioGroupItem value={choice.id} id={choice.id} />
             <Label 
@@ -53,8 +61,8 @@ export const MultipleChoiceQuestion = ({
                 struckOut.has(choice.id) && "line-through text-muted-foreground"
               )}
             >
-              <span className="font-semibold mr-2">{choice.id}</span>
-              {choice.text}
+              <span className="font-semibold mr-2">{choice.id})</span>
+              <span>{"$$" + choice.text + "$$"}</span>
             </Label>
           </div>
         ))}

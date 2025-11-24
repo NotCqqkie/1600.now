@@ -4,26 +4,18 @@ import { FileText } from "lucide-react";
 import referenceSheet from "@/assets/sat-reference-sheet.png";
 
 export const FormulaSheetDialog = () => {
+  const handleOpenFormulaSheet = () => {
+    window.open(
+      referenceSheet,
+      'formulaSheet',
+      'width=900,height=1000,menubar=no,toolbar=no,location=no,status=no,resizable=yes,scrollbars=yes'
+    );
+  };
+
   return (
-    <Dialog>
-      <DialogTrigger asChild>
-        <Button variant="outline" size="sm">
-          <FileText className="mr-2 h-4 w-4" />
-          Formula Sheet
-        </Button>
-      </DialogTrigger>
-      <DialogContent className="max-w-4xl max-h-[90vh]">
-        <DialogHeader>
-          <DialogTitle>SAT Math Reference Sheet</DialogTitle>
-        </DialogHeader>
-        <div className="overflow-auto">
-          <img 
-            src={referenceSheet} 
-            alt="SAT Math Reference Formulas" 
-            className="w-full h-auto"
-          />
-        </div>
-      </DialogContent>
-    </Dialog>
+    <Button variant="outline" size="sm" onClick={handleOpenFormulaSheet}>
+      <FileText className="mr-2 h-4 w-4" />
+      Formula Sheet
+    </Button>
   );
 };
