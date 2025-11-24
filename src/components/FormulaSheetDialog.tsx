@@ -20,10 +20,7 @@ export const FormulaSheetDialog = ({ onSplitScreenChange }: FormulaSheetDialogPr
 
       <DraggableWindow
         isOpen={isOpen}
-        onClose={() => {
-          setIsOpen(false);
-          onSplitScreenChange?.(false);
-        }}
+        onClose={() => setIsOpen(false)}
         title="SAT Math Reference Sheet"
         defaultWidth={800}
         defaultHeight={700}
