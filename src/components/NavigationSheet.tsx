@@ -15,7 +15,7 @@ export const NavigationSheet = ({ currentQuestion }: NavigationSheetProps) => {
           Question {currentQuestion}
         </Button>
       </SheetTrigger>
-      <SheetContent side="bottom" className="h-[80vh]">
+      <SheetContent side="bottom" className="h-[60vh]">
         <SheetHeader>
           <SheetTitle>Question Navigator</SheetTitle>
         </SheetHeader>
