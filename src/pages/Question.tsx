@@ -2,11 +2,12 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { QuestionNav } from "@/components/QuestionNav";
+import { NavigationSheet } from "@/components/NavigationSheet";
 import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationDialog } from "@/components/ExplanationDialog";
-import { ChevronLeft, ChevronRight, Check } from "lucide-react";
+import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
+import { ChevronLeft, ChevronRight, Check, Bookmark, Slash } from "lucide-react";
 import { toast } from "sonner";
 
 declare global {
@@ -20,6 +21,17 @@ const Question = () => {
   const navigate = useNavigate();
   const questionNumber = parseInt(id || "1");
   const [checked, setChecked] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>("");
+  const [markedForReview, setMarkedForReview] = useState(false);
+  const [strikeoutMode, setStrikeoutMode] = useState(false);
+
+  // Example multiple choice options
+  const choices = [
+    { id: "A", text: "-3" },
+    { id: "B", text: "6" },
+    { id: "C", text: "18" },
+    { id: "D", text: "30" },
+  ];
 
   useEffect(() => {
     // Load MathJax
@@ -32,6 +44,7 @@ const Question = () => {
       window.MathJax.typesetPromise?.();
     }
     setChecked(false);
+    setSelectedAnswer("");
   }, [questionNumber]);
 
   const handlePrevious = () => {
@@ -57,24 +70,17 @@ const Question = () => {
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => navigate("/")}
-              >
-                <ChevronLeft className="mr-1 h-4 w-4" />
-                Home
-              </Button>
-              <div className="h-6 w-px bg-border" />
-              <h1 className="text-xl font-semibold">
-                Question {questionNumber} of 100
-              </h1>
-            </div>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => navigate("/")}
+            >
+              <ChevronLeft className="mr-1 h-4 w-4" />
+              Home
+            </Button>
             <div className="flex gap-2">
               <FormulaSheetDialog />
               <DesmosDialog />
-              <ExplanationDialog />
             </div>
           </div>
         </div>
@@ -82,49 +88,60 @@ const Question = () => {
 
       {/* Main Content */}
       <main className="flex-1 container mx-auto px-4 py-8">
-        <Card className="max-w-4xl mx-auto p-8">
+        <Card className="max-w-4xl mx-auto p-8 relative">
+          {/* Question Number Badge */}
+          <div className="absolute -top-4 -left-4 bg-foreground text-background rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl shadow-lg">
+            {questionNumber}
+          </div>
+
+          {/* Mark for Review and Strikeout */}
+          <div className="flex justify-end gap-2 mb-4">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setMarkedForReview(!markedForReview)}
+              className={markedForReview ? "text-destructive" : ""}
+            >
+              <Bookmark className={markedForReview ? "fill-current" : ""} />
+              Mark for Review
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setStrikeoutMode(!strikeoutMode)}
+              className={strikeoutMode ? "bg-muted" : ""}
+            >
+              <Slash className="h-4 w-4" />
+            </Button>
+          </div>
+
           {/* Question Content */}
           <div className="mb-8">
             <div className="prose prose-lg max-w-none">
               <div id="question-content">
                 {/* Example LaTeX - Replace this with your actual question */}
                 <p className="text-lg mb-4">
-                  {"$$\\text{Solve for } x: \\quad 2x^2 + 5x - 3 = 0$$"}
+                  {"$$3x = 12$$"}
+                  {"$$-3x + y = -6$$"}
                 </p>
-                <p className="text-base text-muted-foreground">
-                  Use the quadratic formula or any other method to find the value(s) of x.
+                <p className="text-base text-foreground mb-6">
+                  The solution to the given system of equations is (x, y). What is the value of y?
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Answer Input Area - Customize based on question type */}
-          <div className="mb-8 p-6 bg-muted rounded-lg">
-            <label className="block text-sm font-medium mb-2">
-              Your Answer:
-            </label>
-            <input
-              type="text"
-              className="w-full px-4 py-2 border border-input rounded-md bg-background"
-              placeholder="Enter your answer here..."
-            />
-          </div>
-
-          {/* Action Buttons */}
-          <div className="flex gap-4">
-            <Button 
-              onClick={handleCheck}
-              className="flex-1"
-              disabled={checked}
-            >
-              <Check className="mr-2 h-4 w-4" />
-              {checked ? "Checked" : "Check Answer"}
-            </Button>
-          </div>
+          {/* Multiple Choice Answer Area */}
+          <MultipleChoiceQuestion 
+            choices={choices}
+            selectedAnswer={selectedAnswer}
+            onAnswerChange={setSelectedAnswer}
+          />
         </Card>
 
-        {/* Navigation */}
-        <div className="max-w-4xl mx-auto mt-8 flex justify-between">
+        {/* Bottom Navigation */}
+        <div className="max-w-4xl mx-auto mt-8 flex justify-between items-center">
+          {/* Left: Previous Button */}
           <Button
             variant="outline"
             onClick={handlePrevious}
@@ -133,18 +150,30 @@ const Question = () => {
             <ChevronLeft className="mr-2 h-4 w-4" />
             Previous
           </Button>
-          <Button
-            onClick={handleNext}
-            disabled={questionNumber === 100}
-          >
-            Next
-            <ChevronRight className="ml-2 h-4 w-4" />
-          </Button>
+
+          {/* Center: Navigation Sheet */}
+          <NavigationSheet currentQuestion={questionNumber} />
+
+          {/* Right: Explanation, Check, Next */}
+          <div className="flex gap-2">
+            <ExplanationDialog />
+            <Button 
+              onClick={handleCheck}
+              disabled={checked}
+            >
+              <Check className="mr-2 h-4 w-4" />
+              Check
+            </Button>
+            <Button
+              onClick={handleNext}
+              disabled={questionNumber === 100}
+            >
+              Next
+              <ChevronRight className="ml-2 h-4 w-4" />
+            </Button>
+          </div>
         </div>
       </main>
-
-      {/* Question Navigation Bar */}
-      <QuestionNav currentQuestion={questionNumber} />
     </div>
   );
 };
