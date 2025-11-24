@@ -28,6 +28,7 @@ const Question = () => {
   const [markedForReview, setMarkedForReview] = useState(false);
   const [strikeoutMode, setStrikeoutMode] = useState(false);
   const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
+  const [isSplitScreenActive, setIsSplitScreenActive] = useState(false);
 
   const currentQuestion = questions.find(q => q.id === questionNumber);
   
@@ -96,7 +97,10 @@ const Question = () => {
     <div className="min-h-screen bg-background flex flex-col relative">
       {/* Header */}
       <header className="border-b border-border bg-card sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-4">
+        <div 
+          className="container mx-auto px-4 py-4"
+          style={isSplitScreenActive ? { maxWidth: "50%", marginLeft: 0 } : undefined}
+        >
           <div className="flex items-center justify-between">
             <Button
               variant="ghost"
@@ -107,16 +111,19 @@ const Question = () => {
               Home
             </Button>
             <div className="flex gap-2">
-              <FormulaSheetDialog />
-              <DesmosDialog />
+              <FormulaSheetDialog onSplitScreenChange={setIsSplitScreenActive} />
+              <DesmosDialog onSplitScreenChange={setIsSplitScreenActive} />
             </div>
           </div>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 container mx-auto px-4 py-8">
-        <Card className="max-w-4xl mx-auto p-8 relative">
+      <main 
+        className="flex-1 px-4 py-8"
+        style={isSplitScreenActive ? { maxWidth: "50%", marginLeft: 0 } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
+      >
+        <Card className="p-8 relative" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem" }}>
           {/* Question Number Badge */}
           <div className="absolute -top-4 -left-4 bg-foreground text-background rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl shadow-lg">
             {questionNumber}
@@ -177,7 +184,7 @@ const Question = () => {
         </Card>
 
         {/* Bottom Navigation */}
-        <div className="max-w-4xl mx-auto mt-8 flex justify-between items-center">
+        <div className="mt-8 flex justify-between items-center" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem" }}>
           {/* Left: Previous Button */}
           <Button
             variant="outline"
