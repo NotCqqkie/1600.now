@@ -119,18 +119,21 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 
-  /* MathJax content styling */
+  /* MathJax content styling - responsive sizing */
   mjx-container {
     display: inline-block !important;
     max-width: 100% !important;
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
+    overflow: visible !important;
   }
 
-  /* Ensure MathJax SVGs scale properly */
+  /* Ensure MathJax SVGs scale properly and wrap */
   mjx-container svg {
     max-width: 100% !important;
     height: auto !important;
+  }
+
+  mjx-container mjx-math {
+    font-size: clamp(0.8rem, 2vw, 1rem) !important;
   }
 
   /* Prevent text overflow in all contexts */
