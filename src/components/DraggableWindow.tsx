@@ -11,6 +11,7 @@ interface DraggableWindowProps {
   defaultWidth?: number;
   defaultHeight?: number;
   onSplitScreenChange?: (isSplit: boolean) => void;
+  splitPosition?: number;
 }
 
 export const DraggableWindow = ({
@@ -21,6 +22,7 @@ export const DraggableWindow = ({
   defaultWidth = 800,
   defaultHeight = 600,
   onSplitScreenChange,
+  splitPosition = 50,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
@@ -140,6 +142,16 @@ export const DraggableWindow = ({
       document.removeEventListener("mouseup", handleMouseUp);
     };
   }, [isDragging, isResizing, dragOffset, position, size, resizeStart]);
+
+  // Update window position when split position changes
+  useEffect(() => {
+    if (isSplitScreen && isOpen) {
+      const splitPixels = (window.innerWidth * splitPosition) / 100;
+      const windowWidth = window.innerWidth - splitPixels;
+      setPosition({ x: splitPixels, y: 0 });
+      setSize({ width: windowWidth, height: window.innerHeight });
+    }
+  }, [splitPosition, isSplitScreen, isOpen]);
 
   const toggleSplitScreen = () => {
     const newSplitState = !isSplitScreen;

@@ -32,6 +32,13 @@ const Question = () => {
   const [splitPosition, setSplitPosition] = useState(50);
   const [isResizingSplit, setIsResizingSplit] = useState(false);
 
+  // Reset split position when split screen is deactivated
+  useEffect(() => {
+    if (!isSplitScreenActive) {
+      setSplitPosition(50);
+    }
+  }, [isSplitScreenActive]);
+
   const currentQuestion = questions.find(q => q.id === questionNumber);
   
   if (!currentQuestion) {
@@ -60,7 +67,8 @@ const Question = () => {
     const handleMouseMove = (e: MouseEvent) => {
       if (isResizingSplit) {
         const newPosition = (e.clientX / window.innerWidth) * 100;
-        setSplitPosition(Math.max(20, Math.min(80, newPosition)));
+        // Limit between 35% and 65% to prevent content compression
+        setSplitPosition(Math.max(35, Math.min(65, newPosition)));
       }
     };
 
@@ -147,8 +155,14 @@ const Question = () => {
               Home
             </Button>
             <div className="flex gap-2">
-              <FormulaSheetDialog onSplitScreenChange={setIsSplitScreenActive} />
-              <DesmosDialog onSplitScreenChange={setIsSplitScreenActive} />
+              <FormulaSheetDialog 
+                onSplitScreenChange={setIsSplitScreenActive}
+                splitPosition={splitPosition}
+              />
+              <DesmosDialog 
+                onSplitScreenChange={setIsSplitScreenActive}
+                splitPosition={splitPosition}
+              />
             </div>
           </div>
         </div>
@@ -159,9 +173,9 @@ const Question = () => {
         className="flex-1 px-4 py-8"
         style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
-        <Card className="p-8 relative" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem" }}>
+        <Card className="p-4 sm:p-6 md:p-8 relative" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem" }}>
           {/* Question Number Badge */}
-          <div className="absolute -top-4 -left-4 bg-foreground text-background rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl shadow-lg">
+          <div className="absolute -top-4 -left-4 bg-foreground text-background rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">
             {questionNumber}
           </div>
 
@@ -187,10 +201,10 @@ const Question = () => {
           </div>
 
           {/* Question Content */}
-          <div className="mb-8">
-            <div className="prose prose-lg max-w-none">
+          <div className="mb-6 sm:mb-8">
+            <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none overflow-x-auto">
               <div id="question-content">
-                <p className="text-lg text-foreground mb-6">
+                <p className="text-base sm:text-lg text-foreground mb-4 sm:mb-6 break-words">
                   {"$$" + currentQuestion.text + "$$"}
                 </p>
               </div>

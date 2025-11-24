@@ -6,9 +6,10 @@ import { DraggableWindow } from "./DraggableWindow";
 
 interface FormulaSheetDialogProps {
   onSplitScreenChange?: (isSplit: boolean) => void;
+  splitPosition?: number;
 }
 
-export const FormulaSheetDialog = ({ onSplitScreenChange }: FormulaSheetDialogProps) => {
+export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition }: FormulaSheetDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -25,6 +26,7 @@ export const FormulaSheetDialog = ({ onSplitScreenChange }: FormulaSheetDialogPr
         defaultWidth={800}
         defaultHeight={700}
         onSplitScreenChange={onSplitScreenChange}
+        splitPosition={splitPosition}
       >
         <div className="w-full h-full overflow-auto p-4">
           <img
