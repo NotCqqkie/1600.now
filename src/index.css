@@ -119,21 +119,57 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 
-  /* MathJax content styling - responsive sizing */
-  mjx-container {
-    display: inline-block !important;
+  /* Enhanced MathJax content styling for responsive LaTeX with wrapping */
+  .MathJax {
+    font-size: inherit !important;
     max-width: 100% !important;
-    overflow: visible !important;
+    display: inline-block !important;
   }
 
-  /* Ensure MathJax SVGs scale properly and wrap */
+  mjx-container {
+    max-width: 100% !important;
+    display: inline-block !important;
+    overflow-wrap: break-word !important;
+  }
+
+  mjx-container[display="true"] {
+    display: block !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+
+  mjx-math {
+    font-size: inherit !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+  }
+
+  mjx-mstyle {
+    white-space: normal !important;
+  }
+
+  /* Ensure proper scaling in different contexts */
+  #question-content .MathJax,
+  #question-content mjx-container {
+    font-size: clamp(0.875rem, 2vw, 1.125rem) !important;
+  }
+
+  /* Answer choices */
+  .choice-content .MathJax,
+  .choice-content mjx-container {
+    font-size: clamp(0.8rem, 1.5vw, 1rem) !important;
+  }
+
+  /* Allow line breaks in display math */
+  mjx-container[display="true"] mjx-math {
+    max-width: 100% !important;
+  }
+
+  /* Ensure MathJax SVGs scale properly */
   mjx-container svg {
     max-width: 100% !important;
     height: auto !important;
-  }
-
-  mjx-container mjx-math {
-    font-size: clamp(0.8rem, 2vw, 1rem) !important;
   }
 
   /* Prevent text overflow in all contexts */
