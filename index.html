@@ -19,10 +19,28 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        showMathMenu: false
-      });
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$','$']],
+          displayMath: [['$$','$$']],
+          tags: 'ams',
+          displayOverflow: 'linebreak'
+        },
+        loader: {
+          load: ['[tex]/ams']
+        },
+        options: {
+          menuOptions: {
+            settings: {
+              assistiveMml: false
+            }
+          },
+          renderActions: {
+            addMenu: []
+          }
+        }
+      };
     </script>
   </body>
 </html>
