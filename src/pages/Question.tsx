@@ -26,28 +26,8 @@ function Question() {
   const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
   const [isSplitScreenActive, setIsSplitScreenActive] = useState(false);
   const [splitPosition, setSplitPosition] = useState(50);
+  const [isResizingSplit, setIsResizingSplit] = useState(false);
   const [attemptCount, setAttemptCount] = useState(0);
-  const [minSplitPosition, setMinSplitPosition] = useState(40);
-
-  // Calculate dynamic minimum split position based on right button width
-  useEffect(() => {
-    const calculateMinPosition = () => {
-      const rightButtons = document.querySelector('.right-nav-buttons');
-      if (rightButtons) {
-        const buttonWidth = rightButtons.getBoundingClientRect().width;
-        const screenWidth = window.innerWidth;
-        // Calculate where the buttons start (100% - button percentage)
-        const buttonPercentage = (buttonWidth / screenWidth) * 100;
-        // Add 2% buffer to prevent overlap
-        const calculatedMin = Math.max(30, 100 - buttonPercentage - 2);
-        setMinSplitPosition(calculatedMin);
-      }
-    };
-
-    calculateMinPosition();
-    window.addEventListener('resize', calculateMinPosition);
-    return () => window.removeEventListener('resize', calculateMinPosition);
-  }, []);
 
   // Reset split position when split screen is deactivated
   useEffect(() => {
@@ -86,23 +66,31 @@ function Question() {
     setAttemptCount(0);
   }, [questionNumber, currentQuestion]);
 
-  const handleSplitDividerMouseDown = (e: React.MouseEvent) => {
-    e.preventDefault();
-    
-    const handleMouseMove = (moveEvent: MouseEvent) => {
-      const newPosition = (moveEvent.clientX / window.innerWidth) * 100;
-      // Dynamic limit based on button width to prevent overlap
-      setSplitPosition(Math.max(minSplitPosition, Math.min(70, newPosition)));
+  useEffect(() => {
+    if (!isSplitScreenActive) return;
+
+    const handleMouseMove = (e: MouseEvent) => {
+      if (isResizingSplit) {
+        const newPosition = (e.clientX / window.innerWidth) * 100;
+        // Limit between 40% and 70% to prevent button overlap and compression
+        setSplitPosition(Math.max(40, Math.min(70, newPosition)));
+      }
     };
 
     const handleMouseUp = () => {
+      setIsResizingSplit(false);
+    };
+
+    if (isResizingSplit) {
+      document.addEventListener('mousemove', handleMouseMove);
+      document.addEventListener('mouseup', handleMouseUp);
+    }
+
+    return () => {
       document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseup', handleMouseUp);
     };
-
-    document.addEventListener('mousemove', handleMouseMove);
-    document.addEventListener('mouseup', handleMouseUp);
-  };
+  }, [isResizingSplit, isSplitScreenActive]);
 
   const handlePrevious = () => {
     if (questionNumber > 1) {
@@ -160,9 +148,9 @@ function Question() {
       {/* Split Screen Divider */}
       {isSplitScreenActive && (
         <div 
-          className="fixed top-0 bottom-0 w-2 bg-border hover:bg-primary/50 cursor-col-resize z-50 transition-colors"
+          className="fixed top-0 bottom-0 w-1 bg-border hover:bg-primary/50 cursor-col-resize z-50 transition-colors"
           style={{ left: `${splitPosition}%` }}
-          onMouseDown={handleSplitDividerMouseDown}
+          onMouseDown={() => setIsResizingSplit(true)}
         />
       )}
 
@@ -271,7 +259,7 @@ function Question() {
         className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-20"
         style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
       >
-      <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center gap-4">
             {/* Left: Previous Button */}
             <Button
@@ -288,7 +276,7 @@ function Question() {
             <NavigationSheet currentQuestion={questionNumber} />
 
             {/* Right: Explanation, Check, Next */}
-            <div className="flex gap-2 shrink-0 right-nav-buttons">
+            <div className="flex gap-2 shrink-0">
               <ExplanationDialog />
               <Button 
                 onClick={handleCheck}
