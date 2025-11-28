@@ -16,13 +16,13 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition }: Formu
     <>
       <Button variant="outline" size="sm" onClick={() => setIsOpen(!isOpen)}>
         <FileText className="mr-2 h-4 w-4" />
-        Formula Sheet
+        Reference Sheet
       </Button>
 
       <DraggableWindow
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
-        title="SAT Math Reference Sheet"
+        title="Reference Sheet"
         defaultWidth={800}
         defaultHeight={700}
         onSplitScreenChange={onSplitScreenChange}
