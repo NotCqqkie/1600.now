@@ -15,13 +15,13 @@ export const DesmosDialog = ({ onSplitScreenChange, splitPosition }: DesmosDialo
     <>
       <Button variant="outline" size="sm" onClick={() => setIsOpen(!isOpen)}>
         <Calculator className="mr-2 h-4 w-4" />
-        Desmos Calculator
+        Desmos
       </Button>
 
       <DraggableWindow
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
-        title="Desmos Graphing Calculator"
+        title="Desmos"
         defaultWidth={900}
         defaultHeight={650}
         onSplitScreenChange={onSplitScreenChange}

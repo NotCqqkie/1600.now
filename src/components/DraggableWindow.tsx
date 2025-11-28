@@ -264,15 +264,17 @@ export const DraggableWindow = ({
               <Columns2 className="h-4 w-4" />
             </Button>
           )}
-          <Button
-            variant="ghost"
-            size="icon"
-            className={cn("h-8 w-8", isMinimized && "bg-primary/20")}
-            onClick={() => setIsMinimized(!isMinimized)}
-            title={isMinimized ? "Maximize" : "Minimize"}
-          >
-            {isMinimized ? <Maximize2 className="h-4 w-4" /> : <Minimize2 className="h-4 w-4" />}
-          </Button>
+          {!isSplitScreen && (
+            <Button
+              variant="ghost"
+              size="icon"
+              className={cn("h-8 w-8", isMinimized && "bg-primary/20")}
+              onClick={() => setIsMinimized(!isMinimized)}
+              title={isMinimized ? "Maximize" : "Minimize"}
+            >
+              {isMinimized ? <Maximize2 className="h-4 w-4" /> : <Minimize2 className="h-4 w-4" />}
+            </Button>
+          )}
           <Button
             variant="ghost"
             size="icon"
