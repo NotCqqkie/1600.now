@@ -62,7 +62,10 @@ export const MultipleChoiceQuestion = ({
               )}
             >
               <span className="font-semibold mr-2">{choice.id})</span>
-              <span className="break-words">{"$$" + choice.text + "$$"}</span>
+              <span 
+                className="break-words"
+                dangerouslySetInnerHTML={{ __html: `$$${choice.text}$$` }}
+              />
             </Label>
           </div>
         ))}
