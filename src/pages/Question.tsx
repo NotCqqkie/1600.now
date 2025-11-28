@@ -30,15 +30,17 @@ function Question() {
   const [attemptCount, setAttemptCount] = useState(0);
   const [minSplitPosition, setMinSplitPosition] = useState(40);
 
-  // Calculate dynamic minimum split position based on button width
+  // Calculate dynamic minimum split position based on right button width
   useEffect(() => {
     const calculateMinPosition = () => {
-      const buttonContainer = document.querySelector('.bottom-nav-buttons');
-      if (buttonContainer) {
-        const buttonWidth = buttonContainer.getBoundingClientRect().width;
+      const rightButtons = document.querySelector('.right-nav-buttons');
+      if (rightButtons) {
+        const buttonWidth = rightButtons.getBoundingClientRect().width;
         const screenWidth = window.innerWidth;
-        // Add 5% buffer to prevent overlap
-        const calculatedMin = Math.min(70, Math.max(35, (buttonWidth / screenWidth) * 100 + 5));
+        // Calculate where the buttons start (100% - button percentage)
+        const buttonPercentage = (buttonWidth / screenWidth) * 100;
+        // Add 2% buffer to prevent overlap
+        const calculatedMin = Math.max(30, 100 - buttonPercentage - 2);
         setMinSplitPosition(calculatedMin);
       }
     };
@@ -109,7 +111,7 @@ function Question() {
       document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseup', handleMouseUp);
     };
-  }, [isResizingSplit, isSplitScreenActive]);
+  }, [isResizingSplit, isSplitScreenActive, minSplitPosition]);
 
   const handlePrevious = () => {
     if (questionNumber > 1) {
@@ -279,7 +281,7 @@ function Question() {
         style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
       >
       <div className="container mx-auto px-4 py-4">
-          <div className="flex justify-between items-center gap-4 bottom-nav-buttons">
+          <div className="flex justify-between items-center gap-4">
             {/* Left: Previous Button */}
             <Button
               variant="outline"
@@ -295,7 +297,7 @@ function Question() {
             <NavigationSheet currentQuestion={questionNumber} />
 
             {/* Right: Explanation, Check, Next */}
-            <div className="flex gap-2 shrink-0">
+            <div className="flex gap-2 shrink-0 right-nav-buttons">
               <ExplanationDialog />
               <Button 
                 onClick={handleCheck}
