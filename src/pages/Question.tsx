@@ -47,8 +47,21 @@ function Question() {
   }
 
   useEffect(() => {
-    // Load MathJax
+    // Configure and load MathJax
     if (!window.MathJax) {
+      // Configure MathJax BEFORE loading the script
+      window.MathJax = {
+        tex: {
+          inlineMath: [['\\(', '\\)'], ['$', '$']],
+          displayMath: [['\\[', '\\]'], ['$$', '$$']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      };
+      
       const script = document.createElement("script");
       script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
       script.async = true;
@@ -59,7 +72,7 @@ function Question() {
     } else {
       // Typeset after a brief delay to ensure DOM is updated
       setTimeout(() => {
-        window.MathJax.typesetPromise?.([ document.getElementById('question-content')]);
+        window.MathJax.typesetPromise?.();
       }, 100);
     }
     setChecked(false);
