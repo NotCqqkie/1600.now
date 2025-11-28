@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
+import katex from "katex";
+import "katex/dist/katex.min.css";
 
 interface Choice {
   id: string;
@@ -22,6 +24,27 @@ export const MultipleChoiceQuestion = ({
   strikeoutMode = false
 }: MultipleChoiceQuestionProps) => {
   const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
+  const choiceRefs = useRef<{ [key: string]: HTMLSpanElement | null }>({});
+
+  useEffect(() => {
+    // Render KaTeX for each choice
+    choices.forEach((choice) => {
+      const element = choiceRefs.current[choice.id];
+      if (element) {
+        try {
+          const renderedHtml = katex.renderToString(choice.text, {
+            displayMode: false,
+            throwOnError: false,
+            trust: true
+          });
+          element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${renderedHtml}</span>`;
+        } catch (error) {
+          console.error('KaTeX rendering error:', error);
+          element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${choice.text}</span>`;
+        }
+      }
+    });
+  }, [choices]);
 
   const toggleStrikeout = (choiceId: string) => {
     setStruckOut(prev => {
@@ -63,8 +86,8 @@ export const MultipleChoiceQuestion = ({
             >
               <span className="font-semibold mr-2">{choice.id})</span>
               <span 
+                ref={(el) => choiceRefs.current[choice.id] = el}
                 className="break-words"
-                dangerouslySetInnerHTML={{ __html: `<span style="font-size:clamp(12px, 2.2vw, 22px)">\\( ${choice.text} \\)</span>` }}
               />
             </Label>
           </div>
