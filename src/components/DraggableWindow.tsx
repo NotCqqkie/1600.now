@@ -26,11 +26,7 @@ export const DraggableWindow = ({
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
-  const [isDragging, setIsDragging] = useState(false);
-  const [isResizing, setIsResizing] = useState<string | null>(null);
   const [isSplitScreen, setIsSplitScreen] = useState(false);
-  const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
-  const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
   const windowRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -45,38 +41,17 @@ export const DraggableWindow = ({
         onSplitScreenChange(false);
       }
     }
-  }, [isOpen, defaultWidth, defaultHeight]);
+  }, [isOpen, defaultWidth, defaultHeight, onSplitScreenChange]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     if (!isSplitScreen && (e.target as HTMLElement).closest(".window-header")) {
-      setIsDragging(true);
-      setDragOffset({
-        x: e.clientX - position.x,
-        y: e.clientY - position.y,
-      });
-    }
-  };
-
-  const handleResizeStart = (e: React.MouseEvent, edge: string) => {
-    if (isSplitScreen) return; // Don't allow resizing in split screen mode
-    e.preventDefault();
-    e.stopPropagation();
-    setIsResizing(edge);
-    setResizeStart({
-      x: e.clientX,
-      y: e.clientY,
-      width: size.width,
-      height: size.height,
-      posX: position.x,
-      posY: position.y,
-    });
-  };
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (isDragging) {
-        const newX = e.clientX - dragOffset.x;
-        const newY = e.clientY - dragOffset.y;
+      e.preventDefault();
+      const offsetX = e.clientX - position.x;
+      const offsetY = e.clientY - position.y;
+      
+      const handleMouseMove = (moveEvent: MouseEvent) => {
+        const newX = moveEvent.clientX - offsetX;
+        const newY = moveEvent.clientY - offsetY;
         
         // Keep window within viewport bounds
         const maxX = window.innerWidth - size.width;
@@ -86,62 +61,76 @@ export const DraggableWindow = ({
           x: Math.max(0, Math.min(newX, maxX)),
           y: Math.max(0, Math.min(newY, maxY)),
         });
+      };
+      
+      const handleMouseUp = () => {
+        document.removeEventListener('mousemove', handleMouseMove);
+        document.removeEventListener('mouseup', handleMouseUp);
+      };
+      
+      document.addEventListener('mousemove', handleMouseMove);
+      document.addEventListener('mouseup', handleMouseUp);
+    }
+  };
+
+  const handleResizeStart = (e: React.MouseEvent, edge: string) => {
+    if (isSplitScreen) return; // Don't allow resizing in split screen mode
+    e.preventDefault();
+    e.stopPropagation();
+    
+    const startX = e.clientX;
+    const startY = e.clientY;
+    const startWidth = size.width;
+    const startHeight = size.height;
+    const startPosX = position.x;
+    const startPosY = position.y;
+
+    const handleMouseMove = (moveEvent: MouseEvent) => {
+      const deltaX = moveEvent.clientX - startX;
+      const deltaY = moveEvent.clientY - startY;
+      
+      let newWidth = startWidth;
+      let newHeight = startHeight;
+      let newX = startPosX;
+      let newY = startPosY;
+
+      // Minimum sizes
+      const minWidth = 400;
+      const minHeight = 300;
+
+      if (edge.includes('right')) {
+        newWidth = Math.max(minWidth, Math.min(startWidth + deltaX, window.innerWidth - startPosX));
+      }
+      if (edge.includes('left')) {
+        const proposedWidth = startWidth - deltaX;
+        if (proposedWidth >= minWidth) {
+          newWidth = proposedWidth;
+          newX = startPosX + deltaX;
+        }
+      }
+      if (edge.includes('bottom')) {
+        newHeight = Math.max(minHeight, Math.min(startHeight + deltaY, window.innerHeight - startPosY));
+      }
+      if (edge.includes('top')) {
+        const proposedHeight = startHeight - deltaY;
+        if (proposedHeight >= minHeight) {
+          newHeight = proposedHeight;
+          newY = startPosY + deltaY;
+        }
       }
 
-      if (isResizing) {
-        const deltaX = e.clientX - resizeStart.x;
-        const deltaY = e.clientY - resizeStart.y;
-        
-        let newWidth = size.width;
-        let newHeight = size.height;
-        let newX = position.x;
-        let newY = position.y;
-
-        // Minimum sizes
-        const minWidth = 400;
-        const minHeight = 300;
-
-        if (isResizing.includes('right')) {
-          newWidth = Math.max(minWidth, Math.min(resizeStart.width + deltaX, window.innerWidth - position.x));
-        }
-        if (isResizing.includes('left')) {
-          const proposedWidth = resizeStart.width - deltaX;
-          if (proposedWidth >= minWidth) {
-            newWidth = proposedWidth;
-            newX = resizeStart.posX + deltaX;
-          }
-        }
-        if (isResizing.includes('bottom')) {
-          newHeight = Math.max(minHeight, Math.min(resizeStart.height + deltaY, window.innerHeight - position.y));
-        }
-        if (isResizing.includes('top')) {
-          const proposedHeight = resizeStart.height - deltaY;
-          if (proposedHeight >= minHeight) {
-            newHeight = proposedHeight;
-            newY = resizeStart.posY + deltaY;
-          }
-        }
-
-        setSize({ width: newWidth, height: newHeight });
-        setPosition({ x: newX, y: newY });
-      }
+      setSize({ width: newWidth, height: newHeight });
+      setPosition({ x: newX, y: newY });
     };
 
     const handleMouseUp = () => {
-      setIsDragging(false);
-      setIsResizing(null);
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
     };
 
-    if (isDragging || isResizing) {
-      document.addEventListener("mousemove", handleMouseMove);
-      document.addEventListener("mouseup", handleMouseUp);
-    }
-
-    return () => {
-      document.removeEventListener("mousemove", handleMouseMove);
-      document.removeEventListener("mouseup", handleMouseUp);
-    };
-  }, [isDragging, isResizing, dragOffset, position, size, resizeStart]);
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
+  };
 
   // Update window position when split position changes
   useEffect(() => {
@@ -178,14 +167,13 @@ export const DraggableWindow = ({
 
   if (!isOpen) return null;
 
-  const resizeHandleClass = "absolute bg-transparent hover:bg-primary/20 transition-colors z-10";
+  const resizeHandleClass = "absolute bg-transparent hover:bg-primary/20 transition-colors";
 
   return (
     <div
       ref={windowRef}
       className={cn(
         "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden z-50",
-        isDragging ? "cursor-grabbing" : "",
         isSplitScreen ? "pointer-events-auto" : ""
       )}
       style={{
@@ -196,53 +184,55 @@ export const DraggableWindow = ({
       }}
       onMouseDown={handleMouseDown}
     >
-      {/* Resize Handles */}
-      <>
+      {/* Resize Handles - Only show when NOT in split screen mode */}
+      {!isSplitScreen && (
+        <>
           {/* Top */}
           <div
-            className={cn(resizeHandleClass, "top-0 left-0 right-0 h-1 cursor-n-resize")}
+            className={cn(resizeHandleClass, "top-0 left-0 right-0 h-2 cursor-n-resize z-20")}
             onMouseDown={(e) => handleResizeStart(e, "top")}
           />
           {/* Bottom */}
           <div
-            className={cn(resizeHandleClass, "bottom-0 left-0 right-0 h-1 cursor-s-resize")}
+            className={cn(resizeHandleClass, "bottom-0 left-0 right-0 h-2 cursor-s-resize z-20")}
             onMouseDown={(e) => handleResizeStart(e, "bottom")}
           />
           {/* Left */}
           <div
-            className={cn(resizeHandleClass, "left-0 top-0 bottom-0 w-1 cursor-w-resize")}
+            className={cn(resizeHandleClass, "left-0 top-0 bottom-0 w-2 cursor-w-resize z-20")}
             onMouseDown={(e) => handleResizeStart(e, "left")}
           />
           {/* Right */}
           <div
-            className={cn(resizeHandleClass, "right-0 top-0 bottom-0 w-1 cursor-e-resize")}
+            className={cn(resizeHandleClass, "right-0 top-0 bottom-0 w-2 cursor-e-resize z-20")}
             onMouseDown={(e) => handleResizeStart(e, "right")}
           />
           {/* Top-Left Corner */}
           <div
-            className={cn(resizeHandleClass, "top-0 left-0 w-3 h-3 cursor-nw-resize")}
+            className={cn(resizeHandleClass, "top-0 left-0 w-4 h-4 cursor-nw-resize z-20")}
             onMouseDown={(e) => handleResizeStart(e, "top-left")}
           />
           {/* Top-Right Corner */}
           <div
-            className={cn(resizeHandleClass, "top-0 right-0 w-3 h-3 cursor-ne-resize")}
+            className={cn(resizeHandleClass, "top-0 right-0 w-4 h-4 cursor-ne-resize z-20")}
             onMouseDown={(e) => handleResizeStart(e, "top-right")}
           />
           {/* Bottom-Left Corner */}
           <div
-            className={cn(resizeHandleClass, "bottom-0 left-0 w-3 h-3 cursor-sw-resize")}
+            className={cn(resizeHandleClass, "bottom-0 left-0 w-4 h-4 cursor-sw-resize z-20")}
             onMouseDown={(e) => handleResizeStart(e, "bottom-left")}
           />
           {/* Bottom-Right Corner */}
           <div
-            className={cn(resizeHandleClass, "bottom-0 right-0 w-3 h-3 cursor-se-resize")}
+            className={cn(resizeHandleClass, "bottom-0 right-0 w-4 h-4 cursor-se-resize z-20")}
             onMouseDown={(e) => handleResizeStart(e, "bottom-right")}
           />
-      </>
+        </>
+      )}
 
       {/* Window Header */}
       <div className={cn(
-        "window-header flex items-center justify-between px-4 py-3 bg-muted border-b border-border",
+        "window-header flex items-center justify-between px-4 py-3 bg-muted border-b border-border relative z-30",
         isSplitScreen ? "cursor-default" : "cursor-grab active:cursor-grabbing"
       )}>
         <h3 className="font-semibold text-foreground">{title}</h3>
