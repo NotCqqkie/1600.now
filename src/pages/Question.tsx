@@ -229,8 +229,8 @@ function Question() {
             <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none overflow-x-auto">
               <div id="question-content">
                 <p 
-                  className="text-base sm:text-lg text-foreground mb-4 sm:mb-6 break-words"
-                  dangerouslySetInnerHTML={{ __html: `$${currentQuestion.text}$` }}
+                  className="text-foreground mb-4 sm:mb-6 break-words"
+                  dangerouslySetInnerHTML={{ __html: `<span style="font-size:clamp(12px, 2.2vw, 22px)">\\( ${currentQuestion.text} \\)</span>` }}
                 />
               </div>
             </div>
