@@ -72,8 +72,8 @@ function Question() {
     const handleMouseMove = (e: MouseEvent) => {
       if (isResizingSplit) {
         const newPosition = (e.clientX / window.innerWidth) * 100;
-        // Limit between 40% and 70% to prevent button overlap and compression
-        setSplitPosition(Math.max(40, Math.min(70, newPosition)));
+        // Limit between 50% and 70% to prevent button overlap
+        setSplitPosition(Math.max(50, Math.min(70, newPosition)));
       }
     };
 
