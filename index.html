@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1600.now - SAT Math Question Bank</title>
-    <meta name="description" content="Master the SAT Math section with 100 practice questions, Desmos calculator, formula sheets, and video explanations." />
+
+    <meta
+      name="description"
+      content="Master the SAT Math section with 100 practice questions, Desmos calculator, formula sheets, and video explanations."
+    />
     <meta name="author" content="1600.now" />
-    <meta name="keywords" content="SAT, SAT Math, test prep, practice questions, math practice, college entrance exam" />
+    <meta
+      name="keywords"
+      content="SAT, SAT Math, test prep, practice questions, math practice, college entrance exam"
+    />
 
     <meta property="og:title" content="1600.now - SAT Math Question Bank" />
-    <meta property="og:description" content="Master the SAT Math section with 100 practice questions, Desmos calculator, formula sheets, and video explanations." />
+    <meta
+      property="og:description"
+      content="Master the SAT Math section with 100 practice questions, Desmos calculator, formula sheets, and video explanations."
+    />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -18,12 +28,17 @@
 
   <body>
     <div id="root"></div>
+
+    <!-- React / Vite entry -->
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- MathJax CONFIG -->
     <script>
       window.MathJax = {
         tex: {
           inlineMath: [['$','$']],
           displayMath: [['$$','$$']],
+          processEscapes: true,
           tags: 'ams',
           displayOverflow: 'linebreak'
         },
@@ -32,15 +47,14 @@
         },
         options: {
           menuOptions: {
-            settings: {
-              assistiveMml: false
-            }
+            settings: { assistiveMml: false }
           },
-          renderActions: {
-            addMenu: []
-          }
+          renderActions: { addMenu: [] }
         }
       };
     </script>
+
+    <!-- MathJax SCRIPT (required!!) -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </body>
 </html>
