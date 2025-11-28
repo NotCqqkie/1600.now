@@ -64,7 +64,7 @@ export const MultipleChoiceQuestion = ({
               <span className="font-semibold mr-2">{choice.id})</span>
               <span 
                 className="break-words"
-                dangerouslySetInnerHTML={{ __html: `$$${choice.text}$$` }}
+                dangerouslySetInnerHTML={{ __html: `<span style="font-size:clamp(12px, 2.2vw, 22px)">\\( ${choice.text} \\)</span>` }}
               />
             </Label>
           </div>
