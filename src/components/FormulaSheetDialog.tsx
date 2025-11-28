@@ -23,8 +23,8 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition }: Formu
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         title="SAT Math Reference Sheet"
-        defaultWidth={800}
-        defaultHeight={700}
+        defaultWidth={900}
+        defaultHeight={1100}
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
       >
