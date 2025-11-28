@@ -28,6 +28,25 @@ function Question() {
   const [splitPosition, setSplitPosition] = useState(50);
   const [isResizingSplit, setIsResizingSplit] = useState(false);
   const [attemptCount, setAttemptCount] = useState(0);
+  const [minSplitPosition, setMinSplitPosition] = useState(40);
+
+  // Calculate dynamic minimum split position based on button width
+  useEffect(() => {
+    const calculateMinPosition = () => {
+      const buttonContainer = document.querySelector('.bottom-nav-buttons');
+      if (buttonContainer) {
+        const buttonWidth = buttonContainer.getBoundingClientRect().width;
+        const screenWidth = window.innerWidth;
+        // Add 5% buffer to prevent overlap
+        const calculatedMin = Math.min(70, Math.max(35, (buttonWidth / screenWidth) * 100 + 5));
+        setMinSplitPosition(calculatedMin);
+      }
+    };
+
+    calculateMinPosition();
+    window.addEventListener('resize', calculateMinPosition);
+    return () => window.removeEventListener('resize', calculateMinPosition);
+  }, []);
 
   // Reset split position when split screen is deactivated
   useEffect(() => {
@@ -72,8 +91,8 @@ function Question() {
     const handleMouseMove = (e: MouseEvent) => {
       if (isResizingSplit) {
         const newPosition = (e.clientX / window.innerWidth) * 100;
-        // Limit between 40% and 70% to prevent button overlap and compression
-        setSplitPosition(Math.max(40, Math.min(70, newPosition)));
+        // Dynamic limit based on button width to prevent overlap
+        setSplitPosition(Math.max(minSplitPosition, Math.min(70, newPosition)));
       }
     };
 
@@ -259,8 +278,8 @@ function Question() {
         className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-20"
         style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
       >
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex justify-between items-center gap-4">
+      <div className="container mx-auto px-4 py-4">
+          <div className="flex justify-between items-center gap-4 bottom-nav-buttons">
             {/* Left: Previous Button */}
             <Button
               variant="outline"
