@@ -195,13 +195,14 @@ export const DraggableWindow = ({
       style={{
         left: position.x,
         top: position.y,
-        width: size.width,
-        height: size.height,
+        width: isMinimized ? 'auto' : size.width,
+        height: isMinimized ? 'auto' : size.height,
       }}
       onMouseDown={handleMouseDown}
     >
-      {/* Resize Handles */}
-      <>
+      {/* Resize Handles - hidden when minimized */}
+      {!isMinimized && (
+        <>
           {/* Top */}
           <div
             className={cn(resizeHandleClass, "top-0 left-0 right-0 h-1 cursor-n-resize")}
@@ -242,7 +243,8 @@ export const DraggableWindow = ({
             className={cn(resizeHandleClass, "bottom-0 right-0 w-3 h-3 cursor-se-resize")}
             onMouseDown={(e) => handleResizeStart(e, "bottom-right")}
           />
-      </>
+        </>
+      )}
 
       {/* Window Header */}
       <div className={cn(
