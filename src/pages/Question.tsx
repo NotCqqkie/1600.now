@@ -59,8 +59,8 @@ function Question() {
     } else {
       // Typeset after a brief delay to ensure DOM is updated
       setTimeout(() => {
-        window.MathJax.typesetPromise?.();
-      }, 0);
+        window.MathJax.typesetPromise?.([ document.getElementById('question-content')]);
+      }, 100);
     }
     setChecked(false);
     setSelectedAnswer("");
@@ -228,9 +228,10 @@ function Question() {
           <div className="mb-6 sm:mb-8">
             <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none overflow-x-auto">
               <div id="question-content">
-                <p className="text-base sm:text-lg text-foreground mb-4 sm:mb-6 break-words">
-                  {currentQuestion.text}
-                </p>
+                <p 
+                  className="text-base sm:text-lg text-foreground mb-4 sm:mb-6 break-words"
+                  dangerouslySetInnerHTML={{ __html: `$${currentQuestion.text}$` }}
+                />
               </div>
             </div>
           </div>
