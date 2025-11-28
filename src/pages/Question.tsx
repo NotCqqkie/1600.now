@@ -102,16 +102,14 @@ function Question() {
       setIsResizingSplit(false);
     };
 
-    if (isResizingSplit) {
-      document.addEventListener('mousemove', handleMouseMove);
-      document.addEventListener('mouseup', handleMouseUp);
-    }
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
 
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseup', handleMouseUp);
     };
-  }, [isResizingSplit, isSplitScreenActive, minSplitPosition]);
+  }, [isSplitScreenActive, isResizingSplit, minSplitPosition]);
 
   const handlePrevious = () => {
     if (questionNumber > 1) {
