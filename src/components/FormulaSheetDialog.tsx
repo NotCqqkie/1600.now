@@ -27,6 +27,7 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition }: Formu
         defaultHeight={700}
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
+        enableSplitScreen={false}
       >
         <div className="w-full h-full overflow-auto p-4">
           <img
