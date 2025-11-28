@@ -134,12 +134,12 @@ export const DraggableWindow = ({
   };
 
   useEffect(() => {
-    if (isSplitScreen && isOpen) {
-      const splitPixels = (window.innerWidth * splitPosition) / 100;
-      const windowWidth = window.innerWidth - splitPixels;
-      setPosition({ x: splitPixels, y: 0 });
-      setSize({ width: windowWidth, height: window.innerHeight });
-    }
+    if (!isSplitScreen || !isOpen) return;
+    
+    const splitPixels = (window.innerWidth * splitPosition) / 100;
+    const windowWidth = window.innerWidth - splitPixels;
+    setPosition({ x: splitPixels, y: 0 });
+    setSize({ width: windowWidth, height: window.innerHeight });
   }, [splitPosition, isSplitScreen, isOpen]);
 
   const toggleSplitScreen = () => {
