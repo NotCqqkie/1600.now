@@ -31,30 +31,5 @@
 
     <!-- React / Vite entry -->
     <script type="module" src="/src/main.tsx"></script>
-
-    <!-- MathJax CONFIG -->
-    <script>
-      window.MathJax = {
-        tex: {
-          inlineMath: [['$','$']],
-          displayMath: [['$$','$$']],
-          processEscapes: true,
-          tags: 'ams',
-          displayOverflow: 'linebreak'
-        },
-        loader: {
-          load: ['[tex]/ams']
-        },
-        options: {
-          menuOptions: {
-            settings: { assistiveMml: false }
-          },
-          renderActions: { addMenu: [] }
-        }
-      };
-    </script>
-
-    <!-- MathJax SCRIPT (required!!) -->
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </body>
 </html>

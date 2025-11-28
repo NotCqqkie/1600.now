@@ -11,12 +11,8 @@ import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { ChevronLeft, ChevronRight, Check, Bookmark, Slash } from "lucide-react";
 import { toast } from "sonner";
 import { questions } from "@/data/questions";
-
-declare global {
-  interface Window {
-    MathJax: any;
-  }
-}
+import katex from "katex";
+import "katex/dist/katex.min.css";
 
 function Question() {
   const { id } = useParams<{ id: string }>();
@@ -47,40 +43,28 @@ function Question() {
   }
 
   useEffect(() => {
-    // Configure and load MathJax
-    if (!window.MathJax) {
-      // Configure MathJax BEFORE loading the script
-      window.MathJax = {
-        tex: {
-          inlineMath: [['\\(', '\\)'], ['$', '$']],
-          displayMath: [['\\[', '\\]'], ['$$', '$$']],
-          processEscapes: true,
-          processEnvironments: true
-        },
-        options: {
-          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      };
-      
-      const script = document.createElement("script");
-      script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
-      script.async = true;
-      script.onload = () => {
-        window.MathJax.typesetPromise?.();
-      };
-      document.head.appendChild(script);
-    } else {
-      // Typeset after a brief delay to ensure DOM is updated
-      setTimeout(() => {
-        window.MathJax.typesetPromise?.();
-      }, 100);
+    // Render KaTeX for the question text
+    const questionElement = document.getElementById('question-content');
+    if (questionElement && currentQuestion) {
+      try {
+        const renderedHtml = katex.renderToString(currentQuestion.text, {
+          displayMode: false,
+          throwOnError: false,
+          trust: true
+        });
+        questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${renderedHtml}</span>`;
+      } catch (error) {
+        console.error('KaTeX rendering error:', error);
+        questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${currentQuestion.text}</span>`;
+      }
     }
+    
     setChecked(false);
     setSelectedAnswer("");
     setFreeResponseAnswer("");
     setCheckButtonVariant("default");
     setAttemptCount(0);
-  }, [questionNumber]);
+  }, [questionNumber, currentQuestion]);
 
   useEffect(() => {
     if (!isSplitScreenActive) return;
@@ -240,12 +224,10 @@ function Question() {
           {/* Question Content */}
           <div className="mb-6 sm:mb-8">
             <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none overflow-x-auto">
-              <div id="question-content">
-                <p 
-                  className="text-foreground mb-4 sm:mb-6 break-words"
-                  dangerouslySetInnerHTML={{ __html: `<span style="font-size:clamp(12px, 2.2vw, 22px)">\\( ${currentQuestion.text} \\)</span>` }}
-                />
-              </div>
+              <div 
+                id="question-content"
+                className="text-foreground mb-4 sm:mb-6 break-words"
+              />
             </div>
           </div>
 
