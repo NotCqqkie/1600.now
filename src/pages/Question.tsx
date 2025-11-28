@@ -26,7 +26,6 @@ function Question() {
   const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
   const [isSplitScreenActive, setIsSplitScreenActive] = useState(false);
   const [splitPosition, setSplitPosition] = useState(50);
-  const [isResizingSplit, setIsResizingSplit] = useState(false);
   const [attemptCount, setAttemptCount] = useState(0);
   const [minSplitPosition, setMinSplitPosition] = useState(40);
 
@@ -87,29 +86,23 @@ function Question() {
     setAttemptCount(0);
   }, [questionNumber, currentQuestion]);
 
-  useEffect(() => {
-    if (!isSplitScreenActive) return;
-
-    const handleMouseMove = (e: MouseEvent) => {
-      if (isResizingSplit) {
-        const newPosition = (e.clientX / window.innerWidth) * 100;
-        // Dynamic limit based on button width to prevent overlap
-        setSplitPosition(Math.max(minSplitPosition, Math.min(70, newPosition)));
-      }
+  const handleSplitDividerMouseDown = (e: React.MouseEvent) => {
+    e.preventDefault();
+    
+    const handleMouseMove = (moveEvent: MouseEvent) => {
+      const newPosition = (moveEvent.clientX / window.innerWidth) * 100;
+      // Dynamic limit based on button width to prevent overlap
+      setSplitPosition(Math.max(minSplitPosition, Math.min(70, newPosition)));
     };
 
     const handleMouseUp = () => {
-      setIsResizingSplit(false);
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
     };
 
     document.addEventListener('mousemove', handleMouseMove);
     document.addEventListener('mouseup', handleMouseUp);
-
-    return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
-      document.removeEventListener('mouseup', handleMouseUp);
-    };
-  }, [isSplitScreenActive, isResizingSplit, minSplitPosition]);
+  };
 
   const handlePrevious = () => {
     if (questionNumber > 1) {
@@ -167,9 +160,9 @@ function Question() {
       {/* Split Screen Divider */}
       {isSplitScreenActive && (
         <div 
-          className="fixed top-0 bottom-0 w-1 bg-border hover:bg-primary/50 cursor-col-resize z-50 transition-colors"
+          className="fixed top-0 bottom-0 w-2 bg-border hover:bg-primary/50 cursor-col-resize z-50 transition-colors"
           style={{ left: `${splitPosition}%` }}
-          onMouseDown={() => setIsResizingSplit(true)}
+          onMouseDown={handleSplitDividerMouseDown}
         />
       )}
 
