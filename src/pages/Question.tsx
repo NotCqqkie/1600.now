@@ -185,7 +185,7 @@ function Question() {
         className="flex-1 px-4 py-8 pb-28"
         style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
-        <Card className="p-4 sm:p-6 md:p-8 relative" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem" }}>
+        <Card className="p-4 sm:p-6 md:p-8 relative" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem", margin: isSplitScreenActive ? "0" : "0 auto" }}>
           {/* Question Number Badge */}
           <div className="absolute -top-4 -left-4 bg-foreground text-background rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">
             {questionNumber}
@@ -223,7 +223,7 @@ function Question() {
             <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none overflow-x-auto">
               <div id="question-content">
                 <p className="text-base sm:text-lg text-foreground mb-4 sm:mb-6 break-words">
-                  {"$$" + currentQuestion.text + "$$"}
+                  {currentQuestion.text}
                 </p>
               </div>
             </div>
