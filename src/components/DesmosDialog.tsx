@@ -26,6 +26,7 @@ export const DesmosDialog = ({ onSplitScreenChange, splitPosition }: DesmosDialo
         defaultHeight={650}
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
+        enableSplitScreen={true}
       >
         <iframe
           src="https://www.desmos.com/testing/cb-sat-ap/graphing"

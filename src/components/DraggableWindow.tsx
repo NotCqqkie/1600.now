@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { X, Columns2 } from "lucide-react";
+import { X, Columns2, Minimize2, Maximize2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -12,6 +12,7 @@ interface DraggableWindowProps {
   defaultHeight?: number;
   onSplitScreenChange?: (isSplit: boolean) => void;
   splitPosition?: number;
+  enableSplitScreen?: boolean;
 }
 
 export const DraggableWindow = ({
@@ -23,12 +24,14 @@ export const DraggableWindow = ({
   defaultHeight = 600,
   onSplitScreenChange,
   splitPosition = 50,
+  enableSplitScreen = true,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
   const [isDragging, setIsDragging] = useState(false);
   const [isResizing, setIsResizing] = useState<string | null>(null);
   const [isSplitScreen, setIsSplitScreen] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
   const windowRef = useRef<HTMLDivElement>(null);
@@ -49,6 +52,7 @@ export const DraggableWindow = ({
 
   const handleMouseDown = (e: React.MouseEvent) => {
     if (!isSplitScreen && (e.target as HTMLElement).closest(".window-header")) {
+      // Allow dragging even when minimized
       setIsDragging(true);
       setDragOffset({
         x: e.clientX - position.x,
@@ -247,14 +251,25 @@ export const DraggableWindow = ({
       )}>
         <h3 className="font-semibold text-foreground">{title}</h3>
         <div className="flex items-center gap-2">
+          {enableSplitScreen && (
+            <Button
+              variant="ghost"
+              size="icon"
+              className={cn("h-8 w-8", isSplitScreen && "bg-primary/20")}
+              onClick={toggleSplitScreen}
+              title={isSplitScreen ? "Exit split screen" : "Split screen"}
+            >
+              <Columns2 className="h-4 w-4" />
+            </Button>
+          )}
           <Button
             variant="ghost"
             size="icon"
-            className={cn("h-8 w-8", isSplitScreen && "bg-primary/20")}
-            onClick={toggleSplitScreen}
-            title={isSplitScreen ? "Exit split screen" : "Split screen"}
+            className={cn("h-8 w-8", isMinimized && "bg-primary/20")}
+            onClick={() => setIsMinimized(!isMinimized)}
+            title={isMinimized ? "Maximize" : "Minimize"}
           >
-            <Columns2 className="h-4 w-4" />
+            {isMinimized ? <Maximize2 className="h-4 w-4" /> : <Minimize2 className="h-4 w-4" />}
           </Button>
           <Button
             variant="ghost"
@@ -262,6 +277,7 @@ export const DraggableWindow = ({
             className="h-8 w-8"
             onClick={() => {
               setIsSplitScreen(false);
+              setIsMinimized(false);
               if (onSplitScreenChange) {
                 onSplitScreenChange(false);
               }
@@ -274,7 +290,9 @@ export const DraggableWindow = ({
       </div>
 
       {/* Window Content */}
-      <div className="flex-1 overflow-hidden bg-background">{children}</div>
+      {!isMinimized && (
+        <div className="flex-1 overflow-hidden bg-background">{children}</div>
+      )}
     </div>
   );
 };
