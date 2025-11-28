@@ -3,21 +3,21 @@ export interface Question {
   text: string;
   choices?: { id: string; text: string }[];
   correctAnswer: string;
-  type: 'multiple-choice' | 'free-response';
+  type: "multiple-choice" | "free-response";
 }
 
 export const questions: Question[] = [
   {
     id: 1,
-    text: "\\text{A quadratic function has a factor of }(x+6)\\text{ and a positive zero of }x=a.\\text{ If the maximum of the function is }\\left(\\frac{57}{5},k\\right)\\text{ what is the value of }a?",
+    text: "\text{A quadratic function has a factor of }(x+6)\text{ and a positive zero of }x=a.\text{ If the maximum of the function is }\left(\frac{57}{5},k\right)\text{ what is the value of }a?",
     correctAnswer: "28.8",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 2,
     text: "\\text{Two acute angles, } \\angle C \\text{ and } \\angle D, \\text{ measure, in degrees, } 20x + 16 \\text{ and } 4x + 2, \\text{ respectively. If } \\sin C = \\cos D, \\text{ what is the value of } x?",
     correctAnswer: "3",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 3,
@@ -26,10 +26,10 @@ export const questions: Question[] = [
       { id: "A", text: "P(h) = 500nh + 300n" },
       { id: "B", text: "P(h) = 500nh + 800n" },
       { id: "C", text: "P(h) = 500nh + 300" },
-      { id: "D", text: "P(h) = 500nh + 800" }
+      { id: "D", text: "P(h) = 500nh + 800" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 4,
@@ -38,10 +38,10 @@ export const questions: Question[] = [
       { id: "A", text: "-16" },
       { id: "B", text: "-12" },
       { id: "C", text: "0" },
-      { id: "D", text: "14" }
+      { id: "D", text: "14" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 5,
@@ -50,10 +50,10 @@ export const questions: Question[] = [
       { id: "A", text: "f(x) = 18x - 78" },
       { id: "B", text: "f(x) = 54x + 78" },
       { id: "C", text: "f(x) = 18x + 6" },
-      { id: "D", text: "f(x) = 54x - 6" }
+      { id: "D", text: "f(x) = 54x - 6" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 6,
@@ -62,22 +62,22 @@ export const questions: Question[] = [
       { id: "A", text: "20" },
       { id: "B", text: "0.57" },
       { id: "C", text: "2" },
-      { id: "D", text: "0.057" }
+      { id: "D", text: "0.057" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 7,
     text: "g(x) = a^x + b\\\\\\\\\\text{The exponential function } g \\text{ passes through the points } (m, 20) \\text{ and } (2m, 620). \\text{ What is a possible value of } b?",
     correctAnswer: "-5",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 8,
     text: "\\text{Cylinders A and B are similar and have volumes of } 1568\\pi\\ \\text{ft}^3 \\text{ and } 42336\\pi\\ \\text{ft}^3, \\text{ respectively. If the height of cylinder A is } 32\\ \\text{ft and the surface area of cylinder B is } p\\pi\\ \\text{ft}^2, \\text{ where } p \\text{ is a constant, what is the value of } p?\\\\\\\\\\text{Volume of a cylinder: } V = \\pi r^2 h\\\\\\text{Surface area of a cylinder: } A = 2\\pi r^2 + 2\\pi rh",
     correctAnswer: "4914",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 9,
@@ -86,22 +86,22 @@ export const questions: Question[] = [
       { id: "A", text: "g(x) = 8(65536)^{\\frac{1}{4}x}" },
       { id: "B", text: "g(x) = 8(2)^{4x}" },
       { id: "C", text: "g(x) = \\frac{1}{2}(16)(256)^{\\frac{1}{2}x}" },
-      { id: "D", text: "g(x) = \\frac{1}{4}(32)(16)^x" }
+      { id: "D", text: "g(x) = \\frac{1}{4}(32)(16)^x" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 10,
     text: "\\text{The quadratic function } f \\text{ is defined as } f(x) = ax^2 + 72x + c \\text{ and has no real solutions. If } a \\text{ and } c \\text{ are integer constants, what is the smallest possible value of } ac?",
     correctAnswer: "1297",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 11,
     text: "\\text{A polygon has precisely 54 sides, and the measure of each of its interior angles is } 156m.\\ \\text{ What is the value of } m?",
     correctAnswer: "1.111",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 12,
@@ -110,10 +110,10 @@ export const questions: Question[] = [
       { id: "A", text: "0.006" },
       { id: "B", text: "31" },
       { id: "C", text: "977" },
-      { id: "D", text: "5{,}156{,}250" }
+      { id: "D", text: "5{,}156{,}250" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 13,
@@ -122,10 +122,10 @@ export const questions: Question[] = [
       { id: "A", text: "65y = 13x" },
       { id: "B", text: "25y = -5x + 12" },
       { id: "C", text: "13y = -65x" },
-      { id: "D", text: "25y = -65x + 13" }
+      { id: "D", text: "25y = -65x + 13" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 14,
@@ -134,10 +134,10 @@ export const questions: Question[] = [
       { id: "A", text: "\\frac{1}{9}\\sqrt{3}" },
       { id: "B", text: "\\frac{3}{4}" },
       { id: "C", text: "9\\sqrt{3}\\!/1" },
-      { id: "D", text: "\\frac{4}{3}" }
+      { id: "D", text: "\\frac{4}{3}" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 15,
@@ -146,16 +146,16 @@ export const questions: Question[] = [
       { id: "A", text: "-7\\ \\text{only}" },
       { id: "B", text: "0\\ \\text{only}" },
       { id: "C", text: "-7\\ \\text{or}\\ 7" },
-      { id: "D", text: "\\frac{7}{63}" }
+      { id: "D", text: "\\frac{7}{63}" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 16,
     text: "\\text{In the given system of equations, } m \\text{ is a constant. If the system has no solution, what is the value of } m?\\\\\\\\\\frac{7}{6}x + \\frac{18}{5} = -x + \\frac{5}{3}y\\\\\\frac{5m}{2}x + \\frac{3}{7} = \\frac{3m}{2}x + \\frac{5}{2}y",
     correctAnswer: "3.25",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 17,
@@ -164,10 +164,10 @@ export const questions: Question[] = [
       { id: "A", text: "(\\sqrt{48} + 3,\\ -15)" },
       { id: "B", text: "(\\sqrt{48} - 3,\\ -7)" },
       { id: "C", text: "(3,\\ -14)" },
-      { id: "D", text: "(-3,\\ 14)" }
+      { id: "D", text: "(-3,\\ 14)" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 18,
@@ -176,22 +176,22 @@ export const questions: Question[] = [
       { id: "A", text: "3" },
       { id: "B", text: "4" },
       { id: "C", text: "6" },
-      { id: "D", text: "8" }
+      { id: "D", text: "8" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 19,
     text: "\\text{A circle in the } xy\\text{-plane has a radius of } 13 \\text{ and has its center at } (-4,\\ 9).\\ \\text{ The equation of this circle is } x^2 + y^2 + ax + by + c = 0,\\ \\text{ where } a,\\ b,\\ \\text{and } c \\text{ are constants. What is the value of } c?",
     correctAnswer: "-72",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 20,
     text: "\\text{Sphere A has a diameter of } 8x,\\ \\text{ and sphere B has a diameter of } 24x.\\ \\text{ What percent of the volume of sphere A is the volume of sphere B?}\\\\\\\\\\text{Volume of a sphere } = \\frac{4}{3}\\pi r^3",
     correctAnswer: "2700",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 21,
@@ -200,10 +200,10 @@ export const questions: Question[] = [
       { id: "A", text: "c = \\frac{27m}{64}" },
       { id: "B", text: "c = \\frac{27m}{32}" },
       { id: "C", text: "c = 64\\left(\\frac{m}{54}\\right)" },
-      { id: "D", text: "c = 64\\left(\\frac{m}{27}\\right)" }
+      { id: "D", text: "c = 64\\left(\\frac{m}{27}\\right)" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 22,
@@ -212,46 +212,52 @@ export const questions: Question[] = [
       { id: "A", text: "x > 8" },
       { id: "B", text: "x < 24" },
       { id: "C", text: "x < 8 \\text{ or } x > 24" },
-      { id: "D", text: "8 < x < 24" }
+      { id: "D", text: "8 < x < 24" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 23,
     text: "\\text{A student surveyed 2 random groups of his classmates to estimate the percentage of students that would be going to college. Based on the first group, the student estimated that around 54\\% would continue to university, with a 2.5\\% margin of error. Based on the second group, the student estimated that 67\\% would attend college, with an 8.6\\% margin of error. Assuming that the margin of errors were calculated similarly for both samples, which of the following best explains why the second sample possessed a greater margin of error than the first?}",
     choices: [
-      { id: "A", text: "\\text{When compared to sample 1, more students in the second sample planned to continue to university.}" },
-      { id: "B", text: "\\text{When compared to sample 1, fewer students in the second sample planned to continue to university.}" },
+      {
+        id: "A",
+        text: "\\text{When compared to sample 1, more students in the second sample planned to continue to university.}",
+      },
+      {
+        id: "B",
+        text: "\\text{When compared to sample 1, fewer students in the second sample planned to continue to university.}",
+      },
       { id: "C", text: "\\text{The second sample contained more students than the first.}" },
-      { id: "D", text: "\\text{The second sample contained fewer students than the first.}" }
+      { id: "D", text: "\\text{The second sample contained fewer students than the first.}" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 24,
     text: "\\text{The function } g \\text{ is defined by } g(x) = a^x + b, \\text{ where } a \\text{ and } b \\text{ are constants. In the } xy\\text{-plane, the graph of } g \\text{ crosses the } x\\text{-axis at } (5, r-22), \\text{ and the } y\\text{-axis at } (0, -11r), \\text{ where } r \\text{ is a constant. What is the value of } a - b?",
     correctAnswer: "246",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 25,
     text: "279 \\text{ is } m\\% \\text{ less than } 600, \\text{ where } m \\text{ is a positive constant. What is the value of } 4m?",
     correctAnswer: "214",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 26,
     text: "\\text{Two numbers, } a \\text{ and } b, \\text{ are positive numbers. The seventh root of } a \\text{ is equivalent to } b \\text{ to the third power. For what value of } x \\text{ is } a \\text{ equal to } b^{5x-9}?",
     correctAnswer: "6",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 27,
     text: "\\text{For the given system of equations, what is the value of } (a-b)?\\\\\\\\(c-d) - 3 = -5(a-b)^2 + 12(a-b)\\\\-\\frac{(c-d)}{3} + 7 = (a-b)^2 - 8(a-b)",
     correctAnswer: "-3",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 28,
@@ -260,16 +266,16 @@ export const questions: Question[] = [
       { id: "A", text: "m = 1.2x" },
       { id: "B", text: "m = 8x" },
       { id: "C", text: "m = (1.2)^x" },
-      { id: "D", text: "m = (1.08)^x" }
+      { id: "D", text: "m = (1.08)^x" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 29,
     text: "\\text{Mixture C, consisting of both solutions A and B in their entirety, contains exactly } 30\\% \\text{ isopropyl alcohol. Solution A contains } 14 \\text{ ml of } 20\\% \\text{ isopropyl alcohol. If Solution B contains } p \\text{ ml of } 90\\% \\text{ isopropyl alcohol, where } p \\text{ is a constant, what is the value of } p?",
     correctAnswer: "2.333",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 30,
@@ -278,16 +284,16 @@ export const questions: Question[] = [
       { id: "A", text: "\\frac{232\\pi}{4}" },
       { id: "B", text: "\\frac{234\\pi}{4}" },
       { id: "C", text: "\\frac{235\\pi}{4}" },
-      { id: "D", text: "\\frac{236\\pi}{4}" }
+      { id: "D", text: "\\frac{236\\pi}{4}" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 31,
     text: "26x^2 + bx = -ax^2 - 8x + 78\\\\\\\\\\text{In the given equation, } b \\text{ and } a \\text{ are constants. The product of the solutions to the equation is } -\\frac{78}{a-p}, \\text{ where } p \\text{ is a constant. What is the value of } p?",
     correctAnswer: "-26",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 32,
@@ -296,10 +302,10 @@ export const questions: Question[] = [
       { id: "A", text: "(p+8,p-4)" },
       { id: "B", text: "(9,p-8)" },
       { id: "C", text: "(p,p+4)" },
-      { id: "D", text: "(5,p+5)" }
+      { id: "D", text: "(5,p+5)" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 33,
@@ -307,11 +313,17 @@ export const questions: Question[] = [
     choices: [
       { id: "A", text: "\\text{Both the mean and standard deviation of data set A are less than data set B.}" },
       { id: "B", text: "\\text{Both the mean and standard deviation of data set A are greater than data set B.}" },
-      { id: "C", text: "\\text{The standard deviation of data set A is greater than the standard deviation of data set B, but the mean of both sets is the same.}" },
-      { id: "D", text: "\\text{The standard deviation of data set B is less than the standard deviation of data set A, but the mean of both sets is the same.}" }
+      {
+        id: "C",
+        text: "\\text{The standard deviation of data set A is greater than the standard deviation of data set B, but the mean of both sets is the same.}",
+      },
+      {
+        id: "D",
+        text: "\\text{The standard deviation of data set B is less than the standard deviation of data set A, but the mean of both sets is the same.}",
+      },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 34,
@@ -320,16 +332,16 @@ export const questions: Question[] = [
       { id: "A", text: "2c + 5" },
       { id: "B", text: "2c + 10" },
       { id: "C", text: "4c + 5" },
-      { id: "D", text: "5c + 10" }
+      { id: "D", text: "5c + 10" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 35,
     text: "\\text{A trading card reseller purchases cards at an original price of \\$5.00 each and resells them at a price that is 350\\% of the original price. After some time, any unsold cards are discounted to a price that is 80\\% off the resale price. What is the discounted price of each card, in dollars?}",
     correctAnswer: "3.5",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 36,
@@ -338,10 +350,10 @@ export const questions: Question[] = [
       { id: "A", text: "(b-1) * 300" },
       { id: "B", text: "(b^2-1) * 100" },
       { id: "C", text: "(b^2-1) * 300" },
-      { id: "D", text: "(b-1) * 100" }
+      { id: "D", text: "(b-1) * 100" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 37,
@@ -350,28 +362,28 @@ export const questions: Question[] = [
       { id: "A", text: "(12/1.75)c + (29/0.65)s = 43" },
       { id: "B", text: "(1.75/12)c + (0.65/29)s = 43" },
       { id: "C", text: "(12/1.75)s + (29/0.65)c = 43" },
-      { id: "D", text: "(1.75/12)s + (0.65/29)c = 43" }
+      { id: "D", text: "(1.75/12)s + (0.65/29)c = 43" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 38,
     text: "\\text{A quadratic function models the height, in feet, of an object above the ground in terms of time, in seconds, after the object is thrown. The object is thrown from the ground (0ft) and reaches its maximum height of 49ft after 14 seconds of travel. Based on the model, what is the height, in feet, of the object after 18 seconds of travel?}",
     correctAnswer: "45",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 39,
     text: "\\text{A company is purchasing sandwiches for its employees and must purchase at least 262 sandwiches to feed all of its hungry workers with a budget of \\$3600. If the company pays \\$6.75 for each chicken pesto sandwich and \\$25.25 for each BLT sandwich, what is the maximum number of BLTs the company can purchase to stay within the budget and also have enough sandwiches for its employees?}",
     correctAnswer: "99",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 40,
     text: "\\text{A 150 lb metal alloy is exactly 60\\% copper. It contains one metal alloy that is 30\\% copper and a second one that is 70\\% copper. What is the mass of the first alloy?}",
     correctAnswer: "37.5",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 41,
@@ -380,10 +392,10 @@ export const questions: Question[] = [
       { id: "A", text: "4x^2 - 24x - 42m" },
       { id: "B", text: "4x^2 - 64x - 42m" },
       { id: "C", text: "4x^2 - 88x - 42m" },
-      { id: "D", text: "4x^2 - 108x - 42m" }
+      { id: "D", text: "4x^2 - 108x - 42m" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 42,
@@ -392,10 +404,10 @@ export const questions: Question[] = [
       { id: "A", text: "-3.75" },
       { id: "B", text: "-29" },
       { id: "C", text: "-\\frac{7}{8}" },
-      { id: "D", text: "3.75" }
+      { id: "D", text: "3.75" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 43,
@@ -404,10 +416,10 @@ export const questions: Question[] = [
       { id: "A", text: "68" },
       { id: "B", text: "84" },
       { id: "C", text: "100" },
-      { id: "D", text: "112" }
+      { id: "D", text: "112" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 44,
@@ -416,16 +428,16 @@ export const questions: Question[] = [
       { id: "A", text: "24" },
       { id: "B", text: "108" },
       { id: "C", text: "144" },
-      { id: "D", text: "180" }
+      { id: "D", text: "180" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 45,
     text: "m^{3/4} = p^{3/11} \\text{ and } m^{7a - 1/2} = p,\\ \\text{ what is the value of } a?",
     correctAnswer: "0.4643",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 46,
@@ -434,34 +446,34 @@ export const questions: Question[] = [
       { id: "A", text: "n \\text{ is a factor of } k" },
       { id: "B", text: "m \\text{ is a factor of } k" },
       { id: "C", text: "m \\text{ is a factor of } 180" },
-      { id: "D", text: "p \\text{ is a factor of } 180" }
+      { id: "D", text: "p \\text{ is a factor of } 180" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 47,
     text: "\\text{Data set A contains the lengths of 120 lizards and has a mean of 10 inches. Data set B contains the lengths of 40 different lizards, with a mean of 15 inches. Data set C contains the lengths of all 140 lizards from data sets A and B. What is the mean, in inches, of Data set C?}",
     correctAnswer: "11.25",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 48,
     text: "\\text{The function } f \\text{ is given by } f(x) = \\frac{2n}{\\|x\\|} - 12,\\ \\text{ where } n < 0.\\ \\text{ What is the sum of } f(6n) \\text{ and } f(n)?",
     correctAnswer: "-26.333",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 49,
     text: "\\text{A right triangle has the angle measures of } 17n,\\ \\frac{17n}{3}, \\text{ and } \\frac{34n}{3}, \\text{ where } n \\text{ is a positive constant. The triangle's hypotenuse has a length of } \\frac{17n}{5} \\text{ inches. What is the length (in inches) of the triangle's shortest leg?}",
     correctAnswer: "9",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 50,
     text: "\\text{For the function } g,\\ g(x-m) = 3x \\text{ for all values of } x, \\text{ where } m \\text{ is a positive constant. If } (-27, 8) \\text{ is a point on the graph of } g(x), \\text{ what is the value of } m?",
     correctAnswer: "29.667",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 51,
@@ -470,10 +482,10 @@ export const questions: Question[] = [
       { id: "A", text: "(9,-3)" },
       { id: "B", text: "(-18,6)" },
       { id: "C", text: "(-9,3)" },
-      { id: "D", text: "(18,-6)" }
+      { id: "D", text: "(18,-6)" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 52,
@@ -482,10 +494,10 @@ export const questions: Question[] = [
       { id: "A", text: "-4" },
       { id: "B", text: "-3" },
       { id: "C", text: "3" },
-      { id: "D", text: "4" }
+      { id: "D", text: "4" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 53,
@@ -494,10 +506,10 @@ export const questions: Question[] = [
       { id: "A", text: "10" },
       { id: "B", text: "73" },
       { id: "C", text: "365" },
-      { id: "D", text: "730" }
+      { id: "D", text: "730" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 54,
@@ -506,10 +518,10 @@ export const questions: Question[] = [
       { id: "A", text: "13" },
       { id: "B", text: "26" },
       { id: "C", text: "52" },
-      { id: "D", text: "104" }
+      { id: "D", text: "104" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 55,
@@ -518,10 +530,10 @@ export const questions: Question[] = [
       { id: "A", text: "2(\\cos 23^\\circ)(\\sin 67^\\circ)" },
       { id: "B", text: "2(\\cos 23^\\circ) + 2(\\cos 67^\\circ)" },
       { id: "C", text: "(\\cos 23^\\circ)^2 + (\\sin 67^\\circ)^2" },
-      { id: "D", text: "(\\cos 23^\\circ)^2 + (\\cos 67^\\circ)^2" }
+      { id: "D", text: "(\\cos 23^\\circ)^2 + (\\cos 67^\\circ)^2" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 56,
@@ -530,10 +542,10 @@ export const questions: Question[] = [
       { id: "A", text: "\\text{Zero}" },
       { id: "B", text: "\\text{Exactly one}" },
       { id: "C", text: "\\text{Exactly two}" },
-      { id: "D", text: "\\text{Infinitely many}" }
+      { id: "D", text: "\\text{Infinitely many}" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 57,
@@ -542,16 +554,16 @@ export const questions: Question[] = [
       { id: "A", text: "\\frac{10}{3}" },
       { id: "B", text: "\\frac{6}{5}" },
       { id: "C", text: "\\frac{3}{5}" },
-      { id: "D", text: "\\frac{5}{6}" }
+      { id: "D", text: "\\frac{5}{6}" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 58,
     text: "340 \\text{ is } m\\% \\text{ of } 80.\\ \\text{What is the value of } m?",
     correctAnswer: "425",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 59,
@@ -560,28 +572,28 @@ export const questions: Question[] = [
       { id: "A", text: "\\text{No real solutions}" },
       { id: "B", text: "\\text{One real solution}" },
       { id: "C", text: "\\text{Two real solutions}" },
-      { id: "D", text: "\\text{Infinitely many solutions}" }
+      { id: "D", text: "\\text{Infinitely many solutions}" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 60,
     text: "x^2 - 6x + 3\\\\\\\\\\text{If one solution to the given equation can be represented by } 3 + \\sqrt{p}, \\text{ where } p \\text{ is a constant, what is the value of } p?",
     correctAnswer: "6",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 61,
     text: "4y = 18\\\\-8x^2 + bx\\\\\\\\\\text{In the } xy\\text{-plane, the two given equations intersect at exactly one point. If } b \\text{ is a positive constant, what is the value of } b?",
     correctAnswer: "12",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 62,
     text: "\\sqrt{2x + p} = x + 12\\\\\\\\\\text{For the given equation, for which value of } p \\text{ would the equation have exactly one real solution?}",
     correctAnswer: "23",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 63,
@@ -590,40 +602,40 @@ export const questions: Question[] = [
       { id: "A", text: "\\frac{1}{25}" },
       { id: "B", text: "\\frac{1}{5}" },
       { id: "C", text: "5" },
-      { id: "D", text: "25" }
+      { id: "D", text: "25" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 64,
     text: "f(x) = x^2 - 3x - 4\\\\g(x) = x^2 - 9x + 14\\\\h(x) = x^2\\\\\\\\\\text{The function } f(x) \\text{ has two solutions of } q \\text{ and } r, \\text{ where } q \\text{ is positive. The function } g(x) \\text{ has two solutions of } p \\text{ and } m, \\text{ where } m > p. \\text{ If the function } h(x) \\text{ has solutions of } (q-p) \\text{ and } (m+r) \\text{ and can be rewritten as } (x + a)(x + b), \\text{ what is the value of } m?",
     correctAnswer: "7",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 65,
     text: "\\text{Square pyramids A and B are similar. Square pyramid A has a base of } 144\\ \\text{m}^2 \\text{ and a volume of } 384\\ \\text{m}^3.\\\\\\\\\\text{If one of square pyramid B's triangular faces has a surface area of } 540\\ \\text{m}^2, \\text{ what is the volume, in m}^3, \\text{ of B?}",
     correctAnswer: "10368",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 66,
     text: "\\text{In the figure shown, lines A and B are parallel, with lines B, C, and D intersecting at point H. What is the value of } q + r?",
     correctAnswer: "180",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 67,
     text: "\\text{There are four different colors of playing cards within a deck. Specifically, there are 21 green cards, 7 blue cards, and 12 yellow and red cards. Given that a randomly selected card is not blue, the probability of selecting a yellow card is } \\frac{1}{3}. \\text{ How many red cards are in the deck?}",
     correctAnswer: "1",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 68,
     text: "\\text{An aquarium tank, in the shape of a rectangular prism, measures 72 feet by 96 feet by 3 feet. It will be filled with water costing \\$75 per cubic yard. How much, in dollars, will it cost to fill the tank? (1 yard = 3 ft)}",
     correctAnswer: "57600",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 69,
@@ -632,10 +644,10 @@ export const questions: Question[] = [
       { id: "A", text: "(k+26, j)" },
       { id: "B", text: "(k-26, j)" },
       { id: "C", text: "(-k+26, j)" },
-      { id: "D", text: "(-k-26, -j)" }
+      { id: "D", text: "(-k-26, -j)" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 70,
@@ -644,10 +656,10 @@ export const questions: Question[] = [
       { id: "A", text: "k < 5" },
       { id: "B", text: "k > 5" },
       { id: "C", text: "k < -5" },
-      { id: "D", text: "k > -5" }
+      { id: "D", text: "k > -5" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 71,
@@ -656,16 +668,16 @@ export const questions: Question[] = [
       { id: "A", text: "5" },
       { id: "B", text: "7" },
       { id: "C", text: "10" },
-      { id: "D", text: "28" }
+      { id: "D", text: "28" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 72,
     text: "\\text{The given right triangle has legs of lengths } A \\text{ and } B \\text{ and a hypotenuse of length } 56.\\ \\text{ What is the value of } \\frac{x}{A}?",
     correctAnswer: "2.1429",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 73,
@@ -674,10 +686,10 @@ export const questions: Question[] = [
       { id: "A", text: "\\left(\\frac{p}{4}\\right)^2" },
       { id: "B", text: "6\\left(\\frac{p}{4}\\right)^2" },
       { id: "C", text: "64p^2" },
-      { id: "D", text: "\\frac{1}{64}p^2" }
+      { id: "D", text: "\\frac{1}{64}p^2" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 74,
@@ -686,10 +698,10 @@ export const questions: Question[] = [
       { id: "A", text: "m\\sqrt{3}" },
       { id: "B", text: "\\frac{m}{\\sqrt{3}}" },
       { id: "C", text: "\\frac{\\sqrt{2m}}{2}" },
-      { id: "D", text: "\\frac{\\sqrt{3}}{2}" }
+      { id: "D", text: "\\frac{\\sqrt{3}}{2}" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 75,
@@ -698,40 +710,49 @@ export const questions: Question[] = [
       { id: "A", text: "x < a \\text{ or } x > b" },
       { id: "B", text: "a < x < b" },
       { id: "C", text: "x > a" },
-      { id: "D", text: "x < b" }
+      { id: "D", text: "x < b" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 76,
     text: "\\text{If } \\frac{14a}{b} = 12 \\text{ and } \\frac{a}{bc} = 6,\\ \\text{ what is the value of } c?",
     correctAnswer: "0.1429",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 77,
     text: "-16(4x-3)^2 + 6(3x-7)^2\\\\\\\\\\text{The given equation above can be rewritten into the form } \\frac{a}{13}x^2 + \\frac{b}{13}x + \\frac{c}{13}, \\text{ where } a, b, \\text{ and } c \\text{ are constants. What is the value of } a + b + c?",
     correctAnswer: "1040",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 78,
     text: "C = 60(0.97)^{t+40} + 22\\\\\\\\\\text{The given equation above gives } C, \\text{ in degrees Celsius, of a cup of coffee after being removed from a heat source, where } t \\text{ is the time in minutes since the sample was removed. Which of the following best describes } 22 \\text{ in this context?}",
     choices: [
-      { id: "A", text: "\\text{22 is the temperature, in degrees Celsius, that the cup of coffee approaches as it cools down.}" },
-      { id: "B", text: "\\text{22 is the temperature, in degrees Celsius, of the coffee 40 minutes after being removed from the heat source.}" },
+      {
+        id: "A",
+        text: "\\text{22 is the temperature, in degrees Celsius, that the cup of coffee approaches as it cools down.}",
+      },
+      {
+        id: "B",
+        text: "\\text{22 is the temperature, in degrees Celsius, of the coffee 40 minutes after being removed from the heat source.}",
+      },
       { id: "C", text: "\\text{22 is the initial temperature, in degrees Celsius, of the coffee.}" },
-      { id: "D", text: "\\text{22 is the total change in temperature, in degrees Celsius, of the coffee as it cools down over 40 minutes.}" }
+      {
+        id: "D",
+        text: "\\text{22 is the total change in temperature, in degrees Celsius, of the coffee as it cools down over 40 minutes.}",
+      },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 79,
     text: "\\text{A quadratic function with a vertex at } (9,y) \\text{ intersects the } x\\text{-axis at the points } (41,0) \\text{ and } (q,0).\\ \\text{ What is the value of } q?",
     correctAnswer: "-23",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 80,
@@ -740,40 +761,40 @@ export const questions: Question[] = [
       { id: "A", text: "3\\sqrt{15}" },
       { id: "B", text: "30\\sqrt{3}" },
       { id: "C", text: "15\\sqrt{3}" },
-      { id: "D", text: "3\\sqrt{30}" }
+      { id: "D", text: "3\\sqrt{30}" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 81,
     text: "-16(4x-3)^2 + 6(3x-7)^2\\\\\\\\\\text{The given equation above can be rewritten into the form } \\frac{a}{13} x^2 + \\frac{b}{13} x + \\frac{c}{13}, \\text{ where } a, b, \\text{ and } c \\text{ are constants. What is the value of } a + b + c?",
     correctAnswer: "1040",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 82,
     text: "\\text{The area of a rectangular factory consists of } 11{,}132 \\text{ equal squares, where each of these squares has an area of } k \\text{ meters. If the length of the factory is } 5.75 \\text{ times that of the width, and the width is equal to } x\\sqrt{k}, \\text{ what is the value of } x?",
     correctAnswer: "44",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 83,
     text: "\\text{For the given parabola } ax^2 + bx + c,\\ a, b, \\text{ and } c \\text{ are all constants. The } x\\text{-intercepts of the parabola are at } (-4,0) \\text{ and } (k,0). \\text{ If } f(-13) = f(15), \\text{ what is the value of } k?",
     correctAnswer: "6",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 84,
     text: "\\text{A study is comparing two schools, school A and school B. The total ratio of male students to female students is } 3:4 \\text{ for both schools. The ratio of female students attending school A to school B is } 27:40. \\text{ There are } 440 \\text{ students attending school A and } 498 \\text{ students attending school B. How many more male students are there attending school A than school B?}",
     correctAnswer: "46",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 85,
     text: "\\text{In the given figure, } AC \\text{ is the diameter of a circle with a radius of } 8.\\ \\text{ If the length of } AB \\text{ is equal to } \\sqrt{87}, \\text{ what is the value if } BC?",
     correctAnswer: "13",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 86,
@@ -782,10 +803,10 @@ export const questions: Question[] = [
       { id: "A", text: "T(n) = 23(2)^{4n}" },
       { id: "B", text: "T(n) = 23(3)^{n/4}" },
       { id: "C", text: "T(n) = 23(1/2)^{4n}" },
-      { id: "D", text: "T(n) = 23(1/2)^{n/4}" }
+      { id: "D", text: "T(n) = 23(1/2)^{n/4}" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 87,
@@ -794,16 +815,16 @@ export const questions: Question[] = [
       { id: "A", text: "13" },
       { id: "B", text: "14" },
       { id: "C", text: "15" },
-      { id: "D", text: "16" }
+      { id: "D", text: "16" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 88,
     text: "f(cx) = x - 6\\\\\\\\\\text{What is a possible value of } c \\text{ that satisfies the provided equation, given that the point } (3,28) \\text{ lies on the graph of } f(x) \\text{ in the } xy\\text{-plane?}",
     correctAnswer: "0.08824",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 89,
@@ -812,16 +833,16 @@ export const questions: Question[] = [
       { id: "A", text: "5x + 2y = 7\\\\59x + 24y = 23" },
       { id: "B", text: "6x - 7y = 8\\\\-6x + 7y = -8" },
       { id: "C", text: "24x + 36y = 39\\\\8x + 12y = 13" },
-      { id: "D", text: "-2x + 14y = 11\\\\-4x + 28y = -22" }
+      { id: "D", text: "-2x + 14y = 11\\\\-4x + 28y = -22" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 90,
     text: "\\text{The quadratic function } f \\text{ has a vertex at } (-7,-138), \\text{ passes through the point } (-3,-186), \\text{ and has a } y\\text{-intercept at } (0,c). \\text{ The graph of } 6f(x) \\text{ has a } y\\text{-intercept at } (0,d). \\text{ What is the positive difference between } c \\text{ and } d?",
     correctAnswer: "1425",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 91,
@@ -830,10 +851,10 @@ export const questions: Question[] = [
       { id: "A", text: "\\text{Table A}" },
       { id: "B", text: "\\text{Table B}" },
       { id: "C", text: "\\text{Table C}" },
-      { id: "D", text: "\\text{Table D}" }
+      { id: "D", text: "\\text{Table D}" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 92,
@@ -842,10 +863,10 @@ export const questions: Question[] = [
       { id: "A", text: "-12x + 340" },
       { id: "B", text: "12x - 340" },
       { id: "C", text: "-12x + 700" },
-      { id: "D", text: "180" }
+      { id: "D", text: "180" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 93,
@@ -854,10 +875,10 @@ export const questions: Question[] = [
       { id: "A", text: "a = \\frac{b + c + d}{abc}" },
       { id: "B", text: "\\frac{bcd}{cd + bd + bc}" },
       { id: "C", text: "\\frac{cd + bd + bc}{bcd}" },
-      { id: "D", text: "\\frac{abc}{b + c + d}" }
+      { id: "D", text: "\\frac{abc}{b + c + d}" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 94,
@@ -866,16 +887,16 @@ export const questions: Question[] = [
       { id: "A", text: "\\frac{20\\sqrt{2}}{2}" },
       { id: "B", text: "20" },
       { id: "C", text: "20\\sqrt{2}" },
-      { id: "D", text: "40\\sqrt{2}" }
+      { id: "D", text: "40\\sqrt{2}" },
     ],
     correctAnswer: "A",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 95,
     text: "\\text{A jewelry store has a mega-gold-bar mold in the shape of a rectangular prism with a length of } 216 \\text{ inches, a width of } 32 \\text{ inches, and a height of } 27 \\text{ inches. The equation } c = v(d), \\text{ where } c \\text{ is the total cost in dollars, } v \\text{ is the volume in cubic yards, and } d \\text{ is the cost per cubic yard. If } c \\text{ is equal to \\$1720, what is the value of } d \\text{ in dollars per cubic yard?}\\\\\\\\1\\ \\text{yard} = 36\\ \\text{inches}",
     correctAnswer: "430",
-    type: 'free-response'
+    type: "free-response",
   },
   {
     id: 96,
@@ -884,10 +905,10 @@ export const questions: Question[] = [
       { id: "A", text: "\\text{Every 20 minutes, the population increases by 142,680 CFUs.}" },
       { id: "B", text: "\\text{Every 20 minutes, the population increases by 123\\%.}" },
       { id: "C", text: "\\text{Every 3 hours, the population increases by 142,680 CFUs.}" },
-      { id: "D", text: "\\text{Every 3 hours, the population increases by 123\\%.}" }
+      { id: "D", text: "\\text{Every 3 hours, the population increases by 123\\%.}" },
     ],
     correctAnswer: "D",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 97,
@@ -896,10 +917,10 @@ export const questions: Question[] = [
       { id: "A", text: "67" },
       { id: "B", text: "23" },
       { id: "C", text: "21" },
-      { id: "D", text: "79" }
+      { id: "D", text: "79" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 98,
@@ -908,10 +929,10 @@ export const questions: Question[] = [
       { id: "A", text: "-22" },
       { id: "B", text: "67" },
       { id: "C", text: "21" },
-      { id: "D", text: "1" }
+      { id: "D", text: "1" },
     ],
     correctAnswer: "B",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 99,
@@ -920,15 +941,15 @@ export const questions: Question[] = [
       { id: "A", text: "3\\sqrt{12} + 3" },
       { id: "B", text: "2\\sqrt{14}" },
       { id: "C", text: "2\\sqrt{14} + 3" },
-      { id: "D", text: "3\\sqrt{12}" }
+      { id: "D", text: "3\\sqrt{12}" },
     ],
     correctAnswer: "C",
-    type: 'multiple-choice'
+    type: "multiple-choice",
   },
   {
     id: 100,
     text: "ax^2 + 67x + c\\\\\\\\\\text{In the given quadratic function, } a \\text{ and } c \\text{ are positive constants. If } px + q \\text{ is a factor of the quadratic, where } p \\text{ and } q \\text{ are positive constants, what is the greatest possible integer value of } ac\\text{?}",
     correctAnswer: "1122",
-    type: 'free-response'
-  }
+    type: "free-response",
+  },
 ];
