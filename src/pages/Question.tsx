@@ -69,6 +69,13 @@ function Question() {
   useEffect(() => {
     if (!isSplitScreenActive) return;
 
+    // Add/remove noselect class during splitscreen resize
+    if (isResizingSplit) {
+      document.body.classList.add("noselect");
+    } else {
+      document.body.classList.remove("noselect");
+    }
+
     const handleMouseMove = (e: MouseEvent) => {
       if (isResizingSplit) {
         const newPosition = (e.clientX / window.innerWidth) * 100;
@@ -79,6 +86,7 @@ function Question() {
 
     const handleMouseUp = () => {
       setIsResizingSplit(false);
+      document.body.classList.remove("noselect");
     };
 
     if (isResizingSplit) {

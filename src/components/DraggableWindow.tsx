@@ -77,6 +77,13 @@ export const DraggableWindow = ({
   };
 
   useEffect(() => {
+    // Add/remove noselect class
+    if (isDragging || isResizing) {
+      document.body.classList.add("noselect");
+    } else {
+      document.body.classList.remove("noselect");
+    }
+
     const handleMouseMove = (e: MouseEvent) => {
       if (isDragging) {
         const newX = e.clientX - dragOffset.x;
@@ -136,6 +143,7 @@ export const DraggableWindow = ({
     const handleMouseUp = () => {
       setIsDragging(false);
       setIsResizing(null);
+      document.body.classList.remove("noselect");
     };
 
     if (isDragging || isResizing) {
