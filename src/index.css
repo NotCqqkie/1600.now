@@ -146,6 +146,14 @@ All colors MUST be HSL.
   .choice-content {
     white-space: normal !important;
   }
+  /* Prevent ANY mid-word breaking in question text */
+  #question-content,
+  #question-content * {
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    hyphens: manual !important;
+  }
 
   /* Responsive KaTeX scaling */
   .katex {
