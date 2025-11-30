@@ -199,8 +199,8 @@ export const DraggableWindow = ({
       style={{
         left: position.x,
         top: position.y,
-        width: isMinimized ? 'auto' : size.width,
-        height: isMinimized ? 'auto' : size.height,
+        width: size.width,
+        height: isMinimized ? '56px' : size.height,
       }}
       onMouseDown={handleMouseDown}
     >
