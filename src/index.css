@@ -187,12 +187,4 @@ All colors MUST be HSL.
   .overflow-wrap-anywhere {
     overflow-wrap: anywhere;
   }
-  /* Prevent ANY mid-word breaking in question text */
-  #question-content,
-  #question-content * {
-    white-space: normal !important;
-    word-break: normal !important;
-    overflow-wrap: break-word !important;
-    hyphens: manual !important;
-  }
 }
