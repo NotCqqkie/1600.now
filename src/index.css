@@ -119,6 +119,13 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 
+  /* Disable text selection during drag operations */
+  .noselect {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
   /* KaTeX content styling for responsive LaTeX with wrapping */
   .katex {
     white-space: normal !important;
