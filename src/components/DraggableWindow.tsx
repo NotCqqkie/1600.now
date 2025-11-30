@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { X, Columns2, Minimize2, Maximize2 } from "lucide-react";
+import { X, Columns2, Minus, Maximize2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -82,14 +82,18 @@ export const DraggableWindow = ({
         const newX = e.clientX - dragOffset.x;
         const newY = e.clientY - dragOffset.y;
         
-        // Keep window within viewport bounds
-        const maxX = window.innerWidth - size.width;
-        const maxY = window.innerHeight - size.height;
-        
-        setPosition({
-          x: Math.max(0, Math.min(newX, maxX)),
-          y: Math.max(0, Math.min(newY, maxY)),
-        });
+        // When minimized, allow free movement. Otherwise keep within viewport bounds
+        if (isMinimized) {
+          setPosition({ x: newX, y: newY });
+        } else {
+          const maxX = window.innerWidth - size.width;
+          const maxY = window.innerHeight - size.height;
+          
+          setPosition({
+            x: Math.max(0, Math.min(newX, maxX)),
+            y: Math.max(0, Math.min(newY, maxY)),
+          });
+        }
       }
 
       if (isResizing) {
@@ -272,7 +276,7 @@ export const DraggableWindow = ({
               onClick={() => setIsMinimized(!isMinimized)}
               title={isMinimized ? "Maximize" : "Minimize"}
             >
-              {isMinimized ? <Maximize2 className="h-4 w-4" /> : <Minimize2 className="h-4 w-4" />}
+              {isMinimized ? <Maximize2 className="h-4 w-4" /> : <Minus className="h-4 w-4" />}
             </Button>
           )}
           <Button
