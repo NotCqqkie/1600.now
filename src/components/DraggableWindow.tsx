@@ -82,18 +82,16 @@ export const DraggableWindow = ({
         const newX = e.clientX - dragOffset.x;
         const newY = e.clientY - dragOffset.y;
         
-        // When minimized, allow free movement. Otherwise keep within viewport bounds
-        if (isMinimized) {
-          setPosition({ x: newX, y: newY });
-        } else {
-          const maxX = window.innerWidth - size.width;
-          const maxY = window.innerHeight - size.height;
-          
-          setPosition({
-            x: Math.max(0, Math.min(newX, maxX)),
-            y: Math.max(0, Math.min(newY, maxY)),
-          });
-        }
+        // Keep window within viewport bounds (same for both minimized and normal)
+        const currentWidth = isMinimized ? size.width : size.width;
+        const currentHeight = isMinimized ? 56 : size.height;
+        const maxX = window.innerWidth - currentWidth;
+        const maxY = window.innerHeight - currentHeight;
+        
+        setPosition({
+          x: Math.max(0, Math.min(newX, maxX)),
+          y: Math.max(0, Math.min(newY, maxY)),
+        });
       }
 
       if (isResizing) {
