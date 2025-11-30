@@ -182,9 +182,9 @@ All colors MUST be HSL.
   /* Prevent ANY mid-word breaking in question text */
   #question-content,
   #question-content * {
-    word-break: normal !important;
-    overflow-wrap: normal !important;
-    hyphens: manual !important; /* disables automatic hyphenation */
     white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    hyphens: manual !important;
   }
 }
