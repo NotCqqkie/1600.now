@@ -37,14 +37,14 @@ All colors MUST be HSL.
     --ring: 198 93% 35%;
 
     --radius: 0.75rem;
-    
+
     --gradient-primary: linear-gradient(135deg, hsl(198 93% 35%), hsl(198 93% 45%));
     --gradient-hero: linear-gradient(180deg, hsl(210 40% 98%), hsl(210 100% 97%));
-    
+
     --shadow-sm: 0 2px 8px hsla(198 93% 35% / 0.08);
     --shadow-md: 0 4px 16px hsla(198 93% 35% / 0.12);
     --shadow-lg: 0 8px 24px hsla(198 93% 35% / 0.16);
-    
+
     --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
@@ -92,10 +92,10 @@ All colors MUST be HSL.
     --border: 217 33% 24%;
     --input: 217 33% 24%;
     --ring: 198 93% 45%;
-    
+
     --gradient-primary: linear-gradient(135deg, hsl(198 93% 45%), hsl(198 93% 55%));
     --gradient-hero: linear-gradient(180deg, hsl(217 33% 17%), hsl(217 33% 20%));
-    
+
     --shadow-sm: 0 2px 8px hsla(0 0% 0% / 0.3);
     --shadow-md: 0 4px 16px hsla(0 0% 0% / 0.4);
     --shadow-lg: 0 8px 24px hsla(0 0% 0% / 0.5);
@@ -126,16 +126,16 @@ All colors MUST be HSL.
     -ms-user-select: none;
   }
 
-  /* KaTeX wrapping override - Force KaTeX to wrap like normal text */
-  .katex-wrap, 
-  .katex-wrap *, 
-  .katex-wrap .katex, 
+  /* KaTeX wrapping override – allow normal word wrapping without breaking words */
+  .katex-wrap,
+  .katex-wrap *,
+  .katex-wrap .katex,
   .katex-wrap .katex * {
     white-space: normal !important;
     display: inline !important;
     max-width: 100% !important;
-    line-break: anywhere !important;
-    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
   }
 
   /* Override prose container white-space for KaTeX */
