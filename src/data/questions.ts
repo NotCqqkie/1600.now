@@ -9,7 +9,7 @@ export interface Question {
 export const questions: Question[] = [
   {
     id: 1,
-    text: "\\textnormal{A quadratic function has a factor of }(x+6)\\text{ and a positive zero of }x=a.\\text{ If the maximum of the function is }\\left(\\frac{57}{5},k\\right)\\text{ what is the value of }a?",
+    text: "\\text{A quadratic function has a factor of }(x+6)\\text{ and a positive zero of }x=a.\\text{ If the maximum of the function is }\\left(\\frac{57}{5},k\\right)\\text{ what is the value of }a?",
     correctAnswer: "28.8",
     type: "free-response",
   },
