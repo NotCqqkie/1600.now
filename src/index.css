@@ -129,7 +129,6 @@ All colors MUST be HSL.
   .katex-wrap .katex,
   .katex-wrap .katex * {
     white-space: normal !important;
-    display: inline !important;
     max-width: 100% !important;
     word-break: normal !important;
     overflow-wrap: break-word !important; /* breaks only between words */
