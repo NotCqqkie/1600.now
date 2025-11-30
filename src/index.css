@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
 */
 
@@ -48,19 +48,12 @@ All colors MUST be HSL.
     --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -99,6 +92,7 @@ All colors MUST be HSL.
     --shadow-sm: 0 2px 8px hsla(0 0% 0% / 0.3);
     --shadow-md: 0 4px 16px hsla(0 0% 0% / 0.4);
     --shadow-lg: 0 8px 24px hsla(0 0% 0% / 0.5);
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -126,7 +120,10 @@ All colors MUST be HSL.
     -ms-user-select: none;
   }
 
-  /* KaTeX wrapping override – allow normal word wrapping without breaking words */
+  /* ============================================================
+     FINAL KATEX WRAPPING FIX — CLEAN, CORRECT, NO MID-WORD BREAKS
+     ============================================================ */
+
   .katex-wrap,
   .katex-wrap *,
   .katex-wrap .katex,
@@ -135,50 +132,44 @@ All colors MUST be HSL.
     display: inline !important;
     max-width: 100% !important;
     word-break: normal !important;
-    overflow-wrap: break-word !important;
+    overflow-wrap: break-word !important; /* breaks only between words */
   }
 
-  /* Override prose container white-space for KaTeX */
+  /* Markdown/Prose containers must not force pre-wrap */
   .prose .katex-wrap,
   .prose #question-content,
   .prose .choice-content {
     white-space: normal !important;
   }
 
-  /* Ensure parent containers don't force pre-wrap */
   #question-content,
   .choice-content {
     white-space: normal !important;
   }
 
-  /* KaTeX content styling for responsive LaTeX with wrapping */
+  /* Responsive KaTeX scaling */
   .katex {
     white-space: normal !important;
-    font-size: 1em !important; /* scale with container */
+    font-size: 1em !important;
   }
 
-  /* Prevent scrollbars on display math */
   .katex-display {
     overflow-x: visible !important;
     text-align: left !important;
   }
 
-  /* Keep long inline formulas from breaking layout */
   .katex-display > .katex {
     white-space: normal !important;
   }
 
-  /* Ensure proper scaling in different contexts */
   #question-content .katex {
     font-size: clamp(0.875rem, 2vw, 1.125rem) !important;
   }
 
-  /* Answer choices */
   .choice-content .katex {
     font-size: clamp(0.8rem, 1.5vw, 1rem) !important;
   }
 
-  /* Prevent text overflow in all contexts */
   .break-words {
     word-wrap: break-word;
     word-break: break-word;
