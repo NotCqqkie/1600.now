@@ -37,10 +37,10 @@ export const MultipleChoiceQuestion = ({
             throwOnError: false,
             trust: true
           });
-          element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${renderedHtml}</span>`;
+          element.innerHTML = `<span class="katex-wrap"><span style="font-size:clamp(12px, 2.2vw, 22px)">${renderedHtml}</span></span>`;
         } catch (error) {
           console.error('KaTeX rendering error:', error);
-          element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${choice.text}</span>`;
+          element.innerHTML = `<span class="katex-wrap"><span style="font-size:clamp(12px, 2.2vw, 22px)">${choice.text}</span></span>`;
         }
       }
     });
