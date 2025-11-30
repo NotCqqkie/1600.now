@@ -126,18 +126,28 @@ All colors MUST be HSL.
     -ms-user-select: none;
   }
 
-  /* KaTeX wrapping override */
-  .katex-wrap {
-    white-space: normal !important;
-    display: inline-block;
-    max-width: 100%;
-  }
-
-  .katex-wrap .katex {
-    white-space: normal !important;
-  }
-
+  /* KaTeX wrapping override - Force KaTeX to wrap like normal text */
+  .katex-wrap, 
+  .katex-wrap *, 
+  .katex-wrap .katex, 
   .katex-wrap .katex * {
+    white-space: normal !important;
+    display: inline !important;
+    max-width: 100% !important;
+    line-break: anywhere !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  /* Override prose container white-space for KaTeX */
+  .prose .katex-wrap,
+  .prose #question-content,
+  .prose .choice-content {
+    white-space: normal !important;
+  }
+
+  /* Ensure parent containers don't force pre-wrap */
+  #question-content,
+  .choice-content {
     white-space: normal !important;
   }
 
