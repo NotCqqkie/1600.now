@@ -126,6 +126,21 @@ All colors MUST be HSL.
     -ms-user-select: none;
   }
 
+  /* KaTeX wrapping override */
+  .katex-wrap {
+    white-space: normal !important;
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  .katex-wrap .katex {
+    white-space: normal !important;
+  }
+
+  .katex-wrap .katex * {
+    white-space: normal !important;
+  }
+
   /* KaTeX content styling for responsive LaTeX with wrapping */
   .katex {
     white-space: normal !important;
