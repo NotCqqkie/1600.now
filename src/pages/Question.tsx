@@ -11,7 +11,7 @@ import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { ChevronLeft, ChevronRight, Check, Bookmark, Slash } from "lucide-react";
 import { toast } from "sonner";
 import { questions } from "@/data/questions";
-import katex from "katex";
+import { renderMixedContent } from "@/lib/utils";
 import "katex/dist/katex.min.css";
 
 function Question() {
@@ -43,21 +43,11 @@ function Question() {
   }
 
   useEffect(() => {
-    // Render KaTeX for the question text
+    // Render mixed content (HTML text + KaTeX math)
     const questionElement = document.getElementById('question-content');
     if (questionElement && currentQuestion) {
-      try {
-        const renderedHtml = katex.renderToString(currentQuestion.text, {
-          displayMode: false,
-          throwOnError: false,
-          trust: true,
-          strict: false
-        });
-        questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
-      } catch (error) {
-        console.error('KaTeX rendering error:', error);
-        questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${currentQuestion.text}</span>`;
-      }
+      const renderedHtml = renderMixedContent(currentQuestion.text);
+      questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
     }
     
     setChecked(false);
