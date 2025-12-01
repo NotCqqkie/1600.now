@@ -35,9 +35,10 @@ export const MultipleChoiceQuestion = ({
           const renderedHtml = katex.renderToString(choice.text, {
             displayMode: false,
             throwOnError: false,
-            trust: true
+            trust: true,
+            strict: false
           });
-          element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${renderedHtml}</span>`;
+          element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
         } catch (error) {
           console.error('KaTeX rendering error:', error);
           element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${choice.text}</span>`;

@@ -50,9 +50,10 @@ function Question() {
         const renderedHtml = katex.renderToString(currentQuestion.text, {
           displayMode: false,
           throwOnError: false,
-          trust: true
+          trust: true,
+          strict: false
         });
-        questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${renderedHtml}</span>`;
+        questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
       } catch (error) {
         console.error('KaTeX rendering error:', error);
         questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${currentQuestion.text}</span>`;
