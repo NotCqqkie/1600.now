@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
-import { cn } from "@/lib/utils";
-import katex from "katex";
+import { cn, renderMixedContent } from "@/lib/utils";
 import "katex/dist/katex.min.css";
 
 interface Choice {
@@ -27,22 +26,12 @@ export const MultipleChoiceQuestion = ({
   const choiceRefs = useRef<{ [key: string]: HTMLSpanElement | null }>({});
 
   useEffect(() => {
-    // Render KaTeX for each choice
+    // Render mixed content (HTML text + KaTeX math) for each choice
     choices.forEach((choice) => {
       const element = choiceRefs.current[choice.id];
       if (element) {
-        try {
-          const renderedHtml = katex.renderToString(choice.text, {
-            displayMode: false,
-            throwOnError: false,
-            trust: true,
-            strict: false
-          });
-          element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
-        } catch (error) {
-          console.error('KaTeX rendering error:', error);
-          element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${choice.text}</span>`;
-        }
+        const renderedHtml = renderMixedContent(choice.text);
+        element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
       }
     });
   }, [choices]);
