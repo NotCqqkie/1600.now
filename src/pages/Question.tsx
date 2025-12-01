@@ -52,10 +52,10 @@ function Question() {
           throwOnError: false,
           trust: true
         });
-        questionElement.innerHTML = `<span class="katex-wrap"><span style="font-size:clamp(12px, 2.2vw, 22px)">${renderedHtml}</span></span>`;
+        questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${renderedHtml}</span>`;
       } catch (error) {
         console.error('KaTeX rendering error:', error);
-        questionElement.innerHTML = `<span class="katex-wrap"><span style="font-size:clamp(12px, 2.2vw, 22px)">${currentQuestion.text}</span></span>`;
+        questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px)">${currentQuestion.text}</span>`;
       }
     }
     
