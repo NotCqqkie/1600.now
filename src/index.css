@@ -121,18 +121,32 @@ All colors MUST be HSL.
   }
 
   /* ============================================================
-     FINAL KATEX WRAPPING FIX — CLEAN, CORRECT, NO MID-WORD BREAKS
+     KATEX WRAPPING FIX — Proper wrapping without breaking layout
      ============================================================ */
 
-  .katex-wrap,
-  .katex-wrap *,
-  .katex-wrap .katex,
-  .katex-wrap .katex * {
+  /* Allow the outer wrapper to wrap text normally */
+  .katex-wrap {
     white-space: normal !important;
     display: inline !important;
     max-width: 100% !important;
     word-break: normal !important;
-    overflow-wrap: break-word !important; /* breaks only between words */
+    overflow-wrap: break-word !important;
+  }
+
+  /* CRITICAL: Do NOT override display on KaTeX internal elements!
+     KaTeX needs inline-block, relative positioning, etc. for:
+     - Superscripts/subscripts (.msupsub)
+     - Fractions (.vlist, .frac-line)
+     - Square roots (.sqrt)
+     - Matrices and other structures
+  */
+  .katex-wrap .katex {
+    white-space: normal !important;
+  }
+
+  /* Only apply white-space to .base elements (the wrappable text parts) */
+  .katex-wrap .katex .base {
+    white-space: normal !important;
   }
 
   /* Markdown/Prose containers must not force pre-wrap */
@@ -146,10 +160,9 @@ All colors MUST be HSL.
   .choice-content {
     white-space: normal !important;
   }
-  /* Prevent ANY mid-word breaking in question text */
-  #question-content,
-  #question-content * {
-    white-space: normal !important;
+
+  /* Prevent mid-word breaking in question text - but not in KaTeX internals */
+  #question-content {
     word-break: normal !important;
     overflow-wrap: break-word !important;
     hyphens: manual !important;
