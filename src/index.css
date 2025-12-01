@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
 */
 
@@ -37,23 +37,30 @@ All colors MUST be HSL.
     --ring: 198 93% 35%;
 
     --radius: 0.75rem;
-
+    
     --gradient-primary: linear-gradient(135deg, hsl(198 93% 35%), hsl(198 93% 45%));
     --gradient-hero: linear-gradient(180deg, hsl(210 40% 98%), hsl(210 100% 97%));
-
+    
     --shadow-sm: 0 2px 8px hsla(198 93% 35% / 0.08);
     --shadow-md: 0 4px 16px hsla(198 93% 35% / 0.12);
     --shadow-lg: 0 8px 24px hsla(198 93% 35% / 0.16);
-
+    
     --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
+
     --sidebar-foreground: 240 5.3% 26.1%;
+
     --sidebar-primary: 240 5.9% 10%;
+
     --sidebar-primary-foreground: 0 0% 98%;
+
     --sidebar-accent: 240 4.8% 95.9%;
+
     --sidebar-accent-foreground: 240 5.9% 10%;
+
     --sidebar-border: 220 13% 91%;
+
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -85,14 +92,13 @@ All colors MUST be HSL.
     --border: 217 33% 24%;
     --input: 217 33% 24%;
     --ring: 198 93% 45%;
-
+    
     --gradient-primary: linear-gradient(135deg, hsl(198 93% 45%), hsl(198 93% 55%));
     --gradient-hero: linear-gradient(180deg, hsl(217 33% 17%), hsl(217 33% 20%));
-
+    
     --shadow-sm: 0 2px 8px hsla(0 0% 0% / 0.3);
     --shadow-md: 0 4px 16px hsla(0 0% 0% / 0.4);
     --shadow-lg: 0 8px 24px hsla(0 0% 0% / 0.5);
-
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -120,77 +126,34 @@ All colors MUST be HSL.
     -ms-user-select: none;
   }
 
-  /* ============================================================
-     KATEX WRAPPING FIX — Proper wrapping without breaking layout
-     ============================================================ */
-
-  /* Allow the outer wrapper to wrap text normally */
-  .katex-wrap {
-    white-space: normal !important;
-    display: inline !important;
-    max-width: 100% !important;
-    word-break: normal !important;
-    overflow-wrap: break-word !important;
-  }
-
-  /* CRITICAL: Do NOT override display on KaTeX internal elements!
-     KaTeX needs inline-block, relative positioning, etc. for:
-     - Superscripts/subscripts (.msupsub)
-     - Fractions (.vlist, .frac-line)
-     - Square roots (.sqrt)
-     - Matrices and other structures
-  */
-  .katex-wrap .katex {
-    white-space: normal !important;
-  }
-
-  /* Only apply white-space to .base elements (the wrappable text parts) */
-  .katex-wrap .katex .base {
-    white-space: normal !important;
-  }
-
-  /* Markdown/Prose containers must not force pre-wrap */
-  .prose .katex-wrap,
-  .prose #question-content,
-  .prose .choice-content {
-    white-space: normal !important;
-  }
-
-  #question-content,
-  .choice-content {
-    white-space: normal !important;
-  }
-
-  /* Prevent mid-word breaking in question text - but not in KaTeX internals */
-  #question-content {
-    word-break: normal !important;
-    overflow-wrap: break-word !important;
-    hyphens: manual !important;
-  }
-
-  /* Responsive KaTeX scaling */
+  /* KaTeX content styling for responsive LaTeX with wrapping */
   .katex {
     white-space: normal !important;
-    font-size: 1em !important;
+    font-size: 1em !important; /* scale with container */
   }
 
+  /* Prevent scrollbars on display math */
   .katex-display {
     overflow-x: visible !important;
     text-align: left !important;
   }
 
+  /* Keep long inline formulas from breaking layout */
   .katex-display > .katex {
     white-space: normal !important;
   }
 
+  /* Ensure proper scaling in different contexts */
   #question-content .katex {
     font-size: clamp(0.875rem, 2vw, 1.125rem) !important;
   }
 
+  /* Answer choices */
   .choice-content .katex {
     font-size: clamp(0.8rem, 1.5vw, 1rem) !important;
   }
 
+  /* Prevent text overflow in all contexts */
   .break-words {
     word-wrap: break-word;
     word-break: break-word;
