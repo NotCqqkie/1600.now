@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { cn, renderMixedContent } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Strikethrough } from "lucide-react";
 import "katex/dist/katex.min.css";
 
 interface Choice {
@@ -81,10 +80,10 @@ export const MultipleChoiceQuestion = ({
                     ref={(el) => choiceRefs.current[choice.id] = el}
                     className="choice-content break-words text-muted-foreground/50"
                   />
-                  {/* Full-width strikethrough line - semi-transparent */}
-                  <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-muted-foreground/40" />
                 </div>
               </div>
+              {/* Full-width strikethrough line - extends through box and slightly beyond */}
+              <div className="absolute top-1/2 left-0 right-12 h-[2px] bg-muted-foreground/40 -translate-y-1/2" />
               
               {/* Undo button - outside the box */}
               <button
@@ -156,11 +155,16 @@ export const MultipleChoiceQuestion = ({
             {/* Strikethrough button on the right - only shows when strikeout mode is active */}
             {strikeoutMode && (
               <button
-                className="absolute right-2 flex-shrink-0 w-10 h-10 flex items-center justify-center transition-colors hover:opacity-70 text-muted-foreground hover:text-foreground"
+                className="absolute right-2 flex-shrink-0 w-8 h-8 relative flex items-center justify-center transition-colors hover:opacity-70"
                 onClick={(e) => toggleStrikeout(choice.id, e)}
                 title="Strike out this choice"
               >
-                <Strikethrough size={20} />
+                {/* Circle with letter */}
+                <div className="w-8 h-8 rounded-full border-2 border-muted-foreground/50 flex items-center justify-center font-semibold text-sm text-muted-foreground">
+                  {choice.id}
+                </div>
+                {/* Strikethrough line extending beyond circle - semi-transparent */}
+                <div className="absolute top-1/2 -left-1 -right-1 h-[2px] bg-muted-foreground/50 -translate-y-1/2" />
               </button>
             )}
           </div>

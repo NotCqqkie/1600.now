@@ -8,7 +8,7 @@ import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationDialog } from "@/components/ExplanationDialog";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
-import { ChevronLeft, ChevronRight, Check, Bookmark, Slash } from "lucide-react";
+import { ChevronLeft, ChevronRight, Check, Bookmark, Strikethrough } from "lucide-react";
 import { toast } from "sonner";
 import { questions } from "@/data/questions";
 import { renderMixedContent } from "@/lib/utils";
@@ -223,7 +223,7 @@ function Question() {
                 onClick={() => setStrikeoutMode(!strikeoutMode)}
                 className={strikeoutMode ? "bg-muted" : ""}
               >
-                <Slash className="h-4 w-4" />
+                <Strikethrough className="h-4 w-4" />
               </Button>
             )}
           </div>
