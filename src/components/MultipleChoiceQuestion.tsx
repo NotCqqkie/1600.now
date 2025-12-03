@@ -70,11 +70,11 @@ export const MultipleChoiceQuestion = ({
             <Label 
               htmlFor={choice.id} 
               className={cn(
-                "flex-1 cursor-pointer font-medium break-words overflow-wrap-anywhere",
+                "flex-1 cursor-pointer font-normal break-words overflow-wrap-anywhere",
                 struckOut.has(choice.id) && "line-through text-muted-foreground"
               )}
             >
-              <span className="choice-label font-semibold mr-2">{choice.id})</span>
+              <span className="choice-label mr-2">{choice.id})</span>
               <span 
                 ref={(el) => choiceRefs.current[choice.id] = el}
                 className="choice-content break-words"
