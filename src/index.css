@@ -151,7 +151,7 @@ All colors MUST be HSL.
 
   /* Match text size with KaTeX - use same clamp for consistency */
   #question-content {
-    font-size: clamp(0.8rem, 1.8vw, 1rem);
+    font-size: clamp(0.7rem, 1.5vw, 0.9rem);
   }
 
   #question-content .katex {
@@ -160,7 +160,8 @@ All colors MUST be HSL.
 
   /* Answer choices - matching sizes */
   .choice-content {
-    font-size: clamp(0.75rem, 1.4vw, 0.9rem);
+    font-size: clamp(0.65rem, 1.2vw, 0.8rem);
+    font-weight: 400;
   }
 
   .choice-content .katex {
@@ -169,7 +170,7 @@ All colors MUST be HSL.
 
   /* Answer choice labels (A, B, C, D) */
   .choice-label {
-    font-size: clamp(0.75rem, 1.4vw, 0.9rem);
+    font-size: clamp(0.65rem, 1.2vw, 0.8rem);
   }
 
   /* Prevent text overflow in all contexts */
