@@ -24,6 +24,8 @@ function Question() {
   const [markedForReview, setMarkedForReview] = useState(false);
   const [strikeoutMode, setStrikeoutMode] = useState(false);
   const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
+  const [checkedAnswer, setCheckedAnswer] = useState<string>("");
+  const [answerIsCorrect, setAnswerIsCorrect] = useState<boolean | null>(null);
   const [isSplitScreenActive, setIsSplitScreenActive] = useState(false);
   const [splitPosition, setSplitPosition] = useState(50);
   const [isResizingSplit, setIsResizingSplit] = useState(false);
@@ -54,6 +56,8 @@ function Question() {
     setSelectedAnswer("");
     setFreeResponseAnswer("");
     setCheckButtonVariant("default");
+    setCheckedAnswer("");
+    setAnswerIsCorrect(null);
     setAttemptCount(0);
   }, [questionNumber, currentQuestion]);
 
@@ -118,6 +122,8 @@ function Question() {
     const isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(currentQuestion.correctAnswer);
 
     setChecked(true);
+    setCheckedAnswer(userAnswer);
+    setAnswerIsCorrect(isCorrect);
     const newAttemptCount = attemptCount + 1;
     setAttemptCount(newAttemptCount);
 
@@ -138,6 +144,8 @@ function Question() {
       setTimeout(() => {
         setChecked(false);
         setCheckButtonVariant("default");
+        setCheckedAnswer("");
+        setAnswerIsCorrect(null);
       }, 1500);
     }
   };
@@ -238,6 +246,8 @@ function Question() {
               onAnswerChange={setSelectedAnswer}
               onCheck={handleCheck}
               strikeoutMode={strikeoutMode}
+              checkedAnswer={checkedAnswer}
+              isCorrect={answerIsCorrect}
             />
           ) : (
             <div className="space-y-3">
