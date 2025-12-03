@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'myriad': ['"Myriad Pro"', '"Source Sans 3"', 'system-ui', 'sans-serif'],
+        'minion': ['"Minion Pro"', '"Source Serif 4"', 'Georgia', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
