@@ -126,10 +126,10 @@ All colors MUST be HSL.
     -ms-user-select: none;
   }
 
-  /* Question text font - Myriad Pro with fallback */
+  /* Question text font - Minion Pro with fallback */
   #question-content,
   .choice-content {
-    font-family: "Myriad Pro", "Source Sans 3", system-ui, sans-serif;
+    font-family: "Minion Pro", "Source Serif 4", Georgia, serif;
   }
 
   /* KaTeX content styling for responsive LaTeX with wrapping */
