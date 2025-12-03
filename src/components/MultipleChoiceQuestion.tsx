@@ -14,6 +14,8 @@ interface MultipleChoiceQuestionProps {
   onAnswerChange?: (answer: string) => void;
   onCheck?: () => void;
   strikeoutMode?: boolean;
+  checkedAnswer?: string;
+  isCorrect?: boolean | null;
 }
 
 export const MultipleChoiceQuestion = ({ 
@@ -21,7 +23,9 @@ export const MultipleChoiceQuestion = ({
   selectedAnswer,
   onAnswerChange,
   onCheck,
-  strikeoutMode = false
+  strikeoutMode = false,
+  checkedAnswer,
+  isCorrect
 }: MultipleChoiceQuestionProps) => {
   const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
   const choiceRefs = useRef<{ [key: string]: HTMLSpanElement | null }>({});
@@ -55,6 +59,41 @@ export const MultipleChoiceQuestion = ({
       {choices.map((choice) => {
         const isSelected = selectedAnswer === choice.id;
         const isStruckOut = struckOut.has(choice.id);
+        const wasChecked = checkedAnswer === choice.id;
+        const showCorrect = wasChecked && isCorrect === true;
+        const showIncorrect = wasChecked && isCorrect === false;
+        
+        // If struck out, show the strikethrough view
+        if (isStruckOut) {
+          return (
+            <div key={choice.id} className="flex items-center gap-2">
+              <div className="flex-1 flex items-center gap-3 rounded-xl border-2 border-border bg-muted/30 p-4">
+                {/* Circle with letter - dimmed */}
+                <div className="flex-shrink-0 w-8 h-8 rounded-full border-2 border-muted-foreground/30 flex items-center justify-center font-semibold text-sm text-muted-foreground/50">
+                  {choice.id}
+                </div>
+                
+                {/* Choice text with line through entire row */}
+                <div className="flex-1 relative">
+                  <span 
+                    ref={(el) => choiceRefs.current[choice.id] = el}
+                    className="choice-content break-words text-muted-foreground/50"
+                  />
+                  {/* Full-width strikethrough line */}
+                  <div className="absolute top-1/2 left-0 right-0 h-[1px] bg-muted-foreground/50" />
+                </div>
+                
+                {/* Undo button */}
+                <button
+                  className="text-foreground underline font-medium text-sm hover:text-primary transition-colors"
+                  onClick={(e) => toggleStrikeout(choice.id, e)}
+                >
+                  Undo
+                </button>
+              </div>
+            </div>
+          );
+        }
         
         return (
           <div key={choice.id} className="flex items-center gap-2">
@@ -62,7 +101,9 @@ export const MultipleChoiceQuestion = ({
             <div
               className={cn(
                 "flex-1 flex items-center gap-3 rounded-xl border-2 border-border p-4 hover:bg-muted/50 transition-colors cursor-pointer",
-                isSelected && "border-primary bg-primary/5"
+                isSelected && !showCorrect && !showIncorrect && "border-primary bg-primary/5",
+                showCorrect && "border-green-500 bg-green-500/10",
+                showIncorrect && "border-destructive bg-destructive/10"
               )}
               onClick={() => {
                 if (!strikeoutMode) {
@@ -74,7 +115,11 @@ export const MultipleChoiceQuestion = ({
               <div
                 className={cn(
                   "flex-shrink-0 w-8 h-8 rounded-full border-2 flex items-center justify-center font-semibold text-sm transition-colors",
-                  isSelected 
+                  showCorrect 
+                    ? "bg-green-500 border-green-500 text-white"
+                    : showIncorrect
+                    ? "bg-destructive border-destructive text-white"
+                    : isSelected 
                     ? "bg-primary border-primary text-primary-foreground" 
                     : "border-muted-foreground/50 text-foreground"
                 )}
@@ -83,20 +128,15 @@ export const MultipleChoiceQuestion = ({
               </div>
               
               {/* Choice text */}
-              <div 
-                className={cn(
-                  "flex-1 break-words overflow-wrap-anywhere",
-                  isStruckOut && "line-through text-muted-foreground"
-                )}
-              >
+              <div className="flex-1 break-words overflow-wrap-anywhere">
                 <span 
                   ref={(el) => choiceRefs.current[choice.id] = el}
                   className="choice-content break-words"
                 />
               </div>
               
-              {/* Check button - only shows on selected choice */}
-              {isSelected && onCheck && (
+              {/* Check button - only shows on selected choice when not already checked correct */}
+              {isSelected && onCheck && !showCorrect && (
                 <Button
                   size="sm"
                   variant="outline"
@@ -113,22 +153,18 @@ export const MultipleChoiceQuestion = ({
             
             {/* Strikethrough button on the right */}
             <button
-              className={cn(
-                "flex-shrink-0 w-10 h-10 rounded-full border-2 flex items-center justify-center transition-colors hover:bg-muted/50",
-                isStruckOut 
-                  ? "border-primary text-primary" 
-                  : "border-muted-foreground/30 text-muted-foreground"
-              )}
+              className="flex-shrink-0 w-10 h-10 rounded-full border-2 border-muted-foreground/30 flex items-center justify-center transition-colors hover:bg-muted/50 hover:border-muted-foreground/50"
               onClick={(e) => toggleStrikeout(choice.id, e)}
               title="Strike out this choice"
             >
-              <div className="relative w-5 h-5 flex items-center justify-center">
-                <span className="text-xs font-semibold">{choice.id}</span>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className={cn(
-                    "w-full h-0.5 bg-current rotate-[-45deg]",
-                    isStruckOut ? "bg-primary" : "bg-muted-foreground"
-                  )} />
+              <div className="relative w-6 h-6 flex items-center justify-center">
+                {/* Inner circle with letter */}
+                <div className="w-5 h-5 rounded-full border border-muted-foreground/50 flex items-center justify-center">
+                  <span className="text-[10px] font-semibold text-muted-foreground">{choice.id}</span>
+                </div>
+                {/* Horizontal strikethrough line */}
+                <div className="absolute inset-y-0 left-0 right-0 flex items-center">
+                  <div className="w-full h-[2px] bg-muted-foreground/70" />
                 </div>
               </div>
             </button>
