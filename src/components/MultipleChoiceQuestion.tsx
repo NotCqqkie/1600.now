@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Label } from "@/components/ui/label";
 import { cn, renderMixedContent } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 import "katex/dist/katex.min.css";
 
 interface Choice {
@@ -13,6 +12,7 @@ interface MultipleChoiceQuestionProps {
   choices: Choice[];
   selectedAnswer?: string;
   onAnswerChange?: (answer: string) => void;
+  onCheck?: () => void;
   strikeoutMode?: boolean;
 }
 
@@ -20,6 +20,7 @@ export const MultipleChoiceQuestion = ({
   choices, 
   selectedAnswer,
   onAnswerChange,
+  onCheck,
   strikeoutMode = false
 }: MultipleChoiceQuestionProps) => {
   const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
@@ -36,7 +37,8 @@ export const MultipleChoiceQuestion = ({
     });
   }, [choices]);
 
-  const toggleStrikeout = (choiceId: string) => {
+  const toggleStrikeout = (choiceId: string, e: React.MouseEvent) => {
+    e.stopPropagation();
     setStruckOut(prev => {
       const newSet = new Set(prev);
       if (newSet.has(choiceId)) {
@@ -49,40 +51,90 @@ export const MultipleChoiceQuestion = ({
   };
 
   return (
-    <RadioGroup value={selectedAnswer} onValueChange={onAnswerChange}>
-      <div className="space-y-3">
-        {choices.map((choice) => (
-          <div
-            key={choice.id}
-            className={cn(
-              "flex items-center space-x-3 rounded-lg border-2 border-border p-4 hover:bg-muted/50 transition-colors cursor-pointer",
-              selectedAnswer === choice.id && "border-primary bg-primary/5"
-            )}
-            onClick={(e) => {
-              if (strikeoutMode) {
-                toggleStrikeout(choice.id);
-              } else {
-                onAnswerChange?.(choice.id);
-              }
-            }}
-          >
-            <RadioGroupItem value={choice.id} id={choice.id} />
-            <Label 
-              htmlFor={choice.id} 
+    <div className="space-y-3">
+      {choices.map((choice) => {
+        const isSelected = selectedAnswer === choice.id;
+        const isStruckOut = struckOut.has(choice.id);
+        
+        return (
+          <div key={choice.id} className="flex items-center gap-2">
+            {/* Main choice card */}
+            <div
               className={cn(
-                "flex-1 cursor-pointer font-normal break-words overflow-wrap-anywhere",
-                struckOut.has(choice.id) && "line-through text-muted-foreground"
+                "flex-1 flex items-center gap-3 rounded-xl border-2 border-border p-4 hover:bg-muted/50 transition-colors cursor-pointer",
+                isSelected && "border-primary bg-primary/5"
               )}
+              onClick={() => {
+                if (!strikeoutMode) {
+                  onAnswerChange?.(choice.id);
+                }
+              }}
             >
-              <span className="choice-label mr-2">{choice.id})</span>
-              <span 
-                ref={(el) => choiceRefs.current[choice.id] = el}
-                className="choice-content break-words"
-              />
-            </Label>
+              {/* Circle with letter */}
+              <div
+                className={cn(
+                  "flex-shrink-0 w-8 h-8 rounded-full border-2 flex items-center justify-center font-semibold text-sm transition-colors",
+                  isSelected 
+                    ? "bg-primary border-primary text-primary-foreground" 
+                    : "border-muted-foreground/50 text-foreground"
+                )}
+              >
+                {choice.id}
+              </div>
+              
+              {/* Choice text */}
+              <div 
+                className={cn(
+                  "flex-1 break-words overflow-wrap-anywhere",
+                  isStruckOut && "line-through text-muted-foreground"
+                )}
+              >
+                <span 
+                  ref={(el) => choiceRefs.current[choice.id] = el}
+                  className="choice-content break-words"
+                />
+              </div>
+              
+              {/* Check button - only shows on selected choice */}
+              {isSelected && onCheck && (
+                <Button
+                  size="sm"
+                  variant="outline"
+                  className="ml-2 px-4"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onCheck();
+                  }}
+                >
+                  Check
+                </Button>
+              )}
+            </div>
+            
+            {/* Strikethrough button on the right */}
+            <button
+              className={cn(
+                "flex-shrink-0 w-10 h-10 rounded-full border-2 flex items-center justify-center transition-colors hover:bg-muted/50",
+                isStruckOut 
+                  ? "border-primary text-primary" 
+                  : "border-muted-foreground/30 text-muted-foreground"
+              )}
+              onClick={(e) => toggleStrikeout(choice.id, e)}
+              title="Strike out this choice"
+            >
+              <div className="relative w-5 h-5 flex items-center justify-center">
+                <span className="text-xs font-semibold">{choice.id}</span>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className={cn(
+                    "w-full h-0.5 bg-current rotate-[-45deg]",
+                    isStruckOut ? "bg-primary" : "bg-muted-foreground"
+                  )} />
+                </div>
+              </div>
+            </button>
           </div>
-        ))}
-      </div>
-    </RadioGroup>
+        );
+      })}
+    </div>
   );
 };
