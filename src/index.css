@@ -126,6 +126,12 @@ All colors MUST be HSL.
     -ms-user-select: none;
   }
 
+  /* Question text font - Myriad Pro with fallback */
+  #question-content,
+  .choice-content {
+    font-family: "Myriad Pro", "Source Sans 3", system-ui, sans-serif;
+  }
+
   /* KaTeX content styling for responsive LaTeX with wrapping */
   .katex {
     white-space: normal !important;
@@ -143,14 +149,22 @@ All colors MUST be HSL.
     white-space: normal !important;
   }
 
-  /* Ensure proper scaling in different contexts */
-  #question-content .katex {
-    font-size: clamp(0.875rem, 2vw, 1.125rem) !important;
+  /* Match text size with KaTeX - use same clamp for consistency */
+  #question-content {
+    font-size: clamp(0.875rem, 2vw, 1.125rem);
   }
 
-  /* Answer choices */
+  #question-content .katex {
+    font-size: 1em !important;
+  }
+
+  /* Answer choices - matching sizes */
+  .choice-content {
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+  }
+
   .choice-content .katex {
-    font-size: clamp(0.8rem, 1.5vw, 1rem) !important;
+    font-size: 1em !important;
   }
 
   /* Prevent text overflow in all contexts */
