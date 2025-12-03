@@ -195,7 +195,7 @@ export const questions: Question[] = [
   },
   {
     id: 21,
-    text: "One bucket of paint costs $27 and can cover $64$ square feet of a house. A given house has a total surface area of $m$ square feet. Which equation accurately represents the total cost, $t$, in dollars, of paint needed to cover the house twice?",
+    text: "One bucket of paint costs &#36;27 and can cover $64$ square feet of a house. A given house has a total surface area of $m$ square feet. Which equation accurately represents the total cost, $t$, in dollars, of paint needed to cover the house twice?",
     choices: [
       { id: "A", text: "$c = \\frac{27m}{64}$" },
       { id: "B", text: "$c = \\frac{27m}{32}$" },
@@ -339,7 +339,7 @@ export const questions: Question[] = [
   },
   {
     id: 35,
-    text: "A trading card reseller purchases cards at an original price of $5.00 each and resells them at a price that is $350\\%$ of the original price. After some time, any unsold cards are discounted to a price that is $80\\%$ off the resale price. What is the discounted price of each card, in dollars?",
+    text: "A trading card reseller purchases cards at an original price of &#36;5.00 each and resells them at a price that is $350\\%$ of the original price. After some time, any unsold cards are discounted to a price that is $80\\%$ off the resale price. What is the discounted price of each card, in dollars?",
     correctAnswer: "3.5",
     type: "free-response",
   },
@@ -357,7 +357,7 @@ export const questions: Question[] = [
   },
   {
     id: 37,
-    text: "A bakery sells chocolate chip and snickerdoodle cookies. They earn $12 for every $1.75$ chocolate chip cookies sold and $29 for every $0.65$ snickerdoodles sold. If the bakery made $43 in total, and $c$ represents the number of chocolate chip cookies sold, while $s$ represents the number of snickerdoodles sold, which equation describes all possible combinations of $c$ and $s$ for that day?",
+    text: "A bakery sells chocolate chip and snickerdoodle cookies. They earn &#36;12 for every $1.75$ chocolate chip cookies sold and &#36;29 for every $0.65$ snickerdoodles sold. If the bakery made &#36;43 in total, and $c$ represents the number of chocolate chip cookies sold, while $s$ represents the number of snickerdoodles sold, which equation describes all possible combinations of $c$ and $s$ for that day?",
     choices: [
       { id: "A", text: "$(12/1.75)c + (29/0.65)s = 43$" },
       { id: "B", text: "$(1.75/12)c + (0.65/29)s = 43$" },
@@ -375,7 +375,7 @@ export const questions: Question[] = [
   },
   {
     id: 39,
-    text: "A company is purchasing sandwiches for its employees and must purchase at least $262$ sandwiches to feed all of its hungry workers with a budget of $3600. If the company pays $6.75 for each chicken pesto sandwich and $25.25 for each BLT sandwich, what is the maximum number of BLTs the company can purchase to stay within the budget and also have enough sandwiches for its employees?",
+    text: "A company is purchasing sandwiches for its employees and must purchase at least $262$ sandwiches to feed all of its hungry workers with a budget of &#36;3600. If the company pays &#36;6.75 for each chicken pesto sandwich and &#36;25.25 for each BLT sandwich, what is the maximum number of BLTs the company can purchase to stay within the budget and also have enough sandwiches for its employees?",
     correctAnswer: "99",
     type: "free-response",
   },
@@ -633,7 +633,7 @@ export const questions: Question[] = [
   },
   {
     id: 68,
-    text: "An aquarium tank, in the shape of a rectangular prism, measures $72$ feet by $96$ feet by $3$ feet. It will be filled with water costing $75 per cubic yard. How much, in dollars, will it cost to fill the tank? (1 yard = 3 ft)",
+    text: "An aquarium tank, in the shape of a rectangular prism, measures $72$ feet by $96$ feet by $3$ feet. It will be filled with water costing &#36;75 per cubic yard. How much, in dollars, will it cost to fill the tank? (1 yard = 3 ft)",
     correctAnswer: "57600",
     type: "free-response",
   },
@@ -894,7 +894,7 @@ export const questions: Question[] = [
   },
   {
     id: 95,
-    text: "A jewelry store has a mega-gold-bar mold in the shape of a rectangular prism with a length of $216$ inches, a width of $32$ inches, and a height of $27$ inches. The equation $c = v(d)$, where $c$ is the total cost in dollars, $v$ is the volume in cubic yards, and $d$ is the cost per cubic yard. If $c$ is equal to $1720, what is the value of $d$ in dollars per cubic yard?\\\\\\\\$1$ yard $= 36$ inches",
+    text: "A jewelry store has a mega-gold-bar mold in the shape of a rectangular prism with a length of $216$ inches, a width of $32$ inches, and a height of $27$ inches. The equation $c = v(d)$, where $c$ is the total cost in dollars, $v$ is the volume in cubic yards, and $d$ is the cost per cubic yard. If $c$ is equal to &#36;1720, what is the value of $d$ in dollars per cubic yard?\\\\\\\\$1$ yard $= 36$ inches",
     correctAnswer: "430",
     type: "free-response",
   },
