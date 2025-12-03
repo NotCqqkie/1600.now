@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { cn, renderMixedContent } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { Strikethrough } from "lucide-react";
 import "katex/dist/katex.min.css";
 
 interface Choice {
@@ -66,7 +67,7 @@ export const MultipleChoiceQuestion = ({
         // If struck out, show the strikethrough view
         if (isStruckOut) {
           return (
-            <div key={choice.id} className="flex items-center gap-3">
+            <div key={choice.id} className="flex items-center gap-3 pr-16">
               {/* Main choice card */}
               <div className="flex-1 flex items-center gap-3 rounded-xl border-2 border-border bg-muted/30 p-4">
                 {/* Circle with letter - dimmed */}
@@ -80,14 +81,14 @@ export const MultipleChoiceQuestion = ({
                     ref={(el) => choiceRefs.current[choice.id] = el}
                     className="choice-content break-words text-muted-foreground/50"
                   />
-                  {/* Full-width strikethrough line */}
-                  <div className="absolute top-1/2 left-0 right-0 h-[1px] bg-muted-foreground/50" />
+                  {/* Full-width strikethrough line - semi-transparent */}
+                  <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-muted-foreground/40" />
                 </div>
               </div>
               
               {/* Undo button - outside the box */}
               <button
-                className="text-foreground underline font-medium text-sm hover:text-primary transition-colors shrink-0"
+                className="absolute right-0 text-foreground underline font-medium text-sm hover:text-primary transition-colors shrink-0"
                 onClick={(e) => toggleStrikeout(choice.id, e)}
               >
                 Undo
@@ -97,7 +98,7 @@ export const MultipleChoiceQuestion = ({
         }
         
         return (
-          <div key={choice.id} className="flex items-center gap-2">
+          <div key={choice.id} className="relative flex items-center gap-2 pr-16">
             {/* Main choice card */}
             <div
               className={cn(
@@ -155,16 +156,11 @@ export const MultipleChoiceQuestion = ({
             {/* Strikethrough button on the right - only shows when strikeout mode is active */}
             {strikeoutMode && (
               <button
-                className="flex-shrink-0 w-8 h-8 relative flex items-center justify-center transition-colors hover:opacity-70"
+                className="absolute right-2 flex-shrink-0 w-10 h-10 flex items-center justify-center transition-colors hover:opacity-70 text-muted-foreground hover:text-foreground"
                 onClick={(e) => toggleStrikeout(choice.id, e)}
                 title="Strike out this choice"
               >
-                {/* Circle with letter */}
-                <div className="w-8 h-8 rounded-full border-2 border-muted-foreground/50 flex items-center justify-center font-semibold text-sm text-muted-foreground">
-                  {choice.id}
-                </div>
-                {/* Strikethrough line extending beyond circle */}
-                <div className="absolute top-1/2 -left-1 -right-1 h-[2px] bg-muted-foreground -translate-y-1/2" />
+                <Strikethrough size={20} />
               </button>
             )}
           </div>
