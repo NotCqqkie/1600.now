@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { cn, renderMixedContent } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { Strikethrough } from "lucide-react";
 import "katex/dist/katex.min.css";
 
 interface Choice {
@@ -66,7 +67,8 @@ export const MultipleChoiceQuestion = ({
         // If struck out, show the strikethrough view
         if (isStruckOut) {
           return (
-            <div key={choice.id} className="flex items-center gap-2">
+            <div key={choice.id} className="flex items-center gap-3">
+              {/* Main choice card */}
               <div className="flex-1 flex items-center gap-3 rounded-xl border-2 border-border bg-muted/30 p-4">
                 {/* Circle with letter - dimmed */}
                 <div className="flex-shrink-0 w-8 h-8 rounded-full border-2 border-muted-foreground/30 flex items-center justify-center font-semibold text-sm text-muted-foreground/50">
@@ -82,15 +84,15 @@ export const MultipleChoiceQuestion = ({
                   {/* Full-width strikethrough line */}
                   <div className="absolute top-1/2 left-0 right-0 h-[1px] bg-muted-foreground/50" />
                 </div>
-                
-                {/* Undo button */}
-                <button
-                  className="text-foreground underline font-medium text-sm hover:text-primary transition-colors"
-                  onClick={(e) => toggleStrikeout(choice.id, e)}
-                >
-                  Undo
-                </button>
               </div>
+              
+              {/* Undo button - outside the box */}
+              <button
+                className="text-foreground underline font-medium text-sm hover:text-primary transition-colors shrink-0"
+                onClick={(e) => toggleStrikeout(choice.id, e)}
+              >
+                Undo
+              </button>
             </div>
           );
         }
@@ -158,16 +160,7 @@ export const MultipleChoiceQuestion = ({
                 onClick={(e) => toggleStrikeout(choice.id, e)}
                 title="Strike out this choice"
               >
-                <div className="relative w-6 h-6 flex items-center justify-center">
-                  {/* Inner circle with letter */}
-                  <div className="w-5 h-5 rounded-full border border-muted-foreground/50 flex items-center justify-center">
-                    <span className="text-[10px] font-semibold text-muted-foreground">{choice.id}</span>
-                  </div>
-                  {/* Horizontal strikethrough line */}
-                  <div className="absolute inset-y-0 left-0 right-0 flex items-center">
-                    <div className="w-full h-[2px] bg-muted-foreground/70" />
-                  </div>
-                </div>
+                <Strikethrough className="w-5 h-5 text-muted-foreground" />
               </button>
             )}
           </div>
