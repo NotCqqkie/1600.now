@@ -151,23 +151,25 @@ export const MultipleChoiceQuestion = ({
               )}
             </div>
             
-            {/* Strikethrough button on the right */}
-            <button
-              className="flex-shrink-0 w-10 h-10 rounded-full border-2 border-muted-foreground/30 flex items-center justify-center transition-colors hover:bg-muted/50 hover:border-muted-foreground/50"
-              onClick={(e) => toggleStrikeout(choice.id, e)}
-              title="Strike out this choice"
-            >
-              <div className="relative w-6 h-6 flex items-center justify-center">
-                {/* Inner circle with letter */}
-                <div className="w-5 h-5 rounded-full border border-muted-foreground/50 flex items-center justify-center">
-                  <span className="text-[10px] font-semibold text-muted-foreground">{choice.id}</span>
+            {/* Strikethrough button on the right - only shows when strikeout mode is active */}
+            {strikeoutMode && (
+              <button
+                className="flex-shrink-0 w-10 h-10 rounded-full border-2 border-muted-foreground/30 flex items-center justify-center transition-colors hover:bg-muted/50 hover:border-muted-foreground/50"
+                onClick={(e) => toggleStrikeout(choice.id, e)}
+                title="Strike out this choice"
+              >
+                <div className="relative w-6 h-6 flex items-center justify-center">
+                  {/* Inner circle with letter */}
+                  <div className="w-5 h-5 rounded-full border border-muted-foreground/50 flex items-center justify-center">
+                    <span className="text-[10px] font-semibold text-muted-foreground">{choice.id}</span>
+                  </div>
+                  {/* Horizontal strikethrough line */}
+                  <div className="absolute inset-y-0 left-0 right-0 flex items-center">
+                    <div className="w-full h-[2px] bg-muted-foreground/70" />
+                  </div>
                 </div>
-                {/* Horizontal strikethrough line */}
-                <div className="absolute inset-y-0 left-0 right-0 flex items-center">
-                  <div className="w-full h-[2px] bg-muted-foreground/70" />
-                </div>
-              </div>
-            </button>
+              </button>
+            )}
           </div>
         );
       })}
