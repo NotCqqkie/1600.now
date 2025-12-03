@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { cn, renderMixedContent } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Strikethrough } from "lucide-react";
 import "katex/dist/katex.min.css";
 
 interface Choice {
@@ -156,11 +155,16 @@ export const MultipleChoiceQuestion = ({
             {/* Strikethrough button on the right - only shows when strikeout mode is active */}
             {strikeoutMode && (
               <button
-                className="flex-shrink-0 w-10 h-10 rounded-full border-2 border-muted-foreground/30 flex items-center justify-center transition-colors hover:bg-muted/50 hover:border-muted-foreground/50"
+                className="flex-shrink-0 w-8 h-8 relative flex items-center justify-center transition-colors hover:opacity-70"
                 onClick={(e) => toggleStrikeout(choice.id, e)}
                 title="Strike out this choice"
               >
-                <Strikethrough className="w-5 h-5 text-muted-foreground" />
+                {/* Circle with letter */}
+                <div className="w-8 h-8 rounded-full border-2 border-muted-foreground/50 flex items-center justify-center font-semibold text-sm text-muted-foreground">
+                  {choice.id}
+                </div>
+                {/* Strikethrough line extending beyond circle */}
+                <div className="absolute top-1/2 -left-1 -right-1 h-[2px] bg-muted-foreground -translate-y-1/2" />
               </button>
             )}
           </div>
