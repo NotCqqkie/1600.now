@@ -236,6 +236,7 @@ function Question() {
               choices={currentQuestion.choices}
               selectedAnswer={selectedAnswer}
               onAnswerChange={setSelectedAnswer}
+              onCheck={handleCheck}
               strikeoutMode={strikeoutMode}
             />
           ) : (
