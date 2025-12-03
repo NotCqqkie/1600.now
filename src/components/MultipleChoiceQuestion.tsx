@@ -74,10 +74,10 @@ export const MultipleChoiceQuestion = ({
                 struckOut.has(choice.id) && "line-through text-muted-foreground"
               )}
             >
-              <span className="font-semibold mr-2">{choice.id})</span>
+              <span className="choice-label font-semibold mr-2">{choice.id})</span>
               <span 
                 ref={(el) => choiceRefs.current[choice.id] = el}
-                className="break-words"
+                className="choice-content break-words"
               />
             </Label>
           </div>
