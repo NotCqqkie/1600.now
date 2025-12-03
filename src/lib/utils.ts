@@ -7,8 +7,13 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function renderMixedContent(text: string): string {
+  // First, convert \\\\ line breaks to HTML line breaks (with blank line between)
+  let processedText = text.replace(/\\\\\\\\/g, '<br /><br />');
+  // Also handle single \\\\ as line break
+  processedText = processedText.replace(/\\\\/g, '<br /><br />');
+  
   // Split by $...$ patterns, keeping the delimiters
-  const parts = text.split(/(\$[^$]+\$)/g);
+  const parts = processedText.split(/(\$[^$]+\$)/g);
   
   return parts.map(part => {
     if (part.startsWith('$') && part.endsWith('$')) {
