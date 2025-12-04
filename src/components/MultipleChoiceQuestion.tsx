@@ -85,8 +85,25 @@ export const MultipleChoiceQuestion = ({
         if (isStruckOut) {
           return (
             <div key={choice.id} className="relative flex items-center gap-3 pr-16">
-              {/* Main choice card */}
-              <div className="flex-1 flex items-center gap-3 rounded-xl border-2 border-border bg-muted/30 p-4">
+              {/* Main choice card - clickable to unstrikeout and select */}
+              <div 
+                className="flex-1 flex items-center gap-3 rounded-xl border-2 border-border bg-muted/30 p-4 cursor-pointer hover:bg-muted/50 transition-colors"
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  // Unstrikeout
+                  setStruckOut(prev => {
+                    const newSet = new Set(prev);
+                    newSet.delete(choice.id);
+                    localStorage.setItem(`question-${questionId}-strikeouts`, JSON.stringify([...newSet]));
+                    return newSet;
+                  });
+                  // Select the answer
+                  if (onAnswerChange) {
+                    onAnswerChange(choice.id);
+                  }
+                }}
+              >
                 {/* Circle with letter - dimmed */}
                 <div className="flex-shrink-0 w-8 h-8 rounded-full border-2 border-muted-foreground/30 flex items-center justify-center font-semibold text-sm text-muted-foreground/50">
                   {choice.id}
@@ -101,7 +118,7 @@ export const MultipleChoiceQuestion = ({
                 </div>
               </div>
               {/* Full-width strikethrough line - extends slightly beyond box */}
-              <div className="absolute top-1/2 left-[-4px] right-[52px] h-[2px] bg-muted-foreground/40 -translate-y-1/2" />
+              <div className="absolute top-1/2 left-[-4px] right-[52px] h-[2px] bg-muted-foreground/40 -translate-y-1/2 pointer-events-none" />
               
               {/* Undo button - vertically centered */}
               <button
