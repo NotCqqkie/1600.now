@@ -155,7 +155,7 @@ export const MultipleChoiceQuestion = ({
             {/* Strikethrough button on the right - only shows when strikeout mode is active */}
             {strikeoutMode && (
               <button
-                className="absolute right-2 flex-shrink-0 w-8 h-8 relative flex items-center justify-center transition-colors hover:opacity-70"
+                className="absolute right-0 top-1/2 -translate-y-1/2 flex-shrink-0 w-8 h-8 flex items-center justify-center transition-colors hover:opacity-70"
                 onClick={(e) => toggleStrikeout(choice.id, e)}
                 title="Strike out this choice"
               >
