@@ -120,9 +120,11 @@ export const MultipleChoiceQuestion = ({
                 showCorrect && "border-green-500 bg-green-500/10",
                 showIncorrect && "border-destructive bg-destructive/10"
               )}
-              onClick={() => {
-                if (!strikeoutMode) {
-                  onAnswerChange?.(choice.id);
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                if (!strikeoutMode && onAnswerChange) {
+                  onAnswerChange(choice.id);
                 }
               }}
             >
