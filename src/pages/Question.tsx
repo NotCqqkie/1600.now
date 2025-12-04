@@ -24,8 +24,7 @@ function Question() {
   const [markedForReview, setMarkedForReview] = useState(false);
   const [strikeoutMode, setStrikeoutMode] = useState(false);
   const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
-  const [checkedAnswer, setCheckedAnswer] = useState<string>("");
-  const [answerIsCorrect, setAnswerIsCorrect] = useState<boolean | null>(null);
+  const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [isSplitScreenActive, setIsSplitScreenActive] = useState(false);
   const [splitPosition, setSplitPosition] = useState(50);
   const [isResizingSplit, setIsResizingSplit] = useState(false);
@@ -54,8 +53,7 @@ function Question() {
     
     // Load saved answer state from localStorage
     const savedAnswer = localStorage.getItem(`question-${questionNumber}-answer`);
-    const savedCorrect = localStorage.getItem(`question-${questionNumber}-correct`);
-    const savedStatus = localStorage.getItem(`question-${questionNumber}-status`);
+    const savedCheckedAnswers = localStorage.getItem(`question-${questionNumber}-checkedAnswers`);
     const savedFlagged = localStorage.getItem(`question-${questionNumber}-flagged`);
     
     if (savedAnswer) {
@@ -64,24 +62,29 @@ function Question() {
       } else {
         setFreeResponseAnswer(savedAnswer);
       }
-      setCheckedAnswer(savedAnswer);
     } else {
       setSelectedAnswer("");
       setFreeResponseAnswer("");
-      setCheckedAnswer("");
     }
     
-    if (savedCorrect === 'true') {
-      setChecked(true);
-      setAnswerIsCorrect(true);
-      setCheckButtonVariant("success");
-    } else if (savedCorrect === 'false') {
-      setChecked(true);
-      setAnswerIsCorrect(false);
-      setCheckButtonVariant("destructive");
+    if (savedCheckedAnswers) {
+      const parsed = JSON.parse(savedCheckedAnswers);
+      setCheckedAnswers(parsed);
+      // Set button variant based on if any answer was correct
+      const hasCorrect = Object.values(parsed).some(v => v === true);
+      if (hasCorrect) {
+        setChecked(true);
+        setCheckButtonVariant("success");
+      } else if (Object.keys(parsed).length > 0) {
+        setChecked(true);
+        setCheckButtonVariant("destructive");
+      } else {
+        setChecked(false);
+        setCheckButtonVariant("default");
+      }
     } else {
+      setCheckedAnswers({});
       setChecked(false);
-      setAnswerIsCorrect(null);
       setCheckButtonVariant("default");
     }
     
@@ -143,6 +146,11 @@ function Question() {
       return;
     }
 
+    // Don't re-check an already checked answer
+    if (checkedAnswers[userAnswer] !== undefined) {
+      return;
+    }
+
     const normalizeAnswer = (answer: string) => {
       return answer.toString().trim().toLowerCase().replace(/\s+/g, '');
     };
@@ -150,14 +158,14 @@ function Question() {
     const isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(currentQuestion.correctAnswer);
 
     setChecked(true);
-    setCheckedAnswer(userAnswer);
-    setAnswerIsCorrect(isCorrect);
+    const newCheckedAnswers = { ...checkedAnswers, [userAnswer]: isCorrect };
+    setCheckedAnswers(newCheckedAnswers);
     const newAttemptCount = attemptCount + 1;
     setAttemptCount(newAttemptCount);
 
     // Save answer state to localStorage
     localStorage.setItem(`question-${questionNumber}-answer`, userAnswer);
-    localStorage.setItem(`question-${questionNumber}-correct`, isCorrect.toString());
+    localStorage.setItem(`question-${questionNumber}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
 
     if (isCorrect) {
       setCheckButtonVariant("success");
@@ -272,8 +280,7 @@ function Question() {
               }}
               onCheck={handleCheck}
               strikeoutMode={strikeoutMode}
-              checkedAnswer={checkedAnswer}
-              isCorrect={answerIsCorrect}
+              checkedAnswers={checkedAnswers}
               questionId={questionNumber}
             />
           ) : (
