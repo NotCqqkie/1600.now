@@ -16,6 +16,7 @@ interface MultipleChoiceQuestionProps {
   strikeoutMode?: boolean;
   checkedAnswer?: string;
   isCorrect?: boolean | null;
+  questionId: number;
 }
 
 export const MultipleChoiceQuestion = ({ 
@@ -25,10 +26,21 @@ export const MultipleChoiceQuestion = ({
   onCheck,
   strikeoutMode = false,
   checkedAnswer,
-  isCorrect
+  isCorrect,
+  questionId
 }: MultipleChoiceQuestionProps) => {
   const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
   const choiceRefs = useRef<{ [key: string]: HTMLSpanElement | null }>({});
+
+  // Load strikeouts from localStorage on mount and when questionId changes
+  useEffect(() => {
+    const saved = localStorage.getItem(`question-${questionId}-strikeouts`);
+    if (saved) {
+      setStruckOut(new Set(JSON.parse(saved)));
+    } else {
+      setStruckOut(new Set());
+    }
+  }, [questionId]);
 
   useEffect(() => {
     // Render mixed content (HTML text + KaTeX math) for each choice
@@ -50,6 +62,8 @@ export const MultipleChoiceQuestion = ({
       } else {
         newSet.add(choiceId);
       }
+      // Save to localStorage
+      localStorage.setItem(`question-${questionId}-strikeouts`, JSON.stringify([...newSet]));
       return newSet;
     });
   };
