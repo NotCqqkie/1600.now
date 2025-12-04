@@ -52,12 +52,40 @@ function Question() {
       questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
     }
     
-    setChecked(false);
-    setSelectedAnswer("");
-    setFreeResponseAnswer("");
-    setCheckButtonVariant("default");
-    setCheckedAnswer("");
-    setAnswerIsCorrect(null);
+    // Load saved answer state from localStorage
+    const savedAnswer = localStorage.getItem(`question-${questionNumber}-answer`);
+    const savedCorrect = localStorage.getItem(`question-${questionNumber}-correct`);
+    const savedStatus = localStorage.getItem(`question-${questionNumber}-status`);
+    const savedFlagged = localStorage.getItem(`question-${questionNumber}-flagged`);
+    
+    if (savedAnswer) {
+      if (currentQuestion?.type === 'multiple-choice') {
+        setSelectedAnswer(savedAnswer);
+      } else {
+        setFreeResponseAnswer(savedAnswer);
+      }
+      setCheckedAnswer(savedAnswer);
+    } else {
+      setSelectedAnswer("");
+      setFreeResponseAnswer("");
+      setCheckedAnswer("");
+    }
+    
+    if (savedCorrect === 'true') {
+      setChecked(true);
+      setAnswerIsCorrect(true);
+      setCheckButtonVariant("success");
+    } else if (savedCorrect === 'false') {
+      setChecked(true);
+      setAnswerIsCorrect(false);
+      setCheckButtonVariant("destructive");
+    } else {
+      setChecked(false);
+      setAnswerIsCorrect(null);
+      setCheckButtonVariant("default");
+    }
+    
+    setMarkedForReview(savedFlagged === 'true');
     setAttemptCount(0);
   }, [questionNumber, currentQuestion]);
 
@@ -127,26 +155,21 @@ function Question() {
     const newAttemptCount = attemptCount + 1;
     setAttemptCount(newAttemptCount);
 
+    // Save answer state to localStorage
+    localStorage.setItem(`question-${questionNumber}-answer`, userAnswer);
+    localStorage.setItem(`question-${questionNumber}-correct`, isCorrect.toString());
+
     if (isCorrect) {
       setCheckButtonVariant("success");
-      toast.success("Correct!");
       
       // Save status to localStorage
       const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
       localStorage.setItem(`question-${questionNumber}-status`, status);
     } else {
       setCheckButtonVariant("destructive");
-      toast.error("Incorrect. Try again!");
       
       // Save incorrect status
       localStorage.setItem(`question-${questionNumber}-status`, 'incorrect');
-      
-      setTimeout(() => {
-        setChecked(false);
-        setCheckButtonVariant("default");
-        setCheckedAnswer("");
-        setAnswerIsCorrect(null);
-      }, 1500);
     }
   };
 
@@ -243,11 +266,15 @@ function Question() {
             <MultipleChoiceQuestion 
               choices={currentQuestion.choices}
               selectedAnswer={selectedAnswer}
-              onAnswerChange={setSelectedAnswer}
+              onAnswerChange={(answer) => {
+                setSelectedAnswer(answer);
+                localStorage.setItem(`question-${questionNumber}-answer`, answer);
+              }}
               onCheck={handleCheck}
               strikeoutMode={strikeoutMode}
               checkedAnswer={checkedAnswer}
               isCorrect={answerIsCorrect}
+              questionId={questionNumber}
             />
           ) : (
             <div className="space-y-3">
