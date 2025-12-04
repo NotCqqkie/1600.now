@@ -14,8 +14,7 @@ interface MultipleChoiceQuestionProps {
   onAnswerChange?: (answer: string) => void;
   onCheck?: () => void;
   strikeoutMode?: boolean;
-  checkedAnswer?: string;
-  isCorrect?: boolean | null;
+  checkedAnswers?: Record<string, boolean>;
   questionId: number;
 }
 
@@ -25,8 +24,7 @@ export const MultipleChoiceQuestion = ({
   onAnswerChange,
   onCheck,
   strikeoutMode = false,
-  checkedAnswer,
-  isCorrect,
+  checkedAnswers = {},
   questionId
 }: MultipleChoiceQuestionProps) => {
   const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
@@ -55,12 +53,18 @@ export const MultipleChoiceQuestion = ({
 
   const toggleStrikeout = (choiceId: string, e: React.MouseEvent) => {
     e.stopPropagation();
+    const isCurrentlySelected = selectedAnswer === choiceId;
+    
     setStruckOut(prev => {
       const newSet = new Set(prev);
       if (newSet.has(choiceId)) {
         newSet.delete(choiceId);
       } else {
         newSet.add(choiceId);
+        // If striking out the selected answer, unselect it
+        if (isCurrentlySelected && onAnswerChange) {
+          onAnswerChange("");
+        }
       }
       // Save to localStorage
       localStorage.setItem(`question-${questionId}-strikeouts`, JSON.stringify([...newSet]));
@@ -73,9 +77,9 @@ export const MultipleChoiceQuestion = ({
       {choices.map((choice) => {
         const isSelected = selectedAnswer === choice.id;
         const isStruckOut = struckOut.has(choice.id);
-        const wasChecked = checkedAnswer === choice.id;
-        const showCorrect = wasChecked && isCorrect === true;
-        const showIncorrect = wasChecked && isCorrect === false;
+        const wasChecked = checkedAnswers[choice.id] !== undefined;
+        const showCorrect = wasChecked && checkedAnswers[choice.id] === true;
+        const showIncorrect = wasChecked && checkedAnswers[choice.id] === false;
         
         // If struck out, show the strikethrough view
         if (isStruckOut) {
@@ -123,7 +127,7 @@ export const MultipleChoiceQuestion = ({
               onClick={(e) => {
                 e.preventDefault();
                 e.stopPropagation();
-                if (!strikeoutMode && onAnswerChange) {
+                if (onAnswerChange) {
                   onAnswerChange(choice.id);
                 }
               }}
@@ -152,8 +156,8 @@ export const MultipleChoiceQuestion = ({
                 />
               </div>
               
-              {/* Check button - only shows on selected choice when not already checked correct */}
-              {isSelected && onCheck && !showCorrect && (
+              {/* Check button - only shows on selected choice when not already checked */}
+              {isSelected && onCheck && !wasChecked && (
                 <Button
                   size="sm"
                   variant="outline"
