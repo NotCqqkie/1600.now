@@ -1,7 +1,7 @@
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
-import { Flag } from "lucide-react";
+import { Flag, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface NavigationSheetProps {
@@ -20,6 +20,7 @@ const isQuestionFlagged = (questionNum: number): boolean => {
 
 export const NavigationSheet = ({ currentQuestion }: NavigationSheetProps) => {
   const navigate = useNavigate();
+  const [isOpen, setIsOpen] = useState(false);
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -34,68 +35,99 @@ export const NavigationSheet = ({ currentQuestion }: NavigationSheetProps) => {
     }
   };
 
+  // Close on escape key
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsOpen(false);
+    };
+    if (isOpen) {
+      document.addEventListener('keydown', handleEscape);
+    }
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, [isOpen]);
+
   return (
-    <Sheet>
-      <SheetTrigger asChild>
-        <Button variant="outline" size="sm">
-          Question {currentQuestion}
-        </Button>
-      </SheetTrigger>
-      <SheetContent side="bottom" className="h-auto max-h-[400px]">
-        <SheetHeader className="pb-3">
-          <SheetTitle className="text-lg">Question Navigator</SheetTitle>
-        </SheetHeader>
-        
-        {/* Color Key */}
-        <div className="flex flex-wrap gap-3 items-center justify-center py-2 border-b mb-3 text-xs">
-          <div className="flex items-center gap-1.5">
-            <div className="w-4 h-4 bg-green-500 rounded border border-green-600" />
-            <span>Correct (1st)</span>
+    <>
+      <Button 
+        variant="outline" 
+        size="sm"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        Question {currentQuestion}
+      </Button>
+
+      {/* Overlay - positioned above bottom nav, doesn't block clicks outside */}
+      {isOpen && (
+        <div 
+          className="fixed left-1/2 -translate-x-1/2 bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 w-[90vw] max-w-[600px] max-h-[50vh] overflow-hidden"
+        >
+          {/* Header */}
+          <div className="flex items-center justify-between pb-3 border-b mb-3">
+            <h3 className="text-lg font-semibold">Question Navigator</h3>
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="h-8 w-8 p-0"
+              onClick={() => setIsOpen(false)}
+            >
+              <X className="h-4 w-4" />
+            </Button>
           </div>
-          <div className="flex items-center gap-1.5">
-            <div className="w-4 h-4 bg-yellow-500 rounded border border-yellow-600" />
-            <span>Correct (Later)</span>
+          
+          {/* Color Key */}
+          <div className="flex flex-wrap gap-3 items-center justify-center py-2 border-b mb-3 text-xs">
+            <div className="flex items-center gap-1.5">
+              <div className="w-4 h-4 bg-green-500 rounded border border-green-600" />
+              <span>Correct (1st)</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <div className="w-4 h-4 bg-yellow-500 rounded border border-yellow-600" />
+              <span>Correct (Later)</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <div className="w-4 h-4 bg-red-500 rounded border border-red-600" />
+              <span>Incorrect</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <div className="w-4 h-4 bg-background rounded border-2 border-border" />
+              <span>Unanswered</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <Flag className="h-4 w-4 fill-destructive text-destructive" />
+              <span>Flagged</span>
+            </div>
           </div>
-          <div className="flex items-center gap-1.5">
-            <div className="w-4 h-4 bg-red-500 rounded border border-red-600" />
-            <span>Incorrect</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <div className="w-4 h-4 bg-background rounded border-2 border-border" />
-            <span>Unanswered</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <Flag className="h-4 w-4 fill-destructive text-destructive" />
-            <span>Flagged</span>
+
+          {/* Question Grid - Compact */}
+          <div className="grid grid-cols-10 gap-1.5 overflow-auto max-h-[calc(50vh-150px)] pb-2">
+            {Array.from({ length: 100 }, (_, i) => i + 1).map((num) => {
+              const status = getQuestionStatus(num);
+              const isFlagged = isQuestionFlagged(num);
+              const isCurrent = num === currentQuestion;
+
+              return (
+                <button
+                  key={num}
+                  onClick={() => {
+                    navigate(`/question/${num}`);
+                    setIsOpen(false);
+                  }}
+                  className={cn(
+                    "h-9 flex items-center justify-center rounded border-2 transition-colors text-xs font-medium relative",
+                    getStatusColor(status),
+                    isCurrent && "ring-2 ring-primary ring-offset-2"
+                  )}
+                >
+                  {isFlagged && (
+                    <Flag className="absolute -top-1 -right-1 h-3 w-3 fill-destructive text-destructive" />
+                  )}
+                  <span className={status !== 'unanswered' ? 'text-white' : ''}>{num}</span>
+                </button>
+              );
+            })}
           </div>
         </div>
-
-        {/* Question Grid - Compact */}
-        <div className="grid grid-cols-10 gap-1.5 overflow-auto max-h-[250px] pb-2">
-          {Array.from({ length: 100 }, (_, i) => i + 1).map((num) => {
-            const status = getQuestionStatus(num);
-            const isFlagged = isQuestionFlagged(num);
-            const isCurrent = num === currentQuestion;
-
-            return (
-              <button
-                key={num}
-                onClick={() => navigate(`/question/${num}`)}
-                className={cn(
-                  "h-9 flex items-center justify-center rounded border-2 transition-colors text-xs font-medium relative",
-                  getStatusColor(status),
-                  isCurrent && "ring-2 ring-primary ring-offset-2"
-                )}
-              >
-                {isFlagged && (
-                  <Flag className="absolute -top-1 -right-1 h-3 w-3 fill-destructive text-destructive" />
-                )}
-                <span className={status !== 'unanswered' ? 'text-white' : ''}>{num}</span>
-              </button>
-            );
-          })}
-        </div>
-      </SheetContent>
-    </Sheet>
+      )}
+    </>
   );
 };
