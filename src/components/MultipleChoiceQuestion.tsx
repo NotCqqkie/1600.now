@@ -131,12 +131,17 @@ export const MultipleChoiceQuestion = ({
           );
         }
         
+        // If already checked, don't allow selection
+        const isLocked = wasChecked;
+        
         return (
           <div key={choice.id} className="relative flex items-center gap-2 pr-16">
             {/* Main choice card */}
             <div
               className={cn(
-                "flex-1 flex items-center gap-3 rounded-xl border-2 border-border p-4 hover:bg-muted/50 transition-colors cursor-pointer",
+                "flex-1 flex items-center gap-3 rounded-xl border-2 border-border p-4 transition-colors",
+                !isLocked && "hover:bg-muted/50 cursor-pointer",
+                isLocked && "cursor-not-allowed opacity-80",
                 isSelected && !showCorrect && !showIncorrect && "border-primary bg-primary/5",
                 showCorrect && "border-green-500 bg-green-500/10",
                 showIncorrect && "border-destructive bg-destructive/10"
@@ -144,6 +149,8 @@ export const MultipleChoiceQuestion = ({
               onClick={(e) => {
                 e.preventDefault();
                 e.stopPropagation();
+                // Don't allow selection if already checked
+                if (isLocked) return;
                 if (onAnswerChange) {
                   onAnswerChange(choice.id);
                 }
