@@ -51,42 +51,15 @@ function Question() {
       questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
     }
     
-    // Load saved answer state from localStorage
-    const savedAnswer = localStorage.getItem(`question-${questionNumber}-answer`);
-    const savedCheckedAnswers = localStorage.getItem(`question-${questionNumber}-checkedAnswers`);
+    // Load saved flagged state from localStorage, but reset answer/check state
     const savedFlagged = localStorage.getItem(`question-${questionNumber}-flagged`);
     
-    if (savedAnswer) {
-      if (currentQuestion?.type === 'multiple-choice') {
-        setSelectedAnswer(savedAnswer);
-      } else {
-        setFreeResponseAnswer(savedAnswer);
-      }
-    } else {
-      setSelectedAnswer("");
-      setFreeResponseAnswer("");
-    }
-    
-    if (savedCheckedAnswers) {
-      const parsed = JSON.parse(savedCheckedAnswers);
-      setCheckedAnswers(parsed);
-      // Set button variant based on if any answer was correct
-      const hasCorrect = Object.values(parsed).some(v => v === true);
-      if (hasCorrect) {
-        setChecked(true);
-        setCheckButtonVariant("success");
-      } else if (Object.keys(parsed).length > 0) {
-        setChecked(true);
-        setCheckButtonVariant("destructive");
-      } else {
-        setChecked(false);
-        setCheckButtonVariant("default");
-      }
-    } else {
-      setCheckedAnswers({});
-      setChecked(false);
-      setCheckButtonVariant("default");
-    }
+    // Always reset selection and check states when navigating to a question
+    setSelectedAnswer("");
+    setFreeResponseAnswer("");
+    setCheckedAnswers({});
+    setChecked(false);
+    setCheckButtonVariant("default");
     
     setMarkedForReview(savedFlagged === 'true');
     setAttemptCount(0);
@@ -242,7 +215,7 @@ function Question() {
                 setMarkedForReview(newValue);
                 localStorage.setItem(`question-${questionNumber}-flagged`, newValue.toString());
               }}
-              className={markedForReview ? "text-destructive" : ""}
+              className={`${markedForReview ? "text-destructive" : ""} hover:bg-transparent`}
             >
               <Bookmark className={markedForReview ? "fill-current" : ""} />
               Mark for Review
