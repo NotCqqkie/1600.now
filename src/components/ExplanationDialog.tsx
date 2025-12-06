@@ -10,7 +10,7 @@ export const ExplanationDialog = ({ videoUrl }: ExplanationDialogProps) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="secondary" size="sm">
+        <Button variant="secondary">
           <Youtube className="mr-2 h-4 w-4" />
           Explanation
         </Button>
