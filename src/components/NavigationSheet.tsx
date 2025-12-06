@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
-import { Flag, X } from "lucide-react";
+import { Bookmark, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface NavigationSheetProps {
@@ -93,13 +93,13 @@ export const NavigationSheet = ({ currentQuestion }: NavigationSheetProps) => {
               <span>Unanswered</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <Flag className="h-4 w-4 fill-destructive text-destructive" />
-              <span>Flagged</span>
+              <Bookmark className="h-4 w-4 fill-destructive text-destructive" />
+              <span>Marked for Review</span>
             </div>
           </div>
 
           {/* Question Grid - Compact */}
-          <div className="grid grid-cols-10 gap-1.5 overflow-auto max-h-[calc(50vh-150px)] pb-2">
+          <div className="grid grid-cols-10 gap-2 overflow-auto max-h-[calc(50vh-150px)] p-2">
             {Array.from({ length: 100 }, (_, i) => i + 1).map((num) => {
               const status = getQuestionStatus(num);
               const isFlagged = isQuestionFlagged(num);
@@ -115,11 +115,11 @@ export const NavigationSheet = ({ currentQuestion }: NavigationSheetProps) => {
                   className={cn(
                     "h-9 flex items-center justify-center rounded border-2 transition-colors text-xs font-medium relative",
                     getStatusColor(status),
-                    isCurrent && "ring-2 ring-primary ring-offset-2"
+                    isCurrent && "ring-2 ring-primary ring-offset-1"
                   )}
                 >
                   {isFlagged && (
-                    <Flag className="absolute -top-1 -right-1 h-3 w-3 fill-destructive text-destructive" />
+                    <Bookmark className="absolute -top-1.5 -right-1.5 h-3.5 w-3.5 fill-destructive text-destructive" />
                   )}
                   <span className={status !== 'unanswered' ? 'text-white' : ''}>{num}</span>
                 </button>
