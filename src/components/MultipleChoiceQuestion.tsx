@@ -84,7 +84,7 @@ export const MultipleChoiceQuestion = ({
         // If struck out, show the strikethrough view
         if (isStruckOut) {
           return (
-            <div key={choice.id} className="relative flex items-center gap-3 pr-16">
+            <div key={choice.id} className={cn("relative flex items-center gap-3", strikeoutMode && "pr-16")}>
               {/* Main choice card - clickable to unstrikeout and select */}
               <div 
                 className="flex-1 flex items-center gap-3 rounded-xl border-2 border-border bg-muted/30 p-4 cursor-pointer hover:bg-muted/50 transition-colors"
@@ -118,15 +118,20 @@ export const MultipleChoiceQuestion = ({
                 </div>
               </div>
               {/* Full-width strikethrough line - extends slightly beyond box */}
-              <div className="absolute top-1/2 left-[-4px] right-[52px] h-[2px] bg-muted-foreground/40 -translate-y-1/2 pointer-events-none" />
+              <div className={cn(
+                "absolute top-1/2 left-[-4px] h-[2px] bg-muted-foreground/40 -translate-y-1/2 pointer-events-none",
+                strikeoutMode ? "right-[52px]" : "right-0"
+              )} />
               
-              {/* Undo button - vertically centered */}
-              <button
-                className="absolute right-0 top-1/2 -translate-y-1/2 text-foreground underline font-medium text-sm hover:text-primary transition-colors shrink-0"
-                onClick={(e) => toggleStrikeout(choice.id, e)}
-              >
-                Undo
-              </button>
+              {/* Undo button - only shows when strikeout mode is active */}
+              {strikeoutMode && (
+                <button
+                  className="absolute right-0 top-1/2 -translate-y-1/2 text-foreground underline font-medium text-sm hover:text-primary transition-colors shrink-0"
+                  onClick={(e) => toggleStrikeout(choice.id, e)}
+                >
+                  Undo
+                </button>
+              )}
             </div>
           );
         }
