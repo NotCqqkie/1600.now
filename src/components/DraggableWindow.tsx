@@ -14,6 +14,7 @@ interface DraggableWindowProps {
   splitPosition?: number;
   enableSplitScreen?: boolean;
   diagonalResizeOnly?: boolean;
+  lockAspectRatio?: boolean;
   windowId?: string;
 }
 
@@ -28,6 +29,7 @@ export const DraggableWindow = ({
   splitPosition = 50,
   enableSplitScreen = true,
   diagonalResizeOnly = false,
+  lockAspectRatio = false,
   windowId = "default",
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
@@ -121,25 +123,78 @@ export const DraggableWindow = ({
         // Minimum sizes
         const minWidth = 400;
         const minHeight = 300;
+        
+        // Calculate aspect ratio for locked resizing
+        const aspectRatio = resizeStart.width / resizeStart.height;
 
-        if (isResizing.includes('right')) {
-          newWidth = Math.max(minWidth, Math.min(resizeStart.width + deltaX, window.innerWidth - position.x));
-        }
-        if (isResizing.includes('left')) {
-          const proposedWidth = resizeStart.width - deltaX;
-          if (proposedWidth >= minWidth) {
-            newWidth = proposedWidth;
-            newX = resizeStart.posX + deltaX;
+        if (lockAspectRatio && diagonalResizeOnly) {
+          // Use the larger delta to determine resize amount, maintaining aspect ratio
+          const absDeltaX = Math.abs(deltaX);
+          const absDeltaY = Math.abs(deltaY);
+          const useDeltaX = absDeltaX > absDeltaY;
+          
+          if (isResizing.includes('right') && isResizing.includes('bottom')) {
+            if (useDeltaX) {
+              newWidth = Math.max(minWidth, resizeStart.width + deltaX);
+              newHeight = newWidth / aspectRatio;
+            } else {
+              newHeight = Math.max(minHeight, resizeStart.height + deltaY);
+              newWidth = newHeight * aspectRatio;
+            }
+          } else if (isResizing.includes('left') && isResizing.includes('bottom')) {
+            if (useDeltaX) {
+              newWidth = Math.max(minWidth, resizeStart.width - deltaX);
+              newHeight = newWidth / aspectRatio;
+              newX = resizeStart.posX + resizeStart.width - newWidth;
+            } else {
+              newHeight = Math.max(minHeight, resizeStart.height + deltaY);
+              newWidth = newHeight * aspectRatio;
+              newX = resizeStart.posX + resizeStart.width - newWidth;
+            }
+          } else if (isResizing.includes('right') && isResizing.includes('top')) {
+            if (useDeltaX) {
+              newWidth = Math.max(minWidth, resizeStart.width + deltaX);
+              newHeight = newWidth / aspectRatio;
+              newY = resizeStart.posY + resizeStart.height - newHeight;
+            } else {
+              newHeight = Math.max(minHeight, resizeStart.height - deltaY);
+              newWidth = newHeight * aspectRatio;
+              newY = resizeStart.posY + resizeStart.height - newHeight;
+            }
+          } else if (isResizing.includes('left') && isResizing.includes('top')) {
+            if (useDeltaX) {
+              newWidth = Math.max(minWidth, resizeStart.width - deltaX);
+              newHeight = newWidth / aspectRatio;
+              newX = resizeStart.posX + resizeStart.width - newWidth;
+              newY = resizeStart.posY + resizeStart.height - newHeight;
+            } else {
+              newHeight = Math.max(minHeight, resizeStart.height - deltaY);
+              newWidth = newHeight * aspectRatio;
+              newX = resizeStart.posX + resizeStart.width - newWidth;
+              newY = resizeStart.posY + resizeStart.height - newHeight;
+            }
           }
-        }
-        if (isResizing.includes('bottom')) {
-          newHeight = Math.max(minHeight, Math.min(resizeStart.height + deltaY, window.innerHeight - position.y));
-        }
-        if (isResizing.includes('top')) {
-          const proposedHeight = resizeStart.height - deltaY;
-          if (proposedHeight >= minHeight) {
-            newHeight = proposedHeight;
-            newY = resizeStart.posY + deltaY;
+        } else {
+          // Normal resizing
+          if (isResizing.includes('right')) {
+            newWidth = Math.max(minWidth, Math.min(resizeStart.width + deltaX, window.innerWidth - position.x));
+          }
+          if (isResizing.includes('left')) {
+            const proposedWidth = resizeStart.width - deltaX;
+            if (proposedWidth >= minWidth) {
+              newWidth = proposedWidth;
+              newX = resizeStart.posX + deltaX;
+            }
+          }
+          if (isResizing.includes('bottom')) {
+            newHeight = Math.max(minHeight, Math.min(resizeStart.height + deltaY, window.innerHeight - position.y));
+          }
+          if (isResizing.includes('top')) {
+            const proposedHeight = resizeStart.height - deltaY;
+            if (proposedHeight >= minHeight) {
+              newHeight = proposedHeight;
+              newY = resizeStart.posY + deltaY;
+            }
           }
         }
 

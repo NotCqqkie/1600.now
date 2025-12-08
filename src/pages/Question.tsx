@@ -175,7 +175,7 @@ function Question() {
       {/* Split Screen Divider */}
       {isSplitScreenActive && (
         <div 
-          className="fixed top-0 bottom-0 w-1 bg-border hover:bg-primary/50 cursor-col-resize z-50 transition-colors"
+          className="fixed top-0 bottom-0 w-1 bg-border hover:bg-primary/50 cursor-col-resize z-30 transition-colors"
           style={{ left: `${splitPosition}%` }}
           onMouseDown={() => setIsResizingSplit(true)}
         />

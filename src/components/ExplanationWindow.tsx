@@ -36,6 +36,7 @@ export const ExplanationWindow = ({
         splitPosition={splitPosition}
         enableSplitScreen={true}
         diagonalResizeOnly={true}
+        lockAspectRatio={true}
         windowId="explanation"
       >
         <div className="w-full h-full p-4">
