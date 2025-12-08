@@ -5,7 +5,7 @@ import referenceSheet from "@/assets/sat-reference-sheet.png";
 import { DraggableWindow } from "./DraggableWindow";
 
 interface FormulaSheetDialogProps {
-  onSplitScreenChange?: (isSplit: boolean) => void;
+  onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   splitPosition?: number;
 }
 
@@ -28,6 +28,7 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition }: Formu
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
         enableSplitScreen={false}
+        windowId="referenceSheet"
       >
         <div className="w-full h-full overflow-auto p-4">
           <img
