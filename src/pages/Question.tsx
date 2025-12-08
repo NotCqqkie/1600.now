@@ -25,10 +25,26 @@ function Question() {
   const [strikeoutMode, setStrikeoutMode] = useState(false);
   const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
-  const [isSplitScreenActive, setIsSplitScreenActive] = useState(false);
+  const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
   const [splitPosition, setSplitPosition] = useState(50);
   const [isResizingSplit, setIsResizingSplit] = useState(false);
   const [attemptCount, setAttemptCount] = useState(0);
+
+  // Compute if any window is in split screen mode
+  const isSplitScreenActive = splitScreenWindows.size > 0;
+
+  // Handle split screen changes from windows
+  const handleSplitScreenChange = (isSplit: boolean, windowId: string) => {
+    setSplitScreenWindows(prev => {
+      const newSet = new Set(prev);
+      if (isSplit) {
+        newSet.add(windowId);
+      } else {
+        newSet.delete(windowId);
+      }
+      return newSet;
+    });
+  };
 
   // Reset split position when split screen is deactivated
   useEffect(() => {
@@ -182,11 +198,11 @@ function Question() {
             </Button>
             <div className="flex gap-2">
               <FormulaSheetDialog 
-                onSplitScreenChange={setIsSplitScreenActive}
+                onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
               />
               <DesmosDialog 
-                onSplitScreenChange={setIsSplitScreenActive}
+                onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
               />
             </div>
@@ -295,7 +311,7 @@ function Question() {
             {/* Right: Explanation, Check, Next */}
             <div className="flex gap-2 shrink-0">
               <ExplanationWindow 
-                onSplitScreenChange={setIsSplitScreenActive}
+                onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
               />
               <Button 

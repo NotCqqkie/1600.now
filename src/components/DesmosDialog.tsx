@@ -4,7 +4,7 @@ import { Calculator } from "lucide-react";
 import { DraggableWindow } from "./DraggableWindow";
 
 interface DesmosDialogProps {
-  onSplitScreenChange?: (isSplit: boolean) => void;
+  onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   splitPosition?: number;
 }
 
@@ -27,6 +27,7 @@ export const DesmosDialog = ({ onSplitScreenChange, splitPosition }: DesmosDialo
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
         enableSplitScreen={true}
+        windowId="desmos"
       >
         <iframe
           src="https://www.desmos.com/testing/cb-sat-ap/graphing"
