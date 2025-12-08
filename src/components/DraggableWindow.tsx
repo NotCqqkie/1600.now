@@ -89,14 +89,16 @@ export const DraggableWindow = ({
         const newX = e.clientX - dragOffset.x;
         const newY = e.clientY - dragOffset.y;
         
-        // Keep window within viewport bounds (same for both minimized and normal)
-        const currentWidth = isMinimized ? size.width : size.width;
+        // Keep window within viewport bounds
         const currentHeight = isMinimized ? 56 : size.height;
-        const maxX = window.innerWidth - currentWidth;
+        // Ensure at least 100px of window width stays visible horizontally
+        const minVisibleWidth = 100;
+        const maxX = window.innerWidth - minVisibleWidth;
+        const minX = -(size.width - minVisibleWidth);
         const maxY = window.innerHeight - currentHeight;
         
         setPosition({
-          x: Math.max(0, Math.min(newX, maxX)),
+          x: Math.max(minX, Math.min(newX, maxX)),
           y: Math.max(0, Math.min(newY, maxY)),
         });
       }

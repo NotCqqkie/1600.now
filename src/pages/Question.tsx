@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { NavigationSheet } from "@/components/NavigationSheet";
 import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
-import { ExplanationDialog } from "@/components/ExplanationDialog";
+import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { ChevronLeft, ChevronRight, Check, Bookmark, Strikethrough } from "lucide-react";
 import { toast } from "sonner";
@@ -294,7 +294,10 @@ function Question() {
 
             {/* Right: Explanation, Check, Next */}
             <div className="flex gap-2 shrink-0">
-              <ExplanationDialog />
+              <ExplanationWindow 
+                onSplitScreenChange={setIsSplitScreenActive}
+                splitPosition={splitPosition}
+              />
               <Button 
                 onClick={handleCheck}
                 disabled={checked && checkButtonVariant === "success"}
