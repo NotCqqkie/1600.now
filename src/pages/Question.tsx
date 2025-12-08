@@ -289,27 +289,28 @@ function Question() {
 
       {/* Bottom Navigation - Fixed at bottom */}
       <div 
-        className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-20"
+        className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40"
         style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
       >
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex justify-between items-center gap-4">
+        <div className="container mx-auto px-4 py-3">
+          <div className={`flex items-center gap-2 ${splitPosition < 55 && isSplitScreenActive ? 'flex-wrap justify-center' : 'justify-between'}`}>
             {/* Left: Previous Button */}
             <Button
               variant="outline"
               onClick={handlePrevious}
               disabled={questionNumber === 1}
               className="shrink-0"
+              size={splitPosition < 55 && isSplitScreenActive ? "sm" : "default"}
             >
-              <ChevronLeft className="mr-2 h-4 w-4" />
-              Previous
+              <ChevronLeft className="mr-1 h-4 w-4" />
+              <span className={splitPosition < 52 && isSplitScreenActive ? "hidden" : ""}>Previous</span>
             </Button>
 
             {/* Center: Navigation Sheet */}
             <NavigationSheet currentQuestion={questionNumber} />
 
             {/* Right: Explanation, Check, Next */}
-            <div className="flex gap-2 shrink-0">
+            <div className={`flex gap-2 shrink-0 ${splitPosition < 55 && isSplitScreenActive ? 'flex-wrap justify-center' : ''}`}>
               <ExplanationWindow 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
@@ -319,16 +320,18 @@ function Question() {
                 disabled={checked && checkButtonVariant === "success"}
                 variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
                 className={checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""}
+                size={splitPosition < 55 && isSplitScreenActive ? "sm" : "default"}
               >
-                <Check className="mr-2 h-4 w-4" />
-                Check
+                <Check className="mr-1 h-4 w-4" />
+                <span className={splitPosition < 52 && isSplitScreenActive ? "hidden" : ""}>Check</span>
               </Button>
               <Button
                 onClick={handleNext}
                 disabled={questionNumber === 100}
+                size={splitPosition < 55 && isSplitScreenActive ? "sm" : "default"}
               >
-                Next
-                <ChevronRight className="ml-2 h-4 w-4" />
+                <span className={splitPosition < 52 && isSplitScreenActive ? "hidden" : ""}>Next</span>
+                <ChevronRight className="ml-1 h-4 w-4" />
               </Button>
             </div>
           </div>
