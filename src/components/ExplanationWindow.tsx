@@ -8,13 +8,17 @@ interface ExplanationWindowProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   splitPosition?: number;
   compressed?: boolean;
+  onFocus?: () => void;
+  zIndex?: number;
 }
 
 export const ExplanationWindow = ({ 
   videoUrl,
   onSplitScreenChange,
   splitPosition = 50,
-  compressed = false
+  compressed = false,
+  onFocus,
+  zIndex = 50
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -40,6 +44,8 @@ export const ExplanationWindow = ({
         diagonalResizeOnly={true}
         lockAspectRatio={true}
         windowId="explanation"
+        onFocus={onFocus}
+        zIndex={zIndex}
       >
         <div className="w-full h-full flex flex-col">
           <div className="flex-1 w-full flex items-center justify-center bg-muted">
