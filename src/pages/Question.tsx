@@ -36,21 +36,37 @@ function Question() {
   // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
-  // Measure actual available space and compress only when buttons would overlap
+  const buttonsContainerRef = useRef<HTMLDivElement>(null);
+
+  // Measure actual available space and compress when buttons are fully compressed (no gap between them)
   useEffect(() => {
     const checkOverflow = () => {
-      if (bottomNavRef.current) {
-        const container = bottomNavRef.current;
-        const containerWidth = container.offsetWidth;
-        // Compress when width is very tight - buttons can't shrink further
-        setShouldCompress(containerWidth < 480);
+      if (buttonsContainerRef.current) {
+        const container = buttonsContainerRef.current;
+        const buttons = container.querySelectorAll('button');
+        
+        if (buttons.length >= 2) {
+          // Get the positions of adjacent buttons
+          let totalButtonsWidth = 0;
+          buttons.forEach(btn => {
+            totalButtonsWidth += btn.offsetWidth;
+          });
+          
+          // Calculate available space vs total buttons width
+          // If buttons take up nearly all space (within 24px gap allowance), compress
+          const containerWidth = container.offsetWidth;
+          const minGapSpace = 24; // minimum gap between buttons
+          const isCompressed = totalButtonsWidth + minGapSpace >= containerWidth;
+          
+          setShouldCompress(isCompressed);
+        }
       }
     };
     
     checkOverflow();
     window.addEventListener('resize', checkOverflow);
     // Also check when split position changes
-    const timeout = setTimeout(checkOverflow, 100);
+    const timeout = setTimeout(checkOverflow, 50);
     return () => {
       window.removeEventListener('resize', checkOverflow);
       clearTimeout(timeout);
@@ -211,10 +227,10 @@ function Question() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
-      {/* Split Screen Divider */}
+      {/* Split Screen Divider - z-index 20 to stay below windows (50+) */}
       {isSplitScreenActive && (
         <div 
-          className="fixed top-0 bottom-0 w-3 cursor-col-resize z-30 flex items-center justify-center group"
+          className="fixed top-0 bottom-0 w-3 cursor-col-resize z-20 flex items-center justify-center group"
           style={{ left: `calc(${splitPosition}% - 6px)` }}
           onMouseDown={() => setIsResizingSplit(true)}
         >
@@ -356,7 +372,7 @@ function Question() {
             <NavigationSheet currentQuestion={questionNumber} />
 
             {/* Right: Explanation, Check, Next */}
-            <div className="flex gap-2 shrink-0">
+            <div ref={buttonsContainerRef} className="flex gap-2 shrink-0">
               <ExplanationWindow 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
