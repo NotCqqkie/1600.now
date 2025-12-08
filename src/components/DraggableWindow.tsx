@@ -99,7 +99,9 @@ export const DraggableWindow = ({
         const minVisibleWidth = 100;
         const maxX = window.innerWidth - minVisibleWidth;
         const minX = -(size.width - minVisibleWidth);
-        const maxY = window.innerHeight - currentHeight;
+        // Reserve space for the bottom navigation bar (approx 72px)
+        const bottomBarHeight = 80;
+        const maxY = window.innerHeight - currentHeight - bottomBarHeight;
         
         setPosition({
           x: Math.max(minX, Math.min(newX, maxX)),
