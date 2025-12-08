@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -29,17 +29,28 @@ function Question() {
   const [splitPosition, setSplitPosition] = useState(50);
   const [isResizingSplit, setIsResizingSplit] = useState(false);
   const [attemptCount, setAttemptCount] = useState(0);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  // Track window resize
-  useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  const [shouldCompress, setShouldCompress] = useState(false);
+  const bottomNavRef = useRef<HTMLDivElement>(null);
 
   // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
+
+  // Measure actual available space and compress only when buttons would overflow
+  useEffect(() => {
+    const checkOverflow = () => {
+      if (bottomNavRef.current) {
+        const container = bottomNavRef.current;
+        const containerWidth = container.offsetWidth;
+        // Calculate minimum width needed for all buttons with text
+        const minWidthNeeded = 560;
+        setShouldCompress(containerWidth < minWidthNeeded);
+      }
+    };
+    
+    checkOverflow();
+    window.addEventListener('resize', checkOverflow);
+    return () => window.removeEventListener('resize', checkOverflow);
+  }, [splitPosition, isSplitScreenActive]);
 
   // Handle split screen changes from windows
   const handleSplitScreenChange = (isSplit: boolean, windowId: string) => {
@@ -296,66 +307,57 @@ function Question() {
       </main>
 
       {/* Bottom Navigation - Fixed at bottom */}
-      {(() => {
-        // Calculate actual available width in pixels
-        const availableWidth = isSplitScreenActive 
-          ? (windowWidth * splitPosition) / 100 
-          : windowWidth;
-        // Compress buttons when available width is less than 580px
-        const shouldCompress = availableWidth < 580;
-        
-        return (
-          <div 
-            className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40"
-            style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
-          >
-            <div className="container mx-auto px-4 py-3">
-              <div className="flex items-center gap-2 justify-between">
-                {/* Left: Previous Button */}
-                <Button
-                  variant="outline"
-                  onClick={handlePrevious}
-                  disabled={questionNumber === 1}
-                  className="shrink-0"
-                  size={shouldCompress ? "sm" : "default"}
-                >
-                  <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-                  {!shouldCompress && <span>Previous</span>}
-                </Button>
+      <div 
+        ref={bottomNavRef}
+        className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40"
+        style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
+      >
+        <div className="container mx-auto px-4 py-3">
+          <div className="flex items-center gap-2 justify-between">
+            {/* Left: Previous Button */}
+            <Button
+              variant="outline"
+              onClick={handlePrevious}
+              disabled={questionNumber === 1}
+              className="shrink-0"
+              size={shouldCompress ? "sm" : "default"}
+            >
+              <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+              {!shouldCompress && <span>Previous</span>}
+            </Button>
 
-                {/* Center: Navigation Sheet */}
-                <NavigationSheet currentQuestion={questionNumber} />
+            {/* Center: Navigation Sheet */}
+            <NavigationSheet currentQuestion={questionNumber} />
 
-                {/* Right: Explanation, Check, Next */}
-                <div className="flex gap-2 shrink-0">
-                  <ExplanationWindow 
-                    onSplitScreenChange={handleSplitScreenChange}
-                    splitPosition={splitPosition}
-                  />
-                  <Button 
-                    onClick={handleCheck}
-                    disabled={checked && checkButtonVariant === "success"}
-                    variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
-                    className={checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""}
-                    size={shouldCompress ? "sm" : "default"}
-                  >
-                    <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-                    {!shouldCompress && <span>Check</span>}
-                  </Button>
-                  <Button
-                    onClick={handleNext}
-                    disabled={questionNumber === 100}
-                    size={shouldCompress ? "sm" : "default"}
-                  >
-                    {!shouldCompress && <span>Next</span>}
-                    <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
-                  </Button>
-                </div>
-              </div>
+            {/* Right: Explanation, Check, Next */}
+            <div className="flex gap-2 shrink-0">
+              <ExplanationWindow 
+                onSplitScreenChange={handleSplitScreenChange}
+                splitPosition={splitPosition}
+                compressed={shouldCompress}
+              />
+              <Button 
+                onClick={handleCheck}
+                disabled={checked && checkButtonVariant === "success"}
+                variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
+                className={checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""}
+                size={shouldCompress ? "sm" : "default"}
+              >
+                <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+                {!shouldCompress && <span>Check</span>}
+              </Button>
+              <Button
+                onClick={handleNext}
+                disabled={questionNumber === 100}
+                size={shouldCompress ? "sm" : "default"}
+              >
+                {!shouldCompress && <span>Next</span>}
+                <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
+              </Button>
             </div>
           </div>
-        );
-      })()}
+        </div>
+      </div>
     </div>
   );
 }
