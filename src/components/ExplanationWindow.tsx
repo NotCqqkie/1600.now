@@ -5,7 +5,7 @@ import { DraggableWindow } from "./DraggableWindow";
 
 interface ExplanationWindowProps {
   videoUrl?: string;
-  onSplitScreenChange?: (isSplit: boolean) => void;
+  onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   splitPosition?: number;
 }
 
@@ -35,6 +35,8 @@ export const ExplanationWindow = ({
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
         enableSplitScreen={true}
+        diagonalResizeOnly={true}
+        windowId="explanation"
       >
         <div className="w-full h-full p-4">
           <div className="aspect-video bg-muted rounded-md flex items-center justify-center h-full">
