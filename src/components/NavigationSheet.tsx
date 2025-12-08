@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { Bookmark, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-
 interface NavigationSheetProps {
   currentQuestion: number;
 }
@@ -13,15 +12,14 @@ const getQuestionStatus = (questionNum: number): string => {
   const status = localStorage.getItem(`question-${questionNum}-status`);
   return status || 'unanswered';
 };
-
 const isQuestionFlagged = (questionNum: number): boolean => {
   return localStorage.getItem(`question-${questionNum}-flagged`) === 'true';
 };
-
-export const NavigationSheet = ({ currentQuestion }: NavigationSheetProps) => {
+export const NavigationSheet = ({
+  currentQuestion
+}: NavigationSheetProps) => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
-
   const getStatusColor = (status: string) => {
     switch (status) {
       case 'correct-first':
@@ -45,31 +43,17 @@ export const NavigationSheet = ({ currentQuestion }: NavigationSheetProps) => {
     }
     return () => document.removeEventListener('keydown', handleEscape);
   }, [isOpen]);
-
-  return (
-    <>
-      <Button 
-        variant="outline" 
-        size="sm"
-        onClick={() => setIsOpen(!isOpen)}
-      >
+  return <>
+      <Button variant="outline" size="sm" onClick={() => setIsOpen(!isOpen)}>
         Question {currentQuestion}
       </Button>
 
       {/* Overlay - positioned above bottom nav, doesn't block clicks outside */}
-      {isOpen && (
-        <div 
-          className="fixed left-1/2 -translate-x-1/2 bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 w-[90vw] max-w-[600px] max-h-[50vh] overflow-hidden"
-        >
+      {isOpen && <div className="fixed left-1/2 -translate-x-1/2 bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 w-[90vw] max-w-[600px] max-h-[50vh] overflow-hidden">
           {/* Header */}
           <div className="flex items-center justify-between pb-3 border-b mb-3">
             <h3 className="text-lg font-semibold">Question Navigator</h3>
-            <Button 
-              variant="ghost" 
-              size="sm" 
-              className="h-8 w-8 p-0"
-              onClick={() => setIsOpen(false)}
-            >
+            <Button variant="ghost" size="sm" className="h-8 w-8 p-0" onClick={() => setIsOpen(false)}>
               <X className="h-4 w-4" />
             </Button>
           </div>
@@ -78,7 +62,7 @@ export const NavigationSheet = ({ currentQuestion }: NavigationSheetProps) => {
           <div className="flex flex-wrap gap-3 items-center justify-center py-2 border-b mb-3 text-xs">
             <div className="flex items-center gap-1.5">
               <div className="w-4 h-4 bg-green-500 rounded border border-green-600" />
-              <span>Correct (1st)</span>
+              <span>Correct </span>
             </div>
             <div className="flex items-center gap-1.5">
               <div className="w-4 h-4 bg-yellow-500 rounded border border-yellow-600" />
@@ -100,34 +84,21 @@ export const NavigationSheet = ({ currentQuestion }: NavigationSheetProps) => {
 
           {/* Question Grid - Compact */}
           <div className="grid grid-cols-10 gap-2 overflow-auto max-h-[calc(50vh-150px)] p-2">
-            {Array.from({ length: 100 }, (_, i) => i + 1).map((num) => {
-              const status = getQuestionStatus(num);
-              const isFlagged = isQuestionFlagged(num);
-              const isCurrent = num === currentQuestion;
-
-              return (
-                <button
-                  key={num}
-                  onClick={() => {
-                    navigate(`/question/${num}`);
-                    setIsOpen(false);
-                  }}
-                  className={cn(
-                    "h-9 flex items-center justify-center rounded border-2 transition-colors text-xs font-medium relative",
-                    getStatusColor(status),
-                    isCurrent && "ring-2 ring-primary ring-offset-1"
-                  )}
-                >
-                  {isFlagged && (
-                    <Bookmark className="absolute -top-1.5 -right-1.5 h-3.5 w-3.5 fill-destructive text-destructive" />
-                  )}
+            {Array.from({
+          length: 100
+        }, (_, i) => i + 1).map(num => {
+          const status = getQuestionStatus(num);
+          const isFlagged = isQuestionFlagged(num);
+          const isCurrent = num === currentQuestion;
+          return <button key={num} onClick={() => {
+            navigate(`/question/${num}`);
+            setIsOpen(false);
+          }} className={cn("h-9 flex items-center justify-center rounded border-2 transition-colors text-xs font-medium relative", getStatusColor(status), isCurrent && "ring-2 ring-primary ring-offset-1")}>
+                  {isFlagged && <Bookmark className="absolute -top-1.5 -right-1.5 h-3.5 w-3.5 fill-destructive text-destructive" />}
                   <span className={status !== 'unanswered' ? 'text-white' : ''}>{num}</span>
-                </button>
-              );
-            })}
+                </button>;
+        })}
           </div>
-        </div>
-      )}
-    </>
-  );
+        </div>}
+    </>;
 };
