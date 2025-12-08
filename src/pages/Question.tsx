@@ -30,26 +30,31 @@ function Question() {
   const [isResizingSplit, setIsResizingSplit] = useState(false);
   const [attemptCount, setAttemptCount] = useState(0);
   const [shouldCompress, setShouldCompress] = useState(false);
+  const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation']);
   const bottomNavRef = useRef<HTMLDivElement>(null);
 
   // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
-  // Measure actual available space and compress only when buttons would overflow
+  // Measure actual available space and compress only when buttons would overlap
   useEffect(() => {
     const checkOverflow = () => {
       if (bottomNavRef.current) {
         const container = bottomNavRef.current;
         const containerWidth = container.offsetWidth;
-        // Calculate minimum width needed for all buttons with text
-        const minWidthNeeded = 560;
-        setShouldCompress(containerWidth < minWidthNeeded);
+        // Compress when width is very tight - buttons can't shrink further
+        setShouldCompress(containerWidth < 480);
       }
     };
     
     checkOverflow();
     window.addEventListener('resize', checkOverflow);
-    return () => window.removeEventListener('resize', checkOverflow);
+    // Also check when split position changes
+    const timeout = setTimeout(checkOverflow, 100);
+    return () => {
+      window.removeEventListener('resize', checkOverflow);
+      clearTimeout(timeout);
+    };
   }, [splitPosition, isSplitScreenActive]);
 
   // Handle split screen changes from windows
@@ -63,6 +68,21 @@ function Question() {
       }
       return newSet;
     });
+  };
+
+  // Bring a window to front
+  const bringToFront = (windowId: string) => {
+    setWindowOrder(prev => {
+      const newOrder = prev.filter(id => id !== windowId);
+      newOrder.push(windowId);
+      return newOrder;
+    });
+  };
+
+  // Get z-index for a window
+  const getZIndex = (windowId: string) => {
+    const index = windowOrder.indexOf(windowId);
+    return 50 + index;
   };
 
   // Reset split position when split screen is deactivated
@@ -194,10 +214,12 @@ function Question() {
       {/* Split Screen Divider */}
       {isSplitScreenActive && (
         <div 
-          className="fixed top-0 bottom-0 w-1 bg-border hover:bg-primary/50 cursor-col-resize z-30 transition-colors"
-          style={{ left: `${splitPosition}%` }}
+          className="fixed top-0 bottom-0 w-3 cursor-col-resize z-30 flex items-center justify-center group"
+          style={{ left: `calc(${splitPosition}% - 6px)` }}
           onMouseDown={() => setIsResizingSplit(true)}
-        />
+        >
+          <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
+        </div>
       )}
 
       {/* Header */}
@@ -219,10 +241,14 @@ function Question() {
               <FormulaSheetDialog 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
+                onFocus={() => bringToFront('referenceSheet')}
+                zIndex={getZIndex('referenceSheet')}
               />
               <DesmosDialog 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
+                onFocus={() => bringToFront('desmos')}
+                zIndex={getZIndex('desmos')}
               />
             </div>
           </div>
@@ -335,6 +361,8 @@ function Question() {
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
                 compressed={shouldCompress}
+                onFocus={() => bringToFront('explanation')}
+                zIndex={getZIndex('explanation')}
               />
               <Button 
                 onClick={handleCheck}

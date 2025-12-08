@@ -16,6 +16,8 @@ interface DraggableWindowProps {
   diagonalResizeOnly?: boolean;
   lockAspectRatio?: boolean;
   windowId?: string;
+  onFocus?: () => void;
+  zIndex?: number;
 }
 
 export const DraggableWindow = ({
@@ -31,6 +33,8 @@ export const DraggableWindow = ({
   diagonalResizeOnly = false,
   lockAspectRatio = false,
   windowId = "default",
+  onFocus,
+  zIndex = 50,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
@@ -57,6 +61,11 @@ export const DraggableWindow = ({
   }, [isOpen, defaultWidth, defaultHeight, windowId]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
+    // Bring window to front on any click
+    if (onFocus) {
+      onFocus();
+    }
+    
     if (!isSplitScreen && (e.target as HTMLElement).closest(".window-header")) {
       // Allow dragging even when minimized
       setIsDragging(true);
@@ -250,7 +259,7 @@ export const DraggableWindow = ({
     <div
       ref={windowRef}
       className={cn(
-        "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden z-50",
+        "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden",
         isDragging ? "cursor-grabbing" : "",
         isSplitScreen ? "pointer-events-auto" : ""
       )}
@@ -259,6 +268,7 @@ export const DraggableWindow = ({
         top: position.y,
         width: size.width,
         height: isMinimized ? '56px' : size.height,
+        zIndex: zIndex,
       }}
       onMouseDown={handleMouseDown}
     >
