@@ -22,8 +22,8 @@ export const DesmosDialog = ({ onSplitScreenChange, splitPosition }: DesmosDialo
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         title="Desmos"
-        defaultWidth={900}
-        defaultHeight={650}
+        defaultWidth={720}
+        defaultHeight={520}
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
         enableSplitScreen={true}
