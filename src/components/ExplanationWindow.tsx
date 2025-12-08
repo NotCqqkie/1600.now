@@ -7,12 +7,14 @@ interface ExplanationWindowProps {
   videoUrl?: string;
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   splitPosition?: number;
+  compressed?: boolean;
 }
 
 export const ExplanationWindow = ({ 
   videoUrl,
   onSplitScreenChange,
-  splitPosition = 50
+  splitPosition = 50,
+  compressed = false
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -22,9 +24,9 @@ export const ExplanationWindow = ({
 
   return (
     <>
-      <Button variant="secondary" onClick={handleToggle}>
-        <Youtube className="mr-2 h-4 w-4" />
-        Explanation
+      <Button variant="secondary" onClick={handleToggle} size={compressed ? "sm" : "default"}>
+        <Youtube className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+        {!compressed && "Explanation"}
       </Button>
       <DraggableWindow
         isOpen={isOpen}
