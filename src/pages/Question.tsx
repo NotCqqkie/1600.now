@@ -215,10 +215,10 @@ function Question() {
                 setMarkedForReview(newValue);
                 localStorage.setItem(`question-${questionNumber}-flagged`, newValue.toString());
               }}
-              className={`${markedForReview ? "text-destructive" : ""} hover:bg-transparent hover:text-current`}
+              className="text-foreground hover:bg-transparent hover:text-foreground"
             >
-              <Bookmark className={markedForReview ? "fill-current" : ""} />
-              Mark for Review
+              <Bookmark className={markedForReview ? "text-destructive fill-destructive" : "text-foreground"} />
+              <span className="text-foreground">Mark for Review</span>
             </Button>
             {currentQuestion.type === 'multiple-choice' && (
               <Button
