@@ -39,12 +39,12 @@ export const ExplanationWindow = ({
         lockAspectRatio={true}
         windowId="explanation"
       >
-        <div className="w-full h-full p-4">
-          <div className="aspect-video bg-muted rounded-md flex items-center justify-center h-full">
+        <div className="w-full h-full flex flex-col">
+          <div className="flex-1 w-full flex items-center justify-center bg-muted">
             {videoUrl ? (
               <iframe
                 src={videoUrl}
-                className="w-full h-full rounded-md"
+                className="w-full h-full"
                 title="Explanation Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

@@ -95,13 +95,11 @@ export const DraggableWindow = ({
         const newX = e.clientX - dragOffset.x;
         const newY = e.clientY - dragOffset.y;
         
-        // Keep window within viewport bounds
+        // Keep window fully within viewport bounds (can't go off any edge)
         const currentHeight = isMinimized ? 56 : size.height;
-        // Ensure at least 100px of window width stays visible horizontally
-        const minVisibleWidth = 100;
-        const maxX = window.innerWidth - minVisibleWidth;
-        const minX = -(size.width - minVisibleWidth);
-        // Reserve space for the bottom navigation bar (approx 72px)
+        const maxX = window.innerWidth - size.width;
+        const minX = 0;
+        // Reserve space for the bottom navigation bar (approx 80px)
         const bottomBarHeight = 80;
         const maxY = window.innerHeight - currentHeight - bottomBarHeight;
         
@@ -128,49 +126,40 @@ export const DraggableWindow = ({
         const aspectRatio = resizeStart.width / resizeStart.height;
 
         if (lockAspectRatio && diagonalResizeOnly) {
-          // Use the larger delta to determine resize amount, maintaining aspect ratio
-          const absDeltaX = Math.abs(deltaX);
-          const absDeltaY = Math.abs(deltaY);
-          const useDeltaX = absDeltaX > absDeltaY;
+          // Use combined diagonal movement for smooth aspect-ratio-locked resizing
+          // Calculate the diagonal delta based on the direction
+          let diagonalDelta = 0;
           
           if (isResizing.includes('right') && isResizing.includes('bottom')) {
-            if (useDeltaX) {
-              newWidth = Math.max(minWidth, resizeStart.width + deltaX);
-              newHeight = newWidth / aspectRatio;
-            } else {
-              newHeight = Math.max(minHeight, resizeStart.height + deltaY);
-              newWidth = newHeight * aspectRatio;
-            }
+            diagonalDelta = (deltaX + deltaY) / 2;
+            newWidth = Math.max(minWidth, resizeStart.width + diagonalDelta * 1.5);
+            newHeight = newWidth / aspectRatio;
           } else if (isResizing.includes('left') && isResizing.includes('bottom')) {
-            if (useDeltaX) {
-              newWidth = Math.max(minWidth, resizeStart.width - deltaX);
-              newHeight = newWidth / aspectRatio;
-              newX = resizeStart.posX + resizeStart.width - newWidth;
-            } else {
-              newHeight = Math.max(minHeight, resizeStart.height + deltaY);
-              newWidth = newHeight * aspectRatio;
-              newX = resizeStart.posX + resizeStart.width - newWidth;
-            }
+            diagonalDelta = (-deltaX + deltaY) / 2;
+            newWidth = Math.max(minWidth, resizeStart.width + diagonalDelta * 1.5);
+            newHeight = newWidth / aspectRatio;
+            newX = resizeStart.posX + resizeStart.width - newWidth;
           } else if (isResizing.includes('right') && isResizing.includes('top')) {
-            if (useDeltaX) {
-              newWidth = Math.max(minWidth, resizeStart.width + deltaX);
-              newHeight = newWidth / aspectRatio;
-              newY = resizeStart.posY + resizeStart.height - newHeight;
-            } else {
-              newHeight = Math.max(minHeight, resizeStart.height - deltaY);
-              newWidth = newHeight * aspectRatio;
-              newY = resizeStart.posY + resizeStart.height - newHeight;
-            }
+            diagonalDelta = (deltaX - deltaY) / 2;
+            newWidth = Math.max(minWidth, resizeStart.width + diagonalDelta * 1.5);
+            newHeight = newWidth / aspectRatio;
+            newY = resizeStart.posY + resizeStart.height - newHeight;
           } else if (isResizing.includes('left') && isResizing.includes('top')) {
-            if (useDeltaX) {
-              newWidth = Math.max(minWidth, resizeStart.width - deltaX);
-              newHeight = newWidth / aspectRatio;
+            diagonalDelta = (-deltaX - deltaY) / 2;
+            newWidth = Math.max(minWidth, resizeStart.width + diagonalDelta * 1.5);
+            newHeight = newWidth / aspectRatio;
+            newX = resizeStart.posX + resizeStart.width - newWidth;
+            newY = resizeStart.posY + resizeStart.height - newHeight;
+          }
+          
+          // Ensure minimum height is also respected
+          if (newHeight < minHeight) {
+            newHeight = minHeight;
+            newWidth = newHeight * aspectRatio;
+            if (isResizing.includes('left')) {
               newX = resizeStart.posX + resizeStart.width - newWidth;
-              newY = resizeStart.posY + resizeStart.height - newHeight;
-            } else {
-              newHeight = Math.max(minHeight, resizeStart.height - deltaY);
-              newWidth = newHeight * aspectRatio;
-              newX = resizeStart.posX + resizeStart.width - newWidth;
+            }
+            if (isResizing.includes('top')) {
               newY = resizeStart.posY + resizeStart.height - newHeight;
             }
           }
