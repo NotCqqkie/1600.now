@@ -10,9 +10,11 @@ interface DraggableWindowProps {
   children: React.ReactNode;
   defaultWidth?: number;
   defaultHeight?: number;
-  onSplitScreenChange?: (isSplit: boolean) => void;
+  onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   splitPosition?: number;
   enableSplitScreen?: boolean;
+  diagonalResizeOnly?: boolean;
+  windowId?: string;
 }
 
 export const DraggableWindow = ({
@@ -25,6 +27,8 @@ export const DraggableWindow = ({
   onSplitScreenChange,
   splitPosition = 50,
   enableSplitScreen = true,
+  diagonalResizeOnly = false,
+  windowId = "default",
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
@@ -45,10 +49,10 @@ export const DraggableWindow = ({
       setSize({ width: defaultWidth, height: defaultHeight });
       setIsSplitScreen(false);
       if (onSplitScreenChange) {
-        onSplitScreenChange(false);
+        onSplitScreenChange(false, windowId);
       }
     }
-  }, [isOpen, defaultWidth, defaultHeight]);
+  }, [isOpen, defaultWidth, defaultHeight, windowId]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     if (!isSplitScreen && (e.target as HTMLElement).closest(".window-header")) {
@@ -188,7 +192,7 @@ export const DraggableWindow = ({
     
     // Notify parent component
     if (onSplitScreenChange) {
-      onSplitScreenChange(newSplitState);
+      onSplitScreenChange(newSplitState, windowId);
     }
   };
 
@@ -215,26 +219,32 @@ export const DraggableWindow = ({
       {/* Resize Handles - hidden when minimized */}
       {!isMinimized && (
         <>
-          {/* Top */}
-          <div
-            className={cn(resizeHandleClass, "top-0 left-0 right-0 h-1 cursor-n-resize")}
-            onMouseDown={(e) => handleResizeStart(e, "top")}
-          />
-          {/* Bottom */}
-          <div
-            className={cn(resizeHandleClass, "bottom-0 left-0 right-0 h-1 cursor-s-resize")}
-            onMouseDown={(e) => handleResizeStart(e, "bottom")}
-          />
-          {/* Left */}
-          <div
-            className={cn(resizeHandleClass, "left-0 top-0 bottom-0 w-1 cursor-w-resize")}
-            onMouseDown={(e) => handleResizeStart(e, "left")}
-          />
-          {/* Right */}
-          <div
-            className={cn(resizeHandleClass, "right-0 top-0 bottom-0 w-1 cursor-e-resize")}
-            onMouseDown={(e) => handleResizeStart(e, "right")}
-          />
+          {/* Edge handles - hidden when diagonalResizeOnly is true */}
+          {!diagonalResizeOnly && (
+            <>
+              {/* Top */}
+              <div
+                className={cn(resizeHandleClass, "top-0 left-0 right-0 h-1 cursor-n-resize")}
+                onMouseDown={(e) => handleResizeStart(e, "top")}
+              />
+              {/* Bottom */}
+              <div
+                className={cn(resizeHandleClass, "bottom-0 left-0 right-0 h-1 cursor-s-resize")}
+                onMouseDown={(e) => handleResizeStart(e, "bottom")}
+              />
+              {/* Left */}
+              <div
+                className={cn(resizeHandleClass, "left-0 top-0 bottom-0 w-1 cursor-w-resize")}
+                onMouseDown={(e) => handleResizeStart(e, "left")}
+              />
+              {/* Right */}
+              <div
+                className={cn(resizeHandleClass, "right-0 top-0 bottom-0 w-1 cursor-e-resize")}
+                onMouseDown={(e) => handleResizeStart(e, "right")}
+              />
+            </>
+          )}
+          {/* Corner handles - always available */}
           {/* Top-Left Corner */}
           <div
             className={cn(resizeHandleClass, "top-0 left-0 w-3 h-3 cursor-nw-resize")}
@@ -292,11 +302,11 @@ export const DraggableWindow = ({
             size="icon"
             className="h-8 w-8"
             onClick={() => {
+              if (isSplitScreen && onSplitScreenChange) {
+                onSplitScreenChange(false, windowId);
+              }
               setIsSplitScreen(false);
               setIsMinimized(false);
-              if (onSplitScreenChange) {
-                onSplitScreenChange(false);
-              }
               onClose();
             }}
           >
