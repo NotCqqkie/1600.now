@@ -7,9 +7,11 @@ import { DraggableWindow } from "./DraggableWindow";
 interface FormulaSheetDialogProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   splitPosition?: number;
+  onFocus?: () => void;
+  zIndex?: number;
 }
 
-export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition }: FormulaSheetDialogProps) => {
+export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50 }: FormulaSheetDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -24,11 +26,13 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition }: Formu
         onClose={() => setIsOpen(false)}
         title="Reference Sheet"
         defaultWidth={640}
-        defaultHeight={370}
+        defaultHeight={400}
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
         enableSplitScreen={false}
         windowId="referenceSheet"
+        onFocus={onFocus}
+        zIndex={zIndex}
       >
         <div className="w-full h-full overflow-auto p-4">
           <img
