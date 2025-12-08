@@ -66,7 +66,7 @@ export const NavigationSheet = ({
             </div>
             <div className="flex items-center gap-1.5">
               <div className="w-4 h-4 bg-yellow-500 rounded border border-yellow-600" />
-              <span>Correct (Later)</span>
+              <span>Correct (after attempts)</span>
             </div>
             <div className="flex items-center gap-1.5">
               <div className="w-4 h-4 bg-red-500 rounded border border-red-600" />
