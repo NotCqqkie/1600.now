@@ -894,7 +894,7 @@ export const questions: Question[] = [
   },
   {
     id: 95,
-    text: "A jewelry store has a mega-gold-bar mold in the shape of a rectangular prism with a length of $216$ inches, a width of $32$ inches, and a height of $27$ inches. The equation $c = v(d)$, where $c$ is the total cost in dollars, $v$ is the volume in cubic yards, and $d$ is the cost per cubic yard. If $c$ is equal to &#36;1720, what is the value of $d$ in dollars per cubic yard?\\\\\\\\$1$ yard $= 36$ inches",
+    text: "A jewelry store has a mega-gold-bar mold in the shape of a rectangular prism with a length of $216$ inches, a width of $32$ inches, and a height of $27$ inches. The equation $c = vd$ relates the variables $c$,$v$ and $d$, where $c$ is the total cost in dollars, $v$ is the volume in cubic yards, and $d$ is the cost per cubic yard. If $c$ is equal to &#36;1720, what is the value of $d$ in dollars per cubic yard?\\\\\\\\$1$ yard $= 36$ inches",
     correctAnswer: "430",
     type: "free-response",
   },
