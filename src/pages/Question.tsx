@@ -215,7 +215,7 @@ function Question() {
                 setMarkedForReview(newValue);
                 localStorage.setItem(`question-${questionNumber}-flagged`, newValue.toString());
               }}
-              className={`${markedForReview ? "text-destructive" : ""} hover:bg-transparent hover:text-inherit hover:opacity-80`}
+              className={`${markedForReview ? "text-destructive hover:text-destructive" : ""} hover:bg-transparent hover:opacity-80`}
             >
               <Bookmark className={markedForReview ? "fill-current" : ""} />
               Mark for Review
