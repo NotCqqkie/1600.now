@@ -46,19 +46,19 @@ function Question() {
         const buttons = container.querySelectorAll('button');
         
         if (buttons.length >= 2) {
-          // Get the positions of adjacent buttons
-          let totalButtonsWidth = 0;
-          buttons.forEach(btn => {
-            totalButtonsWidth += btn.offsetWidth;
-          });
-          
-          // Calculate available space vs total buttons width
-          // If buttons take up nearly all space (within 24px gap allowance), compress
+          // Calculate total width needed for full-size buttons (with text)
+          // Approximate widths: Explanation ~110px, Check ~90px, Next ~80px = ~280px + gaps
+          const fullSizeButtonsWidth = 320; // approximate width for all buttons with text + gaps
           const containerWidth = container.offsetWidth;
-          const minGapSpace = 24; // minimum gap between buttons
-          const isCompressed = totalButtonsWidth + minGapSpace >= containerWidth;
           
-          setShouldCompress(isCompressed);
+          // If splitscreen is active or there's enough room for full buttons, don't compress
+          if (isSplitScreenActive) {
+            // With splitscreen, check if there's enough room
+            setShouldCompress(containerWidth < fullSizeButtonsWidth);
+          } else {
+            // Without splitscreen, only compress if browser is very narrow
+            setShouldCompress(containerWidth < fullSizeButtonsWidth);
+          }
         }
       }
     };
