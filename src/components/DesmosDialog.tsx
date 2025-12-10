@@ -14,9 +14,16 @@ interface DesmosDialogProps {
 export const DesmosDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50, constrainToLeft }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleToggle = () => {
+    if (!isOpen && onFocus) {
+      onFocus(); // Bring to front when opening
+    }
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <Button variant="outline" size="sm" onClick={() => setIsOpen(!isOpen)}>
+      <Button variant="outline" size="sm" onClick={handleToggle}>
         <Calculator className="mr-2 h-4 w-4" />
         Desmos
       </Button>
