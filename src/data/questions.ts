@@ -362,7 +362,7 @@ export const questions: Question[] = [
       { id: "A", text: "$\\frac{12}{1.75}c + \\frac{29}{0.65}s = \\$43$" },
       { id: "B", text: "$\\frac{1.75}{12}c + \\frac{0.65}{29}s = \\43$" },
       { id: "C", text: "$\\frac{12}{1.75}s + \\frac{29}{0.65}c = \\43$" },
-      { id: "D", text: "$\\frac{1.75}{12}s + \\frac{0.65}{29}c = \\43$" },
+      { id: "D", text: "$\\frac{1.75}{12}s + \\frac{0.65}{29}c = &dollar;43$" },
     ],
     correctAnswer: "A",
     type: "multiple-choice",
