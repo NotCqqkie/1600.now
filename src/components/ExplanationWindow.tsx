@@ -25,6 +25,9 @@ export const ExplanationWindow = ({
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
+    if (!isOpen && onFocus) {
+      onFocus(); // Bring to front when opening
+    }
     setIsOpen(!isOpen);
   };
 
