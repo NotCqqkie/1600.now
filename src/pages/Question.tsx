@@ -357,25 +357,26 @@ function Question() {
         style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
       >
         <div className="container mx-auto px-4 py-3">
-          <div className="flex items-center gap-2 justify-between relative">
+          <div className="flex items-center gap-2 justify-between">
             {/* Left: Previous Button */}
             <Button
               variant="outline"
               onClick={handlePrevious}
               disabled={questionNumber === 1}
-              className="shrink-0 h-10"
+              className="shrink-0"
+              size={shouldCompress ? "sm" : "default"}
             >
               <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
               {!shouldCompress && <span>Previous</span>}
             </Button>
 
-            {/* Center: Navigation Sheet - absolutely positioned to stay centered */}
-            <div data-nav-sheet className="absolute left-1/2 -translate-x-1/2">
+            {/* Center: Navigation Sheet */}
+            <div data-nav-sheet>
               <NavigationSheet currentQuestion={questionNumber} />
             </div>
 
             {/* Right: Explanation, Check, Next */}
-            <div className="flex gap-2 shrink-0 ml-auto">
+            <div className="flex gap-2 shrink-0">
               <ExplanationWindow 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
@@ -387,7 +388,8 @@ function Question() {
                 onClick={handleCheck}
                 disabled={checked && checkButtonVariant === "success"}
                 variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
-                className={`h-10 ${checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""}`}
+                className={checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""}
+                size={shouldCompress ? "sm" : "default"}
               >
                 <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!shouldCompress && <span>Check</span>}
@@ -395,7 +397,7 @@ function Question() {
               <Button
                 onClick={handleNext}
                 disabled={questionNumber === 100}
-                className="h-10"
+                size={shouldCompress ? "sm" : "default"}
               >
                 {!shouldCompress && <span>Next</span>}
                 <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
