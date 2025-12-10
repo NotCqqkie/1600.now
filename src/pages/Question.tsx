@@ -104,9 +104,9 @@ function Question() {
     return 50 + index * 20;
   };
 
-  // Get divider z-index - should be just below the topmost window but above others
-  // For 3 windows with z-indices 50, 70, 90 - divider should be at 85 (below 90, above 70)
-  const dividerZIndex = 50 + (windowOrder.length - 1) * 20 - 5;
+  // Get divider z-index - should always be below the topmost (focused) window
+  const topmostWindowZIndex = getZIndex(windowOrder[windowOrder.length - 1]);
+  const dividerZIndex = topmostWindowZIndex - 5;
 
   // Reset split position when split screen is deactivated
   useEffect(() => {
