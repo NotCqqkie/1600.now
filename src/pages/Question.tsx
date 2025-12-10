@@ -407,7 +407,11 @@ function Question() {
 
             {/* Center: Navigation Sheet */}
             <div data-nav-sheet>
-              <NavigationSheet currentQuestion={questionNumber} />
+              <NavigationSheet 
+                currentQuestion={questionNumber} 
+                isSplitScreenActive={isSplitScreenActive}
+                splitPosition={splitPosition}
+              />
             </div>
 
             {/* Right: Explanation, Check, Next - fixed width to prevent layout shift */}

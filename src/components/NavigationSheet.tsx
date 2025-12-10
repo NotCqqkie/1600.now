@@ -3,8 +3,11 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { Bookmark, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+
 interface NavigationSheetProps {
   currentQuestion: number;
+  isSplitScreenActive?: boolean;
+  splitPosition?: number;
 }
 
 // Status types: 'unanswered' | 'correct-first' | 'correct-later' | 'incorrect'
@@ -16,10 +19,30 @@ const isQuestionFlagged = (questionNum: number): boolean => {
   return localStorage.getItem(`question-${questionNum}-flagged`) === 'true';
 };
 export const NavigationSheet = ({
-  currentQuestion
+  currentQuestion,
+  isSplitScreenActive = false,
+  splitPosition = 50
 }: NavigationSheetProps) => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
+  
+  // Calculate horizontal center position based on splitscreen state
+  const getCenterStyle = () => {
+    if (isSplitScreenActive) {
+      // Center within the question area (left side of split)
+      const leftPercent = splitPosition / 2;
+      return {
+        left: `${leftPercent}%`,
+        transform: 'translateX(-50%)'
+      };
+    }
+    // Default: center of page
+    return {
+      left: '50%',
+      transform: 'translateX(-50%)'
+    };
+  };
+
   const getStatusColor = (status: string) => {
     switch (status) {
       case 'correct-first':
@@ -48,8 +71,14 @@ export const NavigationSheet = ({
         Question {currentQuestion}
       </Button>
 
-      {/* Overlay - positioned above bottom nav, doesn't block clicks outside */}
-      {isOpen && <div className="fixed left-1/2 -translate-x-1/2 bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 w-[90vw] max-w-[600px] max-h-[50vh] overflow-hidden">
+      {/* Overlay - positioned above bottom nav, centered within question area */}
+      {isOpen && <div 
+        className="fixed bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 max-w-[600px] max-h-[50vh] overflow-hidden"
+        style={{
+          ...getCenterStyle(),
+          width: isSplitScreenActive ? `min(90vw, ${splitPosition - 5}%)` : '90vw'
+        }}
+      >
           {/* Header */}
           <div className="flex items-center justify-between pb-3 border-b mb-3">
             <h3 className="text-lg font-semibold">Question Navigator</h3>
