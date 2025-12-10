@@ -360,9 +360,9 @@ export const questions: Question[] = [
     text: "A bakery sells chocolate chip and snickerdoodle cookies. They earn &#36;12 for every $1.75$ chocolate chip cookies sold and &#36;29 for every $0.65$ snickerdoodles sold. If the bakery made &#36;43 in total, and $c$ represents the number of chocolate chip cookies sold, while $s$ represents the number of snickerdoodles sold, which equation describes all possible combinations of $c$ and $s$ for that day?",
     choices: [
       { id: "A", text: "$\\frac{12}{1.75}c + \\frac{29}{0.65}s = \\text{\\$43}$" },
-      { id: "B", text: "$\\frac{1.75}{12}c + \\frac{0.65}{29}s = \\text{\\$43}$" },
-      { id: "C", text: "$\\frac{12}{1.75}s + \\frac{29}{0.65}c = \\text{\\$43}$" },
-      { id: "D", text: "$\\frac{1.75}{12}s + \\frac{0.65}{29}c = \\text{\\$43}$" },
+      { id: "B", text: "$\\frac{1.75}{12}c + \\frac{0.65}{29}s = \\43$" },
+      { id: "C", text: "$\\frac{12}{1.75}s + \\frac{29}{0.65}c = \\43$" },
+      { id: "D", text: "$\\frac{1.75}{12}s + \\frac{0.65}{29}c = \\43$" },
     ],
     correctAnswer: "A",
     type: "multiple-choice",
