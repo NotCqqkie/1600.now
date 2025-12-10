@@ -89,10 +89,16 @@ export const DraggableWindow = ({
       }
     }
     
-    // Window just closed
+    // Window just closed (via toggle button or any other means)
     if (!isOpen && prevIsOpenRef.current) {
       setIsReady(false);
       setIsMinimized(false);
+      // Clean up splitscreen state when window closes while sidebarred
+      if (isSidebarred) {
+        if (onSplitScreenChange) {
+          onSplitScreenChange(false, windowId);
+        }
+      }
     }
     
     prevIsOpenRef.current = isOpen;

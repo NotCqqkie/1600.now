@@ -43,11 +43,12 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus
         zIndex={zIndex}
         constrainToLeft={constrainToLeft}
       >
-        <div className="w-full h-full overflow-auto p-4">
+        <div className="w-full h-full overflow-auto p-4 select-none">
           <img
             src={referenceSheet}
             alt="SAT Math Reference Formulas"
-            className="w-full h-auto"
+            className="w-full h-auto pointer-events-none"
+            draggable={false}
           />
         </div>
       </DraggableWindow>
