@@ -18,6 +18,7 @@ interface DraggableWindowProps {
   windowId?: string;
   onFocus?: () => void;
   zIndex?: number;
+  constrainToLeft?: number; // Percentage of screen to constrain window to (when something else is sidebarred)
 }
 
 export const DraggableWindow = ({
@@ -35,6 +36,7 @@ export const DraggableWindow = ({
   windowId = "default",
   onFocus,
   zIndex = 50,
+  constrainToLeft,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
@@ -48,17 +50,31 @@ export const DraggableWindow = ({
 
   useEffect(() => {
     if (isOpen) {
-      // Center the window when opened
-      const centerX = (window.innerWidth - defaultWidth) / 2;
-      const centerY = (window.innerHeight - defaultHeight) / 2;
-      setPosition({ x: Math.max(0, centerX), y: Math.max(0, centerY) });
-      setSize({ width: defaultWidth, height: defaultHeight });
+      // Calculate available width - if constrained to left side, use that percentage
+      const availableWidth = constrainToLeft 
+        ? (window.innerWidth * constrainToLeft) / 100 
+        : window.innerWidth;
+      
+      // If constrained, use smaller window size
+      const actualWidth = constrainToLeft 
+        ? Math.min(defaultWidth * 0.7, availableWidth - 40) 
+        : defaultWidth;
+      const actualHeight = constrainToLeft 
+        ? defaultHeight * 0.7 
+        : defaultHeight;
+      
+      // Center within available area
+      const centerX = (availableWidth - actualWidth) / 2;
+      const centerY = (window.innerHeight - actualHeight) / 2;
+      
+      setPosition({ x: Math.max(20, centerX), y: Math.max(60, centerY) });
+      setSize({ width: actualWidth, height: actualHeight });
       setIsSplitScreen(false);
       if (onSplitScreenChange) {
         onSplitScreenChange(false, windowId);
       }
     }
-  }, [isOpen, defaultWidth, defaultHeight, windowId]);
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     // Bring window to front on any click
