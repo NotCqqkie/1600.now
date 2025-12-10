@@ -358,26 +358,24 @@ function Question() {
       >
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center gap-2 justify-between">
-            {/* Left: Previous Button - fixed width to prevent layout shift */}
-            <div className="shrink-0" style={{ minWidth: '100px' }}>
-              <Button
-                variant="outline"
-                onClick={handlePrevious}
-                disabled={questionNumber === 1}
-                className="h-10"
-              >
-                <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-                {!shouldCompress && <span>Previous</span>}
-              </Button>
-            </div>
+            {/* Left: Previous Button */}
+            <Button
+              variant="outline"
+              onClick={handlePrevious}
+              disabled={questionNumber === 1}
+              className="shrink-0 h-10"
+            >
+              <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+              {!shouldCompress && <span>Previous</span>}
+            </Button>
 
             {/* Center: Navigation Sheet */}
             <div data-nav-sheet>
               <NavigationSheet currentQuestion={questionNumber} />
             </div>
 
-            {/* Right: Explanation, Check, Next - fixed width to prevent layout shift */}
-            <div className="flex gap-2 shrink-0 justify-end" style={{ minWidth: '280px' }}>
+            {/* Right: Explanation, Check, Next */}
+            <div className="flex gap-2 shrink-0">
               <ExplanationWindow 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
