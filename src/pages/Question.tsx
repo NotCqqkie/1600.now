@@ -180,11 +180,11 @@ function Question() {
         return;
       }
 
-      if (e.key === 'ArrowLeft') {
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
         if (questionNumber > 1) {
           navigate(`/question/${questionNumber - 1}`);
         }
-      } else if (e.key === 'ArrowRight') {
+      } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
         if (questionNumber < 100) {
           navigate(`/question/${questionNumber + 1}`);
         }
@@ -257,11 +257,11 @@ function Question() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
-      {/* Split Screen Divider - z-index 20 to stay below windows (50+) */}
+      {/* Split Screen Divider - use inline style for z-index to ensure it stays below windows */}
       {isSplitScreenActive && (
         <div 
-          className="fixed top-0 bottom-0 w-3 cursor-col-resize z-20 flex items-center justify-center group"
-          style={{ left: `calc(${splitPosition}% - 6px)` }}
+          className="fixed top-0 bottom-0 w-3 cursor-col-resize flex items-center justify-center group"
+          style={{ left: `calc(${splitPosition}% - 6px)`, zIndex: 10 }}
           onMouseDown={() => setIsResizingSplit(true)}
         >
           <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
