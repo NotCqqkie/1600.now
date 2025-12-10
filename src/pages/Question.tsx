@@ -26,8 +26,8 @@ function Question() {
   const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
+  const [sidebarredWindows, setSidebarredWindows] = useState<Set<string>>(new Set()); // Track which windows SHOULD be sidebarred
   const [splitPosition, setSplitPosition] = useState(50);
-  const [isResizingSplit, setIsResizingSplit] = useState(false);
   const [attemptCount, setAttemptCount] = useState(0);
   const [shouldCompress, setShouldCompress] = useState(false);
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation']);
@@ -88,6 +88,24 @@ function Question() {
     });
   };
 
+  // Handle sidebar toggle from windows - controls whether a window SHOULD be sidebarred
+  const handleSidebarToggle = (windowId: string, shouldBeSidebarred: boolean) => {
+    setSidebarredWindows(prev => {
+      const newSet = new Set(prev);
+      if (shouldBeSidebarred) {
+        newSet.add(windowId);
+      } else {
+        newSet.delete(windowId);
+      }
+      return newSet;
+    });
+  };
+
+  // Handle split position changes from the divider inside DraggableWindow
+  const handleSplitPositionChange = (newPosition: number) => {
+    setSplitPosition(newPosition);
+  };
+
   // Bring a window to front
   const bringToFront = (windowId: string) => {
     setWindowOrder(prev => {
@@ -139,40 +157,6 @@ function Question() {
     setMarkedForReview(savedFlagged === 'true');
     setAttemptCount(0);
   }, [questionNumber, currentQuestion]);
-
-  useEffect(() => {
-    if (!isSplitScreenActive) return;
-
-    // Add/remove noselect class during splitscreen resize
-    if (isResizingSplit) {
-      document.body.classList.add("noselect");
-    } else {
-      document.body.classList.remove("noselect");
-    }
-
-    const handleMouseMove = (e: MouseEvent) => {
-      if (isResizingSplit) {
-        const newPosition = (e.clientX / window.innerWidth) * 100;
-        // Limit between 50% and 70% to prevent button overlap
-        setSplitPosition(Math.max(50, Math.min(70, newPosition)));
-      }
-    };
-
-    const handleMouseUp = () => {
-      setIsResizingSplit(false);
-      document.body.classList.remove("noselect");
-    };
-
-    if (isResizingSplit) {
-      document.addEventListener('mousemove', handleMouseMove);
-      document.addEventListener('mouseup', handleMouseUp);
-    }
-
-    return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
-      document.removeEventListener('mouseup', handleMouseUp);
-    };
-  }, [isResizingSplit, isSplitScreenActive]);
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -283,17 +267,6 @@ function Question() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
-      {/* Split Screen Divider - always at z-index 20, windows start at 50+ */}
-      {isSplitScreenActive && (
-        <div 
-          className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group"
-          style={{ left: `calc(${splitPosition}% - 8px)`, zIndex: 20 }}
-          onMouseDown={() => setIsResizingSplit(true)}
-        >
-          <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
-        </div>
-      )}
-
       {/* Header */}
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div 
@@ -319,10 +292,13 @@ function Question() {
               />
               <DesmosDialog 
                 onSplitScreenChange={handleSplitScreenChange}
+                onSplitPositionChange={handleSplitPositionChange}
                 splitPosition={splitPosition}
                 onFocus={() => bringToFront('desmos')}
                 zIndex={getZIndex('desmos')}
                 constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                isSidebarred={sidebarredWindows.has('desmos')}
+                onSidebarToggle={handleSidebarToggle}
               />
             </div>
           </div>
@@ -436,11 +412,14 @@ function Question() {
             <div className="flex gap-2 shrink-0 justify-end" style={{ minWidth: shouldCompress ? undefined : '280px' }}>
               <ExplanationWindow 
                 onSplitScreenChange={handleSplitScreenChange}
+                onSplitPositionChange={handleSplitPositionChange}
                 splitPosition={splitPosition}
                 compressed={shouldCompress}
                 onFocus={() => bringToFront('explanation')}
                 zIndex={getZIndex('explanation')}
                 constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                isSidebarred={sidebarredWindows.has('explanation')}
+                onSidebarToggle={handleSidebarToggle}
               />
               <Button 
                 onClick={handleCheck}

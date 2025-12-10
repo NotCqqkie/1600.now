@@ -5,13 +5,25 @@ import { DraggableWindow } from "./DraggableWindow";
 
 interface DesmosDialogProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
+  onSplitPositionChange?: (newPosition: number) => void;
   splitPosition?: number;
   onFocus?: () => void;
   zIndex?: number;
   constrainToLeft?: number;
+  isSidebarred?: boolean;
+  onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
 }
 
-export const DesmosDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50, constrainToLeft }: DesmosDialogProps) => {
+export const DesmosDialog = ({ 
+  onSplitScreenChange, 
+  onSplitPositionChange,
+  splitPosition, 
+  onFocus, 
+  zIndex = 50, 
+  constrainToLeft,
+  isSidebarred = false,
+  onSidebarToggle
+}: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
@@ -35,12 +47,15 @@ export const DesmosDialog = ({ onSplitScreenChange, splitPosition, onFocus, zInd
         defaultWidth={640}
         defaultHeight={460}
         onSplitScreenChange={onSplitScreenChange}
+        onSplitPositionChange={onSplitPositionChange}
         splitPosition={splitPosition}
         enableSplitScreen={true}
         windowId="desmos"
         onFocus={onFocus}
         zIndex={zIndex}
         constrainToLeft={constrainToLeft}
+        isSidebarred={isSidebarred}
+        onSidebarToggle={onSidebarToggle}
       >
         <iframe
           src="https://www.desmos.com/testing/cb-sat-ap/graphing"

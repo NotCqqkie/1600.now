@@ -12,13 +12,16 @@ interface DraggableWindowProps {
   defaultHeight?: number;
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   splitPosition?: number;
+  onSplitPositionChange?: (newPosition: number) => void;
   enableSplitScreen?: boolean;
   diagonalResizeOnly?: boolean;
   lockAspectRatio?: boolean;
   windowId?: string;
   onFocus?: () => void;
   zIndex?: number;
-  constrainToLeft?: number; // Percentage of screen to constrain window to (when something else is sidebarred)
+  constrainToLeft?: number;
+  isSidebarred?: boolean; // Controlled sidebar state from parent
+  onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
 }
 
 export const DraggableWindow = ({
@@ -30,6 +33,7 @@ export const DraggableWindow = ({
   defaultHeight = 600,
   onSplitScreenChange,
   splitPosition = 50,
+  onSplitPositionChange,
   enableSplitScreen = true,
   diagonalResizeOnly = false,
   lockAspectRatio = false,
@@ -37,64 +41,114 @@ export const DraggableWindow = ({
   onFocus,
   zIndex = 50,
   constrainToLeft,
+  isSidebarred = false,
+  onSidebarToggle,
 }: DraggableWindowProps) => {
-const [position, setPosition] = useState({ x: 100, y: 100 });
+  const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
   const [isDragging, setIsDragging] = useState(false);
   const [isResizing, setIsResizing] = useState<string | null>(null);
-  const [isSplitScreen, setIsSplitScreen] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
   const [isReady, setIsReady] = useState(false);
+  const [isResizingSplit, setIsResizingSplit] = useState(false);
   const windowRef = useRef<HTMLDivElement>(null);
-  const wasSplitScreenRef = useRef(false);
   const prevIsOpenRef = useRef(false);
 
-  // Calculate initial position and size when window opens
+  // Calculate initial position and size when window opens (only for non-sidebarred windows)
   useEffect(() => {
     // Window just opened
     if (isOpen && !prevIsOpenRef.current) {
-      const availableWidth = constrainToLeft 
-        ? (window.innerWidth * constrainToLeft) / 100 
-        : window.innerWidth;
-      
-      const actualWidth = constrainToLeft 
-        ? Math.min(defaultWidth * 0.7, availableWidth - 40) 
-        : defaultWidth;
-      const actualHeight = constrainToLeft 
-        ? defaultHeight * 0.7 
-        : defaultHeight;
-      
-      const centerX = (availableWidth - actualWidth) / 2;
-      const centerY = (window.innerHeight - actualHeight) / 2;
-      
-      setPosition({ x: Math.max(20, centerX), y: Math.max(60, centerY) });
-      setSize({ width: actualWidth, height: actualHeight });
-      // Always reset to non-split-screen when opening
-      setIsSplitScreen(false);
-      wasSplitScreenRef.current = false;
-      // Show window after position is set
-      requestAnimationFrame(() => setIsReady(true));
+      // If opening as sidebarred, let the sidebar effect handle positioning
+      if (isSidebarred) {
+        // Notify parent that we're in sidebar mode
+        if (onSplitScreenChange) {
+          onSplitScreenChange(true, windowId);
+        }
+        setIsReady(true);
+      } else {
+        // Normal window opening - calculate center position
+        const availableWidth = constrainToLeft 
+          ? (window.innerWidth * constrainToLeft) / 100 
+          : window.innerWidth;
+        
+        const actualWidth = constrainToLeft 
+          ? Math.min(defaultWidth * 0.7, availableWidth - 40) 
+          : defaultWidth;
+        const actualHeight = constrainToLeft 
+          ? defaultHeight * 0.7 
+          : defaultHeight;
+        
+        const centerX = (availableWidth - actualWidth) / 2;
+        const centerY = (window.innerHeight - actualHeight) / 2;
+        
+        setPosition({ x: Math.max(20, centerX), y: Math.max(60, centerY) });
+        setSize({ width: actualWidth, height: actualHeight });
+        requestAnimationFrame(() => setIsReady(true));
+      }
     }
     
     // Window just closed
     if (!isOpen && prevIsOpenRef.current) {
       setIsReady(false);
-      // Clean up split-screen state when window closes
-      if (wasSplitScreenRef.current && onSplitScreenChange) {
-        onSplitScreenChange(false, windowId);
-      }
-      wasSplitScreenRef.current = false;
+      setIsMinimized(false);
     }
     
     prevIsOpenRef.current = isOpen;
-  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, onSplitScreenChange]);
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange]);
 
-  // Track split screen state changes
+  // Handle sidebar mode changes - position window in sidebar
   useEffect(() => {
-    wasSplitScreenRef.current = isSplitScreen;
-  }, [isSplitScreen]);
+    if (!isOpen) return;
+    
+    if (isSidebarred) {
+      const updateSidebarPosition = () => {
+        const splitPixels = (window.innerWidth * splitPosition) / 100;
+        const windowWidth = window.innerWidth - splitPixels;
+        setPosition({ x: splitPixels, y: 0 });
+        setSize({ width: windowWidth, height: window.innerHeight });
+      };
+      
+      updateSidebarPosition();
+      
+      window.addEventListener('resize', updateSidebarPosition);
+      return () => window.removeEventListener('resize', updateSidebarPosition);
+    } else {
+      // Exit sidebar mode - return to center (only if we were previously sidebarred)
+      // This is handled by the toggle function
+    }
+  }, [splitPosition, isSidebarred, isOpen]);
+
+  // Handle split divider resizing
+  useEffect(() => {
+    if (!isSidebarred || !isResizingSplit) return;
+
+    document.body.classList.add("noselect");
+
+    const handleMouseMove = (e: MouseEvent) => {
+      const newPosition = (e.clientX / window.innerWidth) * 100;
+      // Limit between 50% and 70%
+      const clampedPosition = Math.max(50, Math.min(70, newPosition));
+      if (onSplitPositionChange) {
+        onSplitPositionChange(clampedPosition);
+      }
+    };
+
+    const handleMouseUp = () => {
+      setIsResizingSplit(false);
+      document.body.classList.remove("noselect");
+    };
+
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
+
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+      document.body.classList.remove("noselect");
+    };
+  }, [isResizingSplit, isSidebarred, onSplitPositionChange]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     // Bring window to front on any click
@@ -102,7 +156,7 @@ const [position, setPosition] = useState({ x: 100, y: 100 });
       onFocus();
     }
     
-    if (!isSplitScreen && (e.target as HTMLElement).closest(".window-header")) {
+    if (!isSidebarred && (e.target as HTMLElement).closest(".window-header")) {
       // Allow dragging even when minimized
       setIsDragging(true);
       setDragOffset({
@@ -113,7 +167,7 @@ const [position, setPosition] = useState({ x: 100, y: 100 });
   };
 
   const handleResizeStart = (e: React.MouseEvent, edge: string) => {
-    if (isSplitScreen) return; // Don't allow resizing in split screen mode
+    if (isSidebarred) return; // Don't allow resizing in sidebar mode
     e.preventDefault();
     e.stopPropagation();
     setIsResizing(edge);
@@ -252,47 +306,41 @@ const [position, setPosition] = useState({ x: 100, y: 100 });
       document.removeEventListener("mousemove", handleMouseMove);
       document.removeEventListener("mouseup", handleMouseUp);
     };
-  }, [isDragging, isResizing, dragOffset, position, size, resizeStart]);
+  }, [isDragging, isResizing, dragOffset, position, size, resizeStart, isMinimized, lockAspectRatio, diagonalResizeOnly]);
 
-  // Update window position when split position changes OR viewport resizes
-  useEffect(() => {
-    if (!isSplitScreen || !isOpen) return;
+  const toggleSidebar = () => {
+    const newSidebarState = !isSidebarred;
     
-    const updateSplitPosition = () => {
-      const splitPixels = (window.innerWidth * splitPosition) / 100;
-      const windowWidth = window.innerWidth - splitPixels;
-      setPosition({ x: splitPixels, y: 0 });
-      setSize({ width: windowWidth, height: window.innerHeight });
-    };
+    if (onSidebarToggle) {
+      onSidebarToggle(windowId, newSidebarState);
+    }
     
-    updateSplitPosition();
+    // Notify parent of split screen change
+    if (onSplitScreenChange) {
+      onSplitScreenChange(newSidebarState, windowId);
+    }
     
-    // Listen for viewport resize to update split screen windows
-    window.addEventListener('resize', updateSplitPosition);
-    return () => window.removeEventListener('resize', updateSplitPosition);
-  }, [splitPosition, isSplitScreen, isOpen]);
-
-  const toggleSplitScreen = () => {
-    const newSplitState = !isSplitScreen;
-    setIsSplitScreen(newSplitState);
-    
-    if (newSplitState) {
-      // Enable split screen - start at 50%
-      const halfWidth = window.innerWidth * 0.5;
-      setPosition({ x: halfWidth, y: 0 });
-      setSize({ width: halfWidth, height: window.innerHeight });
-    } else {
-      // Disable split screen - return to center
+    if (!newSidebarState) {
+      // Exiting sidebar - return to center
       const centerX = (window.innerWidth - defaultWidth) / 2;
       const centerY = (window.innerHeight - defaultHeight) / 2;
       setPosition({ x: Math.max(0, centerX), y: Math.max(0, centerY) });
       setSize({ width: defaultWidth, height: defaultHeight });
     }
-    
-    // Notify parent component
-    if (onSplitScreenChange) {
-      onSplitScreenChange(newSplitState, windowId);
+  };
+
+  const handleClose = () => {
+    // When closing via X button, fully exit sidebar mode
+    if (isSidebarred) {
+      if (onSidebarToggle) {
+        onSidebarToggle(windowId, false);
+      }
+      if (onSplitScreenChange) {
+        onSplitScreenChange(false, windowId);
+      }
     }
+    setIsMinimized(false);
+    onClose();
   };
 
   if (!isOpen) return null;
@@ -304,125 +352,134 @@ const [position, setPosition] = useState({ x: 100, y: 100 });
     width: size.width,
     height: isMinimized ? '56px' : size.height,
     zIndex: zIndex,
-    visibility: isReady || isSplitScreen ? 'visible' as const : 'hidden' as const,
+    visibility: isReady || isSidebarred ? 'visible' as const : 'hidden' as const,
   };
 
   const resizeHandleClass = "absolute bg-transparent hover:bg-primary/20 transition-colors z-10";
 
   return (
-    <div
-      ref={windowRef}
-      className={cn(
-        "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden",
-        isDragging ? "cursor-grabbing" : "",
-        isSplitScreen ? "pointer-events-auto" : ""
-      )}
-      style={windowStyle}
-      onMouseDown={handleMouseDown}
-    >
-      {/* Resize Handles - hidden when minimized */}
-      {!isMinimized && (
-        <>
-          {/* Edge handles - hidden when diagonalResizeOnly is true */}
-          {!diagonalResizeOnly && (
-            <>
-              {/* Top */}
-              <div
-                className={cn(resizeHandleClass, "top-0 left-0 right-0 h-1 cursor-n-resize")}
-                onMouseDown={(e) => handleResizeStart(e, "top")}
-              />
-              {/* Bottom */}
-              <div
-                className={cn(resizeHandleClass, "bottom-0 left-0 right-0 h-1 cursor-s-resize")}
-                onMouseDown={(e) => handleResizeStart(e, "bottom")}
-              />
-              {/* Left */}
-              <div
-                className={cn(resizeHandleClass, "left-0 top-0 bottom-0 w-1 cursor-w-resize")}
-                onMouseDown={(e) => handleResizeStart(e, "left")}
-              />
-              {/* Right */}
-              <div
-                className={cn(resizeHandleClass, "right-0 top-0 bottom-0 w-1 cursor-e-resize")}
-                onMouseDown={(e) => handleResizeStart(e, "right")}
-              />
-            </>
-          )}
-          {/* Corner handles - always available */}
-          {/* Top-Left Corner */}
-          <div
-            className={cn(resizeHandleClass, "top-0 left-0 w-3 h-3 cursor-nw-resize")}
-            onMouseDown={(e) => handleResizeStart(e, "top-left")}
-          />
-          {/* Top-Right Corner */}
-          <div
-            className={cn(resizeHandleClass, "top-0 right-0 w-3 h-3 cursor-ne-resize")}
-            onMouseDown={(e) => handleResizeStart(e, "top-right")}
-          />
-          {/* Bottom-Left Corner */}
-          <div
-            className={cn(resizeHandleClass, "bottom-0 left-0 w-3 h-3 cursor-sw-resize")}
-            onMouseDown={(e) => handleResizeStart(e, "bottom-left")}
-          />
-          {/* Bottom-Right Corner */}
-          <div
-            className={cn(resizeHandleClass, "bottom-0 right-0 w-3 h-3 cursor-se-resize")}
-            onMouseDown={(e) => handleResizeStart(e, "bottom-right")}
-          />
-        </>
-      )}
-
-      {/* Window Header */}
-      <div className={cn(
-        "window-header flex items-center justify-between px-4 py-3 bg-muted border-b border-border",
-        isSplitScreen ? "cursor-default" : "cursor-grab active:cursor-grabbing"
-      )}>
-        <h3 className="font-semibold text-foreground">{title}</h3>
-        <div className="flex items-center gap-2">
-          {enableSplitScreen && (
-            <Button
-              variant="ghost"
-              size="icon"
-              className={cn("h-8 w-8", isSplitScreen && "bg-primary/20")}
-              onClick={toggleSplitScreen}
-              title={isSplitScreen ? "Exit split screen" : "Split screen"}
-            >
-              <Columns2 className="h-4 w-4" />
-            </Button>
-          )}
-          {!isSplitScreen && (
-            <Button
-              variant="ghost"
-              size="icon"
-              className={cn("h-8 w-8", isMinimized && "bg-primary/20")}
-              onClick={() => setIsMinimized(!isMinimized)}
-              title={isMinimized ? "Maximize" : "Minimize"}
-            >
-              {isMinimized ? <Maximize2 className="h-4 w-4" /> : <Minus className="h-4 w-4" />}
-            </Button>
-          )}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="h-8 w-8"
-            onClick={() => {
-              if (isSplitScreen && onSplitScreenChange) {
-                onSplitScreenChange(false, windowId);
-              }
-              setIsSplitScreen(false);
-              setIsMinimized(false);
-              onClose();
-            }}
-          >
-            <X className="h-4 w-4" />
-          </Button>
+    <>
+      {/* Split Screen Divider - rendered by the sidebarred window */}
+      {isSidebarred && (
+        <div 
+          className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group"
+          style={{ 
+            left: `calc(${splitPosition}% - 8px)`, 
+            zIndex: zIndex + 10 // Always above this window
+          }}
+          onMouseDown={() => setIsResizingSplit(true)}
+        >
+          <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
         </div>
-      </div>
-
-      {/* Window Content */}
-      {!isMinimized && (
-        <div className="flex-1 overflow-hidden bg-background">{children}</div>
       )}
-    </div>
+
+      <div
+        ref={windowRef}
+        className={cn(
+          "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden",
+          isDragging ? "cursor-grabbing" : "",
+          isSidebarred ? "pointer-events-auto rounded-none border-l-2 border-t-0 border-r-0 border-b-0" : ""
+        )}
+        style={windowStyle}
+        onMouseDown={handleMouseDown}
+      >
+        {/* Resize Handles - hidden when minimized or sidebarred */}
+        {!isMinimized && !isSidebarred && (
+          <>
+            {/* Edge handles - hidden when diagonalResizeOnly is true */}
+            {!diagonalResizeOnly && (
+              <>
+                {/* Top */}
+                <div
+                  className={cn(resizeHandleClass, "top-0 left-0 right-0 h-1 cursor-n-resize")}
+                  onMouseDown={(e) => handleResizeStart(e, "top")}
+                />
+                {/* Bottom */}
+                <div
+                  className={cn(resizeHandleClass, "bottom-0 left-0 right-0 h-1 cursor-s-resize")}
+                  onMouseDown={(e) => handleResizeStart(e, "bottom")}
+                />
+                {/* Left */}
+                <div
+                  className={cn(resizeHandleClass, "left-0 top-0 bottom-0 w-1 cursor-w-resize")}
+                  onMouseDown={(e) => handleResizeStart(e, "left")}
+                />
+                {/* Right */}
+                <div
+                  className={cn(resizeHandleClass, "right-0 top-0 bottom-0 w-1 cursor-e-resize")}
+                  onMouseDown={(e) => handleResizeStart(e, "right")}
+                />
+              </>
+            )}
+            {/* Corner handles - always available */}
+            {/* Top-Left Corner */}
+            <div
+              className={cn(resizeHandleClass, "top-0 left-0 w-3 h-3 cursor-nw-resize")}
+              onMouseDown={(e) => handleResizeStart(e, "top-left")}
+            />
+            {/* Top-Right Corner */}
+            <div
+              className={cn(resizeHandleClass, "top-0 right-0 w-3 h-3 cursor-ne-resize")}
+              onMouseDown={(e) => handleResizeStart(e, "top-right")}
+            />
+            {/* Bottom-Left Corner */}
+            <div
+              className={cn(resizeHandleClass, "bottom-0 left-0 w-3 h-3 cursor-sw-resize")}
+              onMouseDown={(e) => handleResizeStart(e, "bottom-left")}
+            />
+            {/* Bottom-Right Corner */}
+            <div
+              className={cn(resizeHandleClass, "bottom-0 right-0 w-3 h-3 cursor-se-resize")}
+              onMouseDown={(e) => handleResizeStart(e, "bottom-right")}
+            />
+          </>
+        )}
+
+        {/* Window Header */}
+        <div className={cn(
+          "window-header flex items-center justify-between px-4 py-3 bg-muted border-b border-border",
+          isSidebarred ? "cursor-default" : "cursor-grab active:cursor-grabbing"
+        )}>
+          <h3 className="font-semibold text-foreground">{title}</h3>
+          <div className="flex items-center gap-2">
+            {enableSplitScreen && (
+              <Button
+                variant="ghost"
+                size="icon"
+                className={cn("h-8 w-8", isSidebarred && "bg-primary/20")}
+                onClick={toggleSidebar}
+                title={isSidebarred ? "Exit split screen" : "Split screen"}
+              >
+                <Columns2 className="h-4 w-4" />
+              </Button>
+            )}
+            {!isSidebarred && (
+              <Button
+                variant="ghost"
+                size="icon"
+                className={cn("h-8 w-8", isMinimized && "bg-primary/20")}
+                onClick={() => setIsMinimized(!isMinimized)}
+                title={isMinimized ? "Maximize" : "Minimize"}
+              >
+                {isMinimized ? <Maximize2 className="h-4 w-4" /> : <Minus className="h-4 w-4" />}
+              </Button>
+            )}
+            <Button
+              variant="ghost"
+              size="icon"
+              className="h-8 w-8"
+              onClick={handleClose}
+            >
+              <X className="h-4 w-4" />
+            </Button>
+          </div>
+        </div>
+
+        {/* Window Content */}
+        {!isMinimized && (
+          <div className="flex-1 overflow-hidden bg-background">{children}</div>
+        )}
+      </div>
+    </>
   );
 };
