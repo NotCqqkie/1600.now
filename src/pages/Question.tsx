@@ -56,7 +56,8 @@ function Question() {
       const prevButtonWidth = 100;
       
       // Total width needed: prev button + nav sheet + right buttons + gaps + padding
-      const totalNeeded = prevButtonWidth + navSheetWidth + buttonsNaturalWidth + 48; // 48px for gaps and padding
+      // Added extra 32px buffer to trigger compression slightly earlier before overlap occurs
+      const totalNeeded = prevButtonWidth + navSheetWidth + buttonsNaturalWidth + 80;
       
       // Compress if we don't have enough space
       setShouldCompress(containerWidth < totalNeeded);
