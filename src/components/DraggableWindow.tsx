@@ -38,7 +38,7 @@ export const DraggableWindow = ({
   zIndex = 50,
   constrainToLeft,
 }: DraggableWindowProps) => {
-  const [position, setPosition] = useState({ x: 100, y: 100 });
+const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
   const [isDragging, setIsDragging] = useState(false);
   const [isResizing, setIsResizing] = useState<string | null>(null);
@@ -46,13 +46,15 @@ export const DraggableWindow = ({
   const [isMinimized, setIsMinimized] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
+  const [isReady, setIsReady] = useState(false);
   const windowRef = useRef<HTMLDivElement>(null);
   const wasOpenRef = useRef(false);
+  const wasSplitScreenRef = useRef(false);
 
   // Only reset position/size when window is FIRST opened (not on prop changes)
   useEffect(() => {
     if (isOpen && !wasOpenRef.current) {
-      // Window just opened - calculate position
+      // Window just opened - calculate position immediately before render
       const availableWidth = constrainToLeft 
         ? (window.innerWidth * constrainToLeft) / 100 
         : window.innerWidth;
@@ -70,12 +72,28 @@ export const DraggableWindow = ({
       setPosition({ x: Math.max(20, centerX), y: Math.max(60, centerY) });
       setSize({ width: actualWidth, height: actualHeight });
       setIsSplitScreen(false);
-      if (onSplitScreenChange) {
-        onSplitScreenChange(false, windowId);
-      }
+      wasSplitScreenRef.current = false;
+      // Use requestAnimationFrame to show window after position is set
+      requestAnimationFrame(() => setIsReady(true));
+    } else if (!isOpen) {
+      // Window closed - reset ready state for next open
+      setIsReady(false);
     }
     wasOpenRef.current = isOpen;
-  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, onSplitScreenChange]);
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft]);
+
+  // Clean up split-screen state when window closes
+  useEffect(() => {
+    if (!isOpen && wasSplitScreenRef.current && onSplitScreenChange) {
+      onSplitScreenChange(false, windowId);
+      wasSplitScreenRef.current = false;
+    }
+  }, [isOpen, onSplitScreenChange, windowId]);
+
+  // Track split screen state changes
+  useEffect(() => {
+    wasSplitScreenRef.current = isSplitScreen;
+  }, [isSplitScreen]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     // Bring window to front on any click
@@ -278,6 +296,16 @@ export const DraggableWindow = ({
 
   if (!isOpen) return null;
 
+  // Hide window until position is calculated to prevent flash
+  const windowStyle = {
+    left: position.x,
+    top: position.y,
+    width: size.width,
+    height: isMinimized ? '56px' : size.height,
+    zIndex: zIndex,
+    visibility: isReady || isSplitScreen ? 'visible' as const : 'hidden' as const,
+  };
+
   const resizeHandleClass = "absolute bg-transparent hover:bg-primary/20 transition-colors z-10";
 
   return (
@@ -288,13 +316,7 @@ export const DraggableWindow = ({
         isDragging ? "cursor-grabbing" : "",
         isSplitScreen ? "pointer-events-auto" : ""
       )}
-      style={{
-        left: position.x,
-        top: position.y,
-        width: size.width,
-        height: isMinimized ? '56px' : size.height,
-        zIndex: zIndex,
-      }}
+      style={windowStyle}
       onMouseDown={handleMouseDown}
     >
       {/* Resize Handles - hidden when minimized */}
