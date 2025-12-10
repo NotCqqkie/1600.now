@@ -363,7 +363,7 @@ function Question() {
               variant="outline"
               onClick={handlePrevious}
               disabled={questionNumber === 1}
-              className="shrink-0 h-10"
+              className={`shrink-0 h-10 ${shouldCompress ? "w-10" : "w-[110px]"}`}
             >
               <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
               {!shouldCompress && <span>Previous</span>}
@@ -387,7 +387,7 @@ function Question() {
                 onClick={handleCheck}
                 disabled={checked && checkButtonVariant === "success"}
                 variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
-                className={`${checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""} h-10`}
+                className={`${checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""} h-10 ${shouldCompress ? "w-10" : "w-[110px]"}`}
               >
                 <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!shouldCompress && <span>Check</span>}
@@ -395,7 +395,7 @@ function Question() {
               <Button
                 onClick={handleNext}
                 disabled={questionNumber === 100}
-                className="h-10"
+                className={`h-10 ${shouldCompress ? "w-10" : "w-[110px]"}`}
               >
                 {!shouldCompress && <span>Next</span>}
                 <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
