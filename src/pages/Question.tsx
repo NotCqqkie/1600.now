@@ -97,10 +97,10 @@ function Question() {
     });
   };
 
-  // Get z-index for a window
+  // Get z-index for a window - use much higher values to ensure windows are always above the split divider
   const getZIndex = (windowId: string) => {
     const index = windowOrder.indexOf(windowId);
-    return 50 + index;
+    return 100 + index * 10;
   };
 
   // Reset split position when split screen is deactivated
