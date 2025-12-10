@@ -97,10 +97,18 @@ function Question() {
     });
   };
 
-  // Get z-index for a window - use much higher values to ensure windows are always above the split divider
+  // Get z-index for a window - windows stack based on interaction order
   const getZIndex = (windowId: string) => {
     const index = windowOrder.indexOf(windowId);
     return 100 + index * 10;
+  };
+
+  // Get divider z-index - should be just below the topmost window but above others
+  const getDividerZIndex = () => {
+    // Topmost window has highest z-index: 100 + (length-1) * 10
+    // Divider should be 5 below that, so it's above other windows but below the top one
+    const topWindowZIndex = 100 + (windowOrder.length - 1) * 10;
+    return topWindowZIndex - 5;
   };
 
   // Reset split position when split screen is deactivated
@@ -281,11 +289,11 @@ function Question() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
-      {/* Split Screen Divider - z-50 to be above header/bottom bar (z-10) but below windows (z-100+) */}
+      {/* Split Screen Divider - below focused window, above unfocused windows */}
       {isSplitScreenActive && (
         <div 
           className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group"
-          style={{ left: `calc(${splitPosition}% - 8px)`, zIndex: 200 }}
+          style={{ left: `calc(${splitPosition}% - 8px)`, zIndex: getDividerZIndex() }}
           onMouseDown={() => setIsResizingSplit(true)}
         >
           <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
