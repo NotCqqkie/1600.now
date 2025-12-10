@@ -172,6 +172,34 @@ function Question() {
     };
   }, [isResizingSplit, isSplitScreenActive]);
 
+  // Keyboard shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Don't trigger if user is typing in an input field
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
+        return;
+      }
+
+      if (e.key === 'ArrowLeft') {
+        if (questionNumber > 1) {
+          navigate(`/question/${questionNumber - 1}`);
+        }
+      } else if (e.key === 'ArrowRight') {
+        if (questionNumber < 100) {
+          navigate(`/question/${questionNumber + 1}`);
+        }
+      } else if (e.key === 'Enter') {
+        const userAnswer = currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer;
+        if (userAnswer && checkedAnswers[userAnswer] === undefined) {
+          handleCheck();
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [questionNumber, navigate, selectedAnswer, freeResponseAnswer, currentQuestion, checkedAnswers]);
+
   const handlePrevious = () => {
     if (questionNumber > 1) {
       navigate(`/question/${questionNumber - 1}`);
