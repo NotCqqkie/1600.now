@@ -358,24 +358,26 @@ function Question() {
       >
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center gap-2 justify-between">
-            {/* Left: Previous Button */}
-            <Button
-              variant="outline"
-              onClick={handlePrevious}
-              disabled={questionNumber === 1}
-              className={`shrink-0 h-10 ${shouldCompress ? "w-10" : "w-[110px]"}`}
-            >
-              <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-              {!shouldCompress && <span>Previous</span>}
-            </Button>
+            {/* Left: Previous Button - fixed width to prevent layout shift */}
+            <div className="shrink-0" style={{ minWidth: shouldCompress ? undefined : '100px' }}>
+              <Button
+                variant="outline"
+                onClick={handlePrevious}
+                disabled={questionNumber === 1}
+                className="h-10"
+              >
+                <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+                {!shouldCompress && <span>Previous</span>}
+              </Button>
+            </div>
 
             {/* Center: Navigation Sheet */}
             <div data-nav-sheet>
               <NavigationSheet currentQuestion={questionNumber} />
             </div>
 
-            {/* Right: Explanation, Check, Next */}
-            <div className="flex gap-2 shrink-0">
+            {/* Right: Explanation, Check, Next - fixed width to prevent layout shift */}
+            <div className="flex gap-2 shrink-0 justify-end" style={{ minWidth: shouldCompress ? undefined : '280px' }}>
               <ExplanationWindow 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
@@ -387,7 +389,7 @@ function Question() {
                 onClick={handleCheck}
                 disabled={checked && checkButtonVariant === "success"}
                 variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
-                className={`${checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""} h-10 ${shouldCompress ? "w-10" : "w-[110px]"}`}
+                className={`${checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""} h-10`}
               >
                 <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!shouldCompress && <span>Check</span>}
@@ -395,7 +397,7 @@ function Question() {
               <Button
                 onClick={handleNext}
                 disabled={questionNumber === 100}
-                className={`h-10 ${shouldCompress ? "w-10" : "w-[110px]"}`}
+                className="h-10"
               >
                 {!shouldCompress && <span>Next</span>}
                 <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
