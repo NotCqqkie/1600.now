@@ -38,27 +38,29 @@ function Question() {
 
   const buttonsContainerRef = useRef<HTMLDivElement>(null);
 
-  // Measure actual available space and compress when buttons are fully compressed (no gap between them)
+  // Detect when buttons can't compress further (gap is at minimum), then switch to icons
   useEffect(() => {
     const checkOverflow = () => {
       if (buttonsContainerRef.current) {
         const container = buttonsContainerRef.current;
-        const buttons = container.querySelectorAll('button');
+        const buttons = Array.from(container.querySelectorAll('button'));
         
         if (buttons.length >= 2) {
-          // Calculate total width needed for full-size buttons (with text)
-          // Approximate widths: Explanation ~110px, Check ~90px, Next ~80px = ~280px + gaps
-          const fullSizeButtonsWidth = 320; // approximate width for all buttons with text + gaps
-          const containerWidth = container.offsetWidth;
+          // Measure actual gap between first two buttons
+          const firstButton = buttons[0];
+          const secondButton = buttons[1];
           
-          // If splitscreen is active or there's enough room for full buttons, don't compress
-          if (isSplitScreenActive) {
-            // With splitscreen, check if there's enough room
-            setShouldCompress(containerWidth < fullSizeButtonsWidth);
-          } else {
-            // Without splitscreen, only compress if browser is very narrow
-            setShouldCompress(containerWidth < fullSizeButtonsWidth);
-          }
+          const firstRect = firstButton.getBoundingClientRect();
+          const secondRect = secondButton.getBoundingClientRect();
+          
+          // Calculate the actual gap between buttons
+          const actualGap = secondRect.left - firstRect.right;
+          
+          // Minimum gap threshold - when gap reaches this, buttons are fully compressed
+          const minGapThreshold = 10; // px - the minimum gap before we switch to icons
+          
+          // If gap is at or below minimum threshold, switch to icons
+          setShouldCompress(actualGap <= minGapThreshold);
         }
       }
     };
