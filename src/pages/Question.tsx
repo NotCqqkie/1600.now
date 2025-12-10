@@ -281,11 +281,11 @@ function Question() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
-      {/* Split Screen Divider - use inline style for z-index to ensure it stays below windows */}
+      {/* Split Screen Divider - z-50 to be above header/bottom bar (z-10) but below windows (z-100+) */}
       {isSplitScreenActive && (
         <div 
-          className="fixed top-0 bottom-0 w-3 cursor-col-resize flex items-center justify-center group"
-          style={{ left: `calc(${splitPosition}% - 6px)`, zIndex: 10 }}
+          className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group"
+          style={{ left: `calc(${splitPosition}% - 8px)`, zIndex: 200 }}
           onMouseDown={() => setIsResizingSplit(true)}
         >
           <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
