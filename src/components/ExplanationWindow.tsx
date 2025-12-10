@@ -28,7 +28,7 @@ export const ExplanationWindow = ({
 
   return (
     <>
-      <Button variant="secondary" onClick={handleToggle} size={compressed ? "sm" : "default"}>
+      <Button variant="secondary" onClick={handleToggle} className="h-10">
         <Youtube className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
         {!compressed && "Explanation"}
       </Button>
