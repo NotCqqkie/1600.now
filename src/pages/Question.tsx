@@ -180,13 +180,37 @@ function Question() {
         return;
       }
 
-      if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      const choices = ['A', 'B', 'C', 'D'];
+
+      if (e.key === 'ArrowLeft') {
         if (questionNumber > 1) {
           navigate(`/question/${questionNumber - 1}`);
         }
-      } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+      } else if (e.key === 'ArrowRight') {
         if (questionNumber < 100) {
           navigate(`/question/${questionNumber + 1}`);
+        }
+      } else if (e.key === 'ArrowUp') {
+        // Cycle to previous answer choice if one is selected
+        if (currentQuestion.type === 'multiple-choice' && selectedAnswer) {
+          const currentIndex = choices.indexOf(selectedAnswer);
+          if (currentIndex > 0) {
+            const newChoice = choices[currentIndex - 1];
+            if (!checkedAnswers[newChoice]) {
+              setSelectedAnswer(newChoice);
+            }
+          }
+        }
+      } else if (e.key === 'ArrowDown') {
+        // Cycle to next answer choice if one is selected
+        if (currentQuestion.type === 'multiple-choice' && selectedAnswer) {
+          const currentIndex = choices.indexOf(selectedAnswer);
+          if (currentIndex < choices.length - 1) {
+            const newChoice = choices[currentIndex + 1];
+            if (!checkedAnswers[newChoice]) {
+              setSelectedAnswer(newChoice);
+            }
+          }
         }
       } else if (e.key === 'Enter') {
         const userAnswer = currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer;
