@@ -32,45 +32,44 @@ function Question() {
   const [shouldCompress, setShouldCompress] = useState(false);
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation']);
   const bottomNavRef = useRef<HTMLDivElement>(null);
+  const measurementRef = useRef<HTMLDivElement>(null);
 
   // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
-  const buttonsContainerRef = useRef<HTMLDivElement>(null);
-
-  // Detect when buttons can't compress further (gap is at minimum), then switch to icons
+  // Use hidden measurement div to determine if buttons need compression
   useEffect(() => {
-    const checkOverflow = () => {
-      if (buttonsContainerRef.current) {
-        const container = buttonsContainerRef.current;
-        const buttons = Array.from(container.querySelectorAll('button'));
-        
-        if (buttons.length >= 2) {
-          // Measure actual gap between first two buttons
-          const firstButton = buttons[0];
-          const secondButton = buttons[1];
-          
-          const firstRect = firstButton.getBoundingClientRect();
-          const secondRect = secondButton.getBoundingClientRect();
-          
-          // Calculate the actual gap between buttons
-          const actualGap = secondRect.left - firstRect.right;
-          
-          // Minimum gap threshold - when gap reaches this, buttons are fully compressed
-          const minGapThreshold = 10; // px - the minimum gap before we switch to icons
-          
-          // If gap is at or below minimum threshold, switch to icons
-          setShouldCompress(actualGap <= minGapThreshold);
-        }
-      }
+    const checkSpace = () => {
+      if (!bottomNavRef.current || !measurementRef.current) return;
+      
+      // Get the available width of the container
+      const containerWidth = bottomNavRef.current.offsetWidth;
+      
+      // Get the natural width of all buttons at full size (from hidden measurement div)
+      const buttonsNaturalWidth = measurementRef.current.scrollWidth;
+      
+      // Calculate space taken by navigation sheet (roughly center element)
+      const navSheet = bottomNavRef.current.querySelector('[data-nav-sheet]');
+      const navSheetWidth = navSheet ? (navSheet as HTMLElement).offsetWidth : 120;
+      
+      // Previous button width (approximate at full size)
+      const prevButtonWidth = 100;
+      
+      // Total width needed: prev button + nav sheet + right buttons + gaps + padding
+      const totalNeeded = prevButtonWidth + navSheetWidth + buttonsNaturalWidth + 48; // 48px for gaps and padding
+      
+      // Compress if we don't have enough space
+      setShouldCompress(containerWidth < totalNeeded);
     };
     
-    checkOverflow();
-    window.addEventListener('resize', checkOverflow);
-    // Also check when split position changes
-    const timeout = setTimeout(checkOverflow, 50);
+    checkSpace();
+    window.addEventListener('resize', checkSpace);
+    
+    // Recheck after a short delay to ensure layout is settled
+    const timeout = setTimeout(checkSpace, 100);
+    
     return () => {
-      window.removeEventListener('resize', checkOverflow);
+      window.removeEventListener('resize', checkSpace);
       clearTimeout(timeout);
     };
   }, [splitPosition, isSplitScreenActive]);
@@ -371,10 +370,12 @@ function Question() {
             </Button>
 
             {/* Center: Navigation Sheet */}
-            <NavigationSheet currentQuestion={questionNumber} />
+            <div data-nav-sheet>
+              <NavigationSheet currentQuestion={questionNumber} />
+            </div>
 
             {/* Right: Explanation, Check, Next */}
-            <div ref={buttonsContainerRef} className="flex gap-2 shrink-0">
+            <div className="flex gap-2 shrink-0">
               <ExplanationWindow 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
@@ -399,6 +400,27 @@ function Question() {
               >
                 {!shouldCompress && <span>Next</span>}
                 <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
+              </Button>
+            </div>
+            
+            {/* Hidden measurement div - renders full-size buttons off-screen to measure natural width */}
+            <div 
+              ref={measurementRef}
+              aria-hidden="true"
+              className="absolute -left-[9999px] flex gap-2 whitespace-nowrap"
+              style={{ visibility: 'hidden', pointerEvents: 'none' }}
+            >
+              <Button variant="secondary" size="default">
+                <span className="mr-2 h-4 w-4">▶</span>
+                Explanation
+              </Button>
+              <Button size="default">
+                <Check className="mr-1 h-4 w-4" />
+                <span>Check</span>
+              </Button>
+              <Button size="default">
+                <span>Next</span>
+                <ChevronRight className="ml-1 h-4 w-4" />
               </Button>
             </div>
           </div>
