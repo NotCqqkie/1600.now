@@ -126,6 +126,23 @@ export const DraggableWindow = ({
     }
   }, [splitPosition, isSidebarred, isOpen]);
 
+  // Immediately check and correct position when un-minimizing
+  useEffect(() => {
+    if (!isMinimized && isOpen && !isSidebarred && isReady) {
+      // Check if window is out of bounds and correct it
+      const bottomBarHeight = 80;
+      const maxX = window.innerWidth - size.width;
+      const maxY = window.innerHeight - size.height - bottomBarHeight;
+      
+      const correctedX = Math.max(0, Math.min(position.x, maxX));
+      const correctedY = Math.max(0, Math.min(position.y, maxY));
+      
+      if (correctedX !== position.x || correctedY !== position.y) {
+        setPosition({ x: correctedX, y: correctedY });
+      }
+    }
+  }, [isMinimized, isOpen, isSidebarred, isReady, size.width, size.height, position.x, position.y]);
+
   // Handle split divider resizing
   useEffect(() => {
     if (!isSidebarred || !isResizingSplit) return;
