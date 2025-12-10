@@ -218,14 +218,22 @@ export const DraggableWindow = ({
     };
   }, [isDragging, isResizing, dragOffset, position, size, resizeStart]);
 
-  // Update window position when split position changes
+  // Update window position when split position changes OR viewport resizes
   useEffect(() => {
-    if (isSplitScreen && isOpen) {
+    if (!isSplitScreen || !isOpen) return;
+    
+    const updateSplitPosition = () => {
       const splitPixels = (window.innerWidth * splitPosition) / 100;
       const windowWidth = window.innerWidth - splitPixels;
       setPosition({ x: splitPixels, y: 0 });
       setSize({ width: windowWidth, height: window.innerHeight });
-    }
+    };
+    
+    updateSplitPosition();
+    
+    // Listen for viewport resize to update split screen windows
+    window.addEventListener('resize', updateSplitPosition);
+    return () => window.removeEventListener('resize', updateSplitPosition);
   }, [splitPosition, isSplitScreen, isOpen]);
 
   const toggleSplitScreen = () => {
