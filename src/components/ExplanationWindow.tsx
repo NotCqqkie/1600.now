@@ -6,21 +6,27 @@ import { DraggableWindow } from "./DraggableWindow";
 interface ExplanationWindowProps {
   videoUrl?: string;
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
+  onSplitPositionChange?: (newPosition: number) => void;
   splitPosition?: number;
   compressed?: boolean;
   onFocus?: () => void;
   zIndex?: number;
   constrainToLeft?: number;
+  isSidebarred?: boolean;
+  onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
 }
 
 export const ExplanationWindow = ({ 
   videoUrl,
   onSplitScreenChange,
+  onSplitPositionChange,
   splitPosition = 50,
   compressed = false,
   onFocus,
   zIndex = 50,
-  constrainToLeft
+  constrainToLeft,
+  isSidebarred = false,
+  onSidebarToggle
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -44,6 +50,7 @@ export const ExplanationWindow = ({
         defaultWidth={700}
         defaultHeight={440}
         onSplitScreenChange={onSplitScreenChange}
+        onSplitPositionChange={onSplitPositionChange}
         splitPosition={splitPosition}
         enableSplitScreen={true}
         diagonalResizeOnly={true}
@@ -52,6 +59,8 @@ export const ExplanationWindow = ({
         onFocus={onFocus}
         zIndex={zIndex}
         constrainToLeft={constrainToLeft}
+        isSidebarred={isSidebarred}
+        onSidebarToggle={onSidebarToggle}
       >
         <div className="w-full h-full flex flex-col">
           <div className="flex-1 w-full flex items-center justify-center bg-muted">
