@@ -8,9 +8,10 @@ interface DesmosDialogProps {
   splitPosition?: number;
   onFocus?: () => void;
   zIndex?: number;
+  constrainToLeft?: number;
 }
 
-export const DesmosDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50 }: DesmosDialogProps) => {
+export const DesmosDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50, constrainToLeft }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -24,14 +25,15 @@ export const DesmosDialog = ({ onSplitScreenChange, splitPosition, onFocus, zInd
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         title="Desmos"
-        defaultWidth={720}
-        defaultHeight={520}
+        defaultWidth={640}
+        defaultHeight={460}
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
         enableSplitScreen={true}
         windowId="desmos"
         onFocus={onFocus}
         zIndex={zIndex}
+        constrainToLeft={constrainToLeft}
       >
         <iframe
           src="https://www.desmos.com/testing/cb-sat-ap/graphing"

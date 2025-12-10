@@ -10,6 +10,7 @@ interface ExplanationWindowProps {
   compressed?: boolean;
   onFocus?: () => void;
   zIndex?: number;
+  constrainToLeft?: number;
 }
 
 export const ExplanationWindow = ({ 
@@ -18,7 +19,8 @@ export const ExplanationWindow = ({
   splitPosition = 50,
   compressed = false,
   onFocus,
-  zIndex = 50
+  zIndex = 50,
+  constrainToLeft
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -36,8 +38,8 @@ export const ExplanationWindow = ({
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         title="Explanation"
-        defaultWidth={800}
-        defaultHeight={500}
+        defaultWidth={700}
+        defaultHeight={440}
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
         enableSplitScreen={true}
@@ -46,6 +48,7 @@ export const ExplanationWindow = ({
         windowId="explanation"
         onFocus={onFocus}
         zIndex={zIndex}
+        constrainToLeft={constrainToLeft}
       >
         <div className="w-full h-full flex flex-col">
           <div className="flex-1 w-full flex items-center justify-center bg-muted">

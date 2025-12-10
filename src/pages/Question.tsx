@@ -318,12 +318,14 @@ function Question() {
                 splitPosition={splitPosition}
                 onFocus={() => bringToFront('referenceSheet')}
                 zIndex={getZIndex('referenceSheet')}
+                constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
               />
               <DesmosDialog 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
                 onFocus={() => bringToFront('desmos')}
                 zIndex={getZIndex('desmos')}
+                constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
               />
             </div>
           </div>
@@ -441,6 +443,7 @@ function Question() {
                 compressed={shouldCompress}
                 onFocus={() => bringToFront('explanation')}
                 zIndex={getZIndex('explanation')}
+                constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
               />
               <Button 
                 onClick={handleCheck}
