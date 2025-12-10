@@ -48,13 +48,13 @@ const [position, setPosition] = useState({ x: 100, y: 100 });
   const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
   const [isReady, setIsReady] = useState(false);
   const windowRef = useRef<HTMLDivElement>(null);
-  const wasOpenRef = useRef(false);
   const wasSplitScreenRef = useRef(false);
+  const prevIsOpenRef = useRef(false);
 
-  // Only reset position/size when window is FIRST opened (not on prop changes)
+  // Calculate initial position and size when window opens
   useEffect(() => {
-    if (isOpen && !wasOpenRef.current) {
-      // Window just opened - calculate position immediately before render
+    // Window just opened
+    if (isOpen && !prevIsOpenRef.current) {
       const availableWidth = constrainToLeft 
         ? (window.innerWidth * constrainToLeft) / 100 
         : window.innerWidth;
@@ -71,24 +71,25 @@ const [position, setPosition] = useState({ x: 100, y: 100 });
       
       setPosition({ x: Math.max(20, centerX), y: Math.max(60, centerY) });
       setSize({ width: actualWidth, height: actualHeight });
+      // Always reset to non-split-screen when opening
       setIsSplitScreen(false);
       wasSplitScreenRef.current = false;
-      // Use requestAnimationFrame to show window after position is set
+      // Show window after position is set
       requestAnimationFrame(() => setIsReady(true));
-    } else if (!isOpen) {
-      // Window closed - reset ready state for next open
-      setIsReady(false);
     }
-    wasOpenRef.current = isOpen;
-  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft]);
-
-  // Clean up split-screen state when window closes
-  useEffect(() => {
-    if (!isOpen && wasSplitScreenRef.current && onSplitScreenChange) {
-      onSplitScreenChange(false, windowId);
+    
+    // Window just closed
+    if (!isOpen && prevIsOpenRef.current) {
+      setIsReady(false);
+      // Clean up split-screen state when window closes
+      if (wasSplitScreenRef.current && onSplitScreenChange) {
+        onSplitScreenChange(false, windowId);
+      }
       wasSplitScreenRef.current = false;
     }
-  }, [isOpen, onSplitScreenChange, windowId]);
+    
+    prevIsOpenRef.current = isOpen;
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, onSplitScreenChange]);
 
   // Track split screen state changes
   useEffect(() => {
