@@ -359,7 +359,7 @@ function Question() {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center gap-2 justify-between">
             {/* Left: Previous Button - fixed width to prevent layout shift */}
-            <div className="shrink-0" style={{ minWidth: shouldCompress ? undefined : '100px' }}>
+            <div className="shrink-0" style={{ minWidth: '100px' }}>
               <Button
                 variant="outline"
                 onClick={handlePrevious}
@@ -377,7 +377,7 @@ function Question() {
             </div>
 
             {/* Right: Explanation, Check, Next - fixed width to prevent layout shift */}
-            <div className="flex gap-2 shrink-0 justify-end" style={{ minWidth: shouldCompress ? undefined : '280px' }}>
+            <div className="flex gap-2 shrink-0 justify-end" style={{ minWidth: '280px' }}>
               <ExplanationWindow 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
