@@ -104,9 +104,6 @@ function Question() {
     return 50 + index * 20;
   };
 
-  // Get divider z-index - should always be below the topmost (focused) window
-  const topmostWindowZIndex = getZIndex(windowOrder[windowOrder.length - 1]);
-  const dividerZIndex = topmostWindowZIndex - 5;
 
   // Reset split position when split screen is deactivated
   useEffect(() => {
@@ -286,11 +283,11 @@ function Question() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
-      {/* Split Screen Divider - below focused window, above unfocused windows */}
+      {/* Split Screen Divider - always at z-index 20, windows start at 50+ */}
       {isSplitScreenActive && (
         <div 
           className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group"
-          style={{ left: `calc(${splitPosition}% - 8px)`, zIndex: dividerZIndex }}
+          style={{ left: `calc(${splitPosition}% - 8px)`, zIndex: 20 }}
           onMouseDown={() => setIsResizingSplit(true)}
         >
           <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
