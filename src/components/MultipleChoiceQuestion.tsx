@@ -84,7 +84,7 @@ export const MultipleChoiceQuestion = ({
         // If struck out, show the strikethrough view
         if (isStruckOut) {
           return (
-            <div key={choice.id} className={cn("relative flex items-center gap-3", strikeoutMode && "pr-16")}>
+            <div key={choice.id} className={cn("relative flex items-center gap-3", strikeoutMode && "pr-14")}>
               {/* Main choice card - clickable to unstrikeout and select */}
               <div 
                 className="flex-1 flex items-center gap-3 rounded-xl border-2 border-border bg-muted/30 p-4 cursor-pointer hover:bg-muted/50 transition-colors"
@@ -117,10 +117,10 @@ export const MultipleChoiceQuestion = ({
                   />
                 </div>
               </div>
-              {/* Full-width strikethrough line - extends slightly beyond box */}
+              {/* Full-width strikethrough line - extends equally beyond both edges of the box */}
               <div className={cn(
-                "absolute top-1/2 left-[-4px] h-[2px] bg-muted-foreground/40 -translate-y-1/2 pointer-events-none",
-                strikeoutMode ? "right-[52px]" : "right-0"
+                "absolute top-1/2 h-[2px] bg-muted-foreground/40 -translate-y-1/2 pointer-events-none",
+                strikeoutMode ? "left-[-8px] right-[48px]" : "left-[-8px] right-[-8px]"
               )} />
               
               {/* Undo button - only shows when strikeout mode is active */}
@@ -140,7 +140,7 @@ export const MultipleChoiceQuestion = ({
         const isLocked = wasChecked;
         
         return (
-          <div key={choice.id} className="relative flex items-center gap-2 pr-16">
+          <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
             {/* Main choice card */}
             <div
               className={cn(
