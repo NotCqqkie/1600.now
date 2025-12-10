@@ -9,9 +9,10 @@ interface FormulaSheetDialogProps {
   splitPosition?: number;
   onFocus?: () => void;
   zIndex?: number;
+  constrainToLeft?: number;
 }
 
-export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50 }: FormulaSheetDialogProps) => {
+export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50, constrainToLeft }: FormulaSheetDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -25,14 +26,15 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         title="Reference Sheet"
-        defaultWidth={640}
-        defaultHeight={400}
+        defaultWidth={580}
+        defaultHeight={370}
         onSplitScreenChange={onSplitScreenChange}
         splitPosition={splitPosition}
         enableSplitScreen={false}
         windowId="referenceSheet"
         onFocus={onFocus}
         zIndex={zIndex}
+        constrainToLeft={constrainToLeft}
       >
         <div className="w-full h-full overflow-auto p-4">
           <img
