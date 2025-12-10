@@ -317,6 +317,11 @@ export const DraggableWindow = ({
   const toggleSidebar = () => {
     const newSidebarState = !isSidebarred;
     
+    // Auto-maximize when entering splitscreen mode
+    if (newSidebarState && isMinimized) {
+      setIsMinimized(false);
+    }
+    
     if (onSidebarToggle) {
       onSidebarToggle(windowId, newSidebarState);
     }
