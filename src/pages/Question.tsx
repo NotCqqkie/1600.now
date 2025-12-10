@@ -199,6 +199,8 @@ function Question() {
           }
         }
       } else if (e.key === 'Enter') {
+        // Prevent Enter from triggering focused buttons
+        e.preventDefault();
         const userAnswer = currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer;
         if (userAnswer && checkedAnswers[userAnswer] === undefined) {
           handleCheck();
