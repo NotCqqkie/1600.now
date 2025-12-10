@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { X, Columns2, Minus, Maximize2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -47,15 +47,16 @@ export const DraggableWindow = ({
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
   const windowRef = useRef<HTMLDivElement>(null);
+  const wasOpenRef = useRef(false);
 
+  // Only reset position/size when window is FIRST opened (not on prop changes)
   useEffect(() => {
-    if (isOpen) {
-      // Calculate available width - if constrained to left side, use that percentage
+    if (isOpen && !wasOpenRef.current) {
+      // Window just opened - calculate position
       const availableWidth = constrainToLeft 
         ? (window.innerWidth * constrainToLeft) / 100 
         : window.innerWidth;
       
-      // If constrained, use smaller window size
       const actualWidth = constrainToLeft 
         ? Math.min(defaultWidth * 0.7, availableWidth - 40) 
         : defaultWidth;
@@ -63,7 +64,6 @@ export const DraggableWindow = ({
         ? defaultHeight * 0.7 
         : defaultHeight;
       
-      // Center within available area
       const centerX = (availableWidth - actualWidth) / 2;
       const centerY = (window.innerHeight - actualHeight) / 2;
       
@@ -74,7 +74,8 @@ export const DraggableWindow = ({
         onSplitScreenChange(false, windowId);
       }
     }
-  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft]);
+    wasOpenRef.current = isOpen;
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, onSplitScreenChange]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     // Bring window to front on any click
