@@ -100,16 +100,13 @@ function Question() {
   // Get z-index for a window - windows stack based on interaction order
   const getZIndex = (windowId: string) => {
     const index = windowOrder.indexOf(windowId);
-    return 100 + index * 10;
+    // Use larger gaps between windows for clearer layering
+    return 50 + index * 20;
   };
 
   // Get divider z-index - should be just below the topmost window but above others
-  const getDividerZIndex = () => {
-    // Topmost window has highest z-index: 100 + (length-1) * 10
-    // Divider should be 5 below that, so it's above other windows but below the top one
-    const topWindowZIndex = 100 + (windowOrder.length - 1) * 10;
-    return topWindowZIndex - 5;
-  };
+  // For 3 windows with z-indices 50, 70, 90 - divider should be at 85 (below 90, above 70)
+  const dividerZIndex = 50 + (windowOrder.length - 1) * 20 - 5;
 
   // Reset split position when split screen is deactivated
   useEffect(() => {
@@ -293,7 +290,7 @@ function Question() {
       {isSplitScreenActive && (
         <div 
           className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group"
-          style={{ left: `calc(${splitPosition}% - 8px)`, zIndex: getDividerZIndex() }}
+          style={{ left: `calc(${splitPosition}% - 8px)`, zIndex: dividerZIndex }}
           onMouseDown={() => setIsResizingSplit(true)}
         >
           <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
