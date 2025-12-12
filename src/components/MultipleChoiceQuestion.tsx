@@ -12,7 +12,7 @@ interface MultipleChoiceQuestionProps {
   choices: Choice[];
   selectedAnswer?: string;
   onAnswerChange?: (answer: string) => void;
-  onCheck?: () => void;
+  onCheck?: (overrideAnswer?: string) => void;
   strikeoutMode?: boolean;
   checkedAnswers?: Record<string, boolean>;
   questionId: number;
@@ -196,15 +196,8 @@ export const MultipleChoiceQuestion = ({
                   )}
                   onClick={(e) => {
                     e.stopPropagation();
-                    if (!isSelected && onAnswerChange) {
-                      // Select the answer first, then check after state updates
-                      onAnswerChange(choice.id);
-                      setTimeout(() => {
-                        onCheck();
-                      }, 0);
-                    } else {
-                      onCheck();
-                    }
+                    // Pass the choice ID directly to check - this selects and checks immediately
+                    onCheck(choice.id);
                   }}
                 >
                   Check
