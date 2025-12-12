@@ -48,9 +48,9 @@ export const NavigationSheet = ({
       case 'correct-first':
         return 'bg-[#A5D6A7] hover:bg-[#81C784] border-[#66BB6A] dark:bg-[#2E7D32] dark:hover:bg-[#1B5E20] dark:border-[#388E3C]';
       case 'correct-later':
-        return 'bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#FFB74D] dark:bg-[#5D4037] dark:hover:bg-[#4E342E] dark:border-[#6D4C41]';
+        return 'bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#FFB74D] dark:bg-[#F57C00] dark:hover:bg-[#E65100] dark:border-[#FF9800]';
       case 'incorrect':
-        return 'bg-[#EF9A9A] hover:bg-[#E57373] border-[#EF5350] dark:bg-[#C62828] dark:hover:bg-[#B71C1C] dark:border-[#D32F2F]';
+        return 'bg-[#EF9A9A] hover:bg-[#E57373] border-[#EF5350] dark:bg-[#8B4513] dark:hover:bg-[#6B3410] dark:border-[#A0522D]';
       default:
         return 'bg-background hover:bg-muted border-border';
     }
@@ -94,11 +94,11 @@ export const NavigationSheet = ({
               <span>Correct </span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#FFE0B2] dark:bg-[#5D4037] rounded border border-[#FFB74D] dark:border-[#6D4C41]" />
+              <div className="w-4 h-4 bg-[#FFE0B2] dark:bg-[#F57C00] rounded border border-[#FFB74D] dark:border-[#FF9800]" />
               <span>Correct (after attempts)</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#EF9A9A] dark:bg-[#C62828] rounded border border-[#EF5350] dark:border-[#D32F2F]" />
+              <div className="w-4 h-4 bg-[#EF9A9A] dark:bg-[#8B4513] rounded border border-[#EF5350] dark:border-[#A0522D]" />
               <span>Incorrect</span>
             </div>
             <div className="flex items-center gap-1.5">
@@ -106,7 +106,7 @@ export const NavigationSheet = ({
               <span>Unanswered</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <Bookmark className="h-4 w-4 fill-[#FF7043] text-[#FF7043]" />
+              <Bookmark className="h-4 w-4 fill-[#FF7043] text-[#FF7043] dark:fill-[#EF5350] dark:text-[#EF5350]" />
               <span>Marked for Review</span>
             </div>
           </div>
@@ -123,7 +123,7 @@ export const NavigationSheet = ({
             navigate(`/question/${num}`);
             setIsOpen(false);
           }} className={cn("h-9 flex items-center justify-center rounded border-2 transition-colors text-xs font-medium relative", getStatusColor(status), isCurrent && "ring-2 ring-primary ring-offset-1")}>
-                  {isFlagged && <Bookmark className="absolute -top-1.5 -right-1.5 h-3.5 w-3.5 fill-[#FF7043] text-[#FF7043]" />}
+                  {isFlagged && <Bookmark className="absolute -top-1.5 -right-1.5 h-3.5 w-3.5 fill-[#FF7043] text-[#FF7043] dark:fill-[#EF5350] dark:text-[#EF5350]" />}
                   <span className="text-foreground dark:text-white">{num}</span>
                 </button>;
         })}
