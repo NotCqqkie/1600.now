@@ -73,7 +73,7 @@ export const NavigationSheet = ({
 
       {/* Overlay - positioned above bottom nav, centered within question area */}
       {isOpen && <div 
-        className="fixed bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 max-w-[600px] max-h-[50vh] overflow-hidden"
+        className="fixed bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 max-w-[520px] max-h-[50vh] overflow-hidden"
         style={{
           ...getCenterStyle(),
           width: isSplitScreenActive ? `min(90vw, ${splitPosition - 5}%)` : '90vw'
