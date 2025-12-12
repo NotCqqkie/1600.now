@@ -140,7 +140,7 @@ export const MultipleChoiceQuestion = ({
         const isLocked = wasChecked;
         
         return (
-          <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
+          <div key={choice.id} className={cn("relative flex items-center gap-2 group", strikeoutMode && "pr-14")}>
             {/* Main choice card */}
             <div
               className={cn(
@@ -148,8 +148,8 @@ export const MultipleChoiceQuestion = ({
                 !isLocked && "hover:bg-muted/50 cursor-pointer",
                 isLocked && "cursor-not-allowed opacity-80",
                 isSelected && !showCorrect && !showIncorrect && "border-primary bg-primary/5",
-                showCorrect && "border-green-500 bg-green-500/10",
-                showIncorrect && "border-destructive bg-destructive/10"
+                showCorrect && "border-[#66BB6A] bg-[#A5D6A7]/20 dark:border-[#388E3C] dark:bg-[#2E7D32]/20",
+                showIncorrect && "border-[#B71C1C] bg-[#FFCDD2]/20 dark:border-[#8B0000] dark:bg-[#5C1010]/20"
               )}
               onClick={(e) => {
                 e.preventDefault();
@@ -166,9 +166,9 @@ export const MultipleChoiceQuestion = ({
                 className={cn(
                   "flex-shrink-0 w-8 h-8 rounded-full border-2 flex items-center justify-center font-semibold text-sm transition-colors",
                   showCorrect 
-                    ? "bg-green-500 border-green-500 text-white"
+                    ? "bg-[#66BB6A] border-[#66BB6A] text-white dark:bg-[#2E7D32] dark:border-[#388E3C]"
                     : showIncorrect
-                    ? "bg-destructive border-destructive text-white"
+                    ? "bg-[#B71C1C] border-[#B71C1C] text-white dark:bg-[#8B0000] dark:border-[#8B0000]"
                     : isSelected 
                     ? "bg-primary border-primary text-primary-foreground" 
                     : "border-muted-foreground/50 text-foreground"
@@ -185,14 +185,20 @@ export const MultipleChoiceQuestion = ({
                 />
               </div>
               
-              {/* Check button - only shows on selected choice when not already checked */}
-              {isSelected && onCheck && !wasChecked && (
+              {/* Check button - shows on hover OR when selected, if not already checked */}
+              {onCheck && !wasChecked && (
                 <Button
                   size="sm"
                   variant="outline"
-                  className="ml-2 px-4"
+                  className={cn(
+                    "ml-2 px-4 transition-opacity",
+                    isSelected ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+                  )}
                   onClick={(e) => {
                     e.stopPropagation();
+                    if (!isSelected && onAnswerChange) {
+                      onAnswerChange(choice.id);
+                    }
                     onCheck();
                   }}
                 >
