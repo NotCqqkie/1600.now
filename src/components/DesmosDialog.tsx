@@ -35,12 +35,7 @@ export const DesmosDialog = ({
 
   return (
     <>
-      <Button 
-        variant="outline" 
-        size="sm" 
-        onClick={handleToggle}
-        className="hover:bg-[#B4E1FF] hover:border-[#B4E1FF]"
-      >
+      <Button variant="outline" size="sm" onClick={handleToggle}>
         <Calculator className="mr-2 h-4 w-4" />
         Desmos
       </Button>
