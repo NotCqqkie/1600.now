@@ -46,11 +46,11 @@ export const NavigationSheet = ({
   const getStatusColor = (status: string) => {
     switch (status) {
       case 'correct-first':
-        return 'bg-green-500 hover:bg-green-600 border-green-600';
+        return 'bg-[#C8E6C9] hover:bg-[#A5D6A7] border-[#81C784]';
       case 'correct-later':
-        return 'bg-yellow-500 hover:bg-yellow-600 border-yellow-600';
+        return 'bg-[#FFF3E0] hover:bg-[#FFE0B2] border-[#FFCC80]';
       case 'incorrect':
-        return 'bg-red-500 hover:bg-red-600 border-red-600';
+        return 'bg-[#FFCDD2] hover:bg-[#EF9A9A] border-[#E57373]';
       default:
         return 'bg-background hover:bg-muted border-border';
     }
@@ -90,15 +90,15 @@ export const NavigationSheet = ({
           {/* Color Key */}
           <div className="flex flex-wrap gap-3 items-center justify-center py-2 border-b mb-3 text-xs">
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-green-500 rounded border border-green-600" />
+              <div className="w-4 h-4 bg-[#C8E6C9] rounded border border-[#81C784]" />
               <span>Correct </span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-yellow-500 rounded border border-yellow-600" />
+              <div className="w-4 h-4 bg-[#FFF3E0] rounded border border-[#FFCC80]" />
               <span>Correct (after attempts)</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-red-500 rounded border border-red-600" />
+              <div className="w-4 h-4 bg-[#FFCDD2] rounded border border-[#E57373]" />
               <span>Incorrect</span>
             </div>
             <div className="flex items-center gap-1.5">
@@ -106,7 +106,7 @@ export const NavigationSheet = ({
               <span>Unanswered</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <Bookmark className="h-4 w-4 fill-destructive text-destructive" />
+              <Bookmark className="h-4 w-4 fill-[#FF7043] text-[#FF7043]" />
               <span>Marked for Review</span>
             </div>
           </div>
@@ -123,8 +123,8 @@ export const NavigationSheet = ({
             navigate(`/question/${num}`);
             setIsOpen(false);
           }} className={cn("h-9 flex items-center justify-center rounded border-2 transition-colors text-xs font-medium relative", getStatusColor(status), isCurrent && "ring-2 ring-primary ring-offset-1")}>
-                  {isFlagged && <Bookmark className="absolute -top-1.5 -right-1.5 h-3.5 w-3.5 fill-destructive text-destructive" />}
-                  <span className={status !== 'unanswered' ? 'text-white' : ''}>{num}</span>
+                  {isFlagged && <Bookmark className="absolute -top-1.5 -right-1.5 h-3.5 w-3.5 fill-[#FF7043] text-[#FF7043]" />}
+                  <span className="text-foreground">{num}</span>
                 </button>;
         })}
           </div>
