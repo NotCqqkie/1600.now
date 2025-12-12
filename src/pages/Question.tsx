@@ -430,8 +430,8 @@ function Question() {
               <Button 
                 onClick={handleCheck}
                 disabled={checked && checkButtonVariant === "success"}
-                variant={checkButtonVariant === "destructive" ? "destructive" : checkButtonVariant === "success" ? "default" : "default"}
-                className={`${checkButtonVariant === "success" ? "bg-green-600 hover:bg-green-700" : ""} h-10`}
+                variant={checkButtonVariant === "destructive" ? "destructive" : "success"}
+                className={`${checkButtonVariant === "success" ? "bg-green-500 hover:bg-green-600 text-white" : ""} h-10`}
               >
                 <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!shouldCompress && <span>Check</span>}
