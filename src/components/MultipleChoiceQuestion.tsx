@@ -197,9 +197,14 @@ export const MultipleChoiceQuestion = ({
                   onClick={(e) => {
                     e.stopPropagation();
                     if (!isSelected && onAnswerChange) {
+                      // Select the answer first, then check after state updates
                       onAnswerChange(choice.id);
+                      setTimeout(() => {
+                        onCheck();
+                      }, 0);
+                    } else {
+                      onCheck();
                     }
-                    onCheck();
                   }}
                 >
                   Check
