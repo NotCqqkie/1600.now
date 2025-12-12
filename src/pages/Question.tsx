@@ -9,6 +9,7 @@ import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { ChevronLeft, ChevronRight, Check, Bookmark, Strikethrough } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { toast } from "sonner";
 import { questions } from "@/data/questions";
 import { renderMixedContent } from "@/lib/utils";
@@ -285,6 +286,7 @@ function Question() {
               Home
             </Button>
             <div className="flex gap-2">
+              <ThemeToggle />
               <FormulaSheetDialog 
                 onSplitScreenChange={handleSplitScreenChange}
                 splitPosition={splitPosition}
@@ -328,9 +330,9 @@ function Question() {
                 setMarkedForReview(newValue);
                 localStorage.setItem(`question-${questionNumber}-flagged`, newValue.toString());
               }}
-              className="text-foreground hover:bg-transparent hover:text-foreground"
+              className="hover:bg-[#B4E1FF]"
             >
-              <Bookmark className={markedForReview ? "text-destructive fill-destructive" : "text-foreground"} />
+              <Bookmark className={markedForReview ? "text-[#FF7043] fill-[#FF7043]" : "text-foreground"} />
               <span className="text-foreground">Mark for Review</span>
             </Button>
             {currentQuestion.type === 'multiple-choice' && (
