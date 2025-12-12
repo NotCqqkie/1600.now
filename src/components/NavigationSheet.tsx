@@ -46,11 +46,11 @@ export const NavigationSheet = ({
   const getStatusColor = (status: string) => {
     switch (status) {
       case 'correct-first':
-        return 'bg-[#C8E6C9] hover:bg-[#A5D6A7] border-[#81C784]';
+        return 'bg-[#A5D6A7] hover:bg-[#81C784] border-[#66BB6A]';
       case 'correct-later':
-        return 'bg-[#FFF3E0] hover:bg-[#FFE0B2] border-[#FFCC80]';
+        return 'bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#FFB74D]';
       case 'incorrect':
-        return 'bg-[#FFCDD2] hover:bg-[#EF9A9A] border-[#E57373]';
+        return 'bg-[#EF9A9A] hover:bg-[#E57373] border-[#EF5350]';
       default:
         return 'bg-background hover:bg-muted border-border';
     }
@@ -90,15 +90,15 @@ export const NavigationSheet = ({
           {/* Color Key */}
           <div className="flex flex-wrap gap-3 items-center justify-center py-2 border-b mb-3 text-xs">
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#C8E6C9] rounded border border-[#81C784]" />
+              <div className="w-4 h-4 bg-[#A5D6A7] rounded border border-[#66BB6A]" />
               <span>Correct </span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#FFF3E0] rounded border border-[#FFCC80]" />
+              <div className="w-4 h-4 bg-[#FFE0B2] rounded border border-[#FFB74D]" />
               <span>Correct (after attempts)</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#FFCDD2] rounded border border-[#E57373]" />
+              <div className="w-4 h-4 bg-[#EF9A9A] rounded border border-[#EF5350]" />
               <span>Incorrect</span>
             </div>
             <div className="flex items-center gap-1.5">
