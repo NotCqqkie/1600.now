@@ -316,7 +316,7 @@ function Question() {
       >
         <Card className="p-4 sm:p-6 md:p-8 relative" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem", margin: isSplitScreenActive ? "0" : "0 auto" }}>
           {/* Question Number Badge */}
-          <div className="absolute -top-4 -left-4 bg-foreground text-background rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">
+          <div className="absolute -top-4 -left-4 bg-foreground text-background dark:bg-[#B4E1FF] dark:text-[#1a1a2e] rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">
             {questionNumber}
           </div>
 
@@ -330,7 +330,7 @@ function Question() {
                 setMarkedForReview(newValue);
                 localStorage.setItem(`question-${questionNumber}-flagged`, newValue.toString());
               }}
-              className="hover:bg-[#B4E1FF]"
+              className="hover:bg-[#B4E1FF] dark:hover:bg-[#1E3A5F]"
             >
               <Bookmark className={markedForReview ? "text-[#FF7043] fill-[#FF7043]" : "text-foreground"} />
               <span className="text-foreground">Mark for Review</span>
