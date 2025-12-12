@@ -332,7 +332,7 @@ function Question() {
               }}
               className="hover:bg-[#B4E1FF] dark:hover:bg-[#1E3A5F]"
             >
-              <Bookmark className={markedForReview ? "text-[#FF7043] fill-[#FF7043] dark:text-[#EF5350] dark:fill-[#EF5350]" : "text-foreground"} />
+              <Bookmark className={markedForReview ? "text-[#7B1FA2] fill-[#7B1FA2] dark:text-[#CE93D8] dark:fill-[#CE93D8]" : "text-foreground"} />
               <span className="text-foreground">Mark for Review</span>
             </Button>
             {currentQuestion.type === 'multiple-choice' && (
