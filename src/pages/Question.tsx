@@ -225,8 +225,8 @@ function Question() {
     }
   };
 
-  const handleCheck = () => {
-    const userAnswer = currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer;
+  const handleCheck = (overrideAnswer?: string) => {
+    const userAnswer = overrideAnswer || (currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer);
     
     if (!userAnswer) {
       toast.error("Please provide an answer");
@@ -236,6 +236,11 @@ function Question() {
     // Don't re-check an already checked answer
     if (checkedAnswers[userAnswer] !== undefined) {
       return;
+    }
+
+    // If using override answer, also select it
+    if (overrideAnswer && overrideAnswer !== selectedAnswer) {
+      setSelectedAnswer(overrideAnswer);
     }
 
     const normalizeAnswer = (answer: string) => {
@@ -430,10 +435,10 @@ function Question() {
                 onSidebarToggle={handleSidebarToggle}
               />
               <Button 
-                onClick={handleCheck}
+                onClick={() => handleCheck()}
                 disabled={checked && checkButtonVariant === "success"}
                 variant={checkButtonVariant === "destructive" ? "destructive" : "success"}
-                className={`${checkButtonVariant === "success" ? "bg-green-500 hover:bg-green-600 text-white" : ""} h-10`}
+                className={`${checkButtonVariant === "success" ? "bg-[#2E7D32] hover:bg-[#1B5E20] text-white" : ""} h-10`}
               >
                 <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!shouldCompress && <span>Check</span>}
@@ -441,7 +446,7 @@ function Question() {
               <Button
                 onClick={handleNext}
                 disabled={questionNumber === 100}
-                className="h-10"
+                className="h-10 dark:bg-[#1E3A5F] dark:hover:bg-[#152A45] dark:border-[#2D5A87]"
               >
                 {!shouldCompress && <span>Next</span>}
                 <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
