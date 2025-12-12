@@ -12,10 +12,10 @@ const buttonVariants = cva(
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline: "border border-input bg-background hover:bg-[#B4E1FF] hover:border-[#B4E1FF] hover:text-foreground dark:hover:bg-[#1E3A5F] dark:hover:border-[#2D5A87] dark:hover:text-foreground",
-        secondary: "bg-[#FFE0B2] text-foreground border border-[#FFCC80] hover:bg-[#FFCC80] hover:border-[#FFB74D] dark:bg-[#F57C00] dark:border-[#FF9800] dark:hover:bg-[#E65100] dark:hover:border-[#F57C00] dark:text-white",
+        secondary: "bg-[#FFE0B2] text-foreground border border-[#FFCC80] hover:bg-[#FFCC80] hover:border-[#FFB74D] dark:bg-[#CC6600] dark:border-[#E67700] dark:hover:bg-[#B35900] dark:hover:border-[#CC6600] dark:text-white",
         ghost: "hover:bg-[#B4E1FF] hover:text-foreground dark:hover:bg-[#1E3A5F] dark:hover:text-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        success: "bg-[#E8F5E9] text-foreground border border-[#C8E6C9] hover:bg-[#C8E6C9] hover:border-[#A5D6A7] dark:bg-[#2E7D32] dark:border-[#388E3C] dark:hover:bg-[#1B5E20] dark:hover:border-[#2E7D32] dark:text-white",
+        success: "bg-[#E8F5E9] text-foreground border border-[#C8E6C9] hover:bg-[#C8E6C9] hover:border-[#A5D6A7] dark:bg-[#3D8B40] dark:border-[#4CAF50] dark:hover:bg-[#2E7D32] dark:hover:border-[#3D8B40] dark:text-white",
       },
       size: {
         default: "h-10 px-4 py-2",
