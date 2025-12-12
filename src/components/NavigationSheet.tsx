@@ -46,11 +46,11 @@ export const NavigationSheet = ({
   const getStatusColor = (status: string) => {
     switch (status) {
       case 'correct-first':
-        return 'bg-[#A5D6A7] hover:bg-[#81C784] border-[#66BB6A]';
+        return 'bg-[#A5D6A7] hover:bg-[#81C784] border-[#66BB6A] dark:bg-[#2E7D32] dark:hover:bg-[#1B5E20] dark:border-[#388E3C]';
       case 'correct-later':
-        return 'bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#FFB74D]';
+        return 'bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#FFB74D] dark:bg-[#5D4037] dark:hover:bg-[#4E342E] dark:border-[#6D4C41]';
       case 'incorrect':
-        return 'bg-[#EF9A9A] hover:bg-[#E57373] border-[#EF5350]';
+        return 'bg-[#EF9A9A] hover:bg-[#E57373] border-[#EF5350] dark:bg-[#C62828] dark:hover:bg-[#B71C1C] dark:border-[#D32F2F]';
       default:
         return 'bg-background hover:bg-muted border-border';
     }
@@ -90,15 +90,15 @@ export const NavigationSheet = ({
           {/* Color Key */}
           <div className="flex flex-wrap gap-3 items-center justify-center py-2 border-b mb-3 text-xs">
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#A5D6A7] rounded border border-[#66BB6A]" />
+              <div className="w-4 h-4 bg-[#A5D6A7] dark:bg-[#2E7D32] rounded border border-[#66BB6A] dark:border-[#388E3C]" />
               <span>Correct </span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#FFE0B2] rounded border border-[#FFB74D]" />
+              <div className="w-4 h-4 bg-[#FFE0B2] dark:bg-[#5D4037] rounded border border-[#FFB74D] dark:border-[#6D4C41]" />
               <span>Correct (after attempts)</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#EF9A9A] rounded border border-[#EF5350]" />
+              <div className="w-4 h-4 bg-[#EF9A9A] dark:bg-[#C62828] rounded border border-[#EF5350] dark:border-[#D32F2F]" />
               <span>Incorrect</span>
             </div>
             <div className="flex items-center gap-1.5">
@@ -124,7 +124,7 @@ export const NavigationSheet = ({
             setIsOpen(false);
           }} className={cn("h-9 flex items-center justify-center rounded border-2 transition-colors text-xs font-medium relative", getStatusColor(status), isCurrent && "ring-2 ring-primary ring-offset-1")}>
                   {isFlagged && <Bookmark className="absolute -top-1.5 -right-1.5 h-3.5 w-3.5 fill-[#FF7043] text-[#FF7043]" />}
-                  <span className="text-foreground">{num}</span>
+                  <span className="text-foreground dark:text-white">{num}</span>
                 </button>;
         })}
           </div>
