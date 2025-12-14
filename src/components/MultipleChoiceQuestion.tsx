@@ -66,12 +66,12 @@ export const MultipleChoiceQuestion = ({
           />
         )}
         {hasImage && (
-          <div className="w-full">
+          <div className="w-full -mx-1">
             <img
               src={choice.image}
               alt={`Choice ${choice.id}`}
               className={cn(
-                "w-full h-auto max-h-[70vh] rounded-lg border border-border object-contain block",
+                "w-full h-auto rounded-lg object-contain block",
                 dimmed && "opacity-60"
               )}
               loading="lazy"
