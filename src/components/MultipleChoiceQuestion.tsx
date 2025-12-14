@@ -66,11 +66,15 @@ export const MultipleChoiceQuestion = ({
           />
         )}
         {hasImage && (
-          <div className="w-full" style={{ minHeight: "360px" }}>
+          <div className="w-full">
             <img
               src={choice.image}
               alt={`Choice ${choice.id}`}
-              className={cn("w-full h-full rounded-lg border border-border object-contain block", dimmed && "opacity-60")}
+              className={cn(
+                "w-full h-auto max-h-[70vh] rounded-lg border border-border object-contain block",
+                dimmed && "opacity-60"
+              )}
+              loading="lazy"
             />
           </div>
         )}
@@ -107,6 +111,7 @@ export const MultipleChoiceQuestion = ({
         const wasChecked = checkedAnswers[choice.id] !== undefined;
         const showCorrect = wasChecked && checkedAnswers[choice.id] === true;
         const showIncorrect = wasChecked && checkedAnswers[choice.id] === false;
+        const hasImage = Boolean(choice.image);
         
         // If struck out, show the strikethrough view
         if (isStruckOut) {
@@ -114,7 +119,7 @@ export const MultipleChoiceQuestion = ({
             <div key={choice.id} className={cn("relative flex items-center gap-3", strikeoutMode && "pr-14")}>
               {/* Main choice card - clickable to unstrikeout and select */}
               <div 
-                className="flex-1 flex items-center gap-3 rounded-xl border-2 border-border bg-muted/30 p-4 cursor-pointer hover:bg-muted/50 transition-colors"
+                className="flex-1 flex items-start gap-3 rounded-xl border-2 border-border bg-muted/30 p-4 cursor-pointer hover:bg-muted/50 transition-colors"
                 onClick={(e) => {
                   e.preventDefault();
                   e.stopPropagation();
@@ -168,7 +173,8 @@ export const MultipleChoiceQuestion = ({
             {/* Main choice card */}
             <div
               className={cn(
-                "flex-1 flex items-center gap-3 rounded-xl border-2 border-border p-4 transition-colors",
+                "flex-1 flex gap-3 rounded-xl border-2 border-border p-4 transition-colors",
+                hasImage ? "items-start" : "items-center",
                 !isLocked && "hover:bg-muted/50 cursor-pointer",
                 isLocked && "cursor-not-allowed opacity-80",
                 isSelected && !showCorrect && !showIncorrect && "border-primary bg-primary/5",
