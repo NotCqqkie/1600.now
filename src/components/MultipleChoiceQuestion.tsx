@@ -71,7 +71,7 @@ export const MultipleChoiceQuestion = ({
               src={choice.image}
               alt={`Choice ${choice.id}`}
               className={cn(
-                "max-w-[200px] h-auto rounded object-contain block",
+                "max-w-[600px] h-auto rounded object-contain block",
                 dimmed && "opacity-60"
               )}
               loading="lazy"
