@@ -1,7 +1,12 @@
 export interface Question {
   id: number;
   text: string;
-  choices?: { id: string; text: string }[];
+  choices?: {
+    id: string;
+    text?: string;
+    image?: string;
+  }[];
+
   correctAnswer: string;
   type: "multiple-choice" | "free-response";
 }
