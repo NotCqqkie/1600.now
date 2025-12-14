@@ -5,7 +5,8 @@ import "katex/dist/katex.min.css";
 
 interface Choice {
   id: string;
-  text: string;
+  text?: string;
+  image?: string;
 }
 
 interface MultipleChoiceQuestionProps {
@@ -43,6 +44,7 @@ export const MultipleChoiceQuestion = ({
   useEffect(() => {
     // Render mixed content (HTML text + KaTeX math) for each choice
     choices.forEach((choice) => {
+      if (!choice.text) return;
       const element = choiceRefs.current[choice.id];
       if (element) {
         const renderedHtml = renderMixedContent(choice.text);
@@ -50,6 +52,31 @@ export const MultipleChoiceQuestion = ({
       }
     });
   }, [choices]);
+
+  const renderChoiceContent = (choice: Choice, dimmed = false) => {
+    const hasText = Boolean(choice.text);
+    const hasImage = Boolean(choice.image);
+
+    return (
+      <div className="flex flex-col gap-2">
+        {hasText && (
+          <span 
+            ref={(el) => choiceRefs.current[choice.id] = el}
+            className={cn("choice-content break-words", dimmed && "text-muted-foreground/50")}
+          />
+        )}
+        {hasImage && (
+          <div className="w-full" style={{ minHeight: "360px" }}>
+            <img
+              src={choice.image}
+              alt={`Choice ${choice.id}`}
+              className={cn("w-full h-full rounded-lg border border-border object-contain block", dimmed && "opacity-60")}
+            />
+          </div>
+        )}
+      </div>
+    );
+  };
 
   const toggleStrikeout = (choiceId: string, e: React.MouseEvent) => {
     e.stopPropagation();
@@ -110,11 +137,8 @@ export const MultipleChoiceQuestion = ({
                 </div>
                 
                 {/* Choice text with line through entire row */}
-                <div className="flex-1 relative">
-                  <span 
-                    ref={(el) => choiceRefs.current[choice.id] = el}
-                    className="choice-content break-words text-muted-foreground/50"
-                  />
+                <div className="flex-1 relative overflow-wrap-anywhere">
+                  {renderChoiceContent(choice, true)}
                 </div>
               </div>
               {/* Full-width strikethrough line - extends equally beyond both edges of the box */}
@@ -179,10 +203,7 @@ export const MultipleChoiceQuestion = ({
               
               {/* Choice text */}
               <div className="flex-1 break-words overflow-wrap-anywhere">
-                <span 
-                  ref={(el) => choiceRefs.current[choice.id] = el}
-                  className="choice-content break-words"
-                />
+                {renderChoiceContent(choice)}
               </div>
               
               {/* Check button - shows on hover OR when selected, if not already checked */}
