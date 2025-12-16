@@ -12,6 +12,7 @@ interface DesmosDialogProps {
   constrainToLeft?: number;
   isSidebarred?: boolean;
   onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
+  compressed?: boolean;
 }
 
 export const DesmosDialog = ({ 
@@ -22,7 +23,8 @@ export const DesmosDialog = ({
   zIndex = 50, 
   constrainToLeft,
   isSidebarred = false,
-  onSidebarToggle
+  onSidebarToggle,
+  compressed = false
 }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -36,8 +38,8 @@ export const DesmosDialog = ({
   return (
     <>
       <Button variant="outline" size="sm" onClick={handleToggle}>
-        <Calculator className="mr-2 h-4 w-4" />
-        Desmos
+        <Calculator className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+        {!compressed && "Desmos"}
       </Button>
 
       <DraggableWindow

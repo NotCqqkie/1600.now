@@ -10,9 +10,10 @@ interface FormulaSheetDialogProps {
   onFocus?: () => void;
   zIndex?: number;
   constrainToLeft?: number;
+  compressed?: boolean;
 }
 
-export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50, constrainToLeft }: FormulaSheetDialogProps) => {
+export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50, constrainToLeft, compressed = false }: FormulaSheetDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
@@ -25,8 +26,8 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus
   return (
     <>
       <Button variant="outline" size="sm" onClick={handleToggle}>
-        <FileText className="mr-2 h-4 w-4" />
-        Reference Sheet
+        <FileText className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+        {!compressed && "Reference Sheet"}
       </Button>
 
       <DraggableWindow
