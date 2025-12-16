@@ -8,7 +8,7 @@ import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
-import { ChevronLeft, ChevronRight, Check, Bookmark, Strikethrough } from "lucide-react";
+import { ChevronLeft, ChevronRight, Check, Bookmark, Strikethrough, Maximize2, Minimize2 } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { toast } from "sonner";
 import { questions } from "@/data/questions";
@@ -31,9 +31,14 @@ function Question() {
   const [splitPosition, setSplitPosition] = useState(50);
   const [attemptCount, setAttemptCount] = useState(0);
   const [shouldCompress, setShouldCompress] = useState(false);
+  const [topShouldCompress, setTopShouldCompress] = useState(false);
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation']);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const bottomNavRef = useRef<HTMLDivElement>(null);
-  const measurementRef = useRef<HTMLDivElement>(null);
+  const bottomMeasurementRef = useRef<HTMLDivElement>(null);
+  const topNavRef = useRef<HTMLDivElement>(null);
+  const topMeasurementRef = useRef<HTMLDivElement>(null);
+  const topCompressStateRef = useRef(false);
 
   // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
@@ -41,27 +46,50 @@ function Question() {
   // Use hidden measurement div to determine if buttons need compression
   useEffect(() => {
     const checkSpace = () => {
-      if (!bottomNavRef.current || !measurementRef.current) return;
-      
-      // Get the available width of the container
-      const containerWidth = bottomNavRef.current.offsetWidth;
-      
-      // Get the natural width of all buttons at full size (from hidden measurement div)
-      const buttonsNaturalWidth = measurementRef.current.scrollWidth;
-      
-      // Calculate space taken by navigation sheet (roughly center element)
-      const navSheet = bottomNavRef.current.querySelector('[data-nav-sheet]');
-      const navSheetWidth = navSheet ? (navSheet as HTMLElement).offsetWidth : 120;
-      
-      // Previous button width (approximate at full size)
-      const prevButtonWidth = 100;
-      
-      // Total width needed: prev button + nav sheet + right buttons + gaps + padding
-      // Added extra 32px buffer to trigger compression slightly earlier before overlap occurs
-      const totalNeeded = prevButtonWidth + navSheetWidth + buttonsNaturalWidth + 80;
-      
-      // Compress if we don't have enough space
-      setShouldCompress(containerWidth < totalNeeded);
+      // Bottom navigation compression
+      if (bottomNavRef.current && bottomMeasurementRef.current) {
+        // Get the available width of the container
+        const containerWidth = bottomNavRef.current.offsetWidth;
+        
+        // Get the natural width of all buttons at full size (from hidden measurement div)
+        const buttonsNaturalWidth = bottomMeasurementRef.current.scrollWidth;
+        
+        // Calculate space taken by navigation sheet (roughly center element)
+        const navSheet = bottomNavRef.current.querySelector('[data-nav-sheet]');
+        const navSheetWidth = navSheet ? (navSheet as HTMLElement).offsetWidth : 120;
+        
+        // Previous button width (approximate at full size)
+        const prevButtonWidth = 100;
+        
+        // Total width needed: prev button + nav sheet + right buttons + gaps + padding
+        // Added extra 32px buffer to trigger compression slightly earlier before overlap occurs
+        const totalNeeded = prevButtonWidth + navSheetWidth + buttonsNaturalWidth + 80;
+        
+        // Compress if we don't have enough space
+        setShouldCompress(containerWidth < totalNeeded);
+      }
+
+      // Top bar compression
+      if (topNavRef.current && topMeasurementRef.current) {
+        const containerWidth = topNavRef.current.offsetWidth;
+        const leftSection = topNavRef.current.querySelector('[data-header-left]') as HTMLElement | null;
+        const leftWidth = leftSection ? leftSection.offsetWidth : 120;
+        const buttonsNaturalWidth = topMeasurementRef.current.scrollWidth;
+        const totalNeeded = leftWidth + buttonsNaturalWidth + 48;
+        // Hysteresis buffer to prevent rapid toggling near the threshold
+        const buffer = 24;
+        const currentlyCompressed = topCompressStateRef.current;
+        let nextCompressed = currentlyCompressed;
+        if (!currentlyCompressed && containerWidth < totalNeeded - buffer) {
+          nextCompressed = true;
+        } else if (currentlyCompressed && containerWidth > totalNeeded + buffer) {
+          nextCompressed = false;
+        }
+        if (nextCompressed !== currentlyCompressed) {
+          topCompressStateRef.current = nextCompressed;
+          setTopShouldCompress(nextCompressed);
+        }
+      }
     };
     
     checkSpace();
@@ -75,6 +103,14 @@ function Question() {
       clearTimeout(timeout);
     };
   }, [splitPosition, isSplitScreenActive]);
+
+  // Track fullscreen changes to keep button state in sync
+  useEffect(() => {
+    setIsFullscreen(Boolean(document.fullscreenElement));
+    const handleFullscreenChange = () => setIsFullscreen(Boolean(document.fullscreenElement));
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
+  }, []);
 
   // Handle split screen changes from windows
   const handleSplitScreenChange = (isSplit: boolean, windowId: string) => {
@@ -105,6 +141,20 @@ function Question() {
   // Handle split position changes from the divider inside DraggableWindow
   const handleSplitPositionChange = (newPosition: number) => {
     setSplitPosition(newPosition);
+  };
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      const request = document.documentElement.requestFullscreen?.();
+      if (request && typeof (request as Promise<void>).catch === "function") {
+        (request as Promise<void>).catch(() => {});
+      }
+    } else {
+      const exit = document.exitFullscreen?.();
+      if (exit && typeof (exit as Promise<void>).catch === "function") {
+        (exit as Promise<void>).catch(() => {});
+      }
+    }
   };
 
   // Bring a window to front
@@ -281,16 +331,18 @@ function Question() {
           className="container mx-auto px-4 py-4"
           style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : undefined}
         >
-          <div className="flex items-center justify-between">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => navigate("/")}
-            >
-              <ChevronLeft className="mr-1 h-4 w-4" />
-              Home
-            </Button>
-            <div className="flex gap-2">
+          <div className="flex items-center justify-between gap-3" ref={topNavRef}>
+            <div data-header-left className="flex-shrink-0">
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => navigate("/")}
+              >
+                <ChevronLeft className={topShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+                {!topShouldCompress && "Home"}
+              </Button>
+            </div>
+            <div className="flex items-center gap-2">
               <ThemeToggle />
               <FormulaSheetDialog 
                 onSplitScreenChange={handleSplitScreenChange}
@@ -298,6 +350,7 @@ function Question() {
                 onFocus={() => bringToFront('referenceSheet')}
                 zIndex={getZIndex('referenceSheet')}
                 constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                compressed={topShouldCompress}
               />
               <DesmosDialog 
                 onSplitScreenChange={handleSplitScreenChange}
@@ -308,7 +361,43 @@ function Question() {
                 constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
                 isSidebarred={sidebarredWindows.has('desmos')}
                 onSidebarToggle={handleSidebarToggle}
+                compressed={topShouldCompress}
               />
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={toggleFullscreen}
+                title={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
+              >
+                {isFullscreen ? (
+                  <Minimize2 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                ) : (
+                  <Maximize2 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                )}
+                {!topShouldCompress && (isFullscreen ? "Exit Fullscreen" : "Fullscreen")}
+              </Button>
+            </div>
+
+            {/* Hidden measurement div to determine when to compress the top bar */}
+            <div 
+              ref={topMeasurementRef}
+              aria-hidden="true"
+              className="absolute -left-[9999px] flex items-center gap-2 whitespace-nowrap"
+              style={{ visibility: 'hidden', pointerEvents: 'none' }}
+            >
+              <div className="h-8 w-14 rounded-full border" />
+              <Button variant="outline" size="sm">
+                <span className="mr-2 inline-block h-4 w-4" />
+                Reference Sheet
+              </Button>
+              <Button variant="outline" size="sm">
+                <span className="mr-2 inline-block h-4 w-4" />
+                Desmos
+              </Button>
+              <Button variant="outline" size="sm">
+                <span className="mr-2 inline-block h-4 w-4" />
+                Fullscreen
+              </Button>
             </div>
           </div>
         </div>
@@ -455,7 +544,7 @@ function Question() {
             
             {/* Hidden measurement div - renders full-size buttons off-screen to measure natural width */}
             <div 
-              ref={measurementRef}
+              ref={bottomMeasurementRef}
               aria-hidden="true"
               className="absolute -left-[9999px] flex gap-2 whitespace-nowrap"
               style={{ visibility: 'hidden', pointerEvents: 'none' }}
