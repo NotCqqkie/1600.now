@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { X, Columns2, Minus, Maximize2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -151,8 +152,8 @@ export const DraggableWindow = ({
 
     const handleMouseMove = (e: MouseEvent) => {
       const newPosition = (e.clientX / window.innerWidth) * 100;
-      // Limit between 50% and 70%
-      const clampedPosition = Math.max(50, Math.min(70, newPosition));
+      // Allow the left pane to shrink further so the sidebar can grow up to ~65% of the screen
+      const clampedPosition = Math.max(35, Math.min(70, newPosition));
       if (onSplitPositionChange) {
         onSplitPositionChange(clampedPosition);
       }
@@ -385,7 +386,8 @@ export const DraggableWindow = ({
 
   const resizeHandleClass = "absolute bg-transparent hover:bg-primary/20 transition-colors z-10";
 
-  return (
+  // Use portal to render directly to body, bypassing any stacking context issues
+  return createPortal(
     <>
       {/* Split Screen Divider - rendered by the sidebarred window */}
       {isSidebarred && (
@@ -508,6 +510,7 @@ export const DraggableWindow = ({
           <div className="flex-1 overflow-hidden bg-background">{children}</div>
         )}
       </div>
-    </>
+    </>,
+    document.body
   );
 };

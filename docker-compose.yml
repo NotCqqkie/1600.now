@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: 1600-prep-hub
+    ports:
+      - "8080:80"
+    restart: unless-stopped

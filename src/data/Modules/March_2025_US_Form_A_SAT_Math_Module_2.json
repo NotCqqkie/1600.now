@@ -1,0 +1,494 @@
+[
+  {
+    "question_number": 1,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "The function $f$ is defined by $f(x)$ =$6x-\\frac{1}{8}$. What is the y-intercept of the graph of$y=f(x)$ in the $xy$-plane?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(0,-\\frac{1}{8})$"
+      },
+      {
+        "label": "B",
+        "text": "(0,-6)"
+      },
+      {
+        "label": "C",
+        "text": "(0,6)"
+      },
+      {
+        "label": "D",
+        "text": "(0,8)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_1"
+  },
+  {
+    "question_number": 2,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "Which expression is equivalent to $(57y)^{\\frac{1}{2}}$, where y$>$1?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "57·$\\sqrt{y}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\sqrt{57}$ ·y"
+      },
+      {
+        "label": "C",
+        "text": "$\\sqrt{57y}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\sqrt{(57y)^{2}}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_2"
+  },
+  {
+    "question_number": 3,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "Luis has 150 in an account. Each year he expects to have 1.1% more money in the account than he had the previous year. Which of the following models best describes how Luis expects the money in his account to change over time?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Decreasing exponential"
+      },
+      {
+        "label": "B",
+        "text": "Decreasing linear"
+      },
+      {
+        "label": "C",
+        "text": "Increasing exponential"
+      },
+      {
+        "label": "D",
+        "text": "Increasing linear"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_3"
+  },
+  {
+    "question_number": 4,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "The function m is defined by m(x)= 5x + 3, and the function p is defined by p(x)= 3- x. What is the value of 2m(3)- p(3)?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "36",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_4"
+  },
+  {
+    "question_number": 5,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "The number of bacteria in a liquid medium doubles every day. There are 48,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, $y$, in the liquid medium $t$ days after the start of the observation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y=\\frac{1}{2}(48,000)^{t}$"
+      },
+      {
+        "label": "B",
+        "text": "$y=2$$(48,000)^{t}$"
+      },
+      {
+        "label": "C",
+        "text": "$y=48,000(\\frac{1}{2})^{t}$"
+      },
+      {
+        "label": "D",
+        "text": "$y=48,000(2)^{t}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_5"
+  },
+  {
+    "question_number": 6,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "$y=\\frac{x}{4}+6$ $y=-\\frac{x}{4}+30$ The solution to the given system of equations is (x, y). What is the value of 2y?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "24"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_6"
+  },
+  {
+    "question_number": 7,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "$f(x)=(2x-3)(x+8)$ $g(x)=3(6x-9)$ The functions $f$ and $g$ are defined by the equations shown. Which of the following is equivalent to $f(x)$ -$g(x)$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$2x^{2}+7x-15$"
+      },
+      {
+        "label": "B",
+        "text": "$2x^{2}-5x+3$"
+      },
+      {
+        "label": "C",
+        "text": "$2x^{2}-x-3$"
+      },
+      {
+        "label": "D",
+        "text": "$2x^{2}+31x-51$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_7"
+  },
+  {
+    "question_number": 8,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "In right triangle $ABC$, angles $A$ and $B$ are acute, side $AC$ has a length of 23.3, and tan B= $\\frac{1}{4}$. What is the length of side BC, rounded to the nearest tenth?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "4.8"
+      },
+      {
+        "label": "B",
+        "text": "5.8"
+      },
+      {
+        "label": "C",
+        "text": "93.2"
+      },
+      {
+        "label": "D",
+        "text": "542.9"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_8"
+  },
+  {
+    "question_number": 9,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "$-3|5x+7|+9=-12$ what are all solutions to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "and $-\\frac{6}{5}$"
+      },
+      {
+        "label": "C",
+        "text": "and $-$$\\frac{14}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "There is no solution."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_9"
+  },
+  {
+    "question_number": 10,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "While walking on a path, Maksim stopped at a water fountain. The graph shows the total distance y, in meters, Maksim had walked on the path x minutes after leaving the water fountain. What distance, in meters, did Maksim walk on the path in the 10 minutes after he left the water fountain?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "600",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_10"
+  },
+  {
+    "question_number": 11,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "The positive number a is 2,106% of the sum of the positive numbers b and c, and b is 81% of c. What percent of b is a?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "4,706%"
+      },
+      {
+        "label": "B",
+        "text": "2,600%"
+      },
+      {
+        "label": "C",
+        "text": "38.12%"
+      },
+      {
+        "label": "D",
+        "text": "21.87%"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_11"
+  },
+  {
+    "question_number": 12,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge$ -65, where r and t are constants. what is the value of r +t",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "-4"
+      },
+      {
+        "label": "D",
+        "text": "-5"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_12"
+  },
+  {
+    "question_number": 13,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "In the xy-plane, line k and line $γ$ are perpendicular and intersect at the point (7, 5). If line k is defined by the equation y= mx + b, where m and b are constants and m > 1, which of the following points lies on line $γ$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(8,5-\\frac{1}{m})$"
+      },
+      {
+        "label": "B",
+        "text": "$(8,5+\\frac{1}{m})$"
+      },
+      {
+        "label": "C",
+        "text": "$(8,5-m)$"
+      },
+      {
+        "label": "D",
+        "text": "$(8,5+m)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13"
+  },
+  {
+    "question_number": 14,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "The histogram summarizes a data set of the weights, in pounds, of 14 salmon. If an additional weight of 32 pounds is added to the original data set to create a new data set of 15 weights, which of the following measures must be less for the new data set than for the original data set? I. The median II. The mean",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "I only"
+      },
+      {
+        "label": "B",
+        "text": "II only"
+      },
+      {
+        "label": "C",
+        "text": "I and II"
+      },
+      {
+        "label": "D",
+        "text": "Neither I nor II"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_14"
+  },
+  {
+    "question_number": 15,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "For the function $f$, for every increase of 2 in the value of $x$, the value of $f(x)$ increases by a factor of $c$, where $c$ is a constant. Which of the following equivalent forms of function $f$ displays the value of $c$ as the base or the coefficient?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$f(x)=42(2)^{6x}$"
+      },
+      {
+        "label": "B",
+        "text": "$f(x)=42(8)^{2x}$"
+      },
+      {
+        "label": "C",
+        "text": "$f(x)=42(64)^{x}$"
+      },
+      {
+        "label": "D",
+        "text": "$f(x)=42(4,096)^{\\frac{x}{2}}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_15"
+  },
+  {
+    "question_number": 16,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "To investigate the effect of magnesium supplementation on the sleep quality of adults, a researcher selected 190 adults at random from a community center to participate in a study. The researcher first measured the sleep efficiency of each participant. Each participant was then randomly assigned to take a magnesium supplement or a placebo each day for 6 weeks. At the end of the 6 weeks, the researcher measured the sleep efficiency of all participants again and found that the magnesium supplement caused statistically significant improved sleep quality for the adults at the community center. What feature of this study allowed the researcher to conclude that the magnesium supplement caused the improved sleep quality?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "There were more than 100 participants in the study."
+      },
+      {
+        "label": "B",
+        "text": "The participants were selected at random from the community center."
+      },
+      {
+        "label": "C",
+        "text": "The sleep efficiency of each participant was measured again at the end of 6 weeks."
+      },
+      {
+        "label": "D",
+        "text": "Each participant was randomly assigned to take a magnesium supplement or a placebo."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_16"
+  },
+  {
+    "question_number": 17,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "A circle in the $xy$-plane has its center at (-1, 1). Line$t$ is tangent to this circle at the point(7,-6). Which of the following points also lies on line $t$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(0,\\frac{8}{7})$"
+      },
+      {
+        "label": "B",
+        "text": "(6,9)"
+      },
+      {
+        "label": "C",
+        "text": "(14,2)"
+      },
+      {
+        "label": "D",
+        "text": "(15,1)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_17"
+  },
+  {
+    "question_number": 18,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "The function $f$ is defined by $f(x)=\\frac{x^{2}+ax+b}{2x+c}$, where a, b, and c are constants. The graph of the function $f$ in the xy-plane, where $y=f(x)$, does not intersect the line $x=4$. If $f(5)=f(6)=0$, what is the value of a + b+ c?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "11",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_18"
+  },
+  {
+    "question_number": 19,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "If $4x+7=15$,what is the value of $8x-3$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "13",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_19"
+  },
+  {
+    "question_number": 20,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "kx 2 -16x=24x 2 -8 In the given equation, $k$ is an integer constant. If the equation has two distinct real solutions,what is the greatest possible value of $k$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "31",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_20"
+  },
+  {
+    "question_number": 21,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 56 square centimeters (cm 2), and the surface area of right rectangular prism Y is 896 cm 2. The volume of right rectangular prism Y is 1,536 cubic centimeters (cm 3). What is the sum of the volumes, in cm 3, of right rectangular prism X and right rectangular prism Y?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "1560",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_21"
+  },
+  {
+    "question_number": 22,
+    "test_name": "March 2025 US Form A SAT Math Module 2",
+    "passage": "In triangle $ABC,$the measure of angle B is 90º and $\\overline{BD}$ is an altitude of the triangle. The length of $\\overline{AB}$ is 24 and the length of $\\overline{AC}$ is 13 greater than the length of $\\overline{AB}$. What is the value of $\\frac{BC}{BD}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{13}{24}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{24}{37}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{37}{24}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{24}{13}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_22"
+  }
+]

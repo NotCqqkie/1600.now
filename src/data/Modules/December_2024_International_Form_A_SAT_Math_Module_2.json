@@ -1,0 +1,494 @@
+[
+  {
+    "question_number": 1,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "In the right triangle shown, what is the value of a?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "66"
+      },
+      {
+        "label": "C",
+        "text": "90"
+      },
+      {
+        "label": "D",
+        "text": "56"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1"
+  },
+  {
+    "question_number": 2,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "The graph of the polynomial function f in the xy-plane, where y= f(x), passes through thepoint (5, 3). What is the value of f(5)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_2"
+  },
+  {
+    "question_number": 3,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "A circle has a circumference of 42π centimeters. What is the diameter, incentimeters, of the circle?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "42",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_3"
+  },
+  {
+    "question_number": 4,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$49=\\frac{2K}{v^{2}}$ For an object with a mass of 49 kilograms, the given equation relates the kinetic energy Kin joules, of the object to the object's speed v, in meters per second, where K and v are positive. Which equation correctly expresses this object's speed, in meters per second, interms of the objeet's kinetic energy, in joules?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$v=\\sqrt{\\frac{2K}{49}}$"
+      },
+      {
+        "label": "B",
+        "text": "$v=\\sqrt{\\frac{49}{2K}}$"
+      },
+      {
+        "label": "C",
+        "text": "$v=\\frac{49^{x}}{2K}$"
+      },
+      {
+        "label": "D",
+        "text": "$v=\\frac{2K}{49^{x}}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_4"
+  },
+  {
+    "question_number": 5,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "The function f is defined by f(x)= 4x 2. What is the value of f(11)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "44"
+      },
+      {
+        "label": "B",
+        "text": "52"
+      },
+      {
+        "label": "C",
+        "text": "88"
+      },
+      {
+        "label": "D",
+        "text": "484"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_5"
+  },
+  {
+    "question_number": 6,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$g(x)=\\frac{1}{9}(5)^{x}$ If the given function g is graphed in the xy-plane, where y= g(x), what is the y-intercept of the graph?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(0,0)$"
+      },
+      {
+        "label": "B",
+        "text": "$(0,\\frac{1}{9})$"
+      },
+      {
+        "label": "C",
+        "text": "$(0,\\frac{5}{9})$"
+      },
+      {
+        "label": "D",
+        "text": "$(0,5)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_6"
+  },
+  {
+    "question_number": 7,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "A bin contains a mixture of T-shirts for two sports teams. The table shows the number of T-shirts in the bin, classilied by size and sports team. One T-shirt from the bin will be selected at random. What is the probability of selecting a T-shirt that is medium, given that the T-shirt is a Hawks T-shirt? (Express your answer as a decimal or fraction, not as a percent.)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "0.5,1/2",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_7"
+  },
+  {
+    "question_number": 8,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "The population of a certain city doubled every 75 years from 1652 to 1952. The population of this city was 160,000 in 1952. What was the population of this city in 1652?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "10000",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_8"
+  },
+  {
+    "question_number": 9,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$In right triangle JKL, the tangent of$ ∠ L is $\\frac{3}{4}.What is the length of\\overline{JK}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{35}{16}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{15}{4}$"
+      },
+      {
+        "label": "C",
+        "text": "54"
+      },
+      {
+        "label": "D",
+        "text": "72"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_9"
+  },
+  {
+    "question_number": 10,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$x^{2}-\\frac{25}{81}=0$ How many distinct real solutions does the given equation have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Exactly one"
+      },
+      {
+        "label": "C",
+        "text": "Exactly two"
+      },
+      {
+        "label": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_10"
+  },
+  {
+    "question_number": 11,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$a(7x-14)+5a=7(ax-2a)-35$ In the given equation, a is a constant, The equation has infinitely many solutions. What are all possible values of a?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "only"
+      },
+      {
+        "label": "B",
+        "text": "-7 only"
+      },
+      {
+        "label": "C",
+        "text": "Any real number"
+      },
+      {
+        "label": "D",
+        "text": "No real number"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_11"
+  },
+  {
+    "question_number": 12,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "If x > 0 and x is 33% of y, which expression represents y in terms of x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{100}{33}x$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{10}{33}x$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{1}{33}x$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{67}{100}x$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_12"
+  },
+  {
+    "question_number": 13,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$5x^{m}$ In the given expression, is a constant and x > 1. The expression can be rewritten as $7x$. What is the value of m?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "5/7,0.714,.7143",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_13"
+  },
+  {
+    "question_number": 14,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "A book-of-the month club charges $13 for the first book purchased during the month and an additional $11 for each book after the first. Which equation describes this situation, where y is the total cost, in dollars, for books purchased during a month, x is the number of book spurchased during the month, and x>0?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y=x+13$"
+      },
+      {
+        "label": "B",
+        "text": "$y=11x+13$"
+      },
+      {
+        "label": "C",
+        "text": "$y=11(x-1)+13$"
+      },
+      {
+        "label": "D",
+        "text": "$y=(x-1)+13$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_14"
+  },
+  {
+    "question_number": 15,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$z(w)=(0.829)^{2w}$ The function z is defined by the equation shown. The value of z(w) decreases by p% for each increase by 1 in the value of w. Which of the folloving is closest to the value of p?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.171"
+      },
+      {
+        "label": "B",
+        "text": "0.829"
+      },
+      {
+        "label": "C",
+        "text": "17.1"
+      },
+      {
+        "label": "D",
+        "text": "31.3"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_15"
+  },
+  {
+    "question_number": 16,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "The graph of the linear function y= f(x) + 11 is show. If c and d are positive constants,which equation could define f?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$f(x)=-d-cx$"
+      },
+      {
+        "label": "B",
+        "text": "$f(x)=d+cx$"
+      },
+      {
+        "label": "C",
+        "text": "$f(x)=d-cx$"
+      },
+      {
+        "label": "D",
+        "text": "$f(x)=-d+cx$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_16"
+  },
+  {
+    "question_number": 17,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$21x^{2}+(21s+r)x+rs=0$ In the given equation, r and s are positive constants, The product of the solutions to the given equation is krs, where k is a constant. What is the value of k?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "1/21,0.047,0.048,.0476",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_17"
+  },
+  {
+    "question_number": 18,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "The speeds of particles A, B, and C are a meters per second, b meters per second, and cmeters per second, respectively. If the speed of particle A is 6,000% of the speed of particle Cand the speed of particle C is 0.008% of the speed of particle B, which expression representsthe value of a + b in terms of c?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "12,560c"
+      },
+      {
+        "label": "B",
+        "text": "6,125c"
+      },
+      {
+        "label": "C",
+        "text": "6,008c"
+      },
+      {
+        "label": "D",
+        "text": "1,850c"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_18"
+  },
+  {
+    "question_number": 19,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$-16(5x-3)^{2}+4(5x-2)^{2}$ The given expression can be rewritten as $\\frac{a}{4}x^{2}+\\frac{b}{4}x+\\frac{c}{4}$, where a, b, and c are constants. What is the value of a +b+c?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-112"
+      },
+      {
+        "label": "B",
+        "text": "-56"
+      },
+      {
+        "label": "C",
+        "text": "-28"
+      },
+      {
+        "label": "D",
+        "text": "-7"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_19"
+  },
+  {
+    "question_number": 20,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "$f(x)=66b^{x}$ In the given function, b is a positive constant. For every increase in the value of x by l, the value of f(x) increases by c%, where 0 < c < 100. Which expression gives the value of c in terms of b?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$1+\\frac{b}{100}$"
+      },
+      {
+        "label": "B",
+        "text": "$b+100$"
+      },
+      {
+        "label": "C",
+        "text": "$100(b+1)$"
+      },
+      {
+        "label": "D",
+        "text": "$100(b-1)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_20"
+  },
+  {
+    "question_number": 21,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "On average, a certain tree grows 87 centimeters every m months. At this rate, which expression represents the number of centimeters, on average, the tree grows every k years?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{29m}{4k}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{29k}{4m}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{1,044m}{k}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{1,044k}{m}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_21"
+  },
+  {
+    "question_number": 22,
+    "test_name": "December 2024 International Form A SAT Math Module 2",
+    "passage": "In the figure shown, points A, B, C, and E lie on the circle, and AB < BC. Segment AC is perpendicular to segment BE at point D, and BD= $\\sqrt{346}$. The diameter of the circle is 175. If $\\frac{CD}{AD}$ = r, what is the value of r?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "86.5,173/2",
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22"
+  }
+]

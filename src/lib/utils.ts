@@ -31,7 +31,7 @@ export function renderMixedContent(text: string): string {
         return part; // Return original on error
       }
     }
-    // Plain text - return as-is
-    return part;
+    // Plain text - return as-is, but convert newlines to breaks
+    return part.replace(/\n/g, '<br />');
   }).join('');
 }

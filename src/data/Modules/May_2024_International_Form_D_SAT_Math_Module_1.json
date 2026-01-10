@@ -1,0 +1,477 @@
+[
+  {
+    "question_number": 1,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "In triangle ABC, the measure of angle A is 54° and the measure of angle B is 90°. What is the measure, in degrees, of angle C?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "36"
+      },
+      {
+        "label": "B",
+        "text": "54"
+      },
+      {
+        "label": "C",
+        "text": "90"
+      },
+      {
+        "label": "D",
+        "text": "180"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_1"
+  },
+  {
+    "question_number": 2,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "The function b is defined by b (x)= 2 (x +1). Which expression is equivalent to b (x) when x = 6?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_2"
+  },
+  {
+    "question_number": 3,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "The graph shown gives the estimated value, in dollars, of a mountain bike as a function of the number of months since it was purchased. What is the best interpretation of the y -intercept of the graph in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The estimated value of the bike was 250 when it was purchased."
+      },
+      {
+        "label": "B",
+        "text": "The estimated value of the bike 24 months after it was purchased was 250."
+      },
+      {
+        "label": "C",
+        "text": "The estimated value of the bike had decreased by 250 in the 24 months after it was purchased."
+      },
+      {
+        "label": "D",
+        "text": "The estimated value of the bike decreased by approximately 2.50% each year after it was purchased."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_3"
+  },
+  {
+    "question_number": 4,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "A certain rectangular flag is produced in several different sizes. The flag is designed so that its length is always 1.59 times its width. Which equation gives the area A, in square feet, of this flag if it has a width of w feet?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "A=(1.59 w)(w)"
+      },
+      {
+        "label": "B",
+        "text": "A=($\\frac{w}{1.59})(w)"
+      },
+      {
+        "label": "C",
+        "text": "A=(w- 1.59)(w)"
+      },
+      {
+        "label": "D",
+        "text": "A=(w+ 1.59)(w)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_4"
+  },
+  {
+    "question_number": 5,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "The graph of y = f (x) is shown. Which equation defines f?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "f (x)= 5(x + 1) 2 + 2"
+      },
+      {
+        "label": "B",
+        "text": "f (x)= 5(x + 1) 2"
+      },
+      {
+        "label": "C",
+        "text": "f (x)= 5 x 2 +3"
+      },
+      {
+        "label": "D",
+        "text": "f (x)= 5 x 2"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_5"
+  },
+  {
+    "question_number": 6,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "One minute after the start of an experiment, the volume of a mixture is 95% of its volume at the start of the experiment. Which expression best represents the volume of the mixture one minute after the start of the experiment, where v is its volume at the start of the experiment?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.095 v"
+      },
+      {
+        "label": "B",
+        "text": "0.95 v"
+      },
+      {
+        "label": "C",
+        "text": "9.5 v"
+      },
+      {
+        "label": "D",
+        "text": "v"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_6"
+  },
+  {
+    "question_number": 7,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "x = 15 −2 x + y = −5 The solution to the given system of equations is (x, y). What is the value of x + y?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-20"
+      },
+      {
+        "label": "B",
+        "text": "-10"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_7"
+  },
+  {
+    "question_number": 8,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function f shown, where y = f (x), estimates the account balance, in dollars, in this bank account x months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "40",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_8"
+  },
+  {
+    "question_number": 9,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "Which of the following equations is the most appropriate linear model for the data shown?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = −1.8 x − 0.2"
+      },
+      {
+        "label": "B",
+        "text": "y = −0.2 x − 1.8"
+      },
+      {
+        "label": "C",
+        "text": "y = 0.2 x+ 1.8"
+      },
+      {
+        "label": "D",
+        "text": "y = 1.80 x + 0.2"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_9"
+  },
+  {
+    "question_number": 10,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "Antwon's hair will grow at a constant rate from a length of 3 inches to a length of 6 inches. The equation 0.2 t + 3 = 6 describes this situation, where t is the number of months it will take for Antwon's hair to reach a length of 6 inches. Which of the following is the best interpretation of 0.2 in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The time, in months, it will take Antwon's hair to grow 1 inch"
+      },
+      {
+        "label": "B",
+        "text": "The time, in months, it will take Antwon's hair to reach a length of 6 inches"
+      },
+      {
+        "label": "C",
+        "text": "The length, in inches, Antwon's hair will grow each month"
+      },
+      {
+        "label": "D",
+        "text": "The length, in inches, Antwon's hair will grow in 6 months"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_10"
+  },
+  {
+    "question_number": 11,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "x 2 (2 x − 11)(2 x − u)= 0 In the given equation, u is a positive constant. The sum of the solutions to the equation is 16. What is the value of u?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "21",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_11"
+  },
+  {
+    "question_number": 12,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "If 2 x + 5 = 9, what is the value of 8 x − 4?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "12",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_12"
+  },
+  {
+    "question_number": 13,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "x + 78 = r (3 x + 6) In the given equation, r is a positive integer. If this equation has more than one solution, what is the value of r?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "13",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_13"
+  },
+  {
+    "question_number": 14,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "A plant nursery classifies a perennial flower species as tall if its typical height when fully grown is more than 100 centimeters. Each of the following inequalities represents the possible heights h, in centimeters, for a specific perennial flower species when fully grown. Which inequality represents the possible heights h, in centimeters, for a tall perennial flower species?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "< h < 86"
+      },
+      {
+        "label": "B",
+        "text": "< h < 89"
+      },
+      {
+        "label": "C",
+        "text": "< h < 100"
+      },
+      {
+        "label": "D",
+        "text": "< h < 154"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_14"
+  },
+  {
+    "question_number": 15,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "y = 8x y = x 2 − 20 A solution to the given system of equations is (x, y), where x > 0. What is the value of x?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "10",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_15"
+  },
+  {
+    "question_number": 16,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "Line t in the xy -plane has a slope of $\\frac{1}{8}$ and passes through the point (40, −6). Which equation defines line t?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "y =-11+$\\frac{1}{8}$"
+      },
+      {
+        "label": "B",
+        "text": "y =$\\frac{x}{8}$ -11"
+      },
+      {
+        "label": "C",
+        "text": "y =$\\frac{x}{8}$ -6"
+      },
+      {
+        "label": "D",
+        "text": "y =40 x -6"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_16"
+  },
+  {
+    "question_number": 17,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "For a certain type of rope, the equation y = 900 ax 2, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 1.25 inches, it has an estimated breaking strength of 1,968.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 4.50 inches?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "25515",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_17"
+  },
+  {
+    "question_number": 18,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "$\\frac{12x}{6y}=2\\sqrt{w+22}$ The given equation relates the distinct positive real numbers w, x, and y. Which equation correctly expresses w in terms of x and y?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "w=$\\sqrt{\\frac{x}{y}}$ -22"
+      },
+      {
+        "label": "B",
+        "text": "w=$\\sqrt{\\frac{24x}{12y}}$ -22"
+      },
+      {
+        "label": "C",
+        "text": "w=($\\frac{x}{y}$) 2 -22"
+      },
+      {
+        "label": "D",
+        "text": "w=($\\frac{24x}{12y}$) 2 -22"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_18"
+  },
+  {
+    "question_number": 19,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "RS = 504 ST = 128 T R = 520 The side lengths of right triangle RST are given. Triangle RST is similar to triangle UV W, where S corresponds to V and T corresponds to W. What is the value of tan W?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{16}{65}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{16}{63}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{63}{65}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{63}{16}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_19"
+  },
+  {
+    "question_number": 20,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 78 centimeters. If the height of the cone is 39 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "59319",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_20"
+  },
+  {
+    "question_number": 21,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "z (w)= (0.835) 3 w The function z is defined by the equation shown. The value of z(w) decreases by p % for each increase by 1 in the value of w. Which of the following is closest to the value of p?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "41.8"
+      },
+      {
+        "label": "B",
+        "text": "16.5"
+      },
+      {
+        "label": "C",
+        "text": "0.835"
+      },
+      {
+        "label": "D",
+        "text": "0.165"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_21"
+  },
+  {
+    "question_number": 22,
+    "test_name": "May 2024 International Form D SAT Math Module 1",
+    "passage": "−2|x − 7|= −8x What are all possible solutions to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-$\\frac{7}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{7}{5}$"
+      },
+      {
+        "label": "C",
+        "text": "-$\\frac{7}{3}$ and $\\frac{7}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{7}{5}$ and$\\frac{7}{3}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_22"
+  }
+]

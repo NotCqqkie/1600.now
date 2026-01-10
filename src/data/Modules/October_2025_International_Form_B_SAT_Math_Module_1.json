@@ -1,0 +1,579 @@
+[
+  {
+    "question_number": 1,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "The length of a rectangle's diagonal is $\\sqrt{65}$, and the length of one of the rectangle's sides is 4. What is the perimeter of the rectangle?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "22"
+      },
+      {
+        "label": "C",
+        "text": "28"
+      },
+      {
+        "label": "D",
+        "text": "65"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_1"
+  },
+  {
+    "question_number": 2,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "The function h is defined by h (x)= 7| x |. What is the value of h (-6)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-42"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "13"
+      },
+      {
+        "label": "D",
+        "text": "42"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_2"
+  },
+  {
+    "question_number": 3,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "lf $\\frac{x}{y}$ = 52 and $\\frac{cx}{4y}$ = 52, what is the value of c?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "52"
+      },
+      {
+        "label": "D",
+        "text": "208"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_3"
+  },
+  {
+    "question_number": 4,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "If 5(8-4 x)+2 = 4(8-4 x)+18, what is the value of 8-4 x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-16"
+      },
+      {
+        "label": "B",
+        "text": "-2"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_4"
+  },
+  {
+    "question_number": 5,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "The function g is defined by g (x)= 16 x + 25. For what value of a does g (x)= 29?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": ".25,0.25,1/4",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_5"
+  },
+  {
+    "question_number": 6,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "The positive number a is 240% of the number b, and a is 70% of the number c. lf c is p % of b, which of the following is closest to the value of p?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "168"
+      },
+      {
+        "label": "B",
+        "text": "200"
+      },
+      {
+        "label": "C",
+        "text": "243"
+      },
+      {
+        "label": "D",
+        "text": "343"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_6"
+  },
+  {
+    "question_number": 7,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "x + y =48 The given equation relates the total number of marble queen pothos stems, x, and the total number of snow queen pothos stems, y, a plant nursery propagates to create pothos plants. If 18 snow queen pothos stems are propagated, how many marble queen pothos stems are propagated?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "48"
+      },
+      {
+        "label": "B",
+        "text": "30"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_7"
+  },
+  {
+    "question_number": 8,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "If 7 + x = 5, what is the value of -14-2 x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-10"
+      },
+      {
+        "label": "B",
+        "text": "-2"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_8"
+  },
+  {
+    "question_number": 9,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "The function k is defined by k(x)= x ³+ 20. What is the value of k (x) when x =2?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "28"
+      },
+      {
+        "label": "B",
+        "text": "26"
+      },
+      {
+        "label": "C",
+        "text": "25"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_9"
+  },
+  {
+    "question_number": 10,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "Which expression is a factor of x 4 +14 ax 2 +49 a 2 -64, where a is a positive constant?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "x ²+7 a +8"
+      },
+      {
+        "label": "B",
+        "text": "x ²-7 a -8"
+      },
+      {
+        "label": "C",
+        "text": "x ²+14a"
+      },
+      {
+        "label": "D",
+        "text": "x ²-8a"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_10"
+  },
+  {
+    "question_number": 11,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "For the linear function g, g (9)=11 and g (x +1) - g (x)= 2. Which equation defines g?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "g (x)=9 x + 2"
+      },
+      {
+        "label": "B",
+        "text": "g (x)=9 x + 11"
+      },
+      {
+        "label": "C",
+        "text": "g (x)=2 x - 18"
+      },
+      {
+        "label": "D",
+        "text": "g (x)=2 x - 7"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_11"
+  },
+  {
+    "question_number": 12,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "In the figure, a hollow steel pipe is in the shape of a right circular cylinder. The steel pipe has an outside diameter of 60 inches, a wall thickness of $\\frac{5}{8}$ inches, and a height of 132 inches. Which of the following is closest to the volume, in cubic inches, of the wall of this steel pipe?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "162"
+      },
+      {
+        "label": "B",
+        "text": "518"
+      },
+      {
+        "label": "C",
+        "text": "2,475"
+      },
+      {
+        "label": "D",
+        "text": "15,389"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_12"
+  },
+  {
+    "question_number": 13,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "The function h is defined by h (x)= 7| x |. What is the value of h (-4)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-28"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "28"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_13"
+  },
+  {
+    "question_number": 14,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "In triangle ABC, $\\overline{DE}$ is parallel to $\\overline{AC}$, BD = AD, BE = 9, and AC = 17. What is the length of $\\overline{BC}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "153"
+      },
+      {
+        "label": "B",
+        "text": "34"
+      },
+      {
+        "label": "C",
+        "text": "26"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_14"
+  },
+  {
+    "question_number": 15,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "If 5(8-2 x) + 3=4(8-2 x) + 15,whatis the value of 8-2 x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-12"
+      },
+      {
+        "label": "B",
+        "text": "-2"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_15"
+  },
+  {
+    "question_number": 16,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "The positive number a is 270% of the number b, and a is 80% of the number c. If c is p % of b, which of the following is closest to the value of p?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "213"
+      },
+      {
+        "label": "B",
+        "text": "216"
+      },
+      {
+        "label": "C",
+        "text": "238"
+      },
+      {
+        "label": "D",
+        "text": "338"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_16"
+  },
+  {
+    "question_number": 17,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "x + y =53 The given equation relates the total number of marble queen pothos stems, x, and the total number of snow queen pothos stems, y, a plant nursery propagates to create pothos plants. If 13 snow queen pothos stems are propagated, how many marble queen pothos stems are propagated?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "53"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "27"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_17"
+  },
+  {
+    "question_number": 18,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "If 7 + x = 5, what is the value of-21-3 x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-15"
+      },
+      {
+        "label": "B",
+        "text": "-3"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "27"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_18"
+  },
+  {
+    "question_number": 19,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "The function k is defined by k (x)= x ³+ 50. What is the value of k (x) when x = 2?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "50"
+      },
+      {
+        "label": "B",
+        "text": "55"
+      },
+      {
+        "label": "C",
+        "text": "56"
+      },
+      {
+        "label": "D",
+        "text": "58"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_19"
+  },
+  {
+    "question_number": 20,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "x (x -1)(x +7)=0 What is one of the solutions to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-1"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_20"
+  },
+  {
+    "question_number": 21,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "The scatterplot shows the relationship between two variables, x and y. A line of best fit for the data is also shown. For how many of the 9 data points is the actual y -value greater than the y -value predicted by the line of best fit?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_21"
+  },
+  {
+    "question_number": 22,
+    "test_name": "October 2025 International Form B SAT Math Module 1",
+    "passage": "For two acute angles X and Y, the measure of angle Y is 24°and $\\frac{sinX}{cosY}$ =1. What is the measure, in degrees, of angle X?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "45"
+      },
+      {
+        "label": "C",
+        "text": "66"
+      },
+      {
+        "label": "D",
+        "text": "69"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_22"
+  }
+]

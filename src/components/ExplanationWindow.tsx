@@ -14,6 +14,7 @@ interface ExplanationWindowProps {
   constrainToLeft?: number;
   isSidebarred?: boolean;
   onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
+  windowId?: string;
 }
 
 export const ExplanationWindow = ({ 
@@ -26,7 +27,8 @@ export const ExplanationWindow = ({
   zIndex = 50,
   constrainToLeft,
   isSidebarred = false,
-  onSidebarToggle
+  onSidebarToggle,
+  windowId = "explanation"
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -34,12 +36,16 @@ export const ExplanationWindow = ({
     if (!isOpen && onFocus) {
       onFocus(); // Bring to front when opening
     }
+    // Keep split-screen state in sync when toggling from a sidebarred state
+    if (isOpen && isSidebarred && onSplitScreenChange) {
+      onSplitScreenChange(false, windowId);
+    }
     setIsOpen(!isOpen);
   };
 
   return (
     <>
-      <Button variant="secondary" onClick={handleToggle} className="h-10">
+      <Button variant="outline" size="sm" onClick={handleToggle} className="h-10">
         <Youtube className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
         {!compressed && "Explanation"}
       </Button>
@@ -55,7 +61,7 @@ export const ExplanationWindow = ({
         enableSplitScreen={true}
         diagonalResizeOnly={true}
         lockAspectRatio={true}
-        windowId="explanation"
+        windowId={windowId}
         onFocus={onFocus}
         zIndex={zIndex}
         constrainToLeft={constrainToLeft}
