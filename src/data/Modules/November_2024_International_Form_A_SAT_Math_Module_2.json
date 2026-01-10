@@ -532,7 +532,7 @@
   {
     "question_number": 22,
     "test_name": "November 2024 International Form A SAT Math Module 2",
-    "passage": "The expression $ 6x^{4}+17x^{2}+7 $ can be rewritten as $(3x^{2}+a)(2x^{2}+b)$, where a and b are positive integers, or as $($$ 3x^{2}+c $ $)(2x^{2}+d)))$, where c and d are positive nonintegers. What is the value of a + c?",
+    "passage": "The expression $ 6x^{4}+17x^{2}+7 $ can be rewritten as $(3x^{2}+a)(2x^{2}+b)$, where a and b are positive integers, or as $(3x^{2}+c)(2x^{2}+d)$, where c and d are positive nonintegers. What is the value of a + c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
