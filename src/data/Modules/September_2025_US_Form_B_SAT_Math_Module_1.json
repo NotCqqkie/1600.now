@@ -1,0 +1,477 @@
+[
+  {
+    "question_number": 1,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "Which expression is equivalent to $v^{4}-460v^{3}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(v^{2}+46)(v^{2}-10)$"
+      },
+      {
+        "label": "B",
+        "text": "$(v^{2}-46)(v^{2}-10)$"
+      },
+      {
+        "label": "C",
+        "text": "$v^{3}(v-460)$"
+      },
+      {
+        "label": "D",
+        "text": "$v^{3}(v+460)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_1"
+  },
+  {
+    "question_number": 2,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "In the figure shown, line r is parallel to line s, and line t intersects both lines. What is the value of x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$15$"
+      },
+      {
+        "label": "B",
+        "text": "$180$"
+      },
+      {
+        "label": "C",
+        "text": "$90$"
+      },
+      {
+        "label": "D",
+        "text": "$105$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_2"
+  },
+  {
+    "question_number": 3,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "The width of a rectangle is 9 centimeters. The length of the rectangle is 50 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$18$"
+      },
+      {
+        "label": "B",
+        "text": "$531$"
+      },
+      {
+        "label": "C",
+        "text": "$68$"
+      },
+      {
+        "label": "D",
+        "text": "$9$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_3"
+  },
+  {
+    "question_number": 4,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "For the first hours of an experiment, the scatterplot shows the temperature y, in degrees Fahrenheit (°F) of an object at various times x, in hours, since the start of the experiment. A line of best fit is also shown. Which of the following is the best interpretation of the slope of the line of best fit?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The predicted temperature decreases at a constant rate of approximately 40°F per hour over the 10-hour period."
+      },
+      {
+        "label": "B",
+        "text": "The predicted temperature increases at a constant rate of approximately 40°F per hour over the 10-hour period."
+      },
+      {
+        "label": "C",
+        "text": "The predicted temperature increases at a constant rate of approximately 185°F per hour over the 10-hour period."
+      },
+      {
+        "label": "D",
+        "text": "The predicted temperature decreases at a constant rate of approximately 185°F per hour over the 10-hour period."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_4"
+  },
+  {
+    "question_number": 5,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function$f$ shown, where $y=f(x)$, estimates the account balance, in dollars, in this bank account x months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "15",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_5"
+  },
+  {
+    "question_number": 6,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "$y=-15x+21$ $y=-21x+27$ What is the solution (x, y) to the given system of equations?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(21,27)$"
+      },
+      {
+        "label": "B",
+        "text": "$(27,21)$"
+      },
+      {
+        "label": "C",
+        "text": "$(1,6)$"
+      },
+      {
+        "label": "D",
+        "text": "$(6,1)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_6"
+  },
+  {
+    "question_number": 7,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "$f(x)=-16x^{2}+76$ The function $f$gives the estimated height, in feet, of an acorn x seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "76",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_7"
+  },
+  {
+    "question_number": 8,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 338 pounds when entering hibernation and lost weight at a rate of 0.7 pound per day. At this rate, how many days after entering hibernation did the black bear weigh 310 pounds?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "40",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_8"
+  },
+  {
+    "question_number": 9,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "The graph of the polynomial function $f$ is shown, where $y=f(x)$. What is the value of $f(2)$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$2$"
+      },
+      {
+        "label": "B",
+        "text": "$5$"
+      },
+      {
+        "label": "C",
+        "text": "$-4$"
+      },
+      {
+        "label": "D",
+        "text": "$0$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_9"
+  },
+  {
+    "question_number": 10,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "A dog's mass is 37 kilograms. What is the dog's mass, in grams? (1 kilogram = 1,000 grams)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "37000",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_10"
+  },
+  {
+    "question_number": 11,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "A freight elevator can hold a maximum weight of 4,840 pounds during one trip. A 170-pound person needs to deliver several boxes using the freight elevator. Some of these boxes weigh 21 pounds each and the others weigh 62 pounds each. Which inequality represents the possible combinations of the number of 21-pound boxes, x, and the number of 62-pound boxes, y, the person can deliver during one trip if only the person and the boxes are on the freight elevator?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$21x+62y\\ge4,670$"
+      },
+      {
+        "label": "B",
+        "text": "$21x+62y\\le4,670$"
+      },
+      {
+        "label": "C",
+        "text": "$62x+21y\\ge4,840$"
+      },
+      {
+        "label": "D",
+        "text": "$62x+21y\\le4,840$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_11"
+  },
+  {
+    "question_number": 12,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "In triangle JKL, $cosy^\\circ=\\frac{23}{24}$.What is the length of $\\overline{KL}$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "23",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_12"
+  },
+  {
+    "question_number": 13,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "$b-20=\\frac{x}{y}$ The given equation relates the positive numbers b, x, and y. Which equation correctly expresses x in terms of b and y?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$x=\\frac{b-20}{y}$"
+      },
+      {
+        "label": "B",
+        "text": "$x=by-20y$"
+      },
+      {
+        "label": "C",
+        "text": "$x=\\frac{by-20}{y}$"
+      },
+      {
+        "label": "D",
+        "text": "$x=by-20$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_13"
+  },
+  {
+    "question_number": 14,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "In the xy -plane, the graph of the linear function h contains the points (0, 0) and (1, 40). Which equation defines h, where $y=h(x)$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$h(x)=\\frac{1}{40}x+40$"
+      },
+      {
+        "label": "B",
+        "text": "$h(x)=x+40$"
+      },
+      {
+        "label": "C",
+        "text": "$h(x)=40x+40$"
+      },
+      {
+        "label": "D",
+        "text": "$h(x)=40x$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_14"
+  },
+  {
+    "question_number": 15,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "$3x+y=13$ $4x-y=15$ How many solutions does the given system of equations have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Exactly one"
+      },
+      {
+        "label": "B",
+        "text": "Zero"
+      },
+      {
+        "label": "C",
+        "text": "Exactly two"
+      },
+      {
+        "label": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_15"
+  },
+  {
+    "question_number": 16,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "$\\frac{(x-6)(x-8)}{x-5}=0$ What is the sum of the solutions to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$14$"
+      },
+      {
+        "label": "B",
+        "text": "$19$"
+      },
+      {
+        "label": "C",
+        "text": "$5$"
+      },
+      {
+        "label": "D",
+        "text": "$8$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_16"
+  },
+  {
+    "question_number": 17,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "The measure of angle K is $\\frac{\\pi}{2(16)}$ radians. The measure of angle L is 16 times the measure of angle K. What is the measure, in degrees, of angle L?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$16$"
+      },
+      {
+        "label": "B",
+        "text": "$90$"
+      },
+      {
+        "label": "C",
+        "text": "$74$"
+      },
+      {
+        "label": "D",
+        "text": "$106$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_17"
+  },
+  {
+    "question_number": 18,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "All the sidewalk paving stones in a neighborhood are rectangular. The length of each of these paving stones is 41 centimeters greater than the width. Which equation gives the area A, in square centimeters, of a sidewalk paving stone in terms of the width w, in centimeters, of that paving stone?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$A=(w)(\\frac{w}{41})$"
+      },
+      {
+        "label": "B",
+        "text": "$A=(w)(41w)$"
+      },
+      {
+        "label": "C",
+        "text": "$A=(w)(w+41)$"
+      },
+      {
+        "label": "D",
+        "text": "$A=w^{2}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_18"
+  },
+  {
+    "question_number": 19,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "What is the y -intercept of the graph of $y=10^{x}+22$ in the xy -plane?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(0,32)$"
+      },
+      {
+        "label": "B",
+        "text": "$(0,22)$"
+      },
+      {
+        "label": "C",
+        "text": "$(0,23)$"
+      },
+      {
+        "label": "D",
+        "text": "$(0,10)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_19"
+  },
+  {
+    "question_number": 20,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "$-3x+18px=90$ In the given equation, p is a constant. The equation has no solution. What is the value of p?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$5$"
+      },
+      {
+        "label": "B",
+        "text": "$0$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{5}{3}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{1}{6}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_20"
+  },
+  {
+    "question_number": 21,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "The density of a certain type of marble stone is 2.3000 grams per cubic centimeter. If a sample of this type of stone is in the shape of a sphere with a diameter of 33.000 centimeters, what is the mass of this sample, in grams, to the nearest whole number? (Use 3.14159 for π.)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "43278",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_21"
+  },
+  {
+    "question_number": 22,
+    "test_name": "September 2025 US Form B SAT Math Module 1",
+    "passage": "The function w is defined by $w(r)=\\frac{1}{r-5}-\\frac{r-4}{-r+4.25}$. What is the greatest possible value of r such that $w(r)=0$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "9/2,4.5",
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_22"
+  }
+]

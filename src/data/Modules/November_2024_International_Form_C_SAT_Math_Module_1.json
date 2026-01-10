@@ -1,0 +1,511 @@
+[
+  {
+    "question_number": 1,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "The graph of the function f is shown, where y= f(x). What is the value of f(0)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-6"
+      },
+      {
+        "label": "B",
+        "text": "-4"
+      },
+      {
+        "label": "C",
+        "text": "-3"
+      },
+      {
+        "label": "D",
+        "text": "-2"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_1"
+  },
+  {
+    "question_number": 2,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "In the figure, two lines intersect at a point, If r = 61, what is the value of s?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "61",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_2"
+  },
+  {
+    "question_number": 3,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "The function f is defined by f(x)= 5x 2?. What is the value of f(7)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "35"
+      },
+      {
+        "label": "B",
+        "text": "45"
+      },
+      {
+        "label": "C",
+        "text": "70"
+      },
+      {
+        "label": "D",
+        "text": "245"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_3"
+  },
+  {
+    "question_number": 4,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "The function t(x)=-3x + 74 gives the estimated temperature, in degrees Fahrenheit, of atown x hours after 6 p.m., where $0\\le x\\le5$. What is the best interpretation of -3 in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The estimated temperature decreases 3 degrees Fahrenheit each hour."
+      },
+      {
+        "label": "B",
+        "text": "The estimated temperature decreases 74 degrees Fahrenheit each hour."
+      },
+      {
+        "label": "C",
+        "text": "At 6 p.m., the estimated temperature is -3 degrees Fahrenheit."
+      },
+      {
+        "label": "D",
+        "text": "At 6 p.m., the estimated temperature is 5 degrees Fahrenheit."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_4"
+  },
+  {
+    "question_number": 5,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "Which expression is equivalent to 6x(x + 3)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "6x² +3"
+      },
+      {
+        "label": "B",
+        "text": "6x 2 + 18x"
+      },
+      {
+        "label": "C",
+        "text": "7x 2 +3"
+      },
+      {
+        "label": "D",
+        "text": "7x 2 +9x"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_5"
+  },
+  {
+    "question_number": 6,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "The function f is defined by f(x) 3x 5. In the xy-plane, the graph of y = g(x) is the result of shifting the graph of y= f(x) up 9 units. Which equation defines the function g?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "g(x)= 3x 5 + 9"
+      },
+      {
+        "label": "B",
+        "text": "g(x)-3x 5 - 9"
+      },
+      {
+        "label": "C",
+        "text": "g(x)= 3x 45"
+      },
+      {
+        "label": "D",
+        "text": "g(x)=27x 5"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_6"
+  },
+  {
+    "question_number": 7,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "For the linear function f, the graph of y= f(x) in the xy-plane has a slope of 69 and f(0)= 3. Which equation defines f?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "f(x)= 3x"
+      },
+      {
+        "label": "B",
+        "text": "f(x)=3x+3"
+      },
+      {
+        "label": "C",
+        "text": "f(x)= 69x"
+      },
+      {
+        "label": "D",
+        "text": "f(x)=69x+3"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_7"
+  },
+  {
+    "question_number": 8,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "5% of w is 741.41. What is the value of w?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "778.481"
+      },
+      {
+        "label": "B",
+        "text": "3,707.05"
+      },
+      {
+        "label": "C",
+        "text": "14,828.2"
+      },
+      {
+        "label": "D",
+        "text": "70,433.95"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_8"
+  },
+  {
+    "question_number": 9,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "The graph of a system of a linear and a quadratic equation is shown. What system is represented by the graph?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y=-\\frac{7}{16}x^{2}$\n$y=-\\frac{7}{4}x$"
+      },
+      {
+        "label": "B",
+        "text": "$y=-\\frac{7}{16}x^{2}$\n$y=\\frac{7}{4}x$"
+      },
+      {
+        "label": "C",
+        "text": "$y=\\frac{7}{16}x^{2}$\n$y=-\\frac{7}{4}x$"
+      },
+      {
+        "label": "D",
+        "text": "$y=\\frac{7}{16}x^{2}$\n$y=\\frac{7}{4}x$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_9"
+  },
+  {
+    "question_number": 10,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "W(x)=4x+80 The function W gives the total time, in minutes, it takes for a gardener to water x plants and mow the grass. According to the function, how many minutes does it take the gardener to mow the grass?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "80",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_10"
+  },
+  {
+    "question_number": 11,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "19=x+y x-y=9 The solution to the given system of equations is (x, y). What is the value of x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "19"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_11"
+  },
+  {
+    "question_number": 12,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "$x^{2}-16x+y^{2}-10y-55=0$ In the xy-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "48"
+      },
+      {
+        "label": "C",
+        "text": "96"
+      },
+      {
+        "label": "D",
+        "text": "220"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_12"
+  },
+  {
+    "question_number": 13,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "If 5(3x+6) = 3(3x+6)+78, what is the value of 3x+6?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "78"
+      },
+      {
+        "label": "B",
+        "text": "39"
+      },
+      {
+        "label": "C",
+        "text": "33"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_13"
+  },
+  {
+    "question_number": 14,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "If f(x)= x+5 and g(x)= 5x,what is the value of 7 f (4)- g (4)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-11"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "35"
+      },
+      {
+        "label": "D",
+        "text": "43"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_14"
+  },
+  {
+    "question_number": 15,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "$C(t)=240(\\frac{53}{52})^{t-15}+7$ The function C gives the estimated number of cephalopods, a class of marine animal, in acertain area, where t is the number of months since a study began. How many months afterthe study began was the number of cephalopods in the area estimated to be 247?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "15",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_15"
+  },
+  {
+    "question_number": 16,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "An object moves at a speed of $\\frac{3}{17}$ feet per second, What is this speed in yards per second? (3 feet = 1 yard)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "1/17",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_16"
+  },
+  {
+    "question_number": 17,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "For the linear function g, the table shows four values of a and their corresponding values of g(x). The function can be written as g(x)= mx + b, where m and b are constants. What is the value of b?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "37",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_17"
+  },
+  {
+    "question_number": 18,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "The current value of a house is 174,000, and this value increases by 2.4% each year from the value of the previous year. Which function f gives the value, in dollars, of the house x years from now?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$f(x)=174,000(0.024)^{x}$"
+      },
+      {
+        "label": "B",
+        "text": "$f(x)=174,000(0.24)^{x}$"
+      },
+      {
+        "label": "C",
+        "text": "$f(x)=174,000(1.024)^{x}$"
+      },
+      {
+        "label": "D",
+        "text": "$f(x)=174,000(1.24)^{x}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_18"
+  },
+  {
+    "question_number": 19,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "What is the value of sin 18π?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{\\sqrt{2}}{2}$"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_19"
+  },
+  {
+    "question_number": 20,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "In triangle QRS shown, QR < RS. Which expression represents the length of $\\overline{QS}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$17cosQ$"
+      },
+      {
+        "label": "B",
+        "text": "$17sinQ$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{17}{cosQ}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{17}{sinQ}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_20"
+  },
+  {
+    "question_number": 21,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "$\\frac{1}{9}x-\\frac{3r}{7}y=34$ One of the equations in a system of two linear equations is given, where r is a nonzeroconstant. The system has no solution. If the other ecjuation in the system is graphed in the xy-plane, what is the slope of the graph?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-\\frac{27r}{7}$"
+      },
+      {
+        "label": "B",
+        "text": "$-\\frac{27}{7r}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{7r}{27}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{7}{27r}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_21"
+  },
+  {
+    "question_number": 22,
+    "test_name": "November 2024 International Form C SAT Math Module 1",
+    "passage": "A machine makes 8-inch, 9-inch, and 3-inch parts, During a certain day, the number of 8-inch parts that the machine makes is 4 times the number n of 9-inch parts, and the number of 3-inch parts is 30. During this day, the machine makes 100 parts total. Which equationrepresents this situation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$8(4n)+9n+3(30)=100$"
+      },
+      {
+        "label": "B",
+        "text": "$8n+9n+3n=100$"
+      },
+      {
+        "label": "C",
+        "text": "$4n+30=100$"
+      },
+      {
+        "label": "D",
+        "text": "$5n+30=100$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_22"
+  }
+]

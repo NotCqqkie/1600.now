@@ -626,7 +626,7 @@ export const questions: Question[] = [
   },
   {
     id: 66,
-    text: "<img src=\"/66.png\" alt=\"Geometry figure with parallel lines\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the figure shown, lines A and B are parallel, with lines B, C, and D intersecting at point H. What is the value of $q + r$?",
+    text: "<img src=\"/images/1600.now questions/66.png\" alt=\"Geometry figure with parallel lines\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the figure shown, lines A and B are parallel, with lines B, C, and D intersecting at point H. What is the value of $q + r$?",
     correctAnswer: "180",
     type: "free-response",
   },
@@ -680,7 +680,7 @@ export const questions: Question[] = [
   },
   {
     id: 72,
-    text: "<img src=\"/72.png\" alt=\"Right triangle with legs A, B, hypotenuse 56\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\The given right triangle has legs of lengths $A$ and $B$ and a hypotenuse of length $56$. What is the value of $\\frac{x}{A}$?",
+    text: "<img src=\"/images/1600.now questions/72.png\" alt=\"Right triangle with legs A, B, hypotenuse 56\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\The given right triangle has legs of lengths $A$ and $B$ and a hypotenuse of length $56$. What is the value of $\\frac{x}{A}$?",
     correctAnswer: "2.1429",
     type: "free-response",
   },
@@ -797,7 +797,7 @@ export const questions: Question[] = [
   },
   {
     id: 85,
-    text: "<img src=\"/85.png\" alt=\"Circle with diameter AC and triangle ABC\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the given figure, $AC$ is the diameter of a circle with a radius of $8$. If the length of $AB$ is equal to $\\sqrt{87}$, what is the value if $BC$?",
+    text: "<img src=\"/images/1600.now questions/85.png\" alt=\"Circle with diameter AC and triangle ABC\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the given figure, $AC$ is the diameter of a circle with a radius of $8$. If the length of $AB$ is equal to $\\sqrt{87}$, what is the value if $BC$?",
     correctAnswer: "13",
     type: "free-response",
   },
@@ -853,10 +853,10 @@ export const questions: Question[] = [
     id: 91,
     text: "Each of the following tables represents the frequency of a value in a data set. Which of the following tables represents the set with the smallest standard deviation?",
     choices: [
-      { id: "A", image: "/91 A.png" },
-      { id: "B", image: "/91 B.png" },
-      { id: "C", image: "/91 C.png" },
-      { id: "D", image: "/91 D.png" },
+      { id: "A", image: "/images/1600.now questions/91 A.png" },
+      { id: "B", image: "/images/1600.now questions/91 B.png" },
+      { id: "C", image: "/images/1600.now questions/91 C.png" },
+      { id: "D", image: "/images/1600.now questions/91 D.png" },
     ],
     correctAnswer: "C",
     type: "multiple-choice",

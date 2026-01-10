@@ -1,0 +1,535 @@
+[
+  {
+    "question_number": 1,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "The function f is defined by the equation f (x)= 320 x. What is the value of f (10)?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "3200",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_1"
+  },
+  {
+    "question_number": 2,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "In triangle XYZ, two of the angles have the same measure. If the measure of angle X is 108° and the measure of angle Y is 36°, what is the measure of angle Z?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "36°"
+      },
+      {
+        "label": "B",
+        "text": "72°"
+      },
+      {
+        "label": "C",
+        "text": "108°"
+      },
+      {
+        "label": "D",
+        "text": "180°"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_2"
+  },
+  {
+    "question_number": 3,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "If 8 x = 9, what is the value of 56 x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "63"
+      },
+      {
+        "label": "D",
+        "text": "79"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_3"
+  },
+  {
+    "question_number": 4,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "A vendor at a market sells bags of tea leaves for $7 each and bags of cashews for $12 each. The vendor sold a total of 180 bags of tea leaves and cashews last month for 1,820. Which system of equations represents this situation, where x is the number of bags of tea leaves sold and y is the number of bags of cashews sold?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "x + y = 1,820\n7x + 12y = 180"
+      },
+      {
+        "label": "B",
+        "text": "7x + y = 1,820\nx + 12y = 180"
+      },
+      {
+        "label": "C",
+        "text": "7x + 12y = 1,820\nx + y = 180"
+      },
+      {
+        "label": "D",
+        "text": "7x - 12y = 180\nx - y = 1,820"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_4"
+  },
+  {
+    "question_number": 5,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "During the first part of an experiment, a ball was launched from a 6-foot-tall platform. The graph shows the height y, in feet, of the ball x seconds after it was launched during the first part of the experiment. During the second part of the experiment, the ball was launched the same way, but from a platform that is 2 feet shorter than the first platform. Which of the following graphs could represent the height y, in feet, of the ball x seconds after it was launched during the second part of the experiment?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "",
+        "images": [
+          {
+            "src": "/images_labeled/Jun_24_USC_Math_M1_Q5.png",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "",
+        "images": [
+          {
+            "src": "/images_labeled/Jun_24_USC_Math_M1_Q5_1.png",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "",
+        "images": [
+          {
+            "src": "/images_labeled/Jun_24_USC_Math_M1_Q5_2.png",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "",
+        "images": [
+          {
+            "src": "/images_labeled/Jun_24_USC_Math_M1_Q5_3.png",
+            "alt": ""
+          }
+        ]
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_5"
+  },
+  {
+    "question_number": 6,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "5% of w is 901.32. What is the value of w?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "946.386"
+      },
+      {
+        "label": "B",
+        "text": "4,506.6"
+      },
+      {
+        "label": "C",
+        "text": "18,026.4"
+      },
+      {
+        "label": "D",
+        "text": "85,625.4"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_6"
+  },
+  {
+    "question_number": 7,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "The function f is defined by f (x)= $\\frac{x-3}{x2-7x+16}$. What is the value of f (6)?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "0.3,3/10",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_7"
+  },
+  {
+    "question_number": 8,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "A club plans to sell tote bags. The club members estimate they will sell 90 tote bags when the bags are priced at $11 each. For every price increase of $1, they estimate they will sell 9 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at 13 each?(revenue = price × number sold)",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "1,170"
+      },
+      {
+        "label": "B",
+        "text": "990"
+      },
+      {
+        "label": "C",
+        "text": "936"
+      },
+      {
+        "label": "D",
+        "text": "792"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_8"
+  },
+  {
+    "question_number": 9,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 325 degrees Fahrenheit (°F). The research manager recorded the amount of time, in minutes, each oven takes to preheat to 325°F. Based on the first sample, the research manager estimated that this type of oven takes an average of 13.2 minutes to preheat to 325°F, with an associated margin of error of 1 minute. Based on the second sample, the research manager estimated that this type of oven takes an average of 13.4 minutes to preheat to 325°F, with an associated margin of error of 2.3 minutes. Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The first sample contained more ovens than the second sample."
+      },
+      {
+        "label": "B",
+        "text": "The first sample contained fewer ovens than the second sample."
+      },
+      {
+        "label": "C",
+        "text": "The first sample took more time on average to preheat to than the second sample."
+      },
+      {
+        "label": "D",
+        "text": "The first sample took less time on average to preheat to than the second sample."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_9"
+  },
+  {
+    "question_number": 10,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "The ratio 154 to 110 is equivalent to the ratio x to 5. What is the value of x?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "7",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_10"
+  },
+  {
+    "question_number": 11,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "The sum of 3r 4 -2r and 3r 4 +6r+5 can be written in the form ar 4 +br+c, where a, b, and c are constants. What is the value of b?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "4",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_11"
+  },
+  {
+    "question_number": 12,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "The measure of angle Z is 45°. What is the measure, in radians, of angle Z?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{1}{8}$ π"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{1}{4}$ π"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{1}{2}$ π"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{3}{4}$ π"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_12"
+  },
+  {
+    "question_number": 13,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "A right circular cylinder has a height of 12 meters (m) and a base with a radius of 14 m. What is the volume, in m 3, of the cylinder?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "12π"
+      },
+      {
+        "label": "B",
+        "text": "26π"
+      },
+      {
+        "label": "C",
+        "text": "2,016π"
+      },
+      {
+        "label": "D",
+        "text": "2,352π"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_13"
+  },
+  {
+    "question_number": 14,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "Which expression is equivalent to $(39y)^{\\frac{1}{2}}$ ,where y＞1?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "39*$\\sqrt{y}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\sqrt{39}$ *y"
+      },
+      {
+        "label": "C",
+        "text": "$\\sqrt{39y}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\sqrt{(39y)2}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_14"
+  },
+  {
+    "question_number": 15,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "In triangle QRS shown, QR＜RS. Which expression represents the length of $\\overline{QS}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "cosQ"
+      },
+      {
+        "label": "B",
+        "text": "sinQ"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{22}{cosQ}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{22}{sinQ}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_15"
+  },
+  {
+    "question_number": 16,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "Line j is defined by 6x-7y=14. Line k is parallel to line j in the xy -plane. What is the slope of line k?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "6/7",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_16"
+  },
+  {
+    "question_number": 17,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "The length of a rectangle is x +35centimeters and the width is x centimeters. The perimeter of this rectangle is at least 520 centimeters. Which inequality represents this situation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2x + 35 ≤ 520"
+      },
+      {
+        "label": "B",
+        "text": "2x + 35 ≥ 520"
+      },
+      {
+        "label": "C",
+        "text": "4x + 70 ≤ 520"
+      },
+      {
+        "label": "D",
+        "text": "4x + 70 ≥ 520"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_17"
+  },
+  {
+    "question_number": 18,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "9x + 10y = 19 If the graph of the given equation is shifted up 6 units in the xy -plane, what is the y -intercept of the resulting graph?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "(0,$\\frac{79}{10}$)"
+      },
+      {
+        "label": "B",
+        "text": "(0,$\\frac{19}{10}$)"
+      },
+      {
+        "label": "C",
+        "text": "(0,$\\frac{51}{10}$)"
+      },
+      {
+        "label": "D",
+        "text": "(0,25)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_18"
+  },
+  {
+    "question_number": 19,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "5x 2 − 9x − 3 = 0 What is the greatest solution to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{9}{10}$ -$\\frac{\\sqrt{141}}{10}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{9}{10} + \\frac{\\sqrt{141}}{10}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{9}{5}$ -$\\frac{\\sqrt{141}}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{9}{5} + \\frac{\\sqrt{141}}{5}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_19"
+  },
+  {
+    "question_number": 20,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "F (x)=$\\frac{9}{5}$(x − 273.15)+32 The function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 3.40 kelvins, by how much did the temperature increase, in degrees Fahrenhe it?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "6.12"
+      },
+      {
+        "label": "B",
+        "text": "38.12"
+      },
+      {
+        "label": "C",
+        "text": "485.55"
+      },
+      {
+        "label": "D",
+        "text": "517.55"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_20"
+  },
+  {
+    "question_number": 21,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "The quadratic function f has a factor of (x +5.75) and a zero at x=c, where c is a positive constant. The graph of y=f(x) in the xy -plane has its vertex at (-1.75, - d), where d is a positive constant. What is the value of c?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "1.75"
+      },
+      {
+        "label": "B",
+        "text": "2.25"
+      },
+      {
+        "label": "C",
+        "text": "4.00"
+      },
+      {
+        "label": "D",
+        "text": "5.75"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_21"
+  },
+  {
+    "question_number": 22,
+    "test_name": "June 2024 US Form C SAT Math Module 1",
+    "passage": "In triangle JKL, the measure of angle J is (90b)°, the measure of angle K is (71a)°, and the measure of angle L is (19a)°, where a and b are constants. Which of the following must be true?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "cosL > sin K"
+      },
+      {
+        "label": "B",
+        "text": "cosL = sin K"
+      },
+      {
+        "label": "C",
+        "text": "cosL < sin K"
+      },
+      {
+        "label": "D",
+        "text": "There is not enough information to compare the values of cos L and sin K."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_22"
+  }
+]

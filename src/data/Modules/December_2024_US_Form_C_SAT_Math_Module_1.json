@@ -1,0 +1,494 @@
+[
+  {
+    "question_number": 1,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "A company studied a random sample of 20 lawns in a small town, The company found that 4 of these lawns contain fertilizer If there are 260 lawns in the town, which of the following is the best estimate of the number of lawns that contain fertilizer?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "13"
+      },
+      {
+        "label": "D",
+        "text": "52"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_1"
+  },
+  {
+    "question_number": 2,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "The scatterplot shows 5 measurements of the body length, in centimeters (cm), of a New Zealand fur seal from an age of 1 year to 6 years old. A line of best fit is also shown. For a New Zealand fur seal at an age of 3 years old, what is the body length predicted by the line of best fit,to the nearest 10 cm?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "100",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_2"
+  },
+  {
+    "question_number": 3,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "If 6x+36 =18, what is the value of x +6?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "42"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_3"
+  },
+  {
+    "question_number": 4,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "An adult elephant drinks by pulling water up into its trunk and then emptying the water into its mouth. If an adult elephant pulls between 4 and 9 liters of water up into its trunk at a time, which of the following could be the number of times the elephant pulls water up into its trunk to drink 140 liters of water?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "14"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "34"
+      },
+      {
+        "label": "D",
+        "text": "37"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_4"
+  },
+  {
+    "question_number": 5,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "For a certain classification, the positive mass m, in grams, of an object must be less than 620 grams. Which inequality represents this situation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "m>620"
+      },
+      {
+        "label": "B",
+        "text": "m<0"
+      },
+      {
+        "label": "C",
+        "text": "-620<m<0"
+      },
+      {
+        "label": "D",
+        "text": "0<m<620"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_5"
+  },
+  {
+    "question_number": 6,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "The perimeter of an obtuse triangle is 32 meters. The lengths of two sides of this triangle are 8 meters and 9 meters. What is the length, in meters, of the third side of this triangle?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "23"
+      },
+      {
+        "label": "C",
+        "text": "17"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_6"
+  },
+  {
+    "question_number": 7,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "The table shows the amount of time it took a participant in a study to complete each of 5 tasks. What was the mean time, in minutes, for this participant to complete a task?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_7"
+  },
+  {
+    "question_number": 8,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "A group of 80 employees selected at random from all the employees at a company were surveyed about the number of books they read last year. From the data collected, it was estimated that the mean number of books employees at the company read last year is 7, with an associated margin of error of 1.6. Which of the following is the most appropriate conclusion?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "It is plausible that the actual mean number of books employees at the company read last year is less than 5.4."
+      },
+      {
+        "label": "B",
+        "text": "It is plausible that the actual mean number of books employees at the company read last year is between 5.4 and 8.6."
+      },
+      {
+        "label": "C",
+        "text": "It is plausible that every employee at the company read between 7 and 11.8 books last year"
+      },
+      {
+        "label": "D",
+        "text": "It is plausible that the actual mean number of books employees at the company read last year is greater than 8.6."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_8"
+  },
+  {
+    "question_number": 9,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "Which expression is equivalent to $(6x^{3}-6x+4)-(7x^{2}+7x-2)$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-7x^{6}+6x^{3}+x+2$"
+      },
+      {
+        "label": "B",
+        "text": "$-x^{9}-13x-6$"
+      },
+      {
+        "label": "C",
+        "text": "$-7x^{6}+6x^{3}-13x+6$"
+      },
+      {
+        "label": "D",
+        "text": "$-x^{9}-x+2$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_9"
+  },
+  {
+    "question_number": 10,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "The function f(x)=180(x - 2) gives the sum of the interior angles, in degrees, for a polygon with x sides. What is the sum of the interior angles, in degrees, for a polygon with 25 sides?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "4140",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_10"
+  },
+  {
+    "question_number": 11,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "For the function h, the table gives three values of x and their corresponding values of h (x). Which equation could define h?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$h(x)=2^{x}$"
+      },
+      {
+        "label": "B",
+        "text": "$h(x)=2^{x}+2$"
+      },
+      {
+        "label": "C",
+        "text": "$h(x)=2^{x}+20$"
+      },
+      {
+        "label": "D",
+        "text": "$h(x)=2^{x}+21$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_11"
+  },
+  {
+    "question_number": 12,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "$f(x)=5(x-1)(x-6)(x-10)$ If the given function f is graphed in the xy-plane, where y = f(x), what is the x-coordinate of an x-intercept of the graph?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "1,6,10",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_12"
+  },
+  {
+    "question_number": 13,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "x+2y=19 5x+y=2 The solution to the given system of equations is (x, y). What is the value of 6x + 3y?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "17"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "38"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_13"
+  },
+  {
+    "question_number": 14,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "In triangle DEF, the measure of angle D is 43°and the measure of angle E is 112°. In triangle RST, the measure of angle R is 43° and the measure of angle S is 1l2°. Which of the following additional pieces of information is needed to determine whether triangle DEF is similar to triangle RST?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The measure of angle F"
+      },
+      {
+        "label": "B",
+        "text": "The measure of angle T"
+      },
+      {
+        "label": "C",
+        "text": "The measure of angle F and the measure of angle T"
+      },
+      {
+        "label": "D",
+        "text": "No additional information is needed."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_14"
+  },
+  {
+    "question_number": 15,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "$x^{2}+y=111$ $-3x+y=3$ The solutions to the given system of equations are of the form (x, y). what is a possible value of x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-12"
+      },
+      {
+        "label": "B",
+        "text": "-9"
+      },
+      {
+        "label": "C",
+        "text": "-3"
+      },
+      {
+        "label": "D",
+        "text": "111"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_15"
+  },
+  {
+    "question_number": 16,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "The function g is defined g(x) = $\\frac{2x-4}{(x+11)(x-6)}$. If g(a + 5) = 0, where a is a constant, what is the value of a?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "-3",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_16"
+  },
+  {
+    "question_number": 17,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "$\\frac{(x-3)(x-8)}{x-2}=0$ What is the sum of the solutions to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_17"
+  },
+  {
+    "question_number": 18,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "| x −8|=−| x −8|+20 What is the sum of the solutions to the given equation?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "16",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_18"
+  },
+  {
+    "question_number": 19,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "A circle has center O, and points A and B lie on the circle. The measure of arc AB is 36°and the length of this arc is 3 inches. What is the circumference, in inches, of the circle?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "30"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_19"
+  },
+  {
+    "question_number": 20,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "While the mass of an object is the same everywhere, the weight of an object is not the same on different planets. An object has a weight of 220.00 pounds on Earth and a weight of 234.52 pounds on Saturn. The object's weight on Jupiter is 252.8% of its weight on Earth. If the object's weight on Saturn is x% of its weight on Jupiter, which of the following is closest to the value of x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "42.17"
+      },
+      {
+        "label": "B",
+        "text": "69.76"
+      },
+      {
+        "label": "C",
+        "text": "269.48"
+      },
+      {
+        "label": "D",
+        "text": "556.16"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_20"
+  },
+  {
+    "question_number": 21,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "$-x-wy=-411$ $2x-wy=81$ In the given system of equations, w is a constant, In the xy-plane, the graphs of these equations intersect at the point (q, l9), where q is a constant. what is the value of w?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "13",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_21"
+  },
+  {
+    "question_number": 22,
+    "test_name": "December 2024 US Form C SAT Math Module 1",
+    "passage": "Δ QPR is similar to Δ STR. The lengths represented by $\\overline{ST}$, $\\overline{QP}$, $\\overline{PR}$, and $\\overline{QR}$ in the figure are 6, 16, 30, and 34, respectively. What is the length of $\\overline{SR}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{204}{16}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{204}{30}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{96}{30}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{96}{34}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_22"
+  }
+]

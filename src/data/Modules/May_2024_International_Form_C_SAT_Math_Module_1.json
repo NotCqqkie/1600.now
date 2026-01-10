@@ -1,0 +1,477 @@
+[
+  {
+    "question_number": 1,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds. According to the table, what is the wind chill temperature, in degrees Fahrenheit (°F), when the air temperature is 38°F and the wind speed is 60 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "22",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_1"
+  },
+  {
+    "question_number": 2,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "4m = 3(n + p) The given equation relates the positive numbers m, n, and p. Which equation correctly gives m in terms of n and p?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "m = $\\frac{3(n+p)}{4}$"
+      },
+      {
+        "label": "B",
+        "text": "m = 3(n + p)"
+      },
+      {
+        "label": "C",
+        "text": "m = 3(n + p)−4"
+      },
+      {
+        "label": "D",
+        "text": "m = 3 − n − p − 4"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_2"
+  },
+  {
+    "question_number": 3,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "Line u is defined by y = 2x + 10. Line w is perpendicular to line u in the xy -plane. What is the slope of line w?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-\\frac{1}{12}$"
+      },
+      {
+        "label": "B",
+        "text": "$-\\frac{1}{8}$"
+      },
+      {
+        "label": "C",
+        "text": "$-\\frac{1}{2}$"
+      },
+      {
+        "label": "D",
+        "text": "$-\\frac{1}{10}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_3"
+  },
+  {
+    "question_number": 4,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "For the linear function f, the graph of y = f(x) in the xy -plane has a slope of $\\frac{1}{3}$ and passes through the point (0, 2). Which equation defines f?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "f(x)= $\\frac{1}{3}$ x + 2"
+      },
+      {
+        "label": "B",
+        "text": "f(x)= $\\frac{1}{3}$ x + $\\frac{1}{2}$"
+      },
+      {
+        "label": "C",
+        "text": "f(x)= $\\frac{1}{3}$ x $-\\frac{2}{3}$"
+      },
+      {
+        "label": "D",
+        "text": "f(x)= $\\frac{1}{3}$ x $-2$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_4"
+  },
+  {
+    "question_number": 5,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "During a trip, Bill drove his car for 16.0 miles and then began driving at a constant speed of 60.0 miles per hour. After 2 hours of driving at this speed, what is the total distance, in miles, Bill has traveled during this trip?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "136",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_5"
+  },
+  {
+    "question_number": 6,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "3x + 10 = 2(7 + 4x) Which of the following is equivalent to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = −2"
+      },
+      {
+        "label": "B",
+        "text": "x = 3"
+      },
+      {
+        "label": "C",
+        "text": "5x = −4"
+      },
+      {
+        "label": "D",
+        "text": "5x = 4"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_6"
+  },
+  {
+    "question_number": 7,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "In triangle JKL, the measures of ∠K and ∠L are each 34°. What is the measure of ∠J, in degrees? (Disregard the degree symbol when entering your answer.)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "112",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_7"
+  },
+  {
+    "question_number": 8,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "x + 4 = 8 (x + 4) 2 = y Which ordered pair (x, y) is a solution to the given system of equations?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "(4, 64)"
+      },
+      {
+        "label": "B",
+        "text": "(4, 4)"
+      },
+      {
+        "label": "C",
+        "text": "(4, 32)"
+      },
+      {
+        "label": "D",
+        "text": "(4, 8)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_8"
+  },
+  {
+    "question_number": 9,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "Nicole walks at a speed of 2 miles per hour and runs at a speed of 7 miles per hour. She walks for w hours and runs for r hours for a combined total of 13 miles. Which equation represents this situation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2w + 7r = 13"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{1}{2}$ w + $\\frac{1}{7}$ r = 13"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{1}{2}$ w + $\\frac{1}{7}$ r = 117"
+      },
+      {
+        "label": "D",
+        "text": "2w + 7r = 117"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_9"
+  },
+  {
+    "question_number": 10,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "The value of z is 1.12 times 100. The value of z is what percent greater than 100?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "11.2"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "120"
+      },
+      {
+        "label": "D",
+        "text": "212"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_10"
+  },
+  {
+    "question_number": 11,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "Circle K has a radius of 2 millimeters (mm). Circle L has an area of 121π mm 2. What is the total area, in mm 2, of circles K and L?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "13π"
+      },
+      {
+        "label": "B",
+        "text": "26π"
+      },
+      {
+        "label": "C",
+        "text": "52π"
+      },
+      {
+        "label": "D",
+        "text": "125π"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_11"
+  },
+  {
+    "question_number": 12,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "If 3 x + 4 = 10, what is the value of 9 x − 4?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "14",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_12"
+  },
+  {
+    "question_number": 13,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "One leg of a right triangle has a length of 43.2 millimeters. The hypotenuse of the triangle has a length of 196.8 millimeters. What is the length of the other leg of the triangle, in millimeters?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "43.2"
+      },
+      {
+        "label": "B",
+        "text": "120"
+      },
+      {
+        "label": "C",
+        "text": "192"
+      },
+      {
+        "label": "D",
+        "text": "201.5"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_13"
+  },
+  {
+    "question_number": 14,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "What is the sum of the solutions to the equation 2x 2 − 6x + 5 = 13?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "3",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_14"
+  },
+  {
+    "question_number": 15,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "y = 23 y = −3(x − 23) 2 + 20 If the given equations are graphed in the xy -plane, at how many points do the graphs of the equations intersect?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Exactly one"
+      },
+      {
+        "label": "B",
+        "text": "Exactly two"
+      },
+      {
+        "label": "C",
+        "text": "Infinitely many"
+      },
+      {
+        "label": "D",
+        "text": "Zero"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_15"
+  },
+  {
+    "question_number": 16,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "y = 400(3) 2x The equation gives the estimated number of online newsletter subscribers at the end of every six-month period, x, starting from the end of January 1997, where 0 ≤ x ≤ 4. Which statement is the best interpretation of the y-intercept of the graph of this equation in the xy -plane?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The estimated number of online newsletter subscribers at the end of the first six-month period was 400."
+      },
+      {
+        "label": "B",
+        "text": "The estimated number of online newsletter subscribers at the end of January 1997 was 400."
+      },
+      {
+        "label": "C",
+        "text": "The estimated number of online newsletter subscribers at the end of January 1998 was 1,200."
+      },
+      {
+        "label": "D",
+        "text": "The estimated number of online newsletter subscribers at the end of January 1997 was 1,200."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_16"
+  },
+  {
+    "question_number": 17,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "The function f is defined by f(x) = (−2)(3) x + 21. What is the y -intercept of the graph of y = f(x) in the xy -plane?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "(0, 19)"
+      },
+      {
+        "label": "B",
+        "text": "(0, −2)"
+      },
+      {
+        "label": "C",
+        "text": "(0, 21)"
+      },
+      {
+        "label": "D",
+        "text": "(0, 3)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_17"
+  },
+  {
+    "question_number": 18,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "5x + 14y = 32 10x + 7y = 22 The solution to the given system of equations is (x, y). What is the value of xy?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "8/5,1.6",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_18"
+  },
+  {
+    "question_number": 19,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "A scientist initially measures 12,000 bacteria in a growth medium. 5 hours later, the scientist measures 24,000 bacteria. Assuming exponential growth, the formula P = C(2) rt gives the number of bacteria in the growth medium, where r and C are constants and P is the number of bacteria t hours after the initial measurement. What is the value of r?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{1}{12,000}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{1}{5}$"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "12,000"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_19"
+  },
+  {
+    "question_number": 20,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "Two variables, x and y, are related such that for each increase of 1 in the value of x, the value of y increases by a factor of 3. When x = 0, y = 200. Which equation represents this relationship?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 200(x)³"
+      },
+      {
+        "label": "B",
+        "text": "y = 200(3) x"
+      },
+      {
+        "label": "C",
+        "text": "y = 3(x) 200"
+      },
+      {
+        "label": "D",
+        "text": "y = 3(200) x"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_20"
+  },
+  {
+    "question_number": 21,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "The shaded region shown represents the solutions to which inequality?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "y > 3x − 5"
+      },
+      {
+        "label": "B",
+        "text": "y < 3x − 5"
+      },
+      {
+        "label": "C",
+        "text": "y > 15x − 5"
+      },
+      {
+        "label": "D",
+        "text": "y < 15x − 5"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_21"
+  },
+  {
+    "question_number": 22,
+    "test_name": "May 2024 International Form C SAT Math Module 1",
+    "passage": "2|6x − 1|= 6x + 9 What is the sum of the solutions to the given equation?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "13/9,1.444",
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_22"
+  }
+]

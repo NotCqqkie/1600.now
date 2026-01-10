@@ -1,3 +1,5 @@
+import { midFrequencyWords } from "./midFrequencyWords";
+
 export interface VocabWord {
   word: string;
   definition: string;
@@ -13,8 +15,8 @@ export interface VocabSet {
 export const vocabularySets: VocabSet[] = [
   {
     id: "sat-vocab-1",
-    name: "SAT Vocabulary Set 1",
-    description: "Essential SAT vocabulary words with definitions",
+    name: "High Frequency Words",
+    description: "High frequency vocabulary words with definitions",
     words: [
       { word: "allege", definition: "claim or accuse without proof" },
       { word: "ally", definition: "a partner or friendly nation" },
@@ -155,6 +157,7 @@ export const vocabularySets: VocabSet[] = [
       { word: "mysterious", definition: "difficult to understand or explain" },
       { word: "orthodox", definition: "following traditional beliefs" },
       { word: "oversight", definition: "a small mistake or omission" },
+      { word: "allocate", definition: "assign; distribute according to a plan or set apart for a special purpose" },
       { word: "pertinent", definition: "relevant to the matter" },
       { word: "prestige", definition: "respect earned through success" },
       { word: "prosperity", definition: "wealth and economic success" },
@@ -466,5 +469,11 @@ export const vocabularySets: VocabSet[] = [
       { word: "supercilious", definition: "arrogantly superior" },
       { word: "whimsicality", definition: "playful unpredictability" },
     ],
+  },
+  {
+    id: "mid-frequency-words",
+    name: "Mid-Frequency Words",
+    description: "Mid-frequency vocabulary words (Lessons 2.1–2.45)",
+    words: midFrequencyWords,
   },
 ];
