@@ -137,7 +137,7 @@
   {
     "question_number": 6,
     "test_name": "May 2024 US Form A SAT Math Module 1",
-    "passage": "If x = $2n2x^{n}+35$, where n is a positive integer constant, what is the value of $x^{n}$?",
+    "passage": "If x = $ 2n2x^{n}+35 $, where n is a positive integer constant, what is the value of $ x^{n}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -445,7 +445,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{2}x-4y=0$"
+        "text": "$\\frac{1}{2}x-4y=0 $"
       },
       {
         "label": "B",
@@ -453,7 +453,7 @@
       },
       {
         "label": "C",
-        "text": "$\\frac{1}{2}x-4y=2$"
+        "text": "$\\frac{1}{2}x-4y=2 $"
       },
       {
         "label": "D",

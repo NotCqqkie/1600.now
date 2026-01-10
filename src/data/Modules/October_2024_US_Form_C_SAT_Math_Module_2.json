@@ -19,7 +19,7 @@
       },
       {
         "label": "D",
-        "text": "37$\\sqrt{2}$"
+        "text": "37 $\\sqrt{2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -169,19 +169,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{44}+x=x$"
+        "text": "$\\frac{1}{44}+x=x $"
       },
       {
         "label": "B",
-        "text": "$\\frac{1}{44}+x$$=-x-\\frac{1}{44}$"
+        "text": "$\\frac{1}{44}+x $$=-x-\\frac{1}{44}$"
       },
       {
         "label": "C",
-        "text": "$\\frac{1}{44}-x=\\frac{1}{44}-x$"
+        "text": "$\\frac{1}{44}-x=\\frac{1}{44}-x $"
       },
       {
         "label": "D",
-        "text": "$\\frac{1}{44}-x = -x$"
+        "text": "$\\frac{1}{44}-x = -x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -312,7 +312,7 @@
   {
     "question_number": 15,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge$ -77, where r and t are constants. What is the value of r+ t?",
+    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge $ -77, where r and t are constants. What is the value of r+ t?",
     "question_text": null,
     "choices": [
       {
@@ -406,7 +406,7 @@
   {
     "question_number": 21,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "For groups of 25 or more people, a museum charges $22 per person for the first 25 people and $14 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people,where n $\\ge$ 25?",
+    "passage": "For groups of 25 or more people, a museum charges $ 22 per person for the first 25 people and $ 14 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people, where n $\\ge $ 25?",
     "question_text": null,
     "choices": [
       {
@@ -442,7 +442,7 @@
       },
       {
         "label": "B",
-        "text": "$\\frac{224p}{3}+96$"
+        "text": "$\\frac{224p}{3}+96 $"
       },
       {
         "label": "C",

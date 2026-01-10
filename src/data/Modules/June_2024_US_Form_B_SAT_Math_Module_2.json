@@ -174,7 +174,7 @@
   {
     "question_number": 8,
     "test_name": "June 2024 US Form B SAT Math Module 2",
-    "passage": "y = 10 x − 15 y = 35 What is the solution (x,y) to the given system of equations?",
+    "passage": "y = 10 x − 15 y = 35 What is the solution (x, y) to the given system of equations?",
     "question_text": null,
     "choices": [
       {
@@ -329,7 +329,7 @@
   {
     "question_number": 15,
     "test_name": "June 2024 US Form B SAT Math Module 2",
-    "passage": "A wireless phone company pays customers for trading in old smartphones. The payment p, in dollars, is the original retail price of a smartphone minus $135 for each year since the smartphone was released. Which equation represents this situation for a smartphone with an original retail price of $670 when it was released t years ago, where t is a whole number and 1 $\\le$ t$\\le$ 4?",
+    "passage": "A wireless phone company pays customers for trading in old smartphones. The payment p, in dollars, is the original retail price of a smartphone minus $ 135 for each year since the smartphone was released. Which equation represents this situation for a smartphone with an original retail price of $ 670 when it was released t years ago, where t is a whole number and 1 $\\le $ t $\\le $ 4?",
     "question_text": null,
     "choices": [
       {
@@ -369,7 +369,7 @@
       },
       {
         "label": "C",
-        "text": "$9$"
+        "text": "$ 9 $"
       },
       {
         "label": "D",
@@ -420,24 +420,24 @@
   {
     "question_number": 19,
     "test_name": "June 2024 US Form B SAT Math Module 2",
-    "passage": "b 2 + 5 c = 3 d The given equation relates the real numbers b, c, and d, where d > $\\frac{5}{3}c$. Which equation correctly expresses b in terms of c and d?",
+    "passage": "b 2 + 5 c = 3 d The given equation relates the real numbers b, c, and d, where d > $\\frac{5}{3}c $. Which equation correctly expresses b in terms of c and d?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$b=\\frac{3d-5c}{2}$"
+        "text": "$ b=\\frac{3d-5c}{2}$"
       },
       {
         "label": "B",
-        "text": "$b=\\frac{3d+5c}{2}$"
+        "text": "$ b=\\frac{3d+5c}{2}$"
       },
       {
         "label": "C",
-        "text": "$b=\\pm\\sqrt{3d-5c}$"
+        "text": "$ b=\\pm\\sqrt{3d-5c}$"
       },
       {
         "label": "D",
-        "text": "$b=\\pm\\sqrt{3d+5c}$"
+        "text": "$ b=\\pm\\sqrt{3d+5c}$"
       }
     ],
     "is_fill_in_blank": false,

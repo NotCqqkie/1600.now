@@ -66,7 +66,7 @@
   {
     "question_number": 4,
     "test_name": "November 2024 International Form C SAT Math Module 1",
-    "passage": "The function t(x)=-3x + 74 gives the estimated temperature, in degrees Fahrenheit, of atown x hours after 6 p.m., where $0\\le x\\le5$. What is the best interpretation of -3 in this context?",
+    "passage": "The function t(x)=-3x + 74 gives the estimated temperature, in degrees Fahrenheit, of atown x hours after 6 p. m., where $ 0\\le x\\le5 $. What is the best interpretation of -3 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -79,11 +79,11 @@
       },
       {
         "label": "C",
-        "text": "At 6 p.m., the estimated temperature is -3 degrees Fahrenheit."
+        "text": "At 6 p. m., the estimated temperature is -3 degrees Fahrenheit."
       },
       {
         "label": "D",
-        "text": "At 6 p.m., the estimated temperature is 5 degrees Fahrenheit."
+        "text": "At 6 p. m., the estimated temperature is 5 degrees Fahrenheit."
       }
     ],
     "is_fill_in_blank": false,
@@ -206,19 +206,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-\\frac{7}{16}x^{2}$\n$y=-\\frac{7}{4}x$"
+        "text": "$ y=-\\frac{7}{16}x^{2}$\n$ y=-\\frac{7}{4}x $"
       },
       {
         "label": "B",
-        "text": "$y=-\\frac{7}{16}x^{2}$\n$y=\\frac{7}{4}x$"
+        "text": "$ y=-\\frac{7}{16}x^{2}$\n$ y=\\frac{7}{4}x $"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{7}{16}x^{2}$\n$y=-\\frac{7}{4}x$"
+        "text": "$ y=\\frac{7}{16}x^{2}$\n$ y=-\\frac{7}{4}x $"
       },
       {
         "label": "D",
-        "text": "$y=\\frac{7}{16}x^{2}$\n$y=\\frac{7}{4}x$"
+        "text": "$ y=\\frac{7}{16}x^{2}$\n$ y=\\frac{7}{4}x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -265,7 +265,7 @@
   {
     "question_number": 12,
     "test_name": "November 2024 International Form C SAT Math Module 1",
-    "passage": "$x^{2}-16x+y^{2}-10y-55=0$ In the xy-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
+    "passage": "$ x^{2}-16x+y^{2}-10y-55=0 $ In the xy-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -319,7 +319,7 @@
   {
     "question_number": 14,
     "test_name": "November 2024 International Form C SAT Math Module 1",
-    "passage": "If f(x)= x+5 and g(x)= 5x,what is the value of 7 f (4)- g (4)?",
+    "passage": "If f(x)= x+5 and g(x)= 5x, what is the value of 7 f (4)- g (4)?",
     "question_text": null,
     "choices": [
       {
@@ -346,7 +346,7 @@
   {
     "question_number": 15,
     "test_name": "November 2024 International Form C SAT Math Module 1",
-    "passage": "$C(t)=240(\\frac{53}{52})^{t-15}+7$ The function C gives the estimated number of cephalopods, a class of marine animal, in acertain area, where t is the number of months since a study began. How many months afterthe study began was the number of cephalopods in the area estimated to be 247?",
+    "passage": "$ C(t)=240(\\frac{53}{52})^{t-15}+7 $ The function C gives the estimated number of cephalopods, a class of marine animal, in acertain area, where t is the number of months since a study began. How many months afterthe study began was the number of cephalopods in the area estimated to be 247?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -381,19 +381,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=174,000(0.024)^{x}$"
+        "text": "$ f(x)=174,000(0.024)^{x}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=174,000(0.24)^{x}$"
+        "text": "$ f(x)=174,000(0.24)^{x}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=174,000(1.024)^{x}$"
+        "text": "$ f(x)=174,000(1.024)^{x}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=174,000(1.24)^{x}$"
+        "text": "$ f(x)=174,000(1.24)^{x}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -435,11 +435,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$17cosQ$"
+        "text": "$ 17cosQ $"
       },
       {
         "label": "B",
-        "text": "$17sinQ$"
+        "text": "$ 17sinQ $"
       },
       {
         "label": "C",
@@ -457,7 +457,7 @@
   {
     "question_number": 21,
     "test_name": "November 2024 International Form C SAT Math Module 1",
-    "passage": "$\\frac{1}{9}x-\\frac{3r}{7}y=34$ One of the equations in a system of two linear equations is given, where r is a nonzeroconstant. The system has no solution. If the other ecjuation in the system is graphed in the xy-plane, what is the slope of the graph?",
+    "passage": "$\\frac{1}{9}x-\\frac{3r}{7}y=34 $ One of the equations in a system of two linear equations is given, where r is a nonzeroconstant. The system has no solution. If the other ecjuation in the system is graphed in the xy-plane, what is the slope of the graph?",
     "question_text": null,
     "choices": [
       {
@@ -489,19 +489,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$8(4n)+9n+3(30)=100$"
+        "text": "$ 8(4n)+9n+3(30)=100 $"
       },
       {
         "label": "B",
-        "text": "$8n+9n+3n=100$"
+        "text": "$ 8n+9n+3n=100 $"
       },
       {
         "label": "C",
-        "text": "$4n+30=100$"
+        "text": "$ 4n+30=100 $"
       },
       {
         "label": "D",
-        "text": "$5n+30=100$"
+        "text": "$ 5n+30=100 $"
       }
     ],
     "is_fill_in_blank": false,

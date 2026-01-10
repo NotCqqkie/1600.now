@@ -29,7 +29,7 @@
   {
     "question_number": 2,
     "test_name": "December 2024 US Form C SAT Math Module 1",
-    "passage": "The scatterplot shows 5 measurements of the body length, in centimeters (cm), of a New Zealand fur seal from an age of 1 year to 6 years old. A line of best fit is also shown. For a New Zealand fur seal at an age of 3 years old, what is the body length predicted by the line of best fit,to the nearest 10 cm?",
+    "passage": "The scatterplot shows 5 measurements of the body length, in centimeters (cm), of a New Zealand fur seal from an age of 1 year to 6 years old. A line of best fit is also shown. For a New Zealand fur seal at an age of 3 years old, what is the body length predicted by the line of best fit, to the nearest 10 cm?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -206,19 +206,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$-7x^{6}+6x^{3}+x+2$"
+        "text": "$-7x^{6}+6x^{3}+x+2 $"
       },
       {
         "label": "B",
-        "text": "$-x^{9}-13x-6$"
+        "text": "$-x^{9}-13x-6 $"
       },
       {
         "label": "C",
-        "text": "$-7x^{6}+6x^{3}-13x+6$"
+        "text": "$-7x^{6}+6x^{3}-13x+6 $"
       },
       {
         "label": "D",
-        "text": "$-x^{9}-x+2$"
+        "text": "$-x^{9}-x+2 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -243,19 +243,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$h(x)=2^{x}$"
+        "text": "$ h(x)=2^{x}$"
       },
       {
         "label": "B",
-        "text": "$h(x)=2^{x}+2$"
+        "text": "$ h(x)=2^{x}+2 $"
       },
       {
         "label": "C",
-        "text": "$h(x)=2^{x}+20$"
+        "text": "$ h(x)=2^{x}+20 $"
       },
       {
         "label": "D",
-        "text": "$h(x)=2^{x}+21$"
+        "text": "$ h(x)=2^{x}+21 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -265,7 +265,7 @@
   {
     "question_number": 12,
     "test_name": "December 2024 US Form C SAT Math Module 1",
-    "passage": "$f(x)=5(x-1)(x-6)(x-10)$ If the given function f is graphed in the xy-plane, where y = f(x), what is the x-coordinate of an x-intercept of the graph?",
+    "passage": "$ f(x)=5(x-1)(x-6)(x-10)$ If the given function f is graphed in the xy-plane, where y = f(x), what is the x-coordinate of an x-intercept of the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -329,7 +329,7 @@
   {
     "question_number": 15,
     "test_name": "December 2024 US Form C SAT Math Module 1",
-    "passage": "$x^{2}+y=111$ $-3x+y=3$ The solutions to the given system of equations are of the form (x, y). what is a possible value of x?",
+    "passage": "$ x^{2}+y=111 $ $-3x+y=3 $ The solutions to the given system of equations are of the form (x, y). what is a possible value of x?",
     "question_text": null,
     "choices": [
       {
@@ -366,7 +366,7 @@
   {
     "question_number": 17,
     "test_name": "December 2024 US Form C SAT Math Module 1",
-    "passage": "$\\frac{(x-3)(x-8)}{x-2}=0$ What is the sum of the solutions to the given equation?",
+    "passage": "$\\frac{(x-3)(x-8)}{x-2}=0 $ What is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -457,7 +457,7 @@
   {
     "question_number": 21,
     "test_name": "December 2024 US Form C SAT Math Module 1",
-    "passage": "$-x-wy=-411$ $2x-wy=81$ In the given system of equations, w is a constant, In the xy-plane, the graphs of these equations intersect at the point (q, l9), where q is a constant. what is the value of w?",
+    "passage": "$-x-wy=-411 $ $ 2x-wy=81 $ In the given system of equations, w is a constant, In the xy-plane, the graphs of these equations intersect at the point (q, l9), where q is a constant. what is the value of w?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

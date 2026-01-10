@@ -7,19 +7,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-12x+2$"
+        "text": "$ y=-12x+2 $"
       },
       {
         "label": "B",
-        "text": "$y=12x+2$"
+        "text": "$ y=12x+2 $"
       },
       {
         "label": "C",
-        "text": "$y=2x-12$"
+        "text": "$ y=2x-12 $"
       },
       {
         "label": "D",
-        "text": "$y=2x +12$"
+        "text": "$ y=2x +12 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -71,19 +71,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=36-4x$"
+        "text": "$ f(x)=36-4x $"
       },
       {
         "label": "B",
-        "text": "$f(x)=36x-2$"
+        "text": "$ f(x)=36x-2 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=40x$"
+        "text": "$ f(x)=40x $"
       },
       {
         "label": "D",
-        "text": "$f(x)=34x$"
+        "text": "$ f(x)=34x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -98,19 +98,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x\\le33$"
+        "text": "$ x\\le33 $"
       },
       {
         "label": "B",
-        "text": "$x\\ge33$"
+        "text": "$ x\\ge33 $"
       },
       {
         "label": "C",
-        "text": "$y\\le33$"
+        "text": "$ y\\le33 $"
       },
       {
         "label": "D",
-        "text": "$y\\ge33$"
+        "text": "$ y\\ge33 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -147,7 +147,7 @@
   {
     "question_number": 7,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "$h(x)=x+b$ For the linear function h, b is a constant and h (0)= 21. What is the value of b?",
+    "passage": "$ h(x)=x+b $ For the linear function h, b is a constant and h (0)= 21. What is the value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -307,19 +307,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$4x+2y=12$\n$4x+8y=48$"
+        "text": "$ 4x+2y=12 $\n$ 4x+8y=48 $"
       },
       {
         "label": "B",
-        "text": "$x+2y=12$\n$x+8y=48$"
+        "text": "$ x+2y=12 $\n$ x+8y=48 $"
       },
       {
         "label": "C",
-        "text": "$x+2y=12$\n$4x+8y=48$"
+        "text": "$ x+2y=12 $\n$ 4x+8y=48 $"
       },
       {
         "label": "D",
-        "text": "$4x+2y=12$\n$x+8y=48$"
+        "text": "$ 4x+2y=12 $\n$ x+8y=48 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -329,12 +329,12 @@
   {
     "question_number": 15,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "$x^{2}+y+3=3$ $8x+16-y=0$ The solution to the given system of equations is (x, y). What is the value of x?",
+    "passage": "$ x^{2}+y+3=3 $ $ 8x+16-y=0 $ The solution to the given system of equations is (x, y). What is the value of x?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-16$"
+        "text": "$-16 $"
       },
       {
         "label": "B",
@@ -425,19 +425,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$R=9randH=8h$"
+        "text": "$ R=9randH=8h $"
       },
       {
         "label": "B",
-        "text": "$R=9randH=64h$"
+        "text": "$ R=9randH=64h $"
       },
       {
         "label": "C",
-        "text": "$R=8randH=9h$"
+        "text": "$ R=8randH=9h $"
       },
       {
         "label": "D",
-        "text": "$R=64randH=9h$"
+        "text": "$ R=64randH=9h $"
       }
     ],
     "is_fill_in_blank": false,
@@ -447,24 +447,24 @@
   {
     "question_number": 20,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "$(x-3)^{2}+(y+7)^{2}=25$ The given equation represents circle P in the xy -plane. Circle Q has a center that is 1 unit to the right of and 2 units below the center of circle P. Circle Q has a diameter that is double the diameter of circle P. Which equation represents circle Q?",
+    "passage": "$(x-3)^{2}+(y+7)^{2}=25 $ The given equation represents circle P in the xy -plane. Circle Q has a center that is 1 unit to the right of and 2 units below the center of circle P. Circle Q has a diameter that is double the diameter of circle P. Which equation represents circle Q?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(x-2)^{2}+(y+5)^{2}=50$"
+        "text": "$(x-2)^{2}+(y+5)^{2}=50 $"
       },
       {
         "label": "B",
-        "text": "$(x-4)^{2}+(y+9)^{2}=50$"
+        "text": "$(x-4)^{2}+(y+9)^{2}=50 $"
       },
       {
         "label": "C",
-        "text": "$(x-2)^{2}+(y+5)^{2}=100$"
+        "text": "$(x-2)^{2}+(y+5)^{2}=100 $"
       },
       {
         "label": "D",
-        "text": "$(x-4)^{2}+(y+9)^{2}=100$"
+        "text": "$(x-4)^{2}+(y+9)^{2}=100 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -474,7 +474,7 @@
   {
     "question_number": 21,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "$(x-2)-8(y+3)=123$ $(x-2) +8(y+3)=432$ The solution to the given system of equations is (x, y). What is the value of 10(x -2)?",
+    "passage": "$(x-2)-8(y+3)=123 $ $(x-2) +8(y+3)=432 $ The solution to the given system of equations is (x, y). What is the value of 10(x -2)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

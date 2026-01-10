@@ -7,19 +7,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$34$"
+        "text": "$ 34 $"
       },
       {
         "label": "B",
-        "text": "$56$"
+        "text": "$ 56 $"
       },
       {
         "label": "C",
-        "text": "$90$"
+        "text": "$ 90 $"
       },
       {
         "label": "D",
-        "text": "$180$"
+        "text": "$ 180 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -29,24 +29,24 @@
   {
     "question_number": 2,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to $3xy(2x^{2}+7y)$?",
+    "passage": "Which expression is equivalent to $ 3xy(2x^{2}+7y)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$5x^{3}y+10xy^{2}$"
+        "text": "$ 5x^{3}y+10xy^{2}$"
       },
       {
         "label": "B",
-        "text": "$6x^{2}y+7y$"
+        "text": "$ 6x^{2}y+7y $"
       },
       {
         "label": "C",
-        "text": "$6x^{2}y+21xy$"
+        "text": "$ 6x^{2}y+21xy $"
       },
       {
         "label": "D",
-        "text": "$6x^{3}y+21xy^{2}$"
+        "text": "$ 6x^{3}y+21xy^{2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -56,24 +56,24 @@
   {
     "question_number": 3,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to $30x^{2}+6x+6$ ?",
+    "passage": "Which expression is equivalent to $ 30x^{2}+6x+6 $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$5x^{2}(6x+6)$"
+        "text": "$ 5x^{2}(6x+6)$"
       },
       {
         "label": "B",
-        "text": "$30x$$($$x+1)$"
+        "text": "$ 30x $$($$ x+1)$"
       },
       {
         "label": "C",
-        "text": "$6(5x^{2}+x+1)$"
+        "text": "$ 6(5x^{2}+x+1)$"
       },
       {
         "label": "D",
-        "text": "$4(2x^{2}+x+1)$"
+        "text": "$ 4(2x^{2}+x+1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -88,19 +88,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$276$"
+        "text": "$ 276 $"
       },
       {
         "label": "B",
-        "text": "$184$"
+        "text": "$ 184 $"
       },
       {
         "label": "C",
-        "text": "$94$"
+        "text": "$ 94 $"
       },
       {
         "label": "D",
-        "text": "$90$"
+        "text": "$ 90 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -110,7 +110,7 @@
   {
     "question_number": 5,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "A gym charges its members a onetime $34 enrollment fee and a membership fee of $16 per month. If there are no charges other than the enrollment fee and the membership fee, after how many months will a member have been charged a total of 178 at the gym?",
+    "passage": "A gym charges its members a onetime $ 34 enrollment fee and a membership fee of $ 16 per month. If there are no charges other than the enrollment fee and the membership fee, after how many months will a member have been charged a total of 178 at the gym?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -120,24 +120,24 @@
   {
     "question_number": 6,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "$f(x)=7x+b$ For the linear function $f$, b is a constant and $f(8)=56$. What is the value of b?",
+    "passage": "$ f(x)=7x+b $ For the linear function $ f $, b is a constant and $ f(8)=56 $. What is the value of b?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$0$"
+        "text": "$ 0 $"
       },
       {
         "label": "B",
-        "text": "$1$"
+        "text": "$ 1 $"
       },
       {
         "label": "C",
-        "text": "$7$"
+        "text": "$ 7 $"
       },
       {
         "label": "D",
-        "text": "$8$"
+        "text": "$ 8 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -147,7 +147,7 @@
   {
     "question_number": 7,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "The function $f$ defined by $f(t)=14t+9$ gives the estimated length, in inches, of a pothos plant t months after Shruti purchased it. Which of the following is the best interpretation of 9 in this context?",
+    "passage": "The function $ f $ defined by $ f(t)=14t+9 $ gives the estimated length, in inches, of a pothos plant t months after Shruti purchased it. Which of the following is the best interpretation of 9 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -179,19 +179,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$28$"
+        "text": "$ 28 $"
       },
       {
         "label": "B",
-        "text": "$43$"
+        "text": "$ 43 $"
       },
       {
         "label": "C",
-        "text": "$90$"
+        "text": "$ 90 $"
       },
       {
         "label": "D",
-        "text": "$105$"
+        "text": "$ 105 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -201,20 +201,20 @@
   {
     "question_number": 9,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "$x^{2}-28x=0$ Which of the following is a solution to the given equation?",
+    "passage": "$ x^{2}-28x=0 $ Which of the following is a solution to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$56$"
+        "text": "$ 56 $"
       },
       {
         "label": "B",
-        "text": "$28$"
+        "text": "$ 28 $"
       },
       {
         "label": "C",
-        "text": "$14$"
+        "text": "$ 14 $"
       },
       {
         "label": "D",
@@ -243,19 +243,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$V(t)=240(1.01t)$"
+        "text": "$ V(t)=240(1.01t)$"
       },
       {
         "label": "B",
-        "text": "$V(t)=240(1.1t)$"
+        "text": "$ V(t)=240(1.1t)$"
       },
       {
         "label": "C",
-        "text": "$V(t)=240(1.01)^{t}$"
+        "text": "$ V(t)=240(1.01)^{t}$"
       },
       {
         "label": "D",
-        "text": "$V(t)=240(1.1)^{t}$"
+        "text": "$ V(t)=240(1.1)^{t}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -265,24 +265,24 @@
   {
     "question_number": 12,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "If $f(x)=x+3$ and $g(x)=3x$, what is the value of $6f(3)-g(3)$?",
+    "passage": "If $ f(x)=x+3 $ and $ g(x)=3x $, what is the value of $ 6f(3)-g(3)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-3$"
+        "text": "$-3 $"
       },
       {
         "label": "B",
-        "text": "$12$"
+        "text": "$ 12 $"
       },
       {
         "label": "C",
-        "text": "$18$"
+        "text": "$ 18 $"
       },
       {
         "label": "D",
-        "text": "$27$"
+        "text": "$ 27 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -292,24 +292,24 @@
   {
     "question_number": 13,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "$3x+9y=10$ $rx+18y=20$ In the given system of equations, r is a constant. The system has infinitely many solutions. What is the value of r?",
+    "passage": "$ 3x+9y=10 $ $ rx+18y=20 $ In the given system of equations, r is a constant. The system has infinitely many solutions. What is the value of r?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$2$"
+        "text": "$ 2 $"
       },
       {
         "label": "B",
-        "text": "$3$"
+        "text": "$ 3 $"
       },
       {
         "label": "C",
-        "text": "$6$"
+        "text": "$ 6 $"
       },
       {
         "label": "D",
-        "text": "$9$"
+        "text": "$ 9 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -319,7 +319,7 @@
   {
     "question_number": 14,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "A club plans to sell tote bags. The club members estimate they will sell 80 tote bags when the bags are priced at $9 each. For every price increase of $1, they estimate they will sell 8 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at 12 each? (revenue = price × number sold)",
+    "passage": "A club plans to sell tote bags. The club members estimate they will sell 80 tote bags when the bags are priced at $ 9 each. For every price increase of $ 1, they estimate they will sell 8 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at 12 each? (revenue = price × number sold)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -329,7 +329,7 @@
   {
     "question_number": 15,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "$3x+6y=17$ $-3x-4y=5$ The solution to the given system of equations is $(x,y)$. What is the value of $2y$?",
+    "passage": "$ 3x+6y=17 $ $-3x-4y=5 $ The solution to the given system of equations is $(x, y)$. What is the value of $ 2y $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -339,7 +339,7 @@
   {
     "question_number": 16,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "What value of w is the solution to the equation $0.7w-0.57=7(w-0.001)$?",
+    "passage": "What value of w is the solution to the equation $ 0.7w-0.57=7(w-0.001)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -354,19 +354,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x^{2}-16=0$"
+        "text": "$ x^{2}-16=0 $"
       },
       {
         "label": "B",
-        "text": "$x^{2}+16=0$"
+        "text": "$ x^{2}+16=0 $"
       },
       {
         "label": "C",
-        "text": "$x^{2}-16x+56=0$"
+        "text": "$ x^{2}-16x+56=0 $"
       },
       {
         "label": "D",
-        "text": "$x^{2}-16x+64=0$"
+        "text": "$ x^{2}-16x+64=0 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -413,7 +413,7 @@
   {
     "question_number": 20,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "What is the y -intercept of $y=-(4)^{x}-39$ in the xy -plane?",
+    "passage": "What is the y -intercept of $ y=-(4)^{x}-39 $ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -455,19 +455,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$35$"
+        "text": "$ 35 $"
       },
       {
         "label": "B",
-        "text": "$26$"
+        "text": "$ 26 $"
       },
       {
         "label": "C",
-        "text": "$21$"
+        "text": "$ 21 $"
       },
       {
         "label": "D",
-        "text": "$16$"
+        "text": "$ 16 $"
       }
     ],
     "is_fill_in_blank": false,

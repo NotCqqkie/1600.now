@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "$\\frac{1}{6}(x+2)-\\frac{1}{5}(x+2)=-5$ What value of x is the solution to the given equation?",
+    "passage": "$\\frac{1}{6}(x+2)-\\frac{1}{5}(x+2)=-5 $ What value of x is the solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -120,7 +120,7 @@
   {
     "question_number": 6,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "A sum of 4,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposit or withdrawals were made after that. The function f(x)= 4,000(1+0.02) x gives the vale of the CD. In dollars, x years after the investment was initially made, where x $\\le$ 5. Which of the following is the best interpretation of the statement “f(2) is approximately equal to 4,186.12\" in this context?",
+    "passage": "A sum of 4,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposit or withdrawals were made after that. The function f(x)= 4,000(1+0.02) x gives the vale of the CD. In dollars, x years after the investment was initially made, where x $\\le $ 5. Which of the following is the best interpretation of the statement “f(2) is approximately equal to 4,186.12\" in this context?",
     "question_text": null,
     "choices": [
       {
@@ -201,7 +201,7 @@
   {
     "question_number": 9,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "The graph shows the momentum y, in newton-seconds, of an object x seconds after the object started moving, for 0 $\\le$ x $\\le$ 8, What is the average rate of change, in newton-seconds per second, in the momentum of the object from x = 2 to x =6?",
+    "passage": "The graph shows the momentum y, in newton-seconds, of an object x seconds after the object started moving, for 0 $\\le $ x $\\le $ 8, What is the average rate of change, in newton-seconds per second, in the momentum of the object from x = 2 to x =6?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -292,7 +292,7 @@
   {
     "question_number": 13,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "Raheem bought 9 shirts that were each the same price, He used a coupon for $54 off the entire purchase. The cost for the entire purchase after using the coupon was $108. What was the original price, in dollars. for 1 shirt?",
+    "passage": "Raheem bought 9 shirts that were each the same price, He used a coupon for $ 54 off the entire purchase. The cost for the entire purchase after using the coupon was $ 108. What was the original price, in dollars. for 1 shirt?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -329,7 +329,7 @@
   {
     "question_number": 15,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "For the positive quantities h, j, and k, 94% of h is equivalent to 47% of j, and j is equivalent to 30% of k. What percentage of k is h? (Disregard the % sign when entering your answer.For example, if your answer is 39%, enter 39)",
+    "passage": "For the positive quantities h, j, and k, 94% of h is equivalent to 47% of j, and j is equivalent to 30% of k. What percentage of k is h? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -366,7 +366,7 @@
   {
     "question_number": 17,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "In triangle PQR, the measure of angle P is (3 x + 5)°,the measure of angle Q is (2 x + 9)°, and the measure of angle R is (4 y + 5)°. If side QR is extended through point R to point S, and the measure of angle PRS is (x + y)°, what is the value of x + y?",
+    "passage": "In triangle PQR, the measure of angle P is (3 x + 5)°, the measure of angle Q is (2 x + 9)°, and the measure of angle R is (4 y + 5)°. If side QR is extended through point R to point S, and the measure of angle PRS is (x + y)°, what is the value of x + y?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -440,7 +440,7 @@
   {
     "question_number": 21,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "The cost of renting a power washer is $ 92 for the first day and $46 for each additional day. Which of the following functions gives the cost C(d), in dollars, of renting the power washer for d days, where d is a positive integer?",
+    "passage": "The cost of renting a power washer is $ 92 for the first day and $ 46 for each additional day. Which of the following functions gives the cost C(d), in dollars, of renting the power washer for d days, where d is a positive integer?",
     "question_text": null,
     "choices": [
       {

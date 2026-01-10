@@ -7,19 +7,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=\\frac{5}{8}x-1$"
+        "text": "$ f(x)=\\frac{5}{8}x-1 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=\\frac{8}{5}x-1$"
+        "text": "$ f(x)=\\frac{8}{5}x-1 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=-\\frac{5}{8}x-1$"
+        "text": "$ f(x)=-\\frac{5}{8}x-1 $"
       },
       {
         "label": "D",
-        "text": "$f(x)=-\\frac{8}{5}x-1$"
+        "text": "$ f(x)=-\\frac{8}{5}x-1 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -61,19 +61,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x^{\\frac{2}{153}}$"
+        "text": "$ x^{\\frac{2}{153}}$"
       },
       {
         "label": "B",
-        "text": "$x^{\\frac{153}{2}}$"
+        "text": "$ x^{\\frac{153}{2}}$"
       },
       {
         "label": "C",
-        "text": "$x^{151}$"
+        "text": "$ x^{151}$"
       },
       {
         "label": "D",
-        "text": "$x^{306}$"
+        "text": "$ x^{306}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -115,19 +115,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=\\frac{1}{2}(44,000)^{t}$"
+        "text": "$ y=\\frac{1}{2}(44,000)^{t}$"
       },
       {
         "label": "B",
-        "text": "$y=$$2 (44,000)^{t}$"
+        "text": "$ y=$$ 2 (44,000)^{t}$"
       },
       {
         "label": "C",
-        "text": "$y=44,000(\\frac{1}{2})^{t}$"
+        "text": "$ y=44,000(\\frac{1}{2})^{t}$"
       },
       {
         "label": "D",
-        "text": "$y=44,000(2)^{t}$"
+        "text": "$ y=44,000(2)^{t}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -142,19 +142,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$4t^{4}+4t^{3}-9t^{2}+3t-12$"
+        "text": "$ 4t^{4}+4t^{3}-9t^{2}+3t-12 $"
       },
       {
         "label": "B",
-        "text": "$4t^{4}+4t^{3}-9t^{2}+3t$"
+        "text": "$ 4t^{4}+4t^{3}-9t^{2}+3t $"
       },
       {
         "label": "C",
-        "text": "$4t^{4}+t^{3}+9t-12$"
+        "text": "$ 4t^{4}+t^{3}+9t-12 $"
       },
       {
         "label": "D",
-        "text": "$4t^{4}+t^{3}+3t$"
+        "text": "$ 4t^{4}+t^{3}+3t $"
       }
     ],
     "is_fill_in_blank": false,
@@ -164,24 +164,24 @@
   {
     "question_number": 7,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$b-22=\\frac{x}{y}$ The given equation relates the positive numbers b, x, and y. Which equation correctly expresses x in terms of b and y?",
+    "passage": "$ b-22=\\frac{x}{y}$ The given equation relates the positive numbers b, x, and y. Which equation correctly expresses x in terms of b and y?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x=\\frac{by-22}{y}$"
+        "text": "$ x=\\frac{by-22}{y}$"
       },
       {
         "label": "B",
-        "text": "$x=by-22$"
+        "text": "$ x=by-22 $"
       },
       {
         "label": "C",
-        "text": "$x=by-22y$"
+        "text": "$ x=by-22y $"
       },
       {
         "label": "D",
-        "text": "$x=\\frac{b-22}{y}$"
+        "text": "$ x=\\frac{b-22}{y}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -265,7 +265,7 @@
   {
     "question_number": 12,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$f(x)=7,020(0.28)^{\\frac{x}{12}}$ The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the precedingyear, what is the value of p?",
+    "passage": "$ f(x)=7,020(0.28)^{\\frac{x}{12}}$ The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the precedingyear, what is the value of p?",
     "question_text": null,
     "choices": [
       {
@@ -292,7 +292,7 @@
   {
     "question_number": 13,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$x^{2}+5x=47$ The solutions to the given equation are $\\frac{m+\\sqrt{q}}{2}$ and $\\frac{m-\\sqrt{q}}{2}$, where m and q are integers. What is the value of m + q?",
+    "passage": "$ x^{2}+5x=47 $ The solutions to the given equation are $\\frac{m+\\sqrt{q}}{2}$ and $\\frac{m-\\sqrt{q}}{2}$, where m and q are integers. What is the value of m + q?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -329,7 +329,7 @@
   {
     "question_number": 15,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$p(x)=2x^{2}+20x+15$ What is the minimum value of the given function?",
+    "passage": "$ p(x)=2x^{2}+20x+15 $ What is the minimum value of the given function?",
     "question_text": null,
     "choices": [
       {
@@ -356,7 +356,7 @@
   {
     "question_number": 16,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$5x+7y=8$ $30x+42y=48$ For each real number r, which of the following points lies on the graph of each equation in the xy -plane for the given system?",
+    "passage": "$ 5x+7y=8 $ $ 30x+42y=48 $ For each real number r, which of the following points lies on the graph of each equation in the xy -plane for the given system?",
     "question_text": null,
     "choices": [
       {
@@ -365,7 +365,7 @@
       },
       {
         "label": "B",
-        "text": "$(-\\frac{5r}{7}+\\frac{8}{7},r)$"
+        "text": "$(-\\frac{5r}{7}+\\frac{8}{7}, r)$"
       },
       {
         "label": "C",
@@ -408,19 +408,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-3+\\frac{35}{1,301}x$"
+        "text": "$ y=-3+\\frac{35}{1,301}x $"
       },
       {
         "label": "B",
-        "text": "$y= 9+\\frac{1}{131}x$"
+        "text": "$ y= 9+\\frac{1}{131}x $"
       },
       {
         "label": "C",
-        "text": "$y= 18+\\frac{1}{131}x$"
+        "text": "$ y= 18+\\frac{1}{131}x $"
       },
       {
         "label": "D",
-        "text": "$y= 26+\\frac{35}{1,301}x$"
+        "text": "$ y= 26+\\frac{35}{1,301}x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -430,7 +430,7 @@
   {
     "question_number": 20,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$\\sqrt{k-x}=57-x$ In the given equation, k is a constant. The equation has exactly one real solution. What is the minimum possible value of 4 k?",
+    "passage": "$\\sqrt{k-x}=57-x $ In the given equation, k is a constant. The equation has exactly one real solution. What is the minimum possible value of 4 k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -440,7 +440,7 @@
   {
     "question_number": 21,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "The functions f and g are defined by the given equations, where x $\\ge$ 0. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines,where x $\\ge$ 0? I. $f(x)=16(1.25)^{x}+43$ II. $g(x)=6(0.75)^{x}$",
+    "passage": "The functions f and g are defined by the given equations, where x $\\ge $ 0. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines, where x $\\ge $ 0? I. $ f(x)=16(1.25)^{x}+43 $ II. $ g(x)=6(0.75)^{x}$",
     "question_text": null,
     "choices": [
       {

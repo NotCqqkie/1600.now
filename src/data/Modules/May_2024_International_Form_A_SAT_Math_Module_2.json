@@ -56,7 +56,7 @@
   {
     "question_number": 3,
     "test_name": "May 2024 International Form A SAT Math Module 2",
-    "passage": "The table shows the exponential relationship between the number of years,, since Hana started training in pole vault, and the estimated height h(x), in meters, of her best pole vault for that year, Which of the following functions best represents this relationship,where x $\\le$ 4?",
+    "passage": "The table shows the exponential relationship between the number of years,, since Hana started training in pole vault, and the estimated height h(x), in meters, of her best pole vault for that year, Which of the following functions best represents this relationship, where x $\\le $ 4?",
     "question_text": null,
     "choices": [
       {
@@ -309,7 +309,7 @@
   {
     "question_number": 13,
     "test_name": "May 2024 International Form A SAT Math Module 2",
-    "passage": "The function f is defined by f (x)=(x -9)(x -6)(x - 5). In the xy-plane,the graph of y= g (x) is the result of translating the graph of y = f (x) up 4units, What is the value of g (0)?",
+    "passage": "The function f is defined by f (x)=(x -9)(x -6)(x - 5). In the xy-plane, the graph of y= g (x) is the result of translating the graph of y = f (x) up 4units, What is the value of g (0)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -410,7 +410,7 @@
   {
     "question_number": 18,
     "test_name": "May 2024 International Form A SAT Math Module 2",
-    "passage": "The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined the buffalo had 133 kilograms of muscle, which made up approximately 65.9% of its composition. Of the remaining composition of this buffalo, approximately 46.2% was bone, and the remainder was fat.Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?",
+    "passage": "The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined the buffalo had 133 kilograms of muscle, which made up approximately 65.9% of its composition. Of the remaining composition of this buffalo, approximately 46.2% was bone, and the remainder was fat. Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -474,7 +474,7 @@
   {
     "question_number": 21,
     "test_name": "May 2024 International Form A SAT Math Module 2",
-    "passage": "The cost of renting a piece of equipment is $64 n for the first day and $32 n for each additional day, where n is a positive integer Which of the following functions gives the cost C (x), in dollars, of renting this equipment for x days, where x is a positive integer",
+    "passage": "The cost of renting a piece of equipment is $ 64 n for the first day and $ 32 n for each additional day, where n is a positive integer Which of the following functions gives the cost C (x), in dollars, of renting this equipment for x days, where x is a positive integer",
     "question_text": null,
     "choices": [
       {
@@ -506,19 +506,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "Ⅰ is sufficient,but Ⅰ Ⅰ and Ⅲ are not."
+        "text": "Ⅰ is sufficient, but Ⅰ Ⅰ and Ⅲ are not."
       },
       {
         "label": "B",
-        "text": "Ⅱ is sufficient,but Ⅰ and Ⅲ are not."
+        "text": "Ⅱ is sufficient, but Ⅰ and Ⅲ are not."
       },
       {
         "label": "C",
-        "text": "Ⅲ is sufficient,but Ⅰ and Ⅱ are not."
+        "text": "Ⅲ is sufficient, but Ⅰ and Ⅱ are not."
       },
       {
         "label": "D",
-        "text": "Ⅰ Ⅰ is sufficient and Ⅲ is sufficient,but Ⅰ is not."
+        "text": "Ⅰ Ⅰ is sufficient and Ⅲ is sufficient, but Ⅰ is not."
       }
     ],
     "is_fill_in_blank": false,

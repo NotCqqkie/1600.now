@@ -2,24 +2,24 @@
   {
     "question_number": 1,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "Which expression is equivalent to $9yz^{3}+6yz+3yz^{3}$?",
+    "passage": "Which expression is equivalent to $ 9yz^{3}+6yz+3yz^{3}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$12yz^{3}+6yz$"
+        "text": "$ 12yz^{3}+6yz $"
       },
       {
         "label": "B",
-        "text": "$12yz^{6}+6yz$"
+        "text": "$ 12yz^{6}+6yz $"
       },
       {
         "label": "C",
-        "text": "$18yz^{6}$"
+        "text": "$ 18yz^{6}$"
       },
       {
         "label": "D",
-        "text": "$18yz^{7}$"
+        "text": "$ 18yz^{7}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -29,7 +29,7 @@
   {
     "question_number": 2,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "A sum of 9,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposits or withdrawals were made after that. The function f(x)=9,000$(1+0.03)^{x}$ gives the value of the CD, in dollars, x years after the investment was initially made, where$x\\le5$. Which of the following is the best interpretation of the statement \"f(2) is approximately equal to 9,474.08\" in this context?",
+    "passage": "A sum of 9,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposits or withdrawals were made after that. The function f(x)=9,000 $(1+0.03)^{x}$ gives the value of the CD, in dollars, x years after the investment was initially made, where $ x\\le5 $. Which of the following is the best interpretation of the statement \"f(2) is approximately equal to 9,474.08\" in this context?",
     "question_text": null,
     "choices": [
       {
@@ -61,19 +61,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$49x-35y=-126$"
+        "text": "$ 49x-35y=-126 $"
       },
       {
         "label": "B",
-        "text": "$35x-49y=-126$"
+        "text": "$ 35x-49y=-126 $"
       },
       {
         "label": "C",
-        "text": "$7x-5y=-126$"
+        "text": "$ 7x-5y=-126 $"
       },
       {
         "label": "D",
-        "text": "$5x-7y=-126$"
+        "text": "$ 5x-7y=-126 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$5y=6x+17$ $-5y=7x-23$ The solution to the given system of equations is (x, y). What is the value of 39 x?",
+    "passage": "$ 5y=6x+17 $ $-5y=7x-23 $ The solution to the given system of equations is (x, y). What is the value of 39 x?",
     "question_text": null,
     "choices": [
       {
@@ -115,11 +115,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y>4x+3$"
+        "text": "$ y>4x+3 $"
       },
       {
         "label": "B",
-        "text": "$y>4x-3$"
+        "text": "$ y>4x-3 $"
       },
       {
         "label": "C",
@@ -142,19 +142,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$(x-5)^{2}+(y+2)^{2}=5$"
+        "text": "$(x-5)^{2}+(y+2)^{2}=5 $"
       },
       {
         "label": "B",
-        "text": "$(x+5)^{2}+(y-2)^{2}=5$"
+        "text": "$(x+5)^{2}+(y-2)^{2}=5 $"
       },
       {
         "label": "C",
-        "text": "$(x-5)^{2}+(y+2)^{2}=25$"
+        "text": "$(x-5)^{2}+(y+2)^{2}=25 $"
       },
       {
         "label": "D",
-        "text": "$(x+5)^{2}+(y-2)^{2}=25$"
+        "text": "$(x+5)^{2}+(y-2)^{2}=25 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -164,7 +164,7 @@
   {
     "question_number": 7,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "y Which point (x,y) is a solution to the given inequality in the xy -plane?",
+    "passage": "y Which point (x, y) is a solution to the given inequality in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -191,7 +191,7 @@
   {
     "question_number": 8,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$18(x+5)=2(x+c)+16x$ In the given equation, c is a constant. The equation has infinitely many solutions. What is the value of c?",
+    "passage": "$ 18(x+5)=2(x+c)+16x $ In the given equation, c is a constant. The equation has infinitely many solutions. What is the value of c?",
     "question_text": null,
     "choices": [
       {
@@ -218,7 +218,7 @@
   {
     "question_number": 9,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "The table shows three values of x and their corresponding values of y. There is a quadratic relationship between x and y. An equation that represents this relationship can be written as $y=36x^{2}-bx-120$, where b is a constant. What is the value of b?",
+    "passage": "The table shows three values of x and their corresponding values of y. There is a quadratic relationship between x and y. An equation that represents this relationship can be written as $ y=36x^{2}-bx-120 $, where b is a constant. What is the value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -255,7 +255,7 @@
   {
     "question_number": 11,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$x-a=(x-a)(x-24)$ Which of the following are solutions to the given equation, where a is a constant and a>25? l.a ll.24 lll.25",
+    "passage": "$ x-a=(x-a)(x-24)$ Which of the following are solutions to the given equation, where a is a constant and a>25? l. a ll.24 lll.25",
     "question_text": null,
     "choices": [
       {
@@ -272,7 +272,7 @@
       },
       {
         "label": "D",
-        "text": "l,ll and lll"
+        "text": "l, ll and lll"
       }
     ],
     "is_fill_in_blank": false,
@@ -282,7 +282,7 @@
   {
     "question_number": 12,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "If $\\sqrt{x-1}=2$,what is the vaule of $(x-1)$?",
+    "passage": "If $\\sqrt{x-1}=2 $, what is the vaule of $(x-1)$?",
     "question_text": null,
     "choices": [
       {
@@ -309,7 +309,7 @@
   {
     "question_number": 13,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "The figure shows a rectangular pool surrounded by a concrete path that is x feet (ft) wide on all sides. The pool is 21 ft long and 11 ft wide. The area of the concrete path is 144 $ft^{2}$, What is the value of x?",
+    "passage": "The figure shows a rectangular pool surrounded by a concrete path that is x feet (ft) wide on all sides. The pool is 21 ft long and 11 ft wide. The area of the concrete path is 144 $ ft^{2}$, What is the value of x?",
     "question_text": null,
     "choices": [
       {
@@ -368,19 +368,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$P=\\frac{w}{70}$"
+        "text": "$ P=\\frac{w}{70}$"
       },
       {
         "label": "B",
-        "text": "$P=70w$"
+        "text": "$ P=70w $"
       },
       {
         "label": "C",
-        "text": "$P=140w$"
+        "text": "$ P=140w $"
       },
       {
         "label": "D",
-        "text": "$P=\\frac{w}{35}$"
+        "text": "$ P=\\frac{w}{35}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -390,24 +390,24 @@
   {
     "question_number": 16,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$f(x)=4^{-5(x+1)}$ Which of the following equivalent forms of the given function f displays, as the base or the coefficient, the y- coordinate of the y -intercept of the graph of $y=f(x)$ in the xy -plane?",
+    "passage": "$ f(x)=4^{-5(x+1)}$ Which of the following equivalent forms of the given function f displays, as the base or the coefficient, the y- coordinate of the y -intercept of the graph of $ y=f(x)$ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=\\frac{1}{1,024}(\\frac{1}{4})^{5x}$"
+        "text": "$ f(x)=\\frac{1}{1,024}(\\frac{1}{4})^{5x}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=(\\frac{1}{4})^{5x+5}$"
+        "text": "$ f(x)=(\\frac{1}{4})^{5x+5}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=4^{-5x-5}$"
+        "text": "$ f(x)=4^{-5x-5}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=1,024^{-x-1}$"
+        "text": "$ f(x)=1,024^{-x-1}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -417,7 +417,7 @@
   {
     "question_number": 17,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$\\sqrt{117n}\\sqrt{117n}^{2}$ For what value of x is the given expression equivalent to $(117n)^{12x}$, where $n>1$?",
+    "passage": "$\\sqrt{117n}\\sqrt{117n}^{2}$ For what value of x is the given expression equivalent to $(117n)^{12x}$, where $ n>1 $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -427,7 +427,7 @@
   {
     "question_number": 18,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 7 units. The surface area of right circular cylinder A is kπ square units, and the surface area of right circular cylinder B is nπ square units, where k and n are constants. What is the value of $n-k$? (The surface area of a right circular cylinder with radius r and height h is $2\\pi r^{2}+2\\pi rh$.)",
+    "passage": "The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 7 units. The surface area of right circular cylinder A is kπ square units, and the surface area of right circular cylinder B is nπ square units, where k and n are constants. What is the value of $ n-k $? (The surface area of a right circular cylinder with radius r and height h is $ 2\\pi r^{2}+2\\pi rh $.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -496,19 +496,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{2}\\pi$"
+        "text": "$\\frac{1}{2}\\pi $"
       },
       {
         "label": "B",
-        "text": "$\\frac{3}{4}\\pi$"
+        "text": "$\\frac{3}{4}\\pi $"
       },
       {
         "label": "C",
-        "text": "$\\frac{1}{8}\\pi$"
+        "text": "$\\frac{1}{8}\\pi $"
       },
       {
         "label": "D",
-        "text": "$\\frac{1}{4}\\pi$"
+        "text": "$\\frac{1}{4}\\pi $"
       }
     ],
     "is_fill_in_blank": false,
@@ -518,7 +518,7 @@
   {
     "question_number": 22,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "For a certain type of rope, the equation $y=900ax^{2}$, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 1.75 inches, it has an estimated breaking strength of 3,858.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type thathas a circumference of 3.50 inches?",
+    "passage": "For a certain type of rope, the equation $ y=900ax^{2}$, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 1.75 inches, it has an estimated breaking strength of 3,858.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type thathas a circumference of 3.50 inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

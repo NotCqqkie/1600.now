@@ -83,24 +83,24 @@
   {
     "question_number": 4,
     "test_name": "October 2024 US Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to $11(x^{2}-100y^{2})$?",
+    "passage": "Which expression is equivalent to $ 11(x^{2}-100y^{2})$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$11(x-2y)(x-50y)$"
+        "text": "$ 11(x-2y)(x-50y)$"
       },
       {
         "label": "B",
-        "text": "$11(x-2y)(x+50y)$"
+        "text": "$ 11(x-2y)(x+50y)$"
       },
       {
         "label": "C",
-        "text": "$11(x-10y)(x-10y)$"
+        "text": "$ 11(x-10y)(x-10y)$"
       },
       {
         "label": "D",
-        "text": "$11(x-10y)(x+10y)$"
+        "text": "$ 11(x-10y)(x+10y)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -115,19 +115,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$4c^{3}+9c+2$"
+        "text": "$ 4c^{3}+9c+2 $"
       },
       {
         "label": "B",
-        "text": "$4c^{3}+9c+14$"
+        "text": "$ 4c^{3}+9c+14 $"
       },
       {
         "label": "C",
-        "text": "$-4c^{3}+9c+2$"
+        "text": "$-4c^{3}+9c+2 $"
       },
       {
         "label": "D",
-        "text": "$-4c^{3}+9c+14$"
+        "text": "$-4c^{3}+9c+14 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -137,7 +137,7 @@
   {
     "question_number": 6,
     "test_name": "October 2024 US Form B SAT Math Module 1",
-    "passage": "In ∆ JKL, the measures of both ∠ J and ∠ K are equal and the measure of ∠ L is 134°.What is the measure of ∠ J?",
+    "passage": "In ∆ JKL, the measures of both ∠ J and ∠ K are equal and the measure of ∠ L is 134°. What is the measure of ∠ J?",
     "question_text": null,
     "choices": [
       {
@@ -179,19 +179,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-5x+7$"
+        "text": "$ y=-5x+7 $"
       },
       {
         "label": "B",
-        "text": "$y=-5x-7$"
+        "text": "$ y=-5x-7 $"
       },
       {
         "label": "C",
-        "text": "$y=7x+5$"
+        "text": "$ y=7x+5 $"
       },
       {
         "label": "D",
-        "text": "$y=7x-5$"
+        "text": "$ y=7x-5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -265,24 +265,24 @@
   {
     "question_number": 12,
     "test_name": "October 2024 US Form B SAT Math Module 1",
-    "passage": "The cost to rent a bus from Company X is $850 for the first 2 hours and an additional $30 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for t hours, where t > 2, is 1,030, which equation represents this situation?",
+    "passage": "The cost to rent a bus from Company X is $ 850 for the first 2 hours and an additional $ 30 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for t hours, where t > 2, is 1,030, which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$850(t-2)+30t=1,030$"
+        "text": "$ 850(t-2)+30t=1,030 $"
       },
       {
         "label": "B",
-        "text": "$850(2t)+30t=1,030$"
+        "text": "$ 850(2t)+30t=1,030 $"
       },
       {
         "label": "C",
-        "text": "$850+30(t-2)=1,030$"
+        "text": "$ 850+30(t-2)=1,030 $"
       },
       {
         "label": "D",
-        "text": "$850+30(2t)=1,030$"
+        "text": "$ 850+30(2t)=1,030 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -324,19 +324,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$20+5+10\\pi$"
+        "text": "$ 20+5+10\\pi $"
       },
       {
         "label": "B",
-        "text": "$20\\times5+10\\pi$"
+        "text": "$ 20\\times5+10\\pi $"
       },
       {
         "label": "C",
-        "text": "$20\\times5+50\\pi$"
+        "text": "$ 20\\times5+50\\pi $"
       },
       {
         "label": "D",
-        "text": "$20\\times5+100\\pi$"
+        "text": "$ 20\\times5+100\\pi $"
       }
     ],
     "is_fill_in_blank": false,
@@ -346,7 +346,7 @@
   {
     "question_number": 15,
     "test_name": "October 2024 US Form B SAT Math Module 1",
-    "passage": "The kinetic energy K, in joules, of an object is given by the formula $K=\\frac{1}{2}mv^{2}$, where m is the mass of the object, in kilograms, and v is the velocity of the object, in meters per second. If the kinetic energy of a certain object can be found by using the formula $K=32v^{2}$. what isthe mass of the object, in kilograms?",
+    "passage": "The kinetic energy K, in joules, of an object is given by the formula $ K=\\frac{1}{2}mv^{2}$, where m is the mass of the object, in kilograms, and v is the velocity of the object, in meters per second. If the kinetic energy of a certain object can be found by using the formula $ K=32v^{2}$. what isthe mass of the object, in kilograms?",
     "question_text": null,
     "choices": [
       {
@@ -400,7 +400,7 @@
   {
     "question_number": 17,
     "test_name": "October 2024 US Form B SAT Math Module 1",
-    "passage": "$(2x-7)^{2}-8(2x-7)+15=0$ What is a solution to the given equation?",
+    "passage": "$(2x-7)^{2}-8(2x-7)+15=0 $ What is a solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -425,19 +425,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-582+1.2x$"
+        "text": "$ y=-582+1.2x $"
       },
       {
         "label": "B",
-        "text": "$y=582-1.2x$"
+        "text": "$ y=582-1.2x $"
       },
       {
         "label": "C",
-        "text": "$y=-582(1.2)^{x}$"
+        "text": "$ y=-582(1.2)^{x}$"
       },
       {
         "label": "D",
-        "text": "$y=582(1.2)^{x}$"
+        "text": "$ y=582(1.2)^{x}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -457,7 +457,7 @@
   {
     "question_number": 21,
     "test_name": "October 2024 US Form B SAT Math Module 1",
-    "passage": "$(x+3)^{2}+(y-18)^{2}=169$ The graph of the given equation is a circle in the xy-plane. The point (a, b) lies on the circle. Which of the following is a possible value for a?",
+    "passage": "$(x+3)^{2}+(y-18)^{2}=169 $ The graph of the given equation is a circle in the xy-plane. The point (a, b) lies on the circle. Which of the following is a possible value for a?",
     "question_text": null,
     "choices": [
       {

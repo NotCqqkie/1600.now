@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "y=(x-21)(x-42) y=0 The graphs of the equations in the given system of equations intersect at the point (x,y) in the xy-plane. What is a possible value of x?",
+    "passage": "y=(x-21)(x-42) y=0 The graphs of the equations in the given system of equations intersect at the point (x, y) in the xy-plane. What is a possible value of x?",
     "question_text": null,
     "choices": [
       {
@@ -110,7 +110,7 @@
   {
     "question_number": 5,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "The cost to rent a kayak consists of a fixed fee for the first hour and an hourly fee for each additional hour. The table shows the rental cost for 4 hours and for 6 hours. Which function f gives the rental cost, in dollars, for x hours rental, where $x\\ge1$?",
+    "passage": "The cost to rent a kayak consists of a fixed fee for the first hour and an hourly fee for each additional hour. The table shows the rental cost for 4 hours and for 6 hours. Which function f gives the rental cost, in dollars, for x hours rental, where $ x\\ge1 $?",
     "question_text": null,
     "choices": [
       {
@@ -245,7 +245,7 @@
   {
     "question_number": 10,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "An exponential function f is defined by $f(x)=c^{x}$, where c is a constant greater than 1. If f(8)=(49) • f(6), what is the value of c?",
+    "passage": "An exponential function f is defined by $ f(x)=c^{x}$, where c is a constant greater than 1. If f(8)=(49) • f(6), what is the value of c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -255,7 +255,7 @@
   {
     "question_number": 11,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "The equation $h=\\frac{9(v-273.15)}{5}+32$ gives the corresponding temperature h, in degrees Fahrenheit, of any substance that has a temperature of v kelvins, where v>0. If a substance has a temperature of 557.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "passage": "The equation $ h=\\frac{9(v-273.15)}{5}+32 $ gives the corresponding temperature h, in degrees Fahrenheit, of any substance that has a temperature of v kelvins, where v>0. If a substance has a temperature of 557.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -265,12 +265,12 @@
   {
     "question_number": 12,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "$81x^{2}+\\frac{18}{33}x+$p$=0$ In the given equation, p is a constant. The equation has exactly one real solution. What is the value of p?",
+    "passage": "$ 81x^{2}+\\frac{18}{33}x+$ p $=0 $ In the given equation, p is a constant. The equation has exactly one real solution. What is the value of p?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$33$"
+        "text": "$ 33 $"
       },
       {
         "label": "B",
@@ -278,11 +278,11 @@
       },
       {
         "label": "C",
-        "text": "$33^{2}$"
+        "text": "$ 33^{2}$"
       },
       {
         "label": "D",
-        "text": "$33^{-2}$"
+        "text": "$ 33^{-2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -292,7 +292,7 @@
   {
     "question_number": 13,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "$f(x)=3,600(0.28)^{\\frac{x}{12}}$ The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the preceding year, what is the value of p?",
+    "passage": "$ f(x)=3,600(0.28)^{\\frac{x}{12}}$ The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the preceding year, what is the value of p?",
     "question_text": null,
     "choices": [
       {
@@ -319,24 +319,24 @@
   {
     "question_number": 14,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "An equilateral triangle has a height of $49\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
+    "passage": "An equilateral triangle has a height of $ 49\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$98\\sqrt{3}$"
+        "text": "$ 98\\sqrt{3}$"
       },
       {
         "label": "B",
-        "text": "$98$"
+        "text": "$ 98 $"
       },
       {
         "label": "C",
-        "text": "$49\\sqrt{3}$"
+        "text": "$ 49\\sqrt{3}$"
       },
       {
         "label": "D",
-        "text": "$49$"
+        "text": "$ 49 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -346,24 +346,24 @@
   {
     "question_number": 15,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "Which expression is NOT a factor of $7,290x^{4}-1,440$?",
+    "passage": "Which expression is NOT a factor of $ 7,290x^{4}-1,440 $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$9x^{2}+4$"
+        "text": "$ 9x^{2}+4 $"
       },
       {
         "label": "B",
-        "text": "$3x^{2}-2$"
+        "text": "$ 3x^{2}-2 $"
       },
       {
         "label": "C",
-        "text": "$3x+2$"
+        "text": "$ 3x+2 $"
       },
       {
         "label": "D",
-        "text": "$90$"
+        "text": "$ 90 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -501,7 +501,7 @@
   {
     "question_number": 22,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "In the figure shown, points A, B, C, and E lie on the circle, and AB<BC. Segment AC is perpendicular to segment BE at point D, and BD=DE= $\\sqrt{398}$. The diameter of the circle is 201. If $\\frac{CD}{AD}=r$ what is the value of $r$?",
+    "passage": "In the figure shown, points A, B, C, and E lie on the circle, and AB<BC. Segment AC is perpendicular to segment BE at point D, and BD=DE= $\\sqrt{398}$. The diameter of the circle is 201. If $\\frac{CD}{AD}=r $ what is the value of $ r $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

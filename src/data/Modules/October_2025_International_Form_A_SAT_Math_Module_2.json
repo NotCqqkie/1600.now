@@ -2,7 +2,7 @@
   {
     "question_number": 1,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "A giant panda is predicted to have a mass between $\\frac{1}{950}$and $\\frac{1}{850}$ times its mother's mass when it is born. If its mother is predicted to have a mass of 95,950 grams when the giant panda is born, which inequality best represents the prediction of the giant panda's mass p, in grams, when it is born?",
+    "passage": "A giant panda is predicted to have a mass between $\\frac{1}{950}$ and $\\frac{1}{850}$ times its mother's mass when it is born. If its mother is predicted to have a mass of 95,950 grams when the giant panda is born, which inequality best represents the prediction of the giant panda's mass p, in grams, when it is born?",
     "question_text": null,
     "choices": [
       {
@@ -29,24 +29,24 @@
   {
     "question_number": 2,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "Which expression is equivalent to $9yz^{3}+6yz+3yz^{3}$?",
+    "passage": "Which expression is equivalent to $ 9yz^{3}+6yz+3yz^{3}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$12yz^{3}+6yz$"
+        "text": "$ 12yz^{3}+6yz $"
       },
       {
         "label": "B",
-        "text": "$12yz^{6}+6yz$"
+        "text": "$ 12yz^{6}+6yz $"
       },
       {
         "label": "C",
-        "text": "$18yz^{6}$"
+        "text": "$ 18yz^{6}$"
       },
       {
         "label": "D",
-        "text": "$18yz^{7}$"
+        "text": "$ 18yz^{7}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -56,7 +56,7 @@
   {
     "question_number": 3,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "A sum of 9,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposits or withdrawals were made after that. The function $f(x)=9,000(1+0.03)^{x}$ gives the value of the CD, in dollars, x years after the investment was initially made, where $x\\le5$. Which of the following is the best interpretation of the statement “$f(2)$ is approximately equal to 9,474.08” in this context?",
+    "passage": "A sum of 9,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposits or withdrawals were made after that. The function $ f(x)=9,000(1+0.03)^{x}$ gives the value of the CD, in dollars, x years after the investment was initially made, where $ x\\le5 $. Which of the following is the best interpretation of the statement “$ f(2)$ is approximately equal to 9,474.08” in this context?",
     "question_text": null,
     "choices": [
       {
@@ -88,19 +88,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$49x-35y=-126$"
+        "text": "$ 49x-35y=-126 $"
       },
       {
         "label": "B",
-        "text": "$35x-49y=-126$"
+        "text": "$ 35x-49y=-126 $"
       },
       {
         "label": "C",
-        "text": "$7x-5y=-126$"
+        "text": "$ 7x-5y=-126 $"
       },
       {
         "label": "D",
-        "text": "$5x-7y=-126$"
+        "text": "$ 5x-7y=-126 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -110,24 +110,24 @@
   {
     "question_number": 5,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "$5y=6x+17$ $-5y=7x-23$ The solution to the given system of equations is $(x,y)$. What is the value of $39x$?",
+    "passage": "$ 5y=6x+17 $ $-5y=7x-23 $ The solution to the given system of equations is $(x, y)$. What is the value of $ 39x $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-18$"
+        "text": "$-18 $"
       },
       {
         "label": "B",
-        "text": "$-6$"
+        "text": "$-6 $"
       },
       {
         "label": "C",
-        "text": "$6$"
+        "text": "$ 6 $"
       },
       {
         "label": "D",
-        "text": "$18$"
+        "text": "$ 18 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -142,11 +142,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y>4x+3$"
+        "text": "$ y>4x+3 $"
       },
       {
         "label": "B",
-        "text": "$y>4x-3$"
+        "text": "$ y>4x-3 $"
       },
       {
         "label": "C",
@@ -169,19 +169,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$(x-5)^{2}+(y+2)^{2}=5$"
+        "text": "$(x-5)^{2}+(y+2)^{2}=5 $"
       },
       {
         "label": "B",
-        "text": "$(x+5)^{2}+(y-2)^{2}=5$"
+        "text": "$(x+5)^{2}+(y-2)^{2}=5 $"
       },
       {
         "label": "C",
-        "text": "$(x-5)^{2}+(y+2)^{2}=25$"
+        "text": "$(x-5)^{2}+(y+2)^{2}=25 $"
       },
       {
         "label": "D",
-        "text": "$(x+5)^{2}+(y-2)^{2}=25$"
+        "text": "$(x+5)^{2}+(y-2)^{2}=25 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -191,7 +191,7 @@
   {
     "question_number": 8,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "$y Which point $(x,y) is a solution to the given inequality in the xy -plane?",
+    "passage": "$ y Which point $(x, y) is a solution to the given inequality in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -218,24 +218,24 @@
   {
     "question_number": 9,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "$18(x+5)=2(x+c)+16x$ In the given equation, c is a constant. The equation has infinitely many solutions. What is the value of c?",
+    "passage": "$ 18(x+5)=2(x+c)+16x $ In the given equation, c is a constant. The equation has infinitely many solutions. What is the value of c?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$90$"
+        "text": "$ 90 $"
       },
       {
         "label": "B",
-        "text": "$45$"
+        "text": "$ 45 $"
       },
       {
         "label": "C",
-        "text": "$10$"
+        "text": "$ 10 $"
       },
       {
         "label": "D",
-        "text": "$5$"
+        "text": "$ 5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -245,7 +245,7 @@
   {
     "question_number": 10,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "The table shows three values of x and their corresponding values of y. There is a quadratic relationship between x and y. An equation that represents this relationship can be written as $y=36x^{2}-bx-120$, where is a constant. What is the value of b?",
+    "passage": "The table shows three values of x and their corresponding values of y. There is a quadratic relationship between x and y. An equation that represents this relationship can be written as $ y=36x^{2}-bx-120 $, where is a constant. What is the value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -260,19 +260,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$h+w=3,270$"
+        "text": "$ h+w=3,270 $"
       },
       {
         "label": "B",
-        "text": "$h+2w=3,270$"
+        "text": "$ h+2w=3,270 $"
       },
       {
         "label": "C",
-        "text": "$10h+7w=114,450$"
+        "text": "$ 10h+7w=114,450 $"
       },
       {
         "label": "D",
-        "text": "$7h+10w=114,450$"
+        "text": "$ 7h+10w=114,450 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -282,24 +282,24 @@
   {
     "question_number": 12,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "The function h is defined by $h(x)=(x+p)(x-4)(2x-12)$, where p is a constant. In the xy -plane, the graph of $y=h(x)$ passes through the point $(-2,0)$. What is the value of $h(0)$?",
+    "passage": "The function h is defined by $ h(x)=(x+p)(x-4)(2x-12)$, where p is a constant. In the xy -plane, the graph of $ y=h(x)$ passes through the point $(-2,0)$. What is the value of $ h(0)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-48$"
+        "text": "$-48 $"
       },
       {
         "label": "B",
-        "text": "$-2$"
+        "text": "$-2 $"
       },
       {
         "label": "C",
-        "text": "$8$"
+        "text": "$ 8 $"
       },
       {
         "label": "D",
-        "text": "$96$"
+        "text": "$ 96 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -309,7 +309,7 @@
   {
     "question_number": 13,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "$x-a=(x-a)(x-24)$ Which of the following are solutions to the given equation, where $a$ is a constant and $a>25$? I. $a$ II. 24 III. 25",
+    "passage": "$ x-a=(x-a)(x-24)$ Which of the following are solutions to the given equation, where $ a $ is a constant and $ a>25 $? I. $ a $ II. 24 III. 25",
     "question_text": null,
     "choices": [
       {
@@ -336,24 +336,24 @@
   {
     "question_number": 14,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "If $\\sqrt{x-1}=2$, what is the value of $(x-1)$?",
+    "passage": "If $\\sqrt{x-1}=2 $, what is the value of $(x-1)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$2$"
+        "text": "$ 2 $"
       },
       {
         "label": "B",
-        "text": "$3$"
+        "text": "$ 3 $"
       },
       {
         "label": "C",
-        "text": "$4$"
+        "text": "$ 4 $"
       },
       {
         "label": "D",
-        "text": "$8$"
+        "text": "$ 8 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -368,19 +368,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$2$"
+        "text": "$ 2 $"
       },
       {
         "label": "B",
-        "text": "$4$"
+        "text": "$ 4 $"
       },
       {
         "label": "C",
-        "text": "$18$"
+        "text": "$ 18 $"
       },
       {
         "label": "D",
-        "text": "$36$"
+        "text": "$ 36 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -422,19 +422,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$P=\\frac{w}{70}$"
+        "text": "$ P=\\frac{w}{70}$"
       },
       {
         "label": "B",
-        "text": "$P=70w$"
+        "text": "$ P=70w $"
       },
       {
         "label": "C",
-        "text": "$P=140w$"
+        "text": "$ P=140w $"
       },
       {
         "label": "D",
-        "text": "$P=\\frac{w}{35}$"
+        "text": "$ P=\\frac{w}{35}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -444,24 +444,24 @@
   {
     "question_number": 18,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "$f(x)=4^{-5(x+1)}$ Which of the following equivalent forms of the given function $f$ displays, as the base or the coefficient, the y -coordinate of the y -intercept of the graph of $y=f(x)$in the xy -plane?",
+    "passage": "$ f(x)=4^{-5(x+1)}$ Which of the following equivalent forms of the given function $ f $ displays, as the base or the coefficient, the y -coordinate of the y -intercept of the graph of $ y=f(x)$ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=\\frac{1}{1,024}(\\frac{1}{4})^{5x}$"
+        "text": "$ f(x)=\\frac{1}{1,024}(\\frac{1}{4})^{5x}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=(\\frac{1}{4})^{5x+5}$"
+        "text": "$ f(x)=(\\frac{1}{4})^{5x+5}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=4^{-5x-5}$"
+        "text": "$ f(x)=4^{-5x-5}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=1,024^{-x-1}$"
+        "text": "$ f(x)=1,024^{-x-1}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -471,7 +471,7 @@
   {
     "question_number": 19,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "$3117n(4117n)^{2}$ For what value of x is the given expression equivalent to $(117n)^{12x}$ where $n>1$?",
+    "passage": "$ 3117n(4117n)^{2}$ For what value of x is the given expression equivalent to $(117n)^{12x}$ where $ n>1 $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -481,7 +481,7 @@
   {
     "question_number": 20,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 7 units. The surface area of right circular cylinder A is $k\\pi$ square units, and the surface area of right circular cylinder B is $n\\pi$ square units, where k and n are constants. What is the value of $n-k$? (The surface area of a right circular cylinder with radius r and height h is $2\\pi r^{2}+2\\pi rh$.)",
+    "passage": "The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 7 units. The surface area of right circular cylinder A is $ k\\pi $ square units, and the surface area of right circular cylinder B is $ n\\pi $ square units, where k and n are constants. What is the value of $ n-k $? (The surface area of a right circular cylinder with radius r and height h is $ 2\\pi r^{2}+2\\pi rh $.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -491,7 +491,7 @@
   {
     "question_number": 21,
     "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "In triangle $RST$, angle $T$ is a right angle, point $L$ lies on $\\overline{RS}$, point $K$ lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. If the length of $\\overline{RT}$ is 63 units, the length of $\\overline{LK}$ is 21 units, and the area of triangle $RST$ is 252 square units, what is the length of $\\overline{KT}$, in units?",
+    "passage": "In triangle $ RST $, angle $ T $ is a right angle, point $ L $ lies on $\\overline{RS}$, point $ K $ lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. If the length of $\\overline{RT}$ is 63 units, the length of $\\overline{LK}$ is 21 units, and the area of triangle $ RST $ is 252 square units, what is the length of $\\overline{KT}$, in units?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -107,24 +107,24 @@
   {
     "question_number": 4,
     "test_name": "November 2024 International Form A SAT Math Module 2",
-    "passage": "A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is $170 when it sells 4 items, and its profit is $590 when it sells 10 items. Which equation defines f?",
+    "passage": "A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is $ 170 when it sells 4 items, and its profit is $ 590 when it sells 10 items. Which equation defines f?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=170x-590$"
+        "text": "$ f(x)=170x-590 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=59x$"
+        "text": "$ f(x)=59x $"
       },
       {
         "label": "C",
-        "text": "$f(x)=70x-10x$"
+        "text": "$ f(x)=70x-10x $"
       },
       {
         "label": "D",
-        "text": "$f(x)=70x-110$"
+        "text": "$ f(x)=70x-110 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -181,7 +181,7 @@
   {
     "question_number": 8,
     "test_name": "November 2024 International Form A SAT Math Module 2",
-    "passage": "How many solutions does the equation $7(x+12)+5x=12(x+7)$ have ?",
+    "passage": "How many solutions does the equation $ 7(x+12)+5x=12(x+7)$ have?",
     "question_text": null,
     "choices": [
       {
@@ -326,24 +326,24 @@
   {
     "question_number": 14,
     "test_name": "November 2024 International Form A SAT Math Module 2",
-    "passage": "For a certain circuit, its power P, in watts, current C, in amperes; voltage V, in volts; and resistance R, in ohms, are related as $\\frac{CV^{2}}{P}=\\sqrt{PR}$, where P, C, V, and R are positive.When R =18, which equation correctly expresses P in terms of C and V?",
+    "passage": "For a certain circuit, its power P, in watts, current C, in amperes; voltage V, in volts; and resistance R, in ohms, are related as $\\frac{CV^{2}}{P}=\\sqrt{PR}$, where P, C, V, and R are positive. When R =18, which equation correctly expresses P in terms of C and V?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$P=\\frac{CV^{2}}{\\sqrt{18P}}$"
+        "text": "$ P=\\frac{CV^{2}}{\\sqrt{18P}}$"
       },
       {
         "label": "B",
-        "text": "$P=\\frac{CV^{2}}{\\sqrt{18}}$"
+        "text": "$ P=\\frac{CV^{2}}{\\sqrt{18}}$"
       },
       {
         "label": "C",
-        "text": "$P=3\\frac{C^{2}V^{4}}{18}$"
+        "text": "$ P=3\\frac{C^{2}V^{4}}{18}$"
       },
       {
         "label": "D",
-        "text": "$P=3\\frac{18}{C^{2}V^{4}}$"
+        "text": "$ P=3\\frac{18}{C^{2}V^{4}}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -404,7 +404,7 @@
   {
     "question_number": 16,
     "test_name": "November 2024 International Form A SAT Math Module 2",
-    "passage": "A circle is inscribed in a square such that the circumference of the circle touches the midpoint of each side of the square. The length of the diagonal of the square is 228 units.What is the area, in square units, of the circle?",
+    "passage": "A circle is inscribed in a square such that the circumference of the circle touches the midpoint of each side of the square. The length of the diagonal of the square is 228 units. What is the area, in square units, of the circle?",
     "question_text": null,
     "choices": [
       {
@@ -456,19 +456,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=\\frac{1}{2}(66,000)^{t}$"
+        "text": "$ y=\\frac{1}{2}(66,000)^{t}$"
       },
       {
         "label": "B",
-        "text": "$y=2(66,000)^{t}$"
+        "text": "$ y=2(66,000)^{t}$"
       },
       {
         "label": "C",
-        "text": "$y=66,000(\\frac{1}{2})^{t}$"
+        "text": "$ y=66,000(\\frac{1}{2})^{t}$"
       },
       {
         "label": "D",
-        "text": "$y=66,000(2)^{t}$"
+        "text": "$ y=66,000(2)^{t}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -478,7 +478,7 @@
   {
     "question_number": 20,
     "test_name": "November 2024 International Form A SAT Math Module 2",
-    "passage": "The function $f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, n, in the sequence, where n is a whole number. The value of the term in position l4 is p% more than the value of the term in position 10. What is the value of p?",
+    "passage": "The function $ f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, n, in the sequence, where n is a whole number. The value of the term in position l4 is p% more than the value of the term in position 10. What is the value of p?",
     "question_text": null,
     "choices": [
       {
@@ -532,7 +532,7 @@
   {
     "question_number": 22,
     "test_name": "November 2024 International Form A SAT Math Module 2",
-    "passage": "The expression $6x^{4}+17x^{2}+7$ can be rewritten as$(3x^{2}+a)(2x^{2}+b)$, where a and b are positive integers, or as$($$3x^{2}+c$ $)(2x^{2}+d)))$, where c and d are positive nonintegers.What is the value of a + c?",
+    "passage": "The expression $ 6x^{4}+17x^{2}+7 $ can be rewritten as $(3x^{2}+a)(2x^{2}+b)$, where a and b are positive integers, or as $($$ 3x^{2}+c $ $)(2x^{2}+d)))$, where c and d are positive nonintegers. What is the value of a + c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

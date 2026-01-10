@@ -12,7 +12,7 @@
   {
     "question_number": 2,
     "test_name": "May 2024 International Form A SAT Math Module 1",
-    "passage": "An arborist measured and recorded the heights of red maple trees in a certain area. Of the red maple tree heights recorded in this area, the minimum was 42 feet and the maximum was 57 feet. Which inequality is true for all possible values of t, where t represents there corded height, in feet, of a red maple tree in this area?",
+    "passage": "An arborist measured and recorded the heights of red maple trees in a certain area. Of the red maple tree heights recorded in this area, the minimum was 42 feet and the maximum was 57 feet. Which inequality is true for all possible values of t, where t represents the recorded height, in feet, of a red maple tree in this area?",
     "question_text": null,
     "choices": [
       {
@@ -21,11 +21,11 @@
       },
       {
         "label": "B",
-        "text": "t$\\ge$ 57"
+        "text": "t $\\ge $ 57"
       },
       {
         "label": "C",
-        "text": "t$\\ge$ 99"
+        "text": "t $\\ge $ 99"
       },
       {
         "label": "D",
@@ -39,7 +39,7 @@
   {
     "question_number": 3,
     "test_name": "May 2024 International Form A SAT Math Module 1",
-    "passage": "Javier deposits $ 45 in a savings account at the end of each week, At the beginning of the 1st week of a year there was $ 700 in that savings account. How much money, in dollars.will be in the account at the end of the 6th week of the year?",
+    "passage": "Javier deposits $ 45 in a savings account at the end of each week, At the beginning of the 1st week of a year there was $ 700 in that savings account. How much money, in dollars. will be in the account at the end of the 6th week of the year?",
     "question_text": null,
     "choices": [
       {
@@ -76,7 +76,7 @@
   {
     "question_number": 5,
     "test_name": "May 2024 International Form A SAT Math Module 1",
-    "passage": "In 2000, a census was taken to determine the population of a certain town. The graph gives the estimated population y, in thousands, of this town z years after the 2000 census was taken, where 0 $\\le$ x$\\le$5. Based on the graph, which of the following is the closest to the estimated population 2 years after the 2000 census was taken?",
+    "passage": "In 2000, a census was taken to determine the population of a certain town. The graph gives the estimated population y, in thousands, of this town z years after the 2000 census was taken, where 0 $\\le $ x $\\le $ 5. Based on the graph, which of the following is the closest to the estimated population 2 years after the 2000 census was taken?",
     "question_text": null,
     "choices": [
       {
@@ -221,7 +221,7 @@
   {
     "question_number": 11,
     "test_name": "May 2024 International Form A SAT Math Module 1",
-    "passage": "Scientists collected fallen acorns that each housed a colony of the ant species P.ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants, the equation y =0.67 x + 2.6, where 20 $\\le$ x $\\le$110, gives the predicted number of larvae, y, in the colony, If one of these colonies has 46 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+    "passage": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants, the equation y =0.67 x + 2.6, where 20 $\\le $ x $\\le $ 110, gives the predicted number of larvae, y, in the colony, If one of these colonies has 46 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
     "question_text": null,
     "choices": [
       {
@@ -322,7 +322,7 @@
   {
     "question_number": 16,
     "test_name": "May 2024 International Form A SAT Math Module 1",
-    "passage": "Raheem bought 9 shirts that were each the same price. He used a coupon for $54 off the entire purchase, The cost for the entire purchase after using the coupon was $108, What was the original price, in dollars, for 1 shirt?",
+    "passage": "Raheem bought 9 shirts that were each the same price. He used a coupon for $ 54 off the entire purchase, The cost for the entire purchase after using the coupon was $ 108, What was the original price, in dollars, for 1 shirt?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -359,7 +359,7 @@
   {
     "question_number": 18,
     "test_name": "May 2024 International Form A SAT Math Module 1",
-    "passage": "In the figure, RT = TU, the measure of angle V ST is 23 °, and the measure of angle RV S is 34°. What is the value of x ?",
+    "passage": "In the figure, RT = TU, the measure of angle V ST is 23 °, and the measure of angle RV S is 34°. What is the value of x?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
