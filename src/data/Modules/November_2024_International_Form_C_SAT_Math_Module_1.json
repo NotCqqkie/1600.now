@@ -39,7 +39,7 @@
   {
     "question_number": 3,
     "test_name": "November 2024 International Form C SAT Math Module 1",
-    "passage": "The function f is defined by f(x)= 5x 2?. What is the value of f(7)?",
+    "passage": "The function f is defined by f(x)= 5x^2. What is the value of f(7)?",
     "question_text": null,
     "choices": [
       {
@@ -66,7 +66,7 @@
   {
     "question_number": 4,
     "test_name": "November 2024 International Form C SAT Math Module 1",
-    "passage": "The function t(x)=-3x + 74 gives the estimated temperature, in degrees Fahrenheit, of atown x hours after 6 p. m., where $ 0\\le x\\le5 $. What is the best interpretation of -3 in this context?",
+    "passage": "The function t(x)=-3x + 74 gives the estimated temperature, in degrees Fahrenheit, of a town x hours after 6 p. m., where $ 0\\le x\\le5 $. What is the best interpretation of -3 in this context?",
     "question_text": null,
     "choices": [
       {
