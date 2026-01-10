@@ -56,7 +56,7 @@
   {
     "question_number": 3,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "If $4(2x+11)-2(2x-5)=-9+13x$, what is the value of $12x$?",
+    "passage": "If $ 4(2x+11)-2(2x-5)=-9+13x $, what is the value of $ 12x $?",
     "question_text": null,
     "choices": [
       {
@@ -110,20 +110,20 @@
   {
     "question_number": 5,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "In the xy-plane, which of the following does NOT contain any points that are part of the solution set to $3x-7y>21$?",
+    "passage": "In the xy-plane, which of the following does NOT contain any points that are part of the solution set to $ 3x-7y>21 $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The region where $x and $y>0"
+        "text": "The region where $ x and $ y>0"
       },
       {
         "label": "B",
-        "text": "The region where$x and $y"
+        "text": "The region where $ x and $ y"
       },
       {
         "label": "C",
-        "text": "The region where $x>0$ and $y>0$"
+        "text": "The region where $ x>0 $ and $ y>0 $"
       },
       {
         "label": "D",
@@ -142,19 +142,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-14x-9$"
+        "text": "$ f(x)=-14x-9 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=-5x-1$"
+        "text": "$ f(x)=-5x-1 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=-5x+8$"
+        "text": "$ f(x)=-5x+8 $"
       },
       {
         "label": "D",
-        "text": "$f(x)=-14x+8$"
+        "text": "$ f(x)=-14x+8 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -164,7 +164,7 @@
   {
     "question_number": 7,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "In triangle $FGH$and triangle $KLM$, the measures of angles G and L are each 30°. The lengths of $\\overline{GH}$ and $\\overline{LM}$ are each 34 centimeters, and$\\frac{GH}{GF}=\\frac{LM}{LK}$. Which additional piece of information would be necessary to prove that triangle $FGH$ is congruent to triangle $KLM$?",
+    "passage": "In triangle $ FGH $ and triangle $ KLM $, the measures of angles G and L are each 30°. The lengths of $\\overline{GH}$ and $\\overline{LM}$ are each 34 centimeters, and $\\frac{GH}{GF}=\\frac{LM}{LK}$. Which additional piece of information would be necessary to prove that triangle $ FGH $ is congruent to triangle $ KLM $?",
     "question_text": null,
     "choices": [
       {
@@ -191,24 +191,24 @@
   {
     "question_number": 8,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "$y=3x+9$ $3y=8x-6$ The solution to the given system of equations is (x, y). What is the value of $x-y$?",
+    "passage": "$ y=3x+9 $ $ 3y=8x-6 $ The solution to the given system of equations is (x, y). What is the value of $ x-y $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-123$"
+        "text": "$-123 $"
       },
       {
         "label": "B",
-        "text": "$-33$"
+        "text": "$-33 $"
       },
       {
         "label": "C",
-        "text": "$3$"
+        "text": "$ 3 $"
       },
       {
         "label": "D",
-        "text": "$57$"
+        "text": "$ 57 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -218,7 +218,7 @@
   {
     "question_number": 9,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "An exponential function f is defined by $f(x)=c^{x}$, where c is a constant greater than 1. If $f(6)=9·f(4)$, what is the value of c?",
+    "passage": "An exponential function f is defined by $ f(x)=c^{x}$, where c is a constant greater than 1. If $ f(6)=9·f(4)$, what is the value of c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -255,7 +255,7 @@
   {
     "question_number": 11,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "$-x-wy=-337$ $2x-wy=47$ In the given system of equations, w is a constant. In the xy-plane, the graphs of these equations intersect at the point (q, 19), where q is a constant. What is the value of w?",
+    "passage": "$-x-wy=-337 $ $ 2x-wy=47 $ In the given system of equations, w is a constant. In the xy-plane, the graphs of these equations intersect at the point (q, 19), where q is a constant. What is the value of w?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -275,7 +275,7 @@
   {
     "question_number": 13,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "A beaker containing a liquid is placed on a table. The function $g(t)=295+(361-295)(2.72)^{-0.104t}$ gives the approximate temperature, in kelvins, of the liquid t minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?",
+    "passage": "A beaker containing a liquid is placed on a table. The function $ g(t)=295+(361-295)(2.72)^{-0.104t}$ gives the approximate temperature, in kelvins, of the liquid t minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -290,19 +290,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=50(1.7)^{x+1}$"
+        "text": "$ f(x)=50(1.7)^{x+1}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=85(1.7)^{x}$"
+        "text": "$ f(x)=85(1.7)^{x}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=144.5(1.7)^{x-1}$"
+        "text": "$ f(x)=144.5(1.7)^{x-1}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=245.65(1.7)^{x-2}$"
+        "text": "$ f(x)=245.65(1.7)^{x-2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -312,7 +312,7 @@
   {
     "question_number": 15,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "$y=9(\\frac{a}{6})^{x+c}-b$ How many times does the graph of the given equation in the xy-plane cross the x-axis, where a, b, and c are positive constants such that $a>6$ and$b>c$?",
+    "passage": "$ y=9(\\frac{a}{6})^{x+c}-b $ How many times does the graph of the given equation in the xy-plane cross the x-axis, where a, b, and c are positive constants such that $ a>6 $ and $ b>c $?",
     "question_text": null,
     "choices": [
       {
@@ -339,24 +339,24 @@
   {
     "question_number": 16,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "For a polynomial function f, the graph of $y=f(x)$ in the xy-plane contains the points($-6,0$), ($7,0$), ($0,0$), and ($4,0$). Which of the following must be a factor of $f(x)$?",
+    "passage": "For a polynomial function f, the graph of $ y=f(x)$ in the xy-plane contains the points($-6,0 $), ($ 7,0 $), ($ 0,0 $), and ($ 4,0 $). Which of the following must be a factor of $ f(x)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x^{2}-2x-24$"
+        "text": "$ x^{2}-2x-24 $"
       },
       {
         "label": "B",
-        "text": "$x^{2}-x+42$"
+        "text": "$ x^{2}-x+42 $"
       },
       {
         "label": "C",
-        "text": "$x^{2}-11x-28$"
+        "text": "$ x^{2}-11x-28 $"
       },
       {
         "label": "D",
-        "text": "$x^{2}-7x$"
+        "text": "$ x^{2}-7x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -366,7 +366,7 @@
   {
     "question_number": 17,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "In the given figure, $\\overline{NP}$ is the diameter of semicircle O. Angles Q, R, and S are right angles, and point P is the midpoint of $\\overline{NQ}$. If PQ = 52 feet and NS = 18 feet, the area of the figure can be expressed as $a\\pi+b$ square feet, where a and b are integers. What is the value of $a-b$?",
+    "passage": "In the given figure, $\\overline{NP}$ is the diameter of semicircle O. Angles Q, R, and S are right angles, and point P is the midpoint of $\\overline{NQ}$. If PQ = 52 feet and NS = 18 feet, the area of the figure can be expressed as $ a\\pi+b $ square feet, where a and b are integers. What is the value of $ a-b $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -403,16 +403,16 @@
   {
     "question_number": 19,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "The equation $2|x-5|=k,$where k is a constant, has exactly one solution. Which of the following could be the value of$\\frac{k}{2}$?",
+    "passage": "The equation $ 2|x-5|=k,$ where k is a constant, has exactly one solution. Which of the following could be the value of $\\frac{k}{2}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-5$ only"
+        "text": "$-5 $ only"
       },
       {
         "label": "B",
-        "text": "$-5 or 5$"
+        "text": "$-5 or 5 $"
       },
       {
         "label": "C",
@@ -435,19 +435,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$7.76k$"
+        "text": "$ 7.76k $"
       },
       {
         "label": "B",
-        "text": "$6.76k$"
+        "text": "$ 6.76k $"
       },
       {
         "label": "C",
-        "text": "$1.08k$"
+        "text": "$ 1.08k $"
       },
       {
         "label": "D",
-        "text": "$0.08k$"
+        "text": "$ 0.08k $"
       }
     ],
     "is_fill_in_blank": false,
@@ -457,7 +457,7 @@
   {
     "question_number": 21,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "The table shows three values of x and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+3}$ and f is a linear function. What is the y-intercept of the graph of $y=f(x)$ in the xy-plane?",
+    "passage": "The table shows three values of x and their corresponding values of $ g(x)$, where $ g(x)=\\frac{f(x)}{x+3}$ and f is a linear function. What is the y-intercept of the graph of $ y=f(x)$ in the xy-plane?",
     "question_text": null,
     "choices": [
       {
@@ -484,24 +484,24 @@
   {
     "question_number": 22,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "For groups of 25 or more people, a museum charges $28 per person for the first 25 people and $17 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people, where $n\\ge25$?",
+    "passage": "For groups of 25 or more people, a museum charges $ 28 per person for the first 25 people and $ 17 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people, where $ n\\ge25 $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(n)=17n+275$"
+        "text": "$ f(n)=17n+275 $"
       },
       {
         "label": "B",
-        "text": "$f(n)=17n+28$"
+        "text": "$ f(n)=17n+28 $"
       },
       {
         "label": "C",
-        "text": "$f(n)=17n+700$"
+        "text": "$ f(n)=17n+700 $"
       },
       {
         "label": "D",
-        "text": "$f(n)=45n-425$"
+        "text": "$ f(n)=45n-425 $"
       }
     ],
     "is_fill_in_blank": false,

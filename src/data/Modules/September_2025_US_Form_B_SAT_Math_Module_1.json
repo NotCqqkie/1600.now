@@ -2,7 +2,7 @@
   {
     "question_number": 1,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to $v^{4}-460v^{3}$?",
+    "passage": "Which expression is equivalent to $ v^{4}-460v^{3}$?",
     "question_text": null,
     "choices": [
       {
@@ -15,11 +15,11 @@
       },
       {
         "label": "C",
-        "text": "$v^{3}(v-460)$"
+        "text": "$ v^{3}(v-460)$"
       },
       {
         "label": "D",
-        "text": "$v^{3}(v+460)$"
+        "text": "$ v^{3}(v+460)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -34,19 +34,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$15$"
+        "text": "$ 15 $"
       },
       {
         "label": "B",
-        "text": "$180$"
+        "text": "$ 180 $"
       },
       {
         "label": "C",
-        "text": "$90$"
+        "text": "$ 90 $"
       },
       {
         "label": "D",
-        "text": "$105$"
+        "text": "$ 105 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -61,19 +61,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$18$"
+        "text": "$ 18 $"
       },
       {
         "label": "B",
-        "text": "$531$"
+        "text": "$ 531 $"
       },
       {
         "label": "C",
-        "text": "$68$"
+        "text": "$ 68 $"
       },
       {
         "label": "D",
-        "text": "$9$"
+        "text": "$ 9 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -110,7 +110,7 @@
   {
     "question_number": 5,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function$f$ shown, where $y=f(x)$, estimates the account balance, in dollars, in this bank account x months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
+    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function $ f $ shown, where $ y=f(x)$, estimates the account balance, in dollars, in this bank account x months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -120,7 +120,7 @@
   {
     "question_number": 6,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "$y=-15x+21$ $y=-21x+27$ What is the solution (x, y) to the given system of equations?",
+    "passage": "$ y=-15x+21 $ $ y=-21x+27 $ What is the solution (x, y) to the given system of equations?",
     "question_text": null,
     "choices": [
       {
@@ -147,7 +147,7 @@
   {
     "question_number": 7,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "$f(x)=-16x^{2}+76$ The function $f$gives the estimated height, in feet, of an acorn x seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?",
+    "passage": "$ f(x)=-16x^{2}+76 $ The function $ f $ gives the estimated height, in feet, of an acorn x seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -167,24 +167,24 @@
   {
     "question_number": 9,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "The graph of the polynomial function $f$ is shown, where $y=f(x)$. What is the value of $f(2)$?",
+    "passage": "The graph of the polynomial function $ f $ is shown, where $ y=f(x)$. What is the value of $ f(2)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$2$"
+        "text": "$ 2 $"
       },
       {
         "label": "B",
-        "text": "$5$"
+        "text": "$ 5 $"
       },
       {
         "label": "C",
-        "text": "$-4$"
+        "text": "$-4 $"
       },
       {
         "label": "D",
-        "text": "$0$"
+        "text": "$ 0 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -209,19 +209,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$21x+62y\\ge4,670$"
+        "text": "$ 21x+62y\\ge4,670 $"
       },
       {
         "label": "B",
-        "text": "$21x+62y\\le4,670$"
+        "text": "$ 21x+62y\\le4,670 $"
       },
       {
         "label": "C",
-        "text": "$62x+21y\\ge4,840$"
+        "text": "$ 62x+21y\\ge4,840 $"
       },
       {
         "label": "D",
-        "text": "$62x+21y\\le4,840$"
+        "text": "$ 62x+21y\\le4,840 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -231,7 +231,7 @@
   {
     "question_number": 12,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "In triangle JKL, $cosy^\\circ=\\frac{23}{24}$.What is the length of $\\overline{KL}$?",
+    "passage": "In triangle JKL, $ cosy^\\circ=\\frac{23}{24}$. What is the length of $\\overline{KL}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -241,24 +241,24 @@
   {
     "question_number": 13,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "$b-20=\\frac{x}{y}$ The given equation relates the positive numbers b, x, and y. Which equation correctly expresses x in terms of b and y?",
+    "passage": "$ b-20=\\frac{x}{y}$ The given equation relates the positive numbers b, x, and y. Which equation correctly expresses x in terms of b and y?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x=\\frac{b-20}{y}$"
+        "text": "$ x=\\frac{b-20}{y}$"
       },
       {
         "label": "B",
-        "text": "$x=by-20y$"
+        "text": "$ x=by-20y $"
       },
       {
         "label": "C",
-        "text": "$x=\\frac{by-20}{y}$"
+        "text": "$ x=\\frac{by-20}{y}$"
       },
       {
         "label": "D",
-        "text": "$x=by-20$"
+        "text": "$ x=by-20 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -268,24 +268,24 @@
   {
     "question_number": 14,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "In the xy -plane, the graph of the linear function h contains the points (0, 0) and (1, 40). Which equation defines h, where $y=h(x)$?",
+    "passage": "In the xy -plane, the graph of the linear function h contains the points (0, 0) and (1, 40). Which equation defines h, where $ y=h(x)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$h(x)=\\frac{1}{40}x+40$"
+        "text": "$ h(x)=\\frac{1}{40}x+40 $"
       },
       {
         "label": "B",
-        "text": "$h(x)=x+40$"
+        "text": "$ h(x)=x+40 $"
       },
       {
         "label": "C",
-        "text": "$h(x)=40x+40$"
+        "text": "$ h(x)=40x+40 $"
       },
       {
         "label": "D",
-        "text": "$h(x)=40x$"
+        "text": "$ h(x)=40x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -295,7 +295,7 @@
   {
     "question_number": 15,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "$3x+y=13$ $4x-y=15$ How many solutions does the given system of equations have?",
+    "passage": "$ 3x+y=13 $ $ 4x-y=15 $ How many solutions does the given system of equations have?",
     "question_text": null,
     "choices": [
       {
@@ -322,24 +322,24 @@
   {
     "question_number": 16,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "$\\frac{(x-6)(x-8)}{x-5}=0$ What is the sum of the solutions to the given equation?",
+    "passage": "$\\frac{(x-6)(x-8)}{x-5}=0 $ What is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$14$"
+        "text": "$ 14 $"
       },
       {
         "label": "B",
-        "text": "$19$"
+        "text": "$ 19 $"
       },
       {
         "label": "C",
-        "text": "$5$"
+        "text": "$ 5 $"
       },
       {
         "label": "D",
-        "text": "$8$"
+        "text": "$ 8 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -354,19 +354,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$16$"
+        "text": "$ 16 $"
       },
       {
         "label": "B",
-        "text": "$90$"
+        "text": "$ 90 $"
       },
       {
         "label": "C",
-        "text": "$74$"
+        "text": "$ 74 $"
       },
       {
         "label": "D",
-        "text": "$106$"
+        "text": "$ 106 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -381,19 +381,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$A=(w)(\\frac{w}{41})$"
+        "text": "$ A=(w)(\\frac{w}{41})$"
       },
       {
         "label": "B",
-        "text": "$A=(w)(41w)$"
+        "text": "$ A=(w)(41w)$"
       },
       {
         "label": "C",
-        "text": "$A=(w)(w+41)$"
+        "text": "$ A=(w)(w+41)$"
       },
       {
         "label": "D",
-        "text": "$A=w^{2}$"
+        "text": "$ A=w^{2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -403,7 +403,7 @@
   {
     "question_number": 19,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "What is the y -intercept of the graph of $y=10^{x}+22$ in the xy -plane?",
+    "passage": "What is the y -intercept of the graph of $ y=10^{x}+22 $ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -430,16 +430,16 @@
   {
     "question_number": 20,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "$-3x+18px=90$ In the given equation, p is a constant. The equation has no solution. What is the value of p?",
+    "passage": "$-3x+18px=90 $ In the given equation, p is a constant. The equation has no solution. What is the value of p?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$5$"
+        "text": "$ 5 $"
       },
       {
         "label": "B",
-        "text": "$0$"
+        "text": "$ 0 $"
       },
       {
         "label": "C",
@@ -467,7 +467,7 @@
   {
     "question_number": 22,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "The function w is defined by $w(r)=\\frac{1}{r-5}-\\frac{r-4}{-r+4.25}$. What is the greatest possible value of r such that $w(r)=0$?",
+    "passage": "The function w is defined by $ w(r)=\\frac{1}{r-5}-\\frac{r-4}{-r+4.25}$. What is the greatest possible value of r such that $ w(r)=0 $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

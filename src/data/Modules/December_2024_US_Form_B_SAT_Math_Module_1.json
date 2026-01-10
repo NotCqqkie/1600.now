@@ -203,19 +203,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$-4x^{2}-8x-11$"
+        "text": "$-4x^{2}-8x-11 $"
       },
       {
         "label": "B",
-        "text": "$-9x^{6}+5x^{3}-8x+11$"
+        "text": "$-9x^{6}+5x^{3}-8x+11 $"
       },
       {
         "label": "C",
-        "text": "$-9x^{6}+5x^{3}+2x+5$"
+        "text": "$-9x^{6}+5x^{3}+2x+5 $"
       },
       {
         "label": "D",
-        "text": "$-4x^{9}-2x+5$"
+        "text": "$-4x^{9}-2x+5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -291,19 +291,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$h(x)=2^{x}+16$"
+        "text": "$ h(x)=2^{x}+16 $"
       },
       {
         "label": "B",
-        "text": "$h(x)=2^{x}+15$"
+        "text": "$ h(x)=2^{x}+15 $"
       },
       {
         "label": "C",
-        "text": "$h(x)=2^{x}+2$"
+        "text": "$ h(x)=2^{x}+2 $"
       },
       {
         "label": "D",
-        "text": "$h(x)=2^{x}$"
+        "text": "$ h(x)=2^{x}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -313,7 +313,7 @@
   {
     "question_number": 12,
     "test_name": "December 2024 US Form B SAT Math Module 1",
-    "passage": "$f(x)=3(x-1)(x-8)(x-11)$ If the given function f is graphed in the xy-plane, where y = f(x), what is the x-coordinate of an x-intercept of the graph?",
+    "passage": "$ f(x)=3(x-1)(x-8)(x-11)$ If the given function f is graphed in the xy-plane, where y = f(x), what is the x-coordinate of an x-intercept of the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -323,7 +323,7 @@
   {
     "question_number": 13,
     "test_name": "December 2024 US Form B SAT Math Module 1",
-    "passage": "$x+4y=19$ $2x+y=4$ The solution to the given system of equations is (x, y). What is the value of 3x + 5y?",
+    "passage": "$ x+4y=19 $ $ 2x+y=4 $ The solution to the given system of equations is (x, y). What is the value of 3x + 5y?",
     "question_text": null,
     "choices": [
       {
@@ -350,7 +350,7 @@
   {
     "question_number": 14,
     "test_name": "December 2024 US Form B SAT Math Module 1",
-    "passage": "In triangle DEF, the measure of angle D is 47° and the measure of angle E is 97°. In trianele RST, the measure of angle R is 47° and the measure of angle  is 97°. Which of the following additional pieces of information is needed to determine whether triangle DEF is similar to triangle RST?",
+    "passage": "In triangle DEF, the measure of angle D is 47° and the measure of angle E is 97°. In trianele RST, the measure of angle R is 47° and the measure of angle is 97°. Which of the following additional pieces of information is needed to determine whether triangle DEF is similar to triangle RST?",
     "question_text": null,
     "choices": [
       {
@@ -377,7 +377,7 @@
   {
     "question_number": 15,
     "test_name": "December 2024 US Form B SAT Math Module 1",
-    "passage": "$x^{2}+y=21$ $-x+y=1$ The solutions to the given system of equations are of the form (x, y). What is a possible value of x?",
+    "passage": "$ x^{2}+y=21 $ $-x+y=1 $ The solutions to the given system of equations are of the form (x, y). What is a possible value of x?",
     "question_text": null,
     "choices": [
       {
@@ -404,7 +404,7 @@
   {
     "question_number": 16,
     "test_name": "December 2024 US Form B SAT Math Module 1",
-    "passage": "n the xy-plane, the graph of function f, where y = f(x), has exactly 8 x-intercepts. One of these x-intercepts is (17, 0). The rational function g is defined by $g(x)=\\frac{f(x)}{x-17}$. In the xy-plane, how many x-intercepts does the graph of y= g(z) have?",
+    "passage": "n the xy-plane, the graph of function f, where y = f(x), has exactly 8 x-intercepts. One of these x-intercepts is (17, 0). The rational function g is defined by $ g(x)=\\frac{f(x)}{x-17}$. In the xy-plane, how many x-intercepts does the graph of y= g(z) have?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -414,7 +414,7 @@
   {
     "question_number": 17,
     "test_name": "December 2024 US Form B SAT Math Module 1",
-    "passage": "$\\frac{(x-7)(x-9)}{x-4}=0$ What is the sum of the solutions to the given equation?",
+    "passage": "$\\frac{(x-7)(x-9)}{x-4}=0 $ What is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -505,7 +505,7 @@
   {
     "question_number": 21,
     "test_name": "December 2024 US Form B SAT Math Module 1",
-    "passage": "$-x-wy=-357$ $2x-wy=51$ In the given system of equations, w is a constant, In the xy-plane, the graphs of these equations intersect at the point (q, 17), where q is a constant. What is the value of w?",
+    "passage": "$-x-wy=-357 $ $ 2x-wy=51 $ In the given system of equations, w is a constant, In the xy-plane, the graphs of these equations intersect at the point (q, 17), where q is a constant. What is the value of w?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

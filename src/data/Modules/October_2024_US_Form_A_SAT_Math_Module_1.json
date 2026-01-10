@@ -56,7 +56,7 @@
   {
     "question_number": 3,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "For a particular tree species, it is recommended to plant a maximum of 111 trees per acre.Based on this recommendation, what is the maximum number of trees of this species that can be planted on 2 acres?",
+    "passage": "For a particular tree species, it is recommended to plant a maximum of 111 trees per acre. Based on this recommendation, what is the maximum number of trees of this species that can be planted on 2 acres?",
     "question_text": null,
     "choices": [
       {
@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to 14($x^{2}$ - 100$y^{2}$)?",
+    "passage": "Which expression is equivalent to 14($ x^{2}$ - 100 $ y^{2}$)?",
     "question_text": null,
     "choices": [
       {
@@ -248,7 +248,7 @@
   {
     "question_number": 12,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "The cost to rent a bus from Company X is $950 for the first 2 hours and an additional $50 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for t hours, where t> 2, is 1,150, which equation represents this situation?",
+    "passage": "The cost to rent a bus from Company X is $ 950 for the first 2 hours and an additional $ 50 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for t hours, where t> 2, is 1,150, which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
@@ -329,7 +329,7 @@
   {
     "question_number": 15,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "The kinetic energy K, in joules, of an object is given by the formula K= $\\frac{1}{2}mv^{2}$, where m is the mass of the object, in kilograms, and v is the velocity of the object, in meters per second. If the kinetic energy of a certain object can be found by using the formula K= 34$v^{2}$, what is the mass of the object, in kilograms?",
+    "passage": "The kinetic energy K, in joules, of an object is given by the formula K= $\\frac{1}{2}mv^{2}$, where m is the mass of the object, in kilograms, and v is the velocity of the object, in meters per second. If the kinetic energy of a certain object can be found by using the formula K= 34 $ v^{2}$, what is the mass of the object, in kilograms?",
     "question_text": null,
     "choices": [
       {

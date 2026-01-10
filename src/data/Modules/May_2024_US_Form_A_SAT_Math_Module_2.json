@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "May 2024 US Form A SAT Math Module 2",
-    "passage": "A customer spent $12 to purchase apples at $3 per pound. How many pounds of apples did the customer purchase?",
+    "passage": "A customer spent $ 12 to purchase apples at $ 3 per pound. How many pounds of apples did the customer purchase?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -120,7 +120,7 @@
   {
     "question_number": 6,
     "test_name": "May 2024 US Form A SAT Math Module 2",
-    "passage": "Antonia purchased a box of pasta and some tomatoes at the grocery store. Antonia paid $2 for the box of pasta and $1.30 per pound for the tomatoes. If Antonia paid a total of 7.20 for the box of pasta and the tomatoes, which of the following equations can be used to find p, the number of pounds of tomatoes Antonia purchased? (Assume there is no sales tax.)",
+    "passage": "Antonia purchased a box of pasta and some tomatoes at the grocery store. Antonia paid $ 2 for the box of pasta and $ 1.30 per pound for the tomatoes. If Antonia paid a total of 7.20 for the box of pasta and the tomatoes, which of the following equations can be used to find p, the number of pounds of tomatoes Antonia purchased? (Assume there is no sales tax.)",
     "question_text": null,
     "choices": [
       {
@@ -484,7 +484,7 @@
   {
     "question_number": 22,
     "test_name": "May 2024 US Form A SAT Math Module 2",
-    "passage": "$x^{2}-\\frac{64}{25}=0$ How many distinct real solutions does the given equation have?",
+    "passage": "$ x^{2}-\\frac{64}{25}=0 $ How many distinct real solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {

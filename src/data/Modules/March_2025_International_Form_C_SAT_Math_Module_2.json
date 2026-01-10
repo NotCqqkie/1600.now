@@ -2,7 +2,7 @@
   {
     "question_number": 1,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "How many solutions does the equation $2x-3=2x$ have?",
+    "passage": "How many solutions does the equation $ 2x-3=2x $ have?",
     "question_text": null,
     "choices": [
       {
@@ -34,19 +34,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=0$"
+        "text": "$ f(x)=0 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=7$"
+        "text": "$ f(x)=7 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=2$"
+        "text": "$ f(x)=2 $"
       },
       {
         "label": "D",
-        "text": "$f(x)=x+2$"
+        "text": "$ f(x)=x+2 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "$T(x)=67-8x$ The function T estimates the temperature, in degrees Fahrenheit (°F), in a certain city one day in January, where x is the number of hours after 10 a.m. and 1 $\\le$ x $\\le$ 5. According to the function, what was the estimated decrease in temperature each hour, in °F, in this city during this time period?",
+    "passage": "$ T(x)=67-8x $ The function T estimates the temperature, in degrees Fahrenheit (°F), in a certain city one day in January, where x is the number of hours after 10 a. m. and 1 $\\le $ x $\\le $ 5. According to the function, what was the estimated decrease in temperature each hour, in °F, in this city during this time period?",
     "question_text": null,
     "choices": [
       {
@@ -142,19 +142,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(t)=-16(t+185)^{2}-2$"
+        "text": "$ f(t)=-16(t+185)^{2}-2 $"
       },
       {
         "label": "B",
-        "text": "$f(t)=-16(t-185)^{2}+2$"
+        "text": "$ f(t)=-16(t-185)^{2}+2 $"
       },
       {
         "label": "C",
-        "text": "$f(t)=-16(t+2)^{2}-185$"
+        "text": "$ f(t)=-16(t+2)^{2}-185 $"
       },
       {
         "label": "D",
-        "text": "$f(t)=-16(t-2)^{2}+185$"
+        "text": "$ f(t)=-16(t-2)^{2}+185 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -164,7 +164,7 @@
   {
     "question_number": 7,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "$7y=-6x+2,550$ $24x-28y=1,800$ The solution to the given system of equations is (x, y). What is the value of x + y?",
+    "passage": "$ 7y=-6x+2,550 $ $ 24x-28y=1,800 $ The solution to the given system of equations is (x, y). What is the value of x + y?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -184,7 +184,7 @@
   {
     "question_number": 9,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "$-2|3x+7|+8=-6$ What are all solutions to the given equation?",
+    "passage": "$-2|3x+7|+8=-6 $ What are all solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -216,11 +216,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$Rx+12y=18$"
+        "text": "$ Rx+12y=18 $"
       },
       {
         "label": "B",
-        "text": "$Rx-12y=-18$"
+        "text": "$ Rx-12y=-18 $"
       },
       {
         "label": "C",
@@ -265,7 +265,7 @@
   {
     "question_number": 12,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge$ -77, where r and t are constants. What is the value of r+t?",
+    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge $ -77, where r and t are constants. What is the value of r+t?",
     "question_text": null,
     "choices": [
       {
@@ -292,24 +292,24 @@
   {
     "question_number": 13,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "$3x=45y-27$ One of the two equations in a system of linear equations is given. The system has no solution, Which equation could be the second equation in this system?",
+    "passage": "$ 3x=45y-27 $ One of the two equations in a system of linear equations is given. The system has no solution, Which equation could be the second equation in this system?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x=5y$"
+        "text": "$ x=5y $"
       },
       {
         "label": "B",
-        "text": "$\\frac{1}{3}x=5y$"
+        "text": "$\\frac{1}{3}x=5y $"
       },
       {
         "label": "C",
-        "text": "$x=15y-9$"
+        "text": "$ x=15y-9 $"
       },
       {
         "label": "D",
-        "text": "$\\frac{1}{3}x=15y-9$"
+        "text": "$\\frac{1}{3}x=15y-9 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -319,24 +319,24 @@
   {
     "question_number": 14,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "A cooking school is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. if the regular price of a class is $22.80, which function f gives the total cost, in dollars, of x classes taken using this promotion,where x $\\ge 2?",
+    "passage": "A cooking school is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. if the regular price of a class is $ 22.80, which function f gives the total cost, in dollars, of x classes taken using this promotion, where x $\\ge 2?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=22.80(x-1)+11.40$"
+        "text": "$ f(x)=22.80(x-1)+11.40 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=22.80(x-1)+11.40$"
+        "text": "$ f(x)=22.80(x-1)+11.40 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=22.80(x-1)+11.40(x-2)$"
+        "text": "$ f(x)=22.80(x-1)+11.40(x-2)$"
       },
       {
         "label": "D",
-        "text": "$f(x)=22.80(-2)+11.40(x-1)$"
+        "text": "$ f(x)=22.80(-2)+11.40(x-1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -361,19 +361,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-3^{x}+1$"
+        "text": "$ f(x)=-3^{x}+1 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=-3^{x}+3$"
+        "text": "$ f(x)=-3^{x}+3 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=-3^{x}+4$"
+        "text": "$ f(x)=-3^{x}+4 $"
       },
       {
         "label": "D",
-        "text": "$f(x)=-3^{x}+5$"
+        "text": "$ f(x)=-3^{x}+5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -410,7 +410,7 @@
   {
     "question_number": 18,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "$y=x-c$ $y=-4(x-8)^{2}$ In the given system of equations, c is a constant. The system has two distinct real solutions. Which of the following could be the value of c?",
+    "passage": "$ y=x-c $ $ y=-4(x-8)^{2}$ In the given system of equations, c is a constant. The system has two distinct real solutions. Which of the following could be the value of c?",
     "question_text": null,
     "choices": [
       {
@@ -484,7 +484,7 @@
   {
     "question_number": 22,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "The function f is defined by $f(x)=ab^{\\frac{\\pi}{n}}$, where a, b, and n are constants, and b and n are integers. If f(4)=5 and f(7)= 135, what is the value of f(9)?",
+    "passage": "The function f is defined by $ f(x)=ab^{\\frac{\\pi}{n}}$, where a, b, and n are constants, and b and n are integers. If f(4)=5 and f(7)= 135, what is the value of f(9)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

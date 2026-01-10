@@ -2,7 +2,7 @@
   {
     "question_number": 1,
     "test_name": "November 2024 US Form B SAT Math Module 2",
-    "passage": "For the linear function g, the graph of y= g(x) in the xy-plane has a slope of 5 and passes through the point (2,47).Which equation defines g?",
+    "passage": "For the linear function g, the graph of y= g(x) in the xy-plane has a slope of 5 and passes through the point (2,47). Which equation defines g?",
     "question_text": null,
     "choices": [
       {
@@ -34,19 +34,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(h)=85h+55$"
+        "text": "$ f(h)=85h+55 $"
       },
       {
         "label": "B",
-        "text": "$f(h)=55h+85$"
+        "text": "$ f(h)=55h+85 $"
       },
       {
         "label": "C",
-        "text": "$f(h)=110h+30$"
+        "text": "$ f(h)=110h+30 $"
       },
       {
         "label": "D",
-        "text": "$f(h)=30h+110$"
+        "text": "$ f(h)=30h+110 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -110,7 +110,7 @@
   {
     "question_number": 5,
     "test_name": "November 2024 US Form B SAT Math Module 2",
-    "passage": "$2x^{2}+2y^{2}+tx+ty-78=0$ The given equation, where t is a positive constant, defines a circle in the xy-plane. The radius of this circle is $\\sqrt{41}$. What is the value of t?",
+    "passage": "$ 2x^{2}+2y^{2}+tx+ty-78=0 $ The given equation, where t is a positive constant, defines a circle in the xy-plane. The radius of this circle is $\\sqrt{41}$. What is the value of t?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -174,7 +174,7 @@
   {
     "question_number": 8,
     "test_name": "November 2024 US Form B SAT Math Module 2",
-    "passage": "$x^{2}-\\frac{49}{16}=0$ How many distinct real solutions does the given equation have?",
+    "passage": "$ x^{2}-\\frac{49}{16}=0 $ How many distinct real solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {
@@ -201,7 +201,7 @@
   {
     "question_number": 9,
     "test_name": "November 2024 US Form B SAT Math Module 2",
-    "passage": "$y>-\\frac{7}{2}x+17$ For which of the following tables are all the values of a and their corresponding values of y solutions to the given inequality?",
+    "passage": "$ y>-\\frac{7}{2}x+17 $ For which of the following tables are all the values of a and their corresponding values of y solutions to the given inequality?",
     "question_text": null,
     "choices": [
       {
@@ -257,19 +257,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=33(8-r)+x$"
+        "text": "$ f(x)=33(8-r)+x $"
       },
       {
         "label": "B",
-        "text": "$f(x)=8x-rx+33$"
+        "text": "$ f(x)=8x-rx+33 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=8x-r+33$"
+        "text": "$ f(x)=8x-r+33 $"
       },
       {
         "label": "D",
-        "text": "$f(x)=(41-r)x$"
+        "text": "$ f(x)=(41-r)x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -279,7 +279,7 @@
   {
     "question_number": 11,
     "test_name": "November 2024 US Form B SAT Math Module 2",
-    "passage": "If$\\frac{9}{6}(x-5)-36=\\frac{7}{6}(x-5)+28$, what is the value of $x-5$?",
+    "passage": "If $\\frac{9}{6}(x-5)-36=\\frac{7}{6}(x-5)+28 $, what is the value of $ x-5 $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -375,19 +375,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$B(x)=704.20(1.001)^{\\frac{x-4}{2}}$"
+        "text": "$ B(x)=704.20(1.001)^{\\frac{x-4}{2}}$"
       },
       {
         "label": "B",
-        "text": "$B(æ)=700.00(1.001)^{\\frac{x-4}{2}}$"
+        "text": "$ B(æ)=700.00(1.001)^{\\frac{x-4}{2}}$"
       },
       {
         "label": "C",
-        "text": "$B(x)=704.20(1.001)^{2(x-4)}$"
+        "text": "$ B(x)=704.20(1.001)^{2(x-4)}$"
       },
       {
         "label": "D",
-        "text": "$B(x)=700.00(1.001)^{2(x-4)}$"
+        "text": "$ B(x)=700.00(1.001)^{2(x-4)}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -407,7 +407,7 @@
   {
     "question_number": 17,
     "test_name": "November 2024 US Form B SAT Math Module 2",
-    "passage": "$\\sqrt{(x+15)^{2}}=x+15$ What is the least value of x that is a solution to the given equation?",
+    "passage": "$\\sqrt{(x+15)^{2}}=x+15 $ What is the least value of x that is a solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -461,7 +461,7 @@
   {
     "question_number": 19,
     "test_name": "November 2024 US Form B SAT Math Module 2",
-    "passage": "$\\frac{4}{5}x+\\frac{6}{5}y=g$ $\\frac{8}{13}x+hy=k$ In the given system of equations, g, h, and k are constants. The system has infinitely many solutions. What is the value of $\\frac{g}{k}$?",
+    "passage": "$\\frac{4}{5}x+\\frac{6}{5}y=g $ $\\frac{8}{13}x+hy=k $ In the given system of equations, g, h, and k are constants. The system has infinitely many solutions. What is the value of $\\frac{g}{k}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

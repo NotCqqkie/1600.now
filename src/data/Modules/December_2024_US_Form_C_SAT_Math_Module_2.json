@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "$y=0.25x^{2}-7.5x+95.25$ The equation gives the estimated stock price y, in dollars, for a certain company x days after the company went public, where $0\\le x\\le20$, Which statement is the bestinterpretation of (x,y) = (l, 88) in this context?",
+    "passage": "$ y=0.25x^{2}-7.5x+95.25 $ The equation gives the estimated stock price y, in dollars, for a certain company x days after the company went public, where $ 0\\le x\\le20 $, Which statement is the bestinterpretation of (x, y) = (l, 88) in this context?",
     "question_text": null,
     "choices": [
       {
@@ -115,19 +115,19 @@
     "choices": [
       {
         "label": "A",
-        "text": ",Zero"
+        "text": ", Zero"
       },
       {
         "label": "B",
-        "text": ",Exactly one"
+        "text": ", Exactly one"
       },
       {
         "label": "C",
-        "text": ",Exactly two"
+        "text": ", Exactly two"
       },
       {
         "label": "D",
-        "text": ",Infinitely many"
+        "text": ", Infinitely many"
       }
     ],
     "is_fill_in_blank": false,
@@ -137,7 +137,7 @@
   {
     "question_number": 6,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "$117x+78y=65$ One of the equations in a system of two linear equations is given. The systemhas infinitely many solutions. If the second equation in the system is writtenas Ax + By= C, where A, B, and C are constants, what is the value of $\\frac{A+C}{B}$?",
+    "passage": "$ 117x+78y=65 $ One of the equations in a system of two linear equations is given. The systemhas infinitely many solutions. If the second equation in the system is writtenas Ax + By= C, where A, B, and C are constants, what is the value of $\\frac{A+C}{B}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -213,19 +213,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$9r+24t=270$"
+        "text": "$ 9r+24t=270 $"
       },
       {
         "label": "B",
-        "text": "$3r+6t=270$"
+        "text": "$ 3r+6t=270 $"
       },
       {
         "label": "C",
-        "text": "$12r+18t=270$"
+        "text": "$ 12r+18t=270 $"
       },
       {
         "label": "D",
-        "text": "$6r+3t=270$"
+        "text": "$ 6r+3t=270 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -240,15 +240,15 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=30.38+15.12x$"
+        "text": "$ y=30.38+15.12x $"
       },
       {
         "label": "B",
-        "text": "$y=15.12x$"
+        "text": "$ y=15.12x $"
       },
       {
         "label": "C",
-        "text": "$y=30.38+0.76x$"
+        "text": "$ y=30.38+0.76x $"
       },
       {
         "label": "D",
@@ -262,7 +262,7 @@
   {
     "question_number": 11,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "$36(x-1)=4(-9+9x)$ How many solutians does the siven equation have?",
+    "passage": "$ 36(x-1)=4(-9+9x)$ How many solutians does the siven equation have?",
     "question_text": null,
     "choices": [
       {
@@ -289,24 +289,24 @@
   {
     "question_number": 12,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "$10yz-9xz=10xy-z$ The given equation relates the real numbers x, y, and z, where x < 0 and y> 0. Which equation correctly expresses z in terms of a and y?",
+    "passage": "$ 10yz-9xz=10xy-z $ The given equation relates the real numbers x, y, and z, where x < 0 and y> 0. Which equation correctly expresses z in terms of a and y?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$z=\\frac{10xy}{10y-9x+1}$"
+        "text": "$ z=\\frac{10xy}{10y-9x+1}$"
       },
       {
         "label": "B",
-        "text": "$z=\\frac{10xy}{10y-9x}$"
+        "text": "$ z=\\frac{10xy}{10y-9x}$"
       },
       {
         "label": "C",
-        "text": "$z=-29xy$"
+        "text": "$ z=-29xy $"
       },
       {
         "label": "D",
-        "text": "$z=9x$"
+        "text": "$ z=9x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -321,19 +321,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=x^{2}+x+62$"
+        "text": "$ f(x)=x^{2}+x+62 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=x^{2}+62$"
+        "text": "$ f(x)=x^{2}+62 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=x^{2}+62x$"
+        "text": "$ f(x)=x^{2}+62x $"
       },
       {
         "label": "D",
-        "text": "$f(x)=x^{2}+62x+62$"
+        "text": "$ f(x)=x^{2}+62x+62 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -370,20 +370,20 @@
   {
     "question_number": 15,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "$88x^{2}+bx+c=0$ In the given equation, b and c are positive constants. The equation has more than one realsolution. Which of the following describes the relationship between b and c?",
+    "passage": "$ 88x^{2}+bx+c=0 $ In the given equation, b and c are positive constants. The equation has more than one realsolution. Which of the following describes the relationship between b and c?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$b=\\sqrt{352c}$"
+        "text": "$ b=\\sqrt{352c}$"
       },
       {
         "label": "B",
-        "text": "$b>\\sqrt{352c}$"
+        "text": "$ b>\\sqrt{352c}$"
       },
       {
         "label": "C",
-        "text": "$b^{2}=\\sqrt{352c}$"
+        "text": "$ b^{2}=\\sqrt{352c}$"
       },
       {
         "label": "D",
@@ -397,7 +397,7 @@
   {
     "question_number": 16,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "$a$ $x^{2}$ $+130x+c$ In the given expression, a and c are positive constants, lf px +q is a factor ofthe expression, where p and q are positive constants, what is the greatestpossible value of ac?",
+    "passage": "$ a $ $ x^{2}$ $+130x+c $ In the given expression, a and c are positive constants, lf px +q is a factor ofthe expression, where p and q are positive constants, what is the greatestpossible value of ac?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -407,24 +407,24 @@
   {
     "question_number": 17,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "The equation $N(m)=65(Q)^{\\frac{m}{6}}$ gives the predicted population N(m), in thousands, of acertain bacteria colony m minutes after the initial measurement, where Q is a constantgreater than 1. The predicted population increases by p% every 180 seconds. What is thevalue of p in terms of Q?",
+    "passage": "The equation $ N(m)=65(Q)^{\\frac{m}{6}}$ gives the predicted population N(m), in thousands, of acertain bacteria colony m minutes after the initial measurement, where Q is a constantgreater than 1. The predicted population increases by p% every 180 seconds. What is thevalue of p in terms of Q?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$100(Q^{\\frac{1}{2}}+1)$ 1"
+        "text": "$ 100(Q^{\\frac{1}{2}}+1)$ 1"
       },
       {
         "label": "B",
-        "text": "$100(Q^{30}+1)$"
+        "text": "$ 100(Q^{30}+1)$"
       },
       {
         "label": "C",
-        "text": "$100(Q^{\\frac{1}{2}}-1)$"
+        "text": "$ 100(Q^{\\frac{1}{2}}-1)$"
       },
       {
         "label": "D",
-        "text": "$100(Q^{30}+1)$"
+        "text": "$ 100(Q^{30}+1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -434,20 +434,20 @@
   {
     "question_number": 18,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "In the xy-plane, a circle has center C with coordinates (h, k). Points A and B lie on the circle. (h+1,k+ $\\sqrt{230}$),and ∠ACB is a right angle. What is the length of $\\overline{AB}$?",
+    "passage": "In the xy-plane, a circle has center C with coordinates (h, k). Points A and B lie on the circle. (h+1, k+ $\\sqrt{230}$), and ∠ACB is a right angle. What is the length of $\\overline{AB}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$231\\sqrt{3}$"
+        "text": "$ 231\\sqrt{3}$"
       },
       {
         "label": "B",
-        "text": "$231\\sqrt{2}$"
+        "text": "$ 231\\sqrt{2}$"
       },
       {
         "label": "C",
-        "text": "$2\\sqrt{230}$"
+        "text": "$ 2\\sqrt{230}$"
       },
       {
         "label": "D",
@@ -471,7 +471,7 @@
   {
     "question_number": 20,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "An object's speed is increasing at a rate of 6.10 meters per second squared. What is this rate, in miles per minute squared, rounded to the nearest tenth?Use 1 mile=1,609 meters.",
+    "passage": "An object's speed is increasing at a rate of 6.10 meters per second squared. What is this rate, in miles per minute squared, rounded to the nearest tenth? Use 1 mile=1,609 meters.",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -491,7 +491,7 @@
   {
     "question_number": 22,
     "test_name": "December 2024 US Form C SAT Math Module 2",
-    "passage": "$7x^{2}-9x+c=5$ In the given equation, c is a constant, A solution to the equation is $\\frac{9-\\sqrt{725}}{14}$.What is the value of c?",
+    "passage": "$ 7x^{2}-9x+c=5 $ In the given equation, c is a constant, A solution to the equation is $\\frac{9-\\sqrt{725}}{14}$. What is the value of c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

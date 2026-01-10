@@ -29,7 +29,7 @@
   {
     "question_number": 2,
     "test_name": "October 2024 US Form B SAT Math Module 2",
-    "passage": "A shopper goes to a pet store to buy dog food and treats, The shopper has $20. Each can of food costs $1.87, and each bag of treats costs 2.37. Which inequality represents the relationship between the number of cans of food, c, and the number of bags of treats, t, the shopper can buy?",
+    "passage": "A shopper goes to a pet store to buy dog food and treats, The shopper has $ 20. Each can of food costs $ 1.87, and each bag of treats costs 2.37. Which inequality represents the relationship between the number of cans of food, c, and the number of bags of treats, t, the shopper can buy?",
     "question_text": null,
     "choices": [
       {
@@ -56,7 +56,7 @@
   {
     "question_number": 3,
     "test_name": "October 2024 US Form B SAT Math Module 2",
-    "passage": "$0=(x-k)(7x+t)-(x-k)$ In the given equation, k and t are positive constants. A solution to the equation is $-\\frac{22}{7}$ is the value of t?",
+    "passage": "$ 0=(x-k)(7x+t)-(x-k)$ In the given equation, k and t are positive constants. A solution to the equation is $-\\frac{22}{7}$ is the value of t?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -157,7 +157,7 @@
   {
     "question_number": 8,
     "test_name": "October 2024 US Form B SAT Math Module 2",
-    "passage": "A plumbing company charges its customers $112 for the first hour of a plumbing service call and $40 for each additional hour, plus the cost of plumbing parts, Which equation represents the total cost y, in dollars, for an x-hour plumbing service call where the cost of parts was z and x >1?",
+    "passage": "A plumbing company charges its customers $ 112 for the first hour of a plumbing service call and $ 40 for each additional hour, plus the cost of plumbing parts, Which equation represents the total cost y, in dollars, for an x-hour plumbing service call where the cost of parts was z and x >1?",
     "question_text": null,
     "choices": [
       {
@@ -189,19 +189,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$(x-7)^{2}+(y+7)^{2}=1$"
+        "text": "$(x-7)^{2}+(y+7)^{2}=1 $"
       },
       {
         "label": "B",
-        "text": "$(x-3)^{2}+(y+3)^{2}=1$"
+        "text": "$(x-3)^{2}+(y+3)^{2}=1 $"
       },
       {
         "label": "C",
-        "text": "$(x-11)^{2}+(y+3)^{2}=1$"
+        "text": "$(x-11)^{2}+(y+3)^{2}=1 $"
       },
       {
         "label": "D",
-        "text": "$(x-7)^{2}+(y-1)^{2}=1$"
+        "text": "$(x-7)^{2}+(y-1)^{2}=1 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -280,19 +280,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(t)=-16(t-2.1)^{2}+70.56$"
+        "text": "$ f(t)=-16(t-2.1)^{2}+70.56 $"
       },
       {
         "label": "B",
-        "text": "$f(t)=16(t+2.1)^{2}+70.56$"
+        "text": "$ f(t)=16(t+2.1)^{2}+70.56 $"
       },
       {
         "label": "C",
-        "text": "$f(t)=-16(t+2.1)^{2}+70.56$"
+        "text": "$ f(t)=-16(t+2.1)^{2}+70.56 $"
       },
       {
         "label": "D",
-        "text": "$f(t)=16(t-2.1)^{2}+70.56$"
+        "text": "$ f(t)=16(t-2.1)^{2}+70.56 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -371,19 +371,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-2^{x}+1$"
+        "text": "$ f(x)=-2^{x}+1 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=-2^{x}+3$"
+        "text": "$ f(x)=-2^{x}+3 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=-2^{x}+4$"
+        "text": "$ f(x)=-2^{x}+4 $"
       },
       {
         "label": "D",
-        "text": "$f(x)=-2^{x}+5$"
+        "text": "$ f(x)=-2^{x}+5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -440,7 +440,7 @@
   {
     "question_number": 21,
     "test_name": "October 2024 US Form B SAT Math Module 2",
-    "passage": "The functions f and g are defined by the equations shown, where a and b are integer constants, a < b and b < 0. If y = f(x) and y= g(x) are graphed in the xy-plane, which of the following equations displays, as a constant or coefficient, the y coordinate of the y-intercept of the graph of the corresponding function? Ⅰ. $f(x)=a(3.3)^{x+b}$ Ⅱ.$g(x)=a(3.3)^{x}+b$",
+    "passage": "The functions f and g are defined by the equations shown, where a and b are integer constants, a < b and b < 0. If y = f(x) and y= g(x) are graphed in the xy-plane, which of the following equations displays, as a constant or coefficient, the y coordinate of the y-intercept of the graph of the corresponding function? Ⅰ. $ f(x)=a(3.3)^{x+b}$ Ⅱ.$ g(x)=a(3.3)^{x}+b $",
     "question_text": null,
     "choices": [
       {

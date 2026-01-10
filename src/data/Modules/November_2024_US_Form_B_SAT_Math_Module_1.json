@@ -56,7 +56,7 @@
   {
     "question_number": 3,
     "test_name": "November 2024 US Form B SAT Math Module 1",
-    "passage": "k (x) = -$\\frac{1}{2}x^{2}$ + 8 x + 20 The function k gives the estimated number of students in a school organization x years after the organization was established, where $0\\le x\\le10$. Which statement is the best interpretation of k (4)= 44?",
+    "passage": "k (x) = -$\\frac{1}{2}x^{2}$ + 8 x + 20 The function k gives the estimated number of students in a school organization x years after the organization was established, where $ 0\\le x\\le10 $. Which statement is the best interpretation of k (4)= 44?",
     "question_text": null,
     "choices": [
       {
@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "November 2024 US Form B SAT Math Module 1",
-    "passage": "The function t (x) =-3 x + 74 gives the estimated temperature, in degrees Fahrenheit, of a town x hours after 6 p.m, where $0\\le x\\le5$. What is the best interpretation of -3 in this context?",
+    "passage": "The function t (x) =-3 x + 74 gives the estimated temperature, in degrees Fahrenheit, of a town x hours after 6 p. m, where $ 0\\le x\\le5 $. What is the best interpretation of -3 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -96,11 +96,11 @@
       },
       {
         "label": "C",
-        "text": "At 6 p.m., the estimated temperature is -3 degrees Fahrenheit."
+        "text": "At 6 p. m., the estimated temperature is -3 degrees Fahrenheit."
       },
       {
         "label": "D",
-        "text": "At 6 p.m., the estimated temperature is 5 degrees Fahrenheit."
+        "text": "At 6 p. m., the estimated temperature is 5 degrees Fahrenheit."
       }
     ],
     "is_fill_in_blank": false,
@@ -164,7 +164,7 @@
   {
     "question_number": 7,
     "test_name": "November 2024 US Form B SAT Math Module 1",
-    "passage": "An event planner is planning an ice-skating event, It costs the event planner a onetime fee of $30 to rent the skating rink and $10.25 per attendee. The event planner has a budget of 250, What is the greatest number of attendees possible without exceeding the budget?",
+    "passage": "An event planner is planning an ice-skating event, It costs the event planner a onetime fee of $ 30 to rent the skating rink and $ 10.25 per attendee. The event planner has a budget of 250, What is the greatest number of attendees possible without exceeding the budget?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -174,7 +174,7 @@
   {
     "question_number": 8,
     "test_name": "November 2024 US Form B SAT Math Module 1",
-    "passage": "The function f is defined by $f(x)=4\\sqrt{x}$. For what value of a does f (x) = 28?",
+    "passage": "The function f is defined by $ f(x)=4\\sqrt{x}$. For what value of a does f (x) = 28?",
     "question_text": null,
     "choices": [
       {
@@ -233,19 +233,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-\\frac{7}{25}x^{2}$\n$y=-\\frac{7}{5}x$"
+        "text": "$ y=-\\frac{7}{25}x^{2}$\n$ y=-\\frac{7}{5}x $"
       },
       {
         "label": "B",
-        "text": "$y=-\\frac{7}{25}x^{2}$\n$y=\\frac{7}{5}x$"
+        "text": "$ y=-\\frac{7}{25}x^{2}$\n$ y=\\frac{7}{5}x $"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{7}{25}x^{2}$\n$y=-\\frac{7}{5}x$"
+        "text": "$ y=\\frac{7}{25}x^{2}$\n$ y=-\\frac{7}{5}x $"
       },
       {
         "label": "D",
-        "text": "$y=\\frac{7}{25}x^{2}$\n$y=\\frac{7}{5}x$"
+        "text": "$ y=\\frac{7}{25}x^{2}$\n$ y=\\frac{7}{5}x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -430,7 +430,7 @@
   {
     "question_number": 20,
     "test_name": "November 2024 US Form B SAT Math Module 1",
-    "passage": "$\\frac{x-7}{5}+\\frac{y+8}{4}=0$ 3 x + 4 y = 0 The solution to the given system of equations is (x, y). What is the value of x + y?",
+    "passage": "$\\frac{x-7}{5}+\\frac{y+8}{4}=0 $ 3 x + 4 y = 0 The solution to the given system of equations is (x, y). What is the value of x + y?",
     "question_text": null,
     "choices": [
       {
@@ -508,7 +508,7 @@
   {
     "question_number": 22,
     "test_name": "November 2024 US Form B SAT Math Module 1",
-    "passage": "Jackson mows lawns in the summer. When Jackson mows a lawn with a fence he charges $l.03 per minute. When Jackson mows a lawn without a fence, he charges $0.56 per minute. Jackson spends a total of 15 hours mowing lawns with and without a fence in a week and charges a total of 701.40 form mowing lawns during that week. How many minutes does Jackson spend mowing lawns with a fence during that week?",
+    "passage": "Jackson mows lawns in the summer. When Jackson mows a lawn with a fence he charges $ l.03 per minute. When Jackson mows a lawn without a fence, he charges $ 0.56 per minute. Jackson spends a total of 15 hours mowing lawns with and without a fence in a week and charges a total of 701.40 form mowing lawns during that week. How many minutes does Jackson spend mowing lawns with a fence during that week?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

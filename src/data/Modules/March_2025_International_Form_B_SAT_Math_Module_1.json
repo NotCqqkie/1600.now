@@ -2,24 +2,24 @@
   {
     "question_number": 1,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "$s=40+2t$ The equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 4 seconds after it began to accelerate?",
+    "passage": "$ s=40+2t $ The equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 4 seconds after it began to accelerate?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$40$"
+        "text": "$ 40 $"
       },
       {
         "label": "B",
-        "text": "$42$"
+        "text": "$ 42 $"
       },
       {
         "label": "C",
-        "text": "$44$"
+        "text": "$ 44 $"
       },
       {
         "label": "D",
-        "text": "$48$"
+        "text": "$ 48 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -34,19 +34,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$8b=20$"
+        "text": "$ 8b=20 $"
       },
       {
         "label": "B",
-        "text": "$8+b=20$"
+        "text": "$ 8+b=20 $"
       },
       {
         "label": "C",
-        "text": "$8^{2}+b^{2}=20^{2}$"
+        "text": "$ 8^{2}+b^{2}=20^{2}$"
       },
       {
         "label": "D",
-        "text": "$8^{2}-b^{2}=20^{2}$"
+        "text": "$ 8^{2}-b^{2}=20^{2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -61,19 +61,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$69$"
+        "text": "$ 69 $"
       },
       {
         "label": "B",
-        "text": "$119$"
+        "text": "$ 119 $"
       },
       {
         "label": "C",
-        "text": "$169$"
+        "text": "$ 169 $"
       },
       {
         "label": "D",
-        "text": "$219$"
+        "text": "$ 219 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -83,24 +83,24 @@
   {
     "question_number": 4,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "The function $f$ is defined by $f(x)=8(2x+2)$. For what value of x does $f(x)=80$?",
+    "passage": "The function $ f $ is defined by $ f(x)=8(2x+2)$. For what value of x does $ f(x)=80 $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$4$"
+        "text": "$ 4 $"
       },
       {
         "label": "B",
-        "text": "$6$"
+        "text": "$ 6 $"
       },
       {
         "label": "C",
-        "text": "$10$"
+        "text": "$ 10 $"
       },
       {
         "label": "D",
-        "text": "$39$"
+        "text": "$ 39 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -110,7 +110,7 @@
   {
     "question_number": 5,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "$y=-0.5$ $y=x^{2}+8x+a$ In the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?",
+    "passage": "$ y=-0.5 $ $ y=x^{2}+8x+a $ In the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -130,24 +130,24 @@
   {
     "question_number": 7,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "The price of an object increased from $16 to $80. What was the percent increase in the price of the object?",
+    "passage": "The price of an object increased from $ 16 to $ 80. What was the percent increase in the price of the object?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$20%$"
+        "text": "$ 20%$"
       },
       {
         "label": "B",
-        "text": "$64%$"
+        "text": "$ 64%$"
       },
       {
         "label": "C",
-        "text": "$80%$"
+        "text": "$ 80%$"
       },
       {
         "label": "D",
-        "text": "$400%$"
+        "text": "$ 400%$"
       }
     ],
     "is_fill_in_blank": false,
@@ -162,19 +162,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=x-16.3$"
+        "text": "$ y=x-16.3 $"
       },
       {
         "label": "B",
-        "text": "$y=-x+16.3$"
+        "text": "$ y=-x+16.3 $"
       },
       {
         "label": "C",
-        "text": "$y=x-2.3$"
+        "text": "$ y=x-2.3 $"
       },
       {
         "label": "D",
-        "text": "$y=-x+2.3$"
+        "text": "$ y=-x+2.3 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -184,7 +184,7 @@
   {
     "question_number": 9,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "The expression $7x^{6}+9x^{6}-8x^{6}$ is equivalent to $bx^{6}$, where b is a constant. What is the value of b?",
+    "passage": "The expression $ 7x^{6}+9x^{6}-8x^{6}$ is equivalent to $ bx^{6}$, where b is a constant. What is the value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -194,7 +194,7 @@
   {
     "question_number": 10,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "At what point (x, y) do the graphs of the equations $y=5x+8$ and $y=6x-2$ intersect in the xy -plane?",
+    "passage": "At what point (x, y) do the graphs of the equations $ y=5x+8 $ and $ y=6x-2 $ intersect in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -221,7 +221,7 @@
   {
     "question_number": 11,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "A rectangle has a length that is 72 times its width. The function $y=(72w)(w)$ represents this situation, where y is the area, in square feet, of the rectangle and $y> 0$. Which of the following is the best interpretation of 72 w in this context?",
+    "passage": "A rectangle has a length that is 72 times its width. The function $ y=(72w)(w)$ represents this situation, where y is the area, in square feet, of the rectangle and $ y> 0 $. Which of the following is the best interpretation of 72 w in this context?",
     "question_text": null,
     "choices": [
       {
@@ -248,7 +248,7 @@
   {
     "question_number": 12,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "$f(x)=29$ For the given linear function $f$, which table gives three values of x and their corresponding values of $f(x)$?",
+    "passage": "$ f(x)=29 $ For the given linear function $ f $, which table gives three values of x and their corresponding values of $ f(x)$?",
     "question_text": null,
     "choices": [
       {
@@ -304,19 +304,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x=20$"
+        "text": "$ x=20 $"
       },
       {
         "label": "B",
-        "text": "$y=160$"
+        "text": "$ y=160 $"
       },
       {
         "label": "C",
-        "text": "$w+y=180$"
+        "text": "$ w+y=180 $"
       },
       {
         "label": "D",
-        "text": "$y+z=180$"
+        "text": "$ y+z=180 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -326,24 +326,24 @@
   {
     "question_number": 14,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "$x^{2}-4x+y^{2}-8y-80=0$ In the xy -plane, the graph of the given equation is a circle. If this circle is inscribed in a square. What is the perimeter of the square?",
+    "passage": "$ x^{2}-4x+y^{2}-8y-80=0 $ In the xy -plane, the graph of the given equation is a circle. If this circle is inscribed in a square. What is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$20$"
+        "text": "$ 20 $"
       },
       {
         "label": "B",
-        "text": "$40$"
+        "text": "$ 40 $"
       },
       {
         "label": "C",
-        "text": "$80$"
+        "text": "$ 80 $"
       },
       {
         "label": "D",
-        "text": "$320$"
+        "text": "$ 320 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -363,7 +363,7 @@
   {
     "question_number": 16,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "$f(x)=24(2)^{\\frac{x}{6}}$ Which table gives four values of x and their corresponding values of $f(x)$for the given exponential function?",
+    "passage": "$ f(x)=24(2)^{\\frac{x}{6}}$ Which table gives four values of x and their corresponding values of $ f(x)$ for the given exponential function?",
     "question_text": null,
     "choices": [
       {
@@ -419,7 +419,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$(x-18)^{2}+(y-16)^{2}=36k$"
+        "text": "$(x-18)^{2}+(y-16)^{2}=36k $"
       },
       {
         "label": "B",
@@ -427,7 +427,7 @@
       },
       {
         "label": "C",
-        "text": "$(x-18)^{2}+(y-16)^{2}=6k$"
+        "text": "$(x-18)^{2}+(y-16)^{2}=6k $"
       },
       {
         "label": "D",
@@ -451,7 +451,7 @@
   {
     "question_number": 19,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "The difference between the measure of angle A and the measure of angle B is $-\\frac{5}{12}\\pi$ radians. Which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
+    "passage": "The difference between the measure of angle A and the measure of angle B is $-\\frac{5}{12}\\pi $ radians. Which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
     "question_text": null,
     "choices": [
       {
@@ -478,24 +478,24 @@
   {
     "question_number": 20,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "$x^{2}-84x-14=0$ What is the sum of the solutions to the given equation?",
+    "passage": "$ x^{2}-84x-14=0 $ What is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$0$"
+        "text": "$ 0 $"
       },
       {
         "label": "B",
-        "text": "$7$"
+        "text": "$ 7 $"
       },
       {
         "label": "C",
-        "text": "$14$"
+        "text": "$ 14 $"
       },
       {
         "label": "D",
-        "text": "$84$"
+        "text": "$ 84 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -515,7 +515,7 @@
   {
     "question_number": 22,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "In the xy -plane, line k and line l are perpendicular and intersect at the point (2, 8). If line k is defined by the equation $y=mx+b$, where m and b are constants and $m>1,$which of the following points lies on line l?",
+    "passage": "In the xy -plane, line k and line l are perpendicular and intersect at the point (2, 8). If line k is defined by the equation $ y=mx+b $, where m and b are constants and $ m>1,$ which of the following points lies on line l?",
     "question_text": null,
     "choices": [
       {

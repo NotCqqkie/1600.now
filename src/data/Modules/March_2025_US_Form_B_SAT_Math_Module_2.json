@@ -2,7 +2,7 @@
   {
     "question_number": 1,
     "test_name": "March 2025 US Form B SAT Math Module 2",
-    "passage": "$f(x)=\\frac{z+9}{3}$ For the function f defined by the equation shown, what is the value of f(-6)?",
+    "passage": "$ f(x)=\\frac{z+9}{3}$ For the function f defined by the equation shown, what is the value of f(-6)?",
     "question_text": null,
     "choices": [
       {
@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "March 2025 US Form B SAT Math Module 2",
-    "passage": "The scatterplot shows the relationship between two variables, x and y. for data set A. A line of best fit for the data is also shown,.Data set B is created by subtracting 9 units from the value of y for each data point from data set A. Which of the following is closest to the y-coordinate of the y-intercept of the line of best fit for data set B?",
+    "passage": "The scatterplot shows the relationship between two variables, x and y. for data set A. A line of best fit for the data is also shown,. Data set B is created by subtracting 9 units from the value of y for each data point from data set A. Which of the following is closest to the y-coordinate of the y-intercept of the line of best fit for data set B?",
     "question_text": null,
     "choices": [
       {
@@ -142,19 +142,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-5(5x-3)$"
+        "text": "$ f(x)=-5(5x-3)$"
       },
       {
         "label": "B",
-        "text": "$f(x)=-5(5x-4)$"
+        "text": "$ f(x)=-5(5x-4)$"
       },
       {
         "label": "C",
-        "text": "$f(x)=-5(x+3)$"
+        "text": "$ f(x)=-5(x+3)$"
       },
       {
         "label": "D",
-        "text": "$f(x)=-5(x-4)$"
+        "text": "$ f(x)=-5(x-4)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -255,7 +255,7 @@
   {
     "question_number": 11,
     "test_name": "March 2025 US Form B SAT Math Module 2",
-    "passage": "$x(r-7)+3=19x+25$ In the given equation, r is a positive integer. If the given equation has exactly one solution, what CANNOT be the value of r?",
+    "passage": "$ x(r-7)+3=19x+25 $ In the given equation, r is a positive integer. If the given equation has exactly one solution, what CANNOT be the value of r?",
     "question_text": null,
     "choices": [
       {
@@ -309,7 +309,7 @@
   {
     "question_number": 13,
     "test_name": "March 2025 US Form B SAT Math Module 2",
-    "passage": "$x(13+27)+c=5$ In the given equation, c is a constant. A solution to the equation is $\\frac{-27+\\sqrt{261}}{26}$. What is the26value of c?",
+    "passage": "$ x(13+27)+c=5 $ In the given equation, c is a constant. A solution to the equation is $\\frac{-27+\\sqrt{261}}{26}$. What is the26value of c?",
     "question_text": null,
     "choices": [
       {
@@ -346,24 +346,24 @@
   {
     "question_number": 15,
     "test_name": "March 2025 US Form B SAT Math Module 2",
-    "passage": "A model estimates that at the end of each year from 2015 to 2020, the number of rabbits in a population was 170% more than the number of rabbits in the population at the end of the previous year. The model estimates that at the end of 2016, there were 216 rabbits in the population. Which of the following equations represents this model, where n is the estimated number of rabbits in the population t years after the end of 2015 and t $\\le$ 5?",
+    "passage": "A model estimates that at the end of each year from 2015 to 2020, the number of rabbits in a population was 170% more than the number of rabbits in the population at the end of the previous year. The model estimates that at the end of 2016, there were 216 rabbits in the population. Which of the following equations represents this model, where n is the estimated number of rabbits in the population t years after the end of 2015 and t $\\le $ 5?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$n=80(1.7)$ t"
+        "text": "$ n=80(1.7)$ t"
       },
       {
         "label": "B",
-        "text": "$n=80(2.7)t$"
+        "text": "$ n=80(2.7)t $"
       },
       {
         "label": "C",
-        "text": "$n=216(1.7)t$"
+        "text": "$ n=216(1.7)t $"
       },
       {
         "label": "D",
-        "text": "$n=216(2.7)t$"
+        "text": "$ n=216(2.7)t $"
       }
     ],
     "is_fill_in_blank": false,
@@ -405,19 +405,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$sx+3y=11s$"
+        "text": "$ sx+3y=11s $"
       },
       {
         "label": "B",
-        "text": "$3x+sy=11s$"
+        "text": "$ 3x+sy=11s $"
       },
       {
         "label": "C",
-        "text": "$3x+sy=11$"
+        "text": "$ 3x+sy=11 $"
       },
       {
         "label": "D",
-        "text": "$sx+3y=11$"
+        "text": "$ sx+3y=11 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -464,7 +464,7 @@
   {
     "question_number": 20,
     "test_name": "March 2025 US Form B SAT Math Module 2",
-    "passage": "The functions f and g are defined by the equations shown, where a and b are integer constants, a < b and b<0. If y= f(x) and y= g(x) are graphed in the xy-plane, which of the following equations displays, as a constant or coefficient, the y-coordinate of the y-intercept of the graph of the corresponding function? I.$f(x)=a(2.1)$ z+b II.$g(x)=a(2.1)x+b$",
+    "passage": "The functions f and g are defined by the equations shown, where a and b are integer constants, a < b and b<0. If y= f(x) and y= g(x) are graphed in the xy-plane, which of the following equations displays, as a constant or coefficient, the y-coordinate of the y-intercept of the graph of the corresponding function? I.$ f(x)=a(2.1)$ z+b II.$ g(x)=a(2.1)x+b $",
     "question_text": null,
     "choices": [
       {

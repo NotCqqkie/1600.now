@@ -66,24 +66,24 @@
   {
     "question_number": 4,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "$49=\\frac{2K}{v^{2}}$ For an object with a mass of 49 kilograms, the given equation relates the kinetic energy Kin joules, of the object to the object's speed v, in meters per second, where K and v are positive. Which equation correctly expresses this object's speed, in meters per second, interms of the objeet's kinetic energy, in joules?",
+    "passage": "$ 49=\\frac{2K}{v^{2}}$ For an object with a mass of 49 kilograms, the given equation relates the kinetic energy Kin joules, of the object to the object's speed v, in meters per second, where K and v are positive. Which equation correctly expresses this object's speed, in meters per second, interms of the objeet's kinetic energy, in joules?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$v=\\sqrt{\\frac{2K}{49}}$"
+        "text": "$ v=\\sqrt{\\frac{2K}{49}}$"
       },
       {
         "label": "B",
-        "text": "$v=\\sqrt{\\frac{49}{2K}}$"
+        "text": "$ v=\\sqrt{\\frac{49}{2K}}$"
       },
       {
         "label": "C",
-        "text": "$v=\\frac{49^{x}}{2K}$"
+        "text": "$ v=\\frac{49^{x}}{2K}$"
       },
       {
         "label": "D",
-        "text": "$v=\\frac{2K}{49^{x}}$"
+        "text": "$ v=\\frac{2K}{49^{x}}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -120,7 +120,7 @@
   {
     "question_number": 6,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "$g(x)=\\frac{1}{9}(5)^{x}$ If the given function g is graphed in the xy-plane, where y= g(x), what is the y-intercept of the graph?",
+    "passage": "$ g(x)=\\frac{1}{9}(5)^{x}$ If the given function g is graphed in the xy-plane, where y= g(x), what is the y-intercept of the graph?",
     "question_text": null,
     "choices": [
       {
@@ -167,7 +167,7 @@
   {
     "question_number": 9,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "$In right triangle JKL, the tangent of$ ∠ L is $\\frac{3}{4}.What is the length of\\overline{JK}$?",
+    "passage": "$ In right triangle JKL, the tangent of $ ∠ L is $\\frac{3}{4}. What is the length of\\overline{JK}$?",
     "question_text": null,
     "choices": [
       {
@@ -194,7 +194,7 @@
   {
     "question_number": 10,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "$x^{2}-\\frac{25}{81}=0$ How many distinct real solutions does the given equation have?",
+    "passage": "$ x^{2}-\\frac{25}{81}=0 $ How many distinct real solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {
@@ -221,7 +221,7 @@
   {
     "question_number": 11,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "$a(7x-14)+5a=7(ax-2a)-35$ In the given equation, a is a constant, The equation has infinitely many solutions. What are all possible values of a?",
+    "passage": "$ a(7x-14)+5a=7(ax-2a)-35 $ In the given equation, a is a constant, The equation has infinitely many solutions. What are all possible values of a?",
     "question_text": null,
     "choices": [
       {
@@ -253,19 +253,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{100}{33}x$"
+        "text": "$\\frac{100}{33}x $"
       },
       {
         "label": "B",
-        "text": "$\\frac{10}{33}x$"
+        "text": "$\\frac{10}{33}x $"
       },
       {
         "label": "C",
-        "text": "$\\frac{1}{33}x$"
+        "text": "$\\frac{1}{33}x $"
       },
       {
         "label": "D",
-        "text": "$\\frac{67}{100}x$"
+        "text": "$\\frac{67}{100}x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -275,7 +275,7 @@
   {
     "question_number": 13,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "$5x^{m}$ In the given expression, is a constant and x > 1. The expression can be rewritten as $7x$. What is the value of m?",
+    "passage": "$ 5x^{m}$ In the given expression, is a constant and x > 1. The expression can be rewritten as $ 7x $. What is the value of m?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -285,24 +285,24 @@
   {
     "question_number": 14,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "A book-of-the month club charges $13 for the first book purchased during the month and an additional $11 for each book after the first. Which equation describes this situation, where y is the total cost, in dollars, for books purchased during a month, x is the number of book spurchased during the month, and x>0?",
+    "passage": "A book-of-the month club charges $ 13 for the first book purchased during the month and an additional $ 11 for each book after the first. Which equation describes this situation, where y is the total cost, in dollars, for books purchased during a month, x is the number of book spurchased during the month, and x>0?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$y=x+13$"
+        "text": "$ y=x+13 $"
       },
       {
         "label": "B",
-        "text": "$y=11x+13$"
+        "text": "$ y=11x+13 $"
       },
       {
         "label": "C",
-        "text": "$y=11(x-1)+13$"
+        "text": "$ y=11(x-1)+13 $"
       },
       {
         "label": "D",
-        "text": "$y=(x-1)+13$"
+        "text": "$ y=(x-1)+13 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -312,7 +312,7 @@
   {
     "question_number": 15,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "$z(w)=(0.829)^{2w}$ The function z is defined by the equation shown. The value of z(w) decreases by p% for each increase by 1 in the value of w. Which of the folloving is closest to the value of p?",
+    "passage": "$ z(w)=(0.829)^{2w}$ The function z is defined by the equation shown. The value of z(w) decreases by p% for each increase by 1 in the value of w. Which of the folloving is closest to the value of p?",
     "question_text": null,
     "choices": [
       {
@@ -339,24 +339,24 @@
   {
     "question_number": 16,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "The graph of the linear function y= f(x) + 11 is show. If c and d are positive constants,which equation could define f?",
+    "passage": "The graph of the linear function y= f(x) + 11 is show. If c and d are positive constants, which equation could define f?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-d-cx$"
+        "text": "$ f(x)=-d-cx $"
       },
       {
         "label": "B",
-        "text": "$f(x)=d+cx$"
+        "text": "$ f(x)=d+cx $"
       },
       {
         "label": "C",
-        "text": "$f(x)=d-cx$"
+        "text": "$ f(x)=d-cx $"
       },
       {
         "label": "D",
-        "text": "$f(x)=-d+cx$"
+        "text": "$ f(x)=-d+cx $"
       }
     ],
     "is_fill_in_blank": false,
@@ -366,7 +366,7 @@
   {
     "question_number": 17,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "$21x^{2}+(21s+r)x+rs=0$ In the given equation, r and s are positive constants, The product of the solutions to the given equation is krs, where k is a constant. What is the value of k?",
+    "passage": "$ 21x^{2}+(21s+r)x+rs=0 $ In the given equation, r and s are positive constants, The product of the solutions to the given equation is krs, where k is a constant. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -430,24 +430,24 @@
   {
     "question_number": 20,
     "test_name": "December 2024 International Form A SAT Math Module 2",
-    "passage": "$f(x)=66b^{x}$ In the given function, b is a positive constant. For every increase in the value of x by l, the value of f(x) increases by c%, where 0 < c < 100. Which expression gives the value of c in terms of b?",
+    "passage": "$ f(x)=66b^{x}$ In the given function, b is a positive constant. For every increase in the value of x by l, the value of f(x) increases by c%, where 0 < c < 100. Which expression gives the value of c in terms of b?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$1+\\frac{b}{100}$"
+        "text": "$ 1+\\frac{b}{100}$"
       },
       {
         "label": "B",
-        "text": "$b+100$"
+        "text": "$ b+100 $"
       },
       {
         "label": "C",
-        "text": "$100(b+1)$"
+        "text": "$ 100(b+1)$"
       },
       {
         "label": "D",
-        "text": "$100(b-1)$"
+        "text": "$ 100(b-1)$"
       }
     ],
     "is_fill_in_blank": false,
