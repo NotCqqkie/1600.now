@@ -58,7 +58,7 @@ export const MultipleChoiceQuestion = ({
     const hasImage = Boolean(choice.image);
 
     return (
-      <div className="flex flex-col gap-2">
+      <div className={hasImage && !hasText ? "" : "flex flex-col gap-2"}>
         {hasText && (
           <span 
             ref={(el) => choiceRefs.current[choice.id] = el}
@@ -66,6 +66,7 @@ export const MultipleChoiceQuestion = ({
           />
         )}
         {hasImage && (
+<<<<<<< HEAD
           <div className="w-full -mx-1 flex justify-center">
             <img
               src={choice.image}
@@ -77,6 +78,17 @@ export const MultipleChoiceQuestion = ({
               loading="lazy"
             />
           </div>
+=======
+          <img
+            src={choice.image}
+            alt={`Choice ${choice.id}`}
+            className={cn(
+              "max-w-[690px] h-auto rounded object-contain block",
+              dimmed && "opacity-60"
+            )}
+            loading="lazy"
+          />
+>>>>>>> 723bcdca2f97342c84b6bdf87c7dbdc03f11d039
         )}
       </div>
     );

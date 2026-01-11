@@ -138,7 +138,7 @@ export const questions: Question[] = [
     choices: [
       { id: "A", text: "$\\frac{1}{9}\\sqrt{3}$" },
       { id: "B", text: "$\\frac{3}{4}$" },
-      { id: "C", text: "$9\\sqrt{3}\\!/1$" },
+      { id: "C", text: "$9\\sqrt{3}$" },
       { id: "D", text: "$\\frac{4}{3}$" },
     ],
     correctAnswer: "A",
@@ -146,7 +146,7 @@ export const questions: Question[] = [
   },
   {
     id: 15,
-    text: "What is the value of $63m$ if the given equation only has one solution?\\\\\\\\$\\frac{\\|x+7\\|}{63} = m$",
+    text: "What is the value of $63m$ if the given equation only has one solution?\\\\\\\\$\\frac{|x+7|}{63} = m$",
     choices: [
       { id: "A", text: "$-7$ only" },
       { id: "B", text: "$0$ only" },
@@ -183,7 +183,7 @@ export const questions: Question[] = [
       { id: "C", text: "$6$" },
       { id: "D", text: "$8$" },
     ],
-    correctAnswer: "D",
+    correctAnswer: "B",
     type: "multiple-choice",
   },
   {
@@ -202,10 +202,10 @@ export const questions: Question[] = [
     id: 21,
     text: "One bucket of paint costs &#36;27 and can cover $64$ square feet of a house. A given house has a total surface area of $m$ square feet. Which equation accurately represents the total cost, $t$, in dollars, of paint needed to cover the house twice?",
     choices: [
-      { id: "A", text: "$c = \\frac{27m}{64}$" },
-      { id: "B", text: "$c = \\frac{27m}{32}$" },
-      { id: "C", text: "$c = 64\\left(\\frac{m}{54}\\right)$" },
-      { id: "D", text: "$c = 64\\left(\\frac{m}{27}\\right)$" },
+      { id: "A", text: "$t = \\frac{27m}{64}$" },
+      { id: "B", text: "$t = \\frac{27m}{32}$" },
+      { id: "C", text: "$t = 64\\left(\\frac{m}{54}\\right)$" },
+      { id: "D", text: "$t = 64\\left(\\frac{m}{27}\\right)$" },
     ],
     correctAnswer: "B",
     type: "multiple-choice",
@@ -291,7 +291,7 @@ export const questions: Question[] = [
       { id: "C", text: "$\\frac{235\\pi}{4}$" },
       { id: "D", text: "$\\frac{236\\pi}{4}$" },
     ],
-    correctAnswer: "C",
+    correctAnswer: "D",
     type: "multiple-choice",
   },
   {
@@ -399,7 +399,7 @@ export const questions: Question[] = [
       { id: "C", text: "$4x^2 - 88x - 42m$" },
       { id: "D", text: "$4x^2 - 108x - 42m$" },
     ],
-    correctAnswer: "C",
+    correctAnswer: "D",
     type: "multiple-choice",
   },
   {
@@ -411,7 +411,7 @@ export const questions: Question[] = [
       { id: "C", text: "$-\\frac{7}{8}$" },
       { id: "D", text: "$\\frac{15}{4}$" },
     ],
-    correctAnswer: "D",
+    correctAnswer: "C",
     type: "multiple-choice",
   },
   {
@@ -458,13 +458,13 @@ export const questions: Question[] = [
   },
   {
     id: 47,
-    text: "Data set A contains the lengths of $120$ lizards and has a mean of $10$ inches. Data set B contains the lengths of $40$ different lizards, with a mean of $15$ inches. Data set C contains the lengths of all $140$ lizards from data sets A and B. What is the mean, in inches, of Data set C?",
+    text: "Data set A contains the lengths of $120$ lizards and has a mean of $10$ inches. Data set B contains the lengths of $40$ different lizards, with a mean of $15$ inches. Data set C contains the lengths of all $160$ lizards from data sets A and B. What is the mean, in inches, of Data set C?",
     correctAnswer: "11.25",
     type: "free-response",
   },
   {
     id: 48,
-    text: "The function $f$ is given by $f(x) = \\frac{2n}{\\|x\\|} - 12$, where $n < 0$. What is the sum of $f(6n)$ and $f(n)$?",
+    text: "The function $f$ is given by $f(x) = \\frac{2n}{|x|} - 12$, where $n < 0$. What is the sum of $f(6n)$ and $f(n)$?",
     correctAnswer: "-26.333",
     type: "free-response",
   },
@@ -584,13 +584,13 @@ export const questions: Question[] = [
   },
   {
     id: 60,
-    text: "$x^2 - 6x + 3$\\\\\\\\If one solution to the given equation can be represented by $3 + \\sqrt{p}$, where $p$ is a constant, what is the value of $p$?",
+    text: "$x^2 - 6x + 3 = 0$\\\\\\\\If one solution to the given equation can be represented by $3 + \\sqrt{p}$, where $p$ is a constant, what is the value of $p$?",
     correctAnswer: "6",
     type: "free-response",
   },
   {
     id: 61,
-    text: "$4y = 18$\\\\$-8x^2 + bx$\\\\\\\\In the $xy$-plane, the two given equations intersect at exactly one point. If $b$ is a positive constant, what is the value of $b$?",
+    text: "$4y = 18$\\\\$y = -8x^2 + bx$\\\\\\\\In the $xy$-plane, the two given equations intersect at exactly one point. If $b$ is a positive constant, what is the value of $b$?",
     correctAnswer: "12",
     type: "free-response",
   },
@@ -602,7 +602,7 @@ export const questions: Question[] = [
   },
   {
     id: 63,
-    text: "$-25x^2 + (5ab)x + 25$\\\\\\\\For the given equation, $a$ and $b$ are positive constants. If the sum of solutions to the given equation is $mab$, where $m$ is a constant, what is the value of $m$?",
+    text: "$-25x^2 + (5ab)x + 25 = 0$\\\\\\\\For the given equation, $a$ and $b$ are positive constants. If the sum of solutions to the given equation is $mab$, where $m$ is a constant, what is the value of $m$?",
     choices: [
       { id: "A", text: "$\\frac{1}{25}$" },
       { id: "B", text: "$\\frac{1}{5}$" },
@@ -797,7 +797,7 @@ export const questions: Question[] = [
   },
   {
     id: 85,
-    text: "<img src=\"/85.png\" alt=\"Circle with diameter AC and triangle ABC\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the given figure, $AC$ is the diameter of a circle with a radius of $8$. If the length of $AB$ is equal to $\\sqrt{87}$, what is the value if $BC$?",
+    text: "<img src=\"/85.png\" alt=\"Circle with diameter AC and triangle ABC\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the given figure, $AC$ is the diameter of a circle with a radius of $8$. If the length of $AB$ is equal to $\\sqrt{87}$, what is the value of $BC$?",
     correctAnswer: "13",
     type: "free-response",
   },
@@ -917,7 +917,7 @@ export const questions: Question[] = [
   },
   {
     id: 97,
-    text: "The function $g$ is defined by $g(x) = 67(1.21)$. For any positive integer $a$, the value of $g(a)$ is $p\\%$ more than the value of $g(a - 1)$. What is the value of $p\\%$?",
+    text: "The function $g$ is defined by $g(x) = 67(1.21)^x$. For any positive integer $a$, the value of $g(a)$ is $p\\%$ more than the value of $g(a - 1)$. What is the value of $p\\%$?",
     choices: [
       { id: "A", text: "$67$" },
       { id: "B", text: "$23$" },
