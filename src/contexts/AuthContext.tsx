@@ -31,6 +31,9 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       setSession(session);
       setUser(session?.user ?? null);
       setLoading(false);
+    }).catch(err => {
+      console.warn("Auth initialization error:", err);
+      setLoading(false);
     });
 
     const {

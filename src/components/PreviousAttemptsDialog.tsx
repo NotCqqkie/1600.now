@@ -170,16 +170,27 @@ export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttem
                     <p className="font-medium">{formatDuration(session.totalDuration)}</p>
                   </div>
                   <div>
+
                     <p className="text-sm text-muted-foreground">Date/Time</p>
-                    <p className="font-medium">{formatDateTime(attempt.timestamp)}</p>
+
+                    <p className="font-medium">{formatDateTime(session.lastAttempt.timestamp)}</p>
+
                   </div>
+
                 </div>
 
-                {attempt.explanation && (
+
+
+                {session.lastAttempt.explanation && (
+
                   <div>
+
                     <p className="text-sm text-muted-foreground">Explanation</p>
-                    <p className="text-sm">{attempt.explanation}</p>
+
+                    <p className="text-sm">{session.lastAttempt.explanation}</p>
+
                   </div>
+
                 )}
               </div>
             ))}
