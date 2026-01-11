@@ -7,19 +7,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$100$"
+        "text": "$ 100 $"
       },
       {
         "label": "B",
-        "text": "$125$"
+        "text": "$ 125 $"
       },
       {
         "label": "C",
-        "text": "$175$"
+        "text": "$ 175 $"
       },
       {
         "label": "D",
-        "text": "$225$"
+        "text": "$ 225 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -29,24 +29,24 @@
   {
     "question_number": 2,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to $9(x^{2}+6)$?",
+    "passage": "Which expression is equivalent to $ 9(x^{2}+6)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$9x^{2}+3$"
+        "text": "$ 9x^{2}+3 $"
       },
       {
         "label": "B",
-        "text": "$9x^{2}+6$"
+        "text": "$ 9x^{2}+6 $"
       },
       {
         "label": "C",
-        "text": "$9x^{2}+15$"
+        "text": "$ 9x^{2}+15 $"
       },
       {
         "label": "D",
-        "text": "$9x^{2}+54$"
+        "text": "$ 9x^{2}+54 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -107,7 +107,7 @@
   {
     "question_number": 4,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$7x+21=7x+k$ In the given equation, k is a constant. The equation has infinitely many solutions. What is the value of k?",
+    "passage": "$ 7x+21=7x+k $ In the given equation, k is a constant. The equation has infinitely many solutions. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -117,7 +117,7 @@
   {
     "question_number": 5,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The function $f$ is defined by $f(x)=2x-\\frac{1}{4}$. What is the y -intercept of the graph of $y=f(x)$ in the xy -plane?",
+    "passage": "The function $ f $ is defined by $ f(x)=2x-\\frac{1}{4}$. What is the y -intercept of the graph of $ y=f(x)$ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -144,7 +144,7 @@
   {
     "question_number": 6,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The list gives the mass, in grams, of 5 ruffed lemurs. 3,810 ; 3,810 ; 3,530 ; 3,850 ; 3,550 What is the mean mass, in grams, of these 5 ruffed lemurs?",
+    "passage": "The list gives the mass, in grams, of 5 ruffed lemurs. 3,810; 3,810; 3,530; 3,850; 3,550 What is the mean mass, in grams, of these 5 ruffed lemurs?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -154,24 +154,24 @@
   {
     "question_number": 7,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The price of an object increased from $16 to $80. What was the percent increase in the price of the object?",
+    "passage": "The price of an object increased from $ 16 to $ 80. What was the percent increase in the price of the object?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$20%$"
+        "text": "$ 20%$"
       },
       {
         "label": "B",
-        "text": "$64%$"
+        "text": "$ 64%$"
       },
       {
         "label": "C",
-        "text": "$80%$"
+        "text": "$ 80%$"
       },
       {
         "label": "D",
-        "text": "$400%$"
+        "text": "$ 400%$"
       }
     ],
     "is_fill_in_blank": false,
@@ -181,24 +181,24 @@
   {
     "question_number": 8,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "In the figure shown, triangle $CAE$is similar to triangle $CBD$. The measure of angle $CBD$ is 59 °, and $AE=28(BD).$What is the measure of angle $CAE$?",
+    "passage": "In the figure shown, triangle $ CAE $ is similar to triangle $ CBD $. The measure of angle $ CBD $ is 59 °, and $ AE=28(BD).$ What is the measure of angle $ CAE $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(28∙59)^\\circ$"
+        "text": "$(28∙59)^\\circ $"
       },
       {
         "label": "B",
-        "text": "$(28+59)^\\circ$"
+        "text": "$(28+59)^\\circ $"
       },
       {
         "label": "C",
-        "text": "$59^\\circ$"
+        "text": "$ 59^\\circ $"
       },
       {
         "label": "D",
-        "text": "$28^\\circ$"
+        "text": "$ 28^\\circ $"
       }
     ],
     "is_fill_in_blank": false,
@@ -213,19 +213,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$s+30\\le190$"
+        "text": "$ s+30\\le190 $"
       },
       {
         "label": "B",
-        "text": "$s+30\\ge190$"
+        "text": "$ s+30\\ge190 $"
       },
       {
         "label": "C",
-        "text": "$s-30\\le190$"
+        "text": "$ s-30\\le190 $"
       },
       {
         "label": "D",
-        "text": "$s-30\\ge190$"
+        "text": "$ s-30\\ge190 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -235,24 +235,24 @@
   {
     "question_number": 10,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to $7x^{6}-14x^{2}$, where $x>0$?",
+    "passage": "Which expression is equivalent to $ 7x^{6}-14x^{2}$, where $ x>0 $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$7(x^{3}-2x^{2})^{2}$"
+        "text": "$ 7(x^{3}-2x^{2})^{2}$"
       },
       {
         "label": "B",
-        "text": "$x^{2}(7x-2)^{4}$"
+        "text": "$ x^{2}(7x-2)^{4}$"
       },
       {
         "label": "C",
-        "text": "$7x^{2}(x-2)^{4}$"
+        "text": "$ 7x^{2}(x-2)^{4}$"
       },
       {
         "label": "D",
-        "text": "$7x^{2}(x^{4}-2)$"
+        "text": "$ 7x^{2}(x^{4}-2)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -262,7 +262,7 @@
   {
     "question_number": 11,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "A chemist performed an experiment using a set of beakers that can each be modeled by a right circular cylinder with a height of 53 millimeters. The equation $y=53\\pi x^{2}$ gives the volume y, in cubic millimeters, of the right circular cylinder that models a beaker in this set, where x is the radius, in millimeters, of the base of the cylinder. Which graph best represents this equation in the xy -plane?",
+    "passage": "A chemist performed an experiment using a set of beakers that can each be modeled by a right circular cylinder with a height of 53 millimeters. The equation $ y=53\\pi x^{2}$ gives the volume y, in cubic millimeters, of the right circular cylinder that models a beaker in this set, where x is the radius, in millimeters, of the base of the cylinder. Which graph best represents this equation in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -313,7 +313,7 @@
   {
     "question_number": 12,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$8x^{2}+13x=6$ What is the positive solution to the given equation?",
+    "passage": "$ 8x^{2}+13x=6 $ What is the positive solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -350,7 +350,7 @@
   {
     "question_number": 14,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "In right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is 90 degrees. The value of $sin(R)$ is$\\frac{2\\sqrt{10}}{7}$. What is the value of$cos(S)$?",
+    "passage": "In right triangle $ RST $, the sum of the measures of angle $ R $ and angle $ S $ is 90 degrees. The value of $ sin(R)$ is $\\frac{2\\sqrt{10}}{7}$. What is the value of $ cos(S)$?",
     "question_text": null,
     "choices": [
       {
@@ -377,16 +377,16 @@
   {
     "question_number": 15,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "Line t is defined by $y=-\\frac{1}{2}x+14$. Line s is perpendicular to line t in the xy -plane. What is the slope of line s?",
+    "passage": "Line t is defined by $ y=-\\frac{1}{2}x+14 $. Line s is perpendicular to line t in the xy -plane. What is the slope of line s?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$14$"
+        "text": "$ 14 $"
       },
       {
         "label": "B",
-        "text": "$2$"
+        "text": "$ 2 $"
       },
       {
         "label": "C",
@@ -404,7 +404,7 @@
   {
     "question_number": 16,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$f(x)=8(2)^{\\frac{x}{4}}$ Which table gives four values of x and their corresponding values of $f(x)$ for the given exponential function?",
+    "passage": "$ f(x)=8(2)^{\\frac{x}{4}}$ Which table gives four values of x and their corresponding values of $ f(x)$ for the given exponential function?",
     "question_text": null,
     "choices": [
       {
@@ -455,7 +455,7 @@
   {
     "question_number": 17,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The measure of angle $C$ is $\\frac{3\\pi}{4}$ radians. What is the value of $cos(C)$?",
+    "passage": "The measure of angle $ C $ is $\\frac{3\\pi}{4}$ radians. What is the value of $ cos(C)$?",
     "question_text": null,
     "choices": [
       {
@@ -482,7 +482,7 @@
   {
     "question_number": 18,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$7y=-6x+2,170$ $24x-28y=1,400$ The solution to the given system of equations is $(x,y).$ What is the value of $x+y$?",
+    "passage": "$ 7y=-6x+2,170 $ $ 24x-28y=1,400 $ The solution to the given system of equations is $(x, y).$ What is the value of $ x+y $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -497,19 +497,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$M=100(0.77)^{\\frac{t}{11.69}}$"
+        "text": "$ M=100(0.77)^{\\frac{t}{11.69}}$"
       },
       {
         "label": "B",
-        "text": "$M=100(0.77)^{t+11.69}$"
+        "text": "$ M=100(0.77)^{t+11.69}$"
       },
       {
         "label": "C",
-        "text": "$M=100(0.23)^{\\frac{t}{11.69}}$"
+        "text": "$ M=100(0.23)^{\\frac{t}{11.69}}$"
       },
       {
         "label": "D",
-        "text": "$M=100(0.23)^{t+11.69}$"
+        "text": "$ M=100(0.23)^{t+11.69}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -519,20 +519,20 @@
   {
     "question_number": 20,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$-4∣5x+4∣+2=-14$ What are all solutions to the given equation?",
+    "passage": "$-4∣5x+4∣+2=-14 $ What are all solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$0$"
+        "text": "$ 0 $"
       },
       {
         "label": "B",
-        "text": "$0$ and$-\\frac{1}{5}$"
+        "text": "$ 0 $ and $-\\frac{1}{5}$"
       },
       {
         "label": "C",
-        "text": "$0$ and$-\\frac{8}{5}$"
+        "text": "$ 0 $ and $-\\frac{8}{5}$"
       },
       {
         "label": "D",

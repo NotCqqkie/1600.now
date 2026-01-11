@@ -2,7 +2,7 @@
   {
     "question_number": 1,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "The table summarizes members of a local organization by age and whether they livenorth or south of Center St., lf a member of the organization is selected at random, what is the probability that the selected member is at least 45 years old?",
+    "passage": "The table summarizes members of a local organization by age and whether they live north or south of Center St. If a member of the organization is selected at random, what is the probability that the selected member is at least 45 years old?",
     "question_text": null,
     "choices": [
       {
@@ -29,24 +29,24 @@
   {
     "question_number": 2,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to $4(x^{2}+6)$?",
+    "passage": "Which expression is equivalent to $ 4(x^{2}+6)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$4x^{2}+24$"
+        "text": "$ 4x^{2}+24 $"
       },
       {
         "label": "B",
-        "text": "$4x^{2}+10$"
+        "text": "$ 4x^{2}+10 $"
       },
       {
         "label": "C",
-        "text": "$4x^{2}+6$"
+        "text": "$ 4x^{2}+6 $"
       },
       {
         "label": "D",
-        "text": "$4x^{2}-2$"
+        "text": "$ 4x^{2}-2 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -61,19 +61,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=\\frac{1}{4}x+5$"
+        "text": "$ f(x)=\\frac{1}{4}x+5 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=\\frac{1}{4}x+\\frac{1}{5}$"
+        "text": "$ f(x)=\\frac{1}{4}x+\\frac{1}{5}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=\\frac{1}{4}x-\\frac{5}{4}$"
+        "text": "$ f(x)=\\frac{1}{4}x-\\frac{5}{4}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=\\frac{1}{4}x-5$"
+        "text": "$ f(x)=\\frac{1}{4}x-5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "The function fis defined by $f(x)=5+\\sqrt{x}$. What is the value of f (144)?",
+    "passage": "The function fis defined by $ f(x)=5+\\sqrt{x}$. What is the value of f (144)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -93,7 +93,7 @@
   {
     "question_number": 5,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "$7x-4y=-84$ For the given equation, which table gives three values of x and their corresponding values of y?",
+    "passage": "$ 7x-4y=-84 $ For the given equation, which table gives three values of x and their corresponding values of y?",
     "question_text": null,
     "choices": [
       {
@@ -171,7 +171,7 @@
   {
     "question_number": 7,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "If $46=16+2(x-8)$, what is the value of 2(x-8)?",
+    "passage": "If $ 46=16+2(x-8)$, what is the value of 2(x-8)?",
     "question_text": null,
     "choices": [
       {
@@ -198,7 +198,7 @@
   {
     "question_number": 8,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "$y=x^{2}+1.7$ $y=1.7-x$ Which graph represents the given system of equations?",
+    "passage": "$ y=x^{2}+1.7 $ $ y=1.7-x $ Which graph represents the given system of equations?",
     "question_text": null,
     "choices": [
       {
@@ -305,7 +305,7 @@
   {
     "question_number": 13,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "$y=0.25x^{2}-6.5x+64.25$ The equation gives the estimated stock price y, in dollars, for a certain company x days after the company went public, where 0 ≤ x < 20. Which statement is the best interpretation of(x,y)=(1, 58) in this context?",
+    "passage": "$ y=0.25x^{2}-6.5x+64.25 $ The equation gives the estimated stock price y, in dollars, for a certain company x days after the company went public, where 0 ≤ x < 20. Which statement is the best interpretation of(x, y)=(1, 58) in this context?",
     "question_text": null,
     "choices": [
       {
@@ -359,7 +359,7 @@
   {
     "question_number": 15,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "If $\\frac{42}{x}=7x$, what is the value of$7x^{2}$?",
+    "passage": "If $\\frac{42}{x}=7x $, what is the value of $ 7x^{2}$?",
     "question_text": null,
     "choices": [
       {
@@ -406,7 +406,7 @@
   {
     "question_number": 18,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "The equation $h=\\frac{9(v-273.15)}{5}+12$ gives the corresponding temperature h, indegrees Fahrenheit, of any substance that has a temperature of v kelvins,where v > 0. If a substance has a temperature of 467.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "passage": "The equation $ h=\\frac{9(v-273.15)}{5}+12 $ gives the corresponding temperature h, indegrees Fahrenheit, of any substance that has a temperature of v kelvins, where v > 0. If a substance has a temperature of 467.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -421,7 +421,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$(x-16)^{2}+(y-17)^{2}=49k$"
+        "text": "$(x-16)^{2}+(y-17)^{2}=49k $"
       },
       {
         "label": "B",
@@ -429,7 +429,7 @@
       },
       {
         "label": "C",
-        "text": "$(x-16)^{2}+(y-17)^{2}=7k$"
+        "text": "$(x-16)^{2}+(y-17)^{2}=7k $"
       },
       {
         "label": "D",
@@ -443,7 +443,7 @@
   {
     "question_number": 20,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "In the triangle show, $RS=\\sqrt{105}$. What is the value of sin R?",
+    "passage": "In the triangle show, $ RS=\\sqrt{105}$. What is the value of sin R?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -480,24 +480,24 @@
   {
     "question_number": 22,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "$r(t)=55t-2t^{2}$ The function r is defined by the given equation. The function s is defined by s(t) = r(t) + 1. Which expression represents the maximum value of s(t)?",
+    "passage": "$ r(t)=55t-2t^{2}$ The function r is defined by the given equation. The function s is defined by s(t) = r(t) + 1. Which expression represents the maximum value of s(t)?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$1+(\\frac{55}{2})^{2}$"
+        "text": "$ 1+(\\frac{55}{2})^{2}$"
       },
       {
         "label": "B",
-        "text": "$1+2(\\frac{55}{4})^{2}$"
+        "text": "$ 1+2(\\frac{55}{4})^{2}$"
       },
       {
         "label": "C",
-        "text": "$1-2(\\frac{55}{4})^{2}$"
+        "text": "$ 1-2(\\frac{55}{4})^{2}$"
       },
       {
         "label": "D",
-        "text": "$1-2(\\frac{55}{2})^{2}$"
+        "text": "$ 1-2(\\frac{55}{2})^{2}$"
       }
     ],
     "is_fill_in_blank": false,

@@ -110,24 +110,24 @@
   {
     "question_number": 5,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$p=\\sqrt{12c}-25$ The given equation relates the variables p and c, where c is positive, which equation correctly expresses c in terms of p?",
+    "passage": "$ p=\\sqrt{12c}-25 $ The given equation relates the variables p and c, where c is positive, which equation correctly expresses c in terms of p?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$c=\\frac{(p+25)^{2}}{12}$"
+        "text": "$ c=\\frac{(p+25)^{2}}{12}$"
       },
       {
         "label": "B",
-        "text": "$c=\\frac{p^{2}}{12}+\\frac{5}{12}$"
+        "text": "$ c=\\frac{p^{2}}{12}+\\frac{5}{12}$"
       },
       {
         "label": "C",
-        "text": "$c=\\frac{p}{12}+\\frac{25}{24}$"
+        "text": "$ c=\\frac{p}{12}+\\frac{25}{24}$"
       },
       {
         "label": "D",
-        "text": "$c=\\frac{\\sqrt{p+25}}{12}$"
+        "text": "$ c=\\frac{\\sqrt{p+25}}{12}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -174,16 +174,16 @@
   {
     "question_number": 8,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$w^{2}+8w-28=0$ Which of the following is a solution to the given equation?",
+    "passage": "$ w^{2}+8w-28=0 $ Which of the following is a solution to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$4-2\\sqrt{11}$"
+        "text": "$ 4-2\\sqrt{11}$"
       },
       {
         "label": "B",
-        "text": "$2\\sqrt{11}$"
+        "text": "$ 2\\sqrt{11}$"
       },
       {
         "label": "C",
@@ -216,19 +216,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=233(0.60)^{\\frac{x}{2}}$"
+        "text": "$ f(x)=233(0.60)^{\\frac{x}{2}}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=233(0.60)^{2x}$"
+        "text": "$ f(x)=233(0.60)^{2x}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=233(1.60)^{\\frac{x}{2}}$"
+        "text": "$ f(x)=233(1.60)^{\\frac{x}{2}}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=233(1.60)^{2x}$"
+        "text": "$ f(x)=233(1.60)^{2x}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -292,7 +292,7 @@
   {
     "question_number": 13,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$f(x)=3,950(0.38)^{\\frac{x}{12}}$ The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the preceding year, what is the value of p?",
+    "passage": "$ f(x)=3,950(0.38)^{\\frac{x}{12}}$ The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the preceding year, what is the value of p?",
     "question_text": null,
     "choices": [
       {
@@ -324,19 +324,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$p(w)=2,600-180w$"
+        "text": "$ p(w)=2,600-180w $"
       },
       {
         "label": "B",
-        "text": "$p(w)=2,480+180w$"
+        "text": "$ p(w)=2,480+180w $"
       },
       {
         "label": "C",
-        "text": "$p(w)=1,620-180w$"
+        "text": "$ p(w)=1,620-180w $"
       },
       {
         "label": "D",
-        "text": "$p(w)=-120+180w$"
+        "text": "$ p(w)=-120+180w $"
       }
     ],
     "is_fill_in_blank": false,
@@ -373,7 +373,7 @@
   {
     "question_number": 16,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "Which expression is a factor of $36x^{2}(x+12)-36(x+12)^{3}$?",
+    "passage": "Which expression is a factor of $ 36x^{2}(x+12)-36(x+12)^{3}$?",
     "question_text": null,
     "choices": [
       {
@@ -400,16 +400,16 @@
   {
     "question_number": 17,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$30x=1,800y-3,600$ One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?",
+    "passage": "$ 30x=1,800y-3,600 $ One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{30}x=2y$"
+        "text": "$\\frac{1}{30}x=2y $"
       },
       {
         "label": "B",
-        "text": "$\\frac{1}{30}x=60y-120$"
+        "text": "$\\frac{1}{30}x=60y-120 $"
       },
       {
         "label": "C",
@@ -491,7 +491,7 @@
   {
     "question_number": 21,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$-x^{2}+bx-64=0$ In the given equation, b is an integer, The equation has no real solutions, What is the least possible value of b?",
+    "passage": "$-x^{2}+bx-64=0 $ In the given equation, b is an integer, The equation has no real solutions, What is the least possible value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

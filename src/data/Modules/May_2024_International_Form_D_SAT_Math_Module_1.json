@@ -92,7 +92,7 @@
       },
       {
         "label": "B",
-        "text": "A=($\\frac{w}{1.59})(w)"
+        "text": "A=($\\frac{w}{1.59}$)(w)"
       },
       {
         "label": "C",
@@ -467,7 +467,7 @@
       },
       {
         "label": "D",
-        "text": "$\\frac{7}{5}$ and$\\frac{7}{3}$"
+        "text": "$\\frac{7}{5}$ and $\\frac{7}{3}$"
       }
     ],
     "is_fill_in_blank": false,

@@ -167,7 +167,7 @@
   {
     "question_number": 9,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "A savings account is opened with an initial deposit of $7,000. The amount of money in the account t years after the initial deposit is given by the function $f(t)=7,000(1.01)^{2t}. Which of the following is the best interpretation of the statement \"f(3) is approximately equal to 7,430.64\" in this context?",
+    "passage": "A savings account is opened with an initial deposit of $ 7,000. The amount of money in the account t years after the initial deposit is given by the function $ f(t)=7,000(1.01)^{2t}. Which of the following is the best interpretation of the statement \"f(3) is approximately equal to 7,430.64\" in this context?",
     "question_text": null,
     "choices": [
       {
@@ -277,19 +277,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$180\\le x\\le360$"
+        "text": "$ 180\\le x\\le360 $"
       },
       {
         "label": "B",
-        "text": "$150\\le x\\le180$"
+        "text": "$ 150\\le x\\le180 $"
       },
       {
         "label": "C",
-        "text": "$53\\le x\\le63$"
+        "text": "$ 53\\le x\\le63 $"
       },
       {
         "label": "D",
-        "text": "$50\\le x\\le60$"
+        "text": "$ 50\\le x\\le60 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -309,7 +309,7 @@
   {
     "question_number": 14,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "The graph of -6x+4.4y=-660 in the xy-plane has intercepts at (a,0) and (0,b). What is the value of ab?",
+    "passage": "The graph of -6x+4.4y=-660 in the xy-plane has intercepts at (a,0) and (0, b). What is the value of ab?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -319,7 +319,7 @@
   {
     "question_number": 15,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "x+24y=60 5x+3y=27 The solution to the given system of equations is (x,y). What is the value of y?",
+    "passage": "x+24y=60 5x+3y=27 The solution to the given system of equations is (x, y). What is the value of y?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -356,24 +356,24 @@
   {
     "question_number": 17,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "$a=\\frac{3}{11}b+6$ The given equation relates the positive numbers a and b. Which equation correctly expresses b in terms of a?",
+    "passage": "$ a=\\frac{3}{11}b+6 $ The given equation relates the positive numbers a and b. Which equation correctly expresses b in terms of a?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$b=\\frac{3}{11}a+6$"
+        "text": "$ b=\\frac{3}{11}a+6 $"
       },
       {
         "label": "B",
-        "text": "$b=\\frac{3}{11}a-22$"
+        "text": "$ b=\\frac{3}{11}a-22 $"
       },
       {
         "label": "C",
-        "text": "$b=\\frac{11}{3}a-6$"
+        "text": "$ b=\\frac{11}{3}a-6 $"
       },
       {
         "label": "D",
-        "text": "$b=\\frac{11}{3}a-22$"
+        "text": "$ b=\\frac{11}{3}a-22 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -474,7 +474,7 @@
   {
     "question_number": 22,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "$y=3x^{2}-24x+51$ $y+4=0$ How many solutions are there to the given system of equations?",
+    "passage": "$ y=3x^{2}-24x+51 $ $ y+4=0 $ How many solutions are there to the given system of equations?",
     "question_text": null,
     "choices": [
       {

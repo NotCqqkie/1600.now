@@ -34,19 +34,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x^{4}+x^{2}+185$"
+        "text": "$ x^{4}+x^{2}+185 $"
       },
       {
         "label": "B",
-        "text": "$x^{4}+12x^{2}+121$"
+        "text": "$ x^{4}+12x^{2}+121 $"
       },
       {
         "label": "C",
-        "text": "$x^{4}+23x^{2}-53$"
+        "text": "$ x^{4}+23x^{2}-53 $"
       },
       {
         "label": "D",
-        "text": "$x^{4}+23x^{2}+57$"
+        "text": "$ x^{4}+23x^{2}+57 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -284,19 +284,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x=\\frac{5y}{8}$"
+        "text": "$ x=\\frac{5y}{8}$"
       },
       {
         "label": "B",
-        "text": "$x=\\frac{8y}{5}$"
+        "text": "$ x=\\frac{8y}{5}$"
       },
       {
         "label": "C",
-        "text": "$x=\\frac{y}{40}$"
+        "text": "$ x=\\frac{y}{40}$"
       },
       {
         "label": "D",
-        "text": "$x=\\frac{40}{y}$"
+        "text": "$ x=\\frac{40}{y}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -311,15 +311,15 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=490(0.80)^{\\frac{x}{5}}$"
+        "text": "$ f(x)=490(0.80)^{\\frac{x}{5}}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=490(0.80)^{\\frac{5x}{}}$"
+        "text": "$ f(x)=490(0.80)^{\\frac{5x}{}}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=490(0.20)^{\\frac{x}{5}}$"
+        "text": "$ f(x)=490(0.20)^{\\frac{x}{5}}$"
       },
       {
         "label": "D",
@@ -338,19 +338,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$9(4n)+8n+3(15)=100$"
+        "text": "$ 9(4n)+8n+3(15)=100 $"
       },
       {
         "label": "B",
-        "text": "$9n+8n+3n=100$"
+        "text": "$ 9n+8n+3n=100 $"
       },
       {
         "label": "C",
-        "text": "$4n+15=100$"
+        "text": "$ 4n+15=100 $"
       },
       {
         "label": "D",
-        "text": "$5n+15=100$"
+        "text": "$ 5n+15=100 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -400,7 +400,7 @@
       },
       {
         "label": "C",
-        "text": "3$\\sqrt{13}$"
+        "text": "3 $\\sqrt{13}$"
       },
       {
         "label": "D",
@@ -446,19 +446,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=d-cx$"
+        "text": "$ f(x)=d-cx $"
       },
       {
         "label": "B",
-        "text": "$f(x)=-d+cx$"
+        "text": "$ f(x)=-d+cx $"
       },
       {
         "label": "C",
-        "text": "$f(x)=d+cx$"
+        "text": "$ f(x)=d+cx $"
       },
       {
         "label": "D",
-        "text": "$f(x)=-d-cx$"
+        "text": "$ f(x)=-d-cx $"
       }
     ],
     "is_fill_in_blank": false,
@@ -478,7 +478,7 @@
   {
     "question_number": 19,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "$\\sqrt{k-x}=32-x$ In the given equation, k is a constant. The equation has exactly one real solution. What is the minimum possible value of 4 k?",
+    "passage": "$\\sqrt{k-x}=32-x $ In the given equation, k is a constant. The equation has exactly one real solution. What is the minimum possible value of 4 k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -493,19 +493,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$3x^{2}+7x+14b$"
+        "text": "$ 3x^{2}+7x+14b $"
       },
       {
         "label": "B",
-        "text": "$3x^{2}+16x+14b$"
+        "text": "$ 3x^{2}+16x+14b $"
       },
       {
         "label": "C",
-        "text": "$3x^{2}+18x+14b$"
+        "text": "$ 3x^{2}+18x+14b $"
       },
       {
         "label": "D",
-        "text": "$3x^{2}+25x+14b$"
+        "text": "$ 3x^{2}+25x+14b $"
       }
     ],
     "is_fill_in_blank": false,
@@ -515,7 +515,7 @@
   {
     "question_number": 21,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "$x(kx-40)=-8$ In the given equation, k is an integer constant. If the equation has two distinct real solutions,what is the greatest possible value of k?",
+    "passage": "$ x(kx-40)=-8 $ In the given equation, k is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

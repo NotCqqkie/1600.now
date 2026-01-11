@@ -29,24 +29,24 @@
   {
     "question_number": 2,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "Sabrina has a goal to save at least $240. Sabrina has already saved $180. If x represents the additional amount of money, in dollars, Sabrina needs to save to meet her goal, which inequality represents this situation?",
+    "passage": "Sabrina has a goal to save at least $ 240. Sabrina has already saved $ 180. If x represents the additional amount of money, in dollars, Sabrina needs to save to meet her goal, which inequality represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{x}{180}\\ge240$"
+        "text": "$\\frac{x}{180}\\ge240 $"
       },
       {
         "label": "B",
-        "text": "$180x\\ge240$"
+        "text": "$ 180x\\ge240 $"
       },
       {
         "label": "C",
-        "text": "$180+x\\ge240$"
+        "text": "$ 180+x\\ge240 $"
       },
       {
         "label": "D",
-        "text": "$180-x\\ge240$"
+        "text": "$ 180-x\\ge240 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -152,19 +152,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=90(1.20)^{x}$"
+        "text": "$ y=90(1.20)^{x}$"
       },
       {
         "label": "B",
-        "text": "$y=90(1.02)^{x}$"
+        "text": "$ y=90(1.02)^{x}$"
       },
       {
         "label": "C",
-        "text": "$y=20(1.90)^{x}$"
+        "text": "$ y=20(1.90)^{x}$"
       },
       {
         "label": "D",
-        "text": "$y=20(1.09)^{x}$"
+        "text": "$ y=20(1.09)^{x}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -179,19 +179,19 @@
     "choices": [
       {
         "label": "A",
-        "text": ",y=7x+3"
+        "text": ", y=7x+3"
       },
       {
         "label": "B",
-        "text": ",y=-3x+3"
+        "text": ", y=-3x+3"
       },
       {
         "label": "C",
-        "text": ",y=-7x+3"
+        "text": ", y=-7x+3"
       },
       {
         "label": "D",
-        "text": ",y=3x+3"
+        "text": ", y=3x+3"
       }
     ],
     "is_fill_in_blank": false,
@@ -285,7 +285,7 @@
   {
     "question_number": 14,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "What is the slope of the graph of $y=\\frac{1}{2}(15x+12)+3x$ in the xy-plane?",
+    "passage": "What is the slope of the graph of $ y=\\frac{1}{2}(15x+12)+3x $ in the xy-plane?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -295,7 +295,7 @@
   {
     "question_number": 15,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "The table shows three values of x and their corresponding values of f(x), where $f(x)=\\frac{kx+45}{x+2}$ and k is a constant. what is the value of k?",
+    "passage": "The table shows three values of x and their corresponding values of f(x), where $ f(x)=\\frac{kx+45}{x+2}$ and k is a constant. what is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -305,7 +305,7 @@
   {
     "question_number": 16,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "The function f is defined by $f(x)=\\frac{x+11}{3}$, and f(a)= 16, where a is a constant. What is the value of a?",
+    "passage": "The function f is defined by $ f(x)=\\frac{x+11}{3}$, and f(a)= 16, where a is a constant. What is the value of a?",
     "question_text": null,
     "choices": [
       {

@@ -2,7 +2,7 @@
   {
     "question_number": 1,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "$s=40+2t$ The equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?",
+    "passage": "$ s=40+2t $ The equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?",
     "question_text": null,
     "choices": [
       {
@@ -34,19 +34,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=0.8+1.7x$"
+        "text": "$ y=0.8+1.7x $"
       },
       {
         "label": "B",
-        "text": "$y=0.8-1.7x$"
+        "text": "$ y=0.8-1.7x $"
       },
       {
         "label": "C",
-        "text": "$y=-0.8+1.7x$"
+        "text": "$ y=-0.8+1.7x $"
       },
       {
         "label": "D",
-        "text": "$y=-0.8-1.7x$"
+        "text": "$ y=-0.8-1.7x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -157,7 +157,7 @@
   {
     "question_number": 8,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "$x+7=13$ $y=5x^{2}+5$ At what point (x, y) do the graphs of the equations in the given system intersect?",
+    "passage": "$ x+7=13 $ $ y=5x^{2}+5 $ At what point (x, y) do the graphs of the equations in the given system intersect?",
     "question_text": null,
     "choices": [
       {
@@ -184,7 +184,7 @@
   {
     "question_number": 9,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "The expression $19x^{5}+20x^{5}-10x^{5}$ is equivalent to $bx^{5}$, where b is a constant. What is the value of b?",
+    "passage": "The expression $ 19x^{5}+20x^{5}-10x^{5}$ is equivalent to $ bx^{5}$, where b is a constant. What is the value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -221,7 +221,7 @@
   {
     "question_number": 11,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "$f(x)=22$ For the given linear function f, which table gives three values of x and their corresponding values of f(x)?",
+    "passage": "$ f(x)=22 $ For the given linear function f, which table gives three values of x and their corresponding values of f(x)?",
     "question_text": null,
     "choices": [
       {
@@ -265,19 +265,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x=34$"
+        "text": "$ x=34 $"
       },
       {
         "label": "B",
-        "text": "$y=146$"
+        "text": "$ y=146 $"
       },
       {
         "label": "C",
-        "text": "$w+y=180$"
+        "text": "$ w+y=180 $"
       },
       {
         "label": "D",
-        "text": "$y+z=180$"
+        "text": "$ y+z=180 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -292,11 +292,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$133·\\sqrt{y}$"
+        "text": "$ 133·\\sqrt{y}$"
       },
       {
         "label": "B",
-        "text": "$\\sqrt{133}·y$"
+        "text": "$\\sqrt{133}·y $"
       },
       {
         "label": "C",
@@ -314,7 +314,7 @@
   {
     "question_number": 14,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "$f(x)=-26(2)^{\\frac{x}{6}}$ Which table gives four values of x and their corresponding values of f(x) for the given exponential function?",
+    "passage": "$ f(x)=-26(2)^{\\frac{x}{6}}$ Which table gives four values of x and their corresponding values of f(x) for the given exponential function?",
     "question_text": null,
     "choices": [
       {
@@ -392,7 +392,7 @@
   {
     "question_number": 16,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "A school is ordering tablet computers for its students. The tablets cost 164 each.and 6% tax is added to the total cost of the order. If the school can spend no more than 44,800 dollars on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+    "passage": "A school is ordering tablet computers for its students. The tablets cost 164 each. and 6% tax is added to the total cost of the order. If the school can spend no more than 44,800 dollars on the tablets, including tax, what is the maximum number of tablets that the school can order?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -439,7 +439,7 @@
   {
     "question_number": 19,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "$x(x+4)-140=3x(x-10)$ What is the sum of the solutions to the given equation?",
+    "passage": "$ x(x+4)-140=3x(x-10)$ What is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -466,7 +466,7 @@
   {
     "question_number": 20,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "$-3x^{2}-7x+1=0$ What is the greatest solution to the given equation?",
+    "passage": "$-3x^{2}-7x+1=0 $ What is the greatest solution to the given equation?",
     "question_text": null,
     "choices": [
       {

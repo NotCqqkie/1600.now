@@ -29,7 +29,7 @@
   {
     "question_number": 2,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "If $7x+5=47$, what is the value of $70x+50$?",
+    "passage": "If $ 7x+5=47 $, what is the value of $ 70x+50 $?",
     "question_text": null,
     "choices": [
       {
@@ -278,7 +278,7 @@
   {
     "question_number": 15,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "△ QPR is similar to △ STR. The lengths represented by$\\overline{ST}$, $\\overline{QP}$, $\\overline{PR}$, and $\\overline{QR}$ in the figure are 11, 18, 24, and 30, respectively. What is the length of $\\overline{SR}$?",
+    "passage": "△ QPR is similar to △ STR. The lengths represented by $\\overline{ST}$, $\\overline{QP}$, $\\overline{PR}$, and $\\overline{QR}$ in the figure are 11, 18, 24, and 30, respectively. What is the length of $\\overline{SR}$?",
     "question_text": null,
     "choices": [
       {
@@ -386,7 +386,7 @@
   {
     "question_number": 19,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "A moving truck rental company charges its customers $195 for the first hour of renting a truck and $75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where y is the total cost, in dollars, of renting a truck from this company for x hours, w is the cost, in dollars, of gas used, and x ≥ 1?",
+    "passage": "A moving truck rental company charges its customers $ 195 for the first hour of renting a truck and $ 75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where y is the total cost, in dollars, of renting a truck from this company for x hours, w is the cost, in dollars, of gas used, and x ≥ 1?",
     "question_text": null,
     "choices": [
       {
@@ -430,7 +430,7 @@
       },
       {
         "label": "D",
-        "text": "$32\\sqrt{3}$"
+        "text": "$ 32\\sqrt{3}$"
       }
     ],
     "is_fill_in_blank": false,

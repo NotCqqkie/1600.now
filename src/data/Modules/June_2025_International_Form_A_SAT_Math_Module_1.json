@@ -17,19 +17,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$s\\le20$"
+        "text": "$ s\\le20 $"
       },
       {
         "label": "B",
-        "text": "$s\\le125$"
+        "text": "$ s\\le125 $"
       },
       {
         "label": "C",
-        "text": "$s\\le145$"
+        "text": "$ s\\le145 $"
       },
       {
         "label": "D",
-        "text": "$125\\le s\\le145$"
+        "text": "$ 125\\le s\\le145 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -71,19 +71,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x^{3}+6x^{2}-7x+30$"
+        "text": "$ x^{3}+6x^{2}-7x+30 $"
       },
       {
         "label": "B",
-        "text": "$x^{3}+8x^{2}-7x+30$"
+        "text": "$ x^{3}+8x^{2}-7x+30 $"
       },
       {
         "label": "C",
-        "text": "$x^{3}+14x^{2}-7x+30$"
+        "text": "$ x^{3}+14x^{2}-7x+30 $"
       },
       {
         "label": "D",
-        "text": "$x^{3}+5x^{2}-7x+30$"
+        "text": "$ x^{3}+5x^{2}-7x+30 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -93,7 +93,7 @@
   {
     "question_number": 5,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by $f(x)=x^{3}+19$. What is the value of f (2)?",
+    "passage": "The function f is defined by $ f(x)=x^{3}+19 $. What is the value of f (2)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -103,7 +103,7 @@
   {
     "question_number": 6,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "The function g is defined by $g(x)=\\frac{x}{2}$. For what value of x does $g(x)=224$?",
+    "passage": "The function g is defined by $ g(x)=\\frac{x}{2}$. For what value of x does $ g(x)=224 $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -140,7 +140,7 @@
   {
     "question_number": 8,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "The y -intercept of the graph of $y=x^{2}+15$ in the xy - plane is (0, y). What is the value of y?",
+    "passage": "The y -intercept of the graph of $ y=x^{2}+15 $ in the xy - plane is (0, y). What is the value of y?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -211,7 +211,7 @@
   {
     "question_number": 11,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "$y=-\\frac{1}{8}x$ $y=\\frac{1}{10}x$ The solution to the given system of equations is (x, y). What is the value of x?",
+    "passage": "$ y=-\\frac{1}{8}x $ $ y=\\frac{1}{10}x $ The solution to the given system of equations is (x, y). What is the value of x?",
     "question_text": null,
     "choices": [
       {
@@ -243,19 +243,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$c=800(0.05)^{m}$"
+        "text": "$ c=800(0.05)^{m}$"
       },
       {
         "label": "B",
-        "text": "$c=800(1.05)^{m}$"
+        "text": "$ c=800(1.05)^{m}$"
       },
       {
         "label": "C",
-        "text": "$c=800(1.5)^{m}$"
+        "text": "$ c=800(1.5)^{m}$"
       },
       {
         "label": "D",
-        "text": "$c=800(5)^{m}$"
+        "text": "$ c=800(5)^{m}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -265,7 +265,7 @@
   {
     "question_number": 13,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "The function $f(t)=60,000(2)^{\\frac{t}{580}}$ gives the number of bacteria in a population t minutes after an initial observation, How much time, in minutes, does it take for the number of bacteria in the population to double?",
+    "passage": "The function $ f(t)=60,000(2)^{\\frac{t}{580}}$ gives the number of bacteria in a population t minutes after an initial observation, How much time, in minutes, does it take for the number of bacteria in the population to double?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -302,7 +302,7 @@
   {
     "question_number": 15,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "$y=\\frac{3}{8}x+2$ One of two equations in a system of linear equations is given. The system has infinitely many solutions. What is the slope of the graph of the second equation?",
+    "passage": "$ y=\\frac{3}{8}x+2 $ One of two equations in a system of linear equations is given. The system has infinitely many solutions. What is the slope of the graph of the second equation?",
     "question_text": null,
     "choices": [
       {
@@ -329,7 +329,7 @@
   {
     "question_number": 16,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "If $4x^{2}-32x-40=0$, what is the value of $x^{2}-8x$?",
+    "passage": "If $ 4x^{2}-32x-40=0 $, what is the value of $ x^{2}-8x $?",
     "question_text": null,
     "choices": [
       {
@@ -388,19 +388,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=\\frac{3}{4}x-8$"
+        "text": "$ y=\\frac{3}{4}x-8 $"
       },
       {
         "label": "B",
-        "text": "$y=\\frac{3}{4}x-38$"
+        "text": "$ y=\\frac{3}{4}x-38 $"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{4}{3}x-8$"
+        "text": "$ y=\\frac{4}{3}x-8 $"
       },
       {
         "label": "D",
-        "text": "$y=\\frac{4}{3}x-38$"
+        "text": "$ y=\\frac{4}{3}x-38 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -464,7 +464,7 @@
   {
     "question_number": 21,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "$f(x)=(x-4)^{2}+6$ What is the minimum value of the given function?",
+    "passage": "$ f(x)=(x-4)^{2}+6 $ What is the minimum value of the given function?",
     "question_text": null,
     "choices": [
       {

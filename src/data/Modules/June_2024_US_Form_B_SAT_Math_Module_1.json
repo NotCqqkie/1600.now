@@ -5,10 +5,22 @@
     "passage": "Which expression is equivalent to 7 xy (2x 2 + 8y)?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "x 3 y + 15 xy 2" },
-      { "label": "B", "text": "x 2 y + 8 y" },
-      { "label": "C", "text": "x 2 y + 56 xy" },
-      { "label": "D", "text": "x 3 y + 56 xy 2" }
+      {
+        "label": "A",
+        "text": "x 3 y + 15 xy 2"
+      },
+      {
+        "label": "B",
+        "text": "x 2 y + 8 y"
+      },
+      {
+        "label": "C",
+        "text": "x 2 y + 56 xy"
+      },
+      {
+        "label": "D",
+        "text": "x 3 y + 56 xy 2"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
@@ -20,10 +32,22 @@
     "passage": "Which expression is equivalent to 7 x 5 − 5 x 4 + 9 x 3?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "x 4 (7 x − 5)" },
-      { "label": "B", "text": "x 3 (7 x 2 − 5 x + 9)" },
-      { "label": "C", "text": "x 3 (7 x 2 − 5 x + 1)" },
-      { "label": "D", "text": "x 5 (−5 x 4 + 9 x 3 + 1)" }
+      {
+        "label": "A",
+        "text": "x 4 (7 x − 5)"
+      },
+      {
+        "label": "B",
+        "text": "x 3 (7 x 2 − 5 x + 9)"
+      },
+      {
+        "label": "C",
+        "text": "x 3 (7 x 2 − 5 x + 1)"
+      },
+      {
+        "label": "D",
+        "text": "x 5 (−5 x 4 + 9 x 3 + 1)"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
@@ -35,10 +59,22 @@
     "passage": "The height of a certain vehicle is 76 inches. The vehicle’s length is 4 times its height. Which of the following systems of equations represents this situation, where x is the length of the vehicle, in inches, and y is the height of the vehicle, in inches?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "x = 4 y\nx = 76" },
-      { "label": "B", "text": "x = 4 y\ny = 76" },
-      { "label": "C", "text": "y = 4 x\nx = 76" },
-      { "label": "D", "text": "y = 4 x\ny = 76" }
+      {
+        "label": "A",
+        "text": "x = 4 y\nx = 76"
+      },
+      {
+        "label": "B",
+        "text": "x = 4 y\ny = 76"
+      },
+      {
+        "label": "C",
+        "text": "y = 4 x\nx = 76"
+      },
+      {
+        "label": "D",
+        "text": "y = 4 x\ny = 76"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
@@ -50,10 +86,22 @@
     "passage": "For the linear function f, the graph of y = f(x) in the xy -plane has a slope of 51 and passes through the point (0, 0). Which equation defines f?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "f(x) = 51 x" },
-      { "label": "B", "text": "f(x) = 34 x" },
-      { "label": "C", "text": "f(x) = 17 x" },
-      { "label": "D", "text": "f(x) = x" }
+      {
+        "label": "A",
+        "text": "f(x) = 51 x"
+      },
+      {
+        "label": "B",
+        "text": "f(x) = 34 x"
+      },
+      {
+        "label": "C",
+        "text": "f(x) = 17 x"
+      },
+      {
+        "label": "D",
+        "text": "f(x) = x"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
@@ -62,13 +110,25 @@
   {
     "question_number": 5,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The function g is defined by g(x) =$\\frac{8}{9}x$ -$\\frac{4}{9}$. What is the value of g (18)?",
+    "passage": "The function g is defined by g(x) =$\\frac{8}{9}x $ -$\\frac{4}{9}$. What is the value of g (18)?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "$\\frac{68}{9}$" },
-      { "label": "B", "text": "$\\frac{76}{9}$" },
-      { "label": "C", "text": "$\\frac{140}{9}$" },
-      { "label": "D", "text": "$\\frac{148}{9}$" }
+      {
+        "label": "A",
+        "text": "$\\frac{68}{9}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{76}{9}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{140}{9}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{148}{9}$"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
@@ -77,13 +137,25 @@
   {
     "question_number": 6,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "$\\frac{5}{2}x$ -$\\frac{1}{5}y$ =48 x +2 y =-12 The solution to the given system of equations is (x, y). What is the value of x + y?",
+    "passage": "$\\frac{5}{2}x $ -$\\frac{1}{5}y $ =48 x +2 y =-12 The solution to the given system of equations is (x, y). What is the value of x + y?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "-12" },
-      { "label": "B", "text": "-3" },
-      { "label": "C", "text": "3" },
-      { "label": "D", "text": "12" }
+      {
+        "label": "A",
+        "text": "-12"
+      },
+      {
+        "label": "B",
+        "text": "-3"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
@@ -104,10 +176,22 @@
     "passage": "The estimated height h, in feet, of a tree t years after it was first measured is modeled by h(t) = 4 + 1.6 t. Which statement best interprets the constant term of this model?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "The tree is estimated to lose 4 feet of height each year." },
-      { "label": "B", "text": "The tree is estimated to grow to a maximum height of 4 feet." },
-      { "label": "C", "text": "The estimated height of the tree increased by 4 feet each year." },
-      { "label": "D", "text": "The estimated height of the tree was 4 feet when it was first measured." }
+      {
+        "label": "A",
+        "text": "The tree is estimated to lose 4 feet of height each year."
+      },
+      {
+        "label": "B",
+        "text": "The tree is estimated to grow to a maximum height of 4 feet."
+      },
+      {
+        "label": "C",
+        "text": "The estimated height of the tree increased by 4 feet each year."
+      },
+      {
+        "label": "D",
+        "text": "The estimated height of the tree was 4 feet when it was first measured."
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
@@ -126,13 +210,25 @@
   {
     "question_number": 10,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The table gives the perimeters of similar triangles TUV and XYZ, where $\\overline{TU}$ corresponds to$\\overline{XY}$. The length of$\\overline{TU}$ is 9. What is the length of $\\overline{XY}$?",
+    "passage": "The table gives the perimeters of similar triangles TUV and XYZ, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 9. What is the length of $\\overline{XY}$?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "3" },
-      { "label": "B", "text": "9" },
-      { "label": "C", "text": "27" },
-      { "label": "D", "text": "39" }
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "27"
+      },
+      {
+        "label": "D",
+        "text": "39"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
@@ -144,10 +240,22 @@
     "passage": "If 4(5-7 x) + 3 = 3(5-7 x) +15. what is the value of 5 - 7 x?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "-12" },
-      { "label": "B", "text": "-1" },
-      { "label": "C", "text": "1" },
-      { "label": "D", "text": "12" }
+      {
+        "label": "A",
+        "text": "-12"
+      },
+      {
+        "label": "B",
+        "text": "-1"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
@@ -156,13 +264,25 @@
   {
     "question_number": 12,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "x + 48 = y (x + 48) 2 = y A solution to the given system of equations is (x,y). What is a possible value of x?",
+    "passage": "x + 48 = y (x + 48) 2 = y A solution to the given system of equations is (x, y). What is a possible value of x?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "-47" },
-      { "label": "B", "text": "0" },
-      { "label": "C", "text": "1" },
-      { "label": "D", "text": "48" }
+      {
+        "label": "A",
+        "text": "-47"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "48"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
@@ -174,10 +294,22 @@
     "passage": "A circle in the xy -plane has the equation (x - 14) 2 + (y - k) 2 = 81. Which of the following gives the center of the circle and its radius?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "The center is at (14, k) and the radius is 9." },
-      { "label": "B", "text": "The center is at (k, 14)and the radius is 9." },
-      { "label": "C", "text": "The center is at (14, k)and the radius is 81." },
-      { "label": "D", "text": "The center is at (k, 14)and the radius is 81." }
+      {
+        "label": "A",
+        "text": "The center is at (14, k) and the radius is 9."
+      },
+      {
+        "label": "B",
+        "text": "The center is at (k, 14)and the radius is 9."
+      },
+      {
+        "label": "C",
+        "text": "The center is at (14, k)and the radius is 81."
+      },
+      {
+        "label": "D",
+        "text": "The center is at (k, 14)and the radius is 81."
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
@@ -189,10 +321,22 @@
     "passage": "The town of Fillmore is planning its annual fireworks show. The equation y = -16 (x - 6.9) 2 + 762 gives the estimated height y, in feet, of a type of firework x seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the xy-plane?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "This type of firework reaches an estimated maximum height of 6.9 feet 762 seconds after it is launched into the air." },
-      { "label": "B", "text": "This type of firework reaches an estimated maximum height of 16 feet 762 seconds after it is launched into the air." },
-      { "label": "C", "text": "This type of firework reaches an estimated maximum height of 762 feet 6.9 seconds after it is launched into the air." },
-      { "label": "D", "text": "This type of firework reaches an estimated maximum height of 762 feet 16 seconds after it is launched into the air." }
+      {
+        "label": "A",
+        "text": "This type of firework reaches an estimated maximum height of 6.9 feet 762 seconds after it is launched into the air."
+      },
+      {
+        "label": "B",
+        "text": "This type of firework reaches an estimated maximum height of 16 feet 762 seconds after it is launched into the air."
+      },
+      {
+        "label": "C",
+        "text": "This type of firework reaches an estimated maximum height of 762 feet 6.9 seconds after it is launched into the air."
+      },
+      {
+        "label": "D",
+        "text": "This type of firework reaches an estimated maximum height of 762 feet 16 seconds after it is launched into the air."
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
@@ -201,13 +345,25 @@
   {
     "question_number": 15,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The graph of y = f (x) is shown where f(x) = $αx3+ bx2+ cx + d$ and $α,b,c,$and $d$ are constants. For how many distinct values of x does f(x) =0?",
+    "passage": "The graph of y = f (x) is shown where f(x) = $αx3+ bx2+ cx + d $ and $α, b, c,$ and $ d $ are constants. For how many distinct values of x does f(x) =0?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "One" },
-      { "label": "B", "text": "Two" },
-      { "label": "C", "text": "Three" },
-      { "label": "D", "text": "Four" }
+      {
+        "label": "A",
+        "text": "One"
+      },
+      {
+        "label": "B",
+        "text": "Two"
+      },
+      {
+        "label": "C",
+        "text": "Three"
+      },
+      {
+        "label": "D",
+        "text": "Four"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
@@ -219,10 +375,22 @@
     "passage": "Which expression represents the length of line segment AB?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "sin 57°" },
-      { "label": "B", "text": "$\\frac{18}{sin57^\\circ}$" },
-      { "label": "C", "text": "cos 57°" },
-      { "label": "D", "text": "$\\frac{18}{cos57^\\circ}$" }
+      {
+        "label": "A",
+        "text": "sin 57°"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{18}{sin57^\\circ}$"
+      },
+      {
+        "label": "C",
+        "text": "cos 57°"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{18}{cos57^\\circ}$"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
@@ -244,10 +412,22 @@
     "passage": "Point O is the center of a unit circle in the xy -plane, and its coordinates are (0,0). Point A lies on the unit circle, and its coordinates are (0,1). Point P on the unit circle is obtained by rotating point A $\\frac{7\\pi}{6}$ radians about the origin in the counterclockwise direction. What are the coordinates of point P?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "$(-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2})$" },
-      { "label": "B", "text": "$(-\\frac{1}{2}, -\\frac{\\sqrt{3}}{2})$" },
-      { "label": "C", "text": "$(-\\frac{\\sqrt{3}}{2}, \\frac{1}{2})$" },
-      { "label": "D", "text": "$(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2})$" }
+      {
+        "label": "A",
+        "text": "$(-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2})$"
+      },
+      {
+        "label": "B",
+        "text": "$(-\\frac{1}{2}, -\\frac{\\sqrt{3}}{2})$"
+      },
+      {
+        "label": "C",
+        "text": "$(-\\frac{\\sqrt{3}}{2}, \\frac{1}{2})$"
+      },
+      {
+        "label": "D",
+        "text": "$(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2})$"
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
@@ -289,10 +469,22 @@
     "passage": "The dot plot shows the distribution of capacity for a set of capacitors, set A, which a researcher used for a certain experiment. For another experiment, the researcher used a different set of capacitors, set B. Set B has the same number of capacitors as set A but the capacity of each capacitor of set B is 13 microfarads (μF) greater than the capacity of each respective capacitor in set A. Which of the following is true about the capacities of the capacitors in set B?",
     "question_text": null,
     "choices": [
-      { "label": "A", "text": "The mean capacity is 8 μF, and the range of capacities is 12 μF." },
-      { "label": "B", "text": "The mean capacity is 8 μF, and the range of capacities is 25 μF." },
-      { "label": "C", "text": "The mean capacity is 21 μF, and the range of capacities is 12 μF." },
-      { "label": "D", "text": "The mean capacity is 21 μF, and the range of capacities is 25 μF." }
+      {
+        "label": "A",
+        "text": "The mean capacity is 8 μF, and the range of capacities is 12 μF."
+      },
+      {
+        "label": "B",
+        "text": "The mean capacity is 8 μF, and the range of capacities is 25 μF."
+      },
+      {
+        "label": "C",
+        "text": "The mean capacity is 21 μF, and the range of capacities is 12 μF."
+      },
+      {
+        "label": "D",
+        "text": "The mean capacity is 21 μF, and the range of capacities is 25 μF."
+      }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",

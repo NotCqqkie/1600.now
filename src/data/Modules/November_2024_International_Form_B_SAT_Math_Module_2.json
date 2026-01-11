@@ -7,19 +7,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-\\frac{1}{4}x-19$"
+        "text": "$ y=-\\frac{1}{4}x-19 $"
       },
       {
         "label": "B",
-        "text": "$y=-\\frac{1}{4}x +19$"
+        "text": "$ y=-\\frac{1}{4}x +19 $"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{1}{4}x-19$"
+        "text": "$ y=\\frac{1}{4}x-19 $"
       },
       {
         "label": "D",
-        "text": "$y=\\frac{1}{4}x +19$"
+        "text": "$ y=\\frac{1}{4}x +19 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -34,19 +34,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x\\le21$"
+        "text": "$ x\\le21 $"
       },
       {
         "label": "B",
-        "text": "$x\\ge48$"
+        "text": "$ x\\ge48 $"
       },
       {
         "label": "C",
-        "text": "$21\\le x\\le27$"
+        "text": "$ 21\\le x\\le27 $"
       },
       {
         "label": "D",
-        "text": "$27\\le x\\le 48$"
+        "text": "$ 27\\le x\\le 48 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -83,24 +83,24 @@
   {
     "question_number": 4,
     "test_name": "November 2024 International Form B SAT Math Module 2",
-    "passage": "$u=-\\frac{w}{188x}$ The given equation relates the distinct positive numbers u, w, and x. Which equationcorrectly expresses w in terms of u and x?",
+    "passage": "$ u=-\\frac{w}{188x}$ The given equation relates the distinct positive numbers u, w, and x. Which equationcorrectly expresses w in terms of u and x?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$w=-188ux$"
+        "text": "$ w=-188ux $"
       },
       {
         "label": "B",
-        "text": "$w=-\\frac{188u}{x}$"
+        "text": "$ w=-\\frac{188u}{x}$"
       },
       {
         "label": "C",
-        "text": "$w=\\frac{x}{188u}$"
+        "text": "$ w=\\frac{x}{188u}$"
       },
       {
         "label": "D",
-        "text": "$w=u+188x$"
+        "text": "$ w=u+188x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -191,20 +191,20 @@
   {
     "question_number": 8,
     "test_name": "November 2024 International Form B SAT Math Module 2",
-    "passage": "In triangle ABC, angle B is a right angle. The length of side AB is $10\\sqrt{39}$ and the length of side BC is $24\\sqrt{39}$. What is the length of side AC?",
+    "passage": "In triangle ABC, angle B is a right angle. The length of side AB is $ 10\\sqrt{39}$ and the length of side BC is $ 24\\sqrt{39}$. What is the length of side AC?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$14\\sqrt{39}$"
+        "text": "$ 14\\sqrt{39}$"
       },
       {
         "label": "B",
-        "text": "$26\\sqrt{39}$"
+        "text": "$ 26\\sqrt{39}$"
       },
       {
         "label": "C",
-        "text": "$34\\sqrt{39}$"
+        "text": "$ 34\\sqrt{39}$"
       },
       {
         "label": "D",
@@ -218,16 +218,16 @@
   {
     "question_number": 9,
     "test_name": "November 2024 International Form B SAT Math Module 2",
-    "passage": "To cut a lawn, Antwan charges a fee of $10.00 for his equipment and $8.50 per hour spent cutting a lawn, Taylor charges a fee of $7.00 for her equipment and $9.50 per hour spent cutting a lawn, If x represents the number of hours spent cutting a lawn, what are all the values of x for which Taylor's total charge is greater than Antwan's total charge?",
+    "passage": "To cut a lawn, Antwan charges a fee of $ 10.00 for his equipment and $ 8.50 per hour spent cutting a lawn, Taylor charges a fee of $ 7.00 for her equipment and $ 9.50 per hour spent cutting a lawn, If x represents the number of hours spent cutting a lawn, what are all the values of x for which Taylor's total charge is greater than Antwan's total charge?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$2\\le x\\le3$"
+        "text": "$ 2\\le x\\le3 $"
       },
       {
         "label": "B",
-        "text": "$3\\le x\\le 4$"
+        "text": "$ 3\\le x\\le 4 $"
       },
       {
         "label": "C",
@@ -400,7 +400,7 @@
   {
     "question_number": 17,
     "test_name": "November 2024 International Form B SAT Math Module 2",
-    "passage": "The function $f$ is defined by $f(x)=a^{x}+b$, where $a$ and $b$ are constants and a >0. In the xy-plane, the graph of $y=f(x)$ has a $y$ -intercept at (0,-20) and passes through the point (2, 43). What is the value of $a-b$?",
+    "passage": "The function $ f $ is defined by $ f(x)=a^{x}+b $, where $ a $ and $ b $ are constants and a >0. In the xy-plane, the graph of $ y=f(x)$ has a $ y $ -intercept at (0,-20) and passes through the point (2, 43). What is the value of $ a-b $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -410,24 +410,24 @@
   {
     "question_number": 18,
     "test_name": "November 2024 International Form B SAT Math Module 2",
-    "passage": "One gallon of sealant costs $23 and will cover 250 square feet of a surface. A deck has a total surface area of $d$ square feet. Which equation represents the cost $c, in dollars, of the sealant needed to cover the deck twice?",
+    "passage": "One gallon of sealant costs $ 23 and will cover 250 square feet of a surface. A deck has a total surface area of $ d $ square feet. Which equation represents the cost $ c, in dollars, of the sealant needed to cover the deck twice?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$c=\\frac{250d}{23}$"
+        "text": "$ c=\\frac{250d}{23}$"
       },
       {
         "label": "B",
-        "text": "$c=\\frac{500d}{23}$"
+        "text": "$ c=\\frac{500d}{23}$"
       },
       {
         "label": "C",
-        "text": "$c=23(\\frac{d}{125})$"
+        "text": "$ c=23(\\frac{d}{125})$"
       },
       {
         "label": "D",
-        "text": "$c=23(\\frac{d}{250})$"
+        "text": "$ c=23(\\frac{d}{250})$"
       }
     ],
     "is_fill_in_blank": false,
@@ -437,7 +437,7 @@
   {
     "question_number": 19,
     "test_name": "November 2024 International Form B SAT Math Module 2",
-    "passage": "A right square pyramid has a height of 11 centimeters (cm). A second right square pyramid has a height of 22 centimeters. The area of the bases of each of the two pyramids is 100 $cm^{2}$. Which of the following is closest to the difference in the surface area of the second pyramid and the surface area of the first pyramid, in $cm^{2}$?",
+    "passage": "A right square pyramid has a height of 11 centimeters (cm). A second right square pyramid has a height of 22 centimeters. The area of the bases of each of the two pyramids is 100 $ cm^{2}$. Which of the following is closest to the difference in the surface area of the second pyramid and the surface area of the first pyramid, in $ cm^{2}$?",
     "question_text": null,
     "choices": [
       {
@@ -474,7 +474,7 @@
   {
     "question_number": 21,
     "test_name": "November 2024 International Form B SAT Math Module 2",
-    "passage": "For triangle $ABC$, the length of $\\overline{AB}$ is 11 less than the length of $\\overline{AC}$. Point D (not shown) lies on $\\overline{AC}$ such that $\\overline{BD}$ (not shown) is perpendicular to $\\overline{AC}$. What is the value of $\\frac{BC}{BD}$?",
+    "passage": "For triangle $ ABC $, the length of $\\overline{AB}$ is 11 less than the length of $\\overline{AC}$. Point D (not shown) lies on $\\overline{AC}$ such that $\\overline{BD}$ (not shown) is perpendicular to $\\overline{AC}$. What is the value of $\\frac{BC}{BD}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -484,7 +484,7 @@
   {
     "question_number": 22,
     "test_name": "November 2024 International Form B SAT Math Module 2",
-    "passage": "$\\frac{1}{cx}=\\frac{x}{148}+\\frac{1}{c}$ In the given equation, $c$ is a constant. If the equation has exactly one solution, what is the value of $c$?",
+    "passage": "$\\frac{1}{cx}=\\frac{x}{148}+\\frac{1}{c}$ In the given equation, $ c $ is a constant. If the equation has exactly one solution, what is the value of $ c $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

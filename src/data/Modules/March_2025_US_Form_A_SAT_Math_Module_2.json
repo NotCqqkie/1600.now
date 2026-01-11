@@ -2,7 +2,7 @@
   {
     "question_number": 1,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "The function $f$ is defined by $f(x)$ =$6x-\\frac{1}{8}$. What is the y-intercept of the graph of$y=f(x)$ in the $xy$-plane?",
+    "passage": "The function $ f $ is defined by $ f(x)$ =$ 6x-\\frac{1}{8}$. What is the y-intercept of the graph of $ y=f(x)$ in the $ xy $-plane?",
     "question_text": null,
     "choices": [
       {
@@ -29,7 +29,7 @@
   {
     "question_number": 2,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "Which expression is equivalent to $(57y)^{\\frac{1}{2}}$, where y$>$1?",
+    "passage": "Which expression is equivalent to $(57y)^{\\frac{1}{2}}$, where y $>$ 1?",
     "question_text": null,
     "choices": [
       {
@@ -93,24 +93,24 @@
   {
     "question_number": 5,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "The number of bacteria in a liquid medium doubles every day. There are 48,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, $y$, in the liquid medium $t$ days after the start of the observation?",
+    "passage": "The number of bacteria in a liquid medium doubles every day. There are 48,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, $ y $, in the liquid medium $ t $ days after the start of the observation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$y=\\frac{1}{2}(48,000)^{t}$"
+        "text": "$ y=\\frac{1}{2}(48,000)^{t}$"
       },
       {
         "label": "B",
-        "text": "$y=2$$(48,000)^{t}$"
+        "text": "$ y=2 $$(48,000)^{t}$"
       },
       {
         "label": "C",
-        "text": "$y=48,000(\\frac{1}{2})^{t}$"
+        "text": "$ y=48,000(\\frac{1}{2})^{t}$"
       },
       {
         "label": "D",
-        "text": "$y=48,000(2)^{t}$"
+        "text": "$ y=48,000(2)^{t}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -120,7 +120,7 @@
   {
     "question_number": 6,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "$y=\\frac{x}{4}+6$ $y=-\\frac{x}{4}+30$ The solution to the given system of equations is (x, y). What is the value of 2y?",
+    "passage": "$ y=\\frac{x}{4}+6 $ $ y=-\\frac{x}{4}+30 $ The solution to the given system of equations is (x, y). What is the value of 2y?",
     "question_text": null,
     "choices": [
       {
@@ -147,24 +147,24 @@
   {
     "question_number": 7,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "$f(x)=(2x-3)(x+8)$ $g(x)=3(6x-9)$ The functions $f$ and $g$ are defined by the equations shown. Which of the following is equivalent to $f(x)$ -$g(x)$?",
+    "passage": "$ f(x)=(2x-3)(x+8)$ $ g(x)=3(6x-9)$ The functions $ f $ and $ g $ are defined by the equations shown. Which of the following is equivalent to $ f(x)$ -$ g(x)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$2x^{2}+7x-15$"
+        "text": "$ 2x^{2}+7x-15 $"
       },
       {
         "label": "B",
-        "text": "$2x^{2}-5x+3$"
+        "text": "$ 2x^{2}-5x+3 $"
       },
       {
         "label": "C",
-        "text": "$2x^{2}-x-3$"
+        "text": "$ 2x^{2}-x-3 $"
       },
       {
         "label": "D",
-        "text": "$2x^{2}+31x-51$"
+        "text": "$ 2x^{2}+31x-51 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -174,7 +174,7 @@
   {
     "question_number": 8,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "In right triangle $ABC$, angles $A$ and $B$ are acute, side $AC$ has a length of 23.3, and tan B= $\\frac{1}{4}$. What is the length of side BC, rounded to the nearest tenth?",
+    "passage": "In right triangle $ ABC $, angles $ A $ and $ B $ are acute, side $ AC $ has a length of 23.3, and tan B= $\\frac{1}{4}$. What is the length of side BC, rounded to the nearest tenth?",
     "question_text": null,
     "choices": [
       {
@@ -201,7 +201,7 @@
   {
     "question_number": 9,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "$-3|5x+7|+9=-12$ what are all solutions to the given equation?",
+    "passage": "$-3|5x+7|+9=-12 $ what are all solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -265,7 +265,7 @@
   {
     "question_number": 12,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge$ -65, where r and t are constants. what is the value of r +t",
+    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge $ -65, where r and t are constants. what is the value of r +t",
     "question_text": null,
     "choices": [
       {
@@ -346,24 +346,24 @@
   {
     "question_number": 15,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "For the function $f$, for every increase of 2 in the value of $x$, the value of $f(x)$ increases by a factor of $c$, where $c$ is a constant. Which of the following equivalent forms of function $f$ displays the value of $c$ as the base or the coefficient?",
+    "passage": "For the function $ f $, for every increase of 2 in the value of $ x $, the value of $ f(x)$ increases by a factor of $ c $, where $ c $ is a constant. Which of the following equivalent forms of function $ f $ displays the value of $ c $ as the base or the coefficient?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=42(2)^{6x}$"
+        "text": "$ f(x)=42(2)^{6x}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=42(8)^{2x}$"
+        "text": "$ f(x)=42(8)^{2x}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=42(64)^{x}$"
+        "text": "$ f(x)=42(64)^{x}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=42(4,096)^{\\frac{x}{2}}$"
+        "text": "$ f(x)=42(4,096)^{\\frac{x}{2}}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -400,7 +400,7 @@
   {
     "question_number": 17,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "A circle in the $xy$-plane has its center at (-1, 1). Line$t$ is tangent to this circle at the point(7,-6). Which of the following points also lies on line $t$?",
+    "passage": "A circle in the $ xy $-plane has its center at (-1, 1). Line $ t $ is tangent to this circle at the point(7,-6). Which of the following points also lies on line $ t $?",
     "question_text": null,
     "choices": [
       {
@@ -427,7 +427,7 @@
   {
     "question_number": 18,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "The function $f$ is defined by $f(x)=\\frac{x^{2}+ax+b}{2x+c}$, where a, b, and c are constants. The graph of the function $f$ in the xy-plane, where $y=f(x)$, does not intersect the line $x=4$. If $f(5)=f(6)=0$, what is the value of a + b+ c?",
+    "passage": "The function $ f $ is defined by $ f(x)=\\frac{x^{2}+ax+b}{2x+c}$, where a, b, and c are constants. The graph of the function $ f $ in the xy-plane, where $ y=f(x)$, does not intersect the line $ x=4 $. If $ f(5)=f(6)=0 $, what is the value of a + b+ c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -437,7 +437,7 @@
   {
     "question_number": 19,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "If $4x+7=15$,what is the value of $8x-3$?",
+    "passage": "If $ 4x+7=15 $, what is the value of $ 8x-3 $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -447,7 +447,7 @@
   {
     "question_number": 20,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "kx 2 -16x=24x 2 -8 In the given equation, $k$ is an integer constant. If the equation has two distinct real solutions,what is the greatest possible value of $k$?",
+    "passage": "kx 2 -16x=24x 2 -8 In the given equation, $ k $ is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of $ k $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -467,7 +467,7 @@
   {
     "question_number": 22,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "In triangle $ABC,$the measure of angle B is 90º and $\\overline{BD}$ is an altitude of the triangle. The length of $\\overline{AB}$ is 24 and the length of $\\overline{AC}$ is 13 greater than the length of $\\overline{AB}$. What is the value of $\\frac{BC}{BD}$?",
+    "passage": "In triangle $ ABC,$ the measure of angle B is 90º and $\\overline{BD}$ is an altitude of the triangle. The length of $\\overline{AB}$ is 24 and the length of $\\overline{AC}$ is 13 greater than the length of $\\overline{AB}$. What is the value of $\\frac{BC}{BD}$?",
     "question_text": null,
     "choices": [
       {

@@ -2,7 +2,7 @@
   {
     "question_number": 1,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "The graph of a system of linear equations is shown. What is the solution $(x,y)$ to the system?",
+    "passage": "The graph of a system of linear equations is shown. What is the solution $(x, y)$ to the system?",
     "question_text": null,
     "choices": [
       {
@@ -34,19 +34,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$5$"
+        "text": "$ 5 $"
       },
       {
         "label": "B",
-        "text": "$14$"
+        "text": "$ 14 $"
       },
       {
         "label": "C",
-        "text": "$28$"
+        "text": "$ 28 $"
       },
       {
         "label": "D",
-        "text": "$56$"
+        "text": "$ 56 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -93,24 +93,24 @@
   {
     "question_number": 5,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "$\\frac{j}{5}=k+9m$ The given equation relates the distinct positive numbers j, k, and m. Which equation correctly expresses j in terms of k and m?",
+    "passage": "$\\frac{j}{5}=k+9m $ The given equation relates the distinct positive numbers j, k, and m. Which equation correctly expresses j in terms of k and m?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$j=k+5(9m)$"
+        "text": "$ j=k+5(9m)$"
       },
       {
         "label": "B",
-        "text": "$j=5(k+9m)$"
+        "text": "$ j=5(k+9m)$"
       },
       {
         "label": "C",
-        "text": "$j=5k+9m$"
+        "text": "$ j=5k+9m $"
       },
       {
         "label": "D",
-        "text": "$j=\\frac{k+9m}{5}$"
+        "text": "$ j=\\frac{k+9m}{5}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -120,24 +120,24 @@
   {
     "question_number": 6,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "The function h is defined by $h(x)=5|x|$. What is the value of $h(-4)$?",
+    "passage": "The function h is defined by $ h(x)=5|x|$. What is the value of $ h(-4)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-20$"
+        "text": "$-20 $"
       },
       {
         "label": "B",
-        "text": "$1$"
+        "text": "$ 1 $"
       },
       {
         "label": "C",
-        "text": "$9$"
+        "text": "$ 9 $"
       },
       {
         "label": "D",
-        "text": "$20$"
+        "text": "$ 20 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -147,7 +147,7 @@
   {
     "question_number": 7,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "A student council group is selling car stickers for a fundraiser. They use the function $p(x)=5x-210$ to determine their profit p (x), in dollars, for selling x car stickers. In order to earn a profit of 800, how many car stickers must they sell?",
+    "passage": "A student council group is selling car stickers for a fundraiser. They use the function $ p(x)=5x-210 $ to determine their profit p (x), in dollars, for selling x car stickers. In order to earn a profit of 800, how many car stickers must they sell?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -157,24 +157,24 @@
   {
     "question_number": 8,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "For two acute angles X and Y, the measure of angle Y is 32° and $\\frac{sinX}{cosY}=1$. What is the measure, in degrees, of angle X?",
+    "passage": "For two acute angles X and Y, the measure of angle Y is 32° and $\\frac{sinX}{cosY}=1 $. What is the measure, in degrees, of angle X?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$77$"
+        "text": "$ 77 $"
       },
       {
         "label": "B",
-        "text": "$58$"
+        "text": "$ 58 $"
       },
       {
         "label": "C",
-        "text": "$45$"
+        "text": "$ 45 $"
       },
       {
         "label": "D",
-        "text": "$32$"
+        "text": "$ 32 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -194,24 +194,24 @@
   {
     "question_number": 10,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "If $\\frac{x}{y}=64$ and $\\frac{cx}{4y}=64$, what is the value of c?",
+    "passage": "If $\\frac{x}{y}=64 $ and $\\frac{cx}{4y}=64 $, what is the value of c?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$4$"
+        "text": "$ 4 $"
       },
       {
         "label": "B",
-        "text": "$16$"
+        "text": "$ 16 $"
       },
       {
         "label": "C",
-        "text": "$64$"
+        "text": "$ 64 $"
       },
       {
         "label": "D",
-        "text": "$256$"
+        "text": "$ 256 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -226,19 +226,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-\\frac{5}{4}x+2$"
+        "text": "$ y=-\\frac{5}{4}x+2 $"
       },
       {
         "label": "B",
-        "text": "$y=-\\frac{5}{4}x+12$"
+        "text": "$ y=-\\frac{5}{4}x+12 $"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{5}{4}x+2$"
+        "text": "$ y=\\frac{5}{4}x+2 $"
       },
       {
         "label": "D",
-        "text": "$y=\\frac{5}{4}x+12$"
+        "text": "$ y=\\frac{5}{4}x+12 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -248,24 +248,24 @@
   {
     "question_number": 12,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "If $7(6-9x)+4=6(6-9x)+19$, what is the value of $6-9x$?",
+    "passage": "If $ 7(6-9x)+4=6(6-9x)+19 $, what is the value of $ 6-9x $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-15$"
+        "text": "$-15 $"
       },
       {
         "label": "B",
-        "text": "$-1$"
+        "text": "$-1 $"
       },
       {
         "label": "C",
-        "text": "$1$"
+        "text": "$ 1 $"
       },
       {
         "label": "D",
-        "text": "$15$"
+        "text": "$ 15 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -280,19 +280,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$38^\\circ$"
+        "text": "$ 38^\\circ $"
       },
       {
         "label": "B",
-        "text": "$42^\\circ$"
+        "text": "$ 42^\\circ $"
       },
       {
         "label": "C",
-        "text": "$46^\\circ$"
+        "text": "$ 46^\\circ $"
       },
       {
         "label": "D",
-        "text": "$168^\\circ$"
+        "text": "$ 168^\\circ $"
       }
     ],
     "is_fill_in_blank": false,
@@ -307,19 +307,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$t=50d$"
+        "text": "$ t=50d $"
       },
       {
         "label": "B",
-        "text": "$t=\\frac{1}{2}d$"
+        "text": "$ t=\\frac{1}{2}d $"
       },
       {
         "label": "C",
-        "text": "$t=2d$"
+        "text": "$ t=2d $"
       },
       {
         "label": "D",
-        "text": "$t=\\frac{1}{50}d$"
+        "text": "$ t=\\frac{1}{50}d $"
       }
     ],
     "is_fill_in_blank": false,
@@ -329,7 +329,7 @@
   {
     "question_number": 15,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "In right triangle $ABC$, the tangent of $∠C$ is $\\frac{3}{4}$. What is the length of $\\overline{AB}$?",
+    "passage": "In right triangle $ ABC $, the tangent of $∠C $ is $\\frac{3}{4}$. What is the length of $\\overline{AB}$?",
     "question_text": null,
     "choices": [
       {
@@ -342,11 +342,11 @@
       },
       {
         "label": "C",
-        "text": "$54$"
+        "text": "$ 54 $"
       },
       {
         "label": "D",
-        "text": "$72$"
+        "text": "$ 72 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -356,24 +356,24 @@
   {
     "question_number": 16,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "$f(x)=x^{2}-12x+30$ What is the minimum value of the given function?",
+    "passage": "$ f(x)=x^{2}-12x+30 $ What is the minimum value of the given function?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-12$"
+        "text": "$-12 $"
       },
       {
         "label": "B",
-        "text": "$-6$"
+        "text": "$-6 $"
       },
       {
         "label": "C",
-        "text": "$6$"
+        "text": "$ 6 $"
       },
       {
         "label": "D",
-        "text": "$30$"
+        "text": "$ 30 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -393,7 +393,7 @@
   {
     "question_number": 18,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "For the linear function $f$, the table shows three values of x and their corresponding values of $f(x)$. Function $f$ is defined by $f(x)=rx+s$, where r and s are constants. What is the value of rs?",
+    "passage": "For the linear function $ f $, the table shows three values of x and their corresponding values of $ f(x)$. Function $ f $ is defined by $ f(x)=rx+s $, where r and s are constants. What is the value of rs?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -403,24 +403,24 @@
   {
     "question_number": 19,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "$x(x+9)-13=0$ What are the solutions to the given equation?",
+    "passage": "$ x(x+9)-13=0 $ What are the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x=\\frac{9\\pm\\sqrt{29}}{2}$"
+        "text": "$ x=\\frac{9\\pm\\sqrt{29}}{2}$"
       },
       {
         "label": "B",
-        "text": "$x=\\frac{9\\pm\\sqrt{133}}{2}$"
+        "text": "$ x=\\frac{9\\pm\\sqrt{133}}{2}$"
       },
       {
         "label": "C",
-        "text": "$x=\\frac{-9\\pm\\sqrt{29}}{2}$"
+        "text": "$ x=\\frac{-9\\pm\\sqrt{29}}{2}$"
       },
       {
         "label": "D",
-        "text": "$x=\\frac{-9\\pm\\sqrt{133}}{2}$"
+        "text": "$ x=\\frac{-9\\pm\\sqrt{133}}{2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -430,7 +430,7 @@
   {
     "question_number": 20,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "$2|5x-5|=11$ What is the sum of the solutions to the given equation?",
+    "passage": "$ 2|5x-5|=11 $ What is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -445,19 +445,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$211$"
+        "text": "$ 211 $"
       },
       {
         "label": "B",
-        "text": "$222$"
+        "text": "$ 222 $"
       },
       {
         "label": "C",
-        "text": "$261$"
+        "text": "$ 261 $"
       },
       {
         "label": "D",
-        "text": "$322$"
+        "text": "$ 322 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -472,19 +472,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$A=34.11(1.29)^{\\frac{x}{6}}$"
+        "text": "$ A=34.11(1.29)^{\\frac{x}{6}}$"
       },
       {
         "label": "B",
-        "text": "$A=34.11(2.29)^{\\frac{x}{6}}$"
+        "text": "$ A=34.11(2.29)^{\\frac{x}{6}}$"
       },
       {
         "label": "C",
-        "text": "$A=51.12(2.29)^{\\frac{x}{6}}$"
+        "text": "$ A=51.12(2.29)^{\\frac{x}{6}}$"
       },
       {
         "label": "D",
-        "text": "$A=285.98(1.29)^{\\frac{x}{6}}$"
+        "text": "$ A=285.98(1.29)^{\\frac{x}{6}}$"
       }
     ],
     "is_fill_in_blank": false,

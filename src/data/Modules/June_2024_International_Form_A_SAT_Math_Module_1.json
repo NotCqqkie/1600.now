@@ -307,19 +307,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$24x+6y=46$"
+        "text": "$ 24x+6y=46 $"
       },
       {
         "label": "B",
-        "text": "$24x+6y=276$"
+        "text": "$ 24x+6y=276 $"
       },
       {
         "label": "C",
-        "text": "$6x+24y=46$"
+        "text": "$ 6x+24y=46 $"
       },
       {
         "label": "D",
-        "text": "$6x+24y=276$"
+        "text": "$ 6x+24y=276 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -366,7 +366,7 @@
   {
     "question_number": 17,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "The function $f(t)=80,000(2)^{\\frac{t}{790}}$ gives the number of bacteria in a population t minutes after an initial observation. How much time, in minutes, does it take for the number of bacteria in the population to double?",
+    "passage": "The function $ f(t)=80,000(2)^{\\frac{t}{790}}$ gives the number of bacteria in a population t minutes after an initial observation. How much time, in minutes, does it take for the number of bacteria in the population to double?",
     "question_text": null,
     "choices": [
       {
@@ -393,24 +393,24 @@
   {
     "question_number": 18,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "Square P has a side length of x inches. Square Q has a perimeter that is 32 inches greater than the perimeter of square P, The function f gives the area of square Q, in square inches.Which of the following defines f?",
+    "passage": "Square P has a side length of x inches. Square Q has a perimeter that is 32 inches greater than the perimeter of square P, The function f gives the area of square Q, in square inches. Which of the following defines f?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=(x+8)^{2}$"
+        "text": "$ f(x)=(x+8)^{2}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=(x+32)^{2}$"
+        "text": "$ f(x)=(x+32)^{2}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=(32x+8)^{2}$"
+        "text": "$ f(x)=(32x+8)^{2}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=(32x+32)^{2}$"
+        "text": "$ f(x)=(32x+32)^{2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -457,7 +457,7 @@
   {
     "question_number": 21,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "The function g is defined by g (x)=(x + 17)(t - x), where t is a constant. In the xy -plane,the graph of y = g (x) passes through the point (23, 0). What is the value of g (0)?",
+    "passage": "The function g is defined by g (x)=(x + 17)(t - x), where t is a constant. In the xy -plane, the graph of y = g (x) passes through the point (23, 0). What is the value of g (0)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
