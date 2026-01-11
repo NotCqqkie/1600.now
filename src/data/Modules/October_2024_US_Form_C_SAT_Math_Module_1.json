@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "October 2024 US Form C SAT Math Module 1",
-    "passage": "Sophia bought confetti and balloons for $56. Each package of confetti cost $3, and each balloon cost 1. If Sophia bought 10 packages of confetti, how many balloons did she buy?",
+    "passage": "Sophia bought confetti and balloons for $ 56. Each package of confetti cost $ 3, and each balloon cost 1. If Sophia bought 10 packages of confetti, how many balloons did she buy?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -120,7 +120,7 @@
   {
     "question_number": 6,
     "test_name": "October 2024 US Form C SAT Math Module 1",
-    "passage": "If $\\frac{1}{6}$x+5 = 8, what is the value of 6x?",
+    "passage": "If $\\frac{1}{6}$ x+5 = 8, what is the value of 6x?",
     "question_text": null,
     "choices": [
       {
@@ -476,7 +476,7 @@
       },
       {
         "label": "B",
-        "text": "$\\frac{1}{2}$x = 5y"
+        "text": "$\\frac{1}{2}$ x = 5y"
       },
       {
         "label": "C",
@@ -484,7 +484,7 @@
       },
       {
         "label": "D",
-        "text": "$\\frac{1}{2}$x=10y-4"
+        "text": "$\\frac{1}{2}$ x=10y-4"
       }
     ],
     "is_fill_in_blank": false,

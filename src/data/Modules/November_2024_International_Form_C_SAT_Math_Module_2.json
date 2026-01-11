@@ -7,19 +7,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x\\le29$"
+        "text": "$ x\\le29 $"
       },
       {
         "label": "B",
-        "text": "$x\\ge29$"
+        "text": "$ x\\ge29 $"
       },
       {
         "label": "C",
-        "text": "$y\\le29$"
+        "text": "$ y\\le29 $"
       },
       {
         "label": "D",
-        "text": "$y\\ge29$"
+        "text": "$ y\\ge29 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -29,7 +29,7 @@
   {
     "question_number": 2,
     "test_name": "November 2024 International Form C SAT Math Module 2",
-    "passage": "$3.5c+7d=266$ The given equatlon describes the relationship between the number of cats, c, and the number of dogs, d, that can be cared for at a pet care business during a week. If the business cares for 38 dogs during a week, how many cats can it care for during this week?",
+    "passage": "$ 3.5c+7d=266 $ The given equatlon describes the relationship between the number of cats, c, and the number of dogs, d, that can be cared for at a pet care business during a week. If the business cares for 38 dogs during a week, how many cats can it care for during this week?",
     "question_text": null,
     "choices": [
       {
@@ -56,7 +56,7 @@
   {
     "question_number": 3,
     "test_name": "November 2024 International Form C SAT Math Module 2",
-    "passage": "$y=3^{(x-1)}-6$ For which of the following tables are all the values of a and their corresponding values of y solutions to the given equation?",
+    "passage": "$ y=3^{(x-1)}-6 $ For which of the following tables are all the values of a and their corresponding values of y solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -139,19 +139,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(d)=\\frac{d}{35}-10$"
+        "text": "$ f(d)=\\frac{d}{35}-10 $"
       },
       {
         "label": "B",
-        "text": "$f(d)=d-10$"
+        "text": "$ f(d)=d-10 $"
       },
       {
         "label": "C",
-        "text": "$f(d)=10-\\frac{d}{35}$"
+        "text": "$ f(d)=10-\\frac{d}{35}$"
       },
       {
         "label": "D",
-        "text": "$f(d)=10-d$"
+        "text": "$ f(d)=10-d $"
       }
     ],
     "is_fill_in_blank": false,
@@ -203,19 +203,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=80-10x$"
+        "text": "$ y=80-10x $"
       },
       {
         "label": "B",
-        "text": "$y=80-0.1x$"
+        "text": "$ y=80-0.1x $"
       },
       {
         "label": "C",
-        "text": "$y=90-0.1x$"
+        "text": "$ y=90-0.1x $"
       },
       {
         "label": "D",
-        "text": "$y=90-10x$"
+        "text": "$ y=90-10x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -225,7 +225,7 @@
   {
     "question_number": 9,
     "test_name": "November 2024 International Form C SAT Math Module 2",
-    "passage": "$4x^{2}+5x-5=0$ What is the greatest solution to the given equation?",
+    "passage": "$ 4x^{2}+5x-5=0 $ What is the greatest solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -252,7 +252,7 @@
   {
     "question_number": 10,
     "test_name": "November 2024 International Form C SAT Math Module 2",
-    "passage": "$y\\le x+15$ $y\\ge-4x-15$ Which point (x, y) is a solution to the given system of inequalities in the xy-plane?",
+    "passage": "$ y\\le x+15 $ $ y\\ge-4x-15 $ Which point (x, y) is a solution to the given system of inequalities in the xy-plane?",
     "question_text": null,
     "choices": [
       {
@@ -289,12 +289,12 @@
   {
     "question_number": 12,
     "test_name": "November 2024 International Form C SAT Math Module 2",
-    "passage": "An equilateral triangle has a height of$47\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
+    "passage": "An equilateral triangle has a height of $ 47\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$94\\sqrt{3}$"
+        "text": "$ 94\\sqrt{3}$"
       },
       {
         "label": "B",
@@ -302,7 +302,7 @@
       },
       {
         "label": "C",
-        "text": "$47\\sqrt{3}$"
+        "text": "$ 47\\sqrt{3}$"
       },
       {
         "label": "D",
@@ -353,7 +353,7 @@
   {
     "question_number": 15,
     "test_name": "November 2024 International Form C SAT Math Module 2",
-    "passage": "$f(x)=2,000(1.005)^{3x}$ The given function f models the balance of a bank account, in dollars, x years after it is opened. Which statement is the best interpretation of (1.005) 3x?",
+    "passage": "$ f(x)=2,000(1.005)^{3x}$ The given function f models the balance of a bank account, in dollars, x years after it is opened. Which statement is the best interpretation of (1.005) 3x?",
     "question_text": null,
     "choices": [
       {
@@ -417,7 +417,7 @@
   {
     "question_number": 18,
     "test_name": "November 2024 International Form C SAT Math Module 2",
-    "passage": "$\\frac{4}{9}(4x+9)\\sqrt{4k+9}\\sqrt{4k+9}=0$ In the given equation, k is a positive constant, The product of the solutions to the equation is 81.What is the value of k?",
+    "passage": "$\\frac{4}{9}(4x+9)\\sqrt{4k+9}\\sqrt{4k+9}=0 $ In the given equation, k is a positive constant, The product of the solutions to the equation is 81.What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -508,7 +508,7 @@
   {
     "question_number": 22,
     "test_name": "November 2024 International Form C SAT Math Module 2",
-    "passage": "$x(kx-112)=-16$ In the given equation, k is an integer constant, If the equation has two distinct real solutions, what is the greatest possible value of k?",
+    "passage": "$ x(kx-112)=-16 $ In the given equation, k is an integer constant, If the equation has two distinct real solutions, what is the greatest possible value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -39,7 +39,7 @@
   {
     "question_number": 3,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "$4x(x-3)(x+9)=0$ What is one of the solutions to the given equation?",
+    "passage": "$ 4x(x-3)(x+9)=0 $ What is one of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -66,7 +66,7 @@
   {
     "question_number": 4,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "$y=\\frac{x}{3}+4$ $y=-\\frac{x}{3}+40$ The solution to the given system of equations is (x, y). What is the value of 2y?",
+    "passage": "$ y=\\frac{x}{3}+4 $ $ y=-\\frac{x}{3}+40 $ The solution to the given system of equations is (x, y). What is the value of 2y?",
     "question_text": null,
     "choices": [
       {
@@ -120,7 +120,7 @@
   {
     "question_number": 6,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "$f(x)=18x^{2}-45x+13$ The given equation defines the function. For what value of a does f(x) reach its minimum?",
+    "passage": "$ f(x)=18x^{2}-45x+13 $ The given equation defines the function. For what value of a does f(x) reach its minimum?",
     "question_text": null,
     "choices": [
       {
@@ -221,24 +221,24 @@
   {
     "question_number": 11,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "$x(x+9)-15=0$ What are the solutions to the given equation?",
+    "passage": "$ x(x+9)-15=0 $ What are the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x=\\frac{9\\pm\\sqrt{21}}{2}$"
+        "text": "$ x=\\frac{9\\pm\\sqrt{21}}{2}$"
       },
       {
         "label": "B",
-        "text": "$x=\\frac{9\\pm\\sqrt{141}}{2}$"
+        "text": "$ x=\\frac{9\\pm\\sqrt{141}}{2}$"
       },
       {
         "label": "C",
-        "text": "$x=\\frac{-9\\pm\\sqrt{21}}{2}$"
+        "text": "$ x=\\frac{-9\\pm\\sqrt{21}}{2}$"
       },
       {
         "label": "D",
-        "text": "$x=\\frac{-9\\pm\\sqrt{141}}{2}$"
+        "text": "$ x=\\frac{-9\\pm\\sqrt{141}}{2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -312,7 +312,7 @@
   {
     "question_number": 15,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The function $T(x)=\\frac{22,000-6.5x}{1,000}$ gives the estimated air temperature T(x), in degrees Celsius (°C), surrounding a hot air balloon at an altitude of c meters. If the estimated air temperature surrounding the hot air balloon is 16°C, which of the following is closest to the altitude, in meters, of the hot air balloon?",
+    "passage": "The function $ T(x)=\\frac{22,000-6.5x}{1,000}$ gives the estimated air temperature T(x), in degrees Celsius (°C), surrounding a hot air balloon at an altitude of c meters. If the estimated air temperature surrounding the hot air balloon is 16°C, which of the following is closest to the altitude, in meters, of the hot air balloon?",
     "question_text": null,
     "choices": [
       {
@@ -354,19 +354,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-d-cx$"
+        "text": "$ f(x)=-d-cx $"
       },
       {
         "label": "B",
-        "text": "$f(x)=d-cx$"
+        "text": "$ f(x)=d-cx $"
       },
       {
         "label": "C",
-        "text": "$f(x)=d+cx$"
+        "text": "$ f(x)=d+cx $"
       },
       {
         "label": "D",
-        "text": "$f(x)=-d+cx$"
+        "text": "$ f(x)=-d+cx $"
       }
     ],
     "is_fill_in_blank": false,
@@ -376,7 +376,7 @@
   {
     "question_number": 18,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The functions f and g are defined by the given equations below, where x ≥ 0. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where x ≥ 0? Ⅰ. $f(x)=16(1.3)^{x+5}$ ⅠⅠ. $g(x)=16(1.09)(1.3)^{x+3}$",
+    "passage": "The functions f and g are defined by the given equations below, where x ≥ 0. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where x ≥ 0? Ⅰ. $ f(x)=16(1.3)^{x+5}$ ⅠⅠ. $ g(x)=16(1.09)(1.3)^{x+3}$",
     "question_text": null,
     "choices": [
       {
@@ -408,19 +408,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=\\frac{3}{8}x$"
+        "text": "$ y=\\frac{3}{8}x $"
       },
       {
         "label": "B",
-        "text": "$y=\\frac{3}{8}x+1$"
+        "text": "$ y=\\frac{3}{8}x+1 $"
       },
       {
         "label": "C",
-        "text": "$y=8x$"
+        "text": "$ y=8x $"
       },
       {
         "label": "D",
-        "text": "$y=8x+1$"
+        "text": "$ y=8x+1 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -430,24 +430,24 @@
   {
     "question_number": 20,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The perimeter of an isosceles right triangle is $52+52\\sqrt{2}$ inches. What is the length, in inches, of the hypotenuse of this triangle?",
+    "passage": "The perimeter of an isosceles right triangle is $ 52+52\\sqrt{2}$ inches. What is the length, in inches, of the hypotenuse of this triangle?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$26$"
+        "text": "$ 26 $"
       },
       {
         "label": "B",
-        "text": "$26\\sqrt{2}$"
+        "text": "$ 26\\sqrt{2}$"
       },
       {
         "label": "C",
-        "text": "$52$"
+        "text": "$ 52 $"
       },
       {
         "label": "D",
-        "text": "$52\\sqrt{2}$"
+        "text": "$ 52\\sqrt{2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -457,7 +457,7 @@
   {
     "question_number": 21,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The table shows three values of a and their corresponding values of g(x), where $g(x)=\\frac{f(x)}{x+3}$ and f is a linear function. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+    "passage": "The table shows three values of a and their corresponding values of g(x), where $ g(x)=\\frac{f(x)}{x+3}$ and f is a linear function. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
     "question_text": null,
     "choices": [
       {
@@ -484,7 +484,7 @@
   {
     "question_number": 22,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "In the figure shown, points A, B, C, and E lie on the circle, and AB < BC. Segment AC is perpendicular to segment BE at point D, and BD = $\\sqrt{226}$. The diameter of the circle is 115. If $\\frac{CD}{AD}=r$, what is the value of r?",
+    "passage": "In the figure shown, points A, B, C, and E lie on the circle, and AB < BC. Segment AC is perpendicular to segment BE at point D, and BD = $\\sqrt{226}$. The diameter of the circle is 115. If $\\frac{CD}{AD}=r $, what is the value of r?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

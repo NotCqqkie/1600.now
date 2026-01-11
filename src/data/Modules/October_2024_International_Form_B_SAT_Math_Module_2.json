@@ -7,19 +7,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=10x+2$"
+        "text": "$ y=10x+2 $"
       },
       {
         "label": "B",
-        "text": "$y=2x+8$"
+        "text": "$ y=2x+8 $"
       },
       {
         "label": "C",
-        "text": "$y=10x+8$"
+        "text": "$ y=10x+8 $"
       },
       {
         "label": "D",
-        "text": "$y=8x+2$"
+        "text": "$ y=8x+2 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -61,19 +61,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=x-2$"
+        "text": "$ y=x-2 $"
       },
       {
         "label": "B",
-        "text": "$y=3x+1$"
+        "text": "$ y=3x+1 $"
       },
       {
         "label": "C",
-        "text": "$y=-x-2$"
+        "text": "$ y=-x-2 $"
       },
       {
         "label": "D",
-        "text": "$y=-3x-1$"
+        "text": "$ y=-3x-1 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -110,24 +110,24 @@
   {
     "question_number": 5,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "A model predicts that the population of a certain town was 5,000 in 2008. The model alsopredicts that each year for the next 5 years, the population p increased by 4% of the previous year's population. Which equation best represents this model, where x is the number of years after 2008, for $x\\le5$?",
+    "passage": "A model predicts that the population of a certain town was 5,000 in 2008. The model alsopredicts that each year for the next 5 years, the population p increased by 4% of the previous year's population. Which equation best represents this model, where x is the number of years after 2008, for $ x\\le5 $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$p=0.96(5,000)^{x}$"
+        "text": "$ p=0.96(5,000)^{x}$"
       },
       {
         "label": "B",
-        "text": "$p=1.04(5,000)^{x}$"
+        "text": "$ p=1.04(5,000)^{x}$"
       },
       {
         "label": "C",
-        "text": "$p=5,000(0.96)^{x}$"
+        "text": "$ p=5,000(0.96)^{x}$"
       },
       {
         "label": "D",
-        "text": "$p=5,000(1.04)^{x}$"
+        "text": "$ p=5,000(1.04)^{x}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -137,7 +137,7 @@
   {
     "question_number": 6,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "A park rents beach umbrellas to visitors, The park earns revenue of $15 for each beachumbrella they rent for the day. On Wednesday, the park earned $435 in profit from rentingbeach umbrellas after paying daily expenses of 150. How many beach umbrellas did thepark rent on Wednesday?(profit = total revenue - total expenses)",
+    "passage": "A park rents beach umbrellas to visitors, The park earns revenue of $ 15 for each beachumbrella they rent for the day. On Wednesday, the park earned $ 435 in profit from rentingbeach umbrellas after paying daily expenses of 150. How many beach umbrellas did thepark rent on Wednesday?(profit = total revenue - total expenses)",
     "question_text": null,
     "choices": [
       {
@@ -164,24 +164,24 @@
   {
     "question_number": 7,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "$r=\\sqrt{9w-5}$ The given equation relates the real numbers r and w, where w > $\\frac{5}{9}$. Which equationcorrectly expresses w in terms of r?",
+    "passage": "$ r=\\sqrt{9w-5}$ The given equation relates the real numbers r and w, where w > $\\frac{5}{9}$. Which equationcorrectly expresses w in terms of r?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$w=\\sqrt{-5r+9}$"
+        "text": "$ w=\\sqrt{-5r+9}$"
       },
       {
         "label": "B",
-        "text": "$w=\\sqrt{9r-5}$"
+        "text": "$ w=\\sqrt{9r-5}$"
       },
       {
         "label": "C",
-        "text": "$w=\\frac{r^{2}}{9}+\\frac{5}{9}$"
+        "text": "$ w=\\frac{r^{2}}{9}+\\frac{5}{9}$"
       },
       {
         "label": "D",
-        "text": "$w=\\frac{r^{2}}{9}+5$"
+        "text": "$ w=\\frac{r^{2}}{9}+5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -228,7 +228,7 @@
   {
     "question_number": 10,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "The function h is defined by $h(x)=(x+p)(x-4)(2x-6)$, where p is a constant. In the xy-plane, the graph of y= h(x) passes through the point (-6, 0). What is the value of h(0)?",
+    "passage": "The function h is defined by $ h(x)=(x+p)(x-4)(2x-6)$, where p is a constant. In the xy-plane, the graph of y= h(x) passes through the point (-6, 0). What is the value of h(0)?",
     "question_text": null,
     "choices": [
       {
@@ -255,7 +255,7 @@
   {
     "question_number": 11,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "If$x\\ge -8$ represents all solutions to the inequality $ax-18\\le14$, where a is a constant, what is the greatest possible value of a?",
+    "passage": "If $ x\\ge -8 $ represents all solutions to the inequality $ ax-18\\le14 $, where a is a constant, what is the greatest possible value of a?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -265,7 +265,7 @@
   {
     "question_number": 12,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "$5(3x)+4(8y)=16$ $-5(3x)+4(8y)=16$ The solution to the given system of equations is (x, y). What is the value of 3x + 8y?",
+    "passage": "$ 5(3x)+4(8y)=16 $ $-5(3x)+4(8y)=16 $ The solution to the given system of equations is (x, y). What is the value of 3x + 8y?",
     "question_text": null,
     "choices": [
       {
@@ -302,7 +302,7 @@
   {
     "question_number": 14,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "$4x^{2}+19=32x+r$ In the given equation,, is a constant, The equation has exactly one real solution. What is the value of r?",
+    "passage": "$ 4x^{2}+19=32x+r $ In the given equation, is a constant, The equation has exactly one real solution. What is the value of r?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -317,19 +317,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=48(2)^{6x}$"
+        "text": "$ f(x)=48(2)^{6x}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=48(8)^{2x}$"
+        "text": "$ f(x)=48(8)^{2x}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=48(64)^{x}$"
+        "text": "$ f(x)=48(64)^{x}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=48(4,096)^{\\frac{x}{2}}$"
+        "text": "$ f(x)=48(4,096)^{\\frac{x}{2}}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -339,7 +339,7 @@
   {
     "question_number": 16,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "In the fgure shown, $AB=\\sqrt{61}$ units, AC = 6 units, and CE = 18 units. What isthe area, in square units, of triangle ADE?",
+    "passage": "In the fgure shown, $ AB=\\sqrt{61}$ units, AC = 6 units, and CE = 18 units. What isthe area, in square units, of triangle ADE?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -410,7 +410,7 @@
   {
     "question_number": 19,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "$x^{2}+4x+y^{2}-8y-80=0$ In the xy-plane, the graph of the given equation is a circle. If this circle is inscribed in asquare, what is the perimeter of the square?",
+    "passage": "$ x^{2}+4x+y^{2}-8y-80=0 $ In the xy-plane, the graph of the given equation is a circle. If this circle is inscribed in asquare, what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -437,7 +437,7 @@
   {
     "question_number": 20,
     "test_name": "October 2024 International Form B SAT Math Module 2",
-    "passage": "$7x+5y=2$ The given equation is one equation in a system of two linear equations. If the system ofequations has at least one solution, which of the following equations could be the otherequation in the system? Ⅰ.$10.5x+7.5y=3$ Ⅱ.$10.5x-7.5y=3$",
+    "passage": "$ 7x+5y=2 $ The given equation is one equation in a system of two linear equations. If the system ofequations has at least one solution, which of the following equations could be the otherequation in the system? Ⅰ.$ 10.5x+7.5y=3 $ Ⅱ.$ 10.5x-7.5y=3 $",
     "question_text": null,
     "choices": [
       {

@@ -2,24 +2,24 @@
   {
     "question_number": 1,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to 6 $xy$ $(2x^{2}+5y)?$",
+    "passage": "Which expression is equivalent to 6 $ xy $ $(2x^{2}+5y)?$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$8x^{3}y+11xy^{2}$"
+        "text": "$ 8x^{3}y+11xy^{2}$"
       },
       {
         "label": "B",
-        "text": "$12x^{2}y+5y$"
+        "text": "$ 12x^{2}y+5y $"
       },
       {
         "label": "C",
-        "text": "$12x^{2}y+30xy$"
+        "text": "$ 12x^{2}y+30xy $"
       },
       {
         "label": "D",
-        "text": "$12x^{3}y+30xy^{2}$"
+        "text": "$ 12x^{3}y+30xy^{2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -29,24 +29,24 @@
   {
     "question_number": 2,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to$7x^{6}-2x^{5}+9x^{4}$$?$",
+    "passage": "Which expression is equivalent to $ 7x^{6}-2x^{5}+9x^{4}$$?$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x^{5}(7x-2)$"
+        "text": "$ x^{5}(7x-2)$"
       },
       {
         "label": "B",
-        "text": "$x^{4}(7x^{2}-2x+9)$"
+        "text": "$ x^{4}(7x^{2}-2x+9)$"
       },
       {
         "label": "C",
-        "text": "$9x^{4}(7x^{2}-2x+1)$"
+        "text": "$ 9x^{4}(7x^{2}-2x+1)$"
       },
       {
         "label": "D",
-        "text": "$2x^{6}(-2x^{5}+9x^{4}+1)$"
+        "text": "$ 2x^{6}(-2x^{5}+9x^{4}+1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -61,19 +61,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=3x$\n$x=61$"
+        "text": "$ y=3x $\n$ x=61 $"
       },
       {
         "label": "B",
-        "text": "$y=3x$\n$y=61$"
+        "text": "$ y=3x $\n$ y=61 $"
       },
       {
         "label": "C",
-        "text": "$x=3y$\n$x=61$"
+        "text": "$ x=3y $\n$ x=61 $"
       },
       {
         "label": "D",
-        "text": "$x=3y$\n$y=61$"
+        "text": "$ x=3y $\n$ y=61 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -83,24 +83,24 @@
   {
     "question_number": 4,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "For the linear function $f$, the graph of $y=f(x)$ in the xy-plane has a slope of $-54$ andpasses through the point $(0,0).$ Which equation defines $f$?",
+    "passage": "For the linear function $ f $, the graph of $ y=f(x)$ in the xy-plane has a slope of $-54 $ andpasses through the point $(0,0).$ Which equation defines $ f $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-54x$"
+        "text": "$ f(x)=-54x $"
       },
       {
         "label": "B",
-        "text": "$f(x)=-36x$"
+        "text": "$ f(x)=-36x $"
       },
       {
         "label": "C",
-        "text": "$f(x)=-18x$"
+        "text": "$ f(x)=-18x $"
       },
       {
         "label": "D",
-        "text": "$f(x)=x$"
+        "text": "$ f(x)=x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -110,7 +110,7 @@
   {
     "question_number": 5,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "The function g is defined by $g(x)=\\frac{5}{9}x-\\frac{7}{9}$. What is the value of $g(18)?$",
+    "passage": "The function g is defined by $ g(x)=\\frac{5}{9}x-\\frac{7}{9}$. What is the value of $ g(18)?$",
     "question_text": null,
     "choices": [
       {
@@ -137,7 +137,7 @@
   {
     "question_number": 6,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "The function f is defined by $f(x)=x^{2}+x+61$. What is the value of $f(2)$?",
+    "passage": "The function f is defined by $ f(x)=x^{2}+x+61 $. What is the value of $ f(2)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -147,7 +147,7 @@
   {
     "question_number": 7,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "$f(x)=5x+7$ The function f gives the estimated height, in feet, of a poplar tree x years after its height was first measured. Which statement is the best interpretation of 7 in this context?",
+    "passage": "$ f(x)=5x+7 $ The function f gives the estimated height, in feet, of a poplar tree x years after its height was first measured. Which statement is the best interpretation of 7 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -184,7 +184,7 @@
   {
     "question_number": 9,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "$\\frac{27(k+6)}{3(k+6)}$ The given expression is equivalent to c, where c is a constant and $k>-6$. What is the value of c?",
+    "passage": "$\\frac{27(k+6)}{3(k+6)}$ The given expression is equivalent to c, where c is a constant and $ k>-6 $. What is the value of c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -194,24 +194,24 @@
   {
     "question_number": 10,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "The table gives the perimeters of similar triangles$TUV$ and $XYZ$, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 6. What is the length of $\\overline{XY}$?",
+    "passage": "The table gives the perimeters of similar triangles $ TUV $ and $ XYZ $, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 6. What is the length of $\\overline{XY}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$2$"
+        "text": "$ 2 $"
       },
       {
         "label": "B",
-        "text": "$6$"
+        "text": "$ 6 $"
       },
       {
         "label": "C",
-        "text": "$18$"
+        "text": "$ 18 $"
       },
       {
         "label": "D",
-        "text": "$56$"
+        "text": "$ 56 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -221,24 +221,24 @@
   {
     "question_number": 11,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "If $9(7-8x)+2=8(7-8x)+17$, what is the value of $7-8x$?",
+    "passage": "If $ 9(7-8x)+2=8(7-8x)+17 $, what is the value of $ 7-8x $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-15$"
+        "text": "$-15 $"
       },
       {
         "label": "B",
-        "text": "$-1$"
+        "text": "$-1 $"
       },
       {
         "label": "C",
-        "text": "$1$"
+        "text": "$ 1 $"
       },
       {
         "label": "D",
-        "text": "$15$"
+        "text": "$ 15 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -248,24 +248,24 @@
   {
     "question_number": 12,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "$x+33=y$ $(x+33)^{2}=y$ A solution to the given system of equations is (x, y). What is a possible value of x?",
+    "passage": "$ x+33=y $ $(x+33)^{2}=y $ A solution to the given system of equations is (x, y). What is a possible value of x?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-32$"
+        "text": "$-32 $"
       },
       {
         "label": "B",
-        "text": "$0$"
+        "text": "$ 0 $"
       },
       {
         "label": "C",
-        "text": "$1$"
+        "text": "$ 1 $"
       },
       {
         "label": "D",
-        "text": "$33$"
+        "text": "$ 33 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -275,7 +275,7 @@
   {
     "question_number": 13,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "A circle in the xy-plane has the equation$(x-14)^{2}+(y-k)^{2}=36$. Which of the following gives the center of the circle and its radius?",
+    "passage": "A circle in the xy-plane has the equation $(x-14)^{2}+(y-k)^{2}=36 $. Which of the following gives the center of the circle and its radius?",
     "question_text": null,
     "choices": [
       {
@@ -302,7 +302,7 @@
   {
     "question_number": 14,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "The town of Fillmore is planning its annual fireworks show. The equation $y=-16(x-6.8)^{2}+740$ gives the estimated height y, in feet, of a type of firework x seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the xy-plane?",
+    "passage": "The town of Fillmore is planning its annual fireworks show. The equation $ y=-16(x-6.8)^{2}+740 $ gives the estimated height y, in feet, of a type of firework x seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the xy-plane?",
     "question_text": null,
     "choices": [
       {
@@ -329,7 +329,7 @@
   {
     "question_number": 15,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "The graph of $y=f(x)$ is shown where $f(x)=ax^{3}+bx^{2}+cx+d$ and a, b, c, and d are constants. For how many distinct values of x does $f(x)=0$?",
+    "passage": "The graph of $ y=f(x)$ is shown where $ f(x)=ax^{3}+bx^{2}+cx+d $ and a, b, c, and d are constants. For how many distinct values of x does $ f(x)=0 $?",
     "question_text": null,
     "choices": [
       {
@@ -356,24 +356,24 @@
   {
     "question_number": 16,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "In the xy-plane, circle M is the graph of the equation $(x-3)^{2}+(y-6)^{2}=4$. Circle P has the same center as circle M but has a radius that is twice the radius of circle M. Which equation represents circle P?",
+    "passage": "In the xy-plane, circle M is the graph of the equation $(x-3)^{2}+(y-6)^{2}=4 $. Circle P has the same center as circle M but has a radius that is twice the radius of circle M. Which equation represents circle P?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(x-3)^{2}+(y-6)^{2}=8$"
+        "text": "$(x-3)^{2}+(y-6)^{2}=8 $"
       },
       {
         "label": "B",
-        "text": "$(x-3)^{2}+(y-6)^{2}=16$"
+        "text": "$(x-3)^{2}+(y-6)^{2}=16 $"
       },
       {
         "label": "C",
-        "text": "$(x-6)^{2}+(y-12)^{2}=4$"
+        "text": "$(x-6)^{2}+(y-12)^{2}=4 $"
       },
       {
         "label": "D",
-        "text": "$(x-6)^{2}+(y-12)^{2}=8$"
+        "text": "$(x-6)^{2}+(y-12)^{2}=8 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -388,7 +388,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$14sin58^\\circ$"
+        "text": "$ 14sin58^\\circ $"
       },
       {
         "label": "B",
@@ -396,7 +396,7 @@
       },
       {
         "label": "C",
-        "text": "$14cos58^\\circ$"
+        "text": "$ 14cos58^\\circ $"
       },
       {
         "label": "D",
@@ -430,7 +430,7 @@
   {
     "question_number": 20,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "The positive number a is 2,800 % of the number c, and c is 25 % of the number b. If $a-b=wc$, where w is a constant, what is the value of w?",
+    "passage": "The positive number a is 2,800 % of the number c, and c is 25 % of the number b. If $ a-b=wc $, where w is a constant, what is the value of w?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -440,7 +440,7 @@
   {
     "question_number": 21,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "Line j is defined by $4x+5y=55$. Line k is parallel to line j in the xy-plane. An equation of line k is $24x+ry=15$, where r is a constant. If line k passes through the point $(0,b)$, what is the value of b?",
+    "passage": "Line j is defined by $ 4x+5y=55 $. Line k is parallel to line j in the xy-plane. An equation of line k is $ 24x+ry=15 $, where r is a constant. If line k passes through the point $(0, b)$, what is the value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

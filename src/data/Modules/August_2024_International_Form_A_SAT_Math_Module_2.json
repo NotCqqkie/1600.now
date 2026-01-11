@@ -7,19 +7,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-6(3)^{x}$"
+        "text": "$ y=-6(3)^{x}$"
       },
       {
         "label": "B",
-        "text": "$y=3^{(x+6)}$"
+        "text": "$ y=3^{(x+6)}$"
       },
       {
         "label": "C",
-        "text": "$y=3^{x}-6$"
+        "text": "$ y=3^{x}-6 $"
       },
       {
         "label": "D",
-        "text": "$y=3^{(x-6)}$"
+        "text": "$ y=3^{(x-6)}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -34,19 +34,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=5x+2$"
+        "text": "$ y=5x+2 $"
       },
       {
         "label": "B",
-        "text": "$y=-5x+2$"
+        "text": "$ y=-5x+2 $"
       },
       {
         "label": "C",
-        "text": "$y=x+2$"
+        "text": "$ y=x+2 $"
       },
       {
         "label": "D",
-        "text": "$y=-x+2$"
+        "text": "$ y=-x+2 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -83,7 +83,7 @@
   {
     "question_number": 4,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "If $\\frac{5a}{b}=3.5$ and $\\frac{a}{bn}=17.5$, what is the value of $\\frac{1}{n}$?",
+    "passage": "If $\\frac{5a}{b}=3.5 $ and $\\frac{a}{bn}=17.5 $, what is the value of $\\frac{1}{n}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -93,7 +93,7 @@
   {
     "question_number": 5,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "Which expression is equivalent to $\\frac{6v^{12}}{18v^{3}}$,where $v>0$?",
+    "passage": "Which expression is equivalent to $\\frac{6v^{12}}{18v^{3}}$, where $ v>0 $?",
     "question_text": null,
     "choices": [
       {
@@ -106,11 +106,11 @@
       },
       {
         "label": "C",
-        "text": "$3v^{4}$"
+        "text": "$ 3v^{4}$"
       },
       {
         "label": "D",
-        "text": "$3v^{9}$"
+        "text": "$ 3v^{9}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -120,24 +120,24 @@
   {
     "question_number": 6,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "Which expression is equivalentto$(6t^{4}-6t^{2}+4t-2)-(5t^{4}-3t^{3}+7t^{2}-2)$?",
+    "passage": "Which expression is equivalentto $(6t^{4}-6t^{2}+4t-2)-(5t^{4}-3t^{3}+7t^{2}-2)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$t^{4}+3t^{3}-13t^{2}+4t$"
+        "text": "$ t^{4}+3t^{3}-13t^{2}+4t $"
       },
       {
         "label": "B",
-        "text": "$t^{4}-3t^{2}+3t$"
+        "text": "$ t^{4}-3t^{2}+3t $"
       },
       {
         "label": "C",
-        "text": "$t^{4}-3t^{3}+11t-4$"
+        "text": "$ t^{4}-3t^{3}+11t-4 $"
       },
       {
         "label": "D",
-        "text": "$t^{4}+3t^{3}-13t^{2}+4t-4$"
+        "text": "$ t^{4}+3t^{3}-13t^{2}+4t-4 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -152,19 +152,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$9x+3y=141$"
+        "text": "$ 9x+3y=141 $"
       },
       {
         "label": "B",
-        "text": "$9x+3y=3$"
+        "text": "$ 9x+3y=3 $"
       },
       {
         "label": "C",
-        "text": "$3x+9y=141$"
+        "text": "$ 3x+9y=141 $"
       },
       {
         "label": "D",
-        "text": "$3x+9y=3$"
+        "text": "$ 3x+9y=3 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -252,7 +252,7 @@
   {
     "question_number": 10,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "$y=-2x-10$ $y=2x+16$ The solution to the given system of equations is (x, y). What is the value of y?",
+    "passage": "$ y=-2x-10 $ $ y=2x+16 $ The solution to the given system of equations is (x, y). What is the value of y?",
     "question_text": null,
     "choices": [
       {
@@ -321,11 +321,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$57\\sqrt{2}$"
+        "text": "$ 57\\sqrt{2}$"
       },
       {
         "label": "B",
-        "text": "$57\\sqrt{3}$"
+        "text": "$ 57\\sqrt{3}$"
       },
       {
         "label": "C",
@@ -370,7 +370,7 @@
   {
     "question_number": 15,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "$x^{2}-6x+y^{2}-4y-51=0$ In the xy-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
+    "passage": "$ x^{2}-6x+y^{2}-4y-51=0 $ In the xy-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -397,24 +397,24 @@
   {
     "question_number": 16,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "For groups of 5 or more people, a tour guide charges $9 for the first person in the group and $6 for each additional person. Which function g gives the total charge, in dollars, for a tourwith a group of n people, where n ≥ 5?",
+    "passage": "For groups of 5 or more people, a tour guide charges $ 9 for the first person in the group and $ 6 for each additional person. Which function g gives the total charge, in dollars, for a tourwith a group of n people, where n ≥ 5?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$g(n)=15n$"
+        "text": "$ g(n)=15n $"
       },
       {
         "label": "B",
-        "text": "$g(n)=15n-9$"
+        "text": "$ g(n)=15n-9 $"
       },
       {
         "label": "C",
-        "text": "$g(n)=6n+3$"
+        "text": "$ g(n)=6n+3 $"
       },
       {
         "label": "D",
-        "text": "$g(n)=6n+9$"
+        "text": "$ g(n)=6n+9 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -424,24 +424,24 @@
   {
     "question_number": 17,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "$f(x)=k(1.83)^{x}$ The function f is defined by the given equation, where k is a constant, The value of f(x) increases by p % for every increase of x by 1. For which of the following functions, where k is a constant, does the value of g(x) increase by p % for every increase of x by $\\frac{1}{4}$?",
+    "passage": "$ f(x)=k(1.83)^{x}$ The function f is defined by the given equation, where k is a constant, The value of f(x) increases by p % for every increase of x by 1. For which of the following functions, where k is a constant, does the value of g(x) increase by p % for every increase of x by $\\frac{1}{4}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$g(x)=k(1.83^{x})^{\\frac{1}{4}}$"
+        "text": "$ g(x)=k(1.83^{x})^{\\frac{1}{4}}$"
       },
       {
         "label": "B",
-        "text": "$g(x)=k(1.83^{x})^{4}$"
+        "text": "$ g(x)=k(1.83^{x})^{4}$"
       },
       {
         "label": "C",
-        "text": "$g(x)=k(1.83^{x})^{x+\\frac{1}{4}}$"
+        "text": "$ g(x)=k(1.83^{x})^{x+\\frac{1}{4}}$"
       },
       {
         "label": "D",
-        "text": "$g(x)=k(1.83^{x})^{x-\\frac{1}{4}}$"
+        "text": "$ g(x)=k(1.83^{x})^{x-\\frac{1}{4}}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -461,7 +461,7 @@
   {
     "question_number": 19,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "The exponential function f is defned by f(x)= ab x, where a and b are positive constants. If $f(n-1)=f(n)+\\frac{82}{100}f(n-1)$, where n is a constant, what is the value of b?",
+    "passage": "The exponential function f is defned by f(x)= ab x, where a and b are positive constants. If $ f(n-1)=f(n)+\\frac{82}{100}f(n-1)$, where n is a constant, what is the value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -496,19 +496,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$R=\\frac{13pqs}{p+q+s+13}$"
+        "text": "$ R=\\frac{13pqs}{p+q+s+13}$"
       },
       {
         "label": "B",
-        "text": "$R=\\frac{13pqs}{13qs+13ps+13pq+pqs}$"
+        "text": "$ R=\\frac{13pqs}{13qs+13ps+13pq+pqs}$"
       },
       {
         "label": "C",
-        "text": "$R=\\frac{13qs+13ps+13pq+pqs}{13pqs}$"
+        "text": "$ R=\\frac{13qs+13ps+13pq+pqs}{13pqs}$"
       },
       {
         "label": "D",
-        "text": "$R=p+q+s+13$"
+        "text": "$ R=p+q+s+13 $"
       }
     ],
     "is_fill_in_blank": false,

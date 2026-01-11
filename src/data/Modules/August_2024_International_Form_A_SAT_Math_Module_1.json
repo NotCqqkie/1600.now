@@ -56,7 +56,7 @@
   {
     "question_number": 3,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "$\\sqrt{w}+34=40$ What is the solution to the given equation?",
+    "passage": "$\\sqrt{w}+34=40 $ What is the solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -174,7 +174,7 @@
   {
     "question_number": 8,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "Triangles JKL and PQR are congruent, where J corresponds to P, and K corresponds to Q.The measure of angle J is 45°, the measure of angle K is10 °, and the measure of angle L is 125 °. What is the measure, in degrees, of angle P? (Disregard the degree symbol when entering your answer.)",
+    "passage": "Triangles JKL and PQR are congruent, where J corresponds to P, and K corresponds to Q. The measure of angle J is 45°, the measure of angle K is10 °, and the measure of angle L is 125 °. What is the measure, in degrees, of angle P? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -243,19 +243,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=\\frac{1}{2}(72,000)^{t}$"
+        "text": "$ y=\\frac{1}{2}(72,000)^{t}$"
       },
       {
         "label": "B",
-        "text": "$y=2(72,000)^{t}$"
+        "text": "$ y=2(72,000)^{t}$"
       },
       {
         "label": "C",
-        "text": "$y=72,000(\\frac{1}{2})^{t}$"
+        "text": "$ y=72,000(\\frac{1}{2})^{t}$"
       },
       {
         "label": "D",
-        "text": "$y=72,000(2)^{t}$"
+        "text": "$ y=72,000(2)^{t}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -265,7 +265,7 @@
   {
     "question_number": 12,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "A rectangle has a width of n yards and a length of (n + 5) yards. If the rectangle has an area of 204 square yards,what is the value of n?",
+    "passage": "A rectangle has a width of n yards and a length of (n + 5) yards. If the rectangle has an area of 204 square yards, what is the value of n?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -275,7 +275,7 @@
   {
     "question_number": 13,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by $f(x)=9^{\\frac{x}{8}}+11$. For what value of x is f(x)equal to 38?",
+    "passage": "The function f is defined by $ f(x)=9^{\\frac{x}{8}}+11 $. For what value of x is f(x)equal to 38?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -285,24 +285,24 @@
   {
     "question_number": 14,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "$f(x)=x^{2}-42x+80$ The function f is defined by the given equation. Which of the following equivalent forms of the equation displays the zeros of the function as constants or coefficients?",
+    "passage": "$ f(x)=x^{2}-42x+80 $ The function f is defined by the given equation. Which of the following equivalent forms of the equation displays the zeros of the function as constants or coefficients?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=x^{2}-5x-37x+80$"
+        "text": "$ f(x)=x^{2}-5x-37x+80 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=(x-2)(x-40)$"
+        "text": "$ f(x)=(x-2)(x-40)$"
       },
       {
         "label": "C",
-        "text": "$f(x)=x(x-42)+80$"
+        "text": "$ f(x)=x(x-42)+80 $"
       },
       {
         "label": "D",
-        "text": "$f(x)=(x-21)^{2}-361$"
+        "text": "$ f(x)=(x-21)^{2}-361 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -403,7 +403,7 @@
   {
     "question_number": 19,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "$x(r-7)+3=19x+25$ In the given equation, r is a positive integer. If the given equation has exactly one solution, what CANNOT be the value of r?",
+    "passage": "$ x(r-7)+3=19x+25 $ In the given equation, r is a positive integer. If the given equation has exactly one solution, what CANNOT be the value of r?",
     "question_text": null,
     "choices": [
       {

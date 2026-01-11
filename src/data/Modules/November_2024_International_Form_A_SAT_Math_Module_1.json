@@ -66,7 +66,7 @@
   {
     "question_number": 4,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "$x+5y=5$ $x-5y=7$ The solution to the given system of equations is (x, y). What is the value of x?",
+    "passage": "$ x+5y=5 $ $ x-5y=7 $ The solution to the given system of equations is (x, y). What is the value of x?",
     "question_text": null,
     "choices": [
       {
@@ -93,24 +93,24 @@
   {
     "question_number": 5,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to $6x(x+3)$?",
+    "passage": "Which expression is equivalent to $ 6x(x+3)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$6x^{2}+3$"
+        "text": "$ 6x^{2}+3 $"
       },
       {
         "label": "B",
-        "text": "$6x^{2}+18x$"
+        "text": "$ 6x^{2}+18x $"
       },
       {
         "label": "C",
-        "text": "$7x^{2}+3$"
+        "text": "$ 7x^{2}+3 $"
       },
       {
         "label": "D",
-        "text": "$7x^{2}+9x$"
+        "text": "$ 7x^{2}+9x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -125,19 +125,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$g(x)=3x^{5}+9$"
+        "text": "$ g(x)=3x^{5}+9 $"
       },
       {
         "label": "B",
-        "text": "$g(x)=3x^{5}-9$"
+        "text": "$ g(x)=3x^{5}-9 $"
       },
       {
         "label": "C",
-        "text": "$g(x)=3x^{45}$"
+        "text": "$ g(x)=3x^{45}$"
       },
       {
         "label": "D",
-        "text": "$g(x)=27x^{5}$"
+        "text": "$ g(x)=27x^{5}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -152,19 +152,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=3x$"
+        "text": "$ f(x)=3x $"
       },
       {
         "label": "B",
-        "text": "$f(x)=3x+3$"
+        "text": "$ f(x)=3x+3 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=69x$"
+        "text": "$ f(x)=69x $"
       },
       {
         "label": "D",
-        "text": "$f(x)=69x+3$"
+        "text": "$ f(x)=69x+3 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -206,19 +206,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=-\\frac{7}{16}x^{2}$\n$y=-\\frac{7}{4}x$"
+        "text": "$ y=-\\frac{7}{16}x^{2}$\n$ y=-\\frac{7}{4}x $"
       },
       {
         "label": "B",
-        "text": "$y=-\\frac{7}{16}x^{2}$\n$y=\\frac{7}{4}x$"
+        "text": "$ y=-\\frac{7}{16}x^{2}$\n$ y=\\frac{7}{4}x $"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{7}{16}x^{2}$\n$y=-\\frac{7}{4}x$"
+        "text": "$ y=\\frac{7}{16}x^{2}$\n$ y=-\\frac{7}{4}x $"
       },
       {
         "label": "D",
-        "text": "$y=\\frac{7}{16}x^{2}$\n$y=\\frac{7}{4}x$"
+        "text": "$ y=\\frac{7}{16}x^{2}$\n$ y=\\frac{7}{4}x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -238,7 +238,7 @@
   {
     "question_number": 11,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "$19=x+y$ $x-y=9$ The solution to the given system of equations is (x, y). What is the value of x?",
+    "passage": "$ 19=x+y $ $ x-y=9 $ The solution to the given system of equations is (x, y). What is the value of x?",
     "question_text": null,
     "choices": [
       {
@@ -265,7 +265,7 @@
   {
     "question_number": 12,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "$x^{2}-16x+y^{2}-10y-55=0$ In the xy-plane, the graph of the given equation is a circle, If this circle is inscribed in asquare, what is the perimeter of the square?",
+    "passage": "$ x^{2}-16x+y^{2}-10y-55=0 $ In the xy-plane, the graph of the given equation is a circle, If this circle is inscribed in asquare, what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -346,7 +346,7 @@
   {
     "question_number": 15,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "$C(t)=240(\\frac{53}{52})^{t-15}+7$ The function C gives the estimated number of cephalopods, a class of marine animal, in acertain area, where t is the number of months since a study began, How many months after the study began was the number of cephalopods in the area estimated to be 247?",
+    "passage": "$ C(t)=240(\\frac{53}{52})^{t-15}+7 $ The function C gives the estimated number of cephalopods, a class of marine animal, in acertain area, where t is the number of months since a study began, How many months after the study began was the number of cephalopods in the area estimated to be 247?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -381,19 +381,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=174,000(0.024)^{x}$"
+        "text": "$ f(x)=174,000(0.024)^{x}$"
       },
       {
         "label": "B",
-        "text": "$f(x)=174,000(0.24)^{x}$"
+        "text": "$ f(x)=174,000(0.24)^{x}$"
       },
       {
         "label": "C",
-        "text": "$f(x)=174,000(1.024)^{x}$"
+        "text": "$ f(x)=174,000(1.024)^{x}$"
       },
       {
         "label": "D",
-        "text": "$f(x)=174,000(1.24)^{x}$"
+        "text": "$ f(x)=174,000(1.24)^{x}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -435,11 +435,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$17cosQ$"
+        "text": "$ 17cosQ $"
       },
       {
         "label": "B",
-        "text": "$17sinQ$"
+        "text": "$ 17sinQ $"
       },
       {
         "label": "C",
@@ -457,7 +457,7 @@
   {
     "question_number": 21,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "$\\frac{1}{9}x-\\frac{3r}{7}y=34$ One of the equations in a system of two linear equations is given, where r is a nonzero constant. The system has no solution. lf the other equation in the system is graphed in the xy-plane, what is the slope of the graph?",
+    "passage": "$\\frac{1}{9}x-\\frac{3r}{7}y=34 $ One of the equations in a system of two linear equations is given, where r is a nonzero constant. The system has no solution. lf the other equation in the system is graphed in the xy-plane, what is the slope of the graph?",
     "question_text": null,
     "choices": [
       {
@@ -489,19 +489,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$8(4n)+9n+3(30)=100$"
+        "text": "$ 8(4n)+9n+3(30)=100 $"
       },
       {
         "label": "B",
-        "text": "$8n+9n+3n=100$"
+        "text": "$ 8n+9n+3n=100 $"
       },
       {
         "label": "C",
-        "text": "$4n+30=100$"
+        "text": "$ 4n+30=100 $"
       },
       {
         "label": "D",
-        "text": "$5n+30=100$"
+        "text": "$ 5n+30=100 $"
       }
     ],
     "is_fill_in_blank": false,

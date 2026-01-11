@@ -115,7 +115,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "The region where $x and $y>0"
+        "text": "The region where $ x and $ y>0"
       },
       {
         "label": "B",
@@ -123,7 +123,7 @@
       },
       {
         "label": "C",
-        "text": "The region where $x>0 andy>0$"
+        "text": "The region where $ x>0 andy>0 $"
       },
       {
         "label": "D",
@@ -137,7 +137,7 @@
   {
     "question_number": 6,
     "test_name": "June 2024 US Form A SAT Math Module 2",
-    "passage": "The graph of $y=f(x)+8$ is shown below: Which equation defines the linears function f?",
+    "passage": "The graph of $ y=f(x)+8 $ is shown below: Which equation defines the linears function f?",
     "question_text": null,
     "choices": [
       {
@@ -312,7 +312,7 @@
   {
     "question_number": 15,
     "test_name": "June 2024 US Form A SAT Math Module 2",
-    "passage": "$y=9(\\frac{a}{6})^{x+c}-b$ How many times does the graph of the given equation in the xy -plane cross the x -axis, where a, b, and c are positive constants such that a >6 and b > c?",
+    "passage": "$ y=9(\\frac{a}{6})^{x+c}-b $ How many times does the graph of the given equation in the xy -plane cross the x -axis, where a, b, and c are positive constants such that a >6 and b > c?",
     "question_text": null,
     "choices": [
       {
@@ -344,19 +344,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x^{2}-2x-24$"
+        "text": "$ x^{2}-2x-24 $"
       },
       {
         "label": "B",
-        "text": "$x^{2}-x+42$"
+        "text": "$ x^{2}-x+42 $"
       },
       {
         "label": "C",
-        "text": "$x^{2}-11x-28$"
+        "text": "$ x^{2}-11x-28 $"
       },
       {
         "label": "D",
-        "text": "$x^{2}-7x$"
+        "text": "$ x^{2}-7x $"
       }
     ],
     "is_fill_in_blank": false,
@@ -366,7 +366,7 @@
   {
     "question_number": 17,
     "test_name": "June 2024 US Form A SAT Math Module 2",
-    "passage": "In the given figure, $\\overline{NP}$ is the diameter of semicircle O. Angles Q, R, and S are rightangles, and point P is the midpoint of $\\overline{NQ}$. If PO = 52 feet and NS = 18 feet, the area of the figure can be expressed as $a\\pi+b$ square feet, where a and b are integers. Whatis the value of a - b?",
+    "passage": "In the given figure, $\\overline{NP}$ is the diameter of semicircle O. Angles Q, R, and S are rightangles, and point P is the midpoint of $\\overline{NQ}$. If PO = 52 feet and NS = 18 feet, the area of the figure can be expressed as $ a\\pi+b $ square feet, where a and b are integers. Whatis the value of a - b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -484,7 +484,7 @@
   {
     "question_number": 22,
     "test_name": "June 2024 US Form A SAT Math Module 2",
-    "passage": "For groups of 25 or more people, a museum charges $28 per person for the first 25 people and $17 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people,where $n\\ge$ 25?",
+    "passage": "For groups of 25 or more people, a museum charges $ 28 per person for the first 25 people and $ 17 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people, where $ n\\ge $ 25?",
     "question_text": null,
     "choices": [
       {

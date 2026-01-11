@@ -29,7 +29,7 @@
   {
     "question_number": 2,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "A marine biologist uses a linear model to estimate the weight of a blue whale after it is born.The model estimates that a certain blue whale weighs 5,710 pounds at birth and gains 10.0pounds per hour, for 120 hours, after it is born, Based on this model, what is the estimated weight, in pounds, of this blue whale 7 hours after it is born?",
+    "passage": "A marine biologist uses a linear model to estimate the weight of a blue whale after it is born. The model estimates that a certain blue whale weighs 5,710 pounds at birth and gains 10.0pounds per hour, for 120 hours, after it is born, Based on this model, what is the estimated weight, in pounds, of this blue whale 7 hours after it is born?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -187,16 +187,16 @@
   {
     "question_number": 11,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "which expression is equivalent to $(158y)^{\\frac{1}{2}}$,where y > 1?",
+    "passage": "which expression is equivalent to $(158y)^{\\frac{1}{2}}$, where y > 1?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$158·\\sqrt{y}$"
+        "text": "$ 158·\\sqrt{y}$"
       },
       {
         "label": "B",
-        "text": "$\\sqrt{158·}y$"
+        "text": "$\\sqrt{158·}y $"
       },
       {
         "label": "C",
@@ -375,15 +375,15 @@
       },
       {
         "label": "B",
-        "text": "$-\\frac{5}{12}\\pi$ ·$\\frac{\\pi}{180^\\circ}$"
+        "text": "$-\\frac{5}{12}\\pi $ ·$\\frac{\\pi}{180^\\circ}$"
       },
       {
         "label": "C",
-        "text": "$-\\frac{5}{12}\\pi$ ·$\\frac{180^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi $ ·$\\frac{180^\\circ}{\\pi}$"
       },
       {
         "label": "D",
-        "text": "$-\\frac{5}{12}\\pi$ ·$\\frac{360^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi $ ·$\\frac{360^\\circ}{\\pi}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -402,7 +402,7 @@
       },
       {
         "label": "B",
-        "text": "$M=100(0.24)^{\\frac{6}{22.96}}$"
+        "text": "$ M=100(0.24)^{\\frac{6}{22.96}}$"
       },
       {
         "label": "C",
@@ -410,7 +410,7 @@
       },
       {
         "label": "D",
-        "text": "$M=100(0.76)^{\\frac{t}{22.96}}$"
+        "text": "$ M=100(0.76)^{\\frac{t}{22.96}}$"
       }
     ],
     "is_fill_in_blank": false,

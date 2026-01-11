@@ -53,7 +53,7 @@
   {
     "question_number": 2,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "What is the y -intercept of the graph of $y=6x^{2}+4x+3$ in the xy-plane?",
+    "passage": "What is the y -intercept of the graph of $ y=6x^{2}+4x+3 $ in the xy-plane?",
     "question_text": null,
     "choices": [
       {
@@ -215,24 +215,24 @@
   {
     "question_number": 8,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$ak=\\frac{b}{12}(8+m)$ The given equation relates the positive variables a, b, k, and m. Which equation correctly expresses m in terms of a, b, and k?",
+    "passage": "$ ak=\\frac{b}{12}(8+m)$ The given equation relates the positive variables a, b, k, and m. Which equation correctly expresses m in terms of a, b, and k?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$m=\\frac{12(ak-8)}{b}$"
+        "text": "$ m=\\frac{12(ak-8)}{b}$"
       },
       {
         "label": "B",
-        "text": "$m=ak-8-\\frac{b}{12}$"
+        "text": "$ m=ak-8-\\frac{b}{12}$"
       },
       {
         "label": "C",
-        "text": "$m=ak-\\frac{8b}{12}$"
+        "text": "$ m=ak-\\frac{8b}{12}$"
       },
       {
         "label": "D",
-        "text": "$m=\\frac{12ak}{b}$$-8$"
+        "text": "$ m=\\frac{12ak}{b}$$-8 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -242,7 +242,7 @@
   {
     "question_number": 9,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "The function g is defined by $g(x)=10^{4x-2}$. What is the value of x when g (x) is equal to 10,000?",
+    "passage": "The function g is defined by $ g(x)=10^{4x-2}$. What is the value of x when g (x) is equal to 10,000?",
     "question_text": null,
     "choices": [
       {
@@ -269,7 +269,7 @@
   {
     "question_number": 10,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "If $\\frac{x}{y}=3$ and $\\frac{2x}{ty}=18$, what is the value of t?",
+    "passage": "If $\\frac{x}{y}=3 $ and $\\frac{2x}{ty}=18 $, what is the value of t?",
     "question_text": null,
     "choices": [
       {
@@ -333,7 +333,7 @@
   {
     "question_number": 13,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$F(x)=\\frac{9}{5}(x-273.15)+32$ The function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 13.30 kelvins, by how much did the temperature increase, in degrees Fahrenheit?",
+    "passage": "$ F(x)=\\frac{9}{5}(x-273.15)+32 $ The function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 13.30 kelvins, by how much did the temperature increase, in degrees Fahrenheit?",
     "question_text": null,
     "choices": [
       {
@@ -370,7 +370,7 @@
   {
     "question_number": 15,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$f(x)=26(1.20)^{\\frac{x}{3}}$ For the given function f, the value of f (x) increases by p % for every increase of x by 6. What is the value of p?",
+    "passage": "$ f(x)=26(1.20)^{\\frac{x}{3}}$ For the given function f, the value of f (x) increases by p % for every increase of x by 6. What is the value of p?",
     "question_text": null,
     "choices": [
       {
@@ -397,7 +397,7 @@
   {
     "question_number": 16,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "A carpenter charges a flat rate of $228 for the first 2 hours of work and $95 for each additional hour of work. Which equation gives the total amount y, in dollars, that the carpenter charges for x hours of work, where x > 2?",
+    "passage": "A carpenter charges a flat rate of $ 228 for the first 2 hours of work and $ 95 for each additional hour of work. Which equation gives the total amount y, in dollars, that the carpenter charges for x hours of work, where x > 2?",
     "question_text": null,
     "choices": [
       {
@@ -424,7 +424,7 @@
   {
     "question_number": 17,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$y=-6.5$ $y=x^{2}+8x+a$ In the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?",
+    "passage": "$ y=-6.5 $ $ y=x^{2}+8x+a $ In the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -434,7 +434,7 @@
   {
     "question_number": 18,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$5272n\\sqrt{272n}^{2}$ For what value of x is the given expression equivalent to $(272n)^{30x}$, where n > 1?",
+    "passage": "$ 5272n\\sqrt{272n}^{2}$ For what value of x is the given expression equivalent to $(272n)^{30x}$, where n > 1?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -471,7 +471,7 @@
   {
     "question_number": 20,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "The table shows three values of x and their corresponding values of g (x), where $g(x)=\\frac{f(x)}{x+4}$? and f is a linear function. What is the y-intercept of the graph of y = f (x) in the xy -plane?",
+    "passage": "The table shows three values of x and their corresponding values of g (x), where $ g(x)=\\frac{f(x)}{x+4}$? and f is a linear function. What is the y-intercept of the graph of y = f (x) in the xy -plane?",
     "question_text": null,
     "choices": [
       {

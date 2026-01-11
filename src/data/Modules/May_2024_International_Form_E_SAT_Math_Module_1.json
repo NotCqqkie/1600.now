@@ -39,7 +39,7 @@
   {
     "question_number": 3,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Line v is defined by y =7 x +10. Line w is perpendicular to line v in the xy -plane. What is the slope of line w ?",
+    "passage": "Line v is defined by y =7 x +10. Line w is perpendicular to line v in the xy -plane. What is the slope of line w?",
     "question_text": null,
     "choices": [
       {
@@ -66,7 +66,7 @@
   {
     "question_number": 4,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "For the linear function f,the graph of y = f (x) in the xy -plane has a slope of$\\frac{1}{7}$ and passes through the point (0,6). Which equation defines f?",
+    "passage": "For the linear function f, the graph of y = f (x) in the xy -plane has a slope of $\\frac{1}{7}$ and passes through the point (0,6). Which equation defines f?",
     "question_text": null,
     "choices": [
       {
@@ -93,7 +93,7 @@
   {
     "question_number": 5,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "During a trip,Bill drove his car for 22.0 miles and then began driving at a constant speed of 70.0 miles per hour. After 2 hours of driving at this speed,what is the total distance,in miles,Bill has traveled during this trip?",
+    "passage": "During a trip, Bill drove his car for 22.0 miles and then began driving at a constant speed of 70.0 miles per hour. After 2 hours of driving at this speed, what is the total distance, in miles, Bill has traveled during this trip?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -103,7 +103,7 @@
   {
     "question_number": 6,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "In the xy -plane,the graph of the given equation is a circle. If this circle is inscribed in a square,what is the perimeter of the square?",
+    "passage": "In the xy -plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -167,7 +167,7 @@
   {
     "question_number": 9,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Which ordered pair (x,y) is a solution to the given system of equations?",
+    "passage": "Which ordered pair (x, y) is a solution to the given system of equations?",
     "question_text": null,
     "choices": [
       {
@@ -221,7 +221,7 @@
   {
     "question_number": 11,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Circle K has a radius of 8 millimeters (mm). Circle L has an area of 144π mm 2. What is the total area,i n mm 2,of circles K and L?",
+    "passage": "Circle K has a radius of 8 millimeters (mm). Circle L has an area of 144π mm 2. What is the total area, i n mm 2, of circles K and L?",
     "question_text": null,
     "choices": [
       {
@@ -366,7 +366,7 @@
   {
     "question_number": 17,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "The solution to the given system of equations is (x,y). What is the value of xy?",
+    "passage": "The solution to the given system of equations is (x, y). What is the value of xy?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -386,7 +386,7 @@
   {
     "question_number": 19,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "A scientist initially measures 9,000 bacteria in a growth medium. 10 hours later,the scientist measures 18,000 bacteria. Assuming exponential growth,the formula P = C(2) rt gives the number of bacteria in the growth medium,where r and C are constants and P is the number of bacteria t hours after the initial measurement. What is the value of r?",
+    "passage": "A scientist initially measures 9,000 bacteria in a growth medium. 10 hours later, the scientist measures 18,000 bacteria. Assuming exponential growth, the formula P = C(2) rt gives the number of bacteria in the growth medium, where r and C are constants and P is the number of bacteria t hours after the initial measurement. What is the value of r?",
     "question_text": null,
     "choices": [
       {
@@ -413,7 +413,7 @@
   {
     "question_number": 20,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Two variables, x and y,are related such that for each increase of 1 in the value of x,the value of y increases by a factor of 4. When x = 0, y = 150. Which equation represents this relationship?",
+    "passage": "Two variables, x and y, are related such that for each increase of 1 in the value of x, the value of y increases by a factor of 4. When x = 0, y = 150. Which equation represents this relationship?",
     "question_text": null,
     "choices": [
       {

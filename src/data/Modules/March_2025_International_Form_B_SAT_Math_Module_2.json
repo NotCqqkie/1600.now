@@ -29,7 +29,7 @@
   {
     "question_number": 2,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "In one week in 2017, a technician earned a total of $700 by working at her regular job and at a second job doing part-time work. The equation $16h+13c=700 represents this situation, where h is the number of hours worked at her regular job and c is the number of hours worked at her second job. Which of the following is the best interpretation of 16 in this context?",
+    "passage": "In one week in 2017, a technician earned a total of $ 700 by working at her regular job and at a second job doing part-time work. The equation $ 16h+13c=700 represents this situation, where h is the number of hours worked at her regular job and c is the number of hours worked at her second job. Which of the following is the best interpretation of 16 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -83,16 +83,16 @@
   {
     "question_number": 4,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is 56 °, and $AE=24(BD)$. What is the measure of angle $CAE$?",
+    "passage": "In the figure shown, triangle $ CAE $ is similar to triangle $ CBD $. The measure of angle $ CBD $ is 56 °, and $ AE=24(BD)$. What is the measure of angle $ CAE $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$24^\\circ$"
+        "text": "$ 24^\\circ $"
       },
       {
         "label": "B",
-        "text": "$56^\\circ$"
+        "text": "$ 56^\\circ $"
       },
       {
         "label": "C",
@@ -100,7 +100,7 @@
       },
       {
         "label": "D",
-        "text": "$(24•56)^\\circ$"
+        "text": "$(24•56)^\\circ $"
       }
     ],
     "is_fill_in_blank": false,
@@ -115,19 +115,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$4$"
+        "text": "$ 4 $"
       },
       {
         "label": "B",
-        "text": "$15$"
+        "text": "$ 15 $"
       },
       {
         "label": "C",
-        "text": "$77$"
+        "text": "$ 77 $"
       },
       {
         "label": "D",
-        "text": "$120$"
+        "text": "$ 120 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -137,24 +137,24 @@
   {
     "question_number": 6,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "$y=\\frac{x}{4}+6$ $y=-\\frac{x}{4}+20$ The solution to the given system of equations is (x, y). What is the value of 2 y?",
+    "passage": "$ y=\\frac{x}{4}+6 $ $ y=-\\frac{x}{4}+20 $ The solution to the given system of equations is (x, y). What is the value of 2 y?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$26$"
+        "text": "$ 26 $"
       },
       {
         "label": "B",
-        "text": "$20$"
+        "text": "$ 20 $"
       },
       {
         "label": "C",
-        "text": "$14$"
+        "text": "$ 14 $"
       },
       {
         "label": "D",
-        "text": "$6$"
+        "text": "$ 6 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -169,19 +169,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=22+5$"
+        "text": "$ y=22+5 $"
       },
       {
         "label": "B",
-        "text": "$y=22$"
+        "text": "$ y=22 $"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{22}{5}$"
+        "text": "$ y=\\frac{22}{5}$"
       },
       {
         "label": "D",
-        "text": "$y=5$"
+        "text": "$ y=5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -196,19 +196,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$M=100(0.22)^{t+11.11}$"
+        "text": "$ M=100(0.22)^{t+11.11}$"
       },
       {
         "label": "B",
-        "text": "$M=100(0.22)^{\\frac{t}{11.11}}$"
+        "text": "$ M=100(0.22)^{\\frac{t}{11.11}}$"
       },
       {
         "label": "C",
-        "text": "$M=100(0.78)^{t+11.11}$"
+        "text": "$ M=100(0.78)^{t+11.11}$"
       },
       {
         "label": "D",
-        "text": "$M=100(0.78)^{\\frac{t}{11.11}}$"
+        "text": "$ M=100(0.78)^{\\frac{t}{11.11}}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -218,24 +218,24 @@
   {
     "question_number": 9,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "Line k is defined by $y=8x+7$. Line j is parallel to line k in the xy -plane and passes through the point (0, 15). Which equation defines line j?",
+    "passage": "Line k is defined by $ y=8x+7 $. Line j is parallel to line k in the xy -plane and passes through the point (0, 15). Which equation defines line j?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$y=15x+7$"
+        "text": "$ y=15x+7 $"
       },
       {
         "label": "B",
-        "text": "$y=-15x+7$"
+        "text": "$ y=-15x+7 $"
       },
       {
         "label": "C",
-        "text": "$y=8x+15$"
+        "text": "$ y=8x+15 $"
       },
       {
         "label": "D",
-        "text": "$y=-8x+15$"
+        "text": "$ y=-8x+15 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -245,24 +245,24 @@
   {
     "question_number": 10,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "For the linear function p, $p(c)=-6$, where c is a constant, $p(5)=42$, and the slope of the graph of$y=p(x)$ in the xy -plane is 8. For the linear function t, $t(c)=-7$ and $t(6)=56$. What is the slope of the graph of $y=t(x)$ in the xy -plane?",
+    "passage": "For the linear function p, $ p(c)=-6 $, where c is a constant, $ p(5)=42 $, and the slope of the graph of $ y=p(x)$ in the xy -plane is 8. For the linear function t, $ t(c)=-7 $ and $ t(6)=56 $. What is the slope of the graph of $ y=t(x)$ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-1$"
+        "text": "$-1 $"
       },
       {
         "label": "B",
-        "text": "$2$"
+        "text": "$ 2 $"
       },
       {
         "label": "C",
-        "text": "$8$"
+        "text": "$ 8 $"
       },
       {
         "label": "D",
-        "text": "$9$"
+        "text": "$ 9 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -272,7 +272,7 @@
   {
     "question_number": 11,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "If $2(4-5x)+7(4-5x)+9=8(4-5x)+6$, what is the value of$5x-4$?",
+    "passage": "If $ 2(4-5x)+7(4-5x)+9=8(4-5x)+6 $, what is the value of $ 5x-4 $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -282,24 +282,24 @@
   {
     "question_number": 12,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "The shaded region shown represents the solutions to $rx+ty\\ge-44$, where r and t are constants. What is the value of$r+t$?",
+    "passage": "The shaded region shown represents the solutions to $ rx+ty\\ge-44 $, where r and t are constants. What is the value of $ r+t $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-4$"
+        "text": "$-4 $"
       },
       {
         "label": "B",
-        "text": "$-3$"
+        "text": "$-3 $"
       },
       {
         "label": "C",
-        "text": "$3$"
+        "text": "$ 3 $"
       },
       {
         "label": "D",
-        "text": "$5$"
+        "text": "$ 5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -309,7 +309,7 @@
   {
     "question_number": 13,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "$f(x)=\\sqrt{3x+8}$ The function $f$ is defined by the given equation. If $f(a)=-9a$, where a is a constant, what is the value of a?",
+    "passage": "$ f(x)=\\sqrt{3x+8}$ The function $ f $ is defined by the given equation. If $ f(a)=-9a $, where a is a constant, what is the value of a?",
     "question_text": null,
     "choices": [
       {
@@ -336,7 +336,7 @@
   {
     "question_number": 14,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "$7p^{4}=t^{\\frac{5}{6}}$ In the given equation, $p>1$ and $t>1$. If $t=p^{2n-1}$, where n is a constant, what is the value of n?",
+    "passage": "$ 7p^{4}=t^{\\frac{5}{6}}$ In the given equation, $ p>1 $ and $ t>1 $. If $ t=p^{2n-1}$, where n is a constant, what is the value of n?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -346,24 +346,24 @@
   {
     "question_number": 15,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "The function $f$ is a quadratic function. In the xy -plane, the graph of$y=f(x)$ has a vertex at $(1,6)$ and passes through the points $(2,40)$ and $(-1,142)$. What is the value of $f(-2)-f(0)$?",
+    "passage": "The function $ f $ is a quadratic function. In the xy -plane, the graph of $ y=f(x)$ has a vertex at $(1,6)$ and passes through the points $(2,40)$ and $(-1,142)$. What is the value of $ f(-2)-f(0)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$108$"
+        "text": "$ 108 $"
       },
       {
         "label": "B",
-        "text": "$176$"
+        "text": "$ 176 $"
       },
       {
         "label": "C",
-        "text": "$272$"
+        "text": "$ 272 $"
       },
       {
         "label": "D",
-        "text": "$312$"
+        "text": "$ 312 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -373,24 +373,24 @@
   {
     "question_number": 16,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "Which expression is equivalent to $15(x+10)$?",
+    "passage": "Which expression is equivalent to $ 15(x+10)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$15x+10$"
+        "text": "$ 15x+10 $"
       },
       {
         "label": "B",
-        "text": "$15x+150$"
+        "text": "$ 15x+150 $"
       },
       {
         "label": "C",
-        "text": "$15x+25$"
+        "text": "$ 15x+25 $"
       },
       {
         "label": "D",
-        "text": "$15x+5$"
+        "text": "$ 15x+5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -400,24 +400,24 @@
   {
     "question_number": 17,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "The graph of $y=f(x)+2$ is shown. Which equation defines function $f$?",
+    "passage": "The graph of $ y=f(x)+2 $ is shown. Which equation defines function $ f $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-5^{x}+1$"
+        "text": "$ f(x)=-5^{x}+1 $"
       },
       {
         "label": "B",
-        "text": "$f(x)=-5^{x}+3$"
+        "text": "$ f(x)=-5^{x}+3 $"
       },
       {
         "label": "C",
-        "text": "$f(x)=-5^{x}+4$"
+        "text": "$ f(x)=-5^{x}+4 $"
       },
       {
         "label": "D",
-        "text": "$f(x)=-5^{x}+5$"
+        "text": "$ f(x)=-5^{x}+5 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -432,19 +432,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$3.90$"
+        "text": "$ 3.90 $"
       },
       {
         "label": "B",
-        "text": "$7.65$"
+        "text": "$ 7.65 $"
       },
       {
         "label": "C",
-        "text": "$31.50$"
+        "text": "$ 31.50 $"
       },
       {
         "label": "D",
-        "text": "$43.33$"
+        "text": "$ 43.33 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -474,7 +474,7 @@
   {
     "question_number": 21,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$, where a, b, and n are constants, and b and n are integers. If $f(2)=6$ and $f(5)=162$, what is the value of $f(7)$?",
+    "passage": "The function $ f $ is defined by $ f(x)=ab^{\\frac{x}{n}}$, where a, b, and n are constants, and b and n are integers. If $ f(2)=6 $ and $ f(5)=162 $, what is the value of $ f(7)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -484,7 +484,7 @@
   {
     "question_number": 22,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "$24x^{2}-(12a+2b)x+ab=0$ In the given equation, a and b are positive constants. The sum of the solutions to the given equation is $k(6a+b)$, where k is a constant. What is the value of k?",
+    "passage": "$ 24x^{2}-(12a+2b)x+ab=0 $ In the given equation, a and b are positive constants. The sum of the solutions to the given equation is $ k(6a+b)$, where k is a constant. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
