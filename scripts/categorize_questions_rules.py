@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import random
 from pathlib import Path
 
 # Configuration
@@ -80,12 +81,10 @@ def match_score(question, category):
 
         # Expression of Ideas
         elif cat_skill == "Transitions":
-            if "transition" in text_lower: score += 10
-            elif "logical transition" in text_lower: score += 10
-            else:
-                trans_words = ["however", "therefore", "furthermore", "consequently", "nevertheless", "in contrast", "similarly"]
-                count = sum(1 for w in trans_words if w in choices_text)
-                if count > 1: score += 8
+            if "most logical transition" in text_lower: score += 12
+            elif "transition" in text_lower: score += 10
+            # Removed the heuristic looking at choices only, as it caused false positives.
+            # Real SAT transition questions always mention "transition" in the prompt.
 
         elif cat_skill == "Rhetorical Synthesis":
             if "student" in text_lower and "notes" in text_lower: score += 10
@@ -149,7 +148,9 @@ def match_score(question, category):
             elif cat_skill == "Ratios, Rates, Proportions, and Units":
                 if "ratio" in text_lower: score += 10
                 elif "rate" in text_lower: score += 5
-                elif "per" in text_lower and "unit" in text_lower: score += 5
+                elif "per" in text_lower: score += 3
+                elif "density" in text_lower: score += 8
+                elif "unit" in text_lower: score += 3
 
         # Algebra / Advanced Math
         else:
@@ -157,10 +158,20 @@ def match_score(question, category):
             has_eq = "=" in text_lower
             has_x = "x" in text_lower
             has_y = "y" in text_lower
-            has_sq = "^2" in text_lower or "square" in text_lower
             
+            # Smart square detection
+            # Exclude "square" if it refers to units like "square centimeter"
+            is_unit_square = "square" in text_lower and ("meter" in text_lower or "foot" in text_lower or "inch" in text_lower or "mile" in text_lower)
+            has_sq = "^2" in text_lower or ("square" in text_lower and not is_unit_square)
+            
+            # Detect x^2 missing caret context like 'x 2'
+            if not has_sq:
+                 has_sq = bool(re.search(r"x\s*2\b", text_lower))
+            
+            is_function = "f(x)" in text_lower or "g(x)" in text_lower or "function" in text_lower
+
             if cat_skill == "Linear Equations in One Variable":
-                if has_eq and has_x and not has_y and not has_sq: score += 5
+                if has_eq and has_x and not has_y and not has_sq and not is_function: score += 5
                 elif "value of" in text_lower and "satisfies" in text_lower: score += 3
             elif cat_skill == "Systems of Linear Equations":
                 if "system" in text_lower: score += 10
@@ -172,20 +183,20 @@ def match_score(question, category):
             elif cat_skill == "Linear Functions":
                 if "linear function" in text_lower: score += 10
                 elif "slope" in text_lower or "intercept" in text_lower: score += 8
-                elif "f(x)" in text_lower and not has_sq: score += 3
+                elif is_function and not has_sq: score += 5  # Boosted generic function
             
             # Advanced
             elif cat_skill == "Equivalent Expressions":
                 if "equivalent" in text_lower: score += 10
                 elif "rewrite" in text_lower: score += 5
             elif cat_skill == "Nonlinear Functions":
-                if "quadratic" in text_lower or "exponential" in text_lower: score += 5
-                elif has_sq and "function" in text_lower: score += 5
+                if "quadratic" in text_lower or "exponential" in text_lower: score += 10 # Boosted
+                elif has_sq and is_function: score += 10 # Boosted
                 elif "vertex" in text_lower: score += 8
             elif cat_skill == "Nonlinear Equations and Systems":
                 if "system" in text_lower and has_sq: score += 10
-                elif "number of solutions" in text_lower: score += 5
-                elif has_eq and has_sq and not "function" in text_lower: score += 4
+                elif "number of solutions" in text_lower and has_sq: score += 8
+                elif has_eq and has_sq and not is_function: score += 5 # Reduced slightly to avoid false positives
     
     return score
 
@@ -250,6 +261,29 @@ def main():
     with open(OUTPUT_MAP, 'w', encoding='utf-8') as f:
         json.dump(category_map, f, indent=2)
     print(f"\nSaved map to {OUTPUT_MAP}")
+
+    # Random Sampling for Verification
+    print("\n--- Verification Sampling (1 Question per Skill) ---")
+    
+    # Organize IDs by skill
+    skill_to_ids = {}
+    for qid, data in category_map.items():
+        key = f"{data['domain']} - {data['skill']}"
+        if key not in skill_to_ids:
+            skill_to_ids[key] = []
+        skill_to_ids[key].append(qid)
+        
+    # Map back to questions for printing
+    q_lookup = {q['id']: q for q in questions}
+    
+    for skill, ids in sorted(skill_to_ids.items()):
+        sample_id = random.choice(ids)
+        q = q_lookup[sample_id]
+        print(f"\n[Category: {skill}]")
+        print(f"ID: {sample_id}")
+        passage = (q.get('passage') or "")
+        q_text = (q.get('question_text') or "")
+        print(f"Text: {(passage + ' ' + q_text)[:200]}...")
 
 if __name__ == "__main__":
     main()
