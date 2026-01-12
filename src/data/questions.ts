@@ -38,7 +38,7 @@ export const questions: Question[] = [
   },
   {
     id: 4,
-    text: "$f(x) = 7x^2 + 3$\\\\$g(x) = nx - 4$\\\\\\\\For the given system of equations, $n$ is a constant. The graphs of $f(x)$ and $g(x)$ intersect at one point $(x, y)$. Which of the following is a possible value of $n$?",
+    text: "$f(x) = 7x^2 + 3$\\\\$g(x) = nx - 4$\\\\For the given system of equations, $n$ is a constant. The graphs of $f(x)$ and $g(x)$ intersect at one point $(x, y)$. Which of the following is a possible value of $n$?",
     choices: [
       { id: "A", text: "$-16$" },
       { id: "B", text: "$-12$" },
@@ -50,7 +50,7 @@ export const questions: Question[] = [
   },
   {
     id: 5,
-    text: "$f(x) = 18x + b$\\\\\\\\For the given function $f(x)$, which of the following represents the equation for the function $3f(x)$, given that the point $(-2, -20)$ lies on the graph of $f(x) - 10$?",
+    text: "$f(x) = 18x + b$\\\\For the given function $f(x)$, which of the following represents the equation for the function $3f(x)$, given that the point $(-2, -20)$ lies on the graph of $f(x) - 10$?",
     choices: [
       { id: "A", text: "$f(x) = 18x - 78$" },
       { id: "B", text: "$f(x) = 54x + 78$" },
@@ -74,13 +74,13 @@ export const questions: Question[] = [
   },
   {
     id: 7,
-    text: "$g(x) = a^x + b$\\\\\\\\The exponential function $g$ passes through the points $(m, 20)$ and $(2m, 620)$. What is a possible value of $b$?",
+    text: "$g(x) = a^x + b$\\\\The exponential function $g$ passes through the points $(m, 20)$ and $(2m, 620)$. What is a possible value of $b$?",
     correctAnswer: "-5",
     type: "free-response",
   },
   {
     id: 8,
-    text: "Cylinders A and B are similar and have volumes of $1568\\pi\\ \\text{ft}^3$ and $42336\\pi\\ \\text{ft}^3$, respectively. If the height of cylinder A is $32$ ft and the surface area of cylinder B is $p\\pi\\ \\text{ft}^2$, where $p$ is a constant, what is the value of $p$?\\\\\\\\Volume of a cylinder: $V = \\pi r^2 h$\\\\Surface area of a cylinder: $A = 2\\pi r^2 + 2\\pi rh$",
+    text: "Cylinders A and B are similar and have volumes of $1568\\pi\\ \\text{ft}^3$ and $42336\\pi\\ \\text{ft}^3$, respectively. If the height of cylinder A is $32$ ft and the surface area of cylinder B is $p\\pi\\ \\text{ft}^2$, where $p$ is a constant, what is the value of $p$?\\\\Volume of a cylinder: $V = \\pi r^2 h$\\\\Surface area of a cylinder: $A = 2\\pi r^2 + 2\\pi rh$",
     correctAnswer: "4914",
     type: "free-response",
   },
@@ -122,7 +122,7 @@ export const questions: Question[] = [
   },
   {
     id: 13,
-    text: "The equation given is one of two equations in a system of linear equations. The system has no solution. Which equation could be the second equation for this system?\\\\\\\\$-21 = 65y + 13x$",
+    text: "The equation given is one of two equations in a system of linear equations. The system has no solution. Which equation could be the second equation for this system?\\\\$-21 = 65y + 13x$",
     choices: [
       { id: "A", text: "$65y = 13x$" },
       { id: "B", text: "$25y = -5x + 12$" },
@@ -146,7 +146,7 @@ export const questions: Question[] = [
   },
   {
     id: 15,
-    text: "What is the value of $63m$ if the given equation only has one solution?\\\\\\\\$\\frac{\\|x+7\\|}{63} = m$",
+    text: "What is the value of $63m$ if the given equation only has one solution?\\\\$\\frac{\\|x+7\\|}{63} = m$",
     choices: [
       { id: "A", text: "$-7$ only" },
       { id: "B", text: "$0$ only" },
@@ -158,13 +158,13 @@ export const questions: Question[] = [
   },
   {
     id: 16,
-    text: "In the given system of equations, $m$ is a constant. If the system has no solution, what is the value of $m$?\\\\\\\\$\\frac{7}{6}x + \\frac{18}{5} = -x + \\frac{5}{3}y$\\\\$\\frac{5m}{2}x + \\frac{3}{7} = \\frac{3m}{2}x + \\frac{5}{2}y$",
+    text: "In the given system of equations, $m$ is a constant. If the system has no solution, what is the value of $m$?\\\\$\\frac{7}{6}x + \\frac{18}{5} = -x + \\frac{5}{3}y$\\\\$\\frac{5m}{2}x + \\frac{3}{7} = \\frac{3m}{2}x + \\frac{5}{2}y$",
     correctAnswer: "3.25",
     type: "free-response",
   },
   {
     id: 17,
-    text: "The graph of the given equation forms a circle in the $xy$-plane. What point lies on this circle?\\\\\\\\$(x-3)^2 + (y+14)^2 = 49$",
+    text: "The graph of the given equation forms a circle in the $xy$-plane. What point lies on this circle?\\\\$(x-3)^2 + (y+14)^2 = 49$",
     choices: [
       { id: "A", text: "$(\\sqrt{48} + 3,\\ -15)$" },
       { id: "B", text: "$(\\sqrt{48} - 3,\\ -7)$" },
@@ -194,7 +194,7 @@ export const questions: Question[] = [
   },
   {
     id: 20,
-    text: "Sphere A has a diameter of $8x$, and sphere B has a diameter of $24x$. What percent of the volume of sphere A is the volume of sphere B?\\\\\\\\Volume of a sphere $= \\frac{4}{3}\\pi r^3$",
+    text: "Sphere A has a diameter of $8x$, and sphere B has a diameter of $24x$. What percent of the volume of sphere A is the volume of sphere B?\\\\Volume of a sphere $= \\frac{4}{3}\\pi r^3$",
     correctAnswer: "2700",
     type: "free-response",
   },
@@ -260,7 +260,7 @@ export const questions: Question[] = [
   },
   {
     id: 27,
-    text: "For the given system of equations, what is the value of $(a-b)$?\\\\\\\\$(c-d) - 3 = -5(a-b)^2 + 12(a-b)$\\\\$-\\frac{(c-d)}{3} + 7 = (a-b)^2 - 8(a-b)$",
+    text: "For the given system of equations, what is the value of $(a-b)$?\\\\$(c-d) - 3 = -5(a-b)^2 + 12(a-b)$\\\\$-\\frac{(c-d)}{3} + 7 = (a-b)^2 - 8(a-b)$",
     correctAnswer: "-3",
     type: "free-response",
   },
@@ -296,7 +296,7 @@ export const questions: Question[] = [
   },
   {
     id: 31,
-    text: "$26x^2 + bx = -ax^2 - 8x + 78$\\\\\\\\In the given equation, $b$ and $a$ are constants. The product of the solutions to the equation is $-\\frac{78}{a-p}$, where $p$ is a constant. What is the value of $p$?",
+    text: "$26x^2 + bx = -ax^2 - 8x + 78$\\\\In the given equation, $b$ and $a$ are constants. The product of the solutions to the equation is $-\\frac{78}{a-p}$, where $p$ is a constant. What is the value of $p$?",
     correctAnswer: "-26",
     type: "free-response",
   },
@@ -446,7 +446,7 @@ export const questions: Question[] = [
   },
   {
     id: 46,
-    text: "$4x^2 + kx - 180 = (mx+n)(x-p)$\\\\\\\\Given that $m$, $n$, and $p$ are integers, which of the following must be true?",
+    text: "$4x^2 + kx - 180 = (mx+n)(x-p)$\\\\Given that $m$, $n$, and $p$ are integers, which of the following must be true?",
     choices: [
       { id: "A", text: "$n$ is a factor of $k$" },
       { id: "B", text: "$m$ is a factor of $k$" },
@@ -482,7 +482,7 @@ export const questions: Question[] = [
   },
   {
     id: 51,
-    text: "$x^2 - 18x + y^2 + 6y = -65$\\\\\\\\The equation above defines a circle in the $xy$-plane. What are the coordinates of the circle's center?",
+    text: "$x^2 - 18x + y^2 + 6y = -65$\\\\The equation above defines a circle in the $xy$-plane. What are the coordinates of the circle's center?",
     choices: [
       { id: "A", text: "$(9,-3)$" },
       { id: "B", text: "$(-18,6)$" },
@@ -494,7 +494,7 @@ export const questions: Question[] = [
   },
   {
     id: 52,
-    text: "$3x^2 - 6x = m$\\\\\\\\In the equation above, $m$ is a constant. If the equation has no real solutions, which of the following is a possible value of $m$?",
+    text: "$3x^2 - 6x = m$\\\\In the equation above, $m$ is a constant. If the equation has no real solutions, which of the following is a possible value of $m$?",
     choices: [
       { id: "A", text: "$-4$" },
       { id: "B", text: "$-3$" },
@@ -542,7 +542,7 @@ export const questions: Question[] = [
   },
   {
     id: 56,
-    text: "How many solutions does the given equation have?\\\\\\\\$15x = -30x$",
+    text: "How many solutions does the given equation have?\\\\$15x = -30x$",
     choices: [
       { id: "A", text: "Zero" },
       { id: "B", text: "Exactly one" },
@@ -572,7 +572,7 @@ export const questions: Question[] = [
   },
   {
     id: 59,
-    text: "$75x - \\frac{19k}{2} = -75x - \\frac{19k}{2}$\\\\\\\\If $k$ is a constant, how many solutions does the given equation have?",
+    text: "$75x - \\frac{19k}{2} = -75x - \\frac{19k}{2}$\\\\If $k$ is a constant, how many solutions does the given equation have?",
     choices: [
       { id: "A", text: "No real solutions" },
       { id: "B", text: "One real solution" },
@@ -584,25 +584,25 @@ export const questions: Question[] = [
   },
   {
     id: 60,
-    text: "$x^2 - 6x + 3$\\\\\\\\If one solution to the given equation can be represented by $3 + \\sqrt{p}$, where $p$ is a constant, what is the value of $p$?",
+    text: "$x^2 - 6x + 3$\\\\If one solution to the given equation can be represented by $3 + \\sqrt{p}$, where $p$ is a constant, what is the value of $p$?",
     correctAnswer: "6",
     type: "free-response",
   },
   {
     id: 61,
-    text: "$4y = 18$\\\\$-8x^2 + bx$\\\\\\\\In the $xy$-plane, the two given equations intersect at exactly one point. If $b$ is a positive constant, what is the value of $b$?",
+    text: "$4y = 18$\\\\$-8x^2 + bx$\\\\In the $xy$-plane, the two given equations intersect at exactly one point. If $b$ is a positive constant, what is the value of $b$?",
     correctAnswer: "12",
     type: "free-response",
   },
   {
     id: 62,
-    text: "$\\sqrt{2x + p} = x + 12$\\\\\\\\For the given equation, for which value of $p$ would the equation have exactly one real solution?",
+    text: "$\\sqrt{2x + p} = x + 12$\\\\For the given equation, for which value of $p$ would the equation have exactly one real solution?",
     correctAnswer: "23",
     type: "free-response",
   },
   {
     id: 63,
-    text: "$-25x^2 + (5ab)x + 25$\\\\\\\\For the given equation, $a$ and $b$ are positive constants. If the sum of solutions to the given equation is $mab$, where $m$ is a constant, what is the value of $m$?",
+    text: "$-25x^2 + (5ab)x + 25$\\\\For the given equation, $a$ and $b$ are positive constants. If the sum of solutions to the given equation is $mab$, where $m$ is a constant, what is the value of $m$?",
     choices: [
       { id: "A", text: "$\\frac{1}{25}$" },
       { id: "B", text: "$\\frac{1}{5}$" },
@@ -614,13 +614,13 @@ export const questions: Question[] = [
   },
   {
     id: 64,
-    text: "$f(x) = x^2 - 3x - 4$\\\\$g(x) = x^2 - 9x + 14$\\\\$h(x) = x^2$\\\\\\\\The function $f(x)$ has two solutions of $q$ and $r$, where $q$ is positive. The function $g(x)$ has two solutions of $p$ and $m$, where $m > p$. If the function $h(x)$ has solutions of $(q-p)$ and $(m+r)$ and can be rewritten as $(x + a)(x + b)$, what is the value of $m$?",
+    text: "$f(x) = x^2 - 3x - 4$\\\\$g(x) = x^2 - 9x + 14$\\\\$h(x) = x^2$\\\\The function $f(x)$ has two solutions of $q$ and $r$, where $q$ is positive. The function $g(x)$ has two solutions of $p$ and $m$, where $m > p$. If the function $h(x)$ has solutions of $(q-p)$ and $(m+r)$ and can be rewritten as $(x + a)(x + b)$, what is the value of $m$?",
     correctAnswer: "7",
     type: "free-response",
   },
   {
     id: 65,
-    text: "Square pyramids A and B are similar. Square pyramid A has a base of $144\\ \\text{m}^2$ and a volume of $384\\ \\text{m}^3$.\\\\\\\\If one of square pyramid B's triangular faces has a surface area of $540\\ \\text{m}^2$, what is the volume, in m$^3$, of B?",
+    text: "Square pyramids A and B are similar. Square pyramid A has a base of $144\\ \\text{m}^2$ and a volume of $384\\ \\text{m}^3$.\\\\If one of square pyramid B's triangular faces has a surface area of $540\\ \\text{m}^2$, what is the volume, in m$^3$, of B?",
     correctAnswer: "10368",
     type: "free-response",
   },
@@ -656,7 +656,7 @@ export const questions: Question[] = [
   },
   {
     id: 70,
-    text: "Which of the following inequalities gives all possible values of $k$ for which the equation below has no real solutions?\\\\\\\\$9 - 3\\left\\|\\frac{4x}{5} + \\frac{3}{7}\\right\\| = 4 + k$",
+    text: "Which of the following inequalities gives all possible values of $k$ for which the equation below has no real solutions?\\\\$9 - 3\\left\\|\\frac{4x}{5} + \\frac{3}{7}\\right\\| = 4 + k$",
     choices: [
       { id: "A", text: "$k < 5$" },
       { id: "B", text: "$k > 5$" },
@@ -728,13 +728,13 @@ export const questions: Question[] = [
   },
   {
     id: 77,
-    text: "$-16(4x-3)^2 + 6(3x-7)^2$\\\\\\\\The given equation above can be rewritten into the form $\\frac{a}{13}x^2 + \\frac{b}{13}x + \\frac{c}{13}$, where $a$, $b$, and $c$ are constants. What is the value of $a + b + c$?",
+    text: "$-16(4x-3)^2 + 6(3x-7)^2$\\\\The given equation above can be rewritten into the form $\\frac{a}{13}x^2 + \\frac{b}{13}x + \\frac{c}{13}$, where $a$, $b$, and $c$ are constants. What is the value of $a + b + c$?",
     correctAnswer: "1040",
     type: "free-response",
   },
   {
     id: 78,
-    text: "$C = 60(0.97)^{t+40} + 22$\\\\\\\\The given equation above gives $C$, in degrees Celsius, of a cup of coffee after being removed from a heat source, where $t$ is the time in minutes since the sample was removed. Which of the following best describes $22$ in this context?",
+    text: "$C = 60(0.97)^{t+40} + 22$\\\\The given equation above gives $C$, in degrees Celsius, of a cup of coffee after being removed from a heat source, where $t$ is the time in minutes since the sample was removed. Which of the following best describes $22$ in this context?",
     choices: [
       {
         id: "A",
@@ -773,7 +773,7 @@ export const questions: Question[] = [
   },
   {
     id: 81,
-    text: "$-16(4x-3)^2 + 6(3x-7)^2$\\\\\\\\The given equation above can be rewritten into the form $\\frac{a}{13} x^2 + \\frac{b}{13} x + \\frac{c}{13}$, where $a$, $b$, and $c$ are constants. What is the value of $a + b + c$?",
+    text: "$-16(4x-3)^2 + 6(3x-7)^2$\\\\The given equation above can be rewritten into the form $\\frac{a}{13} x^2 + \\frac{b}{13} x + \\frac{c}{13}$, where $a$, $b$, and $c$ are constants. What is the value of $a + b + c$?",
     correctAnswer: "1040",
     type: "free-response",
   },
@@ -827,7 +827,7 @@ export const questions: Question[] = [
   },
   {
     id: 88,
-    text: "$f(cx) = x - 6$\\\\\\\\What is a possible value of $c$ that satisfies the provided equation, given that the point $(3,28)$ lies on the graph of $f(x)$ in the $xy$-plane?",
+    text: "$f(cx) = x - 6$\\\\What is a possible value of $c$ that satisfies the provided equation, given that the point $(3,28)$ lies on the graph of $f(x)$ in the $xy$-plane?",
     correctAnswer: "0.08824",
     type: "free-response",
   },
@@ -875,7 +875,7 @@ export const questions: Question[] = [
   },
   {
     id: 93,
-    text: "Which equation correctly gives $a$ in terms of $b$, $c$, and $d$?\\\\\\\\$\\frac{67}{a} = \\frac{67}{b} + \\frac{67}{c} + \\frac{67}{d}$",
+    text: "Which equation correctly gives $a$ in terms of $b$, $c$, and $d$?\\\\$\\frac{67}{a} = \\frac{67}{b} + \\frac{67}{c} + \\frac{67}{d}$",
     choices: [
       { id: "A", text: "$a = \\frac{b + c + d}{abc}$" },
       { id: "B", text: "$\\frac{bcd}{cd + bd + bc}$" },
@@ -899,13 +899,13 @@ export const questions: Question[] = [
   },
   {
     id: 95,
-    text: "A jewelry store has a mega-gold-bar mold in the shape of a rectangular prism with a length of $216$ inches, a width of $32$ inches, and a height of $27$ inches. The equation $c = vd$ relates the variables $c$, $v$ and $d$, where $c$ is the total cost in dollars, $v$ is the volume in cubic yards, and $d$ is the cost per cubic yard. If $c$ is equal to &#36;1720, what is the value of $d$ in dollars per cubic yard?\\\\\\\\$1$ yard $= 36$ inches",
+    text: "A jewelry store has a mega-gold-bar mold in the shape of a rectangular prism with a length of $216$ inches, a width of $32$ inches, and a height of $27$ inches. The equation $c = vd$ relates the variables $c$, $v$ and $d$, where $c$ is the total cost in dollars, $v$ is the volume in cubic yards, and $d$ is the cost per cubic yard. If $c$ is equal to &#36;1720, what is the value of $d$ in dollars per cubic yard?\\\\$1$ yard $= 36$ inches",
     correctAnswer: "430",
     type: "free-response",
   },
   {
     id: 96,
-    text: "$P(t) = (116{,}000)(2.23)^{t/3}$\\\\\\\\A researcher is studying the growth of an Escherichia coli bacteria culture. The given function $P(t)$ models the population of the culture, in Colony Forming Units (CFUs), $t$ hours after the study begins. Which statement is the best interpretation of $(2.23)^{t/3}$?",
+    text: "$P(t) = (116{,}000)(2.23)^{t/3}$\\\\A researcher is studying the growth of an Escherichia coli bacteria culture. The given function $P(t)$ models the population of the culture, in Colony Forming Units (CFUs), $t$ hours after the study begins. Which statement is the best interpretation of $(2.23)^{t/3}$?",
     choices: [
       { id: "A", text: "Every $20$ minutes, the population increases by $142,680$ CFUs." },
       { id: "B", text: "Every $20$ minutes, the population increases by $123\\%$." },
@@ -929,7 +929,7 @@ export const questions: Question[] = [
   },
   {
     id: 98,
-    text: "In the given equation, $b$ is a negative integer constant. Which value could be a possible solution?\\\\\\\\$3x^4 + bx^3 - 1407x^2 = 0$",
+    text: "In the given equation, $b$ is a negative integer constant. Which value could be a possible solution?\\\\$3x^4 + bx^3 - 1407x^2 = 0$",
     choices: [
       { id: "A", text: "$-22$" },
       { id: "B", text: "$67$" },
@@ -953,7 +953,7 @@ export const questions: Question[] = [
   },
   {
     id: 100,
-    text: "$ax^2 + 67x + c$\\\\\\\\In the given quadratic function, $a$ and $c$ are positive constants. If $px + q$ is a factor of the quadratic, where $p$ and $q$ are positive constants, what is the greatest possible integer value of $ac$?",
+    text: "$ax^2 + 67x + c$\\\\In the given quadratic function, $a$ and $c$ are positive constants. If $px + q$ is a factor of the quadratic, where $p$ and $q$ are positive constants, what is the greatest possible integer value of $ac$?",
     correctAnswer: "1122",
     type: "free-response",
   },

@@ -352,7 +352,10 @@ const BankQuestion = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
       <header className="border-b border-border bg-card sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-4">
+        <div 
+          className={cn("container mx-auto px-4 py-4 transition-all duration-300 ease-linear", isSplitScreenActive && "mx-0 max-w-none")}
+          style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
+        >
           <div className="flex items-center justify-between gap-3">
             <div className="flex items-center gap-2">
               <Button variant="ghost" size="sm" onClick={() => navigate("/bank")}>Home</Button>
@@ -360,23 +363,27 @@ const BankQuestion = () => {
             </div>
             <div className="flex items-center gap-2">
               <ThemeToggle />
-              <FormulaSheetDialog
-                onSplitScreenChange={handleSplitScreenChange}
-                splitPosition={splitPosition}
-                onFocus={() => {}}
-                zIndex={60}
-                constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
-              />
-              <DesmosDialog
-                onSplitScreenChange={handleSplitScreenChange}
-                onSplitPositionChange={handleSplitPositionChange}
-                splitPosition={splitPosition}
-                onFocus={() => {}}
-                zIndex={70}
-                constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
-                isSidebarred={sidebarredWindows.has("desmos")}
-                onSidebarToggle={handleSidebarToggle}
-              />
+              {subject !== "reading" && (
+                <>
+                  <FormulaSheetDialog
+                    onSplitScreenChange={handleSplitScreenChange}
+                    splitPosition={splitPosition}
+                    onFocus={() => {}}
+                    zIndex={60}
+                    constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                  />
+                  <DesmosDialog
+                    onSplitScreenChange={handleSplitScreenChange}
+                    onSplitPositionChange={handleSplitPositionChange}
+                    splitPosition={splitPosition}
+                    onFocus={() => {}}
+                    zIndex={70}
+                    constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                    isSidebarred={sidebarredWindows.has("desmos")}
+                    onSidebarToggle={handleSidebarToggle}
+                  />
+                </>
+              )}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button variant="outline" size="sm" title="Question View">
@@ -678,6 +685,10 @@ const BankQuestion = () => {
                 constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
                 isSidebarred={sidebarredWindows.has("explanation")}
                 onSidebarToggle={handleSidebarToggle}
+                correctAnswer={question?.correctAnswer}
+                questionType={question?.type}
+                choices={question?.choices}
+                questionId={questionKey}
               />
               <Button
                 onClick={() => handleCheck()}

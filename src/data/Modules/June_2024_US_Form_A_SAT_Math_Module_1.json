@@ -137,7 +137,7 @@
   {
     "question_number": 6,
     "test_name": "June 2024 US Form A SAT Math Module 1",
-    "passage": "Student-produced response directions • If you find more than one correct answer, enter only one answer. • You can enter up to 5 characters for a positive answer and up to 6 characters (including the negative sign) for a negative answer. • If your answer is a fraction that doesn't fit in the provided space, enter the decimal equivalent. • If your answer is a decimal that doesn't fit in the provided space, enter it by truncating or rounding at the fourth digit. • If your answer is a mixed number (such as $ 3\\frac{1}{2}$), enter it as an improper fraction (7/2)or its decimal equivalent (3.5). • Don't enter symbols such as a percent sign, comma, or dollar sign. Examples Answer Acceptable ways to enter answer Unacceptable: will NOT receive credit 3.5 3.5 3.50 7/2 31/2 3 1/2 The function f is defined by f (x)= x 2 + x + 61. What is the value of f (2)?",
+    "passage": "The function f is defined by f (x)= x 2 + x + 61. What is the value of f (2)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -174,7 +174,7 @@
   {
     "question_number": 8,
     "test_name": "June 2024 US Form A SAT Math Module 1",
-    "passage": "Student-produced response directions • If you find more than one correct answer, enter only one answer • You can enter up to 5 characters for a positive answer and up to 6 characters (including the negative sign) for a negative answer. • If your answer is a fraction that doesn't fit in the provided space, enter the decimal equivalent. • If your answer is a decimal that doesn't fit in the provided space, enter it by truncating or rounding at the fourth digit. • If your answer is a mixed number (such as), enter it as an improperfraction (7/2) or its decimal equivalent (3.5). • Don't enter symbols such as a percent sign, comma, or dollar sign. Examples Answer Acceptable ways to enter answer Unacceptable: will NOT receive credit 3.5 3.5 3.50 7/2 31/2 3 1/2 In the xy -plane, line k has a slope of 5 and a y -intercept of (0, -35). What is the x -coordinate of the x -intercept of line k?",
+    "passage": "In the xy -plane, line k has a slope of 5 and a y -intercept of (0, -35). What is the x -coordinate of the x -intercept of line k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -420,7 +420,7 @@
   {
     "question_number": 19,
     "test_name": "June 2024 US Form A SAT Math Module 1",
-    "passage": "Student-produced response directions • If you find more than one correct answer, enter only one answer • You can enter up to 5 characters for a positive answer and up to 6 characters (including the negative sign) for a negative answer. • If your answer is a fraction that doesn't fit in the provided space, enter the decimal equivalent. • If your answer is a decimal that doesn't fit in the provided space, enter it by truncating or rounding at the fourth digit. • If your answer is a mixed number (such as $ 3\\frac{1}{2}$), enter it as an improperfraction (7/2) or its decimal equivalent (3.5). • Don't enter symbols such as a percent sign, comma, or dollar sign. Note: Figure not drawn to scale. In the figure, AC = CD. The measure of angle EBC is 29°, and the measure of angle ACD is 108 °. What is the value of x?",
+    "passage": "Note: Figure not drawn to scale. In the figure, AC = CD. The measure of angle EBC is 29°, and the measure of angle ACD is 108 °. What is the value of x?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -430,7 +430,7 @@
   {
     "question_number": 20,
     "test_name": "June 2024 US Form A SAT Math Module 1",
-    "passage": "Student-produced response directions • If you find more than one correct answer, enter only one answer • You can enter up to 5 characters for a positive answer and up to 6 characters (including the negative sign) for a negative answer. • If your answer is a fraction that doesn't fit in the provided space, enter the decimal equivalent. • If your answer is a decimal that doesn't fit in the provided space, enter it by truncating or rounding at the fourth digit. • If your answer is a mixed number (such as), enter it as an improperfraction (7/2) or its decimal equivalent (3.5). • Don't enter symbols such as a percent sign, comma, or dollar sign. The positive number a is 2,800 % of the number c, and c is 25% of the number b. If a - b = wc, where w is a constant, what is the value of w?",
+    "passage": "The positive number a is 2,800 % of the number c, and c is 25% of the number b. If a - b = wc, where w is a constant, what is the value of w?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

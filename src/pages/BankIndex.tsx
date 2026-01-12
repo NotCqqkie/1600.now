@@ -21,6 +21,8 @@ import {
   ChevronDown,
   Home,
   Play,
+  Shuffle,
+  RotateCcw,
 } from "lucide-react";
 import {
   QuestionBankFilterPanel,
@@ -395,12 +397,35 @@ const BankIndex = () => {
     navigate(`/bank/${first.subject}/${first.id}?practice=true&idx=1`);
   }, [navigate]);
 
-  const handleCreatePracticeSet = useCallback(() => {
-    startPracticeSession(getSelectedQuestions());
+  const handleCreatePracticeSet = useCallback((shuffle: boolean = false) => {
+    let questions = getSelectedQuestions();
+
+    if (shuffle) {
+      // Fisher-Yates shuffle
+      const shuffled = [...questions];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      questions = shuffled;
+    }
+
+    startPracticeSession(questions);
   }, [startPracticeSession, getSelectedQuestions]);
   
-  const handleQuickStart = useCallback((subject: "math" | "reading", domain?: string, skill?: string) => {
-    const questions = getSelectedQuestions(subject, domain, skill);
+  const handleQuickStart = useCallback((subject: "math" | "reading", domain?: string, skill?: string, shuffle: boolean = false) => {
+    let questions = getSelectedQuestions(subject, domain, skill);
+
+    if (shuffle) {
+      // Fisher-Yates shuffle
+      const shuffled = [...questions];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      questions = shuffled;
+    }
+
     startPracticeSession(questions);
   }, [startPracticeSession, getSelectedQuestions]);
 
@@ -417,12 +442,10 @@ const BankIndex = () => {
       <Card className="p-6">
         <div className="flex items-center gap-3 mb-4">
           <div 
-            className="flex items-center gap-3 flex-1 cursor-pointer"
+            className={`flex items-center gap-3 flex-1 ${isMultiSelect ? 'cursor-pointer' : ''}`}
             onClick={() => {
               if (isMultiSelect) {
                 toggleSubject("math", !topicSelection.math.selected);
-              } else {
-                handleQuickStart("math");
               }
             }}
           >
@@ -445,19 +468,29 @@ const BankIndex = () => {
               </p>
             </div>
           </div>
-          <Button 
-            size="sm" 
-            onClick={() => handleQuickStart("math")}
-            className="gap-1"
-          >
-            <Play className="h-4 w-4" />
-            Start All
-          </Button>
+          <div className="flex gap-2">
+            <Button 
+              size="sm" 
+              onClick={() => handleQuickStart("math")}
+              className="gap-1"
+            >
+              <Play className="h-4 w-4" />
+              Start All
+            </Button>
+            <Button 
+              size="sm" 
+              variant="outline"
+              onClick={() => handleQuickStart("math", undefined, undefined, true)}
+              title="Shuffle Math Questions"
+            >
+              <Shuffle className="h-4 w-4" />
+            </Button>
+          </div>
         </div>
 
         <div className="space-y-2">
           {allMathDomains.map((domain) => (
-            <div key={domain} className="border rounded-lg p-3">
+            <div key={domain} className="border rounded-lg p-3 group">
               <div className="flex items-center gap-2">
                 {isMultiSelect && (
                   <Checkbox
@@ -468,7 +501,7 @@ const BankIndex = () => {
                 )}
                 <div className="flex items-center justify-between flex-1">
                   <span 
-                    className="font-medium cursor-pointer flex-1 py-1 hover:text-primary"
+                    className="font-medium flex-1 py-1 cursor-pointer hover:text-primary"
                     onClick={() => {
                       if (isMultiSelect) {
                         toggleDomain("math", domain, !topicSelection.math.domains[domain]?.selected);
@@ -479,6 +512,18 @@ const BankIndex = () => {
                   >
                     {domain}
                   </span>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="h-6 w-6 mr-1 opacity-0 group-hover:opacity-100 transition-opacity"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleQuickStart("math", domain, undefined, true);
+                    }}
+                    title="Shuffle Domain"
+                  >
+                    <Shuffle className="h-3 w-3" />
+                  </Button>
                   <div
                     className="flex items-center gap-2 cursor-pointer p-1 hover:bg-muted rounded"
                     onClick={(e) => {
@@ -503,7 +548,7 @@ const BankIndex = () => {
                   {mathDomainSkills[domain].map((skill) => (
                     <div
                       key={skill}
-                      className="flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded cursor-pointer"
+                      className="flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded group/skill cursor-pointer"
                       onClick={() => {
                         if (isMultiSelect) {
                           toggleSkill("math", domain, skill, !topicSelection.math.domains[domain]?.skills[skill]);
@@ -522,6 +567,18 @@ const BankIndex = () => {
                       <span className="text-foreground truncate flex-1 mr-2">
                         {skill}
                       </span>
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        className="h-6 w-6 shrink-0 opacity-0 group-hover/skill:opacity-100 transition-opacity"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleQuickStart("math", domain, skill, true);
+                        }}
+                        title="Shuffle Skill"
+                      >
+                        <Shuffle className="h-3 w-3" />
+                      </Button>
                       <span className="text-sm text-muted-foreground">
                         <span className="text-green-600">{questionCounts.math.skills[skill]?.correct || 0}</span>
                         /{questionCounts.math.skills[skill]?.total || 0}
@@ -539,12 +596,10 @@ const BankIndex = () => {
       <Card className="p-6">
         <div className="flex items-center gap-3 mb-4">
           <div 
-            className="flex items-center gap-3 flex-1 cursor-pointer"
+            className={`flex items-center gap-3 flex-1 ${isMultiSelect ? 'cursor-pointer' : ''}`}
             onClick={() => {
               if (isMultiSelect) {
                 toggleSubject("reading", !topicSelection.reading.selected);
-              } else {
-                handleQuickStart("reading");
               }
             }}
           >
@@ -567,19 +622,29 @@ const BankIndex = () => {
               </p>
             </div>
           </div>
-          <Button 
-            size="sm" 
-            onClick={() => handleQuickStart("reading")}
-            className="gap-1"
-          >
-            <Play className="h-4 w-4" />
-            Start All
-          </Button>
+          <div className="flex gap-2">
+            <Button 
+              size="sm" 
+              onClick={() => handleQuickStart("reading")}
+              className="gap-1"
+            >
+              <Play className="h-4 w-4" />
+              Start All
+            </Button>
+            <Button 
+              size="sm" 
+              variant="outline"
+              onClick={() => handleQuickStart("reading", undefined, undefined, true)}
+              title="Shuffle Reading Questions"
+            >
+              <Shuffle className="h-4 w-4" />
+            </Button>
+          </div>
         </div>
 
         <div className="space-y-2">
           {allEnglishDomains.map((domain) => (
-            <div key={domain} className="border rounded-lg p-3">
+            <div key={domain} className="border rounded-lg p-3 group">
               <div className="flex items-center gap-2">
                 {isMultiSelect && (
                   <Checkbox
@@ -590,7 +655,7 @@ const BankIndex = () => {
                 )}
                 <div className="flex items-center justify-between flex-1">
                   <span 
-                    className="font-medium cursor-pointer flex-1 py-1 hover:text-primary"
+                    className="font-medium flex-1 py-1 cursor-pointer hover:text-primary"
                     onClick={() => {
                       if (isMultiSelect) {
                         toggleDomain("reading", domain, !topicSelection.reading.domains[domain]?.selected);
@@ -601,6 +666,18 @@ const BankIndex = () => {
                   >
                     {domain}
                   </span>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="h-6 w-6 mr-1 opacity-0 group-hover:opacity-100 transition-opacity"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleQuickStart("reading", domain, undefined, true);
+                    }}
+                    title="Shuffle Domain"
+                  >
+                    <Shuffle className="h-3 w-3" />
+                  </Button>
                   <div
                     className="flex items-center gap-2 cursor-pointer p-1 hover:bg-muted rounded"
                     onClick={(e) => {
@@ -625,7 +702,7 @@ const BankIndex = () => {
                   {englishDomainSkills[domain].map((skill) => (
                     <div
                       key={skill}
-                      className="flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded cursor-pointer"
+                      className="flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded group/skill cursor-pointer"
                       onClick={() => {
                         if (isMultiSelect) {
                           toggleSkill("reading", domain, skill, !topicSelection.reading.domains[domain]?.skills[skill]);
@@ -644,6 +721,18 @@ const BankIndex = () => {
                       <span className="text-foreground truncate flex-1 mr-2">
                         {skill}
                       </span>
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        className="h-6 w-6 shrink-0 opacity-0 group-hover/skill:opacity-100 transition-opacity"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleQuickStart("reading", domain, skill, true);
+                        }}
+                        title="Shuffle Skill"
+                      >
+                       <Shuffle className="h-3 w-3" />
+                      </Button>
                       <span className="text-sm text-muted-foreground">
                         <span className="text-green-600">{questionCounts.reading.skills[skill]?.correct || 0}</span>
                         /{questionCounts.reading.skills[skill]?.total || 0}
@@ -683,13 +772,26 @@ const BankIndex = () => {
             filters={filters}
             onFiltersChange={setFilters}
             rightContent={
-              <div className="flex items-center space-x-2">
-                <Switch
-                  id="multi-select-mode"
-                  checked={isMultiSelect}
-                  onCheckedChange={setIsMultiSelect}
-                />
-                <Label htmlFor="multi-select-mode">Multiple Topics</Label>
+              <div className="flex items-center gap-4">
+                {Object.values(filters).some(v => v !== "all" && v !== "none") && (
+                  <Button 
+                    variant="ghost" 
+                    size="sm" 
+                    onClick={() => setFilters(defaultFilters)}
+                    className="gap-2 text-muted-foreground hover:text-foreground"
+                  >
+                    <RotateCcw className="h-3 w-3" />
+                    Reset Filters
+                  </Button>
+                )}
+                <div className="flex items-center space-x-2 border-l pl-4">
+                  <Switch
+                    id="multi-select-mode"
+                    checked={isMultiSelect}
+                    onCheckedChange={setIsMultiSelect}
+                  />
+                  <Label htmlFor="multi-select-mode">Multiple Topics</Label>
+                </div>
               </div>
             }
           />
@@ -701,10 +803,19 @@ const BankIndex = () => {
 
       {/* Create Practice Set Button - Fixed at bottom right */}
       {selectedTopicsInfo.totalSelected > 0 && (
-        <div className="fixed bottom-6 right-6 z-50">
+        <div className="fixed bottom-6 right-6 z-50 flex gap-2">
+          <Button 
+            size="icon" 
+            variant="secondary"
+            onClick={() => handleCreatePracticeSet(true)}
+            className="shadow-lg h-12 w-12 rounded-full"
+            title="Create Shuffled Practice Set"
+          >
+            <Shuffle className="h-5 w-5" />
+          </Button>
           <Button 
             size="lg" 
-            onClick={handleCreatePracticeSet}
+            onClick={() => handleCreatePracticeSet(false)}
             className="shadow-lg gap-2"
           >
             <Play className="h-4 w-4" />

@@ -25,9 +25,9 @@
   },
   "b05db4ac-dd48-4b3f-b365-b39330c879e5_3": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_3": {
     "subject": "Math",
@@ -53,31 +53,13 @@
     "skill": "Systems of Linear Equations",
     "confidence": "high"
   },
-  "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_1": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
   "9377a50a-f782-492e-a3bf-a2b90698cacc_5": {
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-Variable Data",
     "confidence": "high"
   },
-  "d5718376-6a71-41d6-aa0f-411bb7f3bb75_3": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
   "27590f35-8d6e-45c6-b665-222acb5e516d_1": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_1": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Equations in One Variable",
@@ -95,28 +77,16 @@
     "skill": "One-Variable Data",
     "confidence": "high"
   },
-  "05468350-9fef-44ab-b9cb-893b50a7cadd_1": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "1b1871b9-081a-47fd-9218-97b0bbc4a454_21": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_17": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Systems of Linear Equations",
-    "confidence": "high"
-  },
-  "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_19": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
     "confidence": "high"
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_14": {
@@ -133,9 +103,9 @@
   },
   "1dcc132a-2f7c-417a-91cd-108d7cd9c930_9": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "d327ac24-d8f4-466e-a351-90aa6dbe87e3_11": {
     "subject": "Math",
@@ -145,9 +115,9 @@
   },
   "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "6f7157fc-7e47-4e83-add3-e372915177ec_20": {
     "subject": "Math",
@@ -157,27 +127,15 @@
   },
   "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "39729166-8e92-42cc-8ed6-76acdb673a3c_16": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
-  },
-  "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_7": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
   },
   "10c690aa-0aad-48ab-952b-855b2555b311_22": {
     "subject": "Math",
@@ -187,15 +145,15 @@
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_20": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_22": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "35bd5fb1-7659-4393-b736-241352b7187e_2": {
     "subject": "Math",
@@ -217,9 +175,9 @@
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_13": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_5": {
     "subject": "Math",
@@ -235,15 +193,15 @@
   },
   "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_17": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_22": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "a22baf87-f61e-43f7-b868-52cf0e05d234_7": {
     "subject": "Math",
@@ -281,18 +239,6 @@
     "skill": "Area and Volume",
     "confidence": "high"
   },
-  "fb11da56-a8c4-4733-a720-f2cea7a98a1a_2": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "b5883220-eb88-4f6b-8d82-979efee65d2d_2": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_19": {
     "subject": "Math",
     "domain": "Algebra",
@@ -301,21 +247,15 @@
   },
   "2c685c82-a211-4c0f-9856-cc6b06a5a86e_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_11": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
-  },
-  "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_16": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
   },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_6": {
     "subject": "Math",
@@ -323,22 +263,16 @@
     "skill": "Equivalent Expressions",
     "confidence": "high"
   },
-  "7d110811-1651-49a9-9be6-62e088b71c73_20": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_11": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "ba06b998-d854-4b29-830c-15d877280c75_20": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_8": {
@@ -361,20 +295,14 @@
   },
   "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_8": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_17": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "cd2abd24-f96a-43e7-860f-be962ea69e08_21": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "bd71c8f3-94e3-411f-929a-013a2ca9a277_13": {
@@ -401,40 +329,34 @@
     "skill": "Systems of Linear Equations",
     "confidence": "high"
   },
-  "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_20": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
   "ffdaaea2-8ec1-44b7-903d-084c644b881a_10": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_4": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "e3fe84c7-8083-48b8-863b-841355113ba0_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "4bcfe385-9d5d-411a-981d-c41179df51f6_3": {
@@ -469,15 +391,15 @@
   },
   "1b1871b9-081a-47fd-9218-97b0bbc4a454_16": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "d327ac24-d8f4-466e-a351-90aa6dbe87e3_8": {
     "subject": "Math",
@@ -503,12 +425,6 @@
     "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
-  "0c54aae7-15f2-4e7b-a138-cae820ff684e_3": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_21": {
     "subject": "Math",
     "domain": "Algebra",
@@ -529,9 +445,9 @@
   },
   "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_13": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "1dcc132a-2f7c-417a-91cd-108d7cd9c930_5": {
     "subject": "Math",
@@ -545,12 +461,6 @@
     "skill": "Systems of Linear Equations",
     "confidence": "high"
   },
-  "1fc2cc40-1a64-44a1-8ebe-eca45e868415_20": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_17": {
     "subject": "Math",
     "domain": "Algebra",
@@ -559,27 +469,21 @@
   },
   "b310cd51-4e49-46d2-99c8-70a10c0d83f9_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_22": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_4": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_22": {
     "subject": "Math",
@@ -601,9 +505,9 @@
   },
   "27590f35-8d6e-45c6-b665-222acb5e516d_17": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_18": {
     "subject": "Math",
@@ -619,20 +523,20 @@
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_12": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_12": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "8a096929-9162-4ef5-b1c5-1da19c60ea8c_17": {
@@ -647,29 +551,17 @@
     "skill": "Linear Functions",
     "confidence": "high"
   },
-  "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_4": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "27590f35-8d6e-45c6-b665-222acb5e516d_13": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Systems of Linear Equations",
     "confidence": "high"
   },
-  "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_11": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "a22baf87-f61e-43f7-b868-52cf0e05d234_8": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_13": {
     "subject": "Math",
@@ -697,21 +589,21 @@
   },
   "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "979898ba-60c7-4531-ac45-29c4db2b3361_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_18": {
     "subject": "Math",
@@ -847,9 +739,9 @@
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_1": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_15": {
     "subject": "Math",
@@ -872,14 +764,14 @@
   "305aaf32-2803-4909-83d0-d08ba71a35a7_4": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_10": {
     "subject": "Math",
@@ -1059,7 +951,7 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_10": {
     "subject": "Math",
@@ -1099,14 +991,14 @@
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "medium"
   },
   "979898ba-60c7-4531-ac45-29c4db2b3361_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "medium"
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_13": {
@@ -1135,9 +1027,9 @@
   },
   "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_12": {
     "subject": "Math",
@@ -1159,9 +1051,9 @@
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "32388549-e820-4b4a-91a9-d9c32e611098_19": {
     "subject": "Math",
@@ -1171,9 +1063,9 @@
   },
   "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "cd2abd24-f96a-43e7-860f-be962ea69e08_12": {
     "subject": "Math",
@@ -1219,20 +1111,14 @@
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_9": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
     "confidence": "high"
   },
   "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "8e440f6e-2b73-40f7-a2ba-12f834f2422e_17": {
-    "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Functions",
     "confidence": "medium"
   },
   "7d110811-1651-49a9-9be6-62e088b71c73_11": {
@@ -1255,14 +1141,14 @@
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_6": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Inequalities",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_6": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Inequalities",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "1dcc132a-2f7c-417a-91cd-108d7cd9c930_1": {
@@ -1281,12 +1167,6 @@
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-Variable Data",
-    "confidence": "high"
-  },
-  "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_6": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
     "confidence": "high"
   },
   "10c690aa-0aad-48ab-952b-855b2555b311_9": {
@@ -1325,12 +1205,6 @@
     "skill": "Percentages",
     "confidence": "high"
   },
-  "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_8": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_9": {
     "subject": "Math",
     "domain": "Algebra",
@@ -1345,9 +1219,9 @@
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_4": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "confidence": "high"
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_4": {
     "subject": "Math",
@@ -1365,30 +1239,30 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "6acacde7-ed77-4956-a395-7f7392d6ba20_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "979898ba-60c7-4531-ac45-29c4db2b3361_19": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_21": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_8": {
@@ -1412,7 +1286,7 @@
   "7d110811-1651-49a9-9be6-62e088b71c73_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_13": {
@@ -1463,18 +1337,6 @@
     "skill": "Percentages",
     "confidence": "high"
   },
-  "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_19": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "c9e1513f-58d1-4e6c-8574-b9662226959f_4": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "27590f35-8d6e-45c6-b665-222acb5e516d_2": {
     "subject": "Math",
     "domain": "Algebra",
@@ -1517,35 +1379,29 @@
     "skill": "One-Variable Data",
     "confidence": "high"
   },
-  "05468350-9fef-44ab-b9cb-893b50a7cadd_12": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "fb11da56-a8c4-4733-a720-f2cea7a98a1a_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_14": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "d33931f5-618d-4bf0-a69a-be73447d49f7_7": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_9": {
     "subject": "Math",
@@ -1617,55 +1473,49 @@
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, Rates, Proportions, and Units",
-    "confidence": "high"
+    "confidence": "medium"
   },
   "f196343a-4470-4649-8efb-edf349dd4393_1": {
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, Rates, Proportions, and Units",
-    "confidence": "high"
+    "confidence": "medium"
   },
   "08df3b47-9273-4ad6-9301-332804bc6404_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "29b11893-ee0c-48ae-8103-403d9652ad14_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "e3fe84c7-8083-48b8-863b-841355113ba0_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "390a8264-19b1-4de0-9dc9-09609eadd7ca_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "11ee667b-8898-4917-b74e-33237205e2ef_14": {
     "subject": "Math",
@@ -1687,9 +1537,9 @@
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_10": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_14": {
     "subject": "Math",
@@ -1702,18 +1552,6 @@
     "domain": "Algebra",
     "skill": "Linear Inequalities",
     "confidence": "high"
-  },
-  "e3fe84c7-8083-48b8-863b-841355113ba0_6": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
-  "d7afa874-519b-4f1b-b45f-1c75ea45613b_5": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_12": {
     "subject": "Math",
@@ -1753,9 +1591,9 @@
   },
   "b05db4ac-dd48-4b3f-b365-b39330c879e5_8": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_10": {
     "subject": "Math",
@@ -1767,7 +1605,7 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "8a096929-9162-4ef5-b1c5-1da19c60ea8c_11": {
     "subject": "Math",
@@ -1832,7 +1670,7 @@
   "ffdaaea2-8ec1-44b7-903d-084c644b881a_5": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_11": {
@@ -1856,7 +1694,7 @@
   "c9e1513f-58d1-4e6c-8574-b9662226959f_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "6acacde7-ed77-4956-a395-7f7392d6ba20_13": {
@@ -1867,32 +1705,32 @@
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "bd71c8f3-94e3-411f-929a-013a2ca9a277_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_7": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "fb11da56-a8c4-4733-a720-f2cea7a98a1a_11": {
@@ -1921,32 +1759,32 @@
   },
   "471ccf49-2c32-4c56-9f7e-1788dbe63527_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Sample Statistics and Margin of Error",
     "confidence": "high"
   },
   "b310cd51-4e49-46d2-99c8-70a10c0d83f9_8": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_19": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_19": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_10": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "4bcfe385-9d5d-411a-981d-c41179df51f6_14": {
@@ -2006,19 +1844,19 @@
   "e5001da0-8895-4b72-8d22-da29586dc907_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_19": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "bd71c8f3-94e3-411f-929a-013a2ca9a277_10": {
@@ -2047,27 +1885,21 @@
   },
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "ba06b998-d854-4b29-830c-15d877280c75_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
-  },
-  "6f7157fc-7e47-4e83-add3-e372915177ec_9": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
   },
   "b05db4ac-dd48-4b3f-b365-b39330c879e5_16": {
     "subject": "Math",
@@ -2127,13 +1959,13 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_1": {
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "confidence": "high"
+    "skill": "Evaluating Statistical Claims",
+    "confidence": "medium"
   },
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_16": {
     "subject": "Math",
@@ -2161,38 +1993,38 @@
   },
   "35bd5fb1-7659-4393-b736-241352b7187e_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "ffdaaea2-8ec1-44b7-903d-084c644b881a_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "b310cd51-4e49-46d2-99c8-70a10c0d83f9_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "fb11da56-a8c4-4733-a720-f2cea7a98a1a_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_16": {
@@ -2761,8 +2593,8 @@
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_14": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "1dcc132a-2f7c-417a-91cd-108d7cd9c930_16": {
@@ -2810,7 +2642,7 @@
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_9": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_1": {
@@ -2823,7 +2655,7 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ba06b998-d854-4b29-830c-15d877280c75_17": {
     "subject": "Math",
@@ -2839,9 +2671,9 @@
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating Statistical Claims",
+    "confidence": "medium"
   },
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_10": {
     "subject": "Math",
@@ -2851,26 +2683,14 @@
   },
   "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_3": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "23a951fb-833f-4b27-9978-4eb054f855e2_4": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Systems of Linear Equations",
-    "confidence": "high"
-  },
-  "131fb2cc-899f-43fd-ad5b-8d89c1062d52_15": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "b00d1a2d-fa94-4785-a802-20abbcc6d00a_16": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
     "confidence": "high"
   },
   "1fc2cc40-1a64-44a1-8ebe-eca45e868415_13": {
@@ -3404,7 +3224,7 @@
   "d327ac24-d8f4-466e-a351-90aa6dbe87e3_15": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_8": {
@@ -3415,9 +3235,9 @@
   },
   "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_13": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "6f7157fc-7e47-4e83-add3-e372915177ec_4": {
     "subject": "Math",
@@ -3427,8 +3247,8 @@
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_11": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
     "confidence": "high"
   },
   "390a8264-19b1-4de0-9dc9-09609eadd7ca_15": {
@@ -3451,15 +3271,15 @@
   },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_5": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "3bf10f0c-6025-4955-91dc-118e340490f0_5": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "7d110811-1651-49a9-9be6-62e088b71c73_8": {
     "subject": "Math",
@@ -3505,8 +3325,8 @@
   },
   "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_11": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
     "confidence": "high"
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_3": {
@@ -3529,8 +3349,8 @@
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_4": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_19": {
@@ -3541,9 +3361,9 @@
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_4": {
     "subject": "Math",
@@ -3559,39 +3379,39 @@
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_8": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
     "confidence": "high"
   },
   "e3fe84c7-8083-48b8-863b-841355113ba0_9": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "659cbbc1-2d38-4d45-8ecb-79f43367862e_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "cd2abd24-f96a-43e7-860f-be962ea69e08_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_9": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_12": {
     "subject": "Math",
@@ -3721,14 +3541,14 @@
   },
   "1fc2cc40-1a64-44a1-8ebe-eca45e868415_4": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
     "confidence": "high"
   },
   "7d110811-1651-49a9-9be6-62e088b71c73_4": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
     "confidence": "high"
   },
   "e3fe84c7-8083-48b8-863b-841355113ba0_15": {
@@ -3931,32 +3751,32 @@
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_13": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "e3fe84c7-8083-48b8-863b-841355113ba0_13": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_14": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "f196343a-4470-4649-8efb-edf349dd4393_14": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_15": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_21": {
@@ -3991,32 +3811,32 @@
   },
   "9377a50a-f782-492e-a3bf-a2b90698cacc_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "70b33953-aa61-407d-a25a-a438792bed03_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_8": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "a22baf87-f61e-43f7-b868-52cf0e05d234_15": {
@@ -4033,9 +3853,9 @@
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_18": {
     "subject": "Math",
@@ -4051,9 +3871,9 @@
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_18": {
     "subject": "Math",
@@ -4081,38 +3901,38 @@
   },
   "390a8264-19b1-4de0-9dc9-09609eadd7ca_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "b05db4ac-dd48-4b3f-b365-b39330c879e5_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "6acacde7-ed77-4956-a395-7f7392d6ba20_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_7": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_9": {
@@ -4129,9 +3949,9 @@
   },
   "8a096929-9162-4ef5-b1c5-1da19c60ea8c_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "fb11da56-a8c4-4733-a720-f2cea7a98a1a_14": {
     "subject": "Math",
@@ -4157,12 +3977,6 @@
     "skill": "Equivalent Expressions",
     "confidence": "high"
   },
-  "b5883220-eb88-4f6b-8d82-979efee65d2d_18": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_19": {
     "subject": "Math",
     "domain": "Advanced Math",
@@ -4180,18 +3994,6 @@
     "domain": "Algebra",
     "skill": "Systems of Linear Equations",
     "confidence": "high"
-  },
-  "e4f2c33b-9282-40a7-810c-d633e5197f95_18": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_5": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
   },
   "9c1847da-e82b-4814-a0ec-0b4f99891322_17": {
     "subject": "Math",
@@ -4255,9 +4057,9 @@
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_12": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_14": {
     "subject": "Math",
@@ -4273,9 +4075,9 @@
   },
   "1fc2cc40-1a64-44a1-8ebe-eca45e868415_7": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "471ccf49-2c32-4c56-9f7e-1788dbe63527_10": {
     "subject": "Math",
@@ -4285,9 +4087,9 @@
   },
   "4bcfe385-9d5d-411a-981d-c41179df51f6_6": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_15": {
     "subject": "Math",
@@ -4363,8 +4165,8 @@
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_12": {
@@ -4393,21 +4195,21 @@
   },
   "f196343a-4470-4649-8efb-edf349dd4393_4": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "94868488-f2b6-48b0-9e22-a683ccbda0e0_6": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Functions",
     "confidence": "medium"
+  },
+  "94868488-f2b6-48b0-9e22-a683ccbda0e0_6": {
+    "subject": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_8": {
     "subject": "Math",
@@ -4441,8 +4243,8 @@
   },
   "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "08df3b47-9273-4ad6-9301-332804bc6404_22": {
@@ -4507,9 +4309,9 @@
   },
   "9377a50a-f782-492e-a3bf-a2b90698cacc_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "35bd5fb1-7659-4393-b736-241352b7187e_1": {
     "subject": "Math",
@@ -4519,39 +4321,39 @@
   },
   "6acacde7-ed77-4956-a395-7f7392d6ba20_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "27590f35-8d6e-45c6-b665-222acb5e516d_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "b310cd51-4e49-46d2-99c8-70a10c0d83f9_13": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "27590f35-8d6e-45c6-b665-222acb5e516d_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_21": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_16": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "c9e1513f-58d1-4e6c-8574-b9662226959f_14": {
     "subject": "Math",
@@ -4567,21 +4369,21 @@
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_21": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "9377a50a-f782-492e-a3bf-a2b90698cacc_10": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_9": {
-    "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Functions",
     "confidence": "medium"
+  },
+  "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_9": {
+    "subject": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_16": {
     "subject": "Math",
@@ -4597,9 +4399,9 @@
   },
   "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_6": {
     "subject": "Math",
@@ -4609,15 +4411,15 @@
   },
   "cd2abd24-f96a-43e7-860f-be962ea69e08_5": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_6": {
     "subject": "Math",
@@ -4633,20 +4435,20 @@
   },
   "b79b2afa-5519-4128-ab30-39cfd5c26d43_19": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "4bcfe385-9d5d-411a-981d-c41179df51f6_10": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating Statistical Claims",
     "confidence": "medium"
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_7": {
@@ -4661,88 +4463,58 @@
     "skill": "Percentages",
     "confidence": "high"
   },
-  "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_5": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "4bcfe385-9d5d-411a-981d-c41179df51f6_8": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "6f7157fc-7e47-4e83-add3-e372915177ec_19": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
-  "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_1": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "cd2abd24-f96a-43e7-860f-be962ea69e08_15": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
-  "32388549-e820-4b4a-91a9-d9c32e611098_12": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
-  "e3fe84c7-8083-48b8-863b-841355113ba0_4": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_6": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_3": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_8": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
-  "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_6": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "131fb2cc-899f-43fd-ad5b-8d89c1062d52_7": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "d33931f5-618d-4bf0-a69a-be73447d49f7_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_7": {
@@ -4765,21 +4537,9 @@
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_10": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "b310cd51-4e49-46d2-99c8-70a10c0d83f9_11": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_1": {
     "subject": "Math",
@@ -4788,12 +4548,6 @@
     "confidence": "medium"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_12": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "11ee667b-8898-4917-b74e-33237205e2ef_20": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Equations in One Variable",
@@ -4813,8 +4567,8 @@
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_16": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_12": {
@@ -4855,14 +4609,8 @@
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_16": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "2c685c82-a211-4c0f-9856-cc6b06a5a86e_19": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_3": {
@@ -4871,19 +4619,7 @@
     "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
-  "0c54aae7-15f2-4e7b-a138-cae820ff684e_4": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
   "d327ac24-d8f4-466e-a351-90aa6dbe87e3_13": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "6acacde7-ed77-4956-a395-7f7392d6ba20_12": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Equations in One Variable",
@@ -4943,19 +4679,7 @@
     "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_12": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
   "ba06b998-d854-4b29-830c-15d877280c75_4": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_2": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Equations in One Variable",
@@ -4997,19 +4721,7 @@
     "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
-  "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_21": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_11": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "8e440f6e-2b73-40f7-a2ba-12f834f2422e_7": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Equations in One Variable",
@@ -5047,14 +4759,14 @@
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "979898ba-60c7-4531-ac45-29c4db2b3361_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "471ccf49-2c32-4c56-9f7e-1788dbe63527_6": {
@@ -5065,8 +4777,8 @@
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_15": {
@@ -5185,8 +4897,8 @@
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_4": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_18": {
@@ -5197,9 +4909,9 @@
   },
   "08df3b47-9273-4ad6-9301-332804bc6404_6": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_9": {
     "subject": "Math",
@@ -5258,8 +4970,8 @@
   "1b1871b9-081a-47fd-9218-97b0bbc4a454_11": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "a22baf87-f61e-43f7-b868-52cf0e05d234_22": {
     "subject": "Math",
@@ -5282,92 +4994,74 @@
   "fb11da56-a8c4-4733-a720-f2cea7a98a1a_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
-  },
-  "ba06b998-d854-4b29-830c-15d877280c75_5": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
-  "b310cd51-4e49-46d2-99c8-70a10c0d83f9_2": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
-  "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_1": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_19": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2c685c82-a211-4c0f-9856-cc6b06a5a86e_8": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_9": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_19": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_15": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_15": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_9": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "8a096929-9162-4ef5-b1c5-1da19c60ea8c_8": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_17": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "d5718376-6a71-41d6-aa0f-411bb7f3bb75_5": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_17": {
     "subject": "Math",
@@ -5377,33 +5071,33 @@
   },
   "29b11893-ee0c-48ae-8103-403d9652ad14_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "e3fe84c7-8083-48b8-863b-841355113ba0_16": {
-    "subject": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
+  },
+  "e3fe84c7-8083-48b8-863b-841355113ba0_16": {
+    "subject": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "confidence": "high"
   },
   "11ee667b-8898-4917-b74e-33237205e2ef_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "a7146625-47ea-49cb-9061-578e226240d5_19": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "e5d516e8-dc0a-449f-9696-276e786df83f_19": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "70b33953-aa61-407d-a25a-a438792bed03_12": {
     "subject": "Math",
@@ -5421,139 +5115,127 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_2": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_1": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_2": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "b05db4ac-dd48-4b3f-b365-b39330c879e5_4": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_11": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
-  },
-  "0c54aae7-15f2-4e7b-a138-cae820ff684e_20": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
     "confidence": "high"
   },
   "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "confidence": "medium"
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "6f7157fc-7e47-4e83-add3-e372915177ec_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "27590f35-8d6e-45c6-b665-222acb5e516d_18": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_17": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "confidence": "high"
   },
   "ba06b998-d854-4b29-830c-15d877280c75_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_2": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_5": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "7d110811-1651-49a9-9be6-62e088b71c73_2": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "1fc2cc40-1a64-44a1-8ebe-eca45e868415_2": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9377a50a-f782-492e-a3bf-a2b90698cacc_3": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9d845a11-6019-4b88-9309-26d92ced4f70_17": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "d5718376-6a71-41d6-aa0f-411bb7f3bb75_16": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
     "confidence": "high"
-  },
-  "4bcfe385-9d5d-411a-981d-c41179df51f6_13": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_22": {
     "subject": "Math",
@@ -5577,43 +5259,37 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "8a096929-9162-4ef5-b1c5-1da19c60ea8c_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ffdaaea2-8ec1-44b7-903d-084c644b881a_1": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "b310cd51-4e49-46d2-99c8-70a10c0d83f9_4": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_8": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "11ee667b-8898-4917-b74e-33237205e2ef_19": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Equations in One Variable",
     "confidence": "medium"
-  },
-  "3bf10f0c-6025-4955-91dc-118e340490f0_18": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_17": {
     "subject": "Math",
@@ -5659,69 +5335,69 @@
   },
   "6f7157fc-7e47-4e83-add3-e372915177ec_11": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "08df3b47-9273-4ad6-9301-332804bc6404_4": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "131fb2cc-899f-43fd-ad5b-8d89c1062d52_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_1": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "08df3b47-9273-4ad6-9301-332804bc6404_7": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_18": {
     "subject": "Math",
@@ -5768,19 +5444,19 @@
   "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "11ee667b-8898-4917-b74e-33237205e2ef_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "a7146625-47ea-49cb-9061-578e226240d5_8": {
@@ -5810,26 +5486,26 @@
   "39729166-8e92-42cc-8ed6-76acdb673a3c_17": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_5": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "a22baf87-f61e-43f7-b868-52cf0e05d234_16": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_18": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_16": {
     "subject": "Math",
@@ -5851,8 +5527,8 @@
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_18": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "3bf10f0c-6025-4955-91dc-118e340490f0_6": {
@@ -5903,190 +5579,184 @@
     "skill": "Linear Inequalities",
     "confidence": "medium"
   },
-  "1fc2cc40-1a64-44a1-8ebe-eca45e868415_12": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "d2870056-c182-4523-a3f3-884eafe68114_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_16": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "390a8264-19b1-4de0-9dc9-09609eadd7ca_8": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ba06b998-d854-4b29-830c-15d877280c75_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "70b33953-aa61-407d-a25a-a438792bed03_14": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "35bd5fb1-7659-4393-b736-241352b7187e_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "bd71c8f3-94e3-411f-929a-013a2ca9a277_1": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_9": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_19": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_1": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ffdaaea2-8ec1-44b7-903d-084c644b881a_19": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2c685c82-a211-4c0f-9856-cc6b06a5a86e_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "b79b2afa-5519-4128-ab30-39cfd5c26d43_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9c1847da-e82b-4814-a0ec-0b4f99891322_14": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_14": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_1": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_7": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "a240b08f-646d-4227-8b1f-fadf4c312b08_7": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "471ccf49-2c32-4c56-9f7e-1788dbe63527_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "7d110811-1651-49a9-9be6-62e088b71c73_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "23a951fb-833f-4b27-9978-4eb054f855e2_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_7": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "3bf10f0c-6025-4955-91dc-118e340490f0_8": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_5": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_17": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "f196343a-4470-4649-8efb-edf349dd4393_17": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "d327ac24-d8f4-466e-a351-90aa6dbe87e3_20": {
@@ -6098,62 +5768,62 @@
   "23a951fb-833f-4b27-9978-4eb054f855e2_15": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "9377a50a-f782-492e-a3bf-a2b90698cacc_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "1dcc132a-2f7c-417a-91cd-108d7cd9c930_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "confidence": "medium"
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "confidence": "medium"
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_3": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "confidence": "high"
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_6": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_20": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_16": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "confidence": "medium"
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "23a951fb-833f-4b27-9978-4eb054f855e2_2": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "d33931f5-618d-4bf0-a69a-be73447d49f7_17": {
     "subject": "Math",
@@ -6181,15 +5851,15 @@
   },
   "2c685c82-a211-4c0f-9856-cc6b06a5a86e_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "d33931f5-618d-4bf0-a69a-be73447d49f7_3": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "f196343a-4470-4649-8efb-edf349dd4393_3": {
     "subject": "Math",
@@ -6218,115 +5888,115 @@
   "e5d516e8-dc0a-449f-9696-276e786df83f_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "23a951fb-833f-4b27-9978-4eb054f855e2_16": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "d2870056-c182-4523-a3f3-884eafe68114_14": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "e3fe84c7-8083-48b8-863b-841355113ba0_3": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "27590f35-8d6e-45c6-b665-222acb5e516d_14": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "b310cd51-4e49-46d2-99c8-70a10c0d83f9_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "9377a50a-f782-492e-a3bf-a2b90698cacc_11": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_16": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_11": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_8": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "confidence": "medium"
   },
   "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "confidence": "medium"
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_6": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "confidence": "medium"
   },
   "471ccf49-2c32-4c56-9f7e-1788dbe63527_7": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_1": {
@@ -6349,33 +6019,33 @@
   },
   "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "fb11da56-a8c4-4733-a720-f2cea7a98a1a_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_13": {
     "subject": "Math",
@@ -6391,26 +6061,26 @@
   },
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_3": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "3bf10f0c-6025-4955-91dc-118e340490f0_3": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "2c685c82-a211-4c0f-9856-cc6b06a5a86e_3": {
@@ -6425,12 +6095,6 @@
     "skill": "Percentages",
     "confidence": "medium"
   },
-  "11ee667b-8898-4917-b74e-33237205e2ef_5": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_9": {
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
@@ -6439,15 +6103,15 @@
   },
   "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_16": {
     "subject": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_11": {
     "subject": "Math",
@@ -6479,40 +6143,22 @@
     "skill": "Ratios, Rates, Proportions, and Units",
     "confidence": "medium"
   },
-  "390a8264-19b1-4de0-9dc9-09609eadd7ca_18": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "3bf10f0c-6025-4955-91dc-118e340490f0_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_6": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "high"
-  },
-  "35bd5fb1-7659-4393-b736-241352b7187e_14": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "979898ba-60c7-4531-ac45-29c4db2b3361_11": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
     "confidence": "high"
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_18": {
@@ -6530,7 +6176,7 @@
   "05468350-9fef-44ab-b9cb-893b50a7cadd_7": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "32388549-e820-4b4a-91a9-d9c32e611098_10": {
@@ -6543,37 +6189,19 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "confidence": "medium"
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "confidence": "medium"
-  },
-  "9628151f-9763-4abc-8c66-9dc08f82f715_12": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "8a096929-9162-4ef5-b1c5-1da19c60ea8c_12": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "e4f2c33b-9282-40a7-810c-d633e5197f95_8": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "skill": "Lines, Angles, and Triangles",
+    "confidence": "high"
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_22": {
     "subject": "Math",
@@ -6599,29 +6227,17 @@
     "skill": "Circles",
     "confidence": "high"
   },
-  "32388549-e820-4b4a-91a9-d9c32e611098_5": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
   "29b11893-ee0c-48ae-8103-403d9652ad14_15": {
+    "subject": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
+  },
+  "bd71c8f3-94e3-411f-929a-013a2ca9a277_18": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Functions",
     "confidence": "medium"
-  },
-  "ffdaaea2-8ec1-44b7-903d-084c644b881a_3": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
-  "bd71c8f3-94e3-411f-929a-013a2ca9a277_18": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_2": {
     "subject": "Math",
@@ -6635,52 +6251,46 @@
     "skill": "Linear Functions",
     "confidence": "medium"
   },
-  "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_12": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "131fb2cc-899f-43fd-ad5b-8d89c1062d52_6": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "979898ba-60c7-4531-ac45-29c4db2b3361_9": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "d33931f5-618d-4bf0-a69a-be73447d49f7_16": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_7": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "confidence": "medium"
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_6": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "2c685c82-a211-4c0f-9856-cc6b06a5a86e_21": {
@@ -6705,19 +6315,19 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "a22baf87-f61e-43f7-b868-52cf0e05d234_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_7": {
     "subject": "Math",
@@ -6733,21 +6343,21 @@
   },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_22": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_22": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "ba06b998-d854-4b29-830c-15d877280c75_1": {
     "subject": "Math",
@@ -6809,12 +6419,6 @@
     "skill": "Percentages",
     "confidence": "high"
   },
-  "471ccf49-2c32-4c56-9f7e-1788dbe63527_4": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "659cbbc1-2d38-4d45-8ecb-79f43367862e_17": {
     "subject": "Math",
     "domain": "Advanced Math",
@@ -6823,45 +6427,45 @@
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "29b11893-ee0c-48ae-8103-403d9652ad14_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_17": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "d5718376-6a71-41d6-aa0f-411bb7f3bb75_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9d845a11-6019-4b88-9309-26d92ced4f70_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_18": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "confidence": "high"
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_2": {
     "subject": "Math",
@@ -6871,26 +6475,26 @@
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_6": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_19": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_8": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_20": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_12": {
@@ -6926,50 +6530,50 @@
   "9377a50a-f782-492e-a3bf-a2b90698cacc_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_2": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "6acacde7-ed77-4956-a395-7f7392d6ba20_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_22": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "6f7157fc-7e47-4e83-add3-e372915177ec_16": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_11": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "97534841-3541-4563-86b8-0a919d0bde5b_6": {
     "subject": "English",
@@ -7019,53 +6623,41 @@
     "skill": "Percentages",
     "confidence": "high"
   },
-  "6c72f77d-781d-42a7-9eb8-695ae0bba85b_20": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "f196343a-4470-4649-8efb-edf349dd4393_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_12": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_12": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_5": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_1": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "131fb2cc-899f-43fd-ad5b-8d89c1062d52_22": {
     "subject": "Math",
@@ -7107,13 +6699,13 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_19": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "e5d516e8-dc0a-449f-9696-276e786df83f_22": {
     "subject": "Math",
@@ -7135,69 +6727,69 @@
   },
   "a22baf87-f61e-43f7-b868-52cf0e05d234_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
     "confidence": "high"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "a240b08f-646d-4227-8b1f-fadf4c312b08_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "confidence": "medium"
   },
   "979898ba-60c7-4531-ac45-29c4db2b3361_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "confidence": "medium"
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_11": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "8a096929-9162-4ef5-b1c5-1da19c60ea8c_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "confidence": "medium"
   },
   "9377a50a-f782-492e-a3bf-a2b90698cacc_1": {
     "subject": "Math",
@@ -7207,14 +6799,8 @@
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "e5d516e8-dc0a-449f-9696-276e786df83f_8": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "32388549-e820-4b4a-91a9-d9c32e611098_18": {
@@ -7231,8 +6817,8 @@
   },
   "b79b2afa-5519-4128-ab30-39cfd5c26d43_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "ba06b998-d854-4b29-830c-15d877280c75_9": {
@@ -7291,8 +6877,8 @@
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_14": {
@@ -7309,39 +6895,39 @@
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_10": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "659cbbc1-2d38-4d45-8ecb-79f43367862e_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "1dcc132a-2f7c-417a-91cd-108d7cd9c930_15": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "35bd5fb1-7659-4393-b736-241352b7187e_16": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "9d845a11-6019-4b88-9309-26d92ced4f70_14": {
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, Rates, Proportions, and Units",
-    "confidence": "high"
+    "confidence": "medium"
   },
   "d5718376-6a71-41d6-aa0f-411bb7f3bb75_13": {
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, Rates, Proportions, and Units",
-    "confidence": "high"
+    "confidence": "medium"
   },
   "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_13": {
     "subject": "Math",
@@ -7357,9 +6943,9 @@
   },
   "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_2": {
     "subject": "Math",
@@ -7411,8 +6997,8 @@
   },
   "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_11": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "b05db4ac-dd48-4b3f-b365-b39330c879e5_1": {
@@ -7447,21 +7033,21 @@
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "1b1871b9-081a-47fd-9218-97b0bbc4a454_18": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_13": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_5": {
     "subject": "Math",
@@ -7627,33 +7213,33 @@
   },
   "1b1871b9-081a-47fd-9218-97b0bbc4a454_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "b310cd51-4e49-46d2-99c8-70a10c0d83f9_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "ffdaaea2-8ec1-44b7-903d-084c644b881a_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "e3fe84c7-8083-48b8-863b-841355113ba0_21": {
     "subject": "Math",
@@ -7663,14 +7249,14 @@
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "f196343a-4470-4649-8efb-edf349dd4393_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_22": {
@@ -7681,15 +7267,15 @@
   },
   "390a8264-19b1-4de0-9dc9-09609eadd7ca_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_6": {
     "subject": "Math",
@@ -7699,14 +7285,14 @@
   },
   "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "2c685c82-a211-4c0f-9856-cc6b06a5a86e_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "23a951fb-833f-4b27-9978-4eb054f855e2_7": {
@@ -7717,15 +7303,15 @@
   },
   "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_21": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "ffdaaea2-8ec1-44b7-903d-084c644b881a_21": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_20": {
     "subject": "Math",
@@ -7747,9 +7333,9 @@
   },
   "a7146625-47ea-49cb-9061-578e226240d5_6": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_5": {
     "subject": "Math",
@@ -7771,15 +7357,15 @@
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_18": {
     "subject": "Math",
@@ -8029,9 +7615,9 @@
   },
   "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_5": {
     "subject": "Math",
@@ -8041,9 +7627,9 @@
   },
   "9c1847da-e82b-4814-a0ec-0b4f99891322_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "390a8264-19b1-4de0-9dc9-09609eadd7ca_13": {
     "subject": "Math",
@@ -8077,69 +7663,69 @@
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_6": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "70b33953-aa61-407d-a25a-a438792bed03_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "70b33953-aa61-407d-a25a-a438792bed03_2": {
     "subject": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
+  },
+  "27590f35-8d6e-45c6-b665-222acb5e516d_20": {
+    "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Functions",
     "confidence": "medium"
   },
-  "27590f35-8d6e-45c6-b665-222acb5e516d_20": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "35bd5fb1-7659-4393-b736-241352b7187e_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_10": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "1dcc132a-2f7c-417a-91cd-108d7cd9c930_12": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "e3fe84c7-8083-48b8-863b-841355113ba0_10": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "27590f35-8d6e-45c6-b665-222acb5e516d_7": {
     "subject": "Math",
     "domain": "Algebra",
     "skill": "Linear Functions",
     "confidence": "medium"
+  },
+  "e3fe84c7-8083-48b8-863b-841355113ba0_10": {
+    "subject": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
+  },
+  "27590f35-8d6e-45c6-b665-222acb5e516d_7": {
+    "subject": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "d33931f5-618d-4bf0-a69a-be73447d49f7_2": {
     "subject": "Math",
@@ -8149,9 +7735,9 @@
   },
   "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "70b33953-aa61-407d-a25a-a438792bed03_9": {
     "subject": "Math",
@@ -8173,8 +7759,8 @@
   },
   "8a096929-9162-4ef5-b1c5-1da19c60ea8c_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_6": {
@@ -8185,44 +7771,44 @@
   },
   "4bcfe385-9d5d-411a-981d-c41179df51f6_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "b05db4ac-dd48-4b3f-b365-b39330c879e5_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "35bd5fb1-7659-4393-b736-241352b7187e_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_16": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "4bcfe385-9d5d-411a-981d-c41179df51f6_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "29b11893-ee0c-48ae-8103-403d9652ad14_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_4": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_4": {
@@ -8251,15 +7837,15 @@
   },
   "fb11da56-a8c4-4733-a720-f2cea7a98a1a_5": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_5": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "32388549-e820-4b4a-91a9-d9c32e611098_2": {
     "subject": "Math",
@@ -8270,14 +7856,14 @@
   "9377a50a-f782-492e-a3bf-a2b90698cacc_9": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "08df3b47-9273-4ad6-9301-332804bc6404_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "confidence": "medium"
   },
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_14": {
     "subject": "Math",
@@ -8293,8 +7879,8 @@
   },
   "10c690aa-0aad-48ab-952b-855b2555b311_1": {
     "subject": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "d327ac24-d8f4-466e-a351-90aa6dbe87e3_9": {
@@ -8365,9 +7951,9 @@
   },
   "471ccf49-2c32-4c56-9f7e-1788dbe63527_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "confidence": "medium"
   },
   "cd2abd24-f96a-43e7-860f-be962ea69e08_4": {
     "subject": "Math",
@@ -8423,23 +8009,17 @@
     "skill": "Linear Functions",
     "confidence": "medium"
   },
-  "b5883220-eb88-4f6b-8d82-979efee65d2d_7": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_13": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "d2870056-c182-4523-a3f3-884eafe68114_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_6": {
     "subject": "Math",
@@ -8563,21 +8143,21 @@
   },
   "ba06b998-d854-4b29-830c-15d877280c75_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "a7146625-47ea-49cb-9061-578e226240d5_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
     "confidence": "high"
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "confidence": "medium"
   },
   "e5d516e8-dc0a-449f-9696-276e786df83f_15": {
     "subject": "Math",
@@ -8593,27 +8173,15 @@
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_3": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "ffdaaea2-8ec1-44b7-903d-084c644b881a_12": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_10": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_1": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "confidence": "medium"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_9": {
     "subject": "Math",
@@ -8671,14 +8239,14 @@
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_7": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
     "confidence": "high"
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
     "confidence": "high"
   },
   "2c685c82-a211-4c0f-9856-cc6b06a5a86e_14": {
@@ -8701,26 +8269,26 @@
   },
   "10c690aa-0aad-48ab-952b-855b2555b311_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "1fc2cc40-1a64-44a1-8ebe-eca45e868415_16": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_12": {
@@ -8738,49 +8306,37 @@
   "70b33953-aa61-407d-a25a-a438792bed03_1": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
-  },
-  "b5883220-eb88-4f6b-8d82-979efee65d2d_16": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
-  },
-  "29b11893-ee0c-48ae-8103-403d9652ad14_17": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
   },
   "a22baf87-f61e-43f7-b868-52cf0e05d234_1": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "471ccf49-2c32-4c56-9f7e-1788dbe63527_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "d2870056-c182-4523-a3f3-884eafe68114_17": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "10c690aa-0aad-48ab-952b-855b2555b311_3": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "cd2abd24-f96a-43e7-860f-be962ea69e08_3": {
@@ -8798,8 +8354,8 @@
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_15": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "confidence": "medium"
+    "skill": "Right Triangles and Trigonometry",
+    "confidence": "high"
   },
   "11ee667b-8898-4917-b74e-33237205e2ef_8": {
     "subject": "Math",
@@ -8827,27 +8383,27 @@
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_12": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_9": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "f196343a-4470-4649-8efb-edf349dd4393_12": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_10": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating Statistical Claims",
+    "confidence": "medium"
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_22": {
     "subject": "Math",
@@ -8883,7 +8439,7 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "ba06b998-d854-4b29-830c-15d877280c75_15": {
     "subject": "Math",
@@ -8906,44 +8462,44 @@
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_3": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "high"
   },
   "1fc2cc40-1a64-44a1-8ebe-eca45e868415_17": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "7d110811-1651-49a9-9be6-62e088b71c73_17": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "b79b2afa-5519-4128-ab30-39cfd5c26d43_18": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "d33931f5-618d-4bf0-a69a-be73447d49f7_19": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "23a951fb-833f-4b27-9978-4eb054f855e2_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "659cbbc1-2d38-4d45-8ecb-79f43367862e_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "d5718376-6a71-41d6-aa0f-411bb7f3bb75_14": {
     "subject": "Math",
@@ -8961,7 +8517,7 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and Volume",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_20": {
     "subject": "Math",
@@ -8979,36 +8535,36 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "4bcfe385-9d5d-411a-981d-c41179df51f6_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9d845a11-6019-4b88-9309-26d92ced4f70_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "d5718376-6a71-41d6-aa0f-411bb7f3bb75_12": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_5": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "9c1847da-e82b-4814-a0ec-0b4f99891322_6": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "d2870056-c182-4523-a3f3-884eafe68114_15": {
@@ -9055,8 +8611,8 @@
   },
   "a7146625-47ea-49cb-9061-578e226240d5_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "87f513aa-a49e-436a-9a4c-c87bd3101b4c_21": {
@@ -9067,14 +8623,14 @@
   },
   "b05db4ac-dd48-4b3f-b365-b39330c879e5_12": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "e5d516e8-dc0a-449f-9696-276e786df83f_20": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "35bd5fb1-7659-4393-b736-241352b7187e_3": {
@@ -9085,9 +8641,9 @@
   },
   "d2870056-c182-4523-a3f3-884eafe68114_18": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_7": {
     "subject": "Math",
@@ -9103,38 +8659,38 @@
   },
   "979898ba-60c7-4531-ac45-29c4db2b3361_3": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
     "confidence": "high"
   },
   "23a951fb-833f-4b27-9978-4eb054f855e2_10": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
     "confidence": "high"
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_11": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
     "confidence": "high"
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_4": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
     "confidence": "high"
   },
   "b79b2afa-5519-4128-ab30-39cfd5c26d43_5": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
     "confidence": "high"
   },
   "1b1871b9-081a-47fd-9218-97b0bbc4a454_8": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
     "confidence": "high"
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_1": {
@@ -9157,20 +8713,20 @@
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_8": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_8": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_7": {
     "subject": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
     "confidence": "high"
   },
   "301d8663-e49a-4c21-9635-ef2d02614b43_18": {
@@ -9211,14 +8767,14 @@
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_12": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
     "confidence": "high"
   },
   "979898ba-60c7-4531-ac45-29c4db2b3361_12": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
     "confidence": "high"
   },
   "cd2abd24-f96a-43e7-860f-be962ea69e08_6": {
@@ -9353,24 +8909,6 @@
     "skill": "Linear Inequalities",
     "confidence": "high"
   },
-  "b310cd51-4e49-46d2-99c8-70a10c0d83f9_12": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "2c685c82-a211-4c0f-9856-cc6b06a5a86e_12": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_12": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "32388549-e820-4b4a-91a9-d9c32e611098_11": {
     "subject": "Math",
     "domain": "Algebra",
@@ -9413,12 +8951,6 @@
     "skill": "Linear Inequalities",
     "confidence": "high"
   },
-  "ffdaaea2-8ec1-44b7-903d-084c644b881a_13": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_3": {
     "subject": "Math",
     "domain": "Algebra",
@@ -9439,8 +8971,8 @@
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_10": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
     "confidence": "high"
   },
   "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_27": {
@@ -11657,18 +11189,6 @@
     "skill": "Rhetorical Synthesis",
     "confidence": "high"
   },
-  "23a951fb-833f-4b27-9978-4eb054f855e2_11": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_14": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "c9e1513f-58d1-4e6c-8574-b9662226959f_18": {
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
@@ -11678,25 +11198,25 @@
   "6f7157fc-7e47-4e83-add3-e372915177ec_13": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "a7146625-47ea-49cb-9061-578e226240d5_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "e5d516e8-dc0a-449f-9696-276e786df83f_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "6f7157fc-7e47-4e83-add3-e372915177ec_1": {
@@ -11767,15 +11287,15 @@
   },
   "c9e1513f-58d1-4e6c-8574-b9662226959f_10": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "confidence": "medium"
   },
   "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "a240b08f-646d-4227-8b1f-fadf4c312b08_21": {
     "subject": "Math",
@@ -11791,9 +11311,9 @@
   },
   "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "confidence": "medium"
   },
   "301d8663-e49a-4c21-9635-ef2d02614b43_10": {
     "subject": "Math",
@@ -11827,20 +11347,8 @@
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_12": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "35bd5fb1-7659-4393-b736-241352b7187e_17": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_15": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
     "confidence": "high"
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_6": {
@@ -11917,9 +11425,9 @@
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_1": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "confidence": "medium"
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_14": {
     "subject": "Math",
@@ -11960,7 +11468,7 @@
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_2": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_19": {
@@ -12007,26 +11515,26 @@
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_17": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
     "confidence": "high"
   },
   "ba06b998-d854-4b29-830c-15d877280c75_3": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_5": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "1fc2cc40-1a64-44a1-8ebe-eca45e868415_3": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Area and Volume",
     "confidence": "high"
   },
   "471ccf49-2c32-4c56-9f7e-1788dbe63527_11": {
@@ -12077,18 +11585,6 @@
     "skill": "Probability",
     "confidence": "high"
   },
-  "d7afa874-519b-4f1b-b45f-1c75ea45613b_2": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
-  "e3fe84c7-8083-48b8-863b-841355113ba0_2": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
   "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_8": {
     "subject": "Math",
     "domain": "Problem-Solving and Data Analysis",
@@ -12135,55 +11631,55 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "301d8663-e49a-4c21-9635-ef2d02614b43_21": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_8": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "131fb2cc-899f-43fd-ad5b-8d89c1062d52_20": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "d33931f5-618d-4bf0-a69a-be73447d49f7_9": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_8": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "29b11893-ee0c-48ae-8103-403d9652ad14_10": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "c9e1513f-58d1-4e6c-8574-b9662226959f_8": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, Angles, and Triangles",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_11": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7": {
     "subject": "Math",
@@ -12218,7 +11714,7 @@
   "390a8264-19b1-4de0-9dc9-09609eadd7ca_4": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "ffdaaea2-8ec1-44b7-903d-084c644b881a_16": {
@@ -12226,6 +11722,12 @@
     "domain": "Advanced Math",
     "skill": "Equivalent Expressions",
     "confidence": "high"
+  },
+  "32388549-e820-4b4a-91a9-d9c32e611098_8": {
+    "subject": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "a45480a1-becb-48bd-a285-d5366355b085_9": {
     "subject": "English",
@@ -12315,7 +11817,7 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "d327ac24-d8f4-466e-a351-90aa6dbe87e3_19": {
     "subject": "Math",
@@ -12327,7 +11829,7 @@
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right Triangles and Trigonometry",
-    "confidence": "medium"
+    "confidence": "high"
   },
   "7d110811-1651-49a9-9be6-62e088b71c73_19": {
     "subject": "Math",
@@ -27854,7 +27356,7 @@
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_2": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
     "confidence": "medium"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_8": {
@@ -27862,12 +27364,6 @@
     "domain": "Advanced Math",
     "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
-  },
-  "70b33953-aa61-407d-a25a-a438792bed03_10": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
   },
   "d33931f5-618d-4bf0-a69a-be73447d49f7_6": {
     "subject": "Math",
@@ -28811,18 +28307,6 @@
     "skill": "Two-Variable Data",
     "confidence": "high"
   },
-  "f3ade8fe-06c3-4b9c-a658-8857621e692f_20": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "2f91d920-5520-4266-8a2d-a29c925c95c0_19": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_5": {
     "subject": "Math",
     "domain": "Advanced Math",
@@ -28867,20 +28351,14 @@
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_2": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
     "confidence": "high"
   },
   "b310cd51-4e49-46d2-99c8-70a10c0d83f9_3": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
-  "ffdaaea2-8ec1-44b7-903d-084c644b881a_2": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
     "confidence": "high"
   },
   "3bf10f0c-6025-4955-91dc-118e340490f0_9": {
@@ -29627,12 +29105,6 @@
     "skill": "Percentages",
     "confidence": "high"
   },
-  "2c685c82-a211-4c0f-9856-cc6b06a5a86e_10": {
-    "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
-  },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_16": {
     "subject": "Math",
     "domain": "Geometry and Trigonometry",
@@ -29659,9 +29131,9 @@
   },
   "35bd5fb1-7659-4393-b736-241352b7187e_13": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_7": {
     "subject": "Math",
@@ -29695,20 +29167,20 @@
   },
   "390a8264-19b1-4de0-9dc9-09609eadd7ca_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_4": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "d327ac24-d8f4-466e-a351-90aa6dbe87e3_12": {
@@ -29719,8 +29191,8 @@
   },
   "11ee667b-8898-4917-b74e-33237205e2ef_17": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "2f91d920-5520-4266-8a2d-a29c925c95c0_5": {
@@ -29731,21 +29203,21 @@
   },
   "bd71c8f3-94e3-411f-929a-013a2ca9a277_9": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_11": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "d7afa874-519b-4f1b-b45f-1c75ea45613b_6": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_9": {
     "subject": "Math",
@@ -29767,15 +29239,15 @@
   },
   "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_12": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "b310cd51-4e49-46d2-99c8-70a10c0d83f9_19": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_14": {
     "subject": "Math",
@@ -29803,14 +29275,14 @@
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "29b11893-ee0c-48ae-8103-403d9652ad14_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "6acacde7-ed77-4956-a395-7f7392d6ba20_15": {
@@ -29821,21 +29293,21 @@
   },
   "f196343a-4470-4649-8efb-edf349dd4393_2": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_20": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_9": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "301d8663-e49a-4c21-9635-ef2d02614b43_17": {
     "subject": "Math",
@@ -29869,38 +29341,38 @@
   },
   "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_22": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "32388549-e820-4b4a-91a9-d9c32e611098_21": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_10": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "e5001da0-8895-4b72-8d22-da29586dc907_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "301d8663-e49a-4c21-9635-ef2d02614b43_22": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "9c1847da-e82b-4814-a0ec-0b4f99891322_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "9c1847da-e82b-4814-a0ec-0b4f99891322_13": {
@@ -29911,8 +29383,8 @@
   },
   "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "cd2abd24-f96a-43e7-860f-be962ea69e08_19": {
@@ -29923,8 +29395,8 @@
   },
   "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "08df3b47-9273-4ad6-9301-332804bc6404_10": {
@@ -29953,8 +29425,8 @@
   },
   "6b1e987d-70b0-4072-9d03-3ebd56371518_12": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "6197d48e-7c76-4333-af39-0b9aa39e924c_9": {
@@ -29965,32 +29437,32 @@
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_21": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_21": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_2": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "e5d516e8-dc0a-449f-9696-276e786df83f_12": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_13": {
@@ -30019,8 +29491,8 @@
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_3": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_1": {
@@ -30043,14 +29515,14 @@
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_11": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "f196343a-4470-4649-8efb-edf349dd4393_10": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_5": {
@@ -30061,8 +29533,8 @@
   },
   "ba06b998-d854-4b29-830c-15d877280c75_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "305aaf32-2803-4909-83d0-d08ba71a35a7_13": {
@@ -30073,21 +29545,21 @@
   },
   "f196343a-4470-4649-8efb-edf349dd4393_11": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_10": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "9c1847da-e82b-4814-a0ec-0b4f99891322_18": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "confidence": "medium"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "confidence": "high"
   },
   "10c690aa-0aad-48ab-952b-855b2555b311_14": {
     "subject": "Math",
@@ -30097,21 +29569,21 @@
   },
   "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_14": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "1dcc132a-2f7c-417a-91cd-108d7cd9c930_13": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "659cbbc1-2d38-4d45-8ecb-79f43367862e_11": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_21": {
     "subject": "Math",
@@ -30121,15 +29593,15 @@
   },
   "6dccbef1-7688-4e9c-bc89-87f46af60ab3_13": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "8a096929-9162-4ef5-b1c5-1da19c60ea8c_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "confidence": "medium"
   },
   "05468350-9fef-44ab-b9cb-893b50a7cadd_13": {
     "subject": "Math",
@@ -30139,20 +29611,20 @@
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_22": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "f3ade8fe-06c3-4b9c-a658-8857621e692f_21": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "confidence": "medium"
   },
   "c9e1513f-58d1-4e6c-8574-b9662226959f_19": {
     "subject": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "skill": "Linear Equations in One Variable",
     "confidence": "medium"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_11": {
@@ -30175,8 +29647,8 @@
   },
   "9377a50a-f782-492e-a3bf-a2b90698cacc_14": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "471ccf49-2c32-4c56-9f7e-1788dbe63527_13": {
@@ -30229,20 +29701,20 @@
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Inequalities",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "ceb2e234-3ab3-4376-b66a-cf8535278d77_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "b00d1a2d-fa94-4785-a802-20abbcc6d00a_4": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_7": {
@@ -30253,8 +29725,8 @@
   },
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_5": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_4": {
@@ -30265,8 +29737,8 @@
   },
   "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_5": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "1fc2cc40-1a64-44a1-8ebe-eca45e868415_6": {
@@ -30301,8 +29773,8 @@
   },
   "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_15": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "6acacde7-ed77-4956-a395-7f7392d6ba20_10": {
@@ -30319,8 +29791,8 @@
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_14": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_15": {
@@ -30349,8 +29821,8 @@
   },
   "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_1": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "b5883220-eb88-4f6b-8d82-979efee65d2d_3": {
@@ -30367,8 +29839,8 @@
   },
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_22": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_8": {
@@ -30407,12 +29879,6 @@
     "skill": "Linear Functions",
     "confidence": "high"
   },
-  "d5718376-6a71-41d6-aa0f-411bb7f3bb75_11": {
-    "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "confidence": "medium"
-  },
   "9d845a11-6019-4b88-9309-26d92ced4f70_11": {
     "subject": "Math",
     "domain": "Algebra",
@@ -30439,8 +29905,8 @@
   },
   "27590f35-8d6e-45c6-b665-222acb5e516d_10": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "e4f2c33b-9282-40a7-810c-d633e5197f95_7": {
@@ -30463,8 +29929,8 @@
   },
   "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_17": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "6c72f77d-781d-42a7-9eb8-695ae0bba85b_6": {
@@ -30493,14 +29959,14 @@
   },
   "2c578582-a4c6-4b17-a43d-0f06aaab91b7_15": {
     "subject": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "confidence": "high"
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "confidence": "medium"
   },
   "3bf10f0c-6025-4955-91dc-118e340490f0_14": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "medium"
   },
   "9628151f-9763-4abc-8c66-9dc08f82f715_11": {
@@ -30601,14 +30067,14 @@
   },
   "0c54aae7-15f2-4e7b-a138-cae820ff684e_7": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "ad300285-6ff9-46a9-97ab-7356c9cd2965_8": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "39729166-8e92-42cc-8ed6-76acdb673a3c_4": {
@@ -30619,8 +30085,8 @@
   },
   "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_13": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "8e440f6e-2b73-40f7-a2ba-12f834f2422e_10": {
@@ -30631,14 +30097,14 @@
   },
   "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_18": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "ffdaaea2-8ec1-44b7-903d-084c644b881a_18": {
     "subject": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
     "confidence": "high"
   },
   "94868488-f2b6-48b0-9e22-a683ccbda0e0_5": {
