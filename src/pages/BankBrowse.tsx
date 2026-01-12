@@ -10,6 +10,7 @@ import {
   allMathDomains,
   allEnglishDomains,
   type BankSubject,
+  type BankQuestion,
   type MathDomain,
   type EnglishDomain,
   type MathSkill,
@@ -31,6 +32,7 @@ import {
   ChevronRight,
   Layers,
   Target,
+  Shuffle,
 } from "lucide-react";
 
 const domainIcons: Record<string, string> = {
@@ -58,6 +60,57 @@ const BankBrowse = () => {
   const domainCounts = getDomainCounts(validSubject);
   const skillCounts = getSkillCounts(validSubject);
   const totalQuestions = getBankPool(validSubject).length;
+
+  const startPracticeSession = (questions: BankQuestion[]) => {
+    if (questions.length === 0) return;
+    
+    // Store the practice set with full info for navigation
+    const practiceSet = questions.map((q, index) => ({
+      subject: q.category.subject === "Math" ? "math" : "reading",
+      id: q.id,
+      sourceId: q.sourceId,
+      index: index + 1, // 1-based index within practice set
+    }));
+    sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
+    sessionStorage.setItem('practiceSetTotal', String(practiceSet.length));
+    
+    // Navigate to the first question in practice mode
+    const first = practiceSet[0];
+    navigate(`/bank/${first.subject}/${first.id}?practice=true&idx=1`);
+  };
+
+  const handleShuffleDomain = (domain: string) => {
+      let questions = getQuestionsByDomain(validSubject, domain as MathDomain | EnglishDomain);
+      // Fisher-Yates shuffle
+      const shuffled = [...questions];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      startPracticeSession(shuffled);
+  };
+
+  const handleShuffleSkill = (skill: string) => {
+    let questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill);
+      // Fisher-Yates shuffle
+      const shuffled = [...questions];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      startPracticeSession(shuffled);
+  };
+    
+  const handleShuffleAll = () => {
+    let questions = getBankPool(validSubject);
+      // Fisher-Yates shuffle
+      const shuffled = [...questions];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      startPracticeSession(shuffled);
+  };
 
   const handleSkillClick = (skill: string) => {
     // Find the first question with this skill
@@ -146,6 +199,18 @@ const BankBrowse = () => {
                       </div>
                       <Button
                         variant="ghost"
+                        size="icon"
+                        className="h-8 w-8 mr-1"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleShuffleDomain(domain);
+                        }}
+                        title="Shuffle Domain"
+                      >
+                        <Shuffle className="h-4 w-4" />
+                      </Button>
+                      <Button
+                        variant="ghost"
                         size="sm"
                         onClick={(e) => {
                           e.stopPropagation();
@@ -173,6 +238,18 @@ const BankBrowse = () => {
                               <span className="text-sm">{skill}</span>
                             </div>
                             <div className="flex items-center gap-2">
+                              <Button
+                                variant="ghost"
+                                size="icon"
+                                className="h-6 w-6"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  handleShuffleSkill(skill);
+                                }}
+                                title="Shuffle Skill"
+                              >
+                                <Shuffle className="h-3 w-3" />
+                              </Button>
                               <Badge variant="outline" className="text-xs">
                                 {count}
                               </Badge>
@@ -198,6 +275,14 @@ const BankBrowse = () => {
                   Jump into all {totalQuestions} questions in order
                 </p>
               </div>
+              <Button 
+                variant="outline" 
+                size="icon" 
+                onClick={handleShuffleAll}
+                title="Shuffle All"
+              >
+                  <Shuffle className="h-4 w-4" />
+              </Button>
               <Button onClick={() => navigate(`/bank/${validSubject}/1`)}>
                 Start
                 <ChevronRight className="h-4 w-4 ml-1" />

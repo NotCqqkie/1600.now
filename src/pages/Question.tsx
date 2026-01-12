@@ -724,6 +724,10 @@ function Question() {
                 constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
                 isSidebarred={sidebarredWindows.has('explanation')}
                 onSidebarToggle={handleSidebarToggle}
+                correctAnswer={currentQuestion?.correctAnswer}
+                questionType={currentQuestion?.type}
+                choices={currentQuestion?.choices}
+                questionId={currentQuestion?.uuid || currentQuestion?.id}
               />
               <Button 
                 onClick={() => handleCheck()}

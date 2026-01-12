@@ -102,11 +102,6 @@ export function QuestionBankFilterPanel({
         >
           <Filter className="h-4 w-4" />
           Filters
-          {hasActiveFilters && (
-            <span className="ml-1 px-1.5 py-0.5 text-xs bg-primary text-primary-foreground rounded-full">
-              !
-            </span>
-          )}
           {isOpen ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
         </Button>
         {rightContent}
@@ -188,16 +183,6 @@ export function QuestionBankFilterPanel({
                 </Select>
               </FilterCard>
             </div>
-
-            {/* Reset button - at the bottom */}
-            {hasActiveFilters && (
-              <div className="flex justify-end pt-2 border-t">
-                <Button variant="ghost" size="sm" onClick={resetFilters} className="gap-2">
-                  <RotateCcw className="h-3 w-3" />
-                  Reset all filters
-                </Button>
-              </div>
-            )}
           </div>
         </CollapsibleContent>
       </Collapsible>
