@@ -440,7 +440,7 @@ export const questions: Question[] = [
   },
   {
     id: 45,
-    text: "$m^{3/4} = p^{3/11}$ and $m^{7a - 1/2} = p$, what is the value of $a$?",
+    text: "If $m^{3/4} = p^{3/11}$ and $m^{7a - 1/2} = p$, what is the value of $a$?",
     correctAnswer: "0.4643",
     type: "free-response",
   },
@@ -770,12 +770,6 @@ export const questions: Question[] = [
     ],
     correctAnswer: "B",
     type: "multiple-choice",
-  },
-  {
-    id: 81,
-    text: "$-16(4x-3)^2 + 6(3x-7)^2$\\\\\\\\The given equation above can be rewritten into the form $\\frac{a}{13} x^2 + \\frac{b}{13} x + \\frac{c}{13}$, where $a$, $b$, and $c$ are constants. What is the value of $a + b + c$?",
-    correctAnswer: "1040",
-    type: "free-response",
   },
   {
     id: 82,

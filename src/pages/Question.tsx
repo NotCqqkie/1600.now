@@ -224,7 +224,7 @@ function Question() {
           navigate(`/question/${questionNumber - 1}`);
         }
       } else if (e.key === 'ArrowRight') {
-        if (questionNumber < 100) {
+        if (questionNumber < 99) {
           navigate(`/question/${questionNumber + 1}`);
         }
       } else if (e.key === 'ArrowUp') {
@@ -270,7 +270,7 @@ function Question() {
   };
 
   const handleNext = () => {
-    if (questionNumber < 100) {
+    if (questionNumber < 99) {
       navigate(`/question/${questionNumber + 1}`);
     }
   };
@@ -534,7 +534,7 @@ function Question() {
               </Button>
               <Button
                 onClick={handleNext}
-                disabled={questionNumber === 100}
+                disabled={questionNumber === 99}
                 className="h-10 dark:bg-[#1E3A5F] dark:hover:bg-[#152A45] dark:border-[#2D5A87]"
               >
                 {!shouldCompress && <span>Next</span>}

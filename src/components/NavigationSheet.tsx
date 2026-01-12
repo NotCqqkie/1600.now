@@ -114,7 +114,7 @@ export const NavigationSheet = ({
           {/* Question Grid - Compact */}
           <div className="grid grid-cols-10 gap-2 overflow-auto max-h-[calc(50vh-150px)] p-2">
             {Array.from({
-          length: 100
+          length: 99
         }, (_, i) => i + 1).map(num => {
           const status = getQuestionStatus(num);
           const isFlagged = isQuestionFlagged(num);
