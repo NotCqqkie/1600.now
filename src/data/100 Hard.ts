@@ -292,11 +292,7 @@ const baseQuestions: Question[] = [
       { id: "C", text: "$\\frac{235\\pi}{4}$" },
       { id: "D", text: "$\\frac{236\\pi}{4}$" },
     ],
-<<<<<<< HEAD:src/data/questions.ts
     correctAnswer: "D",
-=======
-    correctAnswer: "B",
->>>>>>> copilot/vscode-mk8dbwoj-0cpc:src/data/100 Hard.ts
     type: "multiple-choice",
   },
   {
@@ -589,21 +585,13 @@ const baseQuestions: Question[] = [
   },
   {
     id: 60,
-<<<<<<< HEAD:src/data/questions.ts
     text: "$x^2 - 6x + 3 = 0$\\\\\\\\If one solution to the given equation can be represented by $3 + \\sqrt{p}$, where $p$ is a constant, what is the value of $p$?",
-=======
-    text: "$x^2 - 6x + 3$\\\\If one solution to the given equation can be represented by $3 + \\sqrt{p}$, where $p$ is a constant, what is the value of $p$?",
->>>>>>> copilot/vscode-mk8dbwoj-0cpc:src/data/100 Hard.ts
     correctAnswer: "6",
     type: "free-response",
   },
   {
     id: 61,
-<<<<<<< HEAD:src/data/questions.ts
     text: "$4y = 18$\\\\$y = -8x^2 + bx$\\\\\\\\In the $xy$-plane, the two given equations intersect at exactly one point. If $b$ is a positive constant, what is the value of $b$?",
-=======
-    text: "$4y = 18$\\\\$-8x^2 + bx$\\\\In the $xy$-plane, the two given equations intersect at exactly one point. If $b$ is a positive constant, what is the value of $b$?",
->>>>>>> copilot/vscode-mk8dbwoj-0cpc:src/data/100 Hard.ts
     correctAnswer: "12",
     type: "free-response",
   },
@@ -615,11 +603,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 63,
-<<<<<<< HEAD:src/data/questions.ts
     text: "$-25x^2 + (5ab)x + 25 = 0$\\\\\\\\For the given equation, $a$ and $b$ are positive constants. If the sum of solutions to the given equation is $mab$, where $m$ is a constant, what is the value of $m$?",
-=======
-    text: "$-25x^2 + (5ab)x + 25$\\\\For the given equation, $a$ and $b$ are positive constants. If the sum of solutions to the given equation is $mab$, where $m$ is a constant, what is the value of $m$?",
->>>>>>> copilot/vscode-mk8dbwoj-0cpc:src/data/100 Hard.ts
     choices: [
       { id: "A", text: "$\\frac{1}{25}$" },
       { id: "B", text: "$\\frac{1}{5}$" },
@@ -814,11 +798,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 85,
-<<<<<<< HEAD:src/data/questions.ts
-    text: "<img src=\"/85.png\" alt=\"Circle with diameter AC and triangle ABC\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the given figure, $AC$ is the diameter of a circle with a radius of $8$. If the length of $AB$ is equal to $\\sqrt{87}$, what is the value of $BC$?",
-=======
-    text: "<img src=\"/images/1600.now questions/85.png\" alt=\"Circle with diameter AC and triangle ABC\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the given figure, $AC$ is the diameter of a circle with a radius of $8$. If the length of $AB$ is equal to $\\sqrt{87}$, what is the value if $BC$?",
->>>>>>> copilot/vscode-mk8dbwoj-0cpc:src/data/100 Hard.ts
+    text: "<img src=\"/images/1600.now questions/85.png\" alt=\"Circle with diameter AC and triangle ABC\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the given figure, $AC$ is the diameter of a circle with a radius of $8$. If the length of $AB$ is equal to $\\sqrt{87}$, what is the value of $BC$?",
     correctAnswer: "13",
     type: "free-response",
   },

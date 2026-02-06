@@ -29,6 +29,36 @@ export function renderMixedContent(text: string): string {
   // Split by $...$ patterns, keeping the delimiters
   const parts = processedText.split(/(\$[^$]+\$)/g);
   
+  const applyInlineFormatting = (content: string): string => {
+    let html = content.replace(/\n/g, "<br />");
+
+    // Bold: **text**
+    html = html.replace(/\*\*([^*]+?)\*\*/g, (_, inner: string) => {
+      const trimmed = inner.trim();
+      return trimmed ? `<b>${trimmed}</b>` : _;
+    });
+
+    // Underline: __text__
+    html = html.replace(/__([^_]+?)__/g, (_, inner: string) => {
+      const trimmed = inner.trim();
+      return trimmed ? `<u>${trimmed}</u>` : _;
+    });
+
+    // Italic (asterisks): *text* (supports spacing like "* n *")
+    html = html.replace(/(^|[^*])\*([^*]+?)\*(?!\*)/g, (_, prefix: string, inner: string) => {
+      const trimmed = inner.trim();
+      return trimmed ? `${prefix}<i>${trimmed}</i>` : _;
+    });
+
+    // Italic (underscores): _text_ (supports spacing like "_ n _")
+    html = html.replace(/(^|[^_])_([^_]+?)_(?!_)/g, (_, prefix: string, inner: string) => {
+      const trimmed = inner.trim();
+      return trimmed ? `${prefix}<i>${trimmed}</i>` : _;
+    });
+
+    return html;
+  };
+
   return parts.map(part => {
     if (part.startsWith('$') && part.endsWith('$')) {
       // This is a math section - extract content and render with KaTeX
@@ -45,17 +75,6 @@ export function renderMixedContent(text: string): string {
         return part; // Return original on error
       }
     }
-    // Plain text - return as-is, but convert newlines to breaks
-    let html = part.replace(/\n/g, '<br />');
-
-    // Handle Markdown-style formatting
-    // Bold: **text**
-    html = html.replace(/\*\*([^\s](?:.*?[^\s])?)\*\*/g, '<b>$1</b>');
-    // Italic: *text*
-    html = html.replace(/\*([^\s](?:.*?[^\s])?)\*/g, '<i>$1</i>');
-    // Underline: __text__
-    html = html.replace(/__([^\s](?:.*?[^\s])?)__/g, '<u>$1</u>');
-
-    return html;
+    return applyInlineFormatting(part);
   }).join('');
 }

@@ -131,6 +131,12 @@ const isMathQuestion = (q: SourceQuestion): boolean => {
     return false;
 };
 
+const hasRenderableStem = (q: SourceQuestion): boolean => {
+  const hasText = Boolean(q.text?.trim());
+  const hasImage = Boolean(q.image?.trim());
+  return hasText || hasImage;
+};
+
 const mapImages = (image?: string) => {
   if (!image) return undefined;
   return [{
@@ -232,8 +238,8 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
   };
 };
 
-const rawMathQuestions = allQuestions.filter(isMathQuestion);
-const rawReadingQuestions = allQuestions.filter((q) => !isMathQuestion(q));
+const rawMathQuestions = allQuestions.filter((q) => isMathQuestion(q) && hasRenderableStem(q));
+const rawReadingQuestions = allQuestions.filter((q) => !isMathQuestion(q) && hasRenderableStem(q));
 
 let _mathQuestions: BankQuestion[] | null = null;
 let _readingQuestions: BankQuestion[] | null = null;

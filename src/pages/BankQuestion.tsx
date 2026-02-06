@@ -12,7 +12,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
 import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet";
 import { cn, renderMixedContent } from "@/lib/utils";
-import { Bookmark, Check, ChevronLeft, ChevronRight, Minimize2, Maximize2, Strikethrough, Rows3, Columns3 } from "lucide-react";
+import { Bookmark, Check, ChevronLeft, ChevronRight, Eye, EyeOff, Minimize2, Maximize2, Pause, Play, Strikethrough, Rows3, Columns3 } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -24,6 +24,12 @@ import "katex/dist/katex.min.css";
 const SUBJECT_BASE_ID: Record<BankSubject, number> = {
   math: 200000,
   reading: 300000,
+};
+
+const formatTimer = (totalSeconds: number) => {
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 };
 
 const BankQuestion = () => {
@@ -83,6 +89,9 @@ const BankQuestion = () => {
   
   const [questionSplitPosition, setQuestionSplitPosition] = useState(50);
   const [isResizingQuestionSplit, setIsResizingQuestionSplit] = useState(false);
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [isTimerPaused, setIsTimerPaused] = useState(false);
+  const [isTimerVisible, setIsTimerVisible] = useState(true);
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
   const questionContentRef = useRef<HTMLDivElement>(null);
@@ -135,6 +144,21 @@ const BankQuestion = () => {
       setSplitPosition(50);
     }
   }, [isSplitScreenActive]);
+
+  useEffect(() => {
+    setElapsedSeconds(0);
+    setIsTimerPaused(false);
+  }, [questionKey]);
+
+  useEffect(() => {
+    if (isTimerPaused) return;
+
+    const timerId = window.setInterval(() => {
+      setElapsedSeconds((prev) => prev + 1);
+    }, 1000);
+
+    return () => window.clearInterval(timerId);
+  }, [isTimerPaused]);
 
   // Handle question split divider resizing (for horizontal view mode)
   useEffect(() => {
@@ -349,6 +373,14 @@ const BankQuestion = () => {
     );
   }
 
+  const passageContent = question.passage;
+  const promptContent = question.prompt?.trim() ? question.prompt : undefined;
+  const questionTextContent = question.questionText?.trim() ? question.questionText : undefined;
+  const stemContent = passageContent !== undefined ? passageContent : (promptContent ?? questionTextContent ?? "");
+  const showQuestionTextAboveChoices =
+    Boolean(questionTextContent) &&
+    (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
+
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
       <header className="border-b border-border bg-card sticky top-0 z-10">
@@ -415,6 +447,30 @@ const BankQuestion = () => {
               </Button>
             </div>
           </div>
+
+          <div className="mt-3 flex items-center justify-center gap-3">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="h-9 w-9"
+              onClick={() => setIsTimerVisible((prev) => !prev)}
+              title={isTimerVisible ? "Hide timer" : "Show timer"}
+            >
+              {isTimerVisible ? <Eye className="h-5 w-5" /> : <EyeOff className="h-5 w-5" />}
+            </Button>
+            <span className="min-w-[7ch] text-center text-3xl font-bold tracking-wide tabular-nums">
+              {isTimerVisible ? formatTimer(elapsedSeconds) : ""}
+            </span>
+            <Button
+              variant="ghost"
+              size="icon"
+              className="h-9 w-9"
+              onClick={() => setIsTimerPaused((prev) => !prev)}
+              title={isTimerPaused ? "Resume timer" : "Pause timer"}
+            >
+              {isTimerPaused ? <Play className="h-5 w-5" /> : <Pause className="h-5 w-5" />}
+            </Button>
+          </div>
         </div>
       </header>
 
@@ -436,8 +492,8 @@ const BankQuestion = () => {
                 className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
               >
-                {/* Use passage if available, otherwise prompt (legacy) */}
-                {renderContent(question.passage !== undefined ? question.passage : question.prompt)}
+                {/* Use passage if available, otherwise prompt/question text fallback */}
+                {renderContent(stemContent)}
                 
                 {question.questionImages && question.questionImages.length > 0 && (
                   <div className="space-y-2">
@@ -505,9 +561,9 @@ const BankQuestion = () => {
                 </div>
 
                 {/* Specific Question Text above choices */}
-                {question.questionText && (
+                {showQuestionTextAboveChoices && questionTextContent && (
                   <div className="mb-6">
-                    {renderContent(question.questionText)}
+                    {renderContent(questionTextContent)}
                   </div>
                 )}
 
@@ -582,13 +638,13 @@ const BankQuestion = () => {
 
               <div className="mb-6 sm:mb-8 space-y-4">
                  {/* Stacked content: Passage/Context + Question */}
-                 {question.passage ? (
+                 {passageContent ? (
                     <>
-                       {renderContent(question.passage)}
-                       {question.questionText && <div className="mt-4">{renderContent(question.questionText)}</div>}
+                       {renderContent(passageContent)}
+                       {showQuestionTextAboveChoices && questionTextContent && <div className="mt-4">{renderContent(questionTextContent)}</div>}
                     </>
                  ) : (
-                    renderContent(question.prompt)
+                    renderContent(stemContent)
                  )}
 
                 {question.questionImages && question.questionImages.length > 0 && (
@@ -645,7 +701,7 @@ const BankQuestion = () => {
         style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
       >
         <div className="container mx-auto px-4 py-3">
-          <div className="flex items-center gap-2 justify-between">
+          <div className="grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2">
             <div className="shrink-0">
               <Button variant="outline" onClick={handlePrevious} disabled={!canGoPrevious} className="h-10">
                 <ChevronLeft className="mr-1 h-4 w-4" />
@@ -653,7 +709,7 @@ const BankQuestion = () => {
               </Button>
             </div>
 
-            <div>
+            <div className="min-w-0 overflow-hidden px-1 flex justify-center">
               {isPracticeMode && practiceSet ? (
                 <PracticeNavigationSheet
                   currentIndex={currentPracticeIndex}
