@@ -59,10 +59,11 @@ const BankQuestion = () => {
     if (!isPracticeMode || !practiceSet) return -1;
     return practiceSet.findIndex(q => q.id === Number.parseInt(rawId || '0', 10) && q.subject === rawSubject);
   }, [isPracticeMode, practiceSet, rawId, rawSubject]);
+  const effectivePracticeMode = Boolean(isPracticeMode && practiceSet && practiceSet.length > 0 && currentPracticeIndex >= 0);
 
   const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : null) as BankSubject | null;
   const questionNumber = Number.parseInt(rawId || "1", 10);
-  const totalQuestions = isPracticeMode ? practiceTotal : (subject ? bankCounts[subject] : 0);
+  const totalQuestions = effectivePracticeMode ? practiceTotal : (subject ? bankCounts[subject] : 0);
   const question = subject ? getBankQuestion(subject, questionNumber) : null;
 
   const storagePrefix = subject ? `bank-${subject}` : "bank";
@@ -227,7 +228,7 @@ const BankQuestion = () => {
 
   // Navigation for normal mode
   const goTo = (num: number) => {
-    if (isPracticeMode && practiceSet) {
+    if (effectivePracticeMode && practiceSet) {
       // In practice mode, num is the 1-based index in the practice set
       goToPracticeIndex(num - 1);
     } else {
@@ -238,7 +239,7 @@ const BankQuestion = () => {
   };
 
   const handlePrevious = () => {
-    if (isPracticeMode && practiceSet) {
+    if (effectivePracticeMode && practiceSet) {
       goToPracticeIndex(currentPracticeIndex - 1);
     } else {
       goTo(questionNumber - 1);
@@ -246,7 +247,7 @@ const BankQuestion = () => {
   };
 
   const handleNext = () => {
-    if (isPracticeMode && practiceSet) {
+    if (effectivePracticeMode && practiceSet) {
       goToPracticeIndex(currentPracticeIndex + 1);
     } else {
       goTo(questionNumber + 1);
@@ -254,9 +255,9 @@ const BankQuestion = () => {
   };
 
   // Get current position for display
-  const displayQuestionNumber = isPracticeMode ? (currentPracticeIndex + 1) : questionNumber;
-  const canGoPrevious = isPracticeMode ? currentPracticeIndex > 0 : questionNumber > 1;
-  const canGoNext = isPracticeMode ? currentPracticeIndex < practiceTotal - 1 : questionNumber < totalQuestions;
+  const displayQuestionNumber = effectivePracticeMode ? (currentPracticeIndex + 1) : questionNumber;
+  const canGoPrevious = effectivePracticeMode ? currentPracticeIndex > 0 : questionNumber > 1;
+  const canGoNext = effectivePracticeMode ? currentPracticeIndex < practiceTotal - 1 : questionNumber < totalQuestions;
 
   const handleCheck = (overrideAnswer?: string) => {
     if (!question) return;
@@ -710,7 +711,7 @@ const BankQuestion = () => {
             </div>
 
             <div className="min-w-0 overflow-hidden px-1 flex justify-center">
-              {isPracticeMode && practiceSet ? (
+              {effectivePracticeMode && practiceSet ? (
                 <PracticeNavigationSheet
                   currentIndex={currentPracticeIndex}
                   practiceSet={practiceSet}

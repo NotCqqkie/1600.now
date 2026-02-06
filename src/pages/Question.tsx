@@ -85,6 +85,18 @@ const formatTimer = (totalSeconds: number) => {
   return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 };
 
+const extractLeadingQuestionSentence = (text: string): { sentence?: string; remainder: string } => {
+  const trimmed = text.trim();
+  const match = trimmed.match(/^(.+?\?)(?:\s+|$)([\s\S]*)$/);
+  if (!match) {
+    return { remainder: trimmed };
+  }
+
+  const sentence = match[1].trim();
+  const remainder = (match[2] || "").trim();
+  return { sentence, remainder };
+};
+
 function Question() {
   const { id, subject: rawSubject } = useParams<{ id: string; subject?: string }>();
   const navigate = useNavigate();
@@ -428,10 +440,11 @@ function Question() {
   }, [isSplitScreenActive]);
 
   if (!currentQuestion) {
+    const fallbackDestination = isOfficialBank ? "/official-bank" : isBank ? "/bank" : "/";
     return <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">Question not found</h1>
-        <Button onClick={() => navigate("/")}>Go Home</Button>
+        <Button onClick={() => navigate(fallbackDestination)}>Go Home</Button>
       </div>
     </div>;
   }
@@ -684,12 +697,30 @@ function Question() {
   const legacyTextContent = typeof questionWithBankFields.text === "string" && questionWithBankFields.text.trim()
     ? questionWithBankFields.text
     : "";
-  const stemContent = passageContent !== undefined
+  const rawStemContent = passageContent !== undefined
     ? passageContent
     : (promptContent ?? questionTextContent ?? legacyTextContent);
-  const showQuestionTextAboveChoices =
-    Boolean(questionTextContent) &&
-    (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
+
+  const extractedFromStem = subject === "reading" ? extractLeadingQuestionSentence(rawStemContent) : { remainder: rawStemContent };
+  const readingQuestionSentence =
+    subject === "reading"
+      ? (questionTextContent?.trim() || extractedFromStem.sentence)
+      : questionTextContent;
+
+  let stemContent = rawStemContent;
+  if (subject === "reading" && extractedFromStem.sentence) {
+    const normalizedQuestionSentence = (readingQuestionSentence || "").trim();
+    const normalizedExtractedSentence = extractedFromStem.sentence.trim();
+    if (!normalizedQuestionSentence || normalizedQuestionSentence === normalizedExtractedSentence) {
+      stemContent = extractedFromStem.remainder || rawStemContent;
+    }
+  }
+
+  const showQuestionTextAboveChoices = subject === "reading"
+    ? Boolean(readingQuestionSentence)
+    : Boolean(questionTextContent) &&
+      (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
+  const backDestination = isOfficialBank ? "/official-bank" : isBank ? "/bank" : "/";
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
@@ -704,7 +735,7 @@ function Question() {
               <Button
                 variant="ghost"
                 size="sm"
-                onClick={() => navigate("/")}
+                onClick={() => navigate(backDestination)}
               >
                 <ChevronLeft className={topShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!topShouldCompress && "Home"}
@@ -901,9 +932,9 @@ function Question() {
                   </div>
                 </div>
 
-                {showQuestionTextAboveChoices && questionTextContent && (
+                {showQuestionTextAboveChoices && readingQuestionSentence && (
                   <div className="mb-6">
-                    {renderContent(questionTextContent)}
+                    {renderContent(readingQuestionSentence)}
                   </div>
                 )}
 
@@ -974,8 +1005,8 @@ function Question() {
                   {passageContent ? (
                     <>
                       {renderContent(passageContent)}
-                      {showQuestionTextAboveChoices && questionTextContent && (
-                        <div className="mt-4">{renderContent(questionTextContent)}</div>
+                      {showQuestionTextAboveChoices && readingQuestionSentence && (
+                        <div className="mt-4">{renderContent(readingQuestionSentence)}</div>
                       )}
                     </>
                   ) : (
