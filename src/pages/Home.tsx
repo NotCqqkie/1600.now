@@ -27,20 +27,6 @@ import {
 const questionBankTotal = bankCounts.math + bankCounts.reading;
 const totalQuestions = questionBankTotal + 100;
 
-const BrandMark = () => (
-  <svg viewBox="0 0 240 152" aria-hidden="true" className="h-4 w-7">
-    <path
-      d="M18 28C46 12 82 12 114 28C146 44 177 44 220 31L145 134C138 144 122 144 115 134L18 28Z"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="16"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-    <path d="M121 47V130" stroke="currentColor" strokeWidth="16" strokeLinecap="round" />
-  </svg>
-);
-
 const Home = () => {
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
@@ -72,11 +58,12 @@ const Home = () => {
       <div className="relative flex min-h-screen flex-col">
       <header className="sticky top-0 z-20 border-b border-border bg-card/95 backdrop-blur">
         <div className="container mx-auto h-16 px-4 flex items-center justify-between gap-3">
-          <Link to="/" className="inline-flex items-center gap-2 text-foreground no-underline" aria-label="1600.now homepage">
-            <span className="grid h-8 w-8 place-items-center rounded-md bg-foreground text-background">
-              <BrandMark />
-            </span>
-            <span className="font-semibold tracking-tight">1600.now</span>
+          <Link to="/" className="inline-flex items-center text-foreground no-underline" aria-label="1600.now homepage">
+            <img
+              src="/logo_w.png"
+              alt="1600.now"
+              className="h-8 w-auto max-w-[180px] object-contain md:h-9 md:max-w-[220px]"
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-1 text-sm font-medium text-muted-foreground" aria-label="Primary">
