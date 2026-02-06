@@ -4,12 +4,9 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 
 # Copy package files
-COPY package.json bun.lockb* package-lock.json* ./
+COPY package.json package-lock.json ./
 
-# Install dependencies (support both npm and bun if present, though package.json says npm scripts)
-# Since bun.lockb exists, we might want to use bun, but npm is safer given package.json scripts.
-# Let's stick to npm for broad compatibility unless bun is strictly required. 
-# Looking at package.json, it is a standard vite app.
+# Install dependencies with npm
 RUN npm install
 
 # Copy source code
