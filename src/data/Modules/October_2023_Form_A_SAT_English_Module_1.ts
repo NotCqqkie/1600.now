@@ -1,0 +1,941 @@
+import { Question } from "../all_questions";
+
+export const questions: Question[] = [
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_1",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "As used in the text, what does the word \u201csuddenly\u201d most nearly mean?\nThe following text is adapted from Kenneth Grahame\u2019s 1908 novel *The Wind in the Willows*. The Mole is dazed after briefly meeting a stranger while traveling with a friend.\n[The] Mole stood still a moment, held in thought. As one wakened <u>suddenly</u> from a beautiful dream, who struggles to recall it, and can re-capture nothing but a dim sense of the beauty of it, the beauty! Till that, too, fades away in tis turn.\n\nAs used in the text, what does the word \u201csuddenly\u201d most nearly mean?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Abruptly"
+      },
+      {
+        "id": "B",
+        "text": "Repeatedly"
+      },
+      {
+        "id": "C",
+        "text": "Voluntarily"
+      },
+      {
+        "id": "D",
+        "text": "Tenderly"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_2",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nMonica Lopes-Ferreira and others at Brazil's Butantan Institute are studying the freshwater stingray species *Potamotrygon rex* to determine whether biological characteristics such as the rays' age and sex have ______ effect on the toxicity of their venom\u2014that is, to see if differences in these traits are associated with considerable variations in venom potency.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "a disconcerting"
+      },
+      {
+        "id": "B",
+        "text": "an acceptable"
+      },
+      {
+        "id": "C",
+        "text": "an imperceptible"
+      },
+      {
+        "id": "D",
+        "text": "a substantial"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_3",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nFrom sculptures like *Miro's Chicago* by Joan Miro, found at Brunswick Plaza, to street art like Justus roe's mural South Shore on South Exchange Avenue, Chicago offers an array of works to ______ the tastes of art lovers.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "supplant"
+      },
+      {
+        "id": "B",
+        "text": "mitigate"
+      },
+      {
+        "id": "C",
+        "text": "venerate"
+      },
+      {
+        "id": "D",
+        "text": "satiate"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_4",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while traditional literary forms, such as the novel, are recognizable as such even as they evolve, there are rarer \u201cintergeneric\u201d forms that might, for example, use elements of both fiction and essays to create something ______. The late-period pieces of James Tate arguably fit this description, since they straddle the line between prose and poetry.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "orthodox"
+      },
+      {
+        "id": "B",
+        "text": "unequivocal"
+      },
+      {
+        "id": "C",
+        "text": "recurrent"
+      },
+      {
+        "id": "D",
+        "text": "unclassifiable"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_5",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlfred Nobel intended for the Nobel Prize to be an award honoring those who have contributed \u201cthe greatest benefit to mankind.\u201d Indeed, the work of Richard Laurence Millington Synge represented a significant ______ the field of chemistry, and in 1952 he was among those awarded the Nobel Prize in Chemistry, for \u201ctheir invention of partition chromatography.\u201d\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "exposure to"
+      },
+      {
+        "id": "B",
+        "text": "advancement in"
+      },
+      {
+        "id": "C",
+        "text": "dependence on"
+      },
+      {
+        "id": "D",
+        "text": "controversy in"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_6",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from Adib Khorram\u2019s 2018 novel *Darius the Great Is Not Okay*. Darius, a teenager from the United States, is visiting his grandparents, Babou and Mamou, in Iran. They are preparing for a holiday celebration.\nI felt like a tourist.\nBut Babou fussed with my cap a little more, even though Mamou had already gotten it settled. He looked me in the eye from time to time, like he was looking for something, and thought maybe\u2014just maybe\u2014I had it in me after all.\nBabou hummed to himself as he smoothed out my shoulder seams and rested his hands on them.\n\u201cI am glad you are here to see this, Darioush-jan.\u201d Maybe I wasn\u2019t such a tourist.\n\u00a92018 by Adib Khorram\n\nWhich choice best states the main purpose of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "To emphasize that Darius has been looking forward to an event."
+      },
+      {
+        "id": "B",
+        "text": "To demonstrate that Darius and Babou would prefer not to travel."
+      },
+      {
+        "id": "C",
+        "text": "To show that Babou affects the way Darius thinks of himself."
+      },
+      {
+        "id": "D",
+        "text": "To suggest that Babou and Mamou will visit Darius in the United States soon."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_7",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe following text is from Lady Gregory\u2019s 1904 play *Spreading the News*. Mrs. Tarpey, Bartley, and Mrs. Fallon have been buying and selling goods at the local fair.\nMRS. TARPEY: Good morrow, Bartley Fallon; good morrow, Mrs. Fallon. Well, Bartley, you\u2019ll find no cause for complaining to-day; they are all saying it was a good fair.\nBARTLEY: *(Raising his voice.)* It was not a good fair, Mrs. Tarpey. It was a scattered sort of a fair. If we didn\u2019t expect more, we got less. That\u2019s the way with me always; whatever I have to sell goes down and whatever I have to buy goes up. If there\u2019s ever any misfortune coming to this world, it\u2019s on myself it pitches, <u>like a flock of crows on seed potatoes.</u>\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It presents a vivid image to emphasize a claim that Bartley makes."
+      },
+      {
+        "id": "B",
+        "text": "It describes an event that Bartley observed at the fair."
+      },
+      {
+        "id": "C",
+        "text": "It expresses doubt about the truth of a claim that Bartley made."
+      },
+      {
+        "id": "D",
+        "text": "It indicates the degree to which Mrs. Tarpey doubts a certain event will occur."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_8",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice best describes the function of the underlined sentence?\nThe 2017 novella *Mapping the Interior* confirmed that Stephen Graham Jones is one of the most talented writers of horror fiction today. <u>By featuring main characters who are Blackfeet, like Jones himself, the novella also helped to ensure that Indigenous people have a place within the horror genre</u>. But Jones is hardly the only Indigenous voice in horror: Metis author Cherie Dimaline has also written in the genre. Her acclaimed 2019 novel *Empire of Wild* is set in a Metis community in southern Canada.\n\nWhich choice best describes the function of the underlined sentence?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It challenges the widely held view that Stephen Graham Jones based *Mapping the Interior* on events in his own life."
+      },
+      {
+        "id": "B",
+        "text": "It asks why so many readers who don't enjoy the horror genre have purchased *Mapping the Interior*."
+      },
+      {
+        "id": "C",
+        "text": "It highlights the significance of the portrayal of Indigenous people in *Mapping the Interior*."
+      },
+      {
+        "id": "D",
+        "text": "It predicts that non-Indigenous authors will include more Indigenous characters in their work."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_9",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice best states the main idea of the text?\nThe following text is from Frances E. W. Harper's 1892 novel *Jola Leroy*. The text describes Robert Johnson, who has recently joined the US Army.\nHe was daring, without being rash; prompt, but not thoughtless; firm, without being harsh. Kind and devoted to the company he drilled, he soon won the respect of his superior officers and the love of his comrades.\n\nWhich choice best states the main idea of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Robert has put great effort into getting the attention of his superior officers."
+      },
+      {
+        "id": "B",
+        "text": "Robert is well suited to his role in the military."
+      },
+      {
+        "id": "C",
+        "text": "Robert is content with his life despite having made some mistakes."
+      },
+      {
+        "id": "D",
+        "text": "Robert does whatever his comrades need done even if his superiors don\u2019t order him to do so."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_10",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "According to the text, why did the team employ a clustering algorithm?\nResearchers C\u00e9sar A. Hidalgo, Elisa Casta\u00f1er, and Andres Sevtsuk created a computer model to predict the mix of gyms, beauty salons, and other businesses found in a given neighborhood. How we define a neighborhood and its boundaries is subjective, so the team used a clustering algorithm to locate dense groupings of amenities that represent human-identified neighborhoods like Boston's Central Square. The predictive model, which incorporates this algorithm, is sure to be invaluable in determining the optimal mix of a city's amenities.\n\nAccording to the text, why did the team employ a clustering algorithm?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The algorithm provided insight into how customers are made aware of new gyms and beauty salons."
+      },
+      {
+        "id": "B",
+        "text": "The algorithm gave them an objective way to identify neighborhoods."
+      },
+      {
+        "id": "C",
+        "text": "The algorithm could be used to evaluate the reasons for a business's closing."
+      },
+      {
+        "id": "D",
+        "text": "The algorithm could predict which types of businesses would be successful in a given neighborhood."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, Rates, Proportions, and Units",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_12",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which quotation from an art history textbook would most effectively support the student's claim?\nIn a paper for an art history class, a student claims that Gwen John's circa 1915 painting *M\u00e8re Poussepin* marks a significant change in John's artistic development.\n\nWhich quotation from an art history textbook would most effectively support the student's claim?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\u201c*M\u00e8re Poussepin* has been analyzed extensively since it was first exhibited, as no two viewers seem to agree about exactly what the painting means.\u201d"
+      },
+      {
+        "id": "B",
+        "text": "\u201cOf all John's paintings, none so clearly represents her abilities and ideas as *M\u00e8re Poussepin*.\u201d"
+      },
+      {
+        "id": "C",
+        "text": "\u201cThe paintings that John produced before *M\u00e8re Poussepin* can be thought of as belonging to her earlier style, to which she never returned.\u201d"
+      },
+      {
+        "id": "D",
+        "text": "\u201cAlthough John was clearly influenced by other artists of her time, she was also an artist ahead of her time, as *M\u00e8re Poussepin* demonstrates.\u201d"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_13",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice most effectively uses data from the table to complete the assertion?\nMonthly Temperatures and Wing Centroid Sizes of Fruit Fly Specimens\n*Drosophila* (fruit flies) have generation times of 10-12 days, so seasonal changes in humidity and other environmental conditions can drive seasonal fluctuations in chromosome rearrangements in species such as *D. persimilis* and *D. subobscura*. *Drosophila* body size (for which wing centroid size serves as a proxy measure) correlates with life span. Banu Sebnem \u00d6nder and Cansu Fidan Aksoy measured the wing sizes of members of a *D. melanogaster* population in Yesil\u00f6z, Turkey, that were collected monthly between May and October over three years. Their research suggests that *Drosophila* collected in relatively warmer months should tend to have a longer life span, as is illustrated by the finding that ______\n\nWhich choice most effectively uses data from the table to complete the assertion?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the average female wing centroid size was consistently larger than the average male wing centroid size in all four months in the table."
+      },
+      {
+        "id": "B",
+        "text": "the average male wing centroid size was larger in July than in October."
+      },
+      {
+        "id": "C",
+        "text": "the average female wing centroid size was 2.02 mm in July but was 2.27 mm in September."
+      },
+      {
+        "id": "D",
+        "text": "the average monthly low temperature was higher in September than in May."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Oct_23A_Eng_M1_Q13_1.png"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_14",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice most logically completes the text?\nOver 600 languages are spoken in New York City in addition to English\u2014one can find Acehnese spoken in the neighborhood of Astoria, or Ilocano in Woodside. Most speakers of Chinese languages reside in the neighborhood of Flushing (part of New York City's borough of Queens), where the dominant Chinese language is Mandarin, and in Chinatown, in the borough of Manhattan, where the dominant Chinese languages are Cantonese and Fuzhounese. Mandarin is widely spoken in north China, while Cantonese and Fuzhounese are widely spoken in south China. It can therefore be inferred that ______\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "people who emigrate from north China tend to settle in Flushing, while people who emigrate from south China tend to settle in Chinatown."
+      },
+      {
+        "id": "B",
+        "text": "Chinese immigrants regularly change their residences between Queens and Manhattan after they emigrate, rather than staying in one borough."
+      },
+      {
+        "id": "C",
+        "text": "Chinese immigrants who emigrated to New York City many years ago are more likely to speak several Chinese languages than are more recent Chinese immigrants."
+      },
+      {
+        "id": "D",
+        "text": "taken together, there are more Cantonese and Fuzhounese speakers among Chinese immigrants in New York than there are Mandarin speakers."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_15",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice most logically completes the text?\nThe Bronze Age in Britain lasted from around 2500 BCE to approximately 700 BCE. Collections of metal items (called hoards) from all periods of the Bronze Age have been found in Britain, including the Llanarmon-yn-I\u00e2l hoard of artifacts from the 16th century BCE, unearthed around 1982, and the much later Horsehope Craig hoard of artifacts from the 7th century BCE, unearthed around 1865. Sometime in the Middle Bronze Age (approximately from the 14th century BCE to the 10th century BCE), metalsmiths in Britain began to develop swords for the first time. This fact helps explain why, whereas evidence of sword production was found in ______\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "both the Llanarmon-yn-I\u00e2l hoard and the Horsehope Craig hoard, only the latter included evidence of more refined sword production."
+      },
+      {
+        "id": "B",
+        "text": "hoards discovered before 1865, no such evidence was found in hoards that were discovered later."
+      },
+      {
+        "id": "C",
+        "text": "the Llanarmon-yn-I\u00e2l hoard, no intact swords were found among the items in the hoard."
+      },
+      {
+        "id": "D",
+        "text": "the Horsehope Craig hoard, no such evidence was found in the Llanarmon-yn-I\u00e2l hoard."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_16",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nHome to roughly 710,000 people, ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the city of Riga contains an impressive 35 percent of Latvia's total population."
+      },
+      {
+        "id": "B",
+        "text": "contained within the city of Riga an impressive 35 percent of Latvia's total population."
+      },
+      {
+        "id": "C",
+        "text": "of Latvia's total population, an impressive 35 percent is contained in the city of Riga."
+      },
+      {
+        "id": "D",
+        "text": "an impressive 35 percent of Latvia's total population is contained within the city of Riga."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_17",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe size of bird eggs varies widely across species, and the researchers, ______ computer imaging to compare the lengths of eggs from species like *Buteo albicaudatus* and *Treron vernans*, aimed to shed light on the evolutionary basis for such variation.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "to use"
+      },
+      {
+        "id": "B",
+        "text": "using"
+      },
+      {
+        "id": "C",
+        "text": "used"
+      },
+      {
+        "id": "D",
+        "text": "use"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_18",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFeaturing works by the photographers Liselotte Grschebina and Else \u201cYva\u201d Neul\u0101nder-Simon, the 2021 exhibition *The New Woman Behind the Camera* set out to provide a wide-ranging overview of photography by women in the 1920s through the ______ given the collection's breadth of more than 120 photos, its efforts were largely successful.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1950s, and"
+      },
+      {
+        "id": "B",
+        "text": "1950s"
+      },
+      {
+        "id": "C",
+        "text": "1950s,"
+      },
+      {
+        "id": "D",
+        "text": "1950s and"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_19",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn their 2019 study of butterfly diversity at Rupa Lake in Nepal, researcher Bandana Subedi and her colleagues counted 1,535 butterflies from 138 different species, including one specimen of the ______ *Doleschallia bisaltide*, a very rare butterfly known among lepidopterists as the autumn leaf.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "species"
+      },
+      {
+        "id": "B",
+        "text": "species;"
+      },
+      {
+        "id": "C",
+        "text": "species:"
+      },
+      {
+        "id": "D",
+        "text": "species,"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_20",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nSei Sh\u014dnogon composed many ______ \u201cThings That Have Lost Their Power,\" which appears in her tenth-century account of Japanese courtly life, *Pillow Book*, she bemoans boats run aground, toppled trees, and defeated wrestlers.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "lists;"
+      },
+      {
+        "id": "B",
+        "text": "lists in"
+      },
+      {
+        "id": "C",
+        "text": "lists. In"
+      },
+      {
+        "id": "D",
+        "text": "lists:"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_21",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen ______ debuted in January 1983 as part of the exhibit *Women of Clay*, the artworks brought vibrant visual texture to the bustling terminals of San Francisco International Airport.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "they"
+      },
+      {
+        "id": "B",
+        "text": "that"
+      },
+      {
+        "id": "C",
+        "text": "it"
+      },
+      {
+        "id": "D",
+        "text": "this"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_22",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text with the most logical transition?\nOne might assume that Germany's Amrumbank West offshore wind farm produces the same amount of energy as land-based wind farms of a similar size. ______ because wind speeds over open water are generally higher than those over land, Amrumbank West's turbines turn faster and produce more energy than do most land farms' turbines.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Actually,"
+      },
+      {
+        "id": "B",
+        "text": "For example,"
+      },
+      {
+        "id": "C",
+        "text": "Therefore,"
+      },
+      {
+        "id": "D",
+        "text": "Finally,"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_23",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text with the most logical transition?\nThose who looked up at the right time on July 9, 1926, would have witnessed an annular solar eclipse, during which the Moon blocks most of the Sun and causes it to look like a ring of light. ______ stargazers, on December 24, 1927, would have seen a partial solar eclipse, during which the Moon only blocks a portion of the Sun and causes it to look like a crescent.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "As a result,"
+      },
+      {
+        "id": "B",
+        "text": "On the other hand,"
+      },
+      {
+        "id": "C",
+        "text": "Simultaneously,"
+      },
+      {
+        "id": "D",
+        "text": "Indeed,"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_24",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice completes the text with the most logical transition?\nFor several centuries after the birth of opera in sixteenth-century Florence, Italian remained the default language in which most opera scores were written. ______ opera singers today, such as the mezzo soprano J'Nai Bridges, encounter a wide range of Italian terms\u2014from *con amore* (with love) to *moderato* (at a moderate tempo)\u2014when following many eighteenth-century opera scores.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Consequently,"
+      },
+      {
+        "id": "B",
+        "text": "However,"
+      },
+      {
+        "id": "C",
+        "text": "Lastly,"
+      },
+      {
+        "id": "D",
+        "text": "Granted,"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_25",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize a similarity between the two movies? While researching a topic, a student has taken the following notes:\n\u2022 Silent films can be valuable historical documents of their time.\n\u2022 Ninety percent of silent films made before 1930 are now lost.\n\u2022 A film is considered lost when no remaining copies are known to exist.\n\u2022 Director Oscar Micheaux's 1922 silent film *The Dungeon* is lost.\n\u2022 Director Jay Marchant's 1925 silent film *The Fighting Ranger* is lost.\n\u2022 Archives such as the Pacific Film Archive in Berkeley, California, help preserve some of the remaining films from the 1920s.\n\nWhich choice most effectively uses information from the given sentences to emphasize a similarity between the two movies?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "*The Dungeon* (1922) was directed by Oscar Micheaux, and *The Fighting Ranger* (1925) was made by Jay Marchant."
+      },
+      {
+        "id": "B",
+        "text": "Archives such as the Pacific Film Archive in Berkeley, California, play an integral part in preserving some of the surviving silent films from the 1920s."
+      },
+      {
+        "id": "C",
+        "text": "Jay Marchant's 1925 film *The Fighting Ranger* is now considered lost, meaning no copies are known to exist."
+      },
+      {
+        "id": "D",
+        "text": "*The Dungeon* (1922) and *The Fighting Ranger* (1925) would be valuable historical documents of the era, but sadly both silent films are lost."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_26",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "Which choice most effectively uses information from the given sentences to explain the relationship between ITUC\u2011Africa and the BFTU?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Botswana Federation of Trade Unions (BFTU) is a national union federation for the African nation of Botswana.\n\u2022 It helps improve conditions for workers in that nation.\n\u2022 ITUC\u2011Africa is a regional union federation that represents national union federations across Africa.\n\u2022 It represents the BFTU.\n\nWhich choice most effectively uses information from the given sentences to explain the relationship between ITUC\u2011Africa and the BFTU?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ITUC-Africa is a regional union federation."
+      },
+      {
+        "id": "B",
+        "text": "The BFTU is one of the national union federations represented by ITUC-Africa."
+      },
+      {
+        "id": "C",
+        "text": "National union federations, such as the BFTU, work to improve conditions for workers in their member nations."
+      },
+      {
+        "id": "D",
+        "text": "The BFTU is a national union federation."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "41223f98-85cf-4192-b791-4708f442a85c_27",
+    "testName": "October 2023 Form A SAT English Module 1",
+    "text": "The student wants to contrast the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The United States has designated more than 500 areas National Wildlife Refuges (NWRs).\n\u2022 Some NWRs were established specifically to protect endangered species.\n\u2022 The James River NWR is a 4,147\u2011acre area in Virginia, on the Atlantic coast.\n\u2022 It was established to protect the endangered bald eagle.\n\u2022 The Hopper Mountain NWR is a 2,471\u2011acre area in California, on the Pacific coast.\n\u2022 It was established to protect the endangered California condor.\n\nThe student wants to contrast the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "While the James River NWR is in Virginia, on the Atlantic coast, the Hopper Mountain NWR is in California, on the Pacific coast."
+      },
+      {
+        "id": "B",
+        "text": "The US has designated more than 500 areas NWRs, including the James River NWR in Virginia."
+      },
+      {
+        "id": "C",
+        "text": "Both the James River NWR and the Hopper Mountain NWR were established to protect endangered species."
+      },
+      {
+        "id": "D",
+        "text": "Some NWRs were established specifically to protect endangered species such as the California condor."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  }
+];

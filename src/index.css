@@ -65,13 +65,13 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 217 33% 17%;
+    --background: 220 28% 22%;
     --foreground: 210 40% 98%;
 
-    --card: 217 33% 20%;
+    --card: 220 26% 26%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 217 33% 20%;
+    --popover: 220 26% 26%;
     --popover-foreground: 210 40% 98%;
 
     --primary: 201 100% 85%;
@@ -80,8 +80,8 @@ All colors MUST be HSL.
     --secondary: 39 100% 57%;
     --secondary-foreground: 217 33% 17%;
 
-    --muted: 217 33% 24%;
-    --muted-foreground: 217 20% 65%;
+    --muted: 220 22% 32%;
+    --muted-foreground: 220 18% 72%;
 
     --accent: 201 100% 85%;
     --accent-foreground: 217 33% 17%;
@@ -89,23 +89,23 @@ All colors MUST be HSL.
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 217 33% 24%;
-    --input: 217 33% 24%;
+    --border: 220 20% 34%;
+    --input: 220 20% 34%;
     --ring: 201 100% 85%;
     
     --gradient-primary: linear-gradient(135deg, hsl(201 100% 85%), hsl(201 100% 75%));
-    --gradient-hero: linear-gradient(180deg, hsl(217 33% 17%), hsl(217 33% 20%));
+    --gradient-hero: linear-gradient(180deg, hsl(220 28% 24%), hsl(220 24% 18%));
     
-    --shadow-sm: 0 2px 8px hsla(0 0% 0% / 0.3);
-    --shadow-md: 0 4px 16px hsla(0 0% 0% / 0.4);
-    --shadow-lg: 0 8px 24px hsla(0 0% 0% / 0.5);
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --shadow-sm: 0 2px 8px hsla(0 0% 0% / 0.28);
+    --shadow-md: 0 4px 16px hsla(0 0% 0% / 0.38);
+    --shadow-lg: 0 8px 24px hsla(0 0% 0% / 0.48);
+    --sidebar-background: 220 24% 20%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-primary: 224.3 76.3% 52%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-accent: 220 20% 26%;
+    --sidebar-accent-foreground: 210 40% 96%;
+    --sidebar-border: 220 20% 28%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
@@ -117,6 +117,22 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    background-image:
+      radial-gradient(circle at 20% 20%, hsla(201 100% 85% / 0.25), transparent 35%),
+      radial-gradient(circle at 80% 0%, hsla(39 100% 57% / 0.2), transparent 40%),
+      radial-gradient(circle at 50% 80%, hsla(201 100% 75% / 0.25), transparent 35%),
+      linear-gradient(180deg, hsl(210 40% 98%), hsl(201 100% 95%));
+    background-attachment: fixed;
+  }
+
+  .dark body {
+    background-color: hsl(var(--background));
+    background-image:
+      radial-gradient(circle at 20% 20%, hsla(201 100% 80% / 0.14), transparent 32%),
+      radial-gradient(circle at 80% 0%, hsla(39 100% 60% / 0.12), transparent 38%),
+      radial-gradient(circle at 50% 90%, hsla(201 90% 72% / 0.12), transparent 34%),
+      linear-gradient(180deg, hsl(220 28% 24%), hsl(220 24% 18%));
+    background-attachment: fixed;
   }
 
   /* Disable text selection during drag operations */
@@ -183,4 +199,263 @@ All colors MUST be HSL.
   .overflow-wrap-anywhere {
     overflow-wrap: anywhere;
   }
+
+  /* Bookmark flag colors with dark-mode inversion for contrast */
+  .bookmark-flag {
+    stroke: #5b1891;
+    stroke-width: 1.4;
+    fill: #b57be0;
+    filter: drop-shadow(0 0 0.6px #9c4dcc);
+  }
+
+  .dark .bookmark-flag {
+    stroke: #f1e6ff;
+    stroke-width: 1.4;
+    fill: #9c7de0;
+    filter: drop-shadow(0 0 0.6px #7f5cc8);
+  }
+}
+
+/* ========================================
+   VOCAB PAGE SPECIFIC STYLES
+   ======================================== */
+
+/* 3D Flashcard flip effect */
+.vocab-flashcard-container {
+  perspective: 1400px;
+}
+
+.vocab-flashcard {
+  transform-style: preserve-3d;
+}
+
+.vocab-flashcard-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.vocab-flashcard-back {
+  transform: rotateY(180deg);
+}
+
+/* Card hover effect when not flipping */
+.vocab-flashcard:not(.flipped):hover {
+  transform: scale(1.01);
+}
+
+/* Match card animations */
+.vocab-match-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vocab-match-card:hover:not(.matched):not(.revealed) {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.2);
+}
+
+.vocab-match-card.revealed {
+  animation: card-reveal 0.35s ease-out;
+}
+
+.vocab-match-card.matched {
+  animation: match-success 0.4s ease-out;
+}
+
+.vocab-match-card.shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* Staggered entrance for match grid */
+.vocab-match-grid > * {
+  animation: stagger-fade 0.3s ease-out forwards;
+  opacity: 0;
+}
+
+.vocab-match-grid > *:nth-child(1) { animation-delay: 0.02s; }
+.vocab-match-grid > *:nth-child(2) { animation-delay: 0.04s; }
+.vocab-match-grid > *:nth-child(3) { animation-delay: 0.06s; }
+.vocab-match-grid > *:nth-child(4) { animation-delay: 0.08s; }
+.vocab-match-grid > *:nth-child(5) { animation-delay: 0.10s; }
+.vocab-match-grid > *:nth-child(6) { animation-delay: 0.12s; }
+.vocab-match-grid > *:nth-child(7) { animation-delay: 0.14s; }
+.vocab-match-grid > *:nth-child(8) { animation-delay: 0.16s; }
+.vocab-match-grid > *:nth-child(9) { animation-delay: 0.18s; }
+.vocab-match-grid > *:nth-child(10) { animation-delay: 0.20s; }
+.vocab-match-grid > *:nth-child(11) { animation-delay: 0.22s; }
+.vocab-match-grid > *:nth-child(12) { animation-delay: 0.24s; }
+.vocab-match-grid > *:nth-child(13) { animation-delay: 0.26s; }
+.vocab-match-grid > *:nth-child(14) { animation-delay: 0.28s; }
+.vocab-match-grid > *:nth-child(15) { animation-delay: 0.30s; }
+.vocab-match-grid > *:nth-child(16) { animation-delay: 0.32s; }
+
+/* Test option buttons */
+.vocab-test-option {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vocab-test-option:hover:not(:disabled) {
+  transform: translateX(4px);
+}
+
+.vocab-test-option.correct {
+  animation: pulse-success 0.6s ease-out;
+}
+
+.vocab-test-option.incorrect {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* Learn mode input feedback */
+.vocab-input-success {
+  animation: pulse-success 0.6s ease-out;
+  border-color: rgb(34, 197, 94) !important;
+}
+
+.vocab-input-error {
+  animation: shake 0.5s ease-in-out;
+  border-color: rgb(239, 68, 68) !important;
+}
+
+/* Tab indicator animation */
+.vocab-tab-indicator {
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1), width 0.32s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+  will-change: transform, width;
+}
+
+/* Browse card hover */
+.vocab-browse-card {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vocab-browse-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.15);
+}
+
+/* Progress bar animation */
+.vocab-progress-bar {
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Success celebration glow */
+.vocab-success-glow {
+  position: relative;
+}
+
+.vocab-success-glow::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, rgba(34, 197, 94, 0.3), rgba(74, 222, 128, 0.3));
+  border-radius: inherit;
+  z-index: -1;
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* Shimmer loading effect */
+.vocab-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+/* Button press effect */
+.vocab-button-press:active {
+  transform: scale(0.97);
+}
+
+/* Float animation for icons */
+.vocab-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Confetti particles (for completion celebrations) */
+.vocab-confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--primary);
+  animation: confetti 1s ease-out forwards;
+}
+
+/* Dark mode enhancements */
+.dark .vocab-match-card:hover:not(.matched):not(.revealed) {
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.5);
+}
+
+.dark .vocab-browse-card:hover {
+  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.4);
+}
+
+/* Smooth page transitions */
+.vocab-page-enter {
+  animation: slide-up 0.4s ease-out;
+}
+
+.vocab-content-fade {
+  animation: fade-in 0.3s ease-out;
+}
+
+@keyframes stagger-fade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes match-success {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+@keyframes pulse-success {
+  0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+
+@keyframes glow-pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes confetti {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+@keyframes card-reveal {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(180deg); }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

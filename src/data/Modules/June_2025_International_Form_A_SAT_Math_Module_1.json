@@ -1,0 +1,593 @@
+[
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
+    "question_number": 1,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "In the figure, line n intersects lines r and s. Line r is parallel to line s. What is the value of x?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "152",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_1",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_25_IntlA_Math_M1_Q1_1.svg",
+        "alt": "",
+        "local": "images_labeled/Jun_25_IntlA_Math_M1_Q1_1.svg"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
+    "question_number": 2,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "During a portion of a flight, a small airplane's cruising speed varied between 125 miles per hour and 145 miles per hour. Which inequality best represents this situation, where s is the cruising speed, in miles per hour, during this portion of the flight?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$s\\le20$"
+      },
+      {
+        "label": "B",
+        "text": "$s\\le125$"
+      },
+      {
+        "label": "C",
+        "text": "$s\\le145$"
+      },
+      {
+        "label": "D",
+        "text": "$125\\le s\\le145$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_2"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 3,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "If 4 x = 7, what is the value of 24 x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "34"
+      },
+      {
+        "label": "D",
+        "text": "42"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 4,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "Which expression is equivalent to $(x^{3}+8x^{2}-7x)+6(x^{2}+5)$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$x^{3}+6x^{2}-7x+30$"
+      },
+      {
+        "label": "B",
+        "text": "$x^{3}+8x^{2}-7x+30$"
+      },
+      {
+        "label": "C",
+        "text": "$x^{3}+14x^{2}-7x+30$"
+      },
+      {
+        "label": "D",
+        "text": "$x^{3}+5x^{2}-7x+30$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 5,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "The function f is defined by $f(x)=x^{3}+19$. What is the value of f (2)?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "27",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 6,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "The function g is defined by $g(x)=\\frac{x}{2}$. For what value of x does $g(x)=224$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "448",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
+    "question_number": 7,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "The scatterplot shows the relationship between two variables, x and y.\nWhich of the following equations is the most appropriate linear model for the data shown?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "y=0.8+8.5x"
+      },
+      {
+        "label": "B",
+        "text": "y=0.8-8.5x"
+      },
+      {
+        "label": "C",
+        "text": "y=8.5+0.8x"
+      },
+      {
+        "label": "D",
+        "text": "y=8.5-0.8x"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_7",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_25_IntlA_Math_M1_Q7_1.svg",
+        "alt": "",
+        "local": "images_labeled/Jun_25_IntlA_Math_M1_Q7_1.svg"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 8,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "The y -intercept of the graph of $y=x^{2}+15$ in the xy - plane is (0, y). What is the value of y?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "15",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
+    "question_number": 10,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "A chemist combines water and isopropanol to make a mixture with a volume of 38 milliliters (mL). The volume of isopropanol in the mixture is 10 mL. What is the volume of water, in mL, in the mixture? (Assume that the volume of the mixture is the sum of the volumes of water and isopropanol before they were mixed.)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "28",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_10"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
+    "question_number": 11,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "$y=-\\frac{1}{8}x$\n$y=\\frac{1}{10}x$\nThe solution to the given system of equations is (x, y). What is the value of x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-8"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_11"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 12,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5 % greater than the total number enrolled the previous month, Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where m < 24?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$c=800(0.05)^{m}$"
+      },
+      {
+        "label": "B",
+        "text": "$c=800(1.05)^{m}$"
+      },
+      {
+        "label": "C",
+        "text": "$c=800(1.5)^{m}$"
+      },
+      {
+        "label": "D",
+        "text": "$c=800(5)^{m}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_12"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 13,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "The function $f(t)=60,000(2)^{\\frac{t}{580}}$ gives the number of bacteria in a population t minutes after an initial observation, How much time, in minutes, does it take for the number of bacteria in the population to double?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "580",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_13"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 14,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "For x > 0, the function f is defined as follows:\nf (x) equals 293 % of x\nWhich of the following could describe this function?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Decreasing exponential"
+      },
+      {
+        "label": "B",
+        "text": "Decreasing linear"
+      },
+      {
+        "label": "C",
+        "text": "Increasing exponential"
+      },
+      {
+        "label": "D",
+        "text": "Increasing linear"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
+    "question_number": 15,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "$y=\\frac{3}{8}x+2$\nOne of two equations in a system of linear equations is given. The system has infinitely many solutions. What is the slope of the graph of the second equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-\\frac{8}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$-\\frac{3}{8}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{3}{8}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{8}{3}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_15"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 16,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "If $4x^{2}-32x-40=0$, what is the value of $x^{2}-8x$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 17,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "The function f is defined by f (x)=(x - 5)(x - 9)(x + k), where k is a constant. In the xy -plane, the graph of y = f (x) passes through the point (-3, 0). What is the value of f (0)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-288"
+      },
+      {
+        "label": "B",
+        "text": "-3"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "135"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
+    "question_number": 18,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "Line k is shown in the xy -plane. Line j (not shown) is perpendicular to line k and passes through the point (-20, -23). Which equation defines line j?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y=\\frac{3}{4}x-8$"
+      },
+      {
+        "label": "B",
+        "text": "$y=\\frac{3}{4}x-38$"
+      },
+      {
+        "label": "C",
+        "text": "$y=\\frac{4}{3}x-8$"
+      },
+      {
+        "label": "D",
+        "text": "$y=\\frac{4}{3}x-38$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_18",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_25_IntlA_Math_M1_Q18_1.svg",
+        "alt": "",
+        "local": "images_labeled/Jun_25_IntlA_Math_M1_Q18_1.svg"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
+    "question_number": 19,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "In right triangle ABC, angles A and B are acute, side AC has a length of 29.5, and tan B = $\\frac{1}{9}$. What is the length of side BC, rounded to the nearest tenth?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "870.2"
+      },
+      {
+        "label": "B",
+        "text": "265.5"
+      },
+      {
+        "label": "C",
+        "text": "5.4"
+      },
+      {
+        "label": "D",
+        "text": "3.3"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 20,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "A rectangular banner has an area of 3, 200 square inches, A copy of the banner is made in which the length and width of the original banner are each increased by 20 %. What is the area of the copy, in square inches?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "3,220"
+      },
+      {
+        "label": "B",
+        "text": "3,240"
+      },
+      {
+        "label": "C",
+        "text": "3,840"
+      },
+      {
+        "label": "D",
+        "text": "4,608"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "question_number": 21,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "$f(x)=(x-4)^{2}+6$\nWhat is the minimum value of the given function?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_21"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
+    "question_number": 22,
+    "test_name": "June 2025 International Form A SAT Math Module 1",
+    "passage": "Point F lies on a unit circle in the xy-plane and has coordinates (1, 0). Point G is the center of the circle and has coordinates (0, 0), Point H also lies on the circle and has coordinates (-1, y), where y is a constant. Which of the following could be the positive measure of angle FGH, in radians?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{37\\pi}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{39\\pi}{2}$"
+      },
+      {
+        "label": "C",
+        "text": "34π"
+      },
+      {
+        "label": "D",
+        "text": "35π"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_22"
+  }
+]

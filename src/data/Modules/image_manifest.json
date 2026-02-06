@@ -1,0 +1,5829 @@
+{
+  "001075968b933dcf82e4341656ad33aa.png": {
+    "new_name": "Oct_24_USC_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "003b00b06f92363077a3e4c01e73e1d9.png": {
+    "new_name": "Nov_24_USB_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form B SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "012c32e445c220ab8cacb73ad4ca6381.png": {
+    "new_name": "Nov_24_IntlB_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form B SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "018574b3f1f1b48a582e170247332628.png": {
+    "new_name": "Aug_24_IntlA_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "August 2024 International Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "0295581a8c4b4d2e8d7a6b69838f8177.svg": {
+    "new_name": "Mar_25_IntlC_Eng_M1_Q13_1.svg",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "02b84a2f9efbbab1f4e72c03a15aaecb.png": {
+    "new_name": "May_24_IntlC_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "0371a5a820f6f41b93dd7edfd6d89b6d.png": {
+    "new_name": "Aug_25_USA_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "August 2025 US Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "0451d145d156139e105c6156896bba0f.png": {
+    "new_name": "Jun_24_USC_Eng_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form C SAT English Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "0583c70ffb8d71f6bf2b4effd1860c40.png": {
+    "new_name": "Aug_25_USB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2025 US Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "05b229eb345fbdbdb8461e1414d2cc39.png": {
+    "new_name": "Nov_23C_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "November 2023 Form C SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "069e7f22f0aea18e5cc872ee8d02a13a.png": {
+    "new_name": "Jun_24_IntlB_Eng_M1_Q7_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form B SAT English Module 1",
+        "question": 7
+      }
+    ]
+  },
+  "06e6c9667d9dba3d698ab34d76274291.png": {
+    "new_name": "Mar_25_USB_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "07283f15dd7cc0650162834511b7da37.png": {
+    "new_name": "May_24_USA_Math_M1_Q7_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 1",
+        "question": 7
+      }
+    ]
+  },
+  "07763eee2f69d936c0329bf505fea1eb.png": {
+    "new_name": "Dec_24_USA_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "07f17b3ce72ce928bab266546a80a7a7.png": {
+    "new_name": "Oct_24_USC_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "081740254fe45f0a4dd0c3138188a4e7.png": {
+    "new_name": "Mar_25_USA_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "086ba69a1ff47e750c4722ae42e7efff.png": {
+    "new_name": "May_25_IntlB_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "09382891cf6f672ddffa91b5ea698272.png": {
+    "new_name": "Oct_25_USA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "09decc763c96a324a631dd4b3ffb4426.png": {
+    "new_name": "Jun_25_USA_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "0a1da9bb8f008f1180b43a0985f4b34c.png": {
+    "new_name": "Oct_24_USB_Math_M1_Q19_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT Math Module 1",
+        "question": 19
+      }
+    ]
+  },
+  "0a3c5776eea7446f55558ef8cf2efc1c.png": {
+    "new_name": "May_25_IntlA_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "0ac267fc3b0a775cd5e31564830cf18e.png": {
+    "new_name": "Jun_24_USA_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "0bad51d06f5e21acbac5ab6278a5831e.png": {
+    "new_name": "Jun_24_USC_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form C SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "0bcc163aa1587dd3cf67cb153e625802.png": {
+    "new_name": "Oct_25_IntlA_Math_M2_Q15_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 2",
+        "question": 15
+      }
+    ]
+  },
+  "0c2f897df84b4bede117f0086ef96daa.png": {
+    "new_name": "Sep_25_IntlB_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form B SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "0c45ded3fc1016ee933b2b36562643a1.png": {
+    "new_name": "Dec_24_USC_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "0c510cc81902669c721c8db2f31fe81e.png": {
+    "new_name": "Oct_25_IntlA_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "0c95c9e8a27b64c92d03578be8ebc93e.png": {
+    "new_name": "May_24_IntlA_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "0cf9cb0ee584a54c3009a1efe41cbcc6.png": {
+    "new_name": "Nov_24_IntlC_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "0d3dd76dba67fd14bb37602e6f00afd5.png": {
+    "new_name": "Sep_25_USA_Math_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form A SAT Math Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "0dbe78d31bb95f359af0e15386861993.png": {
+    "new_name": "May_24_USB_Math_M1_Q4_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 1",
+        "question": 4
+      }
+    ]
+  },
+  "0df959e160e69ebaf205f5e4002a00f0.png": {
+    "new_name": "Mar_25_IntlC_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "0e0cd5764c7a9695c437b50bb63c640c.png": {
+    "new_name": "Mar_25_USA_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form A SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "0ec19c819a3446fb1398b3b13f08a8c3.png": {
+    "new_name": "Mar_25_IntlB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "0f8f03fc06c9a729356882c6a4678fae.svg": {
+    "new_name": "Jun_25_IntlB_Math_M2_Q15_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form B SAT Math Module 2",
+        "question": 15
+      }
+    ]
+  },
+  "0fbfcb4041021a31e498d0523c468fc6.png": {
+    "new_name": "Oct_24_USC_Math_M1_Q8_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "0fd764d5ba5af3b6acebe46f075e647e.png": {
+    "new_name": "Dec_24_USB_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "1007dd1e493de6e0087f1ae2a1f1587d.png": {
+    "new_name": "Mar_23A_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2023 Form A SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "1061be6e337425179911c511b2a9237b.png": {
+    "new_name": "Sep_25_IntlA_Math_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT Math Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "107d47ee0e9d5164ea5bff7059a5ea87.png": {
+    "new_name": "Nov_24_IntlD_Math_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form D SAT Math Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "115ed1272e8e482a580f761e3935553c.svg": {
+    "new_name": "Jun_25_IntlB_Math_M1_Q7_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form B SAT Math Module 1",
+        "question": 7
+      }
+    ]
+  },
+  "11683b412d00f93e8586d00a17586f08.png": {
+    "new_name": "May_24_IntlE_Eng_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT English Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "11a0c943b26c04cfacf0382672860998.png": {
+    "new_name": "Dec_24_IntlA_Math_M1_Q4_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 1",
+        "question": 4
+      }
+    ]
+  },
+  "12baccc707425818739dbf848bb70d3d.png": {
+    "new_name": "Jun_24_USB_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "1358cd3ec5a933a9f49b0633c74245f8.png": {
+    "new_name": "Sep_25_IntlB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "137bfff15a12579b3cb077e36246c68b.png": {
+    "new_name": "Oct_25_IntlB_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "13848d29e1ad024ec16575f282b36cc4.png": {
+    "new_name": "Nov_24_USB_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form B SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "14113c297283199af80c7682834ec593.png": {
+    "new_name": "Sep_25_IntlA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "15106259c39aefc8d5257ad2ac68e2a7.png": {
+    "new_name": "Aug_25_USB_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "August 2025 US Form B SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "1519f6856e37f267bd466118523bd330.svg": {
+    "new_name": "Mar_25_IntlB_Math_M1_Q8_1.svg",
+    "usages": [
+      {
+        "test": "March 2025 International Form B SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "152ba4ba60cd00e4462a878a37202046.png": {
+    "new_name": "Jun_24_USC_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form C SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "1585f1aab9e2ba61e8bc8251361ec3e4.png": {
+    "new_name": "May_24_USA_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "16117a9b7034c3302ef140c282350b19.png": {
+    "new_name": "Oct_25_IntlA_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "16856bb1daf1c286c73f85be7242dbfe.png": {
+    "new_name": "May_24_IntlE_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "1701806ba46c413c3d80154be43cc4ed.png": {
+    "new_name": "Mar_25_IntlC_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "181317d6f642dea8a701b32c1ed150c3.png": {
+    "new_name": "Nov_24_IntlA_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "18614512bdee295c9eac707ef0b1b6f0.png": {
+    "new_name": "Oct_24_USC_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "1862cb952b27bd473c403513d87a49ff.png": {
+    "new_name": "May_24_IntlE_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "18781696352e113f015bc369d2fa7079.png": {
+    "new_name": "Dec_24_IntlB_Math_M1_Q4_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 1",
+        "question": 4
+      }
+    ]
+  },
+  "19dad6b309700c694fd6c83710cd922b.png": {
+    "new_name": "Oct_24_IntlA_Math_M1_Q20_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form A SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "19ec0698395398d527f1db03c8de1589.png": {
+    "new_name": "May_24_IntlA_Math_M2_Q3_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT Math Module 2",
+        "question": 3
+      }
+    ]
+  },
+  "19fbee16f05a749528ee5debf521a13f.png": {
+    "new_name": "Aug_25_IntlB_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "1a236fa3f673f39e2ff6972e93ea862b.png": {
+    "new_name": "Aug_25_IntlB_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "1a2c987b567af9100597fea8d78a771b.png": {
+    "new_name": "Nov_24_IntlD_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form D SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "1a394bfe778a7bac77fc337508de33b2.png": {
+    "new_name": "Oct_24_USA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "1a4e6b8c2827b9587bf848f59fd3f132.png": {
+    "new_name": "May_23A_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2023 Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "1a4f9d57c1417ca189fa0cce484abb8c.png": {
+    "new_name": "May_24_USB_Math_M1_Q20_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "1a7213b56b11e6c85b34ebac4790149a.png": {
+    "new_name": "Dec_24_IntlB_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "1aaf21587d6fd31d564a80e9481c054f.png": {
+    "new_name": "Sep_25_USB_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form B SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "1ae3619f3feb84457c8a58ac9957ffa6.png": {
+    "new_name": "Oct_24_IntlB_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form B SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "1b4457f071f5987e4160bbde59c98b01.png": {
+    "new_name": "Oct_25_USA_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "1b5a07d0b1deda7c2c2b1dba82073012.png": {
+    "new_name": "Aug_25_IntlB_Math_M1_Q3_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 1",
+        "question": 3
+      }
+    ]
+  },
+  "1ba3fc5c0cc9e61f9dced55be1bcd312.png": {
+    "new_name": "Aug_25_IntlA_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "1c3700157f135a6e0765fda3962fa5a4.png": {
+    "new_name": "May_24_USA_Math_M1_Q8_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "1c9d191bf7d01048509f66568691d640.png": {
+    "new_name": "Jun_24_USC_Math_M2_Q18_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form C SAT Math Module 2",
+        "question": 18
+      }
+    ]
+  },
+  "1caaec36a99935549966ced688714073.png": {
+    "new_name": "May_24_IntlD_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "1cb8d8db3775e079c04139b411e30185.png": {
+    "new_name": "Aug_25_IntlA_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "1da2fa35d832cce62884dacf90927890.png": {
+    "new_name": "Dec_24_USA_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "1df1cc7d42f686de2a632e0485dfd606.png": {
+    "new_name": "Sep_25_USB_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form B SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "1e13ced9543979177d9b15d21894dc6d.png": {
+    "new_name": "Aug_25_USB_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "August 2025 US Form B SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "1e6ee52a44d53434b3e522cd10320a5e.png": {
+    "new_name": "Mar_24_IntlC_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form C SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "1e94744b7926289b57141ccf5f792b96.png": {
+    "new_name": "May_25_USA_Math_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "May 2025 US Form A SAT Math Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "1f0cc181cf81ec697cd12b2a56de7039.png": {
+    "new_name": "Nov_24_IntlC_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "1fa61f6f0bbe7722f5992d33816c2612.png": {
+    "new_name": "Mar_24_IntlA_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "207ce1d4848787e14a4a91b5c382ec76.png": {
+    "new_name": "Jun_25_USA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "20b03e566bf7b69f50d5021538289b54.png": {
+    "new_name": "Jun_25_USA_Math_M1_Q19_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 1",
+        "question": 19
+      }
+    ]
+  },
+  "2136ee4f09f8e8fe2d3536cfca339e85.png": {
+    "new_name": "Nov_23C_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2023 Form C SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "21719582aee2b435e8adbe0cfae68689.png": {
+    "new_name": "Mar_25_USA_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form A SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "21dc3869dbbbf7afac40158da4dc1102.png": {
+    "new_name": "May_24_USB_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "226157136369a959ba0d656d0c97e630.png": {
+    "new_name": "Jun_24_IntlA_Math_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form A SAT Math Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "226423b51c70a394bef350a094525be8.png": {
+    "new_name": "Dec_24_USC_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "227475447c619f23bc834fea20d9ed51.png": {
+    "new_name": "Mar_25_USB_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "22871298f0ccfbdeac81f44f58b23e62.svg": {
+    "new_name": "May_25_IntlA_Math_M2_Q12_1.svg",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "22aa799b2816802fc669ecd7833ea550.png": {
+    "new_name": "Aug_25_IntlA_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "23049e6cc4c7ae50551a204180580938.png": {
+    "new_name": "Mar_25_USB_Math_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "23176333ad8835fc1e217158c305057a.png": {
+    "new_name": "Jun_25_USA_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "2519a3fb11b59a0b7937aeb9a852f331.png": {
+    "new_name": "Dec_24_IntlB_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "256893dc26ba561594d3f3f1c1a7f9f0.png": {
+    "new_name": "Dec_24_IntlB_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "2706bb41643ac00b879e77c349db4599.png": {
+    "new_name": "May_24_USB_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "28619605f020a0aaef4faac50f6b507c.png": {
+    "new_name": "Aug_23A_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "August 2023 Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "28e0686e8eb4a000308753375f4bed86.png": {
+    "new_name": "Oct_24_USB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "2991bc6fb45467987e712e521b8d87a6.png": {
+    "new_name": "Aug_25_IntlA_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "29a47696013af9acc1c256c186a48d1c.png": {
+    "new_name": "Nov_25_IntlB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "2acf224e8c6e030a0001b329d60f976f.png": {
+    "new_name": "Mar_25_IntlC_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "2af1ba6688d656c8690951f2daba765d.png": {
+    "new_name": "Oct_24_USC_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "2c7e52e9964b648c6ec7c63dd4b0aa85.png": {
+    "new_name": "May_25_IntlB_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "2d49ed2c475b5fbe9e35c710b84e6509.png": {
+    "new_name": "May_24_IntlD_Math_M2_Q21_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 2",
+        "question": 21
+      }
+    ]
+  },
+  "2d4d1e1ec8a4ebd7cd4caa9dbbef0e48.png": {
+    "new_name": "Dec_24_USC_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "2ed6d7aff7e9c70362128de0ae35e88d.png": {
+    "new_name": "Oct_24_IntlB_Math_M1_Q8_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form B SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "2ffaec2c1faf047ee5f79c2057458d6e.png": {
+    "new_name": "Dec_23B_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "December 2023 Form B SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "30ffe502150d71c70dc4a02ebcbf3588.png": {
+    "new_name": "Mar_25_IntlC_Math_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT Math Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "3123c53ccf537abbf0d919a6b7442919.png": {
+    "new_name": "Oct_24_IntlA_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form A SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "3182589aa7bfbb57c183a16cc9d634af.png": {
+    "new_name": "May_24_IntlE_Math_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "31e05b35a614070e900e0c31116bed93.png": {
+    "new_name": "Jun_24_USB_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "31f17eca482e7744af718611d14dc236.png": {
+    "new_name": "Oct_24_USC_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "32159232236e3119675702aff2823300.png": {
+    "new_name": "Oct_24_IntlC_Math_M1_Q4_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT Math Module 1",
+        "question": 4
+      }
+    ]
+  },
+  "32f3401143a05f1cfc2c7ae804d456a0.png": {
+    "new_name": "May_24_IntlD_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "32fcc40e825b93811e5abcd128583cc4.png": {
+    "new_name": "Jun_24_IntlA_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form A SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "332277de27125e9ebe453f79e3b43a4a.png": {
+    "new_name": "Aug_25_IntlB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "338ea41d647ebd00bc5745842ea80b3a.png": {
+    "new_name": "Mar_25_IntlA_Math_M2_Q18_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT Math Module 2",
+        "question": 18
+      }
+    ]
+  },
+  "33bb00ca45157a370bd78fc3ba8a9602.png": {
+    "new_name": "Nov_24_USA_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "33d532f1f7bdba2c1bc4be47ee072b60.png": {
+    "new_name": "Oct_24_USB_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "34cc3c85a8c6bef21612b1024e261847.png": {
+    "new_name": "May_24_IntlE_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "34da7d54d31d8d6044ad15174209f824.png": {
+    "new_name": "Oct_24_USB_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "353482510baa2f97e6fc9a4d45887d33.png": {
+    "new_name": "Aug_25_IntlB_Eng_M1_Q8_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT English Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "3552d30eb834460564441a4a2b122fea.png": {
+    "new_name": "Jun_25_IntlA_Math_M2_Q20_1.png",
+    "usages": [
+      {
+        "test": "June 2025 International Form A SAT Math Module 2",
+        "question": 20
+      }
+    ]
+  },
+  "355ba145d1bd2c8e097904f17af8e4ee.png": {
+    "new_name": "Dec_24_IntlC_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "356002f15dffa8c9d5315b6a7cc2e186.png": {
+    "new_name": "Aug_24_IntlB_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "August 2024 International Form B SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "359e7b519a1641e2a7e9d032f87cf773.svg": {
+    "new_name": "Jun_25_IntlB_Math_M1_Q18_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form B SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "35e064421a0c2e76dd97c2b5b009aa38.png": {
+    "new_name": "Aug_25_IntlA_Math_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT Math Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "360a6cede28564accfa0ab8feb405b78.png": {
+    "new_name": "Oct_24_IntlC_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "360e27463b199a9b09233fdb64c7a9e5.png": {
+    "new_name": "Mar_25_IntlE_Math_M1_Q19_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form E SAT Math Module 1",
+        "question": 19
+      }
+    ]
+  },
+  "363ffd936cf826a6d32262b3793a52cd.png": {
+    "new_name": "Jun_25_USA_Math_M1_Q17_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 1",
+        "question": 17
+      }
+    ]
+  },
+  "36913cc690328e7539e6193c4b5300f5.png": {
+    "new_name": "Nov_24_IntlB_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form B SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "384c2c1320e3ff07dd9e2d27d44a75e7.png": {
+    "new_name": "May_24_USA_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "38e2357fa0a2bb01fab7aade55a72657.png": {
+    "new_name": "Nov_23C_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "November 2023 Form C SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "38efde68761151d6bc0957550b1bbed8.png": {
+    "new_name": "Sep_25_USB_Math_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form B SAT Math Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "3913c4e3dc363c724697538957b08787.png": {
+    "new_name": "Nov_24_USA_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "395d65ffea10fc9f187aa53728252dc7.png": {
+    "new_name": "Mar_25_USB_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "3a650bb06b86bd866c9f0b472a4ea965.png": {
+    "new_name": "Oct_24_USA_Math_M2_Q22_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 2",
+        "question": 22
+      }
+    ]
+  },
+  "3afdfa614c29815515f525aafcd40375.png": {
+    "new_name": "Dec_24_USB_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "3b01f9d44bd92b2161c616b1bbda9bd1.png": {
+    "new_name": "Mar_25_USB_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "3c63360e1a08bd33aa1265445d566095.png": {
+    "new_name": "Jun_24_USC_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form C SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "3c8210593fc92e628ec2a9a01cfdfa9b.png": {
+    "new_name": "May_24_IntlE_Math_M2_Q21_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 2",
+        "question": 21
+      }
+    ]
+  },
+  "3ca556275def99cc8d96389a707ec7a2.png": {
+    "new_name": "Dec_24_USC_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "3d1d196ca5e25f4b28d64a9b23183e27.png": {
+    "new_name": "May_24_USB_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "3d85d6d42433b6221ef08d70a4a6cce5.png": {
+    "new_name": "Jun_24_USA_Math_M1_Q17_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT Math Module 1",
+        "question": 17
+      }
+    ]
+  },
+  "3e6ff3dce65b28cc9536b05b33cd3fd7.png": {
+    "new_name": "Mar_24_IntlB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "3e950845ae7a28204376513316ed526f.png": {
+    "new_name": "Jun_24_USA_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "3eeb29e32ea1b770bd7ca23b80b7dec1.png": {
+    "new_name": "Dec_24_USC_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "3eebbc3e727f438f5109b2c44af84931.png": {
+    "new_name": "Mar_25_IntlA_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "3f31fdaa373fbc7b44fc44976d21f65c.png": {
+    "new_name": "Nov_24_IntlB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "3f3af5ade60b55985287691b540206f0.png": {
+    "new_name": "Oct_25_IntlB_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "3f5751e35f6cb0baa95b029c6d04c660.png": {
+    "new_name": "Nov_24_USB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "400c0364581375c2ba63f0a8f3b3c93f.png": {
+    "new_name": "Oct_25_IntlA_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "402a367bdf1b29e57abdffd3ce347d35.png": {
+    "new_name": "Jun_24_IntlB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "40a84fd4f6d1a588aed660111380203d.png": {
+    "new_name": "Mar_24_IntlA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "415d4e716807ec598ef3cab190522330.png": {
+    "new_name": "Oct_24_IntlC_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "41d2bf209aeabcfb0de4f0ad6787673d.png": {
+    "new_name": "Dec_24_IntlB_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "4224a78980de6201dae10261894aeb7a.png": {
+    "new_name": "Mar_25_IntlC_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "42379e85ad615b4dc5c60815adedd455.png": {
+    "new_name": "Oct_25_IntlB_Math_M2_Q14_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 14
+      },
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 14
+      }
+    ]
+  },
+  "42ab3c72e47d4839f91204c3b5bf46a9.png": {
+    "new_name": "Oct_25_IntlB_Math_M2_Q3_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 3
+      },
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 3
+      }
+    ]
+  },
+  "4354c409b08b1acc7e4b6ff406f338e4.png": {
+    "new_name": "Sep_25_USA_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form A SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "43927eeb3fa5c23edd14af72a28e58c2.png": {
+    "new_name": "May_24_IntlA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "43a01da4e70651642f22d8897572f887.png": {
+    "new_name": "Mar_25_IntlD_Math_M1_Q3_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form D SAT Math Module 1",
+        "question": 3
+      }
+    ]
+  },
+  "43c0231acf38cadd109237ab93eeaace.png": {
+    "new_name": "May_24_IntlE_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "43d6804faea63c07a976f758ad13376a.png": {
+    "new_name": "Dec_24_USB_Math_M1_Q6_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT Math Module 1",
+        "question": 6
+      }
+    ]
+  },
+  "446a75782503f0c9684a3e9b869b69fe.png": {
+    "new_name": "Sep_25_USA_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form A SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "449f45d7bb90ad468573ba3648d74e64.png": {
+    "new_name": "May_23A_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2023 Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "44e4e7c9fb23fc9dc3659ac7fc8cbd89.png": {
+    "new_name": "May_24_IntlE_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "46070b5528ec892b44b0af8e3df9fd27.png": {
+    "new_name": "Nov_24_USA_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "460847491dd1628c085de49cbfd5d460.png": {
+    "new_name": "May_24_IntlC_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "466f0584fb5d1640d42596fecc1b1689.png": {
+    "new_name": "Dec_24_USA_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "46ad4e38ca69140fc034a5e951a13441.png": {
+    "new_name": "Aug_25_USA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2025 US Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "471b71cfe62f20ac209d7ffde16f0a09.png": {
+    "new_name": "May_24_IntlD_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "47608626af9ab485f1239ea6075fdb26.png": {
+    "new_name": "Dec_24_USA_Math_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT Math Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "479b3560386b8a5c0115540fde52fe45.png": {
+    "new_name": "Mar_23A_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "March 2023 Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "4856feba7974d9a0fe9950b51c5648d7.png": {
+    "new_name": "Oct_24_USA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "489cd7b00f6cf8c2452dfe4b3b94512c.png": {
+    "new_name": "Oct_24_USC_Math_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT Math Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "49501ee224919cd3876f235997d7610a.png": {
+    "new_name": "May_24_IntlA_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "497c169baf31e7895c00b66e8cfefb35.png": {
+    "new_name": "Nov_24_IntlB_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form B SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "4997df90be5ce4b68e8c4597d018b4ee.png": {
+    "new_name": "May_24_IntlD_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "49b0da98c31beca835645f9bc3be9afd.png": {
+    "new_name": "Oct_25_IntlB_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "4a1ddccad205abf132ea5b62c1fd38bd.png": {
+    "new_name": "Jun_25_USA_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "4a526d9e0cdffc08e8da9ebfdc71f036.png": {
+    "new_name": "Mar_25_USB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "4ba3ca993510800a933d7d0abd882d6a.svg": {
+    "new_name": "Mar_25_IntlA_Math_M1_Q8_1.svg",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "4bc2223ed4003f89f2b993b656a9956e.png": {
+    "new_name": "Dec_24_IntlA_Math_M2_Q22_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 2",
+        "question": 22
+      }
+    ]
+  },
+  "4c99dd61f559a5c574c37520e4f2f695.png": {
+    "new_name": "May_24_IntlD_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "4d4215b7976ca7a5257c03964de97ddd.png": {
+    "new_name": "Mar_25_IntlD_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form D SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "4dd5028501bd47863e8539d1a6ef13ec.png": {
+    "new_name": "Jun_25_USA_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "4ddc1319a7b42648165bb2e000f4ab0e.png": {
+    "new_name": "Aug_25_USB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "August 2025 US Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "4e353c3e06e2b24a5a0ad3a51c05922f.svg": {
+    "new_name": "Jun_25_IntlA_Math_M2_Q7_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form A SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "4e81320f1dafd23a472a924c60d24317.png": {
+    "new_name": "Oct_24_USB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "4f49f64a1983d7d48394ab3ed95319f2.png": {
+    "new_name": "Dec_24_IntlC_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "4f6d4501ba261c47ddb924c990de57d0.png": {
+    "new_name": "Oct_25_IntlB_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "4fcf697c9077a88ecd050d8100e185fd.png": {
+    "new_name": "Mar_25_IntlE_Math_M2_Q18_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form E SAT Math Module 2",
+        "question": 18
+      }
+    ]
+  },
+  "50017745b012522e7826a7638914167c.png": {
+    "new_name": "Nov_23A_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "November 2023 Form A SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "500fa407c9db49063e52ff51fa76b659.png": {
+    "new_name": "May_25_IntlB_Math_M1_Q19_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT Math Module 1",
+        "question": 19
+      }
+    ]
+  },
+  "5010c78ae1f71727717acc20dad8ade2.png": {
+    "new_name": "Oct_24_USA_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "50220f71cbadc0c8cb6b8af397b195f8.png": {
+    "new_name": "Mar_25_IntlC_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "507bd2f1083856514746f94fae24bcf8.png": {
+    "new_name": "Dec_24_USC_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "5165d0e0e5bfcef19e3e3004aa7e1ecb.png": {
+    "new_name": "Mar_25_USA_Math_M2_Q14_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form A SAT Math Module 2",
+        "question": 14
+      }
+    ]
+  },
+  "51678749f791885ba2dee637d0c5f9f3.png": {
+    "new_name": "Aug_25_IntlB_Eng_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT English Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "51ee0d6900bf772723412aa66de29a0f.png": {
+    "new_name": "Dec_24_USA_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "529e989d9fd644dc4323b8ac0cae6d69.png": {
+    "new_name": "May_25_USA_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2025 US Form A SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "52fd4f5fc388c32d6f4f00da58f8655b.png": {
+    "new_name": "Sep_25_USB_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form B SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "53138016069a9a82192a67459c262eb2.png": {
+    "new_name": "May_25_IntlB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "531be9ed1bee84d7c4ab34dcbccac89d.png": {
+    "new_name": "Dec_24_IntlA_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "53b773864bb6c930e46ba50824419001.png": {
+    "new_name": "Jun_24_IntlA_Math_M2_Q14_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form A SAT Math Module 2",
+        "question": 14
+      }
+    ]
+  },
+  "5413c5853da0422aff8d46be7df7975e.png": {
+    "new_name": "Dec_24_IntlA_Math_M1_Q8_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "543972e83ca5476914826a82d21bced5.png": {
+    "new_name": "Oct_25_IntlA_Math_M2_Q20_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 2",
+        "question": 20
+      }
+    ]
+  },
+  "543a2520a26b4663639b7936079ac5ee.svg": {
+    "new_name": "Jun_25_IntlA_Math_M1_Q1_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form A SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "54a95af392994252ab804e5140246b9b.png": {
+    "new_name": "May_24_USB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "54f26d89b23d041fe505943af7dde85d.png": {
+    "new_name": "May_24_IntlB_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form B SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "5563536465a0e9f5fd574acde8cc8022.png": {
+    "new_name": "Nov_24_USB_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form B SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "56b4f5b77e7a71a2705864eced63ba56.png": {
+    "new_name": "May_24_USA_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "56e2a660836d5dac5f31fe87a9f72f20.png": {
+    "new_name": "Jun_25_USA_Math_M2_Q21_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 2",
+        "question": 21
+      }
+    ]
+  },
+  "56fc9ae574dbe453ca25ae9c478fe672.png": {
+    "new_name": "Oct_24_USA_Math_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "577b2f559b23b44e63d5ab23a08692e6.png": {
+    "new_name": "May_25_USA_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2025 US Form A SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "57849054f5290482c465fa280be1ff44.png": {
+    "new_name": "Oct_24_IntlA_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form A SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "5799f4b0b182348a2cfc6e6794ea5ff9.png": {
+    "new_name": "Dec_24_IntlA_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "57a5740ca1275d7ac5f51d4f3de03e1e.png": {
+    "new_name": "Oct_24_IntlB_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form B SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "57b4e7dbbd478618267a6a43402573b2.png": {
+    "new_name": "May_24_IntlE_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "592c077d24f5382f97c1fb5dbd58ad33.png": {
+    "new_name": "Oct_24_USA_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "59341ffb29e7d00e153789be1b450ed3.png": {
+    "new_name": "Oct_24_USA_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "596ea1404923ba96742a2862f6f85a98.png": {
+    "new_name": "Oct_24_USA_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "5a1818b3649e9b7a0a34703e4835136c.png": {
+    "new_name": "Nov_23A_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "November 2023 Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "5a39d083b5e945ed560a2af35ffdfb8e.png": {
+    "new_name": "Aug_24_IntlD_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "August 2024 International Form D SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "5aa0225f943153ac0e44e90beae079a0.png": {
+    "new_name": "Oct_24_USA_Math_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "5ab49ed202336834c8e02bfff3d5c2d7.png": {
+    "new_name": "Sep_25_IntlB_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form B SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "5b08753441bec6836e3273b7eb996b3e.png": {
+    "new_name": "May_24_IntlE_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "5be39e6294ae70f420b163648c84973a.png": {
+    "new_name": "May_24_IntlD_Math_M1_Q20_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "5cea78dffe0b33b61950b8076b588421.png": {
+    "new_name": "May_24_IntlE_Math_M2_Q22_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 2",
+        "question": 22
+      }
+    ]
+  },
+  "5d21618f31c5991844873b9f1800b25c.png": {
+    "new_name": "Mar_25_USB_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "5e1de3264805c8515737dcf3673c920b.png": {
+    "new_name": "Oct_24_USC_Math_M2_Q15_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT Math Module 2",
+        "question": 15
+      }
+    ]
+  },
+  "5ef93e686683e94ad937a289cbf0e6a2.png": {
+    "new_name": "Oct_24_USA_Math_M2_Q21_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 2",
+        "question": 21
+      }
+    ]
+  },
+  "5f21a69891535035bcea87c9934b0b3b.png": {
+    "new_name": "Aug_25_IntlB_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "5f6297d53efff6fba197fbcf5a9f898d.png": {
+    "new_name": "May_24_USA_Math_M2_Q21_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 2",
+        "question": 21
+      }
+    ]
+  },
+  "6006ea793fc7eeead05374f3bf43bb18.png": {
+    "new_name": "May_25_IntlB_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "60c5e00e4ddc13511ccdd87ed1f64c61.png": {
+    "new_name": "Dec_24_IntlA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "60f81a5dff4d9fe10d66fa114e875269.png": {
+    "new_name": "Jun_24_USB_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "616af01e80d0454291d3c5e36a9ec906.png": {
+    "new_name": "Nov_24_USA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "616e84c6d002344860ea52c69bb312ca.png": {
+    "new_name": "Oct_24_IntlC_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "61ae1ea33c6d74fe64f82796ff45f89c.png": {
+    "new_name": "Jun_24_USA_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "61b2aacdc0f0521acbf592ba4b2d027b.svg": {
+    "new_name": "Mar_25_IntlA_Math_M2_Q17_1.svg",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "640cb8198bbd0877ed4a7d701ad8ca90.png": {
+    "new_name": "Nov_24_USB_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form B SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "65172d7da33b80d603da9d5262082874.png": {
+    "new_name": "Mar_25_IntlA_Math_M2_Q15_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT Math Module 2",
+        "question": 15
+      }
+    ]
+  },
+  "656a504794231959dcbbce560d5cecad.png": {
+    "new_name": "Dec_24_IntlB_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "658af04e2192989ab3d6821200513414.png": {
+    "new_name": "Jun_24_USB_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "65b9ff14b9aad45fc3f3fc90391e635a.png": {
+    "new_name": "Jun_24_IntlB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "66320397781eca0f4a7f23009c44060c.png": {
+    "new_name": "Oct_23A_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "October 2023 Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "66f4cbe3dfeb064d7abc89ecf4b14c7d.png": {
+    "new_name": "Dec_24_IntlC_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "671687caa64e9c12cb3aef264e35752f.png": {
+    "new_name": "Mar_25_USB_Math_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "6755cf84be8e054eec6d22a58cd887f2.png": {
+    "new_name": "Oct_24_USB_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "684bdbf6ccd8808c206c34c14e6998c5.png": {
+    "new_name": "Dec_24_IntlC_Eng_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT English Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "68cb7e0a65959dc65aa27380b340c1ad.png": {
+    "new_name": "Sep_25_IntlA_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "692f5ceb35203560ec503f7f4f32f15b.png": {
+    "new_name": "Oct_25_IntlB_Math_M2_Q5_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 5
+      },
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 5
+      }
+    ]
+  },
+  "69338bc3fd069b1b46584a5b6924a711.png": {
+    "new_name": "Nov_24_USB_Math_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form B SAT Math Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "69bbd85ad63c79f6fe7aa6147720b58f.png": {
+    "new_name": "Sep_25_USB_Math_M1_Q4_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form B SAT Math Module 1",
+        "question": 4
+      }
+    ]
+  },
+  "69db7e1a131758f17a8910b9c5a62fba.png": {
+    "new_name": "Sep_25_USA_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form A SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "69f38bf0de15dbed9ce00488876af9d4.png": {
+    "new_name": "Jun_25_USA_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "6a64a59f2c95db538203fe959265bd89.png": {
+    "new_name": "Dec_24_IntlC_Eng_M1_Q7_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT English Module 1",
+        "question": 7
+      }
+    ]
+  },
+  "6bd1b420640c5f999d0a8f87425eee2d.png": {
+    "new_name": "Aug_25_IntlB_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "6d0cc8d093d18f3314df05b6d1436c03.png": {
+    "new_name": "Sep_25_USA_Math_M1_Q4_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form A SAT Math Module 1",
+        "question": 4
+      }
+    ]
+  },
+  "6d4188aab0098bb1f07a6ad9ea8bd4e6.png": {
+    "new_name": "Aug_25_IntlB_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "6dceb08e0c8af7ea4bbe17b9c9216c88.png": {
+    "new_name": "May_24_IntlC_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "6e1bc522a72f212d371479f1a2ca4193.png": {
+    "new_name": "Oct_25_USA_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "6e30a9c129dfc78635ca9f87871d6ab9.png": {
+    "new_name": "Oct_24_IntlB_Math_M1_Q17_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form B SAT Math Module 1",
+        "question": 17
+      }
+    ]
+  },
+  "6e9b43723089a011bab2115b6c6960db.png": {
+    "new_name": "Nov_24_IntlA_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form A SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "6f0a7d2df0a7517c1f37c0c76be122fd.png": {
+    "new_name": "Mar_25_IntlB_Math_M1_Q3_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form B SAT Math Module 1",
+        "question": 3
+      }
+    ]
+  },
+  "6fcbe0f2243c86002b9ffc1a4dedd24c.png": {
+    "new_name": "Mar_25_IntlC_Math_M1_Q6_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT Math Module 1",
+        "question": 6
+      }
+    ]
+  },
+  "6fdb60096276cd640adecbcd3143a93c.png": {
+    "new_name": "May_24_IntlD_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "6fdb70acf1b6ffa19c18eddd556b420f.png": {
+    "new_name": "Jun_25_IntlA_Math_M2_Q19.png",
+    "usages": [
+      {
+        "test": "June 2025 International Form A SAT Math Module 2",
+        "question": 19
+      }
+    ]
+  },
+  "70813a4e76d134c42a852459bec1e376.png": {
+    "new_name": "Aug_24_IntlD_Eng_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "August 2024 International Form D SAT English Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "70fb9c06218bcbe7732d0ec185b1c3df.png": {
+    "new_name": "Mar_25_USB_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "717be82ee56656202374a958eb9326d1.png": {
+    "new_name": "Mar_25_IntlA_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "71b7f2c0b44735e411cb73aecfb3c8c4.png": {
+    "new_name": "Mar_25_IntlC_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "72532d663cbb24e03293bf530d33cb2a.png": {
+    "new_name": "Mar_25_IntlA_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "72859774947f1602cb1317894bd0a2bc.png": {
+    "new_name": "May_25_IntlA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "73313d9fb7ae1d517b72feaec8b4f6da.png": {
+    "new_name": "Dec_23B_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "December 2023 Form B SAT English Module 1",
+        "question": 10
+      },
+      {
+        "test": "December 2023 Form C SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "736bee38567e38a0ac25cc9c4f4629f8.png": {
+    "new_name": "May_24_IntlD_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "73f1ad9a720d49d7253308e9d6516ce6.png": {
+    "new_name": "Oct_24_IntlA_Math_M1_Q16_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form A SAT Math Module 1",
+        "question": 16
+      }
+    ]
+  },
+  "742ef55b341b20638492e82fe53037a4.png": {
+    "new_name": "Nov_24_IntlD_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form D SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "747cec560f86d18137f8e6ba95d2cccf.png": {
+    "new_name": "Nov_24_IntlA_Math_M1_Q17_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form A SAT Math Module 1",
+        "question": 17
+      }
+    ]
+  },
+  "74f55386817994055acb6162238e7364.png": {
+    "new_name": "Dec_24_IntlC_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "754fbaf277f417c500d12e467b7f8b15.png": {
+    "new_name": "Jun_24_USC_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form C SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "75a062382f87723ef8c5eaa620685e12.png": {
+    "new_name": "May_25_IntlA_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "75a3a3ee121a42dab7491c36ea9dc6a2.png": {
+    "new_name": "May_25_IntlA_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "76d3fe938588fb93f34cf04365fc4697.png": {
+    "new_name": "Dec_24_USA_Math_M2_Q21_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT Math Module 2",
+        "question": 21
+      }
+    ]
+  },
+  "76ef00eda77ec5986d5ebcde3e95700c.png": {
+    "new_name": "May_25_IntlA_Math_M2_Q3_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT Math Module 2",
+        "question": 3
+      }
+    ]
+  },
+  "7745071f95d7a029f239c13c530c41b2.png": {
+    "new_name": "Sep_25_USA_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form A SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "78755437e75492de350a7709f2f595f5.png": {
+    "new_name": "Dec_24_USB_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "78b7e6cae293aa35d811461126377ec9.png": {
+    "new_name": "Nov_24_USA_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "78f0e071ecfacff42b3bd9eb40f52851.png": {
+    "new_name": "Dec_24_USB_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "799ef8625bfb1ea8a0899f3993fab8d4.png": {
+    "new_name": "Dec_24_USA_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "79fa4a2a43b81eb4c55a17df9fa9bb76.png": {
+    "new_name": "May_24_IntlC_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "7a3d899b9d50a91b7f044bc874c5c9f5.png": {
+    "new_name": "Nov_24_USA_Math_M2_Q15_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 2",
+        "question": 15
+      }
+    ]
+  },
+  "7ae3e83f39725860b370b1a3c32e2bdd.png": {
+    "new_name": "Nov_24_IntlB_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form B SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "7c4cd3238134f765ad73afb4c0bb19f7.png": {
+    "new_name": "Nov_25_IntlC_Eng_M2_Q9_2.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form C SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "7d9bc585b945ef06c39657836da44428.png": {
+    "new_name": "May_24_IntlB_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form B SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "7e78351203b8544403fef8a96b57aac2.png": {
+    "new_name": "Oct_25_IntlA_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "7e8ee56b2e2fb197b990411d9b9de202.png": {
+    "new_name": "Jun_25_USA_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "7f16ed30968e56d5eec79da424b66da1.png": {
+    "new_name": "Mar_25_IntlE_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form E SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "7f570fddc47660c8d6d8145f9293b38c.png": {
+    "new_name": "May_25_IntlA_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "7fa02ac3970fc3ffdc98b1c1bab2c61f.png": {
+    "new_name": "Oct_24_IntlC_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "7ff50e9b8dea0d619b1d33558bb0200f.png": {
+    "new_name": "Nov_24_IntlD_Math_M1_Q20_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form D SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "8060e95ec38f20c2c26dc4d75192b5c5.png": {
+    "new_name": "May_24_IntlD_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "80ed5cb81177e9d386132c66d5db2455.png": {
+    "new_name": "Sep_25_IntlA_Math_M1_Q20_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "8161376605ccb1411e7fefe1fbcefa41.png": {
+    "new_name": "Mar_25_IntlD_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form D SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "8203b88b63f3be43d9624da1d46d137f.png": {
+    "new_name": "Aug_25_USA_Eng_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "August 2025 US Form A SAT English Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "827bd27c041e80693f96e4f08b045971.svg": {
+    "new_name": "Aug_25_IntlB_Math_M1_Q8_1.svg",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "82c91113a576a0b509f9fe4553a3cdb7.png": {
+    "new_name": "Nov_24_USA_Math_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "8341e8600b38a48093d70d0276faa7b1.png": {
+    "new_name": "Aug_25_IntlA_Math_M1_Q8_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "83b577cd77108ee94f58b224b018f54c.png": {
+    "new_name": "May_24_IntlA_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "83db5cdb4aa059080155a20d235122a3.png": {
+    "new_name": "Mar_25_USB_Math_M2_Q3_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 2",
+        "question": 3
+      }
+    ]
+  },
+  "842fab7cd2c141096f14a8572f138bea.png": {
+    "new_name": "May_25_USA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "May 2025 US Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "84a2fabc68ae6adc46f207ed4fe3b8de.png": {
+    "new_name": "Mar_24_IntlB_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form B SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "8584d2ba2d603db0ac6ebce3d7d83156.png": {
+    "new_name": "May_24_USB_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "85ee142de88da95041545dcde9be4397.png": {
+    "new_name": "Dec_23A_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "December 2023 Form A SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "8699d3c47654c600cfe301bc66d51cea.png": {
+    "new_name": "May_24_IntlE_Math_M1_Q7_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 1",
+        "question": 7
+      }
+    ]
+  },
+  "86bd3c5403d5d4faa164bdaf80200879.png": {
+    "new_name": "Nov_25_IntlA_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "86dd0b40bd60a5159489c1f0bf8dcc66.png": {
+    "new_name": "Dec_23A_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2023 Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "8755b0370f693a094ad22e1ee93fcdd9.png": {
+    "new_name": "Jun_24_USC_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form C SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "877851c4f5945dd6acbb9d9f447fd9d1.png": {
+    "new_name": "May_25_IntlA_Math_M1_Q16_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT Math Module 1",
+        "question": 16
+      }
+    ]
+  },
+  "88258dfc1856a0cb4c2a31293c4c7e2d.png": {
+    "new_name": "Dec_24_USA_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "883aa646f688298919d0e3f0137a71ba.png": {
+    "new_name": "Mar_25_IntlE_Math_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form E SAT Math Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "8885d90c9a00b22038d8ecee90047907.png": {
+    "new_name": "Sep_25_IntlA_Math_M2_Q5_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT Math Module 2",
+        "question": 5
+      }
+    ]
+  },
+  "88b937b5c21619ed7a98a71263d99a8f.png": {
+    "new_name": "May_23A_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "May 2023 Form A SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "89693a7001647566b49fb48f480b567e.png": {
+    "new_name": "May_24_IntlC_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "896a98250495a3eaadb6fc0a0ab08fb6.png": {
+    "new_name": "Mar_25_IntlC_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "89a9f410f96944d19dd1d4d40ce8d87f.png": {
+    "new_name": "Dec_24_USB_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "89fdce8ec77ffeb49f9360ebfef3f6ad.png": {
+    "new_name": "Dec_24_IntlA_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "8a5fbff8fa40c85b4905d335cd4cc405.png": {
+    "new_name": "Dec_24_IntlA_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "8a9f5601212f795ee26483f6dfa8f894.png": {
+    "new_name": "Nov_23A_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "November 2023 Form A SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "8acb2325cac5c7befe5734a315d7969a.png": {
+    "new_name": "Dec_24_IntlB_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "8b06abeec04dc854a753536587ebc3b0.png": {
+    "new_name": "Aug_25_IntlA_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "8b6cebc66790d765bedb5be8653b38dc.png": {
+    "new_name": "Nov_25_IntlB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "8c090919d1b79af935500019e0c86c5e.png": {
+    "new_name": "Oct_24_IntlA_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form A SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "8c7a0c2feaebfa129e35d01f8768cb53.png": {
+    "new_name": "Mar_25_USB_Math_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "8cb26949ea1d9297025129611e5b5b00.png": {
+    "new_name": "Aug_24_IntlB_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "August 2024 International Form B SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "8cd7cabf96378a9234229aec444ad440.png": {
+    "new_name": "Oct_25_IntlA_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "8ddf9c8ae6cb13027e87776d5b6be0d1.png": {
+    "new_name": "Mar_24_IntlC_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form C SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "8e2b2f033a72fcdd7f65038d41dbc8e7.png": {
+    "new_name": "Oct_24_USB_Math_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT Math Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "8f4a4c1ee3a13562557d2e3c4004a8af.png": {
+    "new_name": "Nov_24_IntlA_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form A SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "8f71c4982a4558aa69d0d0dda960ddfc.png": {
+    "new_name": "Jun_24_IntlA_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form A SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "8f80f11a14c7dc75403cce269b2d7aaf.png": {
+    "new_name": "Aug_25_IntlA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "8f907ae24fd8e34a94aaab658456a0d5.png": {
+    "new_name": "Dec_24_IntlA_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "8f92b1cc8a84fa5943a2a43e4c0a8f49.png": {
+    "new_name": "Sep_25_IntlA_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "8fcf3b98bd38862ddac1ab702077ddcf.png": {
+    "new_name": "Dec_24_IntlB_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "902b22f096272eb0f828056f74015994.png": {
+    "new_name": "Jun_24_IntlA_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form A SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "909ff4f7cd1b7da0095566d57f77af11.svg": {
+    "new_name": "Jun_25_IntlB_Eng_M1_Q13_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form B SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "90f2d482d3c95a47de6270ef7e9c14f4.png": {
+    "new_name": "Dec_24_USB_Math_M2_Q3_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT Math Module 2",
+        "question": 3
+      }
+    ]
+  },
+  "912bd9f624d45b2c3c3edb199c3bd59b.png": {
+    "new_name": "Nov_24_USB_Math_M2_Q3_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form B SAT Math Module 2",
+        "question": 3
+      }
+    ]
+  },
+  "918a80bc21f003d637a8d3ea9da9d3d8.png": {
+    "new_name": "Nov_24_USA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "91a11e01a9753f42d012bc83504ce13f.png": {
+    "new_name": "Nov_24_IntlA_Math_M1_Q20_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form A SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "91bbba8f957ce082593ce88579be88ba.png": {
+    "new_name": "Aug_25_IntlA_Math_M1_Q19_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT Math Module 1",
+        "question": 19
+      }
+    ]
+  },
+  "91d38de7b41feceeec2954edb2eb6cbf.png": {
+    "new_name": "Nov_24_IntlD_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form D SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "91d8fa8adb54c9698182dc614292c11f.png": {
+    "new_name": "Mar_24_USA_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2024 US Form A SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "92e51c91150bca31b9a5f701c63a23d1.png": {
+    "new_name": "May_24_IntlC_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "92f32e33baa9179ba5bda72340f9a972.png": {
+    "new_name": "May_24_IntlC_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "931a09f48c0a6a63c9bb7d936bb388a1.png": {
+    "new_name": "Jun_25_USA_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "93ff60eb92db0a9f422e614ec822c60c.png": {
+    "new_name": "Oct_24_IntlB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "9498ce5bbe2cd0e9327f3423caec2ced.png": {
+    "new_name": "Mar_25_IntlD_Math_M1_Q20_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form D SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "94b2ddcf25c59e4804f2d22c38eab0f9.png": {
+    "new_name": "Oct_24_IntlA_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form A SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "950b9cdbc426c4b20863c71498ca9229.png": {
+    "new_name": "Nov_24_USA_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "95cfbdb5283a4cc20a5d54d497214160.png": {
+    "new_name": "Mar_25_USA_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form A SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "9612d4a7b7408ebf9fb813813573e262.png": {
+    "new_name": "Oct_25_USA_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "96d12101b58c8c1a7f793f7ee53ca3ad.png": {
+    "new_name": "Oct_25_IntlA_Eng_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT English Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "974c4de52516855c7f5a44243c51489a.png": {
+    "new_name": "Dec_24_USC_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "97ab714787e22a0b5789b351ab388539.png": {
+    "new_name": "May_24_USA_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "97ed3d173711ee0920ac7ad6cd8ba206.png": {
+    "new_name": "Nov_25_IntlA_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form A SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "98110f3ca7d5311f0abdf73e9dd8460a.jpg": {
+    "new_name": "Dec_24_IntlB_Eng_M1_Q10_1.jpg",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "9853d1bc1b0dcdca9afb1b7347543f3b.png": {
+    "new_name": "Nov_24_IntlC_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "98c1ad8db25e583db766bb5ddae9512f.png": {
+    "new_name": "Sep_25_USB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "98ca387769f9ca456728be306d0fcafe.png": {
+    "new_name": "May_24_IntlD_Math_M1_Q8_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "98d71e4b315778c01c5178296f5cebf1.png": {
+    "new_name": "Nov_24_IntlB_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form B SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "98f2757f4d220c4a1d5632d75b28ad9d.png": {
+    "new_name": "Jun_25_USA_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "9935aa8beef40465d40333029e4ce30a.png": {
+    "new_name": "Nov_24_IntlA_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form A SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "9935b1d743ff648adb14d2f5741bfa80.png": {
+    "new_name": "Nov_25_IntlA_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form A SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "995dcec19a75c0a63d9f13d70bd3e901.png": {
+    "new_name": "Dec_24_IntlC_Math_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT Math Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "998f1ee993cac22116747f9aa415d79d.png": {
+    "new_name": "Nov_24_IntlD_Math_M1_Q17_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form D SAT Math Module 1",
+        "question": 17
+      }
+    ]
+  },
+  "9a5f748b9f4897826862ab824a37a5a6.png": {
+    "new_name": "May_24_IntlA_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "9afba5d132302fec9cd032dfc4b0bf26.png": {
+    "new_name": "Jun_24_USB_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "9b1811b9a40177bb3ca8a3f5c9e79879.png": {
+    "new_name": "Jun_24_IntlA_Math_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form A SAT Math Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "9bd93d77fbccdca6442f5a318e2c9842.png": {
+    "new_name": "Oct_25_USA_Math_M1_Q6_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT Math Module 1",
+        "question": 6
+      }
+    ]
+  },
+  "9c09644ca64cd2f8a482853ed1a827c5.png": {
+    "new_name": "Nov_24_IntlD_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form D SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "9c23c544103d9f1f0cbbebbac50226e8.png": {
+    "new_name": "May_25_IntlB_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "9c3fbaa3fd382980c2b0af2ec6908bef.png": {
+    "new_name": "Oct_24_USC_Math_M1_Q19_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT Math Module 1",
+        "question": 19
+      }
+    ]
+  },
+  "9dc115ad589f96c14ccb10fa9386936a.png": {
+    "new_name": "Nov_25_IntlC_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form C SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "9e22ee3ccaa45eeb73b55793c099aa97.png": {
+    "new_name": "Dec_24_IntlC_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "9e3a583875f7656ba7723b91f13b02a2.png": {
+    "new_name": "Jun_24_USB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "9e863d07b3f03ab1855bdec633496b6a.png": {
+    "new_name": "Oct_25_USA_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "9ecb0d53b7d94d2bf77dbe0af777a53d.png": {
+    "new_name": "Mar_25_IntlE_Math_M1_Q3_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form E SAT Math Module 1",
+        "question": 3
+      }
+    ]
+  },
+  "9eeab3c321e990d0f4d001668a1deba6.png": {
+    "new_name": "Aug_23A_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "August 2023 Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "9f21f3b7161235ce1ede25aeaf8da30f.png": {
+    "new_name": "Mar_25_IntlE_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form E SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "9f8b5a9743d722d23036782722497161.png": {
+    "new_name": "Jun_24_USB_Math_M1_Q16_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 1",
+        "question": 16
+      }
+    ]
+  },
+  "9fbe88f16be3847032409ff427387680.png": {
+    "new_name": "Nov_24_IntlC_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "9fc632869e49df819d50da4af41a99e6.png": {
+    "new_name": "Nov_24_IntlC_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "a0693c6f7723987d93b82faf1f0b4076.png": {
+    "new_name": "Oct_24_USA_Math_M1_Q19_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 1",
+        "question": 19
+      }
+    ]
+  },
+  "a08251fa9d3d51461388d6b4bf25ef99.svg": {
+    "new_name": "Aug_25_IntlB_Math_M1_Q20_1.svg",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "a0a816bea3c3a6e5dcec7500837fc701.png": {
+    "new_name": "Mar_24_USA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "March 2024 US Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "a0ee44c47e06cf6a6b626bc99600fc04.png": {
+    "new_name": "Jun_25_USA_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "a1199676bc4d62c70e96985ca26c8c70.png": {
+    "new_name": "Mar_25_IntlA_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "a1662d2e6bc70a1000d12c776af39346.png": {
+    "new_name": "Jun_23A_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "June 2023 Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "a1f2d5442bd713fb8fb1f0d702af0986.png": {
+    "new_name": "Mar_25_IntlD_Math_M2_Q15_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form D SAT Math Module 2",
+        "question": 15
+      }
+    ]
+  },
+  "a362a7266367dbee96ee40f0c8a976c8.png": {
+    "new_name": "May_24_USB_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "a382646d44ac08e008242c20b140f6ce.png": {
+    "new_name": "Oct_25_IntlB_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "a39aca483ba713c74b566f8a67362ed6.png": {
+    "new_name": "Mar_25_IntlD_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form D SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "a3fe634e9b43fee812f807a8f67c3a00.svg": {
+    "new_name": "Jun_25_IntlB_Math_M2_Q13_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form B SAT Math Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "a4141ffd3667b82dc986137121e9bae6.png": {
+    "new_name": "Oct_24_USB_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "a42e706fb6d19b840dee3b6e534efb83.png": {
+    "new_name": "May_25_IntlA_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "a43faef18fe9fd2fd4572c4f27fc61c2.png": {
+    "new_name": "May_24_USA_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "a45ab52f58b94942a529311e9ea7d5fd.png": {
+    "new_name": "Mar_25_IntlD_Math_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form D SAT Math Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "a47466bbe2c53667de4e38e00b35c250.png": {
+    "new_name": "Dec_24_IntlA_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "a491c99d091496d272b8f0cee0ced4b0.png": {
+    "new_name": "Mar_25_IntlE_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form E SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "a53607770dd4556a53832498d582be86.png": {
+    "new_name": "Mar_25_IntlC_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "a563e7e0c083c0d8a677a2f7f7cd33ae.png": {
+    "new_name": "Aug_25_IntlB_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "a5bed0408545942dbc77b0d2b6c022db.jpg": {
+    "new_name": "Jun_24_IntlA_Eng_M1_Q12_1.jpg",
+    "usages": [
+      {
+        "test": "June 2024 International Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "a6436ef8a2b42ce203a3b16edd1c1dfb.png": {
+    "new_name": "Sep_25_IntlA_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "a6771a6b1e3fdb4f280da868e5f43281.png": {
+    "new_name": "Oct_24_IntlC_Math_M1_Q17_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT Math Module 1",
+        "question": 17
+      }
+    ]
+  },
+  "a6a9b821d02978d3ad37b6ce9528dd2f.png": {
+    "new_name": "May_24_USA_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "a709b29c0cc3b2970a10d310f9d30083.png": {
+    "new_name": "May_24_IntlD_Math_M2_Q5_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 2",
+        "question": 5
+      }
+    ]
+  },
+  "a7224aa5c6c071beb46dba4e5c242e3b.png": {
+    "new_name": "Nov_24_IntlD_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form D SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "a776cf7ebce34d7b958ed625ea0c6700.png": {
+    "new_name": "Nov_24_USA_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "a877421890842f2d4fd6e254c0228b33.png": {
+    "new_name": "Dec_24_IntlA_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "a8b7b67c266ab656e9eae8e8453f6f45.png": {
+    "new_name": "Mar_25_IntlA_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "a8ce8e11b910967b32f71788098c519d.png": {
+    "new_name": "Mar_23A_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2023 Form A SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "a90ffc96bbf82cd113f4716ac4949abc.png": {
+    "new_name": "May_24_USB_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "a96bdc96a6ec3840cf429935a025af65.png": {
+    "new_name": "May_24_USA_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "a9ad179f34fa430ca11e103c48521681.png": {
+    "new_name": "Oct_25_IntlB_Math_M2_Q18_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 18
+      },
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 18
+      }
+    ]
+  },
+  "aa0c10310b076ae78bb5f69d8a39dc2d.png": {
+    "new_name": "Dec_24_USC_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "aa12727a53649ba04de0df7b919c0688.png": {
+    "new_name": "Mar_25_IntlB_Eng_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form B SAT English Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "aa3da1340dbfd96bd8ccade98b1eaf78.png": {
+    "new_name": "Nov_24_IntlB_Math_M2_Q21_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form B SAT Math Module 2",
+        "question": 21
+      }
+    ]
+  },
+  "aa4809fe4a0845cdccd64a5cec5a7646.png": {
+    "new_name": "Oct_24_USC_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form C SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "ab387acd430001fcd59102f14b95ec51.png": {
+    "new_name": "Oct_25_IntlA_Math_M1_Q3_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 1",
+        "question": 3
+      }
+    ]
+  },
+  "ab77930f5fc5ce363eb6ffa1bfd9cbdd.png": {
+    "new_name": "Mar_25_IntlB_Math_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form B SAT Math Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "abce2e44c3efa9dba3ec0bc924fe38df.png": {
+    "new_name": "May_25_IntlB_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "ac0ba0b7b6e4eafd0786352fee3880aa.png": {
+    "new_name": "Jun_24_USC_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form C SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "aca25f1427e8665d8f4a92995dd3a309.png": {
+    "new_name": "May_24_IntlA_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "aceff589e5a79efecee355ed2497f133.png": {
+    "new_name": "May_24_IntlE_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "ad33fd347c6c38acd459163af9f3827d.png": {
+    "new_name": "Oct_24_USB_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "ad7dbf5b31487169dd9b692b9b6d8b73.png": {
+    "new_name": "Jun_24_USB_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "adf643c0b94ae99b9833237bb682cc37.png": {
+    "new_name": "Mar_24_IntlC_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form C SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "adfcce3ff1f1c0d9c0d7cbacdae85f5f.png": {
+    "new_name": "Jun_25_IntlA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "June 2025 International Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "ae8b8ba7943e54415bf42ee691f951c6.png": {
+    "new_name": "Jun_24_USA_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "aebe9504ddbf52c0fc44381b8b1a2f25.png": {
+    "new_name": "May_24_IntlA_Math_M1_Q8_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "aecd17b0e1fdbf42e4b4940c6cde14da.png": {
+    "new_name": "May_25_USA_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "May 2025 US Form A SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "af5e220d87e11b0005fceecb79ea59a9.svg": {
+    "new_name": "Jun_25_USA_Math_M1_Q22_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "af8c0871bf90e47890b36f8f70da6cb8.png": {
+    "new_name": "Aug_23A_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2023 Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "afb8d7c329a604c6500fbf26b6268009.png": {
+    "new_name": "Aug_25_IntlA_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT English Module 2",
+        "question": 10
+      },
+      {
+        "test": "August 2025 International Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "aff4c28e06038f48812a80398bc5ab9f.png": {
+    "new_name": "May_24_USA_Math_M1_Q17_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 1",
+        "question": 17
+      }
+    ]
+  },
+  "affa0cae7a9c5cae637ac4bb3da8bfa3.png": {
+    "new_name": "Mar_24_IntlA_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "b00ba7fc42a0c2927fdbb00f8b8d2355.png": {
+    "new_name": "Mar_25_USA_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form A SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "b090cfedff864b109c806826f26ec422.png": {
+    "new_name": "May_24_USA_Math_M1_Q4_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT Math Module 1",
+        "question": 4
+      }
+    ]
+  },
+  "b0d26f14ec83c032cf00ff1cf0d607c3.png": {
+    "new_name": "Jun_24_IntlA_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form A SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "b11254d0bc7295181b47c159302123bf.png": {
+    "new_name": "Mar_24_USA_Eng_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "March 2024 US Form A SAT English Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "b1ad6ef564cb4968b5f7d454aec78974.png": {
+    "new_name": "May_24_IntlA_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "b1ff08798c06be27383a3e386702d426.png": {
+    "new_name": "Dec_24_IntlB_Math_M2_Q22_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 2",
+        "question": 22
+      }
+    ]
+  },
+  "b36fca87af3551b7dea868c255d6ebce.png": {
+    "new_name": "Oct_25_IntlB_Math_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "b37b00f64d52082bc4e9e8e70122f72e.png": {
+    "new_name": "Oct_25_IntlA_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "b3d1b5442c43dd7dac92626a13b99b2f.png": {
+    "new_name": "Aug_24_IntlB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2024 International Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "b3e6af8a1c56795b05f11244ca3b24c8.png": {
+    "new_name": "Nov_25_IntlB_Eng_M2_Q14_1.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form B SAT English Module 2",
+        "question": 14
+      }
+    ]
+  },
+  "b4770961cc96ae880ac6cbfa08ac4530.png": {
+    "new_name": "May_24_IntlD_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "b484c63a0397d24641742484f28beba3.png": {
+    "new_name": "Nov_24_IntlC_Eng_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT English Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "b48c3be9b7fa2b768d4cf6a48540cb29.png": {
+    "new_name": "Dec_24_IntlA_Math_M1_Q6_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 1",
+        "question": 6
+      }
+    ]
+  },
+  "b5c891b8d1a05ff5af93a7f23918f029.png": {
+    "new_name": "Dec_24_IntlB_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "b5f4336b30c201a37adf554d64b123c9.png": {
+    "new_name": "Dec_24_USC_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "b6f61fa0bcb8351a4690755b9cd2ea27.png": {
+    "new_name": "Aug_25_IntlB_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "b77c5f64db99b440886a6c389c381725.png": {
+    "new_name": "Nov_25_IntlB_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form B SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "b804c5343cbc96ab1412ce637beddeac.png": {
+    "new_name": "Jun_25_IntlB_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "June 2025 International Form B SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "b84dcdbce8fc86bbf97e051a0f040704.png": {
+    "new_name": "Sep_25_USB_Eng_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form B SAT English Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "b8a66730d85d33c8caf83d3dd6b8804f.png": {
+    "new_name": "Nov_24_IntlA_Eng_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form A SAT English Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "b8fda8e2f61721c342cd96c7cb115ef3.png": {
+    "new_name": "Dec_23B_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "December 2023 Form B SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "b98488ff2ab8dc669b947a4c51757455.png": {
+    "new_name": "May_24_USA_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "b9b5083726947074ad22b1de99334f45.png": {
+    "new_name": "May_24_IntlD_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "b9f4671dafc19732a2d2f2146efaae1f.png": {
+    "new_name": "Dec_24_USA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "ba28a428128d3a133c6d5661784454d3.png": {
+    "new_name": "Aug_25_IntlA_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT English Module 2",
+        "question": 12
+      },
+      {
+        "test": "August 2025 International Form A SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "ba53c204d65404cdb26cca236f4c7d7c.png": {
+    "new_name": "May_24_IntlC_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "bb42d414389f59de60e9cc7232a33535.png": {
+    "new_name": "Nov_24_IntlA_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form A SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "bbff717ac55de1a250474fd675f3d473.png": {
+    "new_name": "Oct_25_USA_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "bc71672be2f2506e60d2a456029c0c6a.png": {
+    "new_name": "Mar_25_IntlE_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form E SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "bcc10841ce942abcac741ed686af2cae.png": {
+    "new_name": "Nov_25_IntlC_Eng_M2_Q10_2.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form C SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "bcc77b0c350b8ee74e4c4ac39434847d.png": {
+    "new_name": "May_24_IntlE_Math_M1_Q2_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 1",
+        "question": 2
+      }
+    ]
+  },
+  "bcf74b60bfe83c1686b7d3b29a7d53ad.png": {
+    "new_name": "Oct_25_IntlB_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 9
+      },
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "bd10c1be59dc6f2816be263765d95c96.png": {
+    "new_name": "Mar_25_USB_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "bd3281c65281d2e5bfb82b42947e50cb.png": {
+    "new_name": "May_24_IntlE_Math_M1_Q6_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 1",
+        "question": 6
+      }
+    ]
+  },
+  "bd3d6d6bc0aa164b41999113681d8bc4.png": {
+    "new_name": "Dec_24_IntlC_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "bda0afc8eeb8fe19a2cb13ceb45005ce.png": {
+    "new_name": "Nov_24_IntlC_Math_M1_Q17_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT Math Module 1",
+        "question": 17
+      }
+    ]
+  },
+  "bec5ff551b6ca64f473174af94c9752e.png": {
+    "new_name": "Jun_25_IntlA_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "June 2025 International Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "bf00f842efee63507134ba69f78b2cc3.png": {
+    "new_name": "Oct_24_USA_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "bf1a4baf3efac65c2a604a8f7b1f22d9.png": {
+    "new_name": "Dec_24_IntlC_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "bf54b8b637d029fdd2a9fd4af665f332.svg": {
+    "new_name": "Jun_25_IntlB_Math_M2_Q7_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form B SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "bf6c1be5de1048ed3923bdbfa94b1c0c.png": {
+    "new_name": "May_24_USB_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "bfd4f706ce5f1a3a1664610d3321cc4a.png": {
+    "new_name": "May_24_IntlE_Math_M1_Q17_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 1",
+        "question": 17
+      }
+    ]
+  },
+  "bffa1c7f5789a13c88dd53811e591e2b.png": {
+    "new_name": "Sep_25_IntlB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "c0603ecee5afac2e8d17e1c831a7b846.png": {
+    "new_name": "Oct_24_USB_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "c0fa78bb34a011d6dd6e0a1e74af59b5.png": {
+    "new_name": "Mar_24_IntlB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "c10a8866017e7d92adcb1fb005a38b33.png": {
+    "new_name": "May_24_USA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "c1a4a1aae641ef0fc16e6ccdb9f0b30e.png": {
+    "new_name": "Oct_25_IntlA_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "c264c040e9ab7ccc88c063c0c0ba7103.png": {
+    "new_name": "Dec_23C_Eng_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "December 2023 Form C SAT English Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "c391efd6645f6a47cb73850d8ab475bd.png": {
+    "new_name": "Mar_25_IntlE_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form E SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "c3d75a83ce5e2d6c3d179f1c203bdbda.png": {
+    "new_name": "Jun_24_USB_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "c470edb0ccc0a7bcb80f8ad316b111b7.png": {
+    "new_name": "Jun_24_USA_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "c49555c35182ded53b6404a2affd735a.png": {
+    "new_name": "May_24_USB_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "c4b0bb7b58e0cd0002d25204debccc14.png": {
+    "new_name": "Dec_24_IntlA_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "c4b606a00b28cbdce5881a28103c4a6b.png": {
+    "new_name": "May_24_IntlA_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form A SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "c4f9aeaeaca4a71d2bc7a80a8762c37e.png": {
+    "new_name": "Oct_25_IntlB_Eng_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT English Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "c56c78f20ed5dc80bf9c554b1011537b.png": {
+    "new_name": "Nov_25_IntlC_Eng_M2_Q9_3.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form C SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "c5bed7ed8e508068743ee4f56477a8b0.png": {
+    "new_name": "Nov_25_IntlC_Eng_M2_Q10_3.png",
+    "usages": [
+      {
+        "test": "November 2025 International Form C SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "c5c8d9c9682ef44a4903adc8346782e3.png": {
+    "new_name": "Mar_25_USB_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "c609b7eefa575efe849b39d6c791f8b6.png": {
+    "new_name": "Jun_24_IntlA_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "June 2024 International Form A SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "c60bb341165e8f1c3671116e41fe1fa8.png": {
+    "new_name": "Mar_25_IntlC_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form C SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "c6cd03a3019dd1f4e447f620a98a0cc2.png": {
+    "new_name": "Mar_25_IntlB_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form B SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "c6d2098fd4afba4b2680e382e2a1b5b1.png": {
+    "new_name": "Mar_24_IntlA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "c795f71c08013ed20c802c98924d6181.png": {
+    "new_name": "Oct_24_IntlA_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form A SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "c7de84e5de8b11ee4756fd707f5d28a1.png": {
+    "new_name": "Sep_25_USB_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form B SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "c89925d1cf944266a4e052ed431fe09f.png": {
+    "new_name": "Dec_24_IntlA_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "c933e3613474c60e94917ac7001fd57a.png": {
+    "new_name": "Oct_25_USA_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "ca2052c2f204b322e0e3cd1d091c41d9.png": {
+    "new_name": "May_25_IntlB_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "ca3d27564b2435637b34807e9544be9b.png": {
+    "new_name": "Oct_25_IntlB_Math_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 13
+      },
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "cae9cc95b61a92910d9c39f3ede4149f.png": {
+    "new_name": "May_23A_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2023 Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "cc087fbbfd4200faf5f9e5dfd812e79a.png": {
+    "new_name": "Mar_23A_Eng_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "March 2023 Form A SAT English Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "cc89cc06baf50140f11a7fb54006ca85.svg": {
+    "new_name": "Jun_25_IntlA_Math_M1_Q18_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form A SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "cd33a443f73970c480fad1f96f4055bb.png": {
+    "new_name": "Dec_24_IntlA_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "cd5bd8b19c8d7a0fc792dbf32664ba33.png": {
+    "new_name": "Aug_25_IntlB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "cd5fd91c314936a93e6ef7997ef3ed6f.png": {
+    "new_name": "Jun_24_USA_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "cd7882bfee058ba709535649f1d838f2.png": {
+    "new_name": "Nov_24_IntlC_Math_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT Math Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "cdc5bf0ee95fb5beded5a7f668d53b0c.png": {
+    "new_name": "Mar_25_USB_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form B SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "ce4bcf1d69d65df49ba9ef89b7e5defd.png": {
+    "new_name": "Nov_24_USA_Math_M2_Q18_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 2",
+        "question": 18
+      }
+    ]
+  },
+  "ce65852c0c3e6ef0b84826cae254c709.png": {
+    "new_name": "Oct_25_USA_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "ced5ca4283329304b1c0058af3e0cf4c.png": {
+    "new_name": "May_25_IntlB_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "cf2ec4e76e07ff0cc39d341b4000bb84.png": {
+    "new_name": "May_25_IntlA_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "cfb111f96266250e7cd9bdc8cc4b38df.png": {
+    "new_name": "Aug_25_IntlB_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "d0aefcbb39671fd15ea2a27fab55af25.png": {
+    "new_name": "Oct_24_IntlC_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "d11acef36cf24e8f256454a6db825680.png": {
+    "new_name": "May_24_IntlC_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "d152f3143e4dfeda3f3c8bb1db45571c.png": {
+    "new_name": "Oct_25_USA_Math_M2_Q3_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT Math Module 2",
+        "question": 3
+      }
+    ]
+  },
+  "d1970bb903a520eb110f3d783cebf786.png": {
+    "new_name": "Dec_24_USA_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "d1e13704c06784f4a63d0cbcc5ff61c3.png": {
+    "new_name": "Nov_24_USA_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "d25cf0e2ff36d0eb094816a1acc5f903.png": {
+    "new_name": "Oct_25_IntlB_Math_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "d26794a16cdd2e6406c2dab12167db09.png": {
+    "new_name": "Aug_25_IntlB_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "d2d7175afaf64cc147bff38f8f8f7860.png": {
+    "new_name": "Sep_25_IntlA_Math_M2_Q19_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT Math Module 2",
+        "question": 19
+      }
+    ]
+  },
+  "d3eb8135782a69903c16ab868b825851.png": {
+    "new_name": "May_25_USA_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2025 US Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "d4555c1937e01b18f993971de94cb3a6.png": {
+    "new_name": "Jun_24_USA_Math_M1_Q19_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT Math Module 1",
+        "question": 19
+      }
+    ]
+  },
+  "d49f7e92b6d0ba13ff51ee4201c80fe7.png": {
+    "new_name": "Oct_25_IntlA_Math_M1_Q4_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 1",
+        "question": 4
+      }
+    ]
+  },
+  "d4e142621436e9da3da15497c050f1b0.svg": {
+    "new_name": "Jun_25_IntlA_Math_M1_Q7_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form A SAT Math Module 1",
+        "question": 7
+      }
+    ]
+  },
+  "d4e98cde2bbae329bcab8e3628adfc8f.png": {
+    "new_name": "Dec_24_IntlC_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "d4ee3ca7ab3e97bbd73f71e96404de87.png": {
+    "new_name": "Dec_24_IntlB_Math_M1_Q7_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 1",
+        "question": 7
+      }
+    ]
+  },
+  "d5b68e7ac8a0c1372a56cde045b587bd.png": {
+    "new_name": "Nov_24_IntlA_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form A SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "d5e6dc62277e9567ea4ec0d2ea63d71f.png": {
+    "new_name": "May_24_IntlC_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "d65c443fc59b5318729fc5ce960c5c64.png": {
+    "new_name": "May_24_USB_Math_M2_Q6_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 2",
+        "question": 6
+      }
+    ]
+  },
+  "d6d10f3fdc99cf88b5138f33ad81ce30.png": {
+    "new_name": "Oct_24_USA_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "d75d576f13174433e0dba5df22257cef.png": {
+    "new_name": "Oct_24_IntlA_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form A SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "d8f69e8fcec2311a4492c8a04e45b6df.png": {
+    "new_name": "Dec_24_USB_Math_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "da9313d2ea86b561955f4ad80de71f9e.png": {
+    "new_name": "Dec_24_USC_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "dbcfc91cbfbf7aba3534dddf11ba8ef6.png": {
+    "new_name": "Dec_24_IntlC_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form C SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "dbf94569cf4db81dfb3936a37b5c908c.png": {
+    "new_name": "Oct_24_IntlA_Math_M2_Q7_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form A SAT Math Module 2",
+        "question": 7
+      }
+    ]
+  },
+  "dbfa5c29983d4668542ee0b2193d0ef5.png": {
+    "new_name": "Sep_25_USA_Eng_M2_Q8_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form A SAT English Module 2",
+        "question": 8
+      }
+    ]
+  },
+  "dc0b51ed83e57a251f3f30bcc6590c7c.png": {
+    "new_name": "Jun_24_USA_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "dd50012d808b3b62d7fd3f32c0fdbbc4.png": {
+    "new_name": "Nov_24_IntlC_Math_M1_Q20_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "dddecbb643fcb07c7549b0f67124846c.png": {
+    "new_name": "Aug_24_IntlD_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "August 2024 International Form D SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "de436d7b84a66d8b77494279dc56c101.png": {
+    "new_name": "Nov_24_IntlB_Math_M1_Q8_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form B SAT Math Module 1",
+        "question": 8
+      }
+    ]
+  },
+  "de46a6647169e020502e9075a1d07c79.svg": {
+    "new_name": "Mar_25_IntlA_Eng_M1_Q11_1.svg",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "deb8121b9dcba46027abf087b904b787.png": {
+    "new_name": "Nov_24_IntlC_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "df4feed3e0a1353eed2add8476f4056d.png": {
+    "new_name": "May_24_IntlE_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "e025f9bc3af3382246fb82f58ee80894.png": {
+    "new_name": "May_24_IntlB_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form B SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "e03759bcf6890358056c34ac3449253b.png": {
+    "new_name": "May_24_USB_Math_M1_Q7_1.png",
+    "usages": [
+      {
+        "test": "May 2024 US Form B SAT Math Module 1",
+        "question": 7
+      }
+    ]
+  },
+  "e039f9909fa209b1a318b56ee6020d51.png": {
+    "new_name": "Jun_25_IntlA_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "June 2025 International Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "e147279375070e64debeb693bcc6d007.png": {
+    "new_name": "Nov_24_USB_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form B SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "e1d93b8071164e9dc577db7f72e9eecd.png": {
+    "new_name": "Mar_24_IntlB_Eng_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form B SAT English Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "e2d81855c18ea4566a9630e23865c770.png": {
+    "new_name": "Aug_25_IntlB_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "e2eb9faed3572f23d6de77f6f2b84d18.png": {
+    "new_name": "Nov_24_USB_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form B SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "e4264c06c9f2bec0a5f9e39c2c498385.png": {
+    "new_name": "Nov_24_IntlC_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "e50e25bb1559efd4841c6c66a64c74f6.png": {
+    "new_name": "Dec_24_USB_Math_M2_Q2_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT Math Module 2",
+        "question": 2
+      }
+    ]
+  },
+  "e53d3ceaa2bde7ce050bb525d54650aa.png": {
+    "new_name": "Sep_25_IntlA_Math_M1_Q16_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT Math Module 1",
+        "question": 16
+      }
+    ]
+  },
+  "e563aac3ed57804e7842a1000fb84cce.png": {
+    "new_name": "Mar_25_USA_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form A SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "e568548acd393c66937ecf34d5190c82.png": {
+    "new_name": "May_25_IntlA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "e60adeccfb6bbd3187461adba1f64f65.png": {
+    "new_name": "Mar_24_IntlB_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form B SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "e7bdffec7657607dced2c2ef9df174ed.png": {
+    "new_name": "Oct_25_IntlA_Math_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "e8082e3b94eecef14e219556b85ef3de.png": {
+    "new_name": "Aug_25_IntlB_Math_M2_Q20_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 2",
+        "question": 20
+      }
+    ]
+  },
+  "e841ee9d3d43c5d5564c81d5b2c4b09e.png": {
+    "new_name": "Dec_24_USB_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "e8d44b47bec51d98da538dcff129861c.png": {
+    "new_name": "Oct_24_IntlB_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form B SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "e8f2a2d2999ff9185ea8b35b33fb9e95.png": {
+    "new_name": "Jun_24_USC_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form C SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "e9ceb906a9263b038a2fed7ce671a023.png": {
+    "new_name": "Sep_25_IntlA_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "ea24040d2805d3c6b1075432c33d6e37.png": {
+    "new_name": "May_24_IntlD_Math_M1_Q3_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 1",
+        "question": 3
+      }
+    ]
+  },
+  "ea5f5de27d6d8ba328516be9027ae3b7.svg": {
+    "new_name": "Mar_25_IntlA_Math_M1_Q21_1.svg",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "eaa89f165fd2fc44f8ceeb597c79ce48.png": {
+    "new_name": "Jun_25_USA_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "June 2025 US Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "ead3bed7fba27611b2df5c0321b6bfed.png": {
+    "new_name": "Aug_24_IntlD_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "August 2024 International Form D SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "ebb24ca1b52a87104a63152b161a6d8a.png": {
+    "new_name": "Oct_24_IntlC_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "ec2e1b4ec9beb64dffcd63079152b87b.png": {
+    "new_name": "Dec_24_USC_Math_M1_Q7_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form C SAT Math Module 1",
+        "question": 7
+      }
+    ]
+  },
+  "ec916687fd22e7246685fe2bda2bffd0.png": {
+    "new_name": "Aug_25_IntlA_Math_M2_Q20_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form A SAT Math Module 2",
+        "question": 20
+      }
+    ]
+  },
+  "eca44973860b798ba357def88786a09f.png": {
+    "new_name": "May_24_IntlB_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form B SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "ecd43ea7c977f5cabebd7c9bd512b7bc.png": {
+    "new_name": "Nov_24_USA_Eng_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT English Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "ed242c349fdae8a3f27ceb9fe3c00882.png": {
+    "new_name": "May_25_IntlA_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form A SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "ed24fbdefcee62636a6cb5e16dd65f24.png": {
+    "new_name": "May_25_IntlB_Math_M2_Q20_1.png",
+    "usages": [
+      {
+        "test": "May 2025 International Form B SAT Math Module 2",
+        "question": 20
+      }
+    ]
+  },
+  "ed7d663adf2d957fb87a12b5c2bd8053.png": {
+    "new_name": "May_24_IntlC_Math_M1_Q21_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "ee42b6ae6a4733f22db962c18c59c785.svg": {
+    "new_name": "Jun_25_IntlB_Math_M2_Q9_1.svg",
+    "usages": [
+      {
+        "test": "June 2025 International Form B SAT Math Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "ee92c3eb10b1c97505bb3aee052104e7.png": {
+    "new_name": "Dec_24_IntlB_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "eece9acea9bfa8c1e5e96281e54c652f.png": {
+    "new_name": "Oct_25_IntlA_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "ef961eccdb5211d8e32fcb7a884644ef.png": {
+    "new_name": "Oct_25_USA_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "October 2025 US Form A SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "efd966be2bd13f0ed2c6f16f50459702.png": {
+    "new_name": "Oct_24_USB_Math_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT Math Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "f0602a85c842878d14591f30c8b4834a.png": {
+    "new_name": "Sep_25_USA_Math_M1_Q5_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form A SAT Math Module 1",
+        "question": 5
+      }
+    ]
+  },
+  "f125972237705133a535d6a4c5a56d46.png": {
+    "new_name": "Oct_25_IntlB_Math_M2_Q19_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 19
+      },
+      {
+        "test": "October 2025 International Form B SAT Math Module 2",
+        "question": 19
+      }
+    ]
+  },
+  "f180267dd1bcaec128025cc14098ba87.png": {
+    "new_name": "Dec_24_USB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "f1ace943e1a73907c0cb47b2d7a795c4.png": {
+    "new_name": "May_24_IntlC_Math_M2_Q21_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT Math Module 2",
+        "question": 21
+      }
+    ]
+  },
+  "f39a9c4f37a88e4cb2f6b43af2dca3a4.png": {
+    "new_name": "Nov_24_IntlD_Math_M2_Q1_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form D SAT Math Module 2",
+        "question": 1
+      }
+    ]
+  },
+  "f3c2f5b0aaea50eb803ea98e3681607e.png": {
+    "new_name": "Dec_24_IntlB_Eng_M2_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form B SAT English Module 2",
+        "question": 11
+      }
+    ]
+  },
+  "f3fc8911596edd6dfe540a67f097d6a5.png": {
+    "new_name": "May_24_IntlC_Eng_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form C SAT English Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "f4c74c96c54f7154bdeafb1f6f9321df.png": {
+    "new_name": "Oct_24_IntlB_Math_M2_Q16_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form B SAT Math Module 2",
+        "question": 16
+      }
+    ]
+  },
+  "f4e9d2843b475b2e1d009b1db903eade.png": {
+    "new_name": "Aug_25_IntlB_Math_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "August 2025 International Form B SAT Math Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "f528fda056e1c8fa57ee4ab6c04f3c80.png": {
+    "new_name": "Oct_25_IntlA_Math_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "f5ed0f206ebe93e0b7484a3fbf1fe04e.png": {
+    "new_name": "Dec_24_USB_Math_M2_Q15_1.png",
+    "usages": [
+      {
+        "test": "December 2024 US Form B SAT Math Module 2",
+        "question": 15
+      }
+    ]
+  },
+  "f64ecc86d42a2355791c86f15e196422.png": {
+    "new_name": "Jun_24_USB_Math_M2_Q4_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 2",
+        "question": 4
+      }
+    ]
+  },
+  "f69c2f47fb89f51d47e029f508a79a65.png": {
+    "new_name": "Oct_25_IntlA_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "f6cfb60566d756174b41acdfd133a890.png": {
+    "new_name": "Sep_25_IntlA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "f6f7409adb81918497bc7e0f2a81bb86.png": {
+    "new_name": "Mar_25_USA_Math_M2_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2025 US Form A SAT Math Module 2",
+        "question": 12
+      }
+    ]
+  },
+  "f7373724b848adec18ece273635bc694.svg": {
+    "new_name": "Mar_25_IntlB_Math_M1_Q21_1.svg",
+    "usages": [
+      {
+        "test": "March 2025 International Form B SAT Math Module 1",
+        "question": 21
+      }
+    ]
+  },
+  "f74ef049cf947445533d680449c0a020.png": {
+    "new_name": "Oct_25_IntlA_Math_M1_Q15_1.png",
+    "usages": [
+      {
+        "test": "October 2025 International Form A SAT Math Module 1",
+        "question": 15
+      }
+    ]
+  },
+  "f7e8da755f0b3fc35bf34f6999c190a9.png": {
+    "new_name": "Dec_24_IntlA_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "December 2024 International Form A SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "f7edfe93bee37e6001ee1ebd09fb890a.png": {
+    "new_name": "Dec_23A_Eng_M1_Q13_1.png",
+    "usages": [
+      {
+        "test": "December 2023 Form A SAT English Module 1",
+        "question": 13
+      }
+    ]
+  },
+  "f827f43b25d3c86d2780073a2bcfa723.png": {
+    "new_name": "Oct_24_IntlC_Math_M1_Q20_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT Math Module 1",
+        "question": 20
+      }
+    ]
+  },
+  "f828731e3f75749bb84c483d85dbf32a.png": {
+    "new_name": "Jun_24_USB_Math_M1_Q19_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 1",
+        "question": 19
+      }
+    ]
+  },
+  "f8899a7f4a4def5b19c5b8833bdaaf77.png": {
+    "new_name": "Jun_25_IntlB_Eng_M1_Q11_1.png",
+    "usages": [
+      {
+        "test": "June 2025 International Form B SAT English Module 1",
+        "question": 11
+      }
+    ]
+  },
+  "f8a89c1b28db3a10461a7cd734b86d0a.png": {
+    "new_name": "Jun_24_USA_Math_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form A SAT Math Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "f906f4f587d1f4fe45ee101775f47e67.png": {
+    "new_name": "May_24_IntlE_Eng_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT English Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "f91fcfb77c48f42d5c681d35c5fc4314.png": {
+    "new_name": "May_24_IntlE_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "fad91ba9763b37e3c0c5a5e96f5a459e.png": {
+    "new_name": "Jun_23A_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "June 2023 Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "fb8262c111e6d3c08c3e87f0d9f92326.png": {
+    "new_name": "Aug_23A_Eng_M2_Q10_1.png",
+    "usages": [
+      {
+        "test": "August 2023 Form A SAT English Module 2",
+        "question": 10
+      }
+    ]
+  },
+  "fb866e8e69cb09adae381c272127c477.png": {
+    "new_name": "Mar_24_IntlC_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2024 International Form C SAT English Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "fb8a70b0be2cc4306efbd04c9126d409.png": {
+    "new_name": "Oct_24_IntlC_Math_M2_Q18_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form C SAT Math Module 2",
+        "question": 18
+      }
+    ]
+  },
+  "fba944417b9f369e0ec499da5dd18fcb.png": {
+    "new_name": "Oct_24_IntlB_Eng_M1_Q14_1.png",
+    "usages": [
+      {
+        "test": "October 2024 International Form B SAT English Module 1",
+        "question": 14
+      }
+    ]
+  },
+  "fbb2f4600b675ad5850c7f00c7bfdc02.png": {
+    "new_name": "Sep_25_USA_Math_M1_Q10_1.png",
+    "usages": [
+      {
+        "test": "September 2025 US Form A SAT Math Module 1",
+        "question": 10
+      }
+    ]
+  },
+  "fbe4e8f250596499ac017c8b486bf717.png": {
+    "new_name": "May_24_IntlD_Math_M1_Q9_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form D SAT Math Module 1",
+        "question": 9
+      }
+    ]
+  },
+  "fbe9543902581cab9a5ae4a832ed6074.png": {
+    "new_name": "Oct_23A_Eng_M2_Q9_1.png",
+    "usages": [
+      {
+        "test": "October 2023 Form A SAT English Module 2",
+        "question": 9
+      }
+    ]
+  },
+  "fc8258928f470524147a7dc3346f1fde.png": {
+    "new_name": "Oct_24_USB_Math_M1_Q22_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form B SAT Math Module 1",
+        "question": 22
+      }
+    ]
+  },
+  "fc89115d35a71022944b554103f6328a.png": {
+    "new_name": "Nov_24_USA_Math_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 1",
+        "question": 12
+      }
+    ]
+  },
+  "fd36a5a288b89463819084e99f8531ef.png": {
+    "new_name": "Nov_24_USA_Math_M2_Q17_1.png",
+    "usages": [
+      {
+        "test": "November 2024 US Form A SAT Math Module 2",
+        "question": 17
+      }
+    ]
+  },
+  "fe0e1b88dd4f122785075654e21afcec.png": {
+    "new_name": "Sep_25_IntlA_Math_M2_Q22_1.png",
+    "usages": [
+      {
+        "test": "September 2025 International Form A SAT Math Module 2",
+        "question": 22
+      }
+    ]
+  },
+  "fe146207c3ce2cd8c85c4f27776eb4ad.png": {
+    "new_name": "Jun_24_USB_Math_M2_Q5_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 2",
+        "question": 5
+      }
+    ]
+  },
+  "fe9f0ea22eaecc9155f502c328f6bf8e.png": {
+    "new_name": "Jun_24_USB_Math_M2_Q13_1.png",
+    "usages": [
+      {
+        "test": "June 2024 US Form B SAT Math Module 2",
+        "question": 13
+      }
+    ]
+  },
+  "febc622f510535eb63047b47ee7349f1.png": {
+    "new_name": "May_24_IntlE_Math_M1_Q18_1.png",
+    "usages": [
+      {
+        "test": "May 2024 International Form E SAT Math Module 1",
+        "question": 18
+      }
+    ]
+  },
+  "ff1cc05de3e554a71591e9f77c782843.png": {
+    "new_name": "Nov_24_IntlC_Math_M1_Q1_1.png",
+    "usages": [
+      {
+        "test": "November 2024 International Form C SAT Math Module 1",
+        "question": 1
+      }
+    ]
+  },
+  "ff65a319d9fddcdefc2e584421f84b56.png": {
+    "new_name": "Oct_24_USA_Eng_M2_Q14_1.png",
+    "usages": [
+      {
+        "test": "October 2024 US Form A SAT English Module 2",
+        "question": 14
+      }
+    ]
+  },
+  "ff816eeddcb1bcf571ace6bffde38699.png": {
+    "new_name": "Mar_25_IntlA_Eng_M1_Q12_1.png",
+    "usages": [
+      {
+        "test": "March 2025 International Form A SAT English Module 1",
+        "question": 12
+      }
+    ]
+  }
+}

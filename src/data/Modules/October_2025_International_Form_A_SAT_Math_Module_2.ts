@@ -1,0 +1,717 @@
+import { Question } from "../all_questions";
+
+export const questions: Question[] = [
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_1",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "A giant panda is predicted to have a mass between $\\frac{1}{950}$ and $\\frac{1}{850}$ times its mother's mass when it is born. If its mother is predicted to have a mass of 95,950 grams when the giant panda is born, which inequality best represents the prediction of the giant panda's mass p, in grams, when it is born?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$10.1\\le p"
+      },
+      {
+        "id": "B",
+        "text": "$101\\le p"
+      },
+      {
+        "id": "C",
+        "text": "$1,010\\le p"
+      },
+      {
+        "id": "D",
+        "text": "$10,100\\le p"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Inequalities",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_2",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "Which expression is equivalent to $9yz^{3}+6yz+3yz^{3}$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$12yz^{3}+6yz$"
+      },
+      {
+        "id": "B",
+        "text": "$12yz^{6}+6yz$"
+      },
+      {
+        "id": "C",
+        "text": "$18yz^{6}$"
+      },
+      {
+        "id": "D",
+        "text": "$18yz^{7}$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_3",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "A sum of 9,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposits or withdrawals were made after that. The function $f(x)=9,000(1+0.03)^{x}$ gives the value of the CD, in dollars, x years after the investment was initially made, where $x\\le5$. Which of the following is the best interpretation of the statement \u201c $f(2)$ is approximately equal to 9,474.08\u201d in this context?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The value of the CD would be approximately 9,474.08 dollars if invested at 2% interest."
+      },
+      {
+        "id": "B",
+        "text": "9,474.08 days after the investment was made, the value of the CD was approximately 2 times greater than its initial value."
+      },
+      {
+        "id": "C",
+        "text": "years after the investment was made, the value of the CD was approximately 9,474.08 dollars."
+      },
+      {
+        "id": "D",
+        "text": "years after the investment was made, the value of the CD was approximately 9,474.08 dollars greater than its initial value."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear Functions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_4",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "What is an equation of the graph shown?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$49x-35y=-126$"
+      },
+      {
+        "id": "B",
+        "text": "$35x-49y=-126$"
+      },
+      {
+        "id": "C",
+        "text": "$7x-5y=-126$"
+      },
+      {
+        "id": "D",
+        "text": "$5x-7y=-126$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Oct_25_IntlA_Math_M2_Q4_1.png"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_5",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "$5y=6x+17$\n$-5y=7x-23$\nThe solution to the given system of equations is $(x,y)$. What is the value of $39x$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-18$"
+      },
+      {
+        "id": "B",
+        "text": "$-6$"
+      },
+      {
+        "id": "C",
+        "text": "$6$"
+      },
+      {
+        "id": "D",
+        "text": "$18$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Systems of Linear Equations",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_6",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "The shaded region shown represents the solutions to which inequality?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$y>4x+3$"
+      },
+      {
+        "id": "B",
+        "text": "$y>4x-3$"
+      },
+      {
+        "id": "C",
+        "text": "$y"
+      },
+      {
+        "id": "D",
+        "text": "$y"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Inequalities",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Oct_25_IntlA_Math_M2_Q6_1.png"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_7",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "A circle in the xy -plane has its center at (-5, 2) and the point (-9, 5) lies on the circle. Which equation represents this circle?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$(x-5)^{2}+(y+2)^{2}=5$"
+      },
+      {
+        "id": "B",
+        "text": "$(x+5)^{2}+(y-2)^{2}=5$"
+      },
+      {
+        "id": "C",
+        "text": "$(x-5)^{2}+(y+2)^{2}=25$"
+      },
+      {
+        "id": "D",
+        "text": "$(x+5)^{2}+(y-2)^{2}=25$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_8",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "$y\nWhich point $(x,y)$ is a solution to the given inequality in the xy -plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$(0,19)$"
+      },
+      {
+        "id": "B",
+        "text": "$(-1,22)$"
+      },
+      {
+        "id": "C",
+        "text": "$(-3,0)$"
+      },
+      {
+        "id": "D",
+        "text": "$(7,-1)$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Inequalities",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_9",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "$18(x+5)=2(x+c)+16x$\nIn the given equation, c is a constant. The equation has infinitely many solutions. What is the value of c?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$90$"
+      },
+      {
+        "id": "B",
+        "text": "$45$"
+      },
+      {
+        "id": "C",
+        "text": "$10$"
+      },
+      {
+        "id": "D",
+        "text": "$5$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Equations in One Variable",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_10",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "The table shows three values of x and their corresponding values of y. There is a quadratic relationship between x and y. An equation that represents this relationship can be written as $y=36x^{2}-bx-120$, where is a constant. What is the value of b?",
+    "choices": [],
+    "correctAnswer": "196",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear Functions",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Oct_25_IntlA_Math_M2_Q10_1.png"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_11",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "Hannah and Wyatt are saving money to purchase a car. Hannah saves $\\frac{1}{5}$ of her salary each month, and Wyatt saves $\\frac{2}{7}$ of his salary each month. Together, they save a total of \\$3,270 from their monthly salaries each month. If h and w represent Hannah's and Wyatt's monthly salaries, in dollars, respectively, which equation shows the relationship between h and w?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$h+w=3,270$"
+      },
+      {
+        "id": "B",
+        "text": "$h+2w=3,270$"
+      },
+      {
+        "id": "C",
+        "text": "$10h+7w=114,450$"
+      },
+      {
+        "id": "D",
+        "text": "$7h+10w=114,450$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_12",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "The function h is defined by $h(x)=(x+p)(x-4)(2x-12)$, where p is a constant. In the xy -plane, the graph of $y=h(x)$ passes through the point $(-2,0)$. What is the value of $h(0)$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-48$"
+      },
+      {
+        "id": "B",
+        "text": "$-2$"
+      },
+      {
+        "id": "C",
+        "text": "$8$"
+      },
+      {
+        "id": "D",
+        "text": "$96$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Functions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_13",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "$x-a=(x-a)(x-24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a>25$?\nI. $a$\nII. 24\nIII. 25",
+    "choices": [
+      {
+        "id": "A",
+        "text": "I and II only"
+      },
+      {
+        "id": "B",
+        "text": "I and III only"
+      },
+      {
+        "id": "C",
+        "text": "II and III only"
+      },
+      {
+        "id": "D",
+        "text": "I, II, and III"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Equations in One Variable",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_14",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "If $\\sqrt{x-1}=2$, what is the value of $(x-1)$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$2$"
+      },
+      {
+        "id": "B",
+        "text": "$3$"
+      },
+      {
+        "id": "C",
+        "text": "$4$"
+      },
+      {
+        "id": "D",
+        "text": "$8$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Equations in One Variable",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_15",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "The figure shows a rectangular pool surrounded by a concrete path that is x feet (ft) wide on all sides. The pool is 21 ft long and 11 ft wide. The area of the concrete path is 144ft\u00b2. What is the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$2$"
+      },
+      {
+        "id": "B",
+        "text": "$4$"
+      },
+      {
+        "id": "C",
+        "text": "$18$"
+      },
+      {
+        "id": "D",
+        "text": "$36$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and Volume",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Oct_25_IntlA_Math_M2_Q15_1.png"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_16",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "At a nature preserve, a wildlife biologist counted bald eagles from an observation deck at the same time each day for 21 days. The table summarizes the resulting data set, data set A.\nThe data value 19 was recorded in error and is removed from data set A to create data set B, which consists of the remaining 20 data values. Which statement best compares the median of data set A and the median of data set B?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The median of data set B is less than the median of data set A."
+      },
+      {
+        "id": "B",
+        "text": "The median of data set B is equal to the median of data set A."
+      },
+      {
+        "id": "C",
+        "text": "The median of data set B is greater than the median of data set A."
+      },
+      {
+        "id": "D",
+        "text": "There is not enough information to compare the medians of the two data sets."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-Variable Data",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Oct_25_IntlA_Math_M2_Q16_1.png"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_17",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "One gallon of paint will cover 70 square feet of a surface. A room has a total wall area of w square feet. Which equation represents the total amount of paint P, in gallons, needed to paint the walls of the room twice?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$P=\\frac{w}{70}$"
+      },
+      {
+        "id": "B",
+        "text": "$P=70w$"
+      },
+      {
+        "id": "C",
+        "text": "$P=140w$"
+      },
+      {
+        "id": "D",
+        "text": "$P=\\frac{w}{35}$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, Rates, Proportions, and Units",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_18",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "$f(x)=4^{-5(x+1)}$\nWhich of the following equivalent forms of the given function $f$ displays, as the base or the coefficient, the y -coordinate of the y -intercept of the graph of $y=f(x)$ in the xy -plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$f(x)=\\frac{1}{1,024}(\\frac{1}{4})^{5x}$"
+      },
+      {
+        "id": "B",
+        "text": "$f(x)=(\\frac{1}{4})^{5x+5}$"
+      },
+      {
+        "id": "C",
+        "text": "$f(x)=4^{-5x-5}$"
+      },
+      {
+        "id": "D",
+        "text": "$f(x)=1,024^{-x-1}$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_19",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "$3117n(4117n)^{2}$\nFor what value of x is the given expression equivalent to $(117n)^{12x}$ where $n>1$?",
+    "choices": [],
+    "correctAnswer": "5/72,0.069,.0694",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_20",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 7 units. The surface area of right circular cylinder A is $k\\pi$ square units, and the surface area of right circular cylinder B is $n\\pi$ square units, where k and n are constants. What is the value of $n-k$? (The surface area of a right circular cylinder with radius r and height h is $2\\pi r^{2}+2\\pi rh$.)",
+    "choices": [],
+    "correctAnswer": "1680",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and Volume",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Oct_25_IntlA_Math_M2_Q20_1.png"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_21",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "In triangle $RST$, angle $T$ is a right angle, point $L$ lies on $\\overline{RS}$, point $K$ lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. If the length of $\\overline{RT}$ is 63 units, the length of $\\overline{LK}$ is 21 units, and the area of triangle $RST$ is 252 square units, what is the length of $\\overline{KT}$, in units?",
+    "choices": [],
+    "correctAnswer": "16/3,5.333",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, Angles, and Triangles",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_22",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "A researcher investigated two species of mites: a predator and its prey. At the start of a week, there was an equal number of the two species. At the end of the week, the number of prey had increased by 1,900% of the number of prey at the start of the week, and the number of predators had increased by 150% of the number of predators at the start of the week. The number of prey at the end of the week was p % greater than the number of predators at the end of the week. What is the value of p?",
+    "choices": [],
+    "correctAnswer": "700",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "confidence": "high"
+    }
+  }
+];

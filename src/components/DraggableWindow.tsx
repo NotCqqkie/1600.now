@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { X, Columns2, Minus, Maximize2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -22,6 +23,7 @@ interface DraggableWindowProps {
   constrainToLeft?: number;
   isSidebarred?: boolean; // Controlled sidebar state from parent
   onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
+  isMaximized?: boolean; // New prop to control maximization externally
 }
 
 export const DraggableWindow = ({
@@ -43,6 +45,7 @@ export const DraggableWindow = ({
   constrainToLeft,
   isSidebarred = false,
   onSidebarToggle,
+  isMaximized = false,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
@@ -55,6 +58,24 @@ export const DraggableWindow = ({
   const [isResizingSplit, setIsResizingSplit] = useState(false);
   const windowRef = useRef<HTMLDivElement>(null);
   const prevIsOpenRef = useRef(false);
+  
+  // Refs for event handlers to access latest state without re-binding listeners
+  const positionRef = useRef(position);
+  const sizeRef = useRef(size);
+  const dragOffsetRef = useRef(dragOffset);
+  const resizeStartRef = useRef(resizeStart);
+  const isMinimizedRef = useRef(isMinimized);
+  const isDraggingRef = useRef(isDragging);
+  const isResizingRef = useRef(isResizing);
+
+  // Keep refs in sync with state
+  useEffect(() => { positionRef.current = position; }, [position]);
+  useEffect(() => { sizeRef.current = size; }, [size]);
+  useEffect(() => { dragOffsetRef.current = dragOffset; }, [dragOffset]);
+  useEffect(() => { resizeStartRef.current = resizeStart; }, [resizeStart]);
+  useEffect(() => { isMinimizedRef.current = isMinimized; }, [isMinimized]);
+  useEffect(() => { isDraggingRef.current = isDragging; }, [isDragging]);
+  useEffect(() => { isResizingRef.current = isResizing; }, [isResizing]);
 
   // Calculate initial position and size when window opens (only for non-sidebarred windows)
   useEffect(() => {
@@ -151,8 +172,8 @@ export const DraggableWindow = ({
 
     const handleMouseMove = (e: MouseEvent) => {
       const newPosition = (e.clientX / window.innerWidth) * 100;
-      // Limit between 50% and 70%
-      const clampedPosition = Math.max(50, Math.min(70, newPosition));
+      // Allow the left pane to shrink further so the sidebar can grow up to ~65% of the screen
+      const clampedPosition = Math.max(35, Math.min(70, newPosition));
       if (onSplitPositionChange) {
         onSplitPositionChange(clampedPosition);
       }
@@ -182,10 +203,12 @@ export const DraggableWindow = ({
     if (!isSidebarred && (e.target as HTMLElement).closest(".window-header")) {
       // Allow dragging even when minimized
       setIsDragging(true);
-      setDragOffset({
+      const newDragOffset = {
         x: e.clientX - position.x,
         y: e.clientY - position.y,
-      });
+      };
+      setDragOffset(newDragOffset);
+      dragOffsetRef.current = newDragOffset;
     }
   };
 
@@ -194,14 +217,17 @@ export const DraggableWindow = ({
     e.preventDefault();
     e.stopPropagation();
     setIsResizing(edge);
-    setResizeStart({
+    const startData = {
       x: e.clientX,
       y: e.clientY,
       width: size.width,
       height: size.height,
       posX: position.x,
       posY: position.y,
-    });
+    };
+    setResizeStart(startData);
+    // instant update for ref
+    resizeStartRef.current = startData;
   };
 
   useEffect(() => {
@@ -213,13 +239,14 @@ export const DraggableWindow = ({
     }
 
     const handleMouseMove = (e: MouseEvent) => {
-      if (isDragging) {
-        const newX = e.clientX - dragOffset.x;
-        const newY = e.clientY - dragOffset.y;
+      // Use Refs to access current state inside the closure
+      if (isDraggingRef.current) {
+        const newX = e.clientX - dragOffsetRef.current.x;
+        const newY = e.clientY - dragOffsetRef.current.y;
         
         // Keep window fully within viewport bounds (can't go off any edge)
-        const currentHeight = isMinimized ? 56 : size.height;
-        const maxX = window.innerWidth - size.width;
+        const currentHeight = isMinimizedRef.current ? 56 : sizeRef.current.height;
+        const maxX = window.innerWidth - sizeRef.current.width;
         const minX = 0;
         // Reserve space for the bottom navigation bar (approx 80px)
         const bottomBarHeight = 80;
@@ -231,80 +258,87 @@ export const DraggableWindow = ({
         });
       }
 
-      if (isResizing) {
-        const deltaX = e.clientX - resizeStart.x;
-        const deltaY = e.clientY - resizeStart.y;
+      if (isResizingRef.current) {
+        const currentResizeStart = resizeStartRef.current;
+        const deltaX = e.clientX - currentResizeStart.x;
+        const deltaY = e.clientY - currentResizeStart.y;
         
-        let newWidth = size.width;
-        let newHeight = size.height;
-        let newX = position.x;
-        let newY = position.y;
+        let newWidth = currentResizeStart.width; // Use value from start of resize
+        let newHeight = currentResizeStart.height; // Use value from start of resize
+        let newX = currentResizeStart.posX;
+        let newY = currentResizeStart.posY;
 
         // Minimum sizes
         const minWidth = 400;
         const minHeight = 300;
         
         // Calculate aspect ratio for locked resizing
-        const aspectRatio = resizeStart.width / resizeStart.height;
+        const aspectRatio = currentResizeStart.width / currentResizeStart.height;
+        const currentResizingEdge = isResizingRef.current;
 
         if (lockAspectRatio && diagonalResizeOnly) {
           // Use combined diagonal movement for smooth aspect-ratio-locked resizing
           // Calculate the diagonal delta based on the direction
           let diagonalDelta = 0;
           
-          if (isResizing.includes('right') && isResizing.includes('bottom')) {
+          if (currentResizingEdge.includes('right') && currentResizingEdge.includes('bottom')) {
             diagonalDelta = (deltaX + deltaY) / 2;
-            newWidth = Math.max(minWidth, resizeStart.width + diagonalDelta * 1.5);
+            newWidth = Math.max(minWidth, currentResizeStart.width + diagonalDelta * 1.5);
             newHeight = newWidth / aspectRatio;
-          } else if (isResizing.includes('left') && isResizing.includes('bottom')) {
+          } else if (currentResizingEdge.includes('left') && currentResizingEdge.includes('bottom')) {
             diagonalDelta = (-deltaX + deltaY) / 2;
-            newWidth = Math.max(minWidth, resizeStart.width + diagonalDelta * 1.5);
+            newWidth = Math.max(minWidth, currentResizeStart.width + diagonalDelta * 1.5);
             newHeight = newWidth / aspectRatio;
-            newX = resizeStart.posX + resizeStart.width - newWidth;
-          } else if (isResizing.includes('right') && isResizing.includes('top')) {
+            newX = currentResizeStart.posX + currentResizeStart.width - newWidth;
+          } else if (currentResizingEdge.includes('right') && currentResizingEdge.includes('top')) {
             diagonalDelta = (deltaX - deltaY) / 2;
-            newWidth = Math.max(minWidth, resizeStart.width + diagonalDelta * 1.5);
+            newWidth = Math.max(minWidth, currentResizeStart.width + diagonalDelta * 1.5);
             newHeight = newWidth / aspectRatio;
-            newY = resizeStart.posY + resizeStart.height - newHeight;
-          } else if (isResizing.includes('left') && isResizing.includes('top')) {
+            newY = currentResizeStart.posY + currentResizeStart.height - newHeight;
+          } else if (currentResizingEdge.includes('left') && currentResizingEdge.includes('top')) {
             diagonalDelta = (-deltaX - deltaY) / 2;
-            newWidth = Math.max(minWidth, resizeStart.width + diagonalDelta * 1.5);
+            newWidth = Math.max(minWidth, currentResizeStart.width + diagonalDelta * 1.5);
             newHeight = newWidth / aspectRatio;
-            newX = resizeStart.posX + resizeStart.width - newWidth;
-            newY = resizeStart.posY + resizeStart.height - newHeight;
+            newX = currentResizeStart.posX + currentResizeStart.width - newWidth;
+            newY = currentResizeStart.posY + currentResizeStart.height - newHeight;
           }
           
           // Ensure minimum height is also respected
           if (newHeight < minHeight) {
             newHeight = minHeight;
             newWidth = newHeight * aspectRatio;
-            if (isResizing.includes('left')) {
-              newX = resizeStart.posX + resizeStart.width - newWidth;
+            if (currentResizingEdge.includes('left')) {
+              newX = currentResizeStart.posX + currentResizeStart.width - newWidth;
             }
-            if (isResizing.includes('top')) {
-              newY = resizeStart.posY + resizeStart.height - newHeight;
+            if (currentResizingEdge.includes('top')) {
+              newY = currentResizeStart.posY + currentResizeStart.height - newHeight;
             }
           }
         } else {
           // Normal resizing
-          if (isResizing.includes('right')) {
-            newWidth = Math.max(minWidth, Math.min(resizeStart.width + deltaX, window.innerWidth - position.x));
+          if (currentResizingEdge.includes('right')) {
+            // Cap width to prevent going off screen right
+            // but we need to use the current position x, not the started position x?
+            // Actually usually X doesn't change when resizing right.
+            const maxWidth = window.innerWidth - currentResizeStart.posX;
+            newWidth = Math.max(minWidth, Math.min(currentResizeStart.width + deltaX, maxWidth));
           }
-          if (isResizing.includes('left')) {
-            const proposedWidth = resizeStart.width - deltaX;
+          if (currentResizingEdge.includes('left')) {
+            const proposedWidth = currentResizeStart.width - deltaX;
             if (proposedWidth >= minWidth) {
               newWidth = proposedWidth;
-              newX = resizeStart.posX + deltaX;
+              newX = currentResizeStart.posX + deltaX;
             }
           }
-          if (isResizing.includes('bottom')) {
-            newHeight = Math.max(minHeight, Math.min(resizeStart.height + deltaY, window.innerHeight - position.y));
+          if (currentResizingEdge.includes('bottom')) {
+             const maxHeight = window.innerHeight - currentResizeStart.posY;
+            newHeight = Math.max(minHeight, Math.min(currentResizeStart.height + deltaY, maxHeight));
           }
-          if (isResizing.includes('top')) {
-            const proposedHeight = resizeStart.height - deltaY;
+          if (currentResizingEdge.includes('top')) {
+            const proposedHeight = currentResizeStart.height - deltaY;
             if (proposedHeight >= minHeight) {
               newHeight = proposedHeight;
-              newY = resizeStart.posY + deltaY;
+              newY = currentResizeStart.posY + deltaY;
             }
           }
         }
@@ -329,7 +363,7 @@ export const DraggableWindow = ({
       document.removeEventListener("mousemove", handleMouseMove);
       document.removeEventListener("mouseup", handleMouseUp);
     };
-  }, [isDragging, isResizing, dragOffset, position, size, resizeStart, isMinimized, lockAspectRatio, diagonalResizeOnly]);
+  }, [isDragging, isResizing, lockAspectRatio, diagonalResizeOnly]);
 
   const toggleSidebar = () => {
     const newSidebarState = !isSidebarred;
@@ -375,17 +409,18 @@ export const DraggableWindow = ({
 
   // Hide window until position is calculated to prevent flash
   const windowStyle = {
-    left: position.x,
-    top: position.y,
-    width: size.width,
-    height: isMinimized ? '56px' : size.height,
-    zIndex: zIndex,
-    visibility: isReady || isSidebarred ? 'visible' as const : 'hidden' as const,
+    left: isMaximized ? 0 : position.x,
+    top: isMaximized ? 0 : position.y,
+    width: isMaximized ? '100vw' : size.width,
+    height: isMaximized ? '100vh' : (isMinimized ? '56px' : size.height),
+    zIndex: isMaximized ? 100 : zIndex, // Ensure maximized window is on top
+    visibility: (isReady || isSidebarred || isMaximized) ? 'visible' as const : 'hidden' as const,
   };
 
   const resizeHandleClass = "absolute bg-transparent hover:bg-primary/20 transition-colors z-10";
 
-  return (
+  // Use portal to render directly to body, bypassing any stacking context issues
+  return createPortal(
     <>
       {/* Split Screen Divider - rendered by the sidebarred window */}
       {isSidebarred && (
@@ -508,6 +543,7 @@ export const DraggableWindow = ({
           <div className="flex-1 overflow-hidden bg-background">{children}</div>
         )}
       </div>
-    </>
+    </>,
+    document.body
   );
 };

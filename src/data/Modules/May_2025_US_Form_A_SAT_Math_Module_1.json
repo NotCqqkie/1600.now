@@ -1,0 +1,620 @@
+[
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 2,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "Line r is defined by the equation 6 x -5 y =9. Line s is parallel to line r in the xy -plane. What is the slope of line s?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-6$"
+      },
+      {
+        "label": "B",
+        "text": "$-5$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{5}{6}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{6}{5}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_2"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 3,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "The function $f$ is defined by $f(x)=\\frac{4}{11}x$. What is the slope of the graph of $y=f(x)$ in the xy -plane?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{4}{11}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{11}{4}$"
+      },
+      {
+        "label": "D",
+        "text": "The slope is undefined."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 4,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "The function $g$ is defined by $g(x)=7x^{-1}$. What is the value of $g(8)$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-56$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{1}{56}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{7}{8}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{8}{7}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "question_number": 5,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "The kinetic energy, in joules, of an object with mass $41$ kilograms traveling at a speed of $v$ meters per second is given by the function $K$, where $K(v)=\\frac{1}{2}(41)(v^{2})$. Which of the following is the best interpretation of $K(0)=0$ in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The kinetic energy of the object is 0 joules when the mass of the object is 0 kilograms."
+      },
+      {
+        "label": "B",
+        "text": "The speed of the object is 0 meters per second when the mass of the object is 0 kilograms."
+      },
+      {
+        "label": "C",
+        "text": "The kinetic energy of the object is 0 joules when the object is traveling at a speed of 0 meters per second."
+      },
+      {
+        "label": "D",
+        "text": "The height of the object is 0 meters when the object is traveling at a speed of 0 meters per second."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
+    "question_number": 6,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "A model estimates that a gray whale travels 72 to 77 miles each day during its migration. Based on this model, which inequality represents the estimated total number of miles, x, a gray whale could travel in 27 days of its migration?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$72+27\\le x\\le77+27$"
+      },
+      {
+        "label": "B",
+        "text": "$(72)(27)\\le x\\le(77)(27)$"
+      },
+      {
+        "label": "C",
+        "text": "$72\\le27+x\\le77$"
+      },
+      {
+        "label": "D",
+        "text": "$72\\le27x\\le77$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 7,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "If $7(x+6)=6(x+6)+68$, what is the value of $x+6$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-6"
+      },
+      {
+        "label": "B",
+        "text": "62"
+      },
+      {
+        "label": "C",
+        "text": "68"
+      },
+      {
+        "label": "D",
+        "text": "74"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_7"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 8,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "At an amusement park, visitors wait in line for a certain ride. People in this line get on the ride at a rate of 14 people per minute. At the end of a certain day, 238 people are in line for the ride when the line closes. If these 238 people will get on the ride and no additional people are allowed to get in line, which function p models the number of people who remain in line t minutes after it closes?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$p(t)=-14t+238$"
+      },
+      {
+        "label": "B",
+        "text": "$p(t)=14t+238$"
+      },
+      {
+        "label": "C",
+        "text": "$p(t)=14t-238$"
+      },
+      {
+        "label": "D",
+        "text": "$p(t)=252t$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 9,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": null,
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7.2"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_9",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_USA_Math_M1_Q9_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_USA_Math_M1_Q9_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 10,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "$x^{2}+\\sqrt{k-3}x+33=0$\nIn the given equation, k is a constant. The equation has exactly one real solution. What is the value of k?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "135"
+      },
+      {
+        "label": "B",
+        "text": "132"
+      },
+      {
+        "label": "C",
+        "text": "129"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_10"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
+    "question_number": 11,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "A sphere has a radius of 3 inches and a density of 51 ounces per cubic inch. What is the mass, in ounces, of the sphere?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{12\\pi}{17}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{17\\pi}{12}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{153\\pi}{}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{1,836\\pi}{}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_11"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 12,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "For the linear function f,\n$f(2)=3$ and $f(6)=5$. Which equation defines f?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$f(x)=-2x+17$"
+      },
+      {
+        "label": "B",
+        "text": "$f(x)=-2x+15$"
+      },
+      {
+        "label": "C",
+        "text": "$f(x)=\\frac{1}{2}x+2$"
+      },
+      {
+        "label": "D",
+        "text": "$f(x)=\\frac{1}{2}x+14$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_12"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "question_number": 13,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "$-8|3x-13|+4=-36$\nWhat is the sum of the solutions to the given equation?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "26/3,8.666,8.667",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_13"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 14,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": null,
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "32"
+      },
+      {
+        "label": "C",
+        "text": "$3\\sqrt{17}$"
+      },
+      {
+        "label": "D",
+        "text": "$24\\sqrt{17}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_14",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_USA_Math_M1_Q14_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_USA_Math_M1_Q14_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 15,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "The function f is defined by $f(x)=-29^{x}$. The function g is a decreasing linear function. In the xy -plane, the graphs of $y=f(x)$ and $y=g(x)$ intersect at two points, (h, j) and (k, m), where j ＞ m. When $g(x), which of the following must also be true?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$x>k$"
+      },
+      {
+        "label": "B",
+        "text": "$x"
+      },
+      {
+        "label": "C",
+        "text": "$x>kor$ $x"
+      },
+      {
+        "label": "D",
+        "text": "$h"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_15"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "question_number": 16,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "Arturo builds and sells two types of steel tables. The revenue Arturo generates from selling each square table is 2 times his cost to build a square table, and the revenue Arturo generates from selling each hexagonal table is 2.5 times his cost to build a hexagonal table. In one year, Arturo's total cost to build tables was \\$25,740, and he generated a total revenue of \\$61,875 from selling all the tables he built that year. For that year, how much greater is the revenue Arturo generated from selling hexagonal tables than the revenue he generated from selling square tables?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "\\$9,900"
+      },
+      {
+        "label": "B",
+        "text": "\\$15,840"
+      },
+      {
+        "label": "C",
+        "text": "\\$36,135"
+      },
+      {
+        "label": "D",
+        "text": "\\$42,075"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "question_number": 17,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "$f(x)=\\sqrt{x^{3}+ax^{2}+bx+c}$\nThe function f is defined by the given equation, where a, b, and c are integer constants. In the xy -plane, the graph of $y=f(x)$ passes through the point $(5,0)$, and $f(0)=15$. What is the value of $5a+b$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "-70",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
+    "question_number": 18,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "Two lines intersect at exactly one point, forming two acute angles and two obtuse angles. The measure of one of these angles is $(7x-260)^\\circ$. Which of the following could NOT be the sum of the measures of any two of these angles?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(-14x+520)^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$(-14x+880)^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$(14x-520)^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$180^\\circ$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_18"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 19,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "The solutions to $x^{2}+6x+6=0$ are r and s, where $r. The solutions to $x^{2}+10x+13=0$ are t and u, where $t<u$. The solutions to $x^{2}+16x+c=0$, where c is a constant, are $r+u$ and $s+t$. What is the value of c?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "61",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
+    "question_number": 20,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "In triangle $XYZ$, the measure of angle $X$ is 90°. Point $W$ lies on segment $YZ$, and segment $WX$ is perpendicular to segment $YZ$. The length of segment $YW$ is 612, and the length of segment $WX$ is 459. What is the value of $tanZ$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{4}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{4}{5}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{3}{4}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{3}{5}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 21,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "The mass of object $A$ is $484%$ of the mass of object $B$, and the mass of object $A$ is 0.880% of the mass of object $C$. If the mass of object $C$ is $p%$ of the mass of object $B$, what is the value of $p$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "55000",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_21"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 22,
+    "test_name": "May 2025 US Form A SAT Math Module 1",
+    "passage": "For the function f, for each increase in the value of x by c, where c is a positive constant, the value of $f(x)$ increases by a factor of 27. Which of the following equivalent forms of the function f displays $\\frac{1}{c}$ as a coefficient of x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$f(x)=73(3)^{\\frac{1}{2}x}$"
+      },
+      {
+        "label": "B",
+        "text": "$f(x)=73(3^{3})^{\\frac{1}{6}x}$"
+      },
+      {
+        "label": "C",
+        "text": "$f(x)=73(9)^{\\frac{1}{4}x}$"
+      },
+      {
+        "label": "D",
+        "text": "$f(x)=73(27^{\\frac{1}{3}x})^{\\frac{1}{2}}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_22"
+  }
+]

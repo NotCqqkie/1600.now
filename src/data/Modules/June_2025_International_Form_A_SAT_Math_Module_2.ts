@@ -1,0 +1,625 @@
+import { Question } from "../all_questions";
+
+export const questions: Question[] = [
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_2",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "What is the y -intercept of the graph of $y=6x^{2}+4x+3$ in the xy-plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(0, 3)"
+      },
+      {
+        "id": "B",
+        "text": "(0, 4)"
+      },
+      {
+        "id": "C",
+        "text": "(0, 6)"
+      },
+      {
+        "id": "D",
+        "text": "(0, 7)"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear Equations and Systems",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_3",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "The product of a positive number x and the number that is 7 less than x is equal to 18. What is the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3.5"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_4",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "A cylinder has a diameter of 6 inches and a height of 21 inches. What is the volume, in cubic inches, of the cylinder?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9\u03c0"
+      },
+      {
+        "id": "B",
+        "text": "126\u03c0"
+      },
+      {
+        "id": "C",
+        "text": "189\u03c0"
+      },
+      {
+        "id": "D",
+        "text": "756\u03c0"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and Volume",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_6",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "Eli used wax to make candles. The function f (x)= - 9 x + 54 approximates the weight, in ounces, of wax Eli had remaining after making x candles. Which statement is the best interpretation of the y-intercept of the graph of y = f (x) in the xy-plane in this context?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Eli used approximately 9 ounces of wax for each candle."
+      },
+      {
+        "id": "B",
+        "text": "Eli had approximately 9 ounces of wax when he began to make the candles."
+      },
+      {
+        "id": "C",
+        "text": "Eli had approximately 54 ounces of wax when he began to make the candles."
+      },
+      {
+        "id": "D",
+        "text": "Eli used approximately 54 ounces of wax for each candle."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Functions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "The graph shows the relationship between the number of shares of stock from Company A, x, and the number of shares of stock from Company B, y, that Sayen can purchase. Which equation could represent this relationship?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "y=9x+16"
+      },
+      {
+        "id": "B",
+        "text": "9x+16y=720"
+      },
+      {
+        "id": "C",
+        "text": "y=16x+9"
+      },
+      {
+        "id": "D",
+        "text": "16x+9y=720"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Two-Variable Data",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Jun_25_IntlA_Math_M2_Q7_1.svg"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_8",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "$ak=\\frac{b}{12}(8+m)$\nThe given equation relates the positive variables a, b, k, and m. Which equation correctly expresses m in terms of a, b, and k?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$m=\\frac{12(ak-8)}{b}$"
+      },
+      {
+        "id": "B",
+        "text": "$m=ak-8-\\frac{b}{12}$"
+      },
+      {
+        "id": "C",
+        "text": "$m=ak-\\frac{8b}{12}$"
+      },
+      {
+        "id": "D",
+        "text": "$m=\\frac{12ak}{b}$ $-8$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_9",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "The function g is defined by $g(x)=10^{4x-2}$. What is the value of x when g (x) is equal to 10,000?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{5}{4}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{3}{2}$"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear Functions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_10",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "If $\\frac{x}{y}=3$ and $\\frac{2x}{ty}=18$, what is the value of t?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{3}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{2}$"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Functions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_11",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "A piece of string with a length of 53 inches is cut into two parts. One part has a length of x inches, and the other part has a length of y inches. The value of x is 8 more than 2 times the value of y. What is the value of x?",
+    "choices": [],
+    "correctAnswer": "38",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_12",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "Which equation has no solution?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-13x-\\frac{1}{9}=-13x-\\frac{1}{9}$"
+      },
+      {
+        "id": "B",
+        "text": "$-13x-\\frac{1}{9}=-13x+\\frac{1}{9}$"
+      },
+      {
+        "id": "C",
+        "text": "$-13x-\\frac{1}{9}=13x-\\frac{1}{9}$"
+      },
+      {
+        "id": "D",
+        "text": "$-13x-\\frac{1}{9}=13x+\\frac{1}{9}$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_13",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "$F(x)=\\frac{9}{5}(x-273.15)+32$\nThe function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 13.30 kelvins, by how much did the temperature increase, in degrees Fahrenheit?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "23.94"
+      },
+      {
+        "id": "B",
+        "text": "55.94"
+      },
+      {
+        "id": "C",
+        "text": "467.73"
+      },
+      {
+        "id": "D",
+        "text": "499.73"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Functions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_14",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "An environmental scientist is investigating the volatility of 175 organic compounds by finding the boiling point of each compound. The mean boiling point of all 175 compounds is 167 degrees Celsius. The scientist classifies each of these compounds as either semivolatile or volatile. Of the 175 compounds, 50 compounds were classified as semivolatile, and these 50 compounds have a mean boiling point of 322 degrees Celsius. The remaining 125 compounds were classified as volatile. What is the mean boiling point, in degrees Celsius, of the 125 compounds classified as volatile compounds?",
+    "choices": [],
+    "correctAnswer": "105",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-Variable Data",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_15",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "$f(x)=26(1.20)^{\\frac{x}{3}}$\nFor the given function f, the value of f (x) increases by p % for every increase of x by 6. What is the value of p?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "31"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "44"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_16",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "A carpenter charges a flat rate of \\$228 for the first 2 hours of work and \\$95 for each additional hour of work. Which equation gives the total amount y, in dollars, that the carpenter charges for x hours of work, where x > 2?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "y=95x+228"
+      },
+      {
+        "id": "B",
+        "text": "y=228x+418"
+      },
+      {
+        "id": "C",
+        "text": "y=95x+38"
+      },
+      {
+        "id": "D",
+        "text": "y=228x+95"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Inequalities",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_17",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "$y=-6.5$\n$y=x^{2}+8x+a$\nIn the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?",
+    "choices": [],
+    "correctAnswer": "10",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear Equations and Systems",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_18",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "$5272n\\sqrt{272n}^{2}$\nFor what value of x is the given expression equivalent to $(272n)^{30x}$, where n > 1?",
+    "choices": [],
+    "correctAnswer": "4/225,.0177,.0178,0.018,0.017",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_19",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "One of these participants will be selected at random. What is the probability of selecting a participant from group A, given that the participant is at least 10 years of age?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{5}{21}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{5}{14}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{17}{35}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{5}{7}$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Jun_25_IntlA_Math_M2_Q19.png"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "The table shows three values of x and their corresponding values of g (x), where $g(x)=\\frac{f(x)}{x+4}$? and f is a linear function. What is the y-intercept of the graph of y = f (x) in the xy -plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(0, 36)"
+      },
+      {
+        "id": "B",
+        "text": "(0, 9)"
+      },
+      {
+        "id": "C",
+        "text": "(0, 4)"
+      },
+      {
+        "id": "D",
+        "text": "(0, -9)"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Functions",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Jun_25_IntlA_Math_M2_Q20_1.png"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_21",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "The mass of object A is 438 % of the mass of object B, and the mass of object A is 0.073 % of the mass of object C. If the mass of object C is p % of the mass of object B, what is the value of $\\frac{P}{1000}$?",
+    "choices": [],
+    "correctAnswer": "600",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_22",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "$\\frac{1}{cx}=\\frac{x}{72}+\\frac{1}{c}$\nIn the given equation, c is a constant. If the equation has exactly one solution, what is the value of c?",
+    "choices": [],
+    "correctAnswer": "-18",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear Equations in One Variable",
+      "confidence": "high"
+    }
+  }
+];

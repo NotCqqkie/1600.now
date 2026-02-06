@@ -1,0 +1,632 @@
+[
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 1,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "The equation d= 33w + 100 gives the total amount of money d, in dollars, that James plans to save w weeks after he starts to save. What is the total amount of money, in dollars, he plans to save in 10 weeks?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "380"
+      },
+      {
+        "label": "B",
+        "text": "430"
+      },
+      {
+        "label": "C",
+        "text": "480"
+      },
+      {
+        "label": "D",
+        "text": "530"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_1"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 2,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "For the linear function f, the graph of y= f(x) in the xy-plane has a slope of -2 and passes through the point (0,-19). Which equation defines f?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "f(x)=-19x"
+      },
+      {
+        "label": "B",
+        "text": "f(x)=-2x"
+      },
+      {
+        "label": "C",
+        "text": "f(x)=-2x -19"
+      },
+      {
+        "label": "D",
+        "text": "f(x)=2x +19"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_2"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 3,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "Which expression is equivalent to 63x 2?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "63(1+x 2)"
+      },
+      {
+        "label": "B",
+        "text": "(7x)(9x)"
+      },
+      {
+        "label": "C",
+        "text": "(7x 2)(9x 2)"
+      },
+      {
+        "label": "D",
+        "text": "(63x²)(x)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 4,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "Sophia bought confetti and balloons for \\$56. Each package of confetti cost \\$3, and each balloon cost \\$1. If Sophia bought 10 packages of confetti, how many balloons did she buy?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "26",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
+    "question_number": 5,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "In $△$ FGH, the measures of ∠F and ∠G are each 39°. What is the measure of ∠H?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "78°"
+      },
+      {
+        "label": "B",
+        "text": "102°"
+      },
+      {
+        "label": "C",
+        "text": "129°"
+      },
+      {
+        "label": "D",
+        "text": "141°"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 6,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "If $\\frac{1}{6}$ x+5 = 8, what is the value of 6x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "108"
+      },
+      {
+        "label": "B",
+        "text": "258"
+      },
+      {
+        "label": "C",
+        "text": "318"
+      },
+      {
+        "label": "D",
+        "text": "468"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 7,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "Line p is defined by y= 6x - 8. Line s is parallel to line p in the xy-plane. What is the slope of line s?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "6",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_7"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
+    "question_number": 8,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "Which of the following is closest to the slope of this line of best fit?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-7"
+      },
+      {
+        "label": "B",
+        "text": "-0.7"
+      },
+      {
+        "label": "C",
+        "text": "0.7"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_8",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_24_USC_Math_M1_Q8_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_24_USC_Math_M1_Q8_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
+    "question_number": 9,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "Which of the following could be the median height of these objects?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "355"
+      },
+      {
+        "label": "B",
+        "text": "255"
+      },
+      {
+        "label": "C",
+        "text": "155"
+      },
+      {
+        "label": "D",
+        "text": "55"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_9",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_24_USC_Math_M1_Q9_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_24_USC_Math_M1_Q9_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "question_number": 10,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "f(x)=-16x 2 + 99\nThe function f gives the estimated height, in feet, of an acorn x seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "99",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_10"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 11,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "The y-intercept of the graph of 5x + 2y = -18 in the xy-plane is (0, y). What is the value of y?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "-9",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_11"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
+    "question_number": 12,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "The length of one side of square M is 9 times the length of one side of square N. The area of square N is 25 square centimeters. What is the area, in square centimeters, of square M?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2,025"
+      },
+      {
+        "label": "B",
+        "text": "810"
+      },
+      {
+        "label": "C",
+        "text": "405"
+      },
+      {
+        "label": "D",
+        "text": "225"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_12"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 13,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "x(x-15)=34\nWhat is the positive solution to the given equation?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "17",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_13"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 14,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "If $\\frac{j}{k}$ = 62 and $\\frac{96j}{12xk}$ = 62, what is the value of x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{1}{8}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{6}{31}$"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "96"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Sample Statistics and Margin of Error",
+    "difficulty": "null",
+    "question_number": 15,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "A researcher is designing a study to investigate the average number of hours students at a high school spend reading per day. The researcher will report an estimated average number of hours students at the high school spend reading per day with an associated margin of error The researcher is considering using a random sample of either 105 or 210 students from the high school. Which of the following would be the most likely effect of using the larger random sample compared to the smaller random sample?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The reported margin of error would be lower."
+      },
+      {
+        "label": "B",
+        "text": "The reported margin of error would be higher."
+      },
+      {
+        "label": "C",
+        "text": "The reported average number of hours would be lower."
+      },
+      {
+        "label": "D",
+        "text": "The reported average number of hours would be higher."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_15"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 16,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "g(x)= $\\frac{2}{7}$ x+ $\\frac{8}{5}$\nh(x)=5x-7\nThe functions g and h are defined by the equations shown. Which expression is equivalent\nto g(x)·h(x)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{10x^{2}}{7}-\\frac{56}{5}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{10x^{2}}{7}+\\frac{13x}{6}-\\frac{56}{5}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{10x^{2}}{7}-6x-\\frac{56}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{10x^{2}}{7}+6x-\\frac{56}{5}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
+    "question_number": 17,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "The height of a right circular cylinder is 6 inches longer than its radius, and the surface area of the cylinder is 1,080π square inches. What is the cylinder's radius, in inches?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
+    "question_number": 18,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "In triangle JKL, cos(K)= $\\frac{36}{60}$ and angle J is a right angle. What is the value of cos(L)?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "4/5,0.8,48/60",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_18"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 19,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "The graph of y= f(x) is shown, where f(x)= ab x + c, and a, b, and c are constants. For how many values of x does f(x)=0?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Three"
+      },
+      {
+        "label": "B",
+        "text": "Two"
+      },
+      {
+        "label": "C",
+        "text": "One"
+      },
+      {
+        "label": "D",
+        "text": "Zero"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_19",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_24_USC_Math_M1_Q19_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_24_USC_Math_M1_Q19_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 20,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "In a certain state, the population of pheasants, a type of bird, is estimated each year by counting the number of pheasants observed along certain roads in the state. On average, each year from 2005 to 2015 the number of pheasants counted per mile of road decreased by 3.5% of the number of pheasants per mile of road the previous year. Based on this average, if there were 6.32 pheasants per mile of road in this state in 2005, which of the following best approximates the number of pheasants per mile of road in 2015?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.965(6.32) 10"
+      },
+      {
+        "label": "B",
+        "text": "1.035(6.32) 10"
+      },
+      {
+        "label": "C",
+        "text": "6.32(0.035) 10"
+      },
+      {
+        "label": "D",
+        "text": "6.32(0.965) 10"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 21,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "The graph of the equation y= 5 x + k is shown, where k is a constant. What is the value of k?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-8"
+      },
+      {
+        "label": "B",
+        "text": "-7"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_21",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_24_USC_Math_M1_Q21_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_24_USC_Math_M1_Q21_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
+    "question_number": 22,
+    "test_name": "October 2024 US Form C SAT Math Module 1",
+    "passage": "2x=20y-8\nOne of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=5y"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{1}{2}$ x = 5y"
+      },
+      {
+        "label": "C",
+        "text": "x=10y-4"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{1}{2}$ x=10y-4"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_22"
+  }
+]

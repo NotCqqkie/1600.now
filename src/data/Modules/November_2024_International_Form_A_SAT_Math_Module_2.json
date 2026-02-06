@@ -1,0 +1,554 @@
+[
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "question_number": 1,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "The ratio of the base to the height of a triangle is 1 to 8. The base of the triangle is 104 centimeters. What is the height, in centimeters, of the triangle?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "13"
+      },
+      {
+        "label": "B",
+        "text": "52"
+      },
+      {
+        "label": "C",
+        "text": "104"
+      },
+      {
+        "label": "D",
+        "text": "832"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_1"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
+    "question_number": 3,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "A plant nursery classifies a perennial flower species as tall if its typical height when fullygrown is more than 100 centimeters. Each ofthe following inequalities represents thepossible heights h, in centimeters, for a specific perennial flower species when fully grown. Which inequality represents the possible heights h, in centimeters, for a tall perennial flower species?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$14"
+      },
+      {
+        "label": "B",
+        "text": "$41"
+      },
+      {
+        "label": "C",
+        "text": "$78"
+      },
+      {
+        "label": "D",
+        "text": "$107"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 4,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is \\$170 when it sells 4 items, and its profit is \\$590 when it sells 10 items. Which equation defines f?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$f(x)=170x-590$"
+      },
+      {
+        "label": "B",
+        "text": "$f(x)=59x$"
+      },
+      {
+        "label": "C",
+        "text": "$f(x)=70x-10x$"
+      },
+      {
+        "label": "D",
+        "text": "$f(x)=70x-110$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 5,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "Each year, the value of an investment increases by 0.69% of its value the previous year. Which of the following functions best models how the value of the investment changes over time?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Decreasing exponential"
+      },
+      {
+        "label": "B",
+        "text": "Decreasing linear"
+      },
+      {
+        "label": "C",
+        "text": "Increasing exponential"
+      },
+      {
+        "label": "D",
+        "text": "Increasing linear"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 6,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "Line p in the xy -plane is defined by y= x + $\\frac{8}{3}$ and passes through the points (a, 0) and (0, b), where a and b are constants. What is the value of a?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "-2.667,-8/3",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 7,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "$\\frac{25x}{x^{2}-25}=\\frac{x}{x-5}+\\frac{20}{x+5}$\nWhat is the positive solution to the given equation?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "10",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_7"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 8,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "How many solutions does the equation $7(x+12)+5x=12(x+7)$ have ？",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Exactly one"
+      },
+      {
+        "label": "B",
+        "text": "Exactly two"
+      },
+      {
+        "label": "C",
+        "text": "Infinitely many"
+      },
+      {
+        "label": "D",
+        "text": "Zero"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Sample Statistics and Margin of Error",
+    "difficulty": "null",
+    "question_number": 9,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "The manager of a gym selected a sample of 142 members at random to estimate the percentage of the gym’s members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 89% of the gym’s members would continue to pay for a membership if the price increased, with an associated margin of error of 5.15%. If the survey is repeated with a random sample of 284 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The margin of error will be lower."
+      },
+      {
+        "label": "B",
+        "text": "The margin of error will be higher."
+      },
+      {
+        "label": "C",
+        "text": "The estimate of the percentage of the gym ’ s members that would continue to pay for a membership if the price increased will be lower."
+      },
+      {
+        "label": "D",
+        "text": "The estimate of the percentage of the gym ’ s members that would continue to pay for a membership if the price increased will be higher."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_9"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 10,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "The function f is defined by f(x)= -9x + 9. What is the y-coordinate of the y-intercept of the graph of y=f(x) in the xy-plane?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "9",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_10"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
+    "question_number": 11,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "The histogram summarizes a data set of the weights, in pounds, of 14 salmon. If an additional weight of 68 pounds is added to the original data set to create a new data set of 15weights of salmon, which of the following measures must be greater for the new data set than for the original data set?\nI. The median\nII. The mean",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "I only"
+      },
+      {
+        "label": "B",
+        "text": "II only"
+      },
+      {
+        "label": "C",
+        "text": "I and II"
+      },
+      {
+        "label": "D",
+        "text": "Neither I nor II"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_11",
+    "images": [
+      {
+        "src": "/images_labeled/Nov_24_IntlA_Math_M2_Q11_1.png",
+        "alt": "",
+        "local": "images_labeled/Nov_24_IntlA_Math_M2_Q11_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 12,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "The table shows three values of x and their corresponding values of y, where a and b are constants. There is a linear relationship between x and y. In the xy-plane, the y-intercept of the line representing this relationship is (0, -16). What is the value of a + b?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-32"
+      },
+      {
+        "label": "B",
+        "text": "-31"
+      },
+      {
+        "label": "C",
+        "text": "-22"
+      },
+      {
+        "label": "D",
+        "text": "-21"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_12",
+    "images": [
+      {
+        "src": "/images_labeled/Nov_24_IntlA_Math_M2_Q12_1.png",
+        "alt": "",
+        "local": "images_labeled/Nov_24_IntlA_Math_M2_Q12_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 13,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "(x+k) 2 +37=37\nIn the given equation, k is a constant. How many distinct real solutions does this equation have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Exactly one"
+      },
+      {
+        "label": "C",
+        "text": "Exactly two"
+      },
+      {
+        "label": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_13"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 14,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "For a certain circuit, its power P, in watts, current C, in amperes; voltage V, in volts; and resistance R, in ohms, are related as $\\frac{CV^{2}}{P}=\\sqrt{PR}$, where P, C, V, and R are positive.When R =18, which equation correctly expresses P in terms of C and V?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$P=\\frac{CV^{2}}{\\sqrt{18P}}$"
+      },
+      {
+        "label": "B",
+        "text": "$P=\\frac{CV^{2}}{\\sqrt{18}}$"
+      },
+      {
+        "label": "C",
+        "text": "$P=3\\frac{C^{2}V^{4}}{18}$"
+      },
+      {
+        "label": "D",
+        "text": "$P=3\\frac{18}{C^{2}V^{4}}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
+    "question_number": 16,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "A circle is inscribed in a square such that the circumference of the circle touches the midpoint of each side of the square. The length of the diagonal of the square is 228 units.What is the area, in square units, of the circle?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": ",6,498π"
+      },
+      {
+        "label": "B",
+        "text": ",12,996π"
+      },
+      {
+        "label": "C",
+        "text": ",25,992π"
+      },
+      {
+        "label": "D",
+        "text": ",51,984π"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 17,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "The expression kx represents the result of decreasing a positive force, x, acting on an object by 0.34%. What is the value of k?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": ".9966,0.996,0.997",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
+    "question_number": 18,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "A polygon has exactly 87 sides. If the measure of each of the 87interior angles of this polygon is (180p)°, what is the value of p?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "85/87,0.977,.9770",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_18"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 19,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "The number of bacteria in a liquid medium doubles every hour. There are 66,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, y, in the liquid medium t hours after the start of the observation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y=\\frac{1}{2}(66,000)^{t}$"
+      },
+      {
+        "label": "B",
+        "text": "$y=2(66,000)^{t}$"
+      },
+      {
+        "label": "C",
+        "text": "$y=66,000(\\frac{1}{2})^{t}$"
+      },
+      {
+        "label": "D",
+        "text": "$y=66,000(2)^{t}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 20,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "The function $f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, n, in the sequence, where n is a whole number. The value of the term in position l4 is p% more than the value of the term in position 10. What is the value of p?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "20.44"
+      },
+      {
+        "label": "B",
+        "text": "44"
+      },
+      {
+        "label": "C",
+        "text": "1,944"
+      },
+      {
+        "label": "D",
+        "text": "2,044"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 21,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "A right square pyramid has a total surface area of 28,160 square inches, and the combined surface area of the four lateral faces of this pyramid is 16,060 square inches. What is the height, in inches, of this pyramid?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "48"
+      },
+      {
+        "label": "B",
+        "text": "55"
+      },
+      {
+        "label": "C",
+        "text": "73"
+      },
+      {
+        "label": "D",
+        "text": "110"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_21"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 22,
+    "test_name": "November 2024 International Form A SAT Math Module 2",
+    "passage": "The expression $6x^{4}+17x^{2}+7$ can be rewritten as $(3x^{2}+a)(2x^{2}+b)$, where a and b are positive integers, or as $($ $3x^{2}+c$ $)(2x^{2}+d)))$, where c and d are positive nonintegers.What is the value of a + c?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "8.5,17/2",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_22"
+  }
+]

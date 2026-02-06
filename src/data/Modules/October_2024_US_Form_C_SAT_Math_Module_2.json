@@ -1,0 +1,598 @@
+[
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
+    "question_number": 1,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "In the right triangle shown, what is the value of z?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\sqrt{2}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\sqrt{37}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\sqrt{74}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\sqrt{2}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_1",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_24_USC_Math_M2_Q1_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_24_USC_Math_M2_Q1_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 2,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "X 2 +100=0\nHow many distinct real solutions does the given equation have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Exactly one"
+      },
+      {
+        "label": "C",
+        "text": "Exactly two"
+      },
+      {
+        "label": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_2"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
+    "question_number": 3,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "A plant nursery classifies a perennial flower species as tall if its typical height when fully grown is more than 100 centimeters. Each of the following inequalities represents the possible heights h, in centimeters, for a specific perennial flower species when fully grown. Which inequality represents the possible heights h, in centimeters, for a tall perennial flower species?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "107<h< 158"
+      },
+      {
+        "label": "B",
+        "text": "<h< 100"
+      },
+      {
+        "label": "C",
+        "text": "<h< 95"
+      },
+      {
+        "label": "D",
+        "text": "16< h< 91"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
+    "question_number": 4,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "3y=8x+ 18\n-3y=7x-26\nThe solution to the given system of equations is (x, y). What is the value of 30x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-16"
+      },
+      {
+        "label": "B",
+        "text": "-8"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 5,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "$\\frac{x}{(x-1)(x+1)}=\\frac{81}{56x}$\nWhich value is a solution to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{1}{5}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{9}{25}$"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{9}{5}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
+    "question_number": 6,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "y=5x+7\ny=-4x-11\nThe solution to the given system of equations is (x, y). What is the value of y?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "-18"
+      },
+      {
+        "label": "B",
+        "text": "-4"
+      },
+      {
+        "label": "C",
+        "text": "-3"
+      },
+      {
+        "label": "D",
+        "text": "-2"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 7,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "Which of the following equations has exactly one solution?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{1}{44}+x=x$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{1}{44}+x$ $=-x-\\frac{1}{44}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{1}{44}-x=\\frac{1}{44}-x$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{1}{44}-x = -x$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_7"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 8,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "0.10x+0.20y=0.19(x+y)\nThe equation gives a volume x, in gallons, of a 10% saltwater solution that could be mixed with a volume y, in gallons, of a 20% saltwater solution to produce a 19% saltwater solution. According to this equation, what volume, in gallons, of the 20% saltwater solution could be mixed with 50.0 gallons of the 10% saltwater solution to produce a 19% saltwater solution? (Assume that the volume of the mixture is the sum of the volumes of the two solutions before they were mixed.)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "450",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "question_number": 9,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "f(x)=-(x-6) 2 +4\nThe function f is defined by the given equation. For what value of x does f(x) reach its maximum?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "6",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_9"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 10,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "Which equation defines the linear function f?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "f(x)=-15x -11"
+      },
+      {
+        "label": "B",
+        "text": "f(x)=-4x +9"
+      },
+      {
+        "label": "C",
+        "text": "f(x)=-15x+9"
+      },
+      {
+        "label": "D",
+        "text": "f(x)=-4x-11"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_10",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_24_USC_Math_M2_Q10_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_24_USC_Math_M2_Q10_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "question_number": 11,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "The variables x and y have a quadratic relationship. When x = 0, y= 45. When x =6, y= 81. When x= 15, y=0. Which equation represents this relationship?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "y=x 2 -18x+45"
+      },
+      {
+        "label": "B",
+        "text": "y=-x 2 +12x+45"
+      },
+      {
+        "label": "C",
+        "text": "y=x 2 +45"
+      },
+      {
+        "label": "D",
+        "text": "y=-3x 2 +48x-45"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_11"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating Statistical Claims",
+    "difficulty": "null",
+    "question_number": 12,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "To study fluctuations in leaf water potential, samples of wood were taken from 26 trees and cut in the shape of a cube. The length of the edge of one of these cubes is 2.00 centimeters. If this cube has a mass of 5.12 grams, what is the density of this cube, in grams per cubic centimeter?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "0.64,.64",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_12"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
+    "question_number": 13,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "The frequency table summarizes a data set of the weights, rounded to the nearest pound, of 71 Ardeotis kori birds. A weight of 32 pounds is added to the original data set, creating a new data set of the weights, rounded to the nearest pound, of 72 Ardeotis kori birds. Which statement best compares the mean and median of the new data set to the mean and median of the original data set?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The mean of the new data set is greater than the mean of the original data set, and the median of the new data set is greater than the median of the original data set."
+      },
+      {
+        "label": "B",
+        "text": "The mean of the new data set is greater than the mean of the original data set, and the medians of the two data sets are equal."
+      },
+      {
+        "label": "C",
+        "text": "The mean of the new data set is less than the mean of the original data set, and the median of the new data set is less than the median of the original data set."
+      },
+      {
+        "label": "D",
+        "text": "The mean of the new data set is less than the mean of the original data set, and the medians of the two data sets are equal."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_13",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_24_USC_Math_M2_Q13_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_24_USC_Math_M2_Q13_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 14,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "x(9x-2a)+b(9x-2a)-(x+b)=0\nIn the given equation, a and b are positive constants. A solution to the equation is x = 42. What is the value of a?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "379/2,189.5",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 15,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge$ -77, where r and t are constants. What is the value of r+ t?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "-6"
+      },
+      {
+        "label": "D",
+        "text": "-7"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_15",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_24_USC_Math_M2_Q15_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_24_USC_Math_M2_Q15_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 16,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "3w 2 +11w-c=0\nIn the given equation, c is a constant. A solution to the equation is $\\frac{-11+\\sqrt{433}}{6}$, What is the value of c?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "26",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 17,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined the buffalo had 139.2 kilograms of muscle, which made up approximately 67.7% of its composition. Of the remaining composition of this buffalo, approximately 51.4% was bone, and the remainder was fat. Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "34.1",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
+    "question_number": 18,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is (7x - 610)°. The sum of the measures of one of the acute angles and three of the obtuse angles is (-14x + w)°. What is the value of w?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "1760",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_18"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 19,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "$\\frac{49}{p}=\\frac{49}{q}-\\frac{49}{r}-\\frac{49}{s}$\nThe given equation relates the positive variables p, q, r, and s. Which of the following is equivalent to q?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "p+r+s"
+      },
+      {
+        "label": "B",
+        "text": "49(p+r+s)"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{prs}{pr+ps+rs}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{prs}{49p+49r+49s}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 20,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "-2x 2 +bx-32=0\nIn the given equation, b is a positive integer The equation has no real solution. what is the largest possible value of b?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "15",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 21,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "For groups of 25 or more people, a museum charges \\$22 per person for the first 25 people and \\$14 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people,where n $\\ge$ 25?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "f(n)=14n+200"
+      },
+      {
+        "label": "B",
+        "text": "f(n)=14n+22"
+      },
+      {
+        "label": "C",
+        "text": "f(n)=14n+550"
+      },
+      {
+        "label": "D",
+        "text": "f(n)=36n-350"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_21"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
+    "question_number": 22,
+    "test_name": "October 2024 US Form C SAT Math Module 2",
+    "passage": "A right rectangular prism has a base area of 28p square centimeters (cm 2). The length of the base of the rectangular prism is 12 cm, and the height of the rectangular prism is 4 cm. Which expression represents the surface area, in cm 2, of the right rectangular prism?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{512p}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{224p}{3}+96$"
+      },
+      {
+        "label": "C",
+        "text": "56p+192"
+      },
+      {
+        "label": "D",
+        "text": "560p+96"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_22"
+  }
+]
