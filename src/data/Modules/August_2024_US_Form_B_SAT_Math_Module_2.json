@@ -1,35 +1,51 @@
 [
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "The graph of the linear function f is shown, where y = f(x). Which equation defines f?",
+    "passage": "The graph of the linear function * f * is shown, where * y *= * f(** x **) *. Which equation defines * f *?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ f(x)=\\frac{5}{8}x-1 $"
+        "text": "$f(x)=\\frac{5}{8}x-1$"
       },
       {
         "label": "B",
-        "text": "$ f(x)=\\frac{8}{5}x-1 $"
+        "text": "$f(x)=\\frac{8}{5}x-1$"
       },
       {
         "label": "C",
-        "text": "$ f(x)=-\\frac{5}{8}x-1 $"
+        "text": "$f(x)=-\\frac{5}{8}x-1$"
       },
       {
         "label": "D",
-        "text": "$ f(x)=-\\frac{8}{5}x-1 $"
+        "text": "$f(x)=-\\frac{8}{5}x-1$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_1"
+    "rationale": null,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_1",
+    "images": [
+      {
+        "src": "https://sat.oly.st/images/1b84f322ac95af733835b9d05ba99ada.png",
+        "alt": "",
+        "local": "images/August_2024_US_Form_B_SAT_Math_Module_2/q1_0_d046e22fee12.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "If 8(x + 3)= 64, what is the value of x + 3?",
+    "passage": "If 8(* x * + 3)= 64, what is the value of * x ** *+ 3?",
     "question_text": null,
     "choices": [
       {
@@ -51,39 +67,49 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_2"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "Which expression is equivalent to $\\sqrt{x^{153}}$, where x >0?",
+    "passage": "Which expression is equivalent to $\\sqrt{x^{153}}$, where * x * >0?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ x^{\\frac{2}{153}}$"
+        "text": "$x^{\\frac{2}{153}}$"
       },
       {
         "label": "B",
-        "text": "$ x^{\\frac{153}{2}}$"
+        "text": "$x^{\\frac{153}{2}}$"
       },
       {
         "label": "C",
-        "text": "$ x^{151}$"
+        "text": "$x^{151}$"
       },
       {
         "label": "D",
-        "text": "$ x^{306}$"
+        "text": "$x^{306}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_3"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "The complete graph of y= f(x) is shown. For how many values of x does f(x) =0?",
+    "passage": "The complete graph of* y= f(x) * is shown. For how many values of * x * does* f(x) *=0?",
     "question_text": null,
     "choices": [
       {
@@ -105,9 +131,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_4"
+    "rationale": null,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_4",
+    "images": [
+      {
+        "src": "https://sat.oly.st/images/544b406947627812e97029a63c87ddfc.png",
+        "alt": "",
+        "local": "images/August_2024_US_Form_B_SAT_Math_Module_2/q4_0_aefe4903dee4.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "August 2024 US Form B SAT Math Module 2",
     "passage": "The number of bacteria in a liquid medium doubles every hour: There are 44,000 bacteriain the liquid medium at the start of an observation, Which of the following represents thenumber of bacteria, y, in the liquid medium t hours after the start of the observation?",
@@ -115,80 +153,95 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ y=\\frac{1}{2}(44,000)^{t}$"
+        "text": "$y=\\frac{1}{2}(44,000)^{t}$"
       },
       {
         "label": "B",
-        "text": "$ y=$$ 2 (44,000)^{t}$"
+        "text": "$y=$ $2 (44,000)^{t}$"
       },
       {
         "label": "C",
-        "text": "$ y=44,000(\\frac{1}{2})^{t}$"
+        "text": "$y=44,000(\\frac{1}{2})^{t}$"
       },
       {
         "label": "D",
-        "text": "$ y=44,000(2)^{t}$"
+        "text": "$y=44,000(2)^{t}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_5"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "Which expression is equivalent to(6 t 4 -3 t 2 +3t-6)-(2 t 4 -4 t 3 + 6 t 2 - 6)?",
+    "passage": "Which expression is equivalent to(6* t * 4 -3* t * 2 +3t-6)-(2* t * 4 -4* t * 3 + 6* t * 2 - 6)?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 4t^{4}+4t^{3}-9t^{2}+3t-12 $"
+        "text": "$4t^{4}+4t^{3}-9t^{2}+3t-12$"
       },
       {
         "label": "B",
-        "text": "$ 4t^{4}+4t^{3}-9t^{2}+3t $"
+        "text": "$4t^{4}+4t^{3}-9t^{2}+3t$"
       },
       {
         "label": "C",
-        "text": "$ 4t^{4}+t^{3}+9t-12 $"
+        "text": "$4t^{4}+t^{3}+9t-12$"
       },
       {
         "label": "D",
-        "text": "$ 4t^{4}+t^{3}+3t $"
+        "text": "$4t^{4}+t^{3}+3t$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_6"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$ b-22=\\frac{x}{y}$ The given equation relates the positive numbers b, x, and y. Which equation correctly expresses x in terms of b and y?",
+    "passage": "$b-22=\\frac{x}{y}$\nThe given equation relates the positive numbers* b, x, * and* y *. Which equation correctly expresses * x * in terms of b and * y *?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ x=\\frac{by-22}{y}$"
+        "text": "$x=\\frac{by-22}{y}$"
       },
       {
         "label": "B",
-        "text": "$ x=by-22 $"
+        "text": "$x=by-22$"
       },
       {
         "label": "C",
-        "text": "$ x=by-22y $"
+        "text": "$x=by-22y$"
       },
       {
         "label": "D",
-        "text": "$ x=\\frac{b-22}{y}$"
+        "text": "$x=\\frac{b-22}{y}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_7"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "August 2024 US Form B SAT Math Module 2",
     "passage": "Ari examined a set of 86 plants. The lightest plant had a mass of 2.8 kilograms (kg) and the heaviest plant had a mass of 6.2 kg. Chihiro examined the same set of 86 plants and also an additional plant with a mass of 11.7 kg. Which of the following must be true about the set of plants that Ari examined and the set of plants that Chihiro examined?",
@@ -213,22 +266,32 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_8"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "A linear model estimates the population of a city from 1995 to 2019. The model estimates the population was 59 thousand in 1995, 217 thousand in 2015, and x thousand in 2019. To the nearest whole number, what is the value of x?",
+    "passage": "A linear model estimates the population of a city from 1995 to 2019. The model estimates the population was 59 thousand in 1995, 217 thousand in 2015, and * x * thousand in 2019. To the nearest whole number, what is the value of * x *?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "249",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_9"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "Triangles ABC and DEF are similar, where A corresponds to D, and B corresponds to E. The measure of angle A is 26°, and AB = 4. Which of the following statements must be true? I. The measure of angle D is 26° II. DE =4",
+    "passage": "Triangles * ABC * and* DEF * are similar, where * A * corresponds to* D *, and * B * corresponds to * E. * The measure of angle A is 26°, and * AB *= 4. Which of the following statements must be true?\nI. The measure of angle * D * is 26°\nII.* DE *=4",
     "question_text": null,
     "choices": [
       {
@@ -250,9 +313,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_10"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "August 2024 US Form B SAT Math Module 2",
     "passage": "A clothing store buys shirts at a wholesale price of 7.00 dollars each and resells them each at a retail price that is 260% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 75% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
@@ -260,12 +328,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "4.55",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_11"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$ f(x)=7,020(0.28)^{\\frac{x}{12}}$ The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the precedingyear, what is the value of p?",
+    "passage": "$f(x)=7,020(0.28)^{\\frac{x}{12}}$\nThe function *f* gives the value, in dollars, of a certain piece of equipment after *x* months of use. If the value of the equipment decreases each year by p% of its value the precedingyear, what is the value of *p*?",
     "question_text": null,
     "choices": [
       {
@@ -287,22 +360,32 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_12"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$ x^{2}+5x=47 $ The solutions to the given equation are $\\frac{m+\\sqrt{q}}{2}$ and $\\frac{m-\\sqrt{q}}{2}$, where m and q are integers. What is the value of m + q?",
+    "passage": "$x^{2}+5x=47$\nThe solutions to the given equation are $\\frac{m+\\sqrt{q}}{2}$ and $\\frac{m-\\sqrt{q}}{2}$, where * m * and * q * are integers. What is the value of * m *+ * q *?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "208",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_13"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "In the equation 7 x 2 +49 x +c=0, c is a constant. If the equation has exactly one real solution, what is the value of c?",
+    "passage": "In the equation 7* x * 2 +49* x *+c=0, * c * is a constant. If the equation has exactly one real solution, what is the value of c?",
     "question_text": null,
     "choices": [
       {
@@ -324,12 +407,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_14"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$ p(x)=2x^{2}+20x+15 $ What is the minimum value of the given function?",
+    "passage": "$p(x)=2x^{2}+20x+15$\nWhat is the minimum value of the given function?",
     "question_text": null,
     "choices": [
       {
@@ -351,12 +439,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_15"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$ 5x+7y=8 $ $ 30x+42y=48 $ For each real number r, which of the following points lies on the graph of each equation in the xy -plane for the given system?",
+    "passage": "$5x+7y=8$\n$30x+42y=48$\nFor each real number * r *, which of the following points lies on the graph of each equation in the * xy *-plane for the given system?",
     "question_text": null,
     "choices": [
       {
@@ -365,7 +458,7 @@
       },
       {
         "label": "B",
-        "text": "$(-\\frac{5r}{7}+\\frac{8}{7}, r)$"
+        "text": "$(-\\frac{5r}{7}+\\frac{8}{7},r)$"
       },
       {
         "label": "C",
@@ -378,69 +471,101 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_16"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "The length of each edge of a box is 94 centimeters, Each side of the box is in the shape of a square. The box does not have a lid, What is the exterior surface area, in square meters, of this box without a lid? (1 meter =100 centimeters)",
+    "passage": "The length of each edge of a box is 94 centimeters, Each side of the box is in the shape of a square. The box does not have a lid, What is the exterior surface area, in square <u> meters </u>, of this box without a lid? (1 meter =100 centimeters)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "4.418",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_17"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "2cos(90- a)°·cos b °+ sin(a +y)°·sin(90 -b)° In the given expression, a and b are constants such that sin a °= 0.50, cos b °= 0.99, and 0 < b< 90. What is the value of the given expression when y =0?",
+    "passage": "2cos(90-* a *)°·cos * b *°+ sin(* a +y *)°·sin(90 -b)°\nIn the given expression, * a *and * b * are constants such that sin * a *°= 0.50, cos * b *°= 0.99, and 0 < b< 90. What is the value of the given expression when * y *=0?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1.485",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_18"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "The scatterplot shows the relationship between two variables, x and y, for data set P. A line of best fit for the data is also shown. Data set Q is created by adding 540 units to the value of x for each data point from data set P. Which of the following could be an equation of a line of best fit for data set Q?",
+    "passage": "The scatterplot shows the relationship between two variables, * x * and * y *, for data set P. A line of best fit for the data is also shown. Data set Q is created by adding 540 units to the value of * x * for each data point from data set P. Which of the following could be an equation of a line of best fit for data set Q?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ y=-3+\\frac{35}{1,301}x $"
+        "text": "$y=-3+\\frac{35}{1,301}x$"
       },
       {
         "label": "B",
-        "text": "$ y= 9+\\frac{1}{131}x $"
+        "text": "$y= 9+\\frac{1}{131}x$"
       },
       {
         "label": "C",
-        "text": "$ y= 18+\\frac{1}{131}x $"
+        "text": "$y= 18+\\frac{1}{131}x$"
       },
       {
         "label": "D",
-        "text": "$ y= 26+\\frac{35}{1,301}x $"
+        "text": "$y= 26+\\frac{35}{1,301}x$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_19"
+    "rationale": null,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_19",
+    "images": [
+      {
+        "src": "https://sat.oly.st/images/394555d46284b28a52818fdf043d38b3.png",
+        "alt": "",
+        "local": "images/August_2024_US_Form_B_SAT_Math_Module_2/q19_0_e7188bf287d0.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "$\\sqrt{k-x}=57-x $ In the given equation, k is a constant. The equation has exactly one real solution. What is the minimum possible value of 4 k?",
+    "passage": "$\\sqrt{k-x}=57-x$\nIn the given equation, * k * is a constant. The equation has exactly one real solution. What is the minimum possible value of 4* k *?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "227",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_20"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "The functions f and g are defined by the given equations, where x $\\ge $ 0. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines, where x $\\ge $ 0? I. $ f(x)=16(1.25)^{x}+43 $ II. $ g(x)=6(0.75)^{x}$",
+    "passage": "The functions * f * and * g * are defined by the given equations, where * x * $\\ge$ 0. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines,where *x* * *$\\ge$ 0?\nI. $f(x)=16(1.25)^{x}+43$\nII. $g(x)=6(0.75)^{x}$",
     "question_text": null,
     "choices": [
       {
@@ -462,12 +587,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_21"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "August 2024 US Form B SAT Math Module 2",
-    "passage": "An object's speed is increasing at a rate of 12.1 meters per second squared. What is this rate, in miles per minute squared, rounded to the nearest tenth? (Use 1 mile = 1,609 meters.)",
+    "passage": "An object's speed is increasing at a rate of 12.1 meters per second squared. What is this rate, in <u> miles per minute squared </u>, rounded to the nearest tenth? (Use 1 mile = 1,609 meters.)",
     "question_text": null,
     "choices": [
       {
@@ -489,6 +619,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_22"
   }
 ]

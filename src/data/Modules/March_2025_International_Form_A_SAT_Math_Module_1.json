@@ -1,123 +1,98 @@
 [
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The cost y, in dollars, for a manufacturer to make x rings is represented by the line shown. What is the cost, in dollars, for the manufacturer to make 50 rings?",
+    "passage": "The cost y, in dollars, for a manufacturer to make x rings is represented by the line shown.\nWhat is the cost, in dollars, for the manufacturer to make 50 rings?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 100 $"
+        "text": "$100$"
       },
       {
         "label": "B",
-        "text": "$ 125 $"
+        "text": "$125$"
       },
       {
         "label": "C",
-        "text": "$ 175 $"
+        "text": "$175$"
       },
       {
         "label": "D",
-        "text": "$ 225 $"
+        "text": "$225$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_1"
+    "rationale": null,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_1",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q1_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlA_Math_M1_Q1_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to $ 9(x^{2}+6)$?",
+    "passage": "Which expression is equivalent to $9(x^{2}+6)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 9x^{2}+3 $"
+        "text": "$9x^{2}+3$"
       },
       {
         "label": "B",
-        "text": "$ 9x^{2}+6 $"
+        "text": "$9x^{2}+6$"
       },
       {
         "label": "C",
-        "text": "$ 9x^{2}+15 $"
+        "text": "$9x^{2}+15$"
       },
       {
         "label": "D",
-        "text": "$ 9x^{2}+54 $"
+        "text": "$9x^{2}+54$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_2"
   },
   {
-    "question_number": 3,
-    "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The solution to a system of linear equations is (5, 5). Which of the following could be the graph of the equations in the system?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q3.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "B",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q3_1.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "C",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q3_3.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "D",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q3_2.png",
-            "alt": ""
-          }
-        ]
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "D",
-    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_3"
-  },
-  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$ 7x+21=7x+k $ In the given equation, k is a constant. The equation has infinitely many solutions. What is the value of k?",
+    "passage": "$7x+21=7x+k$\nIn the given equation, k is a constant. The equation has infinitely many solutions. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "21",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_4"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The function $ f $ is defined by $ f(x)=2x-\\frac{1}{4}$. What is the y -intercept of the graph of $ y=f(x)$ in the xy -plane?",
+    "passage": "The function $f$ is defined by $f(x)=2x-\\frac{1}{4}$. What is the y -intercept of the graph of $y=f(x)$ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -139,73 +114,100 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_5"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The list gives the mass, in grams, of 5 ruffed lemurs. 3,810; 3,810; 3,530; 3,850; 3,550 What is the mean mass, in grams, of these 5 ruffed lemurs?",
+    "passage": "The list gives the mass, in grams, of 5 ruffed lemurs.\n3,810 ; 3,810 ; 3,530 ; 3,850 ; 3,550\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "3710",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_6"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The price of an object increased from $ 16 to $ 80. What was the percent increase in the price of the object?",
+    "passage": "The price of an object increased from \\$16 to \\$80. What was the percent increase in the price of the object?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 20%$"
+        "text": "$20%$"
       },
       {
         "label": "B",
-        "text": "$ 64%$"
+        "text": "$64%$"
       },
       {
         "label": "C",
-        "text": "$ 80%$"
+        "text": "$80%$"
       },
       {
         "label": "D",
-        "text": "$ 400%$"
+        "text": "$400%$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_7"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "In the figure shown, triangle $ CAE $ is similar to triangle $ CBD $. The measure of angle $ CBD $ is 59 °, and $ AE=28(BD).$ What is the measure of angle $ CAE $?",
+    "passage": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is 59 °, and $AE=28(BD).$ What is the measure of angle $CAE$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(28∙59)^\\circ $"
+        "text": "$(28∙59)^\\circ$"
       },
       {
         "label": "B",
-        "text": "$(28+59)^\\circ $"
+        "text": "$(28+59)^\\circ$"
       },
       {
         "label": "C",
-        "text": "$ 59^\\circ $"
+        "text": "$59^\\circ$"
       },
       {
         "label": "D",
-        "text": "$ 28^\\circ $"
+        "text": "$28^\\circ$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_8"
+    "rationale": null,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_8",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q8_1.svg",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlA_Math_M1_Q8_1.svg"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "March 2025 International Form A SAT Math Module 1",
     "passage": "A student needs at least 190 signatures from classmates to run for class president. The student collects 30 signatures on Monday and collects enough additional signatures on Tuesday to run for class president. Which inequality represents the number of additional signatures, s, that the student collects on Tuesday?",
@@ -213,117 +215,81 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ s+30\\le190 $"
+        "text": "$s+30\\le190$"
       },
       {
         "label": "B",
-        "text": "$ s+30\\ge190 $"
+        "text": "$s+30\\ge190$"
       },
       {
         "label": "C",
-        "text": "$ s-30\\le190 $"
+        "text": "$s-30\\le190$"
       },
       {
         "label": "D",
-        "text": "$ s-30\\ge190 $"
+        "text": "$s-30\\ge190$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_9"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to $ 7x^{6}-14x^{2}$, where $ x>0 $?",
+    "passage": "Which expression is equivalent to $7x^{6}-14x^{2}$, where $x>0$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 7(x^{3}-2x^{2})^{2}$"
+        "text": "$7(x^{3}-2x^{2})^{2}$"
       },
       {
         "label": "B",
-        "text": "$ x^{2}(7x-2)^{4}$"
+        "text": "$x^{2}(7x-2)^{4}$"
       },
       {
         "label": "C",
-        "text": "$ 7x^{2}(x-2)^{4}$"
+        "text": "$7x^{2}(x-2)^{4}$"
       },
       {
         "label": "D",
-        "text": "$ 7x^{2}(x^{4}-2)$"
+        "text": "$7x^{2}(x^{4}-2)$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_10"
   },
   {
-    "question_number": 11,
-    "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "A chemist performed an experiment using a set of beakers that can each be modeled by a right circular cylinder with a height of 53 millimeters. The equation $ y=53\\pi x^{2}$ gives the volume y, in cubic millimeters, of the right circular cylinder that models a beaker in this set, where x is the radius, in millimeters, of the base of the cylinder. Which graph best represents this equation in the xy -plane?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q11_1.svg",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "B",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q11_2.svg",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "C",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q11.svg",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "D",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q11_3.svg",
-            "alt": ""
-          }
-        ]
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "A",
-    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_11"
-  },
-  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$ 8x^{2}+13x=6 $ What is the positive solution to the given equation?",
+    "passage": "$8x^{2}+13x=6$\nWhat is the positive solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "3/8,0.375,.375",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_12"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "Harper has 110 in an account. Each year she expects to have 2.7 % more money in the account than she had the previous year. Which of the following models best describes how Harper expects the money in her account to change over time?",
+    "passage": "Harper has \\$110 in an account. Each year she expects to have 2.7 % more money in the account than she had the previous year. Which of the following models best describes how Harper expects the money in her account to change over time?",
     "question_text": null,
     "choices": [
       {
@@ -345,12 +311,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_13"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "In right triangle $ RST $, the sum of the measures of angle $ R $ and angle $ S $ is 90 degrees. The value of $ sin(R)$ is $\\frac{2\\sqrt{10}}{7}$. What is the value of $ cos(S)$?",
+    "passage": "In right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is 90 degrees. The value of $sin(R)$ is $\\frac{2\\sqrt{10}}{7}$. What is the value of $cos(S)$?",
     "question_text": null,
     "choices": [
       {
@@ -372,21 +343,26 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_14"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "Line t is defined by $ y=-\\frac{1}{2}x+14 $. Line s is perpendicular to line t in the xy -plane. What is the slope of line s?",
+    "passage": "Line t is defined by $y=-\\frac{1}{2}x+14$. Line s is perpendicular to line t in the xy -plane. What is the slope of line s?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 14 $"
+        "text": "$14$"
       },
       {
         "label": "B",
-        "text": "$ 2 $"
+        "text": "$2$"
       },
       {
         "label": "C",
@@ -399,63 +375,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_15"
   },
   {
-    "question_number": 16,
-    "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$ f(x)=8(2)^{\\frac{x}{4}}$ Which table gives four values of x and their corresponding values of $ f(x)$ for the given exponential function?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q16_2.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "B",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q16.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "C",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q16_3.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "D",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q16_1.png",
-            "alt": ""
-          }
-        ]
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "B",
-    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_16"
-  },
-  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The measure of angle $ C $ is $\\frac{3\\pi}{4}$ radians. What is the value of $ cos(C)$?",
+    "passage": "The measure of angle $C$ is $\\frac{3\\pi}{4}$ radians. What is the value of $cos(C)$?",
     "question_text": null,
     "choices": [
       {
@@ -477,19 +407,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_17"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$ 7y=-6x+2,170 $ $ 24x-28y=1,400 $ The solution to the given system of equations is $(x, y).$ What is the value of $ x+y $?",
+    "passage": "$7y=-6x+2,170$\n$24x-28y=1,400$\nThe solution to the given system of equations is $(x,y).$ What is the value of $x+y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "340",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_18"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "March 2025 International Form A SAT Math Module 1",
     "passage": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 23 % every 11.69 minutes. Which of the following equations could represent this model, where M is the estimated mass, in grams, of the sample t minutes after the researcher began observing the sample?",
@@ -497,42 +437,47 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ M=100(0.77)^{\\frac{t}{11.69}}$"
+        "text": "$M=100(0.77)^{\\frac{t}{11.69}}$"
       },
       {
         "label": "B",
-        "text": "$ M=100(0.77)^{t+11.69}$"
+        "text": "$M=100(0.77)^{t+11.69}$"
       },
       {
         "label": "C",
-        "text": "$ M=100(0.23)^{\\frac{t}{11.69}}$"
+        "text": "$M=100(0.23)^{\\frac{t}{11.69}}$"
       },
       {
         "label": "D",
-        "text": "$ M=100(0.23)^{t+11.69}$"
+        "text": "$M=100(0.23)^{t+11.69}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_19"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$-4∣5x+4∣+2=-14 $ What are all solutions to the given equation?",
+    "passage": "$-4∣5x+4∣+2=-14$\nWhat are all solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 0 $"
+        "text": "$0$"
       },
       {
         "label": "B",
-        "text": "$ 0 $ and $-\\frac{1}{5}$"
+        "text": "$0$ and $-\\frac{1}{5}$"
       },
       {
         "label": "C",
-        "text": "$ 0 $ and $-\\frac{8}{5}$"
+        "text": "$0$ and $-\\frac{8}{5}$"
       },
       {
         "label": "D",
@@ -541,9 +486,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_20"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "March 2025 International Form A SAT Math Module 1",
     "passage": "For the right circular cone shown. B is a point on the circumference of the base, and the length of segment AB (not shown) is 84 centimeters. If the height of the cone is 42 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
@@ -551,16 +501,29 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "74088",
-    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_21"
+    "rationale": null,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_21",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlA_Math_M1_Q21_1.svg",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlA_Math_M1_Q21_1.svg"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "A sphere has a volume of 247.00 cubic yards. What is the volume of the sphere, in cubic meters? (Use 1 yard = 0.914 meter.)",
+    "passage": "A sphere has a volume of 247.00 cubic yards. What is the volume of the sphere, in cubic <u>meters</u>? (Use 1 yard = 0.914 meter.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "188.6",
+    "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_22"
   }
 ]

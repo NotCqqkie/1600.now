@@ -1,59 +1,41 @@
 [
   {
-    "question_number": 1,
-    "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "The function g is defined by $ g(x)=19-x $. What is the value of $ g(4)$?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "$ 4 $"
-      },
-      {
-        "label": "B",
-        "text": "$ 15 $"
-      },
-      {
-        "label": "C",
-        "text": "$ 19 $"
-      },
-      {
-        "label": "D",
-        "text": "$ 23 $"
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "B",
-    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_1"
-  },
-  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "Micah deposited a total of 6,600 into two retirement accounts last year by depositing x dollars once each month into one account and y dollars twice each month into the other account. Which equation represents this situation?",
+    "passage": "Micah deposited a total of \\$ 6,600 into two retirement accounts last year by depositing x dollars once each month into one account and y dollars twice each month into the other account. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 6,600=12x+12y $"
+        "text": "$6,600=12x+12y$"
       },
       {
         "label": "B",
-        "text": "$ 6,600=12x+24y $"
+        "text": "$6,600=12x+24y$"
       },
       {
         "label": "C",
-        "text": "$ 6,600=24x+12y $"
+        "text": "$6,600=24x+12y$"
       },
       {
         "label": "D",
-        "text": "$ 6,600=24x+24y $"
+        "text": "$6,600=24x+24y$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_2"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "August 2025 International Form A SAT Math Module 2",
     "passage": "The measure of angle G is $\\frac{\\pi}{10}$ radians. If the measure of angle G is 9 n degrees, where n is a constant, what is the value of n?",
@@ -61,26 +43,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 2 $"
+        "text": "$2$"
       },
       {
         "label": "B",
-        "text": "$ 9 $"
+        "text": "$9$"
       },
       {
         "label": "C",
-        "text": "$ 10 $"
+        "text": "$10$"
       },
       {
         "label": "D",
-        "text": "$ 18 $"
+        "text": "$18$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_3"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "August 2025 International Form A SAT Math Module 2",
     "passage": "The ratio 6 to 3 is equivalent to the ratio 24 to 3 k, where k is a constant. What is the value of k?",
@@ -88,26 +75,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 0.75 $"
+        "text": "$0.75$"
       },
       {
         "label": "B",
-        "text": "$ 4 $"
+        "text": "$4$"
       },
       {
         "label": "C",
-        "text": "$ 12 $"
+        "text": "$12$"
       },
       {
         "label": "D",
-        "text": "$ 72 $"
+        "text": "$72$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_4"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "August 2025 International Form A SAT Math Module 2",
     "passage": "Which expression is equivalent to $(8nr^{2}+2nr)+(4n^{2}r+3nr)$?",
@@ -115,56 +107,66 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 12n^{2}r^{2}+5nr $"
+        "text": "$12n^{2}r^{2}+5nr$"
       },
       {
         "label": "B",
-        "text": "$ 12n^{3}r^{3}+5n^{2}r^{2}$"
+        "text": "$12n^{3}r^{3}+5n^{2}r^{2}$"
       },
       {
         "label": "C",
-        "text": "$ 32n^{3}r^{3}+6n^{2}r^{2}$"
+        "text": "$32n^{3}r^{3}+6n^{2}r^{2}$"
       },
       {
         "label": "D",
-        "text": "$ 8nr^{2}+4n^{2}r+5nr $"
+        "text": "$8nr^{2}+4n^{2}r+5nr$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_5"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "$ R=\\frac{0.43l}{A}$ The given equation relates the resistance R, in ohms, of a wire to its length $ l $, in meters, and its cross-sectional area A, in square meters. Which equation correctly expresses the length, in meters, of the wire in terms of its resistance, in ohms, and its cross-sectional area, in square meters?",
+    "passage": "$R=\\frac{0.43l}{A}$\nThe given equation relates the resistance R, in ohms, of a wire to its length $l$, in meters, and its cross-sectional area A, in square meters. Which equation correctly expresses the length, in meters, of the wire in terms of its resistance, in ohms, and its cross-sectional area, in square meters?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ l=\\frac{R-A}{0.43}$"
+        "text": "$l=\\frac{R-A}{0.43}$"
       },
       {
         "label": "B",
-        "text": "$ l=\\frac{R+A}{0.43}$"
+        "text": "$l=\\frac{R+A}{0.43}$"
       },
       {
         "label": "C",
-        "text": "$ l=\\frac{0.43R}{A}$"
+        "text": "$l=\\frac{0.43R}{A}$"
       },
       {
         "label": "D",
-        "text": "$ l=\\frac{AR}{0.43}$"
+        "text": "$l=\\frac{AR}{0.43}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_6"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "The graphs of $ y=-3x+7 $ and $ y=x-5 $ are shown. Point P (not shown) has coordinates $(3,-5)$ and lies in the shaded region. The coordinates of P satisfy which of the following inequalities? I. $ y x-5 $",
+    "passage": "The graphs of $y=-3x+7$ and $y=x-5$ are shown. Point P (not shown) has coordinates $(3,-5)$ and lies in the shaded region. The coordinates of P satisfy which of the following inequalities?\nI. $y\nII. $y>x-5$",
     "question_text": null,
     "choices": [
       {
@@ -186,9 +188,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_7"
+    "rationale": null,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_7",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlA_Math_M2_Q7_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlA_Math_M2_Q7_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "August 2025 International Form A SAT Math Module 2",
     "passage": "There is a linear relationship between x and y. The table shows three values of x and their corresponding values of y in terms of a constant n. What is the slope of the line that represents this relationship in the xy -plane?",
@@ -196,36 +210,53 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "24/5,4.8",
-    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_8"
+    "rationale": null,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_8",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlA_Math_M2_Q8_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlA_Math_M2_Q8_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "If $(\\frac{1}{2}x-\\frac{21}{2})^{2}-81=0 $, what is the value of $(x-21)^{2}$?",
+    "passage": "If $(\\frac{1}{2}x-\\frac{21}{2})^{2}-81=0$, what is the value of $(x-21)^{2}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 324 $"
+        "text": "$324$"
       },
       {
         "label": "B",
-        "text": "$ 162 $"
+        "text": "$162$"
       },
       {
         "label": "C",
-        "text": "$ 21 $"
+        "text": "$21$"
       },
       {
         "label": "D",
-        "text": "$ 9 $"
+        "text": "$9$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_9"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "August 2025 International Form A SAT Math Module 2",
     "passage": "Rectangles ABCD and EFGH are similar. The length of each side of EFGH is 6 times the length of the corresponding side of ABCD. The area of ABCD is 90 square units. What is the area, in square units, of EFGH?",
@@ -233,26 +264,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 15 $"
+        "text": "$15$"
       },
       {
         "label": "B",
-        "text": "$ 36 $"
+        "text": "$36$"
       },
       {
         "label": "C",
-        "text": "$ 540 $"
+        "text": "$540$"
       },
       {
         "label": "D",
-        "text": "$ 3,240 $"
+        "text": "$3,240$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_10"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "August 2025 International Form A SAT Math Module 2",
     "passage": "On a plot of land, 48.0 % of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 23.5 % of the square footage of the farmland, and there are buildings on exactly 16.0 % of the square footage of the pasture. If there are buildings on exactly p % of the square footage of the plot of land, what is the value of p?",
@@ -260,194 +296,253 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "19.6",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_11"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "The scatterplot shows data set A, which consists of the weights y, in pounds, of a Labrador retriever puppy at various ages, x, in months. The equation of a line of best fit for the relationship in data set A can be written as $ y=-5.1+8.7x $, where $ 2\\le x\\le6 $. The puppy was weighed again at 9 months old and weighed 52 pounds. Data set B consists of all the data points in data set A as well as the data point (9, 52). The equation of a line of best fit for data set B can be written as $ y=r+sx $, where r and s are constants and $ 2\\le x\\le9 $. Assuming the equations of the lines of best fit are calculated in the same way, which of the following is the best estimate for the value of s?",
+    "passage": "The scatterplot shows data set A, which consists of the weights y, in pounds, of a Labrador retriever puppy at various ages, x, in months. The equation of a line of best fit for the relationship in data set A can be written as $y=-5.1+8.7x$, where $2\\le x\\le6$.\nThe puppy was weighed again at 9 months old and weighed 52 pounds. Data set B consists of all the data points in data set A as well as the data point (9, 52). The equation of a line of best fit for data set B can be written as $y=r+sx$, where r and s are constants and $2\\le x\\le9$. Assuming the equations of the lines of best fit are calculated in the same way, which of the following is the best estimate for the value of s?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 5.9 $"
+        "text": "$5.9$"
       },
       {
         "label": "B",
-        "text": "$ 8.7 $"
+        "text": "$8.7$"
       },
       {
         "label": "C",
-        "text": "$ 13.8 $"
+        "text": "$13.8$"
       },
       {
         "label": "D",
-        "text": "$ 17.7 $"
+        "text": "$17.7$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_12"
+    "rationale": null,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_12",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlA_Math_M2_Q12_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlA_Math_M2_Q12_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "If $|16-2x|=58 $, which of the following is a value of $ 8-x $?",
+    "passage": "If $|16-2x|=58$, which of the following is a value of $8-x$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 0 $"
+        "text": "$0$"
       },
       {
         "label": "B",
-        "text": "$ 8 $"
+        "text": "$8$"
       },
       {
         "label": "C",
-        "text": "$ 29 $"
+        "text": "$29$"
       },
       {
         "label": "D",
-        "text": "$ 42 $"
+        "text": "$42$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_13"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "A book-of-the-month club charges $ 16 for the first book purchased during the month and an additional $ 11 for each book after the first. Which equation describes this situation, where y is the total cost, in dollars, for books purchased during a month, x is the number of books purchased during the month, and $ x>0 $?",
+    "passage": "A book-of-the-month club charges \\$ 16 for the first book purchased during the month and an additional \\$ 11 for each book after the first. Which equation describes this situation, where y is the total cost, in dollars, for books purchased during a month, x is the number of books purchased during the month, and $x>0$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ y=x+16 $"
+        "text": "$y=x+16$"
       },
       {
         "label": "B",
-        "text": "$ y=11x+16 $"
+        "text": "$y=11x+16$"
       },
       {
         "label": "C",
-        "text": "$ y=11(x-1)+16 $"
+        "text": "$y=11(x-1)+16$"
       },
       {
         "label": "D",
-        "text": "$ y=(x-1)+16 $"
+        "text": "$y=(x-1)+16$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_14"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "A company developed a plan to set the selling price of a product. The company determined that for a selling price of 120.00, zero products would be sold. For each $ 2.50 decrease in the selling price, the number of products sold would increase by one. For a revenue of exactly $ 1,437.50, which of the following could be the number of products sold? (revenue = price × number of products sold)",
+    "passage": "A company developed a plan to set the selling price of a product. The company determined that for a selling price of \\$ 120.00, zero products would be sold. For each \\$ 2.50 decrease in the selling price, the number of products sold would increase by one. For a revenue of exactly \\$ 1,437.50, which of the following could be the number of products sold? (revenue = price × number of products sold)",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 23 $"
+        "text": "$23$"
       },
       {
         "label": "B",
-        "text": "$ 24 $"
+        "text": "$24$"
       },
       {
         "label": "C",
-        "text": "$ 527 $"
+        "text": "$527$"
       },
       {
         "label": "D",
-        "text": "$ 1,440 $"
+        "text": "$1,440$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_15"
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "The equation of the graph shown is $ y=a^{x}+b $, where a and b are constants. What is the value of $ a-b $?",
+    "passage": "The equation of the graph shown is $y=a^{x}+b$, where a and b are constants. What is the value of $a-b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "11",
-    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_16"
+    "rationale": null,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_16",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlA_Math_M2_Q16_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlA_Math_M2_Q16_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "$ y=7x^{2}-bx-6 $ Which of the following equations is equivalent to the given equation, where b is a positive constant?",
+    "passage": "$y=7x^{2}-bx-6$\nWhich of the following equations is equivalent to the given equation, where b is a positive constant?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ y=7(x-\\frac{b}{14})^{2}-6-\\frac{b^{2}}{28}$"
+        "text": "$y=7(x-\\frac{b}{14})^{2}-6-\\frac{b^{2}}{28}$"
       },
       {
         "label": "B",
-        "text": "$ y=7(x-\\frac{b}{14})^{2}-6 $"
+        "text": "$y=7(x-\\frac{b}{14})^{2}-6$"
       },
       {
         "label": "C",
-        "text": "$ y=7(x+\\frac{b}{14})^{2}-6-\\frac{b^{2}}{28}$"
+        "text": "$y=7(x+\\frac{b}{14})^{2}-6-\\frac{b^{2}}{28}$"
       },
       {
         "label": "D",
-        "text": "$ y=7(x+\\frac{b}{14})^{2}-6 $"
+        "text": "$y=7(x+\\frac{b}{14})^{2}-6$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_17"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "The equation $ d=6t+210 $ gives the distance d, in feet, from a reference point on the surface of Mars to a Mars rover, where t is the number of minutes after the start of a period of observation. By how many feet does the Mars rover's distance from the reference point increase over a period of 20 minutes?",
+    "passage": "The equation $d=6t+210$ gives the distance d, in feet, from a reference point on the surface of Mars to a Mars rover, where t is the number of minutes after the start of a period of observation. By how many feet does the Mars rover's distance from the reference point increase over a period of 20 minutes?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 330 $"
+        "text": "$330$"
       },
       {
         "label": "B",
-        "text": "$ 230 $"
+        "text": "$230$"
       },
       {
         "label": "C",
-        "text": "$ 120 $"
+        "text": "$120$"
       },
       {
         "label": "D",
-        "text": "$ 6 $"
+        "text": "$6$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_18"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $(7x-410)^\\circ $. The sum of the measures of one of the acute angles and three of the obtuse angles is $(-14x+w)^\\circ $. What is the value of w?",
+    "passage": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $(7x-410)^\\circ$. The sum of the measures of one of the acute angles and three of the obtuse angles is $(-14x+w)^\\circ$. What is the value of w?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1360",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_19"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "The table summarizes the distribution of age and assigned group for 90 participants in a study. One of these participants will be selected at random. What is the probability of selecting a participant from group A, given that the participant is at least 10 years of age?",
+    "passage": "The table summarizes the distribution of age and assigned group for 90 participants in a study.\nOne of these participants will be selected at random. What is the probability of selecting a participant from group A, given that the participant is at least 10 years of age?",
     "question_text": null,
     "choices": [
       {
@@ -469,9 +564,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_20"
+    "rationale": null,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_20",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlA_Math_M2_Q20_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlA_Math_M2_Q20_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "August 2025 International Form A SAT Math Module 2",
     "passage": "A circle in the xy -plane has its center at $(2,9)$. Line t is tangent to this circle at the point $(a,-4)$, where a is a constant. The slope of line t is $\\frac{6}{5}$. What is the value of a?",
@@ -496,16 +603,22 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_21"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "August 2025 International Form A SAT Math Module 2",
-    "passage": "$-x^{2}+bx-49=0 $ In the given equation, b is an integer. The equation has no real solutions. What is the least possible value of b?",
+    "passage": "$-x^{2}+bx-49=0$\nIn the given equation, b is an integer. The equation has no real solutions. What is the least possible value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-13",
+    "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_22"
   }
 ]

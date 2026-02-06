@@ -1,8 +1,12 @@
 [
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase? Jessica Watson, who was the youngest person to sail nonstop and unassisted around the world, undoubtedly accomplished much, but to gain a lasting place in our historical memory, there is little that can ______ being the first to do something. For example, people will always remember that Jeanne Bare was the first woman to circumnavigate the world.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nJessica Watson, who was the youngest person to sail nonstop and unassisted around the world, undoubtedly accomplished much, but to gain a lasting place in our historical memory, there is little that can ______ being the first to do something. For example, people will always remember that Jeanne Bare was the first woman to circumnavigate the world.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -24,12 +28,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_1"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical and precise word? Ronyoung Kim creatively captures the Korean American immigrant experience in her novel Clay Walls by writing about a family from three ______ perspectives. The first section of the novel is from the mother Haesu's perspective, the second is from the father Chun's perspective, and the last is from the daughter Faye's perspective.",
+    "passage": "Which choice completes the text with the most logical and precise word?\nRonyoung Kim creatively captures the Korean American immigrant experience in her novel *Clay Walls* by writing about a family from three ______ perspectives. The first section of the novel is from the mother Haesu's perspective, the second is from the father Chun's perspective, and the last is from the daughter Faye's perspective.",
     "question_text": "Which choice completes the text with the most logical and precise word?",
     "choices": [
       {
@@ -51,12 +60,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_2"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase? In the mid-1980s, the price of vintage and even new baseball cards rose dramatically, which had the counterintuitive effect of ______ demand: buyers who hadn't previously wanted to purchase baseball cards thronged the market, believing prices would continue to rise and the cards could be resold later at a profit.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nIn the mid-1980s, the price of vintage and even new baseball cards rose dramatically, which had the counterintuitive effect of ______ demand: buyers who hadn't previously wanted to purchase baseball cards thronged the market, believing prices would continue to rise and the cards could be resold later at a profit.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -78,12 +92,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_3"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase? The fact that publications by University of California-Berkeley economist Bronwyn Hughes Hall, who studies innovation and economics, are so frequently cited in other scholars' work ______ the usefulness of her research for her peers—other economists clearly find her studies valuable for their own scholarship.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe fact that publications by University of California-Berkeley economist Bronwyn Hughes Hall, who studies innovation and economics, are so frequently cited in other scholars' work ______ the usefulness of her research for her peers—other economists clearly find her studies valuable for their own scholarship.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -105,12 +124,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_4"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice best describes the function of the underlined portion in the text as a whole? Shedding light on the thermal biology of fungi, research by Radamés Cordero et al. indicates that certain mushrooms (including Bolets separans and species from the genus Thelephora) can achieve a hypothermic state through evaporative cooling. Effects of this thermoregulation were not limited to the fungi's fruiting bodies and root-like hyphae: temperature reductions were observed in the air immediately surrounding the mushrooms. Though slight, the reductions inspired an air-cooling device; using approximately 400 grams of mushrooms, the team's prototype lowered the air temperature in a controlled environment by 10°C in forty minutes.",
+    "passage": "Which choice best describes the function of the underlined portion in the text as a whole?\nShedding light on the thermal biology of fungi, research by Radamés Cordero et al. indicates that certain mushrooms (including *Bolets separans* and species from the genus *Thelephora*) can achieve a hypothermic state through evaporative cooling. Effects of this thermoregulation were not limited to the fungi's fruiting bodies and root-like hyphae: <u>temperature reductions were observed in the air immediately surrounding the mushrooms</u>. Though slight, the reductions inspired an air-cooling device; using approximately 400 grams of mushrooms, the team's prototype lowered the air temperature in a controlled environment by 10°C in forty minutes.",
     "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
     "choices": [
       {
@@ -132,12 +156,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_5"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice best describes the function of the information about Grenada in the text as a whole? In Grenada, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by more than a third between 2000 and 2019. Such shifts are often explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise). Moses Pundo and Gavin Fraser's study of fuel use in Kenya shows this model to be reductive, however: household fuel use was heterogeneous, flexible, and influenced by several factors, including the age of the household head.",
+    "passage": "Which choice best describes the function of the information about Grenada in the text as a whole?\nIn Grenada, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by more than a third between 2000 and 2019. Such shifts are often explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise). Moses Pundo and Gavin Fraser's study of fuel use in Kenya shows this model to be reductive, however: household fuel use was heterogeneous, flexible, and influenced by several factors, including the age of the household head.",
     "question_text": "Which choice best describes the function of the information about Grenada in the text as a whole?",
     "choices": [
       {
@@ -159,12 +188,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_6"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "The text makes which point about the difference between the proportions of Quito residents and Lima residents using parks? In a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Quito, Ecuador, and Lima, Peru, were surveyed about parks in their cities. Of the 618 respondents from Quito, 82.9% indicated that they use the city's parks, and of the 663 respondents from Lima, 72.7% indicated using city parks. Given that the percentage of Quito respondents who reported living within a 10-minute walk of a park was much lower than that reported by Lima respondents, greater proximity alone can't explain the difference in park use.",
+    "passage": "The text makes which point about the difference between the proportions of Quito residents and Lima residents using parks?\nIn a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Quito, Ecuador, and Lima, Peru, were surveyed about parks in their cities. Of the 618 respondents from Quito, 82.9% indicated that they use the city's parks, and of the 663 respondents from Lima, 72.7% indicated using city parks. Given that the percentage of Quito respondents who reported living within a 10-minute walk of a park was much lower than that reported by Lima respondents, greater proximity alone can't explain the difference in park use.",
     "question_text": "The text makes which point about the difference between the proportions of Quito residents and Lima residents using parks?",
     "choices": [
       {
@@ -186,39 +220,49 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_7"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which finding, if true, would most directly support Martinez and colleagues' conclusion? The bird species Schistocichla leucostigma (the spot-winged antbird) shares some territory in French Guiana with Thamnomanes caesius (the cinereous antshrike), which emits a loud alarm call when it detects predators. Biologist Ari Martinez and colleagues recorded T. caesius alarm calls and played them in the vicinity of wild S. leucostigma. Finding that the birds often froze in place or scattered into vegetation upon hearing the calls, they concluded that S. leucostigma associates T. caesius alarm calls with danger.",
+    "passage": "Which finding, if true, would most directly support Martinez and colleagues' conclusion?\nThe bird species *Schistocichla leucostigma* (the spot-winged antbird) shares some territory in French Guiana with *Thamnomanes caesius* (the cinereous antshrike), which emits a loud alarm call when it detects predators. Biologist Ari Martinez and colleagues recorded *T. caesius* alarm calls and played them in the vicinity of wild *S. leucostigma*. Finding that the birds often froze in place or scattered into vegetation upon hearing the calls, they concluded that *S. leucostigma* associates *T. caesius* alarm calls with danger.",
     "question_text": "Which finding, if true, would most directly support Martinez and colleagues' conclusion?",
     "choices": [
       {
         "label": "A",
-        "text": "In some instances, S. leucostigma froze in place or scattered into vegetation when Martinez and colleagues approached but before they began playing sounds."
+        "text": "In some instances, *S. leucostigma* froze in place or scattered into vegetation when Martinez and colleagues approached but before they began playing sounds."
       },
       {
         "label": "B",
-        "text": "When Martinez and colleagues played control sounds of random noise in the vicinity of S. leucostigma, the birds displayed no reaction."
+        "text": "When Martinez and colleagues played control sounds of random noise in the vicinity of *S. leucostigma*, the birds displayed no reaction."
       },
       {
         "label": "C",
-        "text": "Other bird species than S. leucostigma also showed a tendency to freeze in place or scatter into vegetation when Martinez and colleagues played T. caesius alarm calls."
+        "text": "Other bird species than *S. leucostigma* also showed a tendency to freeze in place or scatter into vegetation when Martinez and colleagues played *T. caesius* alarm calls."
       },
       {
         "label": "D",
-        "text": "Martinez and colleagues played alarm calls from different T. caesius individuals and observed no significant variation in the responses of S. leucostigma."
+        "text": "Martinez and colleagues played alarm calls from different *T. caesius* individuals and observed no significant variation in the responses of *S. leucostigma*."
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_8"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Based on the text, which potential study design would be most likely to produce evidence that would enable Grasby et al. to answer their research question? The Lego Group's introduction of the Legoland theme park in 1968 is a quintessential instance of brand extension—the company leveraged its brand recognition as a toy manufacturer to enter a product category where it had not previously competed. An outstanding question is whether perceived category similarity predicts consumers' likelihood of purchasing brand extensions. To answer this question, Alicia Grasby et al. identified 30 extended-brand pairs (e.g., the same brand of wristwatch and necktie) in 52 weeks of purchases by approximately 60,000 households and, for each pair, calculated the change in probability of a brand in one category being purchased if the same brand was purchased in the other category.",
+    "passage": "Based on the text, which potential study design would be most likely to produce evidence that would enable Grasby et al. to answer their research question?\nThe Lego Group's introduction of the Legoland theme park in 1968 is a quintessential instance of brand extension—the company leveraged its brand recognition as a toy manufacturer to enter a product category where it had not previously competed. An outstanding question is whether perceived category similarity predicts consumers' likelihood of purchasing brand extensions. To answer this question, Alicia Grasby et al. identified 30 extended-brand pairs (e.g., the same brand of wristwatch and necktie) in 52 weeks of purchases by approximately 60,000 households and, for each pair, calculated the change in probability of a brand in one category being purchased if the same brand was purchased in the other category.",
     "question_text": "Based on the text, which potential study design would be most likely to produce evidence that would enable Grasby et al. to answer their research question?",
     "choices": [
       {
@@ -240,12 +284,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_9"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice most effectively uses data from the graph to complete the example? Neuroscientist Kiyohito Iigaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much). They then recruited participants to use the same scale to rate several sets of paintings in various styles and calculated the correlation between the ratings predicted by the model and those reported by the participants. Assuming participant P4 gave equal ratings to the abstract and cubist paintings, the data in the graph indicate the model predicted that ______",
+    "passage": "Which choice most effectively uses data from the graph to complete the example?\nNeuroscientist Kiyohito Iigaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much). They then recruited participants to use the same scale to rate several sets of paintings in various styles and calculated the correlation between the ratings predicted by the model and those reported by the participants. Assuming participant P4 gave equal ratings to the abstract and cubist paintings, the data in the graph indicate the model predicted that ______",
     "question_text": "Which choice most effectively uses data from the graph to complete the example?",
     "choices": [
       {
@@ -267,12 +316,24 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_10"
+    "rationale": null,
+    "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_10",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USA_Eng_M2_Q10_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USA_Eng_M2_Q10_1.png"
+      }
+    ]
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice most logically completes the text? Many studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water in North America. But Petri Porvari and Matti Verta did not find this correlation in a study conducted in Finland, leading some scientists to hypothesize that the association is particular to North America. However, several other studies conducted outside North America, such as one by Sara M. Ekstrom and colleagues in Sweden, showed similar results to the North American studies, while few have produced results similar to those of Porvari and Verta's study, suggesting that ______",
+    "passage": "Which choice most logically completes the text?\nMany studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water in North America. But Petri Porvari and Matti Verta did not find this correlation in a study conducted in Finland, leading some scientists to hypothesize that the association is particular to North America. However, several other studies conducted outside North America, such as one by Sara M. Ekstrom and colleagues in Sweden, showed similar results to the North American studies, while few have produced results similar to those of Porvari and Verta's study, suggesting that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -294,12 +355,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_11"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice most logically completes the text? Chelsea Wood et al. tracked temperature-driven changes in the abundance of Anisakis sp. (a complex life cycle parasite, or CLP, that requires three host species throughout its life cycle), Gyrodactylus sp. (a directly transmitted parasite, which requires only one host species), and 83 other parasite taxa found on eight fish species. CLPs are transmitted when an infected host is ingested by an individual of another species, typically shielding CLPs from the external environment, whereas directly transmitted parasites are exposed to external conditions during transmission. However, Wood et al. found that three-host CLP abundance decreased as sea temperatures rose, whereas directly transmitted parasite abundance was largely stable, suggesting that ______",
+    "passage": "Which choice most logically completes the text?\nChelsea Wood et al. tracked temperature-driven changes in the abundance of *Anisakis* sp. (a complex life cycle parasite, or CLP, that requires three host species throughout its life cycle), *Gyrodactylus* sp. (a directly transmitted parasite, which requires only one host species), and 83 other parasite taxa found on eight fish species. CLPs are transmitted when an infected host is ingested by an individual of another species, typically shielding CLPs from the external environment, whereas directly transmitted parasites are exposed to external conditions during transmission. However, Wood et al. found that three-host CLP abundance decreased as sea temperatures rose, whereas directly transmitted parasite abundance was largely stable, suggesting that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -321,12 +387,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_12"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice most logically completes the text? Prolonged exposure to anthropogenic noise (sounds from human sources like traffic or mining) can affect animals, as Amy Morris-Drake and colleagues found in a 2017 study of dwarf mongooses. Researchers conducted a meta-analysis of studies of how such noise affects animals and found that, for every study, relevant traits or behaviors of the animals were observably different between the exposed group and the otherwise similar but unexposed group. Although, on average, studies of mammals showed larger differences than studies of birds did, for every class of animals examined, there were individual studies showing differences well above the average for mammals. Therefore, the results of the meta-analysis suggest that ______",
+    "passage": "Which choice most logically completes the text?\nProlonged exposure to anthropogenic noise (sounds from human sources like traffic or mining) can affect animals, as Amy Morris-Drake and colleagues found in a 2017 study of dwarf mongooses. Researchers conducted a meta-analysis of studies of how such noise affects animals and found that, for every study, relevant traits or behaviors of the animals were observably different between the exposed group and the otherwise similar but unexposed group. Although, on average, studies of mammals showed larger differences than studies of birds did, for every class of animals examined, there were individual studies showing differences well above the average for mammals. Therefore, the results of the meta-analysis suggest that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -348,12 +419,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_13"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? Although the epic poem The Aeneid dates back to the 1st century BCE, ______ compelling narrative still captivates readers today.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlthough the epic poem *The Aeneid* dates back to the 1st century BCE, ______ compelling narrative still captivates readers today.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -375,12 +451,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_14"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? Most sand is beige because of deposits of gray- and tan-hued minerals, such as quartz and feldspar. The sand at Les Sables Roses Beach in French Polynesia is a more unusual ______ deposits of crushed coral and other organic matter lend the sand a unique pink hue.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMost sand is beige because of deposits of gray- and tan-hued minerals, such as quartz and feldspar. The sand at Les Sables Roses Beach in French Polynesia is a more unusual ______ deposits of crushed coral and other organic matter lend the sand a unique pink hue.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -402,12 +483,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_15"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? The poem \"The Ballad of Rudolph Reed,\" which was published in 1960, contains three signature elements of Gwendolyn Brooks's poetic ______ compressed lines infused with bursts of vivid imagery; syncopated rhythms, largely inspired by the blues tradition; and a keen attention to everyday life in Brooks's South Side Chicago neighborhood.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe poem \"The Ballad of Rudolph Reed,\" which was published in 1960, contains three signature elements of Gwendolyn Brooks's poetic ______ compressed lines infused with bursts of vivid imagery; syncopated rhythms, largely inspired by the blues tradition; and a keen attention to everyday life in Brooks's South Side Chicago neighborhood.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -429,12 +515,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_16"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? Neoclassical economic models assume that people consistently make rational economic decisions, but Francesca Gino of Harvard Business School makes no such assumption; behavioral economists such as Gino, whose research focuses on worker productivity, ______ that economic decision-making can in fact be highly irrational.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nNeoclassical economic models assume that people consistently make rational economic decisions, but Francesca Gino of Harvard Business School makes no such assumption; behavioral economists such as Gino, whose research focuses on worker productivity, ______ that economic decision-making can in fact be highly irrational.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -456,12 +547,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_17"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? While the greater adjutant (Leptoptilos dubius) can be found in places like Dong Khanthung in Laos and Chitwan National Park in Nepal, more than 80 percent of this endangered stork species is found in Assam, India. There, wildlife ______ is on the front lines of conservation efforts to bring adjutants back from near extinction.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile the greater adjutant (*Leptoptilos dubius*) can be found in places like Dong Khanthung in Laos and Chitwan National Park in Nepal, more than 80 percent of this endangered stork species is found in Assam, India. There, wildlife ______ is on the front lines of conservation efforts to bring adjutants back from near extinction.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -483,12 +579,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_18"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? The story of Chile's electrification is perhaps most readily understood by studying developments in several key years: 1916, when engineer Arturo Salazar attended the Pan-American Scientific Conference; 1936, when the study entitled \"politica eléctrica chilena\" was ______ 1943, when the national electrical plan was finalized.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe story of Chile's electrification is perhaps most readily understood by studying developments in several key years: 1916, when engineer Arturo Salazar attended the Pan-American Scientific Conference; 1936, when the study entitled \"politica eléctrica chilena\" was ______ 1943, when the national electrical plan was finalized.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -510,12 +611,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_19"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? The Greek dramatist Euripides's Cyclops, a satyr play, is an extant work: it can still be read. By contrast, lost works like Euripides's play about the hero Alcmaeon, Alcmaeon in Psophis —no copy of which exists—______ known to antiquarians only through references in extant works.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Greek dramatist Euripides's *Cyclops*, a satyr play, is an extant work: it can still be read. By contrast, lost works like Euripides's play about the hero Alcmaeon, *Alcmaeon in Psophis*—no copy of which exists—______ known to antiquarians only through references in extant works.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -537,12 +643,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_20"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical transition? Long thought to be sessile (immobile), adult Chelonibia testudinaria, barnacles that adhere to sea turtle shells, have been observed to shift slightly in position over time—a phenomenon that has been attributed to the barnacles' passive displacement by water currents. ______ a research team found that adult C. testudinaria moved toward the heads of their sea turtle hosts and thus against the prevailing water flow, behavior consistent with self-initiated locomotion.",
+    "passage": "Which choice completes the text with the most logical transition?\nLong thought to be sessile (immobile), adult *Chelonibia testudinaria*, barnacles that adhere to sea turtle shells, have been observed to shift slightly in position over time—a phenomenon that has been attributed to the barnacles' passive displacement by water currents. ______ a research team found that adult *C. testudinaria* moved toward the heads of their sea turtle hosts and thus against the prevailing water flow, behavior consistent with self-initiated locomotion.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -564,12 +675,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_21"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical transition? Marcia Rieke is a space scientist who works on the James Webb Space Telescope, or JWST. Thanks in part to Rieke's contributions, the telescope is now positioned near the Sun-Earth L2 Lagrange point, almost one million miles beyond Earth's orbit. ______ the JWST's predecessor, the Hubble Telescope, is only about 340 miles above Earth's surface.",
+    "passage": "Which choice completes the text with the most logical transition?\nMarcia Rieke is a space scientist who works on the James Webb Space Telescope, or JWST. Thanks in part to Rieke's contributions, the telescope is now positioned near the Sun-Earth L2 Lagrange point, almost one million miles beyond Earth's orbit. ______ the JWST's predecessor, the Hubble Telescope, is only about 340 miles above Earth's surface.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -591,12 +707,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_22"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
     "question_number": 23,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical transition? Photogrammetry and polygonal modeling, methods used by digital artists to create three-dimensional elements for video games, typically require software to process geometric shapes numbering in the thousands. ______ these approaches are more economical than surface model methods, which require more powerful and expensive processors to manage polygons numbering in the millions.",
+    "passage": "Which choice completes the text with the most logical transition?\nPhotogrammetry and polygonal modeling, methods used by digital artists to create three-dimensional elements for video games, typically require software to process geometric shapes numbering in the thousands. ______ these approaches are more economical than surface model methods, which require more powerful and expensive processors to manage polygons numbering in the millions.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -618,12 +739,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_23"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
     "question_number": 24,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical transition? The total solar eclipse of June 5, 762 BCE, was the second-longest total eclipse before the Dark Ages—7 minutes, 25 seconds long. Another memorable solar eclipse occurred on March 21, 424 BCE, but unlike the 762 BCE eclipse, the 424 BCE eclipse was annular. ______ the Moon didn't cover the Sun completely, instead creating an annulus, or \"ring of fire.\"",
+    "passage": "Which choice completes the text with the most logical transition?\nThe total solar eclipse of June 5, 762 BCE, was the second-longest total eclipse before the Dark Ages—7 minutes, 25 seconds long. Another memorable solar eclipse occurred on March 21, 424 BCE, but unlike the 762 BCE eclipse, the 424 BCE eclipse was annular. ______ the Moon didn't cover the Sun completely, instead creating an annulus, or \"ring of fire.\"",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -645,12 +771,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_24"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
     "question_number": 25,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "The student wants to indicate the size of the Coachella Valley NWR. Which choice most effectively uses relevant information from the notes to accomplish this goal? While researching a topic, a student has taken the following notes: The Coachella Valley National Wildlife Refuge (NWR) is a protected natural area in California. It encompasses 3,592 acres. It was established to safeguard the habitat of the Coachella Valley fringe-toed lizard, an endangered species. The Coachella Valley NWR is managed by the US Fish & Wildlife Service. The US Fish & Wildlife Service limits human activities in the area.",
+    "passage": "The student wants to indicate the size of the Coachella Valley NWR. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Coachella Valley National Wildlife Refuge (NWR) is a protected natural area in California.\n• It encompasses 3,592 acres.\n• It was established to safeguard the habitat of the Coachella Valley fringe-toed lizard, an endangered species.\n• The Coachella Valley NWR is managed by the US Fish & Wildlife Service.\n• The US Fish & Wildlife Service limits human activities in the area.",
     "question_text": "The student wants to indicate the size of the Coachella Valley NWR. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -672,12 +803,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_25"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
     "question_number": 26,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "The student wants to explain an advantage of the Antelope House dwelling site. Which choice most effectively uses relevant information from the notes to accomplish this goal? While researching a topic, a student has taken the following notes: Antelope House is an Ancestral Puebloan dwelling site located in northeastern Arizona. It was built under a rock overhang and inhabited from approximately 1050-1270 CE. The overhanging rock ledges offered protection from heavy rain and snow. Mud Springs Pueblo is an Ancestral Puebloan dwelling site located in southwestern Colorado. It was built on relatively flat terrain and inhabited from approximately 1200-1250 CE. This level surface allowed for the construction of large terraced buildings.",
+    "passage": "The student wants to explain an advantage of the Antelope House dwelling site. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Antelope House is an Ancestral Puebloan dwelling site located in northeastern Arizona.\n• It was built under a rock overhang and inhabited from approximately 1050-1270 CE.\n• The overhanging rock ledges offered protection from heavy rain and snow.\n• Mud Springs Pueblo is an Ancestral Puebloan dwelling site located in southwestern Colorado.\n• It was built on relatively flat terrain and inhabited from approximately 1200-1250 CE.\n• This level surface allowed for the construction of large terraced buildings.",
     "question_text": "The student wants to explain an advantage of the Antelope House dwelling site. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -699,12 +835,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_26"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
     "question_number": 27,
     "test_name": "December 2024 US Form A SAT English Module 2",
-    "passage": "The student wants to provide an explanation and example of Kepler's first law of planetary motion. Which choice most effectively uses relevant information from the notes to accomplish this goal? While researching a topic, a student has taken the following notes: Kepler's first law of planetary motion states that the orbit of a planet around the Sun is an ellipse. The law also states that, in an elliptical orbit, the object being orbited is one of the ellipse's foci. Kepler's laws of planetary motion also apply to natural satellites (e.g., moons). Europa is a moon of Jupiter that orbits the planet in 3.55 Earth days on average. Europa's orbit is elliptical.",
+    "passage": "The student wants to provide an explanation and example of Kepler's first law of planetary motion. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Kepler's first law of planetary motion states that the orbit of a planet around the Sun is an ellipse.\n• The law also states that, in an elliptical orbit, the object being orbited is one of the ellipse's foci.\n• Kepler's laws of planetary motion also apply to natural satellites (e.g., moons).\n• Europa is a moon of Jupiter that orbits the planet in 3.55 Earth days on average.\n• Europa's orbit is elliptical.",
     "question_text": "The student wants to provide an explanation and example of Kepler's first law of planetary motion. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -726,6 +867,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_27"
   }
 ]

@@ -24,8 +24,10 @@ import {
 import { intervalToDuration } from "date-fns";
 import { 
   ArrowLeft, CheckCircle2, XCircle, AlertCircle, Clock, 
-  User, Settings, LogOut, ChartBar, ChevronDown, Activity, BookOpen
+  User, Settings, LogOut, ChartBar, ChevronDown, Activity, BookOpen,
+  Palette
 } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import categoryMapDataRaw from "@/data/category_map.json";
 
 // Type definition for category map
@@ -155,6 +157,25 @@ const SettingsView = ({ user, handleResetProgress }: { user: any, handleResetPro
             <div className="text-xs font-mono text-muted-foreground break-all">
               {user?.id || "-"}
             </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+             <Palette className="w-5 h-5" />
+             Appearance
+          </CardTitle>
+          <CardDescription>Customize your interface experience</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="flex items-center justify-between">
+            <div>
+              <div className="font-medium">Theme Mode</div>
+              <div className="text-sm text-muted-foreground">Toggle between light and dark visual themes.</div>
+            </div>
+            <ThemeToggle />
           </div>
         </CardContent>
       </Card>

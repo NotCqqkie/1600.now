@@ -1,32 +1,41 @@
 [
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "The total cost $ f(x)$, in dollars, to lease a car for 24 months from a particular car dealership is given by $ f(x)=24x+1,000 $, where x is the monthly payment, in dollars. What is the total cost to lease a car when the monthly payment is 300?",
+    "passage": "The total cost $f(x)$, in dollars, to lease a car for 24 months from a particular car dealership is given by $f(x)=24x+1,000$, where x is the monthly payment, in dollars. What is the total cost to lease a car when the monthly payment is \\$300?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$$ 6,200"
+        "text": "$\\$6,200$"
       },
       {
         "label": "B",
-        "text": "$$ 7,000"
+        "text": "$\\$7,000$"
       },
       {
         "label": "C",
-        "text": "$$ 8,200"
+        "text": "$\\$8,200$"
       },
       {
         "label": "D",
-        "text": "$$ 25,300"
+        "text": "$\\$25,300$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_1"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "May 2025 International Form B SAT Math Module 2",
     "passage": "In the figure shown, line l intersects lines j and k. Which additional piece of information is sufficient to prove that lines j and k are parallel?",
@@ -34,80 +43,102 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ w=54 $"
+        "text": "$w=54$"
       },
       {
         "label": "B",
-        "text": "$ x=126 $"
+        "text": "$x=126$"
       },
       {
         "label": "C",
-        "text": "$ y=54 $"
+        "text": "$y=54$"
       },
       {
         "label": "D",
-        "text": "$ z=126 $"
+        "text": "$z=126$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_2"
+    "rationale": null,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_2",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlB_Math_M2_Q2_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlB_Math_M2_Q2_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$ 5x+3=rx+7 $ In the given equation, r is a constant. The equation has no solution. What is the value of r?",
+    "passage": "$5x+3=rx+7$\nIn the given equation, r is a constant. The equation has no solution. What is the value of r?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 21 $"
+        "text": "$21$"
       },
       {
         "label": "B",
-        "text": "$ 8 $"
+        "text": "$8$"
       },
       {
         "label": "C",
-        "text": "$ 7 $"
+        "text": "$7$"
       },
       {
         "label": "D",
-        "text": "$ 5 $"
+        "text": "$5$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_3"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "If $ 5(2x+9)=3(2x+9)+74 $, what is the value of $ 2x+9 $?",
+    "passage": "If $5(2x+9)=3(2x+9)+74$, what is the value of $2x+9$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 74 $"
+        "text": "$74$"
       },
       {
         "label": "B",
-        "text": "$ 37 $"
+        "text": "$37$"
       },
       {
         "label": "C",
-        "text": "$ 28 $"
+        "text": "$28$"
       },
       {
         "label": "D",
-        "text": "$ 14 $"
+        "text": "$14$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_4"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "May 2025 International Form B SAT Math Module 2",
     "passage": "If 350 % of n is 35, what is the value of n?",
@@ -115,26 +146,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 12,250 $"
+        "text": "$12,250$"
       },
       {
         "label": "B",
-        "text": "$ 1,225 $"
+        "text": "$1,225$"
       },
       {
         "label": "C",
-        "text": "$ 1,000 $"
+        "text": "$1,000$"
       },
       {
         "label": "D",
-        "text": "$ 10 $"
+        "text": "$10$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_5"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "May 2025 International Form B SAT Math Module 2",
     "passage": "The table shows two values of x and their corresponding values of h (x) for the linear function h. Which equation defines h?",
@@ -142,53 +178,70 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ h(x)=\\frac{1}{3}x-\\frac{5}{3}$"
+        "text": "$h(x)=\\frac{1}{3}x-\\frac{5}{3}$"
       },
       {
         "label": "B",
-        "text": "$ h(x)=3x+5 $"
+        "text": "$h(x)=3x+5$"
       },
       {
         "label": "C",
-        "text": "$ h(x)=4x+17 $"
+        "text": "$h(x)=4x+17$"
       },
       {
         "label": "D",
-        "text": "$ h(x)=6x+23 $"
+        "text": "$h(x)=6x+23$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_6"
+    "rationale": null,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_6",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlB_Math_M2_Q6_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlB_Math_M2_Q6_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$ y=x^{2}+17x+4 $ $ y=x+4 $ The graphs of the equations in the given system intersect at the point $(x, y)$ in the xy -plane. What is a possible value of x?",
+    "passage": "$y=x^{2}+17x+4$\n$y=x+4$\nThe graphs of the equations in the given system intersect at the point $(x,y)$ in the xy -plane. What is a possible value of x?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-16 $"
+        "text": "$-16$"
       },
       {
         "label": "B",
-        "text": "$-15 $"
+        "text": "$-15$"
       },
       {
         "label": "C",
-        "text": "$ 13 $"
+        "text": "$13$"
       },
       {
         "label": "D",
-        "text": "$ 15 $"
+        "text": "$15$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_7"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "May 2025 International Form B SAT Math Module 2",
     "passage": "A piece of string with a length of 108 inches is cut into two parts. One part has a length of x inches, and the other part has a length of y inches. The value of x is 8 more than 4 times the value of y. What is the value of x?",
@@ -196,26 +249,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 25 $"
+        "text": "$25$"
       },
       {
         "label": "B",
-        "text": "$ 29 $"
+        "text": "$29$"
       },
       {
         "label": "C",
-        "text": "$ 58 $"
+        "text": "$58$"
       },
       {
         "label": "D",
-        "text": "$ 88 $"
+        "text": "$88$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "May 2025 International Form B SAT Math Module 2",
     "passage": "A landscaper will plant two types of shrubs, hydrangeas and winter hazels, in a park. There will be no more than 244 total shrubs planted, and the number of hydrangeas planted will be at most three times the number of winter hazels planted. Which of the following systems of inequalities best represents this situation, where h is the number of hydrangeas that will be planted and w is the number of winter hazels that will be planted?",
@@ -223,29 +281,34 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ h+w\\le244 $\n$ h\\le3w $"
+        "text": "$h+w\\le244$\n$h\\le3w$"
       },
       {
         "label": "B",
-        "text": "$ h+w\\le244 $\n$ 3h\\ge w $"
+        "text": "$h+w\\le244$\n$3h\\ge w$"
       },
       {
         "label": "C",
-        "text": "$ h+w\\ge244 $\n$ h\\le3w $"
+        "text": "$h+w\\ge244$\n$h\\le3w$"
       },
       {
         "label": "D",
-        "text": "$ h+w\\ge244 $\n$ 3h\\ge w $"
+        "text": "$h+w\\ge244$\n$3h\\ge w$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_9"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$ y\\le x+3 $ $ y\\ge-3x-7 $ Which point $(x, y)$ is a solution to the given system of inequalities in the xy -plane?",
+    "passage": "$y\\le x+3$\n$y\\ge-3x-7$\nWhich point $(x,y)$ is a solution to the given system of inequalities in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -267,12 +330,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_10"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$ 3x^{2}-5x-5=0 $ What is the greatest solution to the given equation?",
+    "passage": "$3x^{2}-5x-5=0$\nWhat is the greatest solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -294,22 +362,32 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_11"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$ f(x)=-0.0038400x^{2}+15.236x-15,103 $ The model shown gives the predicted average Arctic sea ice area $ f(x)$, in millions of square kilometers, for September of each year x, where x represents a year and $ 1979\\le x\\le2012 $. Based on the model, what is the positive difference, in millions of square kilometers, between the predicted average Arctic sea ice area for September of the year 1991 and the predicted average Arctic sea ice area for September of the year 1992? (Round your answer to the nearest thousandth.)",
+    "passage": "$f(x)=-0.0038400x^{2}+15.236x-15,103$\nThe model shown gives the predicted average Arctic sea ice area $f(x)$, in millions of square kilometers, for September of each year x, where x represents a year and $1979\\le x\\le2012$. Based on the model, what is the positive difference, in millions of square kilometers, between the predicted average Arctic sea ice area for September of the year 1991 and the predicted average Arctic sea ice area for September of the year 1992? (Round your answer to the nearest thousandth.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "0.059",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_12"
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "What is the y -intercept of the graph of $ y=(\\frac{8}{13})^{x+1}$ in the xy -plane?",
+    "passage": "What is the y -intercept of the graph of $y=(\\frac{8}{13})^{x+1}$ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -331,76 +409,96 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_13"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$ f(x)=x^{2}-4x-320 $ The function $ f $ is defined by the given equation. Which of the following equivalent forms of the equation displays the minimum value of the function as a constant or coefficient?",
+    "passage": "$f(x)=x^{2}-4x-320$\nThe function $f$ is defined by the given equation. Which of the following equivalent forms of the equation displays the minimum value of the function as a constant or coefficient?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ f(x)=x^{2}-4(x+80)$"
+        "text": "$f(x)=x^{2}-4(x+80)$"
       },
       {
         "label": "B",
-        "text": "$ f(x)=(x-2)^{2}+(-324)$"
+        "text": "$f(x)=(x-2)^{2}+(-324)$"
       },
       {
         "label": "C",
-        "text": "$ f(x)=x(x-4)+(-320)$"
+        "text": "$f(x)=x(x-4)+(-320)$"
       },
       {
         "label": "D",
-        "text": "$ f(x)=(x+16)(x-20)$"
+        "text": "$f(x)=(x+16)(x-20)$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_14"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "Line s in the xy -plane is defined by $ 6x+2y=0 $. Line t is perpendicular to line s and passes through the points $(7,0)$ and $(k,\\frac{4}{3})$. What is the value of k?",
+    "passage": "Line s in the xy -plane is defined by $6x+2y=0$. Line t is perpendicular to line s and passes through the points $(7,0)$ and $(k,\\frac{4}{3})$. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "11",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_15"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$ g(x)=x^{3}+ax^{2}+bx+c $ The function g is defined by the given equation, where a, b, and c are integer constants. The zeros of the function are $-2 $, $-7 $, and $ 6 $. What is the value of a?",
+    "passage": "$g(x)=x^{3}+ax^{2}+bx+c$\nThe function g is defined by the given equation, where a, b, and c are integer constants. The zeros of the function are $-2$, $-7$, and $6$. What is the value of a?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-84 $"
+        "text": "$-84$"
       },
       {
         "label": "B",
-        "text": "$-3 $"
+        "text": "$-3$"
       },
       {
         "label": "C",
-        "text": "$ 3 $"
+        "text": "$3$"
       },
       {
         "label": "D",
-        "text": "$ 84 $"
+        "text": "$84$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_16"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "The weight of each object in two groups, A and B, was recorded. The histograms represent the distributions of weight, in grams, for the objects in groups A and B. The mean weight of the objects in group A is equal to 2.1, and the mean weight of the objects in group B is equal to 11.1. Which of the following statements about the standard deviations of weight for the objects in these two groups is true?",
+    "passage": "The weight of each object in two groups, A and B, was recorded. The histograms represent the distributions of weight, in grams, for the objects in groups A and B.\nThe mean weight of the objects in group A is equal to 2.1, and the mean weight of the objects in group B is equal to 11.1. Which of the following statements about the standard deviations of weight for the objects in these two groups is true?",
     "question_text": null,
     "choices": [
       {
@@ -422,39 +520,56 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_17"
+    "rationale": null,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_17",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlB_Math_M2_Q17_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlB_Math_M2_Q17_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "A carpenter charges a flat rate of $ 216 for the first 3 hours of work and $ 60 for each additional hour of work. Which equation gives the total amount y, in dollars, that the carpenter charges for x hours of work, where $ x>3 $?",
+    "passage": "A carpenter charges a flat rate of \\$216 for the first 3 hours of work and \\$60 for each additional hour of work. Which equation gives the total amount y, in dollars, that the carpenter charges for x hours of work, where $x>3$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ y=60x+216 $"
+        "text": "$y=60x+216$"
       },
       {
         "label": "B",
-        "text": "$ y=216x+396 $"
+        "text": "$y=216x+396$"
       },
       {
         "label": "C",
-        "text": "$ y=60x+36 $"
+        "text": "$y=60x+36$"
       },
       {
         "label": "D",
-        "text": "$ y=216x+60 $"
+        "text": "$y=216x+60$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_18"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$\\frac{46}{p}=\\frac{46}{q}-\\frac{46}{r}-\\frac{46}{s}$ The given equation relates the positive variables p, q, r, and s. Which of the following is equivalent to q?",
+    "passage": "$\\frac{46}{p}=\\frac{46}{q}-\\frac{46}{r}-\\frac{46}{s}$\nThe given equation relates the positive variables p, q, r, and s. Which of the following is equivalent to q?",
     "question_text": null,
     "choices": [
       {
@@ -467,28 +582,45 @@
       },
       {
         "label": "C",
-        "text": "$ p+r+s $"
+        "text": "$p+r+s$"
       },
       {
         "label": "D",
-        "text": "$ 46(p+r+s)$"
+        "text": "$46(p+r+s)$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_19"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "In the figure, $\\overline{AD}$ and $\\overline{BC}$ intersect at point $ D $. The measure of $∠ABD $ is $ w^\\circ $, the measure of $∠CAD $ is $ z^\\circ $, and $ AD=178 $. If $ cosw^\\circ=\\frac{9}{41}$, what is the value of $ tanz^\\circ $?",
+    "passage": "In the figure, $\\overline{AD}$ and $\\overline{BC}$ intersect at point $D$. The measure of $∠ABD$ is $w^\\circ$, the measure of $∠CAD$ is $z^\\circ$, and $AD=178$. If $cosw^\\circ=\\frac{9}{41}$, what is the value of $tanz^\\circ$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "40/9,4.444",
-    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_20"
+    "rationale": null,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_20",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlB_Math_M2_Q20_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlB_Math_M2_Q20_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "May 2025 International Form B SAT Math Module 2",
     "passage": "A right square pyramid has a total surface area of 70,560 square inches, and the combined surface area of the four lateral faces of this pyramid is 38,160 square inches. What is the height, in inches, of this pyramid?",
@@ -496,33 +628,39 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 56 $"
+        "text": "$56$"
       },
       {
         "label": "B",
-        "text": "$ 90 $"
+        "text": "$90$"
       },
       {
         "label": "C",
-        "text": "$ 106 $"
+        "text": "$106$"
       },
       {
         "label": "D",
-        "text": "$ 180 $"
+        "text": "$180$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_21"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$\\frac{1}{cx}=\\frac{x}{96}+\\frac{1}{c}$ In the given equation, c is a constant. If the equation has exactly one solution, what is the value of c?",
+    "passage": "$\\frac{1}{cx}=\\frac{x}{96}+\\frac{1}{c}$\nIn the given equation, c is a constant. If the equation has exactly one solution, what is the value of c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-24",
+    "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_22"
   }
 ]

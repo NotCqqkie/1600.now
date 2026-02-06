@@ -1,8 +1,12 @@
 [
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "December 2024 International Form A SAT Math Module 1",
-    "passage": "The graph of a system of two linear equations is shown. The solution to the system is (x, y). What is the value of y?",
+    "passage": "The graph of a system of two linear equations is shown. The solution to the system is (x, y).\nWhat is the value of y?",
     "question_text": null,
     "choices": [
       {
@@ -24,9 +28,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_1"
+    "rationale": null,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_1",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_IntlA_Math_M1_Q1_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_IntlA_Math_M1_Q1_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "The function f is defined by f(x)= 15x + 10. What is the value of f(x) when x = 2?",
@@ -51,9 +67,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_2"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "In the xy-plane, the graph of y = f(x) is a line that passes through (0, 21) and has a slope of 4. Which equation defines f?",
@@ -61,26 +82,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ f(x)=21x $"
+        "text": "$f(x)=21x$"
       },
       {
         "label": "B",
-        "text": "$ f(x)=21x+4 $"
+        "text": "$f(x)=21x+4$"
       },
       {
         "label": "C",
-        "text": "$ f(x)=4x $"
+        "text": "$f(x)=4x$"
       },
       {
         "label": "D",
-        "text": "$ f(x)=4x+21 $"
+        "text": "$f(x)=4x+21$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_3"
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "The table shows three values of x and their corresponding values of y. There is a linear relationship between x and y, Which of the following equations represents this relationship?",
@@ -88,29 +114,41 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ y=x+22 $"
+        "text": "$y=x+22$"
       },
       {
         "label": "B",
-        "text": "$ y=24x $"
+        "text": "$y=24x$"
       },
       {
         "label": "C",
-        "text": "$ y=24x+2 $"
+        "text": "$y=24x+2$"
       },
       {
         "label": "D",
-        "text": "$ y=22x $"
+        "text": "$y=22x$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_4"
+    "rationale": null,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_4",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_IntlA_Math_M1_Q4_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_IntlA_Math_M1_Q4_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "December 2024 International Form A SAT Math Module 1",
-    "passage": "$ y=\\frac{2}{5}x+2 $ One of the two equations in a system of linear equations is given. The system has infinitely many solutions. If the second equation in the system is y = mx + b, where m and b are constants, what is the value of b?",
+    "passage": "$y=\\frac{2}{5}x+2$\nOne of the two equations in a system of linear equations is given. The system has infinitely many solutions. If the second equation in the system is y = mx + b, where m and b are constants, what is the value of b?",
     "question_text": null,
     "choices": [
       {
@@ -132,9 +170,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_5"
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "An object was launched upward from a phatform. The graph shown models the height ahove ground, y. in meters, of the object x seconds after it was launched. For which of the following intervals of time was the height of the object increasing for the entire interval?",
@@ -159,9 +202,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6"
+    "rationale": null,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_IntlA_Math_M1_Q6_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_IntlA_Math_M1_Q6_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "The relationship between the variables r and yis defined by an exponential equation. When x = 0, the value of y is 90, and for every increase in the value of x by 1, the corresponding value of y increases by 20% of its previous value. Which equation represents this relationship?",
@@ -169,26 +224,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ y=90(1.20)^{x}$"
+        "text": "$y=90(1.20)^{x}$"
       },
       {
         "label": "B",
-        "text": "$ y=90(1.02)^{x}$"
+        "text": "$y=90(1.02)^{x}$"
       },
       {
         "label": "C",
-        "text": "$ y=20(1.90)^{x}$"
+        "text": "$y=20(1.90)^{x}$"
       },
       {
         "label": "D",
-        "text": "$ y=20(1.09)^{x}$"
+        "text": "$y=20(1.09)^{x}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_7"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "The table shows the amount of time it took a participant in a study to complete eachtasks. What was the mean time, in minutes, for this participant to complete a task?",
@@ -213,9 +273,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_8"
+    "rationale": null,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_8",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_IntlA_Math_M1_Q8_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_IntlA_Math_M1_Q8_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "The function h is defined by h(x)=7|x|. What is the value of h(-2)?",
@@ -240,9 +312,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_9"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "Which of the following is closest to the slope of the line of best fit shown?",
@@ -267,9 +344,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_10"
+    "rationale": null,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_10",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_IntlA_Math_M1_Q10_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_IntlA_Math_M1_Q10_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "In the figure, line q is parallel to line r, and both lines are intersected by line s. lf y= 2x + 7, what is the value of x?",
@@ -294,19 +383,36 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_11"
+    "rationale": null,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_11",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_IntlA_Math_M1_Q11_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_IntlA_Math_M1_Q11_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "December 2024 International Form A SAT Math Module 1",
-    "passage": "Raheem bought 9 shirts that were each the same price. He used a coupon for $ 54 off the entire purchase. The cost for the entire purchase after using the coupon was $ 108. What was the original price, in dollars, for 1 shirt?",
+    "passage": "Raheem bought 9 shirts that were each the same price. He used a coupon for \\$54 off the entire purchase. The cost for the entire purchase after using the coupon was \\$108. What was the original price, in dollars, for 1 shirt?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "18",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_12"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "Line t in the xy-plane has a slope of $-\\frac{1}{3}$ and passes through the point (9, 4). Which equation defnes line t?",
@@ -314,39 +420,49 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ y=7x-\\frac{1}{3}$"
+        "text": "$y=7x-\\frac{1}{3}$"
       },
       {
         "label": "B",
-        "text": "$ y=9x+4 $"
+        "text": "$y=9x+4$"
       },
       {
         "label": "C",
-        "text": "$ y=-\\frac{x}{3}+4 $"
+        "text": "$y=-\\frac{x}{3}+4$"
       },
       {
         "label": "D",
-        "text": "$ y=-\\frac{x}{3}+7 $"
+        "text": "$y=-\\frac{x}{3}+7$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_13"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "December 2024 International Form A SAT Math Module 1",
-    "passage": "$(x-16)(x-12)(x+7)(x+13)=0 $ What is a positive solution to the given equation?",
+    "passage": "$(x-16)(x-12)(x+7)(x+13)=0$\nWhat is a positive solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "16,12",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_14"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "December 2024 International Form A SAT Math Module 1",
-    "passage": "A right circular cone has a height of 13 centimeters (cm) and a base with a radius of 6 cm. What is the volume, in cm³, of this cone?",
+    "passage": "A right circular cone has a height of 13 centimeters (cm) and a base with a radius of 6 cm.\nWhat is the volume, in cm³, of this cone?",
     "question_text": null,
     "choices": [
       {
@@ -368,9 +484,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_15"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "A linear model estimates the population of a city from 1995 to 2019. The model estimates the population was 55 thousand in 1995, 217 thousand in 2015, and x thousand in 2019. To the nearest whole number, what is the value of x?",
@@ -378,12 +499,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "249",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_16"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "December 2024 International Form A SAT Math Module 1",
-    "passage": "$ y=500(2)^{2x}$ The equation gives the estimated number of online newsletter subscribers at the end ofevery six-month period, x, starting from the end of january 1997, where 0 < x < 4. Which statement is the best interpretation of the y intercept of the graph of this equation in the xy-plane?",
+    "passage": "$y=500(2)^{2x}$\nThe equation gives the estimated number of online newsletter subscribers at the end ofevery six-month period, x, starting from the end of january 1997, where 0 < x < 4. Which statement is the best interpretation of the y intercept of the graph of this equation in the xy-plane?",
     "question_text": null,
     "choices": [
       {
@@ -405,19 +531,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_17"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "December 2024 International Form A SAT Math Module 1",
-    "passage": "$\\frac{x}{7}+5(y-14)=29 $ $\\frac{x}{3}-5(y-14)=41 $ The solution to the given system of equations is (x, y). What is the value of 10x?",
+    "passage": "$\\frac{x}{7}+5(y-14)=29$\n$\\frac{x}{3}-5(y-14)=41$\nThe solution to the given system of equations is (x, y). What is the value of 10x?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1470",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_18"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "When several resistors are connected in series in a circuit, the total resistance of the circuitis the sum of the resistances of these resistors. A certain circuit consists of 8 resistors connected in series, where the resistance of each resistor is positive, This circuit has a total resistance of 130 ohms. The total resistance of 3 resistors in this circuit is 90 ohms. Which inequality best represents all possible values of the resistance c, in ohms, of one of the other 5 resistors in this circuit?",
@@ -425,26 +561,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "0"
+        "text": "$0"
       },
       {
         "label": "B",
-        "text": "0"
+        "text": "$0"
       },
       {
         "label": "C",
-        "text": "40"
+        "text": "$40"
       },
       {
         "label": "D",
-        "text": "40"
+        "text": "$40"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_19"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "A family has money in an account for renting movies online. Each time the family rents a movie, the cost of the rental is with drawn from the account, and each rental costs the same amount of money. The function f(m)=21 - 3m gives the amount of money, in dollars, inthe account after the family has rented m movies. Which of the following represents the amount of money, in dollars, withdrawn from the account each time the family rents a movie?",
@@ -469,9 +610,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_20"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "If 9-4(4-9x)=2-5(4-9x), what is the value of 4- 9x?",
@@ -479,9 +625,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-7",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_21"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "December 2024 International Form A SAT Math Module 1",
     "passage": "On a plot of land, 52.0% of the square footage is farmland and the remainingsquare footage is pasture. There are buildings on exactly 2l.5% of the square footage of the farmland, and there are buildings on exactly 14.0% of the square footage of the pasture. If there are buildings on exactly p% of the square footage ofthe plot of land, what is the value of p?",
@@ -489,6 +640,7 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "17.9",
+    "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_22"
   }
 ]

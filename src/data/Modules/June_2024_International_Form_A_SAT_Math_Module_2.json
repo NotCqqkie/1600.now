@@ -1,5 +1,9 @@
 [
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "An object's average acceleration, in meters per second squared, is the change in the object's speed, in meters per second, divided by the time during which the change occurred, in seconds. A certain object's speed changes by 22 meters per second in 8 seconds. What is this object's average acceleration, in meters per second squared, during this time period?",
@@ -24,12 +28,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_1"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "x + 47 = y (x + 47) 2 = y A solution to the given system of equations is (x, y). What is a possible value of x?",
+    "passage": "x + 47 = y\n(x + 47) 2 = y\nA solution to the given system of equations is (x, y). What is a possible value of x?",
     "question_text": null,
     "choices": [
       {
@@ -51,12 +60,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_2"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "f(x) = 50 x + 8 The given function f estimates the distance a train has traveled, in kilometers, from a station in a certain city x hours after crossing the city border. What is the best interpretation of 8 in this context?",
+    "passage": "f(x) = 50 x + 8\nThe given function f estimates the distance a train has traveled, in kilometers, from a station in a certain city x hours after crossing the city border. What is the best interpretation of 8 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -78,12 +92,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "$\\frac{1}{6}(x+2)-\\frac{1}{5}(x+2)=-5 $ What value of x is the solution to the given equation?",
+    "passage": "$\\frac{1}{6}(x+2)-\\frac{1}{5}(x+2)=-5$\nWhat value of x is the solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -105,9 +124,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_4"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "The function g is defined by g(x) = x - 18. What is the x -coordinate of the x-intercept of the graph of y= g(x) in the xy -plane?",
@@ -115,12 +139,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "18",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_5"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "A sum of 4,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposit or withdrawals were made after that. The function f(x)= 4,000(1+0.02) x gives the vale of the CD. In dollars, x years after the investment was initially made, where x $\\le $ 5. Which of the following is the best interpretation of the statement “f(2) is approximately equal to 4,186.12\" in this context?",
+    "passage": "A sum of 4,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposit or withdrawals were made after that. The function f(x)= 4,000(1+0.02) x gives the vale of the CD. In dollars, x years after the investment was initially made, where x $\\le$ 5. Which of the following is the best interpretation of the statement “f(2) is approximately equal to 4,186.12\" in this context?",
     "question_text": null,
     "choices": [
       {
@@ -142,9 +171,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_6"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "Two students are playing a game. In the first round, Player 1 answers 33 questions, If an answer is correct, Player l earns l point, If an answer is incorrect, Player 2 will earn l point instead. The graph shows y = f(x), where y is the number of points Player 2 will earn when x is the number of points Player l earns. Which of the following is the best interpretation of the point (33,0) in this context?",
@@ -169,9 +203,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7"
+    "rationale": null,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_IntlA_Math_M2_Q7_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_IntlA_Math_M2_Q7_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "Which expression is a factor of 7 x 2 - 9 x + 14 x = 18?",
@@ -196,22 +242,39 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "The graph shows the momentum y, in newton-seconds, of an object x seconds after the object started moving, for 0 $\\le $ x $\\le $ 8, What is the average rate of change, in newton-seconds per second, in the momentum of the object from x = 2 to x =6?",
+    "passage": "The graph shows the momentum y, in newton-seconds, of an object x seconds after the object started moving, for 0 $\\le$ x $\\le$ 8, What is the average rate of change, in newton-seconds per second, in the momentum of the object from x = 2 to x =6?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1.5,3/2",
-    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_9"
+    "rationale": null,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_9",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_IntlA_Math_M2_Q9_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_IntlA_Math_M2_Q9_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "(x+ 81) 2 = -256 How many distinct real solutions does the given equation have?",
+    "passage": "(x+ 81) 2 = -256\nHow many distinct real solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {
@@ -233,12 +296,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_10"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "| x -6| =13 What is the sum of the solutions to the given equation?",
+    "passage": "| x -6| =13\nWhat is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -260,9 +328,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_11"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Sample Statistics and Margin of Error",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "The manager of a gym selected a sample of 139 members at random to estimate the percentage of the gym's members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 82% of the gym's members would continue to pay for a membership if the price increased, with an associated margin of error of 6.39%. If the survey is repeated with a random sample of 278 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
@@ -287,22 +360,32 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_12"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "Raheem bought 9 shirts that were each the same price, He used a coupon for $ 54 off the entire purchase. The cost for the entire purchase after using the coupon was $ 108. What was the original price, in dollars. for 1 shirt?",
+    "passage": "Raheem bought 9 shirts that were each the same price, He used a coupon for \\$54 off the entire purchase. The cost for the entire purchase after using the coupon was \\$108. What was the original price, in dollars. for 1 shirt?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "18",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_13"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "The maximum temperature on April l, in degrees Fahrenheit (°F), was recorded each year at a certain weather station for l1 years. The histogram summarizes the recorded data set. The temperature of 78.2 °F is removed from this data set to create a new data set of 10 temperatures. Which of the following statements must be true? I. The mean of the new data set is less than the mean of the original data set. II. The median of the new data set is less than the median of the original data set.",
+    "passage": "The maximum temperature on April l, in degrees Fahrenheit (°F), was recorded each year at a certain weather station for l1 years. The histogram summarizes the recorded data set.\nThe temperature of 78.2 °F is removed from this data set to create a new data set of 10 temperatures.\nWhich of the following statements must be true?\nI. The mean of the new data set is less than the mean of the original data set.\nII. The median of the new data set is less than the median of the original data set.",
     "question_text": null,
     "choices": [
       {
@@ -324,19 +407,36 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_14"
+    "rationale": null,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_14",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_IntlA_Math_M2_Q14_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_IntlA_Math_M2_Q14_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "For the positive quantities h, j, and k, 94% of h is equivalent to 47% of j, and j is equivalent to 30% of k. What percentage of k is h? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)",
+    "passage": "For the positive quantities h, j, and k, 94% of h is equivalent to 47% of j, and j is equivalent to 30% of k. What percentage of k is h? (Disregard the % sign when entering your answer.For example, if your answer is 39%, enter 39)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "15",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_15"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "For the exponential function f, the value of f (1) is k, where k is a constant. Which of the following equivalent forms of the function f shows the value of k as the coefficient or the base?",
@@ -361,19 +461,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_16"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "In triangle PQR, the measure of angle P is (3 x + 5)°, the measure of angle Q is (2 x + 9)°, and the measure of angle R is (4 y + 5)°. If side QR is extended through point R to point S, and the measure of angle PRS is (x + y)°, what is the value of x + y?",
+    "passage": "In triangle PQR, the measure of angle P is (3 x + 5)°,the measure of angle Q is (2 x + 9)°, and the measure of angle R is (4 y + 5)°. If side QR is extended through point R to point S, and the measure of angle PRS is (x + y)°, what is the value of x + y?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "39",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_17"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of 8 and 13, which inequality represents the possible lengths, x, of the third side of the triangle?",
@@ -398,9 +508,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_18"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "A right circular cone has a volume of 2,700 π cubic centimeters and the area of its base is 225π square centimeters. What is the slant height, in centimeters, of this cone?",
@@ -425,9 +540,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_19"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "A quadratic function models the height, in feet, of an object above the ground in terms of the time, in seconds, after the object was launched. According to the model, the object was launched from a height of 0 feet and reached its maximum height of 1,600 feet 10 seconds after it was launched. Based on the model, what was the height, in feet, of the object 15 seconds after it was launched?",
@@ -435,12 +555,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1200",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_20"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "June 2024 International Form A SAT Math Module 2",
-    "passage": "The cost of renting a power washer is $ 92 for the first day and $ 46 for each additional day. Which of the following functions gives the cost C(d), in dollars, of renting the power washer for d days, where d is a positive integer?",
+    "passage": "The cost of renting a power washer is \\$ 92 for the first day and \\$46 for each additional day. Which of the following functions gives the cost C(d), in dollars, of renting the power washer for d days, where d is a positive integer?",
     "question_text": null,
     "choices": [
       {
@@ -462,9 +587,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_21"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "June 2024 International Form A SAT Math Module 2",
     "passage": "The function f is defined by f(x) = ax 2 + b x + c, where a, b, and c are constants. The graph of y= f(x) in the xy -plane passes through the points (9, 0) and (-2, 0). If a is an integer greater than 1, which of the following could be the value of a + b?",
@@ -489,6 +619,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_22"
   }
 ]

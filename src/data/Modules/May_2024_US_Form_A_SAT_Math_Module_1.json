@@ -1,5 +1,9 @@
 [
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "The table summarizes members of a local organization by age and whether they live north or south of Center St. If a member of the organization is selected at random, what is the probability that the selected member is at least 45 years old?",
@@ -24,9 +28,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "08df3b47-9273-4ad6-9301-332804bc6404_1"
+    "rationale": null,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_1",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USA_Math_M1_Q1_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USA_Math_M1_Q1_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "A number x is at least twice the value of a number y. If the value of y is 51, which inequality represents the possible values of x?",
@@ -51,12 +67,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_2"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "May 2024 US Form A SAT Math Module 1",
-    "passage": "m = 6(n + p) The given equation relates the positive numbers m, n, and p. Which equation correctly gives m in terms of n and p?",
+    "passage": "m = 6(n + p)\nThe given equation relates the positive numbers m, n, and p. Which equation correctly gives m in terms of n and p?",
     "question_text": null,
     "choices": [
       {
@@ -78,9 +99,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_3"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "In the right triangle shown, what is the value of a?",
@@ -105,9 +131,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "08df3b47-9273-4ad6-9301-332804bc6404_4"
+    "rationale": null,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_4",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USA_Math_M1_Q4_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USA_Math_M1_Q4_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "If 3 x - 18 = -12, what is the value of x - 6?",
@@ -132,19 +170,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_5"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "May 2024 US Form A SAT Math Module 1",
-    "passage": "If x = $ 2n2x^{n}+35 $, where n is a positive integer constant, what is the value of $ x^{n}$?",
+    "passage": "If x = $2n2x^{n}+35$, where n is a positive integer constant, what is the value of $x^{n}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "7",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_6"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "In the triangle shown, what is the value of sin y°?",
@@ -169,9 +217,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "08df3b47-9273-4ad6-9301-332804bc6404_7"
+    "rationale": null,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_7",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USA_Math_M1_Q7_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USA_Math_M1_Q7_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function f shown, where y = f(x), estimates the account balance, in dollars, in this bank account x months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
@@ -179,9 +239,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "10",
-    "id": "08df3b47-9273-4ad6-9301-332804bc6404_8"
+    "rationale": null,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_8",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USA_Math_M1_Q8_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USA_Math_M1_Q8_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "A line segment that has a length of 117 centimeters (cm) is divided into three parts. One part is 47 cm long. The other two parts have lengths that are equal to each other. What is the length, in cm, of one of the other two parts of equal length?",
@@ -189,12 +261,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "35",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_9"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "May 2024 US Form A SAT Math Module 1",
-    "passage": "x + 2 y = 60 x + y = 4 x If the solution to the given system of equations is (x, y), which of the following equations is true?",
+    "passage": "x + 2 y = 60\nx + y = 4 x\nIf the solution to the given system of equations is (x, y), which of the following equations is true?",
     "question_text": null,
     "choices": [
       {
@@ -216,19 +293,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_10"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "May 2024 US Form A SAT Math Module 1",
-    "passage": "f(x) = 3(x − 2)(x − 7)(x − 9) If the given function f is graphed in the xy -plane, where y = f(x), what is the x -coordinate of an x -intercept of the graph?",
+    "passage": "f(x) = 3(x − 2)(x − 7)(x − 9)\nIf the given function f is graphed in the xy -plane, where y = f(x), what is the x -coordinate of an x -intercept of the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "2,7,9",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_11"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants, the equation y = 0.67 x + 2.6, where 20 ≤ x ≤ 110, gives the predicted number of larvae, y, in the colony. If one of these colonies has 41 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
@@ -253,12 +340,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_12"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "May 2024 US Form A SAT Math Module 1",
-    "passage": "y = x 2 + 16x + 8 y = x + 8 The graphs of the equations in the given system intersect at the point (x, y) in the xy -plane. What is a possible value of x?",
+    "passage": "y = x 2 + 16x + 8\ny = x + 8\nThe graphs of the equations in the given system intersect at the point (x, y) in the xy -plane. What is a possible value of x?",
     "question_text": null,
     "choices": [
       {
@@ -280,9 +372,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_13"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "A circle in the xy -plane has its center at (−5, 1) and the point (−9, 4) lies on the circle. Which equation represents this circle?",
@@ -307,9 +404,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_14"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "The graph models the number of online newsletter subscribers at the end of every six-month period, where x is the number of six-month periods since the end of January 1995 and 0 ≤ x ≤ 4. Which statement is the best interpretation of the point (1, 500) in this context?",
@@ -334,9 +436,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "08df3b47-9273-4ad6-9301-332804bc6404_15"
+    "rationale": null,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_15",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USA_Math_M1_Q15_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USA_Math_M1_Q15_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "An object's speed, in meters per hour, is increasing at a rate of 1,650 meters per hour per second. Which of the following is closest to this rate in feet per second squared? (Use 1 meter = 3.28 feet.)",
@@ -361,9 +475,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_16"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "The right square pyramid shown has a height of 9 centimeters (cm). The length, in cm, of one edge of the pyramid's base is $\\frac{7}{3}$ times the height of the pyramid. What is the volume, in cm 3, of the pyramid?",
@@ -371,9 +490,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1323",
-    "id": "08df3b47-9273-4ad6-9301-332804bc6404_17"
+    "rationale": null,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_17",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USA_Math_M1_Q17_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USA_Math_M1_Q17_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "In the xy -plane, line p has a slope of $-\\frac{5}{4}$ and an x -intercept of (−16, 0). What is the y -coordinate of the y- intercept of line p?",
@@ -381,9 +512,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-20",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_18"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "In 2018, approximately 20,000 kilowatts of solar power capacity was newly installed in a certain area in the United States. In 2019, the amount of newly installed solar power capacity in this area increased by 13% from the amount of newly installed solar power capacity in 2018. If the amount of newly installed solar power capacity continues to increase each year by 13% of the previous year's newly installed solar power capacity, which of the following types of functions best describes how the amount of newly installed solar power capacity changes over time?",
@@ -408,9 +544,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_19"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "May 2024 US Form A SAT Math Module 1",
     "passage": "An object is launched into the air from ground level. According to a quadratic model, 1.3 seconds after the object is launched, it reaches its maximum height of 27.04 feet above ground level. Which equation represents this model, where f(t) is the object's height, in feet, above ground level t seconds after it was launched?",
@@ -435,17 +576,22 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_20"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "May 2024 US Form A SAT Math Module 1",
-    "passage": "x - 24 y = 12 One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?",
+    "passage": "x - 24 y = 12\nOne of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{2}x-4y=0 $"
+        "text": "$\\frac{1}{2}x-4y=0$"
       },
       {
         "label": "B",
@@ -453,7 +599,7 @@
       },
       {
         "label": "C",
-        "text": "$\\frac{1}{2}x-4y=2 $"
+        "text": "$\\frac{1}{2}x-4y=2$"
       },
       {
         "label": "D",
@@ -462,21 +608,26 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_21"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "May 2024 US Form A SAT Math Module 1",
-    "passage": "f(x) = 7,000(1.005) 2X The given function f models the balance of a bank account, in dollars, x years after it is opened. Which statement is the best interpretation of (1.005) 2X?",
+    "passage": "f(x) = 7,000(1.005) 2X\nThe given function f models the balance of a bank account, in dollars, x years after it is opened. Which statement is the best interpretation of (1.005) 2X?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Every 6 months, the balance increases by about 5."
+        "text": "Every 6 months, the balance increases by about \\$5."
       },
       {
         "label": "B",
-        "text": "Every 2 months, the balance increases by about 5."
+        "text": "Every 2 months, the balance increases by about \\$5."
       },
       {
         "label": "C",
@@ -489,6 +640,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_22"
   }
 ]

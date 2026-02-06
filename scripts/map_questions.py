@@ -125,26 +125,62 @@ def match_score(question, category):
         # Statistics
         elif cat_domain == "Problem-Solving and Data Analysis":
             if cat_skill == "Probability":
-                if "probability" in text_lower: score += 10
-                elif "random" in text_lower and "selected" in text_lower: score += 8
+                if "probability" in text_lower: score += 15
+                elif "random" in text_lower and ("selected" in text_lower or "chosen" in text_lower): score += 12
+                elif "chance" in text_lower or "likelihood" in text_lower: score += 10
+                elif "expected value" in text_lower: score += 12
+                elif "proportion" in text_lower and "random" in text_lower: score += 10
+
             elif cat_skill == "Percentages":
-                if "percent" in text_lower or "%" in text_lower: score += 10
-                elif "increase" in text_lower or "decrease" in text_lower: score += 3
+                if "percent" in text_lower or "%" in text_lower: score += 15
+                elif "interest" in text_lower and ("compound" in text_lower or "simple" in text_lower): score += 15
+                elif "discount" in text_lower or "tax" in text_lower or "population" in text_lower: 
+                    if "increase" in text_lower or "decrease" in text_lower or "growth" in text_lower: score += 10
+                elif "investment" in text_lower or "depreciat" in text_lower: score += 10
+                elif bool(re.search(r"\b(0\.\d+|1\.\d+)\s*[xy]", text_lower)): score += 8
+
             elif cat_skill == "Two-Variable Data":
-                if "scatterplot" in text_lower: score += 10
-                elif "line of best fit" in text_lower: score += 10
+                if "scatterplot" in text_lower: score += 20
+                elif "line of best fit" in text_lower or "best fit" in text_lower: score += 15
+                elif "linear model" in text_lower: score += 12
+                elif "relationship between" in text_lower and ("graph" in text_lower or "data" in text_lower): score += 10
+                elif "predict" in text_lower and "value" in text_lower: score += 8
+                elif "correlation" in text_lower: score += 10
+                
             elif cat_skill == "One-Variable Data":
-                if "median" in text_lower or "mean" in text_lower or "standard deviation" in text_lower: score += 10
-                elif "range" in text_lower and "data" in text_lower: score += 5
+                if "median" in text_lower or "mean" in text_lower or "standard deviation" in text_lower: score += 15
+                elif "average" in text_lower and "arithmetic" in text_lower: score += 15
+                elif "range" in text_lower and ("data" in text_lower or "set" in text_lower): score += 10
+                elif "histogram" in text_lower or "dot plot" in text_lower or "box plot" in text_lower: score += 15
+                elif "frequency" in text_lower and "table" in text_lower: score += 10
+                elif "outlier" in text_lower: score += 10
+                elif "measure of center" in text_lower: score += 15
+
             elif cat_skill == "Evaluating Statistical Claims":
-                if "survey" in text_lower or "experiment" in text_lower: score += 5
+                if "survey" in text_lower or "study" in text_lower or "experiment" in text_lower: score += 8
+                elif "control group" in text_lower or "treatment" in text_lower: score += 10
+                elif "random assignment" in text_lower or "bias" in text_lower: score += 10
+                elif "valid conclusion" in text_lower or "generalize" in text_lower: score += 10
+                elif "representative" in text_lower and "sample" in text_lower: score += 10
+
             elif cat_skill == "Sample Statistics and Margin of Error":
-                if "margin of error" in text_lower: score += 10
-                elif "population" in text_lower and "sample" in text_lower: score += 5
+                if "margin of error" in text_lower: score += 20
+                elif "confidence interval" in text_lower: score += 15
+                elif "sample mean" in text_lower or "sample proportion" in text_lower: score += 10
+                elif "standard error" in text_lower: score += 10
+                elif "population" in text_lower and "sample" in text_lower and "estimate" in text_lower: score += 10
+
             elif cat_skill == "Ratios, Rates, Proportions, and Units":
-                if "ratio" in text_lower: score += 10
-                elif "rate" in text_lower: score += 5
-                elif "per" in text_lower and "unit" in text_lower: score += 5
+                if bool(re.search(r"\bratios?\b", text_lower)): score += 15
+                elif "proportional" in text_lower: score += 15
+                elif "rate" in text_lower and ("change" not in text_lower): score += 8
+                elif "constant rate" in text_lower: score += 10
+                elif "speed" in text_lower and ("distance" in text_lower or "time" in text_lower): score += 8
+                elif "per" in text_lower: score += 5
+                elif "density" in text_lower: score += 10
+                elif "unit" in text_lower and ("convert" in text_lower or "square" not in text_lower): score += 5
+                elif "miles" in text_lower or "gallons" in text_lower or "kilometers" in text_lower: score += 3
+                elif "scale" in text_lower and ("drawing" in text_lower or "map" in text_lower): score += 10
 
         # Algebra / Advanced Math
         else:

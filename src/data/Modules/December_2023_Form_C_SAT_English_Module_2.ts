@@ -1,0 +1,976 @@
+import { Question } from "../all_questions";
+
+export const questions: Question[] = [
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_1",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "As used in the text, what does the phrase \u201creaching across to\u201d most nearly mean?\nThe following text is adapted from Elizabeth von Arnim's 1922 novel *The Enchanted April*. Mrs. Wilkins and her friend Rose are traveling in Italy.\n\u201cI'm going to have one of these gorgeous oranges,\u201d said Mrs. Wilkins, staying where she was and <u>reaching across</u> to a black bowl piled with them. \u201cRose, how can you resist them. Look\u2014have this one. Do have this beauty\u2014\u201d And she held out a big one.\n\nAs used in the text, what does the phrase \u201creaching across to\u201d most nearly mean?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Joining with."
+      },
+      {
+        "id": "B",
+        "text": "Gaining on."
+      },
+      {
+        "id": "C",
+        "text": "Stretching toward."
+      },
+      {
+        "id": "D",
+        "text": "Arriving at."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_2",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nUrban planning expert Francisco Lara-Valencia and colleagues have argued that managing environmental matters along the US-Mexico border ______ coordination between the two countries' governments. Since ecosystems extend across the border, actions taken on one side can have environmental effects on the other side, making international cooperation essential.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "requires"
+      },
+      {
+        "id": "B",
+        "text": "praises"
+      },
+      {
+        "id": "C",
+        "text": "reports"
+      },
+      {
+        "id": "D",
+        "text": "advises"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_3",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome robots such as Wabian (developed in 1995) and ASIMO (developed in 2011) are designed to resemble humans so that people will find it easier to interact with them. To this end, certain features such as the ability to respond to voice commands can help to create the comforting semblance of humanity, but a robot that appears too similar to humans can make people feel more unsettled than ______.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "indifferent"
+      },
+      {
+        "id": "B",
+        "text": "vindicated"
+      },
+      {
+        "id": "C",
+        "text": "revolted"
+      },
+      {
+        "id": "D",
+        "text": "soothed"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_4",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough most hoaxes perpetrated as jokes by mischievous users of Wikipedia, an online encyclopedia that almost anyone can freely edit, have quickly been detected and removed, a few fictitious entries, such as those for the town of Stone Ridge, Maryland, and the 17th-century legislator Nicholas Burkhart, persisted on the site for many years before they were finally recognized as ______ and deleted.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "fabrications"
+      },
+      {
+        "id": "B",
+        "text": "analyses"
+      },
+      {
+        "id": "C",
+        "text": "revelations"
+      },
+      {
+        "id": "D",
+        "text": "enhancements"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_5",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAccording to a board-gaming website, the game Champions of Midgard has an average website-user rating of 7.8 out of 10. Although average ratings can be misleading when only a few users have rated the game, Champions of Midgard has been rated by over 8,000 users, which is an ______ number to feel confident that the average rating is reliable.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "excessive"
+      },
+      {
+        "id": "B",
+        "text": "adequate"
+      },
+      {
+        "id": "C",
+        "text": "accurate"
+      },
+      {
+        "id": "D",
+        "text": "insufficient"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_6",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice best states the main purpose of the text?\nIn 2012 G\u00f5ran E. Nilsson and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Amphiprion percula*, a species of fish. However, Nilsson and colleagues' study relied on a mean sample size of only about 14 fish. In a 2022 review of various scientists\u2019 conclusions about the impacts of ocean acidification on fish behavior, Josefin Sundin and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.\n\nWhich choice best states the main purpose of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "To present a debate between two research teams about a cause of ocean acidification."
+      },
+      {
+        "id": "B",
+        "text": "To discuss an aspect of ocean acidification that is frequently overlooked."
+      },
+      {
+        "id": "C",
+        "text": "To note a potential concern about the findings of a scientific study."
+      },
+      {
+        "id": "D",
+        "text": "To explain how the behavior of a fish species has changed over time."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_7",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice best describes the relationship between the perspectives provided in Text 1 and Text 2?\nText 1\nMacklemore and Ryan Lewis's 2011 song \u201cAnd We Danced\u201d includes a specific musical pattern. That pattern consists of two alternating notes sung over and over with \u201cwa\u201d and \u201coh\u201d sounds, resulting in a sequence of \u201cWa-oh-wa-oh.\u201d This pattern showed up in so many pop songs in the 2000s and 2010s that eventually it earned a nickname, \u201cthe millennial whoop.\u201d\nUnfortunately, the whoop showed up so frequently that it could be more irritating than enjoyable.\nText 2\nThe millennial whoop could be annoying. Not every pop song needs \u201cWa-oh-wa-ohs!\u201d and it seemed as though nearly every pop song released between 2000 and 2017 had them. But the whoop could also be genuinely fun or even moving. Too many songwriters used it in too many pop songs for a time, but that doesn't mean the whoop was never used well.\n\nWhich choice best describes the relationship between the perspectives provided in Text 1 and Text 2?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Text 1 provides an explanation of events that inspired a song, while Text 2 offers a different explanation of those events."
+      },
+      {
+        "id": "B",
+        "text": "Text 1 introduces a negative view of a musical pattern, while Text 2 presents a more positive view of that pattern."
+      },
+      {
+        "id": "C",
+        "text": "Text 1 discusses the advantages of a technique for recording music, while Text 2 discusses the problems with that technique."
+      },
+      {
+        "id": "D",
+        "text": "Text 1 focuses on critics who praised a particular style of music, while Text 2 focuses on critics who disapproved of that style."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Cross-Text Connections",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_8",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "According to the text, what did Ambopteryx and Yutyrannus have in common?\nWhen people think of dinosaurs with feathers, they typically think of winged dinosaurs, such as the bat-like *Ambopteryx*. However, many dinosaurs that didn't have wings also had feathers on their bodies. For instance, research indicates that the wingless, large *Yutyrannus* likely had feathers.\n\nAccording to the text, what did Ambopteryx and Yutyrannus have in common?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They both were hunted by the same predator."
+      },
+      {
+        "id": "B",
+        "text": "They were both wingless dinosaurs."
+      },
+      {
+        "id": "C",
+        "text": "They both could fly."
+      },
+      {
+        "id": "D",
+        "text": "They both had feathers."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Advanced Math",
+      "skill": "Equivalent Expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_9",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "According to the text, what is one similarity between Moody and Lysyanskaya?\nWomen like Juanita Moody made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Moody worked as a cryptanalyst for the National Security Agency and was the first recipient of the National Intelligence Medal of Achievement. In this way, Moody and others like her helped make it possible for more women\u2014such as Anna Lysyanskaya, who currently works in and teaches digital cryptography\u2014to enter the field of cryptology.\n\nAccording to the text, what is one similarity between Moody and Lysyanskaya?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They both have contributed to the field of cryptology."
+      },
+      {
+        "id": "B",
+        "text": "They both have worked in the field of history."
+      },
+      {
+        "id": "C",
+        "text": "They both have argued that more US schools should teach the history of cryptology."
+      },
+      {
+        "id": "D",
+        "text": "They both founded organizations that encourage women to pursue careers in cryptology."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_10",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Based on the text, which choice best explains why it is challenging to confidently assign authorship of the essay \u201cThe Senate\u201d?\nThe Federalist Papers are a collection of essays written by Alexander Hamilton, John Jay, and James Madison and published pseudonymously in the *Independent Journal* and other New York newspapers in 1787\u201388. Though the authorship of most of the essays is certain, that of some is obscure: for instance, while No. 12, \u201cThe Utility of the Union in Respect to Revenue,\u201d was surely penned by Hamilton, No. 62, \u201cThe Senate,\u201d may have been written by either Hamilton or Madison. The difficulty of determining No. 62's author arises not from a lack of evidence but from too much contradictory evidence.\n\nBased on the text, which choice best explains why it is challenging to confidently assign authorship of the essay \u201cThe Senate\u201d?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Support can be found for a strong case that either Hamilton or Madison was the sole author of \u201cThe Senate.\u201d."
+      },
+      {
+        "id": "B",
+        "text": "Evidence shows that two versions of \u201cThe Senate,\u201d one authored by Hamilton and another authored by Madison, appeared in different New York newspapers."
+      },
+      {
+        "id": "C",
+        "text": "The evidence that would indisputably prove that either Hamilton or Madison was the sole author of \u201cThe Senate\u201d has been lost."
+      },
+      {
+        "id": "D",
+        "text": "It is most likely that \u201cThe Senate\u201d was the product of a collaborative effort between Hamilton and Madison."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, Rates, Proportions, and Units",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_11",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice best states the main idea of the text?\nIn the 1940s, Evelyn Cunningham worked for the *Pittsburgh Courier*, focusing on coverage of the early civil rights movement. Cunningham's accomplishment is just one example of the rich history of Black journalism in the United States. That history is preserved by the National Association of Black Journalists, which was founded in Washington, DC, in 1975 to support Black media professionals and honor people like Cunningham.\n\nWhich choice best states the main idea of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cunningham's achievements are often overlooked in countries other than the United States."
+      },
+      {
+        "id": "B",
+        "text": "The National Association of Black Journalists was founded in Washington, DC, in the 1900s."
+      },
+      {
+        "id": "C",
+        "text": "Black journalism in the United States has an important history that the National Association of Black Journalists helps to honor."
+      },
+      {
+        "id": "D",
+        "text": "Black journalism has an interesting history both inside and outside the United States."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_12",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which finding from the experiment, if true, would most directly support Bernal and de Silva's conclusion?\nMale t\u00fangara frogs make complex calls to attract mates, but their calls also attract frog-biting midges, insects that feed on the frogs' blood. Researchers Ximena Bernal and Priyanka de Silva wondered if the calls alone are sufficient for midges to locate the frogs or if midges use carbon dioxide emitted by frogs as an additional cue to their prey's whereabouts, like mosquitoes do. In an experiment, the researchers placed two midge traps in a t\u00fangara frog breeding area. One trap played recordings of t\u00fangara frog calls and the other released carbon dioxide along with playing the calls. Bernal and de Silva concluded that carbon dioxide does not serve as an additional cue to frog-biting midges.\n\nWhich finding from the experiment, if true, would most directly support Bernal and de Silva's conclusion?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Only a small number of midges were found in the traps, though the majority were found in the trap that played calls and released carbon dioxide."
+      },
+      {
+        "id": "B",
+        "text": "Midges entered the trap that released carbon dioxide and played calls only during or immediately after periods of carbon dioxide release."
+      },
+      {
+        "id": "C",
+        "text": "More midges were found in the trap that only played calls than in the trap that played calls and released carbon dioxide."
+      },
+      {
+        "id": "D",
+        "text": "The trap that released carbon dioxide and played calls attracted few midges when carbon dioxide concentrations were low but attracted many midges when carbon dioxide concentrations were high."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and Volume",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_13",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which quotation from an art history textbook would most effectively support the student's claim?\nIn a paper for an art history class, a student claims that Rosa Bonheur's 1855 painting *The Horse Fair* marks a significant change in Bonheur's artistic development.\n\nWhich quotation from an art history textbook would most effectively support the student's claim?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\u201cThe paintings that Bonheur produced before The Horse Fair can be thought of as belonging to her earlier style, to which she never returned.\u201d"
+      },
+      {
+        "id": "B",
+        "text": "\u201cOf all Bonheur's paintings, none so clearly represents her abilities and ideas as The Horse Fair.\u201d"
+      },
+      {
+        "id": "C",
+        "text": "\u201cThe Horse Fair has been analyzed extensively since it was first exhibited, as no two viewers seem to agree about exactly what the painting means.\u201d"
+      },
+      {
+        "id": "D",
+        "text": "\u201cAlthough Bonheur was clearly influenced by other artists of her time, she was also an artist ahead of her time, as The Horse Fair demonstrates.\u201d"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_14",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice most logically completes the text?\nThe Younger Dryas was a period of extreme cooling from 11,700 to 12,900 years ago in the Northern Hemisphere. Some scientists argue that a comet fragment hitting Earth brought about the cooling. Others disagree, partly because there is no known crater from such an impact that dates to the beginning of the period. In 2015, a team led by Kurt Kj\u00e6r detected a 19-mile-wide crater beneath a glacier in Greenland. The scientists who believe an impact caused the Younger Dryas claim that this discovery supports their view. However, Kj\u00e6r's team hasn't yet been able to determine the age of the crater. Therefore, the team suggests that ______\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "it can't be concluded that the impact that made the crater was connected to the beginning of the Younger Dryas."
+      },
+      {
+        "id": "B",
+        "text": "it can't be determined whether a comet fragment could make a crater as large as 19 miles wide."
+      },
+      {
+        "id": "C",
+        "text": "scientists have ignored the possibility that something other than a comet fragment could have made the crater."
+      },
+      {
+        "id": "D",
+        "text": "the scientists who believe an impact caused the Younger Dryas have made incorrect assumptions about when the period began."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_15",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice most logically completes the text?\nThe small white heron and the white ibis are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D'Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of the birds\u2019 habitats, such as the geographic location of the area and how deep the water is during the birds\u2019 breeding season. They found that small white herons prefer areas with deep water during breeding season, but that was not true for white ibises. The researchers concluded that water management strategies that increase the depth of water in potential wetland bird habitats during breeding season are therefore more likely to ______\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "decrease the area\u2019s appeal to both small white herons and white ibises than they are to increase the appeal to either."
+      },
+      {
+        "id": "B",
+        "text": "attract birds that don\u2019t typically live in wetlands to the area than they are to attract small white herons or white ibises to the area."
+      },
+      {
+        "id": "C",
+        "text": "attract small white herons to the area than they are to attract white ibises to the area."
+      },
+      {
+        "id": "D",
+        "text": "extend the average lifespan of small white herons already in the area than they are to attract a greater number of those birds to the area."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_16",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Kolyma River, which is 1,317 miles long, ______ into the East Siberian Sea.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "flows"
+      },
+      {
+        "id": "B",
+        "text": "are flowing"
+      },
+      {
+        "id": "C",
+        "text": "flow"
+      },
+      {
+        "id": "D",
+        "text": "have flowed"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_17",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAt the London Meisner Company in London, England, students can sign up ______ the world famous Meisner acting technique. Created by acting teacher Sanford Meisner, this technique trains actors to react naturally to the other performers in a scene.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "to learn"
+      },
+      {
+        "id": "B",
+        "text": "learned"
+      },
+      {
+        "id": "C",
+        "text": "are learning"
+      },
+      {
+        "id": "D",
+        "text": "learn"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_18",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nL\u00ea L\u01b0\u01a1ng Minh became the thirteenth secretary-general of the Association of Southeast Asian Nations (ASEAN) in January 2013, making ______ the first time the organization would appoint a Vietnamese leader.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "these"
+      },
+      {
+        "id": "B",
+        "text": "those"
+      },
+      {
+        "id": "C",
+        "text": "this"
+      },
+      {
+        "id": "D",
+        "text": "some"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_19",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter eleven days and five hours, space shuttle flight STS-68 landed ______ Edwards Air Force Base.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "at\u2014"
+      },
+      {
+        "id": "B",
+        "text": "at,"
+      },
+      {
+        "id": "C",
+        "text": "at:"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_20",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen, on November 5, 2003, Olene Walker ______ serving as the governor of Utah, she became the state\u2019s first female chief executive.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "begins"
+      },
+      {
+        "id": "B",
+        "text": "will begin"
+      },
+      {
+        "id": "C",
+        "text": "began"
+      },
+      {
+        "id": "D",
+        "text": "has begun"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_21",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn this chapter, we will focus on Gwendolyn Brooks's poem \u201cStill Do I Keep My Look, My Identity,\u201d paying special attention to its first lines: \u201cEach body has its art, its precious prescribed / Pose.\u201d We ______ our attention next to the works of James Baldwin and Quincy Troupe, two other poets associated with the Black Arts movement.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "will have turned"
+      },
+      {
+        "id": "B",
+        "text": "turned"
+      },
+      {
+        "id": "C",
+        "text": "had turned"
+      },
+      {
+        "id": "D",
+        "text": "will turn"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_22",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTextile artist Amber Joy Greenidge-Sabral wanted to avoid using harsh synthetic dyes that could be damaging to the environment. ______ she began experimenting with more environmentally friendly natural dye methods, using organic materials like black locust and sagebrush for their natural blue and green colors.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "In actuality,"
+      },
+      {
+        "id": "B",
+        "text": "To sum up,"
+      },
+      {
+        "id": "C",
+        "text": "With this in mind,"
+      },
+      {
+        "id": "D",
+        "text": "Nevertheless,"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_23",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text with the most logical transition?\nThe architects of Spain\u2019s Modernista movement took inspiration from the natural world when adding finishing touches to their buildings. ______ they favored plant- and animal-inspired design flourishes, like the stone turtle statues of Sagrada Fam\u00edlia, a basilica by architect Antoni Gaudi.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Meanwhile,"
+      },
+      {
+        "id": "B",
+        "text": "In particular,"
+      },
+      {
+        "id": "C",
+        "text": "On the contrary,"
+      },
+      {
+        "id": "D",
+        "text": "Even so,"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_24",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "Which choice completes the text with the most logical transition?\nUrsula K. Le Guin's *Rocannon's World*, a novel about an Earth scientist's mission to a remote world, is classified as science fiction. ______ the novel *The Farthest Shore*, which is about a young prince's journey to save his home, is classified as fantasy.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Afterward,"
+      },
+      {
+        "id": "B",
+        "text": "In other words,"
+      },
+      {
+        "id": "C",
+        "text": "For example,"
+      },
+      {
+        "id": "D",
+        "text": "On the other hand,"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_25",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "The student wants to contrast the number of meteorite falls with the number of meteorite finds. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Meteorites found on Earth are divided into two categories.\n\u2022 A meteorite that was observed falling to Earth before being recovered is known as a meteorite fall.\n\u2022 All other meteorites found on Earth are known as meteorite finds.\n\u2022 There have been about 1,200 recorded meteorite falls.\n\u2022 There have been over 60,000 recorded meteorite finds.\n\nThe student wants to contrast the number of meteorite falls with the number of meteorite finds. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A meteorite that was observed falling to Earth before being recovered is known as a meteorite fall; all others are known as meteorite finds."
+      },
+      {
+        "id": "B",
+        "text": "Meteorites found on Earth are divided into two categories: meteorite falls and meteorite finds."
+      },
+      {
+        "id": "C",
+        "text": "There have been about 1,200 recorded meteorite falls, or meteorites observed falling to Earth."
+      },
+      {
+        "id": "D",
+        "text": "While there have been only about 1,200 recorded meteorite falls, there have been over 60,000 meteorite finds."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_26",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "The student wants to emphasize a difference between Vulpes zerda and Sterkiella histriomuscorum. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Chromosomes are cellular structures that contain genes.\n\u2022 Genes carry critical instructions for determining an organism\u2019s physical traits.\n\u2022 Members of the same species typically have the same number of chromosomes.\n\u2022 As a species, the fennec fox (Vulpes zerda) has sixty-four chromosomes.\n\u2022 As a species, the Sterkiella histriomuscorum, a simple, single-celled protozoan, has over 15,000 chromosomes.\n\nThe student wants to emphasize a difference between Vulpes zerda and Sterkiella histriomuscorum. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sterkiella histriomuscorum has over 15,000 chromosomes, which is far more than the sixty-four chromosome Vulpes zerda has."
+      },
+      {
+        "id": "B",
+        "text": "Sterkiella histriomuscorum, a simple, single celled protozoan, has over 15,000 cellular structures called chromosomes."
+      },
+      {
+        "id": "C",
+        "text": "Sterkiella histriomuscorum and Vulpes zerda both have chromosomes, which are cellular structures that contain genes."
+      },
+      {
+        "id": "D",
+        "text": "Individual members of the fennec fox species typically have the same number of chromosomes: sixty-four."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_27",
+    "testName": "December 2023 Form C SAT English Module 2",
+    "text": "The student wants to make and support a claim about humans\u2019 arrival in North America, Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Clovis First hypothesis proposes that ancient humans known as Clovis were the first to populate North America.\n\u2022 The Clovis arrived around 13,000 years ago.\n\u2022 Stone tools found at the False Cougar Cave site in Montana date to approximately 17,500 years ago.\n\u2022 These items support the idea that humans were present in North America before the Clovis population arrived.\n\u2022 More than a dozen North American sites containing pre-Clovis items have been identified.\n\nThe student wants to make and support a claim about humans\u2019 arrival in North America, Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Arriving about 13,000 years ago, the Clovis were likely not the first humans in North America; items from more than a dozen sites suggest that humans had arrived before that time."
+      },
+      {
+        "id": "B",
+        "text": "While the Clovis First hypothesis proposes that humans first arrived in North America around 13,000 years ago, humans had likely arrived before that time."
+      },
+      {
+        "id": "C",
+        "text": "It has been claimed that the Clovis, arriving around 13,000 years ago, were the first human inhabitants of North America."
+      },
+      {
+        "id": "D",
+        "text": "The stone tools found at the False Cougar Cave site should not be overlooked: they have important implications for the Clovis First hypothesis."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  }
+];

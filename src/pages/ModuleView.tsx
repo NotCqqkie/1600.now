@@ -1,6 +1,6 @@
 import { useMemo, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { getBankPool } from "@/data/questionBank";
+import { getAllBankQuestions } from "@/data/questionBank";
 import { parseTestName } from "@/data/modules";
 import { Button } from "@/components/ui/button";
 import { Loader2 } from "lucide-react";
@@ -9,8 +9,8 @@ const ModuleView = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
   const navigate = useNavigate();
   
-  const mathPool = useMemo(() => getBankPool("math"), []);
-  const readingPool = useMemo(() => getBankPool("reading"), []);
+  const mathPool = useMemo(() => getAllBankQuestions("math"), []);
+  const readingPool = useMemo(() => getAllBankQuestions("reading"), []);
   
   const allQuestions = useMemo(() => {
      return [...mathPool, ...readingPool];

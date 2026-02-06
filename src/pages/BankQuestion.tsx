@@ -686,6 +686,7 @@ const BankQuestion = () => {
                 isSidebarred={sidebarredWindows.has("explanation")}
                 onSidebarToggle={handleSidebarToggle}
                 correctAnswer={question?.correctAnswer}
+                rationale={question?.rationale}
                 questionType={question?.type}
                 choices={question?.choices}
                 questionId={questionKey}

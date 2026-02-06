@@ -1,19 +1,20 @@
 import { useState, useMemo } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { getBankPool, type BankQuestion } from "@/data/questionBank";
+import { getAllBankQuestions, type BankQuestion } from "@/data/questionBank";
 import { parseTestName, type ModuleMetadata } from "@/data/modules";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { BookOpen, Calculator, Calendar, Filter, GraduationCap } from "lucide-react";
+import { BookOpen, Calculator, Calendar, Filter, GraduationCap, Home } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle"; // Import toggle
 
 const Modules = () => {
   const navigate = useNavigate();
   
   // Combine all questions
   const allQuestions = useMemo(() => {
-    return [...getBankPool("math"), ...getBankPool("reading")];
+    return [...getAllBankQuestions("math"), ...getAllBankQuestions("reading")];
   }, []);
 
   // Group by Module
@@ -71,6 +72,12 @@ const Modules = () => {
           <p className="text-muted-foreground mt-2">
             Browse and practice full exam modules sorted by year and subject.
           </p>
+        </div>
+        <div className="flex items-center gap-3">
+             <Button variant="ghost" className="gap-2" onClick={() => navigate("/")}>
+                <Home className="h-4 w-4" /> Home
+             </Button>
+             <ThemeToggle />
         </div>
       </div>
 

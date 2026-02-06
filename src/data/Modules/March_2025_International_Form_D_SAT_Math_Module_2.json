@@ -1,5 +1,9 @@
 [
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "In the figure shown, triangle CAE is similar to triangle CBD. The measure of angle CBD is 56°, and AE=24(BD). What is the measure of angle CAE?",
@@ -24,9 +28,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_1"
+    "rationale": null,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_1",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlD_Math_M2_Q1_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlD_Math_M2_Q1_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "Which of the following lists represents a data set with the smallest standard deviaton?",
@@ -51,36 +67,46 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_2"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "March 2025 International Form D SAT Math Module 2",
-    "passage": "$ q-34r=s $ The given equation relates the positive numbers g, r, and s. Which equation correctlyexpresses q in terms of r and s?",
+    "passage": "$q-34r=s$\nThe given equation relates the positive numbers g, r, and s. Which equation correctlyexpresses q in terms of r and s?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ q=s-34r $"
+        "text": "$q=s-34r$"
       },
       {
         "label": "B",
-        "text": "$ q=s+34r $"
+        "text": "$q=s+34r$"
       },
       {
         "label": "C",
-        "text": "$ q=34rs $"
+        "text": "$q=34rs$"
       },
       {
         "label": "D",
-        "text": "$ q=-\\frac{s}{34r}$"
+        "text": "$q=-\\frac{s}{34r}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_3"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "The shaded region shown represents solutions to an inequality. Which ordered pair (x, y) is a soluion to this ineguality?",
@@ -105,9 +131,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_4"
+    "rationale": null,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_4",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlD_Math_M2_Q4_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlD_Math_M2_Q4_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "A rectangle has a length that is 49 times its wldth, The funetion y =(49w)(w) representsthis situation, where y is the area, in square feet, of the recrangle and y > 0. Which of the following is the best interpretatlon of 49w in this contegt?",
@@ -132,9 +170,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_5"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "If 5(x+4)=4(x+4)+ 39, what is the value of x+ 4?",
@@ -159,12 +202,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_6"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "March 2025 International Form D SAT Math Module 2",
-    "passage": "$ x+10=-9y+5 $ $ x-10=9y+7 $ The solution to the given system of equations is (x, y). What is the walue of 2x?",
+    "passage": "$x+10=-9y+5$\n$x-10=9y+7$\nThe solution to the given system of equations is (x, y). What is the walue of 2x?",
     "question_text": null,
     "choices": [
       {
@@ -186,9 +234,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_7"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "In 8 days, a polar bear ate 34.4 pounds of fat. Which equation describes the amount of fat y. In pounds, the polar bear ate in these 8 days?",
@@ -196,26 +249,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ y=8 $"
+        "text": "$y=8$"
       },
       {
         "label": "B",
-        "text": "$ y=\\frac{34.4}{8}$"
+        "text": "$y=\\frac{34.4}{8}$"
       },
       {
         "label": "C",
-        "text": "$ y=34.4 $"
+        "text": "$y=34.4$"
       },
       {
         "label": "D",
-        "text": "$ y=34.4+8 $"
+        "text": "$y=34.4+8$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_8"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating Statistical Claims",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "To study fluctuations in leaf water potential, samples of wood were taken from 25 trees andcut in the shape of a cube. The length of the edge of one of these cubes is 3.000 centimmeters. This cube has a density of 0.220 grams per cubic centimeter. What is the mass of this cube, in grams?",
@@ -223,12 +281,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "5.94",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_9"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "March 2025 International Form D SAT Math Module 2",
-    "passage": "$-4|5x+6|+4=-20 $ What are all solutions to the given equation?",
+    "passage": "$-4|5x+6|+4=-20$\nWhat are all solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -250,9 +313,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_10"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "For the linear function p, p(c)=-2, where c is a constant, p(4)= 38, and the slope of the graph of y = p(x) in the xy-plane is 8. For the linear function t, t(c)=-3 and t(5)= 51. What is the slope of the graph of y= t(x) in the x-plane?",
@@ -277,9 +345,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_11"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "The graph shows a linear relationship between and y, which eqatlon represents this relatlonship, where P ls a positve constant?",
@@ -287,29 +360,41 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ Rx+12y=18 $"
+        "text": "$Rx+12y=18$"
       },
       {
         "label": "B",
-        "text": "$ Rx-12y=-18 $"
+        "text": "$Rx-12y=-18$"
       },
       {
         "label": "C",
-        "text": "$ 12x+Ry=18 $"
+        "text": "$12x+Ry=18$"
       },
       {
         "label": "D",
-        "text": "$-12x+Ry=18 $"
+        "text": "$-12x+Ry=18$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_12"
+    "rationale": null,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_12",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlD_Math_M2_Q12_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlD_Math_M2_Q12_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "March 2025 International Form D SAT Math Module 2",
-    "passage": "The shaded reglon show represents the solutions to $ rx+ty\\ge-36 $, where r and t areconstants. What is the value of r + t?",
+    "passage": "The shaded reglon show represents the solutions to $rx+ty\\ge-36$, where r and t areconstants. What is the value of r + t?",
     "question_text": null,
     "choices": [
       {
@@ -331,9 +416,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_13"
+    "rationale": null,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_13",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlD_Math_M2_Q13_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlD_Math_M2_Q13_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "The edge length, in inches, of cube Y is $\\frac{3}{86}$, the edge length, in inches, of cube x. The surface area, in sqare inches, of cube Y is n times the surface area, in sqare inches, of cube X. What is the yalue of n?",
@@ -358,9 +455,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_14"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "The graph of y=f (x)+ 2 is shown. Which equation defines function f?",
@@ -368,26 +470,38 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ f(x)=-6^{x}+1 $"
+        "text": "$f(x)=-6^{x}+1$"
       },
       {
         "label": "B",
-        "text": "$ f(x)=-6^{x}+3 $"
+        "text": "$f(x)=-6^{x}+3$"
       },
       {
         "label": "C",
-        "text": "$ f(x)=-6^{x}+4 $"
+        "text": "$f(x)=-6^{x}+4$"
       },
       {
         "label": "D",
-        "text": "$ f(x)=-6^{x}+5 $"
+        "text": "$f(x)=-6^{x}+5$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_15"
+    "rationale": null,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_15",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlD_Math_M2_Q15_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlD_Math_M2_Q15_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "Vhich expression is equivalent to 15(x +10)?",
@@ -395,26 +509,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 15x+10 $"
+        "text": "$15x+10$"
       },
       {
         "label": "B",
-        "text": "$ 15x+150 $"
+        "text": "$15x+150$"
       },
       {
         "label": "C",
-        "text": "$ 15x+25 $"
+        "text": "$15x+25$"
       },
       {
         "label": "D",
-        "text": "$ 15x+5 $"
+        "text": "$15x+5$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_16"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "A square map has a side length of 35 inches, and l inch on the map represents an actaldistance of 13 miles. A smaller verslon of the same map is printed as a sqare with the sidelength 70% shorter than the slde length of the previous map. On the smaller map, which of the following is closest to the actal distance, in miles, represented by 1 inch?",
@@ -439,12 +558,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_17"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "March 2025 International Form D SAT Math Module 2",
-    "passage": "$ y=x-c $ $ y=-6(x-12)^{2}$ In the given systern of equations, c is a constant. The system has two distinct real solutionsWhich of the following could be the value of c?",
+    "passage": "$y=x-c$\n$y=-6(x-12)^{2}$\nIn the given systern of equations, c is a constant. The system has two distinct real solutionsWhich of the following could be the value of c?",
     "question_text": null,
     "choices": [
       {
@@ -466,9 +590,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_18"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "March 2025 International Form D SAT Math Module 2",
     "passage": "In triangle ABC, the measure of angle A is 58° and AC = 30. In triangle PQR, the measure of angle P is 58° and PR=120. Which additlonal plece of information is suficlent to prove that rlangle ABC is simllar to triangle PQR?",
@@ -493,36 +622,52 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_19"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "March 2025 International Form D SAT Math Module 2",
-    "passage": "The perimeter of an equilateral triangle is 876 centimeters. The three vertices of the triangle lie on a circle. The radius of the circle is $ w\\sqrt{3}$ centimeters. What is the value of w?",
+    "passage": "The perimeter of an equilateral triangle is 876 centimeters. The three vertices of the triangle lie on a circle. The radius of the circle is $w\\sqrt{3}$ centimeters. What is the value of w?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "292/3,97.33",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_20"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "March 2025 International Form D SAT Math Module 2",
-    "passage": "The function f is defined by $ f(x)=\\frac{|x|}{a}-16 $, where a < 0, What is the product of f(17a) and f(8a)?",
+    "passage": "The function f is defined by $f(x)=\\frac{|x|}{a}-16$, where a < 0, What is the product of f(17a) and f(8a)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "792,1701",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_21"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "March 2025 International Form D SAT Math Module 2",
-    "passage": "The function f is defined by $ f(x)=ab^{\\frac{x}{n}}$ where a, b, and n are constants, and b and n are integers. If f(5)=7 and f(8)= 189, what is the value of f(10)?",
+    "passage": "The function f is defined by $f(x)=ab^{\\frac{x}{n}}$ where a, b, and n are constants, and b and n are integers. If f(5)=7 and f(8)= 189, what is the value of f(10)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1701",
+    "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_22"
   }
 ]

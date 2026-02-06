@@ -8,6 +8,7 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import { LegalDisclaimer } from "@/components/LegalDisclaimer";
 
 // Lazy load the heavy pages (not the homepage)
 const Index = lazy(() => import("./pages/Index"));
@@ -16,6 +17,10 @@ const BankIndex = lazy(() => import("./pages/BankIndex"));
 const BankBrowse = lazy(() => import("./pages/BankBrowse"));
 const BankFiltered = lazy(() => import("./pages/BankFiltered"));
 const BankQuestion = lazy(() => import("./pages/BankQuestion"));
+const OfficialBankIndex = lazy(() => import("./pages/OfficialBankIndex"));
+const OfficialBankBrowse = lazy(() => import("./pages/OfficialBankBrowse"));
+const OfficialBankFiltered = lazy(() => import("./pages/OfficialBankFiltered"));
+const OfficialBankQuestion = lazy(() => import("./pages/OfficialBankQuestion"));
 const Analysis = lazy(() => import("./pages/Analysis"));
 const Modules = lazy(() => import("./pages/Modules"));
 const ModuleView = lazy(() => import("./pages/ModuleView"));
@@ -51,11 +56,18 @@ const App = () => (
           <Route path="/bank" element={<Suspense fallback={<Loading />}><BankIndex /></Suspense>} />
           <Route path="/bank/:subject/browse" element={<Suspense fallback={<Loading />}><BankBrowse /></Suspense>} />
           <Route path="/bank/:subject/:filterType/:filterValue" element={<Suspense fallback={<Loading />}><BankFiltered /></Suspense>} />
-          <Route path="/bank/:subject/:id" element={<Suspense fallback={<Loading />}><BankQuestion /></Suspense>} />
+          <Route path="/bank/:subject/:id" element={<Suspense fallback={<Loading />}><Question /></Suspense>} />
+          
+          <Route path="/official-bank" element={<Suspense fallback={<Loading />}><OfficialBankIndex /></Suspense>} />
+          <Route path="/official-bank/:subject/browse" element={<Suspense fallback={<Loading />}><OfficialBankBrowse /></Suspense>} />
+          <Route path="/official-bank/:subject/:filterType/:filterValue" element={<Suspense fallback={<Loading />}><OfficialBankFiltered /></Suspense>} />
+          <Route path="/official-bank/:subject/:id" element={<Suspense fallback={<Loading />}><Question /></Suspense>} />
+
           <Route path="/vocab" element={<Suspense fallback={<Loading />}><Vocab /></Suspense>} />
           <Route path="/analysis" element={<Suspense fallback={<Loading />}><Analysis /></Suspense>} />
           <Route path="*" element={<Suspense fallback={<Loading />}><NotFound /></Suspense>} />
           </Routes>
+          <LegalDisclaimer />
         </BrowserRouter>
       </AuthProvider>
     </TooltipProvider>

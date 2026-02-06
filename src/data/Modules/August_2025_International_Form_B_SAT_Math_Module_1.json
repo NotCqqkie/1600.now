@@ -1,32 +1,41 @@
 [
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "The equation $ x+y=1,440 $ represents the number of minutes of daylight (between sunrise and sunset), x, and the number of minutes of non-daylight, y, on a particular day in Des Moines, Iowa. If this day has 840 minutes of daylight, how many minutes of non-daylight does it have?",
+    "passage": "The equation $x+y=1,440$ represents the number of minutes of daylight (between sunrise and sunset), x, and the number of minutes of non-daylight, y, on a particular day in Des Moines, Iowa. If this day has 840 minutes of daylight, how many minutes of non-daylight does it have?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 600 $"
+        "text": "$600$"
       },
       {
         "label": "B",
-        "text": "$ 840 $"
+        "text": "$840$"
       },
       {
         "label": "C",
-        "text": "$ 1,356 $"
+        "text": "$1,356$"
       },
       {
         "label": "D",
-        "text": "$ 1,440 $"
+        "text": "$1,440$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_1"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "A car travels at a speed of at least 25 miles per hour but no more than 65 miles per hour for a certain part of a trip. Which inequality represents this situation, where x is the speed of the car, in miles per hour, on this part of the trip?",
@@ -34,26 +43,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ x\\ge25 $"
+        "text": "$x\\ge25$"
       },
       {
         "label": "B",
-        "text": "$ x\\ge65 $"
+        "text": "$x\\ge65$"
       },
       {
         "label": "C",
-        "text": "$ 25\\le x\\le65 $"
+        "text": "$25\\le x\\le65$"
       },
       {
         "label": "D",
-        "text": "$ x\\le90 $"
+        "text": "$x\\le90$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_2"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "In the figure shown, line r is parallel to line s. What is the value of x?",
@@ -61,66 +75,88 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "21",
-    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_3"
+    "rationale": null,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_3",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlB_Math_M1_Q3_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlB_Math_M1_Q3_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "The function $ f $ is defined by $ f(x)=4(2)^{x}$. What is the value of $ f(x)$ when $ x=5 $?",
+    "passage": "The function $f$ is defined by $f(x)=4(2)^{x}$. What is the value of $f(x)$ when $x=5$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 25 $"
+        "text": "$25$"
       },
       {
         "label": "B",
-        "text": "$ 32 $"
+        "text": "$32$"
       },
       {
         "label": "C",
-        "text": "$ 100 $"
+        "text": "$100$"
       },
       {
         "label": "D",
-        "text": "$ 128 $"
+        "text": "$128$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_4"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "12, 22, 24, 33, 39, 42, 44 The given list shows the 7 values in a data set. Which of the following data sets has the same median as the given list?",
+    "passage": "12, 22, 24, 33, 39, 42, 44\nThe given list shows the 7 values in a data set. Which of the following data sets has the same median as the given list?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 22,25,35,38,49,50,54 $"
+        "text": "$22,25,35,38,49,50,54$"
       },
       {
         "label": "B",
-        "text": "$ 22,28,33,39,41,43,46 $"
+        "text": "$22,28,33,39,41,43,46$"
       },
       {
         "label": "C",
-        "text": "$ 12,15,28,33,35,39,39 $"
+        "text": "$12,15,28,33,35,39,39$"
       },
       {
         "label": "D",
-        "text": "$ 22,25,26,28,33,33,39 $"
+        "text": "$22,25,26,28,33,33,39$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_5"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "If $\\frac{x}{9}=5 $, what is the value of $\\frac{9}{x}$?",
+    "passage": "If $\\frac{x}{9}=5$, what is the value of $\\frac{9}{x}$?",
     "question_text": null,
     "choices": [
       {
@@ -133,18 +169,23 @@
       },
       {
         "label": "C",
-        "text": "$ 5 $"
+        "text": "$5$"
       },
       {
         "label": "D",
-        "text": "$ 45 $"
+        "text": "$45$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_6"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "There are 350 objects in a bag. Of these objects, 4 % are spheres. How many spheres are in the bag?",
@@ -152,36 +193,53 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "14",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_7"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "For the triangles shown, triangle ABC is dilated by a scale factor of 3 to obtain triangle XYZ, where $ d=19 $. What is the measure, in degrees, of angle X?",
+    "passage": "For the triangles shown, triangle ABC is dilated by a scale factor of 3 to obtain triangle XYZ, where $d=19$. What is the measure, in degrees, of angle X?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 20 $"
+        "text": "$20$"
       },
       {
         "label": "B",
-        "text": "$ 57 $"
+        "text": "$57$"
       },
       {
         "label": "C",
-        "text": "$ 60 $"
+        "text": "$60$"
       },
       {
         "label": "D",
-        "text": "$ 63 $"
+        "text": "$63$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_8"
+    "rationale": null,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_8",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlB_Math_M1_Q8_1.svg",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlB_Math_M1_Q8_1.svg"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "The graph in the xy -plane models the possible combinations of length x, in meters (m), and width y, in meters, for a rectangle with a perimeter of 26 m. Which statement is the best interpretation of the point $(4,9)$ in this context?",
@@ -206,41 +264,63 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_9"
+    "rationale": null,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_9",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlB_Math_M1_Q9_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlB_Math_M1_Q9_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "$ f(x)=x^{4}+8x+13 $ For the given function $ f $, the graph of $ y=f(x)$ in the xy -plane passes through the point $(0, b)$, where b is a constant. What is the value of b?",
+    "passage": "$f(x)=x^{4}+8x+13$\nFor the given function $f$, the graph of $y=f(x)$ in the xy -plane passes through the point $(0,b)$, where b is a constant. What is the value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "13",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_10"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "Line k is defined by $ y=-\\frac{22}{3}x+2.$ Line j is perpendicular to line k in the xy -plane. What is the slope of line j?",
+    "passage": "Line k is defined by $y=-\\frac{22}{3}x+2.$ Line j is perpendicular to line k in the xy -plane. What is the slope of line j?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "3/22,0.136,.1363,.1364,.136",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_11"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "The area A, in square centimeters, of a rectangular painting can be represented by the expression $ w(w+79)$, where w is the width, in centimeters, of the painting. Which expression represents the length, in centimeters, of the painting?",
+    "passage": "The area A, in square centimeters, of a rectangular painting can be represented by the expression $w(w+79)$, where w is the width, in centimeters, of the painting. Which expression represents the length, in centimeters, of the painting?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 79 $"
+        "text": "$79$"
       },
       {
         "label": "B",
-        "text": "$ w(w+79)$"
+        "text": "$w(w+79)$"
       },
       {
         "label": "C",
@@ -248,17 +328,22 @@
       },
       {
         "label": "D",
-        "text": "$ w $"
+        "text": "$w$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_12"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "In triangle QRS, what is the value of $ tany^{∘}$?",
+    "passage": "In triangle QRS, what is the value of $tany^{∘}$?",
     "question_text": null,
     "choices": [
       {
@@ -280,49 +365,71 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_13"
+    "rationale": null,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_13",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlB_Math_M1_Q13_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlB_Math_M1_Q13_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "$ x(x-13)(x+6)(x-5)^{2}=0 $ What is the greatest solution to the given equation?",
+    "passage": "$x(x-13)(x+6)(x-5)^{2}=0$\nWhat is the greatest solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "13",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_14"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "An object is launched from a height of 139 feet above the ground. A quadratic function $ f $ models the height above the ground, in feet, of the object $ t $ seconds after it is launched. According to the model, 2 seconds after the object is launched, it reaches a maximum height of 203 feet above the ground. Which equation defines $ f $?",
+    "passage": "An object is launched from a height of 139 feet above the ground. A quadratic function $f$ models the height above the ground, in feet, of the object $t$ seconds after it is launched. According to the model, 2 seconds after the object is launched, it reaches a maximum height of 203 feet above the ground. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ f(t)=-16(t+203)^{2}-2 $"
+        "text": "$f(t)=-16(t+203)^{2}-2$"
       },
       {
         "label": "B",
-        "text": "$ f(t)=-16(t-203)^{2}+2 $"
+        "text": "$f(t)=-16(t-203)^{2}+2$"
       },
       {
         "label": "C",
-        "text": "$ f(t)=-16(t+2)^{2}-203 $"
+        "text": "$f(t)=-16(t+2)^{2}-203$"
       },
       {
         "label": "D",
-        "text": "$ f(t)=-16(t-2)^{2}+203 $"
+        "text": "$f(t)=-16(t-2)^{2}+203$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_15"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "$ x^{2}+52x+y^{2}=0 $ In the xy -plane, the graph of the given equation is a circle. What are the coordinates $(x, y)$ of the center of the circle?",
+    "passage": "$x^{2}+52x+y^{2}=0$\nIn the xy -plane, the graph of the given equation is a circle. What are the coordinates $(x,y)$ of the center of the circle?",
     "question_text": null,
     "choices": [
       {
@@ -344,19 +451,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_16"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "$-0.9y=0.8x+2.2 $ $ 4y=-3x+18 $ The solution to the given system of equations is $(x, y)$. What is the value of $ x $?",
+    "passage": "$-0.9y=0.8x+2.2$\n$4y=-3x+18$\nThe solution to the given system of equations is $(x,y)$. What is the value of $x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-50",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_17"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "The shaded region shown represents the solutions to which inequality?",
@@ -364,93 +481,127 @@
     "choices": [
       {
         "label": "A",
-        "text": "y"
+        "text": "$y"
       },
       {
         "label": "B",
-        "text": "y"
+        "text": "$y"
       },
       {
         "label": "C",
-        "text": "$ y>-4x+6 $"
+        "text": "$y>-4x+6$"
       },
       {
         "label": "D",
-        "text": "$ y>6x-4 $"
+        "text": "$y>6x-4$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_18"
+    "rationale": null,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_18",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlB_Math_M1_Q18_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlB_Math_M1_Q18_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "$ f(x)=\\frac{a-18}{x}+6 $ In the given function $ f $, a is a constant. The graph of function $ f $ in the xy -plane, where $ y=f(x)$, is translated 3 units down and 9 units to the right to produce the graph of $ y=g(x)$. Which equation defines function g?",
+    "passage": "$f(x)=\\frac{a-18}{x}+6$\nIn the given function $f$, a is a constant. The graph of function $f$ in the xy -plane, where $y=f(x)$, is translated 3 units down and 9 units to the right to produce the graph of $y=g(x)$. Which equation defines function g?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ g(x)=\\frac{a-18}{x+9}+3 $"
+        "text": "$g(x)=\\frac{a-18}{x+9}+3$"
       },
       {
         "label": "B",
-        "text": "$ g(x)=\\frac{a-18}{x-9}+3 $"
+        "text": "$g(x)=\\frac{a-18}{x-9}+3$"
       },
       {
         "label": "C",
-        "text": "$ g(x)=\\frac{a-21}{x+9}+6 $"
+        "text": "$g(x)=\\frac{a-21}{x+9}+6$"
       },
       {
         "label": "D",
-        "text": "$ g(x)=\\frac{a-21}{x-9}+6 $"
+        "text": "$g(x)=\\frac{a-21}{x-9}+6$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_19"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 86 centimeters. If the height of the cone is 43 centimeters and the volume of the cone is $ k\\pi $ cubic centimeters, what is the value of k?",
+    "passage": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 86 centimeters. If the height of the cone is 43 centimeters and the volume of the cone is $k\\pi$ cubic centimeters, what is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "79507",
-    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_20"
+    "rationale": null,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_20",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlB_Math_M1_Q20_1.svg",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlB_Math_M1_Q20_1.svg"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "The binomial $ x+28y $ is a factor of which of the following?",
+    "passage": "The binomial $x+28y$ is a factor of which of the following?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ x^{2}+29xy+28y^{2}$"
+        "text": "$x^{2}+29xy+28y^{2}$"
       },
       {
         "label": "B",
-        "text": "$ x^{2}+29xy+29y^{2}$"
+        "text": "$x^{2}+29xy+29y^{2}$"
       },
       {
         "label": "C",
-        "text": "$ x^{2}+84xy+84y^{2}$"
+        "text": "$x^{2}+84xy+84y^{2}$"
       },
       {
         "label": "D",
-        "text": "$ x^{2}+58xy+87y^{2}$"
+        "text": "$x^{2}+58xy+87y^{2}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_21"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "If a new graph of three linear equations is created using the system of equations shown and the equation $ x-6y=-36 $, how many solutions $(x, y)$ will the resulting system of three equations have?",
+    "passage": "If a new graph of three linear equations is created using the system of equations shown and the equation $x-6y=-36$, how many solutions $(x,y)$ will the resulting system of three equations have?",
     "question_text": null,
     "choices": [
       {
@@ -472,6 +623,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_22"
+    "rationale": null,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_22",
+    "images": [
+      {
+        "src": "/images_labeled/Aug_25_IntlB_Math_M1_Q22_1.png",
+        "alt": "",
+        "local": "images_labeled/Aug_25_IntlB_Math_M1_Q22_1.png"
+      }
+    ]
   }
 ]

@@ -1,8 +1,12 @@
 [
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "As used in the text, what does the word \"placed\" most nearly mean? The following text is from Charles Chesnutt's 1905 novel The Colonel's Dream. Mr. French and Mr. Kirby work together. Mr. French, the senior partner, who sat opposite Kirby, was an older man—a safe guess would have placed him somewhere in the debatable ground between forty and fifty; of a good height, as could be seen even from the seated figure, the upper part of which was held erect with the unconscious ease which one associates with military training.",
+    "passage": "As used in the text, what does the word \"placed\" most nearly mean?\nThe following text is from Charles Chesnutt's 1905 novel *The Colonel's Dream*. Mr. French and Mr. Kirby work together. Mr. French, the senior partner, who sat opposite Kirby, was an older man—a safe guess would have <u>placed</u> him somewhere in the debatable ground between forty and fifty; of a good height, as could be seen even from the seated figure, the upper part of which was held erect with the unconscious ease which one associates with military training.",
     "question_text": "As used in the text, what does the word \"placed\" most nearly mean?",
     "choices": [
       {
@@ -24,12 +28,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_1"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase? The results of randomized clinical trials testing the efficacy of common medical interventions sometimes fail to ______ conclusions that practitioners reach based on their real-world observations of patients. While there are several possible reasons for this, one is that practitioners may overlook confounding variables that account for the results they attribute to the interventions in question.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe results of randomized clinical trials testing the efficacy of common medical interventions sometimes fail to ______ conclusions that practitioners reach based on their real-world observations of patients. While there are several possible reasons for this, one is that practitioners may overlook confounding variables that account for the results they attribute to the interventions in question.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -51,12 +60,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_2"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase? Sarah Marquis, who walked 16,000 kilometers across Asia, Siberia, and Australia, undoubtedly accomplished much, but her place in our historical memory is perhaps more ______ than that of a noteworthy “first” such as Anésia Pinheiro Machado, who was the first female pilot in Brazil to carry passengers and the first to make stunt flights, a deed for which she will always be remembered.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSarah Marquis, who walked 16,000 kilometers across Asia, Siberia, and Australia, undoubtedly accomplished much, but her place in our historical memory is perhaps more <u>______</u> than that of a noteworthy “first” such as Anésia Pinheiro Machado, who was the first female pilot in Brazil to carry passengers and the first to make stunt flights, a deed for which she will always be remembered.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -78,12 +92,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_3"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase? In the early 1990s, the price of mass-produced comic books rose dramatically, which had the counterintuitive effect of demand: buyers who hadn't previously wanted to purchase comics suddenly thronged the market, believing prices would continue to rise and the comics could be resold later at a profit.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nIn the early 1990s, the price of mass-produced comic books rose dramatically, which had the counterintuitive effect of <u> </u> demand: buyers who hadn't previously wanted to purchase comics suddenly thronged the market, believing prices would continue to rise and the comics could be resold later at a profit.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -105,12 +124,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_4"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice best states the main purpose of the text? In 2015 Floriana Lai and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of Gasterosteus aculeatus, a species of fish. However, Lai and colleagues' study relied on a mean sample size of only 12 fish. In a 2022 review of various scientists' conclusions about the impacts of ocean acidification on fish behavior, Jeff C. Clements and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
+    "passage": "Which choice best states the main purpose of the text?\nIn 2015 Floriana Lai and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Gasterosteus aculeatus*, a species of fish. However, Lai and colleagues' study relied on a mean sample size of only 12 fish. In a 2022 review of various scientists' conclusions about the impacts of ocean acidification on fish behavior, Jeff C. Clements and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
     "question_text": "Which choice best states the main purpose of the text?",
     "choices": [
       {
@@ -132,12 +156,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_5"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice best describes the function of the underlined portion in the text as a whole? Historians have argued that a crucial component of the Civil Rights Movement's success in the 1960s was the Southern Christian Leadership Conference's Citizen Education Program (CEP), which invited promising activists from across the South to its one-week training sessions in Dorchester, Georgia. Led by experienced organizers such as Dorothy Cotton and Septima Clark, CEP attendees —more than 7,000 in all— participated in workshops on topics ranging from public speaking to legal doctrine before returning home and using their newly acquired knowledge to spearhead local civil rights initiatives.",
+    "passage": "Which choice best describes the function of the underlined portion in the text as a whole?\nHistorians have argued that a crucial component of the Civil Rights Movement's success in the 1960s was the Southern Christian Leadership Conference's Citizen Education Program (CEP), which invited promising activists from across the South to its one-week training sessions in Dorchester, Georgia. Led by experienced organizers such as Dorothy Cotton and Septima Clark, CEP attendees<u>—more than 7,000 in all—</u>participated in workshops on topics ranging from public speaking to legal doctrine before returning home and using their newly acquired knowledge to spearhead local civil rights initiatives.",
     "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
     "choices": [
       {
@@ -159,12 +188,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_6"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice best describes the overall structure of the text? Asteroid 6478 Gault has experienced intermittent mass loss since at least 2013, but in contrast to some other asteroids with repeated mass-loss episodes, 6478 Gault has not lost mass at its perihelion (the closest point of its orbit to the Sun), and thus the loss is not attributable to solar energy-driven ice vaporization. And as Jane X. Luu et al. point out, the singular nature of impact ejection makes it untenable as an account of multiple loss episodes of similar duration over several years. Instead, Luu et al. are likely correct that 6478 Gault is shedding mass due to rotational instability.",
+    "passage": "Which choice best describes the overall structure of the text?\nAsteroid 6478 Gault has experienced intermittent mass loss since at least 2013, but in contrast to some other asteroids with repeated mass-loss episodes, 6478 Gault has not lost mass at its perihelion (the closest point of its orbit to the Sun), and thus the loss is not attributable to solar energy-driven ice vaporization. And as Jane X. Luu et al. point out, the singular nature of impact ejection makes it untenable as an account of multiple loss episodes of similar duration over several years. Instead, Luu et al. are likely correct that 6478 Gault is shedding mass due to rotational instability.",
     "question_text": "Which choice best describes the overall structure of the text?",
     "choices": [
       {
@@ -186,12 +220,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_7"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Based on the texts, how would Rubayet Bin Mostafiz and colleagues (Text 2) most likely respond to the information presented in Text 1? Text 1 In northern and western Nebraska, many buildings and other structures rest on soil that is expansive, meaning that it swells or shrinks as its moisture level changes. Civil engineer Jay X. Wang has noted that the effects of expansive soil appear slowly in the form of gradually growing cracks in foundations, walls, and pavements. Because these effects are incremental and can generally be repaired (though at some cost), structures in northern and western Nebraska are typically not built to resist them. Text 2 In a 2021 study, Rubayet Bin Mostafiz and colleagues calculated that in the state of Louisiana alone, the annual cost of damage caused by expansive soils reaches nearly 90 million. But they note that this damage can be mitigated: building structures on pile supports can significantly reduce the effects of soil swelling and shrinking.",
+    "passage": "Based on the texts, how would Rubayet Bin Mostafiz and colleagues (Text 2) most likely respond to the information presented in Text 1? Text 1\nIn northern and western Nebraska, many buildings and other structures rest on soil that is expansive, meaning that it swells or shrinks as its moisture level changes. Civil engineer Jay X. Wang has noted that the effects of expansive soil appear slowly in the form of gradually growing cracks in foundations, walls, and pavements. Because these effects are incremental and can generally be repaired (though at some cost), structures in northern and western Nebraska are typically not built to resist them. Text 2\nIn a 2021 study, Rubayet Bin Mostafiz and colleagues calculated that in the state of Louisiana alone, the annual cost of damage caused by expansive soils reaches nearly $90 million. But they note that this damage can be mitigated: building structures on pile supports can significantly reduce the effects of soil swelling and shrinking.",
     "question_text": "Based on the texts, how would Rubayet Bin Mostafiz and colleagues (Text 2) most likely respond to the information presented in Text 1?",
     "choices": [
       {
@@ -213,12 +252,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_8"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which statement about Alfagali and other Africanist scholars is best supported by information in the text? Thomas Piketty and other historians of capitalism rarely discuss domestic capitalism in Africa before the period of European colonization, implicitly presenting capitalism as external to and imposed on Africa. Crislayne Alfagali and other Africanist scholars have shown, however, that in parts of Africa, export-oriented manufacturing, the existence of salaried labor, and other features of capitalism predated colonization. One reason for this discrepancy is that historians of capitalism tend to focus on longitudinal economic data drawn from archival records, which do not exist for much of precolonial Africa.",
+    "passage": "Which statement about Alfagali and other Africanist scholars is best supported by information in the text?\nThomas Piketty and other historians of capitalism rarely discuss domestic capitalism in Africa before the period of European colonization, implicitly presenting capitalism as external to and imposed on Africa. Crislayne Alfagali and other Africanist scholars have shown, however, that in parts of Africa, export-oriented manufacturing, the existence of salaried labor, and other features of capitalism predated colonization. One reason for this discrepancy is that historians of capitalism tend to focus on longitudinal economic data drawn from archival records, which do not exist for much of precolonial Africa.",
     "question_text": "Which statement about Alfagali and other Africanist scholars is best supported by information in the text?",
     "choices": [
       {
@@ -240,12 +284,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_9"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which finding, if true, would most directly weaken the student's claim? Geneticist Elaine Ostrander led an international collaboration in which Jocelyn Plassais and other researchers investigated the evolutionary history of size variation in modern dogs. The researchers identified multiple versions of the gene regulating the production of IGF-1 (insulin-like growth factor 1) in dogs and found that dogs of the same breed consistently share the same version of the gene. In a discussion of the study, a student hypothesizes that small breeds of dogs (for example, toy poodles) must share a version that represses IGF-1 production that would otherwise confer larger body size.",
+    "passage": "Which finding, if true, would most directly weaken the student's claim?\nGeneticist Elaine Ostrander led an international collaboration in which Jocelyn Plassais and other researchers investigated the evolutionary history of size variation in modern dogs. The researchers identified multiple versions of the gene regulating the production of IGF-1 (insulin-like growth factor 1) in dogs and found that dogs of the same breed consistently share the same version of the gene. In a discussion of the study, a student hypothesizes that small breeds of dogs (for example, toy poodles) must share a version that represses IGF-1 production that would otherwise confer larger body size.",
     "question_text": "Which finding, if true, would most directly weaken the student's claim?",
     "choices": [
       {
@@ -267,39 +316,49 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_10"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text? Scholars cite Pedro Páramo, the 1955 novel by Mexican author Juan Rulfo, as a foundational text of magical realism, the Latin American style of fiction in which antirealistic plot devices—often borrowed from the folkloric traditions of Indigenous and colonial societies in the Americas—are deployed in an otherwise realistic mode of representation typical of the modern novel. This style has exerted a decisive influence on authors around the world, including José Saramago, whose 1982 novel Baltasar and Blimunda resembles classic magical realist novels in its juxtaposition of literary realism with folklore—namely, that of Portugal.",
+    "passage": "Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text?\nScholars cite *Pedro Páramo*, the 1955 novel by Mexican author Juan Rulfo, as a foundational text of magical realism, the Latin American style of fiction in which antirealistic plot devices—often borrowed from the folkloric traditions of Indigenous and colonial societies in the Americas—are deployed in an otherwise realistic mode of representation typical of the modern novel. This style has exerted a decisive influence on authors around the world, including José Saramago, <u>whose 1982 novel *Baltasar and Blimunda* resembles classic magical realist novels in its juxtaposition of literary realism with folklore—namely, that of Portugal.</u>",
     "question_text": "Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text?",
     "choices": [
       {
         "label": "A",
-        "text": "\"While Baltasar and Blimunda alternates between realistic and antirealistic modes of representation, details suggesting the influence of Portuguese folklore nevertheless occur throughout the novel.\""
+        "text": "\"While *Baltasar and Blimunda* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Portuguese folklore nevertheless occur throughout the novel.\""
       },
       {
         "label": "B",
-        "text": "\"Although Portuguese folklore clearly informs the style and occasionally antirealistic plot of Baltasar and Blimunda, the novel also shows the inarguable influence of the magical realist tradition of Latin America.\""
+        "text": "\"Although Portuguese folklore clearly informs the style and occasionally antirealistic plot of *Baltasar and Blimunda*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.\""
       },
       {
         "label": "C",
-        "text": "\"The logic of the realistic plot of Baltasar and Blimunda is repeatedly and productively disrupted by the presence of imagery and situations drawn from Portuguese folklore.”"
+        "text": "\"The logic of the realistic plot of *Baltasar and Blimunda* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Portuguese folklore.”"
       },
       {
         "label": "D",
-        "text": "\"Like many works in the Latin American magical realist tradition, Baltasar and Blimunda is indebted to antirealistic elements in the folkloric tradition of Portugal.\""
+        "text": "\"Like many works in the Latin American magical realist tradition, *Baltasar and Blimunda* is indebted to antirealistic elements in the folkloric tradition of Portugal.\""
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_11"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice most logically completes the text? Indigenous songs are an important resource for ecological information. Songs of the Warlpiri people in Yuendumu, Australia, convey information about wild edible seeds, and the songs of the Karen (hta) Hin Lad Nai people in Thailand offer detailed information about bees. There have been efforts made to preserve Indigenous languages over the years—e.g., the United Nations' International Decade of Indigenous Languages (2022-2032). However, such attempts have typically focused on spoken language despite the fact that some expressions in these languages appear only in songs. Therefore, if those involved in such efforts want to ensure that a comprehensive range of information is secured, they must ________",
+    "passage": "Which choice most logically completes the text?\nIndigenous songs are an important resource for ecological information. Songs of the Warlpiri people in Yuendumu, Australia, convey information about wild edible seeds, and the songs of the Karen (hta) Hin Lad Nai people in Thailand offer detailed information about bees. There have been efforts made to preserve Indigenous languages over the years—e.g., the United Nations' International Decade of Indigenous Languages (2022-2032). However, such attempts have typically focused on spoken language despite the fact that some expressions in these languages appear only in songs. Therefore, if those involved in such efforts want to ensure that a comprehensive range of information is secured, they must ________",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -321,12 +380,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_12"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice most logically completes the text? In a 2012 study that took place in Brazil, Enelton Fagnani, José Roberto Guimara, and Pedro Sérgio Tadini found a negative association between levels of dissolved organic carbon and mercury in bodies of fresh water. It may seem reasonable to be skeptical of this finding, since most other studies, such as research conducted in 1995 in the United States by Charles T. Driscoll and colleagues, have found that dissolved organic carbon and mercury levels rise together. Like the latter study, however, most studies of the topic have been conducted in North America, and many of those study sites have similar characteristics to one another, suggesting that ______",
+    "passage": "Which choice most logically completes the text?\nIn a 2012 study that took place in Brazil, Enelton Fagnani, José Roberto Guimara, and Pedro Sérgio Tadini found a negative association between levels of dissolved organic carbon and mercury in bodies of fresh water. It may seem reasonable to be skeptical of this finding, since most other studies, such as research conducted in 1995 in the United States by Charles T. Driscoll and colleagues, have found that dissolved organic carbon and mercury levels rise together. Like the latter study, however, most studies of the topic have been conducted in North America, and many of those study sites have similar characteristics to one another, suggesting that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -348,17 +412,22 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_13"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice most logically completes the text? As complex life cycle parasites, Anisakis sp. and Cucullanellus kanabus require multiple host species throughout their development. Extrapolating from parasite counts on spotted ratfish and seven other fish species collected from Puget Sound from 1880 to 2019, Chelsea Wood et al. found that the abundance of three-host parasites, such as Anisakis sp., negatively correlated with rising average annual sea temperatures; the abundance of two-host parasites, such as C. kanabus, was largely stable. Noting that fish and other marine vertebrates are especially vulnerable to climate change, Wood et al. observed that all three-host parasites in the study depend on at least two vertebrate species, while all two-host parasites depend on only one, suggesting that ______________",
+    "passage": "Which choice most logically completes the text?\nAs complex life cycle parasites, *Anisakis* sp. and *Cucullanellus kanabus* require multiple host species throughout their development. Extrapolating from parasite counts on spotted ratfish and seven other fish species collected from Puget Sound from 1880 to 2019, Chelsea Wood et al. found that the abundance of three-host parasites, such as *Anisakis* sp., negatively correlated with rising average annual sea temperatures; the abundance of two-host parasites, such as *C. kanabus*, was largely stable. Noting that fish and other marine vertebrates are especially vulnerable to climate change, Wood et al. observed that all three-host parasites in the study depend on at least two vertebrate species, while all two-host parasites depend on only one, suggesting that ______________",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
         "label": "A",
-        "text": "although Anisakis sp. and C. kanabus both require spotted ratfish as a host, C. kanabus was more adversely affected by warming-driven changes in the spotted ratfish population than Anisakis sp. was."
+        "text": "although *Anisakis* sp. and *C. kanabus* both require spotted ratfish as a host, *C. kanabus* was more adversely affected by warming-driven changes in the spotted ratfish population than *Anisakis* sp. was."
       },
       {
         "label": "B",
@@ -375,12 +444,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_14"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? Entomologists Yash Sondhi and Samuel Fabian have tried to explain why moths fly erratically around light sources at night. Knowing that flying insects keep their backs pointed toward sunlight during the day, _________________",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEntomologists Yash Sondhi and Samuel Fabian have tried to explain why moths fly erratically around light sources at night. Knowing that flying insects keep their backs pointed toward sunlight during the day, _________________",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -402,12 +476,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_15"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? In Finland, the Hankasalmi observatory site monitors activity in the upper atmosphere of the northern ______ in Antarctica, another observatory site, Zhongshan Station, monitors the sky of the southern hemisphere. Together, they are part of the Super Dual Auroral Radar Network—or SuperDARN, as space physicists like Kathryn McWilliams call it.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Finland, the Hankasalmi observatory site monitors activity in the upper atmosphere of the northern ______ in Antarctica, another observatory site, Zhongshan Station, monitors the sky of the southern hemisphere. Together, they are part of the Super Dual Auroral Radar Network—or SuperDARN, as space physicists like Kathryn McWilliams call it.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -429,12 +508,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_16"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? Butterfly is a 1988 painting by the Japanese artist Ay-O. Like many of Ay-O's paintings, Butterfly, which portrays a swimmer performing the butterfly stroke, attempts to make use of the entire visual light ______ sporting rainbow-striped goggles, the rainbow-hued swimmer splashes through a wavy rainbow of water.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\n*Butterfly* is a 1988 painting by the Japanese artist Ay-O. Like many of Ay-O's paintings, *Butterfly*, which portrays a swimmer performing the butterfly stroke, attempts to make use of the entire visual light ______ sporting rainbow-striped goggles, the rainbow-hued swimmer splashes through a wavy rainbow of water.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -456,12 +540,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_17"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? The 20th century saw the founding of many Latino advocacy to protect and advance the rights of Latino Americans, both the American GI Forum (1948) and the Mexican American Legal Defense and Education Fund (1968) contributed to the history of US civil rights.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe 20th century saw the founding of many Latino advocacy <u> </u> to protect and advance the rights of Latino Americans, both the American GI Forum (1948) and the Mexican American Legal Defense and Education Fund (1968) contributed to the history of US civil rights.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -483,12 +572,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_18"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? Latvia, Greece, and the other member nations of the North Atlantic Treaty Organization, or NATO, share a commitment to the principle of collective defense, each NATO member ______ to defend the others if necessary.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nLatvia, Greece, and the other member nations of the North Atlantic Treaty Organization, or NATO, share a commitment to the principle of collective defense, each NATO member ______ to defend the others if necessary.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -510,12 +604,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_19"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English? The Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. For instance, in July 2021, a hypothetical basket of goods priced at 100 US dollars (USD) in the United States would have cost 55 USD and 137 USD in fellow OECD ______ and Switzerland, respectively.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. For instance, in July 2021, a hypothetical basket of goods priced at 100 US dollars (USD) in the United States would have cost 55 USD and 137 USD in fellow OECD ______ and Switzerland, respectively.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -537,12 +636,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_20"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical transition? With many elements, like bromine, scientists were able to isolate a relatively pure sample of the substance shortly after discovering its existence. ______ this wasn't the case with all elements. The process of isolating europium, for example, took several years—five, to be precise.",
+    "passage": "Which choice completes the text with the most logical transition?\nWith many elements, like bromine, scientists were able to isolate a relatively pure sample of the substance shortly after discovering its existence. ______ this wasn't the case with all elements. The process of isolating europium, for example, took several years—five, to be precise.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -564,12 +668,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_21"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical transition? Modernista architects championed nature in their designs._______ the wavy exterior wall and botanical window dressings of Torre Cortés, a Modernista private home designed by Salvador Valeri i Pupurull, couldn't exactly grow in a forest. Still, one sees natural influences in Valeri i Pupurull's penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.",
+    "passage": "Which choice completes the text with the most logical transition?\nModernista architects championed nature in their designs._______ the wavy exterior wall and botanical window dressings of Torre Cortés, a Modernista private home designed by Salvador Valeri i Pupurull, couldn't exactly grow in a forest. Still, one sees natural influences in Valeri i Pupurull's penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -591,12 +700,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_22"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
     "question_number": 23,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice completes the text with the most logical transition? In a 1993 study by Vales and Peek, the researchers determined the ratio of three different plant subtypes within the diet of elk: graminoids, forbs, and browse. ______ the researchers determined the relative quantities of the plants the animal consumed.",
+    "passage": "Which choice completes the text with the most logical transition?\nIn a 1993 study by Vales and Peek, the researchers determined the ratio of three different plant subtypes within the diet of elk: graminoids, forbs, and browse. ______ the researchers determined the relative quantities of the plants the animal consumed.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -618,12 +732,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_23"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
     "question_number": 24,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice most effectively uses information from the given sentences to emphasize the size of the crater? While researching a topic, a student has taken the following notes: Impact craters occur when a large object collides with Earth at high speeds. Examples of such objects include comets and meteorites. Zeleny Gai is an impact crater in Ukraine. Researchers have determined that it was formed around 80 million years ago. The crater has a diameter of approximately 3.5 km.",
+    "passage": "Which choice most effectively uses information from the given sentences to emphasize the size of the crater?\nWhile researching a topic, a student has taken the following notes:\n• Impact craters occur when a large object collides with Earth at high speeds.\n• Examples of such objects include comets and meteorites.\n• Zeleny Gai is an impact crater in Ukraine.\n• Researchers have determined that it was formed around 80 million years ago.\n• The crater has a diameter of approximately 3.5 km.",
     "question_text": "Which choice most effectively uses information from the given sentences to emphasize the size of the crater?",
     "choices": [
       {
@@ -645,12 +764,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_24"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
     "question_number": 25,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "The student wants to identify the sculpture for which Arp won a Carnegie Prize gold medal. Which choice most effectively uses relevant information from the notes to accomplish this goal? While researching a topic, a student has taken the following notes: Artist Jean Arp of Germany won a Carnegie Prize gold medal in 1964. The Carnegie Prize is an international art competition. It is administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania. Arp's winning artwork was a sculpture entitled Sculpture classique.",
+    "passage": "The student wants to identify the sculpture for which Arp won a Carnegie Prize gold medal. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Artist Jean Arp of Germany won a Carnegie Prize gold medal in 1964.\n• The Carnegie Prize is an international art competition.\n• It is administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania.\n• Arp's winning artwork was a sculpture entitled *Sculpture classique*.",
     "question_text": "The student wants to identify the sculpture for which Arp won a Carnegie Prize gold medal. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -663,7 +787,7 @@
       },
       {
         "label": "C",
-        "text": "Arp won a Carnegie Prize gold medal for the sculpture Sculpture classique."
+        "text": "Arp won a Carnegie Prize gold medal for the sculpture *Sculpture classique*."
       },
       {
         "label": "D",
@@ -672,12 +796,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_25"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
     "question_number": 26,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "The student wants to provide a specific example of onomatopoeia. Which choice most effectively uses relevant information from the notes to accomplish this goal? While researching a topic, a student has taken the following notes: Onomatopoeias are words that imitate the sounds they represent. Onomatopoeias used to represent the same sound often vary from language to language. This variation is due in part to differences in how languages are structured. \"Dugeun dugeun\" is a Korean onomatopoeia that represents the sound of a heartbeat. \"Tuk-tuk\" is a Russian onomatopoeia that represents the sound of a heartbeat. The term \"onomatopoeia\" combines the Greek words for \"name\" (onoma) and \"to make\" (poiein).",
+    "passage": "The student wants to provide a specific example of onomatopoeia. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Onomatopoeias are words that imitate the sounds they represent.\n• Onomatopoeias used to represent the same sound often vary from language to language.\n• This variation is due in part to differences in how languages are structured.\n• \"Dugeun dugeun\" is a Korean onomatopoeia that represents the sound of a heartbeat.\n• \"Tuk-tuk\" is a Russian onomatopoeia that represents the sound of a heartbeat.\n• The term \"onomatopoeia\" combines the Greek words for \"name\" (onoma) and \"to make\" (poiein).",
     "question_text": "The student wants to provide a specific example of onomatopoeia. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -699,12 +828,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_26"
   },
   {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
     "question_number": 27,
     "test_name": "June 2024 International Form A SAT English Module 2",
-    "passage": "Which choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags? While researching a topic, a student has taken the following notes: Vexillology is the study of flags. The flags of many countries include symbols like animals, plants, or landforms. These symbols often represent an aspect of the region's history, culture, or landscape. The flag of Kazakhstan includes an eagle. The flag of Slovenia includes Triglav mountain.",
+    "passage": "Which choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags?\nWhile researching a topic, a student has taken the following notes:\n• Vexillology is the study of flags.\n• The flags of many countries include symbols like animals, plants, or landforms.\n• These symbols often represent an aspect of the region's history, culture, or landscape.\n• The flag of Kazakhstan includes an eagle.\n• The flag of Slovenia includes Triglav mountain.",
     "question_text": "Which choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags?",
     "choices": [
       {
@@ -726,6 +860,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_27"
   }
 ]
