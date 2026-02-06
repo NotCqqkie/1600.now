@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Youtube, Eye, EyeOff, Maximize2, Minimize2 } from "lucide-react";
+import { Youtube } from "lucide-react";
 import { DraggableWindow } from "./DraggableWindow";
 import { renderMixedContent } from "@/lib/utils";
 
@@ -24,7 +24,6 @@ interface ExplanationWindowProps {
 }
 
 export const ExplanationWindow = ({ 
-  videoUrl,
   onSplitScreenChange,
   onSplitPositionChange,
   splitPosition = 50,
@@ -43,16 +42,10 @@ export const ExplanationWindow = ({
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isAnswerRevealed, setIsAnswerRevealed] = useState(false);
-  const [isMaximized, setIsMaximized] = useState(false);
-  const videoContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setIsAnswerRevealed(false);
   }, [questionId, correctAnswer]);
-
-  const toggleFullscreen = () => {
-    setIsMaximized(!isMaximized);
-  };
 
   const handleToggle = () => {
     if (!isOpen && onFocus) {
@@ -132,46 +125,12 @@ export const ExplanationWindow = ({
         constrainToLeft={constrainToLeft}
         isSidebarred={isSidebarred}
         onSidebarToggle={onSidebarToggle}
-        isMaximized={isMaximized}
       >
         <div className="w-full h-full flex flex-col overflow-y-auto">
           {/* Answer Section Removed Temporarily */}
           
-          <div 
-            ref={videoContainerRef} 
-            className="flex-1 w-full flex items-center justify-center bg-black min-h-[300px] relative group/video"
-          >
-            {videoUrl && (
-              <Button
-                variant="ghost"
-                size="icon"
-                className="absolute top-2 right-2 z-10 opacity-0 group-hover/video:opacity-100 transition-opacity bg-black/40 hover:bg-black/60 text-white"
-                onClick={toggleFullscreen}
-                title={isMaximized ? "Exit Fullscreen" : "Fullscreen"}
-              >
-                {isMaximized ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
-              </Button>
-            )}
-
-            {videoUrl ? (
-              videoUrl.match(/\.(mp4|webm|ogg|mov)$/i) ? (
-                <video 
-                  src={videoUrl} 
-                  controls 
-                  className="w-full h-full object-contain" 
-                />
-              ) : (
-                <iframe
-                  src={videoUrl}
-                  className="w-full h-full"
-                  title="Explanation Video"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              )
-            ) : (
-              <p className="text-muted-foreground">Video explanation coming soon</p>
-            )}
+          <div className="flex-1 w-full flex items-center justify-center bg-muted min-h-[300px]">
+            <p className="text-muted-foreground">Explanation coming soon.</p>
           </div>
         </div>
       </DraggableWindow>

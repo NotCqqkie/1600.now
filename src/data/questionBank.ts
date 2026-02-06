@@ -1,4 +1,5 @@
 import { questions as allQuestionsData, type Question as SourceQuestion } from "./all_questions";
+import { questionImageMap } from "./questionImageMap";
 // @ts-ignore
 // import categoryMap from "./category_map.json"; // IDs don't match anymore
 import {
@@ -137,21 +138,40 @@ const hasRenderableStem = (q: SourceQuestion): boolean => {
   return hasText || hasImage;
 };
 
-const mapImages = (image?: string) => {
-  if (!image) return undefined;
-  return [{
-      src: ensureSatImagePath(image),
+const mapImages = (q: SourceQuestion) => {
+  const supplemental = questionImageMap[String(q.id)];
+  const supplementalImages = supplemental?.questionImages?.map((img) => ({
+    src: ensureSatImagePath(img.src),
+    alt: img.alt || "Question image",
+  }));
+
+  if (supplementalImages && supplementalImages.length > 0) {
+    return supplementalImages;
+  }
+
+  if (!q.image) return undefined;
+  return [
+    {
+      src: ensureSatImagePath(q.image),
       alt: "Question image",
-  }];
+    },
+  ];
 };
 
-const mapChoices = (choices: SourceQuestion["choices"]) => {
+const mapChoices = (q: SourceQuestion) => {
+  const choices = q.choices;
   if (!choices) return undefined;
+  const supplemental = questionImageMap[String(q.id)];
   return choices.map((choice) => {
+    const fallbackChoiceImage = supplemental?.choiceImages?.[choice.id];
     return {
       id: choice.id,
       text: choice.text ? sanitizeCurrency(choice.text) : undefined,
-      image: choice.image ? ensureSatImagePath(choice.image) : undefined,
+      image: choice.image
+        ? ensureSatImagePath(choice.image)
+        : fallbackChoiceImage
+        ? ensureSatImagePath(fallbackChoiceImage)
+        : undefined,
     } satisfies BankChoice;
   });
 };
@@ -230,10 +250,10 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
     prompt,
     passage, 
     questionText,
-    choices: q.type === "multiple-choice" ? mapChoices(q.choices) : undefined,
+    choices: q.type === "multiple-choice" ? mapChoices(q) : undefined,
     type,
     correctAnswer: q.correctAnswer,
-    questionImages: mapImages(q.image),
+    questionImages: mapImages(q),
     category,
   };
 };

@@ -59,6 +59,11 @@ export const DraggableWindow = ({
   const windowRef = useRef<HTMLDivElement>(null);
   const prevIsOpenRef = useRef(false);
   const lastSplitPositionRef = useRef<number | null>(null);
+  const wasSidebarredRef = useRef(isSidebarred);
+  const previousWindowStateRef = useRef<{
+    position: { x: number; y: number };
+    size: { width: number; height: number };
+  } | null>(null);
   
   // Refs for event handlers to access latest state without re-binding listeners
   const positionRef = useRef(position);
@@ -129,7 +134,17 @@ export const DraggableWindow = ({
   // Handle sidebar mode changes - position window in sidebar
   useEffect(() => {
     if (!isOpen) return;
-    
+
+    const wasSidebarred = wasSidebarredRef.current;
+
+    if (!wasSidebarred && isSidebarred) {
+      // Save the current floating window geometry before entering sidebar mode.
+      previousWindowStateRef.current = {
+        position: positionRef.current,
+        size: sizeRef.current,
+      };
+    }
+
     if (isSidebarred) {
       const updateSidebarPosition = () => {
         const splitPixels = (window.innerWidth * splitPosition) / 100;
@@ -139,12 +154,27 @@ export const DraggableWindow = ({
       };
       
       updateSidebarPosition();
-      
+
+      wasSidebarredRef.current = true;
       window.addEventListener('resize', updateSidebarPosition);
       return () => window.removeEventListener('resize', updateSidebarPosition);
     } else {
-      // Exit sidebar mode - return to center (only if we were previously sidebarred)
-      // This is handled by the toggle function
+      // Restore prior floating geometry when exiting sidebar mode.
+      if (wasSidebarred) {
+        const savedState = previousWindowStateRef.current;
+        if (savedState) {
+          const bottomBarHeight = 80;
+          const maxX = window.innerWidth - savedState.size.width;
+          const maxY = window.innerHeight - savedState.size.height - bottomBarHeight;
+
+          setSize(savedState.size);
+          setPosition({
+            x: Math.max(0, Math.min(savedState.position.x, maxX)),
+            y: Math.max(0, Math.min(savedState.position.y, maxY)),
+          });
+        }
+      }
+      wasSidebarredRef.current = false;
     }
   }, [splitPosition, isSidebarred, isOpen]);
 
@@ -387,14 +417,6 @@ export const DraggableWindow = ({
     // Notify parent of split screen change
     if (onSplitScreenChange) {
       onSplitScreenChange(newSidebarState, windowId);
-    }
-    
-    if (!newSidebarState) {
-      // Exiting sidebar - return to center
-      const centerX = (window.innerWidth - defaultWidth) / 2;
-      const centerY = (window.innerHeight - defaultHeight) / 2;
-      setPosition({ x: Math.max(0, centerX), y: Math.max(0, centerY) });
-      setSize({ width: defaultWidth, height: defaultHeight });
     }
   };
 
