@@ -58,6 +58,7 @@ export const DraggableWindow = ({
   const [isResizingSplit, setIsResizingSplit] = useState(false);
   const windowRef = useRef<HTMLDivElement>(null);
   const prevIsOpenRef = useRef(false);
+  const lastSplitPositionRef = useRef<number | null>(null);
   
   // Refs for event handlers to access latest state without re-binding listeners
   const positionRef = useRef(position);
@@ -174,13 +175,18 @@ export const DraggableWindow = ({
       const newPosition = (e.clientX / window.innerWidth) * 100;
       // Allow the left pane to shrink further so the sidebar can grow up to ~65% of the screen
       const clampedPosition = Math.max(35, Math.min(70, newPosition));
+      const roundedPosition = Math.round(clampedPosition * 4) / 4;
       if (onSplitPositionChange) {
-        onSplitPositionChange(clampedPosition);
+        if (lastSplitPositionRef.current !== roundedPosition) {
+          lastSplitPositionRef.current = roundedPosition;
+          onSplitPositionChange(roundedPosition);
+        }
       }
     };
 
     const handleMouseUp = () => {
       setIsResizingSplit(false);
+      lastSplitPositionRef.current = null;
       document.body.classList.remove("noselect");
     };
 
@@ -190,6 +196,7 @@ export const DraggableWindow = ({
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseup', handleMouseUp);
+      lastSplitPositionRef.current = null;
       document.body.classList.remove("noselect");
     };
   }, [isResizingSplit, isSidebarred, onSplitPositionChange]);
@@ -430,7 +437,10 @@ export const DraggableWindow = ({
             left: `calc(${splitPosition}% - 8px)`, 
             zIndex: zIndex + 10 // Always above this window
           }}
-          onMouseDown={() => setIsResizingSplit(true)}
+          onMouseDown={() => {
+            lastSplitPositionRef.current = null;
+            setIsResizingSplit(true);
+          }}
         >
           <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
         </div>

@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
-import questionsData from "@/data/questions.json";
+import { questions as questionsData } from "@/data/all_questions";
 import { classifyQuestion, type QuestionCategory } from "@/data/questionCategories";
-import { Question } from "@/data/types";
-
-const questions = questionsData as unknown as Question[];
+const questions = questionsData;
 
 import { Card } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -27,8 +25,8 @@ const Analysis = () => {
       const categoryGroups: Record<string, any[]> = {};
 
       questions.forEach((q) => {
-        const isMath = q.test_name.toLowerCase().includes("math");
-        const fullText = [q.passage, q.question_text, ...(q.choices?.map(c => c.text) || [])].filter(Boolean).join(" ");
+        const isMath = q.section?.toLowerCase() === "math" || q.category?.subject === "Math";
+        const fullText = [q.text, ...(q.choices?.map((c) => c.text) || [])].filter(Boolean).join(" ");
         
         const category = classifyQuestion(fullText, isMath);
         
@@ -51,7 +49,7 @@ const Analysis = () => {
           if (category.confidence === "low") {
             lowConfidence.push({
               id: q.id,
-              text: q.question_text?.substring(0, 100) + "...",
+              text: q.text?.substring(0, 100) + "...",
               assigned: key,
               fullCategory: category
             });
@@ -61,7 +59,7 @@ const Analysis = () => {
           if (categoryGroups[key].length < 5) {
             categoryGroups[key].push({
                id: q.id,
-               text: q.question_text?.substring(0, 100) + "...",
+               text: q.text?.substring(0, 100) + "...",
                confidence: category.confidence
             });
           }
@@ -80,20 +78,20 @@ const Analysis = () => {
     const lowConfidenceReport: any[] = [];
 
     questions.forEach((q) => {
-      const isMath = q.test_name.toLowerCase().includes("math");
-      const fullText = [q.passage, q.question_text, ...(q.choices?.map(c => c.text) || [])].filter(Boolean).join(" ");
+      const isMath = q.section?.toLowerCase() === "math" || q.category?.subject === "Math";
+      const fullText = [q.text, ...(q.choices?.map((c) => c.text) || [])].filter(Boolean).join(" ");
       const category = classifyQuestion(fullText, isMath);
       
       if (category) {
         fullMap[q.id] = {
             ...category,
-            question_text_preview: q.question_text?.substring(0, 50)
+            question_text_preview: q.text?.substring(0, 50)
         };
         
         if (category.confidence === "low") {
             lowConfidenceReport.push({
                 id: q.id,
-                text: q.question_text,
+                text: q.text,
                 assigned: category,
                 full_text: fullText
             });

@@ -12,7 +12,7 @@ import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { PreviousAttemptsDialog } from "@/components/PreviousAttemptsDialog";
-import { ChevronLeft, ChevronRight, Check, Bookmark, Strikethrough, Maximize2, Minimize2, Rows3, Columns3 } from "lucide-react";
+import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3 } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { toast } from "sonner";
 import {
@@ -34,6 +34,57 @@ const hardQuestions = originalQuestions.map(q => ({
   uuid: `hard-${q.id}` // Unique ID for progress tracking
 }));
 
+type LowerThanHysteresisArgs = {
+  currentState: boolean;
+  value: number;
+  enterThreshold: number;
+  exitThreshold: number;
+};
+
+type GreaterThanHysteresisArgs = {
+  currentState: boolean;
+  value: number;
+  enterThreshold: number;
+  exitThreshold: number;
+};
+
+const getNextStateForLowerThan = ({
+  currentState,
+  value,
+  enterThreshold,
+  exitThreshold,
+}: LowerThanHysteresisArgs) => {
+  if (currentState) {
+    return value <= exitThreshold;
+  }
+
+  return value < enterThreshold;
+};
+
+const getNextStateForGreaterThan = ({
+  currentState,
+  value,
+  enterThreshold,
+  exitThreshold,
+}: GreaterThanHysteresisArgs) => {
+  if (currentState) {
+    return value >= exitThreshold;
+  }
+
+  return value > enterThreshold;
+};
+
+type PracticeSetItem = {
+  id: number;
+  subject: "math" | "reading";
+};
+
+const formatTimer = (totalSeconds: number) => {
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+};
+
 function Question() {
   const { id, subject: rawSubject } = useParams<{ id: string; subject?: string }>();
   const navigate = useNavigate();
@@ -47,9 +98,13 @@ function Question() {
 
   // Practice Mode detection
   const isPracticeMode = searchParams.get('practice') === 'true';
-  const practiceSet = useMemo(() => {
+  const practiceSet = useMemo<PracticeSetItem[]>(() => {
     if (!isPracticeMode) return [];
-    try { return JSON.parse(sessionStorage.getItem('practiceSet') || '[]'); } catch { return []; }
+    try {
+      return JSON.parse(sessionStorage.getItem('practiceSet') || '[]') as PracticeSetItem[];
+    } catch {
+      return [];
+    }
   }, [isPracticeMode]);
 
   // If needed: const practiceIdx = parseInt(searchParams.get('idx') || '0', 10);
@@ -88,16 +143,26 @@ function Question() {
   const [attemptCount, setAttemptCount] = useState(0);
   const [shouldCompress, setShouldCompress] = useState(false);
   const [topShouldCompress, setTopShouldCompress] = useState(false);
+  const [shouldPinBottomNavCenter, setShouldPinBottomNavCenter] = useState(true);
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation']);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [questionViewMode, setQuestionViewMode] = useState<'vertical' | 'horizontal'>('vertical');
   const [questionSplitPosition, setQuestionSplitPosition] = useState(50);
   const [isResizingQuestionSplit, setIsResizingQuestionSplit] = useState(false);
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [isTimerPaused, setIsTimerPaused] = useState(false);
+  const [isTimerVisible, setIsTimerVisible] = useState(true);
   const bottomNavRef = useRef<HTMLDivElement>(null);
+  const bottomNavLeftRef = useRef<HTMLDivElement>(null);
+  const bottomNavCenterRef = useRef<HTMLDivElement>(null);
+  const bottomNavRightRef = useRef<HTMLDivElement>(null);
   const bottomMeasurementRef = useRef<HTMLDivElement>(null);
   const topNavRef = useRef<HTMLDivElement>(null);
+  const topLeftMeasurementRef = useRef<HTMLDivElement>(null);
   const topMeasurementRef = useRef<HTMLDivElement>(null);
   const topCompressStateRef = useRef(false);
+  const bottomCompressStateRef = useRef(false);
+  const bottomCenterPinnedRef = useRef(true);
   const startTimeRef = useRef(Date.now());
 
   const currentQuestion = questionData;
@@ -117,73 +182,141 @@ function Question() {
   // Reset timer on question change
   useEffect(() => {
     startTimeRef.current = Date.now();
+    setElapsedSeconds(0);
+    setIsTimerPaused(false);
   }, [questionNumber, subject, isBank, isOfficialBank]);
+
+  useEffect(() => {
+    if (isTimerPaused) return;
+
+    const timerId = window.setInterval(() => {
+      setElapsedSeconds((prev) => prev + 1);
+    }, 1000);
+
+    return () => window.clearInterval(timerId);
+  }, [isTimerPaused]);
 
   // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
-  // Use hidden measurement div to determine if buttons need compression
-  useEffect(() => {
+  // Use hidden measurement controls plus hysteresis to avoid compression state thrash.
+  useLayoutEffect(() => {
     const checkSpace = () => {
       // Bottom navigation compression
       if (bottomNavRef.current && bottomMeasurementRef.current) {
-        // Get the available width of the container
         const containerWidth = bottomNavRef.current.offsetWidth;
-        
-        // Get the natural width of all buttons at full size (from hidden measurement div)
         const buttonsNaturalWidth = bottomMeasurementRef.current.scrollWidth;
-        
-        // Calculate space taken by navigation sheet (roughly center element)
         const navSheet = bottomNavRef.current.querySelector('[data-nav-sheet]');
         const navSheetWidth = navSheet ? (navSheet as HTMLElement).offsetWidth : 120;
-        
-        // Previous button width (approximate at full size)
         const prevButtonWidth = 100;
-        
-        // Total width needed: prev button + nav sheet + right buttons + gaps + padding
-        // Added extra 32px buffer to trigger compression slightly earlier before overlap occurs
-        const totalNeeded = prevButtonWidth + navSheetWidth + buttonsNaturalWidth + 80;
-        
-        // Compress if we don't have enough space
-        setShouldCompress(containerWidth < totalNeeded);
+        const requiredWidth = prevButtonWidth + navSheetWidth + buttonsNaturalWidth + 48;
+        const currentlyCompressed = bottomCompressStateRef.current;
+
+        const nextCompressed = getNextStateForLowerThan({
+          currentState: currentlyCompressed,
+          value: containerWidth,
+          enterThreshold: requiredWidth + 24,
+          exitThreshold: requiredWidth + 96,
+        });
+
+        if (nextCompressed !== currentlyCompressed) {
+          bottomCompressStateRef.current = nextCompressed;
+          setShouldCompress(nextCompressed);
+        }
+      }
+
+      // Keep the Question X button perfectly centered unless side controls would overlap it.
+      if (bottomNavRef.current && bottomNavCenterRef.current && bottomNavLeftRef.current && bottomNavRightRef.current) {
+        const containerWidth = bottomNavRef.current.offsetWidth;
+        const leftWidth = bottomNavLeftRef.current.offsetWidth;
+        const rightWidth = bottomNavRightRef.current.offsetWidth;
+        const centerWidth = bottomNavCenterRef.current.offsetWidth;
+        const halfWidth = containerWidth / 2;
+        const maxSideWidth = Math.max(leftWidth, rightWidth);
+        const currentlyPinned = bottomCenterPinnedRef.current;
+
+        const neededHalfWidth = maxSideWidth + centerWidth / 2 + 12;
+        const nextPinned = getNextStateForGreaterThan({
+          currentState: currentlyPinned,
+          value: halfWidth,
+          enterThreshold: neededHalfWidth + 24,
+          exitThreshold: neededHalfWidth - 20,
+        });
+
+        if (nextPinned !== currentlyPinned) {
+          bottomCenterPinnedRef.current = nextPinned;
+          setShouldPinBottomNavCenter(nextPinned);
+        }
       }
 
       // Top bar compression
-      if (topNavRef.current && topMeasurementRef.current) {
+      if (topNavRef.current && topMeasurementRef.current && topLeftMeasurementRef.current) {
         const containerWidth = topNavRef.current.offsetWidth;
-        const leftSection = topNavRef.current.querySelector('[data-header-left]') as HTMLElement | null;
-        const leftWidth = leftSection ? leftSection.offsetWidth : 120;
-        const buttonsNaturalWidth = topMeasurementRef.current.scrollWidth;
-        // Aggressive threshold: force icons sooner by adding larger buffer
-        // User requested: "turn int oi cons a bit sooner? be sure its detecting when the y cant compress any further"
-        const totalNeeded = leftWidth + buttonsNaturalWidth + 200; 
-        // Hysteresis buffer to prevent rapid toggling near the threshold
-        const buffer = 24;
+        const leftNaturalWidth = topLeftMeasurementRef.current.scrollWidth;
+        const rightNaturalWidth = topMeasurementRef.current.scrollWidth;
+        const requiredWidth = leftNaturalWidth + rightNaturalWidth + 40;
         const currentlyCompressed = topCompressStateRef.current;
-        let nextCompressed = currentlyCompressed;
-        if (!currentlyCompressed && containerWidth < totalNeeded - buffer) {
-          nextCompressed = true;
-        } else if (currentlyCompressed && containerWidth > totalNeeded + buffer) {
-          nextCompressed = false;
-        }
+
+        const nextCompressed = getNextStateForLowerThan({
+          currentState: currentlyCompressed,
+          value: containerWidth,
+          enterThreshold: requiredWidth + 36,
+          exitThreshold: requiredWidth + 116,
+        });
+
         if (nextCompressed !== currentlyCompressed) {
           topCompressStateRef.current = nextCompressed;
           setTopShouldCompress(nextCompressed);
         }
       }
     };
-    
-    checkSpace();
-    window.addEventListener('resize', checkSpace);
-    
-    // Recheck after a short delay to ensure layout is settled
-    const timeout = setTimeout(checkSpace, 100);
-    
-    return () => {
-      window.removeEventListener('resize', checkSpace);
-      clearTimeout(timeout);
+
+    let frameId: number | null = null;
+    const scheduleCheck = () => {
+      if (frameId !== null) {
+        cancelAnimationFrame(frameId);
+      }
+      frameId = requestAnimationFrame(() => {
+        frameId = null;
+        checkSpace();
+      });
     };
-  }, [splitPosition, isSplitScreenActive]);
+
+    const resizeObserver = new ResizeObserver(() => {
+      scheduleCheck();
+    });
+
+    if (topNavRef.current) {
+      resizeObserver.observe(topNavRef.current);
+    }
+    if (bottomNavRef.current) {
+      resizeObserver.observe(bottomNavRef.current);
+      const navSheet = bottomNavRef.current.querySelector('[data-nav-sheet]');
+      if (navSheet instanceof HTMLElement) {
+        resizeObserver.observe(navSheet);
+      }
+      if (bottomNavLeftRef.current) {
+        resizeObserver.observe(bottomNavLeftRef.current);
+      }
+      if (bottomNavCenterRef.current) {
+        resizeObserver.observe(bottomNavCenterRef.current);
+      }
+      if (bottomNavRightRef.current) {
+        resizeObserver.observe(bottomNavRightRef.current);
+      }
+    }
+
+    window.addEventListener('resize', scheduleCheck);
+    scheduleCheck();
+
+    return () => {
+      if (frameId !== null) {
+        cancelAnimationFrame(frameId);
+      }
+      window.removeEventListener('resize', scheduleCheck);
+      resizeObserver.disconnect();
+    };
+  }, []);
 
   // Handle question split divider resizing (for horizontal view mode)
   useEffect(() => {
@@ -252,7 +385,8 @@ function Question() {
 
   // Handle split position changes from the divider inside DraggableWindow
   const handleSplitPositionChange = (newPosition: number) => {
-    setSplitPosition(newPosition);
+    const roundedPosition = Math.round(newPosition * 4) / 4;
+    setSplitPosition(prev => (Math.abs(prev - roundedPosition) < 0.25 ? prev : roundedPosition));
   };
 
   const toggleFullscreen = () => {
@@ -531,6 +665,32 @@ function Question() {
     }
   };
 
+  const questionWithBankFields = currentQuestion as Partial<{
+    prompt: string;
+    questionText: string;
+    passage: string;
+    text: string;
+  }>;
+
+  const promptContent = typeof questionWithBankFields.prompt === "string" && questionWithBankFields.prompt.trim()
+    ? questionWithBankFields.prompt
+    : undefined;
+  const questionTextContent = typeof questionWithBankFields.questionText === "string" && questionWithBankFields.questionText.trim()
+    ? questionWithBankFields.questionText
+    : undefined;
+  const passageContent = typeof questionWithBankFields.passage === "string"
+    ? questionWithBankFields.passage
+    : undefined;
+  const legacyTextContent = typeof questionWithBankFields.text === "string" && questionWithBankFields.text.trim()
+    ? questionWithBankFields.text
+    : "";
+  const stemContent = passageContent !== undefined
+    ? passageContent
+    : (promptContent ?? questionTextContent ?? legacyTextContent);
+  const showQuestionTextAboveChoices =
+    Boolean(questionTextContent) &&
+    (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
+
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
       {/* Header */}
@@ -551,6 +711,29 @@ function Question() {
               </Button>
             </div>
             <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="h-8 w-8"
+                  onClick={() => setIsTimerVisible((prev) => !prev)}
+                  title={isTimerVisible ? "Hide timer" : "Show timer"}
+                >
+                  {isTimerVisible ? <Eye className="h-4 w-4" /> : <EyeOff className="h-4 w-4" />}
+                </Button>
+                <span className="min-w-[5ch] text-center text-sm font-medium tabular-nums">
+                  {isTimerVisible ? formatTimer(elapsedSeconds) : "-:--"}
+                </span>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="h-8 w-8"
+                  onClick={() => setIsTimerPaused((prev) => !prev)}
+                  title={isTimerPaused ? "Resume timer" : "Pause timer"}
+                >
+                  {isTimerPaused ? <Play className="h-4 w-4" /> : <Pause className="h-4 w-4" />}
+                </Button>
+              </div>
               <ThemeToggle />
               <FormulaSheetDialog 
                 onSplitScreenChange={handleSplitScreenChange}
@@ -608,7 +791,18 @@ function Question() {
               </Button>
             </div>
 
-            {/* Hidden measurement div to determine when to compress the top bar */}
+            {/* Hidden measurements keep compression thresholds stable regardless of current UI mode */}
+            <div
+              ref={topLeftMeasurementRef}
+              aria-hidden="true"
+              className="absolute -left-[9999px] whitespace-nowrap"
+              style={{ visibility: 'hidden', pointerEvents: 'none' }}
+            >
+              <Button variant="ghost" size="sm">
+                <ChevronLeft className="mr-1 h-4 w-4" />
+                Home
+              </Button>
+            </div>
             <div 
               ref={topMeasurementRef}
               aria-hidden="true"
@@ -626,8 +820,17 @@ function Question() {
               </Button>
               <Button variant="outline" size="sm">
                 <span className="mr-2 inline-block h-4 w-4" />
-                Fullscreen
+                View
               </Button>
+              <Button variant="outline" size="sm">
+                <span className="mr-2 inline-block h-4 w-4" />
+                Exit Fullscreen
+              </Button>
+              <div className="inline-flex items-center gap-3">
+                <div className="h-9 w-9 rounded-md border" />
+                <div className="w-[7ch]" />
+                <div className="h-9 w-9 rounded-md border" />
+              </div>
             </div>
           </div>
         </div>
@@ -650,7 +853,7 @@ function Question() {
                 className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
               >
-                  {renderContent(currentQuestion.text)}
+                  {renderContent(stemContent)}
               </div>
 
               {/* Horizontal Divider */}
@@ -697,6 +900,12 @@ function Question() {
                     )}
                   </div>
                 </div>
+
+                {showQuestionTextAboveChoices && questionTextContent && (
+                  <div className="mb-6">
+                    {renderContent(questionTextContent)}
+                  </div>
+                )}
 
                 {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
                   <MultipleChoiceQuestion 
@@ -762,7 +971,16 @@ function Question() {
 
               {/* Question Content */}
               <div className="mb-6 sm:mb-8">
-                  {renderContent(currentQuestion.text)}
+                  {passageContent ? (
+                    <>
+                      {renderContent(passageContent)}
+                      {showQuestionTextAboveChoices && questionTextContent && (
+                        <div className="mt-4">{renderContent(questionTextContent)}</div>
+                      )}
+                    </>
+                  ) : (
+                    renderContent(stemContent)
+                  )}
               </div>
 
               {/* Answer Area */}
@@ -803,9 +1021,9 @@ function Question() {
         style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
       >
         <div className="container mx-auto px-4 py-3">
-          <div className="flex items-center gap-2 justify-between">
+          <div className="grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2">
             {/* Left: Previous Button - fixed width to prevent layout shift */}
-            <div className="shrink-0" style={{ minWidth: shouldCompress ? undefined : '100px' }}>
+            <div ref={bottomNavLeftRef} className="shrink-0" style={{ minWidth: shouldCompress ? undefined : '100px' }}>
               <Button
                 variant="outline"
                 onClick={handlePrevious}
@@ -818,7 +1036,11 @@ function Question() {
             </div>
 
             {/* Center: Navigation Sheet */}
-            <div data-nav-sheet className="flex items-center gap-1">
+            <div
+              ref={bottomNavCenterRef}
+              data-nav-sheet
+              className="min-w-0 flex items-center justify-center gap-1 overflow-hidden px-1"
+            >
               <PreviousAttemptsDialog attempts={currentProgress.attempts} />
               {is100Hard ? (
                   <NavigationSheet 
@@ -829,7 +1051,7 @@ function Question() {
               ) : isPracticeMode ? (
                  isOfficialBank ? (
                      <OfficialPracticeNavigationSheet 
-                        currentIndex={practiceSet.findIndex((q: any) => q.id === questionNumber && q.subject === subject)}
+                        currentIndex={practiceSet.findIndex((q) => q.id === questionNumber && q.subject === subject)}
                         practiceSet={practiceSet}
                         onJump={(idx) => {
                              const item = practiceSet[idx];
@@ -841,7 +1063,7 @@ function Question() {
                      />
                  ) : (
                      <PracticeNavigationSheet 
-                        currentIndex={practiceSet.findIndex((q: any) => q.id === questionNumber && q.subject === subject)}
+                        currentIndex={practiceSet.findIndex((q) => q.id === questionNumber && q.subject === subject)}
                         practiceSet={practiceSet}
                         onJump={(idx) => {
                              const item = practiceSet[idx];
@@ -868,7 +1090,11 @@ function Question() {
             </div>
 
             {/* Right: Explanation, Check, Next - fixed width to prevent layout shift */}
-            <div className="flex gap-2 shrink-0 justify-end" style={{ minWidth: shouldCompress ? undefined : '280px' }}>
+            <div
+              ref={bottomNavRightRef}
+              className="ml-auto flex gap-2 shrink-0 justify-end"
+              style={{ minWidth: shouldCompress ? undefined : '280px' }}
+            >
               <ExplanationWindow 
                 videoUrl={currentQuestion?.explanationVideo}
                 onSplitScreenChange={handleSplitScreenChange}

@@ -30,6 +30,7 @@ export const MultipleChoiceQuestion = ({
 }: MultipleChoiceQuestionProps) => {
   const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
   const choiceRefs = useRef<{ [key: string]: HTMLSpanElement | null }>({});
+  const hasCorrectAnswerLocked = Object.values(checkedAnswers).some((isCorrect) => isCorrect === true);
 
   // Reset strikeouts immediately when the question changes to avoid flash of old state
   useLayoutEffect(() => {
@@ -66,7 +67,6 @@ export const MultipleChoiceQuestion = ({
           />
         )}
         {hasImage && (
-<<<<<<< HEAD
           <div className="w-full -mx-1 flex justify-center">
             <img
               src={choice.image}
@@ -78,17 +78,6 @@ export const MultipleChoiceQuestion = ({
               loading="lazy"
             />
           </div>
-=======
-          <img
-            src={choice.image}
-            alt={`Choice ${choice.id}`}
-            className={cn(
-              "max-w-[690px] h-auto rounded object-contain block",
-              dimmed && "opacity-60"
-            )}
-            loading="lazy"
-          />
->>>>>>> 723bcdca2f97342c84b6bdf87c7dbdc03f11d039
         )}
       </div>
     );
@@ -126,10 +115,13 @@ export const MultipleChoiceQuestion = ({
         // If struck out, show the strikethrough view
         if (isStruckOut) {
           return (
-            <div key={choice.id} className={cn("relative flex items-center gap-3", strikeoutMode && "pr-14")}>
+            <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
               {/* Main choice card - clickable to unstrikeout and select */}
               <div 
-                className="flex-1 flex items-start gap-3 rounded-xl border-2 border-border bg-muted/30 p-4 cursor-pointer hover:bg-muted/50 transition-colors"
+                className={cn(
+                  "flex-1 flex gap-3 rounded-xl border-2 border-border bg-muted/30 p-4 cursor-pointer hover:bg-muted/50 transition-colors",
+                  hasImage ? "items-start" : "items-center"
+                )}
                 onClick={(e) => {
                   e.preventDefault();
                   e.stopPropagation();
@@ -137,7 +129,6 @@ export const MultipleChoiceQuestion = ({
                   setStruckOut(prev => {
                     const newSet = new Set(prev);
                     newSet.delete(choice.id);
-                    localStorage.setItem(`question-${questionId}-strikeouts`, JSON.stringify([...newSet]));
                     return newSet;
                   });
                   // Select the answer
@@ -176,14 +167,14 @@ export const MultipleChoiceQuestion = ({
         }
         
         // If already checked, don't allow selection
-        const isLocked = wasChecked;
+        const isLocked = wasChecked || hasCorrectAnswerLocked;
         
         return (
-          <div key={choice.id} className={cn("relative flex items-center gap-2 group", strikeoutMode && "pr-14")}>
+          <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
             {/* Main choice card */}
             <div
               className={cn(
-                "flex-1 flex gap-3 rounded-xl border-2 border-border p-4 transition-colors",
+                "group flex-1 flex gap-3 rounded-xl border-2 border-border p-4 transition-colors",
                 hasImage ? "items-start" : "items-center",
                 !isLocked && "hover:bg-muted/50 cursor-pointer",
                 isLocked && "cursor-not-allowed opacity-80",
@@ -223,7 +214,7 @@ export const MultipleChoiceQuestion = ({
               </div>
               
               {/* Check button - shows on hover OR when selected, if not already checked */}
-              {onCheck && !wasChecked && (
+              {onCheck && !wasChecked && !hasCorrectAnswerLocked && (
                 <Button
                   size="sm"
                   variant="outline"

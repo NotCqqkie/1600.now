@@ -12,7 +12,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
 import { OfficialPracticeNavigationSheet } from "@/components/OfficialPracticeNavigationSheet";
 import { cn, renderMixedContent } from "@/lib/utils";
-import { Bookmark, Check, ChevronLeft, ChevronRight, Minimize2, Maximize2, Strikethrough, Rows3, Columns3 } from "lucide-react";
+import { Bookmark, Check, ChevronLeft, ChevronRight, Eye, EyeOff, Minimize2, Maximize2, Pause, Play, Strikethrough, Rows3, Columns3 } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -20,6 +20,12 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import "katex/dist/katex.min.css";
+
+const formatTimer = (totalSeconds: number) => {
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+};
 
 const OfficialBankQuestion = () => {
   const { subject: rawSubject, id: rawId } = useParams<{ subject: string; id: string }>();
@@ -88,6 +94,9 @@ const OfficialBankQuestion = () => {
   
   const [questionSplitPosition, setQuestionSplitPosition] = useState(50);
   const [isResizingQuestionSplit, setIsResizingQuestionSplit] = useState(false);
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [isTimerPaused, setIsTimerPaused] = useState(false);
+  const [isTimerVisible, setIsTimerVisible] = useState(true);
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
   const questionContentRef = useRef<HTMLDivElement>(null);
@@ -138,6 +147,21 @@ const OfficialBankQuestion = () => {
       setSplitPosition(50);
     }
   }, [isSplitScreenActive]);
+
+  useEffect(() => {
+    setElapsedSeconds(0);
+    setIsTimerPaused(false);
+  }, [questionKey]);
+
+  useEffect(() => {
+    if (isTimerPaused) return;
+
+    const timerId = window.setInterval(() => {
+      setElapsedSeconds((prev) => prev + 1);
+    }, 1000);
+
+    return () => window.clearInterval(timerId);
+  }, [isTimerPaused]);
 
   // Handle question split divider resizing (for horizontal view mode)
   useEffect(() => {
@@ -382,6 +406,14 @@ const OfficialBankQuestion = () => {
     );
   }
 
+  const passageContent = question.passage;
+  const promptContent = question.prompt?.trim() ? question.prompt : undefined;
+  const questionTextContent = question.questionText?.trim() ? question.questionText : undefined;
+  const stemContent = passageContent !== undefined ? passageContent : (promptContent ?? questionTextContent ?? "");
+  const showQuestionTextAboveChoices =
+    Boolean(questionTextContent) &&
+    (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
+
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
       <header className="border-b border-border bg-card sticky top-0 z-10">
@@ -448,6 +480,30 @@ const OfficialBankQuestion = () => {
               </Button>
             </div>
           </div>
+
+          <div className="mt-3 flex items-center justify-center gap-3">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="h-9 w-9"
+              onClick={() => setIsTimerVisible((prev) => !prev)}
+              title={isTimerVisible ? "Hide timer" : "Show timer"}
+            >
+              {isTimerVisible ? <Eye className="h-5 w-5" /> : <EyeOff className="h-5 w-5" />}
+            </Button>
+            <span className="min-w-[7ch] text-center text-3xl font-bold tracking-wide tabular-nums">
+              {isTimerVisible ? formatTimer(elapsedSeconds) : ""}
+            </span>
+            <Button
+              variant="ghost"
+              size="icon"
+              className="h-9 w-9"
+              onClick={() => setIsTimerPaused((prev) => !prev)}
+              title={isTimerPaused ? "Resume timer" : "Pause timer"}
+            >
+              {isTimerPaused ? <Play className="h-5 w-5" /> : <Pause className="h-5 w-5" />}
+            </Button>
+          </div>
         </div>
       </header>
 
@@ -469,8 +525,8 @@ const OfficialBankQuestion = () => {
                 className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
               >
-                {/* Use passage if available, otherwise prompt (legacy) */}
-                {renderContent(question.passage !== undefined ? question.passage : question.prompt)}
+                {/* Use passage if available, otherwise prompt/question text fallback */}
+                {renderContent(stemContent)}
                 
                 {question.questionImages && question.questionImages.length > 0 && (
                   <div className="space-y-2">
@@ -538,9 +594,9 @@ const OfficialBankQuestion = () => {
                 </div>
 
                 {/* Specific Question Text above choices */}
-                {question.questionText && (
+                {showQuestionTextAboveChoices && questionTextContent && (
                   <div className="mb-6">
-                    {renderContent(question.questionText)}
+                    {renderContent(questionTextContent)}
                   </div>
                 )}
 
@@ -615,13 +671,13 @@ const OfficialBankQuestion = () => {
 
               <div className="mb-6 sm:mb-8 space-y-4">
                  {/* Stacked content: Passage/Context + Question */}
-                 {question.passage ? (
+                 {passageContent ? (
                     <>
-                       {renderContent(question.passage)}
-                       {question.questionText && <div className="mt-4">{renderContent(question.questionText)}</div>}
+                       {renderContent(passageContent)}
+                       {showQuestionTextAboveChoices && questionTextContent && <div className="mt-4">{renderContent(questionTextContent)}</div>}
                     </>
                  ) : (
-                    renderContent(question.prompt)
+                    renderContent(stemContent)
                  )}
 
                 {question.questionImages && question.questionImages.length > 0 && (
@@ -671,8 +727,8 @@ const OfficialBankQuestion = () => {
             </>
           )}
 
-          <footer className="mt-8 flex items-center justify-between border-t border-border pt-6">
-            <div className="flex gap-2 relative">
+          <footer className="mt-8 grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 border-t border-border pt-6">
+            <div className="shrink-0">
              <Button
                 variant="outline"
                 onClick={handlePrevious}
@@ -683,37 +739,39 @@ const OfficialBankQuestion = () => {
                      Previous
                 </div>
               </Button>
-              
+            </div>
+
+            <div className="min-w-0 overflow-hidden px-1 flex justify-center">
               {isPracticeMode ? (
-                  <OfficialPracticeNavigationSheet
-                    currentIndex={currentPracticeIndex}
-                    practiceSet={practiceSet || []}
-                    onJump={goToPracticeIndex}
-                    storagePrefix={`official-bank-${subject}`}
-                    isSplitScreenActive={isSplitScreenActive}
-                    splitPosition={splitPosition}
-                  />
+                <OfficialPracticeNavigationSheet
+                  currentIndex={currentPracticeIndex}
+                  practiceSet={practiceSet || []}
+                  onJump={goToPracticeIndex}
+                  storagePrefix={`official-bank-${subject}`}
+                  isSplitScreenActive={isSplitScreenActive}
+                  splitPosition={splitPosition}
+                />
               ) : (
-                  <BankNavigationSheet
-                    currentQuestion={isPracticeMode ? currentPracticeIndex + 1 : currentPoolIndex + 1}
-                    totalQuestions={totalQuestions}
-                    onJump={(idx) => {
-                         // BankNavigationSheet usually sends idx (1-based)
-                         // logic: onJump needs to map to ID or Index.
-                         // Standard Bank: onJump(num). goTo(num).
-                         // Here process is:
-                         if (pool[idx - 1]) {
-                             goTo(pool[idx - 1].id);
-                         }
-                    }}
-                    storagePrefix={storagePrefix}
-                    isSplitScreenActive={isSplitScreenActive}
-                    splitPosition={splitPosition}
-                  />
+                <BankNavigationSheet
+                  currentQuestion={isPracticeMode ? currentPracticeIndex + 1 : currentPoolIndex + 1}
+                  totalQuestions={totalQuestions}
+                  onJump={(idx) => {
+                       // BankNavigationSheet usually sends idx (1-based)
+                       // logic: onJump needs to map to ID or Index.
+                       // Standard Bank: onJump(num). goTo(num).
+                       // Here process is:
+                       if (pool[idx - 1]) {
+                           goTo(pool[idx - 1].id);
+                       }
+                  }}
+                  storagePrefix={storagePrefix}
+                  isSplitScreenActive={isSplitScreenActive}
+                  splitPosition={splitPosition}
+                />
               )}
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 shrink-0 justify-end">
               <Button
                 onClick={() => handleCheck()}
                 disabled={isCheckDisabled}
