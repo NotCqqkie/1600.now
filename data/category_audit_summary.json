@@ -1,0 +1,10 @@
+{
+  "total_questions": 6075,
+  "total_candidates": 330,
+  "issue_counts": {
+    "subject_domain_mismatch": 330,
+    "subject_skill_mismatch": 330,
+    "domain_skill_mismatch": 0
+  },
+  "output_csv": "/Users/lukefinigan/Documents/1600-prep-hub/data/category_review_candidates.csv"
+}

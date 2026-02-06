@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import { questions as questionsData } from "@/data/all_questions";
-import { classifyQuestion, type QuestionCategory } from "@/data/questionCategories";
+import {
+  classifyQuestion,
+  inferSubjectFromSource,
+  normalizeCategoryFromSource,
+  type QuestionCategory,
+} from "@/data/questionCategories";
 const questions = questionsData;
 
 import { Card } from "@/components/ui/card";
@@ -8,6 +13,27 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Loader2, Download } from "lucide-react";
+
+const getNormalizedCategory = (q: typeof questions[number]): QuestionCategory | null => {
+  const sourceSubject = inferSubjectFromSource({
+    section: q.section,
+    subject: q.category?.subject,
+    testName: q.testName,
+  });
+  const isMath = sourceSubject ? sourceSubject === "Math" : q.section?.toLowerCase() === "math";
+  const fullText = [q.text, ...(q.choices?.map((c) => c.text) || [])].filter(Boolean).join(" ");
+
+  const sourceCategory = normalizeCategoryFromSource({
+    section: q.section,
+    testName: q.testName,
+    subject: q.category?.subject,
+    domain: q.category?.domain ?? q.domain,
+    skill: q.category?.skill ?? q.skill,
+    confidence: q.category?.confidence,
+  });
+
+  return sourceCategory ?? classifyQuestion(fullText, isMath);
+};
 
 const Analysis = () => {
   const [analysis, setAnalysis] = useState<any>(null);
@@ -25,10 +51,7 @@ const Analysis = () => {
       const categoryGroups: Record<string, any[]> = {};
 
       questions.forEach((q) => {
-        const isMath = q.section?.toLowerCase() === "math" || q.category?.subject === "Math";
-        const fullText = [q.text, ...(q.choices?.map((c) => c.text) || [])].filter(Boolean).join(" ");
-        
-        const category = classifyQuestion(fullText, isMath);
+        const category = getNormalizedCategory(q);
         
         if (category) {
           // Init domain count
@@ -78,9 +101,8 @@ const Analysis = () => {
     const lowConfidenceReport: any[] = [];
 
     questions.forEach((q) => {
-      const isMath = q.section?.toLowerCase() === "math" || q.category?.subject === "Math";
       const fullText = [q.text, ...(q.choices?.map((c) => c.text) || [])].filter(Boolean).join(" ");
-      const category = classifyQuestion(fullText, isMath);
+      const category = getNormalizedCategory(q);
       
       if (category) {
         fullMap[q.id] = {

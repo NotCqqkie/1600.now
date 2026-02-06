@@ -43,6 +43,15 @@ export interface QuestionCategory {
   confidence: "high" | "medium" | "low";
 }
 
+export interface SourceCategoryInput {
+  subject?: string | null;
+  section?: string | null;
+  domain?: string | null;
+  skill?: string | null;
+  confidence?: string | null;
+  testName?: string | null;
+}
+
 // Domain to skills mapping
 export const mathDomainSkills: Record<MathDomain, MathSkill[]> = {
   "Algebra": [
@@ -94,6 +103,151 @@ export const englishDomainSkills: Record<EnglishDomain, EnglishSkill[]> = {
     "Form, Structure, and Sense",
   ],
 };
+
+const mathSkillAliasMap: Record<string, MathSkill> = {
+  "linear equations in one variable": "Linear equations in one variable",
+  "linear functions": "Linear functions",
+  "linear equations in two variables": "Linear equations in two variables",
+  "systems of linear equations": "Systems of two linear equations in two variables",
+  "systems of two linear equations in two variables": "Systems of two linear equations in two variables",
+  "linear inequalities": "Linear inequalities in one or two variables",
+  "linear inequalities in one or two variables": "Linear inequalities in one or two variables",
+  "equivalent expressions": "Equivalent expressions",
+  "nonlinear equations and systems": "Nonlinear equations in one variable and systems of equations in two variables",
+  "nonlinear equations in one variable and systems of equations in two variables": "Nonlinear equations in one variable and systems of equations in two variables",
+  "nonlinear functions": "Nonlinear functions",
+  "ratios, rates, proportions, and units": "Ratios, rates, proportional relationships, and units",
+  "ratios, rates, proportional relationships, and units": "Ratios, rates, proportional relationships, and units",
+  "percentages": "Percentages",
+  "one-variable data": "One-variable data: Distributions and measures of center and spread",
+  "one-variable data: distributions and measures of center and spread": "One-variable data: Distributions and measures of center and spread",
+  "two-variable data": "Two-variable data: Models and scatterplots",
+  "two-variable data: models and scatterplots": "Two-variable data: Models and scatterplots",
+  "probability": "Probability and conditional probability",
+  "probability and conditional probability": "Probability and conditional probability",
+  "sample statistics and margin of error": "Inference from sample statistics and margin of error",
+  "inference from sample statistics and margin of error": "Inference from sample statistics and margin of error",
+  "evaluating statistical claims": "Evaluating statistical claims: Observational studies and experiments",
+  "evaluating statistical claims: observational studies and experiments": "Evaluating statistical claims: Observational studies and experiments",
+  "area and volume": "Area and volume",
+  "lines, angles, and triangles": "Lines, angles, and triangles",
+  "right triangles and trigonometry": "Right triangles and trigonometry",
+  "circles": "Circles",
+};
+
+const englishSkillAliasMap: Record<string, EnglishSkill> = {
+  "cross-text connections": "Cross-Text Connections",
+  "text structure and purpose": "Text Structure and Purpose",
+  "words in context": "Words in Context",
+  "rhetorical synthesis": "Rhetorical Synthesis",
+  "transitions": "Transitions",
+  "central ideas and details": "Central Ideas and Details",
+  "command of evidence": "Command of Evidence",
+  "inferences": "Inferences",
+  "boundaries": "Boundaries",
+  "form, structure, and sense": "Form, Structure, and Sense",
+};
+
+const normalizeKey = (value: string | null | undefined) => (value ?? "").trim().toLowerCase();
+
+const normalizeConfidence = (value: string | null | undefined): QuestionCategory["confidence"] => {
+  const key = normalizeKey(value);
+  if (key === "high" || key === "medium" || key === "low") return key;
+  return "high";
+};
+
+export const inferSubjectFromSource = (input: SourceCategoryInput): QuestionCategory["subject"] | null => {
+  const fromSection = normalizeKey(input.section);
+  if (fromSection === "math") return "Math";
+  if (fromSection === "reading and writing" || fromSection === "english" || fromSection === "reading & writing") {
+    return "English";
+  }
+
+  const fromSubject = normalizeKey(input.subject);
+  if (fromSubject === "math") return "Math";
+  if (fromSubject === "english" || fromSubject === "reading and writing" || fromSubject === "reading & writing") {
+    return "English";
+  }
+
+  const fromTestName = input.testName ?? "";
+  if (/\bmath\b/i.test(fromTestName)) return "Math";
+  if (/\b(english|reading|writing)\b/i.test(fromTestName)) return "English";
+
+  return null;
+};
+
+const toMathDomain = (value: string | null | undefined): MathDomain | null => {
+  const key = normalizeKey(value);
+  return allMathDomains.find((d) => normalizeKey(d) === key) ?? null;
+};
+
+const toEnglishDomain = (value: string | null | undefined): EnglishDomain | null => {
+  const key = normalizeKey(value);
+  return allEnglishDomains.find((d) => normalizeKey(d) === key) ?? null;
+};
+
+const toMathSkill = (value: string | null | undefined): MathSkill | null => {
+  const key = normalizeKey(value);
+  return mathSkillAliasMap[key] ?? null;
+};
+
+const toEnglishSkill = (value: string | null | undefined): EnglishSkill | null => {
+  const key = normalizeKey(value);
+  return englishSkillAliasMap[key] ?? null;
+};
+
+const getMathDomainForSkill = (skill: MathSkill): MathDomain => {
+  for (const [domain, skills] of Object.entries(mathDomainSkills) as [MathDomain, MathSkill[]][]) {
+    if (skills.includes(skill)) return domain;
+  }
+  return "Algebra";
+};
+
+const getEnglishDomainForSkill = (skill: EnglishSkill): EnglishDomain => {
+  for (const [domain, skills] of Object.entries(englishDomainSkills) as [EnglishDomain, EnglishSkill[]][]) {
+    if (skills.includes(skill)) return domain;
+  }
+  return "Information and Ideas";
+};
+
+export function normalizeCategoryFromSource(input: SourceCategoryInput): QuestionCategory | null {
+  const subject = inferSubjectFromSource(input);
+  if (!subject) return null;
+
+  if (subject === "Math") {
+    const skill = toMathSkill(input.skill);
+    if (!skill) return null;
+
+    const domainFromSkill = getMathDomainForSkill(skill);
+    const sourceDomain = toMathDomain(input.domain);
+    const usedCorrectedDomain = Boolean(sourceDomain && sourceDomain !== domainFromSkill);
+    const domain = sourceDomain && sourceDomain === domainFromSkill ? sourceDomain : domainFromSkill;
+    const confidence = usedCorrectedDomain ? "medium" : normalizeConfidence(input.confidence);
+
+    return {
+      subject,
+      domain,
+      skill,
+      confidence,
+    };
+  }
+
+  const skill = toEnglishSkill(input.skill);
+  if (!skill) return null;
+
+  const domainFromSkill = getEnglishDomainForSkill(skill);
+  const sourceDomain = toEnglishDomain(input.domain);
+  const usedCorrectedDomain = Boolean(sourceDomain && sourceDomain !== domainFromSkill);
+  const domain = sourceDomain && sourceDomain === domainFromSkill ? sourceDomain : domainFromSkill;
+  const confidence = usedCorrectedDomain ? "medium" : normalizeConfidence(input.confidence);
+
+  return {
+    subject,
+    domain,
+    skill,
+    confidence,
+  };
+}
 
 // Keyword patterns for classification
 const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }[] = [

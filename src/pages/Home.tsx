@@ -58,26 +58,26 @@ const Home = () => {
 
       <div className="relative flex min-h-screen flex-col">
       <header className="sticky top-0 z-20 border-b border-border bg-card/95 backdrop-blur">
-        <div className="container mx-auto h-16 px-4 flex items-center justify-between gap-3">
-          <Link to="/" className="inline-flex items-center text-foreground no-underline" aria-label="1600.now homepage">
+        <div className="container relative mx-auto h-20 px-4 flex items-center justify-between gap-3">
+          <Link to="/" className="inline-flex flex-shrink-0 items-center text-foreground no-underline" aria-label="1600.now homepage">
             <img
               src="/logo_b.png"
               alt="1600.now"
-              className="h-8 w-auto max-w-[180px] object-contain md:h-9 md:max-w-[220px] dark:hidden"
+              className="h-12 w-12 object-contain md:h-14 md:w-14 dark:hidden"
             />
             <img
               src="/logo_w.png"
               alt="1600.now"
-              className="hidden h-8 w-auto max-w-[180px] object-contain md:h-9 md:max-w-[220px] dark:block"
+              className="hidden h-12 w-12 object-contain md:h-14 md:w-14 dark:block"
             />
           </Link>
 
-          <nav className="hidden md:flex items-center gap-1 text-sm font-medium text-muted-foreground" aria-label="Primary">
+          <nav className="pointer-events-auto absolute left-1/2 -translate-x-1/2 hidden md:flex items-center gap-1 text-sm font-medium text-muted-foreground" aria-label="Primary">
             <Link to="/bank" className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground">Question Bank</Link>
             <Link to="/hard/1" className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground">100 Hard Questions</Link>
           </nav>
 
-          <div className="inline-flex items-center gap-2">
+          <div className="inline-flex flex-shrink-0 items-center gap-2">
             <ThemeToggle />
             {user ? (
               <DropdownMenu>

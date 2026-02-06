@@ -1,12 +1,32 @@
 
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { Session, User } from "@supabase/supabase-js";
-import { supabase } from "@/lib/supabase";
+import {
+  GoogleAuthProvider,
+  User as FirebaseUser,
+  createUserWithEmailAndPassword,
+  onAuthStateChanged,
+  signInWithEmailAndPassword,
+  signInWithPopup,
+  signOut as firebaseSignOut,
+} from "firebase/auth";
+import { auth } from "@/lib/firebase";
+
+export interface AppUser {
+  id: string;
+  uid: string;
+  email: string | null;
+  displayName: string | null;
+  photoURL: string | null;
+  emailVerified: boolean;
+  raw: FirebaseUser;
+}
 
 interface AuthContextType {
-  session: Session | null;
-  user: User | null;
+  session: AppUser | null;
+  user: AppUser | null;
   loading: boolean;
+  signInWithEmailPassword: (email: string, password: string) => Promise<void>;
+  signUpWithEmailPassword: (email: string, password: string) => Promise<void>;
   signInWithGoogle: () => Promise<void>;
   signOut: () => Promise<void>;
 }
@@ -15,51 +35,59 @@ const AuthContext = createContext<AuthContextType>({
   session: null,
   user: null,
   loading: true,
+  signInWithEmailPassword: async () => {},
+  signUpWithEmailPassword: async () => {},
   signInWithGoogle: async () => {},
   signOut: async () => {},
 });
 
 export const useAuth = () => useContext(AuthContext);
 
+const toAppUser = (firebaseUser: FirebaseUser | null): AppUser | null => {
+  if (!firebaseUser) return null;
+  return {
+    id: firebaseUser.uid,
+    uid: firebaseUser.uid,
+    email: firebaseUser.email,
+    displayName: firebaseUser.displayName,
+    photoURL: firebaseUser.photoURL,
+    emailVerified: firebaseUser.emailVerified,
+    raw: firebaseUser,
+  };
+};
+
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-  const [session, setSession] = useState<Session | null>(null);
-  const [user, setUser] = useState<User | null>(null);
+  const [session, setSession] = useState<AppUser | null>(null);
+  const [user, setUser] = useState<AppUser | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setSession(session);
-      setUser(session?.user ?? null);
-      setLoading(false);
-    }).catch(err => {
-      console.warn("Auth initialization error:", err);
+    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+      const appUser = toAppUser(firebaseUser);
+      setSession(appUser);
+      setUser(appUser);
       setLoading(false);
     });
 
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
-      setSession(session);
-      setUser(session?.user ?? null);
-      setLoading(false);
-    });
-
-    return () => subscription.unsubscribe();
+    return () => unsubscribe();
   }, []);
 
+  const signInWithEmailPassword = async (email: string, password: string) => {
+    await signInWithEmailAndPassword(auth, email, password);
+  };
+
+  const signUpWithEmailPassword = async (email: string, password: string) => {
+    await createUserWithEmailAndPassword(auth, email, password);
+  };
+
   const signInWithGoogle = async () => {
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: "google",
-      options: {
-        redirectTo: `${window.location.origin}/`,
-      },
-    });
-    if (error) throw error;
+    const provider = new GoogleAuthProvider();
+    provider.setCustomParameters({ prompt: "select_account" });
+    await signInWithPopup(auth, provider);
   };
 
   const signOut = async () => {
-    const { error } = await supabase.auth.signOut();
-    if (error) throw error;
+    await firebaseSignOut(auth);
   };
 
   return (
@@ -68,6 +96,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         session,
         user,
         loading,
+        signInWithEmailPassword,
+        signUpWithEmailPassword,
         signInWithGoogle,
         signOut,
       }}
