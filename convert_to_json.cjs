@@ -23,6 +23,9 @@ try {
     // Remove export default at the end
     content = content.replace(/export default questions;/, '');
     
+    // Replace image paths with URL-encoded space
+    content = content.replace(/\/images_labeled\//g, '/images/SAT-Style%20Questions/');
+
     // Trim
     content = content.trim();
     if (content.endsWith(';')) content = content.slice(0, -1);

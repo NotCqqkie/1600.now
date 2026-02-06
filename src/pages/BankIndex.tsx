@@ -490,8 +490,8 @@ const BankIndex = () => {
 
         <div className="space-y-2">
           {allMathDomains.map((domain) => (
-            <div key={domain} className="border rounded-lg p-3 group">
-              <div className="flex items-center gap-2">
+            <div key={domain} className="border rounded-lg p-3">
+              <div className="flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors">
                 {isMultiSelect && (
                   <Checkbox
                     checked={topicSelection.math.domains[domain]?.selected || false}
@@ -501,7 +501,7 @@ const BankIndex = () => {
                 )}
                 <div className="flex items-center justify-between flex-1">
                   <span 
-                    className="font-medium flex-1 py-1 cursor-pointer hover:text-primary"
+                    className="font-medium flex-1 py-1 cursor-pointer"
                     onClick={() => {
                       if (isMultiSelect) {
                         toggleDomain("math", domain, !topicSelection.math.domains[domain]?.selected);
@@ -515,7 +515,7 @@ const BankIndex = () => {
                   <Button
                     variant="ghost"
                     size="icon"
-                    className="h-6 w-6 mr-1 opacity-0 group-hover:opacity-100 transition-opacity"
+                    className="h-6 w-6 mr-1 opacity-0 group-hover/domain-row:opacity-100 transition-opacity"
                     onClick={(e) => {
                       e.stopPropagation();
                       handleQuickStart("math", domain, undefined, true);
@@ -525,7 +525,7 @@ const BankIndex = () => {
                     <Shuffle className="h-3 w-3" />
                   </Button>
                   <div
-                    className="flex items-center gap-2 cursor-pointer p-1 hover:bg-muted rounded"
+                    className="flex items-center gap-2 cursor-pointer p-1 rounded"
                     onClick={(e) => {
                       e.stopPropagation();
                       setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));
@@ -644,8 +644,8 @@ const BankIndex = () => {
 
         <div className="space-y-2">
           {allEnglishDomains.map((domain) => (
-            <div key={domain} className="border rounded-lg p-3 group">
-              <div className="flex items-center gap-2">
+            <div key={domain} className="border rounded-lg p-3">
+              <div className="flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors">
                 {isMultiSelect && (
                   <Checkbox
                     checked={topicSelection.reading.domains[domain]?.selected || false}
@@ -655,7 +655,7 @@ const BankIndex = () => {
                 )}
                 <div className="flex items-center justify-between flex-1">
                   <span 
-                    className="font-medium flex-1 py-1 cursor-pointer hover:text-primary"
+                    className="font-medium flex-1 py-1 cursor-pointer"
                     onClick={() => {
                       if (isMultiSelect) {
                         toggleDomain("reading", domain, !topicSelection.reading.domains[domain]?.selected);
@@ -669,7 +669,7 @@ const BankIndex = () => {
                   <Button
                     variant="ghost"
                     size="icon"
-                    className="h-6 w-6 mr-1 opacity-0 group-hover:opacity-100 transition-opacity"
+                    className="h-6 w-6 mr-1 opacity-0 group-hover/domain-row:opacity-100 transition-opacity"
                     onClick={(e) => {
                       e.stopPropagation();
                       handleQuickStart("reading", domain, undefined, true);
@@ -679,7 +679,7 @@ const BankIndex = () => {
                     <Shuffle className="h-3 w-3" />
                   </Button>
                   <div
-                    className="flex items-center gap-2 cursor-pointer p-1 hover:bg-muted rounded"
+                    className="flex items-center gap-2 cursor-pointer p-1 rounded"
                     onClick={(e) => {
                       e.stopPropagation();
                       setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));

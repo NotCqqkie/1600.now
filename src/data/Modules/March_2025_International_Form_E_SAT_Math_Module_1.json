@@ -1,8 +1,12 @@
 [
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "The cost y, in dollars, for a manufacturer to make x rings is represented by the line shown. What is the cost, in dollars, for the manufacturer to make 50 rings?",
+    "passage": "The cost y, in dollars, for a manufacturer to make x rings is represented by the line shown.\nWhat is the cost, in dollars, for the manufacturer to make 50 rings?",
     "question_text": null,
     "choices": [
       {
@@ -24,36 +28,53 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "11ee667b-8898-4917-b74e-33237205e2ef_1"
+    "rationale": null,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_1",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlE_Math_M1_Q1_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlE_Math_M1_Q1_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "Which expression is equivalent to $ 7(x^{2}+5)$?",
+    "passage": "Which expression is equivalent to $7(x^{2}+5)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 7x^{2}+35 $"
+        "text": "$7x^{2}+35$"
       },
       {
         "label": "B",
-        "text": "$ 7x^{2}+12 $"
+        "text": "$7x^{2}+12$"
       },
       {
         "label": "C",
-        "text": "$ 7x^{2}+5 $"
+        "text": "$7x^{2}+5$"
       },
       {
         "label": "D",
-        "text": "$ 7x^{2}+2 $"
+        "text": "$7x^{2}+2$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_2"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "What is the y-intercept of the graph shown?",
@@ -78,9 +99,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "11ee667b-8898-4917-b74e-33237205e2ef_3"
+    "rationale": null,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_3",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlE_Math_M1_Q3_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlE_Math_M1_Q3_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "The function fis deñned by f(x)= 8(2x + 2). For what value of x does f(x)= 80?",
@@ -105,36 +138,46 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_4"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "$ n=\\frac{p}{23u}$ The given equation relates the positive numbers n, p, and u. Which equation correctly expresses p in terms of n and u?",
+    "passage": "$n=\\frac{p}{23u}$\nThe given equation relates the positive numbers n, p, and u. Which equation correctly expresses p in terms of n and u?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ p=n-23u $"
+        "text": "$p=n-23u$"
       },
       {
         "label": "B",
-        "text": "$ p=n+23u $"
+        "text": "$p=n+23u$"
       },
       {
         "label": "C",
-        "text": "$ p=\\frac{n}{23u}$"
+        "text": "$p=\\frac{n}{23u}$"
       },
       {
         "label": "D",
-        "text": "$ p=23un $"
+        "text": "$p=23un$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_5"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "A line segment that has a length of 125 centimeters (cm) is divided into three parts. One part is 49 cm long. The other two parts have lengths that are equal to each other what is thelength, in cm, of one of the other two parts ofequal length?",
@@ -142,12 +185,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "38",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_6"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "Circle N has a radius of 9 millimeters (mm). Circle M has an area of 25π mm 2. What is the total area, in mm 2, of circles N and M?",
+    "passage": "Circle N has a radius of 9 millimeters (mm). Circle M has an area of 25π mm 2. What is the\ntotal area, in mm 2, of circles N and M?",
     "question_text": null,
     "choices": [
       {
@@ -169,22 +217,32 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_7"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "The list gives the inass, in grams, of 5 ruffed lemurs. 3,710; 3,710; 3,130; 3,750; 3,150 What is the mean mass, in grams, of these 5 ruffed lemurs?",
+    "passage": "The list gives the inass, in grams, of 5 ruffed lemurs.\n3,710; 3,710; 3,130; 3,750; 3,150\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "3490",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "$ 2x(x-3)(x+5)=0 $ What is one of the solutions to the given equation?",
+    "passage": "$2x(x-3)(x+5)=0$\nWhat is one of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -206,9 +264,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_9"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "In the fgure shown, triangle CAE is similar to triangle CBD. The measure of angle CBDis 56, and AE= 22(BD). What is the measure of angle CAE?",
@@ -233,9 +296,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "11ee667b-8898-4917-b74e-33237205e2ef_10"
+    "rationale": null,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_10",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlE_Math_M1_Q10_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlE_Math_M1_Q10_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "A clothing store buys shirts at a wholesale price of 6,00 dollars each and resells them each ata retail price that is 310% of the wholesale price. At the end ofthe season, any remainingshirts are marked at a discounted price that is 75% of the retail price. What is thediscounted price of each remaining shirt, in dollars?",
@@ -243,51 +318,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "4.65,93/20",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_11"
   },
   {
-    "question_number": 12,
-    "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "$ f(x)=47 $ For the given linear function f, which table gives three values ofs and their corresponding walues of f(x)?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlE_Math_M1_Q12_1.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "B",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlE_Math_M1_Q12.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "C",
-        "text": "1"
-      },
-      {
-        "label": "D",
-        "text": "1"
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "B",
-    "id": "11ee667b-8898-4917-b74e-33237205e2ef_12"
-  },
-  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "A sample of a certain isotope takes 29 years to decay to half its original mass. The functions $ s(t)=136(0.5)^{\\frac{t}{29}}$ gives the approximate mass of this isotope, in grams, that remains t yearsafter a 136 gram sample starts to decay Which statement is the best interpretation of s(58)= 34 in this context?",
+    "passage": "A sample of a certain isotope takes 29 years to decay to half its original mass. The functions $s(t)=136(0.5)^{\\frac{t}{29}}$ gives the approximate mass of this isotope, in grams, that remains t yearsafter a 136 gram sample starts to decay Which statement is the best interpretation of s(58)= 34 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -309,12 +350,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_13"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "Antonia has 130 in an account. Each year she expects to have 2.5% more money in the account than she had the previous year. Which of the following models best describes how Antonia expects the money in her account to change over time?",
+    "passage": "Antonia has \\$130 in an account. Each year she expects to have 2.5% more money in the account than she had the previous year. Which of the following models best describes how Antonia expects the money in her account to change over time?",
     "question_text": null,
     "choices": [
       {
@@ -336,12 +382,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_14"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "In the xy-plane, which of the following does NOT contain any points that are part of the solution set to $ 2x-6y>12 $?",
+    "passage": "In the xy-plane, which of the following does NOT contain any points that are part of the solution set to $2x-6y>12$?",
     "question_text": null,
     "choices": [
       {
@@ -363,9 +414,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_15"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "A circle in the xy-plane has its center at (18, 16) and has a radius of 6k. Which equation represents this circle?",
@@ -373,7 +429,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$(x-18)^{2}+(y-16)^{2}=36k $"
+        "text": "$(x-18)^{2}+(y-16)^{2}=36k$"
       },
       {
         "label": "B",
@@ -381,7 +437,7 @@
       },
       {
         "label": "C",
-        "text": "$(x-18)^{2}+(y-16)^{2}=6k $"
+        "text": "$(x-18)^{2}+(y-16)^{2}=6k$"
       },
       {
         "label": "D",
@@ -390,12 +446,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_16"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "$ x^{2}-24x-8=0 $ What is the sum of the solutions to the given equation?",
+    "passage": "$x^{2}-24x-8=0$\nWhat is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -417,9 +478,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_17"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan $Θ\\le\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 22.7 inches, what is the least possible value of x, in inches?",
@@ -427,9 +493,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "272.4",
-    "id": "11ee667b-8898-4917-b74e-33237205e2ef_18"
+    "rationale": null,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_18",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlE_Math_M1_Q18_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlE_Math_M1_Q18_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "In the figure, two lines intersect at a pointI if w = 112, what is the value of x?",
@@ -454,19 +532,36 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "11ee667b-8898-4917-b74e-33237205e2ef_19"
+    "rationale": null,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_19",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlE_Math_M1_Q19_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlE_Math_M1_Q19_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "If $ 3(2-7x)+5(2-7x)+6=7(2-7x)+2 $, what is the value of $ 7x-2 $?",
+    "passage": "If $3(2-7x)+5(2-7x)+6=7(2-7x)+2$, what is the value of $7x-2$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "4",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_20"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "In the xy-plane, line k and line l are perpendicular and intersect at the point (2, 9). If line kis defined by the equation y= mx + b, where m and b are constants and m > l, which of the following points lies on line l?",
@@ -474,7 +569,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "(3, 9-$\\frac{1}{m}$)"
+        "text": "(3, 9- $\\frac{1}{m}$)"
       },
       {
         "label": "B",
@@ -491,9 +586,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_21"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "A sphere has a volume of 245,00 cubic yards. What is the volume of the sphere, in cubic meters?(Use 1 yard = 0.9l4 meter.)",
@@ -501,6 +601,7 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "187.07",
+    "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_22"
   }
 ]

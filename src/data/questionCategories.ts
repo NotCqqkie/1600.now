@@ -127,6 +127,7 @@ const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }
       /represent.*total|total.*represent/i, // Word problems like pencils and erasers
       /\d+[a-z]\s*\+\s*\d+[a-z]\s*=\s*\d+/i, // Pattern like 4x + 5y = 40
       /combined total|together.*equal/i,
+      /mixture|solution.*volume/i, // Mixture problems
     ],
   },
   {
@@ -233,6 +234,7 @@ const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }
       /doubles every/i,
       /initial population/i,
       /maximum height/i, // projectile motion
+      /\)\s*\^\s*t/i, // exponential forms like (2.72)^t
       /y-intercept.*graph|graph.*y-intercept/i,
       /[a-z]\(x\)\s*=.*\d+\^?x/i, // g(x)=(6)(4)^x exponential
       /graph of function.*contains the point/i,
@@ -449,6 +451,8 @@ const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }
       /degrees?.*triangle|triangle.*degrees?/i,
       /line.*intersects?.*parallel/i,
       /triangles?.*congruent|congruent.*triangles?/i,
+      /triangle inequality/i,
+      /(base|height).*triangle/i,
     ],
   },
 ];
@@ -594,8 +598,15 @@ export function classifyQuestion(
       
       // Special handling for Geometry edge cases
       if (skill === "Circles") {
-        // Sphere/hemisphere is Area and Volume, not Circles
-        if (/sphere|hemisphere/i.test(text)) {
+        // Sphere/hemisphere/cylinder/cone is Area and Volume, not Circles
+        if (/sphere|hemisphere|cylinder|cone|prism|pyramid/i.test(text)) {
+          score = 0;
+        }
+      }
+      
+      if (skill === "Area and Volume") {
+        // "Volume" in the context of liquid mixtures (solutions) is Algebra, not Geometry
+        if (/solution|mixture|saltwater|concentration/i.test(text) && /volume/i.test(text)) {
           score = 0;
         }
       }

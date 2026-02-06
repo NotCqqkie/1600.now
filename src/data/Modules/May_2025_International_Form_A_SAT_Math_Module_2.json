@@ -1,32 +1,41 @@
 [
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "If $ 9+x=6 $, what is the value of $-18-2x $?",
+    "passage": "If $9+x=6$, what is the value of $-18-2x$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-12 $"
+        "text": "$-12$"
       },
       {
         "label": "B",
-        "text": "$-2 $"
+        "text": "$-2$"
       },
       {
         "label": "C",
-        "text": "$ 6 $"
+        "text": "$6$"
       },
       {
         "label": "D",
-        "text": "$ 24 $"
+        "text": "$24$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_1"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "May 2025 International Form A SAT Math Module 2",
     "passage": "In the figure, line l is parallel to line m. What is the value of x?",
@@ -34,252 +43,269 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 31 $"
+        "text": "$31$"
       },
       {
         "label": "B",
-        "text": "$ 69 $"
+        "text": "$69$"
       },
       {
         "label": "C",
-        "text": "$ 111 $"
+        "text": "$111$"
       },
       {
         "label": "D",
-        "text": "$ 131 $"
+        "text": "$131$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_2"
+    "rationale": null,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_2",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlA_Math_M2_Q2_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlA_Math_M2_Q2_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "The graph of the linear function $ f $ is shown, where $ y=f(x)$. Which equation defines $ f $?",
+    "passage": "The graph of the linear function $f$ is shown, where $y=f(x)$. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ f(x)=\\frac{3}{7}x-5 $"
+        "text": "$f(x)=\\frac{3}{7}x-5$"
       },
       {
         "label": "B",
-        "text": "$ f(x)=\\frac{7}{3}x-5 $"
+        "text": "$f(x)=\\frac{7}{3}x-5$"
       },
       {
         "label": "C",
-        "text": "$ f(x)=-\\frac{3}{7}x-5 $"
+        "text": "$f(x)=-\\frac{3}{7}x-5$"
       },
       {
         "label": "D",
-        "text": "$ f(x)=-\\frac{7}{3}x-5 $"
+        "text": "$f(x)=-\\frac{7}{3}x-5$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_3"
+    "rationale": null,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_3",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlA_Math_M2_Q3_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlA_Math_M2_Q3_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "The function t gives the estimated melting temperature, in degrees Celsius, of a DNA molecule as a function of the percent of guanine-cytosine (GC) content, x, in the DNA molecule. The graph of $ y=t(x)$ is shown. According to the graph, which of the following statements is NOT true?",
+    "passage": "The function t gives the estimated melting temperature, in degrees Celsius, of a DNA molecule as a function of the percent of guanine-cytosine (GC) content, x, in the DNA molecule. The graph of $y=t(x)$ is shown. According to the graph, which of the following statements is NOT true?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "A For each increase of $ x $ by $ 1 $, $ t(x)$ increases by approximately $\\frac{2}{5}$"
+        "text": "A For each increase of $x$ by $1$, $t(x)$ increases by approximately $\\frac{2}{5}$"
       },
       {
         "label": "B",
-        "text": "A DNA molecule with a GC content of $ 0%$ has an estimated melting temperature between $ 60^\\circ C $ and $ 65^\\circ C $."
+        "text": "A DNA molecule with a GC content of $0%$ has an estimated melting temperature between $60^\\circ C$ and $65^\\circ C$."
       },
       {
         "label": "C",
-        "text": "A DNA molecule with a GC content of $ 95%$ has an estimated melting temperature between $ 100^\\circ C $ and $ 105^\\circ C $."
+        "text": "A DNA molecule with a GC content of $95%$ has an estimated melting temperature between $100^\\circ C$ and $105^\\circ C$."
       },
       {
         "label": "D",
-        "text": "A DNA molecule with a GC content of $ 98%$ has an estimated melting temperature between $ 80^\\circ C $ and $ 90^\\circ C $."
+        "text": "A DNA molecule with a GC content of $98%$ has an estimated melting temperature between $80^\\circ C$ and $90^\\circ C$."
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_4"
+    "rationale": null,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_4",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlA_Math_M2_Q4_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlA_Math_M2_Q4_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "In the xy -plane, line s is parallel to line t. Line s is defined by $ y+16=7x $. What is the slope of line t?",
+    "passage": "In the xy -plane, line s is parallel to line t. Line s is defined by $y+16=7x$. What is the slope of line t?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-16 $"
+        "text": "$-16$"
       },
       {
         "label": "B",
-        "text": "$-7 $"
+        "text": "$-7$"
       },
       {
         "label": "C",
-        "text": "$ 7 $"
+        "text": "$7$"
       },
       {
         "label": "D",
-        "text": "$ 16 $"
+        "text": "$16$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_5"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants, the equation $ y=0.67x+2.6 $, where $ 20\\le x\\le110 $, gives the predicted number of larvae, y, in the colony. If one of these colonies has 39 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+    "passage": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants, the equation $y=0.67x+2.6$, where $20\\le x\\le110$, gives the predicted number of larvae, y, in the colony. If one of these colonies has 39 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 29 $"
+        "text": "$29$"
       },
       {
         "label": "B",
-        "text": "$ 42 $"
+        "text": "$42$"
       },
       {
         "label": "C",
-        "text": "$ 54 $"
+        "text": "$54$"
       },
       {
         "label": "D",
-        "text": "$ 128 $"
+        "text": "$128$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_6"
   },
   {
-    "question_number": 7,
-    "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "$ y>5x-4 $ For which of the following tables are all the values of x and their corresponding values of y solutions to the given inequality?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/May_25_IntlA_Math_M2_Q7_2.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "B",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/May_25_IntlA_Math_M2_Q7.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "C",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/May_25_IntlA_Math_M2_Q7_1.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "D",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/May_25_IntlA_Math_M2_Q7_3.png",
-            "alt": ""
-          }
-        ]
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "C",
-    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_7"
-  },
-  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "$ P=N(34-C)$ The given equation relates the variables P, N, and C. Which expression represents the value of C for distinct positive values of P and N?",
+    "passage": "$P=N(34-C)$\nThe given equation relates the variables P, N, and C. Which expression represents the value of C for distinct positive values of P and N?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ C+\\frac{P}{N}$"
+        "text": "$C+\\frac{P}{N}$"
       },
       {
         "label": "B",
-        "text": "$ 34+\\frac{P}{N}$"
+        "text": "$34+\\frac{P}{N}$"
       },
       {
         "label": "C",
-        "text": "$ 34-\\frac{P}{C}$"
+        "text": "$34-\\frac{P}{C}$"
       },
       {
         "label": "D",
-        "text": "$ 34-\\frac{P}{N}$"
+        "text": "$34-\\frac{P}{N}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_8"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "$ x^{2}-15x+12=0 $ What is the sum of the solutions to the given equation?",
+    "passage": "$x^{2}-15x+12=0$\nWhat is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 15 $"
+        "text": "$15$"
       },
       {
         "label": "B",
-        "text": "$ 12 $"
+        "text": "$12$"
       },
       {
         "label": "C",
-        "text": "$ 3 $"
+        "text": "$3$"
       },
       {
         "label": "D",
-        "text": "$ 0 $"
+        "text": "$0$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_9"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "The figure shown is a right rectangular pyramid, where $ l=18 $ units, $ w=9 $ units, and $ h=12 $ units. What is the surface area, in square units, of the pyramid?",
+    "passage": "The figure shown is a right rectangular pyramid, where $l=18$ units, $w=9$ units, and $h=12$ units. What is the surface area, in square units, of the pyramid?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "527.7,527.6",
-    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_10"
+    "rationale": null,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_10",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlA_Math_M2_Q10_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlA_Math_M2_Q10_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "The function $ f(x)=\\frac{1}{7}(x-6)^{2}+4 $ gives a toy car's height above the ground $ f(x)$, in inches, x seconds after it started moving on an elevated track, where $ 0\\le x\\le10 $. Which of the following is the best interpretation of the vertex of the graph of $ y=f(x)$ in the xy -plane?",
+    "passage": "The function $f(x)=\\frac{1}{7}(x-6)^{2}+4$ gives a toy car's height above the ground $f(x)$, in inches, x seconds after it started moving on an elevated track, where $0\\le x\\le10$. Which of the following is the best interpretation of the vertex of the graph of $y=f(x)$ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -301,21 +327,26 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_11"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "In triangle $ QRS $ shown, QR",
+    "passage": "In triangle $QRS$ shown, $QR. Which expression represents the length of $\\overline{QS}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 47cosQ $"
+        "text": "$47cosQ$"
       },
       {
         "label": "B",
-        "text": "$ 47sinQ $"
+        "text": "$47sinQ$"
       },
       {
         "label": "C",
@@ -328,9 +359,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_12"
+    "rationale": null,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_12",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlA_Math_M2_Q12_1.svg",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlA_Math_M2_Q12_1.svg"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "May 2025 International Form A SAT Math Module 2",
     "passage": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 7,150 % of the number of postdoctoral students surveyed and the number of graduate students surveyed was 45 % of the number of undergraduate students surveyed. If there were 6,435 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
@@ -338,46 +381,61 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "14500",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_13"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "$ 16x-20y=6y+8 $ $ ty=8x+\\frac{1}{5}$ In the given system of equations, t is a constant. If the system has no solution, what is the value of t?",
+    "passage": "$16x-20y=6y+8$\n$ty=8x+\\frac{1}{5}$\nIn the given system of equations, t is a constant. If the system has no solution, what is the value of t?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "13",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_14"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "$ f(x)=7(4)^{x}$ The function $ f $ is defined by the given equation. If $ g(x)=f(x+3)$, which of the following equations defines the function g?",
+    "passage": "$f(x)=7(4)^{x}$\nThe function $f$ is defined by the given equation. If $g(x)=f(x+3)$, which of the following equations defines the function g?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ g(x)=21(4)^{x}$"
+        "text": "$g(x)=21(4)^{x}$"
       },
       {
         "label": "B",
-        "text": "$ g(x)=448(4)^{x}$"
+        "text": "$g(x)=448(4)^{x}$"
       },
       {
         "label": "C",
-        "text": "$ g(x)=21(12)^{x}$"
+        "text": "$g(x)=21(12)^{x}$"
       },
       {
         "label": "D",
-        "text": "$ g(x)=343(64)^{x}$"
+        "text": "$g(x)=343(64)^{x}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_15"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "May 2025 International Form A SAT Math Module 2",
     "passage": "The bone mineral density of a certain person's thoracic spine was estimated to be 0.812 grams per square centimeter. What is this estimated bone mineral density in grams per square millimeter? (1 centimeter = 10 millimeters)",
@@ -385,42 +443,47 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 81.2 $"
+        "text": "$81.2$"
       },
       {
         "label": "B",
-        "text": "$ 8.12 $"
+        "text": "$8.12$"
       },
       {
         "label": "C",
-        "text": "$ 0.0812 $"
+        "text": "$0.0812$"
       },
       {
         "label": "D",
-        "text": "$ 0.00812 $"
+        "text": "$0.00812$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_16"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "Which expression is a factor of $ 49p^{19}-121p^{17}$?",
+    "passage": "Which expression is a factor of $49p^{19}-121p^{17}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 7p+11 $"
+        "text": "$7p+11$"
       },
       {
         "label": "B",
-        "text": "$ 49p^{2}+121 $"
+        "text": "$49p^{2}+121$"
       },
       {
         "label": "C",
-        "text": "$ 11p-7 $"
+        "text": "$11p-7$"
       },
       {
         "label": "D",
@@ -429,19 +492,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_17"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "$\\frac{5}{9}(5x+9)\\sqrt{5k+9}\\sqrt{5k+9}=0 $ In the given equation, k is a positive constant. The product of the solutions to the equation is 72. What is the value of k?",
+    "passage": "$\\frac{5}{9}(5x+9)\\sqrt{5k+9}\\sqrt{5k+9}=0$\nIn the given equation, k is a positive constant. The product of the solutions to the equation is 72. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "31/5,6.2",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_18"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "May 2025 International Form A SAT Math Module 2",
     "passage": "A right rectangular prism has a base area of 56 t square centimeters (cm²). The length of the base of the rectangular prism is $\\frac{14}{3}$ cm, and the height of the rectangular prism is 3 cm. Which expression represents the surface area, in cm², of the right rectangular prism?",
@@ -449,26 +522,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 112t+56 $"
+        "text": "$112t+56$"
       },
       {
         "label": "B",
-        "text": "$ 184t+28 $"
+        "text": "$184t+28$"
       },
       {
         "label": "C",
-        "text": "$ 1,680t+28 $"
+        "text": "$1,680t+28$"
       },
       {
         "label": "D",
-        "text": "$ 168t $"
+        "text": "$168t$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_19"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "May 2025 International Form A SAT Math Module 2",
     "passage": "In the xy -plane, a unit circle with center at the origin O contains point A with coordinates $(1,0)$ and point B with coordinates $(\\frac{5}{\\sqrt{34}},-\\frac{3}{\\sqrt{34}})$. If the measure of angle AOB is p radians, what is the value of $\\frac{cosp}{sinp}$?",
@@ -476,43 +554,54 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-5/3,-1.667,-1.666",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_20"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "The function h is defined by $ h(x)=-\\sqrt{x^{2}+bx+c}$, where b and c are constants. In the xy -plane, the graph of $ y=h(x)$ contains the points $(2,0)$ and $(0,-\\sqrt{334})$. If $ h(m)=0 $, what is the greatest possible value of m?",
+    "passage": "The function h is defined by $h(x)=-\\sqrt{x^{2}+bx+c}$, where b and c are constants. In the xy -plane, the graph of $y=h(x)$ contains the points $(2,0)$ and $(0,-\\sqrt{334})$. If $h(m)=0$, what is the greatest possible value of m?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "167",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_21"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "May 2025 International Form A SAT Math Module 2",
-    "passage": "A computer repair specialist charges $ 160 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 6 hours of repair is $ 360. Which function $ f $ gives the total cost, in dollars, for x hours of repair, where $ x\\ge2 $?",
+    "passage": "A computer repair specialist charges \\$160 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 6 hours of repair is \\$360. Which function $f$ gives the total cost, in dollars, for x hours of repair, where $x\\ge2$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ f(x)=50x+60 $"
+        "text": "$f(x)=50x+60$"
       },
       {
         "label": "B",
-        "text": "$ f(x)=50x+160 $"
+        "text": "$f(x)=50x+160$"
       },
       {
         "label": "C",
-        "text": "$ f(x)=60x $"
+        "text": "$f(x)=60x$"
       },
       {
         "label": "D",
-        "text": "$ f(x)=60x+160 $"
+        "text": "$f(x)=60x+160$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_22"
   }
 ]

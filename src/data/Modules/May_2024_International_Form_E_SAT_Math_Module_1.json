@@ -1,15 +1,31 @@
 [
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds. According to the table, what is the wind chill temperature, in degrees Fahrenheit (°F), when the air temperature is 33°F and the wind speed is 20 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (°F), when the air temperature is 33°F and the wind speed is 20 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "21",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_1"
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_1",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_IntlE_Math_M1_Q1_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_IntlE_Math_M1_Q1_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "The given equation relates the positive numbers m, n, and p. Which equation correctly gives m in terms of n and p?",
@@ -17,7 +33,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "m =$\\frac{9(n+p)}{11}$"
+        "text": "m = $\\frac{9(n+p)}{11}$"
       },
       {
         "label": "B",
@@ -34,76 +50,71 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_2"
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_2",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_IntlE_Math_M1_Q2_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_IntlE_Math_M1_Q2_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Line v is defined by y =7 x +10. Line w is perpendicular to line v in the xy -plane. What is the slope of line w?",
+    "passage": "Line v is defined by y =7 x +10. Line w is perpendicular to line v in the xy -plane. What is the slope of line w ？",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "-$\\frac{1}{10}$"
+        "text": "- $\\frac{1}{10}$"
       },
       {
         "label": "B",
-        "text": "-$\\frac{1}{17}$"
+        "text": "- $\\frac{1}{17}$"
       },
       {
         "label": "C",
-        "text": "-$\\frac{1}{3}$"
+        "text": "- $\\frac{1}{3}$"
       },
       {
         "label": "D",
-        "text": "-$\\frac{1}{7}$"
+        "text": "- $\\frac{1}{7}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_3"
   },
   {
-    "question_number": 4,
-    "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "For the linear function f, the graph of y = f (x) in the xy -plane has a slope of $\\frac{1}{7}$ and passes through the point (0,6). Which equation defines f?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "f (x)= $\\frac{1}{7}$ x + 6"
-      },
-      {
-        "label": "B",
-        "text": "f (x)= $\\frac{1}{7}$ x + $\\frac{1}{6}$"
-      },
-      {
-        "label": "C",
-        "text": "f (x)= $\\frac{1}{7}$ x - $\\frac{6}{7}$"
-      },
-      {
-        "label": "D",
-        "text": "f (x)= $\\frac{1}{7}$ x -6"
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "A",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_4"
-  },
-  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "During a trip, Bill drove his car for 22.0 miles and then began driving at a constant speed of 70.0 miles per hour. After 2 hours of driving at this speed, what is the total distance, in miles, Bill has traveled during this trip?",
+    "passage": "During a trip,Bill drove his car for 22.0 miles and then began driving at a constant speed of 70.0 miles per hour. After 2 hours of driving at this speed,what is the total distance,in miles,Bill has traveled during this trip?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "162",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_5"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "In the xy -plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
+    "passage": "In the xy -plane,the graph of the given equation is a circle. If this circle is inscribed in a square,what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -125,9 +136,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_6"
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_6",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_IntlE_Math_M1_Q6_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_IntlE_Math_M1_Q6_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "Which of the following is equivalent to the given equation?",
@@ -152,9 +175,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_7"
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_7",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_IntlE_Math_M1_Q7_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_IntlE_Math_M1_Q7_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "In triangle JKL, the measures of ∠K and ∠L are each 43°. What is the measure of ∠J, in degrees? (Disregard the degree symbol when entering your answer.)",
@@ -162,12 +197,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "94",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Which ordered pair (x, y) is a solution to the given system of equations?",
+    "passage": "Which ordered pair (x,y) is a solution to the given system of equations?",
     "question_text": null,
     "choices": [
       {
@@ -189,9 +229,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_9"
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_9",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_IntlE_Math_M1_Q9_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_IntlE_Math_M1_Q9_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "The value of z is 1.27 times 100. The value of z is what percent greater than 100?",
@@ -216,36 +268,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_10"
   },
   {
-    "question_number": 11,
-    "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Circle K has a radius of 8 millimeters (mm). Circle L has an area of 144π mm 2. What is the total area, i n mm 2, of circles K and L?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "π"
-      },
-      {
-        "label": "B",
-        "text": "π"
-      },
-      {
-        "label": "C",
-        "text": "π"
-      },
-      {
-        "label": "D",
-        "text": "π"
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "D",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_11"
-  },
-  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "One leg of a right triangle has a length of 37.8 millimeters. The hypotenuse of the triangle has a length of 172.2 millimeters. What is the length of the other leg of the triangle, in millimeters?",
@@ -270,9 +300,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_12"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "What is the sum of the solutions to the equation 2x 2 − 6x + 9 = 17?",
@@ -280,12 +315,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "3",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_13"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "y = 9 y = −(x − 9) 2 + 8 If the given equations are graphed in the xy-plane, at how many points do the graphs of the equations intersect?",
+    "passage": "y = 9\ny = −(x − 9) 2 + 8\nIf the given equations are graphed in the xy-plane, at how many points do the graphs of the equations intersect?",
     "question_text": null,
     "choices": [
       {
@@ -307,12 +347,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_14"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "y = 500(2) 2x The equation gives the estimated number of online newsletter subscribers at the end of every six-month period, x, starting from the end of January 1996, where 0 ≤ x ≤ 4. Which statement is the best interpretation of the y- intercept of the graph of this equation in the xy-plane?",
+    "passage": "y = 500(2) 2x\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, x, starting from the end of January 1996, where 0 ≤ x ≤ 4. Which statement is the best interpretation of the y- intercept of the graph of this equation in the xy-plane?",
     "question_text": null,
     "choices": [
       {
@@ -334,9 +379,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_15"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "The function f is defined by f (x) = (−5)(6) x + 25. What is the y -intercept of the graph of y = f(x) in the xy - plane?",
@@ -361,19 +411,36 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_16"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "The solution to the given system of equations is (x, y). What is the value of xy?",
+    "passage": "The solution to the given system of equations is (x,y). What is the value of xy?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1.2,6/5",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_17"
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_17",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_IntlE_Math_M1_Q17_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_IntlE_Math_M1_Q17_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "In the given equation, u is a positive constant. The sum of the solutions to the equation is 9. What is the value of u?",
@@ -381,12 +448,24 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "23",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_18"
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_18",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_IntlE_Math_M1_Q18_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_IntlE_Math_M1_Q18_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "A scientist initially measures 9,000 bacteria in a growth medium. 10 hours later, the scientist measures 18,000 bacteria. Assuming exponential growth, the formula P = C(2) rt gives the number of bacteria in the growth medium, where r and C are constants and P is the number of bacteria t hours after the initial measurement. What is the value of r?",
+    "passage": "A scientist initially measures 9,000 bacteria in a growth medium. 10 hours later,the scientist measures 18,000 bacteria. Assuming exponential growth,the formula P = C(2) rt gives the number of bacteria in the growth medium,where r and C are constants and P is the number of bacteria t hours after the initial measurement. What is the value of r?",
     "question_text": null,
     "choices": [
       {
@@ -408,12 +487,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_19"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Two variables, x and y, are related such that for each increase of 1 in the value of x, the value of y increases by a factor of 4. When x = 0, y = 150. Which equation represents this relationship?",
+    "passage": "Two variables, x and y,are related such that for each increase of 1 in the value of x,the value of y increases by a factor of 4. When x = 0, y = 150. Which equation represents this relationship?",
     "question_text": null,
     "choices": [
       {
@@ -435,9 +519,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_20"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "The shaded region shown represents the solutions to which inequality?",
@@ -462,9 +551,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_21"
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_21",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_IntlE_Math_M1_Q21_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_IntlE_Math_M1_Q21_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "What is the sum of the solutions to the given equation?",
@@ -472,6 +573,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "4.8,24/5,48/10",
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_22"
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_22",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_IntlE_Math_M1_Q22_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_IntlE_Math_M1_Q22_1.png"
+      }
+    ]
   }
 ]

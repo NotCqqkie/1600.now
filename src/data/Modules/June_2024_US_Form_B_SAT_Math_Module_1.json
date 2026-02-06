@@ -1,5 +1,9 @@
 [
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "Which expression is equivalent to 7 xy (2x 2 + 8y)?",
@@ -24,9 +28,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_1"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "Which expression is equivalent to 7 x 5 − 5 x 4 + 9 x 3?",
@@ -51,9 +60,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_2"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "The height of a certain vehicle is 76 inches. The vehicle’s length is 4 times its height. Which of the following systems of equations represents this situation, where x is the length of the vehicle, in inches, and y is the height of the vehicle, in inches?",
@@ -78,9 +92,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_3"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "For the linear function f, the graph of y = f(x) in the xy -plane has a slope of 51 and passes through the point (0, 0). Which equation defines f?",
@@ -105,12 +124,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_4"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The function g is defined by g(x) =$\\frac{8}{9}x $ -$\\frac{4}{9}$. What is the value of g (18)?",
+    "passage": "The function g is defined by g(x) = $\\frac{8}{9}x$ - $\\frac{4}{9}$. What is the value of g (18)?",
     "question_text": null,
     "choices": [
       {
@@ -132,12 +156,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_5"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "$\\frac{5}{2}x $ -$\\frac{1}{5}y $ =48 x +2 y =-12 The solution to the given system of equations is (x, y). What is the value of x + y?",
+    "passage": "$\\frac{5}{2}x$ - $\\frac{1}{5}y$ =48 x +2 y =-12\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
     "question_text": null,
     "choices": [
       {
@@ -159,26 +188,37 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_6"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "The function f is defined by f(x) = x 2 + x + 31. What is the value of f (2)?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
+    "correct_answer": "37",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_7"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The estimated height h, in feet, of a tree t years after it was first measured is modeled by h(t) = 4 + 1.6 t. Which statement best interprets the constant term of this model?",
+    "passage": "f(x) = 8 x + 4\nThe function f gives the estimated height, in feet, of a willow tree x years after its height was first measured. Which statement is the best interpretation of 4 in this context?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The tree is estimated to lose 4 feet of height each year."
+        "text": "The tree will be measured each year for 4 years."
       },
       {
         "label": "B",
@@ -195,9 +235,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "In the xy-plane, line k has a slope of -6 and a y -intercept of (0,48). What is the x -coordinate of the x -intercept of line k?",
@@ -205,12 +250,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "8",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_9"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The table gives the perimeters of similar triangles TUV and XYZ, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 9. What is the length of $\\overline{XY}$?",
+    "passage": "The table gives the perimeters of similar triangles TUV and XYZ, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 9.\nWhat is the length of $\\overline{XY}$?",
     "question_text": null,
     "choices": [
       {
@@ -232,9 +282,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_10"
+    "rationale": null,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_10",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USB_Math_M1_Q10_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USB_Math_M1_Q10_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "If 4(5-7 x) + 3 = 3(5-7 x) +15. what is the value of 5 - 7 x?",
@@ -259,12 +321,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_11"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "x + 48 = y (x + 48) 2 = y A solution to the given system of equations is (x, y). What is a possible value of x?",
+    "passage": "x + 48 = y\n(x + 48) 2 = y\nA solution to the given system of equations is (x,y). What is a possible value of x?",
     "question_text": null,
     "choices": [
       {
@@ -286,9 +353,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_12"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "A circle in the xy -plane has the equation (x - 14) 2 + (y - k) 2 = 81. Which of the following gives the center of the circle and its radius?",
@@ -313,9 +385,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_13"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "The town of Fillmore is planning its annual fireworks show. The equation y = -16 (x - 6.9) 2 + 762 gives the estimated height y, in feet, of a type of firework x seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the xy-plane?",
@@ -340,12 +417,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_14"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The graph of y = f (x) is shown where f(x) = $αx3+ bx2+ cx + d $ and $α, b, c,$ and $ d $ are constants. For how many distinct values of x does f(x) =0?",
+    "passage": "The graph of y = f (x) is shown where f(x) = $αx3+ bx2+ cx + d$ and $α,b,c,$ and $d$ are constants. For how many distinct values of x does f(x) =0?",
     "question_text": null,
     "choices": [
       {
@@ -367,9 +449,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_15"
+    "rationale": null,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_15",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USB_Math_M1_Q15_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USB_Math_M1_Q15_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "Which expression represents the length of line segment AB?",
@@ -394,9 +488,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_16"
+    "rationale": null,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_16",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USB_Math_M1_Q16_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USB_Math_M1_Q16_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "The product of a positive number x and the number that is 13 less than x is equal to 378. What is the value of x?",
@@ -404,9 +510,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "27",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_17"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "Point O is the center of a unit circle in the xy -plane, and its coordinates are (0,0). Point A lies on the unit circle, and its coordinates are (0,1). Point P on the unit circle is obtained by rotating point A $\\frac{7\\pi}{6}$ radians about the origin in the counterclockwise direction. What are the coordinates of point P?",
@@ -414,26 +525,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$(-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2})$"
+        "text": "$（-\\frac{\\sqrt{3}}{2}，-\\frac{1}{2}）$"
       },
       {
         "label": "B",
-        "text": "$(-\\frac{1}{2}, -\\frac{\\sqrt{3}}{2})$"
+        "text": "$（-\\frac{1}{2}，-\\frac{\\sqrt{3}}{2}）$"
       },
       {
         "label": "C",
-        "text": "$(-\\frac{\\sqrt{3}}{2}, \\frac{1}{2})$"
+        "text": "$（-\\frac{\\sqrt{3}}{2}，\\frac{1}{2}）$"
       },
       {
         "label": "D",
-        "text": "$(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2})$"
+        "text": "$（\\frac{1}{2}，-\\frac{\\sqrt{3}}{2}）$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_18"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "In the figure, AC = CD. The measure of angle EBC is 42°, and the measure of angle ACD is 108°. What is the value of x?",
@@ -441,9 +557,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "78",
-    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_19"
+    "rationale": null,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_19",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USB_Math_M1_Q19_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USB_Math_M1_Q19_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "The positive number a is 3,900% of the number c, and c is 25% of the number b. If a − b = wc, where w is a constant, what is the value of w?",
@@ -451,9 +579,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "35",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_20"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "Line j is defined by 3 x + 4 y = 28. Line k is parallel to line j in the xy -plane. An equation of line k is 24 x + ry = 24, where r is a constant. If line k passes through the point (0, b), what is the value of b?",
@@ -461,9 +594,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "0.75,3/4",
+    "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_21"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "The dot plot shows the distribution of capacity for a set of capacitors, set A, which a researcher used for a certain experiment. For another experiment, the researcher used a different set of capacitors, set B. Set B has the same number of capacitors as set A but the capacity of each capacitor of set B is 13 microfarads (μF) greater than the capacity of each respective capacitor in set A. Which of the following is true about the capacities of the capacitors in set B?",
@@ -488,6 +626,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_22"
+    "rationale": null,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_22",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USB_Math_M1_Q22_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USB_Math_M1_Q22_1.png"
+      }
+    ]
   }
 ]

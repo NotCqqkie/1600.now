@@ -1,5 +1,9 @@
 [
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "Julia purchased 800 feet of fencing. She used 60% of this fencing to surround a vegetable garden. How many feet of fencing did Julia use to surround the vegetable garden?",
@@ -24,39 +28,49 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_1"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to $ 13(x^{2}-7)$?",
+    "passage": "Which expression is equivalent to $13(x^{2}-7)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 13x^{2}-91 $"
+        "text": "$13x^{2}-91$"
       },
       {
         "label": "B",
-        "text": "$ 13x^{2}-20 $"
+        "text": "$13x^{2}-20$"
       },
       {
         "label": "C",
-        "text": "$ 13x^{2}-7 $"
+        "text": "$13x^{2}-7$"
       },
       {
         "label": "D",
-        "text": "$ 13x^{2}+6 $"
+        "text": "$13x^{2}+6$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_2"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "1, 4, 7, 10, 33 What is the mean of the data shown?",
+    "passage": "1, 4, 7, 10, 33\nWhat is the mean of the data shown?",
     "question_text": null,
     "choices": [
       {
@@ -78,9 +92,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_3"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "A sleep study consisted of 59 participants, of which 53 participants each had an average ofmore than 120 minutes of rapid eye movement (REM) sleep per night. If a participant from this sleep study is selected at random, what is the probability of selecting a participant that had an average of more than l20 minutes of REM sleep per night?",
@@ -105,49 +124,71 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_4"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds. According to the table, what is the wind chill temperature, in degrees Fahrenheit (°F), when the air temperature is 26°F and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer)",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (°F), when the air temperature is 26°F and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "14",
-    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_5"
+    "rationale": null,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_5",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USA_Math_M1_Q5_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USA_Math_M1_Q5_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "A soccer team's goal is to earn at least $ 1,320 by selling coupon books. The team earns $ 12 from selling each coupon book. Which of the following inequalities describes all possible values for the number of coupon books, n, the team can sell to meet the goal?",
+    "passage": "A soccer team's goal is to earn at least \\$1,320 by selling coupon books. The team earns \\$12 from selling each coupon book. Which of the following inequalities describes all possible values for the number of coupon books, n, the team can sell to meet the goal?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ n+12\\le1,320 $"
+        "text": "$n+12\\le1,320$"
       },
       {
         "label": "B",
-        "text": "$ n+12\\ge1,320 $"
+        "text": "$n+12\\ge1,320$"
       },
       {
         "label": "C",
-        "text": "$ 12n\\le1,320 $"
+        "text": "$12n\\le1,320$"
       },
       {
         "label": "D",
-        "text": "$ 12n\\ge1,320 $"
+        "text": "$12n\\ge1,320$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_6"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "$ 2.5c+5d=60 $ The given equation describes the relationship between the number of cats, c, and the number of dogs, d, that can be cared for at a pet care business during a wveek. If the business cares for l2 dogs during a week, how many cats can it care for during this week?",
+    "passage": "$2.5c+5d=60$\nThe given equation describes the relationship between the number of cats, c, and the number of dogs, d, that can be cared for at a pet care business during a wveek. If the business cares for l2 dogs during a week, how many cats can it care for during this week?",
     "question_text": null,
     "choices": [
       {
@@ -169,12 +210,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_7"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "$-(3x-7)^{2}=p+17 $ In the given equation, p is an integer constant. The equation has no real solution. What is the least possible walue of p?",
+    "passage": "$-(3x-7)^{2}=p+17$\nIn the given equation, p is an integer constant. The equation has no real solution. What is the least possible walue of p?",
     "question_text": null,
     "choices": [
       {
@@ -196,9 +242,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "For the triangles shown, triangle ABC is dilated by a scale factor of 5 to obtain triangle XYZ, where d= 19, what is the measure, in degrees, of angle X?",
@@ -223,9 +274,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_9"
+    "rationale": null,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_9",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USA_Math_M1_Q9_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USA_Math_M1_Q9_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "What is the y-intercept of the graph of y = 16 x+3 in the xy-plane?",
@@ -250,9 +313,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_10"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "The area of triangle ABC is 220 square centimeters. What is the height h, in centimeters, of this triangle?",
@@ -277,9 +345,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_11"
+    "rationale": null,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_11",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USA_Math_M1_Q11_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USA_Math_M1_Q11_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "In the right triangle shown, the value of tan x° is $\\frac{c}{39}$. What is the value of c?",
@@ -304,9 +384,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_12"
+    "rationale": null,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_12",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USA_Math_M1_Q12_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USA_Math_M1_Q12_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "The graph of the polynomial function f in the xy-plane, where y= f(x), has x-intercepts of (-5,0) and (6, 0). Which of the following must be true?",
@@ -314,69 +406,94 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ f(0)=-5 $"
+        "text": "$f(0)=-5$"
       },
       {
         "label": "B",
-        "text": "$ f(6)=-5 $"
+        "text": "$f(6)=-5$"
       },
       {
         "label": "C",
-        "text": "$ f(-5)= 0 $"
+        "text": "$f(-5)= 0$"
       },
       {
         "label": "D",
-        "text": "$ f(-5)= 6 $"
+        "text": "$f(-5)= 6$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_13"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "$(x-16)(x-10)(x+7)(x+17)=0 $ What is a positive solution to the given equation?",
+    "passage": "$(x-16)(x-10)(x+7)(x+17)=0$\nWhat is a positive solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "16,10",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_14"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "A circle in the xy-plane has its center at (-4,4) and has a radius of 7. An equation of this circle is x 2 +y 2 +ax+by+c=0, where a, b, and c are constants. What is the value of c?",
+    "passage": "A circle in the xy-plane has its center at (-4,4) and has a radius of 7. An equation of this circle is x 2 +y 2 +ax+by+c=0, where a, b, and c are constants.What is the value of c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-17",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_15"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "In the xy-plane, the graph ofthe equation $(x-6)^{2}+(y-2)^{2}=36 $ is a circle. The point (12, c), where c is a constant, lies on this circle. What is the value of c?",
+    "passage": "In the xy-plane, the graph ofthe equation $(x-6)^{2}+(y-2)^{2}=36$ is a circle. The point (12, c), where c is a constant, lies on this circle. What is the value of c?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "2",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_16"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "$ 6(x-4)=(x-4)+6 $ If x is the solution to the given equation, what is the value of x - 4?",
+    "passage": "$6(x-4)=(x-4)+6$\nIf x is the solution to the given equation, what is the value of x - 4?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "6/5,1.2",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_17"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "$\\frac{5}{4}x+2y=17 $ $\\frac{3}{4}x+2y=15 $ The solution to the given system of equations is (x, y). What is the value of $\\frac{11}{4}x+6y $?",
+    "passage": "$\\frac{5}{4}x+2y=17$\n$\\frac{3}{4}x+2y=15$\nThe solution to the given system of equations is (x, y). What is the value of $\\frac{11}{4}x+6y$?",
     "question_text": null,
     "choices": [
       {
@@ -398,9 +515,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_18"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "The function h is defined by h(x)=14(2) -x + 7. What is the value of h(3)?",
@@ -408,7 +530,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{42}{4}$"
+        "text": "$\\frac{42}{4}\\frac{}{}$"
       },
       {
         "label": "B",
@@ -425,9 +547,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_19"
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "The graph of a line in the xy-plane passes through the point (1, 8) and crosses the x-axis at the point (7, 0). The line crosses the y-axis at the point (0, b). What is the value of b?",
@@ -435,9 +562,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "9.333,28/3",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_20"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "December 2024 US Form A SAT Math Module 1",
     "passage": "The table shows three values of x and their corresponding values of y. The linear relationship between x and y can be represented by an equation written in the form Ax + By = C, where A, B, and C are constants. What is the value of $\\frac{A}{B}$?",
@@ -445,12 +577,24 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-6",
-    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21"
+    "rationale": null,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USA_Math_M1_Q21_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USA_Math_M1_Q21_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "$ 5x+8y=9 $ $ 15x+24y=27 $ For each real number r, which of the following points lies on the graph of each equation in the xy-plane for the given system?",
+    "passage": "$5x+8y=9$\n$15x+24y=27$\nFor each real number r, which of the following points lies on the graph of each equation in the xy-plane for the given system?",
     "question_text": null,
     "choices": [
       {
@@ -459,7 +603,7 @@
       },
       {
         "label": "B",
-        "text": "$(-\\frac{5r}{8}+\\frac{9}{8}, r)$"
+        "text": "$(-\\frac{5r}{8}+\\frac{9}{8},r)$"
       },
       {
         "label": "C",
@@ -472,6 +616,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_22"
   }
 ]

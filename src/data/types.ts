@@ -14,4 +14,5 @@ export interface Question {
   correct_answer: string | null;
   id: string;
   images?: { src: string; alt: string; local?: string }[];
+  questionImages?: { src: string; alt: string; local?: string }[];
 }

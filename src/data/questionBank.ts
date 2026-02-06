@@ -1,51 +1,6 @@
-import allQuestionsData from "./questions.json";
+import { questions as allQuestionsData, type Question as SourceQuestion } from "./all_questions";
 // @ts-ignore
-import categoryMap from "./category_map.json";
-import { Question as RawQuestion, Choice as RawChoice } from "./types";
-
-const allQuestions = allQuestionsData as unknown as RawQuestion[];
-const questionCategoryMap = categoryMap as Record<string, { subject: string; domain: string; skill: string; confidence: string }>;
-
-const skillMapping: Record<string, string> = {
-  // Math Mappings
-  "Linear Equations in One Variable": "Linear equations in one variable",
-  "Linear Functions": "Linear functions",
-  "Linear Equations in Two Variables": "Linear equations in two variables",
-  "Systems of Linear Equations": "Systems of two linear equations in two variables",
-  "Linear Inequalities": "Linear inequalities in one or two variables",
-  "Equivalent Expressions": "Equivalent expressions",
-  "Nonlinear Equations and Systems": "Nonlinear equations in one variable and systems of equations in two variables",
-  "Nonlinear Functions": "Nonlinear functions",
-  "Ratios, Rates, Proportions, and Units": "Ratios, rates, proportional relationships, and units",
-  "Percentages": "Percentages",
-  "One-Variable Data": "One-variable data: Distributions and measures of center and spread",
-  "Two-Variable Data": "Two-variable data: Models and scatterplots",
-  "Probability": "Probability and conditional probability",
-  "Sample Statistics and Margin of Error": "Inference from sample statistics and margin of error",
-  "Evaluating Statistical Claims": "Evaluating statistical claims: Observational studies and experiments",
-  "Area and Volume": "Area and volume",
-  "Lines, Angles, and Triangles": "Lines, angles, and triangles",
-  "Right Triangles and Trigonometry": "Right triangles and trigonometry",
-  "Circles": "Circles",
-  
-  // English Mappings (Ensure exact match)
-  "Cross-Text Connections": "Cross-Text Connections",
-  "Text Structure and Purpose": "Text Structure and Purpose",
-  "Words in Context": "Words in Context",
-  "Rhetorical Synthesis": "Rhetorical Synthesis",
-  "Transitions": "Transitions",
-  "Central Ideas and Details": "Central Ideas and Details",
-  "Command of Evidence": "Command of Evidence",
-  "Inferences": "Inferences",
-  "Boundaries": "Boundaries",
-  "Form, Structure, and Sense": "Form, Structure, and Sense"
-};
-
-const normalizeSkill = (folderSkill: string): string => {
-  return skillMapping[folderSkill] || folderSkill;
-};
-
-
+// import categoryMap from "./category_map.json"; // IDs don't match anymore
 import {
   classifyQuestion,
   type QuestionCategory,
@@ -58,6 +13,9 @@ import {
   allMathDomains,
   allEnglishDomains,
 } from "./questionCategories";
+
+const allQuestions = allQuestionsData;
+// const questionCategoryMap = categoryMap as Record<string, { subject: string; domain: string; skill: string; confidence: string }>;
 
 export type BankSubject = "math" | "reading";
 
@@ -72,7 +30,7 @@ export interface BankQuestion {
   id: number;
   /** original unique id from the source dataset */
   sourceId: string;
-  questionNumber: number;
+  questionNumber: number | string;
   testName: string;
   prompt: string;
   passage?: string;
@@ -141,126 +99,135 @@ const sanitizeCurrency = (text: string | null | undefined): string => {
   return result;
 };
 
-const isMathQuestion = (q: RawQuestion) => q.test_name.toLowerCase().includes("math");
+const isMathQuestion = (q: SourceQuestion): boolean => {
+    // 0. Trust source category if available
+    if (q.category) {
+        return q.category.subject === "Math";
+    }
 
-const mapImages = (images?: RawQuestion["images"]) => {
-  if (!images) return undefined;
-  return images.map((img) => {
-    const raw = img.local || img.src;
-    return {
-      src: ensureSatImagePath(raw),
-      alt: img.alt || "Question image",
-    };
-  });
+    // 1. Check for Math in image path
+    if (q.image && (q.image.includes("Math") || q.image.includes("_Math_"))) return true;
+    if (q.image && (q.image.includes("Eng") || q.image.includes("_Eng_"))) return false;
+
+    // 2. Check for Math Symbols in text
+    // We ignore generic "\\" because it is used as a separator in English questions
+    if (q.text.includes("$")) return true;
+    // Check for specific LaTeX math indicators
+    if (/\\(frac|sqrt|sum|int|theta|pi|infty|approx|ne|le|ge|cdot|angle|triangle)/.test(q.text)) return true;
+
+    const lower = q.text.toLowerCase();
+
+    // 3. Early exit for English indicators (prioritize over generic math keywords)
+    const englishKeywords = ["choice completes the text", "most logical and precise", "main purpose of the text", "based on the text", "function of the underlined part"];
+    if (englishKeywords.some(k => lower.includes(k))) return false;
+
+    // 4. Check for specific keywords
+    const mathKeywords = ["equation", "function", "triangle", "circle", "graph", "xy-plane", "value of", "x-axis", "y-axis", "integer", "constant"];
+    if (mathKeywords.some(k => lower.includes(k))) return true;
+
+    // Fallback: If it has numbers and symbols = Math? 
+    if (/[0-9]=/.test(q.text)) return true;
+
+    return false;
 };
 
-const mapChoices = (choices: RawChoice[]) =>
-  choices.map((choice) => {
-    const rawImage = choice.images?.[0]?.local || choice.images?.[0]?.src;
+const mapImages = (image?: string) => {
+  if (!image) return undefined;
+  return [{
+      src: ensureSatImagePath(image),
+      alt: "Question image",
+  }];
+};
+
+const mapChoices = (choices: SourceQuestion["choices"]) => {
+  if (!choices) return undefined;
+  return choices.map((choice) => {
     return {
-      id: choice.label,
+      id: choice.id,
       text: choice.text ? sanitizeCurrency(choice.text) : undefined,
-      image: rawImage ? ensureSatImagePath(rawImage) : undefined,
+      image: choice.image ? ensureSatImagePath(choice.image) : undefined,
     } satisfies BankChoice;
   });
-
-const buildPrompt = (q: RawQuestion) => {
-  const rawPassage = q.passage || "";
-  const rawQuestion = q.question_text || "";
-
-  // Check if passage starts with question text (common in English questions)
-  if (rawQuestion && rawPassage.startsWith(rawQuestion)) {
-    const restOfPassage = rawPassage.slice(rawQuestion.length).trim();
-    const parts = [sanitizeCurrency(rawQuestion), sanitizeCurrency(restOfPassage)].filter(Boolean);
-    return parts.join("\n\n");
-  }
-
-  // For Math questions, try to split the question from the context
-  // Heuristic: If it ends with '?', assume the last sentence is the question
-  if (isMathQuestion(q) && !rawQuestion && rawPassage.trim().endsWith('?')) {
-    const text = rawPassage.trim();
-    // Find the last sentence boundary (punctuation followed by space and capital letter/number)
-    const matches = [...text.matchAll(/[.!?]\s+(?=[A-Z0-9])/g)];
-    
-    if (matches.length > 0) {
-      const lastMatch = matches[matches.length - 1];
-      const splitIndex = lastMatch.index! + lastMatch[0].length;
-      
-      const context = text.slice(0, splitIndex).trim();
-      const questionPart = text.slice(splitIndex).trim();
-      
-      // User requested FLIP: Question Text THEN Passage/Context
-      // The previous logic was Question \n\n Context (which is what line 186 did)
-      // But let's check the general case below.
-      
-      const parts = [sanitizeCurrency(questionPart), sanitizeCurrency(context)].filter(Boolean);
-      return parts.join("\n\n");
-    }
-  }
-
-  // General Case:
-  // Math: Question \n\n Passage
-  // English: Passage \n\n Question
-  if (isMathQuestion(q)) {
-      const parts = [rawQuestion, rawPassage].filter(Boolean).map((p) => sanitizeCurrency(p));
-      return parts.join("\n\n");
-  }
-
-  const parts = [rawPassage, rawQuestion].filter(Boolean).map((p) => sanitizeCurrency(p));
-  return parts.join("\n\n");
 };
 
-const getCleanPassage = (q: RawQuestion): string | undefined => {
-  const rawPassage = q.passage || "";
-  const rawQuestion = q.question_text || "";
-
-  // If passage starts with question text, strip it to avoid duplication
-  // The rendering layer will show question_text separately
-  if (rawQuestion && rawPassage.startsWith(rawQuestion)) {
-    const clean = rawPassage.slice(rawQuestion.length).trim();
-    // Return the cleaned passage (even if empty, to signal "stripped")
-    return sanitizeCurrency(clean);
-  }
-  
-  return rawPassage ? sanitizeCurrency(rawPassage) : undefined;
-};
-
-const normalizeQuestion = (q: RawQuestion, idx: number): BankQuestion => {
-  const type: BankQuestion["type"] = q.is_fill_in_blank ? "free-response" : "multiple-choice";
+const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
+  const type: BankQuestion["type"] = q.type;
   const isMath = isMathQuestion(q);
-  const fullText = [q.passage, q.question_text, ...(q.choices?.map(c => c.text) || [])].filter(Boolean).join(" ");
+  // Full text for classification
+  const fullText = q.text + " " + (q.choices?.map(c => c.text).join(" ") || "");
   
   let category: QuestionCategory;
-  
-  const mapped = questionCategoryMap[q.id];
-  if (mapped) {
-    category = {
-      subject: mapped.subject as "Math" | "English",
-      domain: mapped.domain as MathDomain | EnglishDomain,
-      skill: normalizeSkill(mapped.skill) as MathSkill | EnglishSkill,
-      confidence: mapped.confidence as "high" | "medium" | "low",
-    };
+
+  if (q.category) {
+    category = q.category as QuestionCategory;
   } else {
+    // Fallback to classifier if not mapped
     category = classifyQuestion(fullText, isMath) || {
-      subject: isMath ? "Math" : "English",
-      domain: isMath ? "Algebra" : "Information and Ideas",
-      skill: isMath ? "Linear equations in one variable" : "Central Ideas and Details",
-      confidence: "low" as const,
+        subject: isMath ? "Math" : "English",
+        domain: isMath ? "Algebra" : "Information and Ideas",
+        skill: isMath ? "Linear equations in one variable" : "Central Ideas and Details",
+        confidence: "low" as const,
     };
+  }
+
+  // Layout Logic for English Questions
+  let prompt = sanitizeCurrency(q.text);
+  let passage: string | undefined = undefined;
+  let questionText: string | undefined = sanitizeCurrency(q.text);
+
+  if (!isMath) {
+    // English Logic
+    const isRhetorical = category.skill === "Rhetorical Synthesis";
+
+    if (isRhetorical) {
+       // Rhetorical Synthesis: All content on left (Passage), nothing above choices
+       passage = prompt;
+       questionText = undefined;
+    } else {
+       // Standard English: Split into Question (First part) and Passage (Remaining)
+       // The dataset typically uses "\\" (double backslash) to separate the question prompt from the passage
+       const raw = q.text;
+       // Check for double backslash (represented as \\\\ in literal string matches)
+       if (raw.includes("\\\\")) {
+         const parts = raw.split("\\\\");
+         // Part 0 is usually the question: "Which choice..."
+         let qText = parts[0];
+         let pText = parts.slice(1).join("\n\n");
+         
+         // Fix for "Text 1" leaking into the Question Prompt (Right side)
+         // Often appears as "...questions? Text 1"
+         if (qText.trim().endsWith("Text 1")) {
+            // Strip "Text 1" from the end of the question text
+            qText = qText.substring(0, qText.lastIndexOf("Text 1"));
+            // Prepend "Text 1" to the passage text
+            pText = "Text 1\n\n" + pText;
+         }
+
+         questionText = sanitizeCurrency(qText);
+         passage = sanitizeCurrency(pText);
+       } else {
+         // Fallback: If we can't split, put everything in passage to avoid duplication
+         // (Or keep as undefined passage + full questionText? No, user complained about duplication)
+         // If we set passage, Left View uses it. Right View uses questionText.
+         // If we set passage=prompt, questionText=undefined -> Left has content, Right has none.
+         passage = prompt;
+         questionText = undefined;
+       }
+    }
   }
   
   return {
     id: idx + 1,
-    sourceId: q.id,
-    questionNumber: q.question_number,
-    testName: q.test_name,
-    prompt: buildPrompt(q),
-    passage: getCleanPassage(q),
-    questionText: q.question_text ? sanitizeCurrency(q.question_text) : undefined,
-    choices: type === "multiple-choice" ? mapChoices(q.choices) : undefined,
+    sourceId: q.id.toString(),
+    questionNumber: q.id,
+    testName: q.testName || "Practice Question", 
+    prompt,
+    passage, 
+    questionText,
+    choices: q.type === "multiple-choice" ? mapChoices(q.choices) : undefined,
     type,
-    correctAnswer: q.correct_answer,
-    questionImages: mapImages(q.images),
+    correctAnswer: q.correctAnswer,
+    questionImages: mapImages(q.image),
     category,
   };
 };
@@ -297,6 +264,8 @@ export const getBankQuestion = (subject: BankSubject, questionIndex: number): Ba
 
 export const getBankPool = (subject: BankSubject): BankQuestion[] =>
   subject === "math" ? getMathQuestions() : getReadingQuestions();
+
+export const getAllBankQuestions = getBankPool;
 
 // Filter by domain
 export const getQuestionsByDomain = (

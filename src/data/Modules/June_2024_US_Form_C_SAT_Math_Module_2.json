@@ -1,5 +1,9 @@
 [
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "The graph of a rational function is shown for some values of x. What is the y -coordinate of the y -intercept of the graph?",
@@ -7,9 +11,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-3",
-    "id": "10c690aa-0aad-48ab-952b-855b2555b311_1"
+    "rationale": null,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_1",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USC_Math_M2_Q1_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USC_Math_M2_Q1_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "Monarch butterflies can fly only with a body temperature of at least 55.0 degrees Fahrenheit (°F). If a monarch butterfly's body temperature is 34.3°F, what is the minimum increase needed in its body temperature, in °F, so that it can fly?",
@@ -34,9 +50,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_2"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "The lengths of two sides of a triangle are 5 centimeters and 7 centimeters. If the perimeter of the triangle is 16 centimeters, what is the length, in centimeters, of the third side of this triangle?",
@@ -61,12 +82,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_3"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "June 2024 US Form C SAT Math Module 2",
-    "passage": "The scatterplot shows the relationship between two variables, x and y. Which of the following equations is the most appropriate linear model for the data shown?",
+    "passage": "The scatterplot shows the relationship between two variables, x and y.\nWhich of the following equations is the most appropriate linear model for the data shown?",
     "question_text": null,
     "choices": [
       {
@@ -88,12 +114,24 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "10c690aa-0aad-48ab-952b-855b2555b311_4"
+    "rationale": null,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_4",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USC_Math_M2_Q4_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USC_Math_M2_Q4_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "June 2024 US Form C SAT Math Module 2",
-    "passage": "A dog has a mass of 36 kilograms. What is the dog's mass, in grams?(1 kilogram = 1,000 grams)",
+    "passage": "A dog has a mass of 36 kilograms. What is the dog's mass, in <u>grams</u>?(1 kilogram = 1,000 grams)",
     "question_text": null,
     "choices": [
       {
@@ -115,9 +153,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_5"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "A certain goat weighed 5 pounds when it was born. The goat gained approximately $\\frac{1}{4}$ pounds per day for the first 90 days of its life. Which function g gives the approximate weight, in pounds, of the goat x days after it was born?",
@@ -125,26 +168,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "g(x)=$\\frac{1}{4}$ x − 5"
+        "text": "g(x)= $\\frac{1}{4}$ x − 5"
       },
       {
         "label": "B",
-        "text": "g(x)=$\\frac{1}{4}$ x + 5"
+        "text": "g(x)= $\\frac{1}{4}$ x + 5"
       },
       {
         "label": "C",
-        "text": "g(x)=-$\\frac{1}{4}$ x − 5"
+        "text": "g(x)=- $\\frac{1}{4}$ x − 5"
       },
       {
         "label": "D",
-        "text": "g(x)=-$\\frac{1}{4}$ x + 5"
+        "text": "g(x)=- $\\frac{1}{4}$ x + 5"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_6"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "If 7 n =14, what is the value of n +5?",
@@ -152,9 +200,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "7",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_7"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "What is the y -intercept of the graph of y =3 x 2 +7 x +29 in the xy -plane?",
@@ -179,9 +232,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "A group of x Rosa sericea flowers and y Rosa caesia flowers has a total of 77 petals. In this group, each Rosa sericea flower has 4 petals and each Rosa caesia flower has 5 petals. The equation 4x+5y=77 represents this situation. If there are 8 Rosa sericea flowers in this group, how many Rosa caesia flowers are in this group?",
@@ -206,9 +264,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_9"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "The graph of the function f in the xy -plane, where y = f(x), contains the points(0,3), (9,0), and (24,0). Which of the following CANNOT be true?",
@@ -233,9 +296,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_10"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "The histogram shows the distribution of 20 lengths, in feet, in a data set. The first bar represents the lengths that are less than 50 feet, the second bar represents the lengths that are at least 50 feet but less than 100 feet, and so on. Which of the following could be the maximum length, in feet, in this data set?",
@@ -260,49 +328,71 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "10c690aa-0aad-48ab-952b-855b2555b311_11"
+    "rationale": null,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_11",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USC_Math_M2_Q11_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USC_Math_M2_Q11_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Sample Statistics and Margin of Error",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "June 2024 US Form C SAT Math Module 2",
-    "passage": "A market researcher collected data on the price of a hot dog at 59 locations selected at random in a state. The mean price of a hot dog in the state was estimated to be $ 3.28, with an associated margin of error of $ 0.06. Which of the following is a plausible statement about the mean price of a hot dog for all locations that sell this product in the state?",
+    "passage": "A market researcher collected data on the price of a hot dog at 59 locations selected at random in a state. The mean price of a hot dog in the state was estimated to be \\$3.28, with an associated margin of error of \\$0.06. Which of the following is a plausible statement about the mean price of a hot dog for all locations that sell this product in the state?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "It is between $ 3.22 and $ 3.34."
+        "text": "It is between \\$3.22 and \\$3.34."
       },
       {
         "label": "B",
-        "text": "It is either less than $ 3.22 or greater than $ 3.34."
+        "text": "It is either less than \\$3.22 or greater than \\$3.34."
       },
       {
         "label": "C",
-        "text": "It is less than 3.22."
+        "text": "It is less than \\$3.22."
       },
       {
         "label": "D",
-        "text": "It is greater than 3.34."
+        "text": "It is greater than \\$3.34."
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_12"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "June 2024 US Form C SAT Math Module 2",
-    "passage": "x + y = 105 x + y + y = 115 The solution to the given system of equations is (x, y). What is the value of y?",
+    "passage": "x + y = 105\nx + y + y = 115\nThe solution to the given system of equations is (x, y). What is the value of y?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "10",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_13"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "June 2024 US Form C SAT Math Module 2",
-    "passage": "x = 8 y = x 2 + 7 The graphs of the equations in the given system of equations intersect at the point(x, y) in the xy -plane. What is the value of y?",
+    "passage": "x = 8\ny = x 2 + 7\nThe graphs of the equations in the given system of equations intersect at the point(x, y) in the xy -plane. What is the value of y?",
     "question_text": null,
     "choices": [
       {
@@ -324,9 +414,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_14"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "The kinetic energy, in joules, of an object with mass 7 kilograms traveling at a speed of v meters per second is given by the function K, where K (v)= $\\frac{7}{2}$ v 2. Which of the following is the best interpretation of K (24)= 2,016 in this context?",
@@ -351,9 +446,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_15"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "For the linear function f, the table shows three values of x and their corresponding values of f(x). Which equation defines f(x)?",
@@ -378,12 +478,24 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "10c690aa-0aad-48ab-952b-855b2555b311_16"
+    "rationale": null,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_16",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USC_Math_M2_Q16_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USC_Math_M2_Q16_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "June 2024 US Form C SAT Math Module 2",
-    "passage": "y − 34 = px The given equation relates the positive numbers p, x, and y. Which equation correctly expresses y in terms of p and x?",
+    "passage": "y − 34 = px\nThe given equation relates the positive numbers p, x, and y. Which equation correctly expresses y in terms of p and x?",
     "question_text": null,
     "choices": [
       {
@@ -400,14 +512,19 @@
       },
       {
         "label": "D",
-        "text": "y =$\\frac{px}{34}$"
+        "text": "y = $\\frac{px}{34}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_17"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "The point with coordinates(7, c) lies on the line shown. What is the value of c?",
@@ -415,9 +532,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "4.5,9/2",
-    "id": "10c690aa-0aad-48ab-952b-855b2555b311_18"
+    "rationale": null,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_18",
+    "images": [
+      {
+        "src": "/images_labeled/Jun_24_USC_Math_M2_Q18_1.png",
+        "alt": "",
+        "local": "images_labeled/Jun_24_USC_Math_M2_Q18_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "A company has a customer loyalty program. In January 2018, there were 700 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 8% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where m ≤24?",
@@ -442,19 +571,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_19"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "June 2024 US Form C SAT Math Module 2",
-    "passage": "(x − 16)(x − 12)(x + 5)(x + 13)= 0 What is a positive solution to the given equation?",
+    "passage": "(x − 16)(x − 12)(x + 5)(x + 13)= 0\nWhat is a positive solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "16,12",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_20"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "June 2024 US Form C SAT Math Module 2",
     "passage": "Parallel lines a and b intersect parallel lines c and d, forming eight acute angles and eight obtuse angles. The measure, in degrees, of one of the acute angles is represented by the expression 5x+52. The measure, in degrees, of one of the obtuse angles is represented by the expression 7x+92. What is the sum of the measures, in degrees, of 2 of the acute angles and 3 of the obtuse angles?",
@@ -462,12 +601,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "473",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_21"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "June 2024 US Form C SAT Math Module 2",
-    "passage": "2.5x + 4.2y = 7 7.5x + 12.6y = 21 How many solutions does the given system of equations have?",
+    "passage": "2.5x + 4.2y = 7\n7.5x + 12.6y = 21\nHow many solutions does the given system of equations have?",
     "question_text": null,
     "choices": [
       {
@@ -489,6 +633,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_22"
   }
 ]

@@ -1,9 +1,12 @@
-import { useParams, useNavigate } from "react-router-dom";
-import { useState, useEffect, useRef, useLayoutEffect } from "react";
+import { useParams, useNavigate, useLocation, useSearchParams } from "react-router-dom";
+import { useState, useEffect, useRef, useLayoutEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { NavigationSheet } from "@/components/NavigationSheet";
+import { BankNavigationSheet } from "@/components/BankNavigationSheet";
+import { OfficialPracticeNavigationSheet } from "@/components/OfficialPracticeNavigationSheet"; 
+import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet"; 
 import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationWindow } from "@/components/ExplanationWindow";
@@ -18,21 +21,60 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { questions as originalQuestions } from "@/data/questions";
+import { questions as originalQuestions } from "@/data/100 Hard";
+import { getBankQuestion as getBankQuestionNormal, bankCounts as normalBankCounts } from "@/data/questionBank";
+import { getBankQuestion as getBankQuestionOfficial, bankCounts as officialBankCounts } from "@/data/officialQuestionBank";
 import { cn, renderMixedContent } from "@/lib/utils";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import "katex/dist/katex.min.css";
 
 // Use original 100 hard questions with uuid for progress tracking
-const questions = originalQuestions.map(q => ({
+const hardQuestions = originalQuestions.map(q => ({
   ...q,
   uuid: `hard-${q.id}` // Unique ID for progress tracking
 }));
 
 function Question() {
-  const { id } = useParams<{ id: string }>();
+  const { id, subject: rawSubject } = useParams<{ id: string; subject?: string }>();
   const navigate = useNavigate();
-  const questionNumber = parseInt(id || "1");
+  const location = useLocation();
+  const [searchParams] = useSearchParams();
+
+  // Mode detection
+  const isBank = location.pathname.startsWith('/bank');
+  const isOfficialBank = location.pathname.startsWith('/official-bank');
+  const is100Hard = !isBank && !isOfficialBank;
+
+  // Practice Mode detection
+  const isPracticeMode = searchParams.get('practice') === 'true';
+  const practiceSet = useMemo(() => {
+    if (!isPracticeMode) return [];
+    try { return JSON.parse(sessionStorage.getItem('practiceSet') || '[]'); } catch { return []; }
+  }, [isPracticeMode]);
+
+  // If needed: const practiceIdx = parseInt(searchParams.get('idx') || '0', 10);
+
+  const questionNumber = parseInt(id || "1", 10);
+  const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading";
+
+  // Data fetching logic
+  const questionData = useMemo(() => {
+    if (is100Hard) {
+      return hardQuestions.find(q => q.id === questionNumber);
+    }
+    
+    // Bank / Official Bank Logic
+    const getter = isOfficialBank ? getBankQuestionOfficial : getBankQuestionNormal;
+    const q = getter(subject, questionNumber);
+    
+    if (!q) return null;
+    return {
+      ...q,
+      uuid: `${isOfficialBank ? 'official' : 'bank'}-${subject}-${q.id}` // Unique ID
+    };
+
+  }, [is100Hard, isBank, isOfficialBank, questionNumber, subject]);
+
   const { progress, addAttempt, toggleReview } = useUserProgress();
   
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
@@ -58,14 +100,24 @@ function Question() {
   const topCompressStateRef = useRef(false);
   const startTimeRef = useRef(Date.now());
 
-  const currentQuestion = questions.find(q => q.id === questionNumber);
+  const currentQuestion = questionData;
   const currentProgress = currentQuestion ? (progress[currentQuestion.uuid] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
   const markedForReview = currentProgress.isMarkedForReview;
+
+  // View Mode Defaulting for different subjects
+  useEffect(() => {
+     if (isBank || isOfficialBank) {
+        if (subject === 'reading') setQuestionViewMode('horizontal');
+        else setQuestionViewMode('vertical');
+     } else {
+        setQuestionViewMode('vertical'); // Default for 100 Hard
+     }
+  }, [isBank, isOfficialBank, subject, questionNumber]); 
 
   // Reset timer on question change
   useEffect(() => {
     startTimeRef.current = Date.now();
-  }, [questionNumber]);
+  }, [questionNumber, subject, isBank, isOfficialBank]);
 
   // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
@@ -102,7 +154,9 @@ function Question() {
         const leftSection = topNavRef.current.querySelector('[data-header-left]') as HTMLElement | null;
         const leftWidth = leftSection ? leftSection.offsetWidth : 120;
         const buttonsNaturalWidth = topMeasurementRef.current.scrollWidth;
-        const totalNeeded = leftWidth + buttonsNaturalWidth + 48;
+        // Aggressive threshold: force icons sooner by adding larger buffer
+        // User requested: "turn int oi cons a bit sooner? be sure its detecting when the y cant compress any further"
+        const totalNeeded = leftWidth + buttonsNaturalWidth + 200; 
         // Hysteresis buffer to prevent rapid toggling near the threshold
         const buffer = 24;
         const currentlyCompressed = topCompressStateRef.current;
@@ -257,26 +311,70 @@ function Question() {
     setAttemptCount(0);
   }, [questionNumber]);
 
-  useEffect(() => {
-    // Render mixed content (HTML text + KaTeX math)
-    const questionElement = document.getElementById('question-content');
-    if (questionElement && currentQuestion) {
-      const renderedHtml = renderMixedContent(currentQuestion.text);
-      questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
+  // Helper to render content with consistent styling
+  const renderContent = (content: string, center: boolean = false) => {
+    if (!content) return null;
+    const html = renderMixedContent(content);
+    return (
+      <div 
+        className={cn("text-foreground break-words prose prose-stone dark:prose-invert max-w-none", center && "text-center")}
+        style={{ fontFamily: "'Noto Serif', serif", fontSize: "1.1rem", lineHeight: "1.8" }}
+      >
+        <span 
+          style={{ display: "block", width: "100%" }}
+          dangerouslySetInnerHTML={{ __html: html }} 
+        />
+      </div>
+    );
+  };
+
+
+
+  const totalQuestions = useMemo(() => {
+    if (is100Hard) return 100;
+    if (isPracticeMode) {
+      try { return JSON.parse(sessionStorage.getItem('practiceSet') || '[]').length; } catch { return 0; }
     }
-  }, [questionNumber, currentQuestion, questionViewMode]);
+    if (subject) {
+      const counts = isOfficialBank ? officialBankCounts : normalBankCounts;
+      return counts[subject] || 0;
+    }
+    return 0;
+  }, [is100Hard, isPracticeMode, isOfficialBank, subject]);
 
-
+  const storagePrefix = useMemo(() => {
+     if (is100Hard) return 'question';
+     if (subject) return `${isOfficialBank ? 'official-bank' : 'bank'}-${subject}`;
+     return 'bank'; 
+  }, [is100Hard, subject, isOfficialBank]);
 
   const handlePrevious = () => {
     if (questionNumber > 1) {
-      navigate(`/question/${questionNumber - 1}`);
+       if (is100Hard) {
+          navigate(`/question/${questionNumber - 1}`);
+       } else {
+           const base = isOfficialBank ? '/official-bank' : '/bank';
+           if (isPracticeMode) {
+             navigate(`${base}/${subject}/${questionNumber - 1}?${searchParams.toString()}`);
+           } else {
+             navigate(`${base}/${subject}/${questionNumber - 1}`);
+           }
+       }
     }
   };
 
   const handleNext = () => {
-    if (questionNumber < 100) {
-      navigate(`/question/${questionNumber + 1}`);
+    if (questionNumber < totalQuestions) {
+       if (is100Hard) {
+          navigate(`/question/${questionNumber + 1}`);
+       } else {
+           const base = isOfficialBank ? '/official-bank' : '/bank';
+           if (isPracticeMode) {
+             navigate(`${base}/${subject}/${questionNumber + 1}?${searchParams.toString()}`);
+           } else {
+             navigate(`${base}/${subject}/${questionNumber + 1}`);
+           }
+       }
     }
   };
 
@@ -540,61 +638,19 @@ function Question() {
         className={`flex-1 pb-28 ${questionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
         style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : questionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
-        <Card 
-          className={`relative ${questionViewMode === 'horizontal' ? 'p-6 border-0 shadow-none bg-transparent' : 'p-4 sm:p-6 md:p-8'}`}
+        <div 
+          className={`relative ${questionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
           style={{ maxWidth: isSplitScreenActive || questionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || questionViewMode === 'horizontal' ? "0" : "0 auto" }}
         >
-          {/* Question Number Badge */}
-          <div className="absolute -top-4 -left-4 bg-foreground text-background dark:bg-[#B4E1FF] dark:text-[#1a1a2e] rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">
-            {questionNumber}
-          </div>
-
-          {/* Mark for Review and Strikeout */}
-          <div className="flex justify-end gap-2 mb-4">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => {
-                toggleReview(currentQuestion.uuid);
-              }}
-              className="hover:bg-[#B4E1FF] dark:hover:bg-[#1E3A5F]"
-            >
-              <Bookmark
-                className={`h-4 w-4 ${markedForReview ? "bookmark-flag" : ""}`}
-                style={!markedForReview ? {
-                  stroke: "currentColor",
-                  strokeWidth: 1.4,
-                  fill: "transparent",
-                } : undefined}
-              />
-              <span className="text-foreground">Mark for Review</span>
-            </Button>
-            {currentQuestion.type === 'multiple-choice' && (
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => setStrikeoutMode(!strikeoutMode)}
-                className={strikeoutMode ? "bg-muted" : ""}
-              >
-                <Strikethrough className="h-4 w-4" />
-              </Button>
-            )}
-          </div>
-
           {/* Horizontal Layout Mode */}
           {questionViewMode === 'horizontal' ? (
             <div className="flex relative" style={{ minHeight: '400px' }}>
               {/* Left Panel - Question Content */}
               <div 
-                className="pr-4 overflow-y-auto"
+                className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
               >
-                <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none overflow-x-auto">
-                  <div 
-                    id="question-content"
-                    className="text-foreground break-words"
-                  />
-                </div>
+                  {renderContent(currentQuestion.text)}
               </div>
 
               {/* Horizontal Divider */}
@@ -610,6 +666,38 @@ function Question() {
                 className="pl-4 overflow-y-auto"
                 style={{ width: `${100 - questionSplitPosition}%` }}
               >
+                {/* Question Toolbar (Horizontal Box) */}
+                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-4 rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
+                  <div className="flex items-center h-full gap-2">
+                    <div className="bg-white dark:bg-black text-black dark:text-white h-full w-10 flex items-center justify-center font-bold text-lg shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
+                      {questionNumber}
+                    </div>
+                    
+                    <Button
+                      variant="ghost"
+                      onClick={() => toggleReview(currentQuestion.uuid)}
+                      className="h-7 rounded px-3 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-black/50"
+                    >
+                      <Bookmark className={cn("h-3.5 w-3.5", markedForReview && "bookmark-flag")} />
+                      <span className="text-xs font-medium">Mark for Review</span>
+                    </Button>
+                  </div>
+
+                  <div className="flex items-center h-full gap-1">
+                    {currentQuestion.type === "multiple-choice" && (
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => setStrikeoutMode(!strikeoutMode)}
+                        className={cn("h-7 w-7 rounded hover:bg-white/50 dark:hover:bg-black/50 text-muted-foreground hover:text-foreground", strikeoutMode && "bg-primary/20 text-primary")}
+                        title="Toggle Strikethrough Mode"
+                      >
+                        <Strikethrough className="h-3.5 w-3.5" />
+                      </Button>
+                    )}
+                  </div>
+                </div>
+
                 {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
                   <MultipleChoiceQuestion 
                     choices={currentQuestion.choices}
@@ -640,14 +728,41 @@ function Question() {
           ) : (
             /* Vertical Layout Mode (default) */
             <>
+               {/* Question Toolbar (Vertical Box) */}
+                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
+                  <div className="flex items-center h-full gap-2">
+                    <div className="bg-white dark:bg-black text-black dark:text-white h-full w-12 flex items-center justify-center font-bold text-xl shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
+                      {questionNumber}
+                    </div>
+                    
+                    <Button
+                      variant="ghost"
+                      onClick={() => toggleReview(currentQuestion.uuid)}
+                      className="h-9 rounded px-4 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-black/50"
+                    >
+                      <Bookmark className={cn("h-4 w-4", markedForReview && "bookmark-flag")} />
+                      <span className="text-sm font-medium">Mark for Review</span>
+                    </Button>
+                  </div>
+
+                  <div className="flex items-center h-full pr-2 gap-1">
+                    {currentQuestion.type === "multiple-choice" && (
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => setStrikeoutMode(!strikeoutMode)}
+                        className={cn("h-8 w-8 rounded hover:bg-white/50 dark:hover:bg-black/50 text-muted-foreground hover:text-foreground", strikeoutMode && "bg-primary/20 text-primary")}
+                        title="Toggle Strikethrough Mode"
+                      >
+                        <Strikethrough className="h-4 w-4" />
+                      </Button>
+                    )}
+                  </div>
+                </div>
+
               {/* Question Content */}
               <div className="mb-6 sm:mb-8">
-                <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none overflow-x-auto">
-                  <div 
-                    id="question-content"
-                    className="text-foreground mb-4 sm:mb-6 break-words"
-                  />
-                </div>
+                  {renderContent(currentQuestion.text)}
               </div>
 
               {/* Answer Area */}
@@ -678,7 +793,7 @@ function Question() {
               )}
             </>
           )}
-        </Card>
+        </div>
       </main>
 
       {/* Bottom Navigation - Fixed at bottom */}
@@ -705,16 +820,57 @@ function Question() {
             {/* Center: Navigation Sheet */}
             <div data-nav-sheet className="flex items-center gap-1">
               <PreviousAttemptsDialog attempts={currentProgress.attempts} />
-              <NavigationSheet 
-                currentQuestion={questionNumber} 
-                isSplitScreenActive={isSplitScreenActive}
-                splitPosition={splitPosition}
-              />
+              {is100Hard ? (
+                  <NavigationSheet 
+                    currentQuestion={questionNumber} 
+                    isSplitScreenActive={isSplitScreenActive}
+                    splitPosition={splitPosition}
+                  />
+              ) : isPracticeMode ? (
+                 isOfficialBank ? (
+                     <OfficialPracticeNavigationSheet 
+                        currentIndex={practiceSet.findIndex((q: any) => q.id === questionNumber && q.subject === subject)}
+                        practiceSet={practiceSet}
+                        onJump={(idx) => {
+                             const item = practiceSet[idx];
+                             if (item) navigate(`/official-bank/${item.subject}/${item.id}?practice=true`);
+                        }}
+                        storagePrefix={`official-bank-${subject}`}
+                        isSplitScreenActive={isSplitScreenActive}
+                        splitPosition={splitPosition}
+                     />
+                 ) : (
+                     <PracticeNavigationSheet 
+                        currentIndex={practiceSet.findIndex((q: any) => q.id === questionNumber && q.subject === subject)}
+                        practiceSet={practiceSet}
+                        onJump={(idx) => {
+                             const item = practiceSet[idx];
+                             if (item) navigate(`/bank/${item.subject}/${item.id}?practice=true`);
+                        }}
+                        storagePrefix={`bank-${subject}`}
+                        isSplitScreenActive={isSplitScreenActive}
+                        splitPosition={splitPosition} 
+                     />
+                 )
+              ) : (
+                 <BankNavigationSheet
+                    currentQuestion={questionNumber}
+                    totalQuestions={totalQuestions}
+                    onJump={(qNum) => {
+                       const base = isOfficialBank ? '/official-bank' : '/bank';
+                       navigate(`${base}/${subject}/${qNum}`);
+                    }}
+                    storagePrefix={storagePrefix}
+                    isSplitScreenActive={isSplitScreenActive}
+                    splitPosition={splitPosition}
+                 />
+              )}
             </div>
 
             {/* Right: Explanation, Check, Next - fixed width to prevent layout shift */}
             <div className="flex gap-2 shrink-0 justify-end" style={{ minWidth: shouldCompress ? undefined : '280px' }}>
               <ExplanationWindow 
+                videoUrl={currentQuestion?.explanationVideo}
                 onSplitScreenChange={handleSplitScreenChange}
                 onSplitPositionChange={handleSplitPositionChange}
                 splitPosition={splitPosition}
@@ -725,6 +881,7 @@ function Question() {
                 isSidebarred={sidebarredWindows.has('explanation')}
                 onSidebarToggle={handleSidebarToggle}
                 correctAnswer={currentQuestion?.correctAnswer}
+                rationale={currentQuestion?.rationale}
                 questionType={currentQuestion?.type}
                 choices={currentQuestion?.choices}
                 questionId={currentQuestion?.uuid || currentQuestion?.id}
@@ -740,7 +897,7 @@ function Question() {
               </Button>
               <Button
                 onClick={handleNext}
-                disabled={questionNumber === 100}
+                disabled={questionNumber >= totalQuestions}
                 variant="outline"
                 className="h-10 transition-colors duration-200 ease-out"
               >

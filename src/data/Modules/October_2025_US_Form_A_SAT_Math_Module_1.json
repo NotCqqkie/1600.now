@@ -1,5 +1,9 @@
 [
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "A quadratic function models the height, in feet, of an object above the ground in terms of the time, in seconds, after the object was launched. The model estimates that the object was launched from an initial height of 0.00 feet above the ground and was at a maximum height of 207.36 feet above the ground 3.6 seconds after it was launched. The model also estimates that the object was at a height of 184.32 feet above the ground x seconds after it was launched. What is a possible value of x?",
@@ -7,9 +11,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "2.4",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_1"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "The function h is defined by h(x) =5(9 x - 10). What is the value of h (10)?",
@@ -34,46 +43,61 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_2"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "October 2025 US Form A SAT Math Module 1",
-    "passage": "A pet service that takes care of both cats and dogs can care for at most 43 animals. Which inequality represents this situation, where c is the number of cats and d is the number of dogs?",
+    "passage": "A pet service that takes care of both cats and dogs can care for at most 43 animals. Which inequality represents this situation,where c is the number of cats and d is the number of dogs?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ c-d\\le43 $"
+        "text": "$c-d\\le43$"
       },
       {
         "label": "B",
-        "text": "$ c-d\\ge43 $"
+        "text": "$c-d\\ge43$"
       },
       {
         "label": "C",
-        "text": "$ c+d\\ge43 $"
+        "text": "$c+d\\ge43$"
       },
       {
         "label": "D",
-        "text": "$ c+d\\le43 $"
+        "text": "$c+d\\le43$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_3"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "October 2025 US Form A SAT Math Module 1",
-    "passage": "$ 9x+17=9x+k $ In the given equation, k is a constant. The equation has infinitely many solutions. What is the value of k?",
+    "passage": "$9x+17=9x+k$\nIn the given equation, k is a constant. The equation has infinitely many solutions. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "17",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_4"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "The y- intercept of the graph of y= 6(1.85) x in the xy -plane is (0, y). What is the value of y?",
@@ -81,9 +105,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "6",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_5"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "The graph of the linear function f is shown, where y= f(x). What is the slope of the graph of f?",
@@ -108,22 +137,39 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_6"
+    "rationale": null,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_6",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_25_USA_Math_M1_Q6_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_25_USA_Math_M1_Q6_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "October 2025 US Form A SAT Math Module 1",
-    "passage": "A triathlon is a multisport race consisting of three different legs. A triathlon participant completed the cycling leg with an average speed of 17.700 miles per hour. What was the average speed, in yards per hour, of the participant during the cycling leg? (1 mile= 1,760 yards)",
+    "passage": "A triathlon is a multisport race consisting of three different legs. A triathlon participant completed the cycling leg with an average speed of 17.700 miles per hour. What was the average speed, in<u> yards </u> per hour, of the participant during the cycling leg? (1 mile= 1,760 yards)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "31152",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_7"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "October 2025 US Form A SAT Math Module 1",
-    "passage": "Triangle ABC is similar to triangle DEF, where angle A corresponds to angle D and angle C corresponds to angle F. Angles C and F are right angles. If tan A= $\\frac{612}{613}$, what is the value of sin D?",
+    "passage": "Triangle ABC is similar to triangle DEF, where angle A corresponds to angle D and angle C corresponds to angle F. Angles C and F are right angles. If tan A= $\\frac{612}{613}$,what is the value of sin D?",
     "question_text": null,
     "choices": [
       {
@@ -145,9 +191,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "The function A(b) = 7 b 2 gives the area of a right triangle, in square centimeters (cm 2), if the length of its base is b cm and the length of its height is 14 times the length of its base. Which of the following is the best interpretation of A(18)= 2,268?",
@@ -172,12 +223,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_9"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "October 2025 US Form A SAT Math Module 1",
-    "passage": "$-4(v-9)(v-2)(v+7)=0 $ What value of v is a solution to the given equation?",
+    "passage": "$-4(v-9)(v-2)(v+7)=0$\nWhat value of v is a solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -199,9 +255,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_10"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "Circle K has a radius of 8 millimeters (mm). Circle L has an area of 144π mm 2, What is the total area, in mm 2, of circles K and L?",
@@ -226,12 +287,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_11"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "October 2025 US Form A SAT Math Module 1",
-    "passage": "$ x^{2}$ $+49x+1=0 $ What is one of the solutions to the given equation?",
+    "passage": "$x^{2}$ $+49x+1=0$\nWhat is one of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -253,9 +319,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_12"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "A model estimates that the initial number of photons in an X-ray beam is 800 when the beam reaches the surface of a certain material. The model also estimates that when the beam passes through this material, the number of photons in the beam decreases by 50% for each 7 millimeters of the material the beam passes through. Which equation represents this model, where I is the estimated number of photons in the beam when the beam reaches a point x millimeters from the surface?",
@@ -263,26 +334,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ I=800(7)^{\\frac{x}{2}}$"
+        "text": "$I=800(7)^{\\frac{x}{2}}$"
       },
       {
         "label": "B",
-        "text": "$ I=800(0.5)^{x}$"
+        "text": "$I=800(0.5)^{x}$"
       },
       {
         "label": "C",
-        "text": "$ I=800(2)^{\\frac{x}{7}}$"
+        "text": "$I=800(2)^{\\frac{x}{7}}$"
       },
       {
         "label": "D",
-        "text": "$ I=800(0.5)^{\\frac{x}{7}}$"
+        "text": "$I=800(0.5)^{\\frac{x}{7}}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_13"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "In the xy -plane, line k passes through the points (3, 0) and (0, 5). Which of the following is an equation of line k?",
@@ -290,26 +366,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 3x-5y=15 $"
+        "text": "$3x-5y=15$"
       },
       {
         "label": "B",
-        "text": "$ 5x+3y=15 $"
+        "text": "$5x+3y=15$"
       },
       {
         "label": "C",
-        "text": "$ 3x+5y=15 $"
+        "text": "$3x+5y=15$"
       },
       {
         "label": "D",
-        "text": "$ 5x-3y=15 $"
+        "text": "$5x-3y=15$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_14"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "In right triangle ABC shown, what is the measure of ∠C?",
@@ -334,19 +415,36 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_15"
+    "rationale": null,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_15",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_25_USA_Math_M1_Q15_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_25_USA_Math_M1_Q15_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "October 2025 US Form A SAT Math Module 1",
-    "passage": "$ x+4y=-3 $ $ 4x-y=22 $ The solution to the given system of equations is (x, y). What is the value of 3 x - 5 y?",
+    "passage": "$x+4y=-3$\n$4x-y=22$\nThe solution to the given system of equations is (x, y). What is the value of 3 x - 5 y?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "25",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_16"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "A circle in the xy -plane has its center at (-4, 1) and the point (-8, 4) lies on the circle. Which equation represents this circle?",
@@ -354,26 +452,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$(x-4)^{2}+(y+1)^{2}=5 $"
+        "text": "$(x-4)^{2}+(y+1)^{2}=5$"
       },
       {
         "label": "B",
-        "text": "$(x+4)^{2}+(y-1)^{2}=25 $"
+        "text": "$(x+4)^{2}+(y-1)^{2}=25$"
       },
       {
         "label": "C",
-        "text": "$(x-4)^{2}+(y+1)^{2}=25 $"
+        "text": "$(x-4)^{2}+(y+1)^{2}=25$"
       },
       {
         "label": "D",
-        "text": "$(x+4)^{2}+(y-1)^{2}=5 $"
+        "text": "$(x+4)^{2}+(y-1)^{2}=5$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_17"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "In the figure, lines r and s are parallel and line t intersects both lines. If a = 4 k + 57 and b= $\\frac{k}{4}$ + 55, what is the value of c?",
@@ -381,12 +484,24 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "121",
-    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_18"
+    "rationale": null,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_18",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_25_USA_Math_M1_Q18_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_25_USA_Math_M1_Q18_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "October 2025 US Form A SAT Math Module 1",
-    "passage": "$ 0.5x+1.2y=9 $ $ 1.5x+3.6y=27 $ How many solutions does the given system of equations have?",
+    "passage": "$0.5x+1.2y=9$\n$1.5x+3.6y=27$\nHow many solutions does the given system of equations have?",
     "question_text": null,
     "choices": [
       {
@@ -408,9 +523,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_19"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "For a study, a research team measured the heights of 380 king penguins from the Kerquelen Islands and 190 king penguins from the Falkland islands. The research team determined that the mean height of the 380 king penguins from the Kerguelen Islands was 87 centimeters and the mean height of the 190 king penguins from the Falkland Islands was 93 centimeters. What was the mean height, in centimeters, of all 570 king penguins the research team measured for this study?",
@@ -435,9 +555,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_20"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "October 2025 US Form A SAT Math Module 1",
     "passage": "Which of the following equations is the most appropriate model for the data shown in the scatterplot?",
@@ -445,29 +570,41 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ y=24(1.55)^{x}$"
+        "text": "$y=24(1.55)^{x}$"
       },
       {
         "label": "B",
-        "text": "$ y=24(1.55)^{x}+18 $"
+        "text": "$y=24(1.55)^{x}+18$"
       },
       {
         "label": "C",
-        "text": "$ y=(1.55)^{x}+23 $"
+        "text": "$y=(1.55)^{x}+23$"
       },
       {
         "label": "D",
-        "text": "$ y=6(1.55)^{x}+18 $"
+        "text": "$y=6(1.55)^{x}+18$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_21"
+    "rationale": null,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_21",
+    "images": [
+      {
+        "src": "/images_labeled/Oct_25_USA_Math_M1_Q21_1.png",
+        "alt": "",
+        "local": "images_labeled/Oct_25_USA_Math_M1_Q21_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "October 2025 US Form A SAT Math Module 1",
-    "passage": "$ 18qrt-2qrs+10rst=0 $ In the given equation, q, r, s, and t are positive, and is greater than 5. Which expression is equivalent to s?",
+    "passage": "$18qrt-2qrs+10rst=0$\nIn the given equation, q, r, s, and t are positive, and is greater than 5. Which expression is equivalent to s?",
     "question_text": null,
     "choices": [
       {
@@ -489,6 +626,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_22"
   }
 ]

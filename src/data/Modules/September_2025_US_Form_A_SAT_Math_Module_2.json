@@ -1,32 +1,41 @@
 [
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "$ 1.5c+3d=108 $ The given equation describes the relationship between the number of cats, c, and the number of dogs, d, that can be cared for at a pet care business during a week. If the business cares for 36 dogs during a week, how many cats can it care for during this week?",
+    "passage": "$1.5c+3d=108$\nThe given equation describes the relationship between the number of cats, c, and the number of dogs, d, that can be cared for at a pet care business during a week. If the business cares for 36 dogs during a week, how many cats can it care for during this week?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 3 $"
+        "text": "$3$"
       },
       {
         "label": "B",
-        "text": "$ 54 $"
+        "text": "$54$"
       },
       {
         "label": "C",
-        "text": "$ 0 $"
+        "text": "$0$"
       },
       {
         "label": "D",
-        "text": "$ 108 $"
+        "text": "$108$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_1"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "September 2025 US Form A SAT Math Module 2",
     "passage": "Stefan purchased 500 feet of fencing. He used 80% of this fencing to surround a vegetable garden. How many feet of fencing did Stefan use to surround the vegetable garden?",
@@ -34,29 +43,34 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 16 $"
+        "text": "$16$"
       },
       {
         "label": "B",
-        "text": "$ 420 $"
+        "text": "$420$"
       },
       {
         "label": "C",
-        "text": "$ 400 $"
+        "text": "$400$"
       },
       {
         "label": "D",
-        "text": "$ 40 $"
+        "text": "$40$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_2"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "$ x+5=14 $ $ y=3x^{2}+3 $ At what point (x, y)do the graphs of the equations in the given system intersect?",
+    "passage": "$x+5=14$\n$y=3x^{2}+3$\nAt what point (x, y)do the graphs of the equations in the given system intersect?",
     "question_text": null,
     "choices": [
       {
@@ -78,46 +92,61 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_3"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "If $(x+2)^{2}=18 $, what is the value of $ x^{2}+4x $?",
+    "passage": "If $(x+2)^{2}=18$, what is the value of $x^{2}+4x$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 14 $"
+        "text": "$14$"
       },
       {
         "label": "B",
-        "text": "$ 22 $"
+        "text": "$22$"
       },
       {
         "label": "C",
-        "text": "$ 36 $"
+        "text": "$36$"
       },
       {
         "label": "D",
-        "text": "$ 18 $"
+        "text": "$18$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_4"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "$ 6(t+7)-8(t+7)=38 $ What value of t is the solution to the given equation?",
+    "passage": "$6(t+7)-8(t+7)=38$\nWhat value of t is the solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-26",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_5"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "September 2025 US Form A SAT Math Module 2",
     "passage": "Which expression represents the product of $(x^{-9}y^{6}z^{5})$ and $(x^{4}z^{5}+y^{8}z^{-7})$?",
@@ -125,29 +154,34 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ x^{-5}y^{6}z^{10}+y^{8}z^{-7}$"
+        "text": "$x^{-5}y^{6}z^{10}+y^{8}z^{-7}$"
       },
       {
         "label": "B",
-        "text": "$ x^{-5}y^{6}z^{10}+x^{-9}y^{14}z^{-2}$"
+        "text": "$x^{-5}y^{6}z^{10}+x^{-9}y^{14}z^{-2}$"
       },
       {
         "label": "C",
-        "text": "$ x^{-5}z^{10}+x^{-9}z^{-2}$"
+        "text": "$x^{-5}z^{10}+x^{-9}z^{-2}$"
       },
       {
         "label": "D",
-        "text": "$ x^{-5}z^{10}+x^{14}z^{-2}$"
+        "text": "$x^{-5}z^{10}+x^{14}z^{-2}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_6"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "On January 1,2000, the population of a town was 26,255 and on January 1,2010, the population was 26,950. The equation $ 10x+26,255=26,950 $ describes this situation. Which of the following is the best interpretation of x in this context?",
+    "passage": "On January 1,2000, the population of a town was 26,255 and on January 1,2010, the population was 26,950. The equation $10x+26,255=26,950$ describes this situation. Which of the following is the best interpretation of x in this context?",
     "question_text": null,
     "choices": [
       {
@@ -169,9 +203,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_7"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "September 2025 US Form A SAT Math Module 2",
     "passage": "Cube B has a volume of 125 cubic inches. The length of each edge of cube A is k times the length of each edge of cube B. If cube A has a volume of 3,375 cubic inches, what is the value of k?",
@@ -179,26 +218,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 27 $"
+        "text": "$27$"
       },
       {
         "label": "B",
-        "text": "$ 3 $"
+        "text": "$3$"
       },
       {
         "label": "C",
-        "text": "$ 25 $"
+        "text": "$25$"
       },
       {
         "label": "D",
-        "text": "$ 5 $"
+        "text": "$5$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_8"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "September 2025 US Form A SAT Math Module 2",
     "passage": "A right square pyramid has a height of 6 units and a volume of 128 cubic units. What is the length, in units, of one side of the base of the pyramid?",
@@ -206,11 +250,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 8 $"
+        "text": "$8$"
       },
       {
         "label": "B",
-        "text": "$ 256 $"
+        "text": "$256$"
       },
       {
         "label": "C",
@@ -223,9 +267,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_9"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "September 2025 US Form A SAT Math Module 2",
     "passage": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 27% every 14.07 minutes. Which of the following equations could represent this model, where M is the estimated mass, in grams, of the sample t minutes after the researcher began observing the sample?",
@@ -233,39 +282,56 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ M=100(0.27)^{\\frac{t}{14.07}}$"
+        "text": "$M=100(0.27)^{\\frac{t}{14.07}}$"
       },
       {
         "label": "B",
-        "text": "$ M=100(0.27)^{t+14.07}$"
+        "text": "$M=100(0.27)^{t+14.07}$"
       },
       {
         "label": "C",
-        "text": "$ M=100(0.73)^{\\frac{t}{14.07}}$"
+        "text": "$M=100(0.73)^{\\frac{t}{14.07}}$"
       },
       {
         "label": "D",
-        "text": "$ M=100(0.73)^{t+14.07}$"
+        "text": "$M=100(0.73)^{t+14.07}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_10"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "A department store sells pants in three lengths: short, regular, and long. The table summarizes the distribution of pant length, by color, for all the pants in the store. A pair of pants is selected at random. What is the probability of selecting a pair of pants that is brown, given that the pair of pants is regular length? (Express your answer as a decimal or fraction, not as a percent.)",
+    "passage": "A department store sells pants in three lengths: short, regular, and long. The table summarizes the distribution of pant length, by color, for all the pants in the store.\nA pair of pants is selected at random. What is the probability of selecting a pair of pants that is brown, given that the pair of pants is regular length? (Express your answer as a decimal or fraction, not as a percent.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1/4,0.25",
-    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_11"
+    "rationale": null,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_11",
+    "images": [
+      {
+        "src": "/images_labeled/Sep_25_USA_Math_M2_Q11_1.png",
+        "alt": "",
+        "local": "images_labeled/Sep_25_USA_Math_M2_Q11_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "An equation of the line in the xy -plane that contains the points (0, -8) and (-2, 0) is $ Ax+By=9 $, where A and B are constants. What is the value of B?",
+    "passage": "An equation of the line in the xy -plane that contains the points (0, -8) and (-2, 0) is $Ax+By=9$, where A and B are constants. What is the value of B?",
     "question_text": null,
     "choices": [
       {
@@ -287,95 +353,54 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_12"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "$(x+k)+\\frac{9}{2}(y+t)+19=0 $ $(x+k)-\\frac{9}{2}(y+t)-19=0 $ In the given system of equations, k and t are constants. The solution to this system is $(x, y)$. What is the value of $ 18(y+t)$?",
+    "passage": "$(x+k)+\\frac{9}{2}(y+t)+19=0$\n$(x+k)-\\frac{9}{2}(y+t)-19=0$\nIn the given system of equations, k and t are constants. The solution to this system is $(x,y)$. What is the value of $18(y+t)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-76 $"
+        "text": "$-76$"
       },
       {
         "label": "B",
-        "text": "$ 0 $"
+        "text": "$0$"
       },
       {
         "label": "C",
-        "text": "$ 38 $"
+        "text": "$38$"
       },
       {
         "label": "D",
-        "text": "$ 9 $"
+        "text": "$9$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_13"
   },
   {
-    "question_number": 14,
-    "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "$ y>2x-72 $ y For which of the following tables are all the values of x and their corresponding values of y solutions to the given system of inequalities?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Sep_25_USA_Math_M2_Q14_2.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "B",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Sep_25_USA_Math_M2_Q14.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "C",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Sep_25_USA_Math_M2_Q14_1.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "D",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Sep_25_USA_Math_M2_Q14_3.png",
-            "alt": ""
-          }
-        ]
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "B",
-    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_14"
-  },
-  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "$ g(x)=\\frac{1}{11}(6(2)^{x}+7)$ The function g is defined by the given equation. For all values of x, the value of $ g(x)$ is greater than k, where k is a constant. What is the greatest possible value of k?",
+    "passage": "$g(x)=\\frac{1}{11}(6(2)^{x}+7)$\nThe function g is defined by the given equation. For all values of x, the value of $g(x)$ is greater than k, where k is a constant. What is the greatest possible value of k?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 0 $"
+        "text": "$0$"
       },
       {
         "label": "B",
@@ -387,17 +412,22 @@
       },
       {
         "label": "D",
-        "text": "$ 7 $"
+        "text": "$7$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_15"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "At a nature preserve, a wildlife biologist counted ducks from an observation deck at the same time each day for 41 days. The table summarizes the resulting data set, data set A. The data value 13 was recorded in error and is removed from data set A to create data set B, which consists of the remaining 40 data values. Which statement best compares the median of data set A and the median of data set B?",
+    "passage": "At a nature preserve, a wildlife biologist counted ducks from an observation deck at the same time each day for 41 days. The table summarizes the resulting data set, data set A.\nThe data value 13 was recorded in error and is removed from data set A to create data set B, which consists of the remaining 40 data values. Which statement best compares the median of data set A and the median of data set B?",
     "question_text": null,
     "choices": [
       {
@@ -419,9 +449,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_16"
+    "rationale": null,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_16",
+    "images": [
+      {
+        "src": "/images_labeled/Sep_25_USA_Math_M2_Q16_1.png",
+        "alt": "",
+        "local": "images_labeled/Sep_25_USA_Math_M2_Q16_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "September 2025 US Form A SAT Math Module 2",
     "passage": "Each 3.0-ounce serving of cheddar cheese and each 1.2-ounce serving of tuna provides about 1 microgram of vitamin B12. If a total of 1.7 micrograms of vitamin B12 are consumed from eating x ounces of cheese and y ounces of tuna, which equation best represents this situation?",
@@ -429,26 +471,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 3.0x+1.2y=1.7 $"
+        "text": "$3.0x+1.2y=1.7$"
       },
       {
         "label": "B",
-        "text": "$ 0.33x+0.83y=1.7 $"
+        "text": "$0.33x+0.83y=1.7$"
       },
       {
         "label": "C",
-        "text": "$ 0.83x+0.33y=1.7 $"
+        "text": "$0.83x+0.33y=1.7$"
       },
       {
         "label": "D",
-        "text": "$ 1.2x+3.0y=1.7 $"
+        "text": "$1.2x+3.0y=1.7$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_17"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "September 2025 US Form A SAT Math Module 2",
     "passage": "A certain town has an area of 12,669,184 square yards. What is the area, in square miles, of this town? (1 mile = 1,760 yards)",
@@ -456,29 +503,34 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 2.02 $"
+        "text": "$2.02$"
       },
       {
         "label": "B",
-        "text": "$ 7,198.4 $"
+        "text": "$7,198.4$"
       },
       {
         "label": "C",
-        "text": "$ 4.09 $"
+        "text": "$4.09$"
       },
       {
         "label": "D",
-        "text": "$ 3,559.38 $"
+        "text": "$3,559.38$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_18"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "$ f(x)=3d(26x+27)+18 $ Which of the following represents the x -intercept of the graph of $ y=f(x)+6 $ in the xy -plane, where d is a constant?",
+    "passage": "$f(x)=3d(26x+27)+18$\nWhich of the following represents the x -intercept of the graph of $y=f(x)+6$ in the xy -plane, where d is a constant?",
     "question_text": null,
     "choices": [
       {
@@ -500,9 +552,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_19"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "September 2025 US Form A SAT Math Module 2",
     "passage": "In triangle ABC, the measure of angle A is 52° and AC = 40. In triangle PQR, the measure of angle P is 52° and PR = 120. Which additional piece of information is sufficient to prove that triangle ABC is similar to triangle PQR?",
@@ -527,26 +584,37 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_20"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "A quadratic function gives the estimated length of daylight $ d(t)$, in hours, in a certain city t months after March 1, where $ 0\\le t\\le7 $. According to the function, the estimated length of daylight is 12.66 hours 6 months after March 1 and the maximum estimated length of daylight is 13.91 hours 3.5 months after March 1. Based on this function, what is the estimated length of daylight, in hours, on March 1?",
+    "passage": "A quadratic function gives the estimated length of daylight $d(t)$, in hours, in a certain city t months after March 1, where $0\\le t\\le7$. According to the function, the estimated length of daylight is 12.66 hours 6 months after March 1 and the maximum estimated length of daylight is 13.91 hours 3.5 months after March 1. Based on this function, what is the estimated length of daylight, in hours, on March 1?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "11.46",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_21"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "$ nx^{2}-16x=26x^{2}-8 $ In the given equation, n is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of n?",
+    "passage": "$nx^{2}-16x=26x^{2}-8$\nIn the given equation, n is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of n?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "33",
+    "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_22"
   }
 ]

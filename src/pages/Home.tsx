@@ -1,7 +1,7 @@
 import { useNavigate, Link } from "react-router-dom";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Trophy, GraduationCap, Target, ArrowRight, User, Settings, LogOut, ChartBar, ChevronDown, BookOpen } from "lucide-react";
+import { Trophy, GraduationCap, Target, ArrowRight, User, Settings, LogOut, ChartBar, ChevronDown, BookOpen, Shield } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import {
@@ -165,6 +165,26 @@ const Home = () => {
               </div>
               <Button className="w-full mt-6" variant="outline">
                 Browse Questions
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Card>
+
+            {/* Official Question Bank Card */}
+            <Card 
+              className="group p-8 cursor-pointer hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-amber-500/50 flex flex-col"
+              onClick={() => navigate("/official-bank")}
+            >
+              <div className="flex-1 flex flex-col items-center text-center">
+                <div className="p-4 rounded-2xl bg-amber-500/10 group-hover:bg-amber-500/20 transition-colors mb-4">
+                  <Shield className="h-12 w-12 text-amber-600" />
+                </div>
+                <h3 className="text-2xl font-bold mb-2">Official Question Bank</h3>
+                <p className="text-muted-foreground text-sm flex-1">
+                  Practice with official SAT questions from College Board
+                </p>
+              </div>
+              <Button className="w-full mt-6" variant="outline">
+                Enter Bank
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Card>

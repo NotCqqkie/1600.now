@@ -1,8 +1,12 @@
 [
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "A total of 50 people attended a conference and were offered 4 types of entrees. The table shows the number of people who chose each type of entree. If one of these people is selected at random, what is the probability of selecting a person who chose a vegetarian entree?",
+    "passage": "A total of 50 people attended a conference and were offered 4 types of entrees. The table shows the number of people who chose each type of entree.\nIf one of these people is selected at random, what is the probability of selecting a person who chose a\nvegetarian entree?",
     "question_text": null,
     "choices": [
       {
@@ -24,12 +28,24 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_1"
+    "rationale": null,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_1",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M1_Q1_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M1_Q1_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "If $ 7x+5=47 $, what is the value of $ 70x+50 $?",
+    "passage": "If $7x+5=47$, what is the value of $70x+50$?",
     "question_text": null,
     "choices": [
       {
@@ -51,22 +67,32 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_2"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "0.7 x + 0.35 y = 1.75 0.35 x + 0.7 y = 2.45 The solution to the given system of equations is (x, y). What is the value of y?",
+    "passage": "0.7 x + 0.35 y = 1.75\n0.35 x + 0.7 y = 2.45\nThe solution to the given system of equations is (x, y). What is the value of y?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "3",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_3"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "A certain gas is placed inside a container and kept at a constant pressure. The graph shows the estimated volume y, in liters, of the gas when its temperature is x kelvins. What is the estimated volume, in liters, of the gas when its temperature is 200 kelvins?",
+    "passage": "A certain gas is placed inside a container and kept at a constant pressure. The graph shows the estimated\nvolume y, in liters, of the gas when its temperature is x kelvins.\nWhat is the estimated volume, in liters, of the gas when its temperature is 200 kelvins?",
     "question_text": null,
     "choices": [
       {
@@ -88,9 +114,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4"
+    "rationale": null,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M1_Q4_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M1_Q4_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "The function f is defined by f(x) = 9 x $^{3}$ + 8. What is the value of f(2)?",
@@ -98,9 +136,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "80",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_5"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "During a trip, Bill drove his car for 22.0 miles and then began driving at a constant speed of 70.0 miles per hour. After 2 hours of driving at this speed, what is the total distance, in miles, Bill has traveled during this trip?",
@@ -108,9 +151,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "162",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_6"
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "The table shows three values of x and their corresponding values of y. There is a linear relationship between x and y. What is the y -coordinate of the y -intercept of the line in the xy -plane that represents this relationship?",
@@ -118,9 +166,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "17",
-    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_7"
+    "rationale": null,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_7",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M1_Q7_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M1_Q7_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "The function f(x) = 180(x − 2) gives the sum of the interior angles, in degrees, for a polygon with x sides. What is the sum of the interior angles, in degrees, for a polygon with 34 sides?",
@@ -128,12 +188,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "5760",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "y = 7,700(0.86) x The given equation estimates the value, in dollars, of a certain car x years after it was purchased. According to the given equation, what was the estimated value, in dollars, of the car at the time it was purchased?",
+    "passage": "y = 7,700(0.86) x\nThe given equation estimates the value, in dollars, of a certain car x years after it was purchased. According to the given equation, what was the estimated value, in dollars, of the car at the time it was purchased?",
     "question_text": null,
     "choices": [
       {
@@ -155,9 +220,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_9"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "At how many points do the graphs of the equations y = x + 23 and y = 12 x intersect in the xy -plane?",
@@ -182,9 +252,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_10"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "A space probe uses a square-shaped solar sail to move through space. The side length of the solar sail is 8.75 w meters, where w is the width, in meters, of the space probe. Which equation gives the area A, in square meters, of the solar sail?",
@@ -209,12 +284,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_11"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "The length of a rectangle is 55 inches and the width is x inches. The perimeter is at most 150 inches. Which inequality represents this situation?",
+    "passage": "The length of a rectangle is 55 inches and the width is x inches. The perimeter is at most 150 inches. Which\ninequality represents this situation?",
     "question_text": null,
     "choices": [
       {
@@ -236,9 +316,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_12"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "A circle has a circumference of 12π centimeters. What is the diameter, in centimeters, of the circle?",
@@ -246,12 +331,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "12",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_13"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "4y = 9x + 14 −4y = 5x − 23 The solution to the given system of equations is (x, y). What is the value of 56x?",
+    "passage": "4y = 9x + 14\n−4y = 5x − 23\nThe solution to the given system of equations is （ x ， y ）. What is the value of 56 x?",
     "question_text": null,
     "choices": [
       {
@@ -273,9 +363,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_14"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "△ QPR is similar to △ STR. The lengths represented by $\\overline{ST}$, $\\overline{QP}$, $\\overline{PR}$, and $\\overline{QR}$ in the figure are 11, 18, 24, and 30, respectively. What is the length of $\\overline{SR}$?",
@@ -300,12 +395,24 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_15"
+    "rationale": null,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_15",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M1_Q15_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M1_Q15_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "f(x) =(x − 66)(x − 68) The function f is defined by the given equation. For what value of x does f(x) reach its minimum?",
+    "passage": "f(x) =(x − 66)(x − 68)\nThe function f is defined by the given equation. For what value of x does f(x) reach its minimum?",
     "question_text": null,
     "choices": [
       {
@@ -327,12 +434,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_16"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "15x + y = 13 30x + 2y = 26 How many solutions does the given system of equations have?",
+    "passage": "15x + y = 13\n30x + 2y = 26\nHow many solutions does the given system of equations have?",
     "question_text": null,
     "choices": [
       {
@@ -354,9 +466,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_17"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "A scientist studying the life cycle of butterflies counted the number of butterflies in a certain habitat each day for 46 days. On June 15, there were 114 butterflies in the habitat. The percent increase in the number of butterflies in the habitat from May 1 to June 15 was 18.75%. How many butterflies were in the habitat on May 1?",
@@ -381,12 +498,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_18"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "A moving truck rental company charges its customers $ 195 for the first hour of renting a truck and $ 75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where y is the total cost, in dollars, of renting a truck from this company for x hours, w is the cost, in dollars, of gas used, and x ≥ 1?",
+    "passage": "A moving truck rental company charges its customers \\$195 for the first hour of renting a truck and \\$75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where y is the total cost, in dollars, of renting a truck from this company for x hours, w is the cost, in dollars, of gas used, and x ≥ 1?",
     "question_text": null,
     "choices": [
       {
@@ -408,9 +530,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_19"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "Right triangle ABC is shown. What is the value of tan A?",
@@ -430,17 +557,29 @@
       },
       {
         "label": "D",
-        "text": "$ 32\\sqrt{3}$"
+        "text": "$32\\sqrt{3}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_20"
+    "rationale": null,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_20",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M1_Q20_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M1_Q20_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "f(x) = (x − a)(x − b) The function f is defined by the given equation, where a and b are integer constants. If f(15) > 0, f(18) < 0, and f(21) > 0, which of the following could be the value of a + b?",
+    "passage": "f(x) = (x − a)(x − b)\nThe function f is defined by the given equation, where a and b are integer constants. If f(15) > 0, f(18) < 0, and f(21) > 0, which of the following could be the value of a + b?",
     "question_text": null,
     "choices": [
       {
@@ -462,12 +601,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_21"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "x 2 + 9x + y 2 − 7y + 11 = 0 In the xy -plane, the graph of the given equation is a circle. What is the radius of the circle?",
+    "passage": "x 2 + 9x + y 2 − 7y + 11 = 0\nIn the xy -plane, the graph of the given equation is a circle. What is the radius of the circle?",
     "question_text": null,
     "choices": [
       {
@@ -489,6 +633,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_22"
   }
 ]

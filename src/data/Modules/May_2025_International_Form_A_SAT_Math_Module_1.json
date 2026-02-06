@@ -1,116 +1,140 @@
 [
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "A certain hybrid car uses 39 gallons of gasoline to travel 1,950 miles. At this rate, how many kilometers does the car travel using 39 gallons of gasoline? (Use 1 mile = 1.6 kilometers.)",
+    "passage": "A certain hybrid car uses 39 gallons of gasoline to travel 1,950 miles. At this rate, how many <u>kilometers</u> does the car travel using 39 gallons of gasoline? (Use 1 mile = 1.6 kilometers.)",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 312 $"
+        "text": "$312$"
       },
       {
         "label": "B",
-        "text": "$ 3,120 $"
+        "text": "$3,120$"
       },
       {
         "label": "C",
-        "text": "$ 31,200 $"
+        "text": "$31,200$"
       },
       {
         "label": "D",
-        "text": "$ 312,000 $"
+        "text": "$312,000$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_1"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "The function $ h $ is defined by $ h(x)=4x-9 $. What is the value of $ h(-3)$?",
+    "passage": "The function $h$ is defined by $h(x)=4x-9$. What is the value of $h(-3)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 21 $"
+        "text": "$21$"
       },
       {
         "label": "B",
-        "text": "$ 13 $"
+        "text": "$13$"
       },
       {
         "label": "C",
-        "text": "$-13 $"
+        "text": "$-13$"
       },
       {
         "label": "D",
-        "text": "$-21 $"
+        "text": "$-21$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_2"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "$ 10x=110 $ $ 8x-86=y $ The solution to the given system of equations is $(x, y)$. What is the value of $ y $?",
+    "passage": "$10x=110$\n$8x-86=y$\nThe solution to the given system of equations is $(x,y)$. What is the value of $y$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 86 $"
+        "text": "$86$"
       },
       {
         "label": "B",
-        "text": "$ 11 $"
+        "text": "$11$"
       },
       {
         "label": "C",
-        "text": "$ 10 $"
+        "text": "$10$"
       },
       {
         "label": "D",
-        "text": "$ 2 $"
+        "text": "$2$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_3"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to $ 7x^{5}-6x^{4}+9x^{3}$?",
+    "passage": "Which expression is equivalent to $7x^{5}-6x^{4}+9x^{3}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ x^{4}(7x-6)$"
+        "text": "$x^{4}(7x-6)$"
       },
       {
         "label": "B",
-        "text": "$ x^{3}(7x^{2}-6x+9)$"
+        "text": "$x^{3}(7x^{2}-6x+9)$"
       },
       {
         "label": "C",
-        "text": "$ 9x^{3}(7x^{2}-6x+1)$"
+        "text": "$9x^{3}(7x^{2}-6x+1)$"
       },
       {
         "label": "D",
-        "text": "$ 6x^{5}(-6x^{4}+9x^{3}+1)$"
+        "text": "$6x^{5}(-6x^{4}+9x^{3}+1)$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_4"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "$ y=0 $ $ y=8(x^{2}-36)$ Which ordered pair $(x, y)$ is a solution to the given system of equations?",
+    "passage": "$y=0$\n$y=8(x^{2}-36)$\nWhich ordered pair $(x,y)$ is a solution to the given system of equations?",
     "question_text": null,
     "choices": [
       {
@@ -132,36 +156,46 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_5"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "A group of students purchase ice cream cones and ice cream sundaes. The cones cost $ 1.40 each, and the cost for 19 sundaes is $ 64.60. The total cost for the cones and sundaes is 85.60. Which equation represents this situation, where x is the number of cones purchased and y is the number of sundaes purchased?",
+    "passage": "A group of students purchase ice cream cones and ice cream sundaes. The cones cost \\$1.40 each, and the cost for 19 sundaes is \\$64.60. The total cost for the cones and sundaes is \\$85.60. Which equation represents this situation, where x is the number of cones purchased and y is the number of sundaes purchased?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 1.40x+64.60y=85.60 $"
+        "text": "$1.40x+64.60y=85.60$"
       },
       {
         "label": "B",
-        "text": "$ 64.60x+1.40y=85.60 $"
+        "text": "$64.60x+1.40y=85.60$"
       },
       {
         "label": "C",
-        "text": "$ 3.40x+1.40y=85.60 $"
+        "text": "$3.40x+1.40y=85.60$"
       },
       {
         "label": "D",
-        "text": "$ 1.40x+3.40y=85.60 $"
+        "text": "$1.40x+3.40y=85.60$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_6"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "May 2025 International Form A SAT Math Module 1",
     "passage": "Hakim has a bag of 50 tiles, where 45 are labeled with a letter and 5 are blank. If Hakim selects a tile from the bag at random, what is the probability of selecting a blank tile? (Express your answer as a decimal or fraction, not as a percent.)",
@@ -169,36 +203,46 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "0.1,1/10",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_7"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "In $△DEF $, the measure of $∠D $ is 114 °. Which of the following could be the measure, in degrees, of $∠E $?",
+    "passage": "In $△DEF$, the measure of $∠D$ is 114 °. Which of the following could be the measure, in degrees, of $∠E$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 115 $"
+        "text": "$115$"
       },
       {
         "label": "B",
-        "text": "$ 90 $"
+        "text": "$90$"
       },
       {
         "label": "C",
-        "text": "$ 67 $"
+        "text": "$67$"
       },
       {
         "label": "D",
-        "text": "$ 65 $"
+        "text": "$65$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "May 2025 International Form A SAT Math Module 1",
     "passage": "The shaded region shown represents the solutions to which inequality?",
@@ -206,83 +250,105 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ y>3x+7 $"
+        "text": "$y>3x+7$"
       },
       {
         "label": "B",
-        "text": "$ y>3x-7 $"
+        "text": "$y>3x-7$"
       },
       {
         "label": "C",
-        "text": "y"
+        "text": "$y"
       },
       {
         "label": "D",
-        "text": "y"
+        "text": "$y"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_9"
+    "rationale": null,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_9",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlA_Math_M1_Q9_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlA_Math_M1_Q9_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to $ 20x^{2}+3+5x^{2}$?",
+    "passage": "Which expression is equivalent to $20x^{2}+3+5x^{2}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 25x^{4}+3 $"
+        "text": "$25x^{4}+3$"
       },
       {
         "label": "B",
-        "text": "$ 25x^{2}+3 $"
+        "text": "$25x^{2}+3$"
       },
       {
         "label": "C",
-        "text": "$ 28x^{4}$"
+        "text": "$28x^{4}$"
       },
       {
         "label": "D",
-        "text": "$ 28x^{2}$"
+        "text": "$28x^{2}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_10"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "A company opens an account with an initial balance of $ 35,600.00. The account earns interest, and no additional deposits or withdrawals are made. The account balance is given by an exponential function A, where A (t)is the account balance, in dollars, t years after the account is opened. The account balance after 15 years is $ 129,672.38. Which equation could define A?",
+    "passage": "A company opens an account with an initial balance of \\$35,600.00. The account earns interest, and no additional deposits or withdrawals are made. The account balance is given by an exponential function A, where A (t)is the account balance, in dollars, t years after the account is opened. The account balance after 15 years is \\$129,672.38. Which equation could define A?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ A(t)=35,600.00(1.09)^{t}$"
+        "text": "$A(t)=35,600.00(1.09)^{t}$"
       },
       {
         "label": "B",
-        "text": "$ A(t)=35,600.00(0.09)^{t}$"
+        "text": "$A(t)=35,600.00(0.09)^{t}$"
       },
       {
         "label": "C",
-        "text": "$ A(t)=94,072.38(1.09)^{t}$"
+        "text": "$A(t)=94,072.38(1.09)^{t}$"
       },
       {
         "label": "D",
-        "text": "$ A(t)=94,072.38(0.09)^{t}$"
+        "text": "$A(t)=94,072.38(0.09)^{t}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_11"
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "What is the y -intercept of the graph of $ y=14^{x}$ in the xy -plane?",
+    "passage": "What is the y -intercept of the graph of $y=14^{x}$ in the xy -plane?",
     "question_text": null,
     "choices": [
       {
@@ -304,46 +370,61 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_12"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "The function $ f $ is defined by $ f(x)=2x+b $, where b is a constant and $ f(7)=6 $. What is the value of b?",
+    "passage": "The function $f$ is defined by $f(x)=2x+b$, where b is a constant and $f(7)=6$. What is the value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-8",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_13"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "A number $ f $ is 120 % greater than a positive number g. A number h is 90 % less than the number $ f $. The number h is how many times the number g?",
+    "passage": "A number $f$ is 120 % greater than a positive number g. A number h is 90 % less than the number $f$. The number h is how many times the number g?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 0.12 $"
+        "text": "$0.12$"
       },
       {
         "label": "B",
-        "text": "$ 0.22 $"
+        "text": "$0.22$"
       },
       {
         "label": "C",
-        "text": "$ 1.08 $"
+        "text": "$1.08$"
       },
       {
         "label": "D",
-        "text": "$ 1.98 $"
+        "text": "$1.98$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_14"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "May 2025 International Form A SAT Math Module 1",
     "passage": "The histograms summarize the distributions of scores for team A and team B. Which statement best compares the standard deviations of scores for these teams?",
@@ -368,29 +449,58 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_15"
+    "rationale": null,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_15",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlA_Math_M1_Q15_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlA_Math_M1_Q15_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "Circle A shown is defined by the equation $ x^{2}+(y-5)^{2}=7 $. Circle B (not shown) has the same radius but is translated 91 units to the right. If the equation of circle B is $(x-h)^{2}+(y-k)^{2}=a $, where h, k, and a are constants, what is the value of $ 4a $?",
+    "passage": "Circle A shown is defined by the equation $x^{2}+(y-5)^{2}=7$. Circle B (not shown) has the same radius but is translated 91 units to the right. If the equation of circle B is $(x-h)^{2}+(y-k)^{2}=a$, where h, k, and a are constants, what is the value of $4a$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "28",
-    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_16"
+    "rationale": null,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_16",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlA_Math_M1_Q16_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlA_Math_M1_Q16_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "$ h(t)=-16t^{2}+b $ The function h estimates an object's height, in feet, above the ground t seconds after the object is dropped, where b is a constant. The function estimates that the object is 40.96 feet above the ground when it is dropped at $ t=0 $. How many seconds after being dropped does the function estimate the object will hit the ground?",
+    "passage": "$h(t)=-16t^{2}+b$\nThe function h estimates an object's height, in feet, above the ground t seconds after the object is dropped, where b is a constant. The function estimates that the object is 40.96 feet above the ground when it is dropped at $t=0$. How many seconds after being dropped does the function estimate the object will hit the ground?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "1.6,8/5",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_17"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "May 2025 International Form A SAT Math Module 1",
     "passage": "The graph shows the total amount of rainfall y, in centimeters, from the start of a 10 -hour period, where x is the number of hours after the start of the period. Which of the following statements about the rainfall during this time period is true?",
@@ -398,26 +508,38 @@
     "choices": [
       {
         "label": "A",
-        "text": "The rate of rainfall was $ 2 $ centimeters per hour between $ x=2 $ and $ x=4 $."
+        "text": "The rate of rainfall was $2$ centimeters per hour between $x=2$ and $x=4$."
       },
       {
         "label": "B",
-        "text": "The rate of rainfall was the greatest between $ x=4 $ and $ x=10 $."
+        "text": "The rate of rainfall was the greatest between $x=4$ and $x=10$."
       },
       {
         "label": "C",
-        "text": "The rate of rainfall increased between $ x=0 $ and $ x=2 $."
+        "text": "The rate of rainfall increased between $x=0$ and $x=2$."
       },
       {
         "label": "D",
-        "text": "The rate of rainfall was $ 0 $ centimeters per hour between $ x=2 $ and $ x=4 $."
+        "text": "The rate of rainfall was $0$ centimeters per hour between $x=2$ and $x=4$."
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_18"
+    "rationale": null,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_18",
+    "images": [
+      {
+        "src": "/images_labeled/May_25_IntlA_Math_M1_Q18_1.png",
+        "alt": "",
+        "local": "images_labeled/May_25_IntlA_Math_M1_Q18_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "May 2025 International Form A SAT Math Module 1",
     "passage": "For a set of three consecutive integers, the result of subtracting the greatest integer from the sum of the other two integers is 48. What is the value of the greatest of the three integers?",
@@ -425,9 +547,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "51",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_19"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "May 2025 International Form A SAT Math Module 1",
     "passage": "A rectangular banner has an area of 2,300 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20 %. What is the area of the copy, in square inches?",
@@ -435,60 +562,71 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 2,320 $"
+        "text": "$2,320$"
       },
       {
         "label": "B",
-        "text": "$ 2,340 $"
+        "text": "$2,340$"
       },
       {
         "label": "C",
-        "text": "$ 2,760 $"
+        "text": "$2,760$"
       },
       {
         "label": "D",
-        "text": "$ 3,312 $"
+        "text": "$3,312$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_20"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "$(x-42)^{2}=1 $ What is the sum of the solutions to the given equation?",
+    "passage": "$(x-42)^{2}=1$\nWhat is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 42 $"
+        "text": "$42$"
       },
       {
         "label": "B",
-        "text": "$ 43 $"
+        "text": "$43$"
       },
       {
         "label": "C",
-        "text": "$ 84 $"
+        "text": "$84$"
       },
       {
         "label": "D",
-        "text": "$ 85 $"
+        "text": "$85$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_21"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "May 2025 International Form A SAT Math Module 1",
-    "passage": "$ 5(kx-n)=-\\frac{65}{14}x-\\frac{85}{18}$ In the given equation, k and n are constants and $ n>1 $. The equation has no solution. What is the value of k?",
+    "passage": "$5(kx-n)=-\\frac{65}{14}x-\\frac{85}{18}$\nIn the given equation, k and n are constants and $n>1$. The equation has no solution. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-13/14,-0.928,-0.929",
+    "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_22"
   }
 ]

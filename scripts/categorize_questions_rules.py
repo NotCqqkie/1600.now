@@ -76,7 +76,12 @@ def match_score(question, category):
     subject = category['subject']
     
     score = 0
-    
+
+    # Guard: Standard English Conventions should not be Confused with Reading check
+    if "conventions of standard english" in text_lower:
+        if category['domain'] != "Standard English Conventions":
+            return -100
+
     # --- READING & WRITING RULES ---
     if subject == "English":
         
@@ -158,28 +163,62 @@ def match_score(question, category):
         # Statistics
         elif cat_domain == "Problem-Solving and Data Analysis":
             if cat_skill == "Probability":
-                if "probability" in text_lower: score += 12
-                elif "random" in text_lower and "selected" in text_lower: score += 8
+                if "probability" in text_lower: score += 15
+                elif "random" in text_lower and ("selected" in text_lower or "chosen" in text_lower): score += 12
+                elif "chance" in text_lower or "likelihood" in text_lower: score += 10
+                elif "expected value" in text_lower: score += 12
+                elif "proportion" in text_lower and "random" in text_lower: score += 10 # Careful with Ratios
+
             elif cat_skill == "Percentages":
-                if "percent" in text_lower or "%" in text_lower: score += 12
-                elif "increase" in text_lower or "decrease" in text_lower: score += 3
+                if "percent" in text_lower or "%" in text_lower: score += 15
+                elif "interest" in text_lower and ("compound" in text_lower or "simple" in text_lower): score += 15
+                elif "discount" in text_lower or "tax" in text_lower or "population" in text_lower: 
+                    if "increase" in text_lower or "decrease" in text_lower or "growth" in text_lower: score += 10
+                elif "investment" in text_lower or "depreciat" in text_lower: score += 10
+                elif bool(re.search(r"\b(0\.\d+|1\.\d+)\s*[xy]", text_lower)): score += 8 # Detect decimal multipliers like 0.10x
+
             elif cat_skill == "Two-Variable Data":
-                if "scatterplot" in text_lower: score += 12
-                elif "line of best fit" in text_lower: score += 12
+                if "scatterplot" in text_lower: score += 20
+                elif "line of best fit" in text_lower or "best fit" in text_lower: score += 15
+                elif "linear model" in text_lower: score += 12
+                elif "relationship between" in text_lower and ("graph" in text_lower or "data" in text_lower): score += 10
+                elif "predict" in text_lower and "value" in text_lower: score += 8
+                elif "correlation" in text_lower: score += 10
+                
             elif cat_skill == "One-Variable Data":
-                if "median" in text_lower or "mean" in text_lower or "standard deviation" in text_lower: score += 12
-                elif "range" in text_lower and "data" in text_lower: score += 5
+                if "median" in text_lower or "mean" in text_lower or "standard deviation" in text_lower: score += 15
+                elif "average" in text_lower and "arithmetic" in text_lower: score += 15
+                elif "range" in text_lower and ("data" in text_lower or "set" in text_lower): score += 10
+                elif "histogram" in text_lower or "dot plot" in text_lower or "box plot" in text_lower: score += 15
+                elif "frequency" in text_lower and "table" in text_lower: score += 10
+                elif "outlier" in text_lower: score += 10
+                elif "measure of center" in text_lower: score += 15
+
             elif cat_skill == "Evaluating Statistical Claims":
-                if "survey" in text_lower or "experiment" in text_lower: score += 6
+                if "survey" in text_lower or "study" in text_lower or "experiment" in text_lower: score += 8
+                elif "control group" in text_lower or "treatment" in text_lower: score += 10
+                elif "random assignment" in text_lower or "bias" in text_lower: score += 10
+                elif "valid conclusion" in text_lower or "generalize" in text_lower: score += 10
+                elif "representative" in text_lower and "sample" in text_lower: score += 10
+
             elif cat_skill == "Sample Statistics and Margin of Error":
-                if "margin of error" in text_lower: score += 12
-                elif "population" in text_lower and "sample" in text_lower: score += 6
+                if "margin of error" in text_lower: score += 20
+                elif "confidence interval" in text_lower: score += 15
+                elif "sample mean" in text_lower or "sample proportion" in text_lower: score += 10
+                elif "standard error" in text_lower: score += 10
+                elif "population" in text_lower and "sample" in text_lower and "estimate" in text_lower: score += 10
+
             elif cat_skill == "Ratios, Rates, Proportions, and Units":
-                if bool(re.search(r"\bratios?\b", text_lower)): score += 12
-                elif "rate" in text_lower: score += 5
-                elif "per" in text_lower: score += 3
-                elif "density" in text_lower: score += 8
-                elif "unit" in text_lower: score += 3
+                if bool(re.search(r"\bratios?\b", text_lower)): score += 15
+                elif "proportional" in text_lower: score += 15
+                elif "rate" in text_lower and ("change" not in text_lower): score += 8 # Avoid rate of change (slope)
+                elif "constant rate" in text_lower: score += 10
+                elif "speed" in text_lower and ("distance" in text_lower or "time" in text_lower): score += 8
+                elif "per" in text_lower: score += 5
+                elif "density" in text_lower: score += 10
+                elif "unit" in text_lower and ("convert" in text_lower or "square" not in text_lower): score += 5 # Avoid unit square
+                elif "miles" in text_lower or "gallons" in text_lower or "kilometers" in text_lower: score += 3 # Slight boost for unit heavy problems
+                elif "scale" in text_lower and ("drawing" in text_lower or "map" in text_lower): score += 10
 
         # Algebra / Advanced Math
         else:
@@ -198,38 +237,53 @@ def match_score(question, category):
             # Detect x^2 missing caret context like 'x 2' or ') 2'
             if not has_sq:
                  has_sq = bool(re.search(r"[\)xytvnkp]\s*2\b", text_lower)) # added p for p^2
-            
+
+            # Detect general exponent with variable
+            has_exponent_var = bool(re.search(r"\^\{?[a-z0-9\+\-\/\s]*[xntk]", text_lower))
+
             is_function = "f(x)" in text_lower or "g(x)" in text_lower or "function" in text_lower
 
             if cat_skill == "Linear Equations in One Variable":
-                if has_eq and has_x and not has_y and not has_sq and not is_function: score += 5
-                elif "value of" in text_lower and "satisfies" in text_lower: score += 3
+                if has_eq and has_x and not has_y and not has_sq and not is_function: score += 10
+                elif "value of" in text_lower and "satisfies" in text_lower and not has_y: score += 8
+                elif "solution to the given equation" in text_lower and not has_y: score += 8
+                
             elif cat_skill == "Systems of Linear Equations":
-                if "system" in text_lower: score += 10
-                elif has_x and has_y and has_eq and not has_sq: score += 5
-                elif "solution (x, y)" in text_lower: score += 5
+                if "system" in text_lower: score += 20
+                elif "solution (x, y)" in text_lower: score += 12
+                elif has_x and has_y and has_eq and not has_sq and not "function" in text_lower and ("intersect" in text_lower or "solution" in text_lower): score += 8
+                
             elif cat_skill == "Linear Inequalities":
-                if "inequalit" in text_lower: score += 10
-                elif "<" in text_lower or ">" in text_lower: score += 5
+                if "inequalit" in text_lower: score += 15
+                elif "<" in text_lower or ">" in text_lower: score += 8
+                elif "maximum possible value" in text_lower or "minimum possible value" in text_lower: score += 5
+                
             elif cat_skill == "Linear Functions":
-                if "linear function" in text_lower: score += 10
-                elif "slope" in text_lower or "intercept" in text_lower: score += 8
-                elif is_function and not has_sq: score += 5
+                if "linear function" in text_lower: score += 20
+                elif "slope" in text_lower or "y-intercept" in text_lower or "x-intercept" in text_lower: score += 12
+                elif is_function and not has_sq and not has_exponent_var and not "quadratic" in text_lower and not "exponential" in text_lower: score += 12
+                elif has_y and has_x and not has_sq and not has_exponent_var and "system" not in text_lower and has_eq: score += 5 # y=mx+b fallback
             
             # Advanced
             elif cat_skill == "Equivalent Expressions":
-                if "equivalent" in text_lower: score += 10
-                elif "rewrite" in text_lower: score += 5
+                if "equivalent" in text_lower: score += 20
+                elif "rewrite" in text_lower: score += 10
+                elif "expression" in text_lower and not has_eq: score += 5
+                
             elif cat_skill == "Nonlinear Functions":
-                if "quadratic" in text_lower or "exponential" in text_lower: score += 10
-                elif "rational" in text_lower: score += 5
-                elif has_sq and is_function: score += 10
-                elif "vertex" in text_lower: score += 8
+                if "quadratic" in text_lower or "exponential" in text_lower: score += 20
+                elif "parabola" in text_lower: score += 15
+                elif "rational" in text_lower: score += 10
+                elif (has_sq or has_exponent_var) and is_function: score += 15
+                elif "vertex" in text_lower: score += 15
+                elif "maximum" in text_lower or "minimum" in text_lower: score += 5
                 elif "|" in text_lower: score += 8 # Absolute value 
+                
             elif cat_skill == "Nonlinear Equations and Systems":
-                if "system" in text_lower and has_sq: score += 10
-                elif "number of solutions" in text_lower and has_sq: score += 8
-                elif has_eq and has_sq and not is_function: score += 5
+                if "system" in text_lower and has_sq: score += 20
+                elif "discriminant" in text_lower: score += 15
+                elif "number of solutions" in text_lower and has_sq: score += 15
+                elif has_eq and has_sq and not is_function: score += 10
     
     return score
 

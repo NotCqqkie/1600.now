@@ -1,0 +1,978 @@
+import { Question } from "../all_questions";
+
+export const questions: Question[] = [
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_1",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nCybersecurity experts often encourage users to create passwords that are fairly complicated and therefore difficult to guess. Nonetheless, research has shown that the more ______ approach to password selection seems to favor convenience over security: for example, the second most commonly used password in 2016 was the easily remembered \u201cpassword.\u201d\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "creative"
+      },
+      {
+        "id": "B",
+        "text": "useful"
+      },
+      {
+        "id": "C",
+        "text": "popular"
+      },
+      {
+        "id": "D",
+        "text": "complex"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_2",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe fossil remains of the individual known as Oase 1, discovered in Romania in 2002, can help paleoanthropologists not only ______ steps in the evolution of hominids but also illuminate the Pleistocene epoch generally, revealing important details about the time in which Oase 1 lived.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "exploit"
+      },
+      {
+        "id": "B",
+        "text": "prioritize"
+      },
+      {
+        "id": "C",
+        "text": "yield"
+      },
+      {
+        "id": "D",
+        "text": "discern"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_3",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe pronghorn can run very fast\u2014up to 89 kilometers per hour (km/hr)\u2014but it is significantly slower than the frigate bird, which can fly at speeds up to 153 km/hr. The difference between these speeds is largely ______ of the fact that the features that make flight possible do less to limit top speeds than the features suitable for running on land.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "a consequence"
+      },
+      {
+        "id": "B",
+        "text": "an objective"
+      },
+      {
+        "id": "C",
+        "text": "a repudiation"
+      },
+      {
+        "id": "D",
+        "text": "an explanation"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_4",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome social scientists say that while a desire for cooperation rather than conflict is key to democracy, public understanding of economics is also central to public comprehension of state politics, and if a citizenry is to function, economic issues cannot remain the domain only of experts. In short, knowledge of economics is not ______ and must not be left to economists alone.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "unattainable"
+      },
+      {
+        "id": "B",
+        "text": "equitable"
+      },
+      {
+        "id": "C",
+        "text": "commonplace"
+      },
+      {
+        "id": "D",
+        "text": "superfluous"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_5",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice best describes the function of the references to \u201cdemographic characteristics\" and \u201csidewalk width\" in the text as a whole?\nRome has high pedestrian traffic, but simply replicating a feature of Rome associated with walkability\u2014e.g., its high number of street crossings\u2014may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>demographic characteristics</u>, others the role of <u>sidewalk width</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.\n\nWhich choice best describes the function of the references to \u201cdemographic characteristics\" and \u201csidewalk width\" in the text as a whole?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They identify factors that Alfonzo argues have been overemphasized in studies of decision-making about walking but that the text asserts are relevant to most people's walking decisions."
+      },
+      {
+        "id": "B",
+        "text": "They represent factors that have been identified as important influences on walking decisions but that the text suggests are merely some of the many factors that may contribute to people's decision-making about walking."
+      },
+      {
+        "id": "C",
+        "text": "They are examples of factors that studies suggest are important in people's decision-making about walking but that the text claims most people rarely consider when making walking decisions."
+      },
+      {
+        "id": "D",
+        "text": "They illustrate factors that researchers believe people consider when making walking decisions in most contexts but that the text argues are unique to walking decisions made by people in Rome."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_6",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice best describes the main purpose of the text?\nThe following text is from Reyna Grande's 2012 memoir *The Distance Between Us*. In the text, Grande is reflecting on experiences she had as a child. Abuela Evila is her grandmother, \u00c9lida is her cousin, and Mago and Carlos are her siblings.\nEvery few days, Abuela Evila washed \u00c9lida's hair with lemon water because, according to her, lemon juice cleans the impurities of the hair and makes it shiny and healthy. In the afternoons, she would fill up a bucket from the water tank, pick a few lemons from the tree, and squeeze the juice into the water.\nMago, Carlos, and I would hide behind a pink oleander bush and watch their ritual through the narrow leaves. Abuela Evila washed \u00c9lida's hair as if she were washing an expensive silk rebozo.\n\u00a92012 by Reyna Grande\n\nWhich choice best describes the main purpose of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "To give an example of a typical interaction between Grande's siblings"
+      },
+      {
+        "id": "B",
+        "text": "To describe a regular occurrence from Grande's childhood"
+      },
+      {
+        "id": "C",
+        "text": "To illustrate how Grande's relationship with \u00c9lida grew over time"
+      },
+      {
+        "id": "D",
+        "text": "To explain how Grande felt about a location where she spent time as a child"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_7",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Based on the texts, the author of Text 2 would most likely agree with which statement about Blackwell and colleagues' findings (Text 1)?\nText 1\nIn parts of New Zealand, the stoat is a major predator of the house mouse. Researcher G.L. Blackwell and colleagues found that when this predation pressure on house mice was temporarily reduced, their numbers significantly increased. This finding illustrates a foundational ecological principle: predators control prey population numbers.\nText 2\nFrancois Potvin and colleagues found that excluding wolves from a site in Quebec, Canada where they typically prey on white-tailed deer had no significant effect on white-tailed deer abundance. Many other predation relief studies show an increase in prey abundance, but those studies often focus on small, rapidly reproducing prey, like birds, mice, and frogs rather than large, slowly reproducing prey, like white-tailed deer, which could account for the difference between those results and Potvin and colleagues' results.\n\nBased on the texts, the author of Text 2 would most likely agree with which statement about Blackwell and colleagues' findings (Text 1)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They may have been different if the ratio of the body size of stoats to that of house mice was greater than it is."
+      },
+      {
+        "id": "B",
+        "text": "They may reflect a response that does not tend to be observed in prey species other than house mice."
+      },
+      {
+        "id": "C",
+        "text": "They may be partially explained by the fact that stoats are smaller and reproduce more rapidly than wolves."
+      },
+      {
+        "id": "D",
+        "text": "They may be partially attributable to physical characteristics of house mice that are not shared by white-tailed deer."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Cross-Text Connections",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_8",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "The text makes which point about the people at the gathering?\nThe following text is from Virginia Woolf's 1919 novel *Night and Day*. The narrator describes a gathering of artists and intellectuals. One person after another rose, and, as with an ill-balanced axe, attempted to hew out his conception of art a little more clearly, and sat down with the feeling that, for some reason which he could not grasp, his strokes had gone awry. As they sat down they turned almost invariably to the person sitting next them, and rectified and continued what they had just said in public.\n\nThe text makes which point about the people at the gathering?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Each is contemptuous of the other attendees but strives to impress them."
+      },
+      {
+        "id": "B",
+        "text": "Each fails at presenting a wholly coherent vision of art but does not understand why."
+      },
+      {
+        "id": "C",
+        "text": "Each becomes entangled in a debate about art, and no one knows how to resolve the debate."
+      },
+      {
+        "id": "D",
+        "text": "Each delights in speaking publicly about abstract subjects but detests speaking privately about them."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, Rates, Proportions, and Units",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_9",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "What does the text most strongly suggest about specimens from natural history collections?\nJ. Mason Heberling and David J. Burke relied on historical DNA (hDNA)\u2014genomic data incidentally preserved in specimens housed in natural history collections\u2014to investigate the evolutionary trajectory of *arbuscular mycorrhizal fungi*. Although this approach offers unique benefits, such as access to genomic data from extirpated populations, it remains relatively underutilized because archival specimens are sometimes stored in ways that compromise DNA quality, a situation not easily remediable under current methodological paradigms and with extant DNA extraction and analysis technologies.\n\nWhat does the text most strongly suggest about specimens from natural history collections?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "While they were used in a study that made an important scientific discovery, they are generally of marginal value as sources of genomic data."
+      },
+      {
+        "id": "B",
+        "text": "Because of their often-deteriorated condition, they tend to yield genomic data that are time-consuming to extract and interpret."
+      },
+      {
+        "id": "C",
+        "text": "While they may contain valuable genomic data, not all of them can yield usable hDNA."
+      },
+      {
+        "id": "D",
+        "text": "They are primarily used as sources of genomic data by scientists studying organisms that have undergone major evolutionary change."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_10",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which finding, if true, would most strongly support the researchers conclusion?\nThe utilization of deceptive antipredator displays is well documented in the spotted sandpiper (*Actitis macularius*) and other species of the avian order *Charadriiforms*. An extensive literature review conducted by L\u00e9na de Framond et al. revealed that this trait has evolved across a surprisingly large phylogenetic distribution of 13 *Aves* orders, including *Galliformes* and *Apodiformes*. Subsequent investigation of potential selection mechanisms prompted the researchers to conclude that independent of avian order, the prevalence of the trait is mediated by environmental variations associated with the absolute latitude of brooding sites.\n\nWhich finding, if true, would most strongly support the researchers conclusion?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The use of deceptive antipredator displays is widespread among *Charadriiforms* species independent of the absolute latitude of their breeding sites, but its prevalence in other avian orders is limited to species with brooding sites located in absolute latitudes of 0\u00b0-30\u00b0."
+      },
+      {
+        "id": "B",
+        "text": "Deceptive antipredator displays are documented in *Charadriiforms* species across the entire range of absolute latitudes of brooding sites within that order, but in species from other orders, deceptive antipredator displays are documented only when brooding sites are at absolute latitudes 10\u00b0-20\u00b0 higher than what is typical for those species."
+      },
+      {
+        "id": "C",
+        "text": "Across the orders in the study, deceptive antipredator displays are observed in approximately 34% of species with brooding ranges of 0\u00b0-30\u00b0 absolute latitude and approximately 60% of species with brooding ranges of 50\u00b0-80\u00b0 absolute latitude."
+      },
+      {
+        "id": "D",
+        "text": "Across the orders in the study, approximately 54% of the bird species brood in ranges from 50\u00b0 to 80\u00b0 absolute latitude, but most of the birds that are known to use deceptive antipredator displays brood between 0\u00b0 and 30\u00b0 absolute latitude."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, Rates, Proportions, and Units",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_11",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which finding, if true, would provide evidence that the possibility Grasby et al. investigated does occur?\nSony's introduction of the PlayStation console in 1994 is an instance of brand extension\u2014the company leveraged its brand recognition as a television and radio manufacturer to enter a product category where it had not previously competed. To determine if perceived category similarity predicts consumers' likelihood of purchasing brand extensions, Alicia Grasby et al. identified 30 extended-brand pairs (e.g., the same brand of hiking shoes and sleeping bag) in 52 weeks of purchases by approximately 60,000 households; for each pair Grasby et al., had consumers rate the similarity of the product categories and calculated the change in probability of a brand in one category being purchased if the same brand was purchased in the other category.\n\nWhich finding, if true, would provide evidence that the possibility Grasby et al. investigated does occur?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Consumers tended to purchase more products in categories in which extended-brand pairs are found than in categories in which extended-brand pairs are not found."
+      },
+      {
+        "id": "B",
+        "text": "Consumers' ratings and the changes in probability calculated by the researchers were both affected by level of brand recognition."
+      },
+      {
+        "id": "C",
+        "text": "There was a strong positive correlation between consumers' ratings and the changes in probability calculated by the researchers."
+      },
+      {
+        "id": "D",
+        "text": "Consumers' ratings varied substantially by category pair, whereas the changes in probability calculated by the researchers were broadly similar for each pair."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_12",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice most effectively uses data from the graph to complete the statement?\nNeuroscientist Kiyohito Ligaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much). They then recruited participants to use the same scale to rate several sets of paintings in various styles and calculated the correlation between the ratings predicted by the model and those reported by the participants. Assuming participant P1 gave equal ratings to the impressionist and color-field paintings, the data in the graph suggest that the model predicted that ______\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "P1 would derive more aesthetic pleasure from impressionist paintings than from color-field paintings"
+      },
+      {
+        "id": "B",
+        "text": "P1's ratings for impressionist and color-field paintings would differ from one another"
+      },
+      {
+        "id": "C",
+        "text": "P1 would derive less aesthetic pleasure from impressionist paintings than from color-field paintings"
+      },
+      {
+        "id": "D",
+        "text": "P1's ratings for impressionist and color-field paintings would equal one another"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Oct_24_USA_Eng_M2_Q12_1.png"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_13",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text?\nScholars cite *Men of Maize*, the 1949 novel by Guatemalan author Miguel Angel Asturias, as a foundational text of magical realism. The Latin American style of fiction in which antirealistic plot devices\u2014often borrowed from the folkloric traditions of indigenous and colonial societies in the Americas\u2014are deployed in an otherwise realistic mode of representation typical of the modern novel. This style has exerted a decisive influence on authors around the world, including Orhan Pamuk, <u>whose 2001 novel *My Name Is Red* resembles classic magical realist novels in its juxtaposition of literary realism with folklore\u2014namely, that of Turkey.</u>\n\nWhich quotation from a literary scholar would most directly support the claim in the underlined portion of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\u201cAlthough Turkish folklore clearly informs the style and occasionally antirealistic plot of *My Name Is Red*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.\""
+      },
+      {
+        "id": "B",
+        "text": "\u201cThe logic of the realistic plot of *My Name Is Red* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Turkish folklore.\u201d"
+      },
+      {
+        "id": "C",
+        "text": "\u201cLike many works in the Latin American magical realist tradition, *My Name Is Red* is indebted to antirealistic elements in the folkloric tradition of Turkey.\u201d"
+      },
+      {
+        "id": "D",
+        "text": "\u201cWhile *My Name Is Red* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Turkish folklore nevertheless occur throughout the novel.\u201d"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_14",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nInterested in how differences in the color of dogs' irises affect human responses to dogs, Akitsugu Konno et al. showed close-up images of dogs' faces to human participants and asked them to rate the dogs' traits and their own attitudes toward the dogs. Konno et al. suggest that differences in iris color led participants to view some dogs as more vulnerable and in need of protection than others and that this phenomenon could help explain the association the researchers observed between iris color and participants' inclinations to interact with or keep dogs, as illustrated by the finding that ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the more mature a dog was perceived to be, the more likely participants were to rate it as having light irises."
+      },
+      {
+        "id": "B",
+        "text": "participants favored the dogs in images 2 and 11, which they rated as less mature than the dogs in images 20 and 16."
+      },
+      {
+        "id": "C",
+        "text": "participants rated the dog in image 2 as less mature than the dog in image 11and rated the dog in image 16 as less mature than the dog in image 20."
+      },
+      {
+        "id": "D",
+        "text": "dogs that participants rated as friendlier were also dogs that participants indicated a stronger willingness to interact with or keep."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Oct_24_USA_Eng_M2_Q14_1.png"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_15",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice most logically completes the text?\nAs exemplified by Yi songs about the natural environment and Tlingit songs about wildlife encounters, ecological information can be transmitted in Indigenous songs, and in some instances is maintained only in this way. Kwaxsistalla Wathl'thla, a song keeper for the Kwakwaka'wakw people in Canada, collaborated with ethnobiologist Dana Lepofsky et al., sharing songs referencing terraced intertidal clam gardens the people implemented in the past to foster healthy development of a dietary staple. Drawing on archaeological evidence as well, Lepofsky et al. determined that the prevalence of the practice described in the songs corresponded with growth in clam size and abundance despite increased harvesting pressure\u2014a finding that demonstrates that ______\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "representation of practical applications of ecological knowledge is the defining characteristic of the music of certain Indigenous peoples."
+      },
+      {
+        "id": "B",
+        "text": "the Kwakwaka'wakw people likely would not have detailed their creation of clam gardens in songs if their efforts had not produced significantly larger clams."
+      },
+      {
+        "id": "C",
+        "text": "the clams harvested from intertidal terraces by Kwakwaka'wakw people in the past likely were a different species than the clams found in those areas today."
+      },
+      {
+        "id": "D",
+        "text": "effective methods for the cultivation of sources of sustenance are among the ecological knowledge preserved in Indigenous songs."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_16",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFatoumata Keita is a novelist from Baguin\u00e9da, Mali, who has earned international acclaim in recent years. Writers of other literary forms, such as poetry and drama, are less likely to be recognized beyond their nations borders, but many are still well ______ Fama Diagne S\u00e8ne, for example, is a celebrated playwright from Senegal.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "known:"
+      },
+      {
+        "id": "B",
+        "text": "known and"
+      },
+      {
+        "id": "C",
+        "text": "known,"
+      },
+      {
+        "id": "D",
+        "text": "known"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_17",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen Fiji joined Interpol\u2014the International Criminal Police ______ in 1971, the Fiji National Police Intelligence Bureau gained access to the combined resources of law enforcement agencies from around the globe.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Organization\u2014"
+      },
+      {
+        "id": "B",
+        "text": "Organization:"
+      },
+      {
+        "id": "C",
+        "text": "Organization"
+      },
+      {
+        "id": "D",
+        "text": "Organization,"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_18",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe length of bird eggs varies widely across species, and an ecological ______ compared the lengths of eggs produced by different bird species found *Haliastur indus* eggs to be longer, on average, than *Calidris alpina* eggs.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "study, that"
+      },
+      {
+        "id": "B",
+        "text": "study"
+      },
+      {
+        "id": "C",
+        "text": "study that"
+      },
+      {
+        "id": "D",
+        "text": "study, which"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_19",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany works of the Greek mathematician Archimedes (3rd century BCE), including his text on optics, *Catoptrica*, have been lost to time. Antiquarians ______ to read one of Archimedes's extant works\u2014not one known only through references to it by other authors that is\u2014might instead procure a copy of his *Psammites*, a treatise on mathematics and astronomy.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "hope"
+      },
+      {
+        "id": "B",
+        "text": "hoping"
+      },
+      {
+        "id": "C",
+        "text": "hoped"
+      },
+      {
+        "id": "D",
+        "text": "have hoped"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_20",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Suzuki method is an approach to music instruction ______ to teach music in the same natural way children learn language, emphasizes playing instruments from a very young age. In Suzuki cello instruction, students begin their musical education with simple classical pieces like Robert Schumann's \"The Two Grenadiers.\"\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "that, is aiming"
+      },
+      {
+        "id": "B",
+        "text": "that has aimed"
+      },
+      {
+        "id": "C",
+        "text": "that, aiming"
+      },
+      {
+        "id": "D",
+        "text": "that aims"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_21",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organization for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. According to this data, in July 2021, a \"basket\" of goods and services priced at 100 US dollars (USD) in the United States would have cost 55 USD in fellow OECD member ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nation: Costa Rica."
+      },
+      {
+        "id": "B",
+        "text": "nation\u2014Costa Rica."
+      },
+      {
+        "id": "C",
+        "text": "nation Costa Rica."
+      },
+      {
+        "id": "D",
+        "text": "nation, Costa Rica."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_22",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson calculated that the geographic center of West Virginia was a point 4.9 miles east-southeast of the municipality of Sutton. Rogerson\u2019s calculation was more accurate than the one from 1920 by the US Geological Survey. ______ this earlier calculation was made using far more rudimentary equipment\u2014only cardboard and string.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "To that end,"
+      },
+      {
+        "id": "B",
+        "text": "Of course,"
+      },
+      {
+        "id": "C",
+        "text": "Likewise,"
+      },
+      {
+        "id": "D",
+        "text": "Ultimately,"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_23",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "Which choice completes the text with the most logical transition?\nDuring the 1924 New York ticker-tape parade for US Olympic champions, the ribbonlike swirls descending on the scene were paper spools from \u201ctickers,\" telegraph machines used to transmit stock prices. Of course, the original ticker tape had long since been retired by the 2019 parade for the US women's national soccer team. ______ shredded standard paper enriched the celebration.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "In other words,"
+      },
+      {
+        "id": "B",
+        "text": "With this in mind,"
+      },
+      {
+        "id": "C",
+        "text": "In addition,"
+      },
+      {
+        "id": "D",
+        "text": "Then,"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_24",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "The student wants to emphasize a similarity between *Watch Your Step* and *Golden Connection*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Grimanesa Amoros is a Peruvian American artist well known for her LED light sculptures.\n\u2022 Her sculpture *Watch Your Step* is made of smooth multicolored LED domes.\n\u2022 It occupies 335 cubic feet of space.\n\u2022 Her sculpture *Golden Connection* is made of entangled blue and white LED tubes.\n\u2022 It occupies 100,000 cubic feet of space.\n\nThe student wants to emphasize a similarity between *Watch Your Step* and *Golden Connection*. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Grimanesa Amoros is the artist behind *Watch Your Step*, a sculpture made of smooth multicolored LED domes."
+      },
+      {
+        "id": "B",
+        "text": "At 100,000 cubic feet in size, Grimanesa Amoros's *Golden Connection* cuts a larger figure than the 335-cubic-foot *Watch Your Step*."
+      },
+      {
+        "id": "C",
+        "text": "*Watch Your Step* is an LED light sculpture made by Grimanesa Amoros, as is *Golden Connection*."
+      },
+      {
+        "id": "D",
+        "text": "The smooth LED domes of Grimanesa Amoros's *Watch Your Step* stand in contrast to the tangled LED tubes of *Golden Connection*."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_25",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "The student wants to contrast the two samples. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Generally, an object will heat up when twisted.\n\u2022 The twisting of an object is known as torsion.\n\u2022 A 2019 study led by Zunfeng Liu and Ray Baughman tested the torsional heating of various fibers.\n\u2022 When a 3-millimeter-thick sample of thermoplastic polyurethane (TPU) fiber was twisted, its average surface temperature increased by 6\u00b0C.\n\u2022 When a 4-millimeter-thick sample of styrene-ethylene-butylene-styrene (SEBS) rubber fiber was twisted, its average surface temperature increased by 3.5\u00b0C.\n\nThe student wants to contrast the two samples. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Twisting an object will generally cause its temperature to increase, a process known as torsional heating."
+      },
+      {
+        "id": "B",
+        "text": "In 2019, researchers studied the effect of torsional heating on various fibers, including samples of SEBS rubber and TPU."
+      },
+      {
+        "id": "C",
+        "text": "When the fibers were twisted as part of the 2019 study, the surface temperature of both samples increased."
+      },
+      {
+        "id": "D",
+        "text": "The SEBS rubber sample used in the 2019 study was thicker than the TPU sample."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_26",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "The student wants to emphasize the order in which the two films were released. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Merle Oberon (1911-1979) was an actress born in Mumbai (then known as Bombay), India.\n\u2022 She was of Indian, Maori, and Irish heritage.\n\u2022 She was the first Indian-born actress to be nominated for an Academy Award.\n\u2022 Early in her career, she played many nameless, uncredited roles, such as her role in *Service for Ladies* (1932).\n\u2022 Later, she played many named, credited roles, such as Katherine Beckmann in *Love and Desire* (1963).\n\nThe student wants to emphasize the order in which the two films were released. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "*Service for Ladies* (1932) was released early in Merle Oberon's career, whereas *Love and Desire* (1963) came out years later."
+      },
+      {
+        "id": "B",
+        "text": "In *Service for Ladies* (1932), actress Merle Oberon played a nameless, uncredited role; however, in *Love and Desire* (1963), she played a credited role\u2014that of Katherine Beckmann."
+      },
+      {
+        "id": "C",
+        "text": "Merle Oberon was famous for her roles in films like *Service for Ladies* (1932) and *Love and Desire* (1963)."
+      },
+      {
+        "id": "D",
+        "text": "Early in her career, Merle Oberon wasn't listed in some film credits, such as the credits for the film *Service for Ladies*, where she played a nameless, uncredited role."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "5d3f0045-ceeb-4690-b839-fe80816d237c_27",
+    "testName": "October 2024 US Form A SAT English Module 2",
+    "text": "The student wants to compare the curviness of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A river's stream length is the length of a line that follows along the river path.\n\u2022 A river's valley length is the length of a straight line drawn from the beginning of the river to the end.\n\u2022 The river's curviness, or sinuosity, is the ratio of the river's stream length to its valley length.\n\u2022 Low-sinuosity rivers have a stream length 1-1.5 times longer than their valley length, and high-sinuosity rivers have a stream length 1.5 or more times longer than their valley length.\n\u2022 The Embarras River in Canada has high sinuosity.\n\u2022 The Luni River in India has low sinuosity.\n\nThe student wants to compare the curviness of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The high-sinuosity Luni River in India is curvier than the low-sinuosity Embarras River in Canada."
+      },
+      {
+        "id": "B",
+        "text": "In both the Embarras and the Luni rivers, curviness is determined by comparing stream length to valley length."
+      },
+      {
+        "id": "C",
+        "text": "By comparing the stream lengths of the Embarras and Luni rivers to their valley lengths, one can calculate their curviness, or sinuosity."
+      },
+      {
+        "id": "D",
+        "text": "The Embarras River's ratio of stream length to valley length, also known as sinuosity, is greater than that of the Luni River."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, Rates, Proportions, and Units",
+      "confidence": "high"
+    }
+  }
+];

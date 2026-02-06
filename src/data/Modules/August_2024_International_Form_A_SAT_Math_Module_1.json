@@ -1,8 +1,12 @@
 [
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "s=50+4t The equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 5 seconds after it began to accelerate?",
+    "passage": "s=50+4t\nThe equation gives the speed *s*, in miles per hour, of a certain car *t* seconds after it began to accelerate. What is the speed, in miles per hour, of the car 5 seconds after it began to accelerate?",
     "question_text": null,
     "choices": [
       {
@@ -24,12 +28,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_1"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by f(x)= x 2 + 15. What is the value of f (2)?",
+    "passage": "The function * f * is defined by f(* x *)= * x ** 2 *+ 15. What is the value of * f *(2)?",
     "question_text": null,
     "choices": [
       {
@@ -51,12 +60,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_2"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "$\\sqrt{w}+34=40 $ What is the solution to the given equation?",
+    "passage": "$\\sqrt{w}+34=40$\nWhat is the solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -78,12 +92,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_3"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "An aquarium uses small and large tanks to temporarily hold a total of 37 fish. Each small tank holds 1 fish, and each large tank holds 2 fish. Which equation represents this situation, where s is the number of small tanks and b is the number of large tanks the aquarium uses?",
+    "passage": "An aquarium uses small and large tanks to temporarily hold a total of 37 fish. Each small tank holds 1 fish, and each large tank holds 2 fish. Which equation represents this situation, where * s * is the number of small tanks and * b * is the number of large tanks the aquarium uses?",
     "question_text": null,
     "choices": [
       {
@@ -105,9 +124,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_4"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "August 2024 International Form A SAT Math Module 1",
     "passage": "The growth of the number of bacteria in a certain population is modeled by a function that increases exponentially over time. Which of the following could describe how the number of bacteria in the population changes each hour?",
@@ -132,12 +156,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_5"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "To win a game show, a contestant needs to score at least 100 total points from two rounds. Correct responses in the first round are worth 2 points each, and correct responses in the second round are worth 5 points each. Which inequality models this situation, where f is the number of correct responses in the first round and s is the number of correct responses in the second round?",
+    "passage": "To win a game show, a contestant needs to score at least 100 total points from two rounds. Correct responses in the first round are worth 2 points each, and correct responses in the second round are worth 5 points each. Which inequality models this situation, where * f * is the number of correct responses in the first round and * s * is the number of correct responses in the second round?",
     "question_text": null,
     "choices": [
       {
@@ -159,32 +188,47 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_6"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "W (x)=2 x +60 The function W gives the total time, in minutes, it takes for a gardener to water x plants and mow the grass. According to the function, how many minutes does it take the gardener to mow the grass?",
+    "passage": "* W *(* x *)=2* x *+60\nThe function * W * gives the total time, in minutes, it takes for a gardener to water * x * plants and mow the grass. According to the function, how many minutes does it take the gardener to mow the grass?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "60",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_7"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "Triangles JKL and PQR are congruent, where J corresponds to P, and K corresponds to Q. The measure of angle J is 45°, the measure of angle K is10 °, and the measure of angle L is 125 °. What is the measure, in degrees, of angle P? (Disregard the degree symbol when entering your answer.)",
+    "passage": "Triangles * JKL * and * PQR * are congruent, where * J * corresponds to * P *, and * K ** * corresponds to * Q *.The measure of angle * J * is 45°, the measure of angle * K * is10 °, and the measure of angle * L * is 125 °. What is the measure, in degrees, of angle * P *? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "45",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "y=5x+10 y=5x-2 At how many points do the graphs of the given equations intersect in the xy -plane?",
+    "passage": "y=5x+10\ny=5x-2\nAt how many points do the graphs of the given equations intersect in the *xy*-plane?",
     "question_text": null,
     "choices": [
       {
@@ -206,12 +250,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_9"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "The table shows three values of a and their corresponding values of y for the equation y = 4(2) x + 5. In the table, a is a constant. What is the value of a?",
+    "passage": "The table shows three values of a and their corresponding values of * y * for the equation * y * = 4(2) *x* + 5. In the table, a is a constant. What is the value of * a *?",
     "question_text": null,
     "choices": [
       {
@@ -233,96 +282,140 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_10"
+    "rationale": null,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_10",
+    "images": [
+      {
+        "src": "https://sat.oly.st/images/774815285e8bc767d1c626ab7ea6fdbd.png",
+        "alt": "",
+        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q10_0_5510101b44ec.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "The number of bacteria in a liquid medium doubles every day. There are 72,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, y, in the liquid medium t days after the start of the observation?",
+    "passage": "The number of bacteria in a liquid medium doubles every day. There are 72,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, * y *, in the liquid medium * t * days after the start of the observation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ y=\\frac{1}{2}(72,000)^{t}$"
+        "text": "$y=\\frac{1}{2}(72,000)^{t}$"
       },
       {
         "label": "B",
-        "text": "$ y=2(72,000)^{t}$"
+        "text": "$y=2(72,000)^{t}$"
       },
       {
         "label": "C",
-        "text": "$ y=72,000(\\frac{1}{2})^{t}$"
+        "text": "$y=72,000（\\frac{1}{2}）^{t}$"
       },
       {
         "label": "D",
-        "text": "$ y=72,000(2)^{t}$"
+        "text": "$y=72,000(2)^{t}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_11"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "A rectangle has a width of n yards and a length of (n + 5) yards. If the rectangle has an area of 204 square yards, what is the value of n?",
+    "passage": "A rectangle has a width of * n * yards and a length of (* n * + 5) yards. If the rectangle has an area of 204 square yards,what is the value of * n *?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "12",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_12"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by $ f(x)=9^{\\frac{x}{8}}+11 $. For what value of x is f(x)equal to 38?",
+    "passage": "The function * f * is defined by $f(x)=9^{\\frac{x}{8}}+11$. For what value of * x * is f(* x *)equal to 38?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "12",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_13"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "$ f(x)=x^{2}-42x+80 $ The function f is defined by the given equation. Which of the following equivalent forms of the equation displays the zeros of the function as constants or coefficients?",
+    "passage": "$f(x)=x^{2}-42x+80$\nThe function * f * is defined by the given equation. Which of the following equivalent forms of the equation displays the zeros of the function as constants or coefficients?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ f(x)=x^{2}-5x-37x+80 $"
+        "text": "$f(x)=x^{2}-5x-37x+80$"
       },
       {
         "label": "B",
-        "text": "$ f(x)=(x-2)(x-40)$"
+        "text": "$f(x)=(x-2)(x-40)$"
       },
       {
         "label": "C",
-        "text": "$ f(x)=x(x-42)+80 $"
+        "text": "$f(x)=x(x-42)+80$"
       },
       {
         "label": "D",
-        "text": "$ f(x)=(x-21)^{2}-361 $"
+        "text": "$f(x)=(x-21)^{2}-361$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_14"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "For the linear function g, the table shows four values of x and their corresponding values of g(x). The function can be written as g(x)= m x + b, where m and b are constants. What is the value of b?",
+    "passage": "For the linear function * g *, the table shows four values of * x * and their corresponding values of * g(** x **) *. The function can be written as * g(** x **)= m ** x ** + b *, where * m * and * b * are constants. What is the value of * b *?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "49",
-    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_15"
+    "rationale": null,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_15",
+    "images": [
+      {
+        "src": "https://sat.oly.st/images/f379f6cd0c4822e2673adb090ade04ae.png",
+        "alt": "",
+        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q15_0_9de12150e7d9.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "x + 5y= 5 x - 5y= 3 The solution to the given system of equations is (x, y). What is the value of x?",
+    "passage": "x + 5y= 5\nx - 5y= 3\nThe solution to the given system of equations is (*x, y*). What is the value of *x*?",
     "question_text": null,
     "choices": [
       {
@@ -344,12 +437,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_16"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "If cos A = 0.55, what is the value of sin C?",
+    "passage": "If cos *A* = 0.55, what is the value of sin *C*?",
     "question_text": null,
     "choices": [
       {
@@ -371,12 +469,24 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_17"
+    "rationale": null,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_17",
+    "images": [
+      {
+        "src": "https://sat.oly.st/images/e484ace11bc6dc852eaa075bdbed22ae.png",
+        "alt": "",
+        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q17_0_e9261a4c8007.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "The table gives the distribution of flavor and type of topping for customer orders at an ice cream shop. If a customer order is selected at random, what is the probability of selecting an order with sprinkles, given the flavor of ice cream is vanilla?",
+    "passage": "The table gives the distribution of flavor and type of topping for customer orders at an ice cream shop.\nIf a customer order is selected at random, what is the probability of selecting an order with sprinkles, given the flavor of ice cream is vanilla?",
     "question_text": null,
     "choices": [
       {
@@ -398,12 +508,24 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_18"
+    "rationale": null,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_18",
+    "images": [
+      {
+        "src": "https://sat.oly.st/images/2974290739b95a6e2d1179de3c4c8d90.png",
+        "alt": "",
+        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q18_0_08f676487b76.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "$ x(r-7)+3=19x+25 $ In the given equation, r is a positive integer. If the given equation has exactly one solution, what CANNOT be the value of r?",
+    "passage": "$x(r-7)+3=19x+25$\nIn the given equation, *r* is a positive integer. If the given equation has exactly one solution, what CANNOT be the value of *r*?",
     "question_text": null,
     "choices": [
       {
@@ -425,9 +547,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_19"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "August 2024 International Form A SAT Math Module 1",
     "passage": "A real estate company offers a series of three webinars. 2,000 people attended the first webinar, 65%of the people who attended the first webinar attended the second webinar, and 44% of the people who attended both the first and second webinar attended the third webinar. Of those who attended the first but did not attend the second webinar, 31% attended the third webinar. How many people attended both the first and third webinars but did not attend the second webinar?",
@@ -435,12 +562,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "217",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_20"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "In the xy -plane, circle M is the graph of the equation (x + 6 a) 2 + (y - 38 a) 2 = 36 a 2 where a is a positive constant. Circle V is obtained by shifting circle M 12 a units to the right, Which equation represents circle V?",
+    "passage": "In the * xy * -plane, circle * M * is the graph of the equation (* x * + 6 * a *) 2 + (* y * - 38 * a *) 2 = 36 * a 2 * where * a * is a positive constant. Circle * V * is obtained by shifting circle * M * 12 * a * units to the right, Which equation represents circle * V *?",
     "question_text": null,
     "choices": [
       {
@@ -462,9 +594,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_21"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "August 2024 International Form A SAT Math Module 1",
     "passage": "The dot plot shows the distribution of capacity for a set of capacitors, set A, which a researcher used for a certain experiment. For another experiment, the researcher used a different set of capacitors, set B. Set B has the same number of capacitors as set A but the capacity of each capacitor of set B is 14 microfarads (µ F) greater than the capacity of each respective capacitor in set A. Which of the following is true about the capacities of the capacitors in set B?",
@@ -489,6 +626,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_22"
+    "rationale": null,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_22",
+    "images": [
+      {
+        "src": "https://sat.oly.st/images/188ddf032c69290b4b585fe946b8666c.png",
+        "alt": "",
+        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q22_0_cc72b352974d.png"
+      }
+    ]
   }
 ]

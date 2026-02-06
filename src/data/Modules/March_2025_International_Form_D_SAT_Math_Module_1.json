@@ -1,8 +1,12 @@
 [
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "In one week in 2017, a technician earned a total of 716 by working at her regular job and at a second job doing part-time work, The equation 20 h + 14 e = 716 represents this situation, where h is the number of hours worked at her regular job and c is the number of hours worked at her second job, which of the following is the best interpretation of 20 in this context?",
+    "passage": "In one week in 2017, a technician earned a total of \\$716 by working at her regular job and at a second job doing part-time work, The equation 20 h + 14 e = 716 represents this situation, where h is the number of hours worked at her regular job and c is the number of hours worked at her second job, which of the following is the best interpretation of 20 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -24,19 +28,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_1"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "A marine biologist uses a linear model to estimate the weight of a blue whale after it is born. The model estimates that a certain blue whale weighs 5,710 pounds at birth and gains 10.0pounds per hour, for 120 hours, after it is born, Based on this model, what is the estimated weight, in pounds, of this blue whale 7 hours after it is born?",
+    "passage": "A marine biologist uses a linear model to estimate the weight of a blue whale after it is born.The model estimates that a certain blue whale weighs 5,710 pounds at birth and gains 10.0pounds per hour, for 120 hours, after it is born, Based on this model, what is the estimated weight, in pounds, of this blue whale 7 hours after it is born?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "5780",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_2"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "Which of the following equations best represents the line of best fit shown?",
@@ -61,19 +75,36 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_3"
+    "rationale": null,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_3",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlD_Math_M1_Q3_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlD_Math_M1_Q3_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "y = -0.5 y = x ² + 8 x + a in the given system of equations, a is a positive integer constant. The system has no real solutions, what is the least possible value of a?",
+    "passage": "y = -0.5\ny = x ² + 8 x + a\nin the given system of equations, a is a positive integer constant. The system has no real solutions, what is the least possible value of a?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "16",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_4"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "The width of a rectangle is 8 centimeters, The length of the rectangle is 50 centimeters longer than the width, what is the area, in square centimeters, of this rectangle?",
@@ -98,9 +129,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_5"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "A line segment that has a length of 113 centimeters (cm) is divided into three parts. One part is 47 cm long, The other two parts have lengths that are equal to each other What is the length, in cm, of one of the other two parts of equal length?",
@@ -108,12 +144,17 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "33",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_6"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "x 2 - 4 x + y 2 - 8 y - 80 = 0 In the xy - plane, the graph of the given equation is a circle, If this circle is inscribed in a square, what is the perimeter of the square?",
+    "passage": "x 2 - 4 x + y 2 - 8 y - 80 = 0\nIn the xy - plane, the graph of the given equation is a circle, If this circle is inscribed in a square, what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -135,9 +176,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_7"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "The function f is defined by f (x) = 3 x - $\\frac{1}{4}$. what is the y -intercept of the graph of y = f (x) in the xy -plane?",
@@ -162,19 +208,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_8"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "x + 28 = 7 x + k In the given equation, k is a constant, The eqation has infinitely many solutlons. what is the value of k?",
+    "passage": "x + 28 = 7 x + k\nIn the given equation, k is a constant, The eqation has infinitely many solutlons. what is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "28",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_9"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "The expression 7 x 6 + 9 x 6 - 8 x 6 is equivalent to b x 6, where b is a constant. what is the walue of b?",
@@ -182,21 +238,26 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "8",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_10"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "which expression is equivalent to $(158y)^{\\frac{1}{2}}$, where y > 1?",
+    "passage": "which expression is equivalent to $(158y)^{\\frac{1}{2}}$,where y > 1?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 158·\\sqrt{y}$"
+        "text": "$158·\\sqrt{y}$"
       },
       {
         "label": "B",
-        "text": "$\\sqrt{158·}y $"
+        "text": "$\\sqrt{158·}y$"
       },
       {
         "label": "C",
@@ -209,9 +270,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_11"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "At a convention center, there are a total of 275 visitors. Each visitor is located in either room A, room B, or room c. if one of these visitors is selected at random, the probability of selecting a visitor who is located tn room A ls 0,68, and the probability of selecting a visitor who is located in room B is 0.24, How many visitors are located in room C?",
@@ -236,9 +302,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_12"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "Line t is defined by y = - $\\frac{1}{4}$ x + 15. Line s is perpendicular to line t in the xy -plane, wvhat is the slope of line s?",
@@ -263,60 +334,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_13"
   },
   {
-    "question_number": 14,
-    "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "f (x) =$-10(2)^{\\frac{x}{2}}$ Which table gives four values of x and their corresponding values of f (x) for the given exponential function?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlD_Math_M1_Q14_1.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "B",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlD_Math_M1_Q14_3.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "C",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlD_Math_M1_Q14_2.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "D",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Mar_25_IntlD_Math_M1_Q14.png",
-            "alt": ""
-          }
-        ]
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "B",
-    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_14"
-  },
-  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right Triangles and Trigonometry",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "The measure of angle C is $\\frac{3\\pi}{4}$ radians, what is the value of cos(C)?",
@@ -336,14 +361,19 @@
       },
       {
         "label": "D",
-        "text": "$\\frac{1}{2}$"
+        "text": "$\\frac{}{2}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_15"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "The function m is defined by m (x)= 5 x + 3, and the function p is defined by p (x) = 3- x. What is the value of 2 m (3)- p (3)?",
@@ -351,19 +381,29 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "36",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_16"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "A school is ordering tablet computers for its students, The tablets cost 170 each, and 7% tax is added to the total cost of the order, If the school can spend no more than 53,400 dollar! On the tablets, including tax, what is the maximum number of tablets that the school can order?",
+    "passage": "A school is ordering tablet computers for its students, The tablets cost \\$170 each, and 7% tax is added to the total cost of the order, If the school can spend no more than 53,400 dollar! On the tablets, including tax, what is the maximum number of tablets that the school can order?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "293",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_17"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "The difference between the measure of angle A and the measure of angle B is -5πradians. which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
@@ -371,26 +411,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$-\\frac{5}{12}$ ·$\\frac{360^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}$ · $\\frac{360^\\circ}{\\pi}$"
       },
       {
         "label": "B",
-        "text": "$-\\frac{5}{12}\\pi $ ·$\\frac{\\pi}{180^\\circ}$"
+        "text": "$-\\frac{5}{12}\\pi$ · $\\frac{\\pi}{180^\\circ}$"
       },
       {
         "label": "C",
-        "text": "$-\\frac{5}{12}\\pi $ ·$\\frac{180^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi$ · $\\frac{180^\\circ}{\\pi}$"
       },
       {
         "label": "D",
-        "text": "$-\\frac{5}{12}\\pi $ ·$\\frac{360^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi$ · $\\frac{360^\\circ}{\\pi}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_18"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "A researcher observes a sample of a nuclide, An exponential model estimates that the mass, in grams, of the sample decreases by 24% every 22.96 minutes, which of the following equations could represent this model, where M is the estimated mass, in grams, of the sample t minutes after the researcher began observing the sample?",
@@ -402,7 +447,7 @@
       },
       {
         "label": "B",
-        "text": "$ M=100(0.24)^{\\frac{6}{22.96}}$"
+        "text": "$M=100(0.24)^{\\frac{6}{22.96}}$"
       },
       {
         "label": "C",
@@ -410,14 +455,19 @@
       },
       {
         "label": "D",
-        "text": "$ M=100(0.76)^{\\frac{t}{22.96}}$"
+        "text": "$M=100(0.76)^{\\frac{t}{22.96}}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_19"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment A B (not shown) is 84 centimeters, if the height of the cone is 42 centieters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
@@ -425,9 +475,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "74088",
-    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_20"
+    "rationale": null,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_20",
+    "images": [
+      {
+        "src": "/images_labeled/Mar_25_IntlD_Math_M1_Q20_1.png",
+        "alt": "",
+        "local": "images_labeled/Mar_25_IntlD_Math_M1_Q20_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "in triangle RST, the measure of angle R is 39 ∠, the measure of angle S is x ∠, and the measure of angle T is (5 x - 3) ∠. Point L lies on $\\overline{RS}$, point K lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle SKL? (Disregard the degree symbol when entering your answer)",
@@ -435,9 +497,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "117",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_21"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "March 2025 International Form D SAT Math Module 1",
     "passage": "The function f is a quadratic function. in the xy -plane, the graph of y = f (x) has a vertex at (1,7) and passes through the points (2, 53) and (-1,191), what is the value of f (-2) - f (0)?",
@@ -462,6 +529,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_22"
   }
 ]

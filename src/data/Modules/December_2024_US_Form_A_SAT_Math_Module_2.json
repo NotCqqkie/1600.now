@@ -1,5 +1,9 @@
 [
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "The function g is defined by g(x)= -18- 9x. For what value of x does g(x)=-216?",
@@ -24,9 +28,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_1"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "The population of a certain city doubled every 25 years from 1660 to 1760. The population of this city was 208,000 in 1760. What was the population of this city in 1660?",
@@ -51,12 +60,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_2"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "The function $ f(x)=600(0.5)^{\\frac{x}{11}}$ gives the predicted intensity of a beam f(x), in number of photons in the beam, x millimeters below the surface of a certain material. What is the bestinterpretation of f(11)= 300?",
+    "passage": "The function $f(x)=600(0.5)^{\\frac{x}{11}}$ gives the predicted intensity of a beam f(x), in number of photons in the beam, x millimeters below the surface of a certain material. What is the bestinterpretation of f(11)= 300?",
     "question_text": null,
     "choices": [
       {
@@ -78,9 +92,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_3"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "For the linear function h, h(0)=0 and h(11)= 5. Which equation defines h?",
@@ -88,26 +107,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ h(x)=\\frac{5}{11}x $"
+        "text": "$h(x)=\\frac{5}{11}x$"
       },
       {
         "label": "B",
-        "text": "$ h(x)=\\frac{5}{11}x+5 $"
+        "text": "$h(x)=\\frac{5}{11}x+5$"
       },
       {
         "label": "C",
-        "text": "$ h(x)=\\frac{11}{5}x $"
+        "text": "$h(x)=\\frac{11}{5}x$"
       },
       {
         "label": "D",
-        "text": "$ h(x)=\\frac{11}{5}x+11 $"
+        "text": "$h(x)=\\frac{11}{5}x+11$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_4"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "Hassan put up wire fencing along each edge of a rectangular garden with a length of x feet and a width of y feet, Hassan put up a total length of 44 feet of wire fencing. Which equation represents this situation?",
@@ -115,26 +139,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ 2x+2y=44 $"
+        "text": "$2x+2y=44$"
       },
       {
         "label": "B",
-        "text": "$ x+y=44 $"
+        "text": "$x+y=44$"
       },
       {
         "label": "C",
-        "text": "$ 2xy=44 $"
+        "text": "$2xy=44$"
       },
       {
         "label": "D",
-        "text": "$ xy=44 $"
+        "text": "$xy=44$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_5"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "How many solutions does the equation7x -19=19-7x have?",
@@ -159,12 +188,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_6"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "$ y>17 $ 4x+y The point (x, 54) is a solution to the given system of inequalities in the xy-plane. Which of the following could be the value of x?",
+    "passage": "$y>17$\n$4x+y\nThe point (x, 54) is a solution to the given system of inequalities in the xy-plane. Which of the following could be the value of x?",
     "question_text": null,
     "choices": [
       {
@@ -186,36 +220,46 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_7"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is $ 190 when it sells 4 items, and its profit is $ 670 when it sells 10 items. which equation defnes f?",
+    "passage": "A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is \\$190 when it sells 4 items, and its profit is \\$670 when it sells 10 items. which equation defnes f?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ f(x)=180x-670 $"
+        "text": "$f(x)=180x-670$"
       },
       {
         "label": "B",
-        "text": "$ f(x)=67x $"
+        "text": "$f(x)=67x$"
       },
       {
         "label": "C",
-        "text": "$ f(x)=80x-10x $"
+        "text": "$f(x)=80x-10x$"
       },
       {
         "label": "D",
-        "text": "$ f(x)=80x-130 $"
+        "text": "$f(x)=80x-130$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_8"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "Which quadratic equation has no real solutions?",
@@ -223,26 +267,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$-2x^{2}=0 $"
+        "text": "$-2x^{2}=0$"
       },
       {
         "label": "B",
-        "text": "$-2x^{2}+2=0 $"
+        "text": "$-2x^{2}+2=0$"
       },
       {
         "label": "C",
-        "text": "$-2x^{2}+2x=0 $"
+        "text": "$-2x^{2}+2x=0$"
       },
       {
         "label": "D",
-        "text": "$-2x^{2}+2x-2=0 $"
+        "text": "$-2x^{2}+2x-2=0$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_9"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "The circumference of the base of a right circular cylinder is 6π meters, and the height of the cylinder is 19 meters. What is the volume, in cubic meters, of the cylinder?",
@@ -267,73 +316,32 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_10"
   },
   {
-    "question_number": 11,
-    "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "Each of the following frequency tables represents a data set. Which of these frequency tables represents the data set with the smallest standard deviation?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Dec_24_USA_Math_M2_Q11.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "B",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Dec_24_USA_Math_M2_Q11_3.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "C",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Dec_24_USA_Math_M2_Q11_2.png",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "label": "D",
-        "text": "",
-        "images": [
-          {
-            "src": "/images_labeled/Dec_24_USA_Math_M2_Q11_1.png",
-            "alt": ""
-          }
-        ]
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "D",
-    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_11"
-  },
-  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "A carnival receives $ 10 for each adult admission ticket sold and $ 5 for each child admission ticket sold. On a particular day, the carnival received a total of 4,100 from selling adult andchild admission tickets. If 220 adult admission tickets were sold on that day, how many child admission tickets were sold?",
+    "passage": "A carnival receives \\$10 for each adult admission ticket sold and \\$5 for each child admission ticket sold. On a particular day, the carnival received a total of \\$4,100 from selling adult andchild admission tickets. If 220 adult admission tickets were sold on that day, how many child admission tickets were sold?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "380",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_12"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "$ y-x=32 $ $ y=x^{2}-30x $ The graphs of the equations in the given system intersect at the point (x, y) in the xy-plane. What is a possible value of y?",
+    "passage": "$y-x=32$\n$y=x^{2}-30x$\nThe graphs of the equations in the given system intersect at the point (x, y) in the xy-plane. What is a possible value of y?",
     "question_text": null,
     "choices": [
       {
@@ -355,22 +363,32 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_13"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "$ c(r)=\\frac{2}{5}(2\\pi r)$ The function c gives the partial length, in centimeters (cm), of the circumference of a circle with a radius that measures r cm. According to the function, for each increase of 18 cm inthe length of the radius, this partial length of the circumference increases by kπ cm. What isthe value of k?",
+    "passage": "$c(r)=\\frac{2}{5}(2\\pi r)$\nThe function c gives the partial length, in centimeters (cm), of the circumference of a circle with a radius that measures r cm. According to the function, for each increase of 18 cm inthe length of the radius, this partial length of the circumference increases by kπ cm. What isthe value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "72/5,14.4",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_14"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "$ f(x)=25(1.40)^{\\frac{x}{3}}$ For the given function f, the value of f(x) increases by p% for every increase of a by 6. What is the value of p?",
+    "passage": "$f(x)=25(1.40)^{\\frac{x}{3}}$\nFor the given function f, the value of f(x) increases by p% for every increase of a by 6. What is the value of p?",
     "question_text": null,
     "choices": [
       {
@@ -392,19 +410,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_15"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "The function k is defined by $ k(s)=\\sqrt{s+110}$. If k(53p)= p, where p is a constant, what is the value of p?",
+    "passage": "The function k is defined by $k(s)=\\sqrt{s+110}$. If k(53p)= p, where p is a constant, what is the value of p?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "55",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_16"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "If 121x 2 =-110x+ 56, what is the value of 11x + 5, where 11x +5 > 0?",
@@ -412,9 +440,14 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "9",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_17"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "A computer program models the population of a certain insect in an environment where theinsect has no natural predators. According to the model, the estimated total mass of the population of insects at the end of every 5-week period is 158% greater than the estimatedtotal mass of the population of insects at the end of the previous 5-week period. The estimated total mass of the population of insects at the end of 15 weeks is 627.7 grams. Which equation best represents this model, where M is the estimated total mass, in grams, of the population of insects at the end oft weeks?",
@@ -422,26 +455,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ M=538.92(1.58)^{\\frac{5}{t}}$"
+        "text": "$M=538.92(1.58)^{\\frac{5}{t}}$"
       },
       {
         "label": "B",
-        "text": "$ M=457.66(2.58)^{\\frac{5}{t}}$"
+        "text": "$M=457.66(2.58)^{\\frac{5}{t}}$"
       },
       {
         "label": "C",
-        "text": "$ M=159.14(1.58)^{\\frac{t}{5}}$"
+        "text": "$M=159.14(1.58)^{\\frac{t}{5}}$"
       },
       {
         "label": "D",
-        "text": "$ M=36.55(2.58)^{\\frac{t}{5}}$"
+        "text": "$M=36.55(2.58)^{\\frac{t}{5}}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_18"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "The value of an autographed baseball increased by 178% from the end of 2012 to the end of 2013 and then decreased by 21% from the end of 2013 to the end of 2014. What was the netpercentage increase in the value of the autographed baseball from the end of 2012 to the end of 2014?",
@@ -466,19 +504,29 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_19"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "If n and k are numbers greater than 1 and $ 4n^{5}3 $ is equivalent to $ 3k^{2}$, for what value of a is n 2a+1 equal to k?",
+    "passage": "If n and k are numbers greater than 1 and $4n^{5}3$ is equivalent to $3k^{2}$, for what value of a is n 2a+1 equal to k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "7/16",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_20"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "For triangle ABC, the length of $\\overline{AB}$ is 11 less than the length of $\\overline{AC}$. Point D (not shown) lies on $\\overline{AC}$ such that $\\overline{BD}$ (not shown) is perpendicular to $\\overline{AC}$. What is the value of $\\frac{BC}{BD}$?",
@@ -486,9 +534,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "28/17",
-    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_21"
+    "rationale": null,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_21",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USA_Math_M2_Q21_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USA_Math_M2_Q21_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "The area of a rectangular region is increasing at a rate of 280 square feet per hour. Which of the following is closest to this rate in sgpare meters per minute? (Use 1 meter 3.28 feet.)",
@@ -513,6 +573,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_22"
   }
 ]

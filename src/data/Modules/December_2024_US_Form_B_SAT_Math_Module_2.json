@@ -1,5 +1,9 @@
 [
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 1,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "The function g is defined by g(x) 18- x. What is the value of g(3)?",
@@ -24,9 +28,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_1"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 2,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "The graph gives the estimated revenue, in dollars, for a company when the price of the company's product is x dollars, what does the y-value of the vertex of the graph represent in this context?",
@@ -51,9 +60,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "id": "32388549-e820-4b4a-91a9-d9c32e611098_2"
+    "rationale": null,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_2",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USB_Math_M2_Q2_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USB_Math_M2_Q2_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 3,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "For a linear relationship between x and y, the table gives three values of x and their corresponding values of y, Which equation represents this relationship?",
@@ -78,9 +99,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "32388549-e820-4b4a-91a9-d9c32e611098_3"
+    "rationale": null,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_3",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USB_Math_M2_Q3_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USB_Math_M2_Q3_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "null",
     "question_number": 4,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "A circle has a radius of 19 meters. What is the area, in square meters, of the circle?",
@@ -105,36 +138,46 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_4"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 5,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$ p=\\sqrt{12c}-25 $ The given equation relates the variables p and c, where c is positive, which equation correctly expresses c in terms of p?",
+    "passage": "$p=\\sqrt{12c}-25$\nThe given equation relates the variables p and c, where c is positive, which equation correctly expresses c in terms of p?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ c=\\frac{(p+25)^{2}}{12}$"
+        "text": "$c=\\frac{(p+25)^{2}}{12}$"
       },
       {
         "label": "B",
-        "text": "$ c=\\frac{p^{2}}{12}+\\frac{5}{12}$"
+        "text": "$c=\\frac{p^{2}}{12}+\\frac{5}{12}$"
       },
       {
         "label": "C",
-        "text": "$ c=\\frac{p}{12}+\\frac{25}{24}$"
+        "text": "$c=\\frac{p}{12}+\\frac{25}{24}$"
       },
       {
         "label": "D",
-        "text": "$ c=\\frac{\\sqrt{p+25}}{12}$"
+        "text": "$c=\\frac{\\sqrt{p+25}}{12}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_5"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 6,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "The function f is defined by f(x)= 98x. What is the slope of the graph of y=f(x) in the xy-plane?",
@@ -159,9 +202,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_6"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
     "question_number": 7,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "A linear model estimates the population of a city from 1993 to 2017. The model estimates the population was 52 thousand in 1993, 219 thousand in 2013, and x thousand in 2017. To the nearest whole number what is the value of x?",
@@ -169,21 +217,26 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "252",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_7"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 8,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$ w^{2}+8w-28=0 $ Which of the following is a solution to the given equation?",
+    "passage": "$w^{2}+8w-28=0$\nWhich of the following is a solution to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ 4-2\\sqrt{11}$"
+        "text": "$4-2\\sqrt{11}$"
       },
       {
         "label": "B",
-        "text": "$ 2\\sqrt{11}$"
+        "text": "$2\\sqrt{11}$"
       },
       {
         "label": "C",
@@ -196,9 +249,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_8"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
     "question_number": 9,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "In the figure shown, point T lies on segment SW, and segment TU is parallel to segment VW. The measure of angle V is 26°, and the measure of angle STU is 74°. What is the value of p-r?",
@@ -206,9 +264,21 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "80",
-    "id": "32388549-e820-4b4a-91a9-d9c32e611098_9"
+    "rationale": null,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_9",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USB_Math_M2_Q9_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USB_Math_M2_Q9_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 10,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "On January 1, there were 233 views of a video posted on a social media site. Every 2 days after January 1, the number of views of the video had increased by 60% of the number of views 2 days earlier. The function f gives the predicted number of views a days after January 1. Which equation defines f?",
@@ -216,26 +286,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ f(x)=233(0.60)^{\\frac{x}{2}}$"
+        "text": "$f(x)=233(0.60)^{\\frac{x}{2}}$"
       },
       {
         "label": "B",
-        "text": "$ f(x)=233(0.60)^{2x}$"
+        "text": "$f(x)=233(0.60)^{2x}$"
       },
       {
         "label": "C",
-        "text": "$ f(x)=233(1.60)^{\\frac{x}{2}}$"
+        "text": "$f(x)=233(1.60)^{\\frac{x}{2}}$"
       },
       {
         "label": "D",
-        "text": "$ f(x)=233(1.60)^{2x}$"
+        "text": "$f(x)=233(1.60)^{2x}$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_10"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "difficulty": "null",
     "question_number": 11,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "The shaded region shown represents the solutions to the inequality ry < 128, where r is aconstant. What is the value of r?",
@@ -260,9 +335,21 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "id": "32388549-e820-4b4a-91a9-d9c32e611098_11"
+    "rationale": null,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_11",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USB_Math_M2_Q11_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USB_Math_M2_Q11_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 12,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "How many solutions does the equation 4(16x-20)=-16(5- 4x) have?",
@@ -287,12 +374,17 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_12"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 13,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$ f(x)=3,950(0.38)^{\\frac{x}{12}}$ The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the preceding year, what is the value of p?",
+    "passage": "$f(x)=3,950(0.38)^{\\frac{x}{12}}$\nThe function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each <u> year </u> by p% of its value the preceding year, what is the value of p?",
     "question_text": null,
     "choices": [
       {
@@ -314,9 +406,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_13"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
     "question_number": 14,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "A beekeeper's initial observation of the population of a certain bee colony was 1,100 bees. The beekeeper set a goal to increase the population to 2,600 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,100 and increases by 120 bees per week in the first two weeks after the initial observation, and then increases by 180 bees per week until the beekeeper's goal is reached. According to this model, at the end of week w after the initial observation, where w > 2, which of the following functions gives the predicted number of bees still needed to reach the beekeeper's goal?",
@@ -324,26 +421,31 @@
     "choices": [
       {
         "label": "A",
-        "text": "$ p(w)=2,600-180w $"
+        "text": "$p(w)=2,600-180w$"
       },
       {
         "label": "B",
-        "text": "$ p(w)=2,480+180w $"
+        "text": "$p(w)=2,480+180w$"
       },
       {
         "label": "C",
-        "text": "$ p(w)=1,620-180w $"
+        "text": "$p(w)=1,620-180w$"
       },
       {
         "label": "D",
-        "text": "$ p(w)=-120+180w $"
+        "text": "$p(w)=-120+180w$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_14"
   },
   {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
     "question_number": 15,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "What is an equation of the graph shown?",
@@ -368,12 +470,24 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "id": "32388549-e820-4b4a-91a9-d9c32e611098_15"
+    "rationale": null,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_15",
+    "images": [
+      {
+        "src": "/images_labeled/Dec_24_USB_Math_M2_Q15_1.png",
+        "alt": "",
+        "local": "images_labeled/Dec_24_USB_Math_M2_Q15_1.png"
+      }
+    ]
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
     "question_number": 16,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "Which expression is a factor of $ 36x^{2}(x+12)-36(x+12)^{3}$?",
+    "passage": "Which expression is a factor of $36x^{2}(x+12)-36(x+12)^{3}$?",
     "question_text": null,
     "choices": [
       {
@@ -395,21 +509,26 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_16"
   },
   {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "difficulty": "null",
     "question_number": 17,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$ 30x=1,800y-3,600 $ One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?",
+    "passage": "$30x=1,800y-3,600$\nOne of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{30}x=2y $"
+        "text": "$\\frac{1}{30}x=2y$"
       },
       {
         "label": "B",
-        "text": "$\\frac{1}{30}x=60y-120 $"
+        "text": "$\\frac{1}{30}x=60y-120$"
       },
       {
         "label": "C",
@@ -422,9 +541,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_17"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 18,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "The exponential function f is defined by f(x)= ab x, where a and b are positive constants. If f(s) =t and f(s+1)=t- 0.87t, where s and t are constants, what is the value of b?",
@@ -449,9 +573,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_18"
   },
   {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
     "question_number": 19,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "A container has a volume of 0.84 cubic meters. Which of the following is closest to this volume, in quarts?(Note: 100.00 centimeters = 1 meter. Use 946.35 cubic centimeters = 1.00 quart.)",
@@ -476,9 +605,14 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_19"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
     "question_number": 20,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "Function f is a quadratic function. The graph of y= f(x) in the xy-plane has a vertex at (4,-6), contains the point (3, -8), and has a y-intercept at (0, a). The graph of y= 5 · f(x) has a y-intercept at (0, b). What is the positive difference between a and b?",
@@ -486,19 +620,29 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "152",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_20"
   },
   {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
     "question_number": 21,
     "test_name": "December 2024 US Form B SAT Math Module 2",
-    "passage": "$-x^{2}+bx-64=0 $ In the given equation, b is an integer, The equation has no real solutions, What is the least possible value of b?",
+    "passage": "$-x^{2}+bx-64=0$\nIn the given equation, b is an integer, The equation has no real solutions, What is the least possible value of b?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "-15",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_21"
   },
   {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
     "question_number": 22,
     "test_name": "December 2024 US Form B SAT Math Module 2",
     "passage": "A researcher investigated two species of mites: a predator and its prey. At the start of a week, there was an equal number of the two species. At the end of the week, the number of prey had increased by 2,700% of the number of prey at the start of the week, and the number of predators had increased by 180% of the number of predators at the start of the week. The number of prey at the end of the week was p% greater than the number of predators at the end of the week, What is the value of p?",
@@ -506,6 +650,7 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "900",
+    "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_22"
   }
 ]
