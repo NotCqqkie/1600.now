@@ -55,6 +55,7 @@ const OfficialBankQuestion = () => {
     // Note: ensure id comparison works for string/number types
     return practiceSet.findIndex(q => String(q.id) === rawId && q.subject === rawSubject);
   }, [isPracticeMode, practiceSet, rawId, rawSubject]);
+  const effectivePracticeMode = Boolean(isPracticeMode && practiceSet && practiceSet.length > 0 && currentPracticeIndex >= 0);
 
   const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : null) as BankSubject | null;
   // Handle string IDs for official bank
@@ -62,7 +63,7 @@ const OfficialBankQuestion = () => {
   
   // For total count, if using official bank, might differ.
   // bankCounts might be correct if officialQuestionBank updates it.
-  const totalQuestions = isPracticeMode ? practiceTotal : (subject ? bankCounts[subject] : 0);
+  const totalQuestions = effectivePracticeMode ? practiceTotal : (subject ? bankCounts[subject] : 0);
   
   const question = subject ? getBankQuestion(subject, questionId) : null;
 
@@ -265,7 +266,7 @@ const OfficialBankQuestion = () => {
   }, [question, pool]);
 
   const handlePrevious = () => {
-    if (isPracticeMode && practiceSet) {
+    if (effectivePracticeMode && practiceSet) {
       goToPracticeIndex(currentPracticeIndex - 1);
     } else {
         if (currentPoolIndex > 0) {
@@ -276,7 +277,7 @@ const OfficialBankQuestion = () => {
   };
 
   const handleNext = () => {
-    if (isPracticeMode && practiceSet) {
+    if (effectivePracticeMode && practiceSet) {
       goToPracticeIndex(currentPracticeIndex + 1);
     } else {
         if (currentPoolIndex < pool.length - 1) {
@@ -287,9 +288,9 @@ const OfficialBankQuestion = () => {
   };
   
   // Re-calc basic nav flags based on pool index
-  const canGoPrevious = isPracticeMode ? currentPracticeIndex > 0 : currentPoolIndex > 0;
-  const canGoNext = isPracticeMode ? currentPracticeIndex < practiceTotal - 1 : currentPoolIndex < pool.length - 1;
-  const displayQuestionNumber = isPracticeMode ? (currentPracticeIndex + 1) : (currentPoolIndex + 1); // 1-based index in pool
+  const canGoPrevious = effectivePracticeMode ? currentPracticeIndex > 0 : currentPoolIndex > 0;
+  const canGoNext = effectivePracticeMode ? currentPracticeIndex < practiceTotal - 1 : currentPoolIndex < pool.length - 1;
+  const displayQuestionNumber = effectivePracticeMode ? (currentPracticeIndex + 1) : (currentPoolIndex + 1); // 1-based index in pool
 
   const handleCheck = (overrideAnswer?: string) => {
     if (!question) return;
@@ -742,7 +743,7 @@ const OfficialBankQuestion = () => {
             </div>
 
             <div className="min-w-0 overflow-hidden px-1 flex justify-center">
-              {isPracticeMode ? (
+              {effectivePracticeMode ? (
                 <OfficialPracticeNavigationSheet
                   currentIndex={currentPracticeIndex}
                   practiceSet={practiceSet || []}
@@ -753,13 +754,14 @@ const OfficialBankQuestion = () => {
                 />
               ) : (
                 <BankNavigationSheet
-                  currentQuestion={isPracticeMode ? currentPracticeIndex + 1 : currentPoolIndex + 1}
+                  currentQuestion={Math.max(1, currentPoolIndex + 1)}
                   totalQuestions={totalQuestions}
                   onJump={(idx) => {
                        // BankNavigationSheet usually sends idx (1-based)
                        // logic: onJump needs to map to ID or Index.
                        // Standard Bank: onJump(num). goTo(num).
                        // Here process is:
+                       if (idx < 1 || idx > pool.length) return;
                        if (pool[idx - 1]) {
                            goTo(pool[idx - 1].id);
                        }

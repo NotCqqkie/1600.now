@@ -40,7 +40,8 @@ const Home = () => {
     const tick = (time: number) => {
       if (!startTime) startTime = time;
       const progress = Math.min((time - startTime) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
+      // Aggressive ease-out: fast jump at the start, then gradual slowdown near the end.
+      const eased = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
       setCountValue(Math.floor(eased * totalQuestions));
 
       if (progress < 1) frame = requestAnimationFrame(tick);
@@ -68,7 +69,7 @@ const Home = () => {
 
           <nav className="hidden md:flex items-center gap-1 text-sm font-medium text-muted-foreground" aria-label="Primary">
             <Link to="/bank" className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground">Question Bank</Link>
-            <Link to="/question/1" className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground">100 Hard</Link>
+            <Link to="/question/1" className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground">100 Hard Questions</Link>
           </nav>
 
           <div className="inline-flex items-center gap-2">

@@ -1,5 +1,6 @@
 import { questions as allQuestionsData, type Question as SourceQuestion } from "./all_questions";
 import { questionImageMap } from "./questionImageMap";
+import { satImageManifest } from "./satImageManifest";
 // @ts-ignore
 // import categoryMap from "./category_map.json"; // IDs don't match anymore
 import {
@@ -51,15 +52,53 @@ export { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomain
 // Prefer the SAT-style images directory for all bank assets
 const SAT_IMAGE_BASE = "/images/SAT-Style%20Questions/";
 
+const safeDecodeURIComponent = (value: string): string => {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+};
+
+const toCanonicalSatImagePath = (input: string): string | undefined => {
+  if (!input) return undefined;
+  const normalized = input.replace(/\\/g, "/").trim();
+  const segments = normalized.split("/").filter(Boolean);
+  const rawName = segments[segments.length - 1];
+  if (!rawName) return undefined;
+  const decodedName = safeDecodeURIComponent(rawName);
+  return `${SAT_IMAGE_BASE}${encodeURIComponent(decodedName)}`;
+};
+
 const ensureSatImagePath = (path: string) => {
-  if (!path) return path;
-  // If already pointing to SAT-Style Questions, keep it
-  if (path.includes("SAT-Style")) return path;
-  // If it already uses /images/ with a subfolder, keep it
-  if (path.startsWith("/images/")) return path;
-  const parts = path.split("/");
-  const file = parts[parts.length - 1];
-  return `${SAT_IMAGE_BASE}${file}`;
+  if (!path) return undefined;
+
+  const normalized = path.replace(/\\/g, "/").trim();
+  const candidates = new Set<string>();
+
+  if (normalized.startsWith("/images/")) {
+    const encodedFull = normalized
+      .split("/")
+      .map((segment, index) =>
+        index === 0 ? segment : encodeURIComponent(safeDecodeURIComponent(segment))
+      )
+      .join("/");
+    candidates.add(encodedFull);
+    candidates.add(normalized);
+  }
+
+  const canonicalSatPath = toCanonicalSatImagePath(normalized);
+  if (canonicalSatPath) {
+    candidates.add(canonicalSatPath);
+  }
+
+  for (const candidate of candidates) {
+    if (satImageManifest.has(candidate)) {
+      return candidate;
+    }
+  }
+
+  return undefined;
 };
 
 // Heuristic: preserve real math $...$ pairs; escape lone/likely-currency dollars.
@@ -140,19 +179,27 @@ const hasRenderableStem = (q: SourceQuestion): boolean => {
 
 const mapImages = (q: SourceQuestion) => {
   const supplemental = questionImageMap[String(q.id)];
-  const supplementalImages = supplemental?.questionImages?.map((img) => ({
-    src: ensureSatImagePath(img.src),
-    alt: img.alt || "Question image",
-  }));
+  const supplementalImages = supplemental?.questionImages
+    ?.map((img) => {
+      const src = ensureSatImagePath(img.src);
+      if (!src) return null;
+      return {
+        src,
+        alt: img.alt || "Question image",
+      };
+    })
+    .filter((img): img is { src: string; alt: string } => Boolean(img));
 
   if (supplementalImages && supplementalImages.length > 0) {
     return supplementalImages;
   }
 
   if (!q.image) return undefined;
+  const stemImage = ensureSatImagePath(q.image);
+  if (!stemImage) return undefined;
   return [
     {
-      src: ensureSatImagePath(q.image),
+      src: stemImage,
       alt: "Question image",
     },
   ];
@@ -164,14 +211,16 @@ const mapChoices = (q: SourceQuestion) => {
   const supplemental = questionImageMap[String(q.id)];
   return choices.map((choice) => {
     const fallbackChoiceImage = supplemental?.choiceImages?.[choice.id];
+    const resolvedChoiceImage = choice.image
+      ? ensureSatImagePath(choice.image)
+      : fallbackChoiceImage
+      ? ensureSatImagePath(fallbackChoiceImage)
+      : undefined;
+
     return {
       id: choice.id,
       text: choice.text ? sanitizeCurrency(choice.text) : undefined,
-      image: choice.image
-        ? ensureSatImagePath(choice.image)
-        : fallbackChoiceImage
-        ? ensureSatImagePath(fallbackChoiceImage)
-        : undefined,
+      image: resolvedChoiceImage,
     } satisfies BankChoice;
   });
 };
