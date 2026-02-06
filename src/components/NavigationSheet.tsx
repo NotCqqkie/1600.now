@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { Bookmark, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { createPortal } from "react-dom";
 
 interface NavigationSheetProps {
   currentQuestion: number;
@@ -71,8 +72,8 @@ export const NavigationSheet = ({
         Question {currentQuestion}
       </Button>
 
-      {/* Overlay - positioned above bottom nav, centered within question area */}
-      {isOpen && <div 
+      {/* Overlay - rendered in a portal so nav container transforms/overflow can't clip it */}
+      {isOpen && typeof document !== "undefined" && createPortal(<div 
         className="fixed bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 max-w-[520px] max-h-[50vh] overflow-hidden"
         style={{
           ...getCenterStyle(),
@@ -120,7 +121,7 @@ export const NavigationSheet = ({
           const isFlagged = isQuestionFlagged(num);
           const isCurrent = num === currentQuestion;
           return <button key={num} onClick={() => {
-            navigate(`/question/${num}`);
+            navigate(`/hard/${num}`);
             setIsOpen(false);
           }} className={cn("h-9 flex items-center justify-center rounded border-2 transition-colors text-xs font-medium relative", getStatusColor(status), isCurrent && "ring-2 ring-primary ring-offset-1")}>
                   {isFlagged && (
@@ -130,6 +131,6 @@ export const NavigationSheet = ({
                 </button>;
         })}
           </div>
-        </div>}
+        </div>, document.body)}
     </>;
 };

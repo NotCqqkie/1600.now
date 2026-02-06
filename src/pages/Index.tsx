@@ -151,9 +151,16 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-                1600.now
-              </h1>
+              <img
+                src="/logo_b.png"
+                alt="1600.now"
+                className="h-8 w-auto max-w-[220px] object-contain dark:hidden"
+              />
+              <img
+                src="/logo_w.png"
+                alt="1600.now"
+                className="hidden h-8 w-auto max-w-[220px] object-contain dark:block"
+              />
               <p className="text-muted-foreground text-sm">Master the SAT with comprehensive practice</p>
             </div>
           </div>
@@ -165,7 +172,7 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <Card 
             className="p-6 cursor-pointer hover:shadow-lg transition-shadow border-2 border-primary/20 hover:border-primary/50"
-            onClick={() => navigate("/question/1")}
+            onClick={() => navigate("/hard/1")}
           >
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-lg bg-primary/10">
@@ -301,4 +308,3 @@ const Index = () => {
 };
 
 export default Index;
-

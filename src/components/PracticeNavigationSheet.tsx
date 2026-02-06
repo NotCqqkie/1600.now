@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { X, Bookmark, Home } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useNavigate } from "react-router-dom";
+import { createPortal } from "react-dom";
 
 interface PracticeSetItem {
   subject: string;
@@ -79,7 +80,7 @@ export const PracticeNavigationSheet = ({
         Question {currentIndex + 1} of {practiceSet.length}
       </Button>
 
-      {isOpen && (
+      {isOpen && typeof document !== "undefined" && createPortal(
         <div
           className="fixed bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 w-[min(90vw,520px)] max-h-[55vh] overflow-hidden"
           style={getCenterStyle()}
@@ -128,7 +129,8 @@ export const PracticeNavigationSheet = ({
               );
             })}
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );

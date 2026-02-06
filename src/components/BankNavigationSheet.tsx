@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { X, Bookmark } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { createPortal } from "react-dom";
 
 interface BankNavigationSheetProps {
   currentQuestion: number;
@@ -78,7 +79,7 @@ export const BankNavigationSheet = ({
         Question {currentQuestion}
       </Button>
 
-      {isOpen && (
+      {isOpen && typeof document !== "undefined" && createPortal(
         <div
           className="fixed bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 w-[min(90vw,520px)] max-h-[55vh] overflow-hidden"
           style={getCenterStyle()}
@@ -132,7 +133,8 @@ export const BankNavigationSheet = ({
               );
             })}
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );
