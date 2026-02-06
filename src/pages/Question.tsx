@@ -179,6 +179,7 @@ function Question() {
   const topNavRef = useRef<HTMLDivElement>(null);
   const topLeftRef = useRef<HTMLDivElement>(null);
   const topRightRef = useRef<HTMLDivElement>(null);
+  const topRightControlsRef = useRef<HTMLDivElement>(null);
   const topTimerRef = useRef<HTMLDivElement>(null);
   const topLeftMeasurementRef = useRef<HTMLDivElement>(null);
   const topMeasurementRef = useRef<HTMLDivElement>(null);
@@ -256,17 +257,22 @@ function Question() {
         bottomNavGridRef.current
       ) {
         const gridGap = Number.parseFloat(getComputedStyle(bottomNavGridRef.current).columnGap || "8") || 8;
-        const leftRect = bottomNavLeftRef.current.getBoundingClientRect();
-        const centerRect = bottomNavCenterRef.current.getBoundingClientRect();
-        const rightRect = bottomNavRightRef.current.getBoundingClientRect();
-        const leftGap = centerRect.left - leftRect.right;
-        const rightGap = rightRect.left - centerRect.right;
+        const containerWidth = bottomNavRef.current?.offsetWidth ?? 0;
+        const leftWidth = bottomNavLeftRef.current.offsetWidth;
+        const rightWidth = bottomNavRightRef.current.offsetWidth;
+        const centerWidth = bottomNavCenterRef.current.offsetWidth;
+        const centeredLeft = containerWidth / 2 - centerWidth / 2;
+        const centeredRight = containerWidth / 2 + centerWidth / 2;
+        const leftGap = centeredLeft - leftWidth;
+        const rightGap = (containerWidth - rightWidth) - centeredRight;
         const currentlyPinned = bottomCenterPinnedRef.current;
+        const splitThresholdBuffer = 30;
         const repinSlack = 12;
 
         const nextPinned = currentlyPinned
-          ? leftGap >= gridGap && rightGap >= gridGap
-          : leftGap >= gridGap + repinSlack && rightGap >= gridGap + repinSlack;
+          ? leftGap >= gridGap + splitThresholdBuffer && rightGap >= gridGap + splitThresholdBuffer
+          : leftGap >= gridGap + splitThresholdBuffer + repinSlack &&
+            rightGap >= gridGap + splitThresholdBuffer + repinSlack;
 
         if (nextPinned !== currentlyPinned) {
           bottomCenterPinnedRef.current = nextPinned;
@@ -274,26 +280,23 @@ function Question() {
         }
       }
 
-      // Apply the same center-then-stick behavior for the top timer controls.
-      if (topNavRef.current && topLeftRef.current && topRightRef.current && topTimerRef.current) {
+      // Keep timer centered when possible and restore centering once enough room returns.
+      if (topNavRef.current && topLeftRef.current && topRightControlsRef.current && topTimerRef.current) {
         const containerWidth = topNavRef.current.offsetWidth;
         const leftWidth = topLeftRef.current.offsetWidth;
-        const rightWidth = topRightRef.current.offsetWidth;
+        const rightControlsWidth = topRightControlsRef.current.offsetWidth;
         const timerWidth = topTimerRef.current.offsetWidth;
-        const rightGroupGap = Number.parseFloat(getComputedStyle(topRightRef.current).columnGap || "8") || 8;
+        const navGap = Number.parseFloat(getComputedStyle(topNavRef.current).columnGap || "12") || 12;
         const centeredLeft = containerWidth / 2 - timerWidth / 2;
         const centeredRight = containerWidth / 2 + timerWidth / 2;
         const leftGap = centeredLeft - leftWidth;
-        const rightGap = (containerWidth - rightWidth) - centeredRight;
-        const availableGap = Math.min(leftGap, rightGap);
+        const rightGap = (containerWidth - rightControlsWidth) - centeredRight;
         const currentlyPinned = topTimerPinnedRef.current;
+        const repinSlack = 12;
 
-        const nextPinned = getNextStateForGreaterThan({
-          currentState: currentlyPinned,
-          value: availableGap,
-          enterThreshold: rightGroupGap + 14,
-          exitThreshold: rightGroupGap + 2,
-        });
+        const nextPinned = currentlyPinned
+          ? leftGap >= navGap && rightGap >= navGap
+          : leftGap >= navGap + repinSlack && rightGap >= navGap + repinSlack;
 
         if (nextPinned !== currentlyPinned) {
           topTimerPinnedRef.current = nextPinned;
@@ -345,6 +348,9 @@ function Question() {
       }
       if (topRightRef.current) {
         resizeObserver.observe(topRightRef.current);
+      }
+      if (topRightControlsRef.current) {
+        resizeObserver.observe(topRightControlsRef.current);
       }
       if (topTimerRef.current) {
         resizeObserver.observe(topTimerRef.current);
@@ -853,60 +859,62 @@ function Question() {
                   {timerControls}
                 </div>
               )}
-              <ThemeToggle />
-              <FormulaSheetDialog 
-                onSplitScreenChange={handleSplitScreenChange}
-                splitPosition={splitPosition}
-                onFocus={() => bringToFront('referenceSheet')}
-                zIndex={getZIndex('referenceSheet')}
-                constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
-                compressed={topShouldCompress}
-              />
-              <DesmosDialog 
-                onSplitScreenChange={handleSplitScreenChange}
-                onSplitPositionChange={handleSplitPositionChange}
-                splitPosition={splitPosition}
-                onFocus={() => bringToFront('desmos')}
-                zIndex={getZIndex('desmos')}
-                constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
-                isSidebarred={sidebarredWindows.has('desmos')}
-                onSidebarToggle={handleSidebarToggle}
-                compressed={topShouldCompress}
-              />
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="outline" size="sm" title="Question View">
-                    {questionViewMode === 'vertical' ? (
-                      <Rows3 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
-                    ) : (
-                      <Columns3 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
-                    )}
-                    {!topShouldCompress && "View"}
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end">
-                  <DropdownMenuItem onClick={() => setQuestionViewMode('vertical')} className={questionViewMode === 'vertical' ? 'bg-muted' : ''}>
-                    <Rows3 className="mr-2 h-4 w-4" />
-                    Vertical
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => setQuestionViewMode('horizontal')} className={questionViewMode === 'horizontal' ? 'bg-muted' : ''}>
-                    <Columns3 className="mr-2 h-4 w-4" />
-                    Horizontal
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={toggleFullscreen}
-                title={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
-              >
-                {isFullscreen ? (
-                  <Minimize2 className="h-4 w-4" />
-                ) : (
-                  <Maximize2 className="h-4 w-4" />
-                )}
-              </Button>
+              <div ref={topRightControlsRef} className="flex items-center gap-2">
+                <ThemeToggle />
+                <FormulaSheetDialog 
+                  onSplitScreenChange={handleSplitScreenChange}
+                  splitPosition={splitPosition}
+                  onFocus={() => bringToFront('referenceSheet')}
+                  zIndex={getZIndex('referenceSheet')}
+                  constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                  compressed={topShouldCompress}
+                />
+                <DesmosDialog 
+                  onSplitScreenChange={handleSplitScreenChange}
+                  onSplitPositionChange={handleSplitPositionChange}
+                  splitPosition={splitPosition}
+                  onFocus={() => bringToFront('desmos')}
+                  zIndex={getZIndex('desmos')}
+                  constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                  isSidebarred={sidebarredWindows.has('desmos')}
+                  onSidebarToggle={handleSidebarToggle}
+                  compressed={topShouldCompress}
+                />
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <Button variant="outline" size="sm" title="Question View">
+                      {questionViewMode === 'vertical' ? (
+                        <Rows3 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                      ) : (
+                        <Columns3 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                      )}
+                      {!topShouldCompress && "View"}
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="end">
+                    <DropdownMenuItem onClick={() => setQuestionViewMode('vertical')} className={questionViewMode === 'vertical' ? 'bg-muted' : ''}>
+                      <Rows3 className="mr-2 h-4 w-4" />
+                      Vertical
+                    </DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => setQuestionViewMode('horizontal')} className={questionViewMode === 'horizontal' ? 'bg-muted' : ''}>
+                      <Columns3 className="mr-2 h-4 w-4" />
+                      Horizontal
+                    </DropdownMenuItem>
+                  </DropdownMenuContent>
+                </DropdownMenu>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={toggleFullscreen}
+                  title={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
+                >
+                  {isFullscreen ? (
+                    <Minimize2 className="h-4 w-4" />
+                  ) : (
+                    <Maximize2 className="h-4 w-4" />
+                  )}
+                </Button>
+              </div>
             </div>
 
             {/* Hidden measurements keep compression thresholds stable regardless of current UI mode */}

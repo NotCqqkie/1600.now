@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
-import { supabase } from '@/lib/supabase';
+import { db } from '@/lib/firebase';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
 
 export interface Attempt {
   timestamp: number;
@@ -92,42 +93,31 @@ export const useUserProgress = () => {
     return () => window.removeEventListener('storage', handleStorageChange);
   }, []);
 
-  // Sync with Supabase on user login
+  // Sync with Firestore on user login
   useEffect(() => {
     if (!user) return;
 
     const fetchProgress = async () => {
       try {
-        const { data, error } = await supabase
-          .from('user_progress')
-          .select('data')
-          .eq('user_id', user.id)
-          .single();
+        const progressRef = doc(db, 'user_progress', user.id);
+        const progressSnap = await getDoc(progressRef);
+        const remoteProgress = progressSnap.data()?.data as Record<string, QuestionProgress> | undefined;
 
-        if (error && error.code !== 'PGRST116') {
-          console.error('Error fetching progress:', error);
-          return;
-        }
-
-        if (data?.data) {
+        if (remoteProgress) {
           // Check if we have local data that needs to be merged or if we should just take server data
           // For now, simple strategy: If server has data, use it. 
           // If server is empty but we have local data (first sync), upload local.
           
-          if (Object.keys(data.data).length > 0) {
-              setProgress(data.data);
-              localStorage.setItem(STORAGE_KEY, JSON.stringify(data.data));
+          if (Object.keys(remoteProgress).length > 0) {
+              setProgress(remoteProgress);
+              localStorage.setItem(STORAGE_KEY, JSON.stringify(remoteProgress));
           } else if (Object.keys(progress).length > 0) {
              // Server empty, upload current local
-             await supabase
-              .from('user_progress')
-              .upsert({ user_id: user.id, data: progress });
+             await setDoc(progressRef, { user_id: user.id, data: progress }, { merge: true });
           }
         } else if (Object.keys(progress).length > 0) {
-           // No row exists, upload local data
-            await supabase
-              .from('user_progress')
-              .upsert({ user_id: user.id, data: progress });
+           // No document exists, upload local data
+            await setDoc(progressRef, { user_id: user.id, data: progress }, { merge: true });
         }
       } catch (err) {
         console.error('Failed to sync progress:', err);
@@ -140,7 +130,8 @@ export const useUserProgress = () => {
   const persist = useCallback(async (newProgress: Record<string, QuestionProgress>) => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(newProgress));
     if (user) {
-      await supabase.from('user_progress').upsert({ user_id: user.id, data: newProgress });
+      const progressRef = doc(db, 'user_progress', user.id);
+      await setDoc(progressRef, { user_id: user.id, data: newProgress }, { merge: true });
     }
   }, [user]);
 
@@ -154,7 +145,8 @@ export const useUserProgress = () => {
     setProgress(empty);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(empty));
     if (user) {
-        await supabase.from('user_progress').upsert({ user_id: user.id, data: empty });
+        const progressRef = doc(db, 'user_progress', user.id);
+        await setDoc(progressRef, { user_id: user.id, data: empty }, { merge: true });
     }
   }, [user]);
 

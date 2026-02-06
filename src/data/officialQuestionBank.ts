@@ -5,6 +5,8 @@ import { satImageManifest } from "./satImageManifest";
 // import categoryMap from "./category_map.json"; // IDs don't match anymore
 import {
   classifyQuestion,
+  inferSubjectFromSource,
+  normalizeCategoryFromSource,
   type QuestionCategory,
   type MathDomain,
   type EnglishDomain,
@@ -139,11 +141,17 @@ const sanitizeCurrency = (text: string | null | undefined): string => {
   return result;
 };
 
+const inferQuestionSubject = (q: SourceQuestion): QuestionCategory["subject"] | null =>
+  inferSubjectFromSource({
+    section: q.section,
+    subject: q.category?.subject,
+    testName: q.testName,
+  });
+
 const isMathQuestion = (q: SourceQuestion): boolean => {
-    // 0. Trust source category if available
-    if (q.category) {
-        return q.category.subject === "Math";
-    }
+    // 0. Trust structured metadata when available
+    const sourceSubject = inferQuestionSubject(q);
+    if (sourceSubject) return sourceSubject === "Math";
 
     // 1. Check for Math in image path
     if (q.image && (q.image.includes("Math") || q.image.includes("_Math_"))) return true;
@@ -201,21 +209,30 @@ const mapChoices = (choices: SourceQuestion["choices"]) => {
 
 const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
   const type: BankQuestion["type"] = q.type || "multiple-choice";
-  const isMath = isMathQuestion(q);
+  const sourceSubject = inferQuestionSubject(q);
+  const isMath = sourceSubject ? sourceSubject === "Math" : isMathQuestion(q);
   // Full text for classification
-  const fullText = q.text + " " + (q.choices?.map(c => c.text).join(" ") || "");
+  const fullText = q.text + " " + (q.choices?.map((c) => c.text || "").join(" ") || "");
   
   let category: QuestionCategory;
+  const sourceCategory = normalizeCategoryFromSource({
+    section: q.section,
+    testName: q.testName,
+    subject: q.category?.subject,
+    domain: q.category?.domain ?? q.domain,
+    skill: q.category?.skill ?? q.skill,
+    confidence: q.category?.confidence,
+  });
 
-  if (q.category) {
-    category = q.category as QuestionCategory;
+  if (sourceCategory && (!sourceSubject || sourceCategory.subject === sourceSubject)) {
+    category = sourceCategory;
   } else {
-    // Fallback to classifier if not mapped
+    // Fallback to classifier only when source metadata is missing/inconsistent
     category = classifyQuestion(fullText, isMath) || {
-        subject: isMath ? "Math" : "English",
-        domain: isMath ? "Algebra" : "Information and Ideas",
-        skill: isMath ? "Linear equations in one variable" : "Central Ideas and Details",
-        confidence: "low" as const,
+      subject: isMath ? "Math" : "English",
+      domain: isMath ? "Algebra" : "Information and Ideas",
+      skill: isMath ? "Linear equations in one variable" : "Central Ideas and Details",
+      confidence: "low" as const,
     };
   }
 

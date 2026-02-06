@@ -7,14 +7,13 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/lib/supabase";
 import { Loader2 } from "lucide-react";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
-  const { signInWithGoogle } = useAuth();
+  const { signInWithGoogle, signUpWithEmailPassword } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
@@ -22,19 +21,13 @@ const Signup = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const { error } = await supabase.auth.signUp({
-        email,
-        password,
-      });
-
-      if (error) throw error;
+      await signUpWithEmailPassword(email, password);
       
       toast({
         title: "Account created!",
-        description: "Please check your email to verify your account.",
+        description: "Your account is ready.",
       });
-      // Optionally navigate to login or show verify message
-      navigate("/login");
+      navigate("/");
     } catch (error: any) {
       toast({
         variant: "destructive",

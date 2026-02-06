@@ -103,7 +103,30 @@ export const OfficialPracticeNavigationSheet = ({
             </div>
           </div>
 
-          <div className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-2 overflow-auto max-h-[calc(55vh-100px)] p-1">
+          <div className="flex flex-wrap gap-3 items-center justify-center py-2 border-b mb-3 text-xs">
+            <div className="flex items-center gap-1.5">
+              <div className="w-4 h-4 bg-[#C8E6C9] dark:bg-[#1B5E20] rounded border border-[#1B5E20] dark:border-[#2E7D32]" />
+              <span>Correct</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <div className="w-4 h-4 bg-[#FFE0B2] dark:bg-[#E65100] rounded border border-[#E65100] dark:border-[#EF6C00]" />
+              <span>Correct (after attempts)</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <div className="w-4 h-4 bg-[#FFCDD2] dark:bg-[#5C1010] rounded border border-[#B71C1C] dark:border-[#8B0000]" />
+              <span>Incorrect</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <div className="w-4 h-4 bg-background rounded border-2 border-border" />
+              <span>Unanswered</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <Bookmark className="h-4 w-4 bookmark-flag" />
+              <span>Marked for Review</span>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-2 overflow-auto max-h-[calc(55vh-180px)] p-1">
             {practiceSet.map((item, idx) => {
               // CHANGED: official-bank- prefix
               const prefix = `official-bank-${item.subject}`;
