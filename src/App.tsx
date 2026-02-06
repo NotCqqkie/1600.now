@@ -51,7 +51,7 @@ const App = () => (
             <Route path="/signup" element={<Signup />} />
             <Route path="/profile" element={<Suspense fallback={<Loading />}><Profile /></Suspense>} />
             <Route path="/browse" element={<Suspense fallback={<Loading />}><Index /></Suspense>} />
-            <Route path="/question/:id" element={<Suspense fallback={<Loading />}><Question /></Suspense>} />
+            <Route path="/hard/:id" element={<Suspense fallback={<Loading />}><Question /></Suspense>} />
 
           <Route path="/bank" element={<Suspense fallback={<Loading />}><BankIndex /></Suspense>} />
           <Route path="/bank/:subject/browse" element={<Suspense fallback={<Loading />}><BankBrowse /></Suspense>} />

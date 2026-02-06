@@ -61,15 +61,20 @@ const Home = () => {
         <div className="container mx-auto h-16 px-4 flex items-center justify-between gap-3">
           <Link to="/" className="inline-flex items-center text-foreground no-underline" aria-label="1600.now homepage">
             <img
+              src="/logo_b.png"
+              alt="1600.now"
+              className="h-8 w-auto max-w-[180px] object-contain md:h-9 md:max-w-[220px] dark:hidden"
+            />
+            <img
               src="/logo_w.png"
               alt="1600.now"
-              className="h-8 w-auto max-w-[180px] object-contain md:h-9 md:max-w-[220px]"
+              className="hidden h-8 w-auto max-w-[180px] object-contain md:h-9 md:max-w-[220px] dark:block"
             />
           </Link>
 
           <nav className="hidden md:flex items-center gap-1 text-sm font-medium text-muted-foreground" aria-label="Primary">
             <Link to="/bank" className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground">Question Bank</Link>
-            <Link to="/question/1" className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground">100 Hard Questions</Link>
+            <Link to="/hard/1" className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground">100 Hard Questions</Link>
           </nav>
 
           <div className="inline-flex items-center gap-2">
