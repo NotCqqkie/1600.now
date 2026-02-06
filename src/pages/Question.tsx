@@ -1,30 +1,86 @@
-import { useParams, useNavigate } from "react-router-dom";
-import { useState, useEffect, useRef } from "react";
+import { useParams, useNavigate, useLocation, useSearchParams } from "react-router-dom";
+import { useState, useEffect, useRef, useLayoutEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { NavigationSheet } from "@/components/NavigationSheet";
+import { BankNavigationSheet } from "@/components/BankNavigationSheet";
+import { OfficialPracticeNavigationSheet } from "@/components/OfficialPracticeNavigationSheet"; 
+import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet"; 
 import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
-import { ChevronLeft, ChevronRight, Check, Bookmark, Strikethrough, Maximize2, Minimize2 } from "lucide-react";
+import { PreviousAttemptsDialog } from "@/components/PreviousAttemptsDialog";
+import { ChevronLeft, ChevronRight, Check, Bookmark, Strikethrough, Maximize2, Minimize2, Rows3, Columns3 } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { toast } from "sonner";
-import { questions } from "@/data/questions";
-import { renderMixedContent } from "@/lib/utils";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { questions as originalQuestions } from "@/data/100 Hard";
+import { getBankQuestion as getBankQuestionNormal, bankCounts as normalBankCounts } from "@/data/questionBank";
+import { getBankQuestion as getBankQuestionOfficial, bankCounts as officialBankCounts } from "@/data/officialQuestionBank";
+import { cn, renderMixedContent } from "@/lib/utils";
+import { useUserProgress } from "@/hooks/useUserProgress";
 import "katex/dist/katex.min.css";
 
+// Use original 100 hard questions with uuid for progress tracking
+const hardQuestions = originalQuestions.map(q => ({
+  ...q,
+  uuid: `hard-${q.id}` // Unique ID for progress tracking
+}));
+
 function Question() {
-  const { id } = useParams<{ id: string }>();
+  const { id, subject: rawSubject } = useParams<{ id: string; subject?: string }>();
   const navigate = useNavigate();
-  const questionNumber = parseInt(id || "1");
-  const [checked, setChecked] = useState(false);
+  const location = useLocation();
+  const [searchParams] = useSearchParams();
+
+  // Mode detection
+  const isBank = location.pathname.startsWith('/bank');
+  const isOfficialBank = location.pathname.startsWith('/official-bank');
+  const is100Hard = !isBank && !isOfficialBank;
+
+  // Practice Mode detection
+  const isPracticeMode = searchParams.get('practice') === 'true';
+  const practiceSet = useMemo(() => {
+    if (!isPracticeMode) return [];
+    try { return JSON.parse(sessionStorage.getItem('practiceSet') || '[]'); } catch { return []; }
+  }, [isPracticeMode]);
+
+  // If needed: const practiceIdx = parseInt(searchParams.get('idx') || '0', 10);
+
+  const questionNumber = parseInt(id || "1", 10);
+  const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading";
+
+  // Data fetching logic
+  const questionData = useMemo(() => {
+    if (is100Hard) {
+      return hardQuestions.find(q => q.id === questionNumber);
+    }
+    
+    // Bank / Official Bank Logic
+    const getter = isOfficialBank ? getBankQuestionOfficial : getBankQuestionNormal;
+    const q = getter(subject, questionNumber);
+    
+    if (!q) return null;
+    return {
+      ...q,
+      uuid: `${isOfficialBank ? 'official' : 'bank'}-${subject}-${q.id}` // Unique ID
+    };
+
+  }, [is100Hard, isBank, isOfficialBank, questionNumber, subject]);
+
+  const { progress, addAttempt, toggleReview } = useUserProgress();
+  
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
   const [freeResponseAnswer, setFreeResponseAnswer] = useState<string>("");
-  const [markedForReview, setMarkedForReview] = useState(false);
   const [strikeoutMode, setStrikeoutMode] = useState(false);
-  const [checkButtonVariant, setCheckButtonVariant] = useState<"default" | "destructive" | "success">("default");
+  const [checkButtonState, setCheckButtonState] = useState<"idle" | "incorrect" | "correct-first" | "correct-later">("idle");
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
   const [sidebarredWindows, setSidebarredWindows] = useState<Set<string>>(new Set()); // Track which windows SHOULD be sidebarred
@@ -34,11 +90,34 @@ function Question() {
   const [topShouldCompress, setTopShouldCompress] = useState(false);
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation']);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [questionViewMode, setQuestionViewMode] = useState<'vertical' | 'horizontal'>('vertical');
+  const [questionSplitPosition, setQuestionSplitPosition] = useState(50);
+  const [isResizingQuestionSplit, setIsResizingQuestionSplit] = useState(false);
   const bottomNavRef = useRef<HTMLDivElement>(null);
   const bottomMeasurementRef = useRef<HTMLDivElement>(null);
   const topNavRef = useRef<HTMLDivElement>(null);
   const topMeasurementRef = useRef<HTMLDivElement>(null);
   const topCompressStateRef = useRef(false);
+  const startTimeRef = useRef(Date.now());
+
+  const currentQuestion = questionData;
+  const currentProgress = currentQuestion ? (progress[currentQuestion.uuid] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
+  const markedForReview = currentProgress.isMarkedForReview;
+
+  // View Mode Defaulting for different subjects
+  useEffect(() => {
+     if (isBank || isOfficialBank) {
+        if (subject === 'reading') setQuestionViewMode('horizontal');
+        else setQuestionViewMode('vertical');
+     } else {
+        setQuestionViewMode('vertical'); // Default for 100 Hard
+     }
+  }, [isBank, isOfficialBank, subject, questionNumber]); 
+
+  // Reset timer on question change
+  useEffect(() => {
+    startTimeRef.current = Date.now();
+  }, [questionNumber, subject, isBank, isOfficialBank]);
 
   // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
@@ -75,7 +154,9 @@ function Question() {
         const leftSection = topNavRef.current.querySelector('[data-header-left]') as HTMLElement | null;
         const leftWidth = leftSection ? leftSection.offsetWidth : 120;
         const buttonsNaturalWidth = topMeasurementRef.current.scrollWidth;
-        const totalNeeded = leftWidth + buttonsNaturalWidth + 48;
+        // Aggressive threshold: force icons sooner by adding larger buffer
+        // User requested: "turn int oi cons a bit sooner? be sure its detecting when the y cant compress any further"
+        const totalNeeded = leftWidth + buttonsNaturalWidth + 200; 
         // Hysteresis buffer to prevent rapid toggling near the threshold
         const buffer = 24;
         const currentlyCompressed = topCompressStateRef.current;
@@ -103,6 +184,37 @@ function Question() {
       clearTimeout(timeout);
     };
   }, [splitPosition, isSplitScreenActive]);
+
+  // Handle question split divider resizing (for horizontal view mode)
+  useEffect(() => {
+    if (!isResizingQuestionSplit) return;
+
+    document.body.classList.add("noselect");
+
+    const handleMouseMove = (e: MouseEvent) => {
+      // Calculate position relative to the available content area
+      const availableWidth = isSplitScreenActive 
+        ? (window.innerWidth * splitPosition) / 100 
+        : window.innerWidth;
+      const newPosition = (e.clientX / availableWidth) * 100;
+      const clampedPosition = Math.max(25, Math.min(75, newPosition));
+      setQuestionSplitPosition(clampedPosition);
+    };
+
+    const handleMouseUp = () => {
+      setIsResizingQuestionSplit(false);
+      document.body.classList.remove("noselect");
+    };
+
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
+
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+      document.body.classList.remove("noselect");
+    };
+  }, [isResizingQuestionSplit, isSplitScreenActive, splitPosition]);
 
   // Track fullscreen changes to keep button state in sync
   useEffect(() => {
@@ -181,97 +293,88 @@ function Question() {
     }
   }, [isSplitScreenActive]);
 
-  const currentQuestion = questions.find(q => q.id === questionNumber);
-  
   if (!currentQuestion) {
-    return <div>Question not found</div>;
+    return <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center">
+        <h1 className="text-2xl font-bold mb-4">Question not found</h1>
+        <Button onClick={() => navigate("/")}>Go Home</Button>
+      </div>
+    </div>;
   }
 
-  useEffect(() => {
-    // Render mixed content (HTML text + KaTeX math)
-    const questionElement = document.getElementById('question-content');
-    if (questionElement && currentQuestion) {
-      const renderedHtml = renderMixedContent(currentQuestion.text);
-      questionElement.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
-    }
-    
-    // Load saved flagged state from localStorage, but reset answer/check state
-    const savedFlagged = localStorage.getItem(`question-${questionNumber}-flagged`);
-    
-    // Always reset selection and check states when navigating to a question
+  // Reset selection and visual states immediately on question change to avoid flashes
+  useLayoutEffect(() => {
     setSelectedAnswer("");
     setFreeResponseAnswer("");
     setCheckedAnswers({});
-    setChecked(false);
-    setCheckButtonVariant("default");
-    
-    setMarkedForReview(savedFlagged === 'true');
+    setCheckButtonState("idle");
     setAttemptCount(0);
-  }, [questionNumber, currentQuestion]);
+  }, [questionNumber]);
 
-  // Keyboard shortcuts
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't trigger if user is typing in an input field
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
-        return;
-      }
+  // Helper to render content with consistent styling
+  const renderContent = (content: string, center: boolean = false) => {
+    if (!content) return null;
+    const html = renderMixedContent(content);
+    return (
+      <div 
+        className={cn("text-foreground break-words prose prose-stone dark:prose-invert max-w-none", center && "text-center")}
+        style={{ fontFamily: "'Noto Serif', serif", fontSize: "1.1rem", lineHeight: "1.8" }}
+      >
+        <span 
+          style={{ display: "block", width: "100%" }}
+          dangerouslySetInnerHTML={{ __html: html }} 
+        />
+      </div>
+    );
+  };
 
-      const choices = ['A', 'B', 'C', 'D'];
 
-      if (e.key === 'ArrowLeft') {
-        if (questionNumber > 1) {
-          navigate(`/question/${questionNumber - 1}`);
-        }
-      } else if (e.key === 'ArrowRight') {
-        if (questionNumber < 100) {
-          navigate(`/question/${questionNumber + 1}`);
-        }
-      } else if (e.key === 'ArrowUp') {
-        // Cycle to previous answer choice if one is selected
-        if (currentQuestion.type === 'multiple-choice' && selectedAnswer) {
-          const currentIndex = choices.indexOf(selectedAnswer);
-          if (currentIndex > 0) {
-            const newChoice = choices[currentIndex - 1];
-            if (!checkedAnswers[newChoice]) {
-              setSelectedAnswer(newChoice);
-            }
-          }
-        }
-      } else if (e.key === 'ArrowDown') {
-        // Cycle to next answer choice if one is selected
-        if (currentQuestion.type === 'multiple-choice' && selectedAnswer) {
-          const currentIndex = choices.indexOf(selectedAnswer);
-          if (currentIndex < choices.length - 1) {
-            const newChoice = choices[currentIndex + 1];
-            if (!checkedAnswers[newChoice]) {
-              setSelectedAnswer(newChoice);
-            }
-          }
-        }
-      } else if (e.key === 'Enter') {
-        // Prevent Enter from triggering focused buttons
-        e.preventDefault();
-        const userAnswer = currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer;
-        if (userAnswer && checkedAnswers[userAnswer] === undefined) {
-          handleCheck();
-        }
-      }
-    };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [questionNumber, navigate, selectedAnswer, freeResponseAnswer, currentQuestion, checkedAnswers]);
+  const totalQuestions = useMemo(() => {
+    if (is100Hard) return 100;
+    if (isPracticeMode) {
+      try { return JSON.parse(sessionStorage.getItem('practiceSet') || '[]').length; } catch { return 0; }
+    }
+    if (subject) {
+      const counts = isOfficialBank ? officialBankCounts : normalBankCounts;
+      return counts[subject] || 0;
+    }
+    return 0;
+  }, [is100Hard, isPracticeMode, isOfficialBank, subject]);
+
+  const storagePrefix = useMemo(() => {
+     if (is100Hard) return 'question';
+     if (subject) return `${isOfficialBank ? 'official-bank' : 'bank'}-${subject}`;
+     return 'bank'; 
+  }, [is100Hard, subject, isOfficialBank]);
 
   const handlePrevious = () => {
     if (questionNumber > 1) {
-      navigate(`/question/${questionNumber - 1}`);
+       if (is100Hard) {
+          navigate(`/question/${questionNumber - 1}`);
+       } else {
+           const base = isOfficialBank ? '/official-bank' : '/bank';
+           if (isPracticeMode) {
+             navigate(`${base}/${subject}/${questionNumber - 1}?${searchParams.toString()}`);
+           } else {
+             navigate(`${base}/${subject}/${questionNumber - 1}`);
+           }
+       }
     }
   };
 
   const handleNext = () => {
-    if (questionNumber < 100) {
-      navigate(`/question/${questionNumber + 1}`);
+    if (questionNumber < totalQuestions) {
+       if (is100Hard) {
+          navigate(`/question/${questionNumber + 1}`);
+       } else {
+           const base = isOfficialBank ? '/official-bank' : '/bank';
+           if (isPracticeMode) {
+             navigate(`${base}/${subject}/${questionNumber + 1}?${searchParams.toString()}`);
+           } else {
+             navigate(`${base}/${subject}/${questionNumber + 1}`);
+           }
+       }
     }
   };
 
@@ -280,6 +383,13 @@ function Question() {
     
     if (!userAnswer) {
       toast.error("Please provide an answer");
+      return;
+    }
+
+    // If we've already recorded a correct answer for this question in the current session,
+    // ignore further checks until the user navigates away (choices reset on navigation).
+    const alreadyCorrect = Object.values(checkedAnswers).some(Boolean);
+    if (alreadyCorrect) {
       return;
     }
 
@@ -298,8 +408,20 @@ function Question() {
     };
 
     const isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(currentQuestion.correctAnswer);
+    
+    // Format the answer for display (e.g., "A. answer text")
+    let formattedAnswer = userAnswer;
+    if (currentQuestion.type === "multiple-choice" && currentQuestion.choices) {
+      const choice = currentQuestion.choices.find(c => c.id === userAnswer);
+      if (choice) {
+        formattedAnswer = `${userAnswer}. ${choice.text || ""}`.trim();
+      }
+    }
+    
+    // Add attempt
+    const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
+    addAttempt(currentQuestion.uuid, isCorrect ? "correct" : "incorrect", duration, formattedAnswer);
 
-    setChecked(true);
     const newCheckedAnswers = { ...checkedAnswers, [userAnswer]: isCorrect };
     setCheckedAnswers(newCheckedAnswers);
     const newAttemptCount = attemptCount + 1;
@@ -310,16 +432,102 @@ function Question() {
     localStorage.setItem(`question-${questionNumber}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
 
     if (isCorrect) {
-      setCheckButtonVariant("success");
+      const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
+      setCheckButtonState(status);
       
       // Save status to localStorage
-      const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
       localStorage.setItem(`question-${questionNumber}-status`, status);
     } else {
-      setCheckButtonVariant("destructive");
+      setCheckButtonState("incorrect");
       
       // Save incorrect status
       localStorage.setItem(`question-${questionNumber}-status`, 'incorrect');
+    }
+  };
+
+  // Universal Hotkeys
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement;
+      // Don't interfere if user is typing in an input, unless it's Enter to submit
+      if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          handleCheck();
+        }
+        return;
+      }
+
+      switch (e.key) {
+        case 'ArrowLeft':
+          handlePrevious();
+          break;
+        case 'ArrowRight':
+          handleNext();
+          break;
+        case 'Enter':
+          e.preventDefault();
+          handleCheck();
+          break;
+        case 'ArrowUp':
+        case 'ArrowDown':
+          if (currentQuestion && currentQuestion.type === 'multiple-choice' && currentQuestion.choices) {
+            e.preventDefault();
+            const choiceIds = currentQuestion.choices.map(c => c.id);
+            if (choiceIds.length === 0) return;
+            
+            const currentIndex = choiceIds.indexOf(selectedAnswer);
+            let nextIndex = 0;
+            
+            if (currentIndex === -1) {
+              // If no selection, Down starts at first, Up starts at last
+              nextIndex = e.key === 'ArrowDown' ? 0 : choiceIds.length - 1;
+            } else {
+              if (e.key === 'ArrowUp') {
+                // Cycle backward
+                nextIndex = (currentIndex - 1 + choiceIds.length) % choiceIds.length;
+              } else {
+                // Cycle forward
+                nextIndex = (currentIndex + 1) % choiceIds.length;
+              }
+            }
+            
+            const nextId = choiceIds[nextIndex];
+            setSelectedAnswer(nextId);
+            localStorage.setItem(`question-${questionNumber}-answer`, nextId);
+          }
+          break;
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [
+    handleNext, 
+    handlePrevious, 
+    handleCheck, 
+    currentQuestion, 
+    selectedAnswer, 
+    questionNumber
+  ]);
+
+  const hasSelection = currentQuestion.type === 'multiple-choice' ? Boolean(selectedAnswer) : Boolean(freeResponseAnswer);
+  const isCheckDisabled = !hasSelection || checkButtonState === "correct-first" || checkButtonState === "correct-later";
+
+  const getCheckButtonClasses = () => {
+    if (!hasSelection && checkButtonState === "idle") {
+      return "bg-background text-foreground border-border";
+    }
+
+    switch (checkButtonState) {
+      case "correct-first":
+        return "bg-[#C8E6C9] hover:bg-[#A5D6A7] border-[#1B5E20] text-[#1B5E20] dark:bg-[#1B5E20] dark:hover:bg-[#144216] dark:border-[#2E7D32] dark:text-white disabled:opacity-100";
+      case "correct-later":
+        return "bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#E65100] text-[#BF360C] dark:bg-[#E65100] dark:hover:bg-[#BF360C] dark:border-[#EF6C00] dark:text-white disabled:opacity-100";
+      case "incorrect":
+        return "bg-[#FFCDD2] hover:bg-[#EF9A9A] border-[#B71C1C] text-[#2C1A1A] dark:bg-[#5C1010] dark:hover:bg-[#4A0D0D] dark:border-[#8B0000] dark:text-white";
+      default:
+        return hasSelection ? "bg-primary/10 hover:bg-primary/20 border-primary/40 text-foreground" : "bg-background text-foreground border-border";
     }
   };
 
@@ -363,6 +571,28 @@ function Question() {
                 onSidebarToggle={handleSidebarToggle}
                 compressed={topShouldCompress}
               />
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline" size="sm" title="Question View">
+                    {questionViewMode === 'vertical' ? (
+                      <Rows3 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                    ) : (
+                      <Columns3 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                    )}
+                    {!topShouldCompress && "View"}
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem onClick={() => setQuestionViewMode('vertical')} className={questionViewMode === 'vertical' ? 'bg-muted' : ''}>
+                    <Rows3 className="mr-2 h-4 w-4" />
+                    Vertical
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => setQuestionViewMode('horizontal')} className={questionViewMode === 'horizontal' ? 'bg-muted' : ''}>
+                    <Columns3 className="mr-2 h-4 w-4" />
+                    Horizontal
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
               <Button
                 variant="outline"
                 size="sm"
@@ -405,79 +635,165 @@ function Question() {
 
       {/* Main Content */}
       <main 
-        className="flex-1 px-4 py-8 pb-28"
-        style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
+        className={`flex-1 pb-28 ${questionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
+        style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : questionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
-        <Card className="p-4 sm:p-6 md:p-8 relative" style={{ maxWidth: isSplitScreenActive ? "100%" : "56rem", margin: isSplitScreenActive ? "0" : "0 auto" }}>
-          {/* Question Number Badge */}
-          <div className="absolute -top-4 -left-4 bg-foreground text-background dark:bg-[#B4E1FF] dark:text-[#1a1a2e] rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">
-            {questionNumber}
-          </div>
-
-          {/* Mark for Review and Strikeout */}
-          <div className="flex justify-end gap-2 mb-4">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => {
-                const newValue = !markedForReview;
-                setMarkedForReview(newValue);
-                localStorage.setItem(`question-${questionNumber}-flagged`, newValue.toString());
-              }}
-              className="hover:bg-[#B4E1FF] dark:hover:bg-[#1E3A5F]"
-            >
-              <Bookmark className={markedForReview ? "text-[#7B1FA2] fill-[#7B1FA2] dark:text-[#CE93D8] dark:fill-[#CE93D8]" : "text-foreground"} />
-              <span className="text-foreground">Mark for Review</span>
-            </Button>
-            {currentQuestion.type === 'multiple-choice' && (
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => setStrikeoutMode(!strikeoutMode)}
-                className={strikeoutMode ? "bg-muted" : ""}
-              >
-                <Strikethrough className="h-4 w-4" />
-              </Button>
-            )}
-          </div>
-
-          {/* Question Content */}
-          <div className="mb-6 sm:mb-8">
-            <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none overflow-x-auto">
+        <div 
+          className={`relative ${questionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
+          style={{ maxWidth: isSplitScreenActive || questionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || questionViewMode === 'horizontal' ? "0" : "0 auto" }}
+        >
+          {/* Horizontal Layout Mode */}
+          {questionViewMode === 'horizontal' ? (
+            <div className="flex relative" style={{ minHeight: '400px' }}>
+              {/* Left Panel - Question Content */}
               <div 
-                id="question-content"
-                className="text-foreground mb-4 sm:mb-6 break-words"
-              />
-            </div>
-          </div>
+                className="pr-4 overflow-y-auto space-y-4"
+                style={{ width: `${questionSplitPosition}%` }}
+              >
+                  {renderContent(currentQuestion.text)}
+              </div>
 
-          {/* Answer Area */}
-          {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
-            <MultipleChoiceQuestion 
-              choices={currentQuestion.choices}
-              selectedAnswer={selectedAnswer}
-              onAnswerChange={(answer) => {
-                setSelectedAnswer(answer);
-                localStorage.setItem(`question-${questionNumber}-answer`, answer);
-              }}
-              onCheck={handleCheck}
-              strikeoutMode={strikeoutMode}
-              checkedAnswers={checkedAnswers}
-              questionId={questionNumber}
-            />
-          ) : (
-            <div className="space-y-3">
-              <label className="text-sm font-medium text-foreground">Your Answer:</label>
-              <Input
-                type="text"
-                value={freeResponseAnswer}
-                onChange={(e) => setFreeResponseAnswer(e.target.value)}
-                placeholder="Enter your answer"
-                className="max-w-md"
-              />
+              {/* Horizontal Divider */}
+              <div 
+                className="w-4 cursor-col-resize flex items-center justify-center group flex-shrink-0 self-stretch"
+                onMouseDown={() => setIsResizingQuestionSplit(true)}
+              >
+                <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors rounded" />
+              </div>
+
+              {/* Right Panel - Answer Area */}
+              <div 
+                className="pl-4 overflow-y-auto"
+                style={{ width: `${100 - questionSplitPosition}%` }}
+              >
+                {/* Question Toolbar (Horizontal Box) */}
+                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-4 rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
+                  <div className="flex items-center h-full gap-2">
+                    <div className="bg-white dark:bg-black text-black dark:text-white h-full w-10 flex items-center justify-center font-bold text-lg shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
+                      {questionNumber}
+                    </div>
+                    
+                    <Button
+                      variant="ghost"
+                      onClick={() => toggleReview(currentQuestion.uuid)}
+                      className="h-7 rounded px-3 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-black/50"
+                    >
+                      <Bookmark className={cn("h-3.5 w-3.5", markedForReview && "bookmark-flag")} />
+                      <span className="text-xs font-medium">Mark for Review</span>
+                    </Button>
+                  </div>
+
+                  <div className="flex items-center h-full gap-1">
+                    {currentQuestion.type === "multiple-choice" && (
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => setStrikeoutMode(!strikeoutMode)}
+                        className={cn("h-7 w-7 rounded hover:bg-white/50 dark:hover:bg-black/50 text-muted-foreground hover:text-foreground", strikeoutMode && "bg-primary/20 text-primary")}
+                        title="Toggle Strikethrough Mode"
+                      >
+                        <Strikethrough className="h-3.5 w-3.5" />
+                      </Button>
+                    )}
+                  </div>
+                </div>
+
+                {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
+                  <MultipleChoiceQuestion 
+                    choices={currentQuestion.choices}
+                    selectedAnswer={selectedAnswer}
+                    onAnswerChange={(answer) => {
+                      setSelectedAnswer(answer);
+                      localStorage.setItem(`question-${questionNumber}-answer`, answer);
+                    }}
+                    onCheck={handleCheck}
+                    strikeoutMode={strikeoutMode}
+                    checkedAnswers={checkedAnswers}
+                    questionId={questionNumber}
+                  />
+                ) : (
+                  <div className="space-y-3">
+                    <label className="text-sm font-medium text-foreground">Your Answer:</label>
+                    <Input
+                      type="text"
+                      value={freeResponseAnswer}
+                      onChange={(e) => setFreeResponseAnswer(e.target.value)}
+                      placeholder="Enter your answer"
+                      className="max-w-md"
+                    />
+                  </div>
+                )}
+              </div>
             </div>
+          ) : (
+            /* Vertical Layout Mode (default) */
+            <>
+               {/* Question Toolbar (Vertical Box) */}
+                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
+                  <div className="flex items-center h-full gap-2">
+                    <div className="bg-white dark:bg-black text-black dark:text-white h-full w-12 flex items-center justify-center font-bold text-xl shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
+                      {questionNumber}
+                    </div>
+                    
+                    <Button
+                      variant="ghost"
+                      onClick={() => toggleReview(currentQuestion.uuid)}
+                      className="h-9 rounded px-4 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-black/50"
+                    >
+                      <Bookmark className={cn("h-4 w-4", markedForReview && "bookmark-flag")} />
+                      <span className="text-sm font-medium">Mark for Review</span>
+                    </Button>
+                  </div>
+
+                  <div className="flex items-center h-full pr-2 gap-1">
+                    {currentQuestion.type === "multiple-choice" && (
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => setStrikeoutMode(!strikeoutMode)}
+                        className={cn("h-8 w-8 rounded hover:bg-white/50 dark:hover:bg-black/50 text-muted-foreground hover:text-foreground", strikeoutMode && "bg-primary/20 text-primary")}
+                        title="Toggle Strikethrough Mode"
+                      >
+                        <Strikethrough className="h-4 w-4" />
+                      </Button>
+                    )}
+                  </div>
+                </div>
+
+              {/* Question Content */}
+              <div className="mb-6 sm:mb-8">
+                  {renderContent(currentQuestion.text)}
+              </div>
+
+              {/* Answer Area */}
+              {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
+                <MultipleChoiceQuestion 
+                  choices={currentQuestion.choices}
+                  selectedAnswer={selectedAnswer}
+                  onAnswerChange={(answer) => {
+                    setSelectedAnswer(answer);
+                    localStorage.setItem(`question-${questionNumber}-answer`, answer);
+                  }}
+                  onCheck={handleCheck}
+                  strikeoutMode={strikeoutMode}
+                  checkedAnswers={checkedAnswers}
+                  questionId={questionNumber}
+                />
+              ) : (
+                <div className="space-y-3">
+                  <label className="text-sm font-medium text-foreground">Your Answer:</label>
+                  <Input
+                    type="text"
+                    value={freeResponseAnswer}
+                    onChange={(e) => setFreeResponseAnswer(e.target.value)}
+                    placeholder="Enter your answer"
+                    className="max-w-md"
+                  />
+                </div>
+              )}
+            </>
           )}
-        </Card>
+        </div>
       </main>
 
       {/* Bottom Navigation - Fixed at bottom */}
@@ -502,17 +818,59 @@ function Question() {
             </div>
 
             {/* Center: Navigation Sheet */}
-            <div data-nav-sheet>
-              <NavigationSheet 
-                currentQuestion={questionNumber} 
-                isSplitScreenActive={isSplitScreenActive}
-                splitPosition={splitPosition}
-              />
+            <div data-nav-sheet className="flex items-center gap-1">
+              <PreviousAttemptsDialog attempts={currentProgress.attempts} />
+              {is100Hard ? (
+                  <NavigationSheet 
+                    currentQuestion={questionNumber} 
+                    isSplitScreenActive={isSplitScreenActive}
+                    splitPosition={splitPosition}
+                  />
+              ) : isPracticeMode ? (
+                 isOfficialBank ? (
+                     <OfficialPracticeNavigationSheet 
+                        currentIndex={practiceSet.findIndex((q: any) => q.id === questionNumber && q.subject === subject)}
+                        practiceSet={practiceSet}
+                        onJump={(idx) => {
+                             const item = practiceSet[idx];
+                             if (item) navigate(`/official-bank/${item.subject}/${item.id}?practice=true`);
+                        }}
+                        storagePrefix={`official-bank-${subject}`}
+                        isSplitScreenActive={isSplitScreenActive}
+                        splitPosition={splitPosition}
+                     />
+                 ) : (
+                     <PracticeNavigationSheet 
+                        currentIndex={practiceSet.findIndex((q: any) => q.id === questionNumber && q.subject === subject)}
+                        practiceSet={practiceSet}
+                        onJump={(idx) => {
+                             const item = practiceSet[idx];
+                             if (item) navigate(`/bank/${item.subject}/${item.id}?practice=true`);
+                        }}
+                        storagePrefix={`bank-${subject}`}
+                        isSplitScreenActive={isSplitScreenActive}
+                        splitPosition={splitPosition} 
+                     />
+                 )
+              ) : (
+                 <BankNavigationSheet
+                    currentQuestion={questionNumber}
+                    totalQuestions={totalQuestions}
+                    onJump={(qNum) => {
+                       const base = isOfficialBank ? '/official-bank' : '/bank';
+                       navigate(`${base}/${subject}/${qNum}`);
+                    }}
+                    storagePrefix={storagePrefix}
+                    isSplitScreenActive={isSplitScreenActive}
+                    splitPosition={splitPosition}
+                 />
+              )}
             </div>
 
             {/* Right: Explanation, Check, Next - fixed width to prevent layout shift */}
             <div className="flex gap-2 shrink-0 justify-end" style={{ minWidth: shouldCompress ? undefined : '280px' }}>
               <ExplanationWindow 
+                videoUrl={currentQuestion?.explanationVideo}
                 onSplitScreenChange={handleSplitScreenChange}
                 onSplitPositionChange={handleSplitPositionChange}
                 splitPosition={splitPosition}
@@ -522,20 +880,26 @@ function Question() {
                 constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
                 isSidebarred={sidebarredWindows.has('explanation')}
                 onSidebarToggle={handleSidebarToggle}
+                correctAnswer={currentQuestion?.correctAnswer}
+                rationale={currentQuestion?.rationale}
+                questionType={currentQuestion?.type}
+                choices={currentQuestion?.choices}
+                questionId={currentQuestion?.uuid || currentQuestion?.id}
               />
               <Button 
                 onClick={() => handleCheck()}
-                disabled={checked && checkButtonVariant === "success"}
-                variant={checkButtonVariant === "destructive" ? "destructive" : "success"}
-                className={`${checkButtonVariant === "success" ? "bg-[#2E7D32] hover:bg-[#1B5E20] text-white" : ""} h-10`}
+                disabled={isCheckDisabled}
+                variant="outline"
+                className={cn("h-10 border-2 transition-colors", getCheckButtonClasses())}
               >
                 <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!shouldCompress && <span>Check</span>}
               </Button>
               <Button
                 onClick={handleNext}
-                disabled={questionNumber === 100}
-                className="h-10 dark:bg-[#1E3A5F] dark:hover:bg-[#152A45] dark:border-[#2D5A87]"
+                disabled={questionNumber >= totalQuestions}
+                variant="outline"
+                className="h-10 transition-colors duration-200 ease-out"
               >
                 {!shouldCompress && <span>Next</span>}
                 <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />

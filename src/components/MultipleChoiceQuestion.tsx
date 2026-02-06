@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useLayoutEffect } from "react";
 import { cn, renderMixedContent } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import "katex/dist/katex.min.css";
@@ -16,7 +16,7 @@ interface MultipleChoiceQuestionProps {
   onCheck?: (overrideAnswer?: string) => void;
   strikeoutMode?: boolean;
   checkedAnswers?: Record<string, boolean>;
-  questionId: number;
+  questionId: number | string;
 }
 
 export const MultipleChoiceQuestion = ({ 
@@ -31,15 +31,15 @@ export const MultipleChoiceQuestion = ({
   const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
   const choiceRefs = useRef<{ [key: string]: HTMLSpanElement | null }>({});
 
-  // Load strikeouts from localStorage on mount and when questionId changes
-  useEffect(() => {
-    const saved = localStorage.getItem(`question-${questionId}-strikeouts`);
-    if (saved) {
-      setStruckOut(new Set(JSON.parse(saved)));
-    } else {
-      setStruckOut(new Set());
-    }
+  // Reset strikeouts immediately when the question changes to avoid flash of old state
+  useLayoutEffect(() => {
+    setStruckOut(new Set());
+    // Note: Don't clear choiceRefs here as they are set during render and needed by useEffect
   }, [questionId]);
+
+
+  // Removed localStorage persistence for strikeouts to ensure fresh state on navigation
+
 
   useEffect(() => {
     // Render mixed content (HTML text + KaTeX math) for each choice
@@ -48,10 +48,10 @@ export const MultipleChoiceQuestion = ({
       const element = choiceRefs.current[choice.id];
       if (element) {
         const renderedHtml = renderMixedContent(choice.text);
-        element.innerHTML = `<span style="font-size:clamp(12px, 2.2vw, 22px); display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
+        element.innerHTML = `<span style="font-family: 'Noto Serif', serif; font-size: 1.1rem; line-height: 1.6; display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
       }
     });
-  }, [choices]);
+  }, [choices, questionId]);
 
   const renderChoiceContent = (choice: Choice, dimmed = false) => {
     const hasText = Boolean(choice.text);
@@ -109,8 +109,6 @@ export const MultipleChoiceQuestion = ({
           onAnswerChange("");
         }
       }
-      // Save to localStorage
-      localStorage.setItem(`question-${questionId}-strikeouts`, JSON.stringify([...newSet]));
       return newSet;
     });
   };
@@ -190,7 +188,7 @@ export const MultipleChoiceQuestion = ({
                 !isLocked && "hover:bg-muted/50 cursor-pointer",
                 isLocked && "cursor-not-allowed opacity-80",
                 isSelected && !showCorrect && !showIncorrect && "border-primary bg-primary/5",
-                showCorrect && "border-[#66BB6A] bg-[#A5D6A7]/20 dark:border-[#388E3C] dark:bg-[#2E7D32]/20",
+                showCorrect && "border-[#1B5E20] bg-[#C8E6C9]/20 dark:border-[#2E7D32] dark:bg-[#1B5E20]/20",
                 showIncorrect && "border-[#B71C1C] bg-[#FFCDD2]/20 dark:border-[#8B0000] dark:bg-[#5C1010]/20"
               )}
               onClick={(e) => {
@@ -208,7 +206,7 @@ export const MultipleChoiceQuestion = ({
                 className={cn(
                   "flex-shrink-0 w-8 h-8 rounded-full border-2 flex items-center justify-center font-semibold text-sm transition-colors",
                   showCorrect 
-                    ? "bg-[#66BB6A] border-[#66BB6A] text-white dark:bg-[#2E7D32] dark:border-[#388E3C]"
+                    ? "bg-[#1B5E20] border-[#1B5E20] text-white dark:bg-[#2E7D32] dark:border-[#2E7D32]"
                     : showIncorrect
                     ? "bg-[#B71C1C] border-[#B71C1C] text-white dark:bg-[#8B0000] dark:border-[#8B0000]"
                     : isSelected 

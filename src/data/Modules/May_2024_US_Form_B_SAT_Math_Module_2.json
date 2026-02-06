@@ -1,0 +1,639 @@
+[
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 1,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "What is 50% of 600?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "900"
+      },
+      {
+        "label": "B",
+        "text": "600"
+      },
+      {
+        "label": "C",
+        "text": "300"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_1"
+  },
+  {
+    "section": "Math",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "question_number": 2,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "The table shown summarizes the distribution of 73 employees based on the number of complete years they have worked at a certain company.\nHow many of the 73 employees have worked at the company for 17 or more complete years?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "31",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_2",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M2_Q2_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M2_Q2_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "question_number": 3,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "The length, y, of a beluga whale was 157 centimeters (cm) when it was born and increased an average of 4.6cm per month for the first 12 months after it was born. Which equation best represents this situation, where x is the number of months after the whale was born?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 157x"
+      },
+      {
+        "label": "B",
+        "text": "y = 157x + 157"
+      },
+      {
+        "label": "C",
+        "text": "y = 4.6x + 4.6"
+      },
+      {
+        "label": "D",
+        "text": "y = 4.6x + 157"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "question_number": 4,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "The graph of the exponential function f is shown, where y = f(x). The y -intercept of the graph is (0, y). What is the value of y?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "5",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_4",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M2_Q4_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M2_Q4_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Functions",
+    "difficulty": "null",
+    "question_number": 5,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "g(x)= $\\frac{1}{11}$ (5(2) x + 4)\nThe function g is defined by the given equation. For all values of x, the value of g(x) is greater than k, where k is a constant. What is the greatest possible value of k?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{4}{11}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{9}{11}$"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Variable Data",
+    "difficulty": "null",
+    "question_number": 6,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "The scatterplot shows the power output, in watts, of a wind turbine for some local wind speeds, in meters per second (m/s).\nWhich of the following is closest to the power output, in watts, of the wind turbine when the local wind speed is 8 m/s?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "640"
+      },
+      {
+        "label": "B",
+        "text": "800"
+      },
+      {
+        "label": "C",
+        "text": "840"
+      },
+      {
+        "label": "D",
+        "text": "900"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_6",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M2_Q6_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M2_Q6_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 7,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "The function f is defined by f(x)= 60 − 5x. What is the value of f(8)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "55"
+      },
+      {
+        "label": "D",
+        "text": "63"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_7"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 8,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "Line r in the xy -plane has a slope of −3 and passes through the point (0, 80). Which equation defines line r?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = −3x + 80"
+      },
+      {
+        "label": "B",
+        "text": "y = −3x + 77"
+      },
+      {
+        "label": "C",
+        "text": "y = −3x − 77"
+      },
+      {
+        "label": "D",
+        "text": "y = −3x − 80"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "question_number": 9,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "An electric food processor chops 12 pounds of vegetables in 2 minutes. At this rate, how many minutes does it take the processor to chop 72 pounds of vegetables?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_9"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, Angles, and Triangles",
+    "difficulty": "null",
+    "question_number": 10,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "In the figure, line g is parallel to line h. Line l intersects both lines. What is the value of x?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "44"
+      },
+      {
+        "label": "B",
+        "text": "54"
+      },
+      {
+        "label": "C",
+        "text": "144"
+      },
+      {
+        "label": "D",
+        "text": "324"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_10",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M2_Q10_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M2_Q10_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 11,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "$\\sqrt{w}$ + 38 = 43\nWhat is the solution to the given equation?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "25",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_11"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "difficulty": "null",
+    "question_number": 12,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "A cube has an edge length of 3 inches. What is the volume, in cubic inches, of the cube?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "27",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_12"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 13,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "f(x) = 8x + b\nFor the linear function f, b is a constant and f(9) = 72. What is the value of b?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_13"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 14,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "Which expression is equivalent to 12x 3 + 60x 2 y + xy 2 + 5y 3 ？",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "(12x 2 + 5y)(x + y 2)"
+      },
+      {
+        "label": "B",
+        "text": "(12x 2 + y 2)(x + 5y)"
+      },
+      {
+        "label": "C",
+        "text": "(12x 3 + y 2)(x 2 + 5y 3)"
+      },
+      {
+        "label": "D",
+        "text": "(12x 3 + y 3)(x + 5y)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 15,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "How many solutions does the equation 2x + 5 = 2x have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Exactly one"
+      },
+      {
+        "label": "C",
+        "text": "Exactly two"
+      },
+      {
+        "label": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_15"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "null",
+    "question_number": 16,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "For students at a school, the table summarizes the distribution of grade level and location during their lunch break on a certain day.\nA student from this school is selected at random. Based on the table, what is the probability of selecting a student that stayed on campus during their lunch break, given that the student is in grade 10 or 11? (Express your answer as a decimal or fraction, not as a percent.)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "0.649,0.6491",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_16",
+    "images": [
+      {
+        "src": "/images_labeled/May_24_USB_Math_M2_Q16_1.png",
+        "alt": "",
+        "local": "images_labeled/May_24_USB_Math_M2_Q16_1.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "difficulty": "null",
+    "question_number": 17,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "What is the y -intercept of the graph of y = $\\frac{32}{x-4}$ in the xy -plane?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "(0, −8)"
+      },
+      {
+        "label": "B",
+        "text": "(0, 0)"
+      },
+      {
+        "label": "C",
+        "text": "(−4, 0)"
+      },
+      {
+        "label": "D",
+        "text": "(32, 0)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent Expressions",
+    "difficulty": "null",
+    "question_number": 18,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "Which expression is equivalent to 10x 2 + 4 + 2x 2?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "12x 4 + 4"
+      },
+      {
+        "label": "B",
+        "text": "12x 2 + 4"
+      },
+      {
+        "label": "C",
+        "text": "16x 4"
+      },
+      {
+        "label": "D",
+        "text": "16x 2"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_18"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 19,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "x 2 − y 2 = 39\nx − y = 3\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "13"
+      },
+      {
+        "label": "D",
+        "text": "42"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 20,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "x 2 − 97 = −97 + x 2\nHow many distinct real solutions does the given equation have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Exactly one"
+      },
+      {
+        "label": "C",
+        "text": "Exactly two"
+      },
+      {
+        "label": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear Equations in One Variable",
+    "difficulty": "null",
+    "question_number": 21,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "(3x + 8)(4x − 3)= 0\nWhich of the following is a solution to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "− $\\frac{8}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "− $\\frac{4}{3}$"
+      },
+      {
+        "label": "C",
+        "text": "− $\\frac{3}{4}$"
+      },
+      {
+        "label": "D",
+        "text": "− $\\frac{3}{8}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_21"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Equations and Systems",
+    "difficulty": "null",
+    "question_number": 22,
+    "test_name": "May 2024 US Form B SAT Math Module 2",
+    "passage": "For a certain type of rope, the equation y = 900ax 2, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 2.75 inches, it has an estimated breaking strength of 9,528.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 5.50 inches?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "38115",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_22"
+  }
+]

@@ -1,0 +1,866 @@
+[
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "question_number": 1,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe fossil remains of the individual known as TM 266, discovered in Chad in 2001, can help paleoanthropologists not only ______ steps in the evolution of hominids but also illuminate the Miocene epoch generally, revealing important details about the time in which TM 266 lived.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "discern"
+      },
+      {
+        "label": "B",
+        "text": "yield"
+      },
+      {
+        "label": "C",
+        "text": "exploit"
+      },
+      {
+        "label": "D",
+        "text": "prioritize"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_1"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "question_number": 2,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\n*The Third-Class Carriage*, painted in the realist style by Honoré Daumier, depicts working-class travelers in a third-class railway car and emphasizes accuracy in its portrayal of the experiences of ordinary working people. This style largely ______ the conventions of the romantic style evident in many paintings by Paul Delaroche, which instead accentuated their subjects’ positive traits by, for example, placing them in staged settings with expensive-looking decorations and presenting them with smooth, unblemished skin.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "epitomized"
+      },
+      {
+        "label": "B",
+        "text": "rejected"
+      },
+      {
+        "label": "C",
+        "text": "imitated"
+      },
+      {
+        "label": "D",
+        "text": "extended"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_2"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "question_number": 3,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nWhen discussing literary movements in the United States, scholars regularly characterize the works of Nella Larsen as especially representative of the Harlem Renaissance. The reasons for this characterization may seem ______, but linking Larsen with the Harlem Renaissance risks disregarding the subtleties in her style that do not neatly conform to the conventions of this literary movement.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "pretentious"
+      },
+      {
+        "label": "B",
+        "text": "incongruous"
+      },
+      {
+        "label": "C",
+        "text": "irrefutable"
+      },
+      {
+        "label": "D",
+        "text": "provocative"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_3"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "question_number": 4,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome social scientists say that while a pluralistic, multiparty system is key to democracy, public understanding of history is also central to public comprehension of state politics, and if a citizenry is to function, historical issues cannot remain the province only of specialists. In short, knowledge of history is not ______ and must not be left to historians.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "unattainable"
+      },
+      {
+        "label": "B",
+        "text": "commonplace"
+      },
+      {
+        "label": "C",
+        "text": "equitable"
+      },
+      {
+        "label": "D",
+        "text": "superfluous"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_4"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "question_number": 5,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice best describes the main purpose of the text?\nJeffrey Sachs and other historians of capitalism rarely discuss domestic capitalism in Africa before the period of European colonization, implicitly presenting capitalism as external to and imposed on Africa. Toby Green and Africanist scholars have shown, however, that in parts of Africa, surplus goods creation, the existence of salaried labor, and other features of capitalism predated colonization. One reason for this discrepancy is that historians of capitalism tend to focus on longitudinal economic data drawn from archival records, which do not exist for much of pre-colonial Africa.",
+    "question_text": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "To summarize a debate between historians of capitalism and Africanist scholars about how to interpret longitudinal economic data from archival records."
+      },
+      {
+        "label": "B",
+        "text": "To describe and evaluate a method used by Africanist scholars that distinguishes their work from that of historians of capitalism."
+      },
+      {
+        "label": "C",
+        "text": "To explain why historians of capitalism and Africanist scholars disagree about which activities are features of capitalism."
+      },
+      {
+        "label": "D",
+        "text": "To present and account for a potentially misleading characteristic of the work of historians of capitalism."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_5"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "question_number": 6,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe following text is adapted from H.D.'s 1916 poem \"Mid Day.\" In the poem, the speaker is on a path in an outdoor setting.\n<u>A slight wind shakes the seed pods...</u>\nmy thoughts are spent\nas the black seeds.\nMy thoughts tear me.\nI dread their fever.\nI am scattered in its whirl.\nI am scattered like\nthe hot shriveled seeds.",
+    "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It presents an observation of an occurrence in the natural world that the speaker then expands on to convey a sense of a turbulent interior state."
+      },
+      {
+        "label": "B",
+        "text": "It establishes an example of consistency in the natural landscape that the speaker then contrasts with the unpredictability of human emotions."
+      },
+      {
+        "label": "C",
+        "text": "It illustrates a change in the natural environment that speaker implies is responsible for the growing misgivings described in the text."
+      },
+      {
+        "label": "D",
+        "text": "It evokes the ordinariness of an event in nature to suggest that the critical self-evaluation the speaker engages in is a common pursuit."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_6"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "question_number": 7,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice best describes the main purpose of the text?\nIn Thailand, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by approximately 40 percent between 2000 and 2019; such shifts are often explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise). Moses Pundo and Gavin Fraser's study of fuel use in Kenya shows this model to be reductive, however: household fuel use was heterogeneous, flexible, and influenced by several factors, including the type of dwelling a household occupies.",
+    "question_text": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "To challenge a common explanation for households’ fuel choices."
+      },
+      {
+        "label": "B",
+        "text": "To critique a frequently used model of changes in household fuel prices."
+      },
+      {
+        "label": "C",
+        "text": "To account for the effect of fuel use on household income."
+      },
+      {
+        "label": "D",
+        "text": "To contrast patterns in household fuel use in two countries."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_7"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "null",
+    "question_number": 8,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Based on the texts, both the author of Text 1 and the author of Text 2 would most likely agree with which statement about scholarship on works from the modernist period in Britain and Ireland?\nText 1\nScholarship today over-represents experimentally fragmented narrative structures, such as that of Dorothy Richardson's *Pointed Roofs*, beyond the degree to which they actually influenced fiction in Britain and Ireland during the modernist period (roughly 1900–1945). Meanwhile, John Galsworthy's *The Forsyte Saga*, whose coherent, linear narrative structure recalls the fiction of previous centuries, attracts woefully little attention from scholars of modernism.\nText 2\nDistant reading, or computer-assisted quantitative analysis of massive collections of digitized texts, can reveal stylistic elements that have heretofore escaped notice, despite being shared by numerous texts from the modernist period. For too long, scholars have focused on narrative fragmentation versus coherence, inhibiting inquiry into other points of stylistic correspondence among works that would enrich our understanding of the modernist canon.",
+    "question_text": "Based on the texts, both the author of Text 1 and the author of Text 2 would most likely agree with which statement about scholarship on works from the modernist period in Britain and Ireland?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It must widen its focus to include aspects of modernist fiction beyond style, a productive but over represented site of inquiry."
+      },
+      {
+        "label": "B",
+        "text": "Without a major shift in focus, the vision that it presents of fiction written in the period will continue to be unnecessarily limited."
+      },
+      {
+        "label": "C",
+        "text": "Its primary methods for analyzing fiction written in the period are growing obsolete as computer technology advances."
+      },
+      {
+        "label": "D",
+        "text": "Instead of engaging in unproductive debates, it should work to rehabilitate the reputations of neglected modernist works."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_8"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, Rates, Proportions, and Units",
+    "difficulty": "null",
+    "question_number": 9,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Based on the text, what do the essays \"The Utility of the Union in Respect to Revenue\" and \"The Senate\" have in common?\nThe Federalist Papers are a collection of 85 essays written by Alexander Hamilton, John Jay, and James Madison. Their publication (under a single pen name) was divided among the Independent Journal and other New York newspapers in 1787–88. The essays argue that New Yorkers should vote to ratify the proposed United States Constitution. Though the authorship of most of the individual essays is certain, that of a few is in question: for instance, while No. 12, “The Utility of the Union in Respect to Revenue,” was surely penned by Hamilton, No. 62, “The Senate,” may have been written by either Hamilton or Madison.",
+    "question_text": "Based on the text, what do the essays \"The Utility of the Union in Respect to Revenue\" and \"The Senate\" have in common?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "They were both written by one of the three authors of the Federalist Papers, but which of the authors wrote either is not entirely clear."
+      },
+      {
+        "label": "B",
+        "text": "They were both published sometime during 1787 or 1788."
+      },
+      {
+        "label": "C",
+        "text": "They were both published in the Independent Journal."
+      },
+      {
+        "label": "D",
+        "text": "They were both collaborative efforts between Alexander Hamilton and James Madison."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_9"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "question_number": 10,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which finding, if true, would most directly support Martinez and colleagues' hypothesis?\nThe bird species *Celeus undatus* (the waved woodpecker), which weighs about 58 grams, and *Ramphocaenus melanurus* (the trilling gnatwren), which weighs about 9 grams, share territory in French Guiana. Since there is thought to be an inverse relationship between avian body size and vulnerability to predation, biologist Ari Martinez and colleagues, who studied the ecological community the species share, hypothesized that there will also be an inverse relationship between body size and propensity to associate with other species, as doing so may aid in predator detection.",
+    "question_text": "Which finding, if true, would most directly support Martinez and colleagues' hypothesis?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Martinez and colleagues always observed *C. undatus* alone or in single species flocks but frequently observed *R. melanurus* in multispecies flocks."
+      },
+      {
+        "label": "B",
+        "text": "Martinez and colleagues observed several species approximately the same size as *R. melanurus*, but only *R. melanurus* regularly flocked with birds of other species."
+      },
+      {
+        "label": "C",
+        "text": "Martinez and colleagues occasionally observed *R. melanurus* flocking with other species but not as frequently as they observed *C. undatus* doing so."
+      },
+      {
+        "label": "D",
+        "text": "Martinez and colleagues observed that *R. melanurus* individuals were less likely to be preyed on when in multispecies or single-species flocks than when alone."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_10"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "question_number": 11,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which finding, if true, would most directly weaken the hypothesis presented in the text?\nSome home appliances contain silver nanoparticles (Ag NPs), which can leach into waterways and soils via wastewater. In a 2015 study, Paula S. Tourinho and colleagues found that Ag-NPs can accumulate in the bodies of woodlice (*Porcellionides pruinosus*). While bioaccumulation of manufactured nanoparticles may be inherently worrisome, it has been hypothesized that Ag-NP bioaccumulation in invertebrates like *P. pruinosus* could serve a valuable proxy role, obviating the need for manufacturers to conduct costly and intrusive sampling of vertebrate species—such as African clawed frogs (*Xenopus laevis*), commonly used in regulatory compliance testing—for nanoparticle bioaccumulation, as environmental protection laws currently require.",
+    "question_text": "Which finding, if true, would most directly weaken the hypothesis presented in the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "*P. pruinosus* has been shown to accumulate several other types of manufactured nanoparticles in addition to Ag-NPs, whereas *X. laevis* has been shown to accumulate only Ag-Nps."
+      },
+      {
+        "label": "B",
+        "text": "Compared with *X. laevis*, *P. pruinosus* can accumulate detectable Ag-Np concentrations with significantly fewer negative effects."
+      },
+      {
+        "label": "C",
+        "text": "Ag-NP concentrations in *P. pruinosus* are not predictive of Ag-NP concentrations in *X. laevis* when the two species are in environments with comparable levels of Ag-NPs."
+      },
+      {
+        "label": "D",
+        "text": "When *P. pruinosus* and *X. laevis* are exposed to similar levels of both species do not show substantial variation from individual to individual."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_11"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "question_number": 12,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which finding, if true, would most directly support the researchers' conclusion?\nGrowing seasons in Alaska have been extending further into the year as a result of climate changes, potentially enabling increased carbon dioxide (CO2) absorption through greater productivity of marsh cinquefoil (*Comarum palustre*) plants and other vegetation, but also potentially enabling increased CO2 output through greater heterotrophic respiration (CO2 generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs—years of solar radiation and snow cover data among them—to evaluate the effects of climate changes on the CO2 balance in Alaska, concluding that net CO2 is likely to increase if seasonal snow cover arrives earlier relative to the onset of soil surface freezing.",
+    "question_text": "Which finding, if true, would most directly support the researchers' conclusion?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The effect of solar radiation on the growth of vegetation and on the rate of heterotrophic respiration is stronger during the period of seasonal snow cover than during the period without snow cover."
+      },
+      {
+        "label": "B",
+        "text": "Relatively early snow cover reduces the amount of soil moisture available for the growth of plant species such as C. palustre and lowers the rate of heterotrophic respiration."
+      },
+      {
+        "label": "C",
+        "text": "Seasonal snow cover tends to persist longer in areas of relatively low vegetation growth and high heterotrophic respiration than in areas of relatively high vegetation growth and low heterotrophic respiration."
+      },
+      {
+        "label": "D",
+        "text": "The soil insulation provided by snow cover enables heterotrophic respiration to continue during a period in which plant species such as C. palustre are typically not growing."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_12"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
+    "question_number": 13,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice most logically completes the text?\nResearchers who study olfaction—the sense of smell—define valence as a person's perception of how pleasant an odor is. Conventional wisdom holds that valence is culturally mediated. A team of scientists led by Artin Arshamian evaluated this view by testing how people from ten different places—including the Semelai people from a small community in the Malay Peninsula and the Chachi people from a small community in Ecuador—ranked ten odors from most pleasant to least pleasant. In general, respondents ranked scents similarly regardless of where they lived, overwhelmingly choosing the odorant eugenol as more pleasant than caprylic acid. These results show that ______",
+    "question_text": "Which choice most logically completes the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "valence may affect cultural traditions more strongly than researchers had previously predicted."
+      },
+      {
+        "label": "B",
+        "text": "the respondents agreed more often on unpleasant odors than they did on pleasant ones."
+      },
+      {
+        "label": "C",
+        "text": "the conventional belief that odor pleasantness can be objectively measured is questionable."
+      },
+      {
+        "label": "D",
+        "text": "the standard view of culture's role in olfactory valence may be unsound."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_13"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
+    "question_number": 14,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice most logically completes the text?\nThe dogbane tiger moth, a large-bodied moth, defends itself against Allen's big-eared bats and other insect-eating bats, which use echolocation to hunt, by emitting ultrasonic clicks that can, for instance, startle the bats and thus deter their attacks. To investigate moths' defensive ultrasound—which researchers had thought was exclusive to tiger moths, hawkmoths, and one species of geometer moths—Juliette J. Rubin et al. recorded the responses of moths from 252 genera, representing most families of large-bodied moths, to audio playback of bat echolocation. The researchers found that 52 of the genera, including several genera belonging to the geometer family, produced defensive ultrasonic clicks. This result suggests that ______",
+    "question_text": "Which choice most logically completes the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ultrasound production is only one of a diverse range of effective strategies moths employ to evade bat attacks."
+      },
+      {
+        "label": "B",
+        "text": "unlike the 52 moth genera that emit ultrasonic clicks, most moth genera have likely not developed defenses specifically against bat attacks."
+      },
+      {
+        "label": "C",
+        "text": "some genera of large bodied moths may use ultrasonic signaling for purposes other than avoiding capture by predators such as Allen's big eared bat."
+      },
+      {
+        "label": "D",
+        "text": "anti-bat ultrasound production may be a more prevalent defense strategy among large bodied moths than previously known to researchers."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_14"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
+    "question_number": 15,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice most logically completes the text?\nBiologists Rebecca M. Calisi-Rodrquez and George E. Bentey examined research on kestrels and black-capped chickadees, both of which have been studied in the laboratory as well as in the wild, to see how studies’ settings might have affected their results. Lab studies are useful because they make it easy to control important variables, but kestrels’ surroundings can significantly affect their hormone levels. Therefore, it's not altogether surprising that when Calisi-Rodriquez and Bentey examined studies of kestrels, they found that ______",
+    "question_text": "Which choice most logically completes the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "captive kestrels and wild kestrels usually exhibited very similar hormone levels."
+      },
+      {
+        "label": "B",
+        "text": "significant differences in hormone levels between individuals were found for both captive kestrels and wild kestrels."
+      },
+      {
+        "label": "C",
+        "text": "hormone levels were higher in wild males than in captive male black-capped chickadees."
+      },
+      {
+        "label": "D",
+        "text": "levels of luteinizing hormone during winter are higher in captive kestrels than they are in wild kestrels."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_15"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "question_number": 16,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe mycorrhizal association that occurs between certain pine tree species and the ______ *Hydnum albidum*, commonly referred to as white hedgehog, allows the organisms to form extensive symbiotic networks through which nutrients can be exchanged.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "fungus."
+      },
+      {
+        "label": "B",
+        "text": "fungus"
+      },
+      {
+        "label": "C",
+        "text": "fungus:"
+      },
+      {
+        "label": "D",
+        "text": "fungus,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_16"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "question_number": 17,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBetween December 28 and January 12 each year, particles shed by comet (196256) 2003 EH1 enter Earth's atmosphere at a velocity of 41 kilometers per second. Relatively few of these particles are likely to reach Earth's ______ since the meteoroids' compression of the air surrounding them causes the vast majority to burn up in the mesosphere, producing the Quadrantid meteor shower.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "surface; however."
+      },
+      {
+        "label": "B",
+        "text": "surface, however,"
+      },
+      {
+        "label": "C",
+        "text": "surface, however;"
+      },
+      {
+        "label": "D",
+        "text": "surface. However,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_17"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "question_number": 18,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn her work, Delaware/Cherokee artist Holly Wilson uses materials like bronze, silver, and clay to create one-of-a-kind figurines and other sculptures. Since 1989, Indianapolis's Eiteljorg Museum has celebrated the work of groundbreaking contemporary Native ______ in 2015, it awarded Wilson one of its prestigious artist fellowships.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "artists and"
+      },
+      {
+        "label": "B",
+        "text": "artists;"
+      },
+      {
+        "label": "C",
+        "text": "artists,"
+      },
+      {
+        "label": "D",
+        "text": "artists, thus"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_18"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "question_number": 19,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nProto-Nilo-Saharan— a protolanguage, or ancestral language of a family of descendant (daughter) languages— is said to be the common ancestor of all Nilo-Saharan languages. This designation is ______ Proto-Nilo-Saharan is only postulated, its characteristics being inferred from the linguistic properties of its 199 daughters.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "hypothetical, however,"
+      },
+      {
+        "label": "B",
+        "text": "hypothetical, however:"
+      },
+      {
+        "label": "C",
+        "text": "hypothetical. However,"
+      },
+      {
+        "label": "D",
+        "text": "hypothetical: however,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_19"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "question_number": 20,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn his highly lauded feature debut *The Village House* (2019), filmmaker Achal Mishra divides the story of his ancestral home in Madhopur, India, into three temporal ______ that, through a patient and attentive cinematic eye, form tableaus of the home's inhabitants, immersing viewers in the language and traditions of Mishra's Maithili speaking Bihari culture.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "spaces (summer of 1998, autumn of 2010, and winter of 2019)"
+      },
+      {
+        "label": "B",
+        "text": "spaces—summer of 1998, autumn of 2010, (and winter of 2019)"
+      },
+      {
+        "label": "C",
+        "text": "spaces, (summer of 1998, autumn of 2010, and winter of 2019)."
+      },
+      {
+        "label": "D",
+        "text": "spaces summer of 1998, autumn of 2010, and winter of 2019,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_20"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "question_number": 21,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Museum of Modern Art's vast collection of oil paintings, which includes Joan Miró's *Still Life*, *Glove and Newspaper*, and Max Weber's *The Geranium*, ______ among its most captivating offerings.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "remains"
+      },
+      {
+        "label": "B",
+        "text": "have been remaining"
+      },
+      {
+        "label": "C",
+        "text": "remain"
+      },
+      {
+        "label": "D",
+        "text": "have remained"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_21"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "question_number": 22,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text with the most logical transition?\nGenerally, sleek vehicles are more aerodynamic than bulkier ones. The streamlined nose of the Airbus A350 XWB jet, ______ helps it glide through wind with relative ease, while a boxy semi-truck encounters more wind resistance, making it less aerodynamic.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "meanwhile,"
+      },
+      {
+        "label": "B",
+        "text": "however,"
+      },
+      {
+        "label": "C",
+        "text": "additionally,"
+      },
+      {
+        "label": "D",
+        "text": "for example,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_22"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "question_number": 23,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text with the most logical transition?\nSoil polluted with chromium (a heavy metal) is harmful to many plants and animals, but the plant species *Phragmites australis*, or common reed, not only thrives in such conditions but also helps remediate them. As a metal hyperaccumulator, *Phragmites australis* absorbs a large amount of chromium and stores it safely in its roots and shoots; ______ chromium concentrations in the soil decrease.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "specifically,"
+      },
+      {
+        "label": "B",
+        "text": "nevertheless,"
+      },
+      {
+        "label": "C",
+        "text": "accordingly,"
+      },
+      {
+        "label": "D",
+        "text": "in addition,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_23"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "question_number": 24,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "Which choice completes the text with the most logical transition?\nIn his 2014 poem \"Baltimore Uproar,\" Reginald Harris contemplates Romare Bearden's 1982 painting *Baltimore Uproar.* Translating the painting's depiction of a jazz band into vivid figurative phrases—such as \"spangled shards of sound\"—Harris suggests the fluid interplay of poetry and painting. ______ Harris's poem highlights fundamental tensions between these modes of representation.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "In other words,"
+      },
+      {
+        "label": "B",
+        "text": "Therefore,"
+      },
+      {
+        "label": "C",
+        "text": "At the same time,"
+      },
+      {
+        "label": "D",
+        "text": "Specifically,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_24"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "question_number": 25,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "The student wants to list activities that the Heritage Trail can be used for, Which choicemost effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Heritage Trail is located in New York.\n• It was created from a former railroad corridor.\n• Visitors can use the trail for a variety of recreational activities.\n• These include biking, in-line skating, and cross-country skiing.",
+    "question_text": "The student wants to list activities that the Heritage Trail can be used for, Which choicemost effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Railroad corridors can be used to create trails, one of these being the Heritage Trail."
+      },
+      {
+        "label": "B",
+        "text": "The Heritage Trail was created from a former railroad corridor."
+      },
+      {
+        "label": "C",
+        "text": "The Heritage Trail can be used for biking, in-line skating, and cross-country skiing."
+      },
+      {
+        "label": "D",
+        "text": "Located in New York, the Heritage Trail is open to visitors."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_25"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "question_number": 26,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "The student wants to emphasize the year in which Le Sidaner won a Carnegie Prize gold medal. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Carnegie Prize is an international art competition.\n• It is administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania.\n• One Carnegie Prize gold medal winner is Henri Le Sidaner of Mauritius.\n• *Le Sidaner's* painting *Window on the Bay of Villefranche* was honored in 1925.",
+    "question_text": "The student wants to emphasize the year in which Le Sidaner won a Carnegie Prize gold medal. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The Carnegie Prize is an international art competition administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania."
+      },
+      {
+        "label": "B",
+        "text": "The Carnegie Museum of Art awarded an artist from Mauritus a gold medal for the painting Window on the Bay of Villefranche."
+      },
+      {
+        "label": "C",
+        "text": "The painting Window on the Bay of Villefranche earned Le Sidaner a Carnegie Prize gold medal."
+      },
+      {
+        "label": "D",
+        "text": "Le Sidaner won a Carnegie Prize gold medal in the year 1925."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_26"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "question_number": 27,
+    "test_name": "March 2024 US Form A SAT English Module 2",
+    "passage": "The student wants to compare the curviness of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A river's stream length is the length of a line that follows along the river path.\n• A river's valley length is the length of a straight line drawn from the beginning of the river to the end.\n• The river's curviness, or sinuosity, is the ratio of the river's stream length to its valley length.\n• Low-sinuosity rivers have a stream length 1–1.5 times longer than their valley length, and high-sinuosity rivers have a stream length 1.5 or more times longer than their valley length.\n• The Muskwa River in Canada has high sinuosity.\n• The Cheyyar River in India has low sinuosity.",
+    "question_text": "The student wants to compare the curviness of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The Muskwa River’s ratio of stream length to valley length, also known as sinuosity, is greater than that of the Cheyyar River."
+      },
+      {
+        "label": "B",
+        "text": "By comparing the stream lengths of the Muskwa and Cheyyar rivers to their valley lengths, one can calculate their curviness, or sinuosity."
+      },
+      {
+        "label": "C",
+        "text": "In both the Muskwa and the Cheyyar rivers, curviness is determined by comparing stream length to valley length."
+      },
+      {
+        "label": "D",
+        "text": "The high-sinuosity Cheyyar River in India is curvier than the low sinuosity Muskwa River in Canada."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_27"
+  }
+]

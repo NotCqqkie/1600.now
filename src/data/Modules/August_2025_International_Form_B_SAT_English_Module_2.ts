@@ -1,0 +1,979 @@
+import { Question } from "../all_questions";
+
+export const questions: Question[] = [
+  {
+    "section": "Reading and Writing",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-Variable Data",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_1",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Based on the text, what does Wong most likely mean when she states that she is \"composing\"?\nThe following text is from Alice Wong's 2022 memoir *Year of the Tiger: An Activist's Life*. Wong has just described her tendency to procrastinate when she has a writing deadline.\nIn the middle of these distractions, a vibe will emerge, a point I want to make, a phrase, a hook, a title for a story, an image. A connection or epiphany can happen while watching or reading something brilliant. By doing \"nothing\" and daydreaming, I am actually <u>composing</u>, even if words don't immediately materialize.\n\u00a92022 by Alice Wong\n\nBased on the text, what does Wong most likely mean when she states that she is \"composing\"?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "She is deceiving herself about her true feelings about a subject."
+      },
+      {
+        "id": "B",
+        "text": "She is engaging in an important part of her writing process."
+      },
+      {
+        "id": "C",
+        "text": "She is gathering sources of information to use in her writing."
+      },
+      {
+        "id": "D",
+        "text": "She is being soothed by immersing herself in creative works by other people."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-Variable Data",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_2",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe metal displayed in the structure of House in Kamiaraya by Kazuto Nishi Architects and the metal hardware in UE House by GENETO are representative aspects of a juxtaposition common in contemporary Japanese architecture: the ______ of sleek, contemporary elements and traditional organic materials in a single design is a trend with both aesthetic and highly practical purposes.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "designation"
+      },
+      {
+        "id": "B",
+        "text": "analysis"
+      },
+      {
+        "id": "C",
+        "text": "diffusion"
+      },
+      {
+        "id": "D",
+        "text": "synthesis"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_3",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nStudying advertisements for defunct amusement parks, menus from nineteenth-century restaurants, and handbills promoting long-forgotten political candidates may seem like a frivolous pursuit, but ephemeral objects like these are useful as ______ cultural change, revealing shifts in norms, values, and concerns that traditional objects of historical inquiry may not.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "alternatives to"
+      },
+      {
+        "id": "B",
+        "text": "conjectures about"
+      },
+      {
+        "id": "C",
+        "text": "indices of"
+      },
+      {
+        "id": "D",
+        "text": "pretexts for"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_4",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "As used in the text, what does the word \u201cmanifest\u201d most nearly mean?\nThe following text is from a 1955 translation of Samuel Beckett's 1951 novel *Molloy* (translated by the author and Patrick Bowles). In the text, Molloy has arrived at the town ramparts, an elevated walkway atop the city walls.\nAnd having cleared the ramparts I had to confess the sky was clearing, prior to its winding in the other shroud, night. Yes, the great cloud was ravelling, discovering here and there a pale and dying sky, and the sun, already down, was <u>manifest</u> in the livid tongues of fire darting towards the zenith, falling and darting again, ever more pale and languid, and doomed no sooner lit to be extinguished.\n\u00a91955 by Grove Press, Inc.\n\nAs used in the text, what does the word \u201cmanifest\u201d most nearly mean?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Dwindling"
+      },
+      {
+        "id": "B",
+        "text": "Realized"
+      },
+      {
+        "id": "C",
+        "text": "Situated"
+      },
+      {
+        "id": "D",
+        "text": "Perceptible"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_5",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice best describes the main purpose of the text?\nHistorians point to the rule of the Piast dynasty as crucial to the formation of the Polish state. But some differentiate between members of the dynasty like Otto Boles\u0142awowic, who ruled as duke in 1032 CE, and less well-documented figures like Siemowit, who is said to have ruled in the 9th century but whose historical actuality is disputed. Siemowit appears in the *Gesta principum Polonorum*, an authentic chronicle of medieval Polish history written in the 12th century. But the chronicle\u2019s documentation of Siemowit relies on oral tradition, unlike its records of later rulers.\n\nWhich choice best describes the main purpose of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It favorably compares the reign of Siemowit with the reign of Otto Boles\u0142awowic."
+      },
+      {
+        "id": "B",
+        "text": "It describes a process that was used to authenticate a particular Polish medieval text."
+      },
+      {
+        "id": "C",
+        "text": "It presents evidence in support of a particular claim about Otto Boles\u0142awowic."
+      },
+      {
+        "id": "D",
+        "text": "It explains why historians differ in their treatment of an aspect of Polish history."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_6",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice best describes the overall structure of the text?\n*The Silence of Dean Maitland* is one of twenty-five works from the nineteenth and early twentieth centuries reissued in 2020 in a project professing to give overdue credit to authors by replacing nonfemale pseudonyms with the authors\u2019 given female names (crediting Mary Tuttiett rather than Maxwell Gray, in this case). Olivia Rutigliano and other scholars cite a lack of nuance and erasure of intention in the implication that pseudonymous identities were invariably necessary due to social roles, appropriately contending that what may have been a constraint for some was an elective exercise in self-fashioning for others.\n\nWhich choice best describes the overall structure of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A literary project is briefly described, the stance taken by Rutigliano and others in response to that project is introduced, and then support for that stance is expressed."
+      },
+      {
+        "id": "B",
+        "text": "Details about a reissue of *The Silence of Dean Maitland* are given, a question about the authorship of that work is raised, and then the circumstances of the work\u2019s original publication are considered."
+      },
+      {
+        "id": "C",
+        "text": "*The Silence of Dean Maitland* is cited as a prominent work from a literary movement, a study of the movement\u2019s defining features is mentioned, and then one of the study\u2019s insights is presented."
+      },
+      {
+        "id": "D",
+        "text": "An assertion about a literary project is reported, the team of scholars that advanced the assertion is identified, and then the reasoning behind the assertion is summarized."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_7",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice best describes a difference in what the author of Text 1 and the author of Text 2 believe about female birdsong?\nText 1\nFor decades, ornithologists assumed that if they saw a singing Cassin\u2019s finch\u2014a bird species found in temperate North America\u2014they must be observing a male trying to attract a mate or claim territory. As Peter J.B. Slater and Nigel I. Mann have emphasized, however, a similar assumption can\u2019t be made about birds in the tropics, where females sing as often as males do. Slater and Mann call for more research on this discrepancy between tropical and temperate female birdsong.\nText 2\nRecent evidence shows that a female Cassin\u2019s finch is as capable of song as a male is. In fact, female birdsong is more common among temperate species than currently assumed, claim Evangeline Rose and colleagues. These female songbirds sing less frequently than males do, and in duller tones, making it \u201ceasy for researchers to miss the quiet and hidden females and focus on the loud and colorful males,\u201d says Rose.\n\nWhich choice best describes a difference in what the author of Text 1 and the author of Text 2 believe about female birdsong?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The author of Text 2 thinks that among tropical species, females sing less frequently than males do, whereas the author of Text 1 thinks that females sing as frequently as males do."
+      },
+      {
+        "id": "B",
+        "text": "The author of Text 2 would likely disagree with the author of Text 1 about whether it can be assumed that females of temperate species don\u2019t sing."
+      },
+      {
+        "id": "C",
+        "text": "The author of Text 2 believes that female birdsong is much more common among tropical species than the author of Text 1 believes."
+      },
+      {
+        "id": "D",
+        "text": "The author of Text 2 would likely reject the claim by the author of Text 1 that among tropical birds, females sing as frequently as males do."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Craft and Structure",
+      "skill": "Cross-Text Connections",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_8",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice best states the main idea of the text?\nThe following text is from Nathaniel Hawthorne\u2019s 1830 short story \u201cSir William Phips.\u201d\nThe knowledge, communicated by the historian and biographer, is analogous to that which we acquire of a country by the map, \u2014minute, perhaps, and accurate, and available for all necessary purposes, but cold and naked, and wholly destitute of the mimic charm produced by landscape painting. These defects are partly remediable, and even without an absolute violation of literal truth, although by methods rightfully interdicted to professors of biographical exactness.\n\nWhich choice best states the main idea of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Writers of fiction possess storytelling skills that historians do not."
+      },
+      {
+        "id": "B",
+        "text": "The more famous a person is, the more likely that person is to attract the attention of a historian."
+      },
+      {
+        "id": "C",
+        "text": "Maps are more practical to own than paintings."
+      },
+      {
+        "id": "D",
+        "text": "Historians\u2019 fidelity to the truth often results in work that is less engaging than it could be."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_9",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice best states the main idea of the text?\nAlthough notorious for its strict formal requirements, the sonnet is nevertheless represented by such wide-ranging examples as Maggie Anderson\u2019s \u201cSonnet for Her Labor\u201d and Tyehimba Jess\u2019s \u201cMillie and Christine McCoy\u201d\u2014poems that differ remarkably in subject, rhythm, and structure. It may seem counterintuitive that the sonnet\u2014ostensibly rigid and timeworn\u2014could accommodate such variety, but poet Carl Phillips contends that the form invites experimentation: when a genre\u2019s conventions are as recognizable as those of the sonnet, the opportunity to subvert them is especially irresistible.\n\nWhich choice best states the main idea of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Although Anderson\u2019s and Jess\u2019s sonnets are both widely celebrated for their striking originality, most modern examples of the form are generally regarded as conventional."
+      },
+      {
+        "id": "B",
+        "text": "As a form, the sonnet encourages a surprising amount of variety, even though certain characteristics associated with it suggest this would be unlikely."
+      },
+      {
+        "id": "C",
+        "text": "That the sonnet remains as popular as it is today is unexpected, given that many of the features associated with the form have long since seemed antiquated to readers."
+      },
+      {
+        "id": "D",
+        "text": "Although the sonnet is now recognized for the way it facilitates experimentation, there was a long period in its history in which very little innovation occurred."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_10",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice best states the main idea of the text?\nPostcranial skeletal pneumaticity (PSP), a system of skeletal air sacs, occurred in three Cretaceous clades, including pterosaurs (e.g., *Pteranodon*); past studies have hypothesized that the trait was homologous (originating from a shared ancestor). With this in mind, Tito Aureliano et al. examined fossils of common ancestors of the clades using microtomography, finding openings in bones\u2014a possible indicator of PSP\u2014but of sizes inconsistent with PSP. The team reported other findings contradicting the homology hypothesis as well, concluding that PSP likely evolved independently in each clade.\n\nWhich choice best states the main idea of the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Aureliano et al. found openings in bones in fossils of common ancestors of pterosaurs and two other Cretaceous clades, but the team determined that the sizes of the openings were too varied to be indicative of PSP, thereby weakening the homology hypothesis."
+      },
+      {
+        "id": "B",
+        "text": "Although past studies by paleontologists concluded that PSP in pterosaurs and two other Cretaceous clades was likely attributable to a common ancestor, those paleontologists lacked access to technology that led Aureliano et al. to reach a different conclusion."
+      },
+      {
+        "id": "C",
+        "text": "Previous studies hypothesized that PSP originated in a shared ancestor of pterosaurs and two other clades, but the findings of Aureliano et al. suggest that PSP evolved independently in pterosaurs and was subsequently inherited by the other two clades."
+      },
+      {
+        "id": "D",
+        "text": "Aureliano et al. found that pterosaurs and two other Cretaceous clades with PSP likely lacked a common ancestor with the trait, leading the team to posit a different evolutionary origin for PSP than that posited in earlier studies."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_11",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nDeposits of valuable objects, called hoards, have been unearthed in many different parts of Ireland and Northern Ireland. Technological advancements in the twenty-first century have made it easier to locate hoards, but plenty of hoards were found earlier. For example, ______.\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the Balline Hoard was found in 1868."
+      },
+      {
+        "id": "B",
+        "text": "the Ardagh Hoard, Balline Hoard, and Carrick-on-Suir Hoard have all been found since 1868."
+      },
+      {
+        "id": "C",
+        "text": "the Ardagh Hoard and Balline Hoard were both found before 2000."
+      },
+      {
+        "id": "D",
+        "text": "Balline Hoard and Carrick-on-Suir Hoard were both discovered in the 1900s."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Aug_25_IntlB_Eng_M2_Q11_1.png"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_12",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Taken together, information in the text and graph best support which conclusion about the campaign ads used in the study by Valentino et al.?\nPolitical scientists have asserted that by providing succinct and clear information about candidates and issues, campaign advertisements should reduce the differences in political knowledge observed between groups of voters. Cognitive scientists have noted, however, that existing domain knowledge facilitates the acquisition of new information in that domain. Valentino et al. shed light on this issue by presenting control ads or ads for George W. Bush or Al Gore (candidates in the 2000 US presidential election) to participants with low or high existing political knowledge, then quizzing participants on their understanding of both candidates\u2019 positions.\n\nTaken together, information in the text and graph best support which conclusion about the campaign ads used in the study by Valentino et al.?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They appear to have benefited high-knowledge participants more than they benefited low-knowledge participants, which lends more support to the view advanced by political scientists than to the view advanced by cognitive scientists."
+      },
+      {
+        "id": "B",
+        "text": "They appear to have had an effect contrary to the effect that political scientists expect campaign ads to have, possibly due to the phenomenon that cognitive scientists have identified."
+      },
+      {
+        "id": "C",
+        "text": "They appear to have worsened the problem that political scientists claim that campaign ads should alleviate, possibly because the phenomenon identified by cognitive scientists appears not to have occurred."
+      },
+      {
+        "id": "D",
+        "text": "They appear to have had the result that political scientists predict that campaign ads will have, but only for high-knowledge participants, which is what cognitive scientists would expect."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Aug_25_IntlB_Eng_M2_Q12_1.png"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_13",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice most effectively uses data from the table to complete the text?\nDomestic sheep\u2019s wild ancestor, the mouflon, has a coarse outer coat and an inner coat of wool fiber that is finer in diameter and therefore much softer. In some domestic breeds, such as the Spanish Merino, the outer fiber is only marginally coarser than the inner, and the wool is soft overall. Thus, Merino wool is ideal for delicate garments worn against the skin. Meanwhile, the Navajo-Churro has been selected to retain the marked distinction between outer and inner fiber that the Merino has lost. Being coarser than Merino wool overall, Navajo-Churro wool yields a more durable yarn, which Din\u00e9 (Navajo) weavers use in their celebrated rugs. Yet a comparison of the fiber characteristics of all three sheep reveals that ______.\n\nWhich choice most effectively uses data from the table to complete the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the Navajo-Churro more closely resembles its ancestor, the mouflon, in the uniform softness of its inner fiber, while the Merino more closely resembles the mouflon in the variable diameter of its outer fiber"
+      },
+      {
+        "id": "B",
+        "text": "domestication resulted in a counterintuitive increase in the inner fiber\u2019s minimum diameter, making the inner fiber of the Merino and the Navajo-Churro less suitable for delicate garments than the mouflon\u2019s inner fiber is"
+      },
+      {
+        "id": "C",
+        "text": "the domestication of the mouflon and the subsequent selection process that produced the Merino and the Navajo-Churro resulted in greater softness of outer and inner fiber alike"
+      },
+      {
+        "id": "D",
+        "text": "the selection process that enabled the Navajo-Churro to retain its somewhat coarse outer fiber also resulted in inner fiber that, at its softest, is softer than either the mouflon\u2019s or the Merino\u2019s inner fiber"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    },
+    "image": "/images_labeled/Aug_25_IntlB_Eng_M2_Q13_1.png"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_14",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice most logically completes the text?\nBelonging to neither the minimalist nor the abstract art movements but heavily influencing both, Constantin Br\u00e2ncu\u0219i spent his sculpting career returning to the same few themes\u2014a kiss, a sleeping head, and a bird in flight\u2014each rendered in pristine, simple, almost abstract forms. Perhaps the most famous example is *Bird in Space* (1941), a tall, slender bronze sculpture that arcs upward in a manner suggestive of a bird. Despite the seeming simplicity of his works, the exacting standards to which Br\u00e2ncu\u0219i held his work meant that he produced relatively few pieces over his career. There is thus something of a disparity between ______\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the themes Br\u00e2ncu\u0219i explored and the themes favored by artists he inspired."
+      },
+      {
+        "id": "B",
+        "text": "Br\u00e2ncu\u0219i\u2019s importance to the history of art and his total artistic output."
+      },
+      {
+        "id": "C",
+        "text": "the nature of much of Br\u00e2ncu\u0219i\u2019s work and the abstraction of *Bird in Space*."
+      },
+      {
+        "id": "D",
+        "text": "Br\u00e2ncu\u0219i\u2019s relatively limited productivity and the diversity of his sculptures."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_15",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice most logically completes the text?\nSubsequent to simulating an attack to elicit defense responses in three caterpillar species, ecologists placed a treatment group of those individuals in an enclosure where they were exposed to slight, harmless ambient electric field shifts like those created by common predatory wasps in flight. When exposed to the treatment, cinnabar moth caterpillars and scarce vapourer moth caterpillars remained coiled in a defensive position for an average of 71 seconds and 87 seconds, respectively, whereas European peacock butterfly caterpillars continued to flail defensively for 20 seconds. Meanwhile, in a control group, all individuals (from all three species) resumed neutral behavior in less than one-tenth of a second after the simulated attack. These results suggest that ______.\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "some species of caterpillars are able to detect potential threats via changes in ambient electric fields."
+      },
+      {
+        "id": "B",
+        "text": "in some caterpillar species, the type and duration of defensive responses to electric field shifts varies based on the size of the shifts."
+      },
+      {
+        "id": "C",
+        "text": "European peacock butterfly caterpillars are more sensitive to changes in ambient electric fields than are cinnabar moth caterpillars or scarce vapourer caterpillars."
+      },
+      {
+        "id": "D",
+        "text": "caterpillar species with the sensory acuity to detect small changes in ambient electric fields may also be able to cause shifts in those fields."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_16",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice most logically completes the text?\nThe advent of online streaming has led many music listeners to drift away from ownership of music (through downloads or through physical media such as compact discs) in favor of the streaming services YouTube Music and AccuRadio, among others. Luis Aguiar studied the effect of the 2011 implementation of a restriction on the free version of the French streaming service Deezer: its unlimited usage was reduced to five hours a month, while the paid premium version\u2019s usage remained unlimited. Aguiar found that listeners who used the free service visited licensed online music sellers (e.g., the iTunes store) and sites that make unlicensed music available to download about 2% less after the restriction was implemented, suggesting that ______.\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the implementation of the restriction reduced the overall number of users of the streaming service"
+      },
+      {
+        "id": "B",
+        "text": "restrictions on the amount of music that can be streamed may actually suppress users\u2019 interest in owning music"
+      },
+      {
+        "id": "C",
+        "text": "most users of the free streaming service were probably encouraged by the restriction to move to a paid version of the service with unlimited, ad-free listening"
+      },
+      {
+        "id": "D",
+        "text": "consumers are unlikely to purchase physical copies of music that is readily available through streaming"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_17",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOccurring in the constellation Coma Berenices, 38 million light-years from Earth, SN 1940B was a ______ explosion of a massive star, which blasts large amounts of radiation, heavy elements, and debris into space\u2014that was first detected by American astronomer Josef Johnson.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "supernova, the"
+      },
+      {
+        "id": "B",
+        "text": "supernova. The"
+      },
+      {
+        "id": "C",
+        "text": "supernova\u2014the"
+      },
+      {
+        "id": "D",
+        "text": "supernova: the"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_18",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTaking a deconstructionist approach to analyzing Ji-li Jiang\u2019s novel *Red Scarf Girl* would lead a critic to focus on the linguistic structures inherent in the novel. On the other hand, a cultural studies analysis ______ on the intersection of literature and popular culture might yield a radically different interpretation of Jiang\u2019s novel.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "would focus"
+      },
+      {
+        "id": "B",
+        "text": "would be focusing"
+      },
+      {
+        "id": "C",
+        "text": "focusing"
+      },
+      {
+        "id": "D",
+        "text": "focuses"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_19",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe vertical position of the Sun in the sky at a particular time of day varies throughout the year: due to Earth\u2019s axial tilt, it appears higher in the summer and lower in the winter. Axial tilt is not the only factor that affects the Sun\u2019s ______ as the eccentricity of Earth\u2019s orbit causes its position to vary horizontally as well, resulting in a figure-eight shape called an analemma (if the Sun\u2019s position is recorded at the same time of day throughout the year).\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "position, though,"
+      },
+      {
+        "id": "B",
+        "text": "position; though,"
+      },
+      {
+        "id": "C",
+        "text": "position, though"
+      },
+      {
+        "id": "D",
+        "text": "position, though;"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_20",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile the ancient Celts\u2014Iron Age peoples who inhabited parts of western and central Europe\u2014weren\u2019t a single unified group, their art often featured common elements. These included intricate patterns of interlocking spiral lines, which often held symbolic ______ of birds, horses, and other animals; and inlaid enamel accents.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "significance. Depictions"
+      },
+      {
+        "id": "B",
+        "text": "significance: depictions"
+      },
+      {
+        "id": "C",
+        "text": "significance; depictions"
+      },
+      {
+        "id": "D",
+        "text": "significance, depictions"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_21",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nScientists have long known that cyclones can contribute to the formation of polynyas, large patches of unfrozen water that sporadically form amid vast sheets of sea ice. A recent study found evidence that these polynyas may be ______ but also by vapor streams, which travel through the atmosphere from the tropics toward the North and South Poles.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "caused not only by cyclones\u2014"
+      },
+      {
+        "id": "B",
+        "text": "caused\u2014not only by cyclones\u2014"
+      },
+      {
+        "id": "C",
+        "text": "caused, not only by cyclones,"
+      },
+      {
+        "id": "D",
+        "text": "caused not only by cyclones"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_22",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text with the most logical transition?\nAt the Marie Hitchcock Puppet Theater in San Diego, California, audiences sit down to enjoy a live puppet show. ______ they will experience puppetry in its highest form. The theater\u2019s professional puppeteers are experts in any number of the dozens of puppetry styles, from bunraku puppetry to marionette puppetry.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "To that end,"
+      },
+      {
+        "id": "B",
+        "text": "However,"
+      },
+      {
+        "id": "C",
+        "text": "Conversely,"
+      },
+      {
+        "id": "D",
+        "text": "There,"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_23",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text with the most logical transition?\nEvery US state has an associated state soil, which is typically selected by a group of experts, then passed through the state legislature to receive its official designation. For example, Oklahoma\u2019s Port Silt Loam soil was formally designated in 1987, and Maine\u2019s Chesuncook soil in 1999. ______ years pass between a soil\u2019s selection and official designation, as the legislative process can be notoriously slow.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "In many cases,"
+      },
+      {
+        "id": "B",
+        "text": "Similarly,"
+      },
+      {
+        "id": "C",
+        "text": "Indeed,"
+      },
+      {
+        "id": "D",
+        "text": "Therefore,"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_24",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson recalculated the geographic center of Nebraska, which had previously been determined in 1920 by the US Geological Survey (USGS). The USGS, Rogerson contended, had omitted important considerations, not least the curvature of the earth. ______ the state\u2019s USGS-determined center\u2014a point 10 miles northwest of the municipality of Broken Bow\u2014was inaccurate.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Next,"
+      },
+      {
+        "id": "B",
+        "text": "That being said,"
+      },
+      {
+        "id": "C",
+        "text": "Hence,"
+      },
+      {
+        "id": "D",
+        "text": "However,"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_25",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text with the most logical transition?\nAt the Museum of Natural History in Washington, DC, a single specimen of the planktonic marine organism *B. pumilio* is preserved as the reference organism for the species. This specimen is a holotype, meaning it was the basis of the first formal scientific description of *B. pumilio*. ______ the reference organism for the planktonic *G. inflata*, preserved at the Natural History Museum in London, is a neotype, meaning it acts as a reference organism but is not the exact specimen originally described.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "By contrast,"
+      },
+      {
+        "id": "B",
+        "text": "Moreover,"
+      },
+      {
+        "id": "C",
+        "text": "Admittedly,"
+      },
+      {
+        "id": "D",
+        "text": "For instance,"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_26",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two flags?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Vexillology is the study of flags.\n\u2022 The flags of many countries include symbols like animals, plants, or landforms.\n\u2022 These symbols often represent an aspect of the region\u2019s history, culture, or landscape.\n\u2022 The flag of El Salvador includes a palm branch.\n\u2022 The flag of Zambia includes an eagle.\n\nWhich choice most effectively uses information from the given sentences to emphasize a difference between the two flags?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vexillologists study flags, like those of El Salvador and Zambia."
+      },
+      {
+        "id": "B",
+        "text": "Many countries feature symbols on their flags, such as animals, plants, or landforms, and the study of these designs is known as vexillology."
+      },
+      {
+        "id": "C",
+        "text": "Countries like El Salvador and Zambia use symbols on their flags; examples include plants and animals."
+      },
+      {
+        "id": "D",
+        "text": "El Salvador includes a plant on its flag, whereas Zambia\u2019s flag includes an animal."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "null",
+    "rationale": null,
+    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_27",
+    "testName": "August 2025 International Form B SAT English Module 2",
+    "text": "The student wants to refute a scientific assumption about the Leidenfrost effect. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Leidenfrost effect occurs when liquid touches a solid surface significantly hotter than the liquid\u2019s boiling point, forming a vapor layer that insulates the liquid before eventually collapsing.\n\u2022 Scientists long hypothesized that the temperatures at which Leidenfrost vapor forms and collapses vary depending on molecular variations in surfaces and liquids.\n\u2022 A 2023 study confirmed that the vapor\u2019s formation temperature varies depending on molecular variations in surfaces and liquids.\n\u2022 The study also found that the vapor\u2019s collapse temperature was \"nearly independent of material and fluid properties, contrary to previous theories.\"\n\u2022 The vapor\u2019s collapse temperature remained consistent (around 140\u00b0C).\n\nThe student wants to refute a scientific assumption about the Leidenfrost effect. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Contrary to the hypothesis that vapor layer formation temperature is dictated by molecular variation, a 2023 study confirmed that the temperature at which the vapor layer forms depends on the surface and liquid used."
+      },
+      {
+        "id": "B",
+        "text": "Though the vapor layer created by the Leidenfrost effect can be formed at a range of temperatures, the temperature at which the layer collapses varies depending on material and fluid properties."
+      },
+      {
+        "id": "C",
+        "text": "Countering previous hypotheses, a recent study found that Leidenfrost vapor\u2019s collapse temperature does not vary depending on material and fluid properties."
+      },
+      {
+        "id": "D",
+        "text": "Scientists had hypothesized that the formation temperature of Leidenfrost vapor depends on variations in surfaces and liquids used, but a 2023 study confirmed that the collapse temperature remains consistent."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "Reading and Writing",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "confidence": "high"
+    }
+  }
+];

@@ -7,10 +7,24 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function renderMixedContent(text: string): string {
-  // First, convert \\\\ line breaks to HTML line breaks (with blank line between)
-  let processedText = text.replace(/\\\\\\\\/g, '<br /><br />');
-  // Also handle single \\\\ as line break
-  processedText = processedText.replace(/\\\\/g, '<br /><br />');
+  if (!text) return "";
+  
+  // Normalize line breaks:
+  // 1. Literal "\n" (from JSON string) -> <br />
+  // 2. Real newline characters -> <br />
+  // 3. Double backslashes ( \\ ) -> <br />
+  // 4. Quadruple backslashes ( \\\\ ) -> <br /><br />
+  
+  let processedText = text;
+  
+  // Handle various line break representations
+  processedText = processedText.replace(/\\\\\\\\/g, '<br /><br />'); // Quad slash -> Double break
+  processedText = processedText.replace(/\\\\/g, '<br />');           // Double slash -> Single break
+  // Also handle single backslash if user encoded it poorly (safe fallback for simple text)
+  // processedText = processedText.replace(/\\/g, '<br />'); // Removing this as it breaks LaTeX commands like \frac
+
+  processedText = processedText.replace(/\\n/g, '<br />');            // Literal \n -> Single break
+  processedText = processedText.replace(/\n/g, '<br />');             // Real newline -> Single break
   
   // Split by $...$ patterns, keeping the delimiters
   const parts = processedText.split(/(\$[^$]+\$)/g);
@@ -31,7 +45,17 @@ export function renderMixedContent(text: string): string {
         return part; // Return original on error
       }
     }
-    // Plain text - return as-is
-    return part;
+    // Plain text - return as-is, but convert newlines to breaks
+    let html = part.replace(/\n/g, '<br />');
+
+    // Handle Markdown-style formatting
+    // Bold: **text**
+    html = html.replace(/\*\*([^\s](?:.*?[^\s])?)\*\*/g, '<b>$1</b>');
+    // Italic: *text*
+    html = html.replace(/\*([^\s](?:.*?[^\s])?)\*/g, '<i>$1</i>');
+    // Underline: __text__
+    html = html.replace(/__([^\s](?:.*?[^\s])?)__/g, '<u>$1</u>');
+
+    return html;
   }).join('');
 }
