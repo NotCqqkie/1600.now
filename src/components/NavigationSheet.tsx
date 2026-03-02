@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { Bookmark, X } from "lucide-react";
@@ -26,6 +26,7 @@ export const NavigationSheet = ({
 }: NavigationSheetProps) => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
+  const gridRef = useRef<HTMLDivElement>(null);
   
   // Calculate horizontal center position based on splitscreen state
   const getCenterStyle = () => {
@@ -66,6 +67,11 @@ export const NavigationSheet = ({
       document.addEventListener('keydown', handleEscape);
     }
     return () => document.removeEventListener('keydown', handleEscape);
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    gridRef.current?.scrollTo({ top: 0 });
   }, [isOpen]);
   return <>
       <Button variant="outline" size="sm" onClick={() => setIsOpen(!isOpen)}>
@@ -113,7 +119,10 @@ export const NavigationSheet = ({
           </div>
 
           {/* Question Grid - Compact */}
-          <div className="grid grid-cols-10 gap-2 overflow-auto max-h-[calc(50vh-150px)] p-2">
+          <div
+            ref={gridRef}
+            className="grid grid-cols-10 gap-2 overflow-auto max-h-[calc(50vh-150px)] p-2"
+          >
             {Array.from({
           length: 100
         }, (_, i) => i + 1).map(num => {

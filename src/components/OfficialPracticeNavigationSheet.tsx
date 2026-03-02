@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { X, Bookmark, Home } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -39,7 +39,13 @@ export const OfficialPracticeNavigationSheet = ({
   storagePrefix,
 }: PracticeNavigationSheetProps) => {
   const [isOpen, setIsOpen] = useState(false);
+  const gridRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!isOpen) return;
+    gridRef.current?.scrollTo({ top: 0 });
+  }, [isOpen]);
 
   const getCenterStyle = () => {
     if (isSplitScreenActive) {
@@ -126,7 +132,10 @@ export const OfficialPracticeNavigationSheet = ({
             </div>
           </div>
 
-          <div className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-2 overflow-auto max-h-[calc(55vh-180px)] p-1">
+          <div
+            ref={gridRef}
+            className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-2 overflow-auto max-h-[calc(55vh-180px)] p-1"
+          >
             {practiceSet.map((item, idx) => {
               // CHANGED: official-bank- prefix
               const prefix = `official-bank-${item.subject}`;
