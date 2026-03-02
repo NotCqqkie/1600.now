@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { X, Bookmark } from "lucide-react";
@@ -33,10 +33,16 @@ export const BankNavigationSheet = ({
 }: BankNavigationSheetProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [target, setTarget] = useState(String(currentQuestion));
+  const gridRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setTarget(String(currentQuestion));
   }, [currentQuestion]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    gridRef.current?.scrollTo({ top: 0 });
+  }, [isOpen]);
 
   const getCenterStyle = () => {
     if (isSplitScreenActive) {
@@ -132,7 +138,10 @@ export const BankNavigationSheet = ({
             </div>
           </div>
 
-          <div className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-2 overflow-auto max-h-[calc(55vh-230px)] p-1">
+          <div
+            ref={gridRef}
+            className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-2 overflow-auto max-h-[calc(55vh-230px)] p-1"
+          >
             {Array.from({ length: totalQuestions }, (_, i) => i + 1).map((num) => {
               const status = getQuestionStatus(storagePrefix, num);
               const isFlagged = isQuestionFlagged(storagePrefix, num);

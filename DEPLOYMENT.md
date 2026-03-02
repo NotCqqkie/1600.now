@@ -46,3 +46,6 @@ Your app will be available at http://localhost:8080 (or your server's IP).
 - `nginx.conf`: Nginx configuration for Docker/Self-hosting.
 - `Dockerfile`: Instructions for building the container.
 - `docker-compose.yml`: Simple script to run the container.
+
+### Firebase Google Sign-In on custom domain
+If you set Firebase `authDomain` to a custom domain like `1600.now`, your host must route `/__/auth/*` to your Firebase project domain (`https://<project>.firebaseapp.com/__/auth/*`). This repo includes that proxy in `nginx.conf` for Docker/self-hosting.

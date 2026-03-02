@@ -10,6 +10,7 @@
 - `localhost`
 - your production domain (for example `1600.now`)
 - your preview/staging domain(s)
+- If you use a custom `authDomain` like `1600.now`, ensure hosting rewrites `/__/auth/*` to `https://<project>.firebaseapp.com/__/auth/*`.
 
 ## 3) Create Firestore
 - Open Firestore Database -> Create database.
@@ -37,8 +38,18 @@ service cloud.firestore {
 ```txt
 VITE_FIREBASE_API_KEY=...
 VITE_FIREBASE_AUTH_DOMAIN=...
+VITE_FIREBASE_AUTH_DOMAIN_LOCAL=...
 VITE_FIREBASE_PROJECT_ID=...
 VITE_FIREBASE_STORAGE_BUCKET=...
 VITE_FIREBASE_MESSAGING_SENDER_ID=...
 VITE_FIREBASE_APP_ID=...
 ```
+
+### Custom authDomain example
+
+```txt
+VITE_FIREBASE_AUTH_DOMAIN=1600.now
+VITE_FIREBASE_AUTH_DOMAIN_LOCAL=now-d3d27.firebaseapp.com
+```
+
+Use `VITE_FIREBASE_AUTH_DOMAIN_LOCAL` for localhost/dev so Google sign-in works without relying on your production domain's `/__/auth/*` proxy.
