@@ -50,7 +50,7 @@ VITE_FIREBASE_APP_ID=...
 
 ```txt
 VITE_FIREBASE_AUTH_DOMAIN=auth.1600.now
-VITE_FIREBASE_AUTH_DOMAIN_LOCAL=now-d3d27.firebaseapp.com
+VITE_FIREBASE_AUTH_DOMAIN_LOCAL=now-483609.firebaseapp.com
 ```
 
 Use `VITE_FIREBASE_AUTH_DOMAIN_LOCAL` for localhost/dev so Google sign-in works without depending on your production auth subdomain setup.
