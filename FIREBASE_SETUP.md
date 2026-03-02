@@ -9,8 +9,9 @@
 - In Authentication -> Settings -> Authorized domains, add each domain you use:
 - `localhost`
 - your production domain (for example `1600.now`)
+- your auth subdomain (for example `auth.1600.now`)
 - your preview/staging domain(s)
-- If you use a custom `authDomain` like `1600.now`, ensure hosting rewrites `/__/auth/*` to `https://<project>.firebaseapp.com/__/auth/*`.
+- If you use an auth subdomain, connect that subdomain in Firebase Hosting so `https://auth.your-domain.com/__/auth/handler` and its scripts are served by Firebase.
 
 ## 3) Create Firestore
 - Open Firestore Database -> Create database.
@@ -48,8 +49,18 @@ VITE_FIREBASE_APP_ID=...
 ### Custom authDomain example
 
 ```txt
-VITE_FIREBASE_AUTH_DOMAIN=1600.now
+VITE_FIREBASE_AUTH_DOMAIN=auth.1600.now
 VITE_FIREBASE_AUTH_DOMAIN_LOCAL=now-d3d27.firebaseapp.com
 ```
 
-Use `VITE_FIREBASE_AUTH_DOMAIN_LOCAL` for localhost/dev so Google sign-in works without relying on your production domain's `/__/auth/*` proxy.
+Use `VITE_FIREBASE_AUTH_DOMAIN_LOCAL` for localhost/dev so Google sign-in works without depending on your production auth subdomain setup.
+
+## 6) Google OAuth Client (Google Cloud)
+- Google Cloud Console -> Google Auth Platform -> Clients -> your Web client.
+- Authorized JavaScript origins:
+  - `https://1600.now`
+  - `https://auth.1600.now`
+  - `http://localhost:8080`
+  - `http://localhost:8081`
+- Authorized redirect URI:
+  - `https://auth.1600.now/__/auth/handler`
