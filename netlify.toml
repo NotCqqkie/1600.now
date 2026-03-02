@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/__/auth/*"
-  to = "https://now-d3d27.firebaseapp.com/__/auth/:splat"
+  to = "https://now-483609.firebaseapp.com/__/auth/:splat"
   status = 200
   force = true
 

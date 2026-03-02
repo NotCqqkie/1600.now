@@ -31,7 +31,7 @@
   "rewrites": [
     {
       "source": "/__/auth/(.*)",
-      "destination": "https://now-d3d27.firebaseapp.com/__/auth/$1"
+      "destination": "https://now-483609.firebaseapp.com/__/auth/$1"
     },
     {
       "source": "/(.*)",
