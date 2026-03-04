@@ -11,14 +11,13 @@ const requiredEnvKeys = [
 
 const missingEnvKeys = requiredEnvKeys.filter((key) => !import.meta.env[key]);
 
-if (missingEnvKeys.length > 0) {
-  const message =
-    `Missing Firebase env vars: ${missingEnvKeys.join(", ")}. ` +
-    "Set VITE_FIREBASE_* in your hosting build environment.";
-  if (import.meta.env.PROD) {
-    throw new Error(message);
-  }
-  console.warn(message);
+const hasFirebaseConfig = missingEnvKeys.length === 0;
+const missingConfigMessage =
+  `Missing Firebase env vars: ${missingEnvKeys.join(", ")}. ` +
+  "Set VITE_FIREBASE_* in your hosting build environment.";
+
+if (!hasFirebaseConfig) {
+  console.error(`${missingConfigMessage} Authentication and cloud sync are disabled.`);
 }
 
 const prodAuthDomain = import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "";
@@ -33,7 +32,8 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID || "",
 };
 
-const app = initializeApp(firebaseConfig);
+const app = hasFirebaseConfig ? initializeApp(firebaseConfig) : null;
 
-export const auth = getAuth(app);
-export const db = getFirestore(app);
+export const firebaseConfigError = hasFirebaseConfig ? null : missingConfigMessage;
+export const auth = app ? getAuth(app) : null;
+export const db = app ? getFirestore(app) : null;
