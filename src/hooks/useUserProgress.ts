@@ -95,7 +95,7 @@ export const useUserProgress = () => {
 
   // Sync with Firestore on user login
   useEffect(() => {
-    if (!user) return;
+    if (!user || !db) return;
 
     const fetchProgress = async () => {
       try {
@@ -129,7 +129,7 @@ export const useUserProgress = () => {
 
   const persist = useCallback(async (newProgress: Record<string, QuestionProgress>) => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(newProgress));
-    if (user) {
+    if (user && db) {
       const progressRef = doc(db, 'user_progress', user.id);
       await setDoc(progressRef, { user_id: user.id, data: newProgress }, { merge: true });
     }
@@ -144,7 +144,7 @@ export const useUserProgress = () => {
     const empty = {};
     setProgress(empty);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(empty));
-    if (user) {
+    if (user && db) {
         const progressRef = doc(db, 'user_progress', user.id);
         await setDoc(progressRef, { user_id: user.id, data: empty }, { merge: true });
     }

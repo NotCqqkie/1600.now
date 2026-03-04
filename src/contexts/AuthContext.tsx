@@ -10,7 +10,7 @@ import {
   signInWithRedirect,
   signOut as firebaseSignOut,
 } from "firebase/auth";
-import { auth } from "@/lib/firebase";
+import { auth, firebaseConfigError } from "@/lib/firebase";
 
 export interface AppUser {
   id: string;
@@ -44,6 +44,12 @@ const AuthContext = createContext<AuthContextType>({
 
 export const useAuth = () => useContext(AuthContext);
 
+const getAuthUnavailableError = () =>
+  new Error(
+    firebaseConfigError ||
+      "Firebase authentication is not configured. Set VITE_FIREBASE_* variables.",
+  );
+
 const toAppUser = (firebaseUser: FirebaseUser | null): AppUser | null => {
   if (!firebaseUser) return null;
   return {
@@ -63,6 +69,11 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!auth) {
+      setLoading(false);
+      return;
+    }
+
     const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
       const appUser = toAppUser(firebaseUser);
       setSession(appUser);
@@ -74,14 +85,17 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   }, []);
 
   const signInWithEmailPassword = async (email: string, password: string) => {
+    if (!auth) throw getAuthUnavailableError();
     await signInWithEmailAndPassword(auth, email, password);
   };
 
   const signUpWithEmailPassword = async (email: string, password: string) => {
+    if (!auth) throw getAuthUnavailableError();
     await createUserWithEmailAndPassword(auth, email, password);
   };
 
   const signInWithGoogle = async () => {
+    if (!auth) throw getAuthUnavailableError();
     const provider = new GoogleAuthProvider();
     provider.setCustomParameters({ prompt: "select_account" });
     try {
@@ -102,6 +116,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   };
 
   const signOut = async () => {
+    if (!auth) throw getAuthUnavailableError();
     await firebaseSignOut(auth);
   };
 
