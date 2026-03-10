@@ -26,8 +26,104 @@ export function renderMixedContent(text: string): string {
   processedText = processedText.replace(/\\n/g, '<br />');            // Literal \n -> Single break
   processedText = processedText.replace(/\n/g, '<br />');             // Real newline -> Single break
   
-  // Split by $...$ patterns, keeping the delimiters
-  const parts = processedText.split(/(\$[^$]+\$)/g);
+  const isEscapedAt = (content: string, index: number): boolean => {
+    let backslashCount = 0;
+    let i = index - 1;
+    while (i >= 0 && content[i] === "\\") {
+      backslashCount += 1;
+      i -= 1;
+    }
+    return backslashCount % 2 === 1;
+  };
+
+  const isLikelyInlineMath = (candidate: string): boolean => {
+    const trimmed = candidate.trim();
+    if (!trimmed) return false;
+
+    // Avoid treating long prose/currency spans as math.
+    const proseWords = trimmed.match(/[A-Za-z]{3,}/g) ?? [];
+    if (proseWords.length >= 2) return false;
+
+    // Fast-path for clear math syntax.
+    if (/[\\^_{}]/.test(trimmed)) return true;
+    if (/[=<>+*/]/.test(trimmed)) return true;
+    if (/(^|[^A-Za-z])-(?=\d|[A-Za-z(])/.test(trimmed)) return true;
+
+    // Plain number/variable snippets are often math.
+    if (/^\d[\d.,]*$/.test(trimmed)) return true;
+    if (/^[A-Za-z][A-Za-z0-9]{0,3}$/.test(trimmed)) return true;
+    if (/^[A-Za-z][A-Za-z0-9]*\([^)]*\)$/.test(trimmed)) return true;
+
+    // Avoid treating prose/currency spans as math (e.g. "$500 and $700").
+    if (/\s/.test(trimmed) && !/[=<>+*/\\^_{}]/.test(trimmed)) return false;
+    if (/\b(and|or|the|of|to|for|in|is|are)\b/i.test(trimmed)) return false;
+
+    // If it has letters and no obvious prose words, allow it.
+    if (/[A-Za-z]/.test(trimmed)) return true;
+
+    return false;
+  };
+
+  type ContentSegment =
+    | { type: "text"; value: string }
+    | { type: "math"; value: string; displayMode: boolean };
+
+  const splitTextAndMath = (content: string): ContentSegment[] => {
+    const segments: ContentSegment[] = [];
+    let cursor = 0;
+    let textStart = 0;
+
+    while (cursor < content.length) {
+      if (content[cursor] !== "$" || isEscapedAt(content, cursor)) {
+        cursor += 1;
+        continue;
+      }
+
+      const isDisplayMath = content[cursor + 1] === "$" && !isEscapedAt(content, cursor + 1);
+      const delimiterLength = isDisplayMath ? 2 : 1;
+
+      let closing = cursor + delimiterLength;
+      while (closing < content.length) {
+        if (
+          content[closing] === "$" &&
+          !isEscapedAt(content, closing) &&
+          (isDisplayMath ? content[closing + 1] === "$" : content[closing + 1] !== "$")
+        ) {
+          break;
+        }
+        closing += 1;
+      }
+
+      // No closing delimiter: treat "$" as plain text.
+      if (closing >= content.length) {
+        cursor += 1;
+        continue;
+      }
+
+      const mathCandidate = content.slice(cursor + delimiterLength, closing);
+      if (!isLikelyInlineMath(mathCandidate)) {
+        // Keep scanning to allow this "$" to remain literal while still parsing later math delimiters.
+        cursor += 1;
+        continue;
+      }
+
+      if (textStart < cursor) {
+        segments.push({ type: "text", value: content.slice(textStart, cursor) });
+      }
+      segments.push({ type: "math", value: mathCandidate, displayMode: isDisplayMath });
+
+      cursor = closing + delimiterLength;
+      textStart = cursor;
+    }
+
+    if (textStart < content.length) {
+      segments.push({ type: "text", value: content.slice(textStart) });
+    }
+
+    return segments;
+  };
+
+  const parts = splitTextAndMath(processedText);
   
   const applyInlineFormatting = (content: string): string => {
     let html = content.replace(/\n/g, "<br />");
@@ -59,22 +155,20 @@ export function renderMixedContent(text: string): string {
     return html;
   };
 
-  return parts.map(part => {
-    if (part.startsWith('$') && part.endsWith('$')) {
-      // This is a math section - extract content and render with KaTeX
-      const mathContent = part.slice(1, -1);
+  return parts.map((part) => {
+    if (part.type === "math") {
       try {
-        return katex.renderToString(mathContent, {
-          displayMode: false,
+        return katex.renderToString(part.value, {
+          displayMode: part.displayMode,
           throwOnError: false,
           trust: true,
           strict: false
         });
       } catch (error) {
         console.error('KaTeX error:', error);
-        return part; // Return original on error
+        return `$${part.value}$`;
       }
     }
-    return applyInlineFormatting(part);
+    return applyInlineFormatting(part.value).replace(/\\\$/g, "$");
   }).join('');
 }
