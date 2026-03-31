@@ -6,6 +6,34 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+export function normalizePublicAssetPath(path: string): string {
+  if (!path) return path;
+
+  const trimmed = path.trim();
+  if (!trimmed || /^(?:https?:|data:|blob:|mailto:|tel:)/i.test(trimmed)) {
+    return trimmed;
+  }
+
+  const [pathAndQuery, hash = ""] = trimmed.split("#");
+  const [pathname, query = ""] = pathAndQuery.split("?");
+  const normalizedPath = pathname.replace(/\\/g, "/");
+  const encodedPath = normalizedPath
+    .split("/")
+    .map((segment, index) => {
+      if (index === 0 && segment === "") return "";
+      try {
+        return encodeURIComponent(decodeURIComponent(segment));
+      } catch {
+        return encodeURIComponent(segment);
+      }
+    })
+    .join("/");
+
+  const querySuffix = query ? `?${query}` : "";
+  const hashSuffix = hash ? `#${hash}` : "";
+  return `${encodedPath}${querySuffix}${hashSuffix}`;
+}
+
 export function renderMixedContent(text: string): string {
   if (!text) return "";
   
@@ -40,19 +68,23 @@ export function renderMixedContent(text: string): string {
     const trimmed = candidate.trim();
     if (!trimmed) return false;
 
-    // Avoid treating long prose/currency spans as math.
-    const proseWords = trimmed.match(/[A-Za-z]{3,}/g) ?? [];
-    if (proseWords.length >= 2) return false;
-
-    // Fast-path for clear math syntax.
+    // Fast-path for clear LaTeX/math syntax before checking for prose.
+    if (/\\[A-Za-z]+/.test(trimmed)) return true;
     if (/[\\^_{}]/.test(trimmed)) return true;
     if (/[=<>+*/]/.test(trimmed)) return true;
     if (/(^|[^A-Za-z])-(?=\d|[A-Za-z(])/.test(trimmed)) return true;
+
+    // Avoid treating long prose/currency spans as math.
+    const proseCandidate = trimmed.replace(/\\[A-Za-z]+/g, " ");
+    const proseWords = proseCandidate.match(/[A-Za-z]{3,}/g) ?? [];
+    if (proseWords.length >= 2) return false;
 
     // Plain number/variable snippets are often math.
     if (/^\d[\d.,]*$/.test(trimmed)) return true;
     if (/^[A-Za-z][A-Za-z0-9]{0,3}$/.test(trimmed)) return true;
     if (/^[A-Za-z][A-Za-z0-9]*\([^)]*\)$/.test(trimmed)) return true;
+    if (/^\(\s*[-\dA-Za-z.,\s]+\)$/.test(trimmed) && trimmed.includes(",")) return true;
+    if (/[\dA-Za-z)]\s*-\s*[\dA-Za-z(]/.test(trimmed)) return true;
 
     // Avoid treating prose/currency spans as math (e.g. "$500 and $700").
     if (/\s/.test(trimmed) && !/[=<>+*/\\^_{}]/.test(trimmed)) return false;
@@ -151,6 +183,12 @@ export function renderMixedContent(text: string): string {
       const trimmed = inner.trim();
       return trimmed ? `${prefix}<i>${trimmed}</i>` : _;
     });
+
+    html = html.replace(
+      /(<img\b[^>]*\bsrc\s*=\s*)(["'])([^"']+)(\2)/gi,
+      (_, prefix: string, quote: string, src: string, closingQuote: string) =>
+        `${prefix}${quote}${normalizePublicAssetPath(src)}${closingQuote}`
+    );
 
     return html;
   };

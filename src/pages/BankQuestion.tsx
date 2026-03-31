@@ -12,6 +12,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
 import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet";
 import { cn, renderMixedContent } from "@/lib/utils";
+import { useUserProgress } from "@/hooks/useUserProgress";
 import { Bookmark, Check, ChevronLeft, ChevronRight, Eye, EyeOff, Minimize2, Maximize2, Pause, Play, Strikethrough, Rows3, Columns3 } from "lucide-react";
 import {
   DropdownMenu,
@@ -69,6 +70,8 @@ const BankQuestion = () => {
   const storagePrefix = subject ? `bank-${subject}` : "bank";
   const questionKey = `${storagePrefix}-${question?.id || questionNumber}`;
   const strikeoutId = (subject ? SUBJECT_BASE_ID[subject] : 400000) + (question?.id || 0);
+
+  const { addAttempt } = useUserProgress();
 
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
   const [freeResponseAnswer, setFreeResponseAnswer] = useState<string>("");
@@ -291,6 +294,12 @@ const BankQuestion = () => {
     } else {
       setCheckButtonState("incorrect");
       localStorage.setItem(`${questionKey}-status`, "incorrect");
+    }
+
+    // Track in useUserProgress (powers the Profile statistics page).
+    // Only record the first attempt per session to avoid double-counting.
+    if (newAttempts === 1 || !Object.values(checkedAnswers).some(Boolean)) {
+      addAttempt(questionKey, isCorrect ? "correct" : "incorrect", elapsedSeconds, userAnswer);
     }
   };
 

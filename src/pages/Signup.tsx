@@ -13,13 +13,14 @@ const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
-  const { signInWithGoogle, signUpWithEmailPassword, user } = useAuth();
+  const { signInWithGoogle, signUpWithEmailPassword, user, loading } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
+  // Redirect once auth resolves — handles both popup and redirect flows.
   useEffect(() => {
-    if (user) navigate("/");
-  }, [user]);
+    if (!loading && user) navigate("/");
+  }, [user, loading, navigate]);
 
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
