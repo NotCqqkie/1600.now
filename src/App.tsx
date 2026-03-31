@@ -26,6 +26,7 @@ const Analysis = lazy(() => import("./pages/Analysis"));
 const Modules = lazy(() => import("./pages/Modules"));
 const ModuleView = lazy(() => import("./pages/ModuleView"));
 const Vocab = lazy(() => import("./pages/Vocab"));
+const ScoreCalculator = lazy(() => import("./pages/ScoreCalculator"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const Profile = lazy(() => import("./pages/Profile"));
 
@@ -52,6 +53,7 @@ const App = () => (
             <Route path="/modules/:moduleId" element={<Suspense fallback={<Loading />}><ModuleView /></Suspense>} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/profile" element={<Suspense fallback={<Loading />}><Profile /></Suspense>} />
+            <Route path="/score-calculator" element={<Suspense fallback={<Loading />}><ScoreCalculator /></Suspense>} />
             <Route path="/browse" element={<Suspense fallback={<Loading />}><Index /></Suspense>} />
             <Route path="/hard/:id" element={<Suspense fallback={<Loading />}><Question /></Suspense>} />
 

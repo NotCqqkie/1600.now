@@ -4,6 +4,7 @@ import {
   GoogleAuthProvider,
   User as FirebaseUser,
   createUserWithEmailAndPassword,
+  getRedirectResult,
   onAuthStateChanged,
   signInWithEmailAndPassword,
   signInWithPopup,
@@ -73,6 +74,12 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       setLoading(false);
       return;
     }
+
+    // Process any pending redirect result (from signInWithRedirect flow).
+    // onAuthStateChanged will fire afterward with the signed-in user.
+    getRedirectResult(auth).catch(() => {
+      // No redirect pending — ignore.
+    });
 
     const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
       const appUser = toAppUser(firebaseUser);

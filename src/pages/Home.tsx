@@ -587,6 +587,12 @@ const Home = () => {
             >
               100 Hard Questions
             </Link>
+            <Link
+              to="/score-calculator"
+              className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground transition-colors"
+            >
+              Score Calculator
+            </Link>
           </nav>
 
           <div className="inline-flex flex-shrink-0 items-center gap-2">

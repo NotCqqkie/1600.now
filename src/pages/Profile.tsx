@@ -22,23 +22,28 @@ import {
     TooltipTrigger,
   } from "@/components/ui/tooltip";
 import { intervalToDuration } from "date-fns";
-import { 
-  ArrowLeft, CheckCircle2, XCircle, AlertCircle, Clock, 
-  User, Settings, LogOut, ChartBar, ChevronDown, Activity, BookOpen,
-  Palette
+import {
+  ArrowLeft, AlertCircle,
+  Settings, LogOut, ChartBar, Activity, BookOpen,
+  Palette, TrendingUp, Clock, Target, Zap
 } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import categoryMapDataRaw from "@/data/category_map.json";
+import { getBankPool } from "@/data/questionBank";
 
-// Type definition for category map
-type CategoryMapItem = {
-  subject: string;
-  domain: string;
-  skill: string;
-  confidence: string;
+// Build a live category map from the question bank (keyed by the same
+// "bank-{subject}-{id}" format that BankQuestion.tsx uses when saving progress).
+type CategoryMapItem = { subject: string; domain: string; skill: string };
+const buildLiveCategoryMap = (): Record<string, CategoryMapItem> => {
+  const map: Record<string, CategoryMapItem> = {};
+  for (const q of getBankPool("math")) {
+    map[`bank-math-${q.id}`] = { subject: "Math", domain: q.category.domain, skill: q.category.skill };
+  }
+  for (const q of getBankPool("reading")) {
+    map[`bank-reading-${q.id}`] = { subject: "English", domain: q.category.domain, skill: q.category.skill };
+  }
+  return map;
 };
-
-const categoryMap = categoryMapDataRaw as Record<string, CategoryMapItem>;
+const liveCategoryMap = buildLiveCategoryMap();
 
 const Profile = () => {
   const { user, signOut } = useAuth();
@@ -222,42 +227,28 @@ const SettingsView = ({ user, handleResetProgress }: { user: any, handleResetPro
 };
 
 const StatisticsView = ({ progress }: { progress: Record<string, QuestionProgress> }) => {
-    // 1. Calculate Statistics
     const stats = useMemo(() => {
         const allProgress = Object.values(progress);
-        
-        const overall = {
-            totalAttempted: 0,
-            correct: 0,
-            incorrect: 0,
-            totalTime: 0,
-            correctFirstTry: 0
-        };
 
-        // Structure: Subject -> Domain -> Skills[]
+        const overall = { totalAttempted: 0, correct: 0, incorrect: 0, totalTime: 0, correctFirstTry: 0 };
+
+        // Build domain/skill structure from the live category map so counts are always in sync.
         const structure: Record<string, { domains: Record<string, { skills: Record<string, any> }> }> = {
             "Math": { domains: {} },
             "English": { domains: {} }
         };
 
-        // Initialize domains and skills
-        Object.entries(categoryMap).forEach(([id, meta]) => {
-           const subject = meta.subject === "Math" ? "Math" : "English"; 
-           
-           if (!structure[subject].domains[meta.domain]) {
-               structure[subject].domains[meta.domain] = { skills: {} };
-           }
-           
-           if (!structure[subject].domains[meta.domain].skills[meta.skill]) {
-               structure[subject].domains[meta.domain].skills[meta.skill] = {
-                   total: 0,
-                   attempted: 0,
-                   correctFirstTry: 0,
-                   correctEventually: 0,
-                   incorrect: 0
-               };
-           }
-           structure[subject].domains[meta.domain].skills[meta.skill].total++;
+        Object.values(liveCategoryMap).forEach((meta) => {
+            const subject = meta.subject === "Math" ? "Math" : "English";
+            if (!structure[subject].domains[meta.domain]) {
+                structure[subject].domains[meta.domain] = { skills: {} };
+            }
+            if (!structure[subject].domains[meta.domain].skills[meta.skill]) {
+                structure[subject].domains[meta.domain].skills[meta.skill] = {
+                    total: 0, attempted: 0, correctFirstTry: 0, correctEventually: 0, incorrect: 0
+                };
+            }
+            structure[subject].domains[meta.domain].skills[meta.skill].total++;
         });
 
         const bySubjectStats = {
@@ -265,42 +256,30 @@ const StatisticsView = ({ progress }: { progress: Record<string, QuestionProgres
             "English": { totalAttempted: 0, correct: 0, incorrect: 0, totalTime: 0 }
         };
 
-        // Process User Progress
         allProgress.forEach(p => {
             if (p.attempts.length === 0) return;
-            
-            const meta = categoryMap[p.questionId];
+            const meta = liveCategoryMap[p.questionId];
             if (!meta) return;
 
             const subject = meta.subject === "Math" ? "Math" : "English";
-            const domain = meta.domain; // e.g. "Algebra"
-            const skill = meta.skill; // e.g. "Linear equations"
+            const { domain, skill } = meta;
 
-            // Overall Stats
             overall.totalAttempted++;
             overall.totalTime += p.totalTimeSpentSeconds;
-
-            // Subject Stats
             bySubjectStats[subject].totalAttempted++;
             bySubjectStats[subject].totalTime += p.totalTimeSpentSeconds;
 
-            // Skill Stats (which rolls up to Domain implicitly by structure)
-            if (structure[subject]?.domains[domain]?.skills[skill]) {
-                const skillStats = structure[subject].domains[domain].skills[skill];
+            const skillStats = structure[subject]?.domains[domain]?.skills[skill];
+            if (skillStats) {
                 skillStats.attempted++;
-
                 const isSolved = p.attempts.some(a => a.result === 'correct');
-                const isFirstTryCorrect = p.attempts.length > 0 && p.attempts[0].result === 'correct';
+                const isFirstTryCorrect = p.attempts[0]?.result === 'correct';
 
                 if (isSolved) {
                     overall.correct++;
                     bySubjectStats[subject].correct++;
-                    if (isFirstTryCorrect) {
-                        overall.correctFirstTry++;
-                        skillStats.correctFirstTry++;
-                    } else {
-                        skillStats.correctEventually++;
-                    }
+                    if (isFirstTryCorrect) { overall.correctFirstTry++; skillStats.correctFirstTry++; }
+                    else skillStats.correctEventually++;
                 } else {
                     overall.incorrect++;
                     bySubjectStats[subject].incorrect++;
@@ -320,181 +299,234 @@ const StatisticsView = ({ progress }: { progress: Record<string, QuestionProgres
         return `${duration.seconds}s`;
     };
 
+    const accuracy = stats.overall.totalAttempted > 0
+        ? Math.round((stats.overall.correct / stats.overall.totalAttempted) * 100)
+        : 0;
+    const firstTryRate = stats.overall.totalAttempted > 0
+        ? Math.round((stats.overall.correctFirstTry / stats.overall.totalAttempted) * 100)
+        : 0;
+
     return (
         <div className="space-y-8 animate-in fade-in duration-500">
-             <div className="mb-6">
+            <div className="mb-2">
                 <h2 className="text-2xl font-bold flex items-center gap-2">
                     <Activity className="w-6 h-6" />
                     Performance Statistics
                 </h2>
-                 <p className="text-muted-foreground">Detailed breakdown of your progress across Math and English.</p>
+                <p className="text-muted-foreground">Your progress across Math and English question bank.</p>
             </div>
 
-            {/* Overall Stats Grid */}
-            <div className="grid gap-4 md:grid-cols-4">
-                <Card>
-                    <CardHeader className="pb-2">
-                        <CardTitle className="text-sm font-medium">Total Questions Attempted</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="text-2xl font-bold">{stats.overall.totalAttempted}</div>
-                    </CardContent>
-                </Card>
-                 <Card>
-                    <CardHeader className="pb-2">
-                        <CardTitle className="text-sm font-medium">Global Accuracy</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="text-2xl font-bold">
-                            {stats.overall.totalAttempted > 0 
-                                ? Math.round((stats.overall.correct / stats.overall.totalAttempted) * 100) 
-                                : 0}%
-                        </div>
-                         <p className="text-xs text-muted-foreground">
-                            {stats.overall.correct} correct / {stats.overall.totalAttempted} total
-                        </p>
-                    </CardContent>
-                </Card>
-                 <Card>
-                    <CardHeader className="pb-2">
-                         <CardTitle className="text-sm font-medium">Total Time Spent</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="text-2xl font-bold">{formatTime(stats.overall.totalTime)}</div>
-                    </CardContent>
-                </Card>
-                <Card>
-                    <CardHeader className="pb-2">
-                         <CardTitle className="text-sm font-medium">Avg Time / Question</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="text-2xl font-bold">
-                             {stats.overall.totalAttempted > 0 
-                                ? formatTime(Math.round(stats.overall.totalTime / stats.overall.totalAttempted)) 
-                                : "0s"}
-                        </div>
-                    </CardContent>
-                </Card>
-            </div>
-
-            {/* Legend */}
-            <div className="flex flex-wrap gap-4 p-4 bg-muted/40 rounded-lg border text-sm">
-                <div className="flex items-center gap-2">
-                    <SkillStatusIcon status="unseen" size="sm" />
-                    <span>Unseen</span>
+            {stats.overall.totalAttempted === 0 ? (
+                <div className="flex flex-col items-center justify-center py-16 text-center gap-3">
+                    <Target className="w-10 h-10 text-muted-foreground/40" />
+                    <p className="text-lg font-medium text-muted-foreground">No questions attempted yet</p>
+                    <p className="text-sm text-muted-foreground/70">Head to the Question Bank and start practicing to see your stats here.</p>
                 </div>
-                <div className="flex items-center gap-2">
-                    <SkillStatusIcon status="learning" size="sm" />
-                    <span>Learning</span>
-                </div>
-                <div className="flex items-center gap-2">
-                    <SkillStatusIcon status="familiar" size="sm" />
-                    <span>Familiar</span>
-                </div>
-                <div className="flex items-center gap-2">
-                    <SkillStatusIcon status="proficient" size="sm" />
-                    <span>Proficient</span>
-                </div>
-            </div>
+            ) : (
+                <>
+                    {/* Overall Stats Grid */}
+                    <div className="grid gap-4 grid-cols-2 md:grid-cols-4">
+                        <Card>
+                            <CardContent className="pt-6">
+                                <div className="flex items-start justify-between">
+                                    <div>
+                                        <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Attempted</p>
+                                        <p className="text-3xl font-bold mt-1">{stats.overall.totalAttempted}</p>
+                                    </div>
+                                    <TrendingUp className="w-5 h-5 text-muted-foreground/50 mt-1" />
+                                </div>
+                            </CardContent>
+                        </Card>
+                        <Card>
+                            <CardContent className="pt-6">
+                                <div className="flex items-start justify-between">
+                                    <div>
+                                        <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Accuracy</p>
+                                        <p className={`text-3xl font-bold mt-1 ${accuracy >= 70 ? "text-green-600" : accuracy >= 50 ? "text-yellow-600" : "text-red-500"}`}>
+                                            {accuracy}%
+                                        </p>
+                                        <p className="text-xs text-muted-foreground">{stats.overall.correct} / {stats.overall.totalAttempted}</p>
+                                    </div>
+                                    <Target className="w-5 h-5 text-muted-foreground/50 mt-1" />
+                                </div>
+                            </CardContent>
+                        </Card>
+                        <Card>
+                            <CardContent className="pt-6">
+                                <div className="flex items-start justify-between">
+                                    <div>
+                                        <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">First Try</p>
+                                        <p className={`text-3xl font-bold mt-1 ${firstTryRate >= 70 ? "text-green-600" : firstTryRate >= 50 ? "text-yellow-600" : "text-red-500"}`}>
+                                            {firstTryRate}%
+                                        </p>
+                                        <p className="text-xs text-muted-foreground">{stats.overall.correctFirstTry} correct first try</p>
+                                    </div>
+                                    <Zap className="w-5 h-5 text-muted-foreground/50 mt-1" />
+                                </div>
+                            </CardContent>
+                        </Card>
+                        <Card>
+                            <CardContent className="pt-6">
+                                <div className="flex items-start justify-between">
+                                    <div>
+                                        <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Time Spent</p>
+                                        <p className="text-3xl font-bold mt-1">{formatTime(stats.overall.totalTime)}</p>
+                                        <p className="text-xs text-muted-foreground">
+                                            {stats.overall.totalAttempted > 0
+                                                ? `~${formatTime(Math.round(stats.overall.totalTime / stats.overall.totalAttempted))} / q`
+                                                : "—"}
+                                        </p>
+                                    </div>
+                                    <Clock className="w-5 h-5 text-muted-foreground/50 mt-1" />
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </div>
 
-            {/* Side by Side Breakdown */}
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-                 {/* Math Section */}
-                 <SubjectBreakdown 
-                    subject="Math" 
-                    stats={stats.bySubjectStats["Math"]}
-                    domains={stats.structure["Math"].domains}
-                    formatTime={formatTime} 
-                 />
-
-                 {/* English Section */}
-                 <SubjectBreakdown 
-                    subject="English" 
-                    stats={stats.bySubjectStats["English"]}
-                    domains={stats.structure["English"].domains}
-                    formatTime={formatTime} 
-                 />
-            </div>
-
+                    {/* Side by Side Breakdown */}
+                    <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                        <SubjectBreakdown
+                            subject="Math"
+                            stats={stats.bySubjectStats["Math"]}
+                            domains={stats.structure["Math"].domains}
+                            formatTime={formatTime}
+                        />
+                        <SubjectBreakdown
+                            subject="English"
+                            stats={stats.bySubjectStats["English"]}
+                            domains={stats.structure["English"].domains}
+                            formatTime={formatTime}
+                        />
+                    </div>
+                </>
+            )}
         </div>
     );
 };
 
 const SubjectBreakdown = ({ subject, stats, domains, formatTime }: any) => {
-    const accuracy = stats.totalAttempted > 0 
-        ? Math.round((stats.correct / stats.totalAttempted) * 100) 
+    const accuracy = stats.totalAttempted > 0
+        ? Math.round((stats.correct / stats.totalAttempted) * 100)
         : 0;
+    const isMath = subject === "Math";
 
     return (
         <Card className="flex flex-col h-full">
             <CardHeader className="pb-4 border-b bg-muted/20">
-                <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                        <div className={`p-2 rounded-lg ${subject === "Math" ? "bg-blue-100 text-blue-700" : "bg-orange-100 text-orange-700"}`}>
-                             {subject === "Math" ? <CalculatorIcon className="w-5 h-5"/> : <BookOpen className="w-5 h-5"/>}
-                        </div>
-                        <div>
-                             <CardTitle>{subject}</CardTitle>
-                             <CardDescription>Overall Accuracy: {accuracy}%</CardDescription>
-                        </div>
+                <div className="flex items-center gap-3">
+                    <div className={`p-2 rounded-lg ${isMath ? "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300" : "bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300"}`}>
+                        {isMath ? <CalculatorIcon className="w-5 h-5" /> : <BookOpen className="w-5 h-5" />}
+                    </div>
+                    <div className="flex-1">
+                        <CardTitle>{subject}</CardTitle>
+                        <CardDescription>
+                            {stats.totalAttempted > 0
+                                ? `${accuracy}% accuracy · ${stats.totalAttempted} attempted`
+                                : "No questions attempted yet"}
+                        </CardDescription>
                     </div>
                 </div>
-                {/* Mini Stats for Subject */}
-                 <div className="grid grid-cols-3 gap-2 mt-4 text-center">
-                    <div className="bg-background rounded p-2 border">
-                        <div className="text-xs text-muted-foreground">Time Spent</div>
-                        <div className="font-semibold">{formatTime(stats.totalTime)}</div>
+                {stats.totalAttempted > 0 && (
+                    <div className="mt-3">
+                        {/* Accuracy bar */}
+                        <div className="flex items-center justify-between text-xs text-muted-foreground mb-1">
+                            <span>{stats.correct} correct</span>
+                            <span>{stats.incorrect} incorrect</span>
+                        </div>
+                        <div className="h-2 rounded-full bg-muted overflow-hidden flex">
+                            <div
+                                className="h-full bg-green-500 transition-all"
+                                style={{ width: `${(stats.correct / stats.totalAttempted) * 100}%` }}
+                            />
+                            <div
+                                className="h-full bg-red-400"
+                                style={{ width: `${(stats.incorrect / stats.totalAttempted) * 100}%` }}
+                            />
+                        </div>
                     </div>
-                     <div className="bg-background rounded p-2 border">
-                        <div className="text-xs text-muted-foreground">Correct</div>
-                        <div className="font-semibold text-green-600">{stats.correct}</div>
-                    </div>
-                     <div className="bg-background rounded p-2 border">
-                        <div className="text-xs text-muted-foreground">Incorrect</div>
-                        <div className="font-semibold text-red-600">{stats.incorrect}</div>
-                    </div>
-                </div>
+                )}
             </CardHeader>
-            <CardContent className="flex-1 pt-6 space-y-6">
+            <CardContent className="flex-1 pt-5 space-y-5">
                 {Object.entries(domains).map(([domainName, rawData]: [string, any]) => {
                     const skills = rawData.skills || {};
+                    const domainAttempted = Object.values(skills).reduce((s: number, sk: any) => s + sk.attempted, 0) as number;
+                    const domainCorrect = Object.values(skills).reduce((s: number, sk: any) => s + sk.correctFirstTry + sk.correctEventually, 0) as number;
+                    const domainTotal = Object.values(skills).reduce((s: number, sk: any) => s + sk.total, 0) as number;
+                    const domainAccuracy = domainAttempted > 0 ? Math.round((domainCorrect / domainAttempted) * 100) : null;
+
                     return (
-                        <div key={domainName} className="flex gap-4 items-center justify-between">
-                             <div className="min-w-[120px] font-medium text-sm">{domainName}</div>
-                             <div className="flex-1 flex flex-wrap gap-2 justify-end">
+                        <div key={domainName} className="space-y-2">
+                            <div className="flex items-center justify-between">
+                                <span className="text-sm font-semibold">{domainName}</span>
+                                <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                                    <span>{domainAttempted} / {domainTotal}</span>
+                                    {domainAccuracy !== null && (
+                                        <span className={`font-medium ${domainAccuracy >= 70 ? "text-green-600" : domainAccuracy >= 50 ? "text-yellow-600" : "text-red-500"}`}>
+                                            {domainAccuracy}%
+                                        </span>
+                                    )}
+                                </div>
+                            </div>
+                            <div className="space-y-1.5 pl-2">
                                 {Object.entries(skills).map(([skillName, skillStats]: [string, any]) => {
-                                    // Determine Status
-                                    let status: "unseen" | "learning" | "familiar" | "proficient" = "unseen";
-                                    
-                                    if (skillStats.attempted > 0) {
-                                        const totalCorrect = skillStats.correctFirstTry + skillStats.correctEventually;
-                                        const accuracy = totalCorrect / skillStats.attempted;
-                                        
-                                        if (accuracy >= 0.85) status = "proficient";
-                                        else if (accuracy >= 0.50) status = "familiar";
-                                        else status = "learning";
-                                    }
+                                    const correct = skillStats.correctFirstTry + skillStats.correctEventually;
+                                    const skillAccuracy = skillStats.attempted > 0
+                                        ? Math.round((correct / skillStats.attempted) * 100)
+                                        : null;
+                                    const completionPct = skillStats.total > 0
+                                        ? Math.round((skillStats.attempted / skillStats.total) * 100)
+                                        : 0;
 
                                     return (
                                         <TooltipProvider key={skillName}>
                                             <Tooltip>
-                                                <TooltipTrigger>
-                                                    <SkillStatusIcon status={status} />
+                                                <TooltipTrigger asChild>
+                                                    <div className="group cursor-default">
+                                                        <div className="flex items-center justify-between text-xs mb-0.5">
+                                                            <span className="text-muted-foreground truncate max-w-[180px]">{skillName}</span>
+                                                            <div className="flex items-center gap-2 shrink-0 ml-2">
+                                                                <span className="text-muted-foreground/70">{skillStats.attempted}/{skillStats.total}</span>
+                                                                {skillAccuracy !== null && (
+                                                                    <span className={`font-medium ${skillAccuracy >= 70 ? "text-green-600" : skillAccuracy >= 50 ? "text-yellow-600" : "text-red-500"}`}>
+                                                                        {skillAccuracy}%
+                                                                    </span>
+                                                                )}
+                                                            </div>
+                                                        </div>
+                                                        {/* Stacked bar: green correct / red incorrect / grey remaining */}
+                                                        <div className="h-1.5 rounded-full bg-muted overflow-hidden flex">
+                                                            {skillStats.total > 0 && (
+                                                                <>
+                                                                    <div
+                                                                        className="h-full bg-green-500"
+                                                                        style={{ width: `${(correct / skillStats.total) * 100}%` }}
+                                                                    />
+                                                                    <div
+                                                                        className="h-full bg-red-400"
+                                                                        style={{ width: `${(skillStats.incorrect / skillStats.total) * 100}%` }}
+                                                                    />
+                                                                </>
+                                                            )}
+                                                        </div>
+                                                    </div>
                                                 </TooltipTrigger>
-                                                <TooltipContent className="max-w-xs">
-                                                    <div className="font-bold mb-1">{skillName}</div>
-                                                    <div className="text-xs space-y-1">
-                                                        <div>Status: <span className="capitalize font-medium">{status}</span></div>
-                                                        <div>attempts: {skillStats.attempted}</div>
-                                                        <div>correct: {skillStats.correctFirstTry + skillStats.correctEventually}</div>
-                                                        <div>accuracy: {skillStats.attempted > 0 ? Math.round(((skillStats.correctFirstTry + skillStats.correctEventually) / skillStats.attempted) * 100) : 0}%</div>
+                                                <TooltipContent>
+                                                    <div className="font-semibold mb-1 max-w-[200px] text-wrap">{skillName}</div>
+                                                    <div className="text-xs space-y-0.5">
+                                                        <div>Attempted: {skillStats.attempted} / {skillStats.total} ({completionPct}%)</div>
+                                                        <div>Correct: {correct}</div>
+                                                        <div>Incorrect: {skillStats.incorrect}</div>
+                                                        {skillAccuracy !== null && <div>Accuracy: {skillAccuracy}%</div>}
+                                                        {skillStats.correctFirstTry > 0 && (
+                                                            <div>First try: {skillStats.correctFirstTry}</div>
+                                                        )}
                                                     </div>
                                                 </TooltipContent>
                                             </Tooltip>
                                         </TooltipProvider>
                                     );
                                 })}
-                             </div>
+                            </div>
                         </div>
                     );
                 })}
@@ -503,53 +535,7 @@ const SubjectBreakdown = ({ subject, stats, domains, formatTime }: any) => {
     );
 };
 
-// Icon Components
-
-const SkillStatusIcon = ({ status, size = "md" }: { status: "unseen" | "learning" | "familiar" | "proficient", size?: "sm" | "md" }) => {
-    const boxSize = size === "sm" ? "w-4 h-4 rounded" : "w-6 h-6 rounded-md"; // Slightly larger rounded for visual clarity
-    
-    if (status === "unseen") {
-        return (
-            <div className={`${boxSize} border-2 border-muted-foreground/30 bg-transparent`} />
-        );
-    }
-    
-    if (status === "learning") {
-         // Orange half-filled or similar representation
-        return (
-            <div className={`${boxSize} bg-orange-500/20 border-2 border-orange-500 relative overflow-hidden`}>
-                <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-orange-500" />
-            </div>
-        );
-    }
-
-    if (status === "familiar") {
-         // Lime green, maybe top-heavy or just solid lime? Image looked like a lime container.
-         // Let's do a lime border with a lime gradient or fill
-         return (
-             <div className={`${boxSize} bg-lime-400 border-2 border-lime-500 lg:bg-lime-400/80`}>
-                 <div className="w-full h-full bg-lime-400/50" />
-             </div>
-         );
-    }
-    
-    if (status === "proficient") {
-        // Green Checkbox style
-        return (
-            <div className={`${boxSize} bg-green-500 border-2 border-green-600 flex items-center justify-center text-white`}>
-                <CheckIcon className={size === "sm" ? "w-3 h-3" : "w-4 h-4"} />
-            </div>
-        );
-    }
-    return null;
-};
-
 // Simple Icons
-const CheckIcon = ({ className }: { className?: string }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" className={className}>
-      <polyline points="20 6 9 17 4 12" />
-    </svg>
-);
 
 const CalculatorIcon = ({ className }: { className?: string }) => (
     <svg 

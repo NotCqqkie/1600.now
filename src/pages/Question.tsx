@@ -24,7 +24,7 @@ import {
 import { questions as originalQuestions } from "@/data/100 Hard";
 import { getBankQuestion as getBankQuestionNormal, bankCounts as normalBankCounts } from "@/data/questionBank";
 import { getBankQuestion as getBankQuestionOfficial, bankCounts as officialBankCounts } from "@/data/officialQuestionBank";
-import { cn, renderMixedContent } from "@/lib/utils";
+import { cn, normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import "katex/dist/katex.min.css";
 
@@ -765,6 +765,7 @@ function Question() {
     questionText: string;
     passage: string;
     text: string;
+    questionImages: { src: string; alt: string }[];
   }>;
 
   const promptContent = typeof questionWithBankFields.prompt === "string" && questionWithBankFields.prompt.trim()
@@ -782,6 +783,9 @@ function Question() {
   const rawStemContent = passageContent !== undefined
     ? passageContent
     : (promptContent ?? questionTextContent ?? legacyTextContent);
+  const questionImages = Array.isArray(questionWithBankFields.questionImages)
+    ? questionWithBankFields.questionImages
+    : undefined;
 
   const extractedFromStem = subject === "reading" ? extractLeadingQuestionSentence(rawStemContent) : { remainder: rawStemContent };
   const readingQuestionSentence =
@@ -802,6 +806,24 @@ function Question() {
     ? Boolean(readingQuestionSentence)
     : Boolean(questionTextContent) &&
       (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
+  const renderQuestionImages = () => {
+    if (!questionImages?.length) return null;
+
+    return (
+      <div className="space-y-2">
+        {questionImages.map((img, idx) => (
+          <div key={`${img.src}-${idx}`} className="w-full flex justify-center">
+            <img
+              src={normalizePublicAssetPath(img.src)}
+              alt={img.alt || `Question image ${idx + 1}`}
+              className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
+              loading="lazy"
+            />
+          </div>
+        ))}
+      </div>
+    );
+  };
   const backDestination = isOfficialBank ? "/official-bank" : isBank ? "/bank" : "/";
   const timerControls = (
     <>
@@ -979,6 +1001,7 @@ function Question() {
                 style={{ width: `${questionSplitPosition}%` }}
               >
                   {renderContent(stemContent)}
+                  {renderQuestionImages()}
               </div>
 
               {/* Horizontal Divider */}
@@ -1099,12 +1122,16 @@ function Question() {
                   {passageContent ? (
                     <>
                       {renderContent(passageContent)}
+                      {renderQuestionImages()}
                       {showQuestionTextAboveChoices && readingQuestionSentence && (
                         <div className="mt-4">{renderContent(readingQuestionSentence)}</div>
                       )}
                     </>
                   ) : (
-                    renderContent(stemContent)
+                    <>
+                      {renderContent(stemContent)}
+                      {renderQuestionImages()}
+                    </>
                   )}
               </div>
 

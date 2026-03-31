@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
-import { cn, renderMixedContent } from "@/lib/utils";
+import { cn, normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import "katex/dist/katex.min.css";
 
@@ -69,7 +69,7 @@ export const MultipleChoiceQuestion = ({
         {hasImage && (
           <div className="w-full -mx-1 flex justify-center">
             <img
-              src={choice.image}
+              src={normalizePublicAssetPath(choice.image)}
               alt={`Choice ${choice.id}`}
               className={cn(
                 "w-auto max-w-full h-auto max-h-[220px] sm:max-h-[260px] rounded-lg object-contain block",
