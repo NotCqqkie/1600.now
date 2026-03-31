@@ -116,9 +116,20 @@ const sanitizeCurrency = (text: string | null | undefined): string => {
       continue;
     }
 
-    // Find the next dollar sign
-    const next = text.indexOf("$", i + 1);
-    if (next === -1) {
+    // Already escaped (\$) — pass through unchanged so renderMixedContent handles it
+    if (i > 0 && text[i - 1] === "\\") {
+      result += ch;
+      i += 1;
+      continue;
+    }
+
+    // Find the next unescaped dollar sign (skip \$ sequences)
+    let next = i + 1;
+    while (next < text.length) {
+      if (text[next] === "$" && (next === 0 || text[next - 1] !== "\\")) break;
+      next += 1;
+    }
+    if (next >= text.length) {
       result += "&dollar;";
       i += 1;
       continue;
