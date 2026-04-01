@@ -71,7 +71,9 @@ export interface BankQuestion {
   choices?: BankChoice[];
   type: "multiple-choice" | "free-response";
   correctAnswer?: string | null;
+  rationale?: string | null;
   questionImages?: { src: string; alt: string }[];
+  difficulty?: "Easy" | "Medium" | "Hard" | null;
   /** Category classification */
   category: QuestionCategory;
 }
@@ -92,8 +94,55 @@ export const buildBankQuestionKey = (
   sourceId: string,
 ): string => `bank-${bankType}-${subject}-${sourceId}`;
 
+const normalizeDifficulty = (value: string | null | undefined): "Easy" | "Medium" | "Hard" | null => {
+  const normalized = (value ?? "").trim().toLowerCase();
+  if (normalized === "easy") return "Easy";
+  if (normalized === "medium") return "Medium";
+  if (normalized === "hard") return "Hard";
+  return null;
+};
+
 const sanitizeCurrency = (text: string | null | undefined): string => {
   return normalizeTextForMathRendering(text);
+};
+
+const CORRECT_ANSWER_MARKER_REGEX = /(?:Choice [A-D] is correct\.|The correct answer is\b)/g;
+
+const trimCompositeMathStem = (text: string): string => {
+  const firstQuestionMark = text.indexOf("?");
+  if (firstQuestionMark === -1) return text.trim();
+  return text.slice(0, firstQuestionMark + 1).trim();
+};
+
+const trimCompositeRationale = (rationale: string): string => {
+  const markers = [...rationale.matchAll(CORRECT_ANSWER_MARKER_REGEX)];
+  if (markers.length < 2) return rationale.trim();
+  const secondMarkerIndex = markers[1].index ?? -1;
+  if (secondMarkerIndex <= 0) return rationale.trim();
+  return rationale.slice(0, secondMarkerIndex).trim();
+};
+
+const normalizeUnofficialMathCompositeQuestion = (
+  source: RawBankSource,
+  subject: BankSubject,
+  text: string,
+  rationale?: string | null,
+): { text: string; rationale?: string | null } => {
+  if (source.bankType !== "unofficial" || subject !== "math" || !rationale) {
+    return { text, rationale };
+  }
+
+  const questionMarkCount = (text.match(/\?/g) || []).length;
+  const correctAnswerMarkerCount = [...rationale.matchAll(CORRECT_ANSWER_MARKER_REGEX)].length;
+
+  if (questionMarkCount < 2 || correctAnswerMarkerCount < 2) {
+    return { text, rationale };
+  }
+
+  return {
+    text: trimCompositeMathStem(text),
+    rationale: trimCompositeRationale(rationale),
+  };
 };
 
 const inferQuestionSubject = (q: SourceQuestion): QuestionCategory["subject"] | null =>
@@ -308,9 +357,13 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     };
 
   const subject: BankSubject = category.subject === "Math" ? "math" : "reading";
-  let prompt = sanitizeCurrency(q.text);
+  const normalizedSource = normalizeUnofficialMathCompositeQuestion(source, subject, q.text, q.rationale);
+  const normalizedText = normalizedSource.text;
+  const normalizedRationale = normalizedSource.rationale ? sanitizeCurrency(normalizedSource.rationale) : normalizedSource.rationale;
+
+  let prompt = sanitizeCurrency(normalizedText);
   let passage: string | undefined;
-  let questionText: string | undefined = sanitizeCurrency(q.text);
+  let questionText: string | undefined = sanitizeCurrency(normalizedText);
 
   if (!isMath) {
     const isRhetorical = category.skill === "Rhetorical Synthesis";
@@ -319,7 +372,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
       passage = prompt;
       questionText = undefined;
     } else {
-      const splitStem = splitEnglishStem(q.text);
+      const splitStem = splitEnglishStem(normalizedText);
       passage = splitStem.passage;
       questionText = splitStem.questionText;
     }
@@ -341,7 +394,9 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     choices: q.type === "multiple-choice" ? mapChoices(q) : undefined,
     type: q.type,
     correctAnswer: q.correctAnswer,
+    rationale: normalizedRationale,
     questionImages: mapImages(q),
+    difficulty: normalizeDifficulty(q.difficulty),
     category,
   };
 };
