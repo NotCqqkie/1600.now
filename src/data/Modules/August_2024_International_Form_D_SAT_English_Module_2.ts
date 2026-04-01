@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_1",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "As used in the text, what does the word \"behold\" most nearly mean?\nThe following text is adapted from William Wordsworth's 1798 poem *Lines Written a Few Miles above Tintern Abbey*. Once again\nDo I <u>behold</u> these steep and lofty cliffs,\nWhich on a wild secluded scene impress\nThoughts of more deep seclusion; and connect\nThe landscape with the quiet of the sky.\n\nAs used in the text, what does the word \"behold\" most nearly mean?",
+    "text": "As used in the text, what does the word \"behold\" most nearly mean?\nThe following text is adapted from William Wordsworth's 1798 poem *Lines Written a Few Miles above Tintern Abbey*. Once again\nDo I <u>behold</u> these steep and lofty cliffs,\nWhich on a wild secluded scene impress\nThoughts of more deep seclusion; and connect\nThe landscape with the quiet of the sky.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_2",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe decline of the giant ground sloth, a species found throughout South America before it became extinct around 8500 BCE, surely had a number of ______ the larger ecosystem in which it existed. The giant ground sloth was part of a complex food web with other organisms, and its disappearance likely affected several other species.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe decline of the giant ground sloth, a species found throughout South America before it became extinct around 8500 BCE, surely had a number of ______ the larger ecosystem in which it existed. The giant ground sloth was part of a complex food web with other organisms, and its disappearance likely affected several other species.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_3",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while ______ literary forms, such as the short story, are recognizable as such even as they evolve, there are rarer \u201cintergeneric\" forms that might, for example, use elements of both fiction and essays to create something unclassifiable. Anne Carson's collection *Float* arguably fits in this category, since it straddles the line between prose and poetry.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while ______ literary forms, such as the short story, are recognizable as such even as they evolve, there are rarer “intergeneric\" forms that might, for example, use elements of both fiction and essays to create something unclassifiable. Anne Carson's collection *Float* arguably fits in this category, since it straddles the line between prose and poetry.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_4",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough our knowledge of the Pliocene epoch and the lives of hominids during this time was once ______, recent analyses of fossils like that of the individual known as LH 4, discovered in Tanzania in 1974, have sharpened our picture of what a day in the life of LH 4 may have looked like.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough our knowledge of the Pliocene epoch and the lives of hominids during this time was once ______, recent analyses of fossils like that of the individual known as LH 4, discovered in Tanzania in 1974, have sharpened our picture of what a day in the life of LH 4 may have looked like.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_5",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nPresident Richard Nixon is most famous for his participation in the 1970s Watergate political scandal, a convoluted tale of criminality and eroded ethics involving a constellation of associates such as political operative Jeb Stuart Magruder and Nixon's secretary Rose Mary Woods. But Nixon's legacy is complex: he has been praised for his role in affirming the sovereignty of tribal nations, and he once made an attempt at reforming United States health care policy that is arguably a precursor to the Affordable Care Act, which became law during the Barack Obama administration.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nPresident Richard Nixon is most famous for his participation in the 1970s Watergate political scandal, a convoluted tale of criminality and eroded ethics involving a constellation of associates such as political operative Jeb Stuart Magruder and Nixon's secretary Rose Mary Woods. But Nixon's legacy is complex: he has been praised for his role in affirming the sovereignty of tribal nations, and he once made an attempt at reforming United States health care policy that is arguably a precursor to the Affordable Care Act, which became law during the Barack Obama administration.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_6",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nIn a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Panama City, Panama, and Caracas, Venezuela, were surveyed about parks in their cities. Of the 318 respondents from Panama City, 53.5% indicated that they use the city's parks, and of the 1,043 respondents from Caracas, 44.7% indicated using city parks. Given that the percentage of Panama City respondents who reported having access to desired nonpark amenities near parks was much lower than that reported by Caracas respondents, the difference in park use can't be explained by Panama City residents having more access to desired nonpark amenities near parks.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nIn a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Panama City, Panama, and Caracas, Venezuela, were surveyed about parks in their cities. Of the 318 respondents from Panama City, 53.5% indicated that they use the city's parks, and of the 1,043 respondents from Caracas, 44.7% indicated using city parks. Given that the percentage of Panama City respondents who reported having access to desired nonpark amenities near parks was much lower than that reported by Caracas respondents, the difference in park use can't be explained by Panama City residents having more access to desired nonpark amenities near parks.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_7",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice best describes the main purpose of the text?\nThe following text is from Jerome K. Jerome's 1889 novel *Three Men in a Boat (To Say Nothing of the Dog)*. The narrator and two friends are taking a boat down the River Thames in England. In a boat, I have always noticed that it is the fixed idea of each member of the crew that he is doing everything. Harris's notion was, that it was he alone who had been working, and that both George and I had been imposing upon him. George, on the other hand, ridiculed the idea of Harris's having done anything more than eat and sleep, and had a cast-iron opinion that it was he\u2014George himself\u2014who had done all the labour worth speaking of.\n\nWhich choice best describes the main purpose of the text?",
+    "text": "Which choice best describes the main purpose of the text?\nThe following text is from Jerome K. Jerome's 1889 novel *Three Men in a Boat (To Say Nothing of the Dog)*. The narrator and two friends are taking a boat down the River Thames in England. In a boat, I have always noticed that it is the fixed idea of each member of the crew that he is doing everything. Harris's notion was, that it was he alone who had been working, and that both George and I had been imposing upon him. George, on the other hand, ridiculed the idea of Harris's having done anything more than eat and sleep, and had a cast-iron opinion that it was he—George himself—who had done all the labour worth speaking of.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_8",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Based on the texts, Lorde (Text 1) and the author of Text 2 would most likely disagree about the answer to which of the following questions? Text 1\nThe poet Audre Lorde once claimed that poetry is the most inexpensive of art forms to practice. While people who pursue other art forms\u2014painting, architecture, theater\u2014require large blocks of uninterrupted time as well as money to complete their work, poets can write, as Lorde said, \u201cbetween shifts, in the hospital pantry, on the subway, and on scraps of surplus paper.\" So poets can practice their art even if they must earn their living in another way. Text 2\nAny assessment of the state of contemporary poetry must reckon with the professionalization of the field. While it is possible in theory for anyone to publish in *Virginia Quarterly Review, Kenyon Review*, or a similar major poetry outlet, many people who do so have professional training in poetry and extensive practice writing it, which requires time not often available to those who must also work full-time jobs. Thus, financial security indirectly affects which people become poets.\n\nBased on the texts, Lorde (Text 1) and the author of Text 2 would most likely disagree about the answer to which of the following questions?",
+    "text": "Based on the texts, Lorde (Text 1) and the author of Text 2 would most likely disagree about the answer to which of the following questions? Text 1\nThe poet Audre Lorde once claimed that poetry is the most inexpensive of art forms to practice. While people who pursue other art forms—painting, architecture, theater—require large blocks of uninterrupted time as well as money to complete their work, poets can write, as Lorde said, “between shifts, in the hospital pantry, on the subway, and on scraps of surplus paper.\" So poets can practice their art even if they must earn their living in another way. Text 2\nAny assessment of the state of contemporary poetry must reckon with the professionalization of the field. While it is possible in theory for anyone to publish in *Virginia Quarterly Review, Kenyon Review*, or a similar major poetry outlet, many people who do so have professional training in poetry and extensive practice writing it, which requires time not often available to those who must also work full-time jobs. Thus, financial security indirectly affects which people become poets.",
     "choices": [
       {
         "id": "A",
@@ -273,7 +273,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Does professional training in poetry affect the quality of poets\u2019 work?"
+        "text": "Does professional training in poetry affect the quality of poets’ work?"
       },
       {
         "id": "D",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_9",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nThe following text is from Ralph Waldo Emerson's 1841 essay *The Method of Nature*. The scholars are the priests of that thought which establishes the foundations of the earth. No matter what is their special work or profession, they stand for the spiritual interest of the world, and it is a common calamity if they neglect their post in a country where the material interest is so predominant as it is in America.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nThe following text is from Ralph Waldo Emerson's 1841 essay *The Method of Nature*. The scholars are the priests of that thought which establishes the foundations of the earth. No matter what is their special work or profession, they stand for the spiritual interest of the world, and it is a common calamity if they neglect their post in a country where the material interest is so predominant as it is in America.",
     "choices": [
       {
         "id": "A",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_10",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nAt over a thousand pages across two volumes, *The Fifty-Year Mission*, compiled by Edward Gross and Mark A. Altman, is presented as the \"complete, uncensored, unauthorized oral history\" as told by the people behind the media franchise *Star Trek*. The work aspires to be comprehensive by, for example, including accounts from cast and crew members of every *Star Trek* television series and film to date. But while *The Fifty-Year Mission* is clearly a unique and valuable resource, it has a shortcoming common among oral histories: it lacks a clear authorial point of view that could otherwise unite the various accounts into a cohesive whole.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nAt over a thousand pages across two volumes, *The Fifty-Year Mission*, compiled by Edward Gross and Mark A. Altman, is presented as the \"complete, uncensored, unauthorized oral history\" as told by the people behind the media franchise *Star Trek*. The work aspires to be comprehensive by, for example, including accounts from cast and crew members of every *Star Trek* television series and film to date. But while *The Fifty-Year Mission* is clearly a unique and valuable resource, it has a shortcoming common among oral histories: it lacks a clear authorial point of view that could otherwise unite the various accounts into a cohesive whole.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -363,13 +363,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_11",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which finding, if true, would most directly challenge the second research team's hypothesis?\nWater flowing around an obstruction creates vortices (swirls) that vary in size with the obstruction's size and position, and fish sense these vortices in order to navigate around the obstructions. Using models of three fish-head shapes\u2014narrow (low ratio of width to length), intermediate, and wide (high ratio of width to length)\u2014Yuzo R. Yanagisuru, Otar Akanyetl, and James C. Liao showed that as vortex size increases, pressure fluctuations at the snout increase for narrow-headed and intermediate-headed fish but remain low for wide-headed fish. A second research team has therefore hypothesized that in low visibility, a fish will be more likely to avoid an obstruction when the associated pressure fluctuations at the fish's snout are greater.\n\nWhich finding, if true, would most directly challenge the second research team's hypothesis?",
+    "text": "Which finding, if true, would most directly challenge the second research team's hypothesis?\nWater flowing around an obstruction creates vortices (swirls) that vary in size with the obstruction's size and position, and fish sense these vortices in order to navigate around the obstructions. Using models of three fish-head shapes—narrow (low ratio of width to length), intermediate, and wide (high ratio of width to length)—Yuzo R. Yanagisuru, Otar Akanyetl, and James C. Liao showed that as vortex size increases, pressure fluctuations at the snout increase for narrow-headed and intermediate-headed fish but remain low for wide-headed fish. A second research team has therefore hypothesized that in low visibility, a fish will be more likely to avoid an obstruction when the associated pressure fluctuations at the fish's snout are greater.",
     "choices": [
       {
         "id": "A",
@@ -391,9 +391,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_12",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which completion of the text is best supported by data in the graph?\nIn a study of the evolution of *DptA* and *DptB*\u2014Diptericin genes encoding antimicrobial peptides that combat pathogens and foster beneficial microbes in fruit flies (*Drosophila*)\u2014researchers assessed *Drosophila melanogaster* resistance to pathogenic infections by *Providencia rettgeri* and *Acetobacter sicerae*, bacteria common in the flies' environments. Subjects included flies identified by mutations silencing *DptA*, *DptB*, or both *DptA and DptB* (termed types A, B, and AB, respectively). In conjunction with the observation that resistance to *P. rettgeri* correlates with *DptA* activity but is not significantly affected by *DptB* activity, data in the graph of survival rates post-*A. sicerae* infection suggest that ______\n\nWhich completion of the text is best supported by data in the graph?",
+    "text": "Which completion of the text is best supported by data in the graph?\nIn a study of the evolution of *DptA* and *DptB*—Diptericin genes encoding antimicrobial peptides that combat pathogens and foster beneficial microbes in fruit flies (*Drosophila*)—researchers assessed *Drosophila melanogaster* resistance to pathogenic infections by *Providencia rettgeri* and *Acetobacter sicerae*, bacteria common in the flies' environments. Subjects included flies identified by mutations silencing *DptA*, *DptB*, or both *DptA and DptB* (termed types A, B, and AB, respectively). In conjunction with the observation that resistance to *P. rettgeri* correlates with *DptA* activity but is not significantly affected by *DptB* activity, data in the graph of survival rates post-*A. sicerae* infection suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -427,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Aug_24_IntlD_Eng_M2_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_13",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which finding from the study, if true, would most directly support the team's conclusion?\nNeurobiologists Laura Cuaya, Ra\u00fal Hern\u00e1ndez-P\u00e9rez, and colleagues investigated the language detection abilities of eighteen dogs raised in similar settings. The researchers monitored the brain activity of Barney (a golden retriever), Mini (a mixed breed), and other dogs while the animals listened to three recordings: one of *The Little Prince* being read in Spanish, the second in Hungarian, and a third made up of short, randomly selected fragments of the first two, scrambled so that they didn't resemble human speech. Each dog was familiar with either Spanish or Hungarian, but not both. The team concluded that the amount of previous language exposure a dog has received may influence its ability to distinguish familiar languages from unfamiliar ones.\n\nWhich finding from the study, if true, would most directly support the team's conclusion?",
+    "text": "Which finding from the study, if true, would most directly support the team's conclusion?\nNeurobiologists Laura Cuaya, Raúl Hernández-Pérez, and colleagues investigated the language detection abilities of eighteen dogs raised in similar settings. The researchers monitored the brain activity of Barney (a golden retriever), Mini (a mixed breed), and other dogs while the animals listened to three recordings: one of *The Little Prince* being read in Spanish, the second in Hungarian, and a third made up of short, randomly selected fragments of the first two, scrambled so that they didn't resemble human speech. Each dog was familiar with either Spanish or Hungarian, but not both. The team concluded that the amount of previous language exposure a dog has received may influence its ability to distinguish familiar languages from unfamiliar ones.",
     "choices": [
       {
         "id": "A",
@@ -464,9 +463,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -474,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_14",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nManchester United Football Club won more than half its home matches between 1947 and 2003, helping to distinguish the team as a top British professional soccer club. Additionally, Manchester United, whose home uniform color is mainly red, was more successful in home matches than was Coventry City Football Club, whose home uniform color is not red. Research has shown that many people associate the color red with power and dominance. Past experiences with red objects such as stop signs can even cause people to respond to the color red with caution and hesitation. These findings, if applicable in the context of athletic competitions, could suggest that the uniforms worn by Manchester United's players in their home matches may have ______.\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nManchester United Football Club won more than half its home matches between 1947 and 2003, helping to distinguish the team as a top British professional soccer club. Additionally, Manchester United, whose home uniform color is mainly red, was more successful in home matches than was Coventry City Football Club, whose home uniform color is not red. Research has shown that many people associate the color red with power and dominance. Past experiences with red objects such as stop signs can even cause people to respond to the color red with caution and hesitation. These findings, if applicable in the context of athletic competitions, could suggest that the uniforms worn by Manchester United's players in their home matches may have ______.",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_15",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nBiologists Rebecca M. Calisi-Rodriguez and George E. Bentley examined research on white-throated sparrows and degus, both of which have been studied in the laboratory as well as in the wild, to see how studies\u2019 settings might have affected their results. Lab studies are useful because they make it easy to control important variables, but white-throated sparrows' surroundings can significantly affect their hormone levels. Therefore, it's not altogether surprising that when Calisi-Rodriguez and Bentley examined studies of white-throated sparrows, they found that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nBiologists Rebecca M. Calisi-Rodriguez and George E. Bentley examined research on white-throated sparrows and degus, both of which have been studied in the laboratory as well as in the wild, to see how studies’ settings might have affected their results. Lab studies are useful because they make it easy to control important variables, but white-throated sparrows' surroundings can significantly affect their hormone levels. Therefore, it's not altogether surprising that when Calisi-Rodriguez and Bentley examined studies of white-throated sparrows, they found that ______",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -544,13 +543,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_16",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nExclusively inhabiting tropical countries such as Liberia, wild chimpanzees lack adaptations to seasonal variations in ultraviolet B (UVB) irradiance from sunlight; since UVB exposure enables vertebrates to synthesize vitamin D, this raises questions about how chimpanzees in mid-latitude zoos are affected by the lower and more variable UVB irradiance in those locations. In a study of zoo chimpanzees in Norway and other mid-latitude countries, Sophie Moitti\u00e9 and colleagues found not only that chimpanzees' vitamin D levels correlate with UVB irradiance but also that vitamin D levels show no evidence of plateauing as UVB irradiance reaches its highest local levels, suggesting that ______.\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nExclusively inhabiting tropical countries such as Liberia, wild chimpanzees lack adaptations to seasonal variations in ultraviolet B (UVB) irradiance from sunlight; since UVB exposure enables vertebrates to synthesize vitamin D, this raises questions about how chimpanzees in mid-latitude zoos are affected by the lower and more variable UVB irradiance in those locations. In a study of zoo chimpanzees in Norway and other mid-latitude countries, Sophie Moittié and colleagues found not only that chimpanzees' vitamin D levels correlate with UVB irradiance but also that vitamin D levels show no evidence of plateauing as UVB irradiance reaches its highest local levels, suggesting that ______.",
     "choices": [
       {
         "id": "A",
@@ -572,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_17",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs cheesemaking practices spread throughout Europe and Asia during and after the Neolithic, divergent strategies for preserving milk ______ whereas rennet-coagulated cheesemaking became key to milk preservation in Europe and Southwest Asia, acid-heat coagulation methods became common among nomadic herding populations of the northeastern Eurasian steppe.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs cheesemaking practices spread throughout Europe and Asia during and after the Neolithic, divergent strategies for preserving milk ______ whereas rennet-coagulated cheesemaking became key to milk preservation in Europe and Southwest Asia, acid-heat coagulation methods became common among nomadic herding populations of the northeastern Eurasian steppe.",
     "choices": [
       {
         "id": "A",
@@ -608,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_18",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nThe editors of *Home Ground: A Guide to the American Landscape* turned to the ______ to craft the entry about \"hueco,\" a term referring to a water-retaining depression in a rock face.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nThe editors of *Home Ground: A Guide to the American Landscape* turned to the ______ to craft the entry about \"hueco,\" a term referring to a water-retaining depression in a rock face.",
     "choices": [
       {
         "id": "A",
@@ -644,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_19",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncreased gender diversity is revitalizing the field of economics, according to Harvard's Claudia Goldin. The trailblazing accomplishments of Goldin, winner of the 2023 Nobel Prize in Economics for her work on women in the labor force, ______ to the value of scholars of diverse backgrounds in spurring research into previously unexplored, but vitally important, topics.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncreased gender diversity is revitalizing the field of economics, according to Harvard's Claudia Goldin. The trailblazing accomplishments of Goldin, winner of the 2023 Nobel Prize in Economics for her work on women in the labor force, ______ to the value of scholars of diverse backgrounds in spurring research into previously unexplored, but vitally important, topics.",
     "choices": [
       {
         "id": "A",
@@ -680,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_20",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the late nineteenth and early twentieth centuries, automobiles were commonly referred to as horseless carriages after the older technology they still resembled. Known as the Brass Era, this period in automotive design is remembered for its grandeur and artistry, its vehicles ______ by collectors for their ornate detailing and gleaming brass fittings.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the late nineteenth and early twentieth centuries, automobiles were commonly referred to as horseless carriages after the older technology they still resembled. Known as the Brass Era, this period in automotive design is remembered for its grandeur and artistry, its vehicles ______ by collectors for their ornate detailing and gleaming brass fittings.",
     "choices": [
       {
         "id": "A",
@@ -716,25 +715,25 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_21",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. According to this data, in July 2021, a \u201cbasket\u201d of goods and services priced at 100 US dollars (USD) in the United States would have cost 105 USD in fellow OECD member ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. According to this data, in July 2021, a “basket” of goods and services priced at 100 US dollars (USD) in the United States would have cost 105 USD in fellow OECD member ______",
     "choices": [
       {
         "id": "A",
-        "text": "nation\u2014Finland."
+        "text": "nation—Finland."
       },
       {
         "id": "B",
@@ -752,21 +751,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_22",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEnglish poet and Shakespeare contemporary John Donne's ______ much admired during his lifetime (1572-1631) and in the decades that followed, had, at the time of their enthusiastic rediscovery by the early twentieth-century modernists, been essentially gathering dust for the intervening 250 years.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEnglish poet and Shakespeare contemporary John Donne's ______ much admired during his lifetime (1572-1631) and in the decades that followed, had, at the time of their enthusiastic rediscovery by the early twentieth-century modernists, been essentially gathering dust for the intervening 250 years.",
     "choices": [
       {
         "id": "A",
@@ -788,21 +787,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_23",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nFollowing the American Revolutionary War, North American foodways underwent a radical transformation, fueled in large part by spiking consumer demand for certain grains. The cultivation, trade, and transportation of maize and wheat, ______ reconfigured the continent's existing regional foodways into a globally oriented food system.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nFollowing the American Revolutionary War, North American foodways underwent a radical transformation, fueled in large part by spiking consumer demand for certain grains. The cultivation, trade, and transportation of maize and wheat, ______ reconfigured the continent's existing regional foodways into a globally oriented food system.",
     "choices": [
       {
         "id": "A",
@@ -824,21 +823,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_24",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nWith some elements, like phosphorus, scientists were able to isolate a relatively pure sample of the substance shortly after discovering its existence, but this wasn't the case with all elements; ______ the isolation process took a few years. The element molybdenum, for instance, was discovered in 1778 but not isolated until 1781.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWith some elements, like phosphorus, scientists were able to isolate a relatively pure sample of the substance shortly after discovering its existence, but this wasn't the case with all elements; ______ the isolation process took a few years. The element molybdenum, for instance, was discovered in 1778 but not isolated until 1781.",
     "choices": [
       {
         "id": "A",
@@ -860,21 +859,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_25",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nEirene, one of the eighty known moons of Jupiter, is designated as Jupiter LVII (\u201cLVII\" means \u201c57\"). Roman numerals typically indicate the order in which the moons were named rather than the order of their proximity to Jupiter. It is incorrect to assume, ______ that Eirene is the fifty-seventh moon from Jupiter in terms of proximity.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nEirene, one of the eighty known moons of Jupiter, is designated as Jupiter LVII (“LVII\" means “57\"). Roman numerals typically indicate the order in which the moons were named rather than the order of their proximity to Jupiter. It is incorrect to assume, ______ that Eirene is the fifty-seventh moon from Jupiter in terms of proximity.",
     "choices": [
       {
         "id": "A",
@@ -896,9 +895,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_26",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "The student wants to identify the year that *The Canon of Medicine* was published. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Ibn Sina was a Persian philosopher and physician.\n\u2022 His book *The Canon of Medicine* recorded the most advanced medical knowledge of his time.\n\u2022 It was published in the year 1025 CE.\n\u2022 It was used as a medical textbook in Middle Eastern and European universities for centuries.\n\nThe student wants to identify the year that *The Canon of Medicine* was published. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to identify the year that *The Canon of Medicine* was published. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Ibn Sina was a Persian philosopher and physician.\n• His book *The Canon of Medicine* recorded the most advanced medical knowledge of his time.\n• It was published in the year 1025 CE.\n• It was used as a medical textbook in Middle Eastern and European universities for centuries.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_27",
     "testName": "August 2024 International Form D SAT English Module 2",
-    "text": "The student wants to provide an overview of the NWR program. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 There are more than 500 National Wildlife Refuges (NWRS) across the United States.\n\u2022 The Crocodile Lake NWR is a 6,686-acre area in Florida, on the Atlantic coast.\n\u2022 It was established to protect the endangered American crocodile.\n\u2022 The Nestucca Bay NWR is a 457-acre area in Oregon, on the Pacific coast.\n\u2022 It was established to protect the endangered Aleutian Canada goose.\n\nThe student wants to provide an overview of the NWR program. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an overview of the NWR program. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• There are more than 500 National Wildlife Refuges (NWRS) across the United States.\n• The Crocodile Lake NWR is a 6,686-acre area in Florida, on the Atlantic coast.\n• It was established to protect the endangered American crocodile.\n• The Nestucca Bay NWR is a 457-acre area in Oregon, on the Pacific coast.\n• It was established to protect the endangered Aleutian Canada goose.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

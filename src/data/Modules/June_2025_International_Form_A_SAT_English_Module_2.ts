@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_1",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome pieces of music might have ______ meanings\u2014the compositions of Rosa Guraieb lend themselves to as many different interpretations as there are people to listen to them\u2014and so as long as a listener's interpretation isn't willfully absurd or the result of inattention, it is difficult to justly claim that the listener has misunderstood the piece.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome pieces of music might have ______ meanings—the compositions of Rosa Guraieb lend themselves to as many different interpretations as there are people to listen to them—and so as long as a listener's interpretation isn't willfully absurd or the result of inattention, it is difficult to justly claim that the listener has misunderstood the piece.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_2",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "As used in the text, what does the word \"confirmed\" most nearly mean? The following text is adapted from Neera's 1886 novel *Teresa*, translated by Martha King in 1998.\nBeyond the [porch] extended a piece of land, with some exaggeration called a garden. In truth, it had some flower beds that at first sight <u>confirmed</u> the illusion, particularly at that time of year, since the pansies were in bloom with their infinite shades, with the intense velvet of their dark leaves and the luminous silk of their pale leaves.\n\u00a91976 by Giulio Einaudi editore s.p.a.\nTranslation \u00a91998 by Northwestern University Press.\n\nAs used in the text, what does the word \"confirmed\" most nearly mean?",
+    "text": "As used in the text, what does the word \"confirmed\" most nearly mean? The following text is adapted from Neera's 1886 novel *Teresa*, translated by Martha King in 1998.\nBeyond the [porch] extended a piece of land, with some exaggeration called a garden. In truth, it had some flower beds that at first sight <u>confirmed</u> the illusion, particularly at that time of year, since the pansies were in bloom with their infinite shades, with the intense velvet of their dark leaves and the luminous silk of their pale leaves.\n©1976 by Giulio Einaudi editore s.p.a.\nTranslation ©1998 by Northwestern University Press.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_3",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIf confirmed by other researchers, a newly reported measurement of W boson's mass could ______ the dominant theory of particle physics, the standard model, as the new measurement differs significantly from the standard model's prediction of the elementary particle's mass.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIf confirmed by other researchers, a newly reported measurement of W boson's mass could ______ the dominant theory of particle physics, the standard model, as the new measurement differs significantly from the standard model's prediction of the elementary particle's mass.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_4",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nTheater and film scholars often draw parallels between the lives of performers and aspects of roles they've played; however, the most insightful of these discussions, such as Linda Costanzo Cahir's consideration of resemblances between actor Vivien Leigh and the character Blanche DuBois, maintain a rigid distinction between the actor and the character, taking care never to ______ them.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nTheater and film scholars often draw parallels between the lives of performers and aspects of roles they've played; however, the most insightful of these discussions, such as Linda Costanzo Cahir's consideration of resemblances between actor Vivien Leigh and the character Blanche DuBois, maintain a rigid distinction between the actor and the character, taking care never to ______ them.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -147,13 +147,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_5",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome social scientists argue that while a belief in the importance of reason and progress is key to democracy, the public's understanding of history is also central to its subsequent comprehension of a state's politics, and if an electorate is to function, historical issues cannot remain the dominion only of academics. History is too ______ to leave to historians alone.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome social scientists argue that while a belief in the importance of reason and progress is key to democracy, the public's understanding of history is also central to its subsequent comprehension of a state's politics, and if an electorate is to function, historical issues cannot remain the dominion only of academics. History is too ______ to leave to historians alone.",
     "choices": [
       {
         "id": "A",
@@ -175,9 +175,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
       "confidence": "high"
     }
   },
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_6",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nIn Muscogee, an Indigenous language from the southeastern region of what is now the United States, *hatki* means \"white,\" whereas *hathaki* is used to refer to two or more white things. This phenomenon, in which an element of a root word is repeated, sometimes with modification, within another word that is related to the root word, is called reduplication. In this case, the element \"ha\" in *hatki* gets repeated in *hathaki*. There are many examples of this type of reduplication in Muscogee.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nIn Muscogee, an Indigenous language from the southeastern region of what is now the United States, *hatki* means \"white,\" whereas *hathaki* is used to refer to two or more white things. This phenomenon, in which an element of a root word is repeated, sometimes with modification, within another word that is related to the root word, is called reduplication. In this case, the element \"ha\" in *hatki* gets repeated in *hathaki*. There are many examples of this type of reduplication in Muscogee.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_7",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\n<u>Benjamin Prudhomme and colleagues have explored how convergent evolution\u2014a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages\u2014can result from a genetic mechanism shared by both lineages.</u> Meanwhile, Cynthia C. Steiner and colleagues have investigated how convergence occurs through different genetic mechanisms. However, the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.\n\nWhich choice best states the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\n<u>Benjamin Prudhomme and colleagues have explored how convergent evolution—a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages—can result from a genetic mechanism shared by both lineages.</u> Meanwhile, Cynthia C. Steiner and colleagues have investigated how convergence occurs through different genetic mechanisms. However, the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_8",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "According to the text, which choice most accurately describes the importance of the percentage of compact myocardial tissue in the basking shark's heart?\nThe blue shark and the striped marlin are ectothermic (cold-blooded) fish, whereas the salmon shark and the Pacific bluefin tuna are regional endotherms\u2014they retain metabolic heat resulting in body temperatures above the ambient water temperature. Unlike those of ectotherms, regional endotherms' hearts have a relatively high proportion (greater than 30%) of compact myocardial tissue, which is needed to maintain these animals' blood pressure. In a 2023 study, Haley R. Dolton and colleagues found that basking sharks\u2014planktivorous filter-feeders that were classified as full ectotherms at the time\u2014have hearts consisting of 47% compact myocardial tissue, thereby undermining that classification.\n\nAccording to the text, which choice most accurately describes the importance of the percentage of compact myocardial tissue in the basking shark's heart?",
+    "text": "According to the text, which choice most accurately describes the importance of the percentage of compact myocardial tissue in the basking shark's heart?\nThe blue shark and the striped marlin are ectothermic (cold-blooded) fish, whereas the salmon shark and the Pacific bluefin tuna are regional endotherms—they retain metabolic heat resulting in body temperatures above the ambient water temperature. Unlike those of ectotherms, regional endotherms' hearts have a relatively high proportion (greater than 30%) of compact myocardial tissue, which is needed to maintain these animals' blood pressure. In a 2023 study, Haley R. Dolton and colleagues found that basking sharks—planktivorous filter-feeders that were classified as full ectotherms at the time—have hearts consisting of 47% compact myocardial tissue, thereby undermining that classification.",
     "choices": [
       {
         "id": "A",
@@ -283,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_9",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nPhilosophers note that many people have an intuitive sense that while we ought not to lie, there may be circumstances in which lying is permissible. If this intuition is correct and we lack an inviolable duty to speak truthfully, what grounds opposition to lying in the first place? Japa Pallikkathayil has advanced one answer by appealing to a duty to respect others' agential interests: the possession of false beliefs constrains agency, and thus we ought not to impede the formation of true beliefs unless doing so prevents a greater constraint on someone's agency or an otherwise impermissible end.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nPhilosophers note that many people have an intuitive sense that while we ought not to lie, there may be circumstances in which lying is permissible. If this intuition is correct and we lack an inviolable duty to speak truthfully, what grounds opposition to lying in the first place? Japa Pallikkathayil has advanced one answer by appealing to a duty to respect others' agential interests: the possession of false beliefs constrains agency, and thus we ought not to impede the formation of true beliefs unless doing so prevents a greater constraint on someone's agency or an otherwise impermissible end.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Central Ideas and Details",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_10",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the second research team's hypothesis?\nTo detect information about water flow, fish have sensors running from the snout tip down the sides of the head. Yuzo R. Yanagisuru, Otar Akanyeti, and James C. Liao conducted tests to find where the difference in pressure is greatest between two adjacent sensors because, according to the researchers, as these pressure differences increase, so does the amount of information available to the fish. Using the ratio of head width to length, they found that the greatest pressure difference is closer to the snout for narrower heads (lower ratio of width to length) and farther from the snout for wider heads (higher ratio of width to length). Based on this finding, a second team of researchers has hypothesized that the sensors where information is greatest are likely more sensitive than the rest.\n\nWhich finding, if true, would most directly support the second research team's hypothesis?",
+    "text": "Which finding, if true, would most directly support the second research team's hypothesis?\nTo detect information about water flow, fish have sensors running from the snout tip down the sides of the head. Yuzo R. Yanagisuru, Otar Akanyeti, and James C. Liao conducted tests to find where the difference in pressure is greatest between two adjacent sensors because, according to the researchers, as these pressure differences increase, so does the amount of information available to the fish. Using the ratio of head width to length, they found that the greatest pressure difference is closer to the snout for narrower heads (lower ratio of width to length) and farther from the snout for wider heads (higher ratio of width to length). Based on this finding, a second team of researchers has hypothesized that the sensors where information is greatest are likely more sensitive than the rest.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_11",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nElectricity Capacity Trends (in megawatts) for Four Renewable Technologies in Indonesia (2017-2020)\nIndonesia is trying to increase its electricity capacity (the maximum amount of electricity that can be generated) for renewable energy in order to reduce dependence on fossil fuels, which can be costly financially and environmentally. From 2017 to 2020, Indonesia's use of four renewable technologies has trended upward, but not uniformly: the electricity capacity of solar power fell from 97.4 megawatts in 2017 to 65.5 megawatts in 2018, and the electricity capacity of ______\n\nWhich choice most effectively uses data from the graph to complete the assertion?",
+    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nElectricity Capacity Trends (in megawatts) for Four Renewable Technologies in Indonesia (2017-2020)\nIndonesia is trying to increase its electricity capacity (the maximum amount of electricity that can be generated) for renewable energy in order to reduce dependence on fossil fuels, which can be costly financially and environmentally. From 2017 to 2020, Indonesia's use of four renewable technologies has trended upward, but not uniformly: the electricity capacity of solar power fell from 97.4 megawatts in 2017 to 65.5 megawatts in 2018, and the electricity capacity of ______",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_25_IntlA_Eng_M2_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Inferences",
-    "difficulty": "null",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_12",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nIn a series of experiments, Julio Sevilla and Claudia Townsend showed that manipulating the space between products in store displays can influence consumers' views of those products. Participants in several of the experiments regarded the same products in the same (generic) retail settings as significantly more valuable when the product-to-space ratio was low than when it was high. But in one of the experiments, Sevilla and Townsend arranged the same jewelry with different levels of intervening space at an upscale retailer (Tiffany & Co.) and a relatively inexpensive retailer (Forever 21). The result of this experiment suggests that a store context associated with inexpensive products may moderate the effect Sevilla and Townsend observed in their other experiments.\n\nWhich finding, if true, would most directly support the researchers' conclusion?",
+    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nIn a series of experiments, Julio Sevilla and Claudia Townsend showed that manipulating the space between products in store displays can influence consumers' views of those products. Participants in several of the experiments regarded the same products in the same (generic) retail settings as significantly more valuable when the product-to-space ratio was low than when it was high. But in one of the experiments, Sevilla and Townsend arranged the same jewelry with different levels of intervening space at an upscale retailer (Tiffany & Co.) and a relatively inexpensive retailer (Forever 21). The result of this experiment suggests that a store context associated with inexpensive products may moderate the effect Sevilla and Townsend observed in their other experiments.",
     "choices": [
       {
         "id": "A",
@@ -428,9 +427,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Inferences",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_13",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses a quotation from a translation of *The Clouds* to illustrate the claim?\n*The Clouds* is a 423 BCE play by Aristophanes, originally written in ancient Greek. At the time, professional intellectuals called sophists taught paying customers a variety of subjects and sometimes engaged in what would now be described as research. Aristophanes satirizes sophists' practices and views as foolish, as seen when the character ______\n\nWhich choice most effectively uses a quotation from a translation of *The Clouds* to illustrate the claim?",
+    "text": "Which choice most effectively uses a quotation from a translation of *The Clouds* to illustrate the claim?\n*The Clouds* is a 423 BCE play by Aristophanes, originally written in ancient Greek. At the time, professional intellectuals called sophists taught paying customers a variety of subjects and sometimes engaged in what would now be described as research. Aristophanes satirizes sophists' practices and views as foolish, as seen when the character ______",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -473,12 +472,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Inferences",
-    "difficulty": "null",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_14",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThe single origin hypothesis of iron metallurgy posits that the craft originated in Anatolia (West Asia) circa 2200-2000 BCE before diffusing to other parts of the world, including Africa. Some proponents of the hypothesis argue that iron production technologies first arrived in North Africa through Carthage, where the earliest evidence of ironworking dates to approximately 800-600 BCE, before these technologies spread to sub-Saharan Africa over the following centuries. However, excavation of multiple sites on the Adamawa plateau in Central Africa conducted by Etienne Zangato and Augustin Holl uncovered evidence of iron workshops that may have been in operation as late as 900-750 BCE in Gbabari and as early as 2300-1900 BCE in Oboui and Gbatoro. These findings suggest that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe single origin hypothesis of iron metallurgy posits that the craft originated in Anatolia (West Asia) circa 2200-2000 BCE before diffusing to other parts of the world, including Africa. Some proponents of the hypothesis argue that iron production technologies first arrived in North Africa through Carthage, where the earliest evidence of ironworking dates to approximately 800-600 BCE, before these technologies spread to sub-Saharan Africa over the following centuries. However, excavation of multiple sites on the Adamawa plateau in Central Africa conducted by Etienne Zangato and Augustin Holl uncovered evidence of iron workshops that may have been in operation as late as 900-750 BCE in Gbabari and as early as 2300-1900 BCE in Oboui and Gbatoro. These findings suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -500,21 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Inferences",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_15",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nExclusively inhabiting tropical countries such as Ghana, wild chimpanzees lack adaptations to seasonal variations in ultraviolet B (UVB) irradiance from sunlight; since UVB exposure enables vertebrates to synthesize vitamin D, Sophie Moittie and colleagues studied zoo chimpanzees in Spain and other mid-latitude countries to see how vitamin D levels are affected by the seasonal variations in UVB irradiance that occur in those locations. They found that chimpanzees' vitamin D levels were significantly lower in autumn than in summer and appeared unaffected by oral supplementation of vitamin D administered by zookeepers. Moittie and colleagues point out, however, that supplementation was rare, highly varied, and poorly tracked, and therefore ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nExclusively inhabiting tropical countries such as Ghana, wild chimpanzees lack adaptations to seasonal variations in ultraviolet B (UVB) irradiance from sunlight; since UVB exposure enables vertebrates to synthesize vitamin D, Sophie Moittie and colleagues studied zoo chimpanzees in Spain and other mid-latitude countries to see how vitamin D levels are affected by the seasonal variations in UVB irradiance that occur in those locations. They found that chimpanzees' vitamin D levels were significantly lower in autumn than in summer and appeared unaffected by oral supplementation of vitamin D administered by zookeepers. Moittie and colleagues point out, however, that supplementation was rare, highly varied, and poorly tracked, and therefore ______",
     "choices": [
       {
         "id": "A",
@@ -536,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_16",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEstablished in 1936 by African American novelist Richard Wright, ______ it would become a vital part of the creative movement known as the Chicago Black Renaissance.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEstablished in 1936 by African American novelist Richard Wright, ______ it would become a vital part of the creative movement known as the Chicago Black Renaissance.",
     "choices": [
       {
         "id": "A",
@@ -572,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_17",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe 1948 founding of the American GI Forum and the 1946 *Mendez v. Westminster* court decision are regarded as important events in US civil rights ______ former establishing a Latino rights advocacy group and the latter legally affirming the rights of Latino students.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe 1948 founding of the American GI Forum and the 1946 *Mendez v. Westminster* court decision are regarded as important events in US civil rights ______ former establishing a Latino rights advocacy group and the latter legally affirming the rights of Latino students.",
     "choices": [
       {
         "id": "A",
@@ -608,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_18",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTrisyllabic words ______ as dactyls in English metrical verse, such as \"article\" and \"sleepier,\" consist of one stressed syllable followed by two unstressed syllables.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTrisyllabic words ______ as dactyls in English metrical verse, such as \"article\" and \"sleepier,\" consist of one stressed syllable followed by two unstressed syllables.",
     "choices": [
       {
         "id": "A",
@@ -644,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_19",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nScheme is referred to as a compiled programming language because it typically incorporates a compiler\u2014a tool that translates lines of code into executable commands. Compiling isn't exclusive to certain programming ______ any language can incorporate this tool.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nScheme is referred to as a compiled programming language because it typically incorporates a compiler—a tool that translates lines of code into executable commands. Compiling isn't exclusive to certain programming ______ any language can incorporate this tool.",
     "choices": [
       {
         "id": "A",
@@ -680,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_20",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nReena Esmail, an Indian American classical composer, incorporates Indian musical elements into her work. Esmail's 2013 violin and piano composition *Jhula-jhule* intertwines the melodies of two Indian folk ______ in TaReKiTa, a 2016 choral composition, Esmail features onomatopoeic notes imitating the sounds of the tabla, a type of Indian drum.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nReena Esmail, an Indian American classical composer, incorporates Indian musical elements into her work. Esmail's 2013 violin and piano composition *Jhula-jhule* intertwines the melodies of two Indian folk ______ in TaReKiTa, a 2016 choral composition, Esmail features onomatopoeic notes imitating the sounds of the tabla, a type of Indian drum.",
     "choices": [
       {
         "id": "A",
@@ -716,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_21",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Museum of Modern Art's vast collection of oil paintings, which includes James Ensor's *Tribulations of Saint Anthony* and Yasuo Kuniyoshi's *Self-Portrait as a Golf Player*, ______ among its most captivating offerings.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Museum of Modern Art's vast collection of oil paintings, which includes James Ensor's *Tribulations of Saint Anthony* and Yasuo Kuniyoshi's *Self-Portrait as a Golf Player*, ______ among its most captivating offerings.",
     "choices": [
       {
         "id": "A",
@@ -752,21 +751,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_22",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe traditional process of Turkish paper marbling (ebru) generally proceeds like this: First, the artisan fills a shallow tray with a water bath solution. Next, the artisan adds inks or paints to the solution, which can then be manipulated into intricate designs. ______ the artisan slips paper in and out of the liquid, transferring the design onto the paper.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe traditional process of Turkish paper marbling (ebru) generally proceeds like this: First, the artisan fills a shallow tray with a water bath solution. Next, the artisan adds inks or paints to the solution, which can then be manipulated into intricate designs. ______ the artisan slips paper in and out of the liquid, transferring the design onto the paper.",
     "choices": [
       {
         "id": "A",
@@ -788,21 +787,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_23",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn the early 1900s, sculptor and collector Gertrude Whitney was one of the foremost champions of avant-garde art, helping many US avant-garde artists gain publicity and exposure. ______ Whitney offered to donate more than 500 avant-garde works to be displayed at a leading New York museum, but the museum said no\u2014so she opened her own, the Whitney Museum of American Art.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn the early 1900s, sculptor and collector Gertrude Whitney was one of the foremost champions of avant-garde art, helping many US avant-garde artists gain publicity and exposure. ______ Whitney offered to donate more than 500 avant-garde works to be displayed at a leading New York museum, but the museum said no—so she opened her own, the Whitney Museum of American Art.",
     "choices": [
       {
         "id": "A",
@@ -824,21 +823,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_24",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe geologic principle of cross-cutting relationships states that an intrusion is younger than the rocks through which it cuts. ______ geophysicists analyzing a given rock formation can ascertain that an igneous intrusion that bisects a layer of 358.9-million-year-old Tournaisian rock but not the 303.7-million-year-old Gzhelian rock above it is younger than the former but older than the latter.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe geologic principle of cross-cutting relationships states that an intrusion is younger than the rocks through which it cuts. ______ geophysicists analyzing a given rock formation can ascertain that an igneous intrusion that bisects a layer of 358.9-million-year-old Tournaisian rock but not the 303.7-million-year-old Gzhelian rock above it is younger than the former but older than the latter.",
     "choices": [
       {
         "id": "A",
@@ -860,9 +859,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_25",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "The student wants to specify the order in which different government entities were given the authority to regulate airline safety in the US. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 1926: The US Congress gave the US Commerce Department authority to regulate safety standards in the fledgling commercial airline industry.\n\u2022 1938: Congress transferred this authority to a new independent government agency called the Civil Aeronautics Authority (CAA).\n\u2022 1958: Congress transferred authority from the CAA to the newly established Federal Aviation Administration (FAA).\n\u2022 The FAA's first administrator, Elwood R. Quesada, updated safety standards and technologies for the era of commercial jets.\n\u2022 The FAA remains the regulatory authority for airline safety.\n\nThe student wants to specify the order in which different government entities were given the authority to regulate airline safety in the US. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to specify the order in which different government entities were given the authority to regulate airline safety in the US. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• 1926: The US Congress gave the US Commerce Department authority to regulate safety standards in the fledgling commercial airline industry.\n• 1938: Congress transferred this authority to a new independent government agency called the Civil Aeronautics Authority (CAA).\n• 1958: Congress transferred authority from the CAA to the newly established Federal Aviation Administration (FAA).\n• The FAA's first administrator, Elwood R. Quesada, updated safety standards and technologies for the era of commercial jets.\n• The FAA remains the regulatory authority for airline safety.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_26",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "The student wants to make a generalization about the germination of seeds ingested by bats. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 R. Oleksy, L. Giuggioli, and T.J. McKetterick published a study in 2017.\n\u2022 In it, the researchers found that ingestion by bats had a positive effect on the germination of *Ficus grevei* plant seeds.\n\u2022 Jorge E. Lopez and C. Vaughan published a study in 2004.\n\u2022 In it, the researchers found that ingestion by bats had a neutral effect on the germination of *Senna fruticosa* plant seeds.\n\u2022 J.M. Palmeirim, D.L. Gorchov, and S. Stoleson published a study in 1989.\n\u2022 In it, the researchers found that ingestion by bats had a negative effect on the germination of *Piper friedrichsthali* plant seeds.\n\nThe student wants to make a generalization about the germination of seeds ingested by bats. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to make a generalization about the germination of seeds ingested by bats. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• R. Oleksy, L. Giuggioli, and T.J. McKetterick published a study in 2017.\n• In it, the researchers found that ingestion by bats had a positive effect on the germination of *Ficus grevei* plant seeds.\n• Jorge E. Lopez and C. Vaughan published a study in 2004.\n• In it, the researchers found that ingestion by bats had a neutral effect on the germination of *Senna fruticosa* plant seeds.\n• J.M. Palmeirim, D.L. Gorchov, and S. Stoleson published a study in 1989.\n• In it, the researchers found that ingestion by bats had a negative effect on the germination of *Piper friedrichsthali* plant seeds.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d70596a3-d7c7-4cbc-9453-87383eff173a_27",
     "testName": "June 2025 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to explain plosive phonemes?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Linguists use phonemes to represent the smallest possible units of sound within a word.\n\u2022 In English, the phoneme /p/ has labial articulation, which means it is produced using one or both lips, such as in the word \"pan.\"\n\u2022 The phoneme /z/ has alveolar articulation, which means it is produced by placing the tongue against or near the roof of the mouth, such as in the word \"zoo.\"\n\u2022 /p/ is plosive, a term used for sounds in which air flow is at first fully blocked.\n\u2022 /z/ is fricative, a term used for sounds in which air flow is partially blocked.\n\nWhich choice most effectively uses information from the given sentences to explain plosive phonemes?",
+    "text": "Which choice most effectively uses information from the given sentences to explain plosive phonemes?\nWhile researching a topic, a student has taken the following notes:\n• Linguists use phonemes to represent the smallest possible units of sound within a word.\n• In English, the phoneme /p/ has labial articulation, which means it is produced using one or both lips, such as in the word \"pan.\"\n• The phoneme /z/ has alveolar articulation, which means it is produced by placing the tongue against or near the roof of the mouth, such as in the word \"zoo.\"\n• /p/ is plosive, a term used for sounds in which air flow is at first fully blocked.\n• /z/ is fricative, a term used for sounds in which air flow is partially blocked.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

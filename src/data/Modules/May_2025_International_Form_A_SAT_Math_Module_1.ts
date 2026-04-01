@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_1",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_2",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_3",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_4",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_5",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -176,16 +176,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_6",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -213,7 +213,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -221,7 +221,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_7",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -239,12 +239,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_8",
     "testName": "May 2025 International Form A SAT Math Module 1",
-    "text": "In $\u25b3DEF$, the measure of $\u2220D$ is 114 \u00b0. Which of the following could be the measure, in degrees, of $\u2220E$?",
+    "text": "In $△DEF$, the measure of $∠D$ is 114 °. Which of the following could be the measure, in degrees, of $∠E$?",
     "choices": [
       {
         "id": "A",
@@ -268,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_9",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -304,16 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_25_IntlA_Math_M1_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_10",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -341,15 +340,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_11",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -377,15 +376,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_12",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -412,16 +411,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_13",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -432,7 +431,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -440,7 +439,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_14",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -475,8 +474,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_15",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -504,16 +503,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_25_IntlA_Math_M1_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_16",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -526,14 +524,13 @@ export const questions: Question[] = [
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_25_IntlA_Math_M1_Q16_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_17",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -544,15 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_18",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -580,16 +577,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_25_IntlA_Math_M1_Q18_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_19",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -600,7 +596,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -608,7 +604,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_20",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -643,8 +639,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_21",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -672,15 +668,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_22",
     "testName": "May 2025 International Form A SAT Math Module 1",
@@ -691,7 +687,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   }

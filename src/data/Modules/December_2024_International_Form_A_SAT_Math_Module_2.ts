@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlA_Math_M2_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_2",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -70,7 +69,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -78,11 +77,11 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_3",
     "testName": "December 2024 International Form A SAT Math Module 2",
-    "text": "A circle has a circumference of 42\u03c0 centimeters. What is the diameter, incentimeters, of the circle?",
+    "text": "A circle has a circumference of 42π centimeters. What is the diameter, incentimeters, of the circle?",
     "choices": [],
     "correctAnswer": "42",
     "type": "free-response",
@@ -96,8 +95,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_4",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -125,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_5",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -161,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_6",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -196,8 +195,8 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "domain": "Algebra",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -205,7 +204,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_7",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -218,14 +217,13 @@ export const questions: Question[] = [
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlA_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_8",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -236,19 +234,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_9",
     "testName": "December 2024 International Form A SAT Math Module 2",
-    "text": "$In right triangle JKL, the tangent of$ \u2220 L is $\\frac{3}{4}.What is the length of\\overline{JK}$?",
+    "text": "$In right triangle JKL, the tangent of$ ∠ L is $\\frac{3}{4}.What is the length of\\overline{JK}$?",
     "choices": [
       {
         "id": "A",
@@ -272,16 +270,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlA_Math_M2_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_10",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -309,15 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_11",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -345,7 +342,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -353,7 +350,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_12",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -388,8 +385,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_13",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -400,15 +397,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_14",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -436,15 +433,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_15",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -472,15 +469,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_16",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -508,16 +505,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlA_Math_M2_Q16_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_17",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -528,7 +524,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
@@ -536,7 +532,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_18",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -571,8 +567,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_19",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -600,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_20",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -636,15 +632,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_21",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -672,7 +668,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
@@ -680,7 +676,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22",
     "testName": "December 2024 International Form A SAT Math Module 2",
@@ -693,7 +689,6 @@ export const questions: Question[] = [
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlA_Math_M2_Q22_1.png"
+    }
   }
 ];

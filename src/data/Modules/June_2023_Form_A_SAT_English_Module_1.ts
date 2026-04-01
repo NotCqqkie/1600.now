@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_1",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \"undergone\" most nearly mean?\nThe following text is adapted from Anton Chekhov's 1904 play *The Cherry Orchard* (translated by Julius West in 1916).\nTROFIMOV: Believe me, Anya, believe me! I'm not thirty yet, I'm young. I'm still a student, but I have <u>undergone</u> a great deal! I'm as hungry as the winter, I'm ill, I'm shaken... and where haven't I been\u2014fate has tossed me everywhere!\n\nAs used in the text, what does the word \"undergone\" most nearly mean?",
+    "text": "As used in the text, what does the word \"undergone\" most nearly mean?\nThe following text is adapted from Anton Chekhov's 1904 play *The Cherry Orchard* (translated by Julius West in 1916).\nTROFIMOV: Believe me, Anya, believe me! I'm not thirty yet, I'm young. I'm still a student, but I have <u>undergone</u> a great deal! I'm as hungry as the winter, I'm ill, I'm shaken... and where haven't I been—fate has tossed me everywhere!",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_2",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIndigenous Photograph is an organization whose mission is to ensure that images of indigenous peoples in the media are presented from indigenous perspectives. The organization ______ this commitment by promoting the works of artist Geremew Tigabu (Ethiopian, Amhara, and Tigre) and other prominent indigenous photographers who document and reflect Indigenous lives and experiences.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIndigenous Photograph is an organization whose mission is to ensure that images of indigenous peoples in the media are presented from indigenous perspectives. The organization ______ this commitment by promoting the works of artist Geremew Tigabu (Ethiopian, Amhara, and Tigre) and other prominent indigenous photographers who document and reflect Indigenous lives and experiences.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_3",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough fewer companies trade their stocks on the Cambodia Securities Exchange in Phnom Penh, Cambodia, than on the stock exchanges in London, Mumbai, or Tokyo, the Cambodia Securities Exchange has the advantage of being able to ______ relatively small companies in Cambodia: by connecting those companies to investors with expertise about the country's economic conditions, the Cambodia Securities Exchange can help those companies thrive.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough fewer companies trade their stocks on the Cambodia Securities Exchange in Phnom Penh, Cambodia, than on the stock exchanges in London, Mumbai, or Tokyo, the Cambodia Securities Exchange has the advantage of being able to ______ relatively small companies in Cambodia: by connecting those companies to investors with expertise about the country's economic conditions, the Cambodia Securities Exchange can help those companies thrive.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_4",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe emphasis on accurately representing the experiences of average working people that is characteristic of the realist style can be seen in *The Gleaners*, painted by Jean-Francois Millet, which depicts peasants picking stray wheat from a field after the harvest. This style can thus be seen as an effort to ______ what were regarded as the excesses of the romantic style evident in many paintings by Horace Vernet, which instead exaggerated their subjects' beauty or heroism while hiding all imperfection.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe emphasis on accurately representing the experiences of average working people that is characteristic of the realist style can be seen in *The Gleaners*, painted by Jean-Francois Millet, which depicts peasants picking stray wheat from a field after the harvest. This style can thus be seen as an effort to ______ what were regarded as the excesses of the romantic style evident in many paintings by Horace Vernet, which instead exaggerated their subjects' beauty or heroism while hiding all imperfection.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_5",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe swordfish can swim very fast\u2014up to 97 kilometers per hour (km/hr)\u2014but it is significantly slower than the frigatebird, which can fly at speeds up to 153 km/hr. The difference between these speeds is largely ______ of the fact that the features that make flight possible do less to limit top speeds than the features suitable for swimming through water.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe swordfish can swim very fast—up to 97 kilometers per hour (km/hr)—but it is significantly slower than the frigatebird, which can fly at speeds up to 153 km/hr. The difference between these speeds is largely ______ of the fact that the features that make flight possible do less to limit top speeds than the features suitable for swimming through water.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_6",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\n<u>President Richard Nixon is most famous for his participation in the 1970s Watergate political scandal, a convoluted tale of criminality and eroded ethics involving a constellation of associates such as security operative Jack Caulfield and Attorney General John Mitchell.</u> But Nixon's legacy is complex: he has been praised for his role in affirming the sovereignty of tribal nations, and he once made an attempt at reforming United States health care policy that is arguably a precursor to the Affordable Care Act, which became law during the Barack Obama administration.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\n<u>President Richard Nixon is most famous for his participation in the 1970s Watergate political scandal, a convoluted tale of criminality and eroded ethics involving a constellation of associates such as security operative Jack Caulfield and Attorney General John Mitchell.</u> But Nixon's legacy is complex: he has been praised for his role in affirming the sovereignty of tribal nations, and he once made an attempt at reforming United States health care policy that is arguably a precursor to the Affordable Care Act, which became law during the Barack Obama administration.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_7",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn what is now Washington state, the Tulalip Tribes operate the Hibulb Cultural Center. <u>Relying on traditional knowledge to guide the design of exhibits, this institution presents Tulalip history and culture to the tribes' citizens.</u> The Comanche Nation, a tribe in Oklahoma, employs a similar strategy in its own cultural center. Both centers contrast with museums that aren't Indigenous-led; when displaying Indigenous artifacts, such museums tend to anticipate mainly non-Indigenous audiences and rely on Euro-centric strategies for designing exhibits.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn what is now Washington state, the Tulalip Tribes operate the Hibulb Cultural Center. <u>Relying on traditional knowledge to guide the design of exhibits, this institution presents Tulalip history and culture to the tribes' citizens.</u> The Comanche Nation, a tribe in Oklahoma, employs a similar strategy in its own cultural center. Both centers contrast with museums that aren't Indigenous-led; when displaying Indigenous artifacts, such museums tend to anticipate mainly non-Indigenous audiences and rely on Euro-centric strategies for designing exhibits.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_8",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe Museum of Modern Art (MOMA) in New York City has an exhibition of video games that includes *Pac-Man* from 1980, which museum visitors can play on site, and *SimCity 2000* from 1994, which visitors can see only in a video presentation. MOMA claims the video presentations are only for games that would be impractical to display in a playable form, but <u>video games are an inherently interactive medium,</u> a feature that is grossly absent in a video-only presentation.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe Museum of Modern Art (MOMA) in New York City has an exhibition of video games that includes *Pac-Man* from 1980, which museum visitors can play on site, and *SimCity 2000* from 1994, which visitors can see only in a video presentation. MOMA claims the video presentations are only for games that would be impractical to display in a playable form, but <u>video games are an inherently interactive medium,</u> a feature that is grossly absent in a video-only presentation.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_9",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "The text makes which point about the O'odham word *gogogs*?\nIn O'odham, an Indigenous language from the Southwest region of what is now the United States, *gogs* means \"a dog\", whereas *gogogs* is used to refer to several dogs. This phenomenon, in which an element of a root word is repeated, sometimes with modification, within another word that is related to the root word, is called reduplication. In this case, the element \"go\" in *gogs* gets repeated in *gogogs*. There are many examples of this type of reduplication in O'odham.\n\nThe text makes which point about the O'odham word *gogogs*?",
+    "text": "The text makes which point about the O'odham word *gogogs*?\nIn O'odham, an Indigenous language from the Southwest region of what is now the United States, *gogs* means \"a dog\", whereas *gogogs* is used to refer to several dogs. This phenomenon, in which an element of a root word is repeated, sometimes with modification, within another word that is related to the root word, is called reduplication. In this case, the element \"go\" in *gogs* gets repeated in *gogogs*. There are many examples of this type of reduplication in O'odham.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_10",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\n*Master and Commander*, first published in 1969, is a novel in Patrick O'Brian's Aubrey Maturin series, which includes twenty completed books. Some critics have found fault with the abrupt endings of *Master and Commander* and other books in the series, saying that they do not finish conclusively but arbitrarily stop. Other critics, however, argue that the books should not be thought of as discrete texts with traditional beginnings and endings but as a single incredibly long work, similar to other multivolume stories, such as John Galsworthy's *The Forsyte Saga*.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\n*Master and Commander*, first published in 1969, is a novel in Patrick O'Brian's Aubrey Maturin series, which includes twenty completed books. Some critics have found fault with the abrupt endings of *Master and Commander* and other books in the series, saying that they do not finish conclusively but arbitrarily stop. Other critics, however, argue that the books should not be thought of as discrete texts with traditional beginnings and endings but as a single incredibly long work, similar to other multivolume stories, such as John Galsworthy's *The Forsyte Saga*.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_11",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which quotation from \"The Monster\" most effectively illustrates the claim?\n\"The Monster\" is an 1898 story by Stephen Crane. In the story, the character of Jim, a young boy, accidentally damages a peony (a flower) in the yard while his father is tending to the lawn. Crane depicts the dedication and care with which his father typically cares for his lawn, writing, ______\n\nWhich quotation from \"The Monster\" most effectively illustrates the claim?",
+    "text": "Which quotation from \"The Monster\" most effectively illustrates the claim?\n\"The Monster\" is an 1898 story by Stephen Crane. In the story, the character of Jim, a young boy, accidentally damages a peony (a flower) in the yard while his father is tending to the lawn. Crane depicts the dedication and care with which his father typically cares for his lawn, writing, ______",
     "choices": [
       {
         "id": "A",
@@ -391,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_12",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes data from the graph that support the student's claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the 1990s in the United States was present both in very large cities such as New York City, New York, and smaller areas such as Allentown-Bethlehem, Pennsylvania, and Beaumont, Texas; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.\n\nWhich choice best describes data from the graph that support the student's claim?",
+    "text": "Which choice best describes data from the graph that support the student's claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the 1990s in the United States was present both in very large cities such as New York City, New York, and smaller areas such as Allentown-Bethlehem, Pennsylvania, and Beaumont, Texas; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.",
     "choices": [
       {
         "id": "A",
@@ -427,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_23A_Eng_M1_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_13",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support Alegado and colleagues' conclusion?\nBiologist Rosanna Alegado believes that we might learn how multicellular organisms developed from single-celled ones if we understand why the single-celled organism *Salpingoeca rosetta*, the oldest living relative of animals, sometimes forms colonies of cells. Alegado and colleagues reviewed data from many studies of how *S. rosetta* responds when exposed to another type of single-celled organism, bacteria, including John P. Bowman's work with *Algoriphagus ratkowskyi* bacteria and Iftikhar Ahmed's work with *Algoriphagus boritolerans* bacteria. Alegado and colleagues concluded that both *A. ratkowskyi* and *A. boritolerans* might have played a role in the development of multicellular organisms.\n\nWhich finding, if true, would most directly support Alegado and colleagues' conclusion?",
+    "text": "Which finding, if true, would most directly support Alegado and colleagues' conclusion?\nBiologist Rosanna Alegado believes that we might learn how multicellular organisms developed from single-celled ones if we understand why the single-celled organism *Salpingoeca rosetta*, the oldest living relative of animals, sometimes forms colonies of cells. Alegado and colleagues reviewed data from many studies of how *S. rosetta* responds when exposed to another type of single-celled organism, bacteria, including John P. Bowman's work with *Algoriphagus ratkowskyi* bacteria and Iftikhar Ahmed's work with *Algoriphagus boritolerans* bacteria. Alegado and colleagues concluded that both *A. ratkowskyi* and *A. boritolerans* might have played a role in the development of multicellular organisms.",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -474,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_14",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support Alegado and colleagues' conclusion?\nBiologist Rosanna Alegado believes that we might learn how multicellular organisms developed from single-celled ones if we understand why the single-celled organism *Salpingoeca rosetta*, the oldest living relative of animals, sometimes forms colonies of cells. Alegado and colleagues reviewed data from many studies about how *S. rosetta* responds when exposed to another type of single-celled organism, bacteria, including Edward G. Ruby's work with *Vibrio fischeri* bacteria and Ana M. Cerde\u00f1o-T\u00e1rraga's work with *Bacteroides fragilis* bacteria. Alegado and colleagues concluded that neither *V. fischeri* nor *B. fragilis* are likely to have played a significant role in the development of multicellular organisms.\n\nWhich finding, if true, would most directly support Alegado and colleagues' conclusion?",
+    "text": "Which finding, if true, would most directly support Alegado and colleagues' conclusion?\nBiologist Rosanna Alegado believes that we might learn how multicellular organisms developed from single-celled ones if we understand why the single-celled organism *Salpingoeca rosetta*, the oldest living relative of animals, sometimes forms colonies of cells. Alegado and colleagues reviewed data from many studies about how *S. rosetta* responds when exposed to another type of single-celled organism, bacteria, including Edward G. Ruby's work with *Vibrio fischeri* bacteria and Ana M. Cerdeño-Tárraga's work with *Bacteroides fragilis* bacteria. Alegado and colleagues concluded that neither *V. fischeri* nor *B. fragilis* are likely to have played a significant role in the development of multicellular organisms.",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -509,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_15",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nPrevious research has shown that plant species with a narrow geographical range tend to be more genetically homogeneous than plant species with extensive ranges are. Based on these findings, researchers recently ran simulations to predict how the genetic variation of several species of *Mammillaria*, a genus of cactus found throughout the Americas, might change in different distribution conditions. One of these species, *M. anniana*, is found only in the state of Tamaulipas. The researchers simulated what would happen if *M. anniana* spread to new habitats outside Tamaulipas, and, consistent with previous findings, the results showed that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nPrevious research has shown that plant species with a narrow geographical range tend to be more genetically homogeneous than plant species with extensive ranges are. Based on these findings, researchers recently ran simulations to predict how the genetic variation of several species of *Mammillaria*, a genus of cactus found throughout the Americas, might change in different distribution conditions. One of these species, *M. anniana*, is found only in the state of Tamaulipas. The researchers simulated what would happen if *M. anniana* spread to new habitats outside Tamaulipas, and, consistent with previous findings, the results showed that ______",
     "choices": [
       {
         "id": "A",
@@ -536,9 +535,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_16",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nIn the periodic table, an element's atomic number indicates the number of protons in an atom of that element. For example, there are 25 protons in a manganese atom. Raymond Chang's textbook *General Chemistry: The Essential Concepts* ______ this concept in detail.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nIn the periodic table, an element's atomic number indicates the number of protons in an atom of that element. For example, there are 25 protons in a manganese atom. Raymond Chang's textbook *General Chemistry: The Essential Concepts* ______ this concept in detail.",
     "choices": [
       {
         "id": "A",
@@ -572,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_17",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nAn emulsifier is a type of compound that ______ to stabilize an emulsion\u2014a mixture of two or more liquids that otherwise would not easily blend together. In the cosmetics industry, emulsifiers like cetostearyl alcohol are commonly used to blend oil and water into homogeneous formulations, like lotions and perfumes.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nAn emulsifier is a type of compound that ______ to stabilize an emulsion—a mixture of two or more liquids that otherwise would not easily blend together. In the cosmetics industry, emulsifiers like cetostearyl alcohol are commonly used to blend oil and water into homogeneous formulations, like lotions and perfumes.",
     "choices": [
       {
         "id": "A",
@@ -608,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -618,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_18",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nOver the years, dozens of architectural and archaeological sites important to Hawaiian history and culture\u2014such as Grove Farm, Kilauea School, and the Hana Belt Road\u2014have been added to an important ______ Hawai'i Register of Historic Places. New sites are added each year, as decided by a review board of experts including sociologist Alton Okinaka, architect Katle Stephens, and historian Bill Souza.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nOver the years, dozens of architectural and archaeological sites important to Hawaiian history and culture—such as Grove Farm, Kilauea School, and the Hana Belt Road—have been added to an important ______ Hawai'i Register of Historic Places. New sites are added each year, as decided by a review board of experts including sociologist Alton Okinaka, architect Katle Stephens, and historian Bill Souza.",
     "choices": [
       {
         "id": "A",
@@ -644,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -654,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_19",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, but when it was created in 1990, it was little more than a marketing gimmick. Brothers Andre and Edouard Michelin sought to increase profits for their tire company by encouraging their customers to drive across France, visiting the guide's recommended hotels and ______ as it grew in scope and influence, the guide had its modest French eateries replaced with the best restaurants from around the world, including *The Eight* in Macau and *Sushi Ueda* in Nagoya.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, but when it was created in 1990, it was little more than a marketing gimmick. Brothers Andre and Edouard Michelin sought to increase profits for their tire company by encouraging their customers to drive across France, visiting the guide's recommended hotels and ______ as it grew in scope and influence, the guide had its modest French eateries replaced with the best restaurants from around the world, including *The Eight* in Macau and *Sushi Ueda* in Nagoya.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -689,12 +688,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_20",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn their research, behavioral ______ integrate methods from psychology and economics to analyze how and why people make particular choices and to examine the broader implications of those choices for the economy.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn their research, behavioral ______ integrate methods from psychology and economics to analyze how and why people make particular choices and to examine the broader implications of those choices for the economy.",
     "choices": [
       {
         "id": "A",
@@ -716,9 +715,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_21",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe city of Jinan, China, expanded its rapid transit system, the Jinan Metro, as recently as 2020. ______ the system will likely need to undergo further expansions as the size and needs of the city's population shift.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe city of Jinan, China, expanded its rapid transit system, the Jinan Metro, as recently as 2020. ______ the system will likely need to undergo further expansions as the size and needs of the city's population shift.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_22",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nTheater industry veteran Robert Tang admits that his ambitions weren't very lofty when he created the *Asian American Theater Revue*, a website that documents information about Asian American theaters like Second Generation Productions in New York City, New York: \"Everyone had a site, so I had to have one, too.\" ______ his site has become an essential resource for industry professionals looking to learn more about Asian American plays, playwrights, theater festivals, and more.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nTheater industry veteran Robert Tang admits that his ambitions weren't very lofty when he created the *Asian American Theater Revue*, a website that documents information about Asian American theaters like Second Generation Productions in New York City, New York: \"Everyone had a site, so I had to have one, too.\" ______ his site has become an essential resource for industry professionals looking to learn more about Asian American plays, playwrights, theater festivals, and more.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_23",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe first documented use of the English word \"session\" is attributed to poet Geoffrey Chaucer's 1386 work *Canterbury Prologue*. However, Chaucer didn't write in Modern English; ______ he wrote in what we now call Middle English, which was commonly used during the period.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe first documented use of the English word \"session\" is attributed to poet Geoffrey Chaucer's 1386 work *Canterbury Prologue*. However, Chaucer didn't write in Modern English; ______ he wrote in what we now call Middle English, which was commonly used during the period.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_24",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "The student wants to make and support a claim that kale is a better source of vitamin C than blueberries are. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Kale is a vegetable that contains ascorbic acid, an essential nutrient for humans.\n\u2022 Blueberries are fruits that contain ascorbic acid.\n\u2022 There is 120 milligrams (mg) of ascorbic acid per every 100 grams (g) of kale.\n\u2022 There is 10 mg of ascorbic acid per every 100 g of blueberries.\n\u2022 Humans cannot make ascorbic acid in their bodies, so they must get it from foods, including fruits and vegetables.\n\u2022 Ascorbic acid is also known as vitamin C.\n\nThe student wants to make and support a claim that kale is a better source of vitamin C than blueberries are. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to make and support a claim that kale is a better source of vitamin C than blueberries are. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Kale is a vegetable that contains ascorbic acid, an essential nutrient for humans.\n• Blueberries are fruits that contain ascorbic acid.\n• There is 120 milligrams (mg) of ascorbic acid per every 100 grams (g) of kale.\n• There is 10 mg of ascorbic acid per every 100 g of blueberries.\n• Humans cannot make ascorbic acid in their bodies, so they must get it from foods, including fruits and vegetables.\n• Ascorbic acid is also known as vitamin C.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_25",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "The student wants to explain how hard apatite is in relation to other minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n\u2022 Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n\u2022 Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n\u2022 The mineral calcite has a Mohs scale number of 3.\n\u2022 The mineral apatite has a Mohs scale number of 5.\n\u2022 The mineral topaz has a Mohs scale number of 8.\n\nThe student wants to explain how hard apatite is in relation to other minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain how hard apatite is in relation to other minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n• Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n• Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n• The mineral calcite has a Mohs scale number of 3.\n• The mineral apatite has a Mohs scale number of 5.\n• The mineral topaz has a Mohs scale number of 8.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_26",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "The student wants to emphasize a difference between the two novels. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Epistolary novels are novels written primarily as a series of fictional documents, typically letters.\n\u2022 Sometimes, the documents are journal entries, newspaper clippings, and more.\n\u2022 *Julie, or The New Heloise* (1761) is an epistolary novel by French author Jean-Jacques Rousseau.\n\u2022 It consists primarily of letters sent between a man and a woman in a small French town.\n\u2022 *Absolutely Normal Chaos* (1990) is an epistolary novel by American author Sharon Creech.\n\u2022 It consists primarily of journal entries written by a student during her summer vacation.\n\nThe student wants to emphasize a difference between the two novels. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between the two novels. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Epistolary novels are novels written primarily as a series of fictional documents, typically letters.\n• Sometimes, the documents are journal entries, newspaper clippings, and more.\n• *Julie, or The New Heloise* (1761) is an epistolary novel by French author Jean-Jacques Rousseau.\n• It consists primarily of letters sent between a man and a woman in a small French town.\n• *Absolutely Normal Chaos* (1990) is an epistolary novel by American author Sharon Creech.\n• It consists primarily of journal entries written by a student during her summer vacation.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_27",
     "testName": "June 2023 Form A SAT English Module 1",
-    "text": "The student wants to compare the number of native and non-native species catalogued. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Most of the plant and bird species in Oahu, Hawaii, are non-native.\n\u2022 In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.\n\u2022 Researchers catalogued plant seeds found in fecal samples from nonnative birds.\n\u2022 *Leptecophylla tameiameiae*, a flowering shrub, was one of fifteen native species catalogued.\n\u2022 *Passiflora suberosa*, an herbaceous vine, was one of twenty-nine non-native species catalogued.\n\u2022 Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.\n\nThe student wants to compare the number of native and non-native species catalogued. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the number of native and non-native species catalogued. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Most of the plant and bird species in Oahu, Hawaii, are non-native.\n• In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.\n• Researchers catalogued plant seeds found in fecal samples from nonnative birds.\n• *Leptecophylla tameiameiae*, a flowering shrub, was one of fifteen native species catalogued.\n• *Passiflora suberosa*, an herbaceous vine, was one of twenty-nine non-native species catalogued.\n• Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

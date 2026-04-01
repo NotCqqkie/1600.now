@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_1",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_2",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -69,16 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlA_Math_M2_Q2_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_3",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -113,8 +112,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_4",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -142,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_5",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -178,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_6",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -214,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_7",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -242,7 +241,7 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "There is not enough informa\u00fcion to compare the standard deviations."
+        "text": "There is not enough informaüion to compare the standard deviations."
       }
     ],
     "correctAnswer": "A",
@@ -250,16 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlA_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_8",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -270,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_9",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -306,16 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlA_Math_M2_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "skill": "Evaluating statistical claims: Observational studies and experiments",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_10",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -326,15 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "skill": "Evaluating statistical claims: Observational studies and experiments",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_11",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -345,15 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_12",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -381,15 +378,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_13",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -417,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_14",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -452,8 +449,8 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -461,7 +458,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_15",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -496,28 +493,28 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_16",
     "testName": "October 2024 International Form A SAT Math Module 2",
-    "text": "The functions f and g are defined by the given equations below, where > 0. Which ofthe following equations displays, as a constant or coeficient, the minimum value of the function it defines, where >0?\n\u2160. $f(x)=18(1.4)^{x+5}$\n\u2161. $g(x)=18(1.16)(1.4)^{x+3}$",
+    "text": "The functions f and g are defined by the given equations below, where > 0. Which ofthe following equations displays, as a constant or coeficient, the minimum value of the function it defines, where >0?\nⅠ. $f(x)=18(1.4)^{x+5}$\nⅡ. $g(x)=18(1.16)(1.4)^{x+3}$",
     "choices": [
       {
         "id": "A",
-        "text": "\u2160only"
+        "text": "Ⅰonly"
       },
       {
         "id": "B",
-        "text": "\u2161only"
+        "text": "Ⅱonly"
       },
       {
         "id": "C",
-        "text": "\u2160and \u2161"
+        "text": "Ⅰand Ⅱ"
       },
       {
         "id": "D",
-        "text": "Neither\u2160nor\u2161"
+        "text": "NeitherⅠnorⅡ"
       }
     ],
     "correctAnswer": "D",
@@ -525,15 +522,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_17",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -544,15 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_18",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -580,15 +577,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_19",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -599,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_20",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -635,19 +632,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_21",
     "testName": "October 2024 International Form A SAT Math Module 2",
-    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of these eight angles is (7x - 250)\u00b0. The sum of the measures of four ofthe eight angles is k\u00b0. Which of the following could NOT be equivalent to k, for all values ofw?",
+    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of these eight angles is (7x - 250)°. The sum of the measures of four ofthe eight angles is k°. Which of the following could NOT be equivalent to k, for all values ofw?",
     "choices": [
       {
         "id": "A",
@@ -670,16 +667,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_22",
     "testName": "October 2024 International Form A SAT Math Module 2",
@@ -707,7 +704,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   }

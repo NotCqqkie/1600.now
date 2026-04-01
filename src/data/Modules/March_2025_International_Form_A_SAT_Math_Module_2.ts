@@ -3,9 +3,9 @@ import { Question } from "../all_questions";
 export const questions: Question[] = [
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_1",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -32,16 +32,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_2",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_3",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_4",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -141,19 +141,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_5",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "Which of the following expressions is equivalent to $11x^{10}-11x^{9}+77x$ \uff1f",
+    "text": "Which of the following expressions is equivalent to $11x^{10}-11x^{9}+77x$ ？",
     "choices": [
       {
         "id": "A",
@@ -177,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_6",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -212,16 +212,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "domain": "Algebra",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_7",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -249,19 +249,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_8",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "$f(x)=5(g(x))-3$\n$g(x)=\u222312x-7\u2223$\nThe functions $f$ and g are defined by the given equations. What is the value of $f(-10)$?",
+    "text": "$f(x)=5(g(x))-3$\n$g(x)=∣12x-7∣$\nThe functions $f$ and g are defined by the given equations. What is the value of $f(-10)$?",
     "choices": [
       {
         "id": "A",
@@ -285,15 +285,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_9",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -321,15 +321,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_10",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -340,15 +340,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_11",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -376,7 +376,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -384,7 +384,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_12",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -419,8 +419,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_13",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -431,15 +431,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_14",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -467,15 +467,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_15",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -502,17 +502,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlA_Math_M2_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_16",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -540,19 +539,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_17",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "The graph of $y=f(x)+4$ is shown. Which equation defines function $f$ \uff1f",
+    "text": "The graph of $y=f(x)+4$ is shown. Which equation defines function $f$ ？",
     "choices": [
       {
         "id": "A",
@@ -576,20 +575,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlA_Math_M2_Q17_1.svg"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_18",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "In the figure, $\\overline{LQ}$ intersects $\\overline{MP}$ at point $R$, and $\\overline{LM}$ is parallel to $\\overline{PQ}$. The lengths of $\\overline{MR}$ and $\\overline{RP}$ are 8 and 14 units, respectively. The area of $\u25b3LMR$ is 36 square units. What is the area of $\u25b3PQR$, in square units?",
+    "text": "In the figure, $\\overline{LQ}$ intersects $\\overline{MP}$ at point $R$, and $\\overline{LM}$ is parallel to $\\overline{PQ}$. The lengths of $\\overline{MR}$ and $\\overline{RP}$ are 8 and 14 units, respectively. The area of $△LMR$ is 36 square units. What is the area of $△PQR$, in square units?",
     "choices": [
       {
         "id": "A",
@@ -613,16 +611,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlA_Math_M2_Q18_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_19",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -633,34 +630,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_20",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 59 square centimeters (cm\u00b2), and the surface area of right rectangular prism Y is 1,475 cm\u00b2. The volue of right rectangular prism Y is 1,500 cubic centimeters (cm\u00b3). What is the sum of the volumes, in cm\u00b3, of right rectangular prism X and right rectangular prism Y?",
+    "text": "Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 59 square centimeters (cm²), and the surface area of right rectangular prism Y is 1,475 cm². The volue of right rectangular prism Y is 1,500 cubic centimeters (cm³). What is the sum of the volumes, in cm³, of right rectangular prism X and right rectangular prism Y?",
     "choices": [],
     "correctAnswer": "1512",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_21",
     "testName": "March 2025 International Form A SAT Math Module 2",
@@ -671,26 +668,26 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_22",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "$24x^{2}-(12a+2b)x+ab=0$\nIn the given equation, a and b are positive constants. The sum of the solutions to the given equation is $k(6a+b)$, where k is a constant. What is the value of k \uff1f",
+    "text": "$24x^{2}-(12a+2b)x+ab=0$\nIn the given equation, a and b are positive constants. The sum of the solutions to the given equation is $k(6a+b)$, where k is a constant. What is the value of k ？",
     "choices": [],
     "correctAnswer": "1/12,.0833",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   }

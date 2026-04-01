@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_1",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -16,15 +16,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_2",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -32,7 +32,7 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "t\u2264 42"
+        "text": "t≤ 42"
       },
       {
         "id": "B",
@@ -44,7 +44,7 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "42\u2264t\u226457"
+        "text": "42≤t≤57"
       }
     ],
     "correctAnswer": "D",
@@ -52,15 +52,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_3",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -88,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_4",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -107,15 +107,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_5",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -142,17 +142,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlA_Math_M1_Q5_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_6",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -180,15 +179,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_7",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -216,15 +215,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_8",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -252,16 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlA_Math_M1_Q8_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_9",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -272,15 +270,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_10",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -308,15 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_11",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -343,8 +341,8 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -352,7 +350,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_12",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -387,8 +385,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_13",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -399,15 +397,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_14",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -435,15 +433,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_15",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -454,15 +452,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_16",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -473,15 +471,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_17",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -509,35 +507,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_18",
     "testName": "May 2024 International Form A SAT Math Module 1",
-    "text": "In the figure, RT = TU, the measure of angle V ST is 23 \u00b0, and the measure of angle RV S is 34\u00b0. What is the value of x \uff1f",
+    "text": "In the figure, RT = TU, the measure of angle V ST is 23 °, and the measure of angle RV S is 34°. What is the value of x ？",
     "choices": [],
     "correctAnswer": "158",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlA_Math_M1_Q18_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_19",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -565,15 +562,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_20",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -601,15 +598,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_21",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -637,15 +634,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_22",
     "testName": "May 2024 International Form A SAT Math Module 1",
@@ -673,7 +670,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   }

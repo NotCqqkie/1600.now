@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_1",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough Oscar Micheaux's 1920 film *Within Our Gates* and Ossie Davis's 1970 film *Cotton Comes to Harlem* may have had some ______ at the time of their initial release, their place in critics' estimations is now more secure. In 2018, for example, critics for the New York Times described the former as \"stunning\" and the latter as \"especially pointed.\"\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough Oscar Micheaux's 1920 film *Within Our Gates* and Ossie Davis's 1970 film *Cotton Comes to Harlem* may have had some ______ at the time of their initial release, their place in critics' estimations is now more secure. In 2018, for example, critics for the New York Times described the former as \"stunning\" and the latter as \"especially pointed.\"",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_2",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPolitical scientists have found that although voters claim to prefer candidates who have nuanced perspectives on issues and who show a willingness to compromise, when asked to compare speeches expressing such views with speeches expressing _________ views, voters tend to regard the unyielding rhetoric of the latter more favorably.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPolitical scientists have found that although voters claim to prefer candidates who have nuanced perspectives on issues and who show a willingness to compromise, when asked to compare speeches expressing such views with speeches expressing _________ views, voters tend to regard the unyielding rhetoric of the latter more favorably.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_3",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA number of recording artists ______ distinctions between Indigenous music and other musical styles. For example, Inuit singer-songwriter Tanya Tagag incorporated Inuit throat singing into electronic music on her album *Tongues*, and Tuscarora/Taino singer-songwriter Pura F\u00e9 combined Indigenous rhythms and vocals with R&B on her album *Sacred Seed*.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA number of recording artists ______ distinctions between Indigenous music and other musical styles. For example, Inuit singer-songwriter Tanya Tagag incorporated Inuit throat singing into electronic music on her album *Tongues*, and Tuscarora/Taino singer-songwriter Pura Fé combined Indigenous rhythms and vocals with R&B on her album *Sacred Seed*.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_4",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\nToday composer Scott Joplin is mainly celebrated for his catchy ragtime pieces \u201cMaple Leaf Rag\u201d and \u201cThe Entertainer.\u201d However, by overlooking his less famous works, listeners will miss the full range of Joplin's creativity. For instance, his waltz \u201cPleasant Moments\u201d and his opera *Treemonisha* skillfully blend ragtime and classical music. These masterpieces deserve as much fame as Joplin's biggest hits.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nToday composer Scott Joplin is mainly celebrated for his catchy ragtime pieces “Maple Leaf Rag” and “The Entertainer.” However, by overlooking his less famous works, listeners will miss the full range of Joplin's creativity. For instance, his waltz “Pleasant Moments” and his opera *Treemonisha* skillfully blend ragtime and classical music. These masterpieces deserve as much fame as Joplin's biggest hits.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_5",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\n*Treason's Harbour*, first published in 1983, is a novel in Patrick O'Brian's Aubrey/Maturin series, which includes twenty completed books. Some critics have found fault with the abrupt endings of *Treason's Harbour* and other books of the series, saying that they do not finish conclusively but arbitrarily stop. But other critics argue that the books should not be thought of as discrete texts with traditional beginnings and endings but as a single incredibly long work, similar to other multivolume stories, such as Marcel Proust's *In Search of Lost Time*.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\n*Treason's Harbour*, first published in 1983, is a novel in Patrick O'Brian's Aubrey/Maturin series, which includes twenty completed books. Some critics have found fault with the abrupt endings of *Treason's Harbour* and other books of the series, saying that they do not finish conclusively but arbitrarily stop. But other critics argue that the books should not be thought of as discrete texts with traditional beginnings and endings but as a single incredibly long work, similar to other multivolume stories, such as Marcel Proust's *In Search of Lost Time*.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_6",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Based on the texts, how would the author of Text 2 most likely respond to the evaluation of Asimov's writing style in the underlined claim in Text 1?\nText 1\n<u>Isaac Asimov, author of *The Naked Sun* and *The Stars, Like Dust*, is highly regarded despite his mediocre writing style. His prose is workmanlike; his characters are flat and discuss ideas rather than emotions.</u> That his work is enjoyable despite this is a testament to his prodigious imagination\u2014even if people read his books only for the ideas, they will have plenty to consider.\nText 2\nAsimov is critiqued for his style, but it is wrong to fault a writer for failing to do what he never intended to do. For example, although most of his novel *Foundation* consists of people discussing science and politics and we find out little about his characters' lives, Asimov wanted to convey the vast sweep of human history over centuries, and one of his points is that at such a timescale, individuals don't matter. Thus his lack of characterization is central to Asimov's thematic aims.\n\nBased on the texts, how would the author of Text 2 most likely respond to the evaluation of Asimov's writing style in the underlined claim in Text 1?",
+    "text": "Based on the texts, how would the author of Text 2 most likely respond to the evaluation of Asimov's writing style in the underlined claim in Text 1?\nText 1\n<u>Isaac Asimov, author of *The Naked Sun* and *The Stars, Like Dust*, is highly regarded despite his mediocre writing style. His prose is workmanlike; his characters are flat and discuss ideas rather than emotions.</u> That his work is enjoyable despite this is a testament to his prodigious imagination—even if people read his books only for the ideas, they will have plenty to consider.\nText 2\nAsimov is critiqued for his style, but it is wrong to fault a writer for failing to do what he never intended to do. For example, although most of his novel *Foundation* consists of people discussing science and politics and we find out little about his characters' lives, Asimov wanted to convey the vast sweep of human history over centuries, and one of his points is that at such a timescale, individuals don't matter. Thus his lack of characterization is central to Asimov's thematic aims.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_7",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Information in the text best supports which statement about hDNA?\nShanlin Liu and colleagues relied on historical DNA (hDNA)\u2014genomic data incidentally preserved in specimens housed in natural history collections\u2014to investigate the evolutionary history of the rhinoceros family (Rhinocerotidae). Although this approach offers unique benefits, such as the ability to ascertain the biogeographical origins of organisms, it remains a relatively underutilized resource because hDNA is often to some extent degraded, a situation not easily remediable under current methodological paradigms and with extant DNA extraction and analysis technologies.\n\nInformation in the text best supports which statement about hDNA?",
+    "text": "Information in the text best supports which statement about hDNA?\nShanlin Liu and colleagues relied on historical DNA (hDNA)—genomic data incidentally preserved in specimens housed in natural history collections—to investigate the evolutionary history of the rhinoceros family (Rhinocerotidae). Although this approach offers unique benefits, such as the ability to ascertain the biogeographical origins of organisms, it remains a relatively underutilized resource because hDNA is often to some extent degraded, a situation not easily remediable under current methodological paradigms and with extant DNA extraction and analysis technologies.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_8",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nYingguang Frank Chan and colleagues have explored how convergent evolution\u2014a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages\u2014can result from a genetic mechanism shared by both lineages. Meanwhile, Cynthia C. Steiner and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nYingguang Frank Chan and colleagues have explored how convergent evolution—a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages—can result from a genetic mechanism shared by both lineages. Meanwhile, Cynthia C. Steiner and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_9",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nOver time, marine mollusks called nautilids continually add segments to their shells, and the chemical composition of each segment is influenced by the available materials in the surrounding water when the segment forms. Paleontologist Amane Tajika and colleagues analyzed the septa (the walls between shell chambers) of one male (samples labeled \u201cM\u201d) and one female (samples labeled \u201cF\u201d) nautilid, finding that sample F04 had the same concentration of oxygen-18 as did water approximately 90 meters deep and that the oxygen-18 concentration in sample M17 matched that of water at approximately 385 meters deep. Tajika et al. concluded that sample F04 formed at a higher point in the water column than did M17.\n\nWhich finding, if true, would most directly support the researchers' conclusion?",
+    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nOver time, marine mollusks called nautilids continually add segments to their shells, and the chemical composition of each segment is influenced by the available materials in the surrounding water when the segment forms. Paleontologist Amane Tajika and colleagues analyzed the septa (the walls between shell chambers) of one male (samples labeled “M”) and one female (samples labeled “F”) nautilid, finding that sample F04 had the same concentration of oxygen-18 as did water approximately 90 meters deep and that the oxygen-18 concentration in sample M17 matched that of water at approximately 385 meters deep. Tajika et al. concluded that sample F04 formed at a higher point in the water column than did M17.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_10",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly challenge the second research team\u2019s conclusion?\nCallie W. Babbitt, Hema Madaka, and colleagues assembled a database of materials used in consumer electronics by studying products in the lab and by gathering data from similar product studies. The team gave each of these studies a rating for level of traceability (with a higher rating for clearer descriptions of procedures) and for category consistency (with a higher rating for using materials categories more closely aligned with the categories in the team's database). Based on these ratings, a second research team concluded that the methodology was better explained in a study by Greg L. Kozak and Gregory A. Keoleian than it was in a study by Perrine Chancerel and Susanne Rotter.\n\nWhich finding, if true, would most directly challenge the second research team\u2019s conclusion?",
+    "text": "Which finding, if true, would most directly challenge the second research team’s conclusion?\nCallie W. Babbitt, Hema Madaka, and colleagues assembled a database of materials used in consumer electronics by studying products in the lab and by gathering data from similar product studies. The team gave each of these studies a rating for level of traceability (with a higher rating for clearer descriptions of procedures) and for category consistency (with a higher rating for using materials categories more closely aligned with the categories in the team's database). Based on these ratings, a second research team concluded that the methodology was better explained in a study by Greg L. Kozak and Gregory A. Keoleian than it was in a study by Perrine Chancerel and Susanne Rotter.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -365,33 +365,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_11",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which quotation from Cane most effectively illustrates the claim?\n*Cane* is a 1923 novel by Jean Toomer. In one portion of the novel, Toomer uses figurative language to connect the narrator's urban environment of Washington, DC, and the rural South of the narrator's past, writing, ______\n\nWhich quotation from Cane most effectively illustrates the claim?",
+    "text": "Which quotation from Cane most effectively illustrates the claim?\n*Cane* is a 1923 novel by Jean Toomer. In one portion of the novel, Toomer uses figurative language to connect the narrator's urban environment of Washington, DC, and the rural South of the narrator's past, writing, ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cThe Capitol dome looked like a gray ghost ship drifting in from sea.\u201d"
+        "text": "“The Capitol dome looked like a gray ghost ship drifting in from sea.”"
       },
       {
         "id": "B",
-        "text": "\u201cThe [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.\u201d"
+        "text": "“The [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.”"
       },
       {
         "id": "C",
-        "text": "\u201cAnd when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].\u201d"
+        "text": "“And when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].”"
       },
       {
         "id": "D",
-        "text": "\u201cThe young trees had not outgrown their [planter] boxes then. V Street [in Washington, DC] was lined with them.\u201d"
+        "text": "“The young trees had not outgrown their [planter] boxes then. V Street [in Washington, DC] was lined with them.”"
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_12",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nSoil thawing in Alaska has been accelerating in response to climate warming, potentially enabling increased carbon dioxide (CO 2) absorption through greater productivity of bog bilberry (*Vaccinium uliginosum*) plants and other vegetation, but also potentially enabling increased CO 2 output through greater heterotrophic respiration (CO 2 generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs\u2014years of soil temperature and snow cover data among them\u2014to evaluate the effects of warming on the CO 2 balance in Alaska, concluding that net CO 2 is likely to increase if warming hastens spring snow melt.\n\nWhich finding, if true, would most directly support the researchers' conclusion?",
+    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nSoil thawing in Alaska has been accelerating in response to climate warming, potentially enabling increased carbon dioxide (CO 2) absorption through greater productivity of bog bilberry (*Vaccinium uliginosum*) plants and other vegetation, but also potentially enabling increased CO 2 output through greater heterotrophic respiration (CO 2 generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs—years of soil temperature and snow cover data among them—to evaluate the effects of warming on the CO 2 balance in Alaska, concluding that net CO 2 is likely to increase if warming hastens spring snow melt.",
     "choices": [
       {
         "id": "A",
@@ -427,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -437,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_13",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the example?\nLin-Tai Ho and colleagues monitored fish populations in a tide pool in Taiwan. They found that there could be significant within-species variations in the number of individuals in the tide pool over time; for example, the ______\n\nWhich choice most effectively uses data from the graph to complete the example?",
+    "text": "Which choice most effectively uses data from the graph to complete the example?\nLin-Tai Ho and colleagues monitored fish populations in a tide pool in Taiwan. They found that there could be significant within-species variations in the number of individuals in the tide pool over time; for example, the ______",
     "choices": [
       {
         "id": "A",
@@ -463,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_IntlB_Eng_M2_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Inferences",
-    "difficulty": "null",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_14",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThe Study on Global Ageing and Adult Health (SAGE) is a longitudinal study surveying approximately 66,000 individuals in multiple countries to glean extended trends in aging. To carry out the necessary sampling of the population over many years, SAGE needs extensive financial support, but this method provides valuable insights into causal relationships. However, when questions of causation are irrelevant, as with a sociology study seeking only to reveal the average age at which people in a given city first become parents, longitudinal methods are unnecessary, and so ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe Study on Global Ageing and Adult Health (SAGE) is a longitudinal study surveying approximately 66,000 individuals in multiple countries to glean extended trends in aging. To carry out the necessary sampling of the population over many years, SAGE needs extensive financial support, but this method provides valuable insights into causal relationships. However, when questions of causation are irrelevant, as with a sociology study seeking only to reveal the average age at which people in a given city first become parents, longitudinal methods are unnecessary, and so ______",
     "choices": [
       {
         "id": "A",
@@ -500,9 +499,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Inferences",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_15",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThe many editions of James Joyce's 1922 novel *Ulysses* are not textually identical, and scholars debate which versions reflect Joyce's authorial intent. One no longer widely read edition is the 1984 \u201ccritical and synoptic edition\u201d edited by Hans Walter Gabler, which followed French and German editorial theories rather than editorial traditions of the United States and United Kingdom and which was later found to have introduced errors due to Gabler's choice to consult facsimile manuscripts rather than using only originals. However, few Joyce scholars worldwide had expertise in such textual issues, and most of those who did worked on the edition with Gabler. So, it is unsurprising that initial scholarly reviews of the 1984 edition were mostly ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe many editions of James Joyce's 1922 novel *Ulysses* are not textually identical, and scholars debate which versions reflect Joyce's authorial intent. One no longer widely read edition is the 1984 “critical and synoptic edition” edited by Hans Walter Gabler, which followed French and German editorial theories rather than editorial traditions of the United States and United Kingdom and which was later found to have introduced errors due to Gabler's choice to consult facsimile manuscripts rather than using only originals. However, few Joyce scholars worldwide had expertise in such textual issues, and most of those who did worked on the edition with Gabler. So, it is unsurprising that initial scholarly reviews of the 1984 edition were mostly ______",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_16",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions Standard English?\nIn Puerto Rico, it's not unusual for a city or town to be known by a nickname that corresponds to one of its notable features, like landscape, climate, famous residents, or chief exports. For example, the Puerto Rican municipality of Orocovis has also been called \u201cthe Heart of Puerto Rico,\u201d a nickname that alludes to what the area is well ______ its geographical position in the center of the island.\n\nWhich choice completes the text so that it conforms to the conventions Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions Standard English?\nIn Puerto Rico, it's not unusual for a city or town to be known by a nickname that corresponds to one of its notable features, like landscape, climate, famous residents, or chief exports. For example, the Puerto Rican municipality of Orocovis has also been called “the Heart of Puerto Rico,” a nickname that alludes to what the area is well ______ its geographical position in the center of the island.",
     "choices": [
       {
         "id": "A",
@@ -572,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -582,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_17",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA region of the Soviet Union encompassing the present-day city of Kyzyl, Russia, the Tuvan-speaking Tuvan Autonomous Soviet Socialist Republic was in fact only nominally autonomous. President Mikhail Gorbachev's reforms, by helping the Tuvan Republic and other Soviet republics established along ethnolinguistic lines assert their prerogatives, ______ to the Soviet Union's breakup.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA region of the Soviet Union encompassing the present-day city of Kyzyl, Russia, the Tuvan-speaking Tuvan Autonomous Soviet Socialist Republic was in fact only nominally autonomous. President Mikhail Gorbachev's reforms, by helping the Tuvan Republic and other Soviet republics established along ethnolinguistic lines assert their prerogatives, ______ to the Soviet Union's breakup.",
     "choices": [
       {
         "id": "A",
@@ -608,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_18",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMinerals can be classified by how much light passes through them. For example, all (or almost all) light passes through krotite, which is classified as ______ only some light to pass through, beryl is instead classified as translucent.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMinerals can be classified by how much light passes through them. For example, all (or almost all) light passes through krotite, which is classified as ______ only some light to pass through, beryl is instead classified as translucent.",
     "choices": [
       {
         "id": "A",
@@ -644,9 +643,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -654,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_19",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe artist Artemisia Gentileschi's painting *La Pittura*, symbolically ______ to portray the power of female artists in the realm of visual arts, is a highly regarded example of allegory.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe artist Artemisia Gentileschi's painting *La Pittura*, symbolically ______ to portray the power of female artists in the realm of visual arts, is a highly regarded example of allegory.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -690,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_20",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe relationship between genomes and epigenomes reveals how cells with identical DNA develop different ______ whereas the genome in each cell contains a complete DNA sequence, the epigenome consists of chemical compounds that determine which traits in the sequence will be expressed.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe relationship between genomes and epigenomes reveals how cells with identical DNA develop different ______ whereas the genome in each cell contains a complete DNA sequence, the epigenome consists of chemical compounds that determine which traits in the sequence will be expressed.",
     "choices": [
       {
         "id": "A",
@@ -716,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_21",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThat the geographic center of North America lay in the state of North Dakota was conceded by all ______ establishing its precise coordinates proved more divisive.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThat the geographic center of North America lay in the state of North Dakota was conceded by all ______ establishing its precise coordinates proved more divisive.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_22",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nMonument 3 is the name given to a 12.8-ton stone statue of a human head that was created during the ancient Olmec civilization. It was discovered in Tabasco, Mexico, at the La Venta archaeological site. ______ at the San Lorenzo site in the state of Veracruz, another colossal head statue called Monument 53 was discovered.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nMonument 3 is the name given to a 12.8-ton stone statue of a human head that was created during the ancient Olmec civilization. It was discovered in Tabasco, Mexico, at the La Venta archaeological site. ______ at the San Lorenzo site in the state of Veracruz, another colossal head statue called Monument 53 was discovered.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_23",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn the Southeast Asian country of Indonesia, the percentage of the population living in cities increased from 53.3% to 56.6% between 2015 and 2020; this upward trend in urbanization was seen throughout that part of the continent. ______ from 2015 to 2020, the overall percentage of the Southeast Asian population living in cities rose from 47.2% to 50%.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn the Southeast Asian country of Indonesia, the percentage of the population living in cities increased from 53.3% to 56.6% between 2015 and 2020; this upward trend in urbanization was seen throughout that part of the continent. ______ from 2015 to 2020, the overall percentage of the Southeast Asian population living in cities rose from 47.2% to 50%.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_24",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nUgandan American professor Peter Nazareth believed that Elvis Presley's music is best understood not as a homogeneous collection but as an anthology (because Elvis showcased the contributions of a wide range of gospel, blues, and rock artists). ________ Nazareth entitled his college course on Elvis and his music, which focused on Elvis's many musical influences, \u201cElvis as Anthology.\u201d\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nUgandan American professor Peter Nazareth believed that Elvis Presley's music is best understood not as a homogeneous collection but as an anthology (because Elvis showcased the contributions of a wide range of gospel, blues, and rock artists). ________ Nazareth entitled his college course on Elvis and his music, which focused on Elvis's many musical influences, “Elvis as Anthology.”",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_25",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences explain why Billy Budd, Sailor entered the public domain?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A copyright prevents a book's contents from being reproduced (published) without permission from the copyright holder.\n\u2022 When a book's copyright expires, the book enters the public domain.\n\u2022 Public domain books can be legally reproduced by anyone.\n\u2022 *Billy Budd, Sailor* is a novella by Herman Melville.\n\u2022 It was published in 1924 and entered the public domain on January 1, 2020 (ninety-six years later).\n\nWhich choice most effectively uses information from the given sentences explain why Billy Budd, Sailor entered the public domain?",
+    "text": "Which choice most effectively uses information from the given sentences explain why Billy Budd, Sailor entered the public domain?\nWhile researching a topic, a student has taken the following notes:\n• A copyright prevents a book's contents from being reproduced (published) without permission from the copyright holder.\n• When a book's copyright expires, the book enters the public domain.\n• Public domain books can be legally reproduced by anyone.\n• *Billy Budd, Sailor* is a novella by Herman Melville.\n• It was published in 1924 and entered the public domain on January 1, 2020 (ninety-six years later).",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,19 +905,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_26",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "The student wants to provide a specific example of what municipalities provide. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Xochicoatl\u00e1n is a municipality in the state of Hidalgo, Mexico.\n\u2022 Municipalities are governmental regions responsible for providing many public services to their residents.\n\u2022 One service they provide is water treatment Xochicoatl\u00e1n's population was 7,015 in 2020.\n\u2022 Hidalgo is divided into 84 municipalities.\n\nThe student wants to provide a specific example of what municipalities provide. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide a specific example of what municipalities provide. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Xochicoatlán is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is water treatment Xochicoatlán's population was 7,015 in 2020.\n• Hidalgo is divided into 84 municipalities.",
     "choices": [
       {
         "id": "A",
-        "text": "In 2020, the municipality of Xochicoatl\u00e1n had a population of 7,015."
+        "text": "In 2020, the municipality of Xochicoatlán had a population of 7,015."
       },
       {
         "id": "B",
-        "text": "Xochicoatl\u00e1n is one of 84 municipalities in Hidalgo, Mexico."
+        "text": "Xochicoatlán is one of 84 municipalities in Hidalgo, Mexico."
       },
       {
         "id": "C",
@@ -926,13 +925,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "The municipality Xochicoatl\u00e1n in Hidalgo is responsible for providing many public services."
+        "text": "The municipality Xochicoatlán in Hidalgo is responsible for providing many public services."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_27",
     "testName": "March 2024 International Form B SAT English Module 2",
-    "text": "The student wants to compare the hardness of fluorite and corundum. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n\u2022 Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n\u2022 Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n\u2022 The mineral fluorite has a Mohs scale number of 4.\n\u2022 The mineral quartz has a Mohs scale number of 7.\n\u2022 The mineral corundum has a Mohs scale number of 9.\n\nThe student wants to compare the hardness of fluorite and corundum. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the hardness of fluorite and corundum. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n• Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n• Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n• The mineral fluorite has a Mohs scale number of 4.\n• The mineral quartz has a Mohs scale number of 7.\n• The mineral corundum has a Mohs scale number of 9.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_1",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_2",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_3",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_4",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_5",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -177,16 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_USB_Math_M1_Q5_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_6",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -214,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_7",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -233,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_8",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -269,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_9",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -305,15 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_10",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -340,17 +339,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_USB_Math_M1_Q10_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_11",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -361,15 +359,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_12",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -397,15 +395,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_13",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -433,15 +431,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_14",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -469,15 +467,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_15",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -488,16 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_USB_Math_M1_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_16",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -508,7 +505,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
@@ -516,7 +513,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_17",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -551,8 +548,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_18",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -563,15 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_19",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -599,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_20",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -635,15 +632,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_22",
     "testName": "November 2024 US Form B SAT Math Module 1",
@@ -654,7 +651,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   }

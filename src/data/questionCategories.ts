@@ -105,19 +105,28 @@ export const englishDomainSkills: Record<EnglishDomain, EnglishSkill[]> = {
 };
 
 const mathSkillAliasMap: Record<string, MathSkill> = {
+  // Algebra
   "linear equations in one variable": "Linear equations in one variable",
+  "linear equations in 1 variable": "Linear equations in one variable",
   "linear functions": "Linear functions",
   "linear equations in two variables": "Linear equations in two variables",
+  "linear equations in 2 variables": "Linear equations in two variables",
   "systems of linear equations": "Systems of two linear equations in two variables",
+  "systems of two linear equations": "Systems of two linear equations in two variables",
   "systems of two linear equations in two variables": "Systems of two linear equations in two variables",
   "linear inequalities": "Linear inequalities in one or two variables",
   "linear inequalities in one or two variables": "Linear inequalities in one or two variables",
+  "linear inequalities in 1 or 2 variables": "Linear inequalities in one or two variables",
+  // Advanced Math
   "equivalent expressions": "Equivalent expressions",
   "nonlinear equations and systems": "Nonlinear equations in one variable and systems of equations in two variables",
   "nonlinear equations in one variable and systems of equations in two variables": "Nonlinear equations in one variable and systems of equations in two variables",
+  "nonlinear equations in 1 variable and systems of equations in 2 variables": "Nonlinear equations in one variable and systems of equations in two variables",
   "nonlinear functions": "Nonlinear functions",
+  // Problem-Solving and Data Analysis
   "ratios, rates, proportions, and units": "Ratios, rates, proportional relationships, and units",
   "ratios, rates, proportional relationships, and units": "Ratios, rates, proportional relationships, and units",
+  "ratios, rates, and proportional relationships": "Ratios, rates, proportional relationships, and units",
   "percentages": "Percentages",
   "one-variable data": "One-variable data: Distributions and measures of center and spread",
   "one-variable data: distributions and measures of center and spread": "One-variable data: Distributions and measures of center and spread",
@@ -129,6 +138,7 @@ const mathSkillAliasMap: Record<string, MathSkill> = {
   "inference from sample statistics and margin of error": "Inference from sample statistics and margin of error",
   "evaluating statistical claims": "Evaluating statistical claims: Observational studies and experiments",
   "evaluating statistical claims: observational studies and experiments": "Evaluating statistical claims: Observational studies and experiments",
+  // Geometry and Trigonometry
   "area and volume": "Area and volume",
   "lines, angles, and triangles": "Lines, angles, and triangles",
   "right triangles and trigonometry": "Right triangles and trigonometry",
@@ -143,6 +153,11 @@ const englishSkillAliasMap: Record<string, EnglishSkill> = {
   "transitions": "Transitions",
   "central ideas and details": "Central Ideas and Details",
   "command of evidence": "Command of Evidence",
+  // Common sub-type labels from some SAT data sources
+  "command of evidence (textual)": "Command of Evidence",
+  "command of evidence (quantitative)": "Command of Evidence",
+  "command of evidence - textual": "Command of Evidence",
+  "command of evidence - quantitative": "Command of Evidence",
   "inferences": "Inferences",
   "boundaries": "Boundaries",
   "form, structure, and sense": "Form, Structure, and Sense",
@@ -154,26 +169,6 @@ const normalizeConfidence = (value: string | null | undefined): QuestionCategory
   const key = normalizeKey(value);
   if (key === "high" || key === "medium" || key === "low") return key;
   return "high";
-};
-
-export const inferSubjectFromSource = (input: SourceCategoryInput): QuestionCategory["subject"] | null => {
-  const fromSection = normalizeKey(input.section);
-  if (fromSection === "math") return "Math";
-  if (fromSection === "reading and writing" || fromSection === "english" || fromSection === "reading & writing") {
-    return "English";
-  }
-
-  const fromSubject = normalizeKey(input.subject);
-  if (fromSubject === "math") return "Math";
-  if (fromSubject === "english" || fromSubject === "reading and writing" || fromSubject === "reading & writing") {
-    return "English";
-  }
-
-  const fromTestName = input.testName ?? "";
-  if (/\bmath\b/i.test(fromTestName)) return "Math";
-  if (/\b(english|reading|writing)\b/i.test(fromTestName)) return "English";
-
-  return null;
 };
 
 const toMathDomain = (value: string | null | undefined): MathDomain | null => {
@@ -194,6 +189,38 @@ const toMathSkill = (value: string | null | undefined): MathSkill | null => {
 const toEnglishSkill = (value: string | null | undefined): EnglishSkill | null => {
   const key = normalizeKey(value);
   return englishSkillAliasMap[key] ?? null;
+};
+
+const inferSubjectFromTaxonomy = (
+  domain: string | null | undefined,
+  skill: string | null | undefined,
+): QuestionCategory["subject"] | null => {
+  if (toMathDomain(domain) || toMathSkill(skill)) return "Math";
+  if (toEnglishDomain(domain) || toEnglishSkill(skill)) return "English";
+  return null;
+};
+
+export const inferSubjectFromSource = (input: SourceCategoryInput): QuestionCategory["subject"] | null => {
+  const fromTaxonomy = inferSubjectFromTaxonomy(input.domain, input.skill);
+  if (fromTaxonomy) return fromTaxonomy;
+
+  const fromSection = normalizeKey(input.section);
+  if (fromSection === "math") return "Math";
+  if (fromSection === "reading and writing" || fromSection === "english" || fromSection === "reading & writing") {
+    return "English";
+  }
+
+  const fromSubject = normalizeKey(input.subject);
+  if (fromSubject === "math") return "Math";
+  if (fromSubject === "english" || fromSubject === "reading and writing" || fromSubject === "reading & writing") {
+    return "English";
+  }
+
+  const fromTestName = input.testName ?? "";
+  if (/\bmath\b/i.test(fromTestName)) return "Math";
+  if (/\b(english|reading|writing)\b/i.test(fromTestName)) return "English";
+
+  return null;
 };
 
 const getMathDomainForSkill = (skill: MathSkill): MathDomain => {

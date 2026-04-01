@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_1",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn some of his sculptures, Allan Houser uses abstract geometric shapes to depict his subjects rather than portraying them in realistic detail. For instance, his 1989 work *Embrace* is highly abstract and therefore differs strikingly from some of his other pieces in which the viewer can easily ______ familiar objects.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn some of his sculptures, Allan Houser uses abstract geometric shapes to depict his subjects rather than portraying them in realistic detail. For instance, his 1989 work *Embrace* is highly abstract and therefore differs strikingly from some of his other pieces in which the viewer can easily ______ familiar objects.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_2",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDuring film's early years, those who worked in the industry had a vested interest in convincing the public to embrace the new medium. As Sumiko Higashi argues, some filmmakers relied on film critics to influence the public's ______ the world of cinema. Critics who drew similarities between film and traditional art forms, like drama, could help legitimize film as an art form.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDuring film's early years, those who worked in the industry had a vested interest in convincing the public to embrace the new medium. As Sumiko Higashi argues, some filmmakers relied on film critics to influence the public's ______ the world of cinema. Critics who drew similarities between film and traditional art forms, like drama, could help legitimize film as an art form.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_3",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe dinosaur displays at museums such as the Field Museum of Natural History in Chicago (which has a mounted *Apatosaurus* skeleton among its holdings) are notable for the ______ of the research behind them\u2014the museum staff consulted numerous sources to ensure the accuracy of the displays.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe dinosaur displays at museums such as the Field Museum of Natural History in Chicago (which has a mounted *Apatosaurus* skeleton among its holdings) are notable for the ______ of the research behind them—the museum staff consulted numerous sources to ensure the accuracy of the displays.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_4",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe presence of Belarus's Mir Castle Complex on the United Nations Educational, Scientific, and Cultural Organization's World Heritage List indicates that the organization has ______ the site's \"outstanding universal value,\" and that UNESCO is therefore championing its preservation and protection.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe presence of Belarus's Mir Castle Complex on the United Nations Educational, Scientific, and Cultural Organization's World Heritage List indicates that the organization has ______ the site's \"outstanding universal value,\" and that UNESCO is therefore championing its preservation and protection.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_5",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nToday's theater stages are frequently filled with props and scenery to immerse the audience in a play's world. Because theatergoers have grown used to carefully designed sets, plays with few visual elements can surprise audiences. But simple, unadorned stages were likely ______ audiences in the very distant past: highly decorated and detailed sets were not common until the 1600s.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nToday's theater stages are frequently filled with props and scenery to immerse the audience in a play's world. Because theatergoers have grown used to carefully designed sets, plays with few visual elements can surprise audiences. But simple, unadorned stages were likely ______ audiences in the very distant past: highly decorated and detailed sets were not common until the 1600s.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_6",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Yung Wing's 1909 memoir *My Life in China and America*. Yung Wing was the first person from China to graduate from a US university. <u>Little did I realize when in 1845 I wrote, while in the Morrison School, a composition on \"An Imaginary Voyage to New York and up the Hudson,\" that I was to see New York in reality.</u> This incident leads me to the reflection that sometimes our imagination foreshadows what lies uppermost in our minds and brings possibilities within the sphere of realities.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Yung Wing's 1909 memoir *My Life in China and America*. Yung Wing was the first person from China to graduate from a US university. <u>Little did I realize when in 1845 I wrote, while in the Morrison School, a composition on \"An Imaginary Voyage to New York and up the Hudson,\" that I was to see New York in reality.</u> This incident leads me to the reflection that sometimes our imagination foreshadows what lies uppermost in our minds and brings possibilities within the sphere of realities.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_7",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Based on the texts, Anbar et al. (Text 1) and Slotznick et al. (Text 2) would most likely disagree about the answer to which question about the portion of the Mount McRae Shale rock-core corresponding to 2.5 Ga?\nText 1\nChemically analyzing bulk rock-core samples from Australia's Mount McRae Shale, Ariel Anbar et al. found a transient but significant increase in molybdenum (Mo) at a point corresponding to roughly 2.5 billion years ago (Ga). On Earth, Mo is released mainly through oxidative weathering of minerals; Anbar et al. therefore concluded that atmospheric oxygen briefly increased 2.5 Ga, then returned to its earlier negligible level.\nText 2\nSarah Slotznick et al. reexamined the Mount McRae Shale core. Since chemically analyzing bulk samples can occlude contextual details, Slotznick et al. also employed high-resolution microscopy, which revealed volcanic debris--a known Mo host--around 2.5 Ga and microfractures in the surrounding matrix. The researchers assert that fluid could have reached the debris through the microfractures and initiated oxidative weathering long after debris deposition.\n\nBased on the texts, Anbar et al. (Text 1) and Slotznick et al. (Text 2) would most likely disagree about the answer to which question about the portion of the Mount McRae Shale rock-core corresponding to 2.5 Ga?",
+    "text": "Based on the texts, Anbar et al. (Text 1) and Slotznick et al. (Text 2) would most likely disagree about the answer to which question about the portion of the Mount McRae Shale rock-core corresponding to 2.5 Ga?\nText 1\nChemically analyzing bulk rock-core samples from Australia's Mount McRae Shale, Ariel Anbar et al. found a transient but significant increase in molybdenum (Mo) at a point corresponding to roughly 2.5 billion years ago (Ga). On Earth, Mo is released mainly through oxidative weathering of minerals; Anbar et al. therefore concluded that atmospheric oxygen briefly increased 2.5 Ga, then returned to its earlier negligible level.\nText 2\nSarah Slotznick et al. reexamined the Mount McRae Shale core. Since chemically analyzing bulk samples can occlude contextual details, Slotznick et al. also employed high-resolution microscopy, which revealed volcanic debris--a known Mo host--around 2.5 Ga and microfractures in the surrounding matrix. The researchers assert that fluid could have reached the debris through the microfractures and initiated oxidative weathering long after debris deposition.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_8",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice best states the overall structure of the text?\nElio Sucena and colleagues have explored how convergent evolution\u2014a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages\u2014can result from a genetic mechanism shared by both lineages. Meanwhile, Patricia J. Wittkopp and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.\n\nWhich choice best states the overall structure of the text?",
+    "text": "Which choice best states the overall structure of the text?\nElio Sucena and colleagues have explored how convergent evolution—a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages—can result from a genetic mechanism shared by both lineages. Meanwhile, Patricia J. Wittkopp and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_9",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which contrast does the text draw between the Museo de Las Americas and LA Plaza de Cultura y Artes?\nFounded in 1991, the Museo de Las Americas showcases art from Latin America, including the art of Indigenous peoples. It is located in Denver and has more than 4,800 objects in its collection. Since 2000, a number of other institutions devoted to Latino cultures have opened in the United States. A notable example is LA Plaza de Cultura y Artes in Los Angeles. It opened in 2011 and focuses on Mexican American art and culture.\n\nWhich contrast does the text draw between the Museo de Las Americas and LA Plaza de Cultura y Artes?",
+    "text": "Which contrast does the text draw between the Museo de Las Americas and LA Plaza de Cultura y Artes?\nFounded in 1991, the Museo de Las Americas showcases art from Latin America, including the art of Indigenous peoples. It is located in Denver and has more than 4,800 objects in its collection. Since 2000, a number of other institutions devoted to Latino cultures have opened in the United States. A notable example is LA Plaza de Cultura y Artes in Los Angeles. It opened in 2011 and focuses on Mexican American art and culture.",
     "choices": [
       {
         "id": "A",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -327,13 +327,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_10",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Based on the text, how would an advocate of the energy ladder model most likely explain the change observed in Brazil?\nIn Brazil, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by around 70 percent between 2000 and 2019; such shifts are typically explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise). Alemu Mekonnen and Gunnar K\u00f6hlin's study of fuel use in Ethiopia shows this model to be reductive, however: household fuel use was heterogeneous, flexible, and influenced by several factors, including households' cooking habits.\n\nBased on the text, how would an advocate of the energy ladder model most likely explain the change observed in Brazil?",
+    "text": "Based on the text, how would an advocate of the energy ladder model most likely explain the change observed in Brazil?\nIn Brazil, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by around 70 percent between 2000 and 2019; such shifts are typically explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise). Alemu Mekonnen and Gunnar Köhlin's study of fuel use in Ethiopia shows this model to be reductive, however: household fuel use was heterogeneous, flexible, and influenced by several factors, including households' cooking habits.",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_11",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which quotation from \"The Monster\" most effectively illustrates the claim?\n\"The Monster\" is an 1898 story by Stephen Crane. In the story, whenever Jimmie, a young boy, has been scolded by his father for misbehavior, he seeks comfort from Henry Johnson, the man responsible for the care of Jimmie's father's horses. However, Henry does not always provide such comfort; Crane suggests this by writing, ______\n\nWhich quotation from \"The Monster\" most effectively illustrates the claim?",
+    "text": "Which quotation from \"The Monster\" most effectively illustrates the claim?\n\"The Monster\" is an 1898 story by Stephen Crane. In the story, whenever Jimmie, a young boy, has been scolded by his father for misbehavior, he seeks comfort from Henry Johnson, the man responsible for the care of Jimmie's father's horses. However, Henry does not always provide such comfort; Crane suggests this by writing, ______",
     "choices": [
       {
         "id": "A",
@@ -391,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_12",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses a quotation from \"Aunt Sue's Stories\" to illustrate the claim?\n\"Aunt Sue's Stories\" is a 1926 poem by Langston Hughes. In the poem, the speaker indicates that the stories Aunt Sue tells are based on Aunt Sue's personal experiences, saying that ______\n\nWhich choice most effectively uses a quotation from \"Aunt Sue's Stories\" to illustrate the claim?",
+    "text": "Which choice most effectively uses a quotation from \"Aunt Sue's Stories\" to illustrate the claim?\n\"Aunt Sue's Stories\" is a 1926 poem by Langston Hughes. In the poem, the speaker indicates that the stories Aunt Sue tells are based on Aunt Sue's personal experiences, saying that ______",
     "choices": [
       {
         "id": "A",
@@ -427,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -435,13 +435,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_13",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the statement?\nResearchers investigated how enjoyment of a story is affected when it has been spoiled (when the reader has foreknowledge of an important plot development). As part of the study, participants rated their enjoyment of one story that was spoiled before they read it and one story that was unspoiled. For each story, participants who had been given a spoiler reported greater enjoyment than did those who hadn't received a spoiler. But the degree of this difference varied across the stories, as is best illustrated by the enjoyment ratings for ______\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+    "text": "Which choice most effectively uses data from the graph to complete the statement?\nResearchers investigated how enjoyment of a story is affected when it has been spoiled (when the reader has foreknowledge of an important plot development). As part of the study, participants rated their enjoyment of one story that was spoiled before they read it and one story that was unspoiled. For each story, participants who had been given a spoiler reported greater enjoyment than did those who hadn't received a spoiler. But the degree of this difference varied across the stories, as is best illustrated by the enjoyment ratings for ______",
     "choices": [
       {
         "id": "A",
@@ -463,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlC_Eng_M1_Q13_1.svg"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_14",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the researchers' claim regarding the size of PCFG whales?\nAlthough Eastern North Pacific (ENP) gray whales generally migrate between their wintering waters along the coast of Mexico and their foraging waters in the Arctic, a subset of this population\u2014known as the Pacific Coast Feeding Group (PCFG)\u2014forages along the coastlines of Northern California (USA) and British Columbia (Canada) instead. Interestingly, individuals in this subset reach smaller maximum sizes than other ENP whales do, despite having similar pre-maximum growth rates. Researchers hypothesize that this difference may be an adaptation to distinct resource opportunities in the PCFG foraging range.\n\nWhich finding, if true, would most directly support the researchers' claim regarding the size of PCFG whales?",
+    "text": "Which finding, if true, would most directly support the researchers' claim regarding the size of PCFG whales?\nAlthough Eastern North Pacific (ENP) gray whales generally migrate between their wintering waters along the coast of Mexico and their foraging waters in the Arctic, a subset of this population—known as the Pacific Coast Feeding Group (PCFG)—forages along the coastlines of Northern California (USA) and British Columbia (Canada) instead. Interestingly, individuals in this subset reach smaller maximum sizes than other ENP whales do, despite having similar pre-maximum growth rates. Researchers hypothesize that this difference may be an adaptation to distinct resource opportunities in the PCFG foraging range.",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -509,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_15",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nOcean Vuong's 2019 novel *On Earth We're Briefly Gorgeous* is regularly described as autobiographical. That characterization is apt\u2014there are many parallels between the experiences of the novel's character of Little Dog and those of Vuong\u2014but it should not be taken to mean that all the people and events depicted in *On Earth We're Briefly Gorgeous* are based on actual people and events. The novel is largely pure invention, and readers who neglect this fact and instead try to identify more and more real-life analogues thus risk ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nOcean Vuong's 2019 novel *On Earth We're Briefly Gorgeous* is regularly described as autobiographical. That characterization is apt—there are many parallels between the experiences of the novel's character of Little Dog and those of Vuong—but it should not be taken to mean that all the people and events depicted in *On Earth We're Briefly Gorgeous* are based on actual people and events. The novel is largely pure invention, and readers who neglect this fact and instead try to identify more and more real-life analogues thus risk ______",
     "choices": [
       {
         "id": "A",
@@ -536,9 +535,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_16",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe first modern public zoo opened at the height of the French Revolution in 1793. Located in downtown Paris, the zoo was called the Menagerie du Jardin des Plantes. It was filled with living animals that had been confiscated ______ the private collections of French aristocrats.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe first modern public zoo opened at the height of the French Revolution in 1793. Located in downtown Paris, the zoo was called the Menagerie du Jardin des Plantes. It was filled with living animals that had been confiscated ______ the private collections of French aristocrats.",
     "choices": [
       {
         "id": "A",
@@ -572,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -582,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_17",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMuseo de Recursos Hist\u00f3ricos de Lares, a history museum in Lares, Puerto Rico, is one of more than eighty museums in the US territory. Puerto Rico's museums ______ visitors about everything from the territory's history to its architecture to its coffee.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMuseo de Recursos Históricos de Lares, a history museum in Lares, Puerto Rico, is one of more than eighty museums in the US territory. Puerto Rico's museums ______ visitors about everything from the territory's history to its architecture to its coffee.",
     "choices": [
       {
         "id": "A",
@@ -608,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_18",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn May of 1959, the song \"Danny Boy\" was a top-ten hit. Having climbed the charts for ten weeks, ______ ranked No. 1 on the Billboard Hot 100 list of most popular songs.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn May of 1959, the song \"Danny Boy\" was a top-ten hit. Having climbed the charts for ten weeks, ______ ranked No. 1 on the Billboard Hot 100 list of most popular songs.",
     "choices": [
       {
         "id": "A",
@@ -644,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_19",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA worker cooperative is a business that is owned and operated by its workers. This model stands in contrast to traditional models in which a smaller group of owners controls a company. Because the profits made by a cooperative are shared by all workers\u2014who are also owners\u2014the workers ______ directly from its success.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA worker cooperative is a business that is owned and operated by its workers. This model stands in contrast to traditional models in which a smaller group of owners controls a company. Because the profits made by a cooperative are shared by all workers—who are also owners—the workers ______ directly from its success.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -689,12 +688,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_20",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith an average summer temperature of 61 degrees Fahrenheit, Moscow is one European ______ many travelers recommend, especially from June to September.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith an average summer temperature of 61 degrees Fahrenheit, Moscow is one European ______ many travelers recommend, especially from June to September.",
     "choices": [
       {
         "id": "A",
@@ -716,9 +715,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_21",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nGenerally, sleek vehicles are more aerodynamic than bulkier ones. For example, the streamlined nose of the T-38 Talon jet helps it glide through wind with relative ease. ______ a boxy semitruck encounters more wind resistance, making it less aerodynamic.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nGenerally, sleek vehicles are more aerodynamic than bulkier ones. For example, the streamlined nose of the T-38 Talon jet helps it glide through wind with relative ease. ______ a boxy semitruck encounters more wind resistance, making it less aerodynamic.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_22",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nContemplating the beauty of a natural landscape, the serene speaker of William Wordsworth's poem \"Lines Composed a Few Miles above Tintern Abbey\" (1798) seems wholly insulated from society. As scholars have argued, however, Wordsworth's retreat to nature was an aesthetic response to\u2014and implicit critique of\u2014England's rapid industrialization and urbanization at that time. ______ despite its idyllic quality, the poem bears the imprint of the dramatic changes affecting English life.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nContemplating the beauty of a natural landscape, the serene speaker of William Wordsworth's poem \"Lines Composed a Few Miles above Tintern Abbey\" (1798) seems wholly insulated from society. As scholars have argued, however, Wordsworth's retreat to nature was an aesthetic response to—and implicit critique of—England's rapid industrialization and urbanization at that time. ______ despite its idyllic quality, the poem bears the imprint of the dramatic changes affecting English life.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_23",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "The student wants to provide an example of a country that uses the word \"dinar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Arabic word \"dinar\" comes from the Latin word \"denarius.\"\n\u2022 Today, nearly a dozen different national currencies are referred to as \"dinars.\"\n\u2022 Bahrain's currency is known as the Bahraini dinar.\n\nThe student wants to provide an example of a country that uses the word \"dinar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of a country that uses the word \"dinar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Arabic word \"dinar\" comes from the Latin word \"denarius.\"\n• Today, nearly a dozen different national currencies are referred to as \"dinars.\"\n• Bahrain's currency is known as the Bahraini dinar.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_24",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "The student wants to use a quotation to refute the claim that slow TV programs are boring. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Documentary TV programs in the slow TV genre consist of uninterrupted broadcasts of ordinary events in real time.\n\u2022 *MORA: Zeichner* is a German slow TV program.\n\u2022 The 45-minute-long program documented an artist making a pencil drawing during a train journey.\n\u2022 It first aired in 2016.\n\u2022 Slow TV has been called \"the world's most boring television.\"\n\u2022 American journalist Nathan Heller praises it, writing that \"it affords a visceral kind of armchair tourism.\"\n\nThe student wants to use a quotation to refute the claim that slow TV programs are boring. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to use a quotation to refute the claim that slow TV programs are boring. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Documentary TV programs in the slow TV genre consist of uninterrupted broadcasts of ordinary events in real time.\n• *MORA: Zeichner* is a German slow TV program.\n• The 45-minute-long program documented an artist making a pencil drawing during a train journey.\n• It first aired in 2016.\n• Slow TV has been called \"the world's most boring television.\"\n• American journalist Nathan Heller praises it, writing that \"it affords a visceral kind of armchair tourism.\"",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_25",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "The student wants to emphasize the order in which the supercontinents were formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A supercontinent is a single landmass made up of most or all of Earth's continents.\n\u2022 Over time, continents merge together to form supercontinents, which then break apart.\n\u2022 This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n\u2022 Ur was a supercontinent that formed about 3.1 billion years ago.\n\u2022 Pangaea was a supercontinent that formed about 300 million years ago.\n\nThe student wants to emphasize the order in which the supercontinents were formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the order in which the supercontinents were formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A supercontinent is a single landmass made up of most or all of Earth's continents.\n• Over time, continents merge together to form supercontinents, which then break apart.\n• This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n• Ur was a supercontinent that formed about 3.1 billion years ago.\n• Pangaea was a supercontinent that formed about 300 million years ago.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_26",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "The student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Dinosaur fossil specimens can be found at science museums all over the world.\n\u2022 Many dinosaur fossil specimens are given nicknames.\n\u2022 The Denver Museum of Nature and Science in Denver, Colorado, houses a dinosaur fossil specimen nicknamed Pops.\n\u2022 Pops lived in the Late Cretaceous period, which ended more than 65 million years ago.\n\u2022 It is a member of the genus *Triceratops*.\n\nThe student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Dinosaur fossil specimens can be found at science museums all over the world.\n• Many dinosaur fossil specimens are given nicknames.\n• The Denver Museum of Nature and Science in Denver, Colorado, houses a dinosaur fossil specimen nicknamed Pops.\n• Pops lived in the Late Cretaceous period, which ended more than 65 million years ago.\n• It is a member of the genus *Triceratops*.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_27",
     "testName": "March 2025 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to present the study's findings to an audience already familiar with the concept of seedling emergence?\nWhile researching a topic, a student has taken the following notes:\n\u2022 In a 2003 study, Alexander and Schrag tested the effect of plant litter on seedling emergence in a grassland setting.\n\u2022 The test site was a mesic grassland in a dry midlatitude climate in the United States.\n\u2022 The researchers found that in these environmental conditions the presence of plant litter had a positive effect on seedling emergence.\n\u2022 Seedling emergence is when a seedling sprouts above ground and begins photosynthesis.\n\nWhich choice most effectively uses information from the given sentences to present the study's findings to an audience already familiar with the concept of seedling emergence?",
+    "text": "Which choice most effectively uses information from the given sentences to present the study's findings to an audience already familiar with the concept of seedling emergence?\nWhile researching a topic, a student has taken the following notes:\n• In a 2003 study, Alexander and Schrag tested the effect of plant litter on seedling emergence in a grassland setting.\n• The test site was a mesic grassland in a dry midlatitude climate in the United States.\n• The researchers found that in these environmental conditions the presence of plant litter had a positive effect on seedling emergence.\n• Seedling emergence is when a seedling sprouts above ground and begins photosynthesis.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

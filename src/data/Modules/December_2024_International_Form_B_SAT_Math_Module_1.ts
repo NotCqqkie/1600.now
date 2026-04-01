@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_1",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M1_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_2",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -70,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_3",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -98,7 +97,7 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "$\u222b(x)=5x+27$"
+        "text": "$∫(x)=5x+27$"
       }
     ],
     "correctAnswer": "D",
@@ -106,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_4",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -141,17 +140,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M1_Q4_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_5",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -178,17 +176,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M1_Q5_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_6",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -216,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_7",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -252,16 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M1_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_8",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -289,15 +285,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_9",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -325,16 +321,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M1_Q9_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_10",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -361,17 +356,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M1_Q10_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_11",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -382,15 +376,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_12",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -402,7 +396,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "$y\u22616x+4$"
+        "text": "$y≡6x+4$"
       },
       {
         "id": "C",
@@ -418,15 +412,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_13",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -437,15 +431,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_15",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -456,19 +450,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_16",
     "testName": "December 2024 International Form B SAT Math Module 1",
-    "text": "y = 500(3) 2x\nThe equation gives the estimated number of online newsletter subscribers at the end of every six month period, x, starting from the end of January 199l, where 0 \u2264 x \u2264 4. Which statement is the best interpretation of the y-intercept of the graph of this equation in the xy-plane?",
+    "text": "y = 500(3) 2x\nThe equation gives the estimated number of online newsletter subscribers at the end of every six month period, x, starting from the end of January 199l, where 0 ≤ x ≤ 4. Which statement is the best interpretation of the y-intercept of the graph of this equation in the xy-plane?",
     "choices": [
       {
         "id": "A",
@@ -492,15 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_17",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -511,15 +505,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_18",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -547,15 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_19",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -565,16 +559,16 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_20",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -602,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_21",
     "testName": "December 2024 International Form B SAT Math Module 1",
@@ -621,7 +615,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -629,7 +623,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_22",
     "testName": "December 2024 International Form B SAT Math Module 1",

@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_1",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -33,34 +33,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_2",
     "testName": "October 2024 US Form A SAT Math Module 2",
-    "text": "A certain blue whale calf weighed 5,600 pounds when it was born, and its weight increased at an average rate of 250 pounds per day for the first n days after birth, where n is an integer. If the calf\u2019s weight was greater than 8,850 pounds but less than 9,850 pounds n days after birth, what is one possible value of n?",
+    "text": "A certain blue whale calf weighed 5,600 pounds when it was born, and its weight increased at an average rate of 250 pounds per day for the first n days after birth, where n is an integer. If the calf’s weight was greater than 8,850 pounds but less than 9,850 pounds n days after birth, what is one possible value of n?",
     "choices": [],
     "correctAnswer": "14,15,16",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_3",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -88,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_4",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -124,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_5",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -160,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_6",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -196,34 +196,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_7",
     "testName": "October 2024 US Form A SAT Math Module 2",
-    "text": "An exponential function f is defned by f(x)= c x, where c is a constant greater than 1. If f(7)= 9 \u00b7 f(5), what is the value of c?",
+    "text": "An exponential function f is defned by f(x)= c x, where c is a constant greater than 1. If f(7)= 9 · f(5), what is the value of c?",
     "choices": [],
     "correctAnswer": "3",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_8",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -251,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_9",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -269,24 +269,24 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "skill": "Evaluating statistical claims: Observational studies and experiments",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_10",
     "testName": "October 2024 US Form A SAT Math Module 2",
-    "text": "H = 2.403L + 23.31\nA group of biology students conducted an experiment to study the relationship between a person\u2019s femur length and the person's height. The given equation describes the relationship between the length L, in inches, of a student's femur and the student's estimated height H, in inches, for the students in the group. Which of the following is the best interpretation of 2.403 in this context?",
+    "text": "H = 2.403L + 23.31\nA group of biology students conducted an experiment to study the relationship between a person’s femur length and the person's height. The given equation describes the relationship between the length L, in inches, of a student's femur and the student's estimated height H, in inches, for the students in the group. Which of the following is the best interpretation of 2.403 in this context?",
     "choices": [
       {
         "id": "A",
-        "text": "The increase in a student \u2019 s estimated height, in inches, for each increase of 1 inch in the student \u2019 s femur length"
+        "text": "The increase in a student ’ s estimated height, in inches, for each increase of 1 inch in the student ’ s femur length"
       },
       {
         "id": "B",
@@ -306,15 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "skill": "Evaluating statistical claims: Observational studies and experiments",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_11",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -342,15 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_12",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -378,16 +378,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M2_Q12_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_13",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -415,16 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M2_Q13_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_14",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -442,12 +440,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_15",
     "testName": "October 2024 US Form A SAT Math Module 2",
-    "text": "The function $T(x)=\\frac{22,000-6.5x}{1,000}$ gives the estimated air temperature T(x), in degrees Celsius (\u00b0C), surrounding a hot air balloon at an altitude of c meters. If the estimated air temperature surrounding the hot air balloon is 16\u00b0C, which of the following is closest to the altitude, in meters, of the hot air balloon?",
+    "text": "The function $T(x)=\\frac{22,000-6.5x}{1,000}$ gives the estimated air temperature T(x), in degrees Celsius (°C), surrounding a hot air balloon at an altitude of c meters. If the estimated air temperature surrounding the hot air balloon is 16°C, which of the following is closest to the altitude, in meters, of the hot air balloon?",
     "choices": [
       {
         "id": "A",
@@ -471,15 +469,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_16",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -490,15 +488,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_17",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -526,36 +524,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M2_Q17_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_18",
     "testName": "October 2024 US Form A SAT Math Module 2",
-    "text": "The functions f and g are defined by the given equations below, where x \u2265 0. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where x \u2265 0?\n\u2160. $f(x)=16(1.3)^{x+5}$\n\u2160\u2160. $g(x)=16(1.09)(1.3)^{x+3}$",
+    "text": "The functions f and g are defined by the given equations below, where x ≥ 0. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where x ≥ 0?\nⅠ. $f(x)=16(1.3)^{x+5}$\nⅠⅠ. $g(x)=16(1.09)(1.3)^{x+3}$",
     "choices": [
       {
         "id": "A",
-        "text": "\u2160 only"
+        "text": "Ⅰ only"
       },
       {
         "id": "B",
-        "text": "\u2160\u2160 only"
+        "text": "ⅠⅠ only"
       },
       {
         "id": "C",
-        "text": "\u2160 and \u2160\u2160"
+        "text": "Ⅰ and ⅠⅠ"
       },
       {
         "id": "D",
-        "text": "Neither I nor \u2160\u2160"
+        "text": "Neither I nor ⅠⅠ"
       }
     ],
     "correctAnswer": "D",
@@ -563,15 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_19",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -599,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_20",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -635,15 +632,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_21",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -671,16 +668,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M2_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_22",
     "testName": "October 2024 US Form A SAT Math Module 2",
@@ -693,7 +689,6 @@ export const questions: Question[] = [
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M2_Q22_1.png"
+    }
   }
 ];

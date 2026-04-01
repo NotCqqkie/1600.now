@@ -3,9 +3,9 @@ import { Question } from "../all_questions";
 export const questions: Question[] = [
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_1",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -32,17 +32,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M2_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_2",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -70,16 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M2_Q2_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_3",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -107,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_4",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -126,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_5",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -162,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_6",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -182,7 +180,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "1.30 p \u2212 2 = 7.20"
+        "text": "1.30 p − 2 = 7.20"
       },
       {
         "id": "C",
@@ -198,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_7",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -217,16 +215,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_8",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -254,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_9",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -290,15 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_10",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -306,7 +303,7 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "(\u2212 $\\frac{1}{729}$, 0)"
+        "text": "(− $\\frac{1}{729}$, 0)"
       },
       {
         "id": "B",
@@ -326,16 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M2_Q10_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_11",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -346,15 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_12",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -382,15 +378,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_13",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -417,16 +413,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_14",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -434,11 +430,11 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "(0, \u2212 $\\frac{1}{4}$)"
+        "text": "(0, − $\\frac{1}{4}$)"
       },
       {
         "id": "B",
-        "text": "(0, \u2212 3) 3)"
+        "text": "(0, − 3) 3)"
       },
       {
         "id": "C",
@@ -454,15 +450,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_15",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -473,46 +469,46 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_16",
     "testName": "May 2024 US Form A SAT Math Module 2",
-    "text": "y = 3 x\ny = x 2 \u2212 28\nA solution to the given system of equations is (x, y), where x > 0. What is the value of x?",
+    "text": "y = 3 x\ny = x 2 − 28\nA solution to the given system of equations is (x, y), where x > 0. What is the value of x?",
     "choices": [],
     "correctAnswer": "7",
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_17",
     "testName": "May 2024 US Form A SAT Math Module 2",
-    "text": "x 2 + 8 x \u2212 60 = 0\nWhat is the product of the solutions to the given equation?",
+    "text": "x 2 + 8 x − 60 = 0\nWhat is the product of the solutions to the given equation?",
     "choices": [
       {
         "id": "A",
-        "text": "\u221260"
+        "text": "−60"
       },
       {
         "id": "B",
-        "text": "\u221215"
+        "text": "−15"
       },
       {
         "id": "C",
@@ -528,15 +524,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_18",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -564,15 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_19",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -600,7 +596,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -608,7 +604,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_20",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -643,8 +639,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_21",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -672,16 +668,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M2_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_22",
     "testName": "May 2024 US Form A SAT Math Module 2",
@@ -709,7 +704,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   }

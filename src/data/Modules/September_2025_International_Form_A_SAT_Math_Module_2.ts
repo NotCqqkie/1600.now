@@ -4,28 +4,28 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_1",
     "testName": "September 2025 International Form A SAT Math Module 2",
-    "text": "In triangle EFG, the sum of the measures of angles E and F is 31\u00b0. What is the measure of angle G?",
+    "text": "In triangle EFG, the sum of the measures of angles E and F is 31°. What is the measure of angle G?",
     "choices": [
       {
         "id": "A",
-        "text": "31\u00b0"
+        "text": "31°"
       },
       {
         "id": "B",
-        "text": "59\u00b0"
+        "text": "59°"
       },
       {
         "id": "C",
-        "text": "118\u00b0"
+        "text": "118°"
       },
       {
         "id": "D",
-        "text": "149\u00b0"
+        "text": "149°"
       }
     ],
     "correctAnswer": "D",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_2",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_3",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_4",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_5",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -177,16 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Sep_25_IntlA_Math_M2_Q5_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_6",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -214,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_7",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -250,15 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_8",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -286,16 +285,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Sep_25_IntlA_Math_M2_Q8_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_9",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -323,34 +321,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_10",
     "testName": "September 2025 International Form A SAT Math Module 2",
-    "text": "An exponential function f is defined by $f(x)=c^{x}$, where c is a constant greater than 1. If f(8)=(49) \u2022 f(6), what is the value of c?",
+    "text": "An exponential function f is defined by $f(x)=c^{x}$, where c is a constant greater than 1. If f(8)=(49) • f(6), what is the value of c?",
     "choices": [],
     "correctAnswer": "7",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_11",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -361,15 +359,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_12",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -397,7 +395,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
@@ -405,7 +403,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_13",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -440,8 +438,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_14",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -469,15 +467,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_15",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -505,15 +503,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_16",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -541,15 +539,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_17",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -559,16 +557,16 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_18",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -596,7 +594,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
@@ -604,7 +602,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_19",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -617,14 +615,13 @@ export const questions: Question[] = [
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Sep_25_IntlA_Math_M2_Q19_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_20",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -659,8 +656,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_21",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -688,7 +685,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -696,7 +693,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_22",
     "testName": "September 2025 International Form A SAT Math Module 2",
@@ -709,7 +706,6 @@ export const questions: Question[] = [
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Sep_25_IntlA_Math_M2_Q22_1.png"
+    }
   }
 ];

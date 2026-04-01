@@ -4,12 +4,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_1",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "In triangle ABC, the measure of angle A is 54\u00b0 and the measure of angle B is 90\u00b0. What is the measure, in degrees, of angle C?",
+    "text": "In triangle ABC, the measure of angle A is 54° and the measure of angle B is 90°. What is the measure, in degrees, of angle C?",
     "choices": [
       {
         "id": "A",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_2",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_3",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -105,16 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M1_Q3_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_4",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -142,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_5",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -178,16 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M1_Q5_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_6",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -222,12 +220,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_7",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "x = 15\n\u22122 x + y = \u22125\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "text": "x = 15\n−2 x + y = −5\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
     "choices": [
       {
         "id": "A",
@@ -251,15 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_8",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -270,16 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M1_Q8_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_9",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -287,11 +284,11 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "y = \u22121.8 x \u2212 0.2"
+        "text": "y = −1.8 x − 0.2"
       },
       {
         "id": "B",
-        "text": "y = \u22120.2 x \u2212 1.8"
+        "text": "y = −0.2 x − 1.8"
       },
       {
         "id": "C",
@@ -307,16 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M1_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_10",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -344,53 +340,53 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_11",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "x 2 (2 x \u2212 11)(2 x \u2212 u)= 0\nIn the given equation, u is a positive constant. The sum of the solutions to the equation is 16. What is the value of u?",
+    "text": "x 2 (2 x − 11)(2 x − u)= 0\nIn the given equation, u is a positive constant. The sum of the solutions to the equation is 16. What is the value of u?",
     "choices": [],
     "correctAnswer": "21",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_12",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "If 2 x + 5 = 9, what is the value of 8 x \u2212 4?",
+    "text": "If 2 x + 5 = 9, what is the value of 8 x − 4?",
     "choices": [],
     "correctAnswer": "12",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_13",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -401,15 +397,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_14",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -437,38 +433,38 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
-      "confidence": "high"
-    }
-  },
-  {
-    "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_15",
-    "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "y = 8x\ny = x 2 \u2212 20\nA solution to the given system of equations is (x, y), where x > 0. What is the value of x?",
-    "choices": [],
-    "correctAnswer": "10",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_15",
+    "testName": "May 2024 International Form D SAT Math Module 1",
+    "text": "y = 8x\ny = x 2 − 20\nA solution to the given system of equations is (x, y), where x > 0. What is the value of x?",
+    "choices": [],
+    "correctAnswer": "10",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_16",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "Line t in the xy -plane has a slope of $\\frac{1}{8}$ and passes through the point (40, \u22126). Which equation defines line t?",
+    "text": "Line t in the xy -plane has a slope of $\\frac{1}{8}$ and passes through the point (40, −6). Which equation defines line t?",
     "choices": [
       {
         "id": "A",
@@ -492,15 +488,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_17",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -511,15 +507,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_18",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -547,15 +543,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_19",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -583,35 +579,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_20",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 78 centimeters. If the height of the cone is 39 centimeters and the volume of the cone is k\u03c0 cubic centimeters, what is the value of k?",
+    "text": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 78 centimeters. If the height of the cone is 39 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
     "choices": [],
     "correctAnswer": "59319",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M1_Q20_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_21",
     "testName": "May 2024 International Form D SAT Math Module 1",
@@ -646,12 +641,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_22",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "\u22122|x \u2212 7|= \u22128x\nWhat are all possible solutions to the given equation?",
+    "text": "−2|x − 7|= −8x\nWhat are all possible solutions to the given equation?",
     "choices": [
       {
         "id": "A",
@@ -675,7 +670,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   }

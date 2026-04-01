@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_1",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "As used in the text, what does the word \"find\" most nearly mean?\nThe following text is adapted from Yone Noguchi's 1914 memoir *The Story of Yone Noguchi*. Noguchi is returning home after eleven years abroad. I reached Tsushima, my native town, at evening.\nI frightened my old father at the station, who was actually trying to <u>find</u> me among some other people. There is no wonder that he could not recognise me; I must have changed a great deal.\n\nAs used in the text, what does the word \"find\" most nearly mean?",
+    "text": "As used in the text, what does the word \"find\" most nearly mean?\nThe following text is adapted from Yone Noguchi's 1914 memoir *The Story of Yone Noguchi*. Noguchi is returning home after eleven years abroad. I reached Tsushima, my native town, at evening.\nI frightened my old father at the station, who was actually trying to <u>find</u> me among some other people. There is no wonder that he could not recognise me; I must have changed a great deal.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_2",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe ______ Keshni Kashyap's book *Tina's Mouth* has been very positive. Many reviewers have praised the book, and it won the Asian/Pacific American Award for Literature.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe ______ Keshni Kashyap's book *Tina's Mouth* has been very positive. Many reviewers have praised the book, and it won the Asian/Pacific American Award for Literature.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_3",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome social scientists argue that while a belief in the importance of reason and progress is key to democracy, the public's understanding of history is also central to its subsequent comprehension of a state's politics, and if an electorate is to function, historical issues cannot remain the dominion only of academics. History is too ______ to leave to historians alone.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome social scientists argue that while a belief in the importance of reason and progress is key to democracy, the public's understanding of history is also central to its subsequent comprehension of a state's politics, and if an electorate is to function, historical issues cannot remain the dominion only of academics. History is too ______ to leave to historians alone.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_4",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA speaker at a recent children's book publishing conference noted that, while many illustrators do excellent work, in her mind, no one has ever ______ Jerry Pinkney's work as the illustrator of *The Talking Eggs: A Folktale from the American South*: there is no better example of the form, according to the speaker.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA speaker at a recent children's book publishing conference noted that, while many illustrators do excellent work, in her mind, no one has ever ______ Jerry Pinkney's work as the illustrator of *The Talking Eggs: A Folktale from the American South*: there is no better example of the form, according to the speaker.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_5",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Village Politicians, painted in the realist style by Wilhelm Leibl, depicts a group of peasants clustered together in conversation and emphasizes accuracy in its portrayal of the experiences of ordinary working people. This style largely ______ the conventions of the romantic style evident in many paintings by Thomas Couture, which instead accentuated their subjects' positive traits by, for example, placing them in staged settings with expensive looking decorations and presenting them with smooth, unblemished skin.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Village Politicians, painted in the realist style by Wilhelm Leibl, depicts a group of peasants clustered together in conversation and emphasizes accuracy in its portrayal of the experiences of ordinary working people. This style largely ______ the conventions of the romantic style evident in many paintings by Thomas Couture, which instead accentuated their subjects' positive traits by, for example, placing them in staged settings with expensive looking decorations and presenting them with smooth, unblemished skin.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -183,13 +183,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_6",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined phrase in the text as a whole?\nIn the early days of television in the 1940s, many people thought that US television programs would rely on the financial support of ad agencies and commercial sponsors, much like radio did. But advertisers hesitated to jump into a new space, <u>particularly at a time when the manufacturing of new television sets was stalled due to the US's involvement in World War II.</u> Broadcasters, like the National Broadcasting Company (NBC), needed to persuade advertisers to support their programming despite not knowing whether there would be a robust television audience to begin with.\n\nWhich choice best describes the function of the underlined phrase in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined phrase in the text as a whole?\nIn the early days of television in the 1940s, many people thought that US television programs would rely on the financial support of ad agencies and commercial sponsors, much like radio did. But advertisers hesitated to jump into a new space, <u>particularly at a time when the manufacturing of new television sets was stalled due to the US's involvement in World War II.</u> Broadcasters, like the National Broadcasting Company (NBC), needed to persuade advertisers to support their programming despite not knowing whether there would be a robust television audience to begin with.",
     "choices": [
       {
         "id": "A",
@@ -211,9 +211,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_7",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nMountain summits are often described in terms of their elevation, or height above sea level. But a summit's elevation may not be as good an indication of how high the mountain appears to observers as is the summit's prominence, or its height above its surroundings, and these values can differ significantly. For example, the Indian mountain of ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nMountain summits are often described in terms of their elevation, or height above sea level. But a summit's elevation may not be as good an indication of how high the mountain appears to observers as is the summit's prominence, or its height above its surroundings, and these values can differ significantly. For example, the Indian mountain of ______",
     "choices": [
       {
         "id": "A",
@@ -247,22 +247,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlC_Eng_M1_Q7_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_8",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined phrase in the text as a whole?\n*Dubautia raillardioides* is a species in a family of plants <u>known collectively as the silversword alliance</u>, all of which grow only on the Hawaiian Islands. Members of this alliance exhibit an extraordinary range of phenotypes, with some species maturing into vines and others into shrubs and trees. All species in the alliance descended from a single ancestral tarweed plant that arrived on the islands around 5 million years ago. The tarweed's descendants diversified into distinct species as they adapted to live in the wide variety of habitats found on the Hawaiian Islands.\n\nWhich choice best describes the function of the underlined phrase in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined phrase in the text as a whole?\n*Dubautia raillardioides* is a species in a family of plants <u>known collectively as the silversword alliance</u>, all of which grow only on the Hawaiian Islands. Members of this alliance exhibit an extraordinary range of phenotypes, with some species maturing into vines and others into shrubs and trees. All species in the alliance descended from a single ancestral tarweed plant that arrived on the islands around 5 million years ago. The tarweed's descendants diversified into distinct species as they adapted to live in the wide variety of habitats found on the Hawaiian Islands.",
     "choices": [
       {
         "id": "A",
@@ -284,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -294,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_9",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nMexican textile artist Victoria Villasana weaves stories of triumph, using her unique method of applying colorful yarn to photographs of people. In some works, Villasana focuses on celebrating cultural icons who are people of color, as she does in her depiction of artist Frida Kahlo. However, in other works, Villasana honors ordinary people, as she does in her captivating portrayal of a woman holding a baby. Villasana sees both of these approaches as ways of depicting power and interconnectedness of all people.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nMexican textile artist Victoria Villasana weaves stories of triumph, using her unique method of applying colorful yarn to photographs of people. In some works, Villasana focuses on celebrating cultural icons who are people of color, as she does in her depiction of artist Frida Kahlo. However, in other works, Villasana honors ordinary people, as she does in her captivating portrayal of a woman holding a baby. Villasana sees both of these approaches as ways of depicting power and interconnectedness of all people.",
     "choices": [
       {
         "id": "A",
@@ -320,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -330,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_10",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nCommunity science involves professional scientists collaborating with members of the public to study a topic. This approach to research can promote community engagement by offering insight into the daily life of a scientist. It's also very effective because it greatly increases the amount of data that can be collected, such as when biologist Abbigail Merrill and colleagues studied butterfly size and its relation to behavior and used findings reported by hundreds of students and community members in northwestern Arkansas.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nCommunity science involves professional scientists collaborating with members of the public to study a topic. This approach to research can promote community engagement by offering insight into the daily life of a scientist. It's also very effective because it greatly increases the amount of data that can be collected, such as when biologist Abbigail Merrill and colleagues studied butterfly size and its relation to behavior and used findings reported by hundreds of students and community members in northwestern Arkansas.",
     "choices": [
       {
         "id": "A",
@@ -356,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -366,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_11",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice best describes data from the table that support the student's conclusion?\nBiologists Christina Zdenek, Damian Candusso, and their team exposed various snakes to airborne sound and recorded whether they moved toward or away from the sound. The table shows the results for three of the snakes observed in the study. Based on the table, a student concludes that Glory and Boss behaved similarly in the sound trials.\n\nWhich choice best describes data from the table that support the student's conclusion?",
+    "text": "Which choice best describes data from the table that support the student's conclusion?\nBiologists Christina Zdenek, Damian Candusso, and their team exposed various snakes to airborne sound and recorded whether they moved toward or away from the sound. The table shows the results for three of the snakes observed in the study. Based on the table, a student concludes that Glory and Boss behaved similarly in the sound trials.",
     "choices": [
       {
         "id": "A",
@@ -392,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlC_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_12",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which statement, if true, would most directly support the administrators' claim?\nAmong the most visited art museums in the world, the Museo Reina Sofia in Madrid had approximately 4.4 million visitors in 2019. The Museo Reina Sofia also offers virtual tours that art lovers can view online for free. Although there were initial concerns that people who viewed the virtual tours would then consider an in-person visit unnecessary, museum administrators claim that their surveys of in person visitors show that those concerns were unjustified.\n\nWhich statement, if true, would most directly support the administrators' claim?",
+    "text": "Which statement, if true, would most directly support the administrators' claim?\nAmong the most visited art museums in the world, the Museo Reina Sofia in Madrid had approximately 4.4 million visitors in 2019. The Museo Reina Sofia also offers virtual tours that art lovers can view online for free. Although there were initial concerns that people who viewed the virtual tours would then consider an in-person visit unnecessary, museum administrators claim that their surveys of in person visitors show that those concerns were unjustified.",
     "choices": [
       {
         "id": "A",
@@ -429,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -439,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_13",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses a quotation from a translation of The Clouds to illustrate the claim?\n*The Clouds* is a 423 BCE play by Aristophanes, originally written in ancient Greek. At the time, professional intellectuals called sophists taught customers rhetorical techniques to use in public speaking, along with providing instruction in other subjects. In the play, Aristophanes satirizes sophists as teaching people to speak dishonestly, as seen when the character ______\n\nWhich choice most effectively uses a quotation from a translation of The Clouds to illustrate the claim?",
+    "text": "Which choice most effectively uses a quotation from a translation of The Clouds to illustrate the claim?\n*The Clouds* is a 423 BCE play by Aristophanes, originally written in ancient Greek. At the time, professional intellectuals called sophists taught customers rhetorical techniques to use in public speaking, along with providing instruction in other subjects. In the play, Aristophanes satirizes sophists as teaching people to speak dishonestly, as seen when the character ______",
     "choices": [
       {
         "id": "A",
@@ -465,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -475,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_14",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nThe musical *Hadestown* was produced off-Broadway in New York in 2016. A revised version of the musical premiered on Broadway in 2019, in a larger production. In a review of the Broadway production, theater critic Jesse Green enthusiastically praised the musical's storytelling. However, Green also explained that he had seen the earlier version of *Hadestown* in 2016 and had found the storytelling to be very confusing. This suggests that in Green's view, ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe musical *Hadestown* was produced off-Broadway in New York in 2016. A revised version of the musical premiered on Broadway in 2019, in a larger production. In a review of the Broadway production, theater critic Jesse Green enthusiastically praised the musical's storytelling. However, Green also explained that he had seen the earlier version of *Hadestown* in 2016 and had found the storytelling to be very confusing. This suggests that in Green's view, ______",
     "choices": [
       {
         "id": "A",
@@ -501,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -511,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_15",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nBiochemists I. Sam Saguy and Eli J. Pinthus studied the mass and heat transfer processes that occur when foods, such as the Indian snacks makka poha and shankarpali, are fried in oil. During frying, water in the crust evaporates, leaving voids that oil can fill, thereby increasing the food's fat content. As the process continues, water from the food's center moves to the crust as long as the crust remains permeable. Therefore, the less moisture a food loses during frying, ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nBiochemists I. Sam Saguy and Eli J. Pinthus studied the mass and heat transfer processes that occur when foods, such as the Indian snacks makka poha and shankarpali, are fried in oil. During frying, water in the crust evaporates, leaving voids that oil can fill, thereby increasing the food's fat content. As the process continues, water from the food's center moves to the crust as long as the crust remains permeable. Therefore, the less moisture a food loses during frying, ______",
     "choices": [
       {
         "id": "A",
@@ -537,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -547,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_16",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWater boils at around 212\u00b0F at sea level, but in Superior, Colorado (elevation: 5,495 feet above sea level), it boils at around 202\u00b0F. Food writer J. Kenji L\u00f3pez-Alt, who explores the science behind cooking, ______ that lower boiling points at higher elevations \"can wreak all sorts of havoc on recipes.\"\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWater boils at around 212°F at sea level, but in Superior, Colorado (elevation: 5,495 feet above sea level), it boils at around 202°F. Food writer J. Kenji López-Alt, who explores the science behind cooking, ______ that lower boiling points at higher elevations \"can wreak all sorts of havoc on recipes.\"",
     "choices": [
       {
         "id": "A",
@@ -573,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -583,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_17",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany Farms Chapter is one of the 110 chapters of the Navajo Nation (*Naabeeho Bin\u00e1h\u00e1sdzo*). The chapter, known as D\u00e1'\u00e1k'eh Hal\u00e1ni in the Navajo language (*Dine bizaad*), was the subject of a profile ______ in the Navajo Times on August 22, 2013.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany Farms Chapter is one of the 110 chapters of the Navajo Nation (*Naabeeho Bináhásdzo*). The chapter, known as Dá'ák'eh Haláni in the Navajo language (*Dine bizaad*), was the subject of a profile ______ in the Navajo Times on August 22, 2013.",
     "choices": [
       {
         "id": "A",
@@ -609,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -618,12 +616,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_18",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith the short documentary *Rick Bartow: The Man Who Made Marks*, Osage and Cherokee director Nanette Kelley joined the growing number of Indigenous women adding their voices to North American ______ film, a selection of the Native Women in Film Festival, is about the art of painter and musician Rick Bartow.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith the short documentary *Rick Bartow: The Man Who Made Marks*, Osage and Cherokee director Nanette Kelley joined the growing number of Indigenous women adding their voices to North American ______ film, a selection of the Native Women in Film Festival, is about the art of painter and musician Rick Bartow.",
     "choices": [
       {
         "id": "A",
@@ -645,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_19",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWorking with equipment designed for a billionths of a meter scale, ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWorking with equipment designed for a billionths of a meter scale, ______",
     "choices": [
       {
         "id": "A",
@@ -681,43 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
-      "confidence": "high"
-    }
-  },
-  {
-    "section": "Reading and Writing",
-    "domain": "Standard English Conventions",
-    "skill": "Boundaries",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_20",
-    "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJust as the Arrhenius equation in chemistry is named not after its first discoverer but after the physicist who further developed the equation, so too does the Cavendish balance in physics take its name from a ______ who was not the first to construct the device.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "natural philosopher: in this case, Henry Cavendish,"
-      },
-      {
-        "id": "B",
-        "text": "natural philosopher\u2014in this case, Henry Cavendish,"
-      },
-      {
-        "id": "C",
-        "text": "natural philosopher in this case, Henry Cavendish,"
-      },
-      {
-        "id": "D",
-        "text": "natural philosopher\u2014in this case, Henry Cavendish\u2014"
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -727,11 +689,47 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_20",
+    "testName": "December 2024 International Form C SAT English Module 1",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJust as the Arrhenius equation in chemistry is named not after its first discoverer but after the physicist who further developed the equation, so too does the Cavendish balance in physics take its name from a ______ who was not the first to construct the device.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "natural philosopher: in this case, Henry Cavendish,"
+      },
+      {
+        "id": "B",
+        "text": "natural philosopher—in this case, Henry Cavendish,"
+      },
+      {
+        "id": "C",
+        "text": "natural philosopher in this case, Henry Cavendish,"
+      },
+      {
+        "id": "D",
+        "text": "natural philosopher—in this case, Henry Cavendish—"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_21",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJetties\u2014long, narrow structures that extend from a landmass into the water\u2014are often constructed to protect coastlines from erosion. Jetties can sometimes have the opposite ______ obstructing the natural flow of sand along the shore can lead to increased erosion in some areas.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJetties—long, narrow structures that extend from a landmass into the water—are often constructed to protect coastlines from erosion. Jetties can sometimes have the opposite ______ obstructing the natural flow of sand along the shore can lead to increased erosion in some areas.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -762,12 +760,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_22",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe editors of *Home Ground: A Guide to the American Landscape* turned to Arturo Longoria, a nonfiction writer, to craft the entry for \"arroyo,\" a term referring to the bed of an intermittently dry stream or creek. For \"Iek,\" however, the editors chose the ______ author of *The Very Rich Hours*.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe editors of *Home Ground: A Guide to the American Landscape* turned to Arturo Longoria, a nonfiction writer, to craft the entry for \"arroyo,\" a term referring to the bed of an intermittently dry stream or creek. For \"Iek,\" however, the editors chose the ______ author of *The Very Rich Hours*.",
     "choices": [
       {
         "id": "A",
@@ -789,9 +787,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_23",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nGuard cells are specialized cells that are part of a plant's pores. These cells help regulate the amount of carbon dioxide a plant takes in. ______ they help regulate a plant's water loss.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nGuard cells are specialized cells that are part of a plant's pores. These cells help regulate the amount of carbon dioxide a plant takes in. ______ they help regulate a plant's water loss.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_24",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nElara, one of the eighty known moons of Jupiter, is designated as Jupiter VII (\"VII\" means \"7\"). Roman numerals typically indicate the order in which the moons were named rather than the order of their proximity to Jupiter. It is incorrect to assume, ______ that Elara is the seventh moon from Jupiter in terms of proximity.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nElara, one of the eighty known moons of Jupiter, is designated as Jupiter VII (\"VII\" means \"7\"). Roman numerals typically indicate the order in which the moons were named rather than the order of their proximity to Jupiter. It is incorrect to assume, ______ that Elara is the seventh moon from Jupiter in terms of proximity.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_25",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "The student wants to emphasize a similarity between the two dinosaur fossil specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Dinosaur fossil specimens can be found at science museums all over the world.\n\u2022 A dinosaur fossil specimen nicknamed Stan is housed at the Black Hills Institute in Hill City, South Dakota.\n\u2022 Stan, a *Tyrannosaurus*, lived in the Late Cretaceous period.\n\u2022 A dinosaur fossil specimen nicknamed Horridus is housed at the Melbourne Museum in Melbourne, Australia.\n\u2022 Horridus, a *Triceratops*, lived in the Late Cretaceous period.\n\nThe student wants to emphasize a similarity between the two dinosaur fossil specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between the two dinosaur fossil specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Dinosaur fossil specimens can be found at science museums all over the world.\n• A dinosaur fossil specimen nicknamed Stan is housed at the Black Hills Institute in Hill City, South Dakota.\n• Stan, a *Tyrannosaurus*, lived in the Late Cretaceous period.\n• A dinosaur fossil specimen nicknamed Horridus is housed at the Melbourne Museum in Melbourne, Australia.\n• Horridus, a *Triceratops*, lived in the Late Cretaceous period.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_26",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "The student wants to emphasize a similarity between Uros House and Ocupante. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Grimanesa Amoros is a Peruvian American artist well known for her LED light sculptures.\n\u2022 Her sculpture *Uros House* is made of smooth multicolored LED domes.\n\u2022 It occupies 250 cubic feet of space.\n\u2022 Her sculpture *Ocupante* is made of entangled blue and white LED tubes.\n\u2022 It occupies 80,000 cubic feet of space.\n\nThe student wants to emphasize a similarity between Uros House and Ocupante. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between Uros House and Ocupante. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Grimanesa Amoros is a Peruvian American artist well known for her LED light sculptures.\n• Her sculpture *Uros House* is made of smooth multicolored LED domes.\n• It occupies 250 cubic feet of space.\n• Her sculpture *Ocupante* is made of entangled blue and white LED tubes.\n• It occupies 80,000 cubic feet of space.",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "88552b8b-f774-4f18-b52e-65b24051a3d9_27",
     "testName": "December 2024 International Form C SAT English Module 1",
-    "text": "The student wants to present an overview of the study's findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Researchers in a 2021 study wanted to determine the rate at which 17 languages conveyed both information and syllables.\n\u2022 They calculated the bits of information conveyed per second (the IR, or information rate).\n\u2022 The IR was found to be approximately consistent across the 17 languages (an average of 39 bits per second).\n\u2022 They calculated the number of syllables spoken per second (the SR, or syllable rate).\n\u2022 Spanish had the second-fastest SR (7.7 syllables per second).\n\u2022 Vietnamese had the sixteenth-fastest SR (5.3 syllables per second).\n\nThe student wants to present an overview of the study's findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to present an overview of the study's findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Researchers in a 2021 study wanted to determine the rate at which 17 languages conveyed both information and syllables.\n• They calculated the bits of information conveyed per second (the IR, or information rate).\n• The IR was found to be approximately consistent across the 17 languages (an average of 39 bits per second).\n• They calculated the number of syllables spoken per second (the SR, or syllable rate).\n• Spanish had the second-fastest SR (7.7 syllables per second).\n• Vietnamese had the sixteenth-fastest SR (5.3 syllables per second).",
     "choices": [
       {
         "id": "A",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

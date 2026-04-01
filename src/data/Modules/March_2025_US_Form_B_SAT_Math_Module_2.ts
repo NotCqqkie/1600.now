@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_1",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_2",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -69,7 +69,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
     }
   },
@@ -77,7 +77,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_3",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -107,14 +107,13 @@ export const questions: Question[] = [
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M2_Q3_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_4",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -142,16 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M2_Q4_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_5",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -179,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_6",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -215,16 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M2_Q6_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_7",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -252,15 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_8",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -288,35 +285,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
-      "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M2_Q8_1.png"
-  },
-  {
-    "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "35bd5fb1-7659-4393-b736-241352b7187e_9",
-    "testName": "March 2025 US Form B SAT Math Module 2",
-    "text": "A right circular cone has a base diameter of 28 inches and a height of 6 inches. The volume of this cone is k\u03c0 cubic inches. what is the value of k?",
-    "choices": [],
-    "correctAnswer": "392",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_9",
+    "testName": "March 2025 US Form B SAT Math Module 2",
+    "text": "A right circular cone has a base diameter of 28 inches and a height of 6 inches. The volume of this cone is kπ cubic inches. what is the value of k?",
+    "choices": [],
+    "correctAnswer": "392",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_10",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -344,15 +340,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_11",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -380,7 +376,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
@@ -388,7 +384,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_12",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -423,8 +419,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_13",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -452,26 +448,26 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_14",
     "testName": "March 2025 US Form B SAT Math Module 2",
-    "text": "One of the factors of 2x\u00b3 + 44x 2 + 234x is x + b, where b is a positive constant. What is the smallest possible value of b?",
+    "text": "One of the factors of 2x³ + 44x 2 + 234x is x + b, where b is a positive constant. What is the smallest possible value of b?",
     "choices": [],
     "correctAnswer": "9",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -479,7 +475,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_15",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -514,8 +510,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_16",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -543,16 +539,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M2_Q16_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_17",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -579,17 +574,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M2_Q17_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_18",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -600,7 +594,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -608,7 +602,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_19",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -643,8 +637,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_20",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -672,15 +666,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_21",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -691,15 +685,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_22",
     "testName": "March 2025 US Form B SAT Math Module 2",
@@ -710,7 +704,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   }

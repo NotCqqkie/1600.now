@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_1",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Math_M1_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_2",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -70,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_3",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -106,36 +105,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Math_M1_Q3_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_4",
     "testName": "October 2025 International Form A SAT Math Module 1",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (\u00b0 F), when the air temperature is 27\u00b0 F and the wind speed is 20 miles per hour (mph)?\n(Disregard the degree symbol when entering your answer.)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (° F), when the air temperature is 27° F and the wind speed is 20 miles per hour (mph)?\n(Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "13",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Math_M1_Q4_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_5",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -163,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_6",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -199,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_7",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -218,19 +215,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_8",
     "testName": "October 2025 International Form A SAT Math Module 1",
-    "text": "For two acute angles X and Y, the measure of angle Y is 32\u00b0 and $\\frac{sinX}{cosY}=1$. What is the measure, in degrees, of angle X?",
+    "text": "For two acute angles X and Y, the measure of angle Y is 32° and $\\frac{sinX}{cosY}=1$. What is the measure, in degrees, of angle X?",
     "choices": [
       {
         "id": "A",
@@ -254,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_9",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -273,15 +270,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_10",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -309,15 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_11",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -344,17 +341,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Math_M1_Q11_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_12",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -382,19 +378,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_13",
     "testName": "October 2025 International Form A SAT Math Module 1",
-    "text": "Trapezoid CDEF is similar to trapezoid JKLM, such that C, D, E, and F correspond to J, K, L, and M, respectively. The length of each side of trapezoid JKLM is 4 times the length of its corresponding side in trapezoid CDEF. The measure of angle C is 42\u00b0. What is the measure of angle J?",
+    "text": "Trapezoid CDEF is similar to trapezoid JKLM, such that C, D, E, and F correspond to J, K, L, and M, respectively. The length of each side of trapezoid JKLM is 4 times the length of its corresponding side in trapezoid CDEF. The measure of angle C is 42°. What is the measure of angle J?",
     "choices": [
       {
         "id": "A",
@@ -418,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_14",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -453,21 +449,20 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Math_M1_Q14_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_15",
     "testName": "October 2025 International Form A SAT Math Module 1",
-    "text": "In right triangle $ABC$, the tangent of $\u2220C$ is $\\frac{3}{4}$. What is the length of $\\overline{AB}$?",
+    "text": "In right triangle $ABC$, the tangent of $∠C$ is $\\frac{3}{4}$. What is the length of $\\overline{AB}$?",
     "choices": [
       {
         "id": "A",
@@ -491,16 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Math_M1_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_16",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -528,15 +522,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_17",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -546,16 +540,16 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_18",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -566,16 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Math_M1_Q18_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_19",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -603,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_20",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -622,7 +615,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
@@ -630,7 +623,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_21",
     "testName": "October 2025 International Form A SAT Math Module 1",
@@ -666,7 +659,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_22",
     "testName": "October 2025 International Form A SAT Math Module 1",

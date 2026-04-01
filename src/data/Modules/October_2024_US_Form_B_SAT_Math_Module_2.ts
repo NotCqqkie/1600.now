@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_1",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_2",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -49,19 +49,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "1.87c+ 2.37t \u2264 20"
+        "text": "1.87c+ 2.37t ≤ 20"
       },
       {
         "id": "B",
-        "text": "1.87c+2.37t \u2265 20"
+        "text": "1.87c+2.37t ≥ 20"
       },
       {
         "id": "C",
-        "text": "2.37c + 1.87t \u2264 20"
+        "text": "2.37c + 1.87t ≤ 20"
       },
       {
         "id": "D",
-        "text": "2.37c+ 1.87t \u2265 20"
+        "text": "2.37c+ 1.87t ≥ 20"
       }
     ],
     "correctAnswer": "A",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_3",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -88,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_4",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -123,17 +123,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USB_Math_M2_Q4_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_5",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -161,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_6",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -197,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "skill": "Evaluating statistical claims: Observational studies and experiments",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_7",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -216,15 +215,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "skill": "Evaluating statistical claims: Observational studies and experiments",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_8",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -232,7 +231,7 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "y=40x\u5341z"
+        "text": "y=40x十z"
       },
       {
         "id": "B",
@@ -252,7 +251,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
@@ -260,7 +259,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_9",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -295,8 +294,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_10",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -324,15 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_11",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -359,17 +358,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USB_Math_M2_Q11_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_12",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -387,12 +385,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_13",
     "testName": "October 2024 US Form B SAT Math Module 2",
-    "text": "An object is launched into the air from ground level. According to a quadratic model, 2.1 seconds after the object is launched, it reaches its maximum height of 70,56 feet above ground level. Which equation represents this model, where f(t) is the object\u2019s height, in feet, above ground level t seconds after it was launched?",
+    "text": "An object is launched into the air from ground level. According to a quadratic model, 2.1 seconds after the object is launched, it reaches its maximum height of 70,56 feet above ground level. Which equation represents this model, where f(t) is the object’s height, in feet, above ground level t seconds after it was launched?",
     "choices": [
       {
         "id": "A",
@@ -416,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_14",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -452,15 +450,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_15",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -488,15 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_16",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -507,16 +505,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USB_Math_M2_Q16_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_17",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -544,16 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USB_Math_M2_Q17_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_18",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -581,15 +577,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_19",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -600,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_20",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -619,35 +615,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_21",
     "testName": "October 2024 US Form B SAT Math Module 2",
-    "text": "The functions f and g are defined by the equations shown, where a and b are integer constants, a < b and b < 0. If y = f(x) and y= g(x) are graphed in the xy-plane, which of the following equations displays, as a constant or coefficient, the y coordinate of the y-intercept of the graph of the corresponding function?\n\u2160. $f(x)=a(3.3)^{x+b}$\n\u2161. $g(x)=a(3.3)^{x}+b$",
+    "text": "The functions f and g are defined by the equations shown, where a and b are integer constants, a < b and b < 0. If y = f(x) and y= g(x) are graphed in the xy-plane, which of the following equations displays, as a constant or coefficient, the y coordinate of the y-intercept of the graph of the corresponding function?\nⅠ. $f(x)=a(3.3)^{x+b}$\nⅡ. $g(x)=a(3.3)^{x}+b$",
     "choices": [
       {
         "id": "A",
-        "text": "\u2160 only"
+        "text": "Ⅰ only"
       },
       {
         "id": "B",
-        "text": "\u2161 only"
+        "text": "Ⅱ only"
       },
       {
         "id": "C",
-        "text": "\u2160 and \u2161"
+        "text": "Ⅰ and Ⅱ"
       },
       {
         "id": "D",
-        "text": "Neither \u2160 nor \u2161"
+        "text": "Neither Ⅰ nor Ⅱ"
       }
     ],
     "correctAnswer": "D",
@@ -655,15 +651,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_22",
     "testName": "October 2024 US Form B SAT Math Module 2",
@@ -674,7 +670,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   }

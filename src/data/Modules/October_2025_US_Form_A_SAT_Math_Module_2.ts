@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_2",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_3",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -69,16 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_USA_Math_M2_Q3_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_4",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -106,7 +105,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
@@ -114,7 +113,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_5",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -149,8 +148,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_6",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -161,20 +160,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_USA_Math_M2_Q6_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_7",
     "testName": "October 2025 US Form A SAT Math Module 2",
-    "text": "If 5c = 15, what is the value of 5c \u2212 8?",
+    "text": "If 5c = 15, what is the value of 5c − 8?",
     "choices": [
       {
         "id": "A",
@@ -198,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_8",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -234,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_9",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -270,55 +268,53 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_USA_Math_M2_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_10",
     "testName": "October 2025 US Form A SAT Math Module 2",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chil temperature, in degrees Fahrenheit (\u00b0F), when the air temperature is 29\u00b0F and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chil temperature, in degrees Fahrenheit (°F), when the air temperature is 29°F and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "18",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_USA_Math_M2_Q10_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_11",
     "testName": "October 2025 US Form A SAT Math Module 2",
-    "text": "In a right triangle, the measure of one of the acute angles is 14\u00b0. What is the measure of the other acute angle, in degrees?\n(Disregard the degree symbol when entering your answer.)",
+    "text": "In a right triangle, the measure of one of the acute angles is 14°. What is the measure of the other acute angle, in degrees?\n(Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "76",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_12",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -346,15 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_13",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -382,15 +378,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_14",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -418,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_15",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -454,15 +450,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_16",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -490,15 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_17",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -509,15 +505,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_18",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -545,15 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_19",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -581,15 +577,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_20",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -617,15 +613,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_21",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -636,15 +632,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_22",
     "testName": "October 2025 US Form A SAT Math Module 2",
@@ -672,7 +668,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   }

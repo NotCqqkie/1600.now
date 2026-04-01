@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_1",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_2",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_3",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -88,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_4",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -124,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_5",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -159,17 +159,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlA_Math_M1_Q5_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_6",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -197,34 +196,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_7",
     "testName": "June 2024 International Form A SAT Math Module 1",
-    "text": "y =-0.5\ny = x \u00b2+10 x + a\nIn the given system of equations, a is a positive integer constant, The system has no real solutions. What is the least possible value of a?",
+    "text": "y =-0.5\ny = x ²+10 x + a\nIn the given system of equations, a is a positive integer constant, The system has no real solutions. What is the least possible value of a?",
     "choices": [],
     "correctAnswer": "25",
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_8",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -235,15 +234,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_9",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -270,16 +269,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_10",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -307,16 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlA_Math_M1_Q10_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_11",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -344,16 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlA_Math_M1_Q11_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_12",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -381,16 +378,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlA_Math_M1_Q12_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_13",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -418,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_14",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -453,17 +449,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlA_Math_M1_Q14_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_15",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -490,16 +485,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_16",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -510,15 +505,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_17",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -546,15 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_18",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -582,15 +577,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_19",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -618,7 +613,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -626,7 +621,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_20",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -644,8 +639,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_21",
     "testName": "June 2024 International Form A SAT Math Module 1",
@@ -656,7 +651,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -664,7 +659,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_22",
     "testName": "June 2024 International Form A SAT Math Module 1",

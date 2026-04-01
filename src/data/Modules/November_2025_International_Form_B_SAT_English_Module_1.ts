@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_1",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nScientists have used machine learning tools to study elephant sounds, uncovering a sophisticated communication system. The tools ______ unique patterns in the rumbling sounds elephants make. The scientists claim that these patterns are specific calls the elephants use for individuals, similar to names.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nScientists have used machine learning tools to study elephant sounds, uncovering a sophisticated communication system. The tools ______ unique patterns in the rumbling sounds elephants make. The scientists claim that these patterns are specific calls the elephants use for individuals, similar to names.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_2",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cconsidered\u201d most nearly mean?\nThe following text is from Chinua Achebe\u02bcs 1964 novel *Arrow of God*. The novel is set in Nigeria in the 1920s. Ezeulu, who is the religious leader for several villages, announces when the annual yam harvest can begin.\nWhenever Ezeulu <u>considered</u> the immensity of his power over the year and the crops and, therefore, over the people he wondered if it was real. It was true he named the day for the feast of the Pumpkin Leaves and for the New Yam feast; but he did not choose it. He was merely a watchman. His power was no more than the power of a child over a goat that was said to be his.\n\u00a91964 by Chinua Achebe\n\nAs used in the text, what does the word \u201cconsidered\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “considered” most nearly mean?\nThe following text is from Chinua Achebeʼs 1964 novel *Arrow of God*. The novel is set in Nigeria in the 1920s. Ezeulu, who is the religious leader for several villages, announces when the annual yam harvest can begin.\nWhenever Ezeulu <u>considered</u> the immensity of his power over the year and the crops and, therefore, over the people he wondered if it was real. It was true he named the day for the feast of the Pumpkin Leaves and for the New Yam feast; but he did not choose it. He was merely a watchman. His power was no more than the power of a child over a goat that was said to be his.\n©1964 by Chinua Achebe",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_3",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \u201ctraces\u201d most nearly mean?\nThe following text is adapted from John Matheus\u02bcs 1925 short story \u201cFog.\u201d The fog extended its tentacles over city and river, gradually obliterating <u>traces</u> of familiar landscapes. At five-thirty the old Panhandle bridge, supported by massive sandstone pillars, stalwart, as when erected fifty years before to serve a generation now passed behind the portals of life, had become a spectral outline against the sky.\n\nAs used in the text, what does the word \u201ctraces\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “traces” most nearly mean?\nThe following text is adapted from John Matheusʼs 1925 short story “Fog.” The fog extended its tentacles over city and river, gradually obliterating <u>traces</u> of familiar landscapes. At five-thirty the old Panhandle bridge, supported by massive sandstone pillars, stalwart, as when erected fifty years before to serve a generation now passed behind the portals of life, had become a spectral outline against the sky.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_4",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nMicroplastics are a common pollutant in large masses of water like glaciers. High concentrations and ______ among particles\u2014variations in size, shape, and material\u2014make it onerous to comprehensively classify the microplastics in a water sample, so Ojeda-Ben\u00edtez et al. are exploring a device to help quickly and accurately identify certain characteristics.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nMicroplastics are a common pollutant in large masses of water like glaciers. High concentrations and ______ among particles—variations in size, shape, and material—make it onerous to comprehensively classify the microplastics in a water sample, so Ojeda-Benítez et al. are exploring a device to help quickly and accurately identify certain characteristics.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_5",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cconsideration\u201d most nearly mean?\nThe following text is adapted from Henry James\u2019s 1881 novel *The Portrait of a Lady*.\nEverything Osmond did was pose\u2014pose so subtly considered that if one were not on the lookout one mistook it for impulse. Ralph had never met a man who lived so much in the land of <u>consideration</u>. His tastes, his studies, his accomplishments, his collections, were all for a purpose.\n\nAs used in the text, what does the word \u201cconsideration\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “consideration” most nearly mean?\nThe following text is adapted from Henry James’s 1881 novel *The Portrait of a Lady*.\nEverything Osmond did was pose—pose so subtly considered that if one were not on the lookout one mistook it for impulse. Ralph had never met a man who lived so much in the land of <u>consideration</u>. His tastes, his studies, his accomplishments, his collections, were all for a purpose.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -183,13 +183,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_6",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nAdult glass eels can be found off the coast of Maine, but the eels begin their lives in the Sargasso Sea, a biodiverse area in the North Atlantic Ocean where they are born and later return to breed. Though biologists believe they have identified the general area in the Sargasso Sea that is crucial to the endangered eels\u02bc survival, little is yet known about how the animals spawn there. Scientists believe that solving the mystery will lead to better conservation of glass eels and their habitat, <u>helping in turn to sustain several other species that rely on them as a food source.</u>\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nAdult glass eels can be found off the coast of Maine, but the eels begin their lives in the Sargasso Sea, a biodiverse area in the North Atlantic Ocean where they are born and later return to breed. Though biologists believe they have identified the general area in the Sargasso Sea that is crucial to the endangered eelsʼ survival, little is yet known about how the animals spawn there. Scientists believe that solving the mystery will lead to better conservation of glass eels and their habitat, <u>helping in turn to sustain several other species that rely on them as a food source.</u>",
     "choices": [
       {
         "id": "A",
@@ -197,11 +197,11 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "It suggests that scientists are more concerned about other species than about glass eels\u02bc habitat."
+        "text": "It suggests that scientists are more concerned about other species than about glass eelsʼ habitat."
       },
       {
         "id": "C",
-        "text": "It indicates that the benefit of understanding glass eels\u02bc spawning behavior extends beyond the eels."
+        "text": "It indicates that the benefit of understanding glass eelsʼ spawning behavior extends beyond the eels."
       },
       {
         "id": "D",
@@ -211,9 +211,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
@@ -221,19 +221,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_7",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice best describes the overall structure of the text?\nTomi Adeyemi\u02bcs first published work, the inventive West African\u2013inspired fantasy novel *Children of Blood and Bone*, has intriguing things to say about the relationship between identity and power. Adeyemi works in a decades-long tradition going back to writers such as Samuel Delany and Octavia Butler, who wove cultural elements of the Black diaspora into their science fiction and fantasy in a movement known as Afrofuturism. At its core, the movement is characterized by speculation, not just about distant futures or other planets but also about alternate versions of our shared past. Afrofuturism\u02bcs meditations on authority reinvigorate the creative potential of fiction.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nTomi Adeyemiʼs first published work, the inventive West African–inspired fantasy novel *Children of Blood and Bone*, has intriguing things to say about the relationship between identity and power. Adeyemi works in a decades-long tradition going back to writers such as Samuel Delany and Octavia Butler, who wove cultural elements of the Black diaspora into their science fiction and fantasy in a movement known as Afrofuturism. At its core, the movement is characterized by speculation, not just about distant futures or other planets but also about alternate versions of our shared past. Afrofuturismʼs meditations on authority reinvigorate the creative potential of fiction.",
     "choices": [
       {
         "id": "A",
-        "text": "It notes the political stance of an author, compares that author\u02bcs book to other earlier works, and then analyzes the influence of political events on the book."
+        "text": "It notes the political stance of an author, compares that authorʼs book to other earlier works, and then analyzes the influence of political events on the book."
       },
       {
         "id": "B",
-        "text": "It praises a newly published author, compares that author with others who might appear superficially similar, and then points out the features of that author\u02bcs work that make it unique."
+        "text": "It praises a newly published author, compares that author with others who might appear superficially similar, and then points out the features of that authorʼs work that make it unique."
       },
       {
         "id": "C",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_8",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which statement about the Hispanic Society of America is best supported by the text?\nFounded in 1904, the Hispanic Society of America showcases the arts and cultures of Spanish-speaking and Portuguese-speaking regions around the world, including Latin America. It is located in New York City and has more than 18,000 objects in its museum collection. Since 2000, a number of other institutions devoted to Latino cultures have opened in the United States. A notable example is LA Plaza de Cultura y Artes in Los Angeles. It focuses on Mexican American art and culture.\n\nWhich statement about the Hispanic Society of America is best supported by the text?",
+    "text": "Which statement about the Hispanic Society of America is best supported by the text?\nFounded in 1904, the Hispanic Society of America showcases the arts and cultures of Spanish-speaking and Portuguese-speaking regions around the world, including Latin America. It is located in New York City and has more than 18,000 objects in its museum collection. Since 2000, a number of other institutions devoted to Latino cultures have opened in the United States. A notable example is LA Plaza de Cultura y Artes in Los Angeles. It focuses on Mexican American art and culture.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_9",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Based on the text, what is the most likely reason Walsh and colleagues chose to avoid the method used in the spinach study?\nIn a 2024 study, Corrine Walsh and colleagues examined whether the composition of soil microbial communities could affect plants' flavor chemistry. Whereas Baslam et al. (2011) showed that adding specific bacterial or fungal strains to soil can yield increased flavonoid content in spinach crops, Walsh and team applied intact microbial communities gathered from ecologically distinct settings across Colorado, including areas of ponderosa pine forest and irrigated pasture, to mustard plants and evaluated the flavor compounds in the plants' seeds. This ensured that the microbial conditions in their experiment would better reflect the variation and complexity of naturally occurring communities.\n\nBased on the text, what is the most likely reason Walsh and colleagues chose to avoid the method used in the spinach study?",
+    "text": "Based on the text, what is the most likely reason Walsh and colleagues chose to avoid the method used in the spinach study?\nIn a 2024 study, Corrine Walsh and colleagues examined whether the composition of soil microbial communities could affect plants' flavor chemistry. Whereas Baslam et al. (2011) showed that adding specific bacterial or fungal strains to soil can yield increased flavonoid content in spinach crops, Walsh and team applied intact microbial communities gathered from ecologically distinct settings across Colorado, including areas of ponderosa pine forest and irrigated pasture, to mustard plants and evaluated the flavor compounds in the plants' seeds. This ensured that the microbial conditions in their experiment would better reflect the variation and complexity of naturally occurring communities.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_10",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is writing a paper on the global rise of the home video game industry during the 1980s. The student is researching the relative popularity of various genres of console and computer games. Looking at the information in the table, the student finds that the games in the genres of ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is writing a paper on the global rise of the home video game industry during the 1980s. The student is researching the relative popularity of various genres of console and computer games. Looking at the information in the table, the student finds that the games in the genres of ______",
     "choices": [
       {
         "id": "A",
@@ -355,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_25_IntlB_Eng_M1_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_11",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the statement?\nWenhao Xu and colleagues demonstrated that applying a low direct current electrical field to graphite (a conductor) and an acrylamide (AAm) gel can increase how strongly materials adhere to each other. At some voltages, adhesion strength\u2014as measured in kilopascals (kPa) of stress needed to pull the materials apart\u2014was high (more than 30 kPa). But the mere application of a direct current electrical field with positive voltage is not sufficient to cause increased adhesion, as evidenced by the fact that ______\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+    "text": "Which choice most effectively uses data from the graph to complete the statement?\nWenhao Xu and colleagues demonstrated that applying a low direct current electrical field to graphite (a conductor) and an acrylamide (AAm) gel can increase how strongly materials adhere to each other. At some voltages, adhesion strength—as measured in kilopascals (kPa) of stress needed to pull the materials apart—was high (more than 30 kPa). But the mere application of a direct current electrical field with positive voltage is not sufficient to cause increased adhesion, as evidenced by the fact that ______",
     "choices": [
       {
         "id": "A",
@@ -392,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_25_IntlB_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_12",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the text?\nWorking in Ghana, Emmanuel Hanyabui and colleagues compared the impact on pineapple growth of different combinations of soil additives, including NPK fertilizer (an inorganic fertilizer containing nitrogen, phosphorus, and potassium), organic compost, and biochar (a carbon-rich material produced from organic waste matter). Based on data in the table, pineapple farmers with no access to inorganic soil additives would likely increase the weight and size of their fruits by the greatest amount by using ______\n\nWhich choice most effectively uses data from the table to complete the text?",
+    "text": "Which choice most effectively uses data from the table to complete the text?\nWorking in Ghana, Emmanuel Hanyabui and colleagues compared the impact on pineapple growth of different combinations of soil additives, including NPK fertilizer (an inorganic fertilizer containing nitrogen, phosphorus, and potassium), organic compost, and biochar (a carbon-rich material produced from organic waste matter). Based on data in the table, pineapple farmers with no access to inorganic soil additives would likely increase the weight and size of their fruits by the greatest amount by using ______",
     "choices": [
       {
         "id": "A",
@@ -429,30 +427,29 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_25_IntlB_Eng_M1_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_13",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nNeuroscientist Artin Arshamian and his team sought to determine what affects a person\u02bcs perception of an odor as pleasant: is it culture, personal taste, or aspects of human anatomy? The team assessed odor preferences in ten groups of people with different modes of living (urban, agricultural, and hunter-gatherer) including urban dwellers from a large city in Thailand and the Seri people from a small community in Mexico. The team observed that across cultures, people generally rated odors about the same: vanillin, which smells like vanilla, was typically rated more pleasant than galbazine, which smells like peanuts. The team therefore concluded that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nNeuroscientist Artin Arshamian and his team sought to determine what affects a personʼs perception of an odor as pleasant: is it culture, personal taste, or aspects of human anatomy? The team assessed odor preferences in ten groups of people with different modes of living (urban, agricultural, and hunter-gatherer) including urban dwellers from a large city in Thailand and the Seri people from a small community in Mexico. The team observed that across cultures, people generally rated odors about the same: vanillin, which smells like vanilla, was typically rated more pleasant than galbazine, which smells like peanuts. The team therefore concluded that ______",
     "choices": [
       {
         "id": "A",
-        "text": "culture likely plays more of a role in a person\u02bcs perception of how pleasant an odor is than does human anatomy"
+        "text": "culture likely plays more of a role in a personʼs perception of how pleasant an odor is than does human anatomy"
       },
       {
         "id": "B",
-        "text": "a person\u02bcs mode of living likely doesn\u02bct have a large influence on that person\u02bcs perception of whether an odor is pleasant or unpleasant"
+        "text": "a personʼs mode of living likely doesnʼt have a large influence on that personʼs perception of whether an odor is pleasant or unpleasant"
       },
       {
         "id": "C",
@@ -466,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -476,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_14",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nOuti Tervo and team studied the effect of human-caused noise on narwhals (*Monodon monoceros*), arctic marine mammals that are sensitive to acoustic changes in their environment. Hypothesizing that elevated sound levels affect foraging among narwhals, Tervo\u02bcs team compared narwhal diving behaviors in natural sound conditions with those behaviors in two human-caused sound exposure conditions\u2014ship sounds and ship sounds coupled with sonic pulses. Both exposure conditions resulted in significant decreases in the number and target depth of deep dives (associated with foraging) relative to natural conditions. However, differences between diving behaviors in the two exposure types were negligible, a finding that could be attributed to the fact that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nOuti Tervo and team studied the effect of human-caused noise on narwhals (*Monodon monoceros*), arctic marine mammals that are sensitive to acoustic changes in their environment. Hypothesizing that elevated sound levels affect foraging among narwhals, Tervoʼs team compared narwhal diving behaviors in natural sound conditions with those behaviors in two human-caused sound exposure conditions—ship sounds and ship sounds coupled with sonic pulses. Both exposure conditions resulted in significant decreases in the number and target depth of deep dives (associated with foraging) relative to natural conditions. However, differences between diving behaviors in the two exposure types were negligible, a finding that could be attributed to the fact that ______",
     "choices": [
       {
         "id": "A",
@@ -488,7 +485,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "ship sounds contribute so much to the overall sound level that the addition of sonic pulses has little effect on the narwhals\u02bc auditory environment"
+        "text": "ship sounds contribute so much to the overall sound level that the addition of sonic pulses has little effect on the narwhalsʼ auditory environment"
       },
       {
         "id": "C",
@@ -496,13 +493,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "the narwhals weren\u02bct as sensitive to human-caused sounds as the researchers had predicted"
+        "text": "the narwhals werenʼt as sensitive to human-caused sounds as the researchers had predicted"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -512,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_15",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJesse Trevi\u00f1o's 1976 painting *Mis Hermanos* was featured in the Smithsonian's 2013 exhibition *Our America*: *The Latino Presence in American Art*. The piece ______ chosen for the exhibition by curator E. Carmen Ramos.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJesse Treviño's 1976 painting *Mis Hermanos* was featured in the Smithsonian's 2013 exhibition *Our America*: *The Latino Presence in American Art*. The piece ______ chosen for the exhibition by curator E. Carmen Ramos.",
     "choices": [
       {
         "id": "A",
@@ -538,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -548,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_16",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMia Heavener\u02bcs 2019 novel *Under Nushagak Bluff*, which takes place in a mid-twentieth-century rural Alaskan fishing ______ the story of three Yup\u02bcik women who grapple with the rise of commercial fisheries and other changes affecting their community.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMia Heavenerʼs 2019 novel *Under Nushagak Bluff*, which takes place in a mid-twentieth-century rural Alaskan fishing ______ the story of three Yupʼik women who grapple with the rise of commercial fisheries and other changes affecting their community.",
     "choices": [
       {
         "id": "A",
@@ -574,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -583,12 +580,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_17",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany works of the Greek historian Strabo (1st century BCE) are ______ his *Geographica*, a descriptive history of the ancient world, is an extant work: it can still be read.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany works of the Greek historian Strabo (1st century BCE) are ______ his *Geographica*, a descriptive history of the ancient world, is an extant work: it can still be read.",
     "choices": [
       {
         "id": "A",
@@ -610,9 +607,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -620,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_18",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEnacted in 1944, Iceland's 4,089-word constitution, in contrast to Spain's, which was enacted in 1978 and contains a far greater number (17,608) of words, ______ as the 2nd shortest in the world. Such data are studied by constitutional scholars like George Tsebelis, who can use them to draw broader conclusions.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEnacted in 1944, Iceland's 4,089-word constitution, in contrast to Spain's, which was enacted in 1978 and contains a far greater number (17,608) of words, ______ as the 2nd shortest in the world. Such data are studied by constitutional scholars like George Tsebelis, who can use them to draw broader conclusions.",
     "choices": [
       {
         "id": "A",
@@ -646,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -656,15 +653,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_19",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWorking on an unimaginably small scale of billionths of a meter, nanoengineers have found ways to leverage cerium oxide ______ to improve treatments for certain conditions related to oxidative stress.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWorking on an unimaginably small scale of billionths of a meter, nanoengineers have found ways to leverage cerium oxide ______ to improve treatments for certain conditions related to oxidative stress.",
     "choices": [
       {
         "id": "A",
-        "text": "nanoparticles\u2019 properties\u2019"
+        "text": "nanoparticles’ properties’"
       },
       {
         "id": "B",
@@ -672,31 +669,31 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "nanoparticles\u2019 properties"
+        "text": "nanoparticles’ properties"
       },
       {
         "id": "D",
-        "text": "nanoparticle\u2019s properties"
+        "text": "nanoparticle’s properties"
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_20",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRecordings of electrical activity in the brain, ______ increased activity in brain areas associated with suppressing motor functions.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRecordings of electrical activity in the brain, ______ increased activity in brain areas associated with suppressing motor functions.",
     "choices": [
       {
         "id": "A",
@@ -718,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -728,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_21",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nA team led by Portuguese researcher Isabel C.F.R. Ferreira found that many species of mushrooms contain chemicals called phenolic compounds, such as cinnamic acid and catechin. ______ Ferreira detected cinnamic acid in *Agaricus blazei* mushrooms and catechin in *Lentinus edodes* mushrooms.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nA team led by Portuguese researcher Isabel C.F.R. Ferreira found that many species of mushrooms contain chemicals called phenolic compounds, such as cinnamic acid and catechin. ______ Ferreira detected cinnamic acid in *Agaricus blazei* mushrooms and catechin in *Lentinus edodes* mushrooms.",
     "choices": [
       {
         "id": "A",
@@ -754,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -764,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_22",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nResins play several important roles in maintaining the health of conifers and many other kinds of trees. ______ resins quickly seal wounds, which helps prevent harmful insects and fungi from entering trees. These sticky substances also help trees retain water that is needed for them to survive.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nResins play several important roles in maintaining the health of conifers and many other kinds of trees. ______ resins quickly seal wounds, which helps prevent harmful insects and fungi from entering trees. These sticky substances also help trees retain water that is needed for them to survive.",
     "choices": [
       {
         "id": "A",
@@ -790,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -800,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_23",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nWhile some researchers have identified the planet Kepler-296e as potentially habitable, it's unlikely that humanity will be able to take advantage of its favorable conditions anytime soon\u2014it's 737 light years away. ______ humanity must first focus on making planets within our solar system more habitable.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWhile some researchers have identified the planet Kepler-296e as potentially habitable, it's unlikely that humanity will be able to take advantage of its favorable conditions anytime soon—it's 737 light years away. ______ humanity must first focus on making planets within our solar system more habitable.",
     "choices": [
       {
         "id": "A",
@@ -826,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -836,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_24",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe Tres Zapotes archaeological site is located in our home state of Veracruz, Mexico. ______ an 8.5-ton stone statue of a human head was left behind by the ancient Olmec civilization. In the nearby state of Tabasco was another stone statue that weighs 19.8 tons.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe Tres Zapotes archaeological site is located in our home state of Veracruz, Mexico. ______ an 8.5-ton stone statue of a human head was left behind by the ancient Olmec civilization. In the nearby state of Tabasco was another stone statue that weighs 19.8 tons.",
     "choices": [
       {
         "id": "A",
@@ -862,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -872,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_25",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn a 1948 article titled \u201cThe Language of Lines,\u201d Brazilian photographer Jos\u00e9 Yalenti argued that black-and-white photography's distinctive\u2014and in his view, superior\u2014use of lines is what elevates the medium to the status of fine art. ______ Yalenti insisted that conveying perspective through linear forms is photography's \u201cindisputable and exclusive domain,\u201d creating a visual language surpassing even celebrated painters' works.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn a 1948 article titled “The Language of Lines,” Brazilian photographer José Yalenti argued that black-and-white photography's distinctive—and in his view, superior—use of lines is what elevates the medium to the status of fine art. ______ Yalenti insisted that conveying perspective through linear forms is photography's “indisputable and exclusive domain,” creating a visual language surpassing even celebrated painters' works.",
     "choices": [
       {
         "id": "A",
@@ -898,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -908,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_26",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "The student wants to emphasize the combined deadweight tonnage of the Bahamas\u02bc merchant ships in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A merchant ship is any ship hired to carry cargo or passengers.\n\u2022 A ship\u02bcs carrying capacity is also known as its deadweight tonnage (DWT).\n\u2022 In 2021, there were a total of 1,323 merchant ships registered in the Bahamas.\n\u2022 The combined DWT of these ships was 74.3 million tons.\n\nThe student wants to emphasize the combined deadweight tonnage of the Bahamas\u02bc merchant ships in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the combined deadweight tonnage of the Bahamasʼ merchant ships in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A merchant ship is any ship hired to carry cargo or passengers.\n• A shipʼs carrying capacity is also known as its deadweight tonnage (DWT).\n• In 2021, there were a total of 1,323 merchant ships registered in the Bahamas.\n• The combined DWT of these ships was 74.3 million tons.",
     "choices": [
       {
         "id": "A",
@@ -924,17 +921,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Combined, the Bahamas\u02bc merchant ships had a deadweight tonnage of 74.3 million tons in 2021."
+        "text": "Combined, the Bahamasʼ merchant ships had a deadweight tonnage of 74.3 million tons in 2021."
       },
       {
         "id": "D",
-        "text": "There were a total of 1,323 merchant ships\u2014ships hired to carry cargo or passengers\u2014registered in the Bahamas in 2021."
+        "text": "There were a total of 1,323 merchant ships—ships hired to carry cargo or passengers—registered in the Bahamas in 2021."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -944,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_27",
     "testName": "November 2025 International Form B SAT English Module 1",
-    "text": "The student wants to support Browner\u02bcs claim about Louis Ballard\u02bcs compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Louis Ballard was a classical composer and citizen of the Quapaw Tribe.\n\u2022 Ballard\u02bcs composition Desert Trilogy was nominated for the Pulitzer Prize in music in 1971.\n\u2022 His composition Devil\u02bcs Promenade incorporates a Seneca cow-horn rattle, a traditional Native instrument.\n\u2022 Ethnomusicologist Tara Browner claims that Ballard\u02bcs compositions rely on elements originating within Native musical traditions.\n\nThe student wants to support Browner\u02bcs claim about Louis Ballard\u02bcs compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to support Brownerʼs claim about Louis Ballardʼs compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Louis Ballard was a classical composer and citizen of the Quapaw Tribe.\n• Ballardʼs composition Desert Trilogy was nominated for the Pulitzer Prize in music in 1971.\n• His composition Devilʼs Promenade incorporates a Seneca cow-horn rattle, a traditional Native instrument.\n• Ethnomusicologist Tara Browner claims that Ballardʼs compositions rely on elements originating within Native musical traditions.",
     "choices": [
       {
         "id": "A",
@@ -956,21 +953,21 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Classical composer Louis Ballard, who wrote Devil\u02bcs Promenade, was nominated for the Pulitzer Prize in music in 1971."
+        "text": "Classical composer Louis Ballard, who wrote Devilʼs Promenade, was nominated for the Pulitzer Prize in music in 1971."
       },
       {
         "id": "C",
-        "text": "Browner posits that Louis Ballard\u02bcs compositions rely on elements originating within Native musical traditions; Devil\u02bcs Promenade affirms this assertion, incorporating a Seneca cow-horn rattle."
+        "text": "Browner posits that Louis Ballardʼs compositions rely on elements originating within Native musical traditions; Devilʼs Promenade affirms this assertion, incorporating a Seneca cow-horn rattle."
       },
       {
         "id": "D",
-        "text": "Browner claims that Louis Ballard\u02bcs compositions, one of which was nominated for the Pulitzer Prize, rely on elements originating within Native musical traditions."
+        "text": "Browner claims that Louis Ballardʼs compositions, one of which was nominated for the Pulitzer Prize, rely on elements originating within Native musical traditions."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

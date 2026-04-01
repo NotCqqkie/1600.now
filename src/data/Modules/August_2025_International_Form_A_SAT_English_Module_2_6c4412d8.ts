@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_1",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nStudying menus from nineteenth-century restaurants, old coupons clipped out of newspapers, and posters promoting concerts by long-forgotten musicians may seem like a frivolous pursuit, but ephemeral objects like these are useful as evidence of cultural change: they can ______ shifts in norms, values, and concerns that traditional objects of historical inquiry may not.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nStudying menus from nineteenth-century restaurants, old coupons clipped out of newspapers, and posters promoting concerts by long-forgotten musicians may seem like a frivolous pursuit, but ephemeral objects like these are useful as evidence of cultural change: they can ______ shifts in norms, values, and concerns that traditional objects of historical inquiry may not.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_2",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn the architectural process called modular construction, a building is manufactured in modules under controlled conditions and then assembled at its intended location. ______ of this approach cite the production of less material waste and a faster return on investment.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn the architectural process called modular construction, a building is manufactured in modules under controlled conditions and then assembled at its intended location. ______ of this approach cite the production of less material waste and a faster return on investment.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_3",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nRun by researchers in Europe, the Survey of Health, Ageing, and Retirement in Europe (SHARE) is an examination of aging that has attempted to track approximately 120,000 people for several years. Long-running studies like this need a lot of participants not merely for statistical robustness but also because of ______ : over such a length of time, a substantial number of participants will withdraw or fall out of contact with the researchers.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nRun by researchers in Europe, the Survey of Health, Ageing, and Retirement in Europe (SHARE) is an examination of aging that has attempted to track approximately 120,000 people for several years. Long-running studies like this need a lot of participants not merely for statistical robustness but also because of ______ : over such a length of time, a substantial number of participants will withdraw or fall out of contact with the researchers.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_4",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome ethicists challenge the concept of personal character, claiming that if it were meaningful, situational factors could not, as they clearly can, induce behavior contrary to that character. As Rachana Kamtekar observes, this argument is difficult to reconcile with our lay conception of character: we expect a person of helpful character to be frequently helpful, not ______ helpful.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome ethicists challenge the concept of personal character, claiming that if it were meaningful, situational factors could not, as they clearly can, induce behavior contrary to that character. As Rachana Kamtekar observes, this argument is difficult to reconcile with our lay conception of character: we expect a person of helpful character to be frequently helpful, not ______ helpful.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_5",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nThe Reckoning and Resilience (2022) exhibition at Duke University\u2019s Nasher Museum of Art in Durham, North Carolina, was curated to feature the work of thirty North Carolina artists. The included artists represent a wide variety of artistic disciplines, from painters such as Juan Logan to the sculptor Stephen Hayes. In its inclusion of many borrowed works, the exhibition is atypical for the Nasher Museum, which tends to curate its exhibitions around the permanent collection of contemporary art that it owns.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nThe Reckoning and Resilience (2022) exhibition at Duke University’s Nasher Museum of Art in Durham, North Carolina, was curated to feature the work of thirty North Carolina artists. The included artists represent a wide variety of artistic disciplines, from painters such as Juan Logan to the sculptor Stephen Hayes. In its inclusion of many borrowed works, the exhibition is atypical for the Nasher Museum, which tends to curate its exhibitions around the permanent collection of contemporary art that it owns.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_6",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe Heege Manuscript (HM) is a collection of booklets of once-unbound paper sheets on which Richard Heege copied various texts at his fifteenth-century home between Derbyshire and Nottinghamshire in England. Most other contemporaneous personal manuscripts like the Findern Anthology (FA) consist primarily of pieces by celebrated medieval authors like Hoccleve and other readings favored by elites, whereas the HM has a distinctive emphasis on the popular, including entertainments like crude comedies, and the practical, with advice about manners.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe Heege Manuscript (HM) is a collection of booklets of once-unbound paper sheets on which Richard Heege copied various texts at his fifteenth-century home between Derbyshire and Nottinghamshire in England. Most other contemporaneous personal manuscripts like the Findern Anthology (FA) consist primarily of pieces by celebrated medieval authors like Hoccleve and other readings favored by elites, whereas the HM has a distinctive emphasis on the popular, including entertainments like crude comedies, and the practical, with advice about manners.",
     "choices": [
       {
         "id": "A",
@@ -201,17 +201,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "To provide context for the text\u2019s suggestion that the HM is an outlier among collections of its time."
+        "text": "To provide context for the text’s suggestion that the HM is an outlier among collections of its time."
       },
       {
         "id": "D",
-        "text": "To illustrate how the discussion of the HM earlier in the text can improve historians\u2019 understanding of the FA."
+        "text": "To illustrate how the discussion of the HM earlier in the text can improve historians’ understanding of the FA."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_7",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?\nText 1 is T.L. Hulme\u2019s 1912 poem \u201cAbove the Dock.\u201d Text 2 is from Amy Lowell\u2019s 1912 poem \u201cThe Crescent Moon.\u201d\nText 1\nAbove the quiet dock in midnight,\nTangled in the tall mast\u2019s corded height,\nHangs the moon. What seemed so far away\nIs but a child\u2019s balloon, forgotten after play.\nText 2\nSlipping softly through the sky\nLittle horned, happy moon,\nCan you hear me up so high?\nWill you come down soon?\n\nWhich choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?",
+    "text": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?\nText 1 is T.L. Hulme’s 1912 poem “Above the Dock.” Text 2 is from Amy Lowell’s 1912 poem “The Crescent Moon.”\nText 1\nAbove the quiet dock in midnight,\nTangled in the tall mast’s corded height,\nHangs the moon. What seemed so far away\nIs but a child’s balloon, forgotten after play.\nText 2\nSlipping softly through the sky\nLittle horned, happy moon,\nCan you hear me up so high?\nWill you come down soon?",
     "choices": [
       {
         "id": "A",
@@ -233,7 +233,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "While both speakers present the moon as a tangible object, only the speaker of Text 1 addresses the moon\u2019s beauty."
+        "text": "While both speakers present the moon as a tangible object, only the speaker of Text 1 addresses the moon’s beauty."
       },
       {
         "id": "C",
@@ -241,13 +241,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "While the speaker of Text 1 presents the moon as seeming to be very close, the speaker of Text 2 emphasizes the moon\u2019s distance from the speaker."
+        "text": "While the speaker of Text 1 presents the moon as seeming to be very close, the speaker of Text 2 emphasizes the moon’s distance from the speaker."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -256,20 +256,20 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_8",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nMauricio Drelichman and Hans-Joachim Voth\u2019s research into the debt defaults of Philip II (who ruled an empire including Spain and much of Belgium from 1556 to 1598) relates to other work on European early modern state finance, including Hoffman and Norberg\u2019s research on the relationship between state finance and political development. But Drelichman and Voth\u2019s unique contribution to the field is their reconstruction of the earliest extant set of annual fiscal records for any sovereign state, demonstrating in turn that Philip\u2019s defaults were caused by short-term cash shortages, not long-term unsustainable debts.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nMauricio Drelichman and Hans-Joachim Voth’s research into the debt defaults of Philip II (who ruled an empire including Spain and much of Belgium from 1556 to 1598) relates to other work on European early modern state finance, including Hoffman and Norberg’s research on the relationship between state finance and political development. But Drelichman and Voth’s unique contribution to the field is their reconstruction of the earliest extant set of annual fiscal records for any sovereign state, demonstrating in turn that Philip’s defaults were caused by short-term cash shortages, not long-term unsustainable debts.",
     "choices": [
       {
         "id": "A",
-        "text": "Analysis of the earliest available records of a sovereign state\u2019s finances can be found not in the work of Hoffman and Norberg but in that of Drelichman and Voth."
+        "text": "Analysis of the earliest available records of a sovereign state’s finances can be found not in the work of Hoffman and Norberg but in that of Drelichman and Voth."
       },
       {
         "id": "B",
-        "text": "Drelichman and Voth advanced the field of research on European early modern state finance by assembling a novel collection of evidence that gave them insight into Philip II\u2019s debt defaults."
+        "text": "Drelichman and Voth advanced the field of research on European early modern state finance by assembling a novel collection of evidence that gave them insight into Philip II’s debt defaults."
       },
       {
         "id": "C",
@@ -277,31 +277,31 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Drelichman and Voth\u2019s research on Philip II\u2019s debt defaults builds on earlier work by Hoffman and Norberg, adding nuance to the earlier work\u2019s findings."
+        "text": "Drelichman and Voth’s research on Philip II’s debt defaults builds on earlier work by Hoffman and Norberg, adding nuance to the earlier work’s findings."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Central Ideas and Details",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_9",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice best describes what happens in the text?\nThe following text is adapted from William Shakespeare\u2019s 1597 play The Tragedy of King Richard III. Richard is reflecting on the recent arrest of his brother, the Duke of Clarence, on suspicion of treason against King Edward IV. Derby, Hastings, Buckingham, Rivers, Dorset, and Grey are also members of the English nobility. RICHARD: I do the wrong, and first begin to brawl.\nThe secret mischiefs that I set [flowing]\nI lay unto the grievous charge of others.\nClarence, whom I indeed have cast in darkness,\nI do beweep to many simple [gullible people],\nNamely, to Derby, Hastings, Buckingham;\nAnd tell them \u2019tis the Queen and her allies\nThat stir the King against the Duke my brother.\nNow they believe it, and withal whet me\nTo be revenged on Rivers, Dorset, Grey.\n\nWhich choice best describes what happens in the text?",
+    "text": "Which choice best describes what happens in the text?\nThe following text is adapted from William Shakespeare’s 1597 play The Tragedy of King Richard III. Richard is reflecting on the recent arrest of his brother, the Duke of Clarence, on suspicion of treason against King Edward IV. Derby, Hastings, Buckingham, Rivers, Dorset, and Grey are also members of the English nobility. RICHARD: I do the wrong, and first begin to brawl.\nThe secret mischiefs that I set [flowing]\nI lay unto the grievous charge of others.\nClarence, whom I indeed have cast in darkness,\nI do beweep to many simple [gullible people],\nNamely, to Derby, Hastings, Buckingham;\nAnd tell them ’tis the Queen and her allies\nThat stir the King against the Duke my brother.\nNow they believe it, and withal whet me\nTo be revenged on Rivers, Dorset, Grey.",
     "choices": [
       {
         "id": "A",
-        "text": "Richard attributes Clarence\u2019s troubles to both his own secret plotting and the distrust of Clarence that the queen and her allies Derby, Hastings, and Buckingham have planted in the king\u2019s mind."
+        "text": "Richard attributes Clarence’s troubles to both his own secret plotting and the distrust of Clarence that the queen and her allies Derby, Hastings, and Buckingham have planted in the king’s mind."
       },
       {
         "id": "B",
@@ -313,15 +313,15 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Richard indicates that he has pretended to be aggrieved about Clarence\u2019s situation and has proclaimed it to be the fault of the queen and her allies, but in reality, he has caused the hostility the king feels toward Clarence."
+        "text": "Richard indicates that he has pretended to be aggrieved about Clarence’s situation and has proclaimed it to be the fault of the queen and her allies, but in reality, he has caused the hostility the king feels toward Clarence."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_10",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is writing a research paper on the global rise of the home video game industry during the 1970s and 1980s. The student is surprised by differences in the number of units sold by some systems compared to those sold by others. Most remarkably, the ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is writing a research paper on the global rise of the home video game industry during the 1970s and 1980s. The student is surprised by differences in the number of units sold by some systems compared to those sold by others. Most remarkably, the ______",
     "choices": [
       {
         "id": "A",
@@ -355,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Aug_25_IntlA_Eng_M2_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_11",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which finding, if true, would most directly weaken Schober\u2019s hypothesis?\nIn what is now southern Florida, the Calusa people (circa 1000\u20131600 CE) supported their relatively large population\u2019s dietary needs with hydrological engineering rather than terrestrial farming methods. They constructed watercourts (gated coastal enclosures) out of shells and sediments to trap a variety of fish as waters rose and fell with tides and seasonal sea-level shifts; watercourt pools then held the fish for later consumption. Archaeologist Theresa Schober has posited an additional purpose of these enclosures, suggesting that they were intended to foster conch. She ties this hypothesis to the high value the sea snails would have had for the Calusa, both nutritionally and as a building material (conch shells are highly durable).\n\nWhich finding, if true, would most directly weaken Schober\u2019s hypothesis?",
+    "text": "Which finding, if true, would most directly weaken Schober’s hypothesis?\nIn what is now southern Florida, the Calusa people (circa 1000–1600 CE) supported their relatively large population’s dietary needs with hydrological engineering rather than terrestrial farming methods. They constructed watercourts (gated coastal enclosures) out of shells and sediments to trap a variety of fish as waters rose and fell with tides and seasonal sea-level shifts; watercourt pools then held the fish for later consumption. Archaeologist Theresa Schober has posited an additional purpose of these enclosures, suggesting that they were intended to foster conch. She ties this hypothesis to the high value the sea snails would have had for the Calusa, both nutritionally and as a building material (conch shells are highly durable).",
     "choices": [
       {
         "id": "A",
@@ -392,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -402,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_12",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice best describes data from the table that support the researchers\u2019 conclusion?\nThe mating environment hypothesis predicts that populations of flowering plants compensate for reduced mating opportunities due to dichogamy (a plant\u2019s expression of male and female functions at separate times to prevent self-pollination) by adjusting the bias of floral sex allocation during the flowering period, increasing the probability of successful cross-plant pollination. Researchers tested the hypothesis by examining a population of broadleaf arrowhead, a plant for which bloom onset generally takes longer for male flowers than for female flowers, during the flowering season. They concluded that the mating environment hypothesis is not well supported by their observational data.\n\nWhich choice best describes data from the table that support the researchers\u2019 conclusion?",
+    "text": "Which choice best describes data from the table that support the researchers’ conclusion?\nThe mating environment hypothesis predicts that populations of flowering plants compensate for reduced mating opportunities due to dichogamy (a plant’s expression of male and female functions at separate times to prevent self-pollination) by adjusting the bias of floral sex allocation during the flowering period, increasing the probability of successful cross-plant pollination. Researchers tested the hypothesis by examining a population of broadleaf arrowhead, a plant for which bloom onset generally takes longer for male flowers than for female flowers, during the flowering season. They concluded that the mating environment hypothesis is not well supported by their observational data.",
     "choices": [
       {
         "id": "A",
@@ -422,28 +421,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Although sex allocations became overwhelmingly female biased by day 20, male flowers\u2019 estimated reproductive success rate did not vary from day 5 to 20."
+        "text": "Although sex allocations became overwhelmingly female biased by day 20, male flowers’ estimated reproductive success rate did not vary from day 5 to 20."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Aug_25_IntlA_Eng_M2_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_13",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nAlthough Grant Tavinor concludes that computer games are art by virtue of their forming a subcategory of fiction, and Berys Gaut similarly places them within the realm of cinema, neither approach adequately captures a central aspect of playing these games: when the player no longer attends to the narrative and is instead simply absorbed in the instrumentalities of gameplay. This is among the reasons philosopher C. Thi Nguyen contends that the work of computer-game designers is in what he calls the medium of player agency, which the designer prescribes through rules and goals, and which elicits positive aesthetic experiences in the player who agrees to adopt it. Therefore, Nguyen's position is that Tavinor's and Gaut's frameworks ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nAlthough Grant Tavinor concludes that computer games are art by virtue of their forming a subcategory of fiction, and Berys Gaut similarly places them within the realm of cinema, neither approach adequately captures a central aspect of playing these games: when the player no longer attends to the narrative and is instead simply absorbed in the instrumentalities of gameplay. This is among the reasons philosopher C. Thi Nguyen contends that the work of computer-game designers is in what he calls the medium of player agency, which the designer prescribes through rules and goals, and which elicits positive aesthetic experiences in the player who agrees to adopt it. Therefore, Nguyen's position is that Tavinor's and Gaut's frameworks ______",
     "choices": [
       {
         "id": "A",
@@ -465,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -475,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_14",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nAs observed in a 2011 study by Emilio Garc\u00eda-Robledo and Alfonso Corzo, macroalgal proliferation may have a suppressive effect on the abundance of cyanobacteria and other microphytobenthos (MPB)\u2014chlorophyll-producing microbes inhabiting marine sediment\u2014in part by reducing the amount of sunlight available to MPB. Examining benthic chlorophyll concentrations (a widely used proxy for MPB biomass) in mudflats in Curlew Bay and other coastal sites in Virginia, Alice F. Besterman and Michael L. Pace found that those concentrations did not negatively correlate with macroalgal proliferation. However, they noted that MPB may respond to low-light conditions by producing higher-than-normal concentrations of chlorophyll, and they thus concluded that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nAs observed in a 2011 study by Emilio García-Robledo and Alfonso Corzo, macroalgal proliferation may have a suppressive effect on the abundance of cyanobacteria and other microphytobenthos (MPB)—chlorophyll-producing microbes inhabiting marine sediment—in part by reducing the amount of sunlight available to MPB. Examining benthic chlorophyll concentrations (a widely used proxy for MPB biomass) in mudflats in Curlew Bay and other coastal sites in Virginia, Alice F. Besterman and Michael L. Pace found that those concentrations did not negatively correlate with macroalgal proliferation. However, they noted that MPB may respond to low-light conditions by producing higher-than-normal concentrations of chlorophyll, and they thus concluded that ______",
     "choices": [
       {
         "id": "A",
@@ -487,7 +485,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "although their finding was inconsistent with that of Garc\u00eda-Robledo and Corzo, this discrepancy was not attributable to the ability of MPB to accelerate chlorophyll production to mitigate the negative impact of macroalgal accumulations."
+        "text": "although their finding was inconsistent with that of García-Robledo and Corzo, this discrepancy was not attributable to the ability of MPB to accelerate chlorophyll production to mitigate the negative impact of macroalgal accumulations."
       },
       {
         "id": "C",
@@ -495,13 +493,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "the effect of macroalgal concentrations on MPB abundance that Garc\u00eda-Robledo and Corzo reported was not observed in Curlew Bay and other Virginia sites because low-light conditions likely are not generalizable across the sites in the studies."
+        "text": "the effect of macroalgal concentrations on MPB abundance that García-Robledo and Corzo reported was not observed in Curlew Bay and other Virginia sites because low-light conditions likely are not generalizable across the sites in the studies."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -510,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_15",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nNeuroscientist Artin Arshamian and his team sought to determine what affects a person\u2019s perception of an odor as pleasant: is it culture, personal taste, or aspects of human anatomy? The team assessed odor preferences in ten groups of people with different modes of living (urban, agricultural, and hunter-gatherer) including the Maniq people from a small community in Thailand and the Seri people from a small community in Mexico. The team observed that across cultures, people generally rated odors about the same: ethyl butyrate, which smells like peaches, was typically rated more pleasant than diethyl disulfide, which smells like garlic. The team\u2019s study thus undermined the idea that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nNeuroscientist Artin Arshamian and his team sought to determine what affects a person’s perception of an odor as pleasant: is it culture, personal taste, or aspects of human anatomy? The team assessed odor preferences in ten groups of people with different modes of living (urban, agricultural, and hunter-gatherer) including the Maniq people from a small community in Thailand and the Seri people from a small community in Mexico. The team observed that across cultures, people generally rated odors about the same: ethyl butyrate, which smells like peaches, was typically rated more pleasant than diethyl disulfide, which smells like garlic. The team’s study thus undermined the idea that ______",
     "choices": [
       {
         "id": "A",
@@ -537,9 +535,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -547,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_16",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nMany studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water undisturbed by human activity. But St\u00e9phane Gu\u00e9dron, Delphine Tisserand, and colleagues did not find this correlation in an examination of freshwater bodies impacted by wastewater, leading some scientists to hypothesize that the association could be particular to undisturbed waters. However, Ida Tjerngren and colleagues carried out a study on freshwater bodies disturbed by urban development that showed similar results to the studies on undisturbed waters, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nMany studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water undisturbed by human activity. But Stéphane Guédron, Delphine Tisserand, and colleagues did not find this correlation in an examination of freshwater bodies impacted by wastewater, leading some scientists to hypothesize that the association could be particular to undisturbed waters. However, Ida Tjerngren and colleagues carried out a study on freshwater bodies disturbed by urban development that showed similar results to the studies on undisturbed waters, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -559,7 +557,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Gu\u00e9dron, Tisserand, and colleagues\u2019 study used different methods to measure the concentration of mercury in fresh water than Tjerngren and colleagues\u2019 study did."
+        "text": "Guédron, Tisserand, and colleagues’ study used different methods to measure the concentration of mercury in fresh water than Tjerngren and colleagues’ study did."
       },
       {
         "id": "C",
@@ -573,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -583,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_17",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBranching in Jurisprudential Schools is one of the hundreds of thousands of manuscripts that have survived from roughly the sixteenth century to the present ______ being passed down through private libraries in the city of Timbuktu, Mali. Many of these manuscripts can be found at the Al-Wangari Manuscript Library.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBranching in Jurisprudential Schools is one of the hundreds of thousands of manuscripts that have survived from roughly the sixteenth century to the present ______ being passed down through private libraries in the city of Timbuktu, Mali. Many of these manuscripts can be found at the Al-Wangari Manuscript Library.",
     "choices": [
       {
         "id": "A",
@@ -609,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -619,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_18",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe terms included in Barry Lopez and Debra Gwartney\u2019s Home Ground: A Guide to the American ______ such as \u201ckarst,\u201d which refers to limestone terrain riddled with caves or sinkholes\u2014illustrate the rich vocabulary used to describe the landforms of North America.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe terms included in Barry Lopez and Debra Gwartney’s Home Ground: A Guide to the American ______ such as “karst,” which refers to limestone terrain riddled with caves or sinkholes—illustrate the rich vocabulary used to describe the landforms of North America.",
     "choices": [
       {
         "id": "A",
@@ -635,7 +633,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Landscape \u2014"
+        "text": "Landscape —"
       },
       {
         "id": "D",
@@ -645,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -654,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_19",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFollowing the formation of the European Union (EU) that same year, the organizers of the 1992 Tour de France wanted the bike race to reflect the cross-national flow of people and trade that the EU had made possible. The resulting course was 2,500 miles long ______ seven separate borders of neighboring countries, modeled a vision of the EU's unifying aims.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFollowing the formation of the European Union (EU) that same year, the organizers of the 1992 Tour de France wanted the bike race to reflect the cross-national flow of people and trade that the EU had made possible. The resulting course was 2,500 miles long ______ seven separate borders of neighboring countries, modeled a vision of the EU's unifying aims.",
     "choices": [
       {
         "id": "A",
@@ -681,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_20",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs part of his I GOT UP series, Japanese conceptual artist On Kawara spent over a decade\u2014with near daily consistency\u2014mailing postcards to friends declaring what time he got up each day, resulting in pieces such as I Got Up at 7.19 A.M., Jun 6 1977. Such meticulous documentation of mundane ______ artworks that \u201cresonate with existential, psychological and scientific implications about the time-space continuum,\u201d according to the New York Times, became Kawara\u2019s life\u2019s work.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs part of his I GOT UP series, Japanese conceptual artist On Kawara spent over a decade—with near daily consistency—mailing postcards to friends declaring what time he got up each day, resulting in pieces such as I Got Up at 7.19 A.M., Jun 6 1977. Such meticulous documentation of mundane ______ artworks that “resonate with existential, psychological and scientific implications about the time-space continuum,” according to the New York Times, became Kawara’s life’s work.",
     "choices": [
       {
         "id": "A",
@@ -717,9 +715,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_21",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFor her film I Am Somebody (1970), a documentary about a successful months-long strike held by Black female hospital workers in Charleston, South Carolina, director Madeline Anderson chose a narrator who had participated in the ______ by allowing the narrative to be shaped by one of their own, amplified the agency and power the workers possessed.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFor her film I Am Somebody (1970), a documentary about a successful months-long strike held by Black female hospital workers in Charleston, South Carolina, director Madeline Anderson chose a narrator who had participated in the ______ by allowing the narrative to be shaped by one of their own, amplified the agency and power the workers possessed.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_22",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nAt a time when many women writers used male pseudonyms to gain greater freedom of self-expression by evading gender conventions, Katherine Bradley and Edith Cooper adapted the practice by publishing poetry, prose, and drama for four decades under the shared name Michael Field. ______ the duo was able to express the joint creative vision that sustained their long personal and professional partnership.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAt a time when many women writers used male pseudonyms to gain greater freedom of self-expression by evading gender conventions, Katherine Bradley and Edith Cooper adapted the practice by publishing poetry, prose, and drama for four decades under the shared name Michael Field. ______ the duo was able to express the joint creative vision that sustained their long personal and professional partnership.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_23",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn a 2005 study by Mellado et al., the researchers\u2019 aim was to analyze the diet composition of cattle in Coahuila, Mexico. ______ they aimed to analyze the ratio of three different plant subtypes within these animals\u2019 diet: graminoids, forbs, and browse.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn a 2005 study by Mellado et al., the researchers’ aim was to analyze the diet composition of cattle in Coahuila, Mexico. ______ they aimed to analyze the ratio of three different plant subtypes within these animals’ diet: graminoids, forbs, and browse.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_24",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nJohn Quincy Adams employed the pseudonym \u201cMarcellus\u201d\u2014a reference to a leader of an ancient Roman army\u2014in political essays he wrote in 1793, a choice that accomplished far more than simply concealing his authorship. ______ it wasn\u2019t an arbitrary pen name but rather a complex rhetorical strategy through which Adams aligned his political views with the venerated republican ideals of the ancient world, thereby bolstering the authority of his writing.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nJohn Quincy Adams employed the pseudonym “Marcellus”—a reference to a leader of an ancient Roman army—in political essays he wrote in 1793, a choice that accomplished far more than simply concealing his authorship. ______ it wasn’t an arbitrary pen name but rather a complex rhetorical strategy through which Adams aligned his political views with the venerated republican ideals of the ancient world, thereby bolstering the authority of his writing.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_25",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "The student wants to refute a claim that apricots are a better source of vitamin C than kale is. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Kale is a vegetable that contains ascorbic acid, an essential nutrient for humans.\n\u2022 Apricots are fruits that contain ascorbic acid.\n\u2022 There is 120 milligrams (mg) of ascorbic acid per every 100 grams (g) of kale.\n\u2022 There is 10 mg of ascorbic acid per every 100 g of apricot.\n\u2022 Humans cannot make ascorbic acid in their bodies, so they must get it from foods, including fruits and vegetables.\n\u2022 Ascorbic acid is also known as vitamin C.\n\nThe student wants to refute a claim that apricots are a better source of vitamin C than kale is. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to refute a claim that apricots are a better source of vitamin C than kale is. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Kale is a vegetable that contains ascorbic acid, an essential nutrient for humans.\n• Apricots are fruits that contain ascorbic acid.\n• There is 120 milligrams (mg) of ascorbic acid per every 100 grams (g) of kale.\n• There is 10 mg of ascorbic acid per every 100 g of apricot.\n• Humans cannot make ascorbic acid in their bodies, so they must get it from foods, including fruits and vegetables.\n• Ascorbic acid is also known as vitamin C.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_26",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to provide an example of a SNOTEL site?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Snow hydrologist Julie Koeberle helps maintain automated snow measurement stations.\n\u2022 They are called SNOTEL sites.\n\u2022 There are around 90 stations throughout Wyoming.\n\u2022 One is at Bear Trap Meadow.\n\u2022 The data collected can help researchers make downstream water supply predictions.\n\nWhich choice most effectively uses information from the given sentences to provide an example of a SNOTEL site?",
+    "text": "Which choice most effectively uses information from the given sentences to provide an example of a SNOTEL site?\nWhile researching a topic, a student has taken the following notes:\n• Snow hydrologist Julie Koeberle helps maintain automated snow measurement stations.\n• They are called SNOTEL sites.\n• There are around 90 stations throughout Wyoming.\n• One is at Bear Trap Meadow.\n• The data collected can help researchers make downstream water supply predictions.",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_27",
     "testName": "August 2025 International Form A SAT English Module 2",
-    "text": "The student wants to explain why nautical miles are used to measure distances in seafaring navigation. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The nautical mile (6,076 feet) is the measure of distance used in seafaring navigation.\n\u2022 A nautical mile directly correlates to one minute (1/60th of a degree) of latitude.\n\u2022 The curvature of Earth affects the accurate measurement of long distances when using flat maps.\n\u2022 Measuring distances with latitude and longitude coordinates takes into account Earth\u2019s curvature.\n\u2022 Mariners use nautical charts marked with latitude and longitude to quickly calculate distances and positions.\n\nThe student wants to explain why nautical miles are used to measure distances in seafaring navigation. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain why nautical miles are used to measure distances in seafaring navigation. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The nautical mile (6,076 feet) is the measure of distance used in seafaring navigation.\n• A nautical mile directly correlates to one minute (1/60th of a degree) of latitude.\n• The curvature of Earth affects the accurate measurement of long distances when using flat maps.\n• Measuring distances with latitude and longitude coordinates takes into account Earth’s curvature.\n• Mariners use nautical charts marked with latitude and longitude to quickly calculate distances and positions.",
     "choices": [
       {
         "id": "A",
@@ -955,21 +953,21 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Nautical charts use latitude and longitude to measure long distances; these charts are more accurate than flat maps for measuring distances in seafaring navigation because they account for Earth\u2019s curvature."
+        "text": "Nautical charts use latitude and longitude to measure long distances; these charts are more accurate than flat maps for measuring distances in seafaring navigation because they account for Earth’s curvature."
       },
       {
         "id": "C",
-        "text": "Since they directly correlate to the coordinates on nautical charts, which take into account Earth\u2019s curvature, nautical miles are an efficient way to calculate distances at sea."
+        "text": "Since they directly correlate to the coordinates on nautical charts, which take into account Earth’s curvature, nautical miles are an efficient way to calculate distances at sea."
       },
       {
         "id": "D",
-        "text": "Using nautical miles for navigation at sea takes Earth\u2019s curvature into account, whereas measuring distances with latitude and longitude coordinates does not."
+        "text": "Using nautical miles for navigation at sea takes Earth’s curvature into account, whereas measuring distances with latitude and longitude coordinates does not."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

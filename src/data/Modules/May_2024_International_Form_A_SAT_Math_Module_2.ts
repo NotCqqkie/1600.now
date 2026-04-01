@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_1",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_2",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -68,17 +68,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlA_Math_M2_Q2_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_3",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -105,17 +104,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "domain": "Algebra",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlA_Math_M2_Q3_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_4",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -143,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_5",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -179,19 +177,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_6",
     "testName": "May 2024 International Form A SAT Math Module 2",
-    "text": "The function P (x)= 533(1.011) x models the population of a certain town each year from 1951 through 1966, where x is the number of years after 1951. Which of the following is the best interpretation of\u201c P (5) is approximately equal to 563 \" in this context?",
+    "text": "The function P (x)= 533(1.011) x models the population of a certain town each year from 1951 through 1966, where x is the number of years after 1951. Which of the following is the best interpretation of“ P (5) is approximately equal to 563 \" in this context?",
     "choices": [
       {
         "id": "A",
@@ -215,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_7",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -251,16 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlA_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_8",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -288,15 +285,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_9",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -307,15 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_10",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -335,7 +332,7 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "3\uff0c456"
+        "text": "3，456"
       }
     ],
     "correctAnswer": "D",
@@ -343,35 +340,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_11",
     "testName": "May 2024 International Form A SAT Math Module 2",
-    "text": "Data set A: 8, 11, 12,15,21,27\nData set B: 9,12,13,16,22, h\nData sets A and B each consist of 6 values as shown, where h is a constant. If the standard deviation of data set A is greater than the standard deviation of data set B, which of the following could be the value of h?\n\u2160.23\n\u2161.28\n\u2162.29",
+    "text": "Data set A: 8, 11, 12,15,21,27\nData set B: 9,12,13,16,22, h\nData sets A and B each consist of 6 values as shown, where h is a constant. If the standard deviation of data set A is greater than the standard deviation of data set B, which of the following could be the value of h?\nⅠ.23\nⅡ.28\nⅢ.29",
     "choices": [
       {
         "id": "A",
-        "text": "\u2160 only"
+        "text": "Ⅰ only"
       },
       {
         "id": "B",
-        "text": "\u2161 only"
+        "text": "Ⅱ only"
       },
       {
         "id": "C",
-        "text": "\u2162 only"
+        "text": "Ⅲ only"
       },
       {
         "id": "D",
-        "text": "\u2161 or \u2162"
+        "text": "Ⅱ or Ⅲ"
       }
     ],
     "correctAnswer": "A",
@@ -379,15 +376,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_12",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -414,17 +411,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlA_Math_M2_Q12_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_13",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -435,15 +431,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_14",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -471,7 +467,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
@@ -479,27 +475,27 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_15",
     "testName": "May 2024 International Form A SAT Math Module 2",
-    "text": "A circle has diameters $\\overline{AC}$ and $\\overline{BD}$. The circumference of the circle is 84\u03c0, and the length of arc DA is 2 times the length of arc AB. What is the length of arc BC?",
+    "text": "A circle has diameters $\\overline{AC}$ and $\\overline{BD}$. The circumference of the circle is 84π, and the length of arc DA is 2 times the length of arc AB. What is the length of arc BC?",
     "choices": [
       {
         "id": "A",
-        "text": "2\u03c0"
+        "text": "2π"
       },
       {
         "id": "B",
-        "text": "14\u03c0"
+        "text": "14π"
       },
       {
         "id": "C",
-        "text": "21\u03c0"
+        "text": "21π"
       },
       {
         "id": "D",
-        "text": "28\u03c0"
+        "text": "28π"
       }
     ],
     "correctAnswer": "D",
@@ -514,27 +510,27 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_16",
     "testName": "May 2024 International Form A SAT Math Module 2",
-    "text": "In triangle XY Z, angle Y is a right angle, the measure of angle Z is 39\u00b0, and the length of $\\overline{YZ}$ is 22 units. lf the area, in square units, of triangle XY Z can be represented by the expression k tan 39\u00b0, where k is a constant, what is the value of k?",
+    "text": "In triangle XY Z, angle Y is a right angle, the measure of angle Z is 39°, and the length of $\\overline{YZ}$ is 22 units. lf the area, in square units, of triangle XY Z can be represented by the expression k tan 39°, where k is a constant, what is the value of k?",
     "choices": [],
     "correctAnswer": "242",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_17",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -562,7 +558,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
@@ -570,7 +566,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_18",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -588,8 +584,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_19",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -617,15 +613,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_20",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -653,15 +649,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_21",
     "testName": "May 2024 International Form A SAT Math Module 2",
@@ -689,35 +685,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_22",
     "testName": "May 2024 International Form A SAT Math Module 2",
-    "text": "In triangle ABC and triangle DEF, sides AB and DE each have a side length of 6 inches and angles A and D each have an angle measure of 40\u00b0. Which of the following additional pieces of information is(are) sufficient to prove whether triangle ABC is congruent to triangle DEF?\n\u2160. The measures of angles B and C are equal.\n\u2161. The lengths of sides AC and DF are equal.\n\u2162. The lengths of sides BC and EF are equal.",
+    "text": "In triangle ABC and triangle DEF, sides AB and DE each have a side length of 6 inches and angles A and D each have an angle measure of 40°. Which of the following additional pieces of information is(are) sufficient to prove whether triangle ABC is congruent to triangle DEF?\nⅠ. The measures of angles B and C are equal.\nⅡ. The lengths of sides AC and DF are equal.\nⅢ. The lengths of sides BC and EF are equal.",
     "choices": [
       {
         "id": "A",
-        "text": "\u2160 is sufficient,but \u2160 \u2160 and \u2162 are not."
+        "text": "Ⅰ is sufficient,but Ⅰ Ⅰ and Ⅲ are not."
       },
       {
         "id": "B",
-        "text": "\u2161 is sufficient,but \u2160 and \u2162 are not."
+        "text": "Ⅱ is sufficient,but Ⅰ and Ⅲ are not."
       },
       {
         "id": "C",
-        "text": "\u2162 is sufficient,but \u2160 and \u2161 are not."
+        "text": "Ⅲ is sufficient,but Ⅰ and Ⅱ are not."
       },
       {
         "id": "D",
-        "text": "\u2160 \u2160 is sufficient and \u2162 is sufficient,but \u2160 is not."
+        "text": "Ⅰ Ⅰ is sufficient and Ⅲ is sufficient,but Ⅰ is not."
       }
     ],
     "correctAnswer": "B",
@@ -725,7 +721,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   }

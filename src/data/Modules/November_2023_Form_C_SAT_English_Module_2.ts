@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_1",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhether the reign of a French monarch such as Francis II or Louis XI was considered historically significant or, conversely, relatively ______, its trajectory was shaped by questions of legitimacy and therefore cannot be understood without a corollary understanding of the factors that allowed the monarch to assert a claim to the throne successfully.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhether the reign of a French monarch such as Francis II or Louis XI was considered historically significant or, conversely, relatively ______, its trajectory was shaped by questions of legitimacy and therefore cannot be understood without a corollary understanding of the factors that allowed the monarch to assert a claim to the throne successfully.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_2",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn the 2010s, the price of vintage Teenage Mutant Ninja Turtles action figures rose dramatically, which had the counterintuitive effect of ______ demand: buyers who hadn't previously wanted to purchase old action figures thronged the market, believing prices would continue to rise and the toys could be resold later at a profit.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn the 2010s, the price of vintage Teenage Mutant Ninja Turtles action figures rose dramatically, which had the counterintuitive effect of ______ demand: buyers who hadn't previously wanted to purchase old action figures thronged the market, believing prices would continue to rise and the toys could be resold later at a profit.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_3",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nStudying wrappers from discontinued candies, menus from nineteenth-century restaurants, and flyers promoting long-forgotten sporting events may seem like a frivolous pursuit, but ephemeral objects like these are useful as markers of cultural change: they can ______ shifts in norms, values, and concerns that traditional objects of historical inquiry may not.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nStudying wrappers from discontinued candies, menus from nineteenth-century restaurants, and flyers promoting long-forgotten sporting events may seem like a frivolous pursuit, but ephemeral objects like these are useful as markers of cultural change: they can ______ shifts in norms, values, and concerns that traditional objects of historical inquiry may not.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_4",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\n______ though it seemed to many mathematicians, the Marden tameness conjecture, posed in 1974, eventually yielded to the efforts of Ian Agol, who presented a proof of it in 2004.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\n______ though it seemed to many mathematicians, the Marden tameness conjecture, posed in 1974, eventually yielded to the efforts of Ian Agol, who presented a proof of it in 2004.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_5",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nWhy do rusty-spotted cats purr but jaguars roar? Researchers hypothesize that this difference between the two feline species may be partly due to a U-shaped bone in their throats called the hyoid. Rusty-spotted cats, which are much smaller than jaguars, have a rigid hyoid that rumbles when the cat's larynx vibrates, resulting in a purr. By contrast, jaguars have a somewhat flexible hyoid, and the bone is attached to the skull with a stretchy ligament that rusty-spotted cats lack. These traits allow jaguars and most other species of big cats to produce powerful roars. The same traits may also prevent most big cats from purring.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nWhy do rusty-spotted cats purr but jaguars roar? Researchers hypothesize that this difference between the two feline species may be partly due to a U-shaped bone in their throats called the hyoid. Rusty-spotted cats, which are much smaller than jaguars, have a rigid hyoid that rumbles when the cat's larynx vibrates, resulting in a purr. By contrast, jaguars have a somewhat flexible hyoid, and the bone is attached to the skull with a stretchy ligament that rusty-spotted cats lack. These traits allow jaguars and most other species of big cats to produce powerful roars. The same traits may also prevent most big cats from purring.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_6",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\nScholarly interest in literary juvenilia\u2014writings by children and teenagers\u2014tends to focus on unpublished works by authors who became famous as adults, such as Charles Dickens's poem \"The Bill of Fare,\" which he wrote around the ages of 18-20, because they offer insights into their authors' artistic development. But some scholars also argue that recovering juvenilia by lesser-known writers is essential to understanding literary history: Daisy Ashford's novels, which she published as a child, were widely read by contemporaries and are therefore deserving of closer attention.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nScholarly interest in literary juvenilia—writings by children and teenagers—tends to focus on unpublished works by authors who became famous as adults, such as Charles Dickens's poem \"The Bill of Fare,\" which he wrote around the ages of 18-20, because they offer insights into their authors' artistic development. But some scholars also argue that recovering juvenilia by lesser-known writers is essential to understanding literary history: Daisy Ashford's novels, which she published as a child, were widely read by contemporaries and are therefore deserving of closer attention.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -219,13 +219,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_7",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "It can most reasonably be inferred from the text that the finding about the microorganism community composition was important for which reason?\nTo understand how temperature change affects microorganism-mediated cycling of soil nutrients in alpine ecosystems, Eva Kastovska et al. collected plant-soil cores in the Tatra Mountains at elevations around 2,100 meters and transplanted them to elevations of 1,700-1,800 meters, where the mean air temperature was warmer by 2\u00b0C. Microorganism-mediated nutrient cycling was accelerated in the transplanted cores; crucially, microorganism community composition was unchanged, allowing Kastovska et al. to attribute the acceleration to temperature-induced increases in microorganism activity.\n\nIt can most reasonably be inferred from the text that the finding about the microorganism community composition was important for which reason?",
+    "text": "It can most reasonably be inferred from the text that the finding about the microorganism community composition was important for which reason?\nTo understand how temperature change affects microorganism-mediated cycling of soil nutrients in alpine ecosystems, Eva Kastovska et al. collected plant-soil cores in the Tatra Mountains at elevations around 2,100 meters and transplanted them to elevations of 1,700-1,800 meters, where the mean air temperature was warmer by 2°C. Microorganism-mediated nutrient cycling was accelerated in the transplanted cores; crucially, microorganism community composition was unchanged, allowing Kastovska et al. to attribute the acceleration to temperature-induced increases in microorganism activity.",
     "choices": [
       {
         "id": "A",
@@ -247,9 +247,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_8",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Information in the text best supports which statement about hDNA?\nMichael G. Campana and colleagues relied on historical DNA (hDNA)\u2014genomic data incidentally preserved in specimens housed in natural history collections\u2014to investigate the evolutionary origins of a fungal pathogen affecting bats. Although this approach offers unique benefits, such as access to genomic data from extirpated populations, it remains a relatively underutilized resource because hDNA is often to some extent degraded, a situation not easily remediable under current methodological paradigms and with extant DNA extraction and analysis technologies.\n\nInformation in the text best supports which statement about hDNA?",
+    "text": "Information in the text best supports which statement about hDNA?\nMichael G. Campana and colleagues relied on historical DNA (hDNA)—genomic data incidentally preserved in specimens housed in natural history collections—to investigate the evolutionary origins of a fungal pathogen affecting bats. Although this approach offers unique benefits, such as access to genomic data from extirpated populations, it remains a relatively underutilized resource because hDNA is often to some extent degraded, a situation not easily remediable under current methodological paradigms and with extant DNA extraction and analysis technologies.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_9",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which quotation from an art history textbook would most effectively support the student's claim?\nIn a paper for an art history class, a student claims that Rosa Bonheur's 1855 painting *The Horse Fair* marks a significant change in Bonheur's artistic development.\n\nWhich quotation from an art history textbook would most effectively support the student's claim?",
+    "text": "Which quotation from an art history textbook would most effectively support the student's claim?\nIn a paper for an art history class, a student claims that Rosa Bonheur's 1855 painting *The Horse Fair* marks a significant change in Bonheur's artistic development.",
     "choices": [
       {
         "id": "A",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -327,13 +327,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_10",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which finding from the study, if true, would most directly support the team's conclusion?\nNeurobiologists Laura Cuaya, Raul Hernandez-Perez, and colleagues investigated the language detection abilities of eighteen dogs. The researchers monitored the brain activity of Kun-kun (a border collie), Bingo (a mixed breed), and other dogs while the animals listened to three recordings: one of *The Little Prince* being read in Spanish, the second in Hungarian, and a third made up of short, randomly selected fragments of the first two, scrambled so that they didn't resemble human speech. Each dog was familiar with either Spanish or Hungarian, but not both. The team concluded that differences in dogs\u2019 anatomical features may affect their ability to distinguish speech from nonspeech.\n\nWhich finding from the study, if true, would most directly support the team's conclusion?",
+    "text": "Which finding from the study, if true, would most directly support the team's conclusion?\nNeurobiologists Laura Cuaya, Raul Hernandez-Perez, and colleagues investigated the language detection abilities of eighteen dogs. The researchers monitored the brain activity of Kun-kun (a border collie), Bingo (a mixed breed), and other dogs while the animals listened to three recordings: one of *The Little Prince* being read in Spanish, the second in Hungarian, and a third made up of short, randomly selected fragments of the first two, scrambled so that they didn't resemble human speech. Each dog was familiar with either Spanish or Hungarian, but not both. The team concluded that differences in dogs’ anatomical features may affect their ability to distinguish speech from nonspeech.",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -365,33 +365,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_11",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which quotation from \u201cPoetry\u201d most effectively illustrates the claim?\n\u201cPoetry\u201d is a 1919 poem by Marianne Moore. The poem highlights an ambivalence toward poetry as the speaker acknowledges its merits while also expressing a sense of displeasure, writing ______\n\nWhich quotation from \u201cPoetry\u201d most effectively illustrates the claim?",
+    "text": "Which quotation from “Poetry” most effectively illustrates the claim?\n“Poetry” is a 1919 poem by Marianne Moore. The poem highlights an ambivalence toward poetry as the speaker acknowledges its merits while also expressing a sense of displeasure, writing ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cnor is it valid / to discriminate against business documents and / school-books'; all these phenomena are important.\u201d"
+        "text": "“nor is it valid / to discriminate against business documents and / school-books'; all these phenomena are important.”"
       },
       {
         "id": "B",
-        "text": "\u201cOne must make a distinction / however: when dragged into prominence by half poets, the result is not / poetry\u201d"
+        "text": "“One must make a distinction / however: when dragged into prominence by half poets, the result is not / poetry”"
       },
       {
         "id": "C",
-        "text": "\u201cwhen [poems] become so derivative as to become unintelligible, the / same thing may be said for all of us that we / do not admire what / we cannot understand\u201d"
+        "text": "“when [poems] become so derivative as to become unintelligible, the / same thing may be said for all of us that we / do not admire what / we cannot understand”"
       },
       {
         "id": "D",
-        "text": "\u201cReading [poetry], however, with a perfect contempt for it, one discovers that there is in / it after all, a place for the genuine.\u201d"
+        "text": "“Reading [poetry], however, with a perfect contempt for it, one discovers that there is in / it after all, a place for the genuine.”"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,33 +401,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_12",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which quotation from Cane most effectively illustrates the claim?\n*Cane* is a 1923 novel by Jean Toomer. In one portion of the novel, Toomer uses figurative language to connect the narrator's urban environment of Washington, DC, and the rural South of the narrator's past, writing, ______\n\nWhich quotation from Cane most effectively illustrates the claim?",
+    "text": "Which quotation from Cane most effectively illustrates the claim?\n*Cane* is a 1923 novel by Jean Toomer. In one portion of the novel, Toomer uses figurative language to connect the narrator's urban environment of Washington, DC, and the rural South of the narrator's past, writing, ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cThe [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.\u201d"
+        "text": "“The [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.”"
       },
       {
         "id": "B",
-        "text": "\u201cI sang, with a strange quiver in my voice, a promise-song.\u201d"
+        "text": "“I sang, with a strange quiver in my voice, a promise-song.”"
       },
       {
         "id": "C",
-        "text": "\u201cThe young trees had not outgrown their [planter] boxes then. V Street [in Washington, DC] was lined with them.\u201d"
+        "text": "“The young trees had not outgrown their [planter] boxes then. V Street [in Washington, DC] was lined with them.”"
       },
       {
         "id": "D",
-        "text": "\u201cAnd when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].\u201d"
+        "text": "“And when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].”"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -437,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_13",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice best describes data from the table that support Persad and her colleagues' conclusion?\nSome climate models for the western United States predict that while total annual precipitation may remain unchanged from the present level, precipitation will become concentrated into fewer but more intense rain and snow events. University of Texas climate scientist Geeta Persad and her colleagues simulated how the amount of water entering aquifers and the amount being used for irrigation purposes would change if this were to occur. Persad and her colleagues concluded that concentration of precipitation into fewer events would result in a higher number of dry days, triggering more irrigation, but that this change in irrigation output is highly sensitive to the baseline concentration of precipitation that currently exists in an area.\n\nWhich choice best describes data from the table that support Persad and her colleagues' conclusion?",
+    "text": "Which choice best describes data from the table that support Persad and her colleagues' conclusion?\nSome climate models for the western United States predict that while total annual precipitation may remain unchanged from the present level, precipitation will become concentrated into fewer but more intense rain and snow events. University of Texas climate scientist Geeta Persad and her colleagues simulated how the amount of water entering aquifers and the amount being used for irrigation purposes would change if this were to occur. Persad and her colleagues concluded that concentration of precipitation into fewer events would result in a higher number of dry days, triggering more irrigation, but that this change in irrigation output is highly sensitive to the baseline concentration of precipitation that currently exists in an area.",
     "choices": [
       {
         "id": "A",
@@ -463,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_23C_Eng_M2_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_14",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nShips in the British Royal Navy during the Napoleonic Wars (1803\u20131815) were ranked based on military strength. The system considered the number of a ship's cannons and decks. \u201cFirst-rate\u201d was the highest ranking, and \u201csixth-rate\u201d was the lowest ranking, followed by unranked ships. The size of a ship's crew was based on this ranking: first-rate ships had between 850 and 875 crewmen, while lower-ranked ships had fewer. Two of the ships in the British Royal Navy from this period were the *Boyne* (98 cannons and three decks) and the *Britannia* (120 cannons and three decks). Of these two, only the *Britannia* was ranked a first-rate ship. It can therefore be concluded that\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nShips in the British Royal Navy during the Napoleonic Wars (1803–1815) were ranked based on military strength. The system considered the number of a ship's cannons and decks. “First-rate” was the highest ranking, and “sixth-rate” was the lowest ranking, followed by unranked ships. The size of a ship's crew was based on this ranking: first-rate ships had between 850 and 875 crewmen, while lower-ranked ships had fewer. Two of the ships in the British Royal Navy from this period were the *Boyne* (98 cannons and three decks) and the *Britannia* (120 cannons and three decks). Of these two, only the *Britannia* was ranked a first-rate ship. It can therefore be concluded that",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_15",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nIn a 2018 study, Deepak Jaiswal and Rishi Kant found that consumers' knowledge of environmental issues had no effect on the likelihood that the consumers would purchase environmentally friendly products. Since this study was based on fewer than 400 young adults in India, however, doubts have been raised about how reliable and representative the findings are. To better understand the issue, Wencan Zhuang and colleagues analyzed the results of 54 studies of eco-friendly consumer behavior, such as a 2018 study from Indonesia that included 916 participants and a 2018 study from India with 202 participants. Taking all 54 studies together, Zhuang and colleagues found a significant positive effect of environmental knowledge on eco-friendly purchasing decisions, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nIn a 2018 study, Deepak Jaiswal and Rishi Kant found that consumers' knowledge of environmental issues had no effect on the likelihood that the consumers would purchase environmentally friendly products. Since this study was based on fewer than 400 young adults in India, however, doubts have been raised about how reliable and representative the findings are. To better understand the issue, Wencan Zhuang and colleagues analyzed the results of 54 studies of eco-friendly consumer behavior, such as a 2018 study from Indonesia that included 916 participants and a 2018 study from India with 202 participants. Taking all 54 studies together, Zhuang and colleagues found a significant positive effect of environmental knowledge on eco-friendly purchasing decisions, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_16",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Norway, the Longyearbyen observatory site monitors activity in the upper atmosphere of the northern ______ in Australia, another observatory site, Buckland Park, monitors the sky of the southern hemisphere. Together, they are part of the Super Dual Auroral Radar Network\u2014or SuperDARN, as space physicists like Tadahiko Ogawa call it.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Norway, the Longyearbyen observatory site monitors activity in the upper atmosphere of the northern ______ in Australia, another observatory site, Buckland Park, monitors the sky of the southern hemisphere. Together, they are part of the Super Dual Auroral Radar Network—or SuperDARN, as space physicists like Tadahiko Ogawa call it.",
     "choices": [
       {
         "id": "A",
@@ -572,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -582,15 +581,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_17",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nLong attributed to Jacques-Louis David, the preeminent Neoclassical painter of his day, the 1801 painting *Marie Josephine Charlotte du Val d'Ognes* gained fresh attention in the 1990s when art historians discovered that the painting, which depicts a solitary young woman sketching, was actually the work of little-known French portrait ______ Marie-Denise Villers (1774\u20131821).\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nLong attributed to Jacques-Louis David, the preeminent Neoclassical painter of his day, the 1801 painting *Marie Josephine Charlotte du Val d'Ognes* gained fresh attention in the 1990s when art historians discovered that the painting, which depicts a solitary young woman sketching, was actually the work of little-known French portrait ______ Marie-Denise Villers (1774–1821).",
     "choices": [
       {
         "id": "A",
-        "text": "artist\u2014"
+        "text": "artist—"
       },
       {
         "id": "B",
@@ -608,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -617,12 +616,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_18",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlong the hallowed walls of New York City's Museum of Modern Art hangs 24.5-by-34.5 inch oil ______ which was created in 1964 by American artist Vija Celmins.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlong the hallowed walls of New York City's Museum of Modern Art hangs 24.5-by-34.5 inch oil ______ which was created in 1964 by American artist Vija Celmins.",
     "choices": [
       {
         "id": "A",
@@ -644,9 +643,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -654,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_19",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nLegal scholars James Melton and Tom Ginsburg's analysis of de jure judicial independence and its growth over decades ______ six constitutional features that enhance such independence, including judicial tenure and selection procedure. Romania's constitution contains one of these features.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nLegal scholars James Melton and Tom Ginsburg's analysis of de jure judicial independence and its growth over decades ______ six constitutional features that enhance such independence, including judicial tenure and selection procedure. Romania's constitution contains one of these features.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -690,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_20",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFor Spain, a member of the North Atlantic Treaty Organization (NATO) since 1982, NATO's principle of collective defense confers both benefits and ______ organization's many members, nations as disparate as the US and Slovenia, are all bound to defend Spain, the reverse is also true.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFor Spain, a member of the North Atlantic Treaty Organization (NATO) since 1982, NATO's principle of collective defense confers both benefits and ______ organization's many members, nations as disparate as the US and Slovenia, are all bound to defend Spain, the reverse is also true.",
     "choices": [
       {
         "id": "A",
@@ -716,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_21",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs of 2017, Italy's top tax rate of 55% was lower than the country's Laffer curve peak (70%). To some economists, whether a tax cut will ultimately increase Italy's tax revenue is dependent on the country's position on the Laffer ______ a theoretical relationship between tax rates and revenues, the curve was famously sketched on a napkin by economist Arthur Laffer in 1974.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs of 2017, Italy's top tax rate of 55% was lower than the country's Laffer curve peak (70%). To some economists, whether a tax cut will ultimately increase Italy's tax revenue is dependent on the country's position on the Laffer ______ a theoretical relationship between tax rates and revenues, the curve was famously sketched on a napkin by economist Arthur Laffer in 1974.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_22",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nWorking together with the Navajo Nation Department of Water Resources, Dr. Lani Tsinnajinnie analyzed data about snowpack levels in the Chuska Mountains. She found that the snowpack (the amount of snow on the ground) was deepest in early March at lower elevations. At higher elevations, ______ the snowpack was deepest in mid-March.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWorking together with the Navajo Nation Department of Water Resources, Dr. Lani Tsinnajinnie analyzed data about snowpack levels in the Chuska Mountains. She found that the snowpack (the amount of snow on the ground) was deepest in early March at lower elevations. At higher elevations, ______ the snowpack was deepest in mid-March.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_23",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nBiographer Michael Gorra notes that the novelist Henry James \"lived in a world of second thoughts,\" frequently tinkering with his novels and stories after their initial publication. However, the differences between the 1881 first edition and the 1908 edition of his novel *A Portrait of a Lady* are extreme, even by James's standards; ______ some critics regard the two editions as two different novels altogether.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nBiographer Michael Gorra notes that the novelist Henry James \"lived in a world of second thoughts,\" frequently tinkering with his novels and stories after their initial publication. However, the differences between the 1881 first edition and the 1908 edition of his novel *A Portrait of a Lady* are extreme, even by James's standards; ______ some critics regard the two editions as two different novels altogether.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_24",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nScientists studying asteroid deflection have focused on secondary objects such as S/2020(2013 PY6), a moonlet orbiting the near-Earth asteroid 2013 PY6. In 2022 NASA intentionally crashed a probe into just such an object, successfully altering its orbit. Scientists have yet to demonstrate, ______ that 2013 PY6 and other primary objects would be similarly affected.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nScientists studying asteroid deflection have focused on secondary objects such as S/2020(2013 PY6), a moonlet orbiting the near-Earth asteroid 2013 PY6. In 2022 NASA intentionally crashed a probe into just such an object, successfully altering its orbit. Scientists have yet to demonstrate, ______ that 2013 PY6 and other primary objects would be similarly affected.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_25",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "The student wants to provide a specific example of a slow TV program. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Documentary TV programs in the slow TV genre consist of uninterrupted broadcasts of ordinary events in real time.\n\u2022 *Nordlandsbanen: Minutt for Minutt* is a Norwegian slow TV program.\n\u2022 The 10-hour-long program documented a train ride from Trondheim to Bodo.\n\u2022 It first aired in 2012.\n\u2022 In her book *Spectacular Television*: *Exploring Televisual Pleasure*, British film scholar Helen Wheatley writes that slow TV \u201coffers unspectacular' spectacle.\u201d\n\nThe student wants to provide a specific example of a slow TV program. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide a specific example of a slow TV program. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Documentary TV programs in the slow TV genre consist of uninterrupted broadcasts of ordinary events in real time.\n• *Nordlandsbanen: Minutt for Minutt* is a Norwegian slow TV program.\n• The 10-hour-long program documented a train ride from Trondheim to Bodo.\n• It first aired in 2012.\n• In her book *Spectacular Television*: *Exploring Televisual Pleasure*, British film scholar Helen Wheatley writes that slow TV “offers unspectacular' spectacle.”",
     "choices": [
       {
         "id": "A",
@@ -890,13 +889,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "With their uninterrupted broadcasts, slow TV programs offer what film scholar Helen Wheatley calls the \u201cunspectacular' spectacle\u201d of ordinary events occurring in real time."
+        "text": "With their uninterrupted broadcasts, slow TV programs offer what film scholar Helen Wheatley calls the “unspectacular' spectacle” of ordinary events occurring in real time."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_26",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize the location of the figures in Lost in the Shuffle?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Calida Garcia Rawles is an African American painter.\n\u2022 She is known for her large-scale, hyperrealistic paintings depicting African American figures in water.\n\u2022 The painting *Lightness of Being* (24 x 30 in) depicts a young man with his arms outstretched floating on the right side of the canvas.\n\u2022 *Lost in the Shuffle* (36 x 24 in) depicts two young men with their arms outstretched floating in the bottom left and upper right corners of the canvas.\n\u2022 She paints the water with vivid blue colors, including periwinkle and cobalt.\n\u2022 The mood in the paintings is placid.\n\nWhich choice most effectively uses information from the given sentences to emphasize the location of the figures in Lost in the Shuffle?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize the location of the figures in Lost in the Shuffle?\nWhile researching a topic, a student has taken the following notes:\n• Calida Garcia Rawles is an African American painter.\n• She is known for her large-scale, hyperrealistic paintings depicting African American figures in water.\n• The painting *Lightness of Being* (24 x 30 in) depicts a young man with his arms outstretched floating on the right side of the canvas.\n• *Lost in the Shuffle* (36 x 24 in) depicts two young men with their arms outstretched floating in the bottom left and upper right corners of the canvas.\n• She paints the water with vivid blue colors, including periwinkle and cobalt.\n• The mood in the paintings is placid.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_27",
     "testName": "November 2023 Form C SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize the scope of Basquiat's work?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n\u2022 Most of his works were completed in New York City in the 1980s.\n\u2022 His work *Mater* was completed in 1982.\n\u2022 The work is composed of acrylic and oil stick on canvas and measures 72 inches by 84 inches.\n\u2022 *Mater* was purchased by a private collection for $5.8 million in a 2009 auction.\n\nWhich choice most effectively uses information from the given sentences to emphasize the scope of Basquiat's work?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize the scope of Basquiat's work?\nWhile researching a topic, a student has taken the following notes:\n• Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n• Most of his works were completed in New York City in the 1980s.\n• His work *Mater* was completed in 1982.\n• The work is composed of acrylic and oil stick on canvas and measures 72 inches by 84 inches.\n• *Mater* was purchased by a private collection for $5.8 million in a 2009 auction.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

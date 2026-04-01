@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_1",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \"conceivable\" most nearly mean?\nThe following text is adapted from Mary Seacole's 1857 autobiography *Wonderful Adventures of Mrs. Seacole in Many Lands*. That journey across the Isthmus [of Panama], insignificant in distance as it was, was by no means an easy one. It seemed as if nature had determined to throw every <u>conceivable</u> obstacle in the way of those who should seek to join the two great oceans of the world.\n\nAs used in the text, what does the word \"conceivable\" most nearly mean?",
+    "text": "As used in the text, what does the word \"conceivable\" most nearly mean?\nThe following text is adapted from Mary Seacole's 1857 autobiography *Wonderful Adventures of Mrs. Seacole in Many Lands*. That journey across the Isthmus [of Panama], insignificant in distance as it was, was by no means an easy one. It seemed as if nature had determined to throw every <u>conceivable</u> obstacle in the way of those who should seek to join the two great oceans of the world.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_2",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nEven among fast animals, top speeds can vary significantly. For example, the Indian antelope can run up to 80 kilometers per hour (km/hr), whereas the Eurasian hobby is much faster, flying up to 160 km/hr. This difference is largely because the features that are ______ for running on land restrict top speeds more than the features needed for flying through the air.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nEven among fast animals, top speeds can vary significantly. For example, the Indian antelope can run up to 80 kilometers per hour (km/hr), whereas the Eurasian hobby is much faster, flying up to 160 km/hr. This difference is largely because the features that are ______ for running on land restrict top speeds more than the features needed for flying through the air.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_3",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nOften, the Nobel Prize in Chemistry is given to a single person, such as Theodore William Richards in 1914, But sometimes the Nobel Committee wants to reward work attributed to two or three individuals, in which case, the award is given ______. For instance, in 2020, Jennifer Doudna was among those awarded for \u201cthe development of a method for genome editing.\u201d\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nOften, the Nobel Prize in Chemistry is given to a single person, such as Theodore William Richards in 1914, But sometimes the Nobel Committee wants to reward work attributed to two or three individuals, in which case, the award is given ______. For instance, in 2020, Jennifer Doudna was among those awarded for “the development of a method for genome editing.”",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_4",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cbreathes\" most nearly mean?\nThe following text is adapted from the 1895 poem \u201c*Ojistoh*\" by Emily Pauline Johnson, a Kanienkahagen (Mohawk) writer also known as Tekahionwake. I am Ojistoh, I am she, the wife\nOf him whose name <u>breathes</u> bravery and life\nAnd courage to the tribe who calls him chief.\nI am Ojistoh, his white star, and he\nIs land, and lake, and sky and soul to me.\n\nAs used in the text, what does the word \u201cbreathes\" most nearly mean?",
+    "text": "As used in the text, what does the word “breathes\" most nearly mean?\nThe following text is adapted from the 1895 poem “*Ojistoh*\" by Emily Pauline Johnson, a Kanienkahagen (Mohawk) writer also known as Tekahionwake. I am Ojistoh, I am she, the wife\nOf him whose name <u>breathes</u> bravery and life\nAnd courage to the tribe who calls him chief.\nI am Ojistoh, his white star, and he\nIs land, and lake, and sky and soul to me.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_5",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe swordfish can swim very fast\u2014up to 97 kilometers per hour (km/hr)\u2014but it is significantly slower than the golden eagle, which can fly at speeds up to 320 km/hr. The difference between these speeds is largely ______ of the fact that the features that make flight possible do less to limit top speeds than the features suitable for swimming through water.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe swordfish can swim very fast—up to 97 kilometers per hour (km/hr)—but it is significantly slower than the golden eagle, which can fly at speeds up to 320 km/hr. The difference between these speeds is largely ______ of the fact that the features that make flight possible do less to limit top speeds than the features suitable for swimming through water.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_6",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThough John Crowley, author of *Engine Summer*, is perhaps not as well known as the most commercially successful American writers of the past fifty years, influential figures have championed his work, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book *Little, Big*, Bloom praises the novel's adroit blend of what playwright Friedrich Schiller termed the naive and sentimental modes. While Schiller thought works could be classified as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), *Little, Big* demonstrates that a work can be both.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThough John Crowley, author of *Engine Summer*, is perhaps not as well known as the most commercially successful American writers of the past fifty years, influential figures have championed his work, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book *Little, Big*, Bloom praises the novel's adroit blend of what playwright Friedrich Schiller termed the naive and sentimental modes. While Schiller thought works could be classified as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), *Little, Big* demonstrates that a work can be both.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_7",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes the overall structure of the text?\nCommunity science, which involves professional scientists collaborating with amateur science enthusiasts to study a topic, is often an effective and engaging way to conduct research. It can allow people to assist with conservation efforts, spark youth interest in science, and increase the amount of data researchers can collect. This approach was essential to the success of a study by biologist Abbigail Merrill and colleagues of how butterfly color relates to flower choice, which included findings from hundreds of students and community members in northwestern Arkansas.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nCommunity science, which involves professional scientists collaborating with amateur science enthusiasts to study a topic, is often an effective and engaging way to conduct research. It can allow people to assist with conservation efforts, spark youth interest in science, and increase the amount of data researchers can collect. This approach was essential to the success of a study by biologist Abbigail Merrill and colleagues of how butterfly color relates to flower choice, which included findings from hundreds of students and community members in northwestern Arkansas.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_8",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from Jerome K. Jerome's 1889 novel *Three Men in a Boat (To Say Nothing of the Dog)*. We [people] are creatures of the sun. We love light and life. That is why we crowd into the towns and cities, and the country grows more and more deserted every year. In the sunlight in the daytime, when Nature is alive and busy all around us, we like the open hill-sides and the deep woods well enough: but in the night, when our Mother Earth has gone to sleep, and left us waking, oh! the world seems so lonesome, and we get frightened, like children in a silent house, Then we sit and sob, and long for the gas-lit streets, and the sound of human voices, and the answering throb of human life.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from Jerome K. Jerome's 1889 novel *Three Men in a Boat (To Say Nothing of the Dog)*. We [people] are creatures of the sun. We love light and life. That is why we crowd into the towns and cities, and the country grows more and more deserted every year. In the sunlight in the daytime, when Nature is alive and busy all around us, we like the open hill-sides and the deep woods well enough: but in the night, when our Mother Earth has gone to sleep, and left us waking, oh! the world seems so lonesome, and we get frightened, like children in a silent house, Then we sit and sob, and long for the gas-lit streets, and the sound of human voices, and the answering throb of human life.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_9",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "The author makes which point about the Spanish language?\n\"Tomato\" is an example of a loanword\u2014that is, a word that originated in one language and was later adopted by another. The word came to English indirectly from *tomate*, the Spanish word for the widely cultivated plant. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is *tomatl*. \"Maize\" is also Indigenous in origin and entered English through Spanish. But in this case the original source was Taino, a language of the Caribbean islands, in which the word for the corn plant is *mahis*.\n\nThe author makes which point about the Spanish language?",
+    "text": "The author makes which point about the Spanish language?\n\"Tomato\" is an example of a loanword—that is, a word that originated in one language and was later adopted by another. The word came to English indirectly from *tomate*, the Spanish word for the widely cultivated plant. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is *tomatl*. \"Maize\" is also Indigenous in origin and entered English through Spanish. But in this case the original source was Taino, a language of the Caribbean islands, in which the word for the corn plant is *mahis*.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_10",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes the main idea of the text?\nIn a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Panama City, Panama, and Fortaleza, Brazil, were surveyed about parks in their cities. Of the 318 respondents from Panama City, 53.5% indicated that they use the city's parks, and of the 938 respondents from Fortaleza, 35.7% indicated using city parks. Given that the percentage of Panama City respondents who reported having access to other desired amenities near parks was much lower than that reported by Fortaleza respondents, the difference in park use can't be explained by Panama City residents having more access to desired nonpark amenities near parks.\n\nWhich choice best describes the main idea of the text?",
+    "text": "Which choice best describes the main idea of the text?\nIn a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Panama City, Panama, and Fortaleza, Brazil, were surveyed about parks in their cities. Of the 318 respondents from Panama City, 53.5% indicated that they use the city's parks, and of the 938 respondents from Fortaleza, 35.7% indicated using city parks. Given that the percentage of Panama City respondents who reported having access to other desired amenities near parks was much lower than that reported by Fortaleza respondents, the difference in park use can't be explained by Panama City residents having more access to desired nonpark amenities near parks.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_11",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the conclusion?\n\nWhich choice most effectively uses data from the table to complete the conclusion?",
+    "text": "Which choice most effectively uses data from the table to complete the conclusion?",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlB_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_12",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the second research team's hypothesis?\nWater flowing around an obstruction creates vortices (patterns of swirls) of varying size; by detecting the vortices, fish can determine the size and position of the obstruction. Testing by Yuzo R. Yanagisuru, Otar Akanyeti, and James C. Liao using models of three head shapes, narrow (low ratio of width to length), intermediate, and wide (high ratio of width to length) showed that for medium-sized vortices, fish with wide heads would be least able to distinguish between vortices and general turbulence in the water. A second research team has therefore hypothesized that in low-visibility conditions, wider-headed fish will be less likely than narrower-headed fish to detect obstructions.\n\nWhich finding, if true, would most directly support the second research team's hypothesis?",
+    "text": "Which finding, if true, would most directly support the second research team's hypothesis?\nWater flowing around an obstruction creates vortices (patterns of swirls) of varying size; by detecting the vortices, fish can determine the size and position of the obstruction. Testing by Yuzo R. Yanagisuru, Otar Akanyeti, and James C. Liao using models of three head shapes, narrow (low ratio of width to length), intermediate, and wide (high ratio of width to length) showed that for medium-sized vortices, fish with wide heads would be least able to distinguish between vortices and general turbulence in the water. A second research team has therefore hypothesized that in low-visibility conditions, wider-headed fish will be less likely than narrower-headed fish to detect obstructions.",
     "choices": [
       {
         "id": "A",
@@ -428,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -438,33 +437,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_13",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which quotation from *Cane* most effectively illustrates the claim?\n*Cane* is a 1923 novel by Jean Toomer. In one portion of the novel, Toomer establishes a contrast between the narrator's attitude toward life and the attitude of the narrator's love interest, Avey, writing, ______\n\nWhich quotation from *Cane* most effectively illustrates the claim?",
+    "text": "Which quotation from *Cane* most effectively illustrates the claim?\n*Cane* is a 1923 novel by Jean Toomer. In one portion of the novel, Toomer establishes a contrast between the narrator's attitude toward life and the attitude of the narrator's love interest, Avey, writing, ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cAvey was as silent as those great trees whose tops we looked down upon. She has always been like that. At least, to me.\u201d"
+        "text": "“Avey was as silent as those great trees whose tops we looked down upon. She has always been like that. At least, to me.”"
       },
       {
         "id": "B",
-        "text": "\u201cA band in one of the buildings a fair distance of was playing a march. I wished they would stop. Their playing was like a tin spoon in one's mouth.\u201d"
+        "text": "“A band in one of the buildings a fair distance of was playing a march. I wished they would stop. Their playing was like a tin spoon in one's mouth.”"
       },
       {
         "id": "C",
-        "text": "\u201c[Avey would] smile appreciation, but it was an impersonal smile, never for me.\u201d"
+        "text": "“[Avey would] smile appreciation, but it was an impersonal smile, never for me.”"
       },
       {
         "id": "D",
-        "text": "\u201cAs time went on, [Avey's] indifference to things began to pique me; I was ambitious. I left [our small hometown] earlier than she did.\u201d"
+        "text": "“As time went on, [Avey's] indifference to things began to pique me; I was ambitious. I left [our small hometown] earlier than she did.”"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -474,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_14",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nMany films in a language other than English grow to be financially successful over the course of their time in movie theaters in the United States, but some become immediate successes in their opening weekends. A journalist claims that a film's reception can greatly influence its long-term success. Indications that the film is of high quality, such as an Oscar nomination, can dramatically boost public interest in the film and thus its overall earnings, even with a relatively modest opening weekend performance: for example, ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nMany films in a language other than English grow to be financially successful over the course of their time in movie theaters in the United States, but some become immediate successes in their opening weekends. A journalist claims that a film's reception can greatly influence its long-term success. Indications that the film is of high quality, such as an Oscar nomination, can dramatically boost public interest in the film and thus its overall earnings, even with a relatively modest opening weekend performance: for example, ______",
     "choices": [
       {
         "id": "A",
@@ -486,11 +485,11 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "*The Girl Who Played with Fire* earned more money in its opening weekend than *Am\u00e9lie* earned, but *Am\u00e9lie* had higher lifetime earnings."
+        "text": "*The Girl Who Played with Fire* earned more money in its opening weekend than *Amélie* earned, but *Amélie* had higher lifetime earnings."
       },
       {
         "id": "C",
-        "text": "both *Am\u00e9lie* and *All About My Mother* were recognized by the Oscars, but *Am\u00e9lie* had higher lifetime earnings."
+        "text": "both *Amélie* and *All About My Mother* were recognized by the Oscars, but *Amélie* had higher lifetime earnings."
       },
       {
         "id": "D",
@@ -500,22 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlB_Eng_M1_Q14_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_15",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nPigments give paints and dyes their color. Ocher is a mineral-based pigment used to make several colors, including red. Red ocher gets its color from iron oxide. Pigments can also be plant-based: plant-based pigments contain a high level of carbon. In a 2023 study, archaeologists tested the red pigment on decorated beads made by members of the Natufian culture approximately 15,000 years ago. The test showed that the pigment found on several beads contained no iron but had a high level of carbon. This finding led the researchers to conclude that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nPigments give paints and dyes their color. Ocher is a mineral-based pigment used to make several colors, including red. Red ocher gets its color from iron oxide. Pigments can also be plant-based: plant-based pigments contain a high level of carbon. In a 2023 study, archaeologists tested the red pigment on decorated beads made by members of the Natufian culture approximately 15,000 years ago. The test showed that the pigment found on several beads contained no iron but had a high level of carbon. This finding led the researchers to conclude that ______",
     "choices": [
       {
         "id": "A",
@@ -537,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -547,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_16",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWorks by Rafael Soriano and Rupert Garcia were featured in the Smithsonian American Art Museum's exhibition *Our America: The Latino Presence in American Art.* This 2013 exhibition celebrated the diverse achievements ______ artists of Latin American descent.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWorks by Rafael Soriano and Rupert Garcia were featured in the Smithsonian American Art Museum's exhibition *Our America: The Latino Presence in American Art.* This 2013 exhibition celebrated the diverse achievements ______ artists of Latin American descent.",
     "choices": [
       {
         "id": "A",
@@ -573,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -582,12 +580,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_17",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn December 2, 1992, the space shuttle *Discovery* blasted off into space, commencing Mission ______ seven days and seven hours, the mission ended when the shuttle landed at Edwards Air Force Base in California.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn December 2, 1992, the space shuttle *Discovery* blasted off into space, commencing Mission ______ seven days and seven hours, the mission ended when the shuttle landed at Edwards Air Force Base in California.",
     "choices": [
       {
         "id": "A",
@@ -609,9 +607,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -619,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_18",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTrade was vital to the Srivijaya Empire, which reigned in Southeast Asia from around 600 CE to 1200 CE. Its people ______ tin, medicines, and wood to sell to neighboring societies. In exchange, they received valuable items, such as spices, silk, and porcelain.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTrade was vital to the Srivijaya Empire, which reigned in Southeast Asia from around 600 CE to 1200 CE. Its people ______ tin, medicines, and wood to sell to neighboring societies. In exchange, they received valuable items, such as spices, silk, and porcelain.",
     "choices": [
       {
         "id": "A",
@@ -645,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -655,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_19",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Globe Theatre in London is a reconstruction of the famed venue where many of Shakespeare's plays were first performed. In 1613, a prop cannon ______ during a performance and ignited the Globe's thatched roof. No one was hurt, but in two hours the original Globe was gone.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Globe Theatre in London is a reconstruction of the famed venue where many of Shakespeare's plays were first performed. In 1613, a prop cannon ______ during a performance and ignited the Globe's thatched roof. No one was hurt, but in two hours the original Globe was gone.",
     "choices": [
       {
         "id": "A",
@@ -681,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_20",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1965, a group of student activists traveled by bus across the state of New South Wales to protest racial discrimination against Aboriginal Australians. The activists drove to Wellington, where they interviewed locals; to Walgett, where they picketed a segregated ______ where they staged a protest at a segregated public pool.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1965, a group of student activists traveled by bus across the state of New South Wales to protest racial discrimination against Aboriginal Australians. The activists drove to Wellington, where they interviewed locals; to Walgett, where they picketed a segregated ______ where they staged a protest at a segregated public pool.",
     "choices": [
       {
         "id": "A",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_21",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs a leader of the National Woman Suffrage Association in the late 1800s, Ann Quinby of ______ an important role in the campaign to secure voting rights for US women.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs a leader of the National Woman Suffrage Association in the late 1800s, Ann Quinby of ______ an important role in the campaign to secure voting rights for US women.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_22",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nFamous for its four-degree tilt, the leaning Garisenda Tower is a popular attraction in Bologna's city center. However, measurements taken in 2023 showed that the tower was rotating in a concerning way. ______ city officials closed the area around the tower so experts could explore solutions to stabilize the historical twelfth-century structure.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nFamous for its four-degree tilt, the leaning Garisenda Tower is a popular attraction in Bologna's city center. However, measurements taken in 2023 showed that the tower was rotating in a concerning way. ______ city officials closed the area around the tower so experts could explore solutions to stabilize the historical twelfth-century structure.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_23",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nWhen languages are no longer spoken, they are considered extinct. ______ the Umbrian language went extinct around the first century BCE, though it was once widely spoken in parts of central Italy.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWhen languages are no longer spoken, they are considered extinct. ______ the Umbrian language went extinct around the first century BCE, though it was once widely spoken in parts of central Italy.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_24",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to explain the 50 Completers hiking challenge to a new audience?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Highpointers Club is a hiking club.\n\u2022 One of the main goals among club members is to reach the highest points in all fifty US states.\n\u2022 Those who achieve this are called 50 Completers.\n\u2022 In Suk Han became a 50 Completer on November 15, 2013.\n\u2022 The highest point in West Virginia is Spruce Knob, at 4,863 ft.\n\u2022 The highest point in Colorado is Mount Elbert, at 14,440 ft.\n\nWhich choice most effectively uses information from the given sentences to explain the 50 Completers hiking challenge to a new audience?",
+    "text": "Which choice most effectively uses information from the given sentences to explain the 50 Completers hiking challenge to a new audience?\nWhile researching a topic, a student has taken the following notes:\n• The Highpointers Club is a hiking club.\n• One of the main goals among club members is to reach the highest points in all fifty US states.\n• Those who achieve this are called 50 Completers.\n• In Suk Han became a 50 Completer on November 15, 2013.\n• The highest point in West Virginia is Spruce Knob, at 4,863 ft.\n• The highest point in Colorado is Mount Elbert, at 14,440 ft.",
     "choices": [
       {
         "id": "A",
@@ -847,7 +845,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Not until after you have reached the highest points in all fifty US states\u2014including Spruce Knob in West Virginia and Mount Elbert in Colorado\u2014can you include yourself among the 50 Completers of the Highpointers Club."
+        "text": "Not until after you have reached the highest points in all fifty US states—including Spruce Knob in West Virginia and Mount Elbert in Colorado—can you include yourself among the 50 Completers of the Highpointers Club."
       },
       {
         "id": "C",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_25",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "The student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Dinosaur fossil specimens can be found at science museums all over the world.\n\u2022 Many dinosaur fossil specimens are given nicknames.\n\u2022 The Great Plains Dinosaur Museum and Field Station in Malta, Montana, houses a dinosaur fossil specimen nicknamed Roberta.\n\u2022 Roberta lived in the Late Cretaceous period, which ended more than 65 million years ago.\n\u2022 It is a member of the genus *Brachylophosaurus*.\n\nThe student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Dinosaur fossil specimens can be found at science museums all over the world.\n• Many dinosaur fossil specimens are given nicknames.\n• The Great Plains Dinosaur Museum and Field Station in Malta, Montana, houses a dinosaur fossil specimen nicknamed Roberta.\n• Roberta lived in the Late Cretaceous period, which ended more than 65 million years ago.\n• It is a member of the genus *Brachylophosaurus*.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,15 +905,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_26",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "The student wants to emphasize the order in which Manuel Blum and Raj Reddy won the A.M. Turing Award. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The A.M. Turing Award is a prestigious award given for \u201cmajor contributions of lasting importance to computing.\u201d\n\u2022 Manuel Blum won the award in 1995 for contributions to the foundations of computational complexity theory.\n\u2022 Raj Reddy won the award in 1994 for pioneering the development of large-scale artificial intelligence systems.\n\nThe student wants to emphasize the order in which Manuel Blum and Raj Reddy won the A.M. Turing Award. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the order in which Manuel Blum and Raj Reddy won the A.M. Turing Award. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The A.M. Turing Award is a prestigious award given for “major contributions of lasting importance to computing.”\n• Manuel Blum won the award in 1995 for contributions to the foundations of computational complexity theory.\n• Raj Reddy won the award in 1994 for pioneering the development of large-scale artificial intelligence systems.",
     "choices": [
       {
         "id": "A",
-        "text": "Manuel Blum and Raj Reddy both won the A.M. Turing Award, which is given for \u201cmajor contributions of lasting importance to computing.\u201d"
+        "text": "Manuel Blum and Raj Reddy both won the A.M. Turing Award, which is given for “major contributions of lasting importance to computing.”"
       },
       {
         "id": "B",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_27",
     "testName": "October 2024 International Form B SAT English Module 1",
-    "text": "The student wants to emphasize the order in which the two lighthouse keepers began their careers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Lighthouses send out crucial light signals to help ships and other watercraft navigate at night.\n\u2022 Before automation, lighthouses were run by lighthouse keepers.\n\u2022 Catherine A. Moore was the lighthouse keeper at Black Rock Harbor Light in Connecticut.\n\u2022 She held this position from 1817 to 1878.\n\u2022 Laura J. Hecox was the lighthouse keeper at Santa Cruz Light in California.\n\u2022 She held this position from 1883 to 1917.\n\nThe student wants to emphasize the order in which the two lighthouse keepers began their careers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the order in which the two lighthouse keepers began their careers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Lighthouses send out crucial light signals to help ships and other watercraft navigate at night.\n• Before automation, lighthouses were run by lighthouse keepers.\n• Catherine A. Moore was the lighthouse keeper at Black Rock Harbor Light in Connecticut.\n• She held this position from 1817 to 1878.\n• Laura J. Hecox was the lighthouse keeper at Santa Cruz Light in California.\n• She held this position from 1883 to 1917.",
     "choices": [
       {
         "id": "A",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

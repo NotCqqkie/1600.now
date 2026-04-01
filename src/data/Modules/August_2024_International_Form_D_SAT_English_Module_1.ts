@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_1",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe reception of Many Ly's book *Roots and wings* has been very good. Many reviewers, booksellers, and librarians have ______ the book, and it won the Asian/Pacific American Award for Literature.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe reception of Many Ly's book *Roots and wings* has been very good. Many reviewers, booksellers, and librarians have ______ the book, and it won the Asian/Pacific American Award for Literature.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_2",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "As used in the text, what does the word \"conceivable\" most nearly mean?\nThe following text is adapted from Mary Seacole's 1857 autobiography *Wonderful Adventures of Mr. Seacole in Many Lands*. That journey across the Isthmus [of Panama], insignificant in distance as it was, was by no means an easy one. It seemed as if nature had determined to throw every <u>conceivable</u> obstacle in the way of those who should seek to join the two great oceans of the world.\n\nAs used in the text, what does the word \"conceivable\" most nearly mean?",
+    "text": "As used in the text, what does the word \"conceivable\" most nearly mean?\nThe following text is adapted from Mary Seacole's 1857 autobiography *Wonderful Adventures of Mr. Seacole in Many Lands*. That journey across the Isthmus [of Panama], insignificant in distance as it was, was by no means an easy one. It seemed as if nature had determined to throw every <u>conceivable</u> obstacle in the way of those who should seek to join the two great oceans of the world.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_3",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nKelp forests grow underwater along the eastern Pacific Coast. These underwater forests are important to fish and other marine animals. Ocean currents can be powerful and rough, making it difficult for animals to find safe places to hide from predators. The underwater forests slow down the currents. This creates a more ______ environment with calmer waters where animals can take shelter.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nKelp forests grow underwater along the eastern Pacific Coast. These underwater forests are important to fish and other marine animals. Ocean currents can be powerful and rough, making it difficult for animals to find safe places to hide from predators. The underwater forests slow down the currents. This creates a more ______ environment with calmer waters where animals can take shelter.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_4",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe recently observed gamma ray burst GRB 230307A lasted for 200 seconds, ______ for a burst generated by the merger of neutron stars. Bursts caused by neutron mergers typically last fewer than 2 seconds.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe recently observed gamma ray burst GRB 230307A lasted for 200 seconds, ______ for a burst generated by the merger of neutron stars. Bursts caused by neutron mergers typically last fewer than 2 seconds.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_5",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice best describes the main purpose of the text?\nPteropods are small swimming snails with thin, delicate calcium carbonate shells. These animals are thought to be especially vulnerable to ocean acidification due to calcium carbonate's susceptibility to dissolution at lower pH values. Victoria L. Peck and colleagues recently found that the periostracum (a protective coating on pteropods' outer shells) prevents this dissolution when intact. Moreover, the team was surprised to discover that even when the periostracum is breached, pteropods can still mitigate damage by rebuilding the inner shell wall.\n\nWhich choice best describes the main purpose of the text?",
+    "text": "Which choice best describes the main purpose of the text?\nPteropods are small swimming snails with thin, delicate calcium carbonate shells. These animals are thought to be especially vulnerable to ocean acidification due to calcium carbonate's susceptibility to dissolution at lower pH values. Victoria L. Peck and colleagues recently found that the periostracum (a protective coating on pteropods' outer shells) prevents this dissolution when intact. Moreover, the team was surprised to discover that even when the periostracum is breached, pteropods can still mitigate damage by rebuilding the inner shell wall.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_6",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nSan Francisco has high pedestrian traffic, but simply replicating a feature of San Francisco associated with walkability\u2014e.g., its high density of storefronts\u2014may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of demographic characteristics, others the role of public transit availability, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nSan Francisco has high pedestrian traffic, but simply replicating a feature of San Francisco associated with walkability—e.g., its high density of storefronts—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of demographic characteristics, others the role of public transit availability, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_7",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "According to the text, which choice best describes a conclusion He and colleagues drew from their study?\nGuojun He and colleagues studied a food-delivery phone app that is popular in China. The researchers found that having \"no cutlery\" automatically selected influences whether customers request disposable plastic utensils with their food orders. Based on their results, the researchers concluded that this and other small changes to the app could reduce plastic waste in China by as much as 3.26 million metric tons per year.\n\nAccording to the text, which choice best describes a conclusion He and colleagues drew from their study?",
+    "text": "According to the text, which choice best describes a conclusion He and colleagues drew from their study?\nGuojun He and colleagues studied a food-delivery phone app that is popular in China. The researchers found that having \"no cutlery\" automatically selected influences whether customers request disposable plastic utensils with their food orders. Based on their results, the researchers concluded that this and other small changes to the app could reduce plastic waste in China by as much as 3.26 million metric tons per year.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_8",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "In the text, which point does Prospero most directly make about Miranda and her memories?\nThe following text is from William Shakespeare's play *The Tempest*, first performed in 1611. Miranda has lived on an island with her father, Prospero, since she was three years old. Prospero has stated that Miranda likely does not remember anything other than her life on the island. MIRANDA: 'Tis far off,\nAnd rather like a dream than an assurance\nThat my remembrance warrants. Had I not\nFour or five women once that tended me?\nPROSPERO: Thou hadst, and more, Miranda. But how is it\nThat this lives in thy mind? What seest thou else\nIn the dark backward and abysm of time?\nIf thou remember'st ought ere thou camest here,\nHow thou camest here thou mayst.\n\nIn the text, which point does Prospero most directly make about Miranda and her memories?",
+    "text": "In the text, which point does Prospero most directly make about Miranda and her memories?\nThe following text is from William Shakespeare's play *The Tempest*, first performed in 1611. Miranda has lived on an island with her father, Prospero, since she was three years old. Prospero has stated that Miranda likely does not remember anything other than her life on the island. MIRANDA: 'Tis far off,\nAnd rather like a dream than an assurance\nThat my remembrance warrants. Had I not\nFour or five women once that tended me?\nPROSPERO: Thou hadst, and more, Miranda. But how is it\nThat this lives in thy mind? What seest thou else\nIn the dark backward and abysm of time?\nIf thou remember'st ought ere thou camest here,\nHow thou camest here thou mayst.",
     "choices": [
       {
         "id": "A",
@@ -283,9 +283,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_9",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nThe Chickasaw Nation and the nearly forty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. Mining, including oil and natural gas production, is a key industry in the state as well. While researching other key industries in Oklahoma for an economics class, a student finds that the average amount contributed to the state's economy in 2017 by each individual employed in wholesale trade was ______.\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nThe Chickasaw Nation and the nearly forty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. Mining, including oil and natural gas production, is a key industry in the state as well. While researching other key industries in Oklahoma for an economics class, a student finds that the average amount contributed to the state's economy in 2017 by each individual employed in wholesale trade was ______.",
     "choices": [
       {
         "id": "A",
@@ -319,22 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Aug_24_IntlD_Eng_M1_Q9_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_10",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nA marine biologist is researching four stony coral species in Caribbean and Indo-Pacific waters, focusing on sightings of these species in the shallow zone (less than 30 meters below the surface) and the mesophotic zone (30 to 150 meters below the surface). Consulting the table, she notes that the smallest maximum depth is located in ______.\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nA marine biologist is researching four stony coral species in Caribbean and Indo-Pacific waters, focusing on sightings of these species in the shallow zone (less than 30 meters below the surface) and the mesophotic zone (30 to 150 meters below the surface). Consulting the table, she notes that the smallest maximum depth is located in ______.",
     "choices": [
       {
         "id": "A",
@@ -356,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Aug_24_IntlD_Eng_M1_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_11",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice best describes data from the graph that support the student's claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the United States in the 1990s was present both in very large cities such as Philadelphia, Pennsylvania, and smaller areas such as Albany-Schenectady-Troy, New York, and Beaumont, Texas; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.\n\nWhich choice best describes data from the graph that support the student's claim?",
+    "text": "Which choice best describes data from the graph that support the student's claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the United States in the 1990s was present both in very large cities such as Philadelphia, Pennsylvania, and smaller areas such as Albany-Schenectady-Troy, New York, and Beaumont, Texas; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.",
     "choices": [
       {
         "id": "A",
@@ -393,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Aug_24_IntlD_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_12",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the researchers' claim?\nPast research suggests that pollination by honeybees is responsible for up to 10 percent of total Chinese cabbage crop production. Now researchers are trying to determine how dependent cucumber crop production is on honeybees. The first phase of their study involved shielding some cucumber plants to prevent insects from pollinating them, resulting in those plants having 40 to 90 percent lower crop production than plants that were pollinated normally. However, the researchers claim that the first-phase experiment alone didn't tell them how much of that difference in crop production is due specifically to excluding honeybees.\n\nWhich finding, if true, would most directly support the researchers' claim?",
+    "text": "Which finding, if true, would most directly support the researchers' claim?\nPast research suggests that pollination by honeybees is responsible for up to 10 percent of total Chinese cabbage crop production. Now researchers are trying to determine how dependent cucumber crop production is on honeybees. The first phase of their study involved shielding some cucumber plants to prevent insects from pollinating them, resulting in those plants having 40 to 90 percent lower crop production than plants that were pollinated normally. However, the researchers claim that the first-phase experiment alone didn't tell them how much of that difference in crop production is due specifically to excluding honeybees.",
     "choices": [
       {
         "id": "A",
@@ -430,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -439,12 +436,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_13",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nThe glossy ibis and the small dark heron are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D'Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of the birds' habitats, such as the geographic location of the area and how deep the water is during the birds' breeding season. They found that glossy ibises prefer areas with deep water during breeding season, but that was not true for small dark herons. The researchers concluded that water management strategies that increase the depth of water in potential wetland bird habitats during breeding season are therefore more likely to ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe glossy ibis and the small dark heron are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D'Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of the birds' habitats, such as the geographic location of the area and how deep the water is during the birds' breeding season. They found that glossy ibises prefer areas with deep water during breeding season, but that was not true for small dark herons. The researchers concluded that water management strategies that increase the depth of water in potential wetland bird habitats during breeding season are therefore more likely to ______",
     "choices": [
       {
         "id": "A",
@@ -466,9 +463,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -476,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_14",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how increasing human activity will affect future mammal population sizes in Us national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Beaverhead-Deerlodge National Forest in Montana is a large forest, covering more than 3 million acres. If used to evaluate the effect of increasing human activity on this forest in ten years, the model would likely therefore ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how increasing human activity will affect future mammal population sizes in Us national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Beaverhead-Deerlodge National Forest in Montana is a large forest, covering more than 3 million acres. If used to evaluate the effect of increasing human activity on this forest in ten years, the model would likely therefore ______",
     "choices": [
       {
         "id": "A",
@@ -502,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -512,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_15",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1989, Missouri ______ official fossil: the *Eperisocrinus*, which is a Carboniferous period marine animal.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1989, Missouri ______ official fossil: the *Eperisocrinus*, which is a Carboniferous period marine animal.",
     "choices": [
       {
         "id": "A",
@@ -538,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_16",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOften anthologized alongside the ______ associated with the Black Arts movement\u2014such as Henry Dumas and Ntozake Shange\u2014Aki Madhubuti's poem \"Quality: Gwendolyn Brooks at 73\" stands out for its memorable first lines: \"breath, / life after seven decades plus three years / is a lot of breathing.\u201d\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOften anthologized alongside the ______ associated with the Black Arts movement—such as Henry Dumas and Ntozake Shange—Aki Madhubuti's poem \"Quality: Gwendolyn Brooks at 73\" stands out for its memorable first lines: \"breath, / life after seven decades plus three years / is a lot of breathing.”",
     "choices": [
       {
         "id": "A",
@@ -574,25 +571,25 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_17",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe part of a compound that determines the compound's color is ______ the chromophore. One example of a chromophore is hemoglobin, which gives human blood its red color.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe part of a compound that determines the compound's color is ______ the chromophore. One example of a chromophore is hemoglobin, which gives human blood its red color.",
     "choices": [
       {
         "id": "A",
-        "text": "called\u2014"
+        "text": "called—"
       },
       {
         "id": "B",
@@ -610,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -619,20 +616,20 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_18",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nReleased in 1993, the Intel Pentium microchip contained a single CPU, or core, to execute commands. Since then, the average processing power of microchips has increased so drastically\u2014cores now number in the dozens, hundreds, or even ______ the once-revolutionary dual-core technology that replaced the single-core chip can be found in everyday items like toasters and toothbrushes.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nReleased in 1993, the Intel Pentium microchip contained a single CPU, or core, to execute commands. Since then, the average processing power of microchips has increased so drastically—cores now number in the dozens, hundreds, or even ______ the once-revolutionary dual-core technology that replaced the single-core chip can be found in everyday items like toasters and toothbrushes.",
     "choices": [
       {
         "id": "A",
-        "text": "thousands\u2014that"
+        "text": "thousands—that"
       },
       {
         "id": "B",
-        "text": "thousands that\u2014"
+        "text": "thousands that—"
       },
       {
         "id": "C",
@@ -646,9 +643,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -656,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_19",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter finding information about Ronald V. Dellums, who represented California in the United States House of Representatives, the student discovered biographical sketches of two other Black Americans who served in ______ Ralph Harold Metcalfe of Illinois and George Henry White of North Carolina.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter finding information about Ronald V. Dellums, who represented California in the United States House of Representatives, the student discovered biographical sketches of two other Black Americans who served in ______ Ralph Harold Metcalfe of Illinois and George Henry White of North Carolina.",
     "choices": [
       {
         "id": "A",
@@ -682,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -692,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_20",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen a given industry\u2014water and electricity are two well-known examples\u2014carries high infrastructural start-up costs and other barriers that discourage competition, ______ of just one or two suppliers per municipality. Such industries are known as natural monopolies.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen a given industry—water and electricity are two well-known examples—carries high infrastructural start-up costs and other barriers that discourage competition, ______ of just one or two suppliers per municipality. Such industries are known as natural monopolies.",
     "choices": [
       {
         "id": "A",
@@ -718,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_21",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nCornelia Konrads is a German sculptor who creates art that seems to be part of its surroundings. Her sculpture entitled *knotty stilts* is built on the wall of a university building in the United States. ______ appearing as two support beams knotted together against the wall, it is cleverly placed into its environment, serving as an example of Konrads's approach.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nCornelia Konrads is a German sculptor who creates art that seems to be part of its surroundings. Her sculpture entitled *knotty stilts* is built on the wall of a university building in the United States. ______ appearing as two support beams knotted together against the wall, it is cleverly placed into its environment, serving as an example of Konrads's approach.",
     "choices": [
       {
         "id": "A",
@@ -754,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -764,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_22",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThere are three basic steps you should follow when planning a scientific inquiry. First, thoroughly research the question you wish to answer. ______ come up with a prediction (also called a hypothesis) about the answer to your question. Third, develop an experiment that can test the accuracy of your hypothesis.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThere are three basic steps you should follow when planning a scientific inquiry. First, thoroughly research the question you wish to answer. ______ come up with a prediction (also called a hypothesis) about the answer to your question. Third, develop an experiment that can test the accuracy of your hypothesis.",
     "choices": [
       {
         "id": "A",
@@ -790,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -800,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_23",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to introduce Reginald Fessenden and what he is known for?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Thomas Edison is regarded as one of the most important inventors in US history.\n\u2022 Having received little formal schooling, Edison relied on specialist employees at his various laboratories and offices to complete the technical work for many of his inventions.\n\u2022 Reginald Fessenden was an electronic communications specialist who worked at the Edison Machine Works manufacturing company.\n\u2022 He is best known for pioneering radio technology that led to the first transmission of speech by radio.\n\u2022 Frank J. Sprague was a naval officer who worked at the Menlo Park laboratory.\n\u2022 He is best known for being the father of electric traction.\n\nWhich choice most effectively uses information from the given sentences to introduce Reginald Fessenden and what he is known for?",
+    "text": "Which choice most effectively uses information from the given sentences to introduce Reginald Fessenden and what he is known for?\nWhile researching a topic, a student has taken the following notes:\n• Thomas Edison is regarded as one of the most important inventors in US history.\n• Having received little formal schooling, Edison relied on specialist employees at his various laboratories and offices to complete the technical work for many of his inventions.\n• Reginald Fessenden was an electronic communications specialist who worked at the Edison Machine Works manufacturing company.\n• He is best known for pioneering radio technology that led to the first transmission of speech by radio.\n• Frank J. Sprague was a naval officer who worked at the Menlo Park laboratory.\n• He is best known for being the father of electric traction.",
     "choices": [
       {
         "id": "A",
@@ -826,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -836,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_24",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "The student wants to emphasize the size of Atitalaqu\u00eda. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Atitalaqu\u00eda is a municipality in the state of Hidalgo, Mexico.\n\u2022 Municipalities are governmental regions responsible for providing many public services to their residents.\n\u2022 One service they provide is street lighting.\n\u2022 Atitalaqu\u00eda covers an area of roughly 63 km 2.\n\u2022 Hidalgo is divided into 84 municipalities.\n\nThe student wants to emphasize the size of Atitalaqu\u00eda. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the size of Atitalaquía. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Atitalaquía is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is street lighting.\n• Atitalaquía covers an area of roughly 63 km 2.\n• Hidalgo is divided into 84 municipalities.",
     "choices": [
       {
         "id": "A",
@@ -848,21 +845,21 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Atitalaqu\u00eda is one of 84 governmental regions, known as municipalities, across Hidalgo."
+        "text": "Atitalaquía is one of 84 governmental regions, known as municipalities, across Hidalgo."
       },
       {
         "id": "C",
-        "text": "Atitalaqu\u00eda\u2014a governmental region in the state of Hidalgo, Mexico\u2014provides many public services to its residents."
+        "text": "Atitalaquía—a governmental region in the state of Hidalgo, Mexico—provides many public services to its residents."
       },
       {
         "id": "D",
-        "text": "The municipality of Atitalaqu\u00eda in Hidalgo, Mexico, covers an area of roughly 63 km 2."
+        "text": "The municipality of Atitalaquía in Hidalgo, Mexico, covers an area of roughly 63 km 2."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -872,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_25",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "The student wants to provide a quotation from chapter 17. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 *The Future of Nostalgia* is a scholarly book by literary theorist Svetlana Boym.\n\u2022 The book provides a multifaceted exploration of the concept of nostalgia.\n\u2022 Chapter 9 describes nostalgia in the city of St. Petersburg in Russia.\n\u2022 Chapter 17 discusses various skeptics' takes on the concept of nostalgia.\n\u2022 In chapter 17, Boym writes, \"The poethics of nostalgia combines estrangement and human solidarity, affect and reflection.\"\n\nThe student wants to provide a quotation from chapter 17. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide a quotation from chapter 17. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *The Future of Nostalgia* is a scholarly book by literary theorist Svetlana Boym.\n• The book provides a multifaceted exploration of the concept of nostalgia.\n• Chapter 9 describes nostalgia in the city of St. Petersburg in Russia.\n• Chapter 17 discusses various skeptics' takes on the concept of nostalgia.\n• In chapter 17, Boym writes, \"The poethics of nostalgia combines estrangement and human solidarity, affect and reflection.\"",
     "choices": [
       {
         "id": "A",
@@ -898,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -908,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_26",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize how the two works are similar?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n\u2022 His work *Untitled (Two Heads on Gold)* was completed in 1982 and sold at auction in 2003.\n\u2022 *Untitled (Two Heads on Gold)* is composed of acrylic and oil stick on canvas and measures 10,000 square inches in area.\n\u2022 His work *Jazz* was completed in 1986 and sold at auction in 2020.\n\u2022 *Jazz* is composed of acrylic, oil, graphite, crayon, and paper collage on wood and measures 1,807 square inches in area.\n\nWhich choice most effectively uses information from the given sentences to emphasize how the two works are similar?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize how the two works are similar?\nWhile researching a topic, a student has taken the following notes:\n• Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n• His work *Untitled (Two Heads on Gold)* was completed in 1982 and sold at auction in 2003.\n• *Untitled (Two Heads on Gold)* is composed of acrylic and oil stick on canvas and measures 10,000 square inches in area.\n• His work *Jazz* was completed in 1986 and sold at auction in 2020.\n• *Jazz* is composed of acrylic, oil, graphite, crayon, and paper collage on wood and measures 1,807 square inches in area.",
     "choices": [
       {
         "id": "A",
@@ -934,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -944,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_27",
     "testName": "August 2024 International Form D SAT English Module 1",
-    "text": "The student wants to contrast two words that represent the same sound. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Onomatopoeias are words that imitate the sounds they represent.\n\u2022 Words that represent the same sound are often written and pronounced very differently from language to language.\n\u2022 This variation is due in part to differences in how the languages are structured.\n\u2022 \"Korrrr\" is a Batak onomatopoeia that represents the sound of snoring.\n\u2022 \"Hu lu\" is a Mandarin Chinese onomatopoeia that represents the sound of snoring.\n\nThe student wants to contrast two words that represent the same sound. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast two words that represent the same sound. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Onomatopoeias are words that imitate the sounds they represent.\n• Words that represent the same sound are often written and pronounced very differently from language to language.\n• This variation is due in part to differences in how the languages are structured.\n• \"Korrrr\" is a Batak onomatopoeia that represents the sound of snoring.\n• \"Hu lu\" is a Mandarin Chinese onomatopoeia that represents the sound of snoring.",
     "choices": [
       {
         "id": "A",
@@ -970,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

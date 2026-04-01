@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_1",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \"registered\" most nearly mean?\nThe following text is adapted from John Matheus's 1925 short story *Fog*. A train has stopped at a station, where heavy fog has set in. The little conductor stood on tiptoe in an effort to keep one hand on the signal rope, craning his neck in a vain and dissatisfied endeavor to pierce the miasma of the fog. The motorman chafed in his box, thinking of the drudging lot of the laboring man. He <u>registered</u> discontent.\n\nAs used in the text, what does the word \"registered\" most nearly mean?",
+    "text": "As used in the text, what does the word \"registered\" most nearly mean?\nThe following text is adapted from John Matheus's 1925 short story *Fog*. A train has stopped at a station, where heavy fog has set in. The little conductor stood on tiptoe in an effort to keep one hand on the signal rope, craning his neck in a vain and dissatisfied endeavor to pierce the miasma of the fog. The motorman chafed in his box, thinking of the drudging lot of the laboring man. He <u>registered</u> discontent.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_2",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs a member of Indigenous Photograph, artist Tshepiso Mabula ka Ndogngeni (Xhosa) can ______ her work more broadly than she could without the organization's reach. Photography editors around the world can search for Indigenous photographer members on the organization's website to find images that document and reflect the lives of Indigenous communities.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs a member of Indigenous Photograph, artist Tshepiso Mabula ka Ndogngeni (Xhosa) can ______ her work more broadly than she could without the organization's reach. Photography editors around the world can search for Indigenous photographer members on the organization's website to find images that document and reflect the lives of Indigenous communities.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_3",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nOriginating in the traditional stories of the *Kanaka Maoli*, the Native Hawaiian people, the literature of Hawai\u02bbi has a rich history that was later brought to international prominence by writers such as Mary Kawena Pukui. Now, by producing acclaimed works, Gary Pak has ______ his place in that literary tradition.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nOriginating in the traditional stories of the *Kanaka Maoli*, the Native Hawaiian people, the literature of Hawaiʻi has a rich history that was later brought to international prominence by writers such as Mary Kawena Pukui. Now, by producing acclaimed works, Gary Pak has ______ his place in that literary tradition.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_4",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2018 article about films depicting the experiences of Black Americans, critics for the *New York Times* praise Madeline Anderson's 1970 film *I Am Somebody* as \u201cgalvanizing\u201d and Reginald Hudlin\u2019s 1990 film *House Party* as \u201cexuberant.\u201d Fans of the two films hope that such ______ will attract new audiences to these works.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2018 article about films depicting the experiences of Black Americans, critics for the *New York Times* praise Madeline Anderson's 1970 film *I Am Somebody* as “galvanizing” and Reginald Hudlin’s 1990 film *House Party* as “exuberant.” Fans of the two films hope that such ______ will attract new audiences to these works.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_5",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nResearchers C\u00e9sar A. Hidalgo, Elisa Casta\u00f1er, and Andres Sevtsuk created a computer model to predict the mix of businesses and places of interest found in a given neighborhood. The team used data from the Google Places API service to help identify florists, beauty salons, and other businesses and map their locations. This approach has some limits\u2014<u>data from Places API tend to be restricted to places that are customer facing</u>\u2014but the data set nonetheless provides an extremely reliable source to study colocation patterns of neighborhood amenities.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nResearchers César A. Hidalgo, Elisa Castañer, and Andres Sevtsuk created a computer model to predict the mix of businesses and places of interest found in a given neighborhood. The team used data from the Google Places API service to help identify florists, beauty salons, and other businesses and map their locations. This approach has some limits—<u>data from Places API tend to be restricted to places that are customer facing</u>—but the data set nonetheless provides an extremely reliable source to study colocation patterns of neighborhood amenities.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_6",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nKnown for the albums *Someday My Prince Will Come* and *Milestones*, jazz trumpeter Miles Davis collaborated several times with pianist Gil Evans. Their 1958 adaptation of George Gershwin's opera *Porgy and Bess* bears little resemblance to the 1935 original. Davis and Evans felt no desire to please listeners expecting an exact duplication of the opera. <u>They omitted parts, such as the aria \u201cI Got Plenty of Nuthin\u2019,\u201d and sometimes made only brief gestures toward Gershwin\u2019s melodies.</u> But Davis and Evans\u2019s willingness to recompose Gershwin\u2019s work led to one of the most enduring albums in Davis\u2019s catalog.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nKnown for the albums *Someday My Prince Will Come* and *Milestones*, jazz trumpeter Miles Davis collaborated several times with pianist Gil Evans. Their 1958 adaptation of George Gershwin's opera *Porgy and Bess* bears little resemblance to the 1935 original. Davis and Evans felt no desire to please listeners expecting an exact duplication of the opera. <u>They omitted parts, such as the aria “I Got Plenty of Nuthin’,” and sometimes made only brief gestures toward Gershwin’s melodies.</u> But Davis and Evans’s willingness to recompose Gershwin’s work led to one of the most enduring albums in Davis’s catalog.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_7",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nScholarly interest in literary juvenilia\u2014writings by children and teenagers\u2014tends to focus on unpublished works by authors who became famous as adults, such as W.H. Auden\u2019s poem \u201cAutumn,\u201d which he wrote around age 15, because they offer insights into their authors\u2019 artistic development. But some scholars also argue that recovering juvenilia by lesser-known writers is essential to understanding literary history: Daisy Ashford\u2019s novels, which she published as a child, were widely read by contemporaries and are therefore deserving of closer attention.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nScholarly interest in literary juvenilia—writings by children and teenagers—tends to focus on unpublished works by authors who became famous as adults, such as W.H. Auden’s poem “Autumn,” which he wrote around age 15, because they offer insights into their authors’ artistic development. But some scholars also argue that recovering juvenilia by lesser-known writers is essential to understanding literary history: Daisy Ashford’s novels, which she published as a child, were widely read by contemporaries and are therefore deserving of closer attention.",
     "choices": [
       {
         "id": "A",
@@ -233,7 +233,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "To argue that Ashford\u2019s novels have more literary merit than Auden\u2019s juvenilia do"
+        "text": "To argue that Ashford’s novels have more literary merit than Auden’s juvenilia do"
       },
       {
         "id": "C",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -256,12 +256,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_8",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "According to the text, what happened when the researchers added oil to the surfaces covered in graphene fragments?\nSuperlubricity, the state of virtually no friction between materials, has desirable applications in many industries. For example, it can make aircraft engines more efficient. To produce a coating that achieves superlubricity, Chanaka Kumara and colleagues broke down carbon nanotubes into fragments of graphene to fully cover two surfaces that would rub together. Friction between pieces of graphene is generally extremely low, and when the researchers added a drop of oil as lubrication, that friction nearly vanished. This new coating may drastically lower friction-related energy costs.\n\nAccording to the text, what happened when the researchers added oil to the surfaces covered in graphene fragments?",
+    "text": "According to the text, what happened when the researchers added oil to the surfaces covered in graphene fragments?\nSuperlubricity, the state of virtually no friction between materials, has desirable applications in many industries. For example, it can make aircraft engines more efficient. To produce a coating that achieves superlubricity, Chanaka Kumara and colleagues broke down carbon nanotubes into fragments of graphene to fully cover two surfaces that would rub together. Friction between pieces of graphene is generally extremely low, and when the researchers added a drop of oil as lubrication, that friction nearly vanished. This new coating may drastically lower friction-related energy costs.",
     "choices": [
       {
         "id": "A",
@@ -283,43 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
-      "confidence": "high"
-    }
-  },
-  {
-    "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Central Ideas and Details",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "76199cca-674f-403e-a01c-927854021f9f_9",
-    "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nRoy McLendon's *Moonlit St. Lucie,* a riverscape featuring the silhouette of a single palm tree against the backdrop of shimmering water and a brilliant moonlit sky, is typical of paintings by the Florida Highwaymen, an informal collective of landscape artists mainly active in the 1950s and \u201960s. Remarkable for anticipating and amplifying cultural perceptions of Florida that became pervasive in the public consciousness, paintings by the Highwaymen are readily identifiable by the natural iconography\u2014placid inland rivers, windswept palm trees\u2014that McLendon and colleagues perpetually revisited.\n\nWhich choice best states the main idea of the text?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Although similar in its subject matter to many paintings by the Florida Highwaymen, *Moonlit St. Lucie* is now more highly regarded than other Florida Highwaymen paintings are."
-      },
-      {
-        "id": "B",
-        "text": "Representative images found across many paintings by McLendon and other Florida Highwaymen came to be widely associated with Florida in part due to the Florida Highwaymen\u2019s influence."
-      },
-      {
-        "id": "C",
-        "text": "Although paintings by the Florida Highwaymen were once celebrated for their depictions of Florida\u2019s natural environments, the popularity of these paintings waned after the 1960s."
-      },
-      {
-        "id": "D",
-        "text": "The placid inland rivers and windswept palm trees that are typical of McLendon\u2019s works, which are otherwise indistinguishable from other Florida Highwaymen paintings, help to differentiate McLendon's paintings from those of his colleagues."
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -329,11 +293,47 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "76199cca-674f-403e-a01c-927854021f9f_9",
+    "testName": "October 2024 US Form B SAT English Module 1",
+    "text": "Which choice best states the main idea of the text?\nRoy McLendon's *Moonlit St. Lucie,* a riverscape featuring the silhouette of a single palm tree against the backdrop of shimmering water and a brilliant moonlit sky, is typical of paintings by the Florida Highwaymen, an informal collective of landscape artists mainly active in the 1950s and ’60s. Remarkable for anticipating and amplifying cultural perceptions of Florida that became pervasive in the public consciousness, paintings by the Highwaymen are readily identifiable by the natural iconography—placid inland rivers, windswept palm trees—that McLendon and colleagues perpetually revisited.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Although similar in its subject matter to many paintings by the Florida Highwaymen, *Moonlit St. Lucie* is now more highly regarded than other Florida Highwaymen paintings are."
+      },
+      {
+        "id": "B",
+        "text": "Representative images found across many paintings by McLendon and other Florida Highwaymen came to be widely associated with Florida in part due to the Florida Highwaymen’s influence."
+      },
+      {
+        "id": "C",
+        "text": "Although paintings by the Florida Highwaymen were once celebrated for their depictions of Florida’s natural environments, the popularity of these paintings waned after the 1960s."
+      },
+      {
+        "id": "D",
+        "text": "The placid inland rivers and windswept palm trees that are typical of McLendon’s works, which are otherwise indistinguishable from other Florida Highwaymen paintings, help to differentiate McLendon's paintings from those of his colleagues."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_10",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nThe following text is from George Eliot's 1857 short story \u201c*The Sad Fortunes of the Rev. Amos Barton*.\u201d In the text, the narrator addresses the reader directly and alludes to a discussion among Rev. Amos Barton's neighbors. It was happy for the Rev. Amos Barton that he did not, like us, overhear the conversation recorded in the last chapter. Indeed, what mortal is there of us, who would find his satisfaction enhanced by an opportunity of comparing the picture he presents to himself of his own doings, with the picture they make on the mental retina of his neighbours? We are poor plants buoyed up by the air-vessels of our own conceit: alas for us, if we get a few pinches that empty us of that windy self-subsistence! The very capacity for good would go out of us.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nThe following text is from George Eliot's 1857 short story “*The Sad Fortunes of the Rev. Amos Barton*.” In the text, the narrator addresses the reader directly and alludes to a discussion among Rev. Amos Barton's neighbors. It was happy for the Rev. Amos Barton that he did not, like us, overhear the conversation recorded in the last chapter. Indeed, what mortal is there of us, who would find his satisfaction enhanced by an opportunity of comparing the picture he presents to himself of his own doings, with the picture they make on the mental retina of his neighbours? We are poor plants buoyed up by the air-vessels of our own conceit: alas for us, if we get a few pinches that empty us of that windy self-subsistence! The very capacity for good would go out of us.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_11",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nIn a study of interactions between plants, researchers Carolina Laura Morales and Anna gathered data about flowering plants growing alongside each other in various. In each case, the researchers identified one plant as a \u201ctarget species\" and a plant as a \"neighboring species.\" An example of a neighboring species is the musk which grows alongside the Peruvian lily in ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nIn a study of interactions between plants, researchers Carolina Laura Morales and Anna gathered data about flowering plants growing alongside each other in various. In each case, the researchers identified one plant as a “target species\" and a plant as a \"neighboring species.\" An example of a neighboring species is the musk which grows alongside the Peruvian lily in ______",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USB_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_12",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the assertion?\n*Drosophila* (fruit flies) have generation times of 10-12 days, so seasonal changes in humidity and other environmental conditions can drive seasonal fluctuations in chromosome rearrangements in species such as *D. persimilis* and *D. mediopunctata*. *Drosophila* body size (for which wing centroid size serves as a proxy measure) correlates with life span. Banu Sebnem \u00d6nder and Cansu Fidan Aksoy measured the wing sizes of members of a *D. melanogaster* population in Yesil\u00f6z, Turkey, that were collected monthly between May and October over three years. Their research suggests that *Drosophila* collected in relatively warmer months should tend to have a longer life span, as is illustrated by the finding that ______\n\nWhich choice most effectively uses data from the table to complete the assertion?",
+    "text": "Which choice most effectively uses data from the table to complete the assertion?\n*Drosophila* (fruit flies) have generation times of 10-12 days, so seasonal changes in humidity and other environmental conditions can drive seasonal fluctuations in chromosome rearrangements in species such as *D. persimilis* and *D. mediopunctata*. *Drosophila* body size (for which wing centroid size serves as a proxy measure) correlates with life span. Banu Sebnem Önder and Cansu Fidan Aksoy measured the wing sizes of members of a *D. melanogaster* population in Yesilöz, Turkey, that were collected monthly between May and October over three years. Their research suggests that *Drosophila* collected in relatively warmer months should tend to have a longer life span, as is illustrated by the finding that ______",
     "choices": [
       {
         "id": "A",
@@ -428,26 +427,25 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USB_Eng_M1_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_13",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nA road was recently built in a Maryland woodland that is home to the house finch. Some finches\u2019 nests were situated close to the new road and others were deeper in the woodland. Common ravens, which eat finch eggs, can spot nests near the open spaces of roads more easily than they can spot nests surrounded by woodland. Accordingly, researchers in Maryland trying to predict the impact of the new road on finches have suggested that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nA road was recently built in a Maryland woodland that is home to the house finch. Some finches’ nests were situated close to the new road and others were deeper in the woodland. Common ravens, which eat finch eggs, can spot nests near the open spaces of roads more easily than they can spot nests surrounded by woodland. Accordingly, researchers in Maryland trying to predict the impact of the new road on finches have suggested that ______",
     "choices": [
       {
         "id": "A",
-        "text": "finch eggs will make up about the same percentage of common ravens\u2019 diet as they did before the road was built."
+        "text": "finch eggs will make up about the same percentage of common ravens’ diet as they did before the road was built."
       },
       {
         "id": "B",
@@ -465,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -475,15 +473,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_14",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nBiologists Rebecca M. Calisi-Rodriguez and George E. Bentley examined research on species such as dark-eyed juncos and tucos, which have both been studied under laboratory conditions as well as in the wild, to see whether there were significant differences between findings in the wild and in the lab. And, for example, they found for tucos that daytime is the most active period for wild individuals but not for captive individuals. Calisi-Rodriguez and Bentley therefore concluded that the laboratory setting was likely ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nBiologists Rebecca M. Calisi-Rodriguez and George E. Bentley examined research on species such as dark-eyed juncos and tucos, which have both been studied under laboratory conditions as well as in the wild, to see whether there were significant differences between findings in the wild and in the lab. And, for example, they found for tucos that daytime is the most active period for wild individuals but not for captive individuals. Calisi-Rodriguez and Bentley therefore concluded that the laboratory setting was likely ______",
     "choices": [
       {
         "id": "A",
-        "text": "more suitable than wild settings for studying tucos\u2019 patterns of rest and activity."
+        "text": "more suitable than wild settings for studying tucos’ patterns of rest and activity."
       },
       {
         "id": "B",
@@ -495,13 +493,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "interfering with tucos\u2019 patterns of rest and activity."
+        "text": "interfering with tucos’ patterns of rest and activity."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -510,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_15",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nAll stainless steel contains varying amounts of iron, carbon, and corrosion-inhibiting chromium. However, ferritic stainless steel, often used for induction cookers, contains a higher percentage of chromium (at least 10.5%) than does austenitic stainless steel as well as a higher concentration of iron. Unlike ferritic stainless steel, austenitic stainless steel has a face-centered cubic crystalline structure held stable by the presence of nickel and nitrogen. Austenitic stainless steel has two subtypes: the 200 series, often used for washing machines, and the 300 series, which has more nickel than the 200 series and is often used for storage containers or furnaces. Thus, stainless steel used to manufacture ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nAll stainless steel contains varying amounts of iron, carbon, and corrosion-inhibiting chromium. However, ferritic stainless steel, often used for induction cookers, contains a higher percentage of chromium (at least 10.5%) than does austenitic stainless steel as well as a higher concentration of iron. Unlike ferritic stainless steel, austenitic stainless steel has a face-centered cubic crystalline structure held stable by the presence of nickel and nitrogen. Austenitic stainless steel has two subtypes: the 200 series, often used for washing machines, and the 300 series, which has more nickel than the 200 series and is often used for storage containers or furnaces. Thus, stainless steel used to manufacture ______",
     "choices": [
       {
         "id": "A",
@@ -537,9 +535,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -547,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_16",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAn emulsifier is a type of compound that serves to stabilize an emulsion\u2014a mixture of two or more liquids that otherwise would not easily blend together. In the cosmetics industry, emulsifiers such as stearyl alcohol ______ to blend oil and water into homogeneous formulations, like lotions and perfumes.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAn emulsifier is a type of compound that serves to stabilize an emulsion—a mixture of two or more liquids that otherwise would not easily blend together. In the cosmetics industry, emulsifiers such as stearyl alcohol ______ to blend oil and water into homogeneous formulations, like lotions and perfumes.",
     "choices": [
       {
         "id": "A",
@@ -573,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -583,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_17",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Akhundov National Library in Baku houses many historical newspapers, but it isn\u2019t necessary to travel to Baku to access them. Because these rare items are digitized, people around the world can access ______ regardless of where they live.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Akhundov National Library in Baku houses many historical newspapers, but it isn’t necessary to travel to Baku to access them. Because these rare items are digitized, people around the world can access ______ regardless of where they live.",
     "choices": [
       {
         "id": "A",
@@ -609,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_18",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe constitution of Spain, enacted in 1978, enshrines 60 total rights across 17,608 words of text. According to constitutional scholar George Tsebelis, who examines the implications of constitutional length on civil rights, ______ 105th in a global ranking of the shortest constitutions.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe constitution of Spain, enacted in 1978, enshrines 60 total rights across 17,608 words of text. According to constitutional scholar George Tsebelis, who examines the implications of constitutional length on civil rights, ______ 105th in a global ranking of the shortest constitutions.",
     "choices": [
       {
         "id": "A",
@@ -631,7 +629,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "it\u2019s"
+        "text": "it’s"
       },
       {
         "id": "C",
@@ -645,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -654,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_19",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFeaturing works by the photographers Liselotte Grschebina and Else \u201cYva\u201d Neul\u00e4nder-Simon, the 2021 exhibition *The New Woman Behind the Camera* set out to provide a wide-ranging overview of photography by women in the 1920s through the ______ given the collection\u2019s breadth of more than 120 photos, its efforts were largely successful.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFeaturing works by the photographers Liselotte Grschebina and Else “Yva” Neuländer-Simon, the 2021 exhibition *The New Woman Behind the Camera* set out to provide a wide-ranging overview of photography by women in the 1920s through the ______ given the collection’s breadth of more than 120 photos, its efforts were largely successful.",
     "choices": [
       {
         "id": "A",
@@ -681,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_20",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Austronesian language family comprises some 1,200 languages\u2014including the ______ Javanese and Bikol, which are spoken by 100 million and 4.6 million speakers, respectively\u2014and accounts for one-fifth of the world\u2019s languages, making it of keen interest to linguists like Li Jen-kuei.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Austronesian language family comprises some 1,200 languages—including the ______ Javanese and Bikol, which are spoken by 100 million and 4.6 million speakers, respectively—and accounts for one-fifth of the world’s languages, making it of keen interest to linguists like Li Jen-kuei.",
     "choices": [
       {
         "id": "A",
@@ -707,7 +705,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "languages\u2014"
+        "text": "languages—"
       },
       {
         "id": "D",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_21",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nBlair L.M. Kelley, a historian specializing in the history of segregation in the US, conducted extensive research while writing a book about the landmark *Brown v. Board of Education* court case. ______ when the book was released, colleagues in her field regarded it as a reliable source of information on the subject.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nBlair L.M. Kelley, a historian specializing in the history of segregation in the US, conducted extensive research while writing a book about the landmark *Brown v. Board of Education* court case. ______ when the book was released, colleagues in her field regarded it as a reliable source of information on the subject.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_22",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nMany English adjectives share a linguistic origin with their associated nouns, like the adjective \u201cmonetary\u201d and the noun \u201cmoney,\u201d both of which come from the Latin *monetarius*. ______ some adjectives do not share an origin with their associated nouns. For example, the adjective \u201cbovine\u201d ultimately comes from the Latin *bos*, while its associated noun, \u201ccow,\u201d comes from the Old English *c\u00f9*.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nMany English adjectives share a linguistic origin with their associated nouns, like the adjective “monetary” and the noun “money,” both of which come from the Latin *monetarius*. ______ some adjectives do not share an origin with their associated nouns. For example, the adjective “bovine” ultimately comes from the Latin *bos*, while its associated noun, “cow,” comes from the Old English *cù*.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_23",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe decades since the Second World War have seen a range of outcomes for the independence movements of Micronesia, Melanesia, and Polynesia. Many of the regions\u2019 islands and groups of islands have become independent nations. ______ the Northern Mariana Islands, a commonwealth in Micronesia consisting of fifteen islands, are part of the US, and the Society Islands, a group of islands in Polynesia including Tahiti and Bora Bora, are part of the territory of French Polynesia.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe decades since the Second World War have seen a range of outcomes for the independence movements of Micronesia, Melanesia, and Polynesia. Many of the regions’ islands and groups of islands have become independent nations. ______ the Northern Mariana Islands, a commonwealth in Micronesia consisting of fifteen islands, are part of the US, and the Society Islands, a group of islands in Polynesia including Tahiti and Bora Bora, are part of the territory of French Polynesia.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,19 +833,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_24",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "The student wants to emphasize a difference between the two supercontinents. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A supercontinent is a single landmass made up of most or all of Earth\u2019s continents.\n\u2022 Over time, continents merge together to form supercontinents, which then break apart.\n\u2022 This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n\u2022 Ur was a supercontinent that formed about 3.1 billion years ago.\n\u2022 Euramerica was a supercontinent that formed about 300 million years ago.\n\nThe student wants to emphasize a difference between the two supercontinents. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between the two supercontinents. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A supercontinent is a single landmass made up of most or all of Earth’s continents.\n• Over time, continents merge together to form supercontinents, which then break apart.\n• This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n• Ur was a supercontinent that formed about 3.1 billion years ago.\n• Euramerica was a supercontinent that formed about 300 million years ago.",
     "choices": [
       {
         "id": "A",
-        "text": "Euramerica formed about 300 million years ago, but Ur formed much earlier\u2014about 3.1 billion years ago."
+        "text": "Euramerica formed about 300 million years ago, but Ur formed much earlier—about 3.1 billion years ago."
       },
       {
         "id": "B",
-        "text": "Forming and breaking apart over hundreds of millions of years, supercontinents are made up of most or all of Earth\u2019s continents."
+        "text": "Forming and breaking apart over hundreds of millions of years, supercontinents are made up of most or all of Earth’s continents."
       },
       {
         "id": "C",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_25",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "The student wants to provide an example of a public service that Ixmiquilpan is responsible for. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Ixmiquilpan is a municipality in the state of Hidalgo, Mexico.\n\u2022 Municipalities are governmental regions responsible for providing many public services to their residents.\n\u2022 One service they provide is water treatment.\n\u2022 Ixmiquilpan\u2019s population was 98,654 in 2020.\n\u2022 Hidalgo is divided into 84 municipalities.\n\nThe student wants to provide an example of a public service that Ixmiquilpan is responsible for. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of a public service that Ixmiquilpan is responsible for. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Ixmiquilpan is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is water treatment.\n• Ixmiquilpan’s population was 98,654 in 2020.\n• Hidalgo is divided into 84 municipalities.",
     "choices": [
       {
         "id": "A",
@@ -887,7 +885,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Ixmiquilpan\u2014a governmental region in the state of Hidalgo, Mexico\u2014provides public services to its residents."
+        "text": "Ixmiquilpan—a governmental region in the state of Hidalgo, Mexico—provides public services to its residents."
       },
       {
         "id": "D",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_26",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "The student wants to connect Square Tower House to modern-day Pueblo buildings. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Square Tower House is a former Ancestral Puebloan settlement in southwestern Colorado that was inhabited from approximately 1200\u20131300 CE.\n\u2022 It contained elaborate multistory buildings primarily made of adobe and stone.\n\u2022 The Ancestral Puebloan civilization (approximately 1200 BCE\u20131600 CE) was the precursor of modern Pueblo tribal nations.\n\u2022 These modern nations include Zuni Pueblo and Isleta Pueblo.\n\u2022 Buildings in Zuni Pueblo and Isleta Pueblo often incorporate traditional elements, such as adobe and stone, alongside more contemporary elements.\n\nThe student wants to connect Square Tower House to modern-day Pueblo buildings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to connect Square Tower House to modern-day Pueblo buildings. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Square Tower House is a former Ancestral Puebloan settlement in southwestern Colorado that was inhabited from approximately 1200–1300 CE.\n• It contained elaborate multistory buildings primarily made of adobe and stone.\n• The Ancestral Puebloan civilization (approximately 1200 BCE–1600 CE) was the precursor of modern Pueblo tribal nations.\n• These modern nations include Zuni Pueblo and Isleta Pueblo.\n• Buildings in Zuni Pueblo and Isleta Pueblo often incorporate traditional elements, such as adobe and stone, alongside more contemporary elements.",
     "choices": [
       {
         "id": "A",
@@ -927,13 +925,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Square Tower House, located in southwestern Colorado, was inhabited from approximately 1200\u20131300 CE, but its buildings aren\u2019t actively occupied today."
+        "text": "Square Tower House, located in southwestern Colorado, was inhabited from approximately 1200–1300 CE, but its buildings aren’t actively occupied today."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "76199cca-674f-403e-a01c-927854021f9f_27",
     "testName": "October 2024 US Form B SAT English Module 1",
-    "text": "The student wants to specify an element's relative abundance on Earth. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Element abundance is a relative measure of the occurrence of a chemical element in a given environment.\n\u2022 An element\u2019s relative abundance can be expressed as a mass fraction, mole fraction, or volume fraction.\n\u2022 Mass fraction is the ratio of an element\u2019s mass to the combined mass of all elements in a given environment.\n\u2022 The mass fraction of calcium (Ca) is 17,100 parts per million (ppm), or 1.71%, on Earth.\n\u2022 The mass fraction of potassium (K) is 160 ppm, or 0.016%, on Earth.\n\nThe student wants to specify an element's relative abundance on Earth. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to specify an element's relative abundance on Earth. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Element abundance is a relative measure of the occurrence of a chemical element in a given environment.\n• An element’s relative abundance can be expressed as a mass fraction, mole fraction, or volume fraction.\n• Mass fraction is the ratio of an element’s mass to the combined mass of all elements in a given environment.\n• The mass fraction of calcium (Ca) is 17,100 parts per million (ppm), or 1.71%, on Earth.\n• The mass fraction of potassium (K) is 160 ppm, or 0.016%, on Earth.",
     "choices": [
       {
         "id": "A",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

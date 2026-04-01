@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_1",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDuring his career, Cuban composer and pianist Ernesto Lecuona produced hundreds of compositions. Especially impressive is how ______ his body of work is: Lecuona showcased a diverse range of musical talents in different areas, from orchestral pieces and operas to popular film scores.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDuring his career, Cuban composer and pianist Ernesto Lecuona produced hundreds of compositions. Especially impressive is how ______ his body of work is: Lecuona showcased a diverse range of musical talents in different areas, from orchestral pieces and operas to popular film scores.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_2",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs with other river deltas, the Indus River delta is ______: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Arabian Sea.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs with other river deltas, the Indus River delta is ______: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Arabian Sea.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -75,13 +75,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_3",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Based on the text, when the narrator describes herself as \"cheating,\" what does she most likely mean?\nThe following text is from Amy Tan's 1989 novel *The Joy Luck Club*. The narrator describes practicing the piano when she was a child. For the talent show, I was to play a piece called \"Pleading Child\" from Schumann's *Scenes from Childhood*. It was a simple, moody piece that sounded more difficult than it was. I was supposed to memorize the whole thing, playing the repeat parts twice to make the piece sound longer. But I dawdled over it, playing a few bars and then <u>cheating</u>, looking up to see what notes followed. I never really listened to what I was playing. I daydreamed about being somewhere else, about being someone else.\n\u00a91989 by Amy Tan\n\nBased on the text, when the narrator describes herself as \"cheating,\" what does she most likely mean?",
+    "text": "Based on the text, when the narrator describes herself as \"cheating,\" what does she most likely mean?\nThe following text is from Amy Tan's 1989 novel *The Joy Luck Club*. The narrator describes practicing the piano when she was a child. For the talent show, I was to play a piece called \"Pleading Child\" from Schumann's *Scenes from Childhood*. It was a simple, moody piece that sounded more difficult than it was. I was supposed to memorize the whole thing, playing the repeat parts twice to make the piece sound longer. But I dawdled over it, playing a few bars and then <u>cheating</u>, looking up to see what notes followed. I never really listened to what I was playing. I daydreamed about being somewhere else, about being someone else.\n©1989 by Amy Tan",
     "choices": [
       {
         "id": "A",
@@ -103,9 +103,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_4",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThe following text is from Bram Stoker's 1911 novel *The Lair of the White Worm*. Adam is meeting his great-uncle Richard at a port. The meeting so auspiciously begun proceeded well. Adam, seeing that the old man was interested in the novelty of the ship, suggested that he should stay the night on board, and that he would himself be ready to start at any hour and go anywhere that the other suggested. This affectionate willingness to fall in with his own plans quite won the old man's heart. He warmly accepted the invitation, and at once they became not only on terms of affectionate relationship, but almost like old friends.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe following text is from Bram Stoker's 1911 novel *The Lair of the White Worm*. Adam is meeting his great-uncle Richard at a port. The meeting so auspiciously begun proceeded well. Adam, seeing that the old man was interested in the novelty of the ship, suggested that he should stay the night on board, and that he would himself be ready to start at any hour and go anywhere that the other suggested. This affectionate willingness to fall in with his own plans quite won the old man's heart. He warmly accepted the invitation, and at once they became not only on terms of affectionate relationship, but almost like old friends.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_5",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nVertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. While horizontal gene transfer is common among prokaryotes\u2014single-celled organisms such as the bacteria *Carnobacterium viridans* and *Moraxella caviae*\u2014it has rarely been observed among eukaryotes (typically multicellular organisms). <u>However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.</u>\n\nWhich choice best states the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nVertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. While horizontal gene transfer is common among prokaryotes—single-celled organisms such as the bacteria *Carnobacterium viridans* and *Moraxella caviae*—it has rarely been observed among eukaryotes (typically multicellular organisms). <u>However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.</u>",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_6",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThough John Crowley, author of *Endless Things*, is perhaps not as well known as the most widely read American writers of the past fifty years, influential figures have championed his work, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book *Little, Big*, Bloom praises the novel's adroit blend of what playwright Friedrich Schiller termed the naive and sentimental modes\u2014while Schiller thought works could be classified as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), *Little, Big* demonstrates that a work can be both.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThough John Crowley, author of *Endless Things*, is perhaps not as well known as the most widely read American writers of the past fifty years, influential figures have championed his work, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book *Little, Big*, Bloom praises the novel's adroit blend of what playwright Friedrich Schiller termed the naive and sentimental modes—while Schiller thought works could be classified as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), *Little, Big* demonstrates that a work can be both.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_7",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nThe following text is from a translation of Maria Due\u00f1as's 2009 novel *The Time in Between*. The narrator has just rented an apartment and is entering it for the first time. Over the years there have been many times when my destiny has delivered me unexpected moments, unforeseen twists and turns that I've had to handle on the fly as they appeared. Occasionally I was ready for them; very often I wasn't. Never, however, was I so aware of entering a new stage as I was that afternoon in October when I finally dared to cross the threshold and my steps sounded hollowly in the unfurnished apartment. Behind me was a complicated past, and in front of me, like an omen, I could see a space opening out, a great empty space that time would take care of filling up.\n\u00a92009 by Maria Due\u00f1as. Translation \u00a92011 by Haniel Haha.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nThe following text is from a translation of Maria Dueñas's 2009 novel *The Time in Between*. The narrator has just rented an apartment and is entering it for the first time. Over the years there have been many times when my destiny has delivered me unexpected moments, unforeseen twists and turns that I've had to handle on the fly as they appeared. Occasionally I was ready for them; very often I wasn't. Never, however, was I so aware of entering a new stage as I was that afternoon in October when I finally dared to cross the threshold and my steps sounded hollowly in the unfurnished apartment. Behind me was a complicated past, and in front of me, like an omen, I could see a space opening out, a great empty space that time would take care of filling up.\n©2009 by Maria Dueñas. Translation ©2011 by Haniel Haha.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_8",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Based on the text, what is one reason why simulants are valuable for scientists?\nThe soil on Mars can make missions to explore the planet challenging, as the sand and dust are known to clog filters and lock moving parts on robotic rovers and other exploration devices. Using simulants, which are materials designed to simulate different planetary surfaces, scientists are able to study the characteristics of Mars's surface. Simulants like the Mars Mojave simulant\u2014which was developed using lava deposits from California's Mojave Desert\u2014help scientists evaluate how well their devices will handle the surface when operated on Mars.\n\nBased on the text, what is one reason why simulants are valuable for scientists?",
+    "text": "Based on the text, what is one reason why simulants are valuable for scientists?\nThe soil on Mars can make missions to explore the planet challenging, as the sand and dust are known to clog filters and lock moving parts on robotic rovers and other exploration devices. Using simulants, which are materials designed to simulate different planetary surfaces, scientists are able to study the characteristics of Mars's surface. Simulants like the Mars Mojave simulant—which was developed using lava deposits from California's Mojave Desert—help scientists evaluate how well their devices will handle the surface when operated on Mars.",
     "choices": [
       {
         "id": "A",
@@ -283,9 +283,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_9",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which quotation from *The Wonderful Wizard of Oz* most effectively illustrates the claim?\n*The Wonderful Wizard of Oz* is a 1900 novel by L. Frank Baum. In the novel, the narrator describes a character's house as having become very faded in appearance over time: ______\n\nWhich quotation from *The Wonderful Wizard of Oz* most effectively illustrates the claim?",
+    "text": "Which quotation from *The Wonderful Wizard of Oz* most effectively illustrates the claim?\n*The Wonderful Wizard of Oz* is a 1900 novel by L. Frank Baum. In the novel, the narrator describes a character's house as having become very faded in appearance over time: ______",
     "choices": [
       {
         "id": "A",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -327,13 +327,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_10",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nAs the second-most populous continent in the world, Africa was home to an estimated 1.186 billion people in 2015. In a paper for a social studies class, a student nonetheless notes that countries with very large populations may be less densely populated than are countries with much smaller populations, as can be seen by comparing ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nAs the second-most populous continent in the world, Africa was home to an estimated 1.186 billion people in 2015. In a paper for a social studies class, a student nonetheless notes that countries with very large populations may be less densely populated than are countries with much smaller populations, as can be seen by comparing ______",
     "choices": [
       {
         "id": "A",
@@ -341,7 +341,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Angola, which has a high population of 25,022,000 inhabitants and a relatively low density of 20.1 inhabitants/square kilometer, with Sao Tom\u00e9 and Principe, which has a much lower population and a higher density."
+        "text": "Angola, which has a high population of 25,022,000 inhabitants and a relatively low density of 20.1 inhabitants/square kilometer, with Sao Tomé and Principe, which has a much lower population and a higher density."
       },
       {
         "id": "C",
@@ -349,28 +349,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "the populations of both Sao Tom\u00e9 and Principe and Ethiopia in 2015 with their populations in 2010."
+        "text": "the populations of both Sao Tomé and Principe and Ethiopia in 2015 with their populations in 2010."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlA_Eng_M1_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_11",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice best describes data from the graph that weaken the student's claim?\nTo measure whether countries in free trade agreements (FTAs)\u2014agreements among nations to reduce tariffs, duties, and other trade barriers\u2014experience changes in total agricultural exports, economist Kayode Ajewole and colleagues calculated average export growth rates for several countries over the five years before and the five years after entering an FTA with the United States. The graph shows the results for three countries in the study. Consulting the graph, a student claims that joining an FTA increases the rate of growth of a country's total agricultural exports.\n\nWhich choice best describes data from the graph that weaken the student's claim?",
+    "text": "Which choice best describes data from the graph that weaken the student's claim?\nTo measure whether countries in free trade agreements (FTAs)—agreements among nations to reduce tariffs, duties, and other trade barriers—experience changes in total agricultural exports, economist Kayode Ajewole and colleagues calculated average export growth rates for several countries over the five years before and the five years after entering an FTA with the United States. The graph shows the results for three countries in the study. Consulting the graph, a student claims that joining an FTA increases the rate of growth of a country's total agricultural exports.",
     "choices": [
       {
         "id": "A",
@@ -392,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlA_Eng_M1_Q11_1.svg"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_12",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice best describes how data in the table for HD 80653 b would likely differ if it had an atmosphere?\nIf a planet orbits in close proximity to a star and lacks an atmosphere, the planet can become so hot that magma oceans form on its surface. For three planets that could plausibly harbor magma oceans, the table shows mass, density (expressed as the ratio of the material's volume at its current density to its maximum possible density, with higher numbers indicating lower densities), and surface temperature according to a model that assumes the absence of atmosphere.\n\nWhich choice best describes how data in the table for HD 80653 b would likely differ if it had an atmosphere?",
+    "text": "Which choice best describes how data in the table for HD 80653 b would likely differ if it had an atmosphere?\nIf a planet orbits in close proximity to a star and lacks an atmosphere, the planet can become so hot that magma oceans form on its surface. For three planets that could plausibly harbor magma oceans, the table shows mass, density (expressed as the ratio of the material's volume at its current density to its maximum possible density, with higher numbers indicating lower densities), and surface temperature according to a model that assumes the absence of atmosphere.",
     "choices": [
       {
         "id": "A",
@@ -429,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlA_Eng_M1_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_13",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice best describes data from the table that most effectively strengthen Pereira and colleagues' conclusion?\nMichelle Pereira et al. hypothesized that introducing health improvements into workplaces would increase productivity by reducing absenteeism (sick employees not working) and presenteeism (sick workers working less productively due to illness). Pereira's team enrolled groups of Australian workers in two programs; one that gave employees exercise training (EET) and one that enrolled employees in health promotion seminars (EHP). They then calculated the productivity loss of those groups at 12 weeks and 12 months after the programs began (based on the 28 days preceding each point). They concluded that exercise training was more effective at restraining productivity loss than health promotion seminars were, though this result took time to become apparent.\n\nWhich choice best describes data from the table that most effectively strengthen Pereira and colleagues' conclusion?",
+    "text": "Which choice best describes data from the table that most effectively strengthen Pereira and colleagues' conclusion?\nMichelle Pereira et al. hypothesized that introducing health improvements into workplaces would increase productivity by reducing absenteeism (sick employees not working) and presenteeism (sick workers working less productively due to illness). Pereira's team enrolled groups of Australian workers in two programs; one that gave employees exercise training (EET) and one that enrolled employees in health promotion seminars (EHP). They then calculated the productivity loss of those groups at 12 weeks and 12 months after the programs began (based on the 28 days preceding each point). They concluded that exercise training was more effective at restraining productivity loss than health promotion seminars were, though this result took time to become apparent.",
     "choices": [
       {
         "id": "A",
@@ -466,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlA_Eng_M1_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_14",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which statement, if true, would most strongly support the claim in the underlined sentence?\n*Ningyo joruri* is a form of theater that was popular in eighteenth-century Japan and that unites puppetry with playing of the *shamisen*, a stringed musical instrument. The popularity of *ningyo joruri* was due to a puppetry method called *sannin zukai*, in which three puppeteers operated a single puppet that was large, detailed, and capable of extensive movement and nuanced emotional expression. <u>Over the ensuing centuries, audience interest in *ningyo joruri* began to decline and *sannin zukai* became prohibitively expensive to mount, so that *sannin zukai* puppeteers could no longer make the profession a full-time career.</u> Eventually, *ningyo joruri* productions resorted to cheaper forms of puppetry, such as *kuruma ningyo*, which involves only one puppeteer.\n\nWhich statement, if true, would most strongly support the claim in the underlined sentence?",
+    "text": "Which statement, if true, would most strongly support the claim in the underlined sentence?\n*Ningyo joruri* is a form of theater that was popular in eighteenth-century Japan and that unites puppetry with playing of the *shamisen*, a stringed musical instrument. The popularity of *ningyo joruri* was due to a puppetry method called *sannin zukai*, in which three puppeteers operated a single puppet that was large, detailed, and capable of extensive movement and nuanced emotional expression. <u>Over the ensuing centuries, audience interest in *ningyo joruri* began to decline and *sannin zukai* became prohibitively expensive to mount, so that *sannin zukai* puppeteers could no longer make the profession a full-time career.</u> Eventually, *ningyo joruri* productions resorted to cheaper forms of puppetry, such as *kuruma ningyo*, which involves only one puppeteer.",
     "choices": [
       {
         "id": "A",
@@ -503,21 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_15",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBoth Pontianak, Indonesia, and Manta, Ecuador, are located at less than one degree latitude. In other words, ______ cities basically sit right on the equator!\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBoth Pontianak, Indonesia, and Manta, Ecuador, are located at less than one degree latitude. In other words, ______ cities basically sit right on the equator!",
     "choices": [
       {
         "id": "A",
@@ -539,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
-      "confidence": "high"
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_16",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAn upcoming exhibition will showcase Vincent van Gogh's drawing *Sale of Building Scrap*, which Van Gogh ______ in the city of Nuenen nearly 150 years ago.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAn upcoming exhibition will showcase Vincent van Gogh's drawing *Sale of Building Scrap*, which Van Gogh ______ in the city of Nuenen nearly 150 years ago.",
     "choices": [
       {
         "id": "A",
@@ -575,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_17",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe rough frog is a species of amphibian native to Australia. Currently, the frog's range ______ parts of northern New South Wales and southeastern Queensland.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe rough frog is a species of amphibian native to Australia. Currently, the frog's range ______ parts of northern New South Wales and southeastern Queensland.",
     "choices": [
       {
         "id": "A",
@@ -611,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_18",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen attempting to determine a fault's seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault's physical dimensions and geological features. For the Ione Valley fault in Lander County, Nevada, the US Geological Survey compiles such data in several ______ exchanging information with state geological surveys, by linking maps of the fault with sources that offer detailed descriptions of it, and by maintaining a database of quantitative data such as the fault's length (76 km).\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen attempting to determine a fault's seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault's physical dimensions and geological features. For the Ione Valley fault in Lander County, Nevada, the US Geological Survey compiles such data in several ______ exchanging information with state geological surveys, by linking maps of the fault with sources that offer detailed descriptions of it, and by maintaining a database of quantitative data such as the fault's length (76 km).",
     "choices": [
       {
         "id": "A",
@@ -647,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_19",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA pet rabbit is held by its owner on a beach in *Boo and His Rabbit*, a photograph by British ______ Chris Killip.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA pet rabbit is held by its owner on a beach in *Boo and His Rabbit*, a photograph by British ______ Chris Killip.",
     "choices": [
       {
         "id": "A",
@@ -669,7 +665,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "artist\u2014"
+        "text": "artist—"
       },
       {
         "id": "C",
@@ -683,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_20",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn his 2011 book, historian Sebouh David Aslanian quantifies the reading patterns of early modern Armenian merchants from New Julfa. Aslanian's macroanalysis ______ nearly 1,000 book titles published between 1512 and 1800 shows not only the steady popularity of religious texts but also a broadening interest in secular books, especially those on history and geography.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn his 2011 book, historian Sebouh David Aslanian quantifies the reading patterns of early modern Armenian merchants from New Julfa. Aslanian's macroanalysis ______ nearly 1,000 book titles published between 1512 and 1800 shows not only the steady popularity of religious texts but also a broadening interest in secular books, especially those on history and geography.",
     "choices": [
       {
         "id": "A",
@@ -719,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_21",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn 1920, the US Geological Survey determined the geographic center of Tennessee using only a cardboard cutout of the state and a piece of string. ______ this apparently crude technique yielded a relatively close approximation: when the 1920 center was compared to a center determined by a computer program nearly a hundred years later, the two diverged by just a few miles.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 1920, the US Geological Survey determined the geographic center of Tennessee using only a cardboard cutout of the state and a piece of string. ______ this apparently crude technique yielded a relatively close approximation: when the 1920 center was compared to a center determined by a computer program nearly a hundred years later, the two diverged by just a few miles.",
     "choices": [
       {
         "id": "A",
@@ -755,21 +751,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_22",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn astrophysics, a ring of debris orbiting a larger object within the object's Roche limit is expected to persist as a ring, whereas a ring of debris orbiting outside this limit would likely accrete into a satellite (e.g., a moon). Bruno Morgado and colleagues, ______ detected a dense ring of material orbiting the trans-Neptunian object Quaoar at a distance of 2,500 miles, well outside the calculated Roche limit of 1,100 miles, that has remained intact.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn astrophysics, a ring of debris orbiting a larger object within the object's Roche limit is expected to persist as a ring, whereas a ring of debris orbiting outside this limit would likely accrete into a satellite (e.g., a moon). Bruno Morgado and colleagues, ______ detected a dense ring of material orbiting the trans-Neptunian object Quaoar at a distance of 2,500 miles, well outside the calculated Roche limit of 1,100 miles, that has remained intact.",
     "choices": [
       {
         "id": "A",
@@ -791,21 +787,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_23",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nWhile most animals prefer the safety of nighttime migration, many poisonous amphibians\u2014a category that includes the Panamanian golden frog and the cane toad\u2014safely engage in migratory behavior during the day. ______ with the sun in the sky, the amphibians' striking color patterns deter visually oriented daytime predators by serving as a warning of toxicity.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWhile most animals prefer the safety of nighttime migration, many poisonous amphibians—a category that includes the Panamanian golden frog and the cane toad—safely engage in migratory behavior during the day. ______ with the sun in the sky, the amphibians' striking color patterns deter visually oriented daytime predators by serving as a warning of toxicity.",
     "choices": [
       {
         "id": "A",
@@ -827,9 +823,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -837,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_24",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "The student wants to emphasize the different locations of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Niger River is the third longest river in Africa.\n\u2022 It ranks No. 14 among the longest rivers in the world.\n\u2022 It is 4,200 kilometers long.\n\u2022 The Indus River is the ninth longest river in Asia.\n\u2022 It ranks No. 19 among the longest rivers in the world.\n\u2022 It is 3,610 kilometers long.\n\nThe student wants to emphasize the different locations of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the different locations of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Niger River is the third longest river in Africa.\n• It ranks No. 14 among the longest rivers in the world.\n• It is 4,200 kilometers long.\n• The Indus River is the ninth longest river in Asia.\n• It ranks No. 19 among the longest rivers in the world.\n• It is 3,610 kilometers long.",
     "choices": [
       {
         "id": "A",
@@ -863,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -873,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_25",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to explain the purpose of national union federations?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Mauritius Trade Union Congress (MTUC) is a national union federation for the African nation of Mauritius.\n\u2022 It helps improve conditions for workers in that nation.\n\u2022 ITUC-Africa is a regional union federation that represents national union federations across Africa.\n\u2022 It represents the MTUC.\n\nWhich choice most effectively uses information from the given sentences to explain the purpose of national union federations?",
+    "text": "Which choice most effectively uses information from the given sentences to explain the purpose of national union federations?\nWhile researching a topic, a student has taken the following notes:\n• The Mauritius Trade Union Congress (MTUC) is a national union federation for the African nation of Mauritius.\n• It helps improve conditions for workers in that nation.\n• ITUC-Africa is a regional union federation that represents national union federations across Africa.\n• It represents the MTUC.",
     "choices": [
       {
         "id": "A",
@@ -899,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -909,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_26",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "The student wants to emphasize the size of Tepeapulco. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Tepeapulco is a municipality in the state of Hidalgo, Mexico.\n\u2022 Municipalities are governmental regions responsible for providing many public services to their residents.\n\u2022 One service they provide is water treatment.\n\u2022 Tepeapulco covers an area of roughly 243 km\u00b2.\n\u2022 Hidalgo is divided into 84 municipalities.\n\nThe student wants to emphasize the size of Tepeapulco. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the size of Tepeapulco. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Tepeapulco is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is water treatment.\n• Tepeapulco covers an area of roughly 243 km².\n• Hidalgo is divided into 84 municipalities.",
     "choices": [
       {
         "id": "A",
@@ -929,13 +925,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "The municipality of Tepeapulco in Hidalgo, Mexico, covers an area of roughly 243 km\u00b2."
+        "text": "The municipality of Tepeapulco in Hidalgo, Mexico, covers an area of roughly 243 km²."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -945,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_27",
     "testName": "March 2025 International Form A SAT English Module 1",
-    "text": "The student wants to emphasize a difference between the two plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Most of the plant and bird species in Oahu, Hawaii, are non-native.\n\u2022 In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.\n\u2022 Researchers catalogued plant seeds found in fecal samples from non-native birds.\n\u2022 *Pipturus albidus*, a flowering shrub, was one of fifteen native species catalogued.\n\u2022 *Psidium cattleyanum*, a fruit tree, was one of twenty-nine non-native species catalogued.\n\u2022 Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.\n\nThe student wants to emphasize a difference between the two plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between the two plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Most of the plant and bird species in Oahu, Hawaii, are non-native.\n• In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.\n• Researchers catalogued plant seeds found in fecal samples from non-native birds.\n• *Pipturus albidus*, a flowering shrub, was one of fifteen native species catalogued.\n• *Psidium cattleyanum*, a fruit tree, was one of twenty-nine non-native species catalogued.\n• Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.",
     "choices": [
       {
         "id": "A",
@@ -971,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

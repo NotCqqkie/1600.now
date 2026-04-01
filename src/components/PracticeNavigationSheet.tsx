@@ -8,8 +8,10 @@ import { createPortal } from "react-dom";
 interface PracticeSetItem {
   subject: string;
   id: number;
-  sourceId: string;
+  sourceId?: string;
   index: number;
+  bankType?: string;
+  storageId?: string;
 }
 
 interface PracticeNavigationSheetProps {
@@ -18,16 +20,16 @@ interface PracticeNavigationSheetProps {
   onJump: (index: number) => void;
   isSplitScreenActive?: boolean;
   splitPosition?: number;
-  storagePrefix: string;
+  exitTo?: string;
 }
 
-const getQuestionStatus = (prefix: string, questionId: number): string => {
-  const status = localStorage.getItem(`${prefix}-${questionId}-status`);
+const getQuestionStatus = (storageId: string): string => {
+  const status = localStorage.getItem(`${storageId}-status`);
   return status || "unanswered";
 };
 
-const isQuestionFlagged = (prefix: string, questionId: number): boolean => {
-  return localStorage.getItem(`${prefix}-${questionId}-flagged`) === "true";
+const isQuestionFlagged = (storageId: string): boolean => {
+  return localStorage.getItem(`${storageId}-flagged`) === "true";
 };
 
 export const PracticeNavigationSheet = ({
@@ -36,7 +38,7 @@ export const PracticeNavigationSheet = ({
   onJump,
   isSplitScreenActive = false,
   splitPosition = 50,
-  storagePrefix,
+  exitTo = "/bank",
 }: PracticeNavigationSheetProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const gridRef = useRef<HTMLDivElement>(null);
@@ -77,7 +79,7 @@ export const PracticeNavigationSheet = ({
   const handleExitPractice = () => {
     sessionStorage.removeItem('practiceSet');
     sessionStorage.removeItem('practiceSetTotal');
-    navigate('/bank');
+    navigate(exitTo);
   };
 
   return (
@@ -137,9 +139,9 @@ export const PracticeNavigationSheet = ({
             className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-2 overflow-auto max-h-[calc(55vh-180px)] p-1"
           >
             {practiceSet.map((item, idx) => {
-              const prefix = `bank-${item.subject}`;
-              const status = getQuestionStatus(prefix, item.id);
-              const isFlagged = isQuestionFlagged(prefix, item.id);
+              const storageId = item.storageId || `bank-${item.subject}-${item.sourceId || item.id}`;
+              const status = getQuestionStatus(storageId);
+              const isFlagged = isQuestionFlagged(storageId);
               const isCurrent = idx === currentIndex;
               return (
                 <button

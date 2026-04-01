@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_1",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_2",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_3",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_4",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_5",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -160,7 +160,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -168,7 +168,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_6",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -203,8 +203,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_7",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -232,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_8",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -268,19 +268,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_9",
     "testName": "October 2025 International Form B SAT Math Module 1",
-    "text": "The function k is defined by k(x)= x \u00b3+ 20. What is the value of k (x) when x =2?",
+    "text": "The function k is defined by k(x)= x ³+ 20. What is the value of k (x) when x =2?",
     "choices": [
       {
         "id": "A",
@@ -304,15 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_10",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -320,19 +320,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "x \u00b2+7 a +8"
+        "text": "x ²+7 a +8"
       },
       {
         "id": "B",
-        "text": "x \u00b2-7 a -8"
+        "text": "x ²-7 a -8"
       },
       {
         "id": "C",
-        "text": "x \u00b2+14a"
+        "text": "x ²+14a"
       },
       {
         "id": "D",
-        "text": "x \u00b2-8a"
+        "text": "x ²-8a"
       }
     ],
     "correctAnswer": "A",
@@ -340,15 +340,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_11",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -376,15 +376,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_12",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -412,16 +412,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlB_Math_M1_Q12_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_13",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -449,15 +448,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_14",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -485,16 +484,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlB_Math_M1_Q14_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_15",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -522,7 +520,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
@@ -530,7 +528,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_16",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -565,8 +563,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_17",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -594,15 +592,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_18",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -630,19 +628,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_19",
     "testName": "October 2025 International Form B SAT Math Module 1",
-    "text": "The function k is defined by k (x)= x \u00b3+ 50. What is the value of k (x) when x = 2?",
+    "text": "The function k is defined by k (x)= x ³+ 50. What is the value of k (x) when x = 2?",
     "choices": [
       {
         "id": "A",
@@ -666,15 +664,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_20",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -702,15 +700,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_21",
     "testName": "October 2025 International Form B SAT Math Module 1",
@@ -738,20 +736,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlB_Math_M1_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_22",
     "testName": "October 2025 International Form B SAT Math Module 1",
-    "text": "For two acute angles X and Y, the measure of angle Y is 24\u00b0and $\\frac{sinX}{cosY}$ =1. What is the measure, in degrees, of angle X?",
+    "text": "For two acute angles X and Y, the measure of angle Y is 24°and $\\frac{sinX}{cosY}$ =1. What is the measure, in degrees, of angle X?",
     "choices": [
       {
         "id": "A",
@@ -775,7 +772,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   }

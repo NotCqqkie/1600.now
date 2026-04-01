@@ -1,6 +1,7 @@
 import { officialQuestions as allQuestionsData } from "./official_questions";
 import { Question as SourceQuestion } from "./all_questions";
-import { satImageManifest } from "./satImageManifest";
+import { normalizeSatImagePath, resolveSatQuestionImages } from "./satQuestionImages";
+import { normalizeTextForMathRendering } from "@/lib/utils";
 // @ts-ignore
 // import categoryMap from "./category_map.json"; // IDs don't match anymore
 import {
@@ -42,6 +43,7 @@ export interface BankQuestion {
   choices?: BankChoice[];
   type: "multiple-choice" | "free-response";
   correctAnswer?: string | null;
+  rationale?: string | null;
   questionImages?: { src: string; alt: string }[];
   /** Category classification */
   category: QuestionCategory;
@@ -51,94 +53,8 @@ export interface BankQuestion {
 export type { QuestionCategory, MathDomain, EnglishDomain, MathSkill, EnglishSkill };
 export { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains };
 
-// Prefer the SAT-style images directory for all bank assets
-const SAT_IMAGE_BASE = "/images/SAT-Style%20Questions/";
-
-const safeDecodeURIComponent = (value: string): string => {
-  try {
-    return decodeURIComponent(value);
-  } catch {
-    return value;
-  }
-};
-
-const toCanonicalSatImagePath = (input: string): string | undefined => {
-  if (!input) return undefined;
-  const normalized = input.replace(/\\/g, "/").trim();
-  const segments = normalized.split("/").filter(Boolean);
-  const rawName = segments[segments.length - 1];
-  if (!rawName) return undefined;
-  const decodedName = safeDecodeURIComponent(rawName);
-  return `${SAT_IMAGE_BASE}${encodeURIComponent(decodedName)}`;
-};
-
-const ensureSatImagePath = (path: string) => {
-  if (!path) return undefined;
-
-  const normalized = path.replace(/\\/g, "/").trim();
-  const candidates = new Set<string>();
-
-  if (normalized.startsWith("/images/")) {
-    const encodedFull = normalized
-      .split("/")
-      .map((segment, index) =>
-        index === 0 ? segment : encodeURIComponent(safeDecodeURIComponent(segment))
-      )
-      .join("/");
-    candidates.add(encodedFull);
-    candidates.add(normalized);
-  }
-
-  const canonicalSatPath = toCanonicalSatImagePath(normalized);
-  if (canonicalSatPath) {
-    candidates.add(canonicalSatPath);
-  }
-
-  for (const candidate of candidates) {
-    if (satImageManifest.has(candidate)) {
-      return candidate;
-    }
-  }
-
-  return undefined;
-};
-
-// Heuristic: preserve real math $...$ pairs; escape lone/likely-currency dollars.
 const sanitizeCurrency = (text: string | null | undefined): string => {
-  if (!text) return text || "";
-  let result = "";
-  let i = 0;
-  while (i < text.length) {
-    const ch = text[i];
-    if (ch !== "$") {
-      result += ch;
-      i += 1;
-      continue;
-    }
-
-    // Find the next dollar sign
-    const next = text.indexOf("$", i + 1);
-    if (next === -1) {
-      result += "&dollar;";
-      i += 1;
-      continue;
-    }
-
-    const between = text.slice(i + 1, next);
-    const hasMathTokens = /\\|\^|_|\{|\}|=|\//.test(between);
-    const isShortPair = between.length <= 6; // covers $2$, $-2$, $x+5$
-
-    if (hasMathTokens || isShortPair) {
-      // Treat as math delimiter pair; keep both dollars
-      result += "$" + between + "$";
-      i = next + 1;
-    } else {
-      // Likely currency (e.g., $ 2.50) — escape current and keep scanning
-      result += "&dollar;";
-      i += 1;
-    }
-  }
-  return result;
+  return normalizeTextForMathRendering(text);
 };
 
 const inferQuestionSubject = (q: SourceQuestion): QuestionCategory["subject"] | null =>
@@ -185,20 +101,129 @@ const hasRenderableStem = (q: SourceQuestion): boolean => {
   return hasText || hasImage;
 };
 
-const mapImages = (image?: string) => {
-  if (!image) return undefined;
-  const resolved = ensureSatImagePath(image);
-  if (!resolved) return undefined;
-  return [{
-      src: resolved,
-      alt: "Question image",
-  }];
+const QUESTION_PROMPT_PATTERNS = [
+  /^which choice\b/i,
+  /^based on the two texts\b/i,
+  /^based on both texts\b/i,
+  /^based on these notes\b/i,
+  /^based on the text\b/i,
+  /^based on the texts\b/i,
+  /^according to the text\b/i,
+  /^according to the texts\b/i,
+  /^according to the table\b/i,
+  /^according to the graph\b/i,
+  /^according to the figure\b/i,
+  /^what does the text\b/i,
+  /^what do the texts\b/i,
+  /^what does the passage\b/i,
+  /^what does the graph\b/i,
+  /^what is the main idea\b/i,
+  /^what is the main purpose\b/i,
+  /^what is true\b/i,
+  /^what can be concluded\b/i,
+  /^what can reasonably be inferred\b/i,
+  /^what does the text most strongly suggest\b/i,
+  /^which finding\b/i,
+  /^which statement\b/i,
+  /^how would the author\b/i,
+  /^how does the author\b/i,
+  /^how does the text\b/i,
+  /^which quotation\b/i,
+  /^which choice best\b/i,
+  /^it can most reasonably be inferred\b/i,
+  /^the student wants\b/i,
+];
+
+const PASSAGE_MARKER_PATTERNS = [
+  /^text 1\b/i,
+  /^text 2\b/i,
+  /^while researching a topic\b/i,
+  /^the (?:table|graph|figure|chart)\b/i,
+  /^for each data category\b/i,
+  /^•\s/m,
+];
+
+const isLikelyQuestionPrompt = (text: string): boolean => {
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  return QUESTION_PROMPT_PATTERNS.some((pattern) => pattern.test(trimmed));
 };
+
+const isLikelyPassageBlock = (text: string): boolean => {
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  if (PASSAGE_MARKER_PATTERNS.some((pattern) => pattern.test(trimmed))) return true;
+  if (/^text\s+\d+\b/im.test(trimmed)) return true;
+  if (trimmed.includes("\n")) return true;
+  if (!trimmed.endsWith("?") && trimmed.split(/\s+/).length >= 25) return true;
+  return false;
+};
+
+const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
+  if (!raw.includes("\\\\")) {
+    return {
+      passage: sanitizeCurrency(raw),
+      questionText: undefined,
+    };
+  }
+
+  const parts = raw.split("\\\\");
+  let first = parts[0]?.trim() || "";
+  let rest = parts.slice(1).join("\n\n").trim();
+
+  if (first.endsWith("Text 1")) {
+    first = first.substring(0, first.lastIndexOf("Text 1")).trim();
+    rest = `Text 1\n\n${rest}`.trim();
+  }
+
+  const firstLooksLikeQuestion = isLikelyQuestionPrompt(first);
+  const restLooksLikeQuestion = isLikelyQuestionPrompt(rest);
+  const firstLooksLikePassage = isLikelyPassageBlock(first);
+  const restLooksLikePassage = isLikelyPassageBlock(rest);
+
+  const firstEndsWithQuestion = first.endsWith("?");
+  const restEndsWithQuestion = rest.endsWith("?");
+
+  if ((restLooksLikeQuestion || restEndsWithQuestion) && (firstLooksLikePassage || !firstLooksLikeQuestion)) {
+    return {
+      passage: sanitizeCurrency(first),
+      questionText: sanitizeCurrency(rest),
+    };
+  }
+
+  if ((firstLooksLikeQuestion || firstEndsWithQuestion) && (restLooksLikePassage || !restLooksLikeQuestion)) {
+    return {
+      passage: sanitizeCurrency(rest),
+      questionText: sanitizeCurrency(first),
+    };
+  }
+
+  if (firstLooksLikePassage && !restLooksLikePassage) {
+    return {
+      passage: sanitizeCurrency(first),
+      questionText: sanitizeCurrency(rest),
+    };
+  }
+
+  if (restLooksLikePassage && !firstLooksLikePassage) {
+    return {
+      passage: sanitizeCurrency(rest),
+      questionText: sanitizeCurrency(first),
+    };
+  }
+
+  return {
+    passage: sanitizeCurrency(rest),
+    questionText: sanitizeCurrency(first),
+  };
+};
+
+const mapImages = (questionId: string | number, image?: string) => resolveSatQuestionImages(questionId, image);
 
 const mapChoices = (choices: SourceQuestion["choices"]) => {
   if (!choices) return undefined;
   return choices.map((choice) => {
-    const resolvedChoiceImage = choice.image ? ensureSatImagePath(choice.image) : undefined;
+    const resolvedChoiceImage = normalizeSatImagePath(choice.image);
     return {
       id: choice.id,
       text: choice.text ? sanitizeCurrency(choice.text) : undefined,
@@ -250,35 +275,9 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
        passage = prompt;
        questionText = undefined;
     } else {
-       // Standard English: Split into Question (First part) and Passage (Remaining)
-       // The dataset typically uses "\\" (double backslash) to separate the question prompt from the passage
-       const raw = q.text;
-       // Check for double backslash (represented as \\\\ in literal string matches)
-       if (raw.includes("\\\\")) {
-         const parts = raw.split("\\\\");
-         // Part 0 is usually the question: "Which choice..."
-         let qText = parts[0];
-         let pText = parts.slice(1).join("\n\n");
-         
-         // Fix for "Text 1" leaking into the Question Prompt (Right side)
-         // Often appears as "...questions? Text 1"
-         if (qText.trim().endsWith("Text 1")) {
-            // Strip "Text 1" from the end of the question text
-            qText = qText.substring(0, qText.lastIndexOf("Text 1"));
-            // Prepend "Text 1" to the passage text
-            pText = "Text 1\n\n" + pText;
-         }
-
-         questionText = sanitizeCurrency(qText);
-         passage = sanitizeCurrency(pText);
-       } else {
-         // Fallback: If we can't split, put everything in passage to avoid duplication
-         // (Or keep as undefined passage + full questionText? No, user complained about duplication)
-         // If we set passage, Left View uses it. Right View uses questionText.
-         // If we set passage=prompt, questionText=undefined -> Left has content, Right has none.
-         passage = prompt;
-         questionText = undefined;
-       }
+       const splitStem = splitEnglishStem(q.text);
+       passage = splitStem.passage;
+       questionText = splitStem.questionText;
     }
   }
   
@@ -293,7 +292,8 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
     choices: q.type === "multiple-choice" ? mapChoices(q.choices) : undefined,
     type,
     correctAnswer: q.correctAnswer,
-    questionImages: mapImages(q.image),
+    rationale: q.rationale ? sanitizeCurrency(q.rationale) : q.rationale,
+    questionImages: mapImages(q.id, q.image),
     category,
   };
 };

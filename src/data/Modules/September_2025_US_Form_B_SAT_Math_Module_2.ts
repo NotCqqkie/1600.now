@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_1",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_2",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_3",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -88,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_4",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -124,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_6",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -160,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_7",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -179,15 +179,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_8",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -215,7 +215,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -223,7 +223,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_9",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -258,8 +258,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_10",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -287,15 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_12",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -323,15 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_13",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -359,15 +359,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_14",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -378,19 +378,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_15",
     "testName": "September 2025 US Form B SAT Math Module 2",
-    "text": "At the beginning of an experiment, the temperature of a liquid is 23 degrees Celsius (\u00b0C). During the first 4.0 minutes of the experiment, the temperature of the liquid increases at an average rate of 6.5\u00b0C per minute. Then, the temperature of the liquid increases at a constant rate of 2.4\u00b0C per minute. If the temperature of the liquid reaches 63\u00b0C x minutes after the beginning of the experiment, where $x>4.0$, which equation represents this situation?",
+    "text": "At the beginning of an experiment, the temperature of a liquid is 23 degrees Celsius (°C). During the first 4.0 minutes of the experiment, the temperature of the liquid increases at an average rate of 6.5°C per minute. Then, the temperature of the liquid increases at a constant rate of 2.4°C per minute. If the temperature of the liquid reaches 63°C x minutes after the beginning of the experiment, where $x>4.0$, which equation represents this situation?",
     "choices": [
       {
         "id": "A",
@@ -414,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_16",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -450,7 +450,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -458,7 +458,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_17",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -492,9 +492,9 @@ export const questions: Question[] = [
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_18",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -521,16 +521,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_19",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -541,15 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_20",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -560,15 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_21",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -596,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_22",
     "testName": "September 2025 US Form B SAT Math Module 2",
@@ -632,7 +632,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   }

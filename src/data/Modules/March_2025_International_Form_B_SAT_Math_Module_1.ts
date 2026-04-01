@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_1",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_3",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -69,16 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlB_Math_M1_Q3_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_4",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -106,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_5",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -124,16 +123,16 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_6",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -144,7 +143,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -152,7 +151,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_7",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -187,8 +186,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_8",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -216,16 +215,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlB_Math_M1_Q8_1.svg"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_9",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -236,15 +234,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_10",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -272,15 +270,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_11",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -308,15 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_13",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -343,17 +341,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlB_Math_M1_Q13_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_14",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -389,7 +386,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_15",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -408,7 +405,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_17",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -443,8 +440,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "skill": "Evaluating statistical claims: Observational studies and experiments",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_18",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -455,15 +452,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "skill": "Evaluating statistical claims: Observational studies and experiments",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_19",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -471,19 +468,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "$-\\frac{5}{12}\u2022\\frac{180^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}•\\frac{180^\\circ}{\\pi}$"
       },
       {
         "id": "B",
-        "text": "$-\\frac{5}{12}\\pi\u2022\\frac{\\pi}{180^\\circ}$"
+        "text": "$-\\frac{5}{12}\\pi•\\frac{\\pi}{180^\\circ}$"
       },
       {
         "id": "C",
-        "text": "$-\\frac{5}{12}\\pi\u2022\\frac{180^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi•\\frac{180^\\circ}{\\pi}$"
       },
       {
         "id": "D",
-        "text": "$-\\frac{5}{12}\\pi\u2022\\frac{360^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi•\\frac{360^\\circ}{\\pi}$"
       }
     ],
     "correctAnswer": "C",
@@ -491,15 +488,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_20",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -527,35 +524,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_21",
     "testName": "March 2025 International Form B SAT Math Module 1",
-    "text": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 32 centimeters. If the height of the cone is 16 centimeters and the volume of the cone is k\u03c0 cubic centimeters. What is the value of k?",
+    "text": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 32 centimeters. If the height of the cone is 16 centimeters and the volume of the cone is kπ cubic centimeters. What is the value of k?",
     "choices": [],
     "correctAnswer": "4096",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlB_Math_M1_Q21_1.svg"
+    }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_22",
     "testName": "March 2025 International Form B SAT Math Module 1",
@@ -582,8 +578,8 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   }

@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_1",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_2",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -68,16 +68,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_3",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_4",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_5",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -177,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_6",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -196,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_7",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -232,16 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_25_IntlB_Math_M2_Q7_1.svg"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_8",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -269,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_9",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -288,16 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_25_IntlB_Math_M2_Q9_1.svg"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_10",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -325,15 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_11",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -361,15 +359,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Sample Statistics and Margin of Error",
-    "difficulty": "null",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_12",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -397,19 +395,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Sample Statistics and Margin of Error",
+      "skill": "Inference from sample statistics and margin of error",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_13",
     "testName": "June 2025 International Form B SAT Math Module 2",
-    "text": "The maximum temperature on April 1. in degrees Fahrenheit (\u00b0F), was recorded each year at a certain weather station for 11 years. The histogram summarizes the recorded data set.\nThe temperature of 76.2 \u00b0 F is removed from this data set to create a new data set of 10 temperatures. Which of the following statements must be true?\nI.The mean of the new data set is less than the mean of the original data set.\nII.The median of the new data set is less than the median of the original data set.",
+    "text": "The maximum temperature on April 1. in degrees Fahrenheit (°F), was recorded each year at a certain weather station for 11 years. The histogram summarizes the recorded data set.\nThe temperature of 76.2 ° F is removed from this data set to create a new data set of 10 temperatures. Which of the following statements must be true?\nI.The mean of the new data set is less than the mean of the original data set.\nII.The median of the new data set is less than the median of the original data set.",
     "choices": [
       {
         "id": "A",
@@ -433,16 +431,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_25_IntlB_Math_M2_Q13_1.svg"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_14",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -453,15 +450,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_15",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -489,16 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_25_IntlB_Math_M2_Q15_1.svg"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_16",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -526,15 +522,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_17",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -545,15 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_18",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -581,19 +577,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_19",
     "testName": "June 2025 International Form B SAT Math Module 2",
-    "text": "A right circular cone has a volume of 34,496\u03c0 cubic centimeters and the area of its base is 3,136\u03c0 square centimeters. What is the slant height, in centimeters, of this cone?",
+    "text": "A right circular cone has a volume of 34,496π cubic centimeters and the area of its base is 3,136π square centimeters. What is the slant height, in centimeters, of this cone?",
     "choices": [
       {
         "id": "A",
@@ -617,15 +613,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_20",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -636,15 +632,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_21",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -672,15 +668,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_22",
     "testName": "June 2025 International Form B SAT Math Module 2",
@@ -708,7 +704,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   }

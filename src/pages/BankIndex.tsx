@@ -1,13 +1,16 @@
 import { useState, useMemo, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import {
   getBankPool,
   mathDomainSkills,
   englishDomainSkills,
   allMathDomains,
   allEnglishDomains,
+  normalizeBankSource,
+  BANK_SOURCE_LABELS,
   type BankQuestion,
   type BankSubject,
+  type BankSourceId,
 } from "@/data/questionBank";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
@@ -29,6 +32,7 @@ import {
   QuestionBankFilters,
   defaultFilters,
 } from "@/components/QuestionBankFilterPanel";
+import { BankSourceToggle } from "@/components/BankSourceToggle";
 import {
   getUserProgressStatic,
   isQuestionSolved,
@@ -74,6 +78,8 @@ const createEmptySelection = (): TopicSelectionState => {
 
 const BankIndex = () => {
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const bankSource = normalizeBankSource(searchParams.get("bankType"));
   
   // Selection Mode State
   const [isMultiSelect, setIsMultiSelect] = useState(false);
@@ -97,15 +103,15 @@ const BankIndex = () => {
   const [expandedDomains, setExpandedDomains] = useState<Record<string, boolean>>(createDefaultExpandedDomains);
   
   // Get all questions
-  const allMathQuestions = useMemo(() => getBankPool("math"), []);
-  const allReadingQuestions = useMemo(() => getBankPool("reading"), []);
+  const allMathQuestions = useMemo(() => getBankPool("math", bankSource), [bankSource]);
+  const allReadingQuestions = useMemo(() => getBankPool("reading", bankSource), [bankSource]);
 
   // Get user progress for filtering
   const userProgress = useMemo(() => getUserProgressStatic(), []);
 
   // Helper to get progress for a question
   const getQuestionProgress = useCallback((q: BankQuestion, subject: BankSubject): QuestionProgress => {
-    const key = `bank-${subject}-${q.sourceId}`;
+    const key = q.stableId;
     return userProgress[key] || {
       questionId: key,
       isMarkedForReview: false,
@@ -113,6 +119,12 @@ const BankIndex = () => {
       totalTimeSpentSeconds: 0,
     };
   }, [userProgress]);
+
+  const handleBankSourceChange = useCallback((nextSource: BankSourceId) => {
+    const nextParams = new URLSearchParams(searchParams);
+    nextParams.set("bankType", nextSource);
+    setSearchParams(nextParams);
+  }, [searchParams, setSearchParams]);
 
   // Check if question passes filters
   const questionPassesFilters = useCallback((q: BankQuestion, subject: BankSubject): boolean => {
@@ -384,9 +396,11 @@ const BankIndex = () => {
     
     // Store the practice set with full info for navigation
     const practiceSet = questions.map((q, index) => ({
-      subject: q.category.subject === "Math" ? "math" : "reading",
+      subject: q.subject,
       id: q.id,
       sourceId: q.sourceId,
+      bankType: q.bankType,
+      storageId: q.stableId,
       index: index + 1, // 1-based index within practice set
     }));
     sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
@@ -394,7 +408,7 @@ const BankIndex = () => {
     
     // Navigate to the first question in practice mode
     const first = practiceSet[0];
-    navigate(`/bank/${first.subject}/${first.id}?practice=true&idx=1`);
+    navigate(`/bank/${first.subject}/${first.id}?bankType=${first.bankType}&practice=true&idx=1`);
   }, [navigate]);
 
   const handleCreatePracticeSet = useCallback((shuffle: boolean = false) => {
@@ -762,7 +776,7 @@ const BankIndex = () => {
             <div>
               <h1 className="text-3xl font-bold">Questionbank</h1>
               <p className="text-muted-foreground">
-                {questionCounts.math.total + questionCounts.reading.total} questions available
+                {BANK_SOURCE_LABELS[bankSource]} • {questionCounts.math.total + questionCounts.reading.total} questions available
               </p>
             </div>
           </div>
@@ -773,6 +787,7 @@ const BankIndex = () => {
             onFiltersChange={setFilters}
             rightContent={
               <div className="flex items-center gap-4">
+                <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
                 {Object.values(filters).some(v => v !== "all" && v !== "none") && (
                   <Button 
                     variant="ghost" 

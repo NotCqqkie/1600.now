@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_1",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDespite stated claims of global relevance, much major research on income inequality performed in the 2010s suffered from a myopic focus on a few countries in North America and Western Europe, partly due to limited data availability. Researchers would later ______ this shortcoming after gaining new access to administrative records located in nations in South America, such as Brazil, and Eastern Europe, such as Russia.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDespite stated claims of global relevance, much major research on income inequality performed in the 2010s suffered from a myopic focus on a few countries in North America and Western Europe, partly due to limited data availability. Researchers would later ______ this shortcoming after gaining new access to administrative records located in nations in South America, such as Brazil, and Eastern Europe, such as Russia.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_2",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough the thermoregulation mechanisms of fungi, such as *Amanita brunnescens*, have received little formal study, anecdotal evidence has suggested that fungal surface temperatures tend to be cooler than ambient temperatures. Experimental findings by Radam\u00e9s Cordero et al. now ______ this idea: colonies of various fungi maintained temperatures below those at which they were incubated in a lab.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough the thermoregulation mechanisms of fungi, such as *Amanita brunnescens*, have received little formal study, anecdotal evidence has suggested that fungal surface temperatures tend to be cooler than ambient temperatures. Experimental findings by Radamés Cordero et al. now ______ this idea: colonies of various fungi maintained temperatures below those at which they were incubated in a lab.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_3",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAndrei Tarkovsky's *Solaris* has the measured pace typical of slow-cinema films. Thai slow-cinema director Apichatpong Weerasethakul (*Uncle Boonmee Who Can Recall His Past Lives*) even states that his own work induces sleep in audiences. This might suggest his films are boring, but boredom does not always cause sleep: boredom creates an anxious tension in the absence of a place to fix attention, and thus induces not somnolence but ______.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAndrei Tarkovsky's *Solaris* has the measured pace typical of slow-cinema films. Thai slow-cinema director Apichatpong Weerasethakul (*Uncle Boonmee Who Can Recall His Past Lives*) even states that his own work induces sleep in audiences. This might suggest his films are boring, but boredom does not always cause sleep: boredom creates an anxious tension in the absence of a place to fix attention, and thus induces not somnolence but ______.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_4",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDifficulties of documenting nocturnal pollinator visits and a general focus on diurnal invertebrate pollinators, such as *Volucella bombylans*, have resulted in ______ of information on nocturnal moth pollination of plants such as *Rubus fruticosus* L. aggregate, but Max Anderson et al. have addressed this by utilizing infrared technology.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDifficulties of documenting nocturnal pollinator visits and a general focus on diurnal invertebrate pollinators, such as *Volucella bombylans*, have resulted in ______ of information on nocturnal moth pollination of plants such as *Rubus fruticosus* L. aggregate, but Max Anderson et al. have addressed this by utilizing infrared technology.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_5",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nVertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. While horizontal gene transfer is common among prokaryotes\u2014single-celled organisms such as the bacteria *Carnobacterium viridans* and *Massilia timonae*\u2014it has rarely been observed among eukaryotes (typically multicellular organisms). <u>However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.</u>\n\nWhich choice best states the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nVertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. While horizontal gene transfer is common among prokaryotes—single-celled organisms such as the bacteria *Carnobacterium viridans* and *Massilia timonae*—it has rarely been observed among eukaryotes (typically multicellular organisms). <u>However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.</u>",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_6",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\n*The Hundred Days*, first published in 1998, is a novel in Patrick O'Brian's Aubrey/Maturin series, which includes twenty completed books. Some critics have found fault with the abrupt endings of *The Hundred Days* and other books in the series, saying that they do not finish conclusively but arbitrarily stop. But other critics argue that the books should not be thought of as discrete texts with traditional beginnings and endings but as a single incredibly long work, similar to other multivolume stories, such as Marcel Proust's *In Search of Lost Time*.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\n*The Hundred Days*, first published in 1998, is a novel in Patrick O'Brian's Aubrey/Maturin series, which includes twenty completed books. Some critics have found fault with the abrupt endings of *The Hundred Days* and other books in the series, saying that they do not finish conclusively but arbitrarily stop. But other critics argue that the books should not be thought of as discrete texts with traditional beginnings and endings but as a single incredibly long work, similar to other multivolume stories, such as Marcel Proust's *In Search of Lost Time*.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_7",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nWith its combination of country and pop influences, \"Here You Come Again\" is typical of Dolly Parton's recordings in the late 1970s and first half of the 1980s. Through songs bridging these two genres, she achieved her greatest commercial successes. A decade earlier, however, Dolly had first established herself as a songwriter steeped in the traditional folk music of the Blue Ridge Mountains, where she was born and raised. The influence of the ballads of this region can be heard in the word choice and subject matter of the lyrics to \"Jolene,\" one of her best songs from this period.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nWith its combination of country and pop influences, \"Here You Come Again\" is typical of Dolly Parton's recordings in the late 1970s and first half of the 1980s. Through songs bridging these two genres, she achieved her greatest commercial successes. A decade earlier, however, Dolly had first established herself as a songwriter steeped in the traditional folk music of the Blue Ridge Mountains, where she was born and raised. The influence of the ballads of this region can be heard in the word choice and subject matter of the lyrics to \"Jolene,\" one of her best songs from this period.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_8",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Based on the texts, what would Salman-Engin and colleagues (Text 1) most likely say about the discussion of the model in Text 2?\nText 1\nStudies contributing to the body of evidence that people generally enjoy socializing have routinely focused on interactions in ongoing relationships (from spouses to classmates), but psychologist Selin Salman-Engin and colleagues have demonstrated the benefit of making connections with strangers. Greater positive affect was reported by participants in their study who warmly thanked a shuttle driver than by those who didn't speak to the driver.\nText 2\nSocial relations research commonly draws on a model that centers an individual within three concentric circles. The innermost circle holds one's strongest ties (e.g., a treasured friend), the next holds close but less important ties (e.g., a teammate), and the outermost holds weak ties (those more distant but important enough to be counted as part of one's social network).\n\nBased on the texts, what would Salman-Engin and colleagues (Text 1) most likely say about the discussion of the model in Text 2?",
+    "text": "Based on the texts, what would Salman-Engin and colleagues (Text 1) most likely say about the discussion of the model in Text 2?\nText 1\nStudies contributing to the body of evidence that people generally enjoy socializing have routinely focused on interactions in ongoing relationships (from spouses to classmates), but psychologist Selin Salman-Engin and colleagues have demonstrated the benefit of making connections with strangers. Greater positive affect was reported by participants in their study who warmly thanked a shuttle driver than by those who didn't speak to the driver.\nText 2\nSocial relations research commonly draws on a model that centers an individual within three concentric circles. The innermost circle holds one's strongest ties (e.g., a treasured friend), the next holds close but less important ties (e.g., a teammate), and the outermost holds weak ties (those more distant but important enough to be counted as part of one's social network).",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_9",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nFrom the extinct greater Haitian ground sloth to the living Hoffmann's two-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today's sloths spend most of their time high up in trees. The sloths' inaccessibility has made it hard for scientists to study them.\nText 2\nBy using a hat-like monitor, biologist Bryson Voirin and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths sleep all day. But, in fact, in the wild sloths sleep about nine hours a day.\n\nThe author of Text 1 and the author of Text 2 both discuss which topic?",
+    "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nFrom the extinct greater Haitian ground sloth to the living Hoffmann's two-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today's sloths spend most of their time high up in trees. The sloths' inaccessibility has made it hard for scientists to study them.\nText 2\nBy using a hat-like monitor, biologist Bryson Voirin and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths sleep all day. But, in fact, in the wild sloths sleep about nine hours a day.",
     "choices": [
       {
         "id": "A",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -327,13 +327,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_10",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Based on the text, what can most reasonably be concluded about pygmy right and bowhead whales?\nBaleen whales eat up to 30 percent of their total body mass in krill (tiny shrimplike creatures) per day. So in one day, a pygmy right whale weighing 3,500 kg could eat 1,050 kg, while a bowhead whale weighing 66,000 kg could ingest a whopping 19,800 kg. Over the last century, baleen whale populations have declined, and contrary to some scientists' expectations, so have krill populations, Matthew S. Savoca and colleagues resolve this apparent discrepancy by pointing out that baleen whales cycle iron in the ocean, helping support phytoplankton populations, which, in turn, sustain krill populations.\n\nBased on the text, what can most reasonably be concluded about pygmy right and bowhead whales?",
+    "text": "Based on the text, what can most reasonably be concluded about pygmy right and bowhead whales?\nBaleen whales eat up to 30 percent of their total body mass in krill (tiny shrimplike creatures) per day. So in one day, a pygmy right whale weighing 3,500 kg could eat 1,050 kg, while a bowhead whale weighing 66,000 kg could ingest a whopping 19,800 kg. Over the last century, baleen whale populations have declined, and contrary to some scientists' expectations, so have krill populations, Matthew S. Savoca and colleagues resolve this apparent discrepancy by pointing out that baleen whales cycle iron in the ocean, helping support phytoplankton populations, which, in turn, sustain krill populations.",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_11",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the statement?\nNeuroscientist Kiyohito Iigaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much) and then recruited participants to use the same scale to rate several sets of paintings in various styles. The team calculated the correlation between the ratings predicted by the model and those reported by the participants, with higher correlations indicating that predicted ratings were closer to reported ratings. Assuming participants P1 and P2 gave equal ratings to the impressionist paintings, the graph indicates that the model predicted ______\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+    "text": "Which choice most effectively uses data from the graph to complete the statement?\nNeuroscientist Kiyohito Iigaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much) and then recruited participants to use the same scale to rate several sets of paintings in various styles. The team calculated the correlation between the ratings predicted by the model and those reported by the participants, with higher correlations indicating that predicted ratings were closer to reported ratings. Assuming participants P1 and P2 gave equal ratings to the impressionist paintings, the graph indicates that the model predicted ______",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Eng_M2_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_12",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which quotation from a translation of Uncle Vanya most effectively illustrates the claim?\n*Uncle Vanya: Scenes from Country Life in Four Acts* is an 1898 play by Anton Chekhov, originally written in Russian. In the play, Professor Serebrakoff and his wife Helena have come to stay at their country estate, which Vanya manages with the help of Sonia, the professor's daughter from a previous marriage. Chekhov portrays the relationship between Vanya and Professor Serebrakoff as being much more strained than it once was, as is evident when ______\n\nWhich quotation from a translation of Uncle Vanya most effectively illustrates the claim?",
+    "text": "Which quotation from a translation of Uncle Vanya most effectively illustrates the claim?\n*Uncle Vanya: Scenes from Country Life in Four Acts* is an 1898 play by Anton Chekhov, originally written in Russian. In the play, Professor Serebrakoff and his wife Helena have come to stay at their country estate, which Vanya manages with the help of Sonia, the professor's daughter from a previous marriage. Chekhov portrays the relationship between Vanya and Professor Serebrakoff as being much more strained than it once was, as is evident when ______",
     "choices": [
       {
         "id": "A",
@@ -414,7 +413,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Vanya says to Professor Serebrakoff, \"For twenty-five years I have managed [the country estate], and have sent you the returns from it like the most honest of servants, and you have never given me one single word of thanks for my work, not one\u2014neither in my youth nor now.\""
+        "text": "Vanya says to Professor Serebrakoff, \"For twenty-five years I have managed [the country estate], and have sent you the returns from it like the most honest of servants, and you have never given me one single word of thanks for my work, not one—neither in my youth nor now.\""
       },
       {
         "id": "C",
@@ -428,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_13",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly weaken the hypothesis presented in the text?\nSome metals contain tungsten carbide nanoparticles (WC-NPs), which can leach into waterways and soils via wastewater, in a 2018 study, Mikael T. Ekvall and colleagues found that WC-NPs can accumulate in the bodies of water lice (*Asellus aquaticus*). While bioaccumulation of manufactured nanoparticles may be inherently worrisome, it has been hypothesized that WC-NP bioaccumulation in invertebrates like *A. aquaticus* could serve a valuable proxy role, obviating the need for manufacturers to conduct costly and intrusive sampling of vertebrate species-such as Perez's frogs (*Pelophylax perezi*), commonly used in regulatory compliance testing-for nanoparticle bioaccumulation, as environmental protection laws currently require.\n\nWhich finding, if true, would most directly weaken the hypothesis presented in the text?",
+    "text": "Which finding, if true, would most directly weaken the hypothesis presented in the text?\nSome metals contain tungsten carbide nanoparticles (WC-NPs), which can leach into waterways and soils via wastewater, in a 2018 study, Mikael T. Ekvall and colleagues found that WC-NPs can accumulate in the bodies of water lice (*Asellus aquaticus*). While bioaccumulation of manufactured nanoparticles may be inherently worrisome, it has been hypothesized that WC-NP bioaccumulation in invertebrates like *A. aquaticus* could serve a valuable proxy role, obviating the need for manufacturers to conduct costly and intrusive sampling of vertebrate species-such as Perez's frogs (*Pelophylax perezi*), commonly used in regulatory compliance testing-for nanoparticle bioaccumulation, as environmental protection laws currently require.",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -474,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_14",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly support Bura and colleagues' claim?\nVeronica L. Bura, Akito Y. Kawahara, and Jayne E. Yack investigated the function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks, 33% of the tested species produced sound, which included four distinct types: chirps, whistles, vocalizations, and clicks. In addition, *Antheraea polyphemus* and *Antheraea polyphemus oculea* released a chemical while or after producing the first sound. These species exclusively produced clicks and chirps, which tend to be shorter in duration than whistles and vocalizations. Bura and colleagues argue that clicks and chirps in species that use chemical defenses are primarily a means of warning (i.e., \"educating\") predators rather than frightening or startling them.\n\nWhich finding, if true, would most directly support Bura and colleagues' claim?",
+    "text": "Which finding, if true, would most directly support Bura and colleagues' claim?\nVeronica L. Bura, Akito Y. Kawahara, and Jayne E. Yack investigated the function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks, 33% of the tested species produced sound, which included four distinct types: chirps, whistles, vocalizations, and clicks. In addition, *Antheraea polyphemus* and *Antheraea polyphemus oculea* released a chemical while or after producing the first sound. These species exclusively produced clicks and chirps, which tend to be shorter in duration than whistles and vocalizations. Bura and colleagues argue that clicks and chirps in species that use chemical defenses are primarily a means of warning (i.e., \"educating\") predators rather than frightening or startling them.",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -509,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_15",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThe compositional strategy of *Untitled*, a 1955 work by Cherokee artist Edna Massey, is far more closely aligned with Abstract Expressionism\u2014a mid-twentieth-century school of painting dominated by European American artists than with traditionally abstract forms of indigenous art, such as beadwork. Few viewers would infer from the stylistic attributes of *Untitled* that Massey was Indigenous. In this respect, the work typifies Indigenous painters' forays into abstraction during the period. In contrast, the contemporary Caddo artist Chad \"Nish\" Earles assembles abstract compositions out of motifs common in the traditional ceramics and graphic art of his tribe. Thus in Earles's work, abstraction has the effect of ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe compositional strategy of *Untitled*, a 1955 work by Cherokee artist Edna Massey, is far more closely aligned with Abstract Expressionism—a mid-twentieth-century school of painting dominated by European American artists than with traditionally abstract forms of indigenous art, such as beadwork. Few viewers would infer from the stylistic attributes of *Untitled* that Massey was Indigenous. In this respect, the work typifies Indigenous painters' forays into abstraction during the period. In contrast, the contemporary Caddo artist Chad \"Nish\" Earles assembles abstract compositions out of motifs common in the traditional ceramics and graphic art of his tribe. Thus in Earles's work, abstraction has the effect of ______",
     "choices": [
       {
         "id": "A",
@@ -536,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_16",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nArchaeologists assume that when a major demographic shift interrupts the intergenerational transmission of expertise, this manifests in the archaeological record in the form of simultaneous reductions in the complexity of multiple specialized crafting traditions. Inventories of excavation sites from the Alazani River valley and nearby areas dating from 4000 to 500 BCE show a steep drop occurring around 1500 BCE in the number of objects featuring gold filigree, an advanced technique in which fine threads of gold are arranged in intricate patterns. The inventories also indicate that advanced copper-alloy metallurgy and most other specialized crafting traditions continued to flourish during this period, a finding suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nArchaeologists assume that when a major demographic shift interrupts the intergenerational transmission of expertise, this manifests in the archaeological record in the form of simultaneous reductions in the complexity of multiple specialized crafting traditions. Inventories of excavation sites from the Alazani River valley and nearby areas dating from 4000 to 500 BCE show a steep drop occurring around 1500 BCE in the number of objects featuring gold filigree, an advanced technique in which fine threads of gold are arranged in intricate patterns. The inventories also indicate that advanced copper-alloy metallurgy and most other specialized crafting traditions continued to flourish during this period, a finding suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -572,9 +571,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -582,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_17",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a list titled \"Elegant Things\" from Sei Shonagon's *Pillow Book*, the author delights in a violet waistcoat, wisteria blossoms, and a child eating strawberries. Such lists, observed sharply yet simply by Shonagon, who served as a lady-in-waiting to Empress Teishi in the tenth century, ______ the daily minutiae of Japanese courtly life.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a list titled \"Elegant Things\" from Sei Shonagon's *Pillow Book*, the author delights in a violet waistcoat, wisteria blossoms, and a child eating strawberries. Such lists, observed sharply yet simply by Shonagon, who served as a lady-in-waiting to Empress Teishi in the tenth century, ______ the daily minutiae of Japanese courtly life.",
     "choices": [
       {
         "id": "A",
@@ -608,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -618,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_18",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCiting the example of Zeus, a mythological god whose tomb was reportedly located on the island of Crete, the writer Euhemerus (fourth century BCE) theorized that all the deities in the Greek pantheon\u2014including the god of knowledge and the arts, Apollo; the god of wine and the theater, Dionysus; and the god of constellations, ______may have been historical figures who, through the power of myth, underwent apotheosis.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCiting the example of Zeus, a mythological god whose tomb was reportedly located on the island of Crete, the writer Euhemerus (fourth century BCE) theorized that all the deities in the Greek pantheon—including the god of knowledge and the arts, Apollo; the god of wine and the theater, Dionysus; and the god of constellations, ______may have been historical figures who, through the power of myth, underwent apotheosis.",
     "choices": [
       {
         "id": "A",
@@ -630,7 +629,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Crius\u2014"
+        "text": "Crius—"
       },
       {
         "id": "C",
@@ -644,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -654,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_19",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCategorized as a dactyl, the word \"gradient\" consists of one stressed syllable followed by two unstressed syllables. The word \"harpist,\" by comparison, consists of one stressed syllable followed by one unstressed syllable, a metrical foot ______ to in English metrical verse as a trochee.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCategorized as a dactyl, the word \"gradient\" consists of one stressed syllable followed by two unstressed syllables. The word \"harpist,\" by comparison, consists of one stressed syllable followed by one unstressed syllable, a metrical foot ______ to in English metrical verse as a trochee.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -689,12 +688,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_20",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe parks of Chicago, Illinois, seem to be making people happier. In a 2022 study, researchers studying connections between the physical location in which a social media post was ______ analyzed geotagged social media posts from various locations in Chicago. They found that posts from the city's parks contained more words associated with happiness than other posts did.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe parks of Chicago, Illinois, seem to be making people happier. In a 2022 study, researchers studying connections between the physical location in which a social media post was ______ analyzed geotagged social media posts from various locations in Chicago. They found that posts from the city's parks contained more words associated with happiness than other posts did.",
     "choices": [
       {
         "id": "A",
@@ -716,9 +715,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_21",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith an installed capacity of 35 megawatts, the Platanares geothermal power plant in Honduras offers a dependable source of renewable energy. Power plants like Platanares supply only a small fraction of Honduras's ______ the scarcity of sites with the necessary combination of high-temperature geothermal reservoirs and fractured rock limiting the widespread development of such systems.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith an installed capacity of 35 megawatts, the Platanares geothermal power plant in Honduras offers a dependable source of renewable energy. Power plants like Platanares supply only a small fraction of Honduras's ______ the scarcity of sites with the necessary combination of high-temperature geothermal reservoirs and fractured rock limiting the widespread development of such systems.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_22",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe album *Irreversible...2012* by La Arrolladora Banda El Lim\u00f3n De Ren\u00e9 Camacho received much critical attention and praise for its contribution to the banda genre, a form of regional Mexican music featuring large ensembles of wind instruments and drums that first developed in southern and central Mexico in the mid-nineteenth century. ______ few were surprised when the album won the Best Banda Album award at the 2012 Latin Grammys.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe album *Irreversible...2012* by La Arrolladora Banda El Limón De René Camacho received much critical attention and praise for its contribution to the banda genre, a form of regional Mexican music featuring large ensembles of wind instruments and drums that first developed in southern and central Mexico in the mid-nineteenth century. ______ few were surprised when the album won the Best Banda Album award at the 2012 Latin Grammys.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_23",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn 1920, the US Geological Survey determined the geographic center of Rhode Island using only a cardboard cutout of the state and a piece of string. ______ this apparently crude technique yielded a relatively close approximation: when the 1920 center was compared to a center determined by a computer program nearly a hundred years later, the two diverged by just a few miles.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 1920, the US Geological Survey determined the geographic center of Rhode Island using only a cardboard cutout of the state and a piece of string. ______ this apparently crude technique yielded a relatively close approximation: when the 1920 center was compared to a center determined by a computer program nearly a hundred years later, the two diverged by just a few miles.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_24",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn an ekphrastic poem, a poet explores a work of visual art, such as a drawing, sculpture, or painting. Elizabeth Alexander's 2011 poem \"Walking,\" for example, meditates on Charles Alston's 1963 painting *Walking*; Cornelius Eady's 2001 poem \"Jacob Lawrence: Summer Street scene,\" ______ takes a painting as its subject: Jacob Lawrence's 1948 work *Summer Street Scene in Harlem*.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn an ekphrastic poem, a poet explores a work of visual art, such as a drawing, sculpture, or painting. Elizabeth Alexander's 2011 poem \"Walking,\" for example, meditates on Charles Alston's 1963 painting *Walking*; Cornelius Eady's 2001 poem \"Jacob Lawrence: Summer Street scene,\" ______ takes a painting as its subject: Jacob Lawrence's 1948 work *Summer Street Scene in Harlem*.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_25",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to provide an example of a film Prieto worked on?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Cinematographers work with cameras and lighting.\n\u2022 They help translate film directors' ideas into visual images.\n\u2022 *Frida* (2002) was directed by Julie Taymor.\n\u2022 Rodrigo Prieto was the film's cinematographer.\n\nWhich choice most effectively uses information from the given sentences to provide an example of a film Prieto worked on?",
+    "text": "Which choice most effectively uses information from the given sentences to provide an example of a film Prieto worked on?\nWhile researching a topic, a student has taken the following notes:\n• Cinematographers work with cameras and lighting.\n• They help translate film directors' ideas into visual images.\n• *Frida* (2002) was directed by Julie Taymor.\n• Rodrigo Prieto was the film's cinematographer.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_26",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "The student wants to provide an example of a country that uses the word \"dinar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Arabic word \"dinar\" comes from the Latin word \"denarius.\"\n\u2022 Today, nearly a dozen different national currencies are referred to as \"dinars.\"\n\u2022 Bahrain's currency is known as the Bahraini dinar.\n\nThe student wants to provide an example of a country that uses the word \"dinar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of a country that uses the word \"dinar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Arabic word \"dinar\" comes from the Latin word \"denarius.\"\n• Today, nearly a dozen different national currencies are referred to as \"dinars.\"\n• Bahrain's currency is known as the Bahraini dinar.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1bbdda23-57e5-4170-8fb2-e513425353ca_27",
     "testName": "March 2025 US Form B SAT English Module 2",
-    "text": "The student wants to emphasize a similarity between mass fraction and mole fraction. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The ratio of the total mass of an element to the combined mass of all elements in a given environment is called the mass fraction.\n\u2022 The mass fraction of chromium (Cr) on Earth is 4,700 parts per million (ppm).\n\u2022 This indicates that the relative abundance of chromium on Earth is 0.479%.\n\u2022 The ratio of the total number of atoms of an element to the total number of all atoms in a given environment is called the mole fraction.\n\u2022 The mole fraction of chromium on Earth is 2,300,000 parts per billion (ppb).\n\u2022 This indicates that the relative abundance of chromium on Earth is 0.23%.\n\nThe student wants to emphasize a similarity between mass fraction and mole fraction. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between mass fraction and mole fraction. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The ratio of the total mass of an element to the combined mass of all elements in a given environment is called the mass fraction.\n• The mass fraction of chromium (Cr) on Earth is 4,700 parts per million (ppm).\n• This indicates that the relative abundance of chromium on Earth is 0.479%.\n• The ratio of the total number of atoms of an element to the total number of all atoms in a given environment is called the mole fraction.\n• The mole fraction of chromium on Earth is 2,300,000 parts per billion (ppb).\n• This indicates that the relative abundance of chromium on Earth is 0.23%.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_1",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_2",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -49,11 +49,11 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "57\u00b7 $\\sqrt{y}$"
+        "text": "57· $\\sqrt{y}$"
       },
       {
         "id": "B",
-        "text": "$\\sqrt{57}$ \u00b7y"
+        "text": "$\\sqrt{57}$ ·y"
       },
       {
         "id": "C",
@@ -69,7 +69,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -77,7 +77,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_3",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -112,8 +112,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_4",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -124,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_5",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -160,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_6",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -196,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_7",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -232,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_8",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -268,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_9",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -304,15 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_10",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -322,17 +322,16 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USA_Math_M2_Q10_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_11",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -367,8 +366,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_12",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -396,20 +395,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USA_Math_M2_Q12_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13",
     "testName": "March 2025 US Form A SAT Math Module 2",
-    "text": "In the xy-plane, line k and line $\u03b3$ are perpendicular and intersect at the point (7, 5). If line k is defined by the equation y= mx + b, where m and b are constants and m > 1, which of the following points lies on line $\u03b3$?",
+    "text": "In the xy-plane, line k and line $γ$ are perpendicular and intersect at the point (7, 5). If line k is defined by the equation y= mx + b, where m and b are constants and m > 1, which of the following points lies on line $γ$?",
     "choices": [
       {
         "id": "A",
@@ -432,16 +430,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_14",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -469,16 +467,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USA_Math_M2_Q14_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_15",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -506,15 +503,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_16",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -542,7 +539,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
     }
   },
@@ -550,7 +547,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_17",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -585,8 +582,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_18",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -597,15 +594,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_19",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -616,15 +613,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_20",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -635,15 +632,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_21",
     "testName": "March 2025 US Form A SAT Math Module 2",
@@ -654,19 +651,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_22",
     "testName": "March 2025 US Form A SAT Math Module 2",
-    "text": "In triangle $ABC,$ the measure of angle B is 90\u00ba and $\\overline{BD}$ is an altitude of the triangle. The length of $\\overline{AB}$ is 24 and the length of $\\overline{AC}$ is 13 greater than the length of $\\overline{AB}$. What is the value of $\\frac{BC}{BD}$?",
+    "text": "In triangle $ABC,$ the measure of angle B is 90º and $\\overline{BD}$ is an altitude of the triangle. The length of $\\overline{AB}$ is 24 and the length of $\\overline{AC}$ is 13 greater than the length of $\\overline{AB}$. What is the value of $\\frac{BC}{BD}$?",
     "choices": [
       {
         "id": "A",
@@ -690,7 +687,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   }

@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import {
   getBankPool,
   getDomainCounts,
@@ -9,8 +9,11 @@ import {
   englishDomainSkills,
   allMathDomains,
   allEnglishDomains,
+  normalizeBankSource,
+  BANK_SOURCE_LABELS,
   type BankSubject,
   type BankQuestion,
+  type BankSourceId,
   type MathDomain,
   type EnglishDomain,
   type MathSkill,
@@ -34,6 +37,7 @@ import {
   Target,
   Shuffle,
 } from "lucide-react";
+import { BankSourceToggle } from "@/components/BankSourceToggle";
 
 const domainIcons: Record<string, string> = {
   "Algebra": "📐",
@@ -48,8 +52,10 @@ const domainIcons: Record<string, string> = {
 
 const BankBrowse = () => {
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { subject } = useParams<{ subject: BankSubject }>();
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
+  const bankSource = normalizeBankSource(searchParams.get("bankType"));
   
   const isMath = validSubject === "math";
   const domains: string[] = isMath ? [...allMathDomains] : [...allEnglishDomains];
@@ -57,18 +63,26 @@ const BankBrowse = () => {
     ? Object.fromEntries(Object.entries(mathDomainSkills).map(([k, v]) => [k, [...v]]))
     : Object.fromEntries(Object.entries(englishDomainSkills).map(([k, v]) => [k, [...v]]));
   
-  const domainCounts = getDomainCounts(validSubject);
-  const skillCounts = getSkillCounts(validSubject);
-  const totalQuestions = getBankPool(validSubject).length;
+  const domainCounts = getDomainCounts(validSubject, bankSource);
+  const skillCounts = getSkillCounts(validSubject, bankSource);
+  const totalQuestions = getBankPool(validSubject, bankSource).length;
+
+  const handleBankSourceChange = (nextSource: BankSourceId) => {
+    const nextParams = new URLSearchParams(searchParams);
+    nextParams.set("bankType", nextSource);
+    setSearchParams(nextParams);
+  };
 
   const startPracticeSession = (questions: BankQuestion[]) => {
     if (questions.length === 0) return;
     
     // Store the practice set with full info for navigation
     const practiceSet = questions.map((q, index) => ({
-      subject: q.category.subject === "Math" ? "math" : "reading",
+      subject: q.subject,
       id: q.id,
       sourceId: q.sourceId,
+      bankType: q.bankType,
+      storageId: q.stableId,
       index: index + 1, // 1-based index within practice set
     }));
     sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
@@ -76,11 +90,11 @@ const BankBrowse = () => {
     
     // Navigate to the first question in practice mode
     const first = practiceSet[0];
-    navigate(`/bank/${first.subject}/${first.id}?practice=true&idx=1`);
+    navigate(`/bank/${first.subject}/${first.id}?bankType=${first.bankType}&practice=true&idx=1`);
   };
 
   const handleShuffleDomain = (domain: string) => {
-      let questions = getQuestionsByDomain(validSubject, domain as MathDomain | EnglishDomain);
+      let questions = getQuestionsByDomain(validSubject, domain as MathDomain | EnglishDomain, bankSource);
       // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -91,7 +105,7 @@ const BankBrowse = () => {
   };
 
   const handleShuffleSkill = (skill: string) => {
-    let questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill);
+    let questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill, bankSource);
       // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -102,7 +116,7 @@ const BankBrowse = () => {
   };
     
   const handleShuffleAll = () => {
-    let questions = getBankPool(validSubject);
+    let questions = getBankPool(validSubject, bankSource);
       // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -114,15 +128,15 @@ const BankBrowse = () => {
 
   const handleSkillClick = (skill: string) => {
     // Find the first question with this skill
-    const questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill);
+    const questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill, bankSource);
     if (questions.length > 0) {
       // Navigate to the browse filtered view
-      navigate(`/bank/${validSubject}/skill/${encodeURIComponent(skill)}`);
+      navigate(`/bank/${validSubject}/skill/${encodeURIComponent(skill)}?bankType=${bankSource}`);
     }
   };
 
   const handleDomainClick = (domain: string) => {
-    navigate(`/bank/${validSubject}/domain/${encodeURIComponent(domain)}`);
+    navigate(`/bank/${validSubject}/domain/${encodeURIComponent(domain)}?bankType=${bankSource}`);
   };
 
   return (
@@ -149,28 +163,29 @@ const BankBrowse = () => {
                   {isMath ? "Math" : "Reading & Writing"} Skills
                 </h1>
                 <p className="text-sm text-muted-foreground">
-                  {totalQuestions} questions across {domains.length} domains
+                  {BANK_SOURCE_LABELS[bankSource]} • {totalQuestions} questions across {domains.length} domains
                 </p>
               </div>
             </div>
           </div>
 
           {/* Toggle between Math and Reading */}
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2 items-center">
             <Button
               variant={isMath ? "default" : "outline"}
-              onClick={() => navigate("/bank/math/browse")}
+              onClick={() => navigate(`/bank/math/browse?bankType=${bankSource}`)}
             >
               <Calculator className="h-4 w-4 mr-2" />
               Math
             </Button>
             <Button
               variant={!isMath ? "default" : "outline"}
-              onClick={() => navigate("/bank/reading/browse")}
+              onClick={() => navigate(`/bank/reading/browse?bankType=${bankSource}`)}
             >
               <FileText className="h-4 w-4 mr-2" />
               Reading & Writing
             </Button>
+            <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
           </div>
 
           {/* Domain Accordion */}
