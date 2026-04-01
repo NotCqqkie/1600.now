@@ -136,10 +136,15 @@ const normalizeMathWrappedCurrency = (content: string): string => {
   return result;
 };
 
+const normalizeMalformedComparatorCommands = (content: string): string =>
+  content.replace(/\\(le|ge|lt|gt)([A-Za-pr-zA-PR-Z0-9])(?=[^A-Za-z]|$)/g, "\\$1 $2");
+
 export function normalizeTextForMathRendering(text: string | null | undefined): string {
   if (!text) return text || "";
 
-  const normalizedCurrency = normalizeMathWrappedCurrency(text);
+  const normalizedCurrency = normalizeMathWrappedCurrency(
+    normalizeMalformedComparatorCommands(text)
+  );
   let result = "";
   let cursor = 0;
 
@@ -301,7 +306,8 @@ export function renderMixedContent(text: string): string {
           displayMode: part.displayMode,
           throwOnError: false,
           trust: true,
-          strict: false
+          strict: false,
+          output: "html",
         });
       } catch (error) {
         console.error('KaTeX error:', error);
