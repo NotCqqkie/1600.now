@@ -43,6 +43,7 @@ export interface BankQuestion {
   choices?: BankChoice[];
   type: "multiple-choice" | "free-response";
   correctAnswer?: string | null;
+  rationale?: string | null;
   questionImages?: { src: string; alt: string }[];
   /** Category classification */
   category: QuestionCategory;
@@ -291,6 +292,7 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
     choices: q.type === "multiple-choice" ? mapChoices(q.choices) : undefined,
     type,
     correctAnswer: q.correctAnswer,
+    rationale: q.rationale ? sanitizeCurrency(q.rationale) : q.rationale,
     questionImages: mapImages(q.id, q.image),
     category,
   };

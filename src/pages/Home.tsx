@@ -5,12 +5,10 @@ import { useAuth } from "@/contexts/AuthContext";
 import {
   ArrowRight,
   BarChart3,
-  BookOpen,
   ChevronDown,
   LogOut,
   Settings,
   User,
-  Zap,
 } from "lucide-react";
 import {
   DropdownMenu,
@@ -406,81 +404,6 @@ const ProductDemo = () => {
   );
 };
 
-// ─── Feature card ──────────────────────────────────────────────────────────
-
-const FeatureCard = ({
-  icon,
-  title,
-  desc,
-  href,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  desc: string;
-  href: string;
-}) => {
-  const navigate = useNavigate();
-  const [hovered, setHovered] = useState(false);
-
-  return (
-    <div
-      onClick={() => navigate(href)}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      style={{
-        padding: "28px 30px",
-        borderRadius: 16,
-        border: hovered
-          ? "1px solid rgba(125,211,252,0.45)"
-          : "1px solid hsl(var(--border))",
-        background: "hsl(var(--card))",
-        cursor: "pointer",
-        transform: hovered ? "translateY(-4px)" : "translateY(0)",
-        boxShadow: hovered ? "0 16px 40px rgba(0,0,0,0.1)" : "none",
-        transition: "border-color 0.2s, transform 0.2s, box-shadow 0.2s",
-      }}
-    >
-      <div
-        style={{
-          width: 44,
-          height: 44,
-          borderRadius: 12,
-          background: "rgba(125,211,252,0.12)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          color: "hsl(201,100%,50%)",
-          marginBottom: 18,
-        }}
-      >
-        {icon}
-      </div>
-      <h3
-        style={{
-          fontSize: 17,
-          fontWeight: 600,
-          marginBottom: 8,
-          color: "hsl(var(--foreground))",
-          fontFamily: "'Outfit', sans-serif",
-        }}
-      >
-        {title}
-      </h3>
-      <p
-        style={{
-          fontSize: 14,
-          color: "hsl(var(--muted-foreground))",
-          lineHeight: 1.65,
-          margin: 0,
-          fontFamily: "'Outfit', sans-serif",
-        }}
-      >
-        {desc}
-      </p>
-    </div>
-  );
-};
-
 // ─── Home page ─────────────────────────────────────────────────────────────
 
 const Home = () => {
@@ -728,34 +651,18 @@ const Home = () => {
             textAlign: "center",
           }}
         >
-          {/* Badge */}
-          <div className="h-fade-1" style={{ marginBottom: 28 }}>
+          {/* Label */}
+          <div className="h-fade-1" style={{ marginBottom: 24 }}>
             <span
               style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 8,
-                padding: "6px 16px",
-                borderRadius: 100,
-                background: "rgba(125,211,252,0.09)",
-                border: "1px solid rgba(125,211,252,0.22)",
                 fontSize: 12,
-                color: "hsl(201,100%,78%)",
-                fontWeight: 500,
-                letterSpacing: "0.03em",
+                color: "rgba(255,255,255,0.35)",
+                fontWeight: 400,
+                letterSpacing: "0.06em",
+                textTransform: "uppercase",
               }}
             >
-              <span
-                style={{
-                  width: 6,
-                  height: 6,
-                  borderRadius: "50%",
-                  background: "hsl(201,100%,72%)",
-                  display: "inline-block",
-                  boxShadow: "0 0 8px hsl(201,100%,72%)",
-                }}
-              />
-              Free · No account required to start
+              Free &nbsp;·&nbsp; No account required &nbsp;·&nbsp; SAT 2025–2026
             </span>
           </div>
 
@@ -950,62 +857,142 @@ const Home = () => {
       {/* ── FEATURES ───────────────────────────────────────────────────── */}
       <section
         className="bg-background"
-        style={{ padding: "56px 24px 88px" }}
+        style={{ padding: "64px 24px 96px" }}
       >
-        <div style={{ maxWidth: 920, margin: "0 auto" }}>
-          <p
-            style={{
-              textAlign: "center",
-              fontSize: 11,
-              fontWeight: 600,
-              letterSpacing: "0.12em",
-              textTransform: "uppercase",
-              color: "hsl(var(--muted-foreground))",
-              marginBottom: 10,
-            }}
-          >
-            Everything you need
-          </p>
+        <div style={{ maxWidth: 720, margin: "0 auto" }}>
           <h2
             style={{
-              textAlign: "center",
               fontFamily: "'Instrument Serif', Georgia, serif",
-              fontSize: "clamp(30px, 4vw, 44px)",
+              fontSize: "clamp(28px, 3.5vw, 40px)",
               fontWeight: 400,
               letterSpacing: "-0.02em",
-              marginBottom: 52,
               color: "hsl(var(--foreground))",
+              marginBottom: 48,
             }}
           >
-            Built for focused practice
+            What's here
           </h2>
 
+          {[
+            {
+              n: "01",
+              title: "Question Bank",
+              desc: `${questionBankTotal.toLocaleString()} SAT questions across Math and Reading & Writing. Filter by topic, skill, or test source — drill exactly the areas you're losing points in.`,
+              href: "/bank",
+              cta: "Explore questions",
+            },
+            {
+              n: "02",
+              title: "100 Hard Questions",
+              desc: "A curated set of the hardest SAT questions. Not a vibe check — it shows precisely where your strategy breaks under pressure.",
+              href: "/hard/1",
+              cta: "Start the set",
+            },
+            {
+              n: "03",
+              title: "Progress tracking",
+              desc: "Per-domain accuracy, accuracy over time, and a clear view of which skills to focus on next. Requires a free account.",
+              href: user ? "/analysis" : "/signup",
+              cta: user ? "View your stats" : "Create account",
+            },
+          ].map((item, idx) => (
+            <div key={item.n}>
+              {/* Divider */}
+              <div
+                style={{
+                  height: 1,
+                  background: "hsl(var(--border))",
+                  marginBottom: 28,
+                }}
+              />
+              <div
+                style={{
+                  display: "flex",
+                  gap: "clamp(20px, 4vw, 48px)",
+                  alignItems: "flex-start",
+                  paddingBottom: idx === 2 ? 0 : 28,
+                }}
+              >
+                {/* Number */}
+                <span
+                  style={{
+                    fontFamily: "'Space Mono', monospace",
+                    fontSize: 12,
+                    fontWeight: 700,
+                    color: "hsl(var(--muted-foreground))",
+                    letterSpacing: "0.04em",
+                    paddingTop: 4,
+                    flexShrink: 0,
+                    width: 28,
+                  }}
+                >
+                  {item.n}
+                </span>
+
+                {/* Content */}
+                <div style={{ flex: 1 }}>
+                  <h3
+                    style={{
+                      fontFamily: "'Instrument Serif', Georgia, serif",
+                      fontSize: "clamp(20px, 2.5vw, 26px)",
+                      fontWeight: 400,
+                      color: "hsl(var(--foreground))",
+                      margin: "0 0 10px",
+                      letterSpacing: "-0.01em",
+                    }}
+                  >
+                    {item.title}
+                  </h3>
+                  <p
+                    style={{
+                      fontSize: 14,
+                      color: "hsl(var(--muted-foreground))",
+                      lineHeight: 1.7,
+                      margin: "0 0 16px",
+                      maxWidth: 480,
+                      fontWeight: 300,
+                    }}
+                  >
+                    {item.desc}
+                  </p>
+                  <button
+                    onClick={() => navigate(item.href)}
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: 6,
+                      fontSize: 13,
+                      fontWeight: 500,
+                      color: "hsl(201,100%,60%)",
+                      background: "none",
+                      border: "none",
+                      cursor: "pointer",
+                      padding: 0,
+                      fontFamily: "'Outfit', sans-serif",
+                      transition: "gap 0.15s",
+                    }}
+                    onMouseEnter={(e) => {
+                      (e.currentTarget as HTMLButtonElement).style.gap = "10px";
+                    }}
+                    onMouseLeave={(e) => {
+                      (e.currentTarget as HTMLButtonElement).style.gap = "6px";
+                    }}
+                  >
+                    {item.cta}
+                    <ArrowRight size={13} />
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+          {/* Bottom rule */}
           <div
             style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-              gap: 20,
+              height: 1,
+              background: "hsl(var(--border))",
+              marginTop: 0,
             }}
-          >
-            <FeatureCard
-              icon={<BookOpen size={20} />}
-              title="Question Bank"
-              desc={`${questionBankTotal.toLocaleString()} SAT-style questions across math and reading. Filter by topic, skill, or difficulty and drill exactly what you need.`}
-              href="/bank"
-            />
-            <FeatureCard
-              icon={<Zap size={20} />}
-              title="100 Hard Questions"
-              desc="A curated high-difficulty set designed to stress-test your strategy and build real confidence before test day."
-              href="/hard/1"
-            />
-            <FeatureCard
-              icon={<BarChart3 size={20} />}
-              title="Performance Analytics"
-              desc="Track your progress over time. Spot weak areas and focus your study where it actually moves the needle."
-              href={user ? "/analysis" : "/signup"}
-            />
-          </div>
+          />
         </div>
       </section>
 
