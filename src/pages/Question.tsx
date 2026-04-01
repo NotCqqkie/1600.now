@@ -1078,12 +1078,12 @@ function Question() {
           {questionViewMode === 'horizontal' ? (
             <div className="flex relative" style={{ minHeight: '400px' }}>
               {/* Left Panel - Question Content */}
-              <div 
+              <div
                 className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
               >
-                  {renderContent(stemContent)}
-                  {renderQuestionImages()}
+                {renderContent(stemContent)}
+                {renderQuestionImages()}
               </div>
 
               {/* Horizontal Divider */}
@@ -1200,7 +1200,7 @@ function Question() {
                 </div>
 
               {/* Question Content */}
-              <div className="mb-6 sm:mb-8">
+              <div className="mb-6 sm:mb-8 space-y-4">
                   {passageContent ? (
                     <>
                       {renderQuestionImages()}
@@ -1214,6 +1214,20 @@ function Question() {
                       {renderQuestionImages()}
                       {renderContent(stemContent)}
                     </>
+                  )}
+                  {questionImages && (
+                    <div className="space-y-2">
+                      {questionImages.map((img, idx) => (
+                        <div key={idx} className="w-full flex justify-center">
+                          <img
+                            src={img.src}
+                            alt={img.alt || `Question image ${idx + 1}`}
+                            className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
+                            loading="lazy"
+                          />
+                        </div>
+                      ))}
+                    </div>
                   )}
               </div>
 

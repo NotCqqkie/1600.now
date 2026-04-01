@@ -392,7 +392,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "9377a50a-f782-492e-a3bf-a2b90698cacc_8": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Aug_25_IntlB_Math_M1_Q8.svg",
+        "src": "/images/SAT-Style%20Questions/Aug_25_IntlB_Math_M1_Q8.png",
         "alt": "Question 8 Image"
       }
     ]
@@ -424,7 +424,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "9377a50a-f782-492e-a3bf-a2b90698cacc_20": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Aug_25_IntlB_Math_M1_Q20.svg",
+        "src": "/images/SAT-Style%20Questions/Aug_25_IntlB_Math_M1_Q20.png",
         "alt": "Question 20 Image"
       }
     ]
@@ -1544,7 +1544,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "6197d48e-7c76-4333-af39-0b9aa39e924c_1": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlA_Math_M1_Q1.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlA_Math_M1_Q1.png",
         "alt": "Question 1 Image"
       }
     ]
@@ -1552,7 +1552,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "6197d48e-7c76-4333-af39-0b9aa39e924c_7": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlA_Math_M1_Q7.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlA_Math_M1_Q7.png",
         "alt": "Question 7 Image"
       }
     ]
@@ -1568,7 +1568,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "6197d48e-7c76-4333-af39-0b9aa39e924c_18": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlA_Math_M1_Q18.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlA_Math_M1_Q18.png",
         "alt": "Question 18 Image"
       }
     ]
@@ -1584,7 +1584,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlA_Math_M2_Q7.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlA_Math_M2_Q7.png",
         "alt": "Question 7 Image"
       }
     ]
@@ -1608,7 +1608,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "7c17367d-234a-4cdb-b654-3dc1d5243ede_13": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Eng_M1_Q13.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Eng_M1_Q13.png",
         "alt": "Question 13 Image"
       }
     ]
@@ -1624,7 +1624,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "9628151f-9763-4abc-8c66-9dc08f82f715_1": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M1_Q1.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M1_Q1.png",
         "alt": "Question 1 Image"
       }
     ]
@@ -1632,7 +1632,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "9628151f-9763-4abc-8c66-9dc08f82f715_7": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M1_Q7.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M1_Q7.png",
         "alt": "Question 7 Image"
       }
     ]
@@ -1648,7 +1648,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "9628151f-9763-4abc-8c66-9dc08f82f715_18": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M1_Q18.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M1_Q18.png",
         "alt": "Question 18 Image"
       }
     ]
@@ -1656,7 +1656,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "f196343a-4470-4649-8efb-edf349dd4393_7": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M2_Q7.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M2_Q7.png",
         "alt": "Question 7 Image"
       }
     ]
@@ -1664,7 +1664,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "f196343a-4470-4649-8efb-edf349dd4393_9": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M2_Q9.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M2_Q9.png",
         "alt": "Question 9 Image"
       }
     ]
@@ -1672,7 +1672,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "f196343a-4470-4649-8efb-edf349dd4393_13": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M2_Q13.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M2_Q13.png",
         "alt": "Question 13 Image"
       }
     ]
@@ -1680,7 +1680,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "f196343a-4470-4649-8efb-edf349dd4393_15": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M2_Q15.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_IntlB_Math_M2_Q15.png",
         "alt": "Question 15 Image"
       }
     ]
@@ -1744,7 +1744,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "a7146625-47ea-49cb-9061-578e226240d5_22": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Jun_25_USA_Math_M1_Q22.svg",
+        "src": "/images/SAT-Style%20Questions/Jun_25_USA_Math_M1_Q22.png",
         "alt": "Question 22 Image"
       }
     ]
@@ -1976,7 +1976,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "406baf08-71da-41c0-bc3d-ddc2c25258ba_11": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Mar_25_IntlA_Eng_M1_Q11.svg",
+        "src": "/images/SAT-Style%20Questions/Mar_25_IntlA_Eng_M1_Q11.png",
         "alt": "Question 11 Image"
       }
     ]
@@ -2032,7 +2032,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_8": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Mar_25_IntlA_Math_M1_Q8.svg",
+        "src": "/images/SAT-Style%20Questions/Mar_25_IntlA_Math_M1_Q8.png",
         "alt": "Question 8 Image"
       }
     ]
@@ -2056,7 +2056,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_21": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Mar_25_IntlA_Math_M1_Q21.svg",
+        "src": "/images/SAT-Style%20Questions/Mar_25_IntlA_Math_M1_Q21.png",
         "alt": "Question 21 Image"
       }
     ]
@@ -2072,7 +2072,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_17": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Mar_25_IntlA_Math_M2_Q17.svg",
+        "src": "/images/SAT-Style%20Questions/Mar_25_IntlA_Math_M2_Q17.png",
         "alt": "Question 17 Image"
       }
     ]
@@ -2112,7 +2112,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_8": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Mar_25_IntlB_Math_M1_Q8.svg",
+        "src": "/images/SAT-Style%20Questions/Mar_25_IntlB_Math_M1_Q8.png",
         "alt": "Question 8 Image"
       }
     ]
@@ -2144,7 +2144,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "a16355d1-6cca-4c4e-8e0a-f405892830f1_21": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Mar_25_IntlB_Math_M1_Q21.svg",
+        "src": "/images/SAT-Style%20Questions/Mar_25_IntlB_Math_M1_Q21.png",
         "alt": "Question 21 Image"
       }
     ]
@@ -2160,7 +2160,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_13": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/Mar_25_IntlC_Eng_M1_Q13.svg",
+        "src": "/images/SAT-Style%20Questions/Mar_25_IntlC_Eng_M1_Q13.png",
         "alt": "Question 13 Image"
       }
     ]
@@ -3364,7 +3364,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "e4f2c33b-9282-40a7-810c-d633e5197f95_12": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/May_25_IntlA_Math_M2_Q12.svg",
+        "src": "/images/SAT-Style%20Questions/May_25_IntlA_Math_M2_Q12.png",
         "alt": "Question 12 Image"
       }
     ]
