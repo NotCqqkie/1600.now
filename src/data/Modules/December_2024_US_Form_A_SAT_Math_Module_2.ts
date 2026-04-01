@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_1",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_2",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_3",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_4",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_5",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -176,16 +176,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_6",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -213,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_7",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -249,15 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_8",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -285,15 +285,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_9",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -321,35 +321,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_10",
     "testName": "December 2024 US Form A SAT Math Module 2",
-    "text": "The circumference of the base of a right circular cylinder is 6\u03c0 meters, and the height of the cylinder is 19 meters. What is the volume, in cubic meters, of the cylinder?",
+    "text": "The circumference of the base of a right circular cylinder is 6π meters, and the height of the cylinder is 19 meters. What is the volume, in cubic meters, of the cylinder?",
     "choices": [
       {
         "id": "A",
-        "text": "57\u03c0"
+        "text": "57π"
       },
       {
         "id": "B",
-        "text": "114\u03c0"
+        "text": "114π"
       },
       {
         "id": "C",
-        "text": "171\u03c0"
+        "text": "171π"
       },
       {
         "id": "D",
-        "text": "684\u03c0"
+        "text": "684π"
       }
     ],
     "correctAnswer": "C",
@@ -357,15 +357,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_12",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -376,15 +376,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_13",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -411,27 +411,27 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_14",
     "testName": "December 2024 US Form A SAT Math Module 2",
-    "text": "$c(r)=\\frac{2}{5}(2\\pi r)$\nThe function c gives the partial length, in centimeters (cm), of the circumference of a circle with a radius that measures r cm. According to the function, for each increase of 18 cm inthe length of the radius, this partial length of the circumference increases by k\u03c0 cm. What isthe value of k?",
+    "text": "$c(r)=\\frac{2}{5}(2\\pi r)$\nThe function c gives the partial length, in centimeters (cm), of the circumference of a circle with a radius that measures r cm. According to the function, for each increase of 18 cm inthe length of the radius, this partial length of the circumference increases by kπ cm. What isthe value of k?",
     "choices": [],
     "correctAnswer": "72/5,14.4",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -439,7 +439,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_15",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -474,8 +474,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_16",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -486,15 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_17",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -505,7 +505,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
@@ -513,7 +513,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_18",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -549,7 +549,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_19",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -584,8 +584,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_20",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -596,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_21",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -615,16 +615,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_USA_Math_M2_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_22",
     "testName": "December 2024 US Form A SAT Math Module 2",
@@ -652,7 +651,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   }

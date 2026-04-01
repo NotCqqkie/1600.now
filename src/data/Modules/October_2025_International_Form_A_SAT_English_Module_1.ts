@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_1",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \"truly\" most nearly mean?\nThe following text is from Lilliam Rivera's 2020 novel *Never Look Back*. The text describes the narrator's friend Pheus, a young musician, after finishing a performance during a church service.\nPheus pulls a handkerchief from his back pocket and wipes his forehead. I mime a quiet clap for him. He does a slight bow and flashes his dimples. This is where Pheus <u>truly</u> shines. When Pheus is in front of an audience, it's as if he becomes another person, a more heightened version of himself.\n\u00a92020 by Lilliam Rivera\n\nAs used in the text, what does the word \"truly\" most nearly mean?",
+    "text": "As used in the text, what does the word \"truly\" most nearly mean?\nThe following text is from Lilliam Rivera's 2020 novel *Never Look Back*. The text describes the narrator's friend Pheus, a young musician, after finishing a performance during a church service.\nPheus pulls a handkerchief from his back pocket and wipes his forehead. I mime a quiet clap for him. He does a slight bow and flashes his dimples. This is where Pheus <u>truly</u> shines. When Pheus is in front of an audience, it's as if he becomes another person, a more heightened version of himself.\n©2020 by Lilliam Rivera",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_2",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nNative Hawaiian fiber artist Marques Hanalei Marzan creates art using the techniques of lauhala weaving. Lauhala weaving is a traditional Hawaiian art form that uses leaves of the hala tree. Often, Marzan doesn't have a specific ______ what the final product will look like when he starts a new piece. Instead, he makes up his designs as he weaves, allowing inspiration to take him in unexpected directions.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nNative Hawaiian fiber artist Marques Hanalei Marzan creates art using the techniques of lauhala weaving. Lauhala weaving is a traditional Hawaiian art form that uses leaves of the hala tree. Often, Marzan doesn't have a specific ______ what the final product will look like when he starts a new piece. Instead, he makes up his designs as he weaves, allowing inspiration to take him in unexpected directions.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_3",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a study at the Massachusetts Institute of Technology, participants with clinically typical eyesight were shown a drawing of a broken line, with the break in the line situated in a blocked part of their field of vision. The participants still perceived the line as continuous, suggesting that when visual information is incomplete, the brain can ______ filling in what is missing.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a study at the Massachusetts Institute of Technology, participants with clinically typical eyesight were shown a drawing of a broken line, with the break in the line situated in a blocked part of their field of vision. The participants still perceived the line as continuous, suggesting that when visual information is incomplete, the brain can ______ filling in what is missing.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_4",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \"consideration\" most nearly mean?\nThe following text is from Shirley Jackson's 1951 novel *Hangsaman*.\nNatalie was leaving for her first year in college a week after her brother went back to high school; sometimes twenty-one days resolved itself into three weeks, and seemed endless; sometimes it seemed a matter of minutes slipping by so swiftly that there would never be time to approach college with appropriate <u>consideration</u>, to form a workable personality to take along.\n\u00a91951 by Shirley Jackson\n\nAs used in the text, what does the word \"consideration\" most nearly mean?",
+    "text": "As used in the text, what does the word \"consideration\" most nearly mean?\nThe following text is from Shirley Jackson's 1951 novel *Hangsaman*.\nNatalie was leaving for her first year in college a week after her brother went back to high school; sometimes twenty-one days resolved itself into three weeks, and seemed endless; sometimes it seemed a matter of minutes slipping by so swiftly that there would never be time to approach college with appropriate <u>consideration</u>, to form a workable personality to take along.\n©1951 by Shirley Jackson",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_5",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice best describes the main purpose of the text?\nThe Marsalis family is often referred to as \"the first family of jazz.\" Four of the children of celebrated pianist Ellis Marsalis Jr. went on to become performers who are also critically acclaimed: drummer Jason, trombonist Delfeayo, saxophonist Branford, and trumpeter Wynton. Wynton notably went on to become the first jazz composer to win the Pulitzer Prize for Music (for his oratorio *Blood on the Fields*).\n\nWhich choice best describes the main purpose of the text?",
+    "text": "Which choice best describes the main purpose of the text?\nThe Marsalis family is often referred to as \"the first family of jazz.\" Four of the children of celebrated pianist Ellis Marsalis Jr. went on to become performers who are also critically acclaimed: drummer Jason, trombonist Delfeayo, saxophonist Branford, and trumpeter Wynton. Wynton notably went on to become the first jazz composer to win the Pulitzer Prize for Music (for his oratorio *Blood on the Fields*).",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_6",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nCommunity science, which involves professional scientists collaborating with members of the public to study a topic, is often an effective and engaging way to conduct research. <u>It can increase the amount of data researchers can collect, offer insight into the daily life of a scientist, and spark youth interest in science.</u> This approach was essential to the success of biologist Abbigail Merrill and colleagues' study of how weather relates to a butterfly's flower choice, which included findings from hundreds of students and community members in northwestern Arkansas.\n\nWhich choice best states the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nCommunity science, which involves professional scientists collaborating with members of the public to study a topic, is often an effective and engaging way to conduct research. <u>It can increase the amount of data researchers can collect, offer insight into the daily life of a scientist, and spark youth interest in science.</u> This approach was essential to the success of biologist Abbigail Merrill and colleagues' study of how weather relates to a butterfly's flower choice, which included findings from hundreds of students and community members in northwestern Arkansas.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_7",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nScientists can learn a lot about the Hispaniolan ground sloth and other prehistoric sloths from their fossils. But it can be hard to study sloths alive today. In the wild, the Linnaeus's two-toed sloth and other sloths spend most of their time in trees. They're difficult to observe because of their excellent camouflage and slow movements.\nText 2\nRebecca Cliffe and other scientists can now record the previously hidden activities of tree-dwelling sloths by using a backpack monitor. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths' slow movements are useful. Being slow protects them from predators with keen eyesight.\n\nThe author of Text 1 and the author of Text 2 both discuss which topic?",
+    "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nScientists can learn a lot about the Hispaniolan ground sloth and other prehistoric sloths from their fossils. But it can be hard to study sloths alive today. In the wild, the Linnaeus's two-toed sloth and other sloths spend most of their time in trees. They're difficult to observe because of their excellent camouflage and slow movements.\nText 2\nRebecca Cliffe and other scientists can now record the previously hidden activities of tree-dwelling sloths by using a backpack monitor. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths' slow movements are useful. Being slow protects them from predators with keen eyesight.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_8",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "According to the text, what are New Caledonian crows known for?\nHumans aren't the only ones who use tools. Other animals also find tools helpful. Octopuses use two halves of a seashell to provide protection or a place to hide. And despite sometimes being thought of as simple, many birds make clever use of tools as well. New Caledonian crows are well known for creating hooks and spears from twigs. Furthermore, palm cockatoos have been observed using leaves to pad their beaks when opening nuts.\n\nAccording to the text, what are New Caledonian crows known for?",
+    "text": "According to the text, what are New Caledonian crows known for?\nHumans aren't the only ones who use tools. Other animals also find tools helpful. Octopuses use two halves of a seashell to provide protection or a place to hide. And despite sometimes being thought of as simple, many birds make clever use of tools as well. New Caledonian crows are well known for creating hooks and spears from twigs. Furthermore, palm cockatoos have been observed using leaves to pad their beaks when opening nuts.",
     "choices": [
       {
         "id": "A",
@@ -283,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_9",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "According to the text, what is the relationship between Kenny and Lysyanskaya?\nWomen like Minnie McNeal Kenny made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Kenny worked for the National Security Agency (NSA) and received the NSA's two highest awards. She also held administrative positions at the National Cryptologic School. In this way, Kenny and others like her helped make it possible for more women\u2014such as Anna Lysyanskaya, who currently works in and teaches digital cryptography\u2014to enter the field of cryptology.\n\nAccording to the text, what is the relationship between Kenny and Lysyanskaya?",
+    "text": "According to the text, what is the relationship between Kenny and Lysyanskaya?\nWomen like Minnie McNeal Kenny made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Kenny worked for the National Security Agency (NSA) and received the NSA's two highest awards. She also held administrative positions at the National Cryptologic School. In this way, Kenny and others like her helped make it possible for more women—such as Anna Lysyanskaya, who currently works in and teaches digital cryptography—to enter the field of cryptology.",
     "choices": [
       {
         "id": "A",
@@ -319,21 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_10",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Information in the text best supports which statement about OFT?\nOptimal foraging theory (OFT) holds that animals' foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Mahmoud-Reza Hemami and colleagues found to be negatively associated with foraging by Iranian jerboas but Deborah J. Curtis and colleagues found to be positively associated with foraging by mongoose lemurs. This discrepancy is explicable in terms of OFT: the lemurs' greater reliance on vision means that higher lunar intensity benefits them more than it benefits the jerboas.\n\nInformation in the text best supports which statement about OFT?",
+    "text": "Information in the text best supports which statement about OFT?\nOptimal foraging theory (OFT) holds that animals' foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Mahmoud-Reza Hemami and colleagues found to be negatively associated with foraging by Iranian jerboas but Deborah J. Curtis and colleagues found to be positively associated with foraging by mongoose lemurs. This discrepancy is explicable in terms of OFT: the lemurs' greater reliance on vision means that higher lunar intensity benefits them more than it benefits the jerboas.",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_11",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nBird species Average mass (kg) Capable of flight northern cassowary 44.0 no lesser rhea 19.6 no Dalmatian pelican 11.5 yes Andean condor 11.3 yes\nMost bird species that are capable of flight weigh less than a kilogram (kg), which is not surprising considering the burden that extra body weight puts on a flying animal. But not all flying birds are so light, as we can see most clearly in the example of the ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nBird species Average mass (kg) Capable of flight northern cassowary 44.0 no lesser rhea 19.6 no Dalmatian pelican 11.5 yes Andean condor 11.3 yes\nMost bird species that are capable of flight weigh less than a kilogram (kg), which is not surprising considering the burden that extra body weight puts on a flying animal. But not all flying birds are so light, as we can see most clearly in the example of the ______",
     "choices": [
       {
         "id": "A",
@@ -391,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_12",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which quotation from a study of California agriculture best supports the student's claim?\nA student is writing a research paper on the history of irrigation in the United States, situating the development of Lake Yosemite (created in Merced County, California in 1888) in a larger historical context. The student claims that California's climate renders irrigation an essential component of agriculture in some parts of the state but not in others.\n\nWhich quotation from a study of California agriculture best supports the student's claim?",
+    "text": "Which quotation from a study of California agriculture best supports the student's claim?\nA student is writing a research paper on the history of irrigation in the United States, situating the development of Lake Yosemite (created in Merced County, California in 1888) in a larger historical context. The student claims that California's climate renders irrigation an essential component of agriculture in some parts of the state but not in others.",
     "choices": [
       {
         "id": "A",
@@ -427,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -437,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_13",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the text?\nTerrestrial plants typically carry a negative electrical charge, while bees and other pollinators tend to accumulate a positive charge. A team of researchers therefore hypothesized that electrostatic attraction (mutual attraction between objects with opposite charges) might enhance pollen transmission between plants and their pollinator species. The team's experiments showed that the maximum positive charge of wintering honeybees is sufficiently high to facilitate electrostatic pollen transfer, a finding that suggests that ______\n\nWhich choice most effectively uses data from the graph to complete the text?",
+    "text": "Which choice most effectively uses data from the graph to complete the text?\nTerrestrial plants typically carry a negative electrical charge, while bees and other pollinators tend to accumulate a positive charge. A team of researchers therefore hypothesized that electrostatic attraction (mutual attraction between objects with opposite charges) might enhance pollen transmission between plants and their pollinator species. The team's experiments showed that the maximum positive charge of wintering honeybees is sufficiently high to facilitate electrostatic pollen transfer, a finding that suggests that ______",
     "choices": [
       {
         "id": "A",
@@ -463,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Eng_M1_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_14",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nNamibia has classified the house sparrow as an invasive species that could harm some of the country's native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that \"invasive\" and \"native\" are labels that describe temporary circumstances. Changes in Earth's climate may force animals from their current ranges. Climate changes may also create good habitats in areas where a species couldn't live previously. These observations suggest that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nNamibia has classified the house sparrow as an invasive species that could harm some of the country's native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that \"invasive\" and \"native\" are labels that describe temporary circumstances. Changes in Earth's climate may force animals from their current ranges. Climate changes may also create good habitats in areas where a species couldn't live previously. These observations suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_15",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nPassword strength meters (PSMs) provide real-time feedback to users during the password-creation process about how secure a potential password is. PSMs often include \"nudges\"\u2014design elements meant to encourage the creation of robust passwords. Other PSMs provide direct guidance on how to create strong passwords. A research team found that the strongest passwords resulted from a combination of these approaches. The team also found that the specific type of nudge (reciprocity, compensation, etc.) did not significantly affect user behavior. It therefore follows that when creating passwords, users receiving ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nPassword strength meters (PSMs) provide real-time feedback to users during the password-creation process about how secure a potential password is. PSMs often include \"nudges\"—design elements meant to encourage the creation of robust passwords. Other PSMs provide direct guidance on how to create strong passwords. A research team found that the strongest passwords resulted from a combination of these approaches. The team also found that the specific type of nudge (reciprocity, compensation, etc.) did not significantly affect user behavior. It therefore follows that when creating passwords, users receiving ______",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_16",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Okavango Delta is a vital water source and hub for biodiversity in southern Africa. Koketso Mookodi, a director of the National Geographic Okavango Wilderness Project (NGOWP) in Botswana, helps educate the public about ______ important place.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Okavango Delta is a vital water source and hub for biodiversity in southern Africa. Koketso Mookodi, a director of the National Geographic Okavango Wilderness Project (NGOWP) in Botswana, helps educate the public about ______ important place.",
     "choices": [
       {
         "id": "A",
@@ -572,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_17",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter screening *Stellar* by Anishinaabe filmmaker Darlene Naponse, the members of the selection committee for the Native Women in Film Festival were so impressed by the feature-length romance that they chose ______ as one of the films to be shown at the festival.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter screening *Stellar* by Anishinaabe filmmaker Darlene Naponse, the members of the selection committee for the Native Women in Film Festival were so impressed by the feature-length romance that they chose ______ as one of the films to be shown at the festival.",
     "choices": [
       {
         "id": "A",
@@ -608,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_18",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRobert B. Elliott was one of the nearly two thousand African Americans who won a public office during the Reconstruction era, the twelve-year period that followed the Civil War. A politician from South Carolina, ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRobert B. Elliott was one of the nearly two thousand African Americans who won a public office during the Reconstruction era, the twelve-year period that followed the Civil War. A politician from South Carolina, ______",
     "choices": [
       {
         "id": "A",
@@ -644,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_19",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe relationship between grassland arthropod populations and agricultural fertilizers containing macronutrients\u2014such as nitrogen, phosphorus, and potassium\u2014was the focus of a 1992 study in the ______ by the researcher Walther van Wingerden, the study examined a variety of arthropod specimens, which had been collected by hand.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe relationship between grassland arthropod populations and agricultural fertilizers containing macronutrients—such as nitrogen, phosphorus, and potassium—was the focus of a 1992 study in the ______ by the researcher Walther van Wingerden, the study examined a variety of arthropod specimens, which had been collected by hand.",
     "choices": [
       {
         "id": "A",
@@ -680,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_20",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nKnown in Taiwan for hosting its first televised cooking show, renowned ______ Fu Pei-mei taught viewers how to cook Chinese cuisine for almost 40 years. Fu gained acclaim outside of Taiwan as well, particularly from the success of her first bilingual Mandarin-English cookbook, published in 1969.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nKnown in Taiwan for hosting its first televised cooking show, renowned ______ Fu Pei-mei taught viewers how to cook Chinese cuisine for almost 40 years. Fu gained acclaim outside of Taiwan as well, particularly from the success of her first bilingual Mandarin-English cookbook, published in 1969.",
     "choices": [
       {
         "id": "A",
@@ -710,15 +709,15 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "chef, and culinary instructor\u2014"
+        "text": "chef, and culinary instructor—"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_21",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nAnthropologist, activist, and musician Lila Downs draws on a variety of Mexican musical genres in her 2023 album *La S\u00e1nchez*. ______ she draws on corridos, rancheras, and other genres of northern Mexico, even though she is from the southern Mexican city of Oaxaca. \"*La S\u00e1nchez* is my contribution,\" Downs says in an interview, \"as a southern woman, that also considers this music as hers.\"\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAnthropologist, activist, and musician Lila Downs draws on a variety of Mexican musical genres in her 2023 album *La Sánchez*. ______ she draws on corridos, rancheras, and other genres of northern Mexico, even though she is from the southern Mexican city of Oaxaca. \"*La Sánchez* is my contribution,\" Downs says in an interview, \"as a southern woman, that also considers this music as hers.\"",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_22",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe World Cup of men's soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Germany, in 2006. ______ only 16 teams, all from Europe and the Americas, competed in the 1958 World Cup in Sweden.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe World Cup of men's soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Germany, in 2006. ______ only 16 teams, all from Europe and the Americas, competed in the 1958 World Cup in Sweden.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_23",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nBroadcasting from the Yankton Sioux Tribe's lands in southern South Dakota, the Native-run radio station KDKO 89.5 FM does much to serve the local Dakota-speaking community. ______ it broadcasts local news and music as well as programming in the Dakota language.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nBroadcasting from the Yankton Sioux Tribe's lands in southern South Dakota, the Native-run radio station KDKO 89.5 FM does much to serve the local Dakota-speaking community. ______ it broadcasts local news and music as well as programming in the Dakota language.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -832,13 +831,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_24",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn the West African country of Sierra Leone, the percentage of the population living in cities rose from 40.8% to 42.9% between 2015 and 2020. ______ urbanization rates climbed across West Africa as a whole, rising 3.2 percentage points in that five-year period.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn the West African country of Sierra Leone, the percentage of the population living in cities rose from 40.8% to 42.9% between 2015 and 2020. ______ urbanization rates climbed across West Africa as a whole, rising 3.2 percentage points in that five-year period.",
     "choices": [
       {
         "id": "A",
@@ -860,9 +859,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_25",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nAl-Andalus, the historical region of the Iberian Peninsula that includes most of modern-day Spain, was ruled by various Arabic-speaking Muslim states between the eighth and fifteenth centuries. ______ many Arabic words, such as \"alacr\u00e1n\"\u2014meaning \"scorpion\"\u2014made their way into the Spanish language.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAl-Andalus, the historical region of the Iberian Peninsula that includes most of modern-day Spain, was ruled by various Arabic-speaking Muslim states between the eighth and fifteenth centuries. ______ many Arabic words, such as \"alacrán\"—meaning \"scorpion\"—made their way into the Spanish language.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_26",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "The student wants to compare the lengths of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Dnieper River is in Europe.\n\u2022 It ranks No. 48 among the longest rivers in the world.\n\u2022 It is 2,287 kilometers long.\n\u2022 The Indus River is in Asia.\n\u2022 It ranks No. 19 among the longest rivers in the world.\n\u2022 It is 3,610 kilometers long.\n\nThe student wants to compare the lengths of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the lengths of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Dnieper River is in Europe.\n• It ranks No. 48 among the longest rivers in the world.\n• It is 2,287 kilometers long.\n• The Indus River is in Asia.\n• It ranks No. 19 among the longest rivers in the world.\n• It is 3,610 kilometers long.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "749328c4-3c9b-4615-9409-c9853a26da34_27",
     "testName": "October 2025 International Form A SAT English Module 1",
-    "text": "The student wants to make and support a claim about Iberian orca behavior. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 2024: Spain and Portugal sponsored a workshop to address recent encounters between Iberian orcas and marine vessels off the Iberian Peninsula.\n\u2022 Many of the 637 documented incidents involved pods of orcas damaging vessels by ramming, nudging, or biting the rudders.\n\u2022 Studies of Iberian orcas suggest recent increases in tuna populations have reduced the time the orcas spend hunting by 99%.\n\u2022 Researchers believe this shift has increased the number of interactions between marine vessels and understimulated orcas.\n\u2022 The workshop advised mariners to avoid orcas pending further testing of the efficacy of TAST, a harmless acoustic deterrent.\n\nThe student wants to make and support a claim about Iberian orca behavior. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to make and support a claim about Iberian orca behavior. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• 2024: Spain and Portugal sponsored a workshop to address recent encounters between Iberian orcas and marine vessels off the Iberian Peninsula.\n• Many of the 637 documented incidents involved pods of orcas damaging vessels by ramming, nudging, or biting the rudders.\n• Studies of Iberian orcas suggest recent increases in tuna populations have reduced the time the orcas spend hunting by 99%.\n• Researchers believe this shift has increased the number of interactions between marine vessels and understimulated orcas.\n• The workshop advised mariners to avoid orcas pending further testing of the efficacy of TAST, a harmless acoustic deterrent.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_1",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe reception of Hena Khan's book *Amina's Song* has been very good. Many reviewers, booksellers, and librarians have ______ the book, and it won the Asian/Pacific American Award for Literature.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe reception of Hena Khan's book *Amina's Song* has been very good. Many reviewers, booksellers, and librarians have ______ the book, and it won the Asian/Pacific American Award for Literature.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_2",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \"conceivable\" most nearly mean?\nThe following text is adapted from Mary Seacole's 1857 autobiography *Wonderful Adventures of Mrs. Seacole in Many Lands*. That journey across the Isthmus [of Panama], insignificant in distance as it was, was by no means an easy one. It seemed as if nature had determined to throw every <u>conceivable</u> obstacle in the way of those who should seek to join the two great oceans of the world.\n\nAs used in the text, what does the word \"conceivable\" most nearly mean?",
+    "text": "As used in the text, what does the word \"conceivable\" most nearly mean?\nThe following text is adapted from Mary Seacole's 1857 autobiography *Wonderful Adventures of Mrs. Seacole in Many Lands*. That journey across the Isthmus [of Panama], insignificant in distance as it was, was by no means an easy one. It seemed as if nature had determined to throw every <u>conceivable</u> obstacle in the way of those who should seek to join the two great oceans of the world.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_3",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nKelp forests grow underwater along the eastern Pacific Coast. These underwater forests are important to fish and other marine animals. Ocean currents can be powerful and rough, making it difficult for animals to find safe places to hide from predators. The underwater forests slow down the currents. This creates a more ______ environment with calmer waters where animals can take shelter.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nKelp forests grow underwater along the eastern Pacific Coast. These underwater forests are important to fish and other marine animals. Ocean currents can be powerful and rough, making it difficult for animals to find safe places to hide from predators. The underwater forests slow down the currents. This creates a more ______ environment with calmer waters where animals can take shelter.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_4",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe recently observed gamma ray burst GRB 230307A lasted for 200 seconds, ______ for a burst generated by the merger of neutron stars. Bursts caused by neutron mergers typically last fewer than 2 seconds.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe recently observed gamma ray burst GRB 230307A lasted for 200 seconds, ______ for a burst generated by the merger of neutron stars. Bursts caused by neutron mergers typically last fewer than 2 seconds.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_5",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes the main purpose of the text?\nPteropods are small swimming snails with thin, delicate calcium carbonate shells. These animals are thought to be especially vulnerable to ocean acidification due to calcium carbonate's susceptibility to dissolution at lower pH values. Victoria L. Peck and colleagues recently found that the periostracum (a protective coating on pteropods' outer shells) prevents this dissolution when intact. Moreover, the team was surprised to discover that even when the periostracum is breached, pteropods can still mitigate damage by rebuilding the inner shell wall.\n\nWhich choice best describes the main purpose of the text?",
+    "text": "Which choice best describes the main purpose of the text?\nPteropods are small swimming snails with thin, delicate calcium carbonate shells. These animals are thought to be especially vulnerable to ocean acidification due to calcium carbonate's susceptibility to dissolution at lower pH values. Victoria L. Peck and colleagues recently found that the periostracum (a protective coating on pteropods' outer shells) prevents this dissolution when intact. Moreover, the team was surprised to discover that even when the periostracum is breached, pteropods can still mitigate damage by rebuilding the inner shell wall.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_6",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nTokyo has high pedestrian traffic, but simply replicating a feature of Tokyo associated with walkability\u2014e.g., its high population density\u2014may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of personal preference, others the role of perceived safety, and so on. But walking decisions are made in complex contexts in which multiple conditions and needs inform individuals\u2019 choices.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nTokyo has high pedestrian traffic, but simply replicating a feature of Tokyo associated with walkability—e.g., its high population density—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of personal preference, others the role of perceived safety, and so on. But walking decisions are made in complex contexts in which multiple conditions and needs inform individuals’ choices.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -219,13 +219,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_7",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes the function of the two underlined portions in the text as a whole?\nThe following text is from Sarojini Naidu's 1896 poem \"Alabaster.\" Like this <u>alabaster</u> box whose art\nIs frail as a cassia-flower, is <u>my heart</u>,\nCarven with delicate dreams and wrought\nWith many a subtle and exquisite thought.\n\nWhich choice best describes the function of the two underlined portions in the text as a whole?",
+    "text": "Which choice best describes the function of the two underlined portions in the text as a whole?\nThe following text is from Sarojini Naidu's 1896 poem \"Alabaster.\" Like this <u>alabaster</u> box whose art\nIs frail as a cassia-flower, is <u>my heart</u>,\nCarven with delicate dreams and wrought\nWith many a subtle and exquisite thought.",
     "choices": [
       {
         "id": "A",
@@ -247,9 +247,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_8",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Based on the texts, the author of Text 2 would most likely agree with which statement about the description of the first showing of *Arrival of the Train* in Text 1?\nText 1\nWhen the 50-second-long film *Arrival of the Train*\u2014which depicts what its title says, a train pulling into a station\u2014was first shown publicly in 1896, spectators, na\u00efve to the new medium of film and seeing a train appearing to come directly at them, leaped from their seats and fled the room. This moment marks a major cultural shift: a new way of representing and seeing the world had arrived with that train, and nothing would ever be the same.\nText 2\nThe fact that there is no contemporary evidence that the first audience of *Arrival of the Train* was alarmed has not stopped the story from becoming canonical, even among film historians. But that phenomenon itself is highly revealing. Our belief that the coming of film was transformative is so strong that we invented and keep retelling a founding myth that divides cultural history into a (na\u00efve) \"before\" and (sophisticated) \"after.\"\n\nBased on the texts, the author of Text 2 would most likely agree with which statement about the description of the first showing of *Arrival of the Train* in Text 1?",
+    "text": "Based on the texts, the author of Text 2 would most likely agree with which statement about the description of the first showing of *Arrival of the Train* in Text 1?\nText 1\nWhen the 50-second-long film *Arrival of the Train*—which depicts what its title says, a train pulling into a station—was first shown publicly in 1896, spectators, naïve to the new medium of film and seeing a train appearing to come directly at them, leaped from their seats and fled the room. This moment marks a major cultural shift: a new way of representing and seeing the world had arrived with that train, and nothing would ever be the same.\nText 2\nThe fact that there is no contemporary evidence that the first audience of *Arrival of the Train* was alarmed has not stopped the story from becoming canonical, even among film historians. But that phenomenon itself is highly revealing. Our belief that the coming of film was transformative is so strong that we invented and keep retelling a founding myth that divides cultural history into a (naïve) \"before\" and (sophisticated) \"after.\"",
     "choices": [
       {
         "id": "A",
@@ -269,7 +269,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "It expresses a view about the transformative nature of film that film historians tend to regard as na\u00efve."
+        "text": "It expresses a view about the transformative nature of film that film historians tend to regard as naïve."
       },
       {
         "id": "C",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_9",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "In the text, which point does Prospero most directly make about Miranda and her memories?\nThe following text is from William Shakespeare's play *The Tempest*, first performed in 1611. Miranda has lived on an island with her father, Prospero, since she was three years old. Prospero has stated that Miranda likely does not remember anything other than her life on the island. MIRANDA: 'Tis far off,\nAnd rather like a dream than an assurance\nThat my remembrance warrants. Had I not\nFour or five women once that tended me?\nPROSPERO: Thou hadst, and more, Miranda. But how is it\nThat this lives in thy mind? What seest thou else\nIn the dark backward and abysm of time?\nIf thou remember'st aught ere thou camest here,\nHow thou camest here thou mayst.\n\nIn the text, which point does Prospero most directly make about Miranda and her memories?",
+    "text": "In the text, which point does Prospero most directly make about Miranda and her memories?\nThe following text is from William Shakespeare's play *The Tempest*, first performed in 1611. Miranda has lived on an island with her father, Prospero, since she was three years old. Prospero has stated that Miranda likely does not remember anything other than her life on the island. MIRANDA: 'Tis far off,\nAnd rather like a dream than an assurance\nThat my remembrance warrants. Had I not\nFour or five women once that tended me?\nPROSPERO: Thou hadst, and more, Miranda. But how is it\nThat this lives in thy mind? What seest thou else\nIn the dark backward and abysm of time?\nIf thou remember'st aught ere thou camest here,\nHow thou camest here thou mayst.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_10",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nThe Muscogee Nation and the nearly forty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. Mining, including oil and natural gas production, is a key industry in the state as well. While researching other key industries in Oklahoma for an economics class, a student finds that the average amount contributed to the state's economy in 2017 by each individual employed in wholesale trade was ______.\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nThe Muscogee Nation and the nearly forty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. Mining, including oil and natural gas production, is a key industry in the state as well. While researching other key industries in Oklahoma for an economics class, a student finds that the average amount contributed to the state's economy in 2017 by each individual employed in wholesale trade was ______.",
     "choices": [
       {
         "id": "A",
@@ -355,44 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
-      "confidence": "high"
-    },
-    "image": "/images_labeled/Aug_24_IntlB_Eng_M1_Q10_1.png"
-  },
-  {
-    "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_11",
-    "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which quotation from *Poems* most effectively illustrates the claim?\n*Poems* is an 1895 collection of poetry by Frances E.W. Harper. In one of Harper's poems, the speaker declares her intention to create art that has a universal appeal across generations, saying, ______\n\nWhich quotation from *Poems* most effectively illustrates the claim?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "\u201cOur world, so worn and weary, / Needs music, pure and strong. / To hush the jangle and discords / Of sorrow, pain and wrong.\u201d (from \u201c*Songs for the People*\u201d)"
-      },
-      {
-        "id": "B",
-        "text": "\u201cLet me make the songs for the people, / Songs for the old and young: / Songs to stir like a battle-cry / Wherever they are sung.\u201d (from \u201c*Songs for the People*\u201d)"
-      },
-      {
-        "id": "C",
-        "text": "\u201cGod bless our native land, / Land of the newly free, / Oh may she ever stand / For truth and liberty,\u201d (from \u201c*God Bless Our Native Land*\u201d)"
-      },
-      {
-        "id": "D",
-        "text": "\u201cMy mother's kiss, my mother's kiss, / I feel its impress now, / As in the bright and happy days / She pressed it on my brow.\u201d (from \u201c*My Mother's Kiss*\u201d)"
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -402,11 +365,47 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_11",
+    "testName": "August 2024 International Form B SAT English Module 1",
+    "text": "Which quotation from *Poems* most effectively illustrates the claim?\n*Poems* is an 1895 collection of poetry by Frances E.W. Harper. In one of Harper's poems, the speaker declares her intention to create art that has a universal appeal across generations, saying, ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“Our world, so worn and weary, / Needs music, pure and strong. / To hush the jangle and discords / Of sorrow, pain and wrong.” (from “*Songs for the People*”)"
+      },
+      {
+        "id": "B",
+        "text": "“Let me make the songs for the people, / Songs for the old and young: / Songs to stir like a battle-cry / Wherever they are sung.” (from “*Songs for the People*”)"
+      },
+      {
+        "id": "C",
+        "text": "“God bless our native land, / Land of the newly free, / Oh may she ever stand / For truth and liberty,” (from “*God Bless Our Native Land*”)"
+      },
+      {
+        "id": "D",
+        "text": "“My mother's kiss, my mother's kiss, / I feel its impress now, / As in the bright and happy days / She pressed it on my brow.” (from “*My Mother's Kiss*”)"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_12",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes data from the graph that support the student's claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the United States in the 1990s was present both in very large cities such as New York City, New York, and smaller areas such as Albany-Schenectady-Troy, New York, and Beaumont, Texas; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.\n\nWhich choice best describes data from the graph that support the student's claim?",
+    "text": "Which choice best describes data from the graph that support the student's claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the United States in the 1990s was present both in very large cities such as New York City, New York, and smaller areas such as Albany-Schenectady-Troy, New York, and Beaumont, Texas; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.",
     "choices": [
       {
         "id": "A",
@@ -428,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Aug_24_IntlB_Eng_M1_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_13",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the researchers' claim?\nPast research suggests that pollination by honeybees is responsible for up to 10 percent of total onion crop production. Now researchers are trying to determine how dependent cucumber crop production is on honeybees. The first phase of their study involved shielding some cucumber plants to prevent insects from pollinating them, resulting in those plants having 40 to 90 percent lower crop production than plants that were pollinated normally. However, the researchers claim that the first-phase experiment alone didn't tell them how much of that difference in crop production is due specifically to excluding honeybees.\n\nWhich finding, if true, would most directly support the researchers' claim?",
+    "text": "Which finding, if true, would most directly support the researchers' claim?\nPast research suggests that pollination by honeybees is responsible for up to 10 percent of total onion crop production. Now researchers are trying to determine how dependent cucumber crop production is on honeybees. The first phase of their study involved shielding some cucumber plants to prevent insects from pollinating them, resulting in those plants having 40 to 90 percent lower crop production than plants that were pollinated normally. However, the researchers claim that the first-phase experiment alone didn't tell them how much of that difference in crop production is due specifically to excluding honeybees.",
     "choices": [
       {
         "id": "A",
@@ -465,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -475,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_14",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which quotation from a translation of *The Underdogs* most effectively illustrates the claim?\n*The Underdogs* is a 1915 novel by Mariano Azuela, originally written in Spanish. In the novel, Azuela depicts a traveling group of soldiers as having a renewed sense of agency and authority as they set off on a new stage of their journey: ______\n\nWhich quotation from a translation of *The Underdogs* most effectively illustrates the claim?",
+    "text": "Which quotation from a translation of *The Underdogs* most effectively illustrates the claim?\n*The Underdogs* is a 1915 novel by Mariano Azuela, originally written in Spanish. In the novel, Azuela depicts a traveling group of soldiers as having a renewed sense of agency and authority as they set off on a new stage of their journey: ______",
     "choices": [
       {
         "id": "A",
@@ -501,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -511,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_15",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1988, Arizona ______ official fossil: the *Araucarioxylon arizonicum*, which is a Triassic period tree.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1988, Arizona ______ official fossil: the *Araucarioxylon arizonicum*, which is a Triassic period tree.",
     "choices": [
       {
         "id": "A",
@@ -537,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_16",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOften anthologized alongside the ______ associated with the Black Arts movement\u2014such as Gwendolyn Brooks and Jayne Cortez\u2014bell hooks's poem *Appalachian Elegy (Sections 1-6)* stands out for its memorable last lines: \u201cthe covenant / between us / can never be broken / vows to live and let live.\u201d\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOften anthologized alongside the ______ associated with the Black Arts movement—such as Gwendolyn Brooks and Jayne Cortez—bell hooks's poem *Appalachian Elegy (Sections 1-6)* stands out for its memorable last lines: “the covenant / between us / can never be broken / vows to live and let live.”",
     "choices": [
       {
         "id": "A",
@@ -573,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_17",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe part of a compound that determines the compound's color is ______ the chromophore. One example of a chromophore is hemoglobin, which gives human blood its red color.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe part of a compound that determines the compound's color is ______ the chromophore. One example of a chromophore is hemoglobin, which gives human blood its red color.",
     "choices": [
       {
         "id": "A",
@@ -609,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -618,12 +616,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_18",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nReleased in 1996, the AMD K5 microchip contained a single CPU, or core, to execute commands. Since then, the average processing power of microchips has increased so drastically\u2014cores now number in the dozens, hundreds, or even ______ the once-revolutionary dual-core technology that replaced the single core chip can be found in everyday items like toasters and toothbrushes.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nReleased in 1996, the AMD K5 microchip contained a single CPU, or core, to execute commands. Since then, the average processing power of microchips has increased so drastically—cores now number in the dozens, hundreds, or even ______ the once-revolutionary dual-core technology that replaced the single core chip can be found in everyday items like toasters and toothbrushes.",
     "choices": [
       {
         "id": "A",
@@ -645,9 +643,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -655,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_19",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter finding information about Ronald V. Dellums, who represented California in the United States House of Representatives, the student discovered biographical sketches of two other Black Americans who served in ______ Ralph Harold Metcalfe of Illinois and George Henry White of North Carolina.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter finding information about Ronald V. Dellums, who represented California in the United States House of Representatives, the student discovered biographical sketches of two other Black Americans who served in ______ Ralph Harold Metcalfe of Illinois and George Henry White of North Carolina.",
     "choices": [
       {
         "id": "A",
@@ -681,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_20",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen a given industry\u2014water and electricity are two well-known examples\u2014carries high infrastructural start-up costs and other barriers that discourage competition, ______ of just one or two suppliers per municipality. Such industries are known as natural monopolies.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen a given industry—water and electricity are two well-known examples—carries high infrastructural start-up costs and other barriers that discourage competition, ______ of just one or two suppliers per municipality. Such industries are known as natural monopolies.",
     "choices": [
       {
         "id": "A",
@@ -717,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_21",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nCornelia Konrads is a German sculptor who creates art that seems to be part of its surroundings. Her sculpture entitled *knotty stilts* is built on the wall of a university building in the United States. ______ appearing as two support beams knotted together against the wall, it is cleverly placed into its environment, serving as an example of Konrads's approach.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nCornelia Konrads is a German sculptor who creates art that seems to be part of its surroundings. Her sculpture entitled *knotty stilts* is built on the wall of a university building in the United States. ______ appearing as two support beams knotted together against the wall, it is cleverly placed into its environment, serving as an example of Konrads's approach.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_22",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThere are three basic steps you should follow when planning a scientific inquiry. First, thoroughly research the question you wish to answer. ______ come up with a prediction (also called a hypothesis) about the answer to your question. Third, develop an experiment that can test the accuracy of your hypothesis.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThere are three basic steps you should follow when planning a scientific inquiry. First, thoroughly research the question you wish to answer. ______ come up with a prediction (also called a hypothesis) about the answer to your question. Third, develop an experiment that can test the accuracy of your hypothesis.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_23",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nUpon first approaching artist Kurt Wenner's *Dies Irae*, a colorful scene painted on the surface of a cobblestone street in Mantua, Italy, one might assume a deep hole filled with life-sized, classically styled sculptures had opened up in the street. ______ by expertly applying the principles of perspective, Wenner created merely the illusion of depth.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nUpon first approaching artist Kurt Wenner's *Dies Irae*, a colorful scene painted on the surface of a cobblestone street in Mantua, Italy, one might assume a deep hole filled with life-sized, classically styled sculptures had opened up in the street. ______ by expertly applying the principles of perspective, Wenner created merely the illusion of depth.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_24",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "The student wants to emphasize the size of Atitalaquia. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Atitalaquia is a municipality in the state of Hidalgo, Mexico.\n\u2022 Municipalities are governmental regions responsible for providing many public services to their residents.\n\u2022 One service they provide is street lighting.\n\u2022 Atitalaquia covers an area of roughly 63 km 2.\n\u2022 Hidalgo is divided into 84 municipalities.\n\nThe student wants to emphasize the size of Atitalaquia. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the size of Atitalaquia. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Atitalaquia is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is street lighting.\n• Atitalaquia covers an area of roughly 63 km 2.\n• Hidalgo is divided into 84 municipalities.",
     "choices": [
       {
         "id": "A",
@@ -851,7 +849,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Atitalaquia\u2014a governmental region in the state of Hidalgo, Mexico\u2014provides many public services to its residents."
+        "text": "Atitalaquia—a governmental region in the state of Hidalgo, Mexico—provides many public services to its residents."
       },
       {
         "id": "D",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,15 +869,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_25",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "The student wants to provide a quotation from chapter 17. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 *The Future of Nostalgia* is a scholarly book by literary theorist Svetlana Boym.\n\u2022 The book provides a multifaceted exploration of the concept of nostalgia.\n\u2022 Chapter 9 describes nostalgia in the city of St. Petersburg in Russia.\n\u2022 Chapter 17 discusses various skeptics' takes on the concept of nostalgia.\n\u2022 In chapter 17, Boym writes, \u201cThe poethics of nostalgia combines estrangement and human solidarity, affect and reflection.\"\n\nThe student wants to provide a quotation from chapter 17. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide a quotation from chapter 17. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *The Future of Nostalgia* is a scholarly book by literary theorist Svetlana Boym.\n• The book provides a multifaceted exploration of the concept of nostalgia.\n• Chapter 9 describes nostalgia in the city of St. Petersburg in Russia.\n• Chapter 17 discusses various skeptics' takes on the concept of nostalgia.\n• In chapter 17, Boym writes, “The poethics of nostalgia combines estrangement and human solidarity, affect and reflection.\"",
     "choices": [
       {
         "id": "A",
-        "text": "In a discussion of various skeptics' takes on the concept of nostalgia, Svetlana Boym writes, \u201cThe poethics of nostalgia combines estrangement and human solidarity, affect and reflection.\u201d"
+        "text": "In a discussion of various skeptics' takes on the concept of nostalgia, Svetlana Boym writes, “The poethics of nostalgia combines estrangement and human solidarity, affect and reflection.”"
       },
       {
         "id": "B",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_26",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize how the two works are similar?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n\u2022 His work *Untitled (Prophet I)* was completed in 1982 and sold at auction in 2011.\n\u2022 *Untitled (Prophet I)* is composed of acrylic, oil stick, and paper collage on canvas and measures 5,655 square inches in area.\n\u2022 His work *Catharsis* was completed in 1983 and sold at auction in 2008.\n\u2022 *Catharsis* is composed of acrylic and oil stick on canvas and measures 6,750 square inches in area.\n\nWhich choice most effectively uses information from the given sentences to emphasize how the two works are similar?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize how the two works are similar?\nWhile researching a topic, a student has taken the following notes:\n• Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n• His work *Untitled (Prophet I)* was completed in 1982 and sold at auction in 2011.\n• *Untitled (Prophet I)* is composed of acrylic, oil stick, and paper collage on canvas and measures 5,655 square inches in area.\n• His work *Catharsis* was completed in 1983 and sold at auction in 2008.\n• *Catharsis* is composed of acrylic and oil stick on canvas and measures 6,750 square inches in area.",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,19 +941,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_27",
     "testName": "August 2024 International Form B SAT English Module 1",
-    "text": "The student wants to contrast two words that represent the same sound. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Onomatopoeias are words that imitate the sounds they represent.\n\u2022 Words that represent the same sound are often written and pronounced very differently from language to language.\n\u2022 This variation is due in part to differences in how the languages are structured.\n\u2022 \u201cKhrok fi\" is a Thai onomatopoeia that represents the sound of snoring.\n\u2022 \u201cBhnosh\" is a Bengali onomatopoeia that represents the sound of snoring.\n\nThe student wants to contrast two words that represent the same sound. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast two words that represent the same sound. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Onomatopoeias are words that imitate the sounds they represent.\n• Words that represent the same sound are often written and pronounced very differently from language to language.\n• This variation is due in part to differences in how the languages are structured.\n• “Khrok fi\" is a Thai onomatopoeia that represents the sound of snoring.\n• “Bhnosh\" is a Bengali onomatopoeia that represents the sound of snoring.",
     "choices": [
       {
         "id": "A",
-        "text": "The Thai word \u201ckhrok fi\" and the Bengali word \"bhnosh\" are onomatopoeias that represent the sound of snoring."
+        "text": "The Thai word “khrok fi\" and the Bengali word \"bhnosh\" are onomatopoeias that represent the sound of snoring."
       },
       {
         "id": "B",
-        "text": "Though they both represent the sound of snoring, the onomatopoeias \"khrok fi\" (Thai) and \u201cbhnosh\" (Bengali) are written and pronounced very differently."
+        "text": "Though they both represent the sound of snoring, the onomatopoeias \"khrok fi\" (Thai) and “bhnosh\" (Bengali) are written and pronounced very differently."
       },
       {
         "id": "C",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

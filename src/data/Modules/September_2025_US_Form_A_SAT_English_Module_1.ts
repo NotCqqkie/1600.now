@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_1",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe mihrab (or niche) is one of many features that are foundational to traditional mosque architecture and is therefore considered ______ aspect of mosque design. Even mosques that exhibit elements of multiple architectural styles, such as the Kocatepe Mosque, which incorporates elements from the Neoclassical Ottoman and modern styles, will also include several of these standard features.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe mihrab (or niche) is one of many features that are foundational to traditional mosque architecture and is therefore considered ______ aspect of mosque design. Even mosques that exhibit elements of multiple architectural styles, such as the Kocatepe Mosque, which incorporates elements from the Neoclassical Ottoman and modern styles, will also include several of these standard features.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_2",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \"constantly\" most nearly mean?\nThe following text is adapted from Willa Cather's 1912 novel *Alexander's Bridge*. For the next few days Alexander was very busy. He took a desk in the office of a [Scottish] engineering firm on Henrietta Street, and was at work almost <u>constantly</u>. He avoided the clubs and usually dined alone at his hotel.\n\nAs used in the text, what does the word \"constantly\" most nearly mean?",
+    "text": "As used in the text, what does the word \"constantly\" most nearly mean?\nThe following text is adapted from Willa Cather's 1912 novel *Alexander's Bridge*. For the next few days Alexander was very busy. He took a desk in the office of a [Scottish] engineering firm on Henrietta Street, and was at work almost <u>constantly</u>. He avoided the clubs and usually dined alone at his hotel.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_3",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSiemowit is said to have ruled what eventually became Poland in the 9th century. Unlike that of Bezprym or other well-attested figures from early Polish history, Siemowit's existence has been the subject of debate, as our knowledge of him is ______ somewhat dubious oral traditions first written down hundreds of years after the events they describe.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSiemowit is said to have ruled what eventually became Poland in the 9th century. Unlike that of Bezprym or other well-attested figures from early Polish history, Siemowit's existence has been the subject of debate, as our knowledge of him is ______ somewhat dubious oral traditions first written down hundreds of years after the events they describe.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_4",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\n*Parapuzosia seppenradensis*, known to have lived in what is now Mexico, and *Parapuzosia leptophylla*, known to have lived in what is now England, were both ammonites, but *P. seppenradensis* was much larger than *P. leptophylla*. Recent research by Christina Ifrim, Nils Schorndorf, and colleagues has suggested that this ______ resulted from the unique predator threat faced by each species.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\n*Parapuzosia seppenradensis*, known to have lived in what is now Mexico, and *Parapuzosia leptophylla*, known to have lived in what is now England, were both ammonites, but *P. seppenradensis* was much larger than *P. leptophylla*. Recent research by Christina Ifrim, Nils Schorndorf, and colleagues has suggested that this ______ resulted from the unique predator threat faced by each species.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_5",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nIn their study of fossils of the extinct arthropod *Mollisonia symmetrica*, Javier Ortega-Hern\u00e1ndez, Sarah Losso and team reported some obvious indications of *M. symmetrica*'s nervous system\u2014for example, the animal's primary nerve cord. They also saw signs of what might be a synganglion, a brain-like mass of nerve tissue, in the animal's head. <u>This evidence is exciting because it could help us better understand how *M. symmetrica* is related to other arthropods, such as cave crickets and krill.</u>\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nIn their study of fossils of the extinct arthropod *Mollisonia symmetrica*, Javier Ortega-Hernández, Sarah Losso and team reported some obvious indications of *M. symmetrica*'s nervous system—for example, the animal's primary nerve cord. They also saw signs of what might be a synganglion, a brain-like mass of nerve tissue, in the animal's head. <u>This evidence is exciting because it could help us better understand how *M. symmetrica* is related to other arthropods, such as cave crickets and krill.</u>",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_6",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice best describes the overall structure of the text?\nHigh-speed rail systems, in which trains can move at great speeds, are expanding in many countries because high-speed rail can reduce the number of automobiles on the road and ultimately conserve energy. In Morocco, for instance, 186 kilometers of high-speed rail lines are in operation as of 2023, and 1,287 kilometers are under construction.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nHigh-speed rail systems, in which trains can move at great speeds, are expanding in many countries because high-speed rail can reduce the number of automobiles on the road and ultimately conserve energy. In Morocco, for instance, 186 kilometers of high-speed rail lines are in operation as of 2023, and 1,287 kilometers are under construction.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -219,13 +219,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_7",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence?\nA microgenre is a specialized genre consisting of a comparatively small number of stylistically similar artists. The microgenre of electronic music known as hyper pop emerged in the 2010s, with American musician Laura Les as an early exponent. Her combination of dense synthesizer arrangements and metallic percussion with vocals electronically shifted in pitch above her natural range exemplifies the hyper pop sound. <u>More recently, British recording artist Charli XCX has contributed to that sound by incorporating pop melodies into it.</u>\n\nWhich choice best describes the function of the underlined sentence?",
+    "text": "Which choice best describes the function of the underlined sentence?\nA microgenre is a specialized genre consisting of a comparatively small number of stylistically similar artists. The microgenre of electronic music known as hyper pop emerged in the 2010s, with American musician Laura Les as an early exponent. Her combination of dense synthesizer arrangements and metallic percussion with vocals electronically shifted in pitch above her natural range exemplifies the hyper pop sound. <u>More recently, British recording artist Charli XCX has contributed to that sound by incorporating pop melodies into it.</u>",
     "choices": [
       {
         "id": "A",
@@ -247,9 +247,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_8",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nWomen like Minnie McNeal Kenny made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Kenny worked for the National Security Agency (NSA) and received the NSA's two highest awards. She also held administrative positions at the National Cryptologic School. In this way, Kenny and others like her helped make it possible for more women\u2014such as Anna Lysyanskaya, who currently works in and teaches digital cryptography\u2014to enter the field of cryptology.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nWomen like Minnie McNeal Kenny made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Kenny worked for the National Security Agency (NSA) and received the NSA's two highest awards. She also held administrative positions at the National Cryptologic School. In this way, Kenny and others like her helped make it possible for more women—such as Anna Lysyanskaya, who currently works in and teaches digital cryptography—to enter the field of cryptology.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_9",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Based on the text, the author would most likely agree with which statement about Tokyo's \"high population density\"?\nTokyo has high pedestrian traffic, but other cities cannot increase their pedestrian traffic simply by replicating a single feature of Tokyo\u2014e.g., <u>its high population density</u>\u2014that is associated with walkability. As urbanist Mariela Alfonzo argues, many factors influence people's decision-making about whether to walk: some studies have shown the importance of personal preference, others have shown the importance of perceived safety, and so on, and it is clear that none of these factors in isolation fully explains pedestrian habits in a given city.\n\nBased on the text, the author would most likely agree with which statement about Tokyo's \"high population density\"?",
+    "text": "Based on the text, the author would most likely agree with which statement about Tokyo's \"high population density\"?\nTokyo has high pedestrian traffic, but other cities cannot increase their pedestrian traffic simply by replicating a single feature of Tokyo—e.g., <u>its high population density</u>—that is associated with walkability. As urbanist Mariela Alfonzo argues, many factors influence people's decision-making about whether to walk: some studies have shown the importance of personal preference, others have shown the importance of perceived safety, and so on, and it is clear that none of these factors in isolation fully explains pedestrian habits in a given city.",
     "choices": [
       {
         "id": "A",
@@ -319,21 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_10",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "According to the text, what did Protas and colleagues focus on in their study?\nMeredith E. Protas and colleagues have explored how convergent evolution\u2014a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages\u2014can result from a genetic mechanism shared by both lineages. Meanwhile, Cynthia C. Steiner and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.\n\nAccording to the text, what did Protas and colleagues focus on in their study?",
+    "text": "According to the text, what did Protas and colleagues focus on in their study?\nMeredith E. Protas and colleagues have explored how convergent evolution—a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages—can result from a genetic mechanism shared by both lineages. Meanwhile, Cynthia C. Steiner and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_11",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nExamples of Hoards found in Ireland and Northern Ireland\nHoard name Date of contents Year of discovery Description Broighter Hoard 1st century BCE 1896 gold pieces Balline Hoard 4th century CE 1940 silver pieces Dooyork Hoard 3rd century BCE-2nd century CE 2001 gold, bronze, and beads\nDeposits of valuable objects, or hoards, have been unearthed in many different parts of Ireland and Northern Ireland. Some of these hoards were discovered before 2000; for example, ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nExamples of Hoards found in Ireland and Northern Ireland\nHoard name Date of contents Year of discovery Description Broighter Hoard 1st century BCE 1896 gold pieces Balline Hoard 4th century CE 1940 silver pieces Dooyork Hoard 3rd century BCE-2nd century CE 2001 gold, bronze, and beads\nDeposits of valuable objects, or hoards, have been unearthed in many different parts of Ireland and Northern Ireland. Some of these hoards were discovered before 2000; for example, ______",
     "choices": [
       {
         "id": "A",
@@ -391,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_12",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which quotation from *The Wonderful Wizard of Oz* most effectively illustrates the claim?\n*The Wonderful Wizard of Oz* is a 1900 novel by L. Frank Baum. In the novel, Dorothy lives in Kansas with her aunt and uncle, but she later finds herself in a land called Oz. The narrator indicates that her aunt and uncle's house in Kansas is remote and solitary, writing that ______\n\nWhich quotation from *The Wonderful Wizard of Oz* most effectively illustrates the claim?",
+    "text": "Which quotation from *The Wonderful Wizard of Oz* most effectively illustrates the claim?\n*The Wonderful Wizard of Oz* is a 1900 novel by L. Frank Baum. In the novel, Dorothy lives in Kansas with her aunt and uncle, but she later finds herself in a land called Oz. The narrator indicates that her aunt and uncle's house in Kansas is remote and solitary, writing that ______",
     "choices": [
       {
         "id": "A",
@@ -427,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -435,13 +435,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_13",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nNautilids are marine mollusks that begin growing their shells before emerging from their eggs and continue to add shell segments throughout their lifetimes. The walls between their shells' chambers are called septa, and the concentration of the isotope oxygen-18 they contain exactly reflects the isotope's concentration in the water at the depth at which the septa formed. Paleontologist Amane Tajika and colleagues examined each of the septa in two nautilid shells; finding that sample F13 had a higher concentration of the isotope than sample M03 did, the researchers concluded that F13 must have formed at a significantly lower temperature than M03 did.\n\nWhich finding, if true, would most directly support the researchers' conclusion?",
+    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nNautilids are marine mollusks that begin growing their shells before emerging from their eggs and continue to add shell segments throughout their lifetimes. The walls between their shells' chambers are called septa, and the concentration of the isotope oxygen-18 they contain exactly reflects the isotope's concentration in the water at the depth at which the septa formed. Paleontologist Amane Tajika and colleagues examined each of the septa in two nautilid shells; finding that sample F13 had a higher concentration of the isotope than sample M03 did, the researchers concluded that F13 must have formed at a significantly lower temperature than M03 did.",
     "choices": [
       {
         "id": "A",
@@ -463,21 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_14",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Assuming participants had similar baseline fitness levels, which finding from the study, if true, would most strongly suggest that positive feedback had the predicted psychological effect but not the predicted physical effect?\nStudies have demonstrated that positive feedback enhances real-world exercise performance and exercisers' psychological experience of physical activity. Nicole Trewick and team tested their prediction that positive feedback would produce analogous results among participants cycling on a stationary bike in a virtual reality environment. After monitoring participants' pedaling rate and heart rate to determine the effects on their physical endurance (e.g., their ability to sustain a certain target pedaling and heart rate) of feedback (positive, negative, or neutral) delivered at regular intervals, the researchers used participants' questionnaire responses to assess their psychological experience of the task.\n\nAssuming participants had similar baseline fitness levels, which finding from the study, if true, would most strongly suggest that positive feedback had the predicted psychological effect but not the predicted physical effect?",
+    "text": "Assuming participants had similar baseline fitness levels, which finding from the study, if true, would most strongly suggest that positive feedback had the predicted psychological effect but not the predicted physical effect?\nStudies have demonstrated that positive feedback enhances real-world exercise performance and exercisers' psychological experience of physical activity. Nicole Trewick and team tested their prediction that positive feedback would produce analogous results among participants cycling on a stationary bike in a virtual reality environment. After monitoring participants' pedaling rate and heart rate to determine the effects on their physical endurance (e.g., their ability to sustain a certain target pedaling and heart rate) of feedback (positive, negative, or neutral) delivered at regular intervals, the researchers used participants' questionnaire responses to assess their psychological experience of the task.",
     "choices": [
       {
         "id": "A",
@@ -499,9 +499,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -509,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_15",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nBlue holes\u2014large marine sinkholes, like Watling's Blue Hole near San Salvador Island\u2014can be hundreds of meters deep and are sometimes part of widespread subterranean networks of passageways. In 2021, researchers conducted the first formal study of the Taam ja' Blue Hole (TJBH), located in a bay of fresh water and salt water on Mexico's coast, and reported a maximum depth of 274 meters. Oscar F. Reyes-Mendoza and colleagues later reinvestigated the depth of the TJBH, determining that it exceeded 400 meters; additionally, they detected variations in characteristics across water layers. Layers more than 400 meters deep began to show density and salinity conditions akin to those of the nearby Caribbean Sea. Reyes-Mendoza and colleagues therefore suggest that ______.\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nBlue holes—large marine sinkholes, like Watling's Blue Hole near San Salvador Island—can be hundreds of meters deep and are sometimes part of widespread subterranean networks of passageways. In 2021, researchers conducted the first formal study of the Taam ja' Blue Hole (TJBH), located in a bay of fresh water and salt water on Mexico's coast, and reported a maximum depth of 274 meters. Oscar F. Reyes-Mendoza and colleagues later reinvestigated the depth of the TJBH, determining that it exceeded 400 meters; additionally, they detected variations in characteristics across water layers. Layers more than 400 meters deep began to show density and salinity conditions akin to those of the nearby Caribbean Sea. Reyes-Mendoza and colleagues therefore suggest that ______.",
     "choices": [
       {
         "id": "A",
@@ -535,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -545,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_16",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen attempting to determine a fault's seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault's physical dimensions and geological features. For example, data from the US Geological Survey show the ______ and most recent deformation (less than 130 thousand years ago) of the Kawich Range fault in Nye County, Nevada.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen attempting to determine a fault's seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault's physical dimensions and geological features. For example, data from the US Geological Survey show the ______ and most recent deformation (less than 130 thousand years ago) of the Kawich Range fault in Nye County, Nevada.",
     "choices": [
       {
         "id": "A",
@@ -571,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -581,19 +581,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_17",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJane Austen's *Northanger Abbey* (1818) is considered a satire of another novel popular at the time: Ann Radcliffe's *The Mysteries of Udolpho* (1794), which Austen's heroine, Catherine Morland, is depicted reading. However, the similarity of the ______ experiences\u2014the predicaments of both Catherine and Radcliffe's Emily St. Aubert result from men's greed\u2014suggests that underlying the satire is a social critique.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJane Austen's *Northanger Abbey* (1818) is considered a satire of another novel popular at the time: Ann Radcliffe's *The Mysteries of Udolpho* (1794), which Austen's heroine, Catherine Morland, is depicted reading. However, the similarity of the ______ experiences—the predicaments of both Catherine and Radcliffe's Emily St. Aubert result from men's greed—suggests that underlying the satire is a social critique.",
     "choices": [
       {
         "id": "A",
-        "text": "novels\u2019 protagonists"
+        "text": "novels’ protagonists"
       },
       {
         "id": "B",
-        "text": "novels\u2019 protagonists\u2019"
+        "text": "novels’ protagonists’"
       },
       {
         "id": "C",
@@ -601,27 +601,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "novel's protagonists\u2019"
+        "text": "novel's protagonists’"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_18",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nThe foxtail pine (*Pinus balfouriana*) known as RCR 1, located in the United States, is one of the oldest known trees in the world, at 1,666 years old. With almost two millennia of climate data in its tree ______ single tree like this, claims dendrochronologist Valerie Trouet, can tell the history of the world.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nThe foxtail pine (*Pinus balfouriana*) known as RCR 1, located in the United States, is one of the oldest known trees in the world, at 1,666 years old. With almost two millennia of climate data in its tree ______ single tree like this, claims dendrochronologist Valerie Trouet, can tell the history of the world.",
     "choices": [
       {
         "id": "A",
@@ -643,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -653,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_19",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen the electrons of a chemical element change energy states, they release certain wavelengths of light that are unique to that element. This means that the emission of light with a wavelength of 516.7 nanometers (nm), which falls in the 500-570 nm range defining the green portion of the visible spectrum, ______ the element iron as the source of the light.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen the electrons of a chemical element change energy states, they release certain wavelengths of light that are unique to that element. This means that the emission of light with a wavelength of 516.7 nanometers (nm), which falls in the 500-570 nm range defining the green portion of the visible spectrum, ______ the element iron as the source of the light.",
     "choices": [
       {
         "id": "A",
@@ -679,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_20",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nAs the exoplanet 8l Ceti b orbits a star 330 light-years from Earth, the gas giant's gravity causes the star to wobble. In 2008, astronomers observing the wobble\u2014indicated by red shifts and blue shifts in the star's spectral wavelengths\u2014eventually attributed ______ to the gravitational influence of the previously undetected exoplanet.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nAs the exoplanet 8l Ceti b orbits a star 330 light-years from Earth, the gas giant's gravity causes the star to wobble. In 2008, astronomers observing the wobble—indicated by red shifts and blue shifts in the star's spectral wavelengths—eventually attributed ______ to the gravitational influence of the previously undetected exoplanet.",
     "choices": [
       {
         "id": "A",
@@ -715,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_21",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n*Their Last Ride* was first released in 2022. This short ______ is about the environmental issues affecting wild and domestic horses, was directed by Cherokee filmmaker Neta Rhyne.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n*Their Last Ride* was first released in 2022. This short ______ is about the environmental issues affecting wild and domestic horses, was directed by Cherokee filmmaker Neta Rhyne.",
     "choices": [
       {
         "id": "A",
@@ -751,9 +751,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -761,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_22",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn September 1862, John Francis joined the US Army. He went on to serve in the 2nd Louisiana Infantry during the US Civil War and, ______ earned a place in US history as one of the war's few Chinese-born American soldiers.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn September 1862, John Francis joined the US Army. He went on to serve in the 2nd Louisiana Infantry during the US Civil War and, ______ earned a place in US history as one of the war's few Chinese-born American soldiers.",
     "choices": [
       {
         "id": "A",
@@ -787,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -797,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_23",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe World Cup of men's soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Qatar, in 2022. The event, which is held every four years, used to be much smaller and more limited geographically. ______ the 1950 World Cup in Brazil included only 13 teams, all from Europe and the Americas.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe World Cup of men's soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Qatar, in 2022. The event, which is held every four years, used to be much smaller and more limited geographically. ______ the 1950 World Cup in Brazil included only 13 teams, all from Europe and the Americas.",
     "choices": [
       {
         "id": "A",
@@ -823,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -833,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_24",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn a given rock formation, Fortunian rock from 538 million years ago might directly abut Rhaetian rock from 208.5 million years ago, with millions of years of material missing in between. ______ time did not stand still during these intervening years; the unaccounted-for sedimentary material was likely removed from the stratigraphic record via erosion and weathering.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn a given rock formation, Fortunian rock from 538 million years ago might directly abut Rhaetian rock from 208.5 million years ago, with millions of years of material missing in between. ______ time did not stand still during these intervening years; the unaccounted-for sedimentary material was likely removed from the stratigraphic record via erosion and weathering.",
     "choices": [
       {
         "id": "A",
@@ -859,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -869,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_25",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "The student wants to compare the lengths of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Madeira River is in South America.\n\u2022 It ranks No. 21 among the longest rivers in the world.\n\u2022 It is 3,380 kilometers long.\n\u2022 The Amur River is in Asia.\n\u2022 It ranks No. 10 among the longest rivers in the world.\n\u2022 It is 4,444 kilometers long.\n\nThe student wants to compare the lengths of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the lengths of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Madeira River is in South America.\n• It ranks No. 21 among the longest rivers in the world.\n• It is 3,380 kilometers long.\n• The Amur River is in Asia.\n• It ranks No. 10 among the longest rivers in the world.\n• It is 4,444 kilometers long.",
     "choices": [
       {
         "id": "A",
@@ -895,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -905,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_26",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "The student wants to explain whom the award is named for and identify one recipient of it. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM).\n\u2022 The ACM gives the award for \"major contributions of lasting importance to computing.\"\n\u2022 It is named after groundbreaking British mathematician Alan Turing.\n\u2022 Judea Pearl won the award in 2011.\n\nThe student wants to explain whom the award is named for and identify one recipient of it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain whom the award is named for and identify one recipient of it. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM).\n• The ACM gives the award for \"major contributions of lasting importance to computing.\"\n• It is named after groundbreaking British mathematician Alan Turing.\n• Judea Pearl won the award in 2011.",
     "choices": [
       {
         "id": "A",
@@ -931,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -941,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_27",
     "testName": "September 2025 US Form A SAT English Module 1",
-    "text": "The student wants to explain how Helmholtz describes F sharp major. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 In music theory, the term \"key\" refers to the set of musical notes that forms the foundation of a piece of music.\n\u2022 In *On the Sensations of Tone* (1863), German physicist Hermann von Helmholtz describes the mood of various musical keys.\n\u2022 He describes the key of F sharp major as \"brilliant, very clear.\"\n\u2022 \"Give Me One Reason\" (1995) by Tracy Chapman is a song written in F sharp major.\n\nThe student wants to explain how Helmholtz describes F sharp major. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain how Helmholtz describes F sharp major. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• In music theory, the term \"key\" refers to the set of musical notes that forms the foundation of a piece of music.\n• In *On the Sensations of Tone* (1863), German physicist Hermann von Helmholtz describes the mood of various musical keys.\n• He describes the key of F sharp major as \"brilliant, very clear.\"\n• \"Give Me One Reason\" (1995) by Tracy Chapman is a song written in F sharp major.",
     "choices": [
       {
         "id": "A",
@@ -957,17 +957,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "The song \u201cGive Me One Reason\u201d could be described as \u201cbrilliant, very clear.\u201d"
+        "text": "The song “Give Me One Reason” could be described as “brilliant, very clear.”"
       },
       {
         "id": "D",
-        "text": "In *On the Sensations of Tone*, Helmholtz describes the mood of F sharp major as \u201cbrilliant, very clear.\u201d"
+        "text": "In *On the Sensations of Tone*, Helmholtz describes the mood of F sharp major as “brilliant, very clear.”"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

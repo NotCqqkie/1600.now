@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_1",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \"gather\" most nearly mean?\nThe following text is adapted from Jhumpa Lahiri's 2003 novel *The Namesake*. Ashima and her husband, Ashoke, are traveling from the United States to India.\nAshoke puts his hand over hers as the plane begins to <u>gather</u> speed. And then Boston tilts away and they ascend effortlessly over a blackened Atlantic.\n\u00a92003 by Jhumpa Lahiri\n\nAs used in the text, what does the word \"gather\" most nearly mean?",
+    "text": "As used in the text, what does the word \"gather\" most nearly mean?\nThe following text is adapted from Jhumpa Lahiri's 2003 novel *The Namesake*. Ashima and her husband, Ashoke, are traveling from the United States to India.\nAshoke puts his hand over hers as the plane begins to <u>gather</u> speed. And then Boston tilts away and they ascend effortlessly over a blackened Atlantic.\n©2003 by Jhumpa Lahiri",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_2",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe ______ Wendy Wan-Long Shang's book *The Great Wall of Lucy Wu* has been very positive. Many reviewers have praised the book, and it won the Asian/Pacific American Award for Literature.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe ______ Wendy Wan-Long Shang's book *The Great Wall of Lucy Wu* has been very positive. Many reviewers have praised the book, and it won the Asian/Pacific American Award for Literature.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_3",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nMicrobiologist Radam\u00e9s Cordero and team investigated surface temperatures of a variety of fungi, including *Amanita muscaria* and a species from the genus *Cantharellus*, in a study ______ a previous observation: Cordero had taken thermal images of various wild mushrooms while hiking and found that the mushrooms all appeared to be colder than the surrounding environment, raising questions about thermoregulation in fungi.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nMicrobiologist Radamés Cordero and team investigated surface temperatures of a variety of fungi, including *Amanita muscaria* and a species from the genus *Cantharellus*, in a study ______ a previous observation: Cordero had taken thermal images of various wild mushrooms while hiking and found that the mushrooms all appeared to be colder than the surrounding environment, raising questions about thermoregulation in fungi.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_4",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nResearch on *Chaenocephalus aceratus* and other icefishes of the Teleostei class has shown that their hearts are pale due to low levels of myoglobin expression, which was once thought to be related to their polar habitats. Recently, researchers have found that some tropical teleost species (such as *Sphaeramia nematoptera*) also have pale hearts, raising the possibility that myoglobin deficiency in teleosts could be ______ habitat.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nResearch on *Chaenocephalus aceratus* and other icefishes of the Teleostei class has shown that their hearts are pale due to low levels of myoglobin expression, which was once thought to be related to their polar habitats. Recently, researchers have found that some tropical teleost species (such as *Sphaeramia nematoptera*) also have pale hearts, raising the possibility that myoglobin deficiency in teleosts could be ______ habitat.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_5",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn 2013 Bridie J. M. Allan and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Pomacentrus amboinensis*, a species of fish. <u>However, Allan and colleagues' study relied on a mean sample size of only about 18 fish.</u> In a 2022 review of various scientists' conclusions about the impacts of ocean acidification on fish behavior, Josefin Sundin and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn 2013 Bridie J. M. Allan and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Pomacentrus amboinensis*, a species of fish. <u>However, Allan and colleagues' study relied on a mean sample size of only about 18 fish.</u> In a 2022 review of various scientists' conclusions about the impacts of ocean acidification on fish behavior, Josefin Sundin and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_6",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nEditor Jared Shurin's 2023 anthology *The Big Book of Cyberpunk* contains 108 stories, an enormous number when compared to the 1986 cyberpunk anthology *Mirrorshades*, which has only twelve. Encompassing both early (e.g., Fritz Leiber's 1950 story \"Coming Attraction\") and more recent (e.g., Erica Satifka's 2021 story \"Act of Providence\") contributions, <u>the broad chronological scope of Shurin's volume may make it seem more comprehensive than *Mirrorshades*,</u> but *Mirrorshades*'s focus is more carefully considered, rendering it the more authoritative anthology of this science fiction subgenre.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nEditor Jared Shurin's 2023 anthology *The Big Book of Cyberpunk* contains 108 stories, an enormous number when compared to the 1986 cyberpunk anthology *Mirrorshades*, which has only twelve. Encompassing both early (e.g., Fritz Leiber's 1950 story \"Coming Attraction\") and more recent (e.g., Erica Satifka's 2021 story \"Act of Providence\") contributions, <u>the broad chronological scope of Shurin's volume may make it seem more comprehensive than *Mirrorshades*,</u> but *Mirrorshades*'s focus is more carefully considered, rendering it the more authoritative anthology of this science fiction subgenre.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -219,13 +219,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_7",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice best states the function of the underlined portion in the text as a whole?\nWenheng Zhang and colleagues have explored how convergent evolution\u2014<u>a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages</u>\u2014can result from a genetic mechanism shared by both lineages. Meanwhile, Patricia J. Wittkopp and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.\n\nWhich choice best states the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best states the function of the underlined portion in the text as a whole?\nWenheng Zhang and colleagues have explored how convergent evolution—<u>a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages</u>—can result from a genetic mechanism shared by both lineages. Meanwhile, Patricia J. Wittkopp and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.",
     "choices": [
       {
         "id": "A",
@@ -247,9 +247,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_8",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which conclusion about steroid profiles is supported by information in both Text 1 and Text 2?\nText 1\nAs part of a study of ungulates (hoofed mammals) native to the Yellowstone River basin, fresh dung samples from identified individuals were collected in the Confederated Salish and Kootenai Tribes Bison Range of Montana. Based on steroidal analysis, on average the bison and elk samples had similar levels of beta-sitosterol and stigmastanol, which distinguished these species' profiles from that of moose.\nText 2\nAlthough fecal-steroidal profile alone is not sufficient to distinguish between samples from bison and those from elk, the relative levels of zoostanols (steroids with animal origins), such as coprostanol and 24-ethyl-coprostanol, in sediments at Buffalo Ford Lake in Yellowstone National Park show that bison, elk, or both were the predominant ungulates in the lake's watershed for all strata of sediment examined, going as far back as 2,300 years.\n\nWhich conclusion about steroid profiles is supported by information in both Text 1 and Text 2?",
+    "text": "Which conclusion about steroid profiles is supported by information in both Text 1 and Text 2?\nText 1\nAs part of a study of ungulates (hoofed mammals) native to the Yellowstone River basin, fresh dung samples from identified individuals were collected in the Confederated Salish and Kootenai Tribes Bison Range of Montana. Based on steroidal analysis, on average the bison and elk samples had similar levels of beta-sitosterol and stigmastanol, which distinguished these species' profiles from that of moose.\nText 2\nAlthough fecal-steroidal profile alone is not sufficient to distinguish between samples from bison and those from elk, the relative levels of zoostanols (steroids with animal origins), such as coprostanol and 24-ethyl-coprostanol, in sediments at Buffalo Ford Lake in Yellowstone National Park show that bison, elk, or both were the predominant ungulates in the lake's watershed for all strata of sediment examined, going as far back as 2,300 years.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_10",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "According to the text, where was the National Association of Black Journalists founded?\nIn 1942, Alice Dunnigan began working at the Associated Negro Press and *Chicago Defender*, eventually becoming the first Black woman correspondent to receive White House credentials. Dunnigan\u2019s accomplishment is just one example of the rich history of Black journalism in the United States. That history is preserved by the National Association of Black Journalists, which was founded in Washington, DC, in 1975 to support Black media professionals and honor people like Dunnigan.\n\nAccording to the text, where was the National Association of Black Journalists founded?",
+    "text": "According to the text, where was the National Association of Black Journalists founded?\nIn 1942, Alice Dunnigan began working at the Associated Negro Press and *Chicago Defender*, eventually becoming the first Black woman correspondent to receive White House credentials. Dunnigan’s accomplishment is just one example of the rich history of Black journalism in the United States. That history is preserved by the National Association of Black Journalists, which was founded in Washington, DC, in 1975 to support Black media professionals and honor people like Dunnigan.",
     "choices": [
       {
         "id": "A",
@@ -319,21 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_11",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Based on the text, what is one likely effect of the change in baleen whale populations over the last century?\nBaleen whales eat up to 30 percent of their total body mass in krill (tiny shrimplike creatures) per day. So in one day, a humpback whale weighing 30,000 kg could eat 9,000 kg, while a southern right whale weighing 80,000 kg could ingest a whopping 24,000 kg. Over the last century, baleen whale populations have declined, and contrary to some scientists' expectations, so have krill populations. Matthew S. Savoca and colleagues resolve this apparent discrepancy by pointing out that baleen whales cycle iron in the ocean, helping support phytoplankton populations, which, in turn, sustain krill populations.\n\nBased on the text, what is one likely effect of the change in baleen whale populations over the last century?",
+    "text": "Based on the text, what is one likely effect of the change in baleen whale populations over the last century?\nBaleen whales eat up to 30 percent of their total body mass in krill (tiny shrimplike creatures) per day. So in one day, a humpback whale weighing 30,000 kg could eat 9,000 kg, while a southern right whale weighing 80,000 kg could ingest a whopping 24,000 kg. Over the last century, baleen whale populations have declined, and contrary to some scientists' expectations, so have krill populations. Matthew S. Savoca and colleagues resolve this apparent discrepancy by pointing out that baleen whales cycle iron in the ocean, helping support phytoplankton populations, which, in turn, sustain krill populations.",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_12",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student in an economics course is examining the decline since 1950 in average hours worked per person per year in various nations due to both increased productivity and the adoption of policies that limit working hours. The first task in this investigation is to determine how the decline in Switzerland compares to that in other countries. The student finds that ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student in an economics course is examining the decline since 1950 in average hours worked per person per year in various nations due to both increased productivity and the adoption of policies that limit working hours. The first task in this investigation is to determine how the decline in Switzerland compares to that in other countries. The student finds that ______",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_USA_Eng_M1_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_13",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which quotation from *The Age of Innocence* best illustrates the claim?\n*The Age of Innocence* is a 1920 novel by Edith Wharton set in New York City in the 1870s. In the novel, Newland Archer attends an opera. Newland compares his intellect favorably to that of other men of New York City society who are in the audience: ______\n\nWhich quotation from *The Age of Innocence* best illustrates the claim?",
+    "text": "Which quotation from *The Age of Innocence* best illustrates the claim?\n*The Age of Innocence* is a 1920 novel by Edith Wharton set in New York City in the 1870s. In the novel, Newland Archer attends an opera. Newland compares his intellect favorably to that of other men of New York City society who are in the audience: ______",
     "choices": [
       {
         "id": "A",
@@ -428,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_14",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1927, the Swedish Academy presented Henri Bergson of France with an ______ that few authors would turn down: the Nobel Prize in Literature.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1927, the Swedish Academy presented Henri Bergson of France with an ______ that few authors would turn down: the Nobel Prize in Literature.",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -474,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_15",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly weaken the student's hypothesis?\nPaleontologist Amane Tajika and colleagues analyzed the shells of two marine mollusks called nautilids that were harvested from New Caledonia. The researchers found that samples from shell sections that formed before hatching, including sample F04, formed in 20-22\u00b0C water, whereas samples from sections that formed after hatching, including M27, formed in 13-15\u00b0C water. These findings are consistent with the temperatures Fijian nautilids encounter during their corresponding stages of development. Because water temperature varies with depth, a biology student hypothesized that the New Caledonian nautilids lay their eggs at approximately the same depth as Fijian nautilids do.\n\nWhich finding, if true, would most directly weaken the student's hypothesis?",
+    "text": "Which finding, if true, would most directly weaken the student's hypothesis?\nPaleontologist Amane Tajika and colleagues analyzed the shells of two marine mollusks called nautilids that were harvested from New Caledonia. The researchers found that samples from shell sections that formed before hatching, including sample F04, formed in 20-22°C water, whereas samples from sections that formed after hatching, including M27, formed in 13-15°C water. These findings are consistent with the temperatures Fijian nautilids encounter during their corresponding stages of development. Because water temperature varies with depth, a biology student hypothesized that the New Caledonian nautilids lay their eggs at approximately the same depth as Fijian nautilids do.",
     "choices": [
       {
         "id": "A",
@@ -494,13 +493,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "There are few locations near Fiji with water temperatures of 13-15\u00b0C that are suitable for nautilid eggs."
+        "text": "There are few locations near Fiji with water temperatures of 13-15°C that are suitable for nautilid eggs."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -509,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_16",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nThe *Mammillaria* cactus *M. guerreronis* occurs naturally only in the state of Guerrero in Mexico, and the smallness of its range makes it especially vulnerable to extinction. The traditional single-species approach to conservation emphasizes the need to focus on individual species most at risk, like *M. guerreronis*, but recently, conservationists have argued that an ecosystem-based approach that incorporates the many interactions between the climate, terrain, and various species of a given geographical area may lead to better outcomes for all the species in a given location. An ecosystem-based approach to the conservation of *M. guerreronis* could thus ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe *Mammillaria* cactus *M. guerreronis* occurs naturally only in the state of Guerrero in Mexico, and the smallness of its range makes it especially vulnerable to extinction. The traditional single-species approach to conservation emphasizes the need to focus on individual species most at risk, like *M. guerreronis*, but recently, conservationists have argued that an ecosystem-based approach that incorporates the many interactions between the climate, terrain, and various species of a given geographical area may lead to better outcomes for all the species in a given location. An ecosystem-based approach to the conservation of *M. guerreronis* could thus ______",
     "choices": [
       {
         "id": "A",
@@ -536,9 +535,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_17",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen first looking at San Carlos Apache artist Evalena Henry's woven baskets, viewers are likely to notice the baskets\u2019 detailed animal imagery. Upon closer inspection, Henry's careful construction ______ apparent.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen first looking at San Carlos Apache artist Evalena Henry's woven baskets, viewers are likely to notice the baskets’ detailed animal imagery. Upon closer inspection, Henry's careful construction ______ apparent.",
     "choices": [
       {
         "id": "A",
@@ -572,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -582,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_18",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Hereford map is a mappa mundi from the fourteenth century. Currently held at Hereford Cathedral in Hereford, England, it is one of over 1,000 such world maps from the European Middle Ages still remaining, with the even older Vercelli map from the thirteenth century (now held at the Archivio Capitolare in Vercelli, Italy) ______ another one.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Hereford map is a mappa mundi from the fourteenth century. Currently held at Hereford Cathedral in Hereford, England, it is one of over 1,000 such world maps from the European Middle Ages still remaining, with the even older Vercelli map from the thirteenth century (now held at the Archivio Capitolare in Vercelli, Italy) ______ another one.",
     "choices": [
       {
         "id": "A",
@@ -608,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -618,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_19",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen documenting butterfly diversity at Rupa Lake in Nepal, researcher Alyssa B. Stewart and her colleagues spotted a very rare butterfly of the *Hesperiidae* family and, after careful examination, knew exactly what species it belonged ______ *Ochus subvittatus*.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen documenting butterfly diversity at Rupa Lake in Nepal, researcher Alyssa B. Stewart and her colleagues spotted a very rare butterfly of the *Hesperiidae* family and, after careful examination, knew exactly what species it belonged ______ *Ochus subvittatus*.",
     "choices": [
       {
         "id": "A",
@@ -644,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -653,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_20",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe relationship between grassland arthropod populations and agricultural fertilizers containing macronutrients\u2014such as nitrogen, phosphorus, and potassium\u2014was the focus of a 2013 study in the ______ by the researcher Laura A. Burkle, the study examined a variety of arthropod specimens, which had been collected by hand.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe relationship between grassland arthropod populations and agricultural fertilizers containing macronutrients—such as nitrogen, phosphorus, and potassium—was the focus of a 2013 study in the ______ by the researcher Laura A. Burkle, the study examined a variety of arthropod specimens, which had been collected by hand.",
     "choices": [
       {
         "id": "A",
@@ -680,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -690,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_21",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe World Cup of men's soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Qatar, in 2022. ______ only 16 teams, most from Europe and the Americas, competed in the 1954 World Cup in Switzerland.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe World Cup of men's soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Qatar, in 2022. ______ only 16 teams, most from Europe and the Americas, competed in the 1954 World Cup in Switzerland.",
     "choices": [
       {
         "id": "A",
@@ -716,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_22",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nAlabama is one of several US states to enact statutes supporting the incorporation of worker cooperatives, businesses with democratic governance. Many scholars testify to the economic sustainability of the co-op model while acknowledging its challenges. ______ those who declare the model inherently unviable can discount documented successes, while those who champion it may understate its challenges.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAlabama is one of several US states to enact statutes supporting the incorporation of worker cooperatives, businesses with democratic governance. Many scholars testify to the economic sustainability of the co-op model while acknowledging its challenges. ______ those who declare the model inherently unviable can discount documented successes, while those who champion it may understate its challenges.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_23",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nUntil 1992, most Olympic Games included demonstration sports, which did not award medals. ______ a demonstration of gl\u00edma, a traditional Nordic form of wrestling, was featured at the 1912 Summer Olympics in Stockholm.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nUntil 1992, most Olympic Games included demonstration sports, which did not award medals. ______ a demonstration of glíma, a traditional Nordic form of wrestling, was featured at the 1912 Summer Olympics in Stockholm.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_24",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nMany places that gained their independence from Spain in the nineteenth century still bear the legacy of the Spanish Empire in their language, including Spanish-speaking Cuba, which left the empire in 1898. ______ which ceased to be part of the Spanish Empire in 1648; Spanish is rarely spoken in the Netherlands in the twenty-first century.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nMany places that gained their independence from Spain in the nineteenth century still bear the legacy of the Spanish Empire in their language, including Spanish-speaking Cuba, which left the empire in 1898. ______ which ceased to be part of the Spanish Empire in 1648; Spanish is rarely spoken in the Netherlands in the twenty-first century.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_25",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "The student wants to specify the year that Elizabeth Catlett created the sculpture *Sister*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Elizabeth Catlett (1915-2012) was a celebrated African American artist.\n\u2022 She is best known for creating sculptures and prints that explore the Black experience.\n\u2022 Catlett's sculpture *Sister* is made of bronze.\n\u2022 She created this sculpture in 1973.\n\nThe student wants to specify the year that Elizabeth Catlett created the sculpture *Sister*. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to specify the year that Elizabeth Catlett created the sculpture *Sister*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Elizabeth Catlett (1915-2012) was a celebrated African American artist.\n• She is best known for creating sculptures and prints that explore the Black experience.\n• Catlett's sculpture *Sister* is made of bronze.\n• She created this sculpture in 1973.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_26",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "The student wants to emphasize the duration of L\u00f3pez-Alegria and Williams's EVA. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 NASA mission Expedition 14 took place from September 18, 2006, to April 21, 2007.\n\u2022 Astronauts Michael L\u00f3pez-Alegria and Sunita Williams were crew members of Expedition 14.\n\u2022 January 31, 2007: L\u00f3pez-Alegria and Williams performed an extravehicular activity (EVA) to replace instruments on the Hubble Space Telescope.\n\u2022 An EVA (also known as a spacewalk) is an activity done by astronauts outside the spacecraft.\n\u2022 The duration of their EVA was 7 hours and 55 minutes.\n\u2022 Theirs is counted among the longest completed spacewalks to date.\n\nThe student wants to emphasize the duration of L\u00f3pez-Alegria and Williams's EVA. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the duration of López-Alegria and Williams's EVA. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• NASA mission Expedition 14 took place from September 18, 2006, to April 21, 2007.\n• Astronauts Michael López-Alegria and Sunita Williams were crew members of Expedition 14.\n• January 31, 2007: López-Alegria and Williams performed an extravehicular activity (EVA) to replace instruments on the Hubble Space Telescope.\n• An EVA (also known as a spacewalk) is an activity done by astronauts outside the spacecraft.\n• The duration of their EVA was 7 hours and 55 minutes.\n• Theirs is counted among the longest completed spacewalks to date.",
     "choices": [
       {
         "id": "A",
@@ -882,21 +881,21 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Lasting 7 hours and 55 minutes, L\u00f3pez-Alegr\u00eda and Williams's EVA is one of the longest spacewalks completed to date."
+        "text": "Lasting 7 hours and 55 minutes, López-Alegría and Williams's EVA is one of the longest spacewalks completed to date."
       },
       {
         "id": "C",
-        "text": "During their time as crew members of Expedition 14, L\u00f3pez-Alegria and Williams completed an EVA."
+        "text": "During their time as crew members of Expedition 14, López-Alegria and Williams completed an EVA."
       },
       {
         "id": "D",
-        "text": "The EVA completed by Expedition 14 crew members L\u00f3pez-Alegria and Williams took place from September 18, 2006, to April 21, 2007."
+        "text": "The EVA completed by Expedition 14 crew members López-Alegria and Williams took place from September 18, 2006, to April 21, 2007."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_27",
     "testName": "October 2025 US Form A SAT English Module 1",
-    "text": "The student wants to contrast the locations of the two specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Cheryll is the nickname of a *Triceratops* fossil specimen housed at the Palm Beach Museum of Natural History.\n\u2022 The Palm Beach Museum of Natural History is located in Wellington, Florida.\n\u2022 Cheryll lived in the Late Cretaceous period.\n\u2022 Dio is the nickname of a *Triceratops* fossil specimen housed at the Royal Ontario Museum.\n\u2022 The Royal Ontario Museum is located in Ontario, Canada.\n\u2022 Dio lived in the Late Cretaceous period.\n\nThe student wants to contrast the locations of the two specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast the locations of the two specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Cheryll is the nickname of a *Triceratops* fossil specimen housed at the Palm Beach Museum of Natural History.\n• The Palm Beach Museum of Natural History is located in Wellington, Florida.\n• Cheryll lived in the Late Cretaceous period.\n• Dio is the nickname of a *Triceratops* fossil specimen housed at the Royal Ontario Museum.\n• The Royal Ontario Museum is located in Ontario, Canada.\n• Dio lived in the Late Cretaceous period.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

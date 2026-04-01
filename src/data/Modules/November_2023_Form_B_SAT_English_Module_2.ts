@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_1",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\n*The Song of the Lark,* painted in the realist style by Jules Breton, depicts a barefoot peasant woman pausing in the fields at sunset and emphasizes accuracy in its portrayal of the experiences of ordinary working people. This style largely ______ the conventions of the romantic style evident in many paintings by Charles Gleyre, which instead accentuated their subjects\u2019 positive traits by, for example, placing them in staged settings with expensive-looking decorations and presenting them with smooth, unblemished skin.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\n*The Song of the Lark,* painted in the realist style by Jules Breton, depicts a barefoot peasant woman pausing in the fields at sunset and emphasizes accuracy in its portrayal of the experiences of ordinary working people. This style largely ______ the conventions of the romantic style evident in many paintings by Charles Gleyre, which instead accentuated their subjects’ positive traits by, for example, placing them in staged settings with expensive-looking decorations and presenting them with smooth, unblemished skin.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_2",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nNew and interesting research conducted by Suleiman A. Al-Sweedan and Moath Alhaj is inspired by their observation that though studies of the effect of high altitude on blood chemistry are ______, the effect on blood chemistry of living in locations below sea level, such as the California towns of Brawley and Thermal, has received comparatively little notice.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nNew and interesting research conducted by Suleiman A. Al-Sweedan and Moath Alhaj is inspired by their observation that though studies of the effect of high altitude on blood chemistry are ______, the effect on blood chemistry of living in locations below sea level, such as the California towns of Brawley and Thermal, has received comparatively little notice.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_3",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAuthors like Elena Poniatowska contributed to the outpouring of Mexican literature in the years following the Mexican Revolution, which lasted from 1910\u20131920. Works from this period make up an ______ proportion of what is considered the canon of Mexican literature, but nineteenth-century writers like Rafael Delgado should be considered just as integral to the Mexican literary canon.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAuthors like Elena Poniatowska contributed to the outpouring of Mexican literature in the years following the Mexican Revolution, which lasted from 1910–1920. Works from this period make up an ______ proportion of what is considered the canon of Mexican literature, but nineteenth-century writers like Rafael Delgado should be considered just as integral to the Mexican literary canon.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_4",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA speaker at a recent children's book publishing conference noted that, while many authors do excellent work, in her mind, no one has ever ______ Mildred Pitts Walter's work as the author of *Justin and the Best Biscuits in the World*: there is no better example of the form, according to the speaker.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA speaker at a recent children's book publishing conference noted that, while many authors do excellent work, in her mind, no one has ever ______ Mildred Pitts Walter's work as the author of *Justin and the Best Biscuits in the World*: there is no better example of the form, according to the speaker.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_5",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while traditional literary forms, such as the poem, are recognizable as such even as they evolve, there are more ______ forms that might, for example, borrow elements from both fables and realist narratives to make something unconventional. Davis's own very short literary pieces arguably fit in this category, since they straddle the line between prose and poetry.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while traditional literary forms, such as the poem, are recognizable as such even as they evolve, there are more ______ forms that might, for example, borrow elements from both fables and realist narratives to make something unconventional. Davis's own very short literary pieces arguably fit in this category, since they straddle the line between prose and poetry.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_6",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nBeth Shapiro and other researchers studying the history of organisms have long utilized ancient DNA\u2014DNA recovered from ancient organic material that has been preserved under natural conditions. However, Nicolas Dussex and colleagues\u2019 2021 study of the evolutionary trajectory of the k\u0101k\u0101p\u014d parrot *(Strigops habroptilus)* instead relied on historical DNA\u2014genomic data incidentally preserved in specimens that are housed in natural history collections\u2014thus capitalizing on the research potential offered by a vast but hitherto relatively underutilized source of insight into the biological past.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nBeth Shapiro and other researchers studying the history of organisms have long utilized ancient DNA—DNA recovered from ancient organic material that has been preserved under natural conditions. However, Nicolas Dussex and colleagues’ 2021 study of the evolutionary trajectory of the kākāpō parrot *(Strigops habroptilus)* instead relied on historical DNA—genomic data incidentally preserved in specimens that are housed in natural history collections—thus capitalizing on the research potential offered by a vast but hitherto relatively underutilized source of insight into the biological past.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_7",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nSteve Carter\u2019s award-winning play *Eden* was produced in 1976 by the groundbreaking Negro Ensemble Company (NEC). NEC cofounder Douglas Turner Ward, who worked as an actor, director, and playwright, had met actor and producer Robert Hooks while they were performing in a 1960 touring production of Lorraine Hansberry\u2019s play *A Raisin in the Sun*. Together, they envisioned a theater company that would nurture and showcase the work of Black theater professionals. Since NEC\u2019s founding in 1967, its workshops and performances have given Black playwrights, including Carter, a forum for their compelling stories.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nSteve Carter’s award-winning play *Eden* was produced in 1976 by the groundbreaking Negro Ensemble Company (NEC). NEC cofounder Douglas Turner Ward, who worked as an actor, director, and playwright, had met actor and producer Robert Hooks while they were performing in a 1960 touring production of Lorraine Hansberry’s play *A Raisin in the Sun*. Together, they envisioned a theater company that would nurture and showcase the work of Black theater professionals. Since NEC’s founding in 1967, its workshops and performances have given Black playwrights, including Carter, a forum for their compelling stories.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_8",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Based on the texts, how would the author of Text 2 most likely respond to the claim about *The Known World* advanced by the author of Text 1?\nText 1\nEdward P. Jones\u2019s 2003 novel *The Known World*, a compelling exploration of history and humanity set in Virginia during the 1840s, has been described as historical fiction. While it\u2019s inarguable that Jones\u2019s book takes place in the past rather than in his own time, *The Known World* is much richer and more complicated than the mere re-creation of the past suggested by the term \u201chistorical fiction.\u201d\nText 2\nSome literary critics dismiss historical fiction as a shallow genre in which writers show off their knowledge of period details rather than tell meaningful stories. But historical fiction can be used to explore profound themes and complex characters\u2014in fact, many writers find that writing about the past gives them a creative freedom they\u2019d lack if they wrote about the present.\n\nBased on the texts, how would the author of Text 2 most likely respond to the claim about *The Known World* advanced by the author of Text 1?",
+    "text": "Based on the texts, how would the author of Text 2 most likely respond to the claim about *The Known World* advanced by the author of Text 1?\nText 1\nEdward P. Jones’s 2003 novel *The Known World*, a compelling exploration of history and humanity set in Virginia during the 1840s, has been described as historical fiction. While it’s inarguable that Jones’s book takes place in the past rather than in his own time, *The Known World* is much richer and more complicated than the mere re-creation of the past suggested by the term “historical fiction.”\nText 2\nSome literary critics dismiss historical fiction as a shallow genre in which writers show off their knowledge of period details rather than tell meaningful stories. But historical fiction can be used to explore profound themes and complex characters—in fact, many writers find that writing about the past gives them a creative freedom they’d lack if they wrote about the present.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -291,17 +291,17 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_9",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "According to the text, why are some critics skeptical of the concept behind Bosco Verticale?\nSince its completion in 2014, Bosco Verticale (Vertical Forest)\u2014a pair of residential towers in Milan, Italy, covered by vegetation\u2014has become a striking symbol of environmental sustainability in architecture. Stefano Boeri intended his design, which features balconies that are home to hundreds of trees, to serve as a model for promoting urban biodiversity. However, the concept has faced skepticism: critics note that although the trees used in Bosco Verticale were specifically cultivated for the project, it's too early to tell if they can thrive in this unusual setting.\n\nAccording to the text, why are some critics skeptical of the concept behind Bosco Verticale?",
+    "text": "According to the text, why are some critics skeptical of the concept behind Bosco Verticale?\nSince its completion in 2014, Bosco Verticale (Vertical Forest)—a pair of residential towers in Milan, Italy, covered by vegetation—has become a striking symbol of environmental sustainability in architecture. Stefano Boeri intended his design, which features balconies that are home to hundreds of trees, to serve as a model for promoting urban biodiversity. However, the concept has faced skepticism: critics note that although the trees used in Bosco Verticale were specifically cultivated for the project, it's too early to tell if they can thrive in this unusual setting.",
     "choices": [
       {
         "id": "A",
-        "text": "Some essential aspects of Bosco Verticale\u2019s design are difficult to adapt to locations other than Milan."
+        "text": "Some essential aspects of Bosco Verticale’s design are difficult to adapt to locations other than Milan."
       },
       {
         "id": "B",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -329,15 +329,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_10",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nTo understand how Paleolithic artists navigated dark caves, archaeologist Ma Angeles Medina-Alcaide and her team tested different lighting methods in a cave in Spain using replicas of artifacts found in European caves with art. They used three different Paleolithic light sources\u2014torches, animal-fat lamps, and fireplaces\u2014determining that each likely had a specific purpose. For instance, the team learned that the animal-fat lamps were less useful than torches while walking because the lamps didn\u2019t illuminate the cave floor.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nTo understand how Paleolithic artists navigated dark caves, archaeologist Ma Angeles Medina-Alcaide and her team tested different lighting methods in a cave in Spain using replicas of artifacts found in European caves with art. They used three different Paleolithic light sources—torches, animal-fat lamps, and fireplaces—determining that each likely had a specific purpose. For instance, the team learned that the animal-fat lamps were less useful than torches while walking because the lamps didn’t illuminate the cave floor.",
     "choices": [
       {
         "id": "A",
-        "text": "Medina-Alcaide and her team\u2019s study demonstrated that fireplaces were essential to the creators of Paleolithic cave art."
+        "text": "Medina-Alcaide and her team’s study demonstrated that fireplaces were essential to the creators of Paleolithic cave art."
       },
       {
         "id": "B",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_11",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nMeasure Mean rating for participants aware of taking a placebo Mean rating for participants in the control group Global improvement 5.0 3.9 Symptom severity reduction 92.00 46.00 Quality of life improvement 11.4 5.4\nTo test whether a medication is effective, scientists compare outcomes for patients taking it and patients taking a placebo (a medically inactive substance). Patients normally aren\u2019t told they\u2019re receiving a placebo, but a research team conducted a study to see if there might be a medical benefit to telling them. The team used various measures to evaluate participants, with higher ratings indicating greater well-being in each measure. Compared to the mean ratings after 21 days for participants in the control group, the mean ratings for participants who were aware of taking a placebo _____\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nMeasure Mean rating for participants aware of taking a placebo Mean rating for participants in the control group Global improvement 5.0 3.9 Symptom severity reduction 92.00 46.00 Quality of life improvement 11.4 5.4\nTo test whether a medication is effective, scientists compare outcomes for patients taking it and patients taking a placebo (a medically inactive substance). Patients normally aren’t told they’re receiving a placebo, but a research team conducted a study to see if there might be a medical benefit to telling them. The team used various measures to evaluate participants, with higher ratings indicating greater well-being in each measure. Compared to the mean ratings after 21 days for participants in the control group, the mean ratings for participants who were aware of taking a placebo _____",
     "choices": [
       {
         "id": "A",
@@ -391,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -399,13 +399,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_12",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Based on the text, what does Jack most likely believe about Bartley?\nThe following text is adapted from Lady Gregory's 1904 play *Spreading the News*. Jack Smith and Bartley Fallon have encountered each other at the local fair.\nJACK: It isn't to the fair I came myself, but up to the Five Acre Meadow I'm going, where I have a contract for the hay. We\u2019ll get a share of it into tramps [drying stacks] to-day.\nBARTLEY: You will not get it into tramps to-day. The rain will be down on it by evening, and on myself too. It's seldom I ever started on a journey but the rain would come down on me before I'd find any place of shelter.\nJACK: If it didn't itself, Bartley, it is my belief you would carry a leaky pail on your head in place of a hat, that way you'd not be without some cause of complaining.\n\nBased on the text, what does Jack most likely believe about Bartley?",
+    "text": "Based on the text, what does Jack most likely believe about Bartley?\nThe following text is adapted from Lady Gregory's 1904 play *Spreading the News*. Jack Smith and Bartley Fallon have encountered each other at the local fair.\nJACK: It isn't to the fair I came myself, but up to the Five Acre Meadow I'm going, where I have a contract for the hay. We’ll get a share of it into tramps [drying stacks] to-day.\nBARTLEY: You will not get it into tramps to-day. The rain will be down on it by evening, and on myself too. It's seldom I ever started on a journey but the rain would come down on me before I'd find any place of shelter.\nJACK: If it didn't itself, Bartley, it is my belief you would carry a leaky pail on your head in place of a hat, that way you'd not be without some cause of complaining.",
     "choices": [
       {
         "id": "A",
@@ -427,9 +427,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -437,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_13",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the conclusion put forward by Grasby et al.?\nUltra-pasteurized milk and raw milk are substitutable products, meaning that one product can be used for the same purpose as the other, whereas tortilla chips and salsa are complementary products, meaning that they serve different purposes but are typically used together. Alicia Grasby et al. investigated whether substitutability and complementarity influence consumers\u2019 purchasing of extended brands\u2014products of different types sold under the same brand name\u2014by comparing purchases of extended-brand products that are substitutable with those that are complementary. They concluded that although complementarity appears to benefit extended brands more than substitutability does on average, this may be due to an outlier in the complementary product data.\n\nWhich finding, if true, would most directly support the conclusion put forward by Grasby et al.?",
+    "text": "Which finding, if true, would most directly support the conclusion put forward by Grasby et al.?\nUltra-pasteurized milk and raw milk are substitutable products, meaning that one product can be used for the same purpose as the other, whereas tortilla chips and salsa are complementary products, meaning that they serve different purposes but are typically used together. Alicia Grasby et al. investigated whether substitutability and complementarity influence consumers’ purchasing of extended brands—products of different types sold under the same brand name—by comparing purchases of extended-brand products that are substitutable with those that are complementary. They concluded that although complementarity appears to benefit extended brands more than substitutability does on average, this may be due to an outlier in the complementary product data.",
     "choices": [
       {
         "id": "A",
@@ -463,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -473,15 +473,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_14",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nNorway, which, according to international indices, has relatively strong democratic institutions and low intranational income inequality, experienced an inflation rate of 3.55% in 2016, whereas Cameroon, which shows the opposite pattern on such indices, had an inflation rate of only 0.86% that year. Such comparisons have engendered speculation that by diluting control over the economy, democratic institutions inhibit states\u2019 ability to counteract inflationary pressures. To test this possibility systematically, Raj Desai et al. examined democratic strength, intranational inequality, and inflation in more than 100 countries, finding that democratic strength, if associated with inequality, restrains inflationary pressures, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nNorway, which, according to international indices, has relatively strong democratic institutions and low intranational income inequality, experienced an inflation rate of 3.55% in 2016, whereas Cameroon, which shows the opposite pattern on such indices, had an inflation rate of only 0.86% that year. Such comparisons have engendered speculation that by diluting control over the economy, democratic institutions inhibit states’ ability to counteract inflationary pressures. To test this possibility systematically, Raj Desai et al. examined democratic strength, intranational inequality, and inflation in more than 100 countries, finding that democratic strength, if associated with inequality, restrains inflationary pressures, suggesting that ______",
     "choices": [
       {
         "id": "A",
-        "text": "the factors that contributed to Norway\u2019s elevated inflation rate relative to Cameroon\u2019s have less to do with the countries\u2019 political institutions than with the countries\u2019 levels of income inequality."
+        "text": "the factors that contributed to Norway’s elevated inflation rate relative to Cameroon’s have less to do with the countries’ political institutions than with the countries’ levels of income inequality."
       },
       {
         "id": "B",
@@ -499,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -509,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_15",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nProlonged exposure to anthropogenic noise (sounds from human sources like traffic or mining) can affect animals, as Matthew A. Wale and colleagues found in a 2013 study of shore crabs. Researchers conducted a meta-analysis of studies of how such noise affects animals and found that, for every study, relevant traits or behaviors of the animals were observably different between the exposed group and the otherwise similar but unexposed group. Although, on average, studies of arthropods showed larger differences than studies of birds did, for every class of animals examined, there were individual studies showing differences well above the average for arthropods. Therefore, the results of the meta-analysis suggest that ____\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nProlonged exposure to anthropogenic noise (sounds from human sources like traffic or mining) can affect animals, as Matthew A. Wale and colleagues found in a 2013 study of shore crabs. Researchers conducted a meta-analysis of studies of how such noise affects animals and found that, for every study, relevant traits or behaviors of the animals were observably different between the exposed group and the otherwise similar but unexposed group. Although, on average, studies of arthropods showed larger differences than studies of birds did, for every class of animals examined, there were individual studies showing differences well above the average for arthropods. Therefore, the results of the meta-analysis suggest that ____",
     "choices": [
       {
         "id": "A",
@@ -535,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -544,12 +544,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_16",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncluded in *Second Sight: the Paradox of Vision in Contemporary Art,* a 2018 group exhibition at the Bowdoin College Museum of Art in Brunswick, Maine, was the work of artist Lorna Simpson, who is best known for her multimedia artworks that juxtapose images of African American women with text fragments. Her work challenges conventional notions of race, gender, history, and ______ she is credited with expanding the horizons of conceptual photographic art.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncluded in *Second Sight: the Paradox of Vision in Contemporary Art,* a 2018 group exhibition at the Bowdoin College Museum of Art in Brunswick, Maine, was the work of artist Lorna Simpson, who is best known for her multimedia artworks that juxtapose images of African American women with text fragments. Her work challenges conventional notions of race, gender, history, and ______ she is credited with expanding the horizons of conceptual photographic art.",
     "choices": [
       {
         "id": "A",
@@ -571,9 +571,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -581,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_17",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nUruguay\u2019s 1985 constitution contains one of the six constitutional features that enhance judicial independence, as identified by legal scholars James Melton and Tom Ginsburg. Since 1985, such de jure judicial independence has become more prevalent among ______ Poland\u2019s constitution contains three such features.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nUruguay’s 1985 constitution contains one of the six constitutional features that enhance judicial independence, as identified by legal scholars James Melton and Tom Ginsburg. Since 1985, such de jure judicial independence has become more prevalent among ______ Poland’s constitution contains three such features.",
     "choices": [
       {
         "id": "A",
@@ -607,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -616,12 +616,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_18",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMinerals can be classified by how much light passes through them. For example, all (or almost all) light passes through painite, which is classified as ______ only some light to pass through, trona is instead classified as translucent.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMinerals can be classified by how much light passes through them. For example, all (or almost all) light passes through painite, which is classified as ______ only some light to pass through, trona is instead classified as translucent.",
     "choices": [
       {
         "id": "A",
@@ -643,9 +643,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -653,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_19",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAccording to a 2017 analysis by economist Jacob Lundberg, Japan\u2019s top tax rate of 60% was lower than the country\u2019s Laffer curve peak (68%). To some economists, whether a tax cut will ultimately increase Japan\u2019s tax revenue is dependent on the country\u2019s position on the Laffer curve. A theoretical relationship between tax rates and revenues, the curve is named for the US ______ Arthur Laffer.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAccording to a 2017 analysis by economist Jacob Lundberg, Japan’s top tax rate of 60% was lower than the country’s Laffer curve peak (68%). To some economists, whether a tax cut will ultimately increase Japan’s tax revenue is dependent on the country’s position on the Laffer curve. A theoretical relationship between tax rates and revenues, the curve is named for the US ______ Arthur Laffer.",
     "choices": [
       {
         "id": "A",
@@ -665,7 +665,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "economist\u2014"
+        "text": "economist—"
       },
       {
         "id": "C",
@@ -679,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -689,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_20",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith one in Canada and another in Japan, the observatory sites that form the Super Dual Auroral Radar ______ or superDARN, as space physicists like Nozomu Nishitani call it\u2014number nearly five dozen. Located across the globe, the radars track meteor echoes and other geospace phenomena.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith one in Canada and another in Japan, the observatory sites that form the Super Dual Auroral Radar ______ or superDARN, as space physicists like Nozomu Nishitani call it—number nearly five dozen. Located across the globe, the radars track meteor echoes and other geospace phenomena.",
     "choices": [
       {
         "id": "A",
@@ -709,13 +709,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Network\u2014"
+        "text": "Network—"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -724,12 +724,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_21",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAmerican abstract artist Richard ______ his installations to make passersby keenly aware of how one\u2019s movements are affected by the physical features of one\u2019s environment, assembles large-scale steel plates into sculptures that dominate the outdoor spaces they occupy.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAmerican abstract artist Richard ______ his installations to make passersby keenly aware of how one’s movements are affected by the physical features of one’s environment, assembles large-scale steel plates into sculptures that dominate the outdoor spaces they occupy.",
     "choices": [
       {
         "id": "A",
@@ -751,9 +751,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -761,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_22",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nWith their distinctive cone shapes and steeply sloping sides, the volcanoes Maungarei (New Zealand) and Harunasan (Japan) may look similar from afar. Tehnuka Ilanko and other volcanologists, ______ can tell by how each was formed that Maungarei is a cinder cone volcano, while Harunasan is a composite volcano.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWith their distinctive cone shapes and steeply sloping sides, the volcanoes Maungarei (New Zealand) and Harunasan (Japan) may look similar from afar. Tehnuka Ilanko and other volcanologists, ______ can tell by how each was formed that Maungarei is a cinder cone volcano, while Harunasan is a composite volcano.",
     "choices": [
       {
         "id": "A",
@@ -787,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -797,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_23",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn a 1984 study by Koerth et al., the researchers determined the ratio of three different plant subtypes within the diet of pronghorns: graminoids, forbs, and browse. ______ that is, the researchers determined the relative quantities of the plants the animal consumed.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn a 1984 study by Koerth et al., the researchers determined the ratio of three different plant subtypes within the diet of pronghorns: graminoids, forbs, and browse. ______ that is, the researchers determined the relative quantities of the plants the animal consumed.",
     "choices": [
       {
         "id": "A",
@@ -823,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -833,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_24",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to explain how the Jules Falk Stradivarius got its name?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Antonio Stradivari (1644-1737) made about 1,000 violins in his lifetime.\n\u2022 Musicians prize his Stradivarius violins for their famed sound quality.\n\u2022 Many of the 500 or so that exist today are named for a previous owner.\n\u2022 The Jules Falk Stradivarius is named for Jules Falk, an American violinist.\n\nWhich choice most effectively uses information from the given sentences to explain how the Jules Falk Stradivarius got its name?",
+    "text": "Which choice most effectively uses information from the given sentences to explain how the Jules Falk Stradivarius got its name?\nWhile researching a topic, a student has taken the following notes:\n• Antonio Stradivari (1644-1737) made about 1,000 violins in his lifetime.\n• Musicians prize his Stradivarius violins for their famed sound quality.\n• Many of the 500 or so that exist today are named for a previous owner.\n• The Jules Falk Stradivarius is named for Jules Falk, an American violinist.",
     "choices": [
       {
         "id": "A",
@@ -859,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -869,15 +869,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_25",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize when and where Argentum debuted?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Grimanesa Amoros is a Peruvian American artist.\n\u2022 She is well known for her large-scale LED light sculptures.\n\u2022 *Argentum* debuted in 2018 at the Bronx Museum of the Arts in New York City, New York.\n\u2022 It is made of iridescent multicolored LED domes.\n\u2022 It occupies 253 cubic feet of space.\n\nWhich choice most effectively uses information from the given sentences to emphasize when and where Argentum debuted?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize when and where Argentum debuted?\nWhile researching a topic, a student has taken the following notes:\n• Grimanesa Amoros is a Peruvian American artist.\n• She is well known for her large-scale LED light sculptures.\n• *Argentum* debuted in 2018 at the Bronx Museum of the Arts in New York City, New York.\n• It is made of iridescent multicolored LED domes.\n• It occupies 253 cubic feet of space.",
     "choices": [
       {
         "id": "A",
-        "text": "As is common of Grimanesa Amoros\u2019s sculptures, the iridescent multicolored LED domes of Argentum cut an imposing 253-cubic foot figure when the plece debuted."
+        "text": "As is common of Grimanesa Amoros’s sculptures, the iridescent multicolored LED domes of Argentum cut an imposing 253-cubic foot figure when the plece debuted."
       },
       {
         "id": "B",
@@ -895,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -905,15 +905,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_26",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize the location of the figures in Lost in the Shuffle?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Calida Garcia Rawles is an African American painter.\n\u2022 She is known for her large-scale, hyperrealistic paintings depicting African American figures in water.\n\u2022 The painting *Lightness of Being I* (24\u00d730 in) depicts a young man with his arms outstretched floating on the right side of the canvas.\n\u2022 *Lost in the Shuffle* (36\u00d724 in) depicts two young men with their arms outstretched floating in the bottom left and upper right corners of the canvas.\n\u2022 She paints the water with vivid blue colors, including sky blue and indigo.\n\u2022 The mood in the paintings is calm.\n\nWhich choice most effectively uses information from the given sentences to emphasize the location of the figures in Lost in the Shuffle?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize the location of the figures in Lost in the Shuffle?\nWhile researching a topic, a student has taken the following notes:\n• Calida Garcia Rawles is an African American painter.\n• She is known for her large-scale, hyperrealistic paintings depicting African American figures in water.\n• The painting *Lightness of Being I* (24×30 in) depicts a young man with his arms outstretched floating on the right side of the canvas.\n• *Lost in the Shuffle* (36×24 in) depicts two young men with their arms outstretched floating in the bottom left and upper right corners of the canvas.\n• She paints the water with vivid blue colors, including sky blue and indigo.\n• The mood in the paintings is calm.",
     "choices": [
       {
         "id": "A",
-        "text": "At 36 by 24 inches, Rawles\u2019s Lost in the Shuffle is even larger than the sizable 24-by-30-inch painting Lightness of Being."
+        "text": "At 36 by 24 inches, Rawles’s Lost in the Shuffle is even larger than the sizable 24-by-30-inch painting Lightness of Being."
       },
       {
         "id": "B",
@@ -921,17 +921,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "In Rawles\u2019s painting Lost in the Shuffle, two young men are depicted in the bottom left and upper right corners of the canvas."
+        "text": "In Rawles’s painting Lost in the Shuffle, two young men are depicted in the bottom left and upper right corners of the canvas."
       },
       {
         "id": "D",
-        "text": "While the number of figures may differ, constant among Rawles\u2019s hyperrealistic works in the calm mood that the paintings evoke."
+        "text": "While the number of figures may differ, constant among Rawles’s hyperrealistic works in the calm mood that the paintings evoke."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -941,33 +941,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "c54d28b8-d1aa-4370-ad6c-356768c9033c_27",
     "testName": "November 2023 Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize when she collected both of the samples?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Yn\u00e9s Mex\u00eda was a Mexican American botanist.\n\u2022 Between 1917 and 1938, she collected over 150,000 botanical samples throughout the Americas.\n\u2022 She collected a sample of *Trixis antimenorrhoea* in Minas Gerais, Brazil, on June 26, 1930.\n\u2022 She collected a sample of *Stephanomeria thurberi* in Chihuahua, Mexico, on May 27, 1929.\n\u2022 These specimens are members of the Asteraceae family.\n\u2022 They can now be viewed online at the C.V. Starr Virtual Herbarium.\n\nWhich choice most effectively uses information from the given sentences to emphasize when she collected both of the samples?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize when she collected both of the samples?\nWhile researching a topic, a student has taken the following notes:\n• Ynés Mexía was a Mexican American botanist.\n• Between 1917 and 1938, she collected over 150,000 botanical samples throughout the Americas.\n• She collected a sample of *Trixis antimenorrhoea* in Minas Gerais, Brazil, on June 26, 1930.\n• She collected a sample of *Stephanomeria thurberi* in Chihuahua, Mexico, on May 27, 1929.\n• These specimens are members of the Asteraceae family.\n• They can now be viewed online at the C.V. Starr Virtual Herbarium.",
     "choices": [
       {
         "id": "A",
-        "text": "Thousands of botanical samples collected by Yn\u00e9s Mex\u00eda can now be found in one place: online at the C.V. Starr Virtual Herbarium."
+        "text": "Thousands of botanical samples collected by Ynés Mexía can now be found in one place: online at the C.V. Starr Virtual Herbarium."
       },
       {
         "id": "B",
-        "text": "While both specimens collected by Yn\u00e9s Mex\u00eda are members of the same family, Trixis antimenorrkoea was found in Minas Gerais and Stephanomeria thurberi was found in Chihuahua."
+        "text": "While both specimens collected by Ynés Mexía are members of the same family, Trixis antimenorrkoea was found in Minas Gerais and Stephanomeria thurberi was found in Chihuahua."
       },
       {
         "id": "C",
-        "text": "On June 26 in 1930, Yn\u00e9s Mex\u00eda added a new specimen to her growing collection of botanical samples: Trixis antimenorrkoea of the Asteraceae family."
+        "text": "On June 26 in 1930, Ynés Mexía added a new specimen to her growing collection of botanical samples: Trixis antimenorrkoea of the Asteraceae family."
       },
       {
         "id": "D",
-        "text": "Yn\u00e9s Mex\u00eda collected a sample of Trixis antimenorrkoea in June of 1930, after collecting tephanomeria thurberi in May of 1929."
+        "text": "Ynés Mexía collected a sample of Trixis antimenorrkoea in June of 1930, after collecting tephanomeria thurberi in May of 1929."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

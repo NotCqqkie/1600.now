@@ -4,28 +4,28 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_1",
     "testName": "March 2025 International Form D SAT Math Module 2",
-    "text": "In the figure shown, triangle CAE is similar to triangle CBD. The measure of angle CBD is 56\u00b0, and AE=24(BD). What is the measure of angle CAE?",
+    "text": "In the figure shown, triangle CAE is similar to triangle CBD. The measure of angle CBD is 56°, and AE=24(BD). What is the measure of angle CAE?",
     "choices": [
       {
         "id": "A",
-        "text": "24\u00b0"
+        "text": "24°"
       },
       {
         "id": "B",
-        "text": "56\u00b0"
+        "text": "56°"
       },
       {
         "id": "C",
-        "text": "(24+56)\u00b0"
+        "text": "(24+56)°"
       },
       {
         "id": "D",
-        "text": "(24\u00b756)\u00b0"
+        "text": "(24·56)°"
       }
     ],
     "correctAnswer": "B",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlD_Math_M2_Q1_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_2",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -69,16 +68,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_3",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -106,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_4",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -142,16 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlD_Math_M2_Q4_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_5",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -179,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_6",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -215,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_7",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -251,15 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_8",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -287,15 +285,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "skill": "Evaluating statistical claims: Observational studies and experiments",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_9",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -306,15 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "skill": "Evaluating statistical claims: Observational studies and experiments",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_10",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -342,15 +340,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_11",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -378,15 +376,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_12",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -414,16 +412,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlD_Math_M2_Q12_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_13",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -451,16 +448,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlD_Math_M2_Q13_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_14",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -488,15 +484,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_15",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -524,16 +520,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlD_Math_M2_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_16",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -561,7 +556,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -569,7 +564,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_17",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -603,9 +598,9 @@ export const questions: Question[] = [
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_18",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -632,20 +627,20 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_19",
     "testName": "March 2025 International Form D SAT Math Module 2",
-    "text": "In triangle ABC, the measure of angle A is 58\u00b0 and AC = 30. In triangle PQR, the measure of angle P is 58\u00b0 and PR=120. Which additlonal plece of information is suficlent to prove that rlangle ABC is simllar to triangle PQR?",
+    "text": "In triangle ABC, the measure of angle A is 58° and AC = 30. In triangle PQR, the measure of angle P is 58° and PR=120. Which additlonal plece of information is suficlent to prove that rlangle ABC is simllar to triangle PQR?",
     "choices": [
       {
         "id": "A",
@@ -657,11 +652,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "The measures of angle B and angle R are 34\u00b0 and 88\u00b0, respectively."
+        "text": "The measures of angle B and angle R are 34° and 88°, respectively."
       },
       {
         "id": "D",
-        "text": "The measures of angle B and angle Q are 58\u00b0 and 34\u00b0, respectively."
+        "text": "The measures of angle B and angle Q are 58° and 34°, respectively."
       }
     ],
     "correctAnswer": "C",
@@ -669,7 +664,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
@@ -677,7 +672,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_20",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -695,8 +690,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_21",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -707,15 +702,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_22",
     "testName": "March 2025 International Form D SAT Math Module 2",
@@ -726,7 +721,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   }

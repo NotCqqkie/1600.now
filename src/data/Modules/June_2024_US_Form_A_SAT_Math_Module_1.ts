@@ -4,12 +4,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_1",
     "testName": "June 2024 US Form A SAT Math Module 1",
-    "text": "Which expression is equivalent to 6 xy \uff082 x 2 +5 y \uff09\uff1f",
+    "text": "Which expression is equivalent to 6 xy （2 x 2 +5 y ）？",
     "choices": [
       {
         "id": "A",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_2",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_3",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_4",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_5",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -177,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_6",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -196,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_7",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -232,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_8",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -251,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_9",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -270,15 +270,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_10",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -306,15 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_11",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -342,15 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_12",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -377,8 +377,8 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -386,7 +386,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_13",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -420,9 +420,9 @@ export const questions: Question[] = [
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_14",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -449,20 +449,20 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_15",
     "testName": "June 2024 US Form A SAT Math Module 1",
-    "text": "The graph of y = f (x) is shown where f (x)= ax \u00b3+ bx + cx + d and a, b, c, and d areconstants. For how many distinct values of x does f (x)= 0?",
+    "text": "The graph of y = f (x) is shown where f (x)= ax ³+ bx + cx + d and a, b, c, and d areconstants. For how many distinct values of x does f (x)= 0?",
     "choices": [
       {
         "id": "A",
@@ -486,16 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USA_Math_M1_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_16",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -503,19 +502,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "(x - 3)\u00b2+(y - 6) 2 =8"
+        "text": "(x - 3)²+(y - 6) 2 =8"
       },
       {
         "id": "B",
-        "text": "(x - 3)\u00b2+(y - 6) 2 =16"
+        "text": "(x - 3)²+(y - 6) 2 =16"
       },
       {
         "id": "C",
-        "text": "(x - 6)\u00b2+(y - 12) 2 =4"
+        "text": "(x - 6)²+(y - 12) 2 =4"
       },
       {
         "id": "D",
-        "text": "(x - 6)\u00b2+(y - 12) 2 =8"
+        "text": "(x - 6)²+(y - 12) 2 =8"
       }
     ],
     "correctAnswer": "B",
@@ -530,8 +529,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_17",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -539,7 +538,7 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "14sin58\u00b0"
+        "text": "14sin58°"
       },
       {
         "id": "B",
@@ -547,7 +546,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "14cos58\u00b0"
+        "text": "14cos58°"
       },
       {
         "id": "D",
@@ -559,16 +558,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USA_Math_M1_Q17_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_18",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -579,35 +577,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_19",
     "testName": "June 2024 US Form A SAT Math Module 1",
-    "text": "Note\uff1aFigure not drawn to scale.\nIn the figure, AC = CD. The measure of angle EBC is 29\u00b0, and the measure of angle ACD is 108 \u00b0. What is the value of x?",
+    "text": "Note：Figure not drawn to scale.\nIn the figure, AC = CD. The measure of angle EBC is 29°, and the measure of angle ACD is 108 °. What is the value of x?",
     "choices": [],
     "correctAnswer": "65",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USA_Math_M1_Q19_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_20",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -624,9 +621,9 @@ export const questions: Question[] = [
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_21",
     "testName": "June 2024 US Form A SAT Math Module 1",
@@ -636,36 +633,36 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_22",
     "testName": "June 2024 US Form A SAT Math Module 1",
-    "text": "The dot plot shows the distribution of capacity for a set of capacitors, set A, which aresearcher used for a certain experiment, For another experiment, the researcher used adifferent set of capacitors, set B. Set B has the same number of capacitors as set A but thecapacity of each capacitor of set B is 17 microfarads ($\u03bc$ F) greater than the capacity of eachrespective capacitor in set A. Which of the following is true about the capacities of thecapacitors in set B?",
+    "text": "The dot plot shows the distribution of capacity for a set of capacitors, set A, which aresearcher used for a certain experiment, For another experiment, the researcher used adifferent set of capacitors, set B. Set B has the same number of capacitors as set A but thecapacity of each capacitor of set B is 17 microfarads ($μ$ F) greater than the capacity of eachrespective capacitor in set A. Which of the following is true about the capacities of thecapacitors in set B?",
     "choices": [
       {
         "id": "A",
-        "text": "The mean capacity is 8 $\u03bcF$, and the range of capacities is 12 $\u03bcF$."
+        "text": "The mean capacity is 8 $μF$, and the range of capacities is 12 $μF$."
       },
       {
         "id": "B",
-        "text": "The mean capacity is 8 $\u03bcF$, and the range of capacities is 29 $\u03bcF$."
+        "text": "The mean capacity is 8 $μF$, and the range of capacities is 29 $μF$."
       },
       {
         "id": "C",
-        "text": "The mean capacity is 25 $\u03bcF$, and the range of capacities is 12 $\u03bcF$."
+        "text": "The mean capacity is 25 $μF$, and the range of capacities is 12 $μF$."
       },
       {
         "id": "D",
-        "text": "The mean capacity is 25 $\u03bcF$, and the range of capacities is 29 $\u03bcF$."
+        "text": "The mean capacity is 25 $μF$, and the range of capacities is 29 $μF$."
       }
     ],
     "correctAnswer": "C",
@@ -673,9 +670,8 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USA_Math_M1_Q22_1.png"
+    }
   }
 ];

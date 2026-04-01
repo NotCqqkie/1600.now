@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_1",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nExcavating a *basilosaur* fossil is a ______ process, since it can take weeks or even months of hard, physically tiring work to clear away the dirt and rock covering the specimen.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nExcavating a *basilosaur* fossil is a ______ process, since it can take weeks or even months of hard, physically tiring work to clear away the dirt and rock covering the specimen.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_2",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "As used in the text, what does the word \u201cstraight\u201d most nearly mean?\nThe following text is from Jacqueline Woodson\u2019s 2018 novel *Harbor Me*. In the novel, the narrator and Esteban are classmates. An hour after class started on that Friday, Esteban came in, his head down, his hair slicked wet against his forehead, his Yankees cap dripping with rain. He walked <u>straight</u> to his seat without looking at the rest of us. I watched him sink into his seat so sadly and heavily, it felt like the whole room shivered.\n\nAs used in the text, what does the word \u201cstraight\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “straight” most nearly mean?\nThe following text is from Jacqueline Woodson’s 2018 novel *Harbor Me*. In the novel, the narrator and Esteban are classmates. An hour after class started on that Friday, Esteban came in, his head down, his hair slicked wet against his forehead, his Yankees cap dripping with rain. He walked <u>straight</u> to his seat without looking at the rest of us. I watched him sink into his seat so sadly and heavily, it felt like the whole room shivered.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_3",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "As used in the text, what does the word \u201cplace\u201d most nearly mean?\nThe following text is from Lilliam Rivera\u2019s 2020 novel *Never Look Back*. The text describes the narrator arriving at his father's apartment. \u201cPops, I\u2019m here!\u201d I drop my bag and set my guitar case against a wall. I <u>place</u> my keys on the bowl right next to the ceramic elephant Pops got me on one of his trips to Santo Domingo when I was a little kid.\n\nAs used in the text, what does the word \u201cplace\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “place” most nearly mean?\nThe following text is from Lilliam Rivera’s 2020 novel *Never Look Back*. The text describes the narrator arriving at his father's apartment. “Pops, I’m here!” I drop my bag and set my guitar case against a wall. I <u>place</u> my keys on the bowl right next to the ceramic elephant Pops got me on one of his trips to Santo Domingo when I was a little kid.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_4",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA number of recording artists ______ Indigenous music with other musical styles. For example, the Haudenosaunee group the Halluci Nation incorporated powwow music into electronic dance music on its album *One More Saturday Night*, and Oji-Cree/Mi\u2019kmaq musician Anachnid combined Indigenous flute and powwow vocals with electronic music on her album *Dreamweaver*.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA number of recording artists ______ Indigenous music with other musical styles. For example, the Haudenosaunee group the Halluci Nation incorporated powwow music into electronic dance music on its album *One More Saturday Night*, and Oji-Cree/Mi’kmaq musician Anachnid combined Indigenous flute and powwow vocals with electronic music on her album *Dreamweaver*.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_5",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSpanish words and phrases often appear in Sandra Cisneros's short story \"Eyes of Zapata.\" Their meaning is implied by the surrounding English-language text. Ana Castillo's approach to Spanish words and phrases in *So Far from God* is ______ Cisneros's approach. Therefore, readers who aren't familiar with Spanish can easily read both works.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSpanish words and phrases often appear in Sandra Cisneros's short story \"Eyes of Zapata.\" Their meaning is implied by the surrounding English-language text. Ana Castillo's approach to Spanish words and phrases in *So Far from God* is ______ Cisneros's approach. Therefore, readers who aren't familiar with Spanish can easily read both works.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_6",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined sentence?\nThe 2017 novella *Mapping the Interior* confirmed that Stephen Graham Jones is one of the most talented writers of horror fiction today. <u>By featuring main characters who are Blackfeet, like Jones himself, the novella also helped to ensure that Indigenous people have a place within the horror genre.</u> But Jones is hardly the only Indigenous voice in horror: M\u00e9tis author Cherie Dimaline has also written in the genre. Her acclaimed 2019 novel *Empire of Wild* is set in a M\u00e9tis community in southern Canada.\n\nWhich choice best describes the function of the underlined sentence?",
+    "text": "Which choice best describes the function of the underlined sentence?\nThe 2017 novella *Mapping the Interior* confirmed that Stephen Graham Jones is one of the most talented writers of horror fiction today. <u>By featuring main characters who are Blackfeet, like Jones himself, the novella also helped to ensure that Indigenous people have a place within the horror genre.</u> But Jones is hardly the only Indigenous voice in horror: Métis author Cherie Dimaline has also written in the genre. Her acclaimed 2019 novel *Empire of Wild* is set in a Métis community in southern Canada.",
     "choices": [
       {
         "id": "A",
@@ -205,13 +205,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "It asks why so many readers who don\u2019t enjoy the horror genre have purchased *Mapping the Interior*."
+        "text": "It asks why so many readers who don’t enjoy the horror genre have purchased *Mapping the Interior*."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_7",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Based on the texts, how would Lorde (Text 1) most likely respond to the argument presented in Text 2? Text 1\nThe poet Audre Lorde once claimed that poetry is the most inexpensive of art forms to practice. While people who pursue other art forms\u2014painting, film, theater\u2014require large blocks of uninterrupted time as well as money to complete their work, poets can write, as Lorde said, \u201cbetween shifts, in the hospital pantry, on the subway, and on scraps of surplus paper.\u201d So poets can practice their art even if they must earn their living in another way.\nText 2\nAny assessment of the state of contemporary poetry must reckon with the professionalization of the field. While it is possible in theory for anyone to publish in *Virginia Quarterly Review*, *Ploughshares*, or a similar major poetry outlet, many people who do so have professional training in poetry and extensive practice writing it, which requires time not often available to those who must also work full-time jobs. Thus, financial security indirectly affects which people become poets.\n\nBased on the texts, how would Lorde (Text 1) most likely respond to the argument presented in Text 2?",
+    "text": "Based on the texts, how would Lorde (Text 1) most likely respond to the argument presented in Text 2? Text 1\nThe poet Audre Lorde once claimed that poetry is the most inexpensive of art forms to practice. While people who pursue other art forms—painting, film, theater—require large blocks of uninterrupted time as well as money to complete their work, poets can write, as Lorde said, “between shifts, in the hospital pantry, on the subway, and on scraps of surplus paper.” So poets can practice their art even if they must earn their living in another way.\nText 2\nAny assessment of the state of contemporary poetry must reckon with the professionalization of the field. While it is possible in theory for anyone to publish in *Virginia Quarterly Review*, *Ploughshares*, or a similar major poetry outlet, many people who do so have professional training in poetry and extensive practice writing it, which requires time not often available to those who must also work full-time jobs. Thus, financial security indirectly affects which people become poets.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_8",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which statement about El Museo del Barrio is best supported by the text?\nFounded in 1969, El Museo del Barrio showcases the visual arts and cultures of Latin America and of Latino communities in the United States. It is located in New York City and has more than 8,500 objects in its collection. Since 2000, a number of other institutions devoted to Latino cultures have opened in the United States. A notable example is the National Museum of Puerto Rican Arts and Culture in Chicago. It focuses on the arts and culture of Puerto Rico and of Chicago\u2019s Puerto Rican community.\n\nWhich statement about El Museo del Barrio is best supported by the text?",
+    "text": "Which statement about El Museo del Barrio is best supported by the text?\nFounded in 1969, El Museo del Barrio showcases the visual arts and cultures of Latin America and of Latino communities in the United States. It is located in New York City and has more than 8,500 objects in its collection. Since 2000, a number of other institutions devoted to Latino cultures have opened in the United States. A notable example is the National Museum of Puerto Rican Arts and Culture in Chicago. It focuses on the arts and culture of Puerto Rico and of Chicago’s Puerto Rican community.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -293,19 +293,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_9",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which statement about sonnet cycles is best supported by the text?\nWhen read sequentially, the individual sonnets of a sonnet cycle\u2014a series of fourteen-line poems that rhyme in a fixed pattern\u2014typically evince a loose narrative arc that traditionally dramatizes the speaker's persistent efforts to win the affections of an aloof addressee, as occurs in Edmund Spenser's 1595 *Amoretti*. However, by using the sonnet cycle to instead relay a loosely autobiographical account of his travels abroad, modern poet Claude McKay's series \"Cities\" subverts entrenched sonnet conventions to reveal the form's potential for new possibilities.\n\nWhich statement about sonnet cycles is best supported by the text?",
+    "text": "Which statement about sonnet cycles is best supported by the text?\nWhen read sequentially, the individual sonnets of a sonnet cycle—a series of fourteen-line poems that rhyme in a fixed pattern—typically evince a loose narrative arc that traditionally dramatizes the speaker's persistent efforts to win the affections of an aloof addressee, as occurs in Edmund Spenser's 1595 *Amoretti*. However, by using the sonnet cycle to instead relay a loosely autobiographical account of his travels abroad, modern poet Claude McKay's series \"Cities\" subverts entrenched sonnet conventions to reveal the form's potential for new possibilities.",
     "choices": [
       {
         "id": "A",
-        "text": "Although sonnet cycles are strongly associated with a certain subject matter, this association doesn't preclude poets from exploring ideas that are relatively unorthodox by the genre\u2019s standards."
+        "text": "Although sonnet cycles are strongly associated with a certain subject matter, this association doesn't preclude poets from exploring ideas that are relatively unorthodox by the genre’s standards."
       },
       {
         "id": "B",
-        "text": "Although sonnet cycles generally feature similar narrative arcs related to the speaker\u2019s relationship with another person, there is a remarkable range in the number of perspectives represented within the story arcs of different sonnet cycles."
+        "text": "Although sonnet cycles generally feature similar narrative arcs related to the speaker’s relationship with another person, there is a remarkable range in the number of perspectives represented within the story arcs of different sonnet cycles."
       },
       {
         "id": "C",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_10",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nHorizontal gene transfer involves the exchange of genetic material between organisms not in a parent-offspring relationship. It is common among prokaryotes (single-celled organisms such as the bacteria *Carnobacterium viridans* and *Massilia timonae*). The process can have the effect of increasing bacterial resistance to antibiotics; as such, an understanding of how to prevent horizontal gene transfer might result in the mitigation of dangerous pathogens (organisms that cause disease).\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nHorizontal gene transfer involves the exchange of genetic material between organisms not in a parent-offspring relationship. It is common among prokaryotes (single-celled organisms such as the bacteria *Carnobacterium viridans* and *Massilia timonae*). The process can have the effect of increasing bacterial resistance to antibiotics; as such, an understanding of how to prevent horizontal gene transfer might result in the mitigation of dangerous pathogens (organisms that cause disease).",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_11",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the table to complete the example?\nA student who is researching volcanoes in Ecuador notes that the country is home to different types of volcanoes. For example, ______\n\nWhich choice most effectively uses information from the table to complete the example?",
+    "text": "Which choice most effectively uses information from the table to complete the example?\nA student who is researching volcanoes in Ecuador notes that the country is home to different types of volcanoes. For example, ______",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USB_Eng_M2_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_12",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly support Mulder and Spellman\u2019s conclusion?\nCreeping dogwood (*Cornus canadensis*) plants are native to Alaska, where harsh conditions have historically impeded potential invasive species. As the boreal climate has warmed in recent decades, however, common knotgrass (*Polygonum aviculare*) plants have established themselves in Alaska. It has been suggested that warming-induced delays in the onset of subfreezing temperatures in autumn can benefit invasives more than native species; to evaluate this possibility, biologists Christa Mulder and Katie Spellman tracked *C. canadensis* and* P. aviculare*, along with other native and invasive species, over several years, concluding that invasives are advantaged by delays in subfreezing temperature onset in Alaska.\n\nWhich finding, if true, would most directly support Mulder and Spellman\u2019s conclusion?",
+    "text": "Which finding, if true, would most directly support Mulder and Spellman’s conclusion?\nCreeping dogwood (*Cornus canadensis*) plants are native to Alaska, where harsh conditions have historically impeded potential invasive species. As the boreal climate has warmed in recent decades, however, common knotgrass (*Polygonum aviculare*) plants have established themselves in Alaska. It has been suggested that warming-induced delays in the onset of subfreezing temperatures in autumn can benefit invasives more than native species; to evaluate this possibility, biologists Christa Mulder and Katie Spellman tracked *C. canadensis* and* P. aviculare*, along with other native and invasive species, over several years, concluding that invasives are advantaged by delays in subfreezing temperature onset in Alaska.",
     "choices": [
       {
         "id": "A",
@@ -428,21 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_13",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly weaken the student\u2019s conclusion?\nMicrosoft\u2019s introduction of the Xbox console in 2001 is an instance of brand extension\u2014the company leveraged its brand recognition as a software producer to enter a new product category. To understand consumer responses to extended brands, Alicia Grasby et al. identified 30 extended-brand pairs (e.g., the same brand of mobile phone and headphones) in household purchasing data and, for each pair, had consumers rate the similarity of the pair\u2019s product categories. Noting that cross-category purchasing of the same brand was higher in pairs of product categories rated as similar, such as liquid bleach and toilet cleaner, than in those rated as dissimilar, such as juice and dried fruit, a student claims that similarity drives cross-category purchasing.\n\nWhich finding, if true, would most directly weaken the student\u2019s conclusion?",
+    "text": "Which finding, if true, would most directly weaken the student’s conclusion?\nMicrosoft’s introduction of the Xbox console in 2001 is an instance of brand extension—the company leveraged its brand recognition as a software producer to enter a new product category. To understand consumer responses to extended brands, Alicia Grasby et al. identified 30 extended-brand pairs (e.g., the same brand of mobile phone and headphones) in household purchasing data and, for each pair, had consumers rate the similarity of the pair’s product categories. Noting that cross-category purchasing of the same brand was higher in pairs of product categories rated as similar, such as liquid bleach and toilet cleaner, than in those rated as dissimilar, such as juice and dried fruit, a student claims that similarity drives cross-category purchasing.",
     "choices": [
       {
         "id": "A",
@@ -464,29 +463,29 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_14",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nAntonia Olivia Dolan and colleagues had musicians and nonmusicians with clinically average hearing listen to recordings of nature sounds and music in popular genres like heavy metal and acoustic folk and adjust the volume to optimize their listening enjoyment. The researchers found that for a given recording that a musician and nonmusician identified as their favorite among those included in the study, optimal volume tended to be higher for the musician than for the nonmusician. Thus, if a musician and nonmusician both identified Metallica\u2019s \u201cSad but True\u201d as their favorite recording and the musician preferred to listen to it at a volume of 85.5 decibels, the nonmusician would be expected to ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nAntonia Olivia Dolan and colleagues had musicians and nonmusicians with clinically average hearing listen to recordings of nature sounds and music in popular genres like heavy metal and acoustic folk and adjust the volume to optimize their listening enjoyment. The researchers found that for a given recording that a musician and nonmusician identified as their favorite among those included in the study, optimal volume tended to be higher for the musician than for the nonmusician. Thus, if a musician and nonmusician both identified Metallica’s “Sad but True” as their favorite recording and the musician preferred to listen to it at a volume of 85.5 decibels, the nonmusician would be expected to ______",
     "choices": [
       {
         "id": "A",
-        "text": "enjoy listening to the nature sounds at 85.5 decibels more than listening to \u201cSad but True\u201d at 85.5 decibels."
+        "text": "enjoy listening to the nature sounds at 85.5 decibels more than listening to “Sad but True” at 85.5 decibels."
       },
       {
         "id": "B",
-        "text": "prefer listening to other music at 85.5 decibels over listening to \u201cSad but True\u201d at that volume."
+        "text": "prefer listening to other music at 85.5 decibels over listening to “Sad but True” at that volume."
       },
       {
         "id": "C",
@@ -494,27 +493,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "find listening to \u201cSad but True\u201d at 85.5 decibels less enjoyable than listening to it at a lower volume."
+        "text": "find listening to “Sad but True” at 85.5 decibels less enjoyable than listening to it at a lower volume."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_15",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nAll stainless steel contains varying amounts of iron, carbon, and corrosion-inhibiting chromium. However, ferritic stainless steel, often used for induction cookers, contains a higher percentage of chromium (at least 10.5%) than does austenitic stainless steel and a higher concentration of iron, which is responsible for its magnetic properties. Unlike ferritic stainless steel, austenitic stainless steel has a face-centered cubic crystalline structure resulting from the addition of nickel to the alloy. Austenitic stainless steel has two subtypes: the 200 series, often used for dishwashers, and the 300 series, which has more nickel than the 200 series and is often used for storage containers or sinks. Thus, stainless steel used to manufacture ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nAll stainless steel contains varying amounts of iron, carbon, and corrosion-inhibiting chromium. However, ferritic stainless steel, often used for induction cookers, contains a higher percentage of chromium (at least 10.5%) than does austenitic stainless steel and a higher concentration of iron, which is responsible for its magnetic properties. Unlike ferritic stainless steel, austenitic stainless steel has a face-centered cubic crystalline structure resulting from the addition of nickel to the alloy. Austenitic stainless steel has two subtypes: the 200 series, often used for dishwashers, and the 300 series, which has more nickel than the 200 series and is often used for storage containers or sinks. Thus, stainless steel used to manufacture ______",
     "choices": [
       {
         "id": "A",
@@ -536,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_16",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe word \u201cflummox\u201d first ______ in the 1837 novel *The Pickwick Papers* by English author Charles Dickens.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe word “flummox” first ______ in the 1837 novel *The Pickwick Papers* by English author Charles Dickens.",
     "choices": [
       {
         "id": "A",
@@ -572,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
-      "confidence": "high"
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_17",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEpic poetry is a literary genre characterized by lengthy narratives that emphasize the heroic or divine. *Georgics*, an epic poem of Roman origin, dates back to the ______ the poem\u2019s heroic narrative still captivates modern readers.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEpic poetry is a literary genre characterized by lengthy narratives that emphasize the heroic or divine. *Georgics*, an epic poem of Roman origin, dates back to the ______ the poem’s heroic narrative still captivates modern readers.",
     "choices": [
       {
         "id": "A",
@@ -608,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_18",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJean Alexandru Steriadi and Stefan Dimitrescu were among a group of Romanian artists based in Balchik in the early twentieth century ______ group is referred to as the Balchik School.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJean Alexandru Steriadi and Stefan Dimitrescu were among a group of Romanian artists based in Balchik in the early twentieth century ______ group is referred to as the Balchik School.",
     "choices": [
       {
         "id": "A",
@@ -644,25 +643,25 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_19",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany ranching terms come from Spanish. The word \u201chackamore\u201d (a halter) comes from the Spanish word *j\u00e1quima*, and \u201cstockade\u201d (a ______ comes from *estacada*. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican *vaqueros*, or cowboys.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany ranching terms come from Spanish. The word “hackamore” (a halter) comes from the Spanish word *jáquima*, and “stockade” (a ______ comes from *estacada*. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican *vaqueros*, or cowboys.",
     "choices": [
       {
         "id": "A",
-        "text": "fence\u2014"
+        "text": "fence—"
       },
       {
         "id": "B",
@@ -680,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_20",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDana Claxton is a Hunkpapa Lakota artist whose body of ______ interdisciplinary, encompassing photography, video, and performance and often intertwining them.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDana Claxton is a Hunkpapa Lakota artist whose body of ______ interdisciplinary, encompassing photography, video, and performance and often intertwining them.",
     "choices": [
       {
         "id": "A",
@@ -716,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_21",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile conducting an interview for her book *Latina Authors and Their Muses*, editor Mayra Calvani asked Caridad Pi\u00f1eiro, author of the suspense novel *Cold Case Reopened*, what ______ Pi\u00f1eiro\u2019s response was *Wolf and the Dove* by Kathleen Woodiwiss.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile conducting an interview for her book *Latina Authors and Their Muses*, editor Mayra Calvani asked Caridad Piñeiro, author of the suspense novel *Cold Case Reopened*, what ______ Piñeiro’s response was *Wolf and the Dove* by Kathleen Woodiwiss.",
     "choices": [
       {
         "id": "A",
@@ -752,21 +751,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_22",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nBecause of its bulky body, the world\u2019s first airplane, the 1903 Wright Flyer, was not very aerodynamic. Modern planes, like the Comac ARJ21 Xiangfeng jet, have much sleeker, more streamlined bodies. ______ they are much more aerodynamic.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nBecause of its bulky body, the world’s first airplane, the 1903 Wright Flyer, was not very aerodynamic. Modern planes, like the Comac ARJ21 Xiangfeng jet, have much sleeker, more streamlined bodies. ______ they are much more aerodynamic.",
     "choices": [
       {
         "id": "A",
@@ -788,21 +787,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_23",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nWhile some researchers have identified the planet Kepler-452b as potentially habitable, it\u2019s unlikely that humanity will be able to take advantage of its favorable conditions anytime soon\u2014it\u2019s 1,799 light years away. ______ humanity must first focus on making planets within our solar system more habitable.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWhile some researchers have identified the planet Kepler-452b as potentially habitable, it’s unlikely that humanity will be able to take advantage of its favorable conditions anytime soon—it’s 1,799 light years away. ______ humanity must first focus on making planets within our solar system more habitable.",
     "choices": [
       {
         "id": "A",
@@ -824,21 +823,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_24",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe English experimental rock band Radiohead chose their name in tribute to another band. ______ they named themselves after the song \u201cRadio Head\u201d by the American art pop band Talking Heads.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe English experimental rock band Radiohead chose their name in tribute to another band. ______ they named themselves after the song “Radio Head” by the American art pop band Talking Heads.",
     "choices": [
       {
         "id": "A",
@@ -860,21 +859,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_25",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn 1965, Morrie Turner\u2019s comic strip *Wee Pals* became the first serial comic by a Black cartoonist to be syndicated, appearing in papers nationwide. Comics by other Black cartoonists followed. ______ Robb Armstrong (*Jump Start*) and Keith Knight (*The Knight Life*) joined the ranks of syndicated Black cartoonists in 1989 and 2008, respectively.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 1965, Morrie Turner’s comic strip *Wee Pals* became the first serial comic by a Black cartoonist to be syndicated, appearing in papers nationwide. Comics by other Black cartoonists followed. ______ Robb Armstrong (*Jump Start*) and Keith Knight (*The Knight Life*) joined the ranks of syndicated Black cartoonists in 1989 and 2008, respectively.",
     "choices": [
       {
         "id": "A",
@@ -896,9 +895,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_26",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "The student wants to identify what causes meanders. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A U-shaped curve in a river channel is called a meander.\n\u2022 A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side.\n\u2022 Meanders will gradually change shape and migrate downstream over time.\n\u2022 A river with high sinuosity has many meanders, and a river with low sinuosity has few.\n\u2022 The Araguaia River in Brazil has high sinuosity.\n\nThe student wants to identify what causes meanders. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to identify what causes meanders. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A U-shaped curve in a river channel is called a meander.\n• A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side.\n• Meanders will gradually change shape and migrate downstream over time.\n• A river with high sinuosity has many meanders, and a river with low sinuosity has few.\n• The Araguaia River in Brazil has high sinuosity.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bc839e02-25bc-4632-be4e-0c0b81f62962_27",
     "testName": "May 2024 US Form B SAT English Module 2",
-    "text": "The student wants to indicate the location of the Isthmus of Mansheya. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 An isthmus is a strip of land that connects two larger pieces of land across an expanse of water.\n\u2022 It is also known as a land bridge.\n\u2022 The Isthmus of Mansheya connects the island of Pharos to mainland Alexandria.\n\u2022 The Isthmus of Mansheya is located in Egypt.\n\nThe student wants to indicate the location of the Isthmus of Mansheya. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to indicate the location of the Isthmus of Mansheya. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• An isthmus is a strip of land that connects two larger pieces of land across an expanse of water.\n• It is also known as a land bridge.\n• The Isthmus of Mansheya connects the island of Pharos to mainland Alexandria.\n• The Isthmus of Mansheya is located in Egypt.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

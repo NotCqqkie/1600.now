@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_1",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the British National Corpus are large collections of electronically stored texts that can be used to determine the frequency of ______ words. (Words used mainly in specialized or academic publications, on the other hand, tend to be poorly represented.) A corpus could reveal, for example, that the word \u201cworld\" is the eighth most commonly used noun in standard English.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the British National Corpus are large collections of electronically stored texts that can be used to determine the frequency of ______ words. (Words used mainly in specialized or academic publications, on the other hand, tend to be poorly represented.) A corpus could reveal, for example, that the word “world\" is the eighth most commonly used noun in standard English.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_2",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDiadromous fish migrate between freshwater and marine biomes during their life cycle. The migration's obligate nature is why diadromous fish can be ______ those that are merely euryhaline (able to tolerate high salinity): the euryhaline blackchin tilapia can survive high salinity, but its life cycle does not involve relocation to a different biome, as does that of the diadromous wild salmon.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDiadromous fish migrate between freshwater and marine biomes during their life cycle. The migration's obligate nature is why diadromous fish can be ______ those that are merely euryhaline (able to tolerate high salinity): the euryhaline blackchin tilapia can survive high salinity, but its life cycle does not involve relocation to a different biome, as does that of the diadromous wild salmon.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_3",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn 2016, Gabriela Gonzalez and team announced that a chirping sound captured by Laser Interferometer Gravitational-Wave Observatory antennas was direct evidence of gravitational waves, which skeptics had argued would be too faint for detection. Detailed statistical analysis helped preclude claims of the event's ______, confirming the signal at a confidence level of over 99%.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn 2016, Gabriela Gonzalez and team announced that a chirping sound captured by Laser Interferometer Gravitational-Wave Observatory antennas was direct evidence of gravitational waves, which skeptics had argued would be too faint for detection. Detailed statistical analysis helped preclude claims of the event's ______, confirming the signal at a confidence level of over 99%.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_4",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nThough John Crowley, author of *Endless Things*, is not as well known as the most widely read American writers of the past fifty years, his work has had several influential champions, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book *Little, Big*, Bloom argues that the novel adroitly blends what playwright Friedrich Schiller termed the naive and sentimental modes\u2014while Schiller thought works could be classifed as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), *Little, Big* fuses both modes of writing.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nThough John Crowley, author of *Endless Things*, is not as well known as the most widely read American writers of the past fifty years, his work has had several influential champions, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book *Little, Big*, Bloom argues that the novel adroitly blends what playwright Friedrich Schiller termed the naive and sentimental modes—while Schiller thought works could be classifed as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), *Little, Big* fuses both modes of writing.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -149,15 +149,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_5",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice best describes the function of the references to \u201cneighborhood type\u201d and \u201cindividual physical fitness\u201d in the text as a whole?\nLisbon has high pedestrian traffic, but simply replicating a feature of Lisbon associated with walkability\u2014e.g., its high number of relatively short blocks\u2014may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals\u2019 decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>neighborhood type</u>, others the role of <u>individual physical fitness</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.\n\nWhich choice best describes the function of the references to \u201cneighborhood type\u201d and \u201cindividual physical fitness\u201d in the text as a whole?",
+    "text": "Which choice best describes the function of the references to “neighborhood type” and “individual physical fitness” in the text as a whole?\nLisbon has high pedestrian traffic, but simply replicating a feature of Lisbon associated with walkability—e.g., its high number of relatively short blocks—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals’ decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>neighborhood type</u>, others the role of <u>individual physical fitness</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.",
     "choices": [
       {
         "id": "A",
-        "text": "They are examples of factors that studies suggest are important in people\u2019s decision-making about walking but that the text claims most people rarely consider when making walking decisions."
+        "text": "They are examples of factors that studies suggest are important in people’s decision-making about walking but that the text claims most people rarely consider when making walking decisions."
       },
       {
         "id": "B",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_6",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Based on the texts, the author of Text 1 would most likely agree with the author of Text 2 on which point?\nText 1\nIsaac Asimov, author of *The Naked Sun* and *The Gods Themselves*, is highly regarded despite his mediocre writing style. His prose is workmanlike; his characters are flat and discuss ideas rather than emotions. That his work is enjoyable despite this is a testament to his prodigious imagination-even if people read his books only for the ideas, they will have plenty to consider.\nText 2\nAsimov is critiqued for his style, but it is wrong to fault a writer for failing to do what he never intended to do. For example, although most of his novel *Foundation* consists of people discussing science and politics and we find out little about his characters' lives, Asimov wanted to convey the vast sweep of human history over centuries, and one of his points is that at such a timescale, individuals don't matter. Thus his lack of characterization is central to his thematic aims.\n\nBased on the texts, the author of Text 1 would most likely agree with the author of Text 2 on which point?",
+    "text": "Based on the texts, the author of Text 1 would most likely agree with the author of Text 2 on which point?\nText 1\nIsaac Asimov, author of *The Naked Sun* and *The Gods Themselves*, is highly regarded despite his mediocre writing style. His prose is workmanlike; his characters are flat and discuss ideas rather than emotions. That his work is enjoyable despite this is a testament to his prodigious imagination-even if people read his books only for the ideas, they will have plenty to consider.\nText 2\nAsimov is critiqued for his style, but it is wrong to fault a writer for failing to do what he never intended to do. For example, although most of his novel *Foundation* consists of people discussing science and politics and we find out little about his characters' lives, Asimov wanted to convey the vast sweep of human history over centuries, and one of his points is that at such a timescale, individuals don't matter. Thus his lack of characterization is central to his thematic aims.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_7",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nThe following text is from George Eliot's 1857 short story *\u201cThe Sad Fortunes of the Rev. Amos Barton.\u201d* In the text, the narrator addresses the reader directly and alludes to a discussion among Rev. Amos Barton's neighbors. It was happy for the Rev. Amos Barton that he did not, like us, overhear the conversation recorded in the last chapter. Indeed, what mortal is there of us, who would find his satisfaction enhanced by an opportunity of comparing the picture he presents to himself of his own doings, with the picture they make on the mental retina of his neighbours? We are poor plants buoyed up by the air-vessels of our own conceit. Alas for us, if we get a few pinches that empty us of that windy self-subsistence! The very capacity for good would go out of us.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nThe following text is from George Eliot's 1857 short story *“The Sad Fortunes of the Rev. Amos Barton.”* In the text, the narrator addresses the reader directly and alludes to a discussion among Rev. Amos Barton's neighbors. It was happy for the Rev. Amos Barton that he did not, like us, overhear the conversation recorded in the last chapter. Indeed, what mortal is there of us, who would find his satisfaction enhanced by an opportunity of comparing the picture he presents to himself of his own doings, with the picture they make on the mental retina of his neighbours? We are poor plants buoyed up by the air-vessels of our own conceit. Alas for us, if we get a few pinches that empty us of that windy self-subsistence! The very capacity for good would go out of us.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_8",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which statement about the view put forward by \u201csome researchers\" is best supported by information in the text?\n<u>Some researchers</u> have characterized the flora and fauna of the South Pacific island of Grande Terre as members of clades that inhabited nearby islands before Grande Terre completely emerged 37 million years ago. Thomas R. Buckley et al. found that the crown age (the age of the most recent common ancestor of all living and extinct species in the clade) of the clade of stick insects on Grande Terre is approximately 41.1 million years, while Jes\u00fas Gomez-Zurita et al. found that the crown age of the clade of flea beetles on Grande Terre is approximately 12.8 million years.\n\nWhich statement about the view put forward by \u201csome researchers\" is best supported by information in the text?",
+    "text": "Which statement about the view put forward by “some researchers\" is best supported by information in the text?\n<u>Some researchers</u> have characterized the flora and fauna of the South Pacific island of Grande Terre as members of clades that inhabited nearby islands before Grande Terre completely emerged 37 million years ago. Thomas R. Buckley et al. found that the crown age (the age of the most recent common ancestor of all living and extinct species in the clade) of the clade of stick insects on Grande Terre is approximately 41.1 million years, while Jesús Gomez-Zurita et al. found that the crown age of the clade of flea beetles on Grande Terre is approximately 12.8 million years.",
     "choices": [
       {
         "id": "A",
@@ -283,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_9",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which statement about the difrasismo in cuauhtli in ocelotl is most strongly supported by the text?\nPoetry in Classical Nahuatl, the language of the Aztec Empire, relies on difrasismo, or a parallel noun construction that conventionally operates as a single metaphor. For example, the common difrasismo in cuauhtli in ocelotl (literally, \u201cthe eagle, the jaguar\u201d) signifies \u201cwarrior.\u201d The device's function is both formal\u2014providing structure to lines of verse\u2014and ritual: semantic relations among the two nouns and the concept they signify can be tenuous, as in the previous example, such that difrasismos are often only intelligible according to the conceptual associations observed in Aztec ceremonial culture.\n\nWhich statement about the difrasismo in cuauhtli in ocelotl is most strongly supported by the text?",
+    "text": "Which statement about the difrasismo in cuauhtli in ocelotl is most strongly supported by the text?\nPoetry in Classical Nahuatl, the language of the Aztec Empire, relies on difrasismo, or a parallel noun construction that conventionally operates as a single metaphor. For example, the common difrasismo in cuauhtli in ocelotl (literally, “the eagle, the jaguar”) signifies “warrior.” The device's function is both formal—providing structure to lines of verse—and ritual: semantic relations among the two nouns and the concept they signify can be tenuous, as in the previous example, such that difrasismos are often only intelligible according to the conceptual associations observed in Aztec ceremonial culture.",
     "choices": [
       {
         "id": "A",
@@ -319,21 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_10",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which finding, if true, would most directly illustrate the researchers' finding?\nVancouver, Canada, has installed engineered structures along 75% of its shoreline to protect infrastructure from storm surges and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures\u2014riprap and bulkhead\u2014Diann Prosser et al. surveyed waterbird communities consisting of the mallard, the common loon, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (IWCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.\n\nWhich finding, if true, would most directly illustrate the researchers' finding?",
+    "text": "Which finding, if true, would most directly illustrate the researchers' finding?\nVancouver, Canada, has installed engineered structures along 75% of its shoreline to protect infrastructure from storm surges and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures—riprap and bulkhead—Diann Prosser et al. surveyed waterbird communities consisting of the mallard, the common loon, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (IWCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_11",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the statement?\nIn a study of urban physical expansion, Richa Mahtta et al. conducted a meta-analysis of more than 300 cities worldwide to determine whether urban land expansion (ULE) was more strongly influenced by urban population growth or by growth in gross domestic product (GDP) per capita, a measure of economic activity. Because efficient national government is necessary to provide urban services and infrastructure that attract economic investment, Mahtta et al. propose that absent other factors, the importance of GDP per capita growth to ULE would likely increase relative to the importance of population growth as governments become more efficient. If true, this suggests the possibility that ______\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+    "text": "Which choice most effectively uses data from the graph to complete the statement?\nIn a study of urban physical expansion, Richa Mahtta et al. conducted a meta-analysis of more than 300 cities worldwide to determine whether urban land expansion (ULE) was more strongly influenced by urban population growth or by growth in gross domestic product (GDP) per capita, a measure of economic activity. Because efficient national government is necessary to provide urban services and infrastructure that attract economic investment, Mahtta et al. propose that absent other factors, the importance of GDP per capita growth to ULE would likely increase relative to the importance of population growth as governments become more efficient. If true, this suggests the possibility that ______",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlC_Eng_M2_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_12",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nDesigned by Young Projects, Six Square House demonstrates the increasing focus among architects on developing eco-conscious and sustainable buildings. One way to accomplish this goal is through biophilic design, which incorporates elements that establish a coherent physical and emotional relationship among nature, human biology, and the building. Architects dedicated to this approach carefully contemplate every aspect of their projects from location characteristics and initial materials selection to ultimate interior design choices and building installation. Thus, ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nDesigned by Young Projects, Six Square House demonstrates the increasing focus among architects on developing eco-conscious and sustainable buildings. One way to accomplish this goal is through biophilic design, which incorporates elements that establish a coherent physical and emotional relationship among nature, human biology, and the building. Architects dedicated to this approach carefully contemplate every aspect of their projects from location characteristics and initial materials selection to ultimate interior design choices and building installation. Thus, ______",
     "choices": [
       {
         "id": "A",
@@ -428,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_13",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThe morphological novelty of echinoderms\u2014marine invertebrates with radial symmetry, usually starlike, around a point\u2014impedes comparisons with most other animals, in which bilateral symmetry on an anterior-posterior (head to tail) axis through a trunk is typical. Particularly puzzling are sea stars, thought to have evolved a headless layout from a known bilateral origin. Applying genomic knowledge of *Saccoglossus kowalevskii* acorn worms (close relatives of sea stars, and thus expected to have similar markers for corresponding anatomical regions) to the body patterning genes of *Patiria miniata* sea stars, Laurent Formery et al. observed activity only in anterior genes across *P. miniata*'s entire body and some posterior genes limited to the edges, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe morphological novelty of echinoderms—marine invertebrates with radial symmetry, usually starlike, around a point—impedes comparisons with most other animals, in which bilateral symmetry on an anterior-posterior (head to tail) axis through a trunk is typical. Particularly puzzling are sea stars, thought to have evolved a headless layout from a known bilateral origin. Applying genomic knowledge of *Saccoglossus kowalevskii* acorn worms (close relatives of sea stars, and thus expected to have similar markers for corresponding anatomical regions) to the body patterning genes of *Patiria miniata* sea stars, Laurent Formery et al. observed activity only in anterior genes across *P. miniata*'s entire body and some posterior genes limited to the edges, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -474,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_14",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs computer engineer Sanaz Bahargam can explain, deep learning (DL) and trustworthy machine learning (TML) take divergent approaches in the development of AI technologies. DL pertains to the training of computers to process data in the same way a human brain would, and TML ______ to the training of computer algorithms to be accurate, safe, and fair.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs computer engineer Sanaz Bahargam can explain, deep learning (DL) and trustworthy machine learning (TML) take divergent approaches in the development of AI technologies. DL pertains to the training of computers to process data in the same way a human brain would, and TML ______ to the training of computer algorithms to be accurate, safe, and fair.",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_15",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nVilnius, the capital of Lithuania, has a population of 556,723, which accounts for 18.83 percent of the country's total population. Having proportionally large populations ______ common for national capitals.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nVilnius, the capital of Lithuania, has a population of 556,723, which accounts for 18.83 percent of the country's total population. Having proportionally large populations ______ common for national capitals.",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -545,12 +544,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_16",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Proto-Uralic language, common ancestor of thirty-seven Eurasian languages with similar linguistic properties, ______ like all protolanguages, hypothetical: there's no direct evidence these ancestral languages actually existed.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Proto-Uralic language, common ancestor of thirty-seven Eurasian languages with similar linguistic properties, ______ like all protolanguages, hypothetical: there's no direct evidence these ancestral languages actually existed.",
     "choices": [
       {
         "id": "A",
@@ -572,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_17",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWalt Whitman's *Leaves of Grass* first appeared in 1855 as a slim collection of twelve poems, but Whitman would revise and expand it substantially over the next four decades. These extensive ______ the addition of hundreds of new poems, the removal of some existing ones, and the insertion of prefatory material, reflected the poet's evolving literary perspective and experience of the US Civil War.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWalt Whitman's *Leaves of Grass* first appeared in 1855 as a slim collection of twelve poems, but Whitman would revise and expand it substantially over the next four decades. These extensive ______ the addition of hundreds of new poems, the removal of some existing ones, and the insertion of prefatory material, reflected the poet's evolving literary perspective and experience of the US Civil War.",
     "choices": [
       {
         "id": "A",
@@ -608,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_18",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough he's performed on many respected albums, including *While the Gate Is Open* by Gary Thomas, drummer Dennis Chambers may be best known for his time as house drummer for the hip-hop label Sugar Hill Records. He did not play drums on the label's classic song \u201cRapper's Delight\u201d______joined the label after the song's release.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough he's performed on many respected albums, including *While the Gate Is Open* by Gary Thomas, drummer Dennis Chambers may be best known for his time as house drummer for the hip-hop label Sugar Hill Records. He did not play drums on the label's classic song “Rapper's Delight”______joined the label after the song's release.",
     "choices": [
       {
         "id": "A",
@@ -644,9 +643,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -654,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_19",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith the development of new technologies that use natural resources more efficiently, the overall consumption of those resources might be expected to decrease. Economists have observed that improvements in efficiency often correlate negatively with resource ______ efficiency gains, lowering the cost of use, may increase demand to the extent that resource consumption ultimately rises.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith the development of new technologies that use natural resources more efficiently, the overall consumption of those resources might be expected to decrease. Economists have observed that improvements in efficiency often correlate negatively with resource ______ efficiency gains, lowering the cost of use, may increase demand to the extent that resource consumption ultimately rises.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -690,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_20",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn September 18, 2006, American astronomers detected a supernova (the explosion of a massive star) in the constellation Perseus, 240 million light-years from Earth. The powerful blast ______ from the collapse of the star's core under the force of its own gravity ejected particles at speeds of thousands of miles per second.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn September 18, 2006, American astronomers detected a supernova (the explosion of a massive star) in the constellation Perseus, 240 million light-years from Earth. The powerful blast ______ from the collapse of the star's core under the force of its own gravity ejected particles at speeds of thousands of miles per second.",
     "choices": [
       {
         "id": "A",
@@ -716,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_21",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe Madison is a type of line dance that involves neat rows of dancers performing a repeated sequence of steps in unison. ______ many other dances are also defined by order, repetition, and synchronicity, but the Madison is distinguished by its extreme uniformity. When an auditorium full of dancers performs the Madison, one almost gets the impression of a military march.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe Madison is a type of line dance that involves neat rows of dancers performing a repeated sequence of steps in unison. ______ many other dances are also defined by order, repetition, and synchronicity, but the Madison is distinguished by its extreme uniformity. When an auditorium full of dancers performs the Madison, one almost gets the impression of a military march.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_22",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nOn June 10, 1991, Gulf War veterans were recognized with a ticker-tape parade in New York City. This was just one of a number of military-related parades over the years. ______ between 1886 and 2022, there were twenty-nine ticker-tape parades held in New York to honor US war veterans.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nOn June 10, 1991, Gulf War veterans were recognized with a ticker-tape parade in New York City. This was just one of a number of military-related parades over the years. ______ between 1886 and 2022, there were twenty-nine ticker-tape parades held in New York to honor US war veterans.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_23",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson calculated that the geographic center of Georgia was a point 17.7 miles southeast of the municipality of Macon. Rogerson's calculation was more accurate than the one from 1920 by the US Geological Survey. ______ this earlier calculation was made using far more rudimentary equipment\u2014only cardboard and string.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson calculated that the geographic center of Georgia was a point 17.7 miles southeast of the municipality of Macon. Rogerson's calculation was more accurate than the one from 1920 by the US Geological Survey. ______ this earlier calculation was made using far more rudimentary equipment—only cardboard and string.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_24",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe Beatrice, an offshore wind farm located off the coast of Scotland, produces about 588 megawatts (MW) of electricity per year. ______ England's Hornsea Project One offshore wind farm, which generates the most power of any single offshore farm, produces 1,218 MW of electricity.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe Beatrice, an offshore wind farm located off the coast of Scotland, produces about 588 megawatts (MW) of electricity per year. ______ England's Hornsea Project One offshore wind farm, which generates the most power of any single offshore farm, produces 1,218 MW of electricity.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_25",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "The student wants to emphasize a similarity between EPDM rubber and single-ply NiTi wire fibers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Generally, an object will heat up when twisted.\n\u2022 The twisting of an object is known as torsion.\n\u2022 A 2019 study led by Zunfeng Liu and Ray Baughman tested the torsional heating of various fibers.\n\u2022 When a sample of ethylene propylene diene monomer (EPDM) rubber fiber was twisted, its average surface temperature increased by 12\u00b0C.\n\u2022 When a sample of single-ply nickel-titanium (NiTi) wire was twisted, its average surface temperature increased by 21.3\u00b0C.\n\nThe student wants to emphasize a similarity between EPDM rubber and single-ply NiTi wire fibers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between EPDM rubber and single-ply NiTi wire fibers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Generally, an object will heat up when twisted.\n• The twisting of an object is known as torsion.\n• A 2019 study led by Zunfeng Liu and Ray Baughman tested the torsional heating of various fibers.\n• When a sample of ethylene propylene diene monomer (EPDM) rubber fiber was twisted, its average surface temperature increased by 12°C.\n• When a sample of single-ply nickel-titanium (NiTi) wire was twisted, its average surface temperature increased by 21.3°C.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_26",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "The student wants to emphasize the order in which the two films were released. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Merle Oberon (1911-1979) was an actress born in Mumbai (then known as Bombay), India.\n\u2022 She was of Indian, Maori, and Irish heritage.\n\u2022 She was the first Indian-born actress to be nominated for an Academy Award.\n\u2022 Early in her career, she played many nameless, uncredited roles, such as her role in *Strange Evidence* (1933).\n\u2022 Later, she played many named, credited roles, such as Jessica Warren in *The Price of Fear* (1956).\n\nThe student wants to emphasize the order in which the two films were released. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the order in which the two films were released. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Merle Oberon (1911-1979) was an actress born in Mumbai (then known as Bombay), India.\n• She was of Indian, Maori, and Irish heritage.\n• She was the first Indian-born actress to be nominated for an Academy Award.\n• Early in her career, she played many nameless, uncredited roles, such as her role in *Strange Evidence* (1933).\n• Later, she played many named, credited roles, such as Jessica Warren in *The Price of Fear* (1956).",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9b403efb-f874-43ce-aa34-29cae02dce8e_27",
     "testName": "October 2024 International Form C SAT English Module 2",
-    "text": "The student wants to contrast intaglio and relief printing. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 *Sheepshead Bay* is a 1935 color relief print by Japanese American artist Isami Doi.\n\u2022 It features boats approaching a dock.\n\u2022 Intaglio and relief are printmaking techniques in which an image is carved onto a printing block, covered in ink, and stamped onto paper.\n\u2022 In intaglio printing, ink is applied to the grooved, carved portions of the block.\n\u2022 In relief printing, ink is applied to the raised, uncarved portions of the block.\n\nThe student wants to contrast intaglio and relief printing. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast intaglio and relief printing. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Sheepshead Bay* is a 1935 color relief print by Japanese American artist Isami Doi.\n• It features boats approaching a dock.\n• Intaglio and relief are printmaking techniques in which an image is carved onto a printing block, covered in ink, and stamped onto paper.\n• In intaglio printing, ink is applied to the grooved, carved portions of the block.\n• In relief printing, ink is applied to the raised, uncarved portions of the block.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

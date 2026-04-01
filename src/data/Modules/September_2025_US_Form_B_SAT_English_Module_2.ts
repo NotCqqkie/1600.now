@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_1",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nLady Grant and colleagues ______ pots of sterilized soil with slurries of live microbes collected from soil in five sites across Colorado, including areas of sagebrush and ponderosa pine forest. Grant and team then grew mustard plants in the pots to see if the different microbial slurries affected levels of spicy glucosinolates like indole in the plants' seeds.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nLady Grant and colleagues ______ pots of sterilized soil with slurries of live microbes collected from soil in five sites across Colorado, including areas of sagebrush and ponderosa pine forest. Grant and team then grew mustard plants in the pots to see if the different microbial slurries affected levels of spicy glucosinolates like indole in the plants' seeds.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_2",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "As used in the text, what does the word \"display\" most nearly mean?\nThe following text is adapted from John Matheus's 1926 short story, \"Mr. Bradford Teaches Sunday School.\" Mr. Bradford is driving through the countryside in Florida. The moss in the towering water oaks had become enlivened with a verdant sheen of silver and hung like festoons of carnival or like funeral decorations for the mourning of the dead. The pine green was resplendent. The bald cypresses spread themselves along the water courses while the willows wept as they always did. Mr. Bradford was conscious of this gorgeous <u>display</u> of nature.\n\nAs used in the text, what does the word \"display\" most nearly mean?",
+    "text": "As used in the text, what does the word \"display\" most nearly mean?\nThe following text is adapted from John Matheus's 1926 short story, \"Mr. Bradford Teaches Sunday School.\" Mr. Bradford is driving through the countryside in Florida. The moss in the towering water oaks had become enlivened with a verdant sheen of silver and hung like festoons of carnival or like funeral decorations for the mourning of the dead. The pine green was resplendent. The bald cypresses spread themselves along the water courses while the willows wept as they always did. Mr. Bradford was conscious of this gorgeous <u>display</u> of nature.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_3",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs a work of scholarship, *Advancing U.S. Latino Entrepreneurship* (2020) is notable for its ______. Featuring contributions from Zulema Valdez, Bea Stotzer, and others, it explores contemporary issues while also providing context dating all the way back to the sixteenth century on Latino populations and their experiences with business and commerce.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs a work of scholarship, *Advancing U.S. Latino Entrepreneurship* (2020) is notable for its ______. Featuring contributions from Zulema Valdez, Bea Stotzer, and others, it explores contemporary issues while also providing context dating all the way back to the sixteenth century on Latino populations and their experiences with business and commerce.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_4",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe ______ of leaf-vein architectures\u2014the branching venation of *Ginkgo biloba*, the hierarchical netlike venation of *Clematis reticulata*, and others\u2014likely resulted from competing selective pressures to maximize fluid transport, photosynthesis, and robustness against herbivory. The associated trade-offs may account for the range of adaptations in different lineages.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe ______ of leaf-vein architectures—the branching venation of *Ginkgo biloba*, the hierarchical netlike venation of *Clematis reticulata*, and others—likely resulted from competing selective pressures to maximize fluid transport, photosynthesis, and robustness against herbivory. The associated trade-offs may account for the range of adaptations in different lineages.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_5",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nThe metal featured in both the structure of the ARK by APOlL0 Architects Associates and the hardware in the House in Goido by fujiwaraMuro Architects is representative of a trend in contemporary Japanese interior design to juxtapose sleek, modern accents with traditional organic materials such as cypress. The prominent featuring of metal stems from the post-World War I emphasis on technological progress, while more traditional natural materials help preserve longstanding architectural and aesthetic approaches.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nThe metal featured in both the structure of the ARK by APOlL0 Architects Associates and the hardware in the House in Goido by fujiwaraMuro Architects is representative of a trend in contemporary Japanese interior design to juxtapose sleek, modern accents with traditional organic materials such as cypress. The prominent featuring of metal stems from the post-World War I emphasis on technological progress, while more traditional natural materials help preserve longstanding architectural and aesthetic approaches.",
     "choices": [
       {
         "id": "A",
@@ -169,13 +169,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "The text introduces the salient characteristics of two buildings and then details the historical events that occasioned the buildings\u2019 designs."
+        "text": "The text introduces the salient characteristics of two buildings and then details the historical events that occasioned the buildings’ designs."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_6",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement?\nText 1\nIn separate studies, Guihua Wang and colleagues and Xinhua He and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)\u2014a lattice of fungal strands in the soil. Wang and colleagues excluded all pathways other than the CMN by using barriers to keep the plants' root systems separate while allowing mycorrhizal strands through\u2014an essential step He and colleagues' study did not take.\nText 2\nWang and colleagues took the necessary precaution of separating the plants' root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the thread-like hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers\u2019 experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.\n\nBased on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement?",
+    "text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement?\nText 1\nIn separate studies, Guihua Wang and colleagues and Xinhua He and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)—a lattice of fungal strands in the soil. Wang and colleagues excluded all pathways other than the CMN by using barriers to keep the plants' root systems separate while allowing mycorrhizal strands through—an essential step He and colleagues' study did not take.\nText 2\nWang and colleagues took the necessary precaution of separating the plants' root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the thread-like hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers’ experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -220,16 +220,16 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_7",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nMauricio Drelichman and Hans-Joachim Voth\u2019s research into the debt defaults of Philip II (who ruled an empire including Spain and Northern Catalonia from 1556 to 1598) relates to other work on European early modern state finance, including John Brewer's research on taxation and warfare. But Drelichman and Voth\u2019s unique contribution to the field is their reconstruction of the earliest extant set of annual fiscal records for any sovereign state, demonstrating in turn that Philip's defaults were caused by short-term cash shortages, not long-term unsustainable debts.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nMauricio Drelichman and Hans-Joachim Voth’s research into the debt defaults of Philip II (who ruled an empire including Spain and Northern Catalonia from 1556 to 1598) relates to other work on European early modern state finance, including John Brewer's research on taxation and warfare. But Drelichman and Voth’s unique contribution to the field is their reconstruction of the earliest extant set of annual fiscal records for any sovereign state, demonstrating in turn that Philip's defaults were caused by short-term cash shortages, not long-term unsustainable debts.",
     "choices": [
       {
         "id": "A",
-        "text": "Analysis of the earliest available records of a sovereign state\u2019s finances can be found not in the work of Brewer but in that of Drelichman and Voth."
+        "text": "Analysis of the earliest available records of a sovereign state’s finances can be found not in the work of Brewer but in that of Drelichman and Voth."
       },
       {
         "id": "B",
@@ -237,19 +237,19 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Drelichman and Voth advanced the field of research on European early modern state finance by assembling a novel collection of evidence that gave them insight into Philip II\u2019s debt defaults."
+        "text": "Drelichman and Voth advanced the field of research on European early modern state finance by assembling a novel collection of evidence that gave them insight into Philip II’s debt defaults."
       },
       {
         "id": "D",
-        "text": "Drelichman and Voth\u2019s research on Philip II\u2019s debt defaults builds on earlier work by Brewer, adding nuance to the earlier work's findings."
+        "text": "Drelichman and Voth’s research on Philip II’s debt defaults builds on earlier work by Brewer, adding nuance to the earlier work's findings."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Central Ideas and Details",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_8",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice best describes data from the graph that support Ehmann and colleagues' hypothesis?\nMale orangutans typically disperse from the territory in which they were born when they reach maturity, whereas females typically do not. Beatrice Ehmann and her colleagues hypothesized that this difference in life trajectory should be reflected in the diets of immature orangutans: males should share fewer of their mother's dietary preferences than females do, since those preferences tend to be particular to the food resources available in the local area and may be of relatively low utility beyond it. The researchers calculated the percent of mother orangutans' diets shared with their offspring's diets and the percent of immature orangutans' diets not shared with their mothers' diets.\n\nWhich choice best describes data from the graph that support Ehmann and colleagues' hypothesis?",
+    "text": "Which choice best describes data from the graph that support Ehmann and colleagues' hypothesis?\nMale orangutans typically disperse from the territory in which they were born when they reach maturity, whereas females typically do not. Beatrice Ehmann and her colleagues hypothesized that this difference in life trajectory should be reflected in the diets of immature orangutans: males should share fewer of their mother's dietary preferences than females do, since those preferences tend to be particular to the food resources available in the local area and may be of relatively low utility beyond it. The researchers calculated the percent of mother orangutans' diets shared with their offspring's diets and the percent of immature orangutans' diets not shared with their mothers' diets.",
     "choices": [
       {
         "id": "A",
@@ -283,22 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Sep_25_USB_Eng_M2_Q8_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_9",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice best describes data from the table that weaken the students' claim?\nBroken-Wing Display in Various Bird Species Species name Common name Order Performs broken-wing display? *Zenaida meloda* West Peruvian dove Columbiformes No *Calidris maritima* purple sandpiper Charadriiformes No *Dendroica pinus* pine warbler Passeriformes Yes *Dendragapus fuliginosus* sooty grouse Galliformes Yes *Actitis hypoleucos* common sandpiper Charadriiformes Yes\nWhile observing birds for a biology class, a group of students noticed a lesser sand plover (*Charadrius mongolus*), a bird of the order Charadriiformes (shorebirds), slowly move away, make loud noises, and feign an injured wing as the group approached the bird's ground nest. Researching this behavior, the students learned that this phenomenon is commonly referred to as \"broken-wing display\" and is meant to lure predators away from the nesting site and toward a seemingly vulnerable adult bird. Upon learning of other birds that also exhibit the behavior they had observed, the students hypothesized that the phenomenon is exclusive to shorebirds.\n\nWhich choice best describes data from the table that weaken the students' claim?",
+    "text": "Which choice best describes data from the table that weaken the students' claim?\nBroken-Wing Display in Various Bird Species Species name Common name Order Performs broken-wing display? *Zenaida meloda* West Peruvian dove Columbiformes No *Calidris maritima* purple sandpiper Charadriiformes No *Dendroica pinus* pine warbler Passeriformes Yes *Dendragapus fuliginosus* sooty grouse Galliformes Yes *Actitis hypoleucos* common sandpiper Charadriiformes Yes\nWhile observing birds for a biology class, a group of students noticed a lesser sand plover (*Charadrius mongolus*), a bird of the order Charadriiformes (shorebirds), slowly move away, make loud noises, and feign an injured wing as the group approached the bird's ground nest. Researching this behavior, the students learned that this phenomenon is commonly referred to as \"broken-wing display\" and is meant to lure predators away from the nesting site and toward a seemingly vulnerable adult bird. Upon learning of other birds that also exhibit the behavior they had observed, the students hypothesized that the phenomenon is exclusive to shorebirds.",
     "choices": [
       {
         "id": "A",
@@ -320,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -330,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_10",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly support Martinez and colleagues' hypothesis?\nThe bird species *Tachyphonus surinamus* (the fulvous-crested tanager) practices a foraging strategy known as sallying (catching insects in flight and returning to a perch to eat them), enabling it to scan for prey and predators simultaneously. Conversely, *Percnostola rufifrons* (the black-headed antbird), with which *T. surinamus* shares territory in French Guiana, practices foliage gleaning (picking insects off leaves), substantially limiting the bird's field of vision while foraging. Biologist Ari Martinez and colleagues hypothesized that the greater vulnerability inherent in the latter strategy is reflected in greater sensitivity to predator warning signals from neighboring species.\n\nWhich finding, if true, would most directly support Martinez and colleagues' hypothesis?",
+    "text": "Which finding, if true, would most directly support Martinez and colleagues' hypothesis?\nThe bird species *Tachyphonus surinamus* (the fulvous-crested tanager) practices a foraging strategy known as sallying (catching insects in flight and returning to a perch to eat them), enabling it to scan for prey and predators simultaneously. Conversely, *Percnostola rufifrons* (the black-headed antbird), with which *T. surinamus* shares territory in French Guiana, practices foliage gleaning (picking insects off leaves), substantially limiting the bird's field of vision while foraging. Biologist Ari Martinez and colleagues hypothesized that the greater vulnerability inherent in the latter strategy is reflected in greater sensitivity to predator warning signals from neighboring species.",
     "choices": [
       {
         "id": "A",
@@ -356,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -366,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_11",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nCanada, which, according to international indices, has relatively strong democratic institutions and low intranational income inequality, experienced an inflation rate of 2.26% in 2018, whereas Oman, which shows the opposite pattern on such indices, had an inflation rate of only 0.88% that year. Such a comparison may seem consistent with the theoretical critique that by diluting control over the economy, democratic institutions inhibit states' ability to counteract inflationary pressures, but when Raj Desai et al. examined democratic strength, intranational inequality, and inflation in more than 100 countries, they found that democratic strength, if associated with low inequality, restrains inflationary pressures, which would suggest that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nCanada, which, according to international indices, has relatively strong democratic institutions and low intranational income inequality, experienced an inflation rate of 2.26% in 2018, whereas Oman, which shows the opposite pattern on such indices, had an inflation rate of only 0.88% that year. Such a comparison may seem consistent with the theoretical critique that by diluting control over the economy, democratic institutions inhibit states' ability to counteract inflationary pressures, but when Raj Desai et al. examined democratic strength, intranational inequality, and inflation in more than 100 countries, they found that democratic strength, if associated with low inequality, restrains inflationary pressures, which would suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -392,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -402,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_12",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nNature reserves and other types of protected areas (PAs) are established to promote conservation, but because they restrict certain economic activities, it is widely believed that they hinder local economic development. However, a study by Hasita Bhammar and team investigating five PAs, including Lower Zambezi National Park (a terrestrial PA in Zambia) and Abrolhos Marine Park (a marine PA in Brazil), estimated the impact of tourism on these regions and concluded that tourism likely results in increased household incomes in local communities. But whereas terrestrial PAs were in remote places with few alternative amenities to attract tourists, marine PAs were close to additional amenities not part of the PA. Thus, the researchers conceded that although ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nNature reserves and other types of protected areas (PAs) are established to promote conservation, but because they restrict certain economic activities, it is widely believed that they hinder local economic development. However, a study by Hasita Bhammar and team investigating five PAs, including Lower Zambezi National Park (a terrestrial PA in Zambia) and Abrolhos Marine Park (a marine PA in Brazil), estimated the impact of tourism on these regions and concluded that tourism likely results in increased household incomes in local communities. But whereas terrestrial PAs were in remote places with few alternative amenities to attract tourists, marine PAs were close to additional amenities not part of the PA. Thus, the researchers conceded that although ______",
     "choices": [
       {
         "id": "A",
@@ -428,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_13",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThe subscription economy has rapidly expanded to include a wide range of products\u2014from books to cloud storage\u2014in part because consumers appreciate the convenience of automatic payments. But as a study by Ben Klopack and team shows, consumers are typically inattentive to automatic payments and remain subscribed to services long after their value has worn off. The study also found that subscribers were much more likely to discontinue a service when they had to make an active renewal decision (for example, when they need to update payment information to remain subscribed) than at other times. The researchers therefore concluded that a regulation requiring all subscribers to complete payments manually would likely ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe subscription economy has rapidly expanded to include a wide range of products—from books to cloud storage—in part because consumers appreciate the convenience of automatic payments. But as a study by Ben Klopack and team shows, consumers are typically inattentive to automatic payments and remain subscribed to services long after their value has worn off. The study also found that subscribers were much more likely to discontinue a service when they had to make an active renewal decision (for example, when they need to update payment information to remain subscribed) than at other times. The researchers therefore concluded that a regulation requiring all subscribers to complete payments manually would likely ______",
     "choices": [
       {
         "id": "A",
@@ -450,7 +449,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "decrease subscribers\u2019 valuation of the subscription services at a faster rate than if no such regulation were implemented."
+        "text": "decrease subscribers’ valuation of the subscription services at a faster rate than if no such regulation were implemented."
       },
       {
         "id": "C",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -474,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_14",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nShould South Korea cut taxes? As of 2017, South Korea's top tax rate (49%) was lower than the highest point on the country's Laffer curve. A theoretical relationship between tax rates and revenues, the curve can be used to determine whether tax cuts will ultimately increase a country's tax revenue, according to some ______ 2017 data suggested that South Korea was below the threshold for a tax cut.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nShould South Korea cut taxes? As of 2017, South Korea's top tax rate (49%) was lower than the highest point on the country's Laffer curve. A theoretical relationship between tax rates and revenues, the curve can be used to determine whether tax cuts will ultimately increase a country's tax revenue, according to some ______ 2017 data suggested that South Korea was below the threshold for a tax cut.",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_15",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nSome places that were once part of the Spanish Empire, such as Sardinia, reveal few traces of a past connection to Spain, linguistic or otherwise. In contrast, Argentina broke free from the Spanish Empire in the nineteenth century yet still bears its imperial history in its language, Spanish ______ spoken by most current residents of Argentina.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nSome places that were once part of the Spanish Empire, such as Sardinia, reveal few traces of a past connection to Spain, linguistic or otherwise. In contrast, Argentina broke free from the Spanish Empire in the nineteenth century yet still bears its imperial history in its language, Spanish ______ spoken by most current residents of Argentina.",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_16",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn June 30, 1908, a 160-foot-wide space rock hurtling toward Earth exploded in a remote forested area of Siberia. Known as the Tunguska event, after a river that ran through the region, ______ June 30 has been officially denoted International Asteroid Day.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn June 30, 1908, a 160-foot-wide space rock hurtling toward Earth exploded in a remote forested area of Siberia. Known as the Tunguska event, after a river that ran through the region, ______ June 30 has been officially denoted International Asteroid Day.",
     "choices": [
       {
         "id": "A",
@@ -572,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -582,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_17",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nA single specimen of *N. vivans*, collected at a depth of 129 fathoms (236 meters) in the Indian Ocean, and a single specimen of *P. obliguiloculata*, collected at a depth of 260 fathoms (475 meters) in the South Atlantic have been preserved as exemplars of their respective ______ the former in a repository at Washington, DC's Museum of Natural History and the latter in a repository at London's Natural History Museum.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nA single specimen of *N. vivans*, collected at a depth of 129 fathoms (236 meters) in the Indian Ocean, and a single specimen of *P. obliguiloculata*, collected at a depth of 260 fathoms (475 meters) in the South Atlantic have been preserved as exemplars of their respective ______ the former in a repository at Washington, DC's Museum of Natural History and the latter in a repository at London's Natural History Museum.",
     "choices": [
       {
         "id": "A",
@@ -608,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -618,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_18",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBreaking ties with the Soviet Union in 1991 catalyzed a host of infrastructural changes for the newly independent Latvia, among them a new country dialing code from the International Telegraph and Telephone Consultative Committee ______ incoming international telephone calls to reach the country.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBreaking ties with the Soviet Union in 1991 catalyzed a host of infrastructural changes for the newly independent Latvia, among them a new country dialing code from the International Telegraph and Telephone Consultative Committee ______ incoming international telephone calls to reach the country.",
     "choices": [
       {
         "id": "A",
@@ -644,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -653,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_19",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nResearchers recently theorized that Copper Age (3500 BCE to 2750 BCE) owl-shaped carvings collected from Iberian archaeological sites were likely toys created by children. This hypothesis, based on comparative analyses of owl drawings made by modern children, is supported by the objects predominantly being crafted from slate\u2014a material that, because of its ______ be easily carved by small hands using rudimentary tools.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nResearchers recently theorized that Copper Age (3500 BCE to 2750 BCE) owl-shaped carvings collected from Iberian archaeological sites were likely toys created by children. This hypothesis, based on comparative analyses of owl drawings made by modern children, is supported by the objects predominantly being crafted from slate—a material that, because of its ______ be easily carved by small hands using rudimentary tools.",
     "choices": [
       {
         "id": "A",
@@ -680,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -690,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_20",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nLocated on the Emscher River in Germany, the city of Dortmund was a member of a powerful mercantile alliance that dominated northern European trade between the 13th and 17th ______ a loose confederation of cities from eleven modern-day countries, it has been described as a precursor to today's European Union.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nLocated on the Emscher River in Germany, the city of Dortmund was a member of a powerful mercantile alliance that dominated northern European trade between the 13th and 17th ______ a loose confederation of cities from eleven modern-day countries, it has been described as a precursor to today's European Union.",
     "choices": [
       {
         "id": "A",
@@ -702,7 +701,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "centuries\u2014the Hanseatic League;"
+        "text": "centuries—the Hanseatic League;"
       },
       {
         "id": "C",
@@ -716,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_21",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPaul Austerlitz of Gettysburg College, along with researchers Maureen Mahon of New York University and Michael Veal of Yale University, ______ on the advisory team for the Timeline of African American Music, an interactive digital resource that explores African American musical history from the 1600s to the present day.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPaul Austerlitz of Gettysburg College, along with researchers Maureen Mahon of New York University and Michael Veal of Yale University, ______ on the advisory team for the Timeline of African American Music, an interactive digital resource that explores African American musical history from the 1600s to the present day.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_22",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nEvery US state has an associated state soil, which is typically selected by a group of experts, then passed through the state legislature to receive its official designation. For example, Wisconsin's Antigo soil was formally designated in 1983, and Vermont's Tunbridge soil in 1985. ______ years pass between a soil's selection and official designation, as the legislative process can be notoriously slow.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nEvery US state has an associated state soil, which is typically selected by a group of experts, then passed through the state legislature to receive its official designation. For example, Wisconsin's Antigo soil was formally designated in 1983, and Vermont's Tunbridge soil in 1985. ______ years pass between a soil's selection and official designation, as the legislative process can be notoriously slow.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_23",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nAlthough the Eskimo-Aleut language of Inuktun has only about 1,200 living speakers, most in Greenland, the New York City-based Endangered Language Alliance has identified a group of Inuktun speakers in the city's borough of Manhattan. ______ in the borough's Upper West Side neighborhood, these speakers are both helping to ensure Inuktun's survival and contributing to the city's unmatched linguistic diversity.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAlthough the Eskimo-Aleut language of Inuktun has only about 1,200 living speakers, most in Greenland, the New York City-based Endangered Language Alliance has identified a group of Inuktun speakers in the city's borough of Manhattan. ______ in the borough's Upper West Side neighborhood, these speakers are both helping to ensure Inuktun's survival and contributing to the city's unmatched linguistic diversity.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_24",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nWilliam Duer employed the pseudonym \"philo-Publius\"\u2014a reference to an ancient Roman statesman\u2014in political essays he wrote in 1787, a choice that accomplished far more than simply concealing his authorship. ______ it wasn't an arbitrary pen name but rather a complex rhetorical strategy through which Duer aligned his federalist views with the venerated republican ideals of the ancient world, thereby bolstering the authority of his writing.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWilliam Duer employed the pseudonym \"philo-Publius\"—a reference to an ancient Roman statesman—in political essays he wrote in 1787, a choice that accomplished far more than simply concealing his authorship. ______ it wasn't an arbitrary pen name but rather a complex rhetorical strategy through which Duer aligned his federalist views with the venerated republican ideals of the ancient world, thereby bolstering the authority of his writing.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_25",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "The student wants to describe how meanders are formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A U-shaped curve in a river channel is called a meander.\n\u2022 A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side.\n\u2022 Meanders will gradually change shape and migrate downstream over time.\n\u2022 A river with high sinuosity has many meanders, and a river with low sinuosity has few.\n\u2022 The Huallaga River in Peru has high sinuosity.\n\nThe student wants to describe how meanders are formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to describe how meanders are formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A U-shaped curve in a river channel is called a meander.\n• A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side.\n• Meanders will gradually change shape and migrate downstream over time.\n• A river with high sinuosity has many meanders, and a river with low sinuosity has few.\n• The Huallaga River in Peru has high sinuosity.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_26",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "The student wants to make a distinction between the two portolan traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Gabriel de Vallseca was a fifteenth-century Majorcan cartographer of portolan charts.\n\u2022 Domenico Pizigano was a fifteenth-century Venetian cartographer of portolan charts.\n\u2022 Portolan charts were early nautical charts that mapped the waterways of the Mediterranean and Black Seas.\n\u2022 Portolan charts in the Venetian tradition tended to be sparse in illustrations.\n\u2022 Those in the Majorcan tradition tended to be richly illustrated.\n\u2022 In Majorcan charts, the Atlas Mountains are depicted as a palm tree, and the Tagus River is depicted as a shepherd's crook.\n\nThe student wants to make a distinction between the two portolan traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to make a distinction between the two portolan traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Gabriel de Vallseca was a fifteenth-century Majorcan cartographer of portolan charts.\n• Domenico Pizigano was a fifteenth-century Venetian cartographer of portolan charts.\n• Portolan charts were early nautical charts that mapped the waterways of the Mediterranean and Black Seas.\n• Portolan charts in the Venetian tradition tended to be sparse in illustrations.\n• Those in the Majorcan tradition tended to be richly illustrated.\n• In Majorcan charts, the Atlas Mountains are depicted as a palm tree, and the Tagus River is depicted as a shepherd's crook.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_27",
     "testName": "September 2025 US Form B SAT English Module 2",
-    "text": "The student wants to contrast the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Artistic works made readily accessible to the general public are categorized as public art.\n\u2022 Artist Zenos Frudakis's twenty-foot-long bronze sculpture *Freedom Sculpture* is on display along a public sidewalk in Philadelphia, Pennsylvania.\n\u2022 This work of public art depicts a group of people emerging from the side of a building.\n\u2022 Artist David McCracken's thirty-one-foot-long aluminum sculpture *Diminish and Ascend* is on display in a public botanical garden in Christchurch, New Zealand.\n\u2022 This work of public art depicts a staircase that appears to ascend into the clouds.\n\nThe student wants to contrast the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Artistic works made readily accessible to the general public are categorized as public art.\n• Artist Zenos Frudakis's twenty-foot-long bronze sculpture *Freedom Sculpture* is on display along a public sidewalk in Philadelphia, Pennsylvania.\n• This work of public art depicts a group of people emerging from the side of a building.\n• Artist David McCracken's thirty-one-foot-long aluminum sculpture *Diminish and Ascend* is on display in a public botanical garden in Christchurch, New Zealand.\n• This work of public art depicts a staircase that appears to ascend into the clouds.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_1",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_2",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -52,15 +52,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_3",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -88,35 +88,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlD_Math_M1_Q3_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_4",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "y = -0.5\ny = x \u00b2 + 8 x + a\nin the given system of equations, a is a positive integer constant. The system has no real solutions, what is the least possible value of a?",
+    "text": "y = -0.5\ny = x ² + 8 x + a\nin the given system of equations, a is a positive integer constant. The system has no real solutions, what is the least possible value of a?",
     "choices": [],
     "correctAnswer": "16",
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_5",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -144,15 +143,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_6",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -163,7 +162,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -171,7 +170,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_7",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -206,8 +205,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_8",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -235,15 +234,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_9",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -254,15 +253,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_10",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -273,15 +272,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_11",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -289,11 +288,11 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "$158\u00b7\\sqrt{y}$"
+        "text": "$158·\\sqrt{y}$"
       },
       {
         "id": "B",
-        "text": "$\\sqrt{158\u00b7}y$"
+        "text": "$\\sqrt{158·}y$"
       },
       {
         "id": "C",
@@ -309,15 +308,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_12",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -345,15 +344,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_13",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -381,15 +380,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_15",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -417,15 +416,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_16",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -436,7 +435,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -444,7 +443,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_17",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -462,28 +461,28 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_18",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "The difference between the measure of angle A and the measure of angle B is -5\u03c0radians. which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
+    "text": "The difference between the measure of angle A and the measure of angle B is -5πradians. which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
     "choices": [
       {
         "id": "A",
-        "text": "$-\\frac{5}{12}$ \u00b7 $\\frac{360^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}$ · $\\frac{360^\\circ}{\\pi}$"
       },
       {
         "id": "B",
-        "text": "$-\\frac{5}{12}\\pi$ \u00b7 $\\frac{\\pi}{180^\\circ}$"
+        "text": "$-\\frac{5}{12}\\pi$ · $\\frac{\\pi}{180^\\circ}$"
       },
       {
         "id": "C",
-        "text": "$-\\frac{5}{12}\\pi$ \u00b7 $\\frac{180^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi$ · $\\frac{180^\\circ}{\\pi}$"
       },
       {
         "id": "D",
-        "text": "$-\\frac{5}{12}\\pi$ \u00b7 $\\frac{360^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi$ · $\\frac{360^\\circ}{\\pi}$"
       }
     ],
     "correctAnswer": "C",
@@ -491,15 +490,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_19",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -527,54 +526,53 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_20",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment A B (not shown) is 84 centimeters, if the height of the cone is 42 centieters and the volume of the cone is k\u03c0 cubic centimeters, what is the value of k?",
+    "text": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment A B (not shown) is 84 centimeters, if the height of the cone is 42 centieters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
     "choices": [],
     "correctAnswer": "74088",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlD_Math_M1_Q20_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_21",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "in triangle RST, the measure of angle R is 39 \u2220, the measure of angle S is x \u2220, and the measure of angle T is (5 x - 3) \u2220. Point L lies on $\\overline{RS}$, point K lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle SKL? (Disregard the degree symbol when entering your answer)",
+    "text": "in triangle RST, the measure of angle R is 39 ∠, the measure of angle S is x ∠, and the measure of angle T is (5 x - 3) ∠. Point L lies on $\\overline{RS}$, point K lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle SKL? (Disregard the degree symbol when entering your answer)",
     "choices": [],
     "correctAnswer": "117",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_22",
     "testName": "March 2025 International Form D SAT Math Module 1",
@@ -602,7 +600,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   }

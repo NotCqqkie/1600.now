@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_1",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlE_Math_M1_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_2",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -70,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_3",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -106,20 +105,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlE_Math_M1_Q3_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_4",
     "testName": "March 2025 International Form E SAT Math Module 1",
-    "text": "The function fis de\u00f1ned by f(x)= 8(2x + 2). For what value of x does f(x)= 80?",
+    "text": "The function fis deñned by f(x)= 8(2x + 2). For what value of x does f(x)= 80?",
     "choices": [
       {
         "id": "A",
@@ -143,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_5",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -179,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_6",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -198,7 +196,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -206,27 +204,27 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_7",
     "testName": "March 2025 International Form E SAT Math Module 1",
-    "text": "Circle N has a radius of 9 millimeters (mm). Circle M has an area of 25\u03c0 mm 2. What is the\ntotal area, in mm 2, of circles N and M?",
+    "text": "Circle N has a radius of 9 millimeters (mm). Circle M has an area of 25π mm 2. What is the\ntotal area, in mm 2, of circles N and M?",
     "choices": [
       {
         "id": "A",
-        "text": "106\u03c0"
+        "text": "106π"
       },
       {
         "id": "B",
-        "text": "61\u03c0"
+        "text": "61π"
       },
       {
         "id": "C",
-        "text": "43\u03c0"
+        "text": "43π"
       },
       {
         "id": "D",
-        "text": "14\u03c0"
+        "text": "14π"
       }
     ],
     "correctAnswer": "A",
@@ -241,8 +239,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_8",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -253,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_9",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -289,15 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_10",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -305,19 +303,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "22\u00b0"
+        "text": "22°"
       },
       {
         "id": "B",
-        "text": "56\u00b0"
+        "text": "56°"
       },
       {
         "id": "C",
-        "text": "(22+56)\u00b0"
+        "text": "(22+56)°"
       },
       {
         "id": "D",
-        "text": "(22\u00b756)\u00b0"
+        "text": "(22·56)°"
       }
     ],
     "correctAnswer": "B",
@@ -325,16 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlE_Math_M1_Q10_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_11",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -352,8 +349,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_13",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -381,7 +378,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
@@ -389,7 +386,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_14",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -424,8 +421,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_15",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -453,7 +450,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
@@ -461,7 +458,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_16",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -496,8 +493,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_17",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -525,35 +522,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_18",
     "testName": "March 2025 International Form E SAT Math Module 1",
-    "text": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan $\u0398\\le\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 22.7 inches, what is the least possible value of x, in inches?",
+    "text": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan $Θ\\le\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 22.7 inches, what is the least possible value of x, in inches?",
     "choices": [],
     "correctAnswer": "272.4",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlE_Math_M1_Q18_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_19",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -581,16 +577,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlE_Math_M1_Q19_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_20",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -601,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_21",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -636,16 +631,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_22",
     "testName": "March 2025 International Form E SAT Math Module 1",
@@ -656,7 +651,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   }

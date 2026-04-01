@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_1",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cpractically\u201d most nearly mean?\nThe following text is from Lilliam Rivera's 2020 novel *Never Look Back*. The text describes the arrival of the narrator's neighbor Penelope and her cousin. Penelope turns to the car and holds the door open. A girl about our age steps out. She has a thick curtain of long, coily hair that <u>practically</u> engulfs her. I've never seen her before. Penelope hugs the girl, and they walk into the building.\n\u00a92020 by Lilliam Rivera\n\nAs used in the text, what does the word \u201cpractically\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “practically” most nearly mean?\nThe following text is from Lilliam Rivera's 2020 novel *Never Look Back*. The text describes the arrival of the narrator's neighbor Penelope and her cousin. Penelope turns to the car and holds the door open. A girl about our age steps out. She has a thick curtain of long, coily hair that <u>practically</u> engulfs her. I've never seen her before. Penelope hugs the girl, and they walk into the building.\n©2020 by Lilliam Rivera",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_2",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Apollo Moon landings (1969\u20131972) brought charged particle detectors and equipment too heavy for liftoff to the Moon and produced large amounts of data, much of which was stored on outdated technologies. A data-transfer project is making the data available again, thereby ______ the Apollo data\u2019s usefulness, as the data are used to study the long-term effects of being on the Moon.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Apollo Moon landings (1969–1972) brought charged particle detectors and equipment too heavy for liftoff to the Moon and produced large amounts of data, much of which was stored on outdated technologies. A data-transfer project is making the data available again, thereby ______ the Apollo data’s usefulness, as the data are used to study the long-term effects of being on the Moon.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_3",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs with other river deltas, the Krishna River delta is ______: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Bay of Bengal.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs with other river deltas, the Krishna River delta is ______: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Bay of Bengal.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_4",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPostcranial skeletal pneumaticity (PSP) refers to the presence of extensions of an animal\u2019s lungs and air sacs inside its bones. Though such structures do not typically fossilize, they are believed to have been present in *Tyrannosaurus*, *Sauroposeidon*, and other Cretaceous theropods and sauropods. To ______ PSP from fossils, researchers look for indicators such as large foramina (holes in bones).\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPostcranial skeletal pneumaticity (PSP) refers to the presence of extensions of an animal’s lungs and air sacs inside its bones. Though such structures do not typically fossilize, they are believed to have been present in *Tyrannosaurus*, *Sauroposeidon*, and other Cretaceous theropods and sauropods. To ______ PSP from fossils, researchers look for indicators such as large foramina (holes in bones).",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_5",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nEconomists have long observed that firms in related industries tend to cluster in the same area, as is the case in Birmingham, UK, where many initial iron and steel processing firms as well as iron and steel tube manufacturers are located. The factors causing such clustering are ______: what drives firms in certain industries to cluster may not be especially relevant among other industries.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nEconomists have long observed that firms in related industries tend to cluster in the same area, as is the case in Birmingham, UK, where many initial iron and steel processing firms as well as iron and steel tube manufacturers are located. The factors causing such clustering are ______: what drives firms in certain industries to cluster may not be especially relevant among other industries.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -183,13 +183,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_6",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence?\nA microgenre is a specialized genre consisting of a comparatively small number of stylistically similar artists. The microgenre of electronic music known as hyperpop emerged in the 2010s, with American musician Laura Les as an early exponent. Her combination of dense synthesizer arrangements and metallic percussion with vocals electronically shifted in pitch above her natural range exemplifies the hyperpop sound. <u>More recently, British recording artist Charli XCX has contributed to that sound by incorporating pop melodies into it.</u>\n\nWhich choice best describes the function of the underlined sentence?",
+    "text": "Which choice best describes the function of the underlined sentence?\nA microgenre is a specialized genre consisting of a comparatively small number of stylistically similar artists. The microgenre of electronic music known as hyperpop emerged in the 2010s, with American musician Laura Les as an early exponent. Her combination of dense synthesizer arrangements and metallic percussion with vocals electronically shifted in pitch above her natural range exemplifies the hyperpop sound. <u>More recently, British recording artist Charli XCX has contributed to that sound by incorporating pop melodies into it.</u>",
     "choices": [
       {
         "id": "A",
@@ -205,35 +205,35 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "It asserts that the hyperpop sound hasn\u2019t changed, even though new artists have adopted it."
+        "text": "It asserts that the hyperpop sound hasn’t changed, even though new artists have adopted it."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_7",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice best describes the overall structure of the text?\nThe following text is adapted from George Eliot\u2019s 1857 short story *The Sad Fortunes of the Rev. Amos Barton*. Mr. Ely is a clergyman in the town of Milby. By the laity of Milby and its neighbourhood [Mr. Ely] was regarded as a man of quite remarkable powers and learning, who must make a considerable sensation in London pulpits and drawing-rooms on his occasional visit to the metropolis; and by his brother clergy he was regarded as a discreet and agreeable fellow. Mr. Ely never got into a warm discussion; he suggested what might be thought, but rarely said what he thought himself; he never let either men or women see that he was laughing at them, and he never gave any one an opportunity of laughing at *him*.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nThe following text is adapted from George Eliot’s 1857 short story *The Sad Fortunes of the Rev. Amos Barton*. Mr. Ely is a clergyman in the town of Milby. By the laity of Milby and its neighbourhood [Mr. Ely] was regarded as a man of quite remarkable powers and learning, who must make a considerable sensation in London pulpits and drawing-rooms on his occasional visit to the metropolis; and by his brother clergy he was regarded as a discreet and agreeable fellow. Mr. Ely never got into a warm discussion; he suggested what might be thought, but rarely said what he thought himself; he never let either men or women see that he was laughing at them, and he never gave any one an opportunity of laughing at *him*.",
     "choices": [
       {
         "id": "A",
-        "text": "It implies that Mr. Ely\u2019s neighbors are more na\u00efve in their estimation of him than people in London are and then explains why his neighbors have been so easily misled."
+        "text": "It implies that Mr. Ely’s neighbors are more naïve in their estimation of him than people in London are and then explains why his neighbors have been so easily misled."
       },
       {
         "id": "B",
-        "text": "It stresses the discrepancy between Mr. Ely\u2019s public and private conduct and then alludes to his motivation for hiding his true personality."
+        "text": "It stresses the discrepancy between Mr. Ely’s public and private conduct and then alludes to his motivation for hiding his true personality."
       },
       {
         "id": "C",
@@ -247,25 +247,25 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_8",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice best describes the main purpose of the text?\nHistorians point to the rule of the Piast dynasty as crucial to the formation of the Polish state. But some differentiate between members of the dynasty like Otto Boles\u0142awowic, who ruled as duke in 1032 CE, and less well-documented figures like Siemowit, who is said to have ruled in the 9th century but whose historical actuality is disputed. Siemowit appears in the *Gesta principum Polonorum*, an authentic chronicle of medieval Polish history written in the 12th century. But the chronicle\u2019s documentation of Siemowit relies on oral tradition, unlike its records of later rulers.\n\nWhich choice best describes the main purpose of the text?",
+    "text": "Which choice best describes the main purpose of the text?\nHistorians point to the rule of the Piast dynasty as crucial to the formation of the Polish state. But some differentiate between members of the dynasty like Otto Bolesławowic, who ruled as duke in 1032 CE, and less well-documented figures like Siemowit, who is said to have ruled in the 9th century but whose historical actuality is disputed. Siemowit appears in the *Gesta principum Polonorum*, an authentic chronicle of medieval Polish history written in the 12th century. But the chronicle’s documentation of Siemowit relies on oral tradition, unlike its records of later rulers.",
     "choices": [
       {
         "id": "A",
-        "text": "It favorably compares the reign of Siemowit with the reign of Otto Boles\u0142awowic."
+        "text": "It favorably compares the reign of Siemowit with the reign of Otto Bolesławowic."
       },
       {
         "id": "B",
@@ -273,7 +273,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "It presents evidence in support of a particular claim about Otto Boles\u0142awowic."
+        "text": "It presents evidence in support of a particular claim about Otto Bolesławowic."
       },
       {
         "id": "D",
@@ -283,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_9",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nWomen like Grace Murray Hopper made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Hopper was a US naval admiral and computer scientist who coined the term \u201cdebugging\u201d and invented the first compiler program for translating computer code. In this way, Hopper and others like her helped make it possible for more women\u2014such as Dr. Loyce Pailen, who currently works in and teaches cybersecurity\u2014to enter the field of cryptology.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nWomen like Grace Murray Hopper made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Hopper was a US naval admiral and computer scientist who coined the term “debugging” and invented the first compiler program for translating computer code. In this way, Hopper and others like her helped make it possible for more women—such as Dr. Loyce Pailen, who currently works in and teaches cybersecurity—to enter the field of cryptology.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_10",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "What does the text most strongly suggest about the crab-eating macaques in Thailand?\nScientists have known for a long time that several primates other than humans use tools. For example, in Thailand, they have observed crab-eating macaques using stone tools to open nuts and oysters. However, according to recent research, nonprimate animals employ objects as tools as well. Dolphins use sponges to protect their noses from scratches when foraging on the seafloor, and greater vasa parrots use date pits to grind seashells into calcium powder.\n\nWhat does the text most strongly suggest about the crab-eating macaques in Thailand?",
+    "text": "What does the text most strongly suggest about the crab-eating macaques in Thailand?\nScientists have known for a long time that several primates other than humans use tools. For example, in Thailand, they have observed crab-eating macaques using stone tools to open nuts and oysters. However, according to recent research, nonprimate animals employ objects as tools as well. Dolphins use sponges to protect their noses from scratches when foraging on the seafloor, and greater vasa parrots use date pits to grind seashells into calcium powder.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -363,13 +363,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_11",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nSusette Casta\u00f1eda-Rico and colleagues relied on historical DNA (hDNA)\u2014genomic data incidentally preserved in specimens housed in collections such as those at the American Museum of Natural History\u2014to investigate the evolutionary trajectory of *Peromyscus mekisturus* (a rodent species). Although this approach can yield many insights about the biological past, it remains a relatively underutilized resource in part because hDNA is often to some extent degraded, a situation not easily remediable under current methodological paradigms and with extant DNA extraction and analysis technologies.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nSusette Castañeda-Rico and colleagues relied on historical DNA (hDNA)—genomic data incidentally preserved in specimens housed in collections such as those at the American Museum of Natural History—to investigate the evolutionary trajectory of *Peromyscus mekisturus* (a rodent species). Although this approach can yield many insights about the biological past, it remains a relatively underutilized resource in part because hDNA is often to some extent degraded, a situation not easily remediable under current methodological paradigms and with extant DNA extraction and analysis technologies.",
     "choices": [
       {
         "id": "A",
@@ -377,7 +377,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "While hDNA has potential for enhancing scientists\u2019 understanding of the evolutionary past, the difficulty of deriving viable data from it at present has limited its use."
+        "text": "While hDNA has potential for enhancing scientists’ understanding of the evolutionary past, the difficulty of deriving viable data from it at present has limited its use."
       },
       {
         "id": "C",
@@ -391,21 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_12",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nHawaiian home lands are areas of public land in the state of Hawaii that have been reserved for use by the *K\u0101naka Maoli*, or the Native Hawaiian people. The largest of the home lands, Homuula-Upper Piihonua, covers nearly 100 square miles on the island of Hawai\u2018i. Most of the home lands are much smaller. For example, the total area of Kalamaula is 7.95 square miles, and the total area of Makuu is ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nHawaiian home lands are areas of public land in the state of Hawaii that have been reserved for use by the *Kānaka Maoli*, or the Native Hawaiian people. The largest of the home lands, Homuula-Upper Piihonua, covers nearly 100 square miles on the island of Hawai‘i. Most of the home lands are much smaller. For example, the total area of Kalamaula is 7.95 square miles, and the total area of Makuu is ______",
     "choices": [
       {
         "id": "A",
@@ -427,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USC_Eng_M1_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_13",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which quotation from *The Age of Innocence* best illustrates the claim?\n*The Age of Innocence* is a 1920 novel by Edith Wharton set in 1870s New York City. In the novel, Newland Archer attends an opera. The narrator describes Newland\u2019s tendency to follow the social conventions dictated by other men of New York City society who are in the audience: ______\n\nWhich quotation from *The Age of Innocence* best illustrates the claim?",
+    "text": "Which quotation from *The Age of Innocence* best illustrates the claim?\n*The Age of Innocence* is a 1920 novel by Edith Wharton set in 1870s New York City. In the novel, Newland Archer attends an opera. The narrator describes Newland’s tendency to follow the social conventions dictated by other men of New York City society who are in the audience: ______",
     "choices": [
       {
         "id": "A",
@@ -458,27 +457,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "''Singly [the men around Newland] betrayed their inferiority; but grouped together they represented \u2018New York,\u2019 and the habit of masculine solidarity made him accept their doctrine on all the issues called moral.''"
+        "text": "''Singly [the men around Newland] betrayed their inferiority; but grouped together they represented ‘New York,’ and the habit of masculine solidarity made him accept their doctrine on all the issues called moral.''"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_14",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nQuasars\u2014such as CTA 102, located in the Pegasus constellation\u2014are extremely luminous galactic nuclei powered by supermassive black holes. Quasars range in age, with approximately 200 of them known to have developed within the first billion years of the formation of the universe. Cosmologists have long wondered how any quasars could have formed so early in the universe\u2019s evolution given that conditions are believed to have been ill-suited to their creation, which suggests that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nQuasars—such as CTA 102, located in the Pegasus constellation—are extremely luminous galactic nuclei powered by supermassive black holes. Quasars range in age, with approximately 200 of them known to have developed within the first billion years of the formation of the universe. Cosmologists have long wondered how any quasars could have formed so early in the universe’s evolution given that conditions are believed to have been ill-suited to their creation, which suggests that ______",
     "choices": [
       {
         "id": "A",
@@ -500,21 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_15",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nCentral Vermont\u2019s Orange County is among the most rural counties in the United States: the US Census Bureau classified it as 97.2% rural in 2010. Researchers studying populations of counties like Orange often struggle to recruit and retain participants. Melissa Valerio and colleagues tested whether a method called snowball sampling could improve recruitment and retention. Working in two rural counties, the researchers identified a small number of people who had the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Valerio and colleagues found that participants recruited via snowball sampling showed a much higher retention rate than did people recruited by strangers, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nCentral Vermont’s Orange County is among the most rural counties in the United States: the US Census Bureau classified it as 97.2% rural in 2010. Researchers studying populations of counties like Orange often struggle to recruit and retain participants. Melissa Valerio and colleagues tested whether a method called snowball sampling could improve recruitment and retention. Working in two rural counties, the researchers identified a small number of people who had the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Valerio and colleagues found that participants recruited via snowball sampling showed a much higher retention rate than did people recruited by strangers, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -536,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_16",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n*Infanta Catalina Michaela of Austria (1585)* is one of dozens of remaining works by Sofonisba Anguissola. Currently, her painting ______ at the Prado Museum in Madrid, where visitors can view the Italian Renaissance artist\u2019s work on display.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n*Infanta Catalina Michaela of Austria (1585)* is one of dozens of remaining works by Sofonisba Anguissola. Currently, her painting ______ at the Prado Museum in Madrid, where visitors can view the Italian Renaissance artist’s work on display.",
     "choices": [
       {
         "id": "A",
@@ -572,25 +571,25 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_17",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlthough the epic poem *Raghuva\u1e43\u015ba* dates back to the 4th century, ______ compelling narrative still captivates readers today.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlthough the epic poem *Raghuvaṃśa* dates back to the 4th century, ______ compelling narrative still captivates readers today.",
     "choices": [
       {
         "id": "A",
-        "text": "they\u2019re"
+        "text": "they’re"
       },
       {
         "id": "B",
@@ -602,27 +601,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "it\u2019s"
+        "text": "it’s"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_18",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRumsen Ohlone artist Linda Yamane\u2019s mastery of traditional weaving techniques is apparent in her expertly crafted baskets, which typically are woven from willow (a strong and flexible material) and ______ colorful beading.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRumsen Ohlone artist Linda Yamane’s mastery of traditional weaving techniques is apparent in her expertly crafted baskets, which typically are woven from willow (a strong and flexible material) and ______ colorful beading.",
     "choices": [
       {
         "id": "A",
@@ -644,29 +643,29 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_19",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe declination, or celestial latitude, of the Aurigid meteor shower\u2019s radiant\u2014the point in the sky from which, to a terrestrial observer, the shower\u2019s meteors appear to ______ meaning that its radiant is located 39 degrees north of the celestial equator, in close proximity to the constellation Auriga.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe declination, or celestial latitude, of the Aurigid meteor shower’s radiant—the point in the sky from which, to a terrestrial observer, the shower’s meteors appear to ______ meaning that its radiant is located 39 degrees north of the celestial equator, in close proximity to the constellation Auriga.",
     "choices": [
       {
         "id": "A",
-        "text": "emanate, is 39 degrees\u2014"
+        "text": "emanate, is 39 degrees—"
       },
       {
         "id": "B",
-        "text": "emanate\u2014is 39 degrees,"
+        "text": "emanate—is 39 degrees,"
       },
       {
         "id": "C",
@@ -680,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_20",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTo appreciate what scholars believe to be the allegorical intent of Munch\u2019s 19th-century painting ______ to embody the existential anxiety that can occur when facing the unknown\u2014a viewer must become familiar with the painting\u2019s symbolic elements.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTo appreciate what scholars believe to be the allegorical intent of Munch’s 19th-century painting ______ to embody the existential anxiety that can occur when facing the unknown—a viewer must become familiar with the painting’s symbolic elements.",
     "choices": [
       {
         "id": "A",
@@ -702,11 +701,11 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "*The Scream*, namely\u2014"
+        "text": "*The Scream*, namely—"
       },
       {
         "id": "C",
-        "text": "*The Scream*\u2014namely,"
+        "text": "*The Scream*—namely,"
       },
       {
         "id": "D",
@@ -716,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_21",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn Spain, citizens must be at least 18 years old to vote in their country\u2019s elections. ______ citizens in Brazil need only be 16 years old to cast their vote.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn Spain, citizens must be at least 18 years old to vote in their country’s elections. ______ citizens in Brazil need only be 16 years old to cast their vote.",
     "choices": [
       {
         "id": "A",
@@ -752,21 +751,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_22",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn contrast to first-past-the-post electoral processes, the proportional representation system by which Sweden\u2019s Parliament is elected begins with citizens casting their votes not for specific candidates but for political parties. ______ once the votes have been tabulated, each party is awarded a number of seats proportional to the number of votes it received.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn contrast to first-past-the-post electoral processes, the proportional representation system by which Sweden’s Parliament is elected begins with citizens casting their votes not for specific candidates but for political parties. ______ once the votes have been tabulated, each party is awarded a number of seats proportional to the number of votes it received.",
     "choices": [
       {
         "id": "A",
@@ -788,21 +787,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_23",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe timing of geyser eruptions in Yellowstone National Park is highly dependent on the individual geyser. For instance, Castle Geyser, in Yellowstone\u2019s Upper Geyser Basin, erupts at regular intervals, 10 to 12 hours apart. ______ predicting Castle Geyser\u2019s next eruption with some accuracy is feasible.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe timing of geyser eruptions in Yellowstone National Park is highly dependent on the individual geyser. For instance, Castle Geyser, in Yellowstone’s Upper Geyser Basin, erupts at regular intervals, 10 to 12 hours apart. ______ predicting Castle Geyser’s next eruption with some accuracy is feasible.",
     "choices": [
       {
         "id": "A",
@@ -824,9 +823,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_24",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "The student wants to emphasize a difference between *Ephydra cinerea* and *Nodularia*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Great Salt Lake in Utah is one of the world\u2019s saltiest bodies of water.\n\u2022 The northern portion of the lake has a higher concentration of salt than the southern portion.\n\u2022 Aquatic insects called *Ephydra cinerea* live in the southern portion.\n\u2022 Bacteria called *Nodularia* live in the southern portion.\n\nThe student wants to emphasize a difference between *Ephydra cinerea* and *Nodularia*. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between *Ephydra cinerea* and *Nodularia*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Great Salt Lake in Utah is one of the world’s saltiest bodies of water.\n• The northern portion of the lake has a higher concentration of salt than the southern portion.\n• Aquatic insects called *Ephydra cinerea* live in the southern portion.\n• Bacteria called *Nodularia* live in the southern portion.",
     "choices": [
       {
         "id": "A",
@@ -850,7 +849,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "*Ephydra cinerea* and *Nodularia* both live in the Great Salt Lake\u2019s southern portion."
+        "text": "*Ephydra cinerea* and *Nodularia* both live in the Great Salt Lake’s southern portion."
       },
       {
         "id": "D",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_25",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "The student wants to provide an example of one of Catlett\u2019s sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Elizabeth Catlett (1915\u20132012) was a celebrated African American artist.\n\u2022 She is best known for creating sculptures and prints that explore the Black experience.\n\u2022 *Star Gazer* is a 1997 sculpture by Catlett.\n\u2022 *Dancing* is a 1990 print by Catlett.\n\nThe student wants to provide an example of one of Catlett\u2019s sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of one of Catlett’s sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Elizabeth Catlett (1915–2012) was a celebrated African American artist.\n• She is best known for creating sculptures and prints that explore the Black experience.\n• *Star Gazer* is a 1997 sculpture by Catlett.\n• *Dancing* is a 1990 print by Catlett.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_26",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "The student wants to identify the painting for which Shannon won a Carnegie Prize gold medal. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Artist James Jebusa Shannon of the US won a Carnegie Prize gold medal in 1897.\n\u2022 The Carnegie Prize is an international art competition.\n\u2022 It is administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania.\n\u2022 Shannon\u2019s winning artwork was a painting entitled *Miss Kitty*.\n\nThe student wants to identify the painting for which Shannon won a Carnegie Prize gold medal. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to identify the painting for which Shannon won a Carnegie Prize gold medal. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Artist James Jebusa Shannon of the US won a Carnegie Prize gold medal in 1897.\n• The Carnegie Prize is an international art competition.\n• It is administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania.\n• Shannon’s winning artwork was a painting entitled *Miss Kitty*.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_27",
     "testName": "June 2024 US Form C SAT English Module 1",
-    "text": "The student wants to provide a specific example of onomatopoeia. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Onomatopoeias are words that imitate the sounds they represent.\n\u2022 Onomatopoeias used to represent the same sound often vary from language to language.\n\u2022 This variation is due in part to differences in how languages are structured.\n\u2022 \u201cP\u0113ng p\u0113ng\u201d is a Mandarin Chinese onomatopoeia that represents the sound of a heartbeat.\n\u2022 \u201cDup dap dup dap\u201d is a Malay onomatopoeia that represents the sound of a heartbeat.\n\u2022 The term \u201conomatopoeia\u201d combines the Greek words for \u201cname\u201d (*onoma*) and \u201cto make\u201d (*poiein*).\n\nThe student wants to provide a specific example of onomatopoeia. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide a specific example of onomatopoeia. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Onomatopoeias are words that imitate the sounds they represent.\n• Onomatopoeias used to represent the same sound often vary from language to language.\n• This variation is due in part to differences in how languages are structured.\n• “Pēng pēng” is a Mandarin Chinese onomatopoeia that represents the sound of a heartbeat.\n• “Dup dap dup dap” is a Malay onomatopoeia that represents the sound of a heartbeat.\n• The term “onomatopoeia” combines the Greek words for “name” (*onoma*) and “to make” (*poiein*).",
     "choices": [
       {
         "id": "A",
@@ -958,17 +957,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "The term \u201conomatopoeia,\u201d which refers to words that imitate the sound they represent, combines the Greek words for \u201cname\u201d and \u201cto make.\u201d"
+        "text": "The term “onomatopoeia,” which refers to words that imitate the sound they represent, combines the Greek words for “name” and “to make.”"
       },
       {
         "id": "D",
-        "text": "The Malay word \u201cdup dap dup dap\u201d both imitates and represents the sound of a heartbeat."
+        "text": "The Malay word “dup dap dup dap” both imitates and represents the sound of a heartbeat."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

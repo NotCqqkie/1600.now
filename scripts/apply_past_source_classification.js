@@ -9,6 +9,8 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, "..");
 const MODULES_DIR = path.join(ROOT, "src", "data", "Modules");
 const ALL_QUESTIONS_PATH = path.join(ROOT, "src", "data", "all_questions.ts");
+const MODULE_TS_IMPORT = 'import { Question } from "../all_questions";';
+const IGNORED_MODULE_FILES = new Set(["failed_images.json", "image_manifest.json"]);
 
 const escapeForTs = (value) => {
   if (value == null) return null;
@@ -37,7 +39,12 @@ const toClassifierInput = (question) => ({
 const listModuleJsonFiles = async () => {
   const entries = await fs.readdir(MODULES_DIR, { withFileTypes: true });
   return entries
-    .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
+    .filter(
+      (entry) =>
+        entry.isFile() &&
+        entry.name.endsWith(".json") &&
+        !IGNORED_MODULE_FILES.has(entry.name),
+    )
     .map((entry) => path.join(MODULES_DIR, entry.name))
     .sort();
 };
@@ -50,6 +57,94 @@ const loadModuleQuestions = async (filePath) => {
 
 const writeModuleQuestions = async (filePath, questions) => {
   await fs.writeFile(filePath, `${JSON.stringify(questions, null, 2)}\n`, "utf8");
+};
+
+const writeIfChanged = async (filePath, content) => {
+  const current = await fs.readFile(filePath, "utf8").catch(() => null);
+  if (current === content) {
+    return false;
+  }
+
+  await fs.writeFile(filePath, content, "utf8");
+  return true;
+};
+
+const buildTsCategory = (question, metadataEntry) => {
+  if (metadataEntry?.category) {
+    return metadataEntry.category;
+  }
+
+  if (!question.domain || !question.skill) {
+    return null;
+  }
+
+  return {
+    subject: question.section === "Math" ? "Math" : "English",
+    domain: question.domain,
+    skill: question.skill,
+    confidence: "high",
+  };
+};
+
+const buildModuleTsQuestion = (question, metadataEntry) => {
+  const output = {};
+
+  if ("section" in question) {
+    output.section = question.section;
+  }
+  if ("domain" in question) {
+    output.domain = question.domain ?? null;
+  }
+  if ("skill" in question) {
+    output.skill = question.skill ?? null;
+  }
+  if ("difficulty" in question) {
+    output.difficulty = question.difficulty ?? null;
+  }
+  if ("rationale" in question) {
+    output.rationale = question.rationale ?? null;
+  }
+
+  output.id = question.id;
+  output.testName = question.test_name ?? "";
+  output.text = getQuestionText(question);
+  output.choices = (question.choices ?? []).map((choice) => {
+    const mappedChoice = { id: getChoiceId(choice) };
+    if (choice.text != null) {
+      mappedChoice.text = choice.text;
+    }
+    if (choice.image != null) {
+      mappedChoice.image = choice.image;
+    }
+    return mappedChoice;
+  });
+  output.correctAnswer = question.correct_answer ?? "";
+  output.type = question.is_fill_in_blank ? "free-response" : "multiple-choice";
+
+  const category = buildTsCategory(question, metadataEntry);
+  if (category) {
+    output.category = category;
+  }
+
+  return output;
+};
+
+const rebuildModuleTsFiles = async (loadedFiles, metadata) => {
+  let syncedModuleTsFiles = 0;
+
+  for (const { filePath, questions } of loadedFiles) {
+    const tsPath = filePath.replace(/\.json$/u, ".ts");
+    const renderedQuestions = questions.map((question) =>
+      buildModuleTsQuestion(question, metadata.get(String(question.id))),
+    );
+    const content = `${MODULE_TS_IMPORT}\n\nexport const questions: Question[] = ${JSON.stringify(renderedQuestions, null, 2)};\n`;
+
+    if (await writeIfChanged(tsPath, content)) {
+      syncedModuleTsFiles += 1;
+    }
+  }
+
+  return syncedModuleTsFiles;
 };
 
 const updateModuleJsonSources = async () => {
@@ -102,7 +197,7 @@ const updateModuleJsonSources = async () => {
     }
   }
 
-  return { files, loaded, changedFiles, changedQuestions };
+  return { files, loaded, metadata, changedFiles, changedQuestions };
 };
 
 const rebuildAllQuestionsTs = async (loadedFiles) => {
@@ -194,8 +289,9 @@ const rebuildAllQuestionsTs = async (loadedFiles) => {
 };
 
 const main = async () => {
-  const { loaded, changedFiles, changedQuestions } = await updateModuleJsonSources();
+  const { loaded, metadata, changedFiles, changedQuestions } = await updateModuleJsonSources();
   const rebuiltCount = await rebuildAllQuestionsTs(loaded);
+  const syncedModuleTsFiles = await rebuildModuleTsFiles(loaded, metadata);
 
   console.log(
     JSON.stringify(
@@ -203,6 +299,7 @@ const main = async () => {
         changedFiles,
         changedQuestions,
         rebuiltQuestions: rebuiltCount,
+        syncedModuleTsFiles,
       },
       null,
       2,

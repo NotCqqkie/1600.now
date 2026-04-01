@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_1",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhether the reign of a French monarch such as Louis VII or Henry V was historically consequential or relatively uneventful, its trajectory was shaped by questions of legitimacy and therefore cannot be understood without a corollary understanding of the characteristics without which the monarch would have been forced to ______ the throne.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhether the reign of a French monarch such as Louis VII or Henry V was historically consequential or relatively uneventful, its trajectory was shaped by questions of legitimacy and therefore cannot be understood without a corollary understanding of the characteristics without which the monarch would have been forced to ______ the throne.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_2",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWith his widely celebrated portraits of poet Seamus Heaney, molecular biologist Struther Arnott, and other prominent figures in different fields, British painter Peter Edwards has ______ substantial prestige as an artist.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWith his widely celebrated portraits of poet Seamus Heaney, molecular biologist Struther Arnott, and other prominent figures in different fields, British painter Peter Edwards has ______ substantial prestige as an artist.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_3",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough many ______ studies of the effect of altitude on blood chemistry focus on people who live above sea level, researchers Suleiman A. Al-Sweedan and Moath Alhaj recently chose the novel path of focusing on people who live below sea level, in locations such as the California towns of Salton City and Coachella.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough many ______ studies of the effect of altitude on blood chemistry focus on people who live above sea level, researchers Suleiman A. Al-Sweedan and Moath Alhaj recently chose the novel path of focusing on people who live below sea level, in locations such as the California towns of Salton City and Coachella.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_4",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "As used in the text, what does the word \"deep\" most nearly mean?\nThe following text is adapted from William Wordsworth's 1798 poem \"*Lines Written a Few Miles above Tintern Abbey*.\" Once again\nDo I behold these steep and lofty cliffs,\nWhich on a wild secluded scene impress\nThoughts of more <u>deep</u> seclusion; and connect\nThe landscape with the quiet of the sky.\n\nAs used in the text, what does the word \"deep\" most nearly mean?",
+    "text": "As used in the text, what does the word \"deep\" most nearly mean?\nThe following text is adapted from William Wordsworth's 1798 poem \"*Lines Written a Few Miles above Tintern Abbey*.\" Once again\nDo I behold these steep and lofty cliffs,\nWhich on a wild secluded scene impress\nThoughts of more <u>deep</u> seclusion; and connect\nThe landscape with the quiet of the sky.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_5",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Caves of Gargas paintings\u2014stencils of human hands found in what is now France and dating from around 27,000 years ago\u2014are thought of as art today, but the question of whether the people of the time understood the paintings as something akin to art in our modern sense or in some other way entirely is ______; we will never be able to answer it.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Caves of Gargas paintings—stencils of human hands found in what is now France and dating from around 27,000 years ago—are thought of as art today, but the question of whether the people of the time understood the paintings as something akin to art in our modern sense or in some other way entirely is ______; we will never be able to answer it.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_6",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\nEden Robinson is a novelist and a member of the Haisla Nation in western Canada. Critics and fellow writers have praised her work for combining traditional Haisla stories with popular genres of literature, such as fantasy and mystery fiction. But Robinson is not the only Indigenous writer to blend traditional stories with popular literature. In the 2019 novel *Empire of Wild*, Cherie Dimaline successfully blended the oral storytelling tradition of her people, the Metis, with horror fiction.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nEden Robinson is a novelist and a member of the Haisla Nation in western Canada. Critics and fellow writers have praised her work for combining traditional Haisla stories with popular genres of literature, such as fantasy and mystery fiction. But Robinson is not the only Indigenous writer to blend traditional stories with popular literature. In the 2019 novel *Empire of Wild*, Cherie Dimaline successfully blended the oral storytelling tradition of her people, the Metis, with horror fiction.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_7",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Based on the texts, how would the author of Text 2 most likely respond to the claim in the underline sentence of Text 1\nText 1\n<u>Attempts to automate classification of music into genres have not been very successful, and we may be at the limit of what is technologically possible.</u>But it's not clear that this is a worthwhile pursuit in any case--as Jin Ha Lee and An h Thu Nguyen argue in their study of the South Korean band BTS, relationships between pieces of music may be best understood with concepts other than genre.\nText 2\nTango is a genre of music originally from Argentina and Uruguay that shares some harmonic and rhythmic similarities with the pagode genre. Automated genre classification systems typically struggle to draw distinctions in situations like this, but Yandre Costa and colleagues solved that problem by converting sound to images and having computers compare features of those images, an approach that demonstrates how much innovation is possible in this field.\n\nBased on the texts, how would the author of Text 2 most likely respond to the claim in the underline sentence of Text 1",
+    "text": "Based on the texts, how would the author of Text 2 most likely respond to the claim in the underline sentence of Text 1\nText 1\n<u>Attempts to automate classification of music into genres have not been very successful, and we may be at the limit of what is technologically possible.</u>But it's not clear that this is a worthwhile pursuit in any case--as Jin Ha Lee and An h Thu Nguyen argue in their study of the South Korean band BTS, relationships between pieces of music may be best understood with concepts other than genre.\nText 2\nTango is a genre of music originally from Argentina and Uruguay that shares some harmonic and rhythmic similarities with the pagode genre. Automated genre classification systems typically struggle to draw distinctions in situations like this, but Yandre Costa and colleagues solved that problem by converting sound to images and having computers compare features of those images, an approach that demonstrates how much innovation is possible in this field.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_8",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Based on the text, what does the narrator mainly remember about the times when his mother chanted to him?\nThe following text is adapted from Adib Khorram's 2018 novel *Darius the Great Is Not Okay*. Darius, a teenager from the United States, is visiting his family members in Iran.\nI dozed and floated on the clouds of Farsi that blew my way from the front seat of Dayi [Uncle] Jamsheed's SUV.\nIt reminded me of when I was little, and Mom chanted to me in Farsi every night before bedtime. It's hard to describe Farsi chanting: the way Mom drew her voice out like the notes of a cello as she recited poems by Rumi or Hafez. I didn't know what they meant, but that didn't matter. It was quiet and soothing.\n\u00a92018 by Adib Khorram\n\nBased on the text, what does the narrator mainly remember about the times when his mother chanted to him?",
+    "text": "Based on the text, what does the narrator mainly remember about the times when his mother chanted to him?\nThe following text is adapted from Adib Khorram's 2018 novel *Darius the Great Is Not Okay*. Darius, a teenager from the United States, is visiting his family members in Iran.\nI dozed and floated on the clouds of Farsi that blew my way from the front seat of Dayi [Uncle] Jamsheed's SUV.\nIt reminded me of when I was little, and Mom chanted to me in Farsi every night before bedtime. It's hard to describe Farsi chanting: the way Mom drew her voice out like the notes of a cello as she recited poems by Rumi or Hafez. I didn't know what they meant, but that didn't matter. It was quiet and soothing.\n©2018 by Adib Khorram",
     "choices": [
       {
         "id": "A",
@@ -283,9 +283,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_9",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nHorses and barn owls can see in three dimensions (3D), which helps them perceive distance and depth. Octopuses and squid are thought to lack 3D vision. Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true. The team studied how cuttlefish wearing 3D glasses reacted to 3D images of shrimp (a favorite prey) projected on a tank wall. Cuttlefish changed their striking position to match the 3D images, suggesting that their vision is more like that of horses and barn owls than that of octopuses or squid.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nHorses and barn owls can see in three dimensions (3D), which helps them perceive distance and depth. Octopuses and squid are thought to lack 3D vision. Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true. The team studied how cuttlefish wearing 3D glasses reacted to 3D images of shrimp (a favorite prey) projected on a tank wall. Cuttlefish changed their striking position to match the 3D images, suggesting that their vision is more like that of horses and barn owls than that of octopuses or squid.",
     "choices": [
       {
         "id": "A",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_10",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nMinimum and Maximum Depths of Stony Coral\nSpecies in Caribbean and Indo-Pacific Waters\nThe table is from a 2018 study in which Luiz Rocha and colleagues examined the ranges of depths at which certain stony coral species have been found in Caribbean and Indo-Pacific waters. Among the corals in the table, the species with the greatest range between minimum and maximum depths is ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nMinimum and Maximum Depths of Stony Coral\nSpecies in Caribbean and Indo-Pacific Waters\nThe table is from a 2018 study in which Luiz Rocha and colleagues examined the ranges of depths at which certain stony coral species have been found in Caribbean and Indo-Pacific waters. Among the corals in the table, the species with the greatest range between minimum and maximum depths is ______",
     "choices": [
       {
         "id": "A",
@@ -355,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_23A_Eng_M2_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_11",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which quotation from a translation of *The Underdogs* most effectively illustrates the claim?\n*The Underdogs* is a 1915 novel by Mariano Azuela, originally written in Spanish. In the novel, a group of soldiers travel through a canyon, where their collective mood becomes strongly affected by the strenuous conditions of their journey: ______\n\nWhich quotation from a translation of *The Underdogs* most effectively illustrates the claim?",
+    "text": "Which quotation from a translation of *The Underdogs* most effectively illustrates the claim?\n*The Underdogs* is a 1915 novel by Mariano Azuela, originally written in Spanish. In the novel, a group of soldiers travel through a canyon, where their collective mood becomes strongly affected by the strenuous conditions of their journey: ______",
     "choices": [
       {
         "id": "A",
@@ -392,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -402,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_12",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nUS Hydroelectric Power Plants, 2019\nPlant\nState\nMode\nAverage annual power generation (MWh/yr)\nWater Source\nScanlon Plant\nMinnesota\nRun-of-river\n7,511\nSt. Louis River\nKansas River Plant\nKansas\nRun-of-river\n15,345\nKansas River\nSqua Pan Hydro\nMaine\nPeaking\n881\nSqua Pan Stream\nGreat Falls\nTennessee\nPeaking\n124,392\nCaney Fork River\nA run-of-river hydroelectric power plant, as the name suggests, uses the natural flow of a water source to generate electricity but is unable to start or stop that flow through its generators. In contrast, a peaking hydroelectric power plant (used when demand for electricity peaks) controls the flow of water through its generators: starting flow when demand is high enough, stopping it when demand is too low, and otherwise regulating it to keep pace with changing electricity needs. Although peaking plants do not typically operate continuously as run-of-river plants do, peaking plants can generate more megawatt-hours of power per year (MWh/yr) than some run-of-river plants. For example, the ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nUS Hydroelectric Power Plants, 2019\nPlant\nState\nMode\nAverage annual power generation (MWh/yr)\nWater Source\nScanlon Plant\nMinnesota\nRun-of-river\n7,511\nSt. Louis River\nKansas River Plant\nKansas\nRun-of-river\n15,345\nKansas River\nSqua Pan Hydro\nMaine\nPeaking\n881\nSqua Pan Stream\nGreat Falls\nTennessee\nPeaking\n124,392\nCaney Fork River\nA run-of-river hydroelectric power plant, as the name suggests, uses the natural flow of a water source to generate electricity but is unable to start or stop that flow through its generators. In contrast, a peaking hydroelectric power plant (used when demand for electricity peaks) controls the flow of water through its generators: starting flow when demand is high enough, stopping it when demand is too low, and otherwise regulating it to keep pace with changing electricity needs. Although peaking plants do not typically operate continuously as run-of-river plants do, peaking plants can generate more megawatt-hours of power per year (MWh/yr) than some run-of-river plants. For example, the ______",
     "choices": [
       {
         "id": "A",
@@ -428,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_13",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which quotation from an interview with a costume designer would most effectively support the student's claim?\nThe 2000 production of *The Green Bird* was the first Broadway show for which Constance Hoffman was credited as a costume designer. Hoffman was among the Broadway costume designers interviewed by Sara Jablon-Roberts and Eulanda A. Sanders for their study of historical accuracy in costume design for shows with a historical setting. They found that even designers who value historical accuracy will often include contemporary design elements that don't fit with the historical period. In a research paper about theatrical costume design, a student argues that costume designers for modern productions of Shakespeare's *A Midsummer Night's Dream* (set in ancient Greece) sometimes include such elements unintentionally.\n\nWhich quotation from an interview with a costume designer would most effectively support the student's claim?",
+    "text": "Which quotation from an interview with a costume designer would most effectively support the student's claim?\nThe 2000 production of *The Green Bird* was the first Broadway show for which Constance Hoffman was credited as a costume designer. Hoffman was among the Broadway costume designers interviewed by Sara Jablon-Roberts and Eulanda A. Sanders for their study of historical accuracy in costume design for shows with a historical setting. They found that even designers who value historical accuracy will often include contemporary design elements that don't fit with the historical period. In a research paper about theatrical costume design, a student argues that costume designers for modern productions of Shakespeare's *A Midsummer Night's Dream* (set in ancient Greece) sometimes include such elements unintentionally.",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -473,12 +472,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_14",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nIn order to identify research trends, Shirley Ann Williams et al., reviewed a collection of studies of the social media website Twitter, such as the 2011 paper by Celik et al., titled \"Learning Semantic Relationships between Entities in Twitter.\" Williams's team searched for the term \"Twitter\" on the Scopus and Web of Science databases and found that, though most papers returned by the search did in fact focus on the social media platform, a few discussed unrelated subjects such as sounds made by tractor engines. One reasonable explanation for this result is that it occurred because ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nIn order to identify research trends, Shirley Ann Williams et al., reviewed a collection of studies of the social media website Twitter, such as the 2011 paper by Celik et al., titled \"Learning Semantic Relationships between Entities in Twitter.\" Williams's team searched for the term \"Twitter\" on the Scopus and Web of Science databases and found that, though most papers returned by the search did in fact focus on the social media platform, a few discussed unrelated subjects such as sounds made by tractor engines. One reasonable explanation for this result is that it occurred because ______",
     "choices": [
       {
         "id": "A",
@@ -500,9 +499,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_15",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nIn a 2012 study in the United States, Michael E. Berndt and Travis K. Bavin found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water. Many other studies have yielded similar results, suggesting to some scientists that this association is true for all bodies of fresh water. But much of that research has been conducted at broadly similar sites in North America, and when Seam Noh and colleagues examined bodies of fresh water in South Korea, they found a negative association between dissolved organic carbon levels and mercury levels. If similar findings emerge from other locations outside North America, that could suggest that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nIn a 2012 study in the United States, Michael E. Berndt and Travis K. Bavin found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water. Many other studies have yielded similar results, suggesting to some scientists that this association is true for all bodies of fresh water. But much of that research has been conducted at broadly similar sites in North America, and when Seam Noh and colleagues examined bodies of fresh water in South Korea, they found a negative association between dissolved organic carbon levels and mercury levels. If similar findings emerge from other locations outside North America, that could suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_16",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the thought-provoking 2010 exhibition *Relative Pelican* at the Stux Gallery in New York, Sokari Douglas Camp presented sculptures that had been ______ welded from recycled metal materials, such as oil drums. In doing so, the London-based Nigerian sculptor challenged viewers to imagine new uses and futures for the material wastes of the past.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the thought-provoking 2010 exhibition *Relative Pelican* at the Stux Gallery in New York, Sokari Douglas Camp presented sculptures that had been ______ welded from recycled metal materials, such as oil drums. In doing so, the London-based Nigerian sculptor challenged viewers to imagine new uses and futures for the material wastes of the past.",
     "choices": [
       {
         "id": "A",
@@ -572,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -582,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_17",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Puerto Rico, it's not unusual for a city or town to be known ______ a nickname that corresponds to one of its notable features, like landscape, climate, famous residents, or chief exports. For example, the Puerto Rican municipality of Hatillo has also been called \"the Land of Green Fields,\" a nickname that alludes to what the area is well known for: the lush greenery that surrounds it.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Puerto Rico, it's not unusual for a city or town to be known ______ a nickname that corresponds to one of its notable features, like landscape, climate, famous residents, or chief exports. For example, the Puerto Rican municipality of Hatillo has also been called \"the Land of Green Fields,\" a nickname that alludes to what the area is well known for: the lush greenery that surrounds it.",
     "choices": [
       {
         "id": "A",
@@ -594,7 +593,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "by\u2014"
+        "text": "by—"
       },
       {
         "id": "C",
@@ -608,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -618,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_18",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 2021, Sarah McAnulty ______ as a biologist at the University of Connecticut, studying squids.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 2021, Sarah McAnulty ______ as a biologist at the University of Connecticut, studying squids.",
     "choices": [
       {
         "id": "A",
@@ -644,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -654,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_19",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe word \"robot\" ______ first used in the 1920 play *R. U. R.* by Czech author Karel Capek.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe word \"robot\" ______ first used in the 1920 play *R. U. R.* by Czech author Karel Capek.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -690,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_20",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the spring of 1964, it was hard to go anywhere without hearing the song \"Cotton Candy\" by the Sylvers. As of April 11, the song had spent thirteen straight weeks on the Billboard Hot 100 chart and ______ No. 1 on the list.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the spring of 1964, it was hard to go anywhere without hearing the song \"Cotton Candy\" by the Sylvers. As of April 11, the song had spent thirteen straight weeks on the Billboard Hot 100 chart and ______ No. 1 on the list.",
     "choices": [
       {
         "id": "A",
@@ -716,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_21",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 2000, the United States Congress designated a portion of Pennsylvania as the Lackawanna Valley National Heritage Area, ______ the region's unique natural, cultural, and historical attributes.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 2000, the United States Congress designated a portion of Pennsylvania as the Lackawanna Valley National Heritage Area, ______ the region's unique natural, cultural, and historical attributes.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_22",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn 1940, scientists first isolated a sample of the steroid hormone androstenone, which they knew existed in animals\u2014and, they assumed, only in animals. ______ scientists know that androstenone can also be found in chokecherry plants (*Prunus virginiana*), but this discovery didn't occur until decades later.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 1940, scientists first isolated a sample of the steroid hormone androstenone, which they knew existed in animals—and, they assumed, only in animals. ______ scientists know that androstenone can also be found in chokecherry plants (*Prunus virginiana*), but this discovery didn't occur until decades later.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_23",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nAccording to traditional classifications, each of William Shakespeare's plays belongs to one of three distinct genres: comedy, history, or tragedy. The play *Much Ado About Nothing* (1598-99), ______ is classified as a comedy, whereas *Richard II* (1595) is classified as a history.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAccording to traditional classifications, each of William Shakespeare's plays belongs to one of three distinct genres: comedy, history, or tragedy. The play *Much Ado About Nothing* (1598-99), ______ is classified as a comedy, whereas *Richard II* (1595) is classified as a history.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_24",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIf you were to view the Ol Kokwe volcano in Kenya or the Asavyo volcano in Ethiopia from above, you might notice that their low profiles and gently sloping sides make each of them look a bit like a shield lying flat on the ground. ______ volcanologists classify volcanoes of this type as shield volcanoes.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIf you were to view the Ol Kokwe volcano in Kenya or the Asavyo volcano in Ethiopia from above, you might notice that their low profiles and gently sloping sides make each of them look a bit like a shield lying flat on the ground. ______ volcanologists classify volcanoes of this type as shield volcanoes.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_25",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThough its onboard laboratory allowed it to analyze rock samples on site, the 2011 Mars Curiosity rover was unable to preserve samples for future analysis. ______ when creating the 2020 Mars Perseverance rover, robotics mechanical engineer Arash Kalantari and other members of NASA's Jet Propulsion Laboratory sought to implement a mechanism that could do exactly that.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThough its onboard laboratory allowed it to analyze rock samples on site, the 2011 Mars Curiosity rover was unable to preserve samples for future analysis. ______ when creating the 2020 Mars Perseverance rover, robotics mechanical engineer Arash Kalantari and other members of NASA's Jet Propulsion Laboratory sought to implement a mechanism that could do exactly that.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_26",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThough the musical groups Los Palominos and Banda Los Recoditos are often categorized under the catchall \"regional Mexican music\" label, they each adhere to distinct musical traditions. The former works within the tejano tradition, which originated in mid-twentieth-century Texas and northern Mexico. The latter, ______ follows the banda tradition, with roots in mid-nineteenth-century southern and central Mexico.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThough the musical groups Los Palominos and Banda Los Recoditos are often categorized under the catchall \"regional Mexican music\" label, they each adhere to distinct musical traditions. The former works within the tejano tradition, which originated in mid-twentieth-century Texas and northern Mexico. The latter, ______ follows the banda tradition, with roots in mid-nineteenth-century southern and central Mexico.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_27",
     "testName": "June 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nWater from the aquifers of Alaska's Susitna Glacier travels the 160 km length of the Skwentna River before flowing into the Yentna River and then reaching the mouth of the river system's main stem, the Susitna River. ______ at the Susitna's mouth, hundreds of kilometers from the source, the water empties into the Gulf of Alaska.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWater from the aquifers of Alaska's Susitna Glacier travels the 160 km length of the Skwentna River before flowing into the Yentna River and then reaching the mouth of the river system's main stem, the Susitna River. ______ at the Susitna's mouth, hundreds of kilometers from the source, the water empties into the Gulf of Alaska.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"

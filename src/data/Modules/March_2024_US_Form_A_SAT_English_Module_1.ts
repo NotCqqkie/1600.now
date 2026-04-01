@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_1",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe National Heritage Fellowship was created to ______ exceptional folk and traditional artists in the United States. One artist who received the fellowship, the Kunqu opera singer Hua Wenyi, was chosen for her lifetime contributions to the arts.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe National Heritage Fellowship was created to ______ exceptional folk and traditional artists in the United States. One artist who received the fellowship, the Kunqu opera singer Hua Wenyi, was chosen for her lifetime contributions to the arts.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_2",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \"idle\" most nearly mean?\nThe following text is adapted from the 1895 poem \"The Song My Paddle Sings\" by Emily Pauline Johnson (Tekahionwake).\nWest wind blow from your prairie nest,\nBlow from the mountains, blow from the west.\nThe sail is <u>idle</u>, the sailor too;\nO! wind of the west, we wait for you\n\nAs used in the text, what does the word \"idle\" most nearly mean?",
+    "text": "As used in the text, what does the word \"idle\" most nearly mean?\nThe following text is adapted from the 1895 poem \"The Song My Paddle Sings\" by Emily Pauline Johnson (Tekahionwake).\nWest wind blow from your prairie nest,\nBlow from the mountains, blow from the west.\nThe sail is <u>idle</u>, the sailor too;\nO! wind of the west, we wait for you",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_3",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nFirms in related industries often cluster in an area, as is the case in Blackburn, UK, where many knitted clothing manufacturers as well as footwear manufacturers are located. Some economists assume that the reasons for this are ______ across sectors, but as Giulia Faggio and colleagues show, certain factors influence some industry groupings more strongly than others.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nFirms in related industries often cluster in an area, as is the case in Blackburn, UK, where many knitted clothing manufacturers as well as footwear manufacturers are located. Some economists assume that the reasons for this are ______ across sectors, but as Giulia Faggio and colleagues show, certain factors influence some industry groupings more strongly than others.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_4",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the Corpus of Contemporary American English are enormous collections of electronically stored texts that can be used for empirical testing of hypotheses regarding the frequency of typical word usage. For example, a linguist who assumes that the word \"great\" appears quite often in written English could ______ that assumption with data from a corpus: \"great\" is the sixth most commonly used adjective.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the Corpus of Contemporary American English are enormous collections of electronically stored texts that can be used for empirical testing of hypotheses regarding the frequency of typical word usage. For example, a linguist who assumes that the word \"great\" appears quite often in written English could ______ that assumption with data from a corpus: \"great\" is the sixth most commonly used adjective.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_5",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text?\n<u>In 2014 Leon Green and Fredrik Jutfelt published a study concluding that ocean acidification has a strong effect on the behavior of *Scyliorhinus canicula*, a species of fish. However, Green and Jutfelt's study relied on a mean sample size of only 7 fish.</u> In a 2022 review of various scientists\u2019 conclusions about the impacts of ocean acidification on fish behavior, Jeff C. Clements and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.\n\nWhich choice best describes the function of the underlined sentence in the text?",
+    "text": "Which choice best describes the function of the underlined sentence in the text?\n<u>In 2014 Leon Green and Fredrik Jutfelt published a study concluding that ocean acidification has a strong effect on the behavior of *Scyliorhinus canicula*, a species of fish. However, Green and Jutfelt's study relied on a mean sample size of only 7 fish.</u> In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Jeff C. Clements and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_6",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nCan red fescue plants grow on Mars? Can pea plants? <u>You might think the answer to these questions is obviously no</u>, but researchers in Europe recently showed that many common plant species can thrive in soil designed to simulate Martian conditions, as long as water is supplied. In fact, some species actually did better in Martian soil than in Earth soil: 91 percent of red fescue plants grown in simulated Martian soil were alive after 50 days, compared with 86 percent that were when planted in soil from their home planet.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nCan red fescue plants grow on Mars? Can pea plants? <u>You might think the answer to these questions is obviously no</u>, but researchers in Europe recently showed that many common plant species can thrive in soil designed to simulate Martian conditions, as long as water is supplied. In fact, some species actually did better in Martian soil than in Earth soil: 91 percent of red fescue plants grown in simulated Martian soil were alive after 50 days, compared with 86 percent that were when planted in soil from their home planet.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -219,49 +219,49 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_7",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Based on the text, what is Camila's primary reaction to the feedback she receives from Juan Ram\u00f3n Jim\u00e9nez?\nThe following text is adapted from Julia Alvarez's 2000 novel *In the Name of Salom\u00e9*. Camila is the daughter of a famous poet, Salom\u00e9, and also writes her own poetry. Max is her brother.\nShe (Camila) has already sent them (her poems) to Max, who has written back saying that they are \"fabulous.\" He wants to publish them in the Dominican papers with the headline, SALOM\u00c9 LIVES AGAIN, but she has begged him not to, for she is not very sure of them. She has also sent a handful to an old family friend, the poet Juan Ram\u00f3n Jim\u00e9nez, and he has been more circumspect, \"Fine line,\" he has written here and there, but the pages are riddled with tiny, penciled suggestions. She knows from her teaching that this is not a good sign, the use of pencil intended to soften the indignity of the corrections.\n\nBased on the text, what is Camila's primary reaction to the feedback she receives from Juan Ram\u00f3n Jim\u00e9nez?",
+    "text": "Based on the text, what is Camila's primary reaction to the feedback she receives from Juan Ramón Jiménez?\nThe following text is adapted from Julia Alvarez's 2000 novel *In the Name of Salomé*. Camila is the daughter of a famous poet, Salomé, and also writes her own poetry. Max is her brother.\nShe (Camila) has already sent them (her poems) to Max, who has written back saying that they are \"fabulous.\" He wants to publish them in the Dominican papers with the headline, SALOMÉ LIVES AGAIN, but she has begged him not to, for she is not very sure of them. She has also sent a handful to an old family friend, the poet Juan Ramón Jiménez, and he has been more circumspect, \"Fine line,\" he has written here and there, but the pages are riddled with tiny, penciled suggestions. She knows from her teaching that this is not a good sign, the use of pencil intended to soften the indignity of the corrections.",
     "choices": [
       {
         "id": "A",
-        "text": "She is pleased Juan Ram\u00f3n Jim\u00e9nez points out several lines of particular merit in her poems, as she regards him as a talented poet."
+        "text": "She is pleased Juan Ramón Jiménez points out several lines of particular merit in her poems, as she regards him as a talented poet."
       },
       {
         "id": "B",
-        "text": "She is grateful for Juan Ram\u00f3n Jim\u00e9nez's reassurance about her work even though he has been very direct in his criticism of it."
+        "text": "She is grateful for Juan Ramón Jiménez's reassurance about her work even though he has been very direct in his criticism of it."
       },
       {
         "id": "C",
-        "text": "She is familiar with the approach Juan Ram\u00f3n Jim\u00e9nez has taken and is therefore aware that it is meant to be a sensitive way of indicating the faults in her work."
+        "text": "She is familiar with the approach Juan Ramón Jiménez has taken and is therefore aware that it is meant to be a sensitive way of indicating the faults in her work."
       },
       {
         "id": "D",
-        "text": "She wishes that Juan Ram\u00f3n Jim\u00e9nez had higher praise for her poems, and she disagrees with some of the changes he has suggested."
+        "text": "She wishes that Juan Ramón Jiménez had higher praise for her poems, and she disagrees with some of the changes he has suggested."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_8",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "What does the text most strongly suggest about Tom Towers?\nThe following text is adapted from Anthony Trollope's 1855 novel *The Warden*. Tom Towers is a writer for the newspaper *The Jupiter*.\nIt is true that in far-off provinces men did not talk daily of Tom Towers, but they read *The Jupiter*, and acknowledged that without *The Jupiter* life was not worth having. This kind of hidden but still conscious glory suited the nature of the man. He loved to sit silent in a corner of his club and listen to the loud chattering of politicians, and to think how they all were in his power; how he could smite the loudest of them, were it worth his while to raise his pen for such a purpose.\n\nWhat does the text most strongly suggest about Tom Towers?",
+    "text": "What does the text most strongly suggest about Tom Towers?\nThe following text is adapted from Anthony Trollope's 1855 novel *The Warden*. Tom Towers is a writer for the newspaper *The Jupiter*.\nIt is true that in far-off provinces men did not talk daily of Tom Towers, but they read *The Jupiter*, and acknowledged that without *The Jupiter* life was not worth having. This kind of hidden but still conscious glory suited the nature of the man. He loved to sit silent in a corner of his club and listen to the loud chattering of politicians, and to think how they all were in his power; how he could smite the loudest of them, were it worth his while to raise his pen for such a purpose.",
     "choices": [
       {
         "id": "A",
@@ -283,9 +283,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_9",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nThe Cherokee language of the Southeast is one of the most widely spoken Native languages in what is now the continental United States, with approximately 11,470 speakers, according to a 2015 report by the US Census Bureau. Though spoken by fewer people than Cherokee, the Hopi language of the Southwest nonetheless has a population of speakers that numbers in the thousands. The Census Bureau report indicates that in the US, Hopi is spoken by approximately ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nThe Cherokee language of the Southeast is one of the most widely spoken Native languages in what is now the continental United States, with approximately 11,470 speakers, according to a 2015 report by the US Census Bureau. Though spoken by fewer people than Cherokee, the Hopi language of the Southwest nonetheless has a population of speakers that numbers in the thousands. The Census Bureau report indicates that in the US, Hopi is spoken by approximately ______",
     "choices": [
       {
         "id": "A",
@@ -319,22 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_USA_Eng_M1_Q9_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_10",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nSome scientists have suggested that as ocean temperatures rise, many fish and corals found in the shallow zone (less than 30 meters below the surface) could take refuge in the cooler, darker mesophotic zone (30 to 150 meters below the surface). However, it isn't clear that all such species will be able to tolerate mesophotic conditions. In 2018, Luiz Rocha and colleagues studied stony corals in the two zones in Caribbean and Indo-Pacific waters. Based on the depths at which those corals are now found, the species that seems least suited to a full migration to the mesophotic zone is ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nSome scientists have suggested that as ocean temperatures rise, many fish and corals found in the shallow zone (less than 30 meters below the surface) could take refuge in the cooler, darker mesophotic zone (30 to 150 meters below the surface). However, it isn't clear that all such species will be able to tolerate mesophotic conditions. In 2018, Luiz Rocha and colleagues studied stony corals in the two zones in Caribbean and Indo-Pacific waters. Based on the depths at which those corals are now found, the species that seems least suited to a full migration to the mesophotic zone is ______",
     "choices": [
       {
         "id": "A",
@@ -356,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_USA_Eng_M1_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_11",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the text?\n*Hemerocallis* sp. plants typically carry a negative electrical charge, while bees and other pollinators tend to accumulate a positive charge. Given that negatively and positively charged objects attract, a research team hypothesized that the difference in charges could attract *Hemerocallis* sp. stamens to the plants' pollinators. Based on the team's experiments, the hypothesis was well supported for positive charges above a certain threshold. The team found that queen honeybees exceeded that threshold, which suggests that ______\n\nWhich choice most effectively uses data from the graph to complete the text?",
+    "text": "Which choice most effectively uses data from the graph to complete the text?\n*Hemerocallis* sp. plants typically carry a negative electrical charge, while bees and other pollinators tend to accumulate a positive charge. Given that negatively and positively charged objects attract, a research team hypothesized that the difference in charges could attract *Hemerocallis* sp. stamens to the plants' pollinators. Based on the team's experiments, the hypothesis was well supported for positive charges above a certain threshold. The team found that queen honeybees exceeded that threshold, which suggests that ______",
     "choices": [
       {
         "id": "A",
@@ -393,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_USA_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_12",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the underlined claim?\nThe Reckoning and Resilience (2022) exhibition at Duke University's Nasher Museum of Art in Durham, North Carolina, is dedicated to the work of thirty North Carolina artists, including Beverly McIver, Ashley Johnson, and Kimberley Pierce Cartwright. <u>Although the Nasher Museum has focused exhibitions entirely on North Carolina artists before, as it did previously in the photography exhibition Across County Lines, the breadth of disciplines in Reckoning and Resilience sets it apart.</u>\n\nWhich finding, if true, would most directly support the underlined claim?",
+    "text": "Which finding, if true, would most directly support the underlined claim?\nThe Reckoning and Resilience (2022) exhibition at Duke University's Nasher Museum of Art in Durham, North Carolina, is dedicated to the work of thirty North Carolina artists, including Beverly McIver, Ashley Johnson, and Kimberley Pierce Cartwright. <u>Although the Nasher Museum has focused exhibitions entirely on North Carolina artists before, as it did previously in the photography exhibition Across County Lines, the breadth of disciplines in Reckoning and Resilience sets it apart.</u>",
     "choices": [
       {
         "id": "A",
@@ -430,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -440,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_13",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nTo understand consumer loyalty to specific online retailers, Stevan Milisavljevi\u0107 and colleagues conducted a survey using 58 statements as proxy indicators of customer experience with receiving online purchases. The statements were categorized by topic\u2014e.g., statement 13, \"I am eagerly awaiting the delivery of the ordered items,\" was categorized as joyful anticipation\u2014and respondents, all of whom were from Serbia (which is characterized as having a developing economy), rated the importance of each statement to their experience. Researchers found that participants placed low importance on package aesthetics and high importance on speedy delivery and package tracking, but the researchers cautioned against applying the findings to customers generally, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nTo understand consumer loyalty to specific online retailers, Stevan Milisavljević and colleagues conducted a survey using 58 statements as proxy indicators of customer experience with receiving online purchases. The statements were categorized by topic—e.g., statement 13, \"I am eagerly awaiting the delivery of the ordered items,\" was categorized as joyful anticipation—and respondents, all of whom were from Serbia (which is characterized as having a developing economy), rated the importance of each statement to their experience. Researchers found that participants placed low importance on package aesthetics and high importance on speedy delivery and package tracking, but the researchers cautioned against applying the findings to customers generally, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -466,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -476,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_14",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nNarwhals are shy whales that live in the remote Arctic Ocean. Some of them have a long tusk, like a unicorn horn, with sensitive nerves. Narwhals are known for this tusk, but many actually don't have one and its purpose is unknown. One group of scientists came up with a possible purpose in 2014. The scientists suggested that the tusk may help narwhals determine when water around them is likely to start freezing and become dangerous for them. Marine biologist Kristin Laidre disagrees with that idea, though. She reasons that if the narwhal's tusk serves such an important purpose, then it's most likely that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nNarwhals are shy whales that live in the remote Arctic Ocean. Some of them have a long tusk, like a unicorn horn, with sensitive nerves. Narwhals are known for this tusk, but many actually don't have one and its purpose is unknown. One group of scientists came up with a possible purpose in 2014. The scientists suggested that the tusk may help narwhals determine when water around them is likely to start freezing and become dangerous for them. Marine biologist Kristin Laidre disagrees with that idea, though. She reasons that if the narwhal's tusk serves such an important purpose, then it's most likely that ______",
     "choices": [
       {
         "id": "A",
@@ -502,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -512,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_15",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAntonio Martorell\u2019s 2010 woodcut print La Piaya Negra I (Tar Beach I) has been displayed at the Smithsonian American Art ______ features a large collection of contemporary art.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAntonio Martorell’s 2010 woodcut print La Piaya Negra I (Tar Beach I) has been displayed at the Smithsonian American Art ______ features a large collection of contemporary art.",
     "choices": [
       {
         "id": "A",
@@ -538,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -548,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_16",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAccording to the original text of the US Constitution, written in 1787, the presidential candidate receiving the second most Electoral College votes becomes vice president. The 12 th amendment, ratified in ______ separated the elections for the two offices.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAccording to the original text of the US Constitution, written in 1787, the presidential candidate receiving the second most Electoral College votes becomes vice president. The 12 th amendment, ratified in ______ separated the elections for the two offices.",
     "choices": [
       {
         "id": "A",
@@ -568,13 +565,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "1804\u2014"
+        "text": "1804—"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -584,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_17",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe city of Algiers, Algeria, is home to an office of the International Criminal Police Organization (Interpol). However, you won't see Interpol agents chasing international criminals in Algiers. Interpol can help with investigations, but only Algerian authorities ______ permitted to make arrests there.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe city of Algiers, Algeria, is home to an office of the International Criminal Police Organization (Interpol). However, you won't see Interpol agents chasing international criminals in Algiers. Interpol can help with investigations, but only Algerian authorities ______ permitted to make arrests there.",
     "choices": [
       {
         "id": "A",
@@ -610,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -620,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_18",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nElias Canetti of Bulgaria won it; Eyvind Johnson of Sweden won it, too. These are just two examples of the wide range of writers to be granted what is arguably the most prestigious ______ the Nobel Prize in Literature.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nElias Canetti of Bulgaria won it; Eyvind Johnson of Sweden won it, too. These are just two examples of the wide range of writers to be granted what is arguably the most prestigious ______ the Nobel Prize in Literature.",
     "choices": [
       {
         "id": "A",
@@ -646,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -656,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_19",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCut, bent, and welded from discarded metal materials, the sculptures of London-based Nigerian artist Sokari Douglas Camp are meant to challenge viewers to consider their own relationships to material ______ her thought provoking works in the 2008 exhibition *ARESUVA* at the African Regional Summit and Exhibition on Visual Art in Abuja (Nigeria) were no different.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCut, bent, and welded from discarded metal materials, the sculptures of London-based Nigerian artist Sokari Douglas Camp are meant to challenge viewers to consider their own relationships to material ______ her thought provoking works in the 2008 exhibition *ARESUVA* at the African Regional Summit and Exhibition on Visual Art in Abuja (Nigeria) were no different.",
     "choices": [
       {
         "id": "A",
@@ -682,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -692,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_20",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs behavioral economists, Ai Hisano, a senior lecturer at Kyoto ______ professor at Georgetown University; and Iris Bohnet, a professor at Harvard University, apply insights from psychology to the study of economic issues.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs behavioral economists, Ai Hisano, a senior lecturer at Kyoto ______ professor at Georgetown University; and Iris Bohnet, a professor at Harvard University, apply insights from psychology to the study of economic issues.",
     "choices": [
       {
         "id": "A",
@@ -718,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -728,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_21",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs of 2017, the US's top tax rate of 48% was lower than the country's Laffer curve peak (76%). To some economists, whether a tax cut will ultimately increase the US's tax revenue is dependent on the country's position on the Laffer curve, a theoretical relationship between tax rates and revenue ______ sketched on a napkin by economist Arthur Laffer in 1974.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs of 2017, the US's top tax rate of 48% was lower than the country's Laffer curve peak (76%). To some economists, whether a tax cut will ultimately increase the US's tax revenue is dependent on the country's position on the Laffer curve, a theoretical relationship between tax rates and revenue ______ sketched on a napkin by economist Arthur Laffer in 1974.",
     "choices": [
       {
         "id": "A",
@@ -754,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -764,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_22",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nF. Julius LeMoyne's home in Pennsylvania was one of dozens of stops on the underground railroad (the network of people and places that some enslaved people used to escape to freedom). The word \"underground\" may lead one to assume that LeMoyne kept his antislavery views a secret. ______ his views were quite well known.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nF. Julius LeMoyne's home in Pennsylvania was one of dozens of stops on the underground railroad (the network of people and places that some enslaved people used to escape to freedom). The word \"underground\" may lead one to assume that LeMoyne kept his antislavery views a secret. ______ his views were quite well known.",
     "choices": [
       {
         "id": "A",
@@ -790,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -800,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_23",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nDespite its great distance from Earth\u2014it is 840 light-years away\u2014the star Gamma Velorum is one of the brightest stars in the sky, ranking 30th. Although not as bright as Gamma Velorum, the star Alkaid also ranks among the 50 brightest stars (40th, to be exact). ______ Alkaid's brightness is likely due to the star's relative proximity: Alkaid is only 100 light-years from Earth.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nDespite its great distance from Earth—it is 840 light-years away—the star Gamma Velorum is one of the brightest stars in the sky, ranking 30th. Although not as bright as Gamma Velorum, the star Alkaid also ranks among the 50 brightest stars (40th, to be exact). ______ Alkaid's brightness is likely due to the star's relative proximity: Alkaid is only 100 light-years from Earth.",
     "choices": [
       {
         "id": "A",
@@ -826,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -836,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_24",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis of 200 terms, researchers found a broad pattern of valence-dependent mutation for which negative words saw a faster rate of cognate replacement\u2014______ the rate at which a word will be replaced over time with a noncognate form. Adjectives (e.g., \"negative\") saw the largest effect; nouns (e.g., \"victim\"), meanwhile, saw the smallest.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis of 200 terms, researchers found a broad pattern of valence-dependent mutation for which negative words saw a faster rate of cognate replacement—______ the rate at which a word will be replaced over time with a noncognate form. Adjectives (e.g., \"negative\") saw the largest effect; nouns (e.g., \"victim\"), meanwhile, saw the smallest.",
     "choices": [
       {
         "id": "A",
@@ -862,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -872,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_25",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "The student wants to emphasize calcite\u2019s Mohs scale number. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n\u2022 Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n\u2022 Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n\u2022 The mineral talc has a Mohs scale number of 1.\n\u2022 The mineral calcite has a Mohs scale number of 3.\n\u2022 The mineral orthoclase has a Mohs scale number of 6.\n\nThe student wants to emphasize calcite\u2019s Mohs scale number. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize calcite’s Mohs scale number. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n• Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n• Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n• The mineral talc has a Mohs scale number of 1.\n• The mineral calcite has a Mohs scale number of 3.\n• The mineral orthoclase has a Mohs scale number of 6.",
     "choices": [
       {
         "id": "A",
@@ -898,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -908,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_26",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "The student wants to emphasize a similarity between the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The United States has designated more than 500 areas National Wildlife Refuges (NWRs).\n\u2022 Some NWRs were established specifically to protect endangered species.\n\u2022 The Bear Valley NWR is a 4,200-acre area in Oregon.\n\u2022 It was established to protect the endangered bald eagle.\n\u2022 The Moapa Valley NWR is a 32-acre area in Nevada.\n\u2022 It was established to protect the endangered Moapa dace.\n\nThe student wants to emphasize a similarity between the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The United States has designated more than 500 areas National Wildlife Refuges (NWRs).\n• Some NWRs were established specifically to protect endangered species.\n• The Bear Valley NWR is a 4,200-acre area in Oregon.\n• It was established to protect the endangered bald eagle.\n• The Moapa Valley NWR is a 32-acre area in Nevada.\n• It was established to protect the endangered Moapa dace.",
     "choices": [
       {
         "id": "A",
@@ -920,7 +917,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Some NWRs, such as Nevada\u2019s Moapa Valley, were established specifically to protect endangered species."
+        "text": "Some NWRs, such as Nevada’s Moapa Valley, were established specifically to protect endangered species."
       },
       {
         "id": "C",
@@ -934,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -944,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_27",
     "testName": "March 2024 US Form A SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to specify Avery Johnson\u2019s contribution to India Arie\u2019s music?\nWhile researching a topic, a student has taken the following notes:\n\u2022 India Arie is an African American singer and songwriter.\n\u2022 The media outlet BBC Music has described her music as a \"blend of hip hop, soul and folk [that is] as subtle as it [is] inspired.\"\n\u2022 Her first studio album, *Acoustic Soul*, was released in 2001.\n\u2022 It features the song \"Back to the Middle.\"\n\u2022 Avery Johnson played bass on the album.\n\nWhich choice most effectively uses information from the given sentences to specify Avery Johnson\u2019s contribution to India Arie\u2019s music?",
+    "text": "Which choice most effectively uses information from the given sentences to specify Avery Johnson’s contribution to India Arie’s music?\nWhile researching a topic, a student has taken the following notes:\n• India Arie is an African American singer and songwriter.\n• The media outlet BBC Music has described her music as a \"blend of hip hop, soul and folk [that is] as subtle as it [is] inspired.\"\n• Her first studio album, *Acoustic Soul*, was released in 2001.\n• It features the song \"Back to the Middle.\"\n• Avery Johnson played bass on the album.",
     "choices": [
       {
         "id": "A",
@@ -956,21 +953,21 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Acoustic Soul, India Arie\u2019s first studio album, features Avery Johnson."
+        "text": "Acoustic Soul, India Arie’s first studio album, features Avery Johnson."
       },
       {
         "id": "C",
-        "text": "Featuring the song \u201cBack to the Middle,\u201d Acoustie Soul is India Arie\u2019s first studio album."
+        "text": "Featuring the song “Back to the Middle,” Acoustie Soul is India Arie’s first studio album."
       },
       {
         "id": "D",
-        "text": "Avery Johnson played bass on India Arie\u2019s 2001 album Acoustic Soul."
+        "text": "Avery Johnson played bass on India Arie’s 2001 album Acoustic Soul."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_1",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe organizers specifically indicated that the conference was intended to focus on children's literature, so despite the education specialist's ______ her expertise on the subject in general, she found that she could speak authoritatively about the works of illustrator Michele Wood, particularly *I See the Rhythm*, which she had used effectively in classroom instruction for many years.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe organizers specifically indicated that the conference was intended to focus on children's literature, so despite the education specialist's ______ her expertise on the subject in general, she found that she could speak authoritatively about the works of illustrator Michele Wood, particularly *I See the Rhythm*, which she had used effectively in classroom instruction for many years.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_2",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhen discussing literary movements in Spain, scholars regularly characterize the works of Miguel de Unamuno as especially representative of the Generation of \u201898. The reasons for this characterization may seem ______, but linking Unamuno with the Generation of '98 risks disregarding the subtleties in his style that do not neatly conform to the conventions of this literary movement.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhen discussing literary movements in Spain, scholars regularly characterize the works of Miguel de Unamuno as especially representative of the Generation of ‘98. The reasons for this characterization may seem ______, but linking Unamuno with the Generation of '98 risks disregarding the subtleties in his style that do not neatly conform to the conventions of this literary movement.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_3",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "As used in the text, what does the word \u201cpart\u201d most nearly mean?\nThe following text is from Jacqueline Woodson\u2019s 2018 novel *Harbor Me*. My uncle is a musician and a storyteller. He says the hardest <u>part</u> of telling a story is finding the beginning.\n\u00a92018 by Jacqueline Woodson\n\nAs used in the text, what does the word \u201cpart\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “part” most nearly mean?\nThe following text is from Jacqueline Woodson’s 2018 novel *Harbor Me*. My uncle is a musician and a storyteller. He says the hardest <u>part</u> of telling a story is finding the beginning.\n©2018 by Jacqueline Woodson",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_4",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe sloping tile roofs and picturesque facade of Mission San Jos\u00e9 in Fremont, California, exemplify the Spanish contribution to Californian architecture, an influence that is ______ throughout the state: architectural tourists visiting the Santa Fe Depot in San Diego, for example, can easily recognize how its style draws inspiration from the Spanish missions.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe sloping tile roofs and picturesque facade of Mission San José in Fremont, California, exemplify the Spanish contribution to Californian architecture, an influence that is ______ throughout the state: architectural tourists visiting the Santa Fe Depot in San Diego, for example, can easily recognize how its style draws inspiration from the Spanish missions.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_5",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn 2015 Filipa Faleiro and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Hippocampus guttulatus*, a species of fish. However, Faleiro and colleagues\u2019 study relied on a mean sample size of only 6 fish. In a 2022 review of various scientists\u2019 conclusions about the impacts of ocean acidification on fish behavior, Jeff C. Clements and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. <u>Such analysis, in turn, can contribute to reports of exaggerated effects.</u>\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn 2015 Filipa Faleiro and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Hippocampus guttulatus*, a species of fish. However, Faleiro and colleagues’ study relied on a mean sample size of only 6 fish. In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Jeff C. Clements and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. <u>Such analysis, in turn, can contribute to reports of exaggerated effects.</u>",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -183,13 +183,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_6",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Taken together, the three underlined portions most clearly serve which function in the text as a whole?\nThe following text is from a 1911 translation of Guy de Maupassant's 1881 short story \u201cA Family Affair.\u201d The narrator is describing Monsieur Alfred Caravan, a bureaucrat in the French government. For the last thirty years he had invariably gone the same way to his office every morning, and had met the same men going to business at the same time, and nearly on the same spot. Every morning, after buying his penny paper at the corner of the Faubourg Saint Honore, he bought two rolls, and then went to his office, <u>like a culprit</u> who is giving himself up to justice, and got to his desk as quickly as possible, always feeling uneasy, as though he were <u>expecting a rebuke</u> for some neglect of duty of which he might have been guilty.\n\nTaken together, the three underlined portions most clearly serve which function in the text as a whole?",
+    "text": "Taken together, the three underlined portions most clearly serve which function in the text as a whole?\nThe following text is from a 1911 translation of Guy de Maupassant's 1881 short story “A Family Affair.” The narrator is describing Monsieur Alfred Caravan, a bureaucrat in the French government. For the last thirty years he had invariably gone the same way to his office every morning, and had met the same men going to business at the same time, and nearly on the same spot. Every morning, after buying his penny paper at the corner of the Faubourg Saint Honore, he bought two rolls, and then went to his office, <u>like a culprit</u> who is giving himself up to justice, and got to his desk as quickly as possible, always feeling uneasy, as though he were <u>expecting a rebuke</u> for some neglect of duty of which he might have been guilty.",
     "choices": [
       {
         "id": "A",
@@ -211,9 +211,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_7",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\n*Argyroxiphium sandwicense* is a species in a family of plants known collectively as the silversword alliance, all of which grow only on the Hawaiian Islands. Members of this alliance exhibit an extraordinary range of phenotypes, with some species maturing into vines and others into shrubs and trees. All species in the alliance descended from a single ancestral tarweed plant that arrived on the islands around 5 million years ago. The tarweed's descendants diversified into distinct species as they adapted to live in the wide variety of habitats found on the Hawaiian Islands.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\n*Argyroxiphium sandwicense* is a species in a family of plants known collectively as the silversword alliance, all of which grow only on the Hawaiian Islands. Members of this alliance exhibit an extraordinary range of phenotypes, with some species maturing into vines and others into shrubs and trees. All species in the alliance descended from a single ancestral tarweed plant that arrived on the islands around 5 million years ago. The tarweed's descendants diversified into distinct species as they adapted to live in the wide variety of habitats found on the Hawaiian Islands.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_8",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Based on the texts, how would the author of Text 2 most likely respond to the problem presented in Text 1?\nText 1\nOne challenge faced by researchers studying global urbanization is that countries may define urban settlements differently. Many countries define urban settlements based on the number of people living in them. However, countries do not all use the same number; for example, Greenland uses a minimum population of 200, while the Netherlands uses 20,000. Other countries use a combination of population and other factors. This variation makes it difficult for researchers to compare aspects of urbanization in different countries.\nText 2\nRecently, a group of six international organizations developed global definitions of common types of settlements. The group developed a new measure called the \u201cdegree of urbanization.\u201d This new measure establishes global criteria used to define three types of settlements (cities, towns, and rural areas) and allows researchers to better understand global urbanization rates.\n\nBased on the texts, how would the author of Text 2 most likely respond to the problem presented in Text 1?",
+    "text": "Based on the texts, how would the author of Text 2 most likely respond to the problem presented in Text 1?\nText 1\nOne challenge faced by researchers studying global urbanization is that countries may define urban settlements differently. Many countries define urban settlements based on the number of people living in them. However, countries do not all use the same number; for example, Greenland uses a minimum population of 200, while the Netherlands uses 20,000. Other countries use a combination of population and other factors. This variation makes it difficult for researchers to compare aspects of urbanization in different countries.\nText 2\nRecently, a group of six international organizations developed global definitions of common types of settlements. The group developed a new measure called the “degree of urbanization.” This new measure establishes global criteria used to define three types of settlements (cities, towns, and rural areas) and allows researchers to better understand global urbanization rates.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_9",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "What does the text most strongly suggest about the value of Drelichman and Voth's research to their discipline?\nMauricio Drelichman and Hans-Joachim Voth's research on the fiscal vulnerability of Philip II (who ruled not only Spain but other regions including Milan from 1556 to 1598) builds on other studies of European early modern state finance, including Hoffman and Norberg's work on the relationship between state finance and political development. But Drelichman and Voth's unique contribution is their reconstruction of the earliest extant set of annual fiscal records for any sovereign state, which demonstrate that Philip's defaults were caused by short-term liquidity crises, not long-term unsustainable debts.\n\nWhat does the text most strongly suggest about the value of Drelichman and Voth's research to their discipline?",
+    "text": "What does the text most strongly suggest about the value of Drelichman and Voth's research to their discipline?\nMauricio Drelichman and Hans-Joachim Voth's research on the fiscal vulnerability of Philip II (who ruled not only Spain but other regions including Milan from 1556 to 1598) builds on other studies of European early modern state finance, including Hoffman and Norberg's work on the relationship between state finance and political development. But Drelichman and Voth's unique contribution is their reconstruction of the earliest extant set of annual fiscal records for any sovereign state, which demonstrate that Philip's defaults were caused by short-term liquidity crises, not long-term unsustainable debts.",
     "choices": [
       {
         "id": "A",
@@ -319,21 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_10",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which finding, if true, would most directly challenge the second team's claim?\nVeronica L. Bura, Akito Y, Kawahara, and Jayne E. Yack investigated the evolution and function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks on caterpillars, 33% of the tested species produced sound, which ranged from clicks in *Antheraea pernyi* to whistles in *Phyllosphingia dissimilis*. A second research team has claimed that caterpillars use these sounds primarily to communicate with other members of their species.\n\nWhich finding, if true, would most directly challenge the second team's claim?",
+    "text": "Which finding, if true, would most directly challenge the second team's claim?\nVeronica L. Bura, Akito Y, Kawahara, and Jayne E. Yack investigated the evolution and function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks on caterpillars, 33% of the tested species produced sound, which ranged from clicks in *Antheraea pernyi* to whistles in *Phyllosphingia dissimilis*. A second research team has claimed that caterpillars use these sounds primarily to communicate with other members of their species.",
     "choices": [
       {
         "id": "A",
@@ -355,21 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_11",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Based on the text, which potential study design would be most likely to produce evidence that would enable Grasby et al. to answer their research question?\nGoogle's introduction of the Chrome web browser in 2008 is a quintessential instance of brand extension-the company leveraged its brand recognition as an internet search provider to enter a product category where it had not previously competed. An outstanding question is whether perceived category similarity predicts consumers likelihood of purchasing brand extensions. To answer this question, Alicia Grasby et al. identified 30 extended-brand pairs (e.g, the same brand of shoes and gloves) in 52 weeks of purchases by approximately 60,000 households and, for each pair, calculated the change in probability of a brand in one category being purchased if the same brand was purchased in the other category.\n\nBased on the text, which potential study design would be most likely to produce evidence that would enable Grasby et al. to answer their research question?",
+    "text": "Based on the text, which potential study design would be most likely to produce evidence that would enable Grasby et al. to answer their research question?\nGoogle's introduction of the Chrome web browser in 2008 is a quintessential instance of brand extension-the company leveraged its brand recognition as an internet search provider to enter a product category where it had not previously competed. An outstanding question is whether perceived category similarity predicts consumers likelihood of purchasing brand extensions. To answer this question, Alicia Grasby et al. identified 30 extended-brand pairs (e.g, the same brand of shoes and gloves) in 52 weeks of purchases by approximately 60,000 households and, for each pair, calculated the change in probability of a brand in one category being purchased if the same brand was purchased in the other category.",
     "choices": [
       {
         "id": "A",
@@ -391,9 +391,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_12",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the example?\nNeuroscientist Kiyohito Iigaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much). They then recruited participants to use the same scale to rate several sets of paintings in various styles and calculated the correlation between the ratings predicted by the model and those reported by the participants. Assuming participant P6 gave equal ratings to the abstract and cubist paintings, the data in the graph indicate the model predicted that ______\n\nWhich choice most effectively uses data from the graph to complete the example?",
+    "text": "Which choice most effectively uses data from the graph to complete the example?\nNeuroscientist Kiyohito Iigaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much). They then recruited participants to use the same scale to rate several sets of paintings in various styles and calculated the correlation between the ratings predicted by the model and those reported by the participants. Assuming participant P6 gave equal ratings to the abstract and cubist paintings, the data in the graph indicate the model predicted that ______",
     "choices": [
       {
         "id": "A",
@@ -427,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_USA_Eng_M2_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_13",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nTo understand consumer loyalty to specific online retailers, Marina \u1e90i\u1e91akov and colleagues conducted a survey using 58 statements as proxy indicators of customer experience with receiving online purchases. The statements were categorized by topic\u2014e.g, statement 13, \u201cI am eagerly awaiting the delivery of the ordered items,\u201d was categorized as joyful anticipation and respondents, all of whom were from Serbia (which is characterized as having a developing economy), rated the importance of each statement to their experience. Researchers found that participants placed low importance on package aesthetics and high importance on speedy delivery and package tracking, but the researchers cautioned against applying the findings to customers generally, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nTo understand consumer loyalty to specific online retailers, Marina Ẑiẑakov and colleagues conducted a survey using 58 statements as proxy indicators of customer experience with receiving online purchases. The statements were categorized by topic—e.g, statement 13, “I am eagerly awaiting the delivery of the ordered items,” was categorized as joyful anticipation and respondents, all of whom were from Serbia (which is characterized as having a developing economy), rated the importance of each statement to their experience. Researchers found that participants placed low importance on package aesthetics and high importance on speedy delivery and package tracking, but the researchers cautioned against applying the findings to customers generally, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -472,13 +471,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_14",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nChelsea Wood et al. tracked temperature-driven changes in the abundance of *Opechona sp.* (a complex life cycle parasite, or CLP, that requires three host species throughout its life cycle), *Anthocotyle merlucci* (a directly transmitted parasite, which requires only one host species), and 83 other parasite taxa found on eight fish species. CLPs are transmitted when an infected host is ingested by an individual of another species, typically shielding CLPs from the external environment, whereas directly transmitted parasites are exposed to external conditions during transmission. However, Wood et al. found that three-host CLP abundance decreased as sea temperatures rose, whereas directly transmitted parasite abundance was largely stable, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nChelsea Wood et al. tracked temperature-driven changes in the abundance of *Opechona sp.* (a complex life cycle parasite, or CLP, that requires three host species throughout its life cycle), *Anthocotyle merlucci* (a directly transmitted parasite, which requires only one host species), and 83 other parasite taxa found on eight fish species. CLPs are transmitted when an infected host is ingested by an individual of another species, typically shielding CLPs from the external environment, whereas directly transmitted parasites are exposed to external conditions during transmission. However, Wood et al. found that three-host CLP abundance decreased as sea temperatures rose, whereas directly transmitted parasite abundance was largely stable, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -500,9 +499,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_15",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nProlonged exposure to anthropogenic noise (sounds from human sources like traffic or mining) can affect animals, as Debra M. Shier and colleagues found in a 2012 study of Stephens kangaroo rats. Researchers conducted a meta-analysis of studies of how such noise affects animals and found that, for every study, relevant traits or behaviors of the animals were observably different between the exposed group and the otherwise similar but unexposed group. Although, on average, studies of mammals showed larger differences than studies of amphibians did, for every class of animals examined, there were individual studies showing differences well above the average for mammals. Therefore, the results of the meta-analysis suggest that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nProlonged exposure to anthropogenic noise (sounds from human sources like traffic or mining) can affect animals, as Debra M. Shier and colleagues found in a 2012 study of Stephens kangaroo rats. Researchers conducted a meta-analysis of studies of how such noise affects animals and found that, for every study, relevant traits or behaviors of the animals were observably different between the exposed group and the otherwise similar but unexposed group. Although, on average, studies of mammals showed larger differences than studies of amphibians did, for every class of animals examined, there were individual studies showing differences well above the average for mammals. Therefore, the results of the meta-analysis suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_16",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Byzantine Empire, which reigned in the Mediterranean from around 330 CE to 1453 CE, benefited from trade with other societies: its merchants exported salt, textiles, and iron and ______ other valuable commodities, such as silk, grain, and spices, which were then traded locally.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Byzantine Empire, which reigned in the Mediterranean from around 330 CE to 1453 CE, benefited from trade with other societies: its merchants exported salt, textiles, and iron and ______ other valuable commodities, such as silk, grain, and spices, which were then traded locally.",
     "choices": [
       {
         "id": "A",
@@ -572,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_17",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn his work, Sahtu-M\u00e9tis artist Rick Rivet uses acrylic, oil, and other mediums to explore Indigenous spirituality and its iconography. The Eiteljorg Museum counts pieces by Rivet in ______ impressive collection of Native artworks.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn his work, Sahtu-Métis artist Rick Rivet uses acrylic, oil, and other mediums to explore Indigenous spirituality and its iconography. The Eiteljorg Museum counts pieces by Rivet in ______ impressive collection of Native artworks.",
     "choices": [
       {
         "id": "A",
@@ -608,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -618,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_18",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn March 6, 2002, Canadian astronomers detected a striking and unusual phenomenon occurring in the constellation Lepus, 160 million light-years from ______ explosion of a massive star, also known as a supernova, an extremely bright vet transient event that typically results from the collapse of a star's core.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn March 6, 2002, Canadian astronomers detected a striking and unusual phenomenon occurring in the constellation Lepus, 160 million light-years from ______ explosion of a massive star, also known as a supernova, an extremely bright vet transient event that typically results from the collapse of a star's core.",
     "choices": [
       {
         "id": "A",
@@ -644,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -654,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_19",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBetween December 28 and January 12 each year, particles shed by comet *(196256) 2003 EH1* enter Earth's atmosphere at a velocity of 41 kilometers per second. Relatively few of these particles are likely to reach Earth's ______ since the meteoroids' compression of the air surrounding them causes the vast majority to burn up in the mesosphere, producing the Quadrantid meteor shower.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBetween December 28 and January 12 each year, particles shed by comet *(196256) 2003 EH1* enter Earth's atmosphere at a velocity of 41 kilometers per second. Relatively few of these particles are likely to reach Earth's ______ since the meteoroids' compression of the air surrounding them causes the vast majority to burn up in the mesosphere, producing the Quadrantid meteor shower.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -689,12 +688,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_20",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a chemical reaction, the value known as molar mass helps convert between the mass of the reactants and the mass of the product. The gaseous ______ have molar masses of 150.21 and 16.04 g/mol, respectively.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a chemical reaction, the value known as molar mass helps convert between the mass of the reactants and the mass of the product. The gaseous ______ have molar masses of 150.21 and 16.04 g/mol, respectively.",
     "choices": [
       {
         "id": "A",
@@ -716,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_21",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe pedagogy of the Suzuki method is rooted in several central ______ by Japanese violinist Shinichi Suzuki, who sought to parallel the linguistic learning environment, the method emphasizes learning from skilled musicians who are also skilled teachers and teaches students as young as three to play simple classical pieces such as *The Two Grenadiers*.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe pedagogy of the Suzuki method is rooted in several central ______ by Japanese violinist Shinichi Suzuki, who sought to parallel the linguistic learning environment, the method emphasizes learning from skilled musicians who are also skilled teachers and teaches students as young as three to play simple classical pieces such as *The Two Grenadiers*.",
     "choices": [
       {
         "id": "A",
@@ -752,9 +751,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_22",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nKatharine Kuh and Bernarda Bryson Shahn have both received Lifetime Achievement Awards from the Women's Caucus for Art, though for different reasons. Kuh was honored for her work as an art historian; Bryson, ______ was recognized for her contributions as a painter.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nKatharine Kuh and Bernarda Bryson Shahn have both received Lifetime Achievement Awards from the Women's Caucus for Art, though for different reasons. Kuh was honored for her work as an art historian; Bryson, ______ was recognized for her contributions as a painter.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_23",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis of 200 terms, researchers found a broad pattern of valence\u2014dependent mutation for which negative words saw a faster rate of cognate replacement\u2014______ the rate at which a word will be replaced over time with a noncognate form. Adjectives (e.g., \u201cfrightened\u201d) saw the largest effect; nouns (e.g., \u201cpain\u201d), meanwhile, saw the smallest.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis of 200 terms, researchers found a broad pattern of valence—dependent mutation for which negative words saw a faster rate of cognate replacement—______ the rate at which a word will be replaced over time with a noncognate form. Adjectives (e.g., “frightened”) saw the largest effect; nouns (e.g., “pain”), meanwhile, saw the smallest.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_24",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nAt past Olympics, in contrast to demonstration sports with international appeal, regionally popular sports were exhibited as onetime showcases. ______ while the internationally popular sport of handball became a medal event after demonstration, kaatsen, a handball sport popular in the Netherlands, only appeared at the 1928 Amsterdam Olympics.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAt past Olympics, in contrast to demonstration sports with international appeal, regionally popular sports were exhibited as onetime showcases. ______ while the internationally popular sport of handball became a medal event after demonstration, kaatsen, a handball sport popular in the Netherlands, only appeared at the 1928 Amsterdam Olympics.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,23 +869,23 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_25",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "The student wants to emphasize a difference between the two compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Louis Ballard was a classical composer and citizen of the Quapaw Tribe.\n\u2022 His compositions synthesize Western classical music with elements of various Native musical traditions.\n\u2022 Ballard's classical piece *Live On, Heart of My Nation* features a Choctaw hymn.\n\u2022 Ballard's classical piece *Cac\u00e9ga Ayuwipi* incorporates a Haida gourd rattle, a traditional Native instrument.\n\nThe student wants to emphasize a difference between the two compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between the two compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Louis Ballard was a classical composer and citizen of the Quapaw Tribe.\n• His compositions synthesize Western classical music with elements of various Native musical traditions.\n• Ballard's classical piece *Live On, Heart of My Nation* features a Choctaw hymn.\n• Ballard's classical piece *Cacéga Ayuwipi* incorporates a Haida gourd rattle, a traditional Native instrument.",
     "choices": [
       {
         "id": "A",
-        "text": "While both compositions integrate various Native musical traditions, *Live On, Heart of My Nation* does so by featuring a Choctaw hymn and *Cac\u00e9ga Ayuwipi* does so by incorporating a Haida gourd rattle."
+        "text": "While both compositions integrate various Native musical traditions, *Live On, Heart of My Nation* does so by featuring a Choctaw hymn and *Cacéga Ayuwipi* does so by incorporating a Haida gourd rattle."
       },
       {
         "id": "B",
-        "text": "*Live On, Heart of My Nation* and *Cac\u00e9ga Ayuwipi* are two compositions written by Ballard, a classical music composer."
+        "text": "*Live On, Heart of My Nation* and *Cacéga Ayuwipi* are two compositions written by Ballard, a classical music composer."
       },
       {
         "id": "C",
-        "text": "In his two compositions *Live On, Heart of My Nation* and *Cac\u00e9ga Ayuwipi*, Ballard blends elements of various Native musical traditions, such as Indigenous hymns or instruments, with Western classical music."
+        "text": "In his two compositions *Live On, Heart of My Nation* and *Cacéga Ayuwipi*, Ballard blends elements of various Native musical traditions, such as Indigenous hymns or instruments, with Western classical music."
       },
       {
         "id": "D",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_26",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "The student wants to define the term \u201chigh-sinuosity river.\u201d Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A U-shaped curve in a river channel is called a meander.\n\u2022 A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side.\n\u2022 Meanders will gradually change shape and migrate downstream over time.\n\u2022 A river with high sinuosity has many meanders, and a river with low sinuosity has few.\n\u2022 The Willapa River in the United States has high sinuosity.\n\nThe student wants to define the term \u201chigh-sinuosity river.\u201d Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to define the term “high-sinuosity river.” Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A U-shaped curve in a river channel is called a meander.\n• A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side.\n• Meanders will gradually change shape and migrate downstream over time.\n• A river with high sinuosity has many meanders, and a river with low sinuosity has few.\n• The Willapa River in the United States has high sinuosity.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_27",
     "testName": "November 2024 US Form A SAT English Module 2",
-    "text": "The student wants to contrast the orbits of the two moons. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Uranus has twenty-seven moons, including Oberon and Miranda. Oberon completes an orbit of Uranus in 13.46 Earth days on average.\n\u2022 Miranda completes an orbit of Uranus in 1.41 Earth days on average.\n\u2022 German mathematician and astronomer Johannes Kepler (1571-1630) described the orbits of planets as elliptical in shape rather than circular.\n\u2022 Kepler published three laws of planetary motion to describe the orbits of planets around the Sun.\n\u2022 Kepler's laws also apply to the elliptical orbits of natural satellites (e.g., moons).\n\nThe student wants to contrast the orbits of the two moons. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast the orbits of the two moons. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Uranus has twenty-seven moons, including Oberon and Miranda. Oberon completes an orbit of Uranus in 13.46 Earth days on average.\n• Miranda completes an orbit of Uranus in 1.41 Earth days on average.\n• German mathematician and astronomer Johannes Kepler (1571-1630) described the orbits of planets as elliptical in shape rather than circular.\n• Kepler published three laws of planetary motion to describe the orbits of planets around the Sun.\n• Kepler's laws also apply to the elliptical orbits of natural satellites (e.g., moons).",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_1",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cfeatured\u201d most nearly mean?\nThe following text is from Darcie Little Badger\u2019s 2021 novel *A Snake Falls to Earth*. Nina is looking at old family photographs.\nNina couldn\u2019t stop looking at the sepia-toned photograph in an oak frame. Propped on the window ledge, it <u>featured</u> a portrait of Great-Great-Grandmother Rosita as a young woman.\n\u00a92021 by Darcie Little Badger\n\nAs used in the text, what does the word \u201cfeatured\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “featured” most nearly mean?\nThe following text is from Darcie Little Badger’s 2021 novel *A Snake Falls to Earth*. Nina is looking at old family photographs.\nNina couldn’t stop looking at the sepia-toned photograph in an oak frame. Propped on the window ledge, it <u>featured</u> a portrait of Great-Great-Grandmother Rosita as a young woman.\n©2021 by Darcie Little Badger",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_2",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \u201csurveyed\u201d most nearly mean?\nThe following text is from Mark Twain's 1876 novel *The Adventures of Tom Sawyer*. Tom, a child, has been told by his aunt to paint their house's fence. Tom appeared on the sidewalk with a bucket of whitewash and a long-handled brush. He <u>surveyed</u> the fence, and all gladness left him and a deep melancholy settled down upon his spirit. Thirty yards of board fence nine feet high.\n\nAs used in the text, what does the word \u201csurveyed\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “surveyed” most nearly mean?\nThe following text is from Mark Twain's 1876 novel *The Adventures of Tom Sawyer*. Tom, a child, has been told by his aunt to paint their house's fence. Tom appeared on the sidewalk with a bucket of whitewash and a long-handled brush. He <u>surveyed</u> the fence, and all gladness left him and a deep melancholy settled down upon his spirit. Thirty yards of board fence nine feet high.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_3",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPoliticians routinely claim that journalists are ______, but while it's true that some journalists allow their own views to creep into their reporting more than others do, most journalists make a good-faith effort to be neutral in their reporting.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPoliticians routinely claim that journalists are ______, but while it's true that some journalists allow their own views to creep into their reporting more than others do, most journalists make a good-faith effort to be neutral in their reporting.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_4",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise phrase?\nThe Sungai Mahakam River delta system is located in Indonesia, where the river drains into the Makassar Strait, and is shaped by ______ factors: for example, the geography of the coastline influences sedimentary deposition, which over time alters coastal geography.\n\nWhich choice completes the text with the most logical and precise phrase?",
+    "text": "Which choice completes the text with the most logical and precise phrase?\nThe Sungai Mahakam River delta system is located in Indonesia, where the river drains into the Makassar Strait, and is shaped by ______ factors: for example, the geography of the coastline influences sedimentary deposition, which over time alters coastal geography.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -148,12 +148,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_5",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from Jason Reynolds\u2019s 2016 novel *Ghost*. The narrator, who is in middle school, is at a bus stop.\nJust go there [to the bus stop] to look at the people working out. See, the gym across the street has this big window\u2014like the whole wall is a window\u2014and they have those machines that make you feel like you walking up steps and so everybody just be facing the bus stop, looking all crazy like they\u2019re about to pass out. And trust me, there ain\u2019t nothing funnier than that. So I check that out for a little while like it\u2019s some kind of movie: *The about to Pass Out Show*, starring stair-stepper person one through ten.\n\u00a92016 by Jason Reynolds\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from Jason Reynolds’s 2016 novel *Ghost*. The narrator, who is in middle school, is at a bus stop.\nJust go there [to the bus stop] to look at the people working out. See, the gym across the street has this big window—like the whole wall is a window—and they have those machines that make you feel like you walking up steps and so everybody just be facing the bus stop, looking all crazy like they’re about to pass out. And trust me, there ain’t nothing funnier than that. So I check that out for a little while like it’s some kind of movie: *The about to Pass Out Show*, starring stair-stepper person one through ten.\n©2016 by Jason Reynolds",
     "choices": [
       {
         "id": "A",
@@ -175,21 +175,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_6",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence?\nIn 1889, Ferdinand L. Barnett founded Omaha, Nebraska's first Black newspaper, *The Progress*. Barnett's accomplishment is just one example of the rich history of Black journalism in the United States. <u>That history is preserved by the National Association of Black Journalists, which was founded in Washington, DC, in 1975 to support Black media professionals and honor people like Barnett.</u>\n\nWhich choice best describes the function of the underlined sentence?",
+    "text": "Which choice best describes the function of the underlined sentence?\nIn 1889, Ferdinand L. Barnett founded Omaha, Nebraska's first Black newspaper, *The Progress*. Barnett's accomplishment is just one example of the rich history of Black journalism in the United States. <u>That history is preserved by the National Association of Black Journalists, which was founded in Washington, DC, in 1975 to support Black media professionals and honor people like Barnett.</u>",
     "choices": [
       {
         "id": "A",
@@ -211,21 +211,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_7",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes the overall structure of the text?\nCats and toads see in three dimensions (3D) by combining two images in their brains, one from each eye. This produces a sense of depth, helping the animals judge how close or far away an object is. Researchers have investigated 3D vision in praying mantises as well. In one study, Vivek Nity\u00e3nanda and his team fitted mantises' faces with two different color filters, one covering each eye, much like the filters in 3D glasses once worn at movies. By observing the mantises' reaction to projected images, the team confirmed that mantises do indeed have 3D vision, but it's unlike that of other animals.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nCats and toads see in three dimensions (3D) by combining two images in their brains, one from each eye. This produces a sense of depth, helping the animals judge how close or far away an object is. Researchers have investigated 3D vision in praying mantises as well. In one study, Vivek Nityãnanda and his team fitted mantises' faces with two different color filters, one covering each eye, much like the filters in 3D glasses once worn at movies. By observing the mantises' reaction to projected images, the team confirmed that mantises do indeed have 3D vision, but it's unlike that of other animals.",
     "choices": [
       {
         "id": "A",
@@ -247,57 +247,57 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_8",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "According to the text, what is one difference between the English words \u201ccocoa\u201d and \u201calpaca\u201d?\n\u201cCocoa\u201d is one example of an English word that has an Indigenous origin. The word came to English indirectly from cacao, the Spanish word for the plant that chocolate is made from. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is *cacahuatl*. \u201cAlpaca\u201d also has an Indigenous origin and entered English through Spanish. But in this case, the original source was Quechua, a language of South America, in which the word for the woolly farm animal is *allpaqa*.\n\nAccording to the text, what is one difference between the English words \u201ccocoa\u201d and \u201calpaca\u201d?",
+    "text": "According to the text, what is one difference between the English words “cocoa” and “alpaca”?\n“Cocoa” is one example of an English word that has an Indigenous origin. The word came to English indirectly from cacao, the Spanish word for the plant that chocolate is made from. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is *cacahuatl*. “Alpaca” also has an Indigenous origin and entered English through Spanish. But in this case, the original source was Quechua, a language of South America, in which the word for the woolly farm animal is *allpaqa*.",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cCocoa\u201d entered English recently, but \u201calpaca\u201d entered English many centuries ago."
+        "text": "“Cocoa” entered English recently, but “alpaca” entered English many centuries ago."
       },
       {
         "id": "B",
-        "text": "\u201cCocoa\u201d can be traced to the Nahuatl language, while \u201calpaca\u201d can be traced to the Quechua language."
+        "text": "“Cocoa” can be traced to the Nahuatl language, while “alpaca” can be traced to the Quechua language."
       },
       {
         "id": "C",
-        "text": "\u201cCocoa\u201d changed in meaning significantly when English borrowed the word from Spanish, whereas \u201calpaca\u201d retained its original meaning."
+        "text": "“Cocoa” changed in meaning significantly when English borrowed the word from Spanish, whereas “alpaca” retained its original meaning."
       },
       {
         "id": "D",
-        "text": "\u201cCocoa\u201d is known for being Indigenous in origin, while \u201calpaca\u201d is mistakenly regarded as Spanish in origin."
+        "text": "“Cocoa” is known for being Indigenous in origin, while “alpaca” is mistakenly regarded as Spanish in origin."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_9",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nIn present-day Chiapas, Mexico, archaeologist Robert Rosenswig, remote-sensing specialist Ricardo Lopez-Torrijos, and colleagues have located 41 smaller settlements surrounding the ancient Mesoamerican city of Izapa. The researchers have concluded that these settlements were culturally linked to Izapa because each of the settlements is the same age and configured in the same manner as Izapa, with a pyramid to the north and a plaza to the south. Their shared structural orientation suggests that residents of the settlements likely performed some of the same cultural ceremonies as residents in Izapa did.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nIn present-day Chiapas, Mexico, archaeologist Robert Rosenswig, remote-sensing specialist Ricardo Lopez-Torrijos, and colleagues have located 41 smaller settlements surrounding the ancient Mesoamerican city of Izapa. The researchers have concluded that these settlements were culturally linked to Izapa because each of the settlements is the same age and configured in the same manner as Izapa, with a pyramid to the north and a plaza to the south. Their shared structural orientation suggests that residents of the settlements likely performed some of the same cultural ceremonies as residents in Izapa did.",
     "choices": [
       {
         "id": "A",
@@ -319,21 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_10",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes data from the table that weaken the student's claim?\nMany films in a language other than English grow to be financially successful over the course of their time in movie theaters in the United States, but some become immediate successes in their opening weekends. Such success is driven by many factors like advertising, genre popularity, and the fame of the actors and directors. A student claims that opening weekend earnings can reliably predict whether a film will be nominated for an Oscar: films that draw large audiences at the beginning of their release are the most likely contenders to earn these coveted award nominations.\n\nWhich choice best describes data from the table that weaken the student's claim?",
+    "text": "Which choice best describes data from the table that weaken the student's claim?\nMany films in a language other than English grow to be financially successful over the course of their time in movie theaters in the United States, but some become immediate successes in their opening weekends. Such success is driven by many factors like advertising, genre popularity, and the fame of the actors and directors. A student claims that opening weekend earnings can reliably predict whether a film will be nominated for an Oscar: films that draw large audiences at the beginning of their release are the most likely contenders to earn these coveted award nominations.",
     "choices": [
       {
         "id": "A",
@@ -355,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_IntlB_Eng_M1_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_11",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes data from the table that support P\u00f6tzelsberger and colleagues' conclusion?\nNumbers of the 23 Non-native Tree Species Reported and the Insect and Fungus Threats to Them\nElisabeth P\u00f6tzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Great Britain, Bulgaria, and Belgium about the number of these species grown in those countries as well as the numbers of insect and fungus species that damage those trees. The researchers concluded that in only one of these countries are there more insect species than fungus species that pose risks to these trees.\n\nWhich choice best describes data from the table that support P\u00f6tzelsberger and colleagues' conclusion?",
+    "text": "Which choice best describes data from the table that support Pötzelsberger and colleagues' conclusion?\nNumbers of the 23 Non-native Tree Species Reported and the Insect and Fungus Threats to Them\nElisabeth Pötzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Great Britain, Bulgaria, and Belgium about the number of these species grown in those countries as well as the numbers of insect and fungus species that damage those trees. The researchers concluded that in only one of these countries are there more insect species than fungus species that pose risks to these trees.",
     "choices": [
       {
         "id": "A",
@@ -392,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_IntlB_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_12",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega Region of Costa Rica, Juan Pablo Arroyo-Mora and colleagues used aerial photography and remote sensing data to track changes in the forest cover area across different land use capability class (categories that indicate possible uses of forest land.) Due to the Chorotega region\u2019s accessibility, various types of forest areas were converted to cattle practices as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. By the mid 1980s, however, increased public awareness and environmental reforms, along with a decline in meat prices, engendered a natural forest regrowth, as is evident by the ________\n\nWhich choice most effectively uses data from the graph to complete the assertion?",
+    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega Region of Costa Rica, Juan Pablo Arroyo-Mora and colleagues used aerial photography and remote sensing data to track changes in the forest cover area across different land use capability class (categories that indicate possible uses of forest land.) Due to the Chorotega region’s accessibility, various types of forest areas were converted to cattle practices as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. By the mid 1980s, however, increased public awareness and environmental reforms, along with a decline in meat prices, engendered a natural forest regrowth, as is evident by the ________",
     "choices": [
       {
         "id": "A",
@@ -429,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_IntlB_Eng_M1_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_13",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the researcher's claim?\nIn countries with right-hand traffic, drivers who want to make a left turn at a traffic intersection with stoplights have to wait for either a gap in oncoming traffic or a designated left-turn signal to turn green. At busy intersections, this often causes a backup of vehicles waiting to turn left or being prevented from proceeding by left-turning vehicles in front of them. Transportation researcher Vikash V. Gayah claims that in urban areas eliminating the option to turn left at busy intersections\u2014both with and without dedicated left-turn signals\u2014would improve traffic flow and, as a result, reduce overall travel times even if such a restriction would require drivers to sometimes travel a slightly longer distance.\n\nWhich finding, if true, would most directly support the researcher's claim?",
+    "text": "Which finding, if true, would most directly support the researcher's claim?\nIn countries with right-hand traffic, drivers who want to make a left turn at a traffic intersection with stoplights have to wait for either a gap in oncoming traffic or a designated left-turn signal to turn green. At busy intersections, this often causes a backup of vehicles waiting to turn left or being prevented from proceeding by left-turning vehicles in front of them. Transportation researcher Vikash V. Gayah claims that in urban areas eliminating the option to turn left at busy intersections—both with and without dedicated left-turn signals—would improve traffic flow and, as a result, reduce overall travel times even if such a restriction would require drivers to sometimes travel a slightly longer distance.",
     "choices": [
       {
         "id": "A",
@@ -452,7 +449,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "In a town that installed left-turn signals at all busy intersections, seven out of ten survey respondents agreed with the statement \"the streets in my community are easier to navigate by motor vehicle than before.\u201d"
+        "text": "In a town that installed left-turn signals at all busy intersections, seven out of ten survey respondents agreed with the statement \"the streets in my community are easier to navigate by motor vehicle than before.”"
       },
       {
         "id": "C",
@@ -466,21 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_14",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes data in the table that support the researcher's claim?\nIt is common for freshwater lakes near or above a latitude of 45\u00b0 north of the equator, like Lake Stechlin in Germany, to accumulate surface ice in winter. A study from 1980 to 2006 showed that, in general, the number of days per winter that such lakes have measurable amounts of surface ice is declining. However, a researcher claimed that some lakes have instead seen an increase in the duration of ice.\n\nWhich choice best describes data in the table that support the researcher's claim?",
+    "text": "Which choice best describes data in the table that support the researcher's claim?\nIt is common for freshwater lakes near or above a latitude of 45° north of the equator, like Lake Stechlin in Germany, to accumulate surface ice in winter. A study from 1980 to 2006 showed that, in general, the number of days per winter that such lakes have measurable amounts of surface ice is declining. However, a researcher claimed that some lakes have instead seen an increase in the duration of ice.",
     "choices": [
       {
         "id": "A",
@@ -488,36 +485,35 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Kitusj\u00e4rvi is at a higher latitude than Mirror Lake and typically had more days of ice per winter than Mirror Lake did."
+        "text": "Kitusjärvi is at a higher latitude than Mirror Lake and typically had more days of ice per winter than Mirror Lake did."
       },
       {
         "id": "C",
-        "text": "Kitusj\u00e4rvi had more days of ice in the winter of 1980 81 than it did in the winter of 2005-06."
+        "text": "Kitusjärvi had more days of ice in the winter of 1980 81 than it did in the winter of 2005-06."
       },
       {
         "id": "D",
-        "text": "Kitusj\u00e4rvi is at a higher latitude than Mirror Lake and typically had fewer days of ice per winter than Mirror Lake did."
+        "text": "Kitusjärvi is at a higher latitude than Mirror Lake and typically had fewer days of ice per winter than Mirror Lake did."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_IntlB_Eng_M1_Q14_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_15",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nThe state of Colorado has designated the rusty crayfish as an invasive species that could outcompete some of the state's native species. Many other states draw similar distinctions between invasive and native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that Earth's climate is changing in ways that challenge such designations. Climate changes may cause animals to leave their current ranges and establish new ones. Climate changes may also create good habitats in areas where a species couldn't live previously. These observations suggest that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe state of Colorado has designated the rusty crayfish as an invasive species that could outcompete some of the state's native species. Many other states draw similar distinctions between invasive and native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that Earth's climate is changing in ways that challenge such designations. Climate changes may cause animals to leave their current ranges and establish new ones. Climate changes may also create good habitats in areas where a species couldn't live previously. These observations suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -539,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_16",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventional Standard English?\nTo coders like Black Girls Code founder Kimberly Bryant, the computer programming languages Java and BASIC have a clear difference: the former is an object-oriented language while the latter is not. Because both languages require highly technical knowledge to understand, though, laypeople ______ to distinguish between them.\n\nWhich choice completes the text so that it conforms to the conventional Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventional Standard English?\nTo coders like Black Girls Code founder Kimberly Bryant, the computer programming languages Java and BASIC have a clear difference: the former is an object-oriented language while the latter is not. Because both languages require highly technical knowledge to understand, though, laypeople ______ to distinguish between them.",
     "choices": [
       {
         "id": "A",
@@ -575,9 +571,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
@@ -585,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_17",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA recipient of the Nobel Prize in Chemistry and the Albert Einstein World Award of Science, ______ known as femtochemistry when he devised an optical spectroscopy technique that allowed researchers to study ultrafast chemical reactions occurring within molecules.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA recipient of the Nobel Prize in Chemistry and the Albert Einstein World Award of Science, ______ known as femtochemistry when he devised an optical spectroscopy technique that allowed researchers to study ultrafast chemical reactions occurring within molecules.",
     "choices": [
       {
         "id": "A",
@@ -611,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -621,15 +617,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_18",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n\u201cCoalition\u201d is the term for a group of male lions, and across the Greater Kruger National Park in South Africa, many coalitions vie for territory. Between 2006 and 2012, the lions of the Mapogo ______ including Rasta, Pretty Boy, and Makhulu\u2014thrived within a part of the park called the Sabi Sands.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n“Coalition” is the term for a group of male lions, and across the Greater Kruger National Park in South Africa, many coalitions vie for territory. Between 2006 and 2012, the lions of the Mapogo ______ including Rasta, Pretty Boy, and Makhulu—thrived within a part of the park called the Sabi Sands.",
     "choices": [
       {
         "id": "A",
-        "text": "coalition\u2014"
+        "text": "coalition—"
       },
       {
         "id": "B",
@@ -647,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -655,13 +651,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_19",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the convention of Standard English?\nRecognized as a National Heritage Area by the United States Congress in 2000, the Wheeling National Heritage Area ______ a region of West Virginia that has long been known for its unique natural, cultural, and historical attributes.\n\nWhich choice completes the text so that it conforms to the convention of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the convention of Standard English?\nRecognized as a National Heritage Area by the United States Congress in 2000, the Wheeling National Heritage Area ______ a region of West Virginia that has long been known for its unique natural, cultural, and historical attributes.",
     "choices": [
       {
         "id": "A",
@@ -683,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Words in Context",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_20",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the convention of Standard English?\nSeveral advantages\u2014the ability to react strongly with chip components, to avoid interference from other waves, and to be confined within tiny circuits\u2014 ________ acoustic waves as a promising alternative to electrical waves for transmitting data on computer chips; as a result, researchers are invested in developing more acoustic wave-based chips.\n\nWhich choice completes the text so that it conforms to the convention of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the convention of Standard English?\nSeveral advantages—the ability to react strongly with chip components, to avoid interference from other waves, and to be confined within tiny circuits— ________ acoustic waves as a promising alternative to electrical waves for transmitting data on computer chips; as a result, researchers are invested in developing more acoustic wave-based chips.",
     "choices": [
       {
         "id": "A",
@@ -719,9 +715,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
@@ -729,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_21",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the convention of Standard English?\nLike much scientific research, a noted 2020 study of diabolical ironclad beetles published in *Nature* reflects the combined efforts and expertise of multiple ______ Jesus Rivera is listed first, Maryam Sadat Hosseini, David Restrepo, and other coauthors also made important contributions to the study.\n\nWhich choice completes the text so that it conforms to the convention of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the convention of Standard English?\nLike much scientific research, a noted 2020 study of diabolical ironclad beetles published in *Nature* reflects the combined efforts and expertise of multiple ______ Jesus Rivera is listed first, Maryam Sadat Hosseini, David Restrepo, and other coauthors also made important contributions to the study.",
     "choices": [
       {
         "id": "A",
@@ -755,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -765,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_22",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nBroadcasting from the Umatilla Indian Reservation in Oregon, the Native-run radio station KCUW-LP 104.3 FM serves its local Umatilla-speaking community in several ways. ______ it broadcasts local news and music and also hosts programming in the Umatilla language.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nBroadcasting from the Umatilla Indian Reservation in Oregon, the Native-run radio station KCUW-LP 104.3 FM serves its local Umatilla-speaking community in several ways. ______ it broadcasts local news and music and also hosts programming in the Umatilla language.",
     "choices": [
       {
         "id": "A",
@@ -791,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -801,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_23",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "The student wants to identify the institution in which Bucky is housed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Bucky is the nickname of a dinosaur fossil specimen from the Late Cretaceous period.\n\u2022 The Late Cretaceous period ended more than 65 million years ago.\n\u2022 Bucky is a member of the genus Tyrannosaurus.\n\u2022 Bucky is housed at the Children's Museum of Indianapolis.\n\u2022 The Children's Museum of Indianapolis is in Indianapolis, Indiana.\n\nThe student wants to identify the institution in which Bucky is housed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to identify the institution in which Bucky is housed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Bucky is the nickname of a dinosaur fossil specimen from the Late Cretaceous period.\n• The Late Cretaceous period ended more than 65 million years ago.\n• Bucky is a member of the genus Tyrannosaurus.\n• Bucky is housed at the Children's Museum of Indianapolis.\n• The Children's Museum of Indianapolis is in Indianapolis, Indiana.",
     "choices": [
       {
         "id": "A",
@@ -827,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -837,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_24",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "The student wants to correct a misunderstanding that Pangaea formed before Kenorland. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A supercontinent is a single landmass made up of most or all of Earth's continents.\n\u2022 Over time, continents merge together to form supercontinents, which then break apart.\n\u2022 This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n\u2022 Kenorland and Pangaea were supercontinents.\n\u2022 Kenorland formed about 2.6 billion years ago.\n\u2022 Pangaea formed about 300 million years ago.\n\nThe student wants to correct a misunderstanding that Pangaea formed before Kenorland. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to correct a misunderstanding that Pangaea formed before Kenorland. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A supercontinent is a single landmass made up of most or all of Earth's continents.\n• Over time, continents merge together to form supercontinents, which then break apart.\n• This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n• Kenorland and Pangaea were supercontinents.\n• Kenorland formed about 2.6 billion years ago.\n• Pangaea formed about 300 million years ago.",
     "choices": [
       {
         "id": "A",
@@ -863,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -873,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_25",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "The student wants to identify the combined carrying capacity of Belgium's merchant ships in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A merchant ship is any ship hired to carry cargo or passengers.\n\u2022 A ship's carrying capacity is also known as its deadweight tonnage (DWT).\n\u2022 In 2021, there were a total of 201 merchant ships registered in Belgium.\n\u2022 The combined DWT of these ships was 9.6 million tons.\n\nThe student wants to identify the combined carrying capacity of Belgium's merchant ships in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to identify the combined carrying capacity of Belgium's merchant ships in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A merchant ship is any ship hired to carry cargo or passengers.\n• A ship's carrying capacity is also known as its deadweight tonnage (DWT).\n• In 2021, there were a total of 201 merchant ships registered in Belgium.\n• The combined DWT of these ships was 9.6 million tons.",
     "choices": [
       {
         "id": "A",
@@ -899,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -909,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_26",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "The student wants to contrast the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The United States has designated more than 500 areas National Wildlife Refuges (NWRs).\n\u2022 Some NWRs were established specifically to protect endangered species.\n\u2022 The Mason Neck NWR is a 2,276-acre area in Virginia, on the Atlantic coast.\n\u2022 It was established to protect the endangered bald eagle.\n\u2022 The Coachella Valley NWR is a 3,592-acre area in California, on the Pacific coast.\n\u2022 It was established to protect the endangered Coachella Valley fringe-toed lizard.\n\nThe student wants to contrast the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The United States has designated more than 500 areas National Wildlife Refuges (NWRs).\n• Some NWRs were established specifically to protect endangered species.\n• The Mason Neck NWR is a 2,276-acre area in Virginia, on the Atlantic coast.\n• It was established to protect the endangered bald eagle.\n• The Coachella Valley NWR is a 3,592-acre area in California, on the Pacific coast.\n• It was established to protect the endangered Coachella Valley fringe-toed lizard.",
     "choices": [
       {
         "id": "A",
@@ -935,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -945,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e950c225-1224-4691-beae-95b8ff6c7bca_27",
     "testName": "March 2024 International Form B SAT English Module 1",
-    "text": "The student wants to explain why a day in the French Republican calendar's month of Prairial was named Trefle. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The French Republican calendar was developed during the French Revolution.\n\u2022 It had twelve months divided into three weeks of ten days each, followed by five supplemental days.\n\u2022 Each day was named after a plant, animal, agricultural tool, or mineral as a way of honoring an aspect of rural life.\n\u2022 Prairial is the ninth month of the French Republican calendar.\n\u2022 The third day of Prairial is named Trefle, which means \u201cclover.\u201d\n\nThe student wants to explain why a day in the French Republican calendar's month of Prairial was named Trefle. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain why a day in the French Republican calendar's month of Prairial was named Trefle. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The French Republican calendar was developed during the French Revolution.\n• It had twelve months divided into three weeks of ten days each, followed by five supplemental days.\n• Each day was named after a plant, animal, agricultural tool, or mineral as a way of honoring an aspect of rural life.\n• Prairial is the ninth month of the French Republican calendar.\n• The third day of Prairial is named Trefle, which means “clover.”",
     "choices": [
       {
         "id": "A",
@@ -971,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

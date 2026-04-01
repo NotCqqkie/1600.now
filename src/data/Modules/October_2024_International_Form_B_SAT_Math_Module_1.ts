@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_1",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_2",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_3",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -88,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_4",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -124,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_5",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -143,15 +143,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_6",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -162,15 +162,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_7",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -178,7 +178,7 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "$\\frac{1}{17}$ \u00b7 $x$"
+        "text": "$\\frac{1}{17}$ · $x$"
       },
       {
         "id": "B",
@@ -186,7 +186,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "\u00b7 $x$"
+        "text": "· $x$"
       },
       {
         "id": "D",
@@ -198,15 +198,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_8",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -234,16 +234,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlB_Math_M1_Q8_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_9",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -254,15 +253,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_10",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -290,15 +289,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_11",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -326,15 +325,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_12",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -362,19 +361,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_13",
     "testName": "October 2024 International Form B SAT Math Module 1",
-    "text": "In triangle $DEF$, the measure of angle $D$ is 40\u00ba and the measure of angle $E$ is 95\u00ba. In triangle $RST$, the measure of angle $R$ is 40\u00ba and the measure of angle $S$ is 95\u00ba. Which of the following additional pieces of information is needed to determine whether triangle $DEF$ is similar to triangle $RST$?",
+    "text": "In triangle $DEF$, the measure of angle $D$ is 40º and the measure of angle $E$ is 95º. In triangle $RST$, the measure of angle $R$ is 40º and the measure of angle $S$ is 95º. Which of the following additional pieces of information is needed to determine whether triangle $DEF$ is similar to triangle $RST$?",
     "choices": [
       {
         "id": "A",
@@ -398,15 +397,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_14",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -417,15 +416,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_15",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -453,15 +452,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_16",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -489,15 +488,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_17",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -525,16 +524,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlB_Math_M1_Q17_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_18",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -562,15 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_19",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -598,7 +596,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
@@ -606,7 +604,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_20",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -641,28 +639,27 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_21",
     "testName": "October 2024 International Form B SAT Math Module 1",
-    "text": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan \u03b8 $\\le\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 28.4 inches, what is the least possible value of $x$, in inches?",
+    "text": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan θ $\\le\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 28.4 inches, what is the least possible value of $x$, in inches?",
     "choices": [],
     "correctAnswer": "340.8",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlB_Math_M1_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_22",
     "testName": "October 2024 International Form B SAT Math Module 1",
@@ -690,7 +687,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   }

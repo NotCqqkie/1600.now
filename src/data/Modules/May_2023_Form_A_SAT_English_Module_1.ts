@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_1",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cregistered\u201d most nearly mean?\nThe following text is from John Matheus's 1925 novel *Fog*. The story happens in a city where heavy fog has set in.\nThe little conductor stood on tiptoe in an effort to keep one hand on the signal rope, craning his neck in a vain and dissatisfied endeavor to pierce the miasma of the fog. The motorman chafed in his box, thinking of the drudging lot of the laboring man. He <u>registered</u> discontent.\n\nAs used in the text, what does the word \u201cregistered\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “registered” most nearly mean?\nThe following text is from John Matheus's 1925 novel *Fog*. The story happens in a city where heavy fog has set in.\nThe little conductor stood on tiptoe in an effort to keep one hand on the signal rope, craning his neck in a vain and dissatisfied endeavor to pierce the miasma of the fog. The motorman chafed in his box, thinking of the drudging lot of the laboring man. He <u>registered</u> discontent.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_2",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cregistered\u201d most nearly mean?\nThe following text is from John Matheus's 1925 novel *Fog*. The story happens in a city where heavy fog has set in.\nThe little conductor stood on tiptoe in an effort to keep one hand on the signal rope, craning his neck in a vain and dissatisfied endeavor to pierce the miasma of the fog. The motorman chafed in his box, thinking of the drudging lot of the laboring man. He <u>registered</u> discontent.\n\nAs used in the text, what does the word \u201cregistered\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “registered” most nearly mean?\nThe following text is from John Matheus's 1925 novel *Fog*. The story happens in a city where heavy fog has set in.\nThe little conductor stood on tiptoe in an effort to keep one hand on the signal rope, craning his neck in a vain and dissatisfied endeavor to pierce the miasma of the fog. The motorman chafed in his box, thinking of the drudging lot of the laboring man. He <u>registered</u> discontent.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_3",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough fewer companies trade their stocks on the Tehran Stock Exchange in Tehran, Iran, than on the stock exchanges in London, Mumbai, or Tokyo, the Tehran Stock Exchange has the advantage of focusing on local companies and thus reflecting economic circumstances that are ______ Iran. This sensitivity to unique, rapidly evolving local conditions benefits the companies and investors alike.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough fewer companies trade their stocks on the Tehran Stock Exchange in Tehran, Iran, than on the stock exchanges in London, Mumbai, or Tokyo, the Tehran Stock Exchange has the advantage of focusing on local companies and thus reflecting economic circumstances that are ______ Iran. This sensitivity to unique, rapidly evolving local conditions benefits the companies and investors alike.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_4",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nIn a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Caracas, Venezuela, and of Fortaleza, Brazil, were surveyed about parks in their cities. Of the 1,043 respondents from Caracas, 44.7% indicated that they use the city's parks, and of the 938 respondents from Fortaleza, 35.7% indicated using city parks. <u>It may be tempting to assume the difference is due to different levels of access to parks:</u> however, given that the percentage of Caracas respondents who reported living within a 10-minute walk of a park was much lower than that reported by Fortaleza respondents, greater proximity alone can't explain the difference in park use.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nIn a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Caracas, Venezuela, and of Fortaleza, Brazil, were surveyed about parks in their cities. Of the 1,043 respondents from Caracas, 44.7% indicated that they use the city's parks, and of the 938 respondents from Fortaleza, 35.7% indicated using city parks. <u>It may be tempting to assume the difference is due to different levels of access to parks:</u> however, given that the percentage of Caracas respondents who reported living within a 10-minute walk of a park was much lower than that reported by Fortaleza respondents, greater proximity alone can't explain the difference in park use.",
     "choices": [
       {
         "id": "A",
@@ -129,7 +129,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "It marks a shift from a discussion of the researchers\u2019 conclusion to a discussion of their methods."
+        "text": "It marks a shift from a discussion of the researchers’ conclusion to a discussion of their methods."
       },
       {
         "id": "D",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_5",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which quotation from Uncle Vanya most effectively illustrates the claim? The following text is adapted from Anton Chekhov's 1899 play *Uncle Vanya*. Professor Serebrakoff retires and moves to his country estate, which Vanya manages with the help of Sonia, the professor's daughter from a previous marriage. Chekhov portrays the professor as being someone unable to adjust to living at the country estate, as is evident when ______\n\nWhich quotation from Uncle Vanya most effectively illustrates the claim?",
+    "text": "Which quotation from Uncle Vanya most effectively illustrates the claim? The following text is adapted from Anton Chekhov's 1899 play *Uncle Vanya*. Professor Serebrakoff retires and moves to his country estate, which Vanya manages with the help of Sonia, the professor's daughter from a previous marriage. Chekhov portrays the professor as being someone unable to adjust to living at the country estate, as is evident when ______",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_6",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThe following text is from Jerome K. Jerome's 1889 novel *Three Men in a Boat*.\nWe are creatures of the sun, we men and women. We love light and life. That is why we crowd into the towns and cities, and the country grows more and more deserted every year. In the sunlight\u2014in the daytime, when Nature is alive and busy all around us, we like the open hillsides and the deep woods well enough: but in the night, when our Mother Earth has gone to sleep, and left us waking, oh! the world seems so lonesome, and we get frightened, like children in a silent house. Then we sit and sob, and long for the gas-lit streets, and the sound of human voices, and the answering throb of human life.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe following text is from Jerome K. Jerome's 1889 novel *Three Men in a Boat*.\nWe are creatures of the sun, we men and women. We love light and life. That is why we crowd into the towns and cities, and the country grows more and more deserted every year. In the sunlight—in the daytime, when Nature is alive and busy all around us, we like the open hillsides and the deep woods well enough: but in the night, when our Mother Earth has gone to sleep, and left us waking, oh! the world seems so lonesome, and we get frightened, like children in a silent house. Then we sit and sob, and long for the gas-lit streets, and the sound of human voices, and the answering throb of human life.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_7",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes the main idea of the text?\nFalcons and horses can see in three dimensions (3D), which helps them perceive distance and depth. Octopuses and squid are thought to lack 3D vision. Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true. The team studied how cuttlefish wearing 3D glasses reacted to 3D images of shrimp (a favorite prey) projected on a tank wall. Cuttlefish changed their striking position to match the 3D images, suggesting that their vision is more like that of falcons and horses than that of octopuses or squid.\n\nWhich choice best describes the main idea of the text?",
+    "text": "Which choice best describes the main idea of the text?\nFalcons and horses can see in three dimensions (3D), which helps them perceive distance and depth. Octopuses and squid are thought to lack 3D vision. Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true. The team studied how cuttlefish wearing 3D glasses reacted to 3D images of shrimp (a favorite prey) projected on a tank wall. Cuttlefish changed their striking position to match the 3D images, suggesting that their vision is more like that of falcons and horses than that of octopuses or squid.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_8",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nPresident Richard Nixon is most famous for his participation in the 1970s Watergate political scandal, a convoluted tale of criminality and eroded ethics involving a constellation of associates such as White House Counsel Chuck Colson and White House Counsel John Dean. But Nixon's legacy is complex: he has been praised for his role in creating the Environmental Protection Agency, and he once made an attempt at reforming United States health care policy that is arguably a precursor to the Affordable Care Act, which became law during the Barack Obama administration.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nPresident Richard Nixon is most famous for his participation in the 1970s Watergate political scandal, a convoluted tale of criminality and eroded ethics involving a constellation of associates such as White House Counsel Chuck Colson and White House Counsel John Dean. But Nixon's legacy is complex: he has been praised for his role in creating the Environmental Protection Agency, and he once made an attempt at reforming United States health care policy that is arguably a precursor to the Affordable Care Act, which became law during the Barack Obama administration.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -293,33 +293,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_9",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which quotation from *Cane* most effectively illustrates the claim?\n*Cane* is a 1923 novel by Jean Toomer. In one portion of the novel, Toomer uses figurative language to connect the narrator's urban environment of Washington, DC, and the rural South of the narrator's past, writing ______\n\nWhich quotation from *Cane* most effectively illustrates the claim?",
+    "text": "Which quotation from *Cane* most effectively illustrates the claim?\n*Cane* is a 1923 novel by Jean Toomer. In one portion of the novel, Toomer uses figurative language to connect the narrator's urban environment of Washington, DC, and the rural South of the narrator's past, writing ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cThe [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.\u201d"
+        "text": "“The [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.”"
       },
       {
         "id": "B",
-        "text": "\u201cAnd when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].\u201d"
+        "text": "“And when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].”"
       },
       {
         "id": "C",
-        "text": "\u201cI sang, with a strange quiver in my voice, a promise-song.\u201d"
+        "text": "“I sang, with a strange quiver in my voice, a promise-song.”"
       },
       {
         "id": "D",
-        "text": "\u201cThe young trees had not outgrown their boxes then. V Street [in Washington, DC] was lined with them.\u201d"
+        "text": "“The young trees had not outgrown their boxes then. V Street [in Washington, DC] was lined with them.”"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_10",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support Bainbridge and colleagues claim?\nMany believe that lullabies, characterized by their less steady beat, contain some acoustic features that are universally calming to infants. In a study, Constance M. Bainbridge and colleagues played both a lullaby sung in the Western Nahuatl language and a non-lullaby sung in the Serbian language to a group of infants. The researchers also measured the infants' heart rates, as a reduced heart rate is considered a measure of relaxation. They claim that the lullaby did indeed relax the infants.\n\nWhich finding, if true, would most directly support Bainbridge and colleagues claim?",
+    "text": "Which finding, if true, would most directly support Bainbridge and colleagues claim?\nMany believe that lullabies, characterized by their less steady beat, contain some acoustic features that are universally calming to infants. In a study, Constance M. Bainbridge and colleagues played both a lullaby sung in the Western Nahuatl language and a non-lullaby sung in the Serbian language to a group of infants. The researchers also measured the infants' heart rates, as a reduced heart rate is considered a measure of relaxation. They claim that the lullaby did indeed relax the infants.",
     "choices": [
       {
         "id": "A",
@@ -345,7 +345,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Infants\u2019 heart rates were substantially lower during the lullaby than during the non-lullaby."
+        "text": "Infants’ heart rates were substantially lower during the lullaby than during the non-lullaby."
       },
       {
         "id": "D",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_11",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice uses data from the table to most effectively complete the comparison?\nContributions of Three Key Industries to Oklahoma Economy in 2017\nThe Cherokee Nation, the Seminole Nation, and the more than thirty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. In fact, when the tribes' economic activity is regarded as a single industry, its contribution to the Oklahoma economy in 2017 ______\n\nWhich choice uses data from the table to most effectively complete the comparison?",
+    "text": "Which choice uses data from the table to most effectively complete the comparison?\nContributions of Three Key Industries to Oklahoma Economy in 2017\nThe Cherokee Nation, the Seminole Nation, and the more than thirty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. In fact, when the tribes' economic activity is regarded as a single industry, its contribution to the Oklahoma economy in 2017 ______",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_23A_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_12",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the second research team's hypothesis?\nWater flowing around an obstruction creates vortices (patterns of swirls) of varying size; by detecting the vortices, fish can determine the size and position of the obstruction. Testing by Yuzo R. Yanagisuru, Otar Akanyeti, and James C. Liao using models of three head shapes\u2014narrow (low ratio of width to length), intermediate, and wide (high ratio of width to length)\u2014showed that for large vortices, fish with intermediate heads would be better able than narrow-headed fish to distinguish between vortices and general turbulence in the water. A second research team has therefore hypothesized that in low-visibility conditions, intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions that create large vortices.\n\nWhich finding, if true, would most directly support the second research team's hypothesis?",
+    "text": "Which finding, if true, would most directly support the second research team's hypothesis?\nWater flowing around an obstruction creates vortices (patterns of swirls) of varying size; by detecting the vortices, fish can determine the size and position of the obstruction. Testing by Yuzo R. Yanagisuru, Otar Akanyeti, and James C. Liao using models of three head shapes—narrow (low ratio of width to length), intermediate, and wide (high ratio of width to length)—showed that for large vortices, fish with intermediate heads would be better able than narrow-headed fish to distinguish between vortices and general turbulence in the water. A second research team has therefore hypothesized that in low-visibility conditions, intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions that create large vortices.",
     "choices": [
       {
         "id": "A",
@@ -428,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_13",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes data from the graph that support the student's claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the 1990s in the United States was present both in very large cities such as New York City, New York, and smaller areas such as Albuquerque, New Mexico, Jacksonville, Florida, and Boise, Idaho; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.\n\nWhich choice best describes data from the graph that support the student's claim?",
+    "text": "Which choice best describes data from the graph that support the student's claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the 1990s in the United States was present both in very large cities such as New York City, New York, and smaller areas such as Albuquerque, New Mexico, Jacksonville, Florida, and Boise, Idaho; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.",
     "choices": [
       {
         "id": "A",
@@ -464,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_23A_Eng_M1_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_14",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes data in the table that support the city planner's conclusion?\nRanking of Environmental and Sociocultural Benefits of Urban Agriculture (scale of 1 to 25; 1=highest)\nEsther Sanye-Mengual, Kathrin Specht, and their team surveyed three groups of people in Bologna, Italy\u2014leaders of urban agriculture projects, stakeholders in urban agriculture (e. g., food researchers and urban farming associations), and the general public\u2014to compare their views about the extent to which urban agriculture contributes to 25 social or ecological services that the team identified. The researchers used these ratings to rank the services for each group, with a conclusion that both stakeholders and general public regard the improvement of attitudes and outlooks as important benefit of urban agriculture.\n\nWhich choice best describes data in the table that support the city planner's conclusion?",
+    "text": "Which choice best describes data in the table that support the city planner's conclusion?\nRanking of Environmental and Sociocultural Benefits of Urban Agriculture (scale of 1 to 25; 1=highest)\nEsther Sanye-Mengual, Kathrin Specht, and their team surveyed three groups of people in Bologna, Italy—leaders of urban agriculture projects, stakeholders in urban agriculture (e. g., food researchers and urban farming associations), and the general public—to compare their views about the extent to which urban agriculture contributes to 25 social or ecological services that the team identified. The researchers used these ratings to rank the services for each group, with a conclusion that both stakeholders and general public regard the improvement of attitudes and outlooks as important benefit of urban agriculture.",
     "choices": [
       {
         "id": "A",
@@ -501,22 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_23A_Eng_M1_Q14_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_15",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nLike many other fruit-eating birds on the Hawaiian island of Oahu, the red-whiskered bulbul helps forest plants spread by dropping seeds from the plants' fruits in different spots (a process called seed dispersal). Ecologists have found that fruit-eating birds disperse some seeds from native plants at risk of extinction in the wild, such as the lapalapa tree. However, the birds disperse a higher number of seeds from nightblooming jessamine shrubs and other non-native plants with large populations, likely because there are so many more of those plants for them to choose from. Therefore, it isn't surprising that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nLike many other fruit-eating birds on the Hawaiian island of Oahu, the red-whiskered bulbul helps forest plants spread by dropping seeds from the plants' fruits in different spots (a process called seed dispersal). Ecologists have found that fruit-eating birds disperse some seeds from native plants at risk of extinction in the wild, such as the lapalapa tree. However, the birds disperse a higher number of seeds from nightblooming jessamine shrubs and other non-native plants with large populations, likely because there are so many more of those plants for them to choose from. Therefore, it isn't surprising that ______",
     "choices": [
       {
         "id": "A",
@@ -538,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -548,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_16",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCut, bent, and welded from discarded metal materials, the sculptures of London-based Nigerian artist Sokari Douglas Camp are meant to challenge viewers to consider their own relationships to material ______ her thought provoking works in the 1993 exhibition *Steel Clothes* and *Ornamentation* at the Redfern Gallery in London were no different.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCut, bent, and welded from discarded metal materials, the sculptures of London-based Nigerian artist Sokari Douglas Camp are meant to challenge viewers to consider their own relationships to material ______ her thought provoking works in the 1993 exhibition *Steel Clothes* and *Ornamentation* at the Redfern Gallery in London were no different.",
     "choices": [
       {
         "id": "A",
@@ -574,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -584,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_17",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA recipient of the Othmer Gold Medal and the Davy Medal from the Royal Society, ______ known as femtochemistry when he devised an optical spectroscopy technique that allowed researchers to study ultrafast chemical reactions occurring within molecules.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA recipient of the Othmer Gold Medal and the Davy Medal from the Royal Society, ______ known as femtochemistry when he devised an optical spectroscopy technique that allowed researchers to study ultrafast chemical reactions occurring within molecules.",
     "choices": [
       {
         "id": "A",
@@ -610,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -620,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_18",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Amur River, which is 2,714 miles long, ______ into the Sea of Okhotsk.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Amur River, which is 2,714 miles long, ______ into the Sea of Okhotsk.",
     "choices": [
       {
         "id": "A",
@@ -646,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -655,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_19",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhat is the origin of the word \u201cpessimism\u201d? Interestingly, ______ It first appears in a letter by English author Samuel Taylor Coleridge.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhat is the origin of the word “pessimism”? Interestingly, ______ It first appears in a letter by English author Samuel Taylor Coleridge.",
     "choices": [
       {
         "id": "A",
@@ -682,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -692,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_20",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter much debate, ______ finally made a decision: the judges for the 1974 Nobel Prize in Literature would award Eyvind Johnson of Sweden with that year's prize \u201cfor a narrative art, far-seeing in lands and ages, in the service of freedom.\u201d\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter much debate, ______ finally made a decision: the judges for the 1974 Nobel Prize in Literature would award Eyvind Johnson of Sweden with that year's prize “for a narrative art, far-seeing in lands and ages, in the service of freedom.”",
     "choices": [
       {
         "id": "A",
@@ -718,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_21",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, with its coveted 3-star rating being awarded to top restaurants like Xin Rong Ji in Beijing. However, few know the guide started as a marketing gimmick in 1900, when brothers Andre and Edouard Michelin sought to increase profits for their tire company by encouraging their customers to ______ their cars across France, visiting the guide\u2019s recommended hotels and restaurants along the way.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, with its coveted 3-star rating being awarded to top restaurants like Xin Rong Ji in Beijing. However, few know the guide started as a marketing gimmick in 1900, when brothers Andre and Edouard Michelin sought to increase profits for their tire company by encouraging their customers to ______ their cars across France, visiting the guide’s recommended hotels and restaurants along the way.",
     "choices": [
       {
         "id": "A",
@@ -754,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -764,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_22",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPinon Chapter is one of the 110 chapters of the Navajo Nation (*Naabeeho Bincihdsdzo*). The chapter, known as *Be'ek'id Bas Ahoodzdni* in the Navajo language (*Dine Bizaad*), was the subject of a profile ______ in the Navajo Times on December 12, 2013.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPinon Chapter is one of the 110 chapters of the Navajo Nation (*Naabeeho Bincihdsdzo*). The chapter, known as *Be'ek'id Bas Ahoodzdni* in the Navajo language (*Dine Bizaad*), was the subject of a profile ______ in the Navajo Times on December 12, 2013.",
     "choices": [
       {
         "id": "A",
@@ -790,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -800,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_23",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWriter Silvia Moreno-Garcia\u2019s love of short fiction began when she read a collection of Edgar Allan Poe stories as a child, and she later would become a prolific short story writer herself, publishing pieces like \u201cIn the Details\u201d (2015) and \u201cTo See Pedro Infante\u201d (2014). Yet she's best ______ especially since her 2020 novel *Mexican Gothic* reached the New York Times Best Sellers list\u2014as a novelist.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWriter Silvia Moreno-Garcia’s love of short fiction began when she read a collection of Edgar Allan Poe stories as a child, and she later would become a prolific short story writer herself, publishing pieces like “In the Details” (2015) and “To See Pedro Infante” (2014). Yet she's best ______ especially since her 2020 novel *Mexican Gothic* reached the New York Times Best Sellers list—as a novelist.",
     "choices": [
       {
         "id": "A",
@@ -816,7 +813,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "known\u2014"
+        "text": "known—"
       },
       {
         "id": "D",
@@ -826,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -836,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_24",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn 1931, scientists first isolated a sample of the steroid hormone *androsterone*, which they knew existed in animals\u2014and, they assumed, only in animals. ______ researchers would find *androsterone* in Swiss cheese plants (*Monstera deliciosa*), but this discovery wouldn't come until decades later.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 1931, scientists first isolated a sample of the steroid hormone *androsterone*, which they knew existed in animals—and, they assumed, only in animals. ______ researchers would find *androsterone* in Swiss cheese plants (*Monstera deliciosa*), but this discovery wouldn't come until decades later.",
     "choices": [
       {
         "id": "A",
@@ -862,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -872,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_25",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe first documented use of the English word \u201cmuzzle\u201d is attributed to poet Geoffrey Chaucer's 1385 work *The Knight's Tale*. However, Chaucer didn't write in Modern English; ______ he wrote in what we now call Middle English, which was commonly used during the period.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe first documented use of the English word “muzzle” is attributed to poet Geoffrey Chaucer's 1385 work *The Knight's Tale*. However, Chaucer didn't write in Modern English; ______ he wrote in what we now call Middle English, which was commonly used during the period.",
     "choices": [
       {
         "id": "A",
@@ -898,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -908,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_26",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize how the two works are similar?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n\u2022 His work *Thin in the Old* was completed in 1986 and sold at auction in 2020.\n\u2022 *Thin in the Old* is composed of acrylic, oil, and paper collage on wood and measures 3,028 square inches in area.\n\u2022 His work *Victor* was completed in 1987 and sold at auction in 2017.\n\u2022 *Victor* is composed of acrylic, oil stick, and crayon on canvas and measures 9,432 square inches in area.\n\nWhich choice most effectively uses information from the given sentences to emphasize how the two works are similar?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize how the two works are similar?\nWhile researching a topic, a student has taken the following notes:\n• Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n• His work *Thin in the Old* was completed in 1986 and sold at auction in 2020.\n• *Thin in the Old* is composed of acrylic, oil, and paper collage on wood and measures 3,028 square inches in area.\n• His work *Victor* was completed in 1987 and sold at auction in 2017.\n• *Victor* is composed of acrylic, oil stick, and crayon on canvas and measures 9,432 square inches in area.",
     "choices": [
       {
         "id": "A",
@@ -934,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -944,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_27",
     "testName": "May 2023 Form A SAT English Module 1",
-    "text": "The student wants to compare the hardness of talc and topaz. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n\u2022 Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n\u2022 Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n\u2022 The mineral talc has a Mohs scale number of 1.\n\u2022 The mineral fluorite has a Mohs scale number of 4.\n\u2022 The mineral topaz has a Mohs scale number of 8.\n\nThe student wants to compare the hardness of talc and topaz. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the hardness of talc and topaz. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n• Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n• Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n• The mineral talc has a Mohs scale number of 1.\n• The mineral fluorite has a Mohs scale number of 4.\n• The mineral topaz has a Mohs scale number of 8.",
     "choices": [
       {
         "id": "A",
@@ -970,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
