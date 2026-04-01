@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_1",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\n*Tabby Cat* is an important work of *Nihonga,* or classical Japanese painting. Unlike Asai Ch \u01d4, who adopted traditional European methods such as painting with oil on canvas, Takeuchi Seihu ______ traditional Japanese approaches. For instance, Takeuchi produced *Tabby Cat* by applying color pigments to a silk surface.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\n*Tabby Cat* is an important work of *Nihonga,* or classical Japanese painting. Unlike Asai Ch ǔ, who adopted traditional European methods such as painting with oil on canvas, Takeuchi Seihu ______ traditional Japanese approaches. For instance, Takeuchi produced *Tabby Cat* by applying color pigments to a silk surface.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_2",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDomesticated thousands of years ago in South America, the chili pepper deviates structurally from the wild plant it is descended from. Maize (corn), another domesticated crop from the Americas, doesn\u2019t closely resemble any wild plant, and genetic research only recently ______ its ancestor to be teosinte grass.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDomesticated thousands of years ago in South America, the chili pepper deviates structurally from the wild plant it is descended from. Maize (corn), another domesticated crop from the Americas, doesn’t closely resemble any wild plant, and genetic research only recently ______ its ancestor to be teosinte grass.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_3",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cundergone\u201d most nearly mean?\nThe following text is adapted from Anton Chekhov\u2019s 1904 play *The Cherry Orchard* (translated by Julius West in 1916).\nTROFIMOV: Believe me, Anya, believe me! I\u2019m not thirty yet, I\u2019m young, I\u2019m still a student, but I have <u>undergone</u> a great deal! I\u2019m as hungry as the winter, I\u2019m ill. I\u2019m shaken\u2014and where haven\u2019t I been\u2014fate has tossed me everywhere!\n\nAs used in the text, what does the word \u201cundergone\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “undergone” most nearly mean?\nThe following text is adapted from Anton Chekhov’s 1904 play *The Cherry Orchard* (translated by Julius West in 1916).\nTROFIMOV: Believe me, Anya, believe me! I’m not thirty yet, I’m young, I’m still a student, but I have <u>undergone</u> a great deal! I’m as hungry as the winter, I’m ill. I’m shaken—and where haven’t I been—fate has tossed me everywhere!",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_4",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the International Corpus of English are enormous collections of electronically stored texts that can be used for empirical testing of hypotheses regarding the frequency of typical word usage. If one has a ______ that the word \u201clast\u201d has a high incidence in English, for example, an analysis of a corpus can support that hypothesis by showing that \u201clast\u201d is the fourth most commonly used adjective.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the International Corpus of English are enormous collections of electronically stored texts that can be used for empirical testing of hypotheses regarding the frequency of typical word usage. If one has a ______ that the word “last” has a high incidence in English, for example, an analysis of a corpus can support that hypothesis by showing that “last” is the fourth most commonly used adjective.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_5",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nResearchers have long hypothesized that woolly mammoths were hunted to extinction in North America by humans using spears with grooved tips known as Clovis points. One anthropologist set out to test this hypothesis. Using a mechanical spear-thrower, he launched spears with Clovis points into mounds of clay\u2014substitutes for the animals\u2019 large bodies. The projectiles generally penetrated only a few inches into the clay, an amount insufficient to have harmed most woolly mammoths. This led the anthropologist to conclude that hunters using spears with Clovis points likely weren\u2019t the principal drivers of the extinction.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nResearchers have long hypothesized that woolly mammoths were hunted to extinction in North America by humans using spears with grooved tips known as Clovis points. One anthropologist set out to test this hypothesis. Using a mechanical spear-thrower, he launched spears with Clovis points into mounds of clay—substitutes for the animals’ large bodies. The projectiles generally penetrated only a few inches into the clay, an amount insufficient to have harmed most woolly mammoths. This led the anthropologist to conclude that hunters using spears with Clovis points likely weren’t the principal drivers of the extinction.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_6",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice best describes the overall structure of the text?\nIn what is now New Mexico, the Pueblo of Pojoaque operates the Poeh Cultural Center. Relying on traditional knowledge to guide the design of exhibits, this institution presents Pojoaque history and culture to the tribe\u2019s citizens. The Tohono O\u2019odham Nation, a tribe in Arizona, employs a similar strategy in its own cultural center. Both centers contrast with museums that aren\u2019t Indigenous-led; when displaying Indigenous artifacts, such museums tend to anticipate mainly non-Indigenous audiences and rely on Euro-centric strategies for designing exhibits.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nIn what is now New Mexico, the Pueblo of Pojoaque operates the Poeh Cultural Center. Relying on traditional knowledge to guide the design of exhibits, this institution presents Pojoaque history and culture to the tribe’s citizens. The Tohono O’odham Nation, a tribe in Arizona, employs a similar strategy in its own cultural center. Both centers contrast with museums that aren’t Indigenous-led; when displaying Indigenous artifacts, such museums tend to anticipate mainly non-Indigenous audiences and rely on Euro-centric strategies for designing exhibits.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_7",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Based on the texts, the author of Text 2 would most likely want to know if Menzies and Paradi took steps to preclude which potential objection to the finding described in Text1?\nText 1\nDuke University and the investment bank Citi are two of the many institutions offering training programs in entrepreneurship. But what results do such programs produce? In a study of engineering students in Canada, researchers Teresa Menzies and Joseph Paradi addressed this question and reported that participants who received entrepreneurial training showed high likelihood of creating new businesses.\nText 2\nWhile studies of entrepreneurial training typically report positive results, a close look reveals widespread methodological shortcomings that could explain those findings. These studies are plagued by insufficient sample sizes, a lack of control groups, and failures to establish pretraining baselines for the measured attributes of participants.\n\nBased on the texts, the author of Text 2 would most likely want to know if Menzies and Paradi took steps to preclude which potential objection to the finding described in Text1?",
+    "text": "Based on the texts, the author of Text 2 would most likely want to know if Menzies and Paradi took steps to preclude which potential objection to the finding described in Text1?\nText 1\nDuke University and the investment bank Citi are two of the many institutions offering training programs in entrepreneurship. But what results do such programs produce? In a study of engineering students in Canada, researchers Teresa Menzies and Joseph Paradi addressed this question and reported that participants who received entrepreneurial training showed high likelihood of creating new businesses.\nText 2\nWhile studies of entrepreneurial training typically report positive results, a close look reveals widespread methodological shortcomings that could explain those findings. These studies are plagued by insufficient sample sizes, a lack of control groups, and failures to establish pretraining baselines for the measured attributes of participants.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_8",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "The author makes which point about the Spanish language?\n\u201cCoyote\u201d is an example of a loanword\u2014that is, a word that originated in one language and was later adopted by another. The word came to English indirectly from *coyote*, the Spanish word for the wild canine species. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word\u2019s original form is *coyote*. \u201cLlama\u201d is also Indigenous in origin and entered English through Spanish. But in this case, the original source was Quechua, a language of South America, in which the word for the woolly farm animal is also llama.\n\nThe author makes which point about the Spanish language?",
+    "text": "The author makes which point about the Spanish language?\n“Coyote” is an example of a loanword—that is, a word that originated in one language and was later adopted by another. The word came to English indirectly from *coyote*, the Spanish word for the wild canine species. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word’s original form is *coyote*. “Llama” is also Indigenous in origin and entered English through Spanish. But in this case, the original source was Quechua, a language of South America, in which the word for the woolly farm animal is also llama.",
     "choices": [
       {
         "id": "A",
@@ -283,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_9",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Based on the text, the author would most likely agree with which statement about household income?\nIn Paraguay, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by around 40 percent between 2000 and 2019; such shifts are typically explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise). Boukary Ouedraogo\u2019s study of fuel use in Burkina Faso shows how reductive this model is, however: although income of course constrained fuel choice, several factors, including the type of cooking equipment available, influenced decisions.\n\nBased on the text, the author would most likely agree with which statement about household income?",
+    "text": "Based on the text, the author would most likely agree with which statement about household income?\nIn Paraguay, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by around 40 percent between 2000 and 2019; such shifts are typically explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise). Boukary Ouedraogo’s study of fuel use in Burkina Faso shows how reductive this model is, however: although income of course constrained fuel choice, several factors, including the type of cooking equipment available, influenced decisions.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -329,33 +329,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_10",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which quotation from a translation of *Claudine at School* most effectively illustrates the claim?\n*Claudine at School* is a 1900 novel by Colette, originally written in French. The narrator is a fifteen-year-old girl living in a small, rural town. She presents herself as having a strong emotional attachment to the surrounding forests: ______\n\nWhich quotation from a translation of *Claudine at School* most effectively illustrates the claim?",
+    "text": "Which quotation from a translation of *Claudine at School* most effectively illustrates the claim?\n*Claudine at School* is a 1900 novel by Colette, originally written in French. The narrator is a fifteen-year-old girl living in a small, rural town. She presents herself as having a strong emotional attachment to the surrounding forests: ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cIf I had a Mamma, I know very well that she would not have let me stay [in Montigny] twenty-four hours. But Papa\u2014he doesn\u2019t notice anything and doesn\u2019t bother about me.\u201d"
+        "text": "“If I had a Mamma, I know very well that she would not have let me stay [in Montigny] twenty-four hours. But Papa—he doesn’t notice anything and doesn’t bother about me.”"
       },
       {
         "id": "B",
-        "text": "\u201cNo small creatures in those great woods; no tall grasses; but beaten earth, now dry, and sonorous, now soft on account of the springs. Rabbits with white scats [tails] range through them and timid deer who run so fast that you can only guess their passage.\u201d"
+        "text": "“No small creatures in those great woods; no tall grasses; but beaten earth, now dry, and sonorous, now soft on account of the springs. Rabbits with white scats [tails] range through them and timid deer who run so fast that you can only guess their passage.”"
       },
       {
         "id": "C",
-        "text": "\u201cAnd then there are my favorites, the great woods that are sixteen and twenty years old. It makes my heart bleed to see one of those cut down.\u201d"
+        "text": "“And then there are my favorites, the great woods that are sixteen and twenty years old. It makes my heart bleed to see one of those cut down.”"
       },
       {
         "id": "D",
-        "text": "\u201cGreen meadows make rifts in [the woods] here and there, so do little patches of cultivation. But these do not amount to much, for the magnificent woods devour everything. As a result, this lovely region is atrociously poor and its few scattered farms.\u201d"
+        "text": "“Green meadows make rifts in [the woods] here and there, so do little patches of cultivation. But these do not amount to much, for the magnificent woods devour everything. As a result, this lovely region is atrociously poor and its few scattered farms.”"
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_11",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as whole?\n*Morning in the Woods* is a poem by Ashton Barrera written in 1976.\nMy friend and I, together in the woods,\nNo words uttered.\nSilence was the dome of woven leaves,\n<u>From which slipped several chirpings</u>\n<u>Of chickadee.</u>\nA glance exchanged,\nConversation seemed dispensable.\nAmidst the tranquil milieu of the little woods,\nMy friend and I communed in wordlessness.\nA tapestry of woven foliage enveloped us,\nYielding only sporadic glimpses of avian melodies\nChorused by the petite chickadee.\nA fleeting exchange of glances\nRendered our discourse seemingly superfluous.\n\nWhich choice best describes the function of the underlined portion in the text as whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as whole?\n*Morning in the Woods* is a poem by Ashton Barrera written in 1976.\nMy friend and I, together in the woods,\nNo words uttered.\nSilence was the dome of woven leaves,\n<u>From which slipped several chirpings</u>\n<u>Of chickadee.</u>\nA glance exchanged,\nConversation seemed dispensable.\nAmidst the tranquil milieu of the little woods,\nMy friend and I communed in wordlessness.\nA tapestry of woven foliage enveloped us,\nYielding only sporadic glimpses of avian melodies\nChorused by the petite chickadee.\nA fleeting exchange of glances\nRendered our discourse seemingly superfluous.",
     "choices": [
       {
         "id": "A",
@@ -377,7 +377,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "It reflects a mood of melancholy in the speaker\u2019s mind."
+        "text": "It reflects a mood of melancholy in the speaker’s mind."
       },
       {
         "id": "C",
@@ -391,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_12",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice best describes the overall structure of the text?\nThe following text is from Sara Teasdale's 1922 poem *\"Two Songs for Solitude.\"*\nLet them think I love them more than I do,\nLet them think I care, though I go alone,\nIf it lifts their pride, what is it to me\nWho am self-complete as a flower or a stone?\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nThe following text is from Sara Teasdale's 1922 poem *\"Two Songs for Solitude.\"*\nLet them think I love them more than I do,\nLet them think I care, though I go alone,\nIf it lifts their pride, what is it to me\nWho am self-complete as a flower or a stone?",
     "choices": [
       {
         "id": "A",
@@ -427,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -437,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_13",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which finding, if true, would most directly undermine the claim?\nWhen expressing temporal concepts, individuals often utilize an egocentric frame of reference, employing spatial directions to denote time. For instance, when discussing past events, it is customary to point toward the left using the left hand, while discussions of future occurrences typically involve pointing toward the right with the right hand, thus establishing a self-centered framework of reference. Situated on the island of Papua New Guinea, there exists a primordial tribal community known as the Yupno tribe. Some scholars claim that the egocentric referencing is common across all human races, thus the Yupno people also adopt an egocentric frame of reference, using spatial indicators to represent time.\n\nWhich finding, if true, would most directly undermine the claim?",
+    "text": "Which finding, if true, would most directly undermine the claim?\nWhen expressing temporal concepts, individuals often utilize an egocentric frame of reference, employing spatial directions to denote time. For instance, when discussing past events, it is customary to point toward the left using the left hand, while discussions of future occurrences typically involve pointing toward the right with the right hand, thus establishing a self-centered framework of reference. Situated on the island of Papua New Guinea, there exists a primordial tribal community known as the Yupno tribe. Some scholars claim that the egocentric referencing is common across all human races, thus the Yupno people also adopt an egocentric frame of reference, using spatial indicators to represent time.",
     "choices": [
       {
         "id": "A",
@@ -463,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -473,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_14",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which finding, if true, would most directly support Bura and colleagues\u2019 claim?\nVeronica L. Bura, Akito Y. Kawahara, and Jayne E. Yack investigated the evolution and function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks on isolated caterpillars, 33% of the tested species produced sound, which ranged from clicks in *Antheraea pernyi* to whistles in *Phyllosphingia dissimilis*. Although some insects use sound to communicate with members of the same species, the researchers claim that the caterpillar sounds recorded in their study are directed primarily at predators.\n\nWhich finding, if true, would most directly support Bura and colleagues\u2019 claim?",
+    "text": "Which finding, if true, would most directly support Bura and colleagues’ claim?\nVeronica L. Bura, Akito Y. Kawahara, and Jayne E. Yack investigated the evolution and function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks on isolated caterpillars, 33% of the tested species produced sound, which ranged from clicks in *Antheraea pernyi* to whistles in *Phyllosphingia dissimilis*. Although some insects use sound to communicate with members of the same species, the researchers claim that the caterpillar sounds recorded in their study are directed primarily at predators.",
     "choices": [
       {
         "id": "A",
@@ -499,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -509,19 +509,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_15",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nIn dialects of English spoken in Scotland, the \u201cr\u201d sound is strongly emphasized when it appears at the end of syllable (as in \u201ccar\u201d) or before other consonant sounds (as in \u201cbird\u201d). English dialects of the Upland South, a region stretching from Oklahoma to western Virginia, place similar emphasis on \u201cr\u201d at the ends of syllables and before other consonant sounds. Historical records show that the Upland South was colonized largely by people whose ancestors came from Scotland. Thus linguists have concluded that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nIn dialects of English spoken in Scotland, the “r” sound is strongly emphasized when it appears at the end of syllable (as in “car”) or before other consonant sounds (as in “bird”). English dialects of the Upland South, a region stretching from Oklahoma to western Virginia, place similar emphasis on “r” at the ends of syllables and before other consonant sounds. Historical records show that the Upland South was colonized largely by people whose ancestors came from Scotland. Thus linguists have concluded that ______",
     "choices": [
       {
         "id": "A",
-        "text": "the English dialects spoken in the Upland South acquired their emphasis on the \u201cr\u201d sound from dialects spoken in Scotland."
+        "text": "the English dialects spoken in the Upland South acquired their emphasis on the “r” sound from dialects spoken in Scotland."
       },
       {
         "id": "B",
-        "text": "emphasis on the \u201cr\u201d sound will eventually spread from English dialects spoken in the Upland South to dialects spoken elsewhere."
+        "text": "emphasis on the “r” sound will eventually spread from English dialects spoken in the Upland South to dialects spoken elsewhere."
       },
       {
         "id": "C",
@@ -529,13 +529,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "people from Scotland abandoned their emphasis on the \u201cr\u201d sound after relocating to the Upland South."
+        "text": "people from Scotland abandoned their emphasis on the “r” sound after relocating to the Upland South."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -544,16 +544,16 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_16",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhat makes the theremin a unique musical instrument? You play it without touching it. When you place your ______ the pitch will shift as your hands move through the air.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhat makes the theremin a unique musical instrument? You play it without touching it. When you place your ______ the pitch will shift as your hands move through the air.",
     "choices": [
       {
         "id": "A",
-        "text": "hand\u2019s between the two antenna\u2019s,"
+        "text": "hand’s between the two antenna’s,"
       },
       {
         "id": "B",
@@ -561,19 +561,19 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "hands\u2019 between the two antennas\u2019,"
+        "text": "hands’ between the two antennas’,"
       },
       {
         "id": "D",
-        "text": "hands\u2019 between the two antennas,"
+        "text": "hands’ between the two antennas,"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -581,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_17",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. According to this data, in July 2021, a \u201cbasket\u201d of goods and services priced at 100 US dollars (USD) in the United States would have cost 82 USD in fellow OECD member ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. According to this data, in July 2021, a “basket” of goods and services priced at 100 US dollars (USD) in the United States would have cost 82 USD in fellow OECD member ______",
     "choices": [
       {
         "id": "A",
@@ -601,13 +601,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "nation\u2014South Korea."
+        "text": "nation—South Korea."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -617,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_18",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThoreau Chapter is one of the 110 chapters of the Navajo Nation (Naabeeh\u00f3 Bin\u00e1h\u00e1sdz\u00f3). The chapter, known as *Dioi Yachi* in the Navajo language (Dine bizaad), was the subject of a profile ______ in the *Navajo Times* on May 8, 2014.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThoreau Chapter is one of the 110 chapters of the Navajo Nation (Naabeehó Bináhásdzó). The chapter, known as *Dioi Yachi* in the Navajo language (Dine bizaad), was the subject of a profile ______ in the *Navajo Times* on May 8, 2014.",
     "choices": [
       {
         "id": "A",
@@ -643,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -652,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_19",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJuab High School and Park City High School are two of several Utah ______ enormous geoglyph of the letter *J* overlooks Juab High, while a geoglyph of the letters *PC* overlooks Park City High.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJuab High School and Park City High School are two of several Utah ______ enormous geoglyph of the letter *J* overlooks Juab High, while a geoglyph of the letters *PC* overlooks Park City High.",
     "choices": [
       {
         "id": "A",
@@ -679,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_20",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDeposits of crushed volcanic rock and other organic matter lend the sand at Muriwai Reach in New Zealand an unusual black tint that dazzles ______ visitors. When they take a bit of sand home, though, it disturbs the beach\u2019s ecosystem by contributing to erosion.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDeposits of crushed volcanic rock and other organic matter lend the sand at Muriwai Reach in New Zealand an unusual black tint that dazzles ______ visitors. When they take a bit of sand home, though, it disturbs the beach’s ecosystem by contributing to erosion.",
     "choices": [
       {
         "id": "A",
@@ -715,9 +715,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -725,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_21",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nConsider the mechanics of the pinhole camera: light passes through a small hole, resulting in a focused projected image. A ray diagram reveals how this ______ the hole\u2019s small size restricts light to a single ray, all light passing through the hole can only arrive at a single destination, eliminating diffraction and ensuring a clear image.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nConsider the mechanics of the pinhole camera: light passes through a small hole, resulting in a focused projected image. A ray diagram reveals how this ______ the hole’s small size restricts light to a single ray, all light passing through the hole can only arrive at a single destination, eliminating diffraction and ensuring a clear image.",
     "choices": [
       {
         "id": "A",
@@ -741,17 +741,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "works, it\u2019s because"
+        "text": "works, it’s because"
       },
       {
         "id": "D",
-        "text": "works: it\u2019s because"
+        "text": "works: it’s because"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -761,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_22",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn 1949, Frank Zamboni developed an ice rink resurfacing machine. As Zamboni's machine moved along the rink's surface, it first scraped off the top layer of ice. ______ it sprayed water into the deep grooves left behind by customers' skates. Lastly, it smoothed over the newly formed ice.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 1949, Frank Zamboni developed an ice rink resurfacing machine. As Zamboni's machine moved along the rink's surface, it first scraped off the top layer of ice. ______ it sprayed water into the deep grooves left behind by customers' skates. Lastly, it smoothed over the newly formed ice.",
     "choices": [
       {
         "id": "A",
@@ -787,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -797,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_23",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "The student wants to contrast first-class levers and second-class levers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A lever is a simple machine consisting of a rigid beam and a fulcrum.\n\u2022 The fulcrum is the point about which the beam pivots.\n\u2022 The input force (effort) is the force applied to the lever.\n\u2022 The output force (load) is the force that the lever exerts on another object.\n\u2022 In first-class levers, the fulcrum is located between the effort and the load.\n\u2022 In second-class levers, the load is located between the effort and the fulcrum.\n\nThe student wants to contrast first-class levers and second-class levers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast first-class levers and second-class levers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A lever is a simple machine consisting of a rigid beam and a fulcrum.\n• The fulcrum is the point about which the beam pivots.\n• The input force (effort) is the force applied to the lever.\n• The output force (load) is the force that the lever exerts on another object.\n• In first-class levers, the fulcrum is located between the effort and the load.\n• In second-class levers, the load is located between the effort and the fulcrum.",
     "choices": [
       {
         "id": "A",
@@ -823,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -833,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_24",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two sculptures?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Richard Serra is an American artist.\n\u2022 He is known for his large metal sculptures.\n\u2022 His large sculpture *Through* is made of forged steel.\n\u2022 His large sculpture *TTI London* is made of weathering steel.\n\nWhich choice most effectively uses information from the given sentences to emphasize a difference between the two sculptures?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two sculptures?\nWhile researching a topic, a student has taken the following notes:\n• Richard Serra is an American artist.\n• He is known for his large metal sculptures.\n• His large sculpture *Through* is made of forged steel.\n• His large sculpture *TTI London* is made of weathering steel.",
     "choices": [
       {
         "id": "A",
@@ -845,7 +845,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "*TTI London* is one of artist Richard Serra\u2019s large metal sculptures."
+        "text": "*TTI London* is one of artist Richard Serra’s large metal sculptures."
       },
       {
         "id": "C",
@@ -859,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -869,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_25",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between Above and Below and Silver Upper White River?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Maya Lin is an American artist known for her memorials and large-scale installation artworks.\n\u2022 She became famous in 1982 when she completed the Vietnam Veterans Memorial, which consists of two 246-foot granite walls.\n\u2022 She completed *Above and Below* in 2007.\n\u2022 It is an installation composed of aluminum tubing that fills an entire gallery ceiling.\n\u2022 She completed *Silver Upper White River* in 2015.\n\u2022 It is an installation composed of recycled silver that fills an entire gallery wall.\n\nWhich choice most effectively uses information from the given sentences to emphasize a difference between Above and Below and Silver Upper White River?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between Above and Below and Silver Upper White River?\nWhile researching a topic, a student has taken the following notes:\n• Maya Lin is an American artist known for her memorials and large-scale installation artworks.\n• She became famous in 1982 when she completed the Vietnam Veterans Memorial, which consists of two 246-foot granite walls.\n• She completed *Above and Below* in 2007.\n• It is an installation composed of aluminum tubing that fills an entire gallery ceiling.\n• She completed *Silver Upper White River* in 2015.\n• It is an installation composed of recycled silver that fills an entire gallery wall.",
     "choices": [
       {
         "id": "A",
@@ -881,11 +881,11 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Maya Lin\u2019s Above and Below is composed of aluminum tubing; Silver Upper White River, by contrast, is composed of recycled silver."
+        "text": "Maya Lin’s Above and Below is composed of aluminum tubing; Silver Upper White River, by contrast, is composed of recycled silver."
       },
       {
         "id": "C",
-        "text": "The sprawling size of Maya Lin\u2019s Vietnam Veterans Memorial is echoed in Above and Below, a work made of aluminum tubing that fills an entire gallery ceiling."
+        "text": "The sprawling size of Maya Lin’s Vietnam Veterans Memorial is echoed in Above and Below, a work made of aluminum tubing that fills an entire gallery ceiling."
       },
       {
         "id": "D",
@@ -895,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -905,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_26",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "The student wants to specify when Ur formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A supercontinent is a single landmass made up of most or all of Earth\u2019s continents.\n\u2022 Over time, continents merge together to form supercontinents, which then break apart.\n\u2022 This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n\u2022 Ur and Gondwana were supercontinents.\n\u2022 Ur formed about 3.1 billion years ago.\n\u2022 Gondwana formed about 510 million years ago.\n\nThe student wants to specify when Ur formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to specify when Ur formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A supercontinent is a single landmass made up of most or all of Earth’s continents.\n• Over time, continents merge together to form supercontinents, which then break apart.\n• This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n• Ur and Gondwana were supercontinents.\n• Ur formed about 3.1 billion years ago.\n• Gondwana formed about 510 million years ago.",
     "choices": [
       {
         "id": "A",
@@ -921,7 +921,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Ur was a supercontinent, a single landmass made up of most or all of Earth\u2019s continents."
+        "text": "Ur was a supercontinent, a single landmass made up of most or all of Earth’s continents."
       },
       {
         "id": "D",
@@ -931,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -941,33 +941,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_27",
     "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize the location of Casa Luis Barrag\u00e1n?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Casa Luis Barrag\u00e1n (1948) is a residential home designed by Mexican architect Luis Barrag\u00e1n.\n\u2022 It is located in Mexico City, Mexico.\n\u2022 It features colorful concrete walls and a famous cantilevered staircase.\n\u2022 It is considered an impressive example of minimalist architecture.\n\nWhich choice most effectively uses information from the given sentences to emphasize the location of Casa Luis Barrag\u00e1n?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize the location of Casa Luis Barragán?\nWhile researching a topic, a student has taken the following notes:\n• Casa Luis Barragán (1948) is a residential home designed by Mexican architect Luis Barragán.\n• It is located in Mexico City, Mexico.\n• It features colorful concrete walls and a famous cantilevered staircase.\n• It is considered an impressive example of minimalist architecture.",
     "choices": [
       {
         "id": "A",
-        "text": "The architect responsible for designing Casa Luis Barrag\u00e1n."
+        "text": "The architect responsible for designing Casa Luis Barragán."
       },
       {
         "id": "B",
-        "text": "A stunning example of minimalist architecture, Luis Barrag\u00e1n\u2018s Casa Luis Barrag\u00e1n features colorful concrete walls and a famous cantilevered staircase."
+        "text": "A stunning example of minimalist architecture, Luis Barragán‘s Casa Luis Barragán features colorful concrete walls and a famous cantilevered staircase."
       },
       {
         "id": "C",
-        "text": "Luis Barrag\u00e1n is known for designing a residential home that features colorful concrete walls and a famous cantilevered staircase."
+        "text": "Luis Barragán is known for designing a residential home that features colorful concrete walls and a famous cantilevered staircase."
       },
       {
         "id": "D",
-        "text": "Those wishing to see Casa Luis Barrag\u00e1n in person will have to travel to Mexico City, Mexico."
+        "text": "Those wishing to see Casa Luis Barragán in person will have to travel to Mexico City, Mexico."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

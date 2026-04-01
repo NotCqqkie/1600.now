@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_1",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_2",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -68,16 +68,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_4",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_5",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -160,19 +160,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_6",
     "testName": "June 2024 International Form A SAT Math Module 2",
-    "text": "A sum of 4,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposit or withdrawals were made after that. The function f(x)= 4,000(1+0.02) x gives the vale of the CD. In dollars, x years after the investment was initially made, where x $\\le$ 5. Which of the following is the best interpretation of the statement \u201cf(2) is approximately equal to 4,186.12\" in this context?",
+    "text": "A sum of 4,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposit or withdrawals were made after that. The function f(x)= 4,000(1+0.02) x gives the vale of the CD. In dollars, x years after the investment was initially made, where x $\\le$ 5. Which of the following is the best interpretation of the statement “f(2) is approximately equal to 4,186.12\" in this context?",
     "choices": [
       {
         "id": "A",
@@ -196,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -232,16 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlA_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_8",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -269,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_9",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -288,16 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlA_Math_M2_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_10",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -325,15 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_11",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -361,15 +359,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Sample Statistics and Margin of Error",
-    "difficulty": "null",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_12",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -397,15 +395,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Sample Statistics and Margin of Error",
+      "skill": "Inference from sample statistics and margin of error",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_13",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -416,19 +414,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_14",
     "testName": "June 2024 International Form A SAT Math Module 2",
-    "text": "The maximum temperature on April l, in degrees Fahrenheit (\u00b0F), was recorded each year at a certain weather station for l1 years. The histogram summarizes the recorded data set.\nThe temperature of 78.2 \u00b0F is removed from this data set to create a new data set of 10 temperatures.\nWhich of the following statements must be true?\nI. The mean of the new data set is less than the mean of the original data set.\nII. The median of the new data set is less than the median of the original data set.",
+    "text": "The maximum temperature on April l, in degrees Fahrenheit (°F), was recorded each year at a certain weather station for l1 years. The histogram summarizes the recorded data set.\nThe temperature of 78.2 °F is removed from this data set to create a new data set of 10 temperatures.\nWhich of the following statements must be true?\nI. The mean of the new data set is less than the mean of the original data set.\nII. The median of the new data set is less than the median of the original data set.",
     "choices": [
       {
         "id": "A",
@@ -452,16 +450,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlA_Math_M2_Q14_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_15",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -472,15 +469,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_16",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -508,34 +505,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_17",
     "testName": "June 2024 International Form A SAT Math Module 2",
-    "text": "In triangle PQR, the measure of angle P is (3 x + 5)\u00b0,the measure of angle Q is (2 x + 9)\u00b0, and the measure of angle R is (4 y + 5)\u00b0. If side QR is extended through point R to point S, and the measure of angle PRS is (x + y)\u00b0, what is the value of x + y?",
+    "text": "In triangle PQR, the measure of angle P is (3 x + 5)°,the measure of angle Q is (2 x + 9)°, and the measure of angle R is (4 y + 5)°. If side QR is extended through point R to point S, and the measure of angle PRS is (x + y)°, what is the value of x + y?",
     "choices": [],
     "correctAnswer": "39",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_18",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -563,19 +560,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_19",
     "testName": "June 2024 International Form A SAT Math Module 2",
-    "text": "A right circular cone has a volume of 2,700 \u03c0 cubic centimeters and the area of its base is 225\u03c0 square centimeters. What is the slant height, in centimeters, of this cone?",
+    "text": "A right circular cone has a volume of 2,700 π cubic centimeters and the area of its base is 225π square centimeters. What is the slant height, in centimeters, of this cone?",
     "choices": [
       {
         "id": "A",
@@ -599,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_20",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -618,15 +615,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_21",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -654,15 +651,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_22",
     "testName": "June 2024 International Form A SAT Math Module 2",
@@ -690,7 +687,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   }

@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_1",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M1_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_2",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -50,19 +49,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "x \u2265 49"
+        "text": "x ≥ 49"
       },
       {
         "id": "B",
-        "text": "x \u2265 53"
+        "text": "x ≥ 53"
       },
       {
         "id": "C",
-        "text": "x \u2265 102"
+        "text": "x ≥ 102"
       },
       {
         "id": "D",
-        "text": "x \u2265 104"
+        "text": "x ≥ 104"
       }
     ],
     "correctAnswer": "C",
@@ -70,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_3",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -94,11 +93,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "m = 6(n + p)\u221211"
+        "text": "m = 6(n + p)−11"
       },
       {
         "id": "D",
-        "text": "m = 6 \u2212 n \u2212 p \u2212 11"
+        "text": "m = 6 − n − p − 11"
       }
     ],
     "correctAnswer": "A",
@@ -106,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_4",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -142,16 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M1_Q4_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_5",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -159,19 +157,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "\u221214"
+        "text": "−14"
       },
       {
         "id": "B",
-        "text": "\u221212"
+        "text": "−12"
       },
       {
         "id": "C",
-        "text": "\u22124"
+        "text": "−4"
       },
       {
         "id": "D",
-        "text": "\u22122"
+        "text": "−2"
       }
     ],
     "correctAnswer": "C",
@@ -179,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_6",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -198,19 +196,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_7",
     "testName": "May 2024 US Form A SAT Math Module 1",
-    "text": "In the triangle shown, what is the value of sin y\u00b0?",
+    "text": "In the triangle shown, what is the value of sin y°?",
     "choices": [
       {
         "id": "A",
@@ -234,16 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M1_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_8",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -254,16 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M1_Q8_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_9",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -274,15 +270,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_10",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -310,38 +306,38 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_11",
     "testName": "May 2024 US Form A SAT Math Module 1",
-    "text": "f(x) = 3(x \u2212 2)(x \u2212 7)(x \u2212 9)\nIf the given function f is graphed in the xy -plane, where y = f(x), what is the x -coordinate of an x -intercept of the graph?",
+    "text": "f(x) = 3(x − 2)(x − 7)(x − 9)\nIf the given function f is graphed in the xy -plane, where y = f(x), what is the x -coordinate of an x -intercept of the graph?",
     "choices": [],
     "correctAnswer": "2,7,9",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_12",
     "testName": "May 2024 US Form A SAT Math Module 1",
-    "text": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants, the equation y = 0.67 x + 2.6, where 20 \u2264 x \u2264 110, gives the predicted number of larvae, y, in the colony. If one of these colonies has 41 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+    "text": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants, the equation y = 0.67 x + 2.6, where 20 ≤ x ≤ 110, gives the predicted number of larvae, y, in the colony. If one of these colonies has 41 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
     "choices": [
       {
         "id": "A",
@@ -364,16 +360,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_13",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -381,11 +377,11 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "\u221215"
+        "text": "−15"
       },
       {
         "id": "B",
-        "text": "\u221212"
+        "text": "−12"
       },
       {
         "id": "C",
@@ -400,8 +396,8 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -409,15 +405,15 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_14",
     "testName": "May 2024 US Form A SAT Math Module 1",
-    "text": "A circle in the xy -plane has its center at (\u22125, 1) and the point (\u22129, 4) lies on the circle. Which equation represents this circle?",
+    "text": "A circle in the xy -plane has its center at (−5, 1) and the point (−9, 4) lies on the circle. Which equation represents this circle?",
     "choices": [
       {
         "id": "A",
-        "text": "(x \u2212 5) 2 + (y + 1) 2 = 5"
+        "text": "(x − 5) 2 + (y + 1) 2 = 5"
       },
       {
         "id": "B",
@@ -425,7 +421,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "(x \u2212 5) 2 + (y + 1) 2 = 25"
+        "text": "(x − 5) 2 + (y + 1) 2 = 25"
       },
       {
         "id": "D",
@@ -444,12 +440,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_15",
     "testName": "May 2024 US Form A SAT Math Module 1",
-    "text": "The graph models the number of online newsletter subscribers at the end of every six-month period, where x is the number of six-month periods since the end of January 1995 and 0 \u2264 x \u2264 4. Which statement is the best interpretation of the point (1, 500) in this context?",
+    "text": "The graph models the number of online newsletter subscribers at the end of every six-month period, where x is the number of six-month periods since the end of January 1995 and 0 ≤ x ≤ 4. Which statement is the best interpretation of the point (1, 500) in this context?",
     "choices": [
       {
         "id": "A",
@@ -473,16 +469,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M1_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_16",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -510,15 +505,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_17",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -529,27 +524,26 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USA_Math_M1_Q17_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_18",
     "testName": "May 2024 US Form A SAT Math Module 1",
-    "text": "In the xy -plane, line p has a slope of $-\\frac{5}{4}$ and an x -intercept of (\u221216, 0). What is the y -coordinate of the y- intercept of line p?",
+    "text": "In the xy -plane, line p has a slope of $-\\frac{5}{4}$ and an x -intercept of (−16, 0). What is the y -coordinate of the y- intercept of line p?",
     "choices": [],
     "correctAnswer": "-20",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -557,7 +551,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_19",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -592,8 +586,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_20",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -601,15 +595,15 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "f(t) = \u221216(t \u2212 1.3) 2 + 27.04"
+        "text": "f(t) = −16(t − 1.3) 2 + 27.04"
       },
       {
         "id": "B",
-        "text": "f(t) = 16(t \u2212 1.3) 2 + 27.04"
+        "text": "f(t) = 16(t − 1.3) 2 + 27.04"
       },
       {
         "id": "C",
-        "text": "f(t) = \u221216(t + 1.3) 2 + 27.04"
+        "text": "f(t) = −16(t + 1.3) 2 + 27.04"
       },
       {
         "id": "D",
@@ -621,15 +615,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_21",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -641,7 +635,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "x \u2212 8 y = 4"
+        "text": "x − 8 y = 4"
       },
       {
         "id": "C",
@@ -649,7 +643,7 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "x \u2212 6 y = 0"
+        "text": "x − 6 y = 0"
       }
     ],
     "correctAnswer": "A",
@@ -657,15 +651,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_22",
     "testName": "May 2024 US Form A SAT Math Module 1",
@@ -693,7 +687,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   }

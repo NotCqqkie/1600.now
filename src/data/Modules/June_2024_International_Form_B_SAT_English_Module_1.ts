@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_1",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe way in which individual elements are balanced within a photographic image tends to affect how viewers perceive it: symmetry tends to give the elements equal importance, asymmetry emphasizes differences, and radial balance (organizing the elements around a central point) emphasizes the center over the periphery. What a photograph conveys is therefore largely _____ how it is balanced.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe way in which individual elements are balanced within a photographic image tends to affect how viewers perceive it: symmetry tends to give the elements equal importance, asymmetry emphasizes differences, and radial balance (organizing the elements around a central point) emphasizes the center over the periphery. What a photograph conveys is therefore largely _____ how it is balanced.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_2",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nStars form in cloudlike swirls of gas and dust that cannot be touched, but astrophysicist Nia Imara believes these formations need not remain completely ______ to researchers: she uses simulation data and sophisticated 3D printers to produce interactive models of these stellar nurseries.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nStars form in cloudlike swirls of gas and dust that cannot be touched, but astrophysicist Nia Imara believes these formations need not remain completely ______ to researchers: she uses simulation data and sophisticated 3D printers to produce interactive models of these stellar nurseries.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_3",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Stock Exchange of Thailand in Bangkok, Thailand, is a dedicated exchange for investing in companies operating in Thailand, ensuring those companies receive certain regulatory oversight. Knowing this can ______ potential investors\u2019 worries about bureaucratic minutiae and thereby allow them to instead focus on identifying sound business opportunities.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Stock Exchange of Thailand in Bangkok, Thailand, is a dedicated exchange for investing in companies operating in Thailand, ensuring those companies receive certain regulatory oversight. Knowing this can ______ potential investors’ worries about bureaucratic minutiae and thereby allow them to instead focus on identifying sound business opportunities.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_4",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe tendency to group authors together into distinct literary movements often encourages literary scholars to ______ subtleties in an author's style. Those studying the works of Amos Bronson Alcott, for instance, may inadvertently overlook nuances in his work by focusing only on the most obvious ways in which his style corresponds to transcendentalism.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe tendency to group authors together into distinct literary movements often encourages literary scholars to ______ subtleties in an author's style. Those studying the works of Amos Bronson Alcott, for instance, may inadvertently overlook nuances in his work by focusing only on the most obvious ways in which his style corresponds to transcendentalism.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_5",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Jos\u00e9 Rizal's 1891 novel *The Reign of Greed* (translated by Charles Derbyshire in 1912). A lady accompanied by her husband entered at that moment and took her place in one of the two vacant boxes. She had the air of a queen and gazed disdainfully at the whole house, as if to say, \u201c<u>I've come later than all of you, you crowd of upstarts and provincials, I've come later than you!</u>\" There are persons who go to the theater like the contestants in a mule-race: the last one in, wins, and we know very sensible men who would ascend the scaffold rather than enter a theater before the first act.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from José Rizal's 1891 novel *The Reign of Greed* (translated by Charles Derbyshire in 1912). A lady accompanied by her husband entered at that moment and took her place in one of the two vacant boxes. She had the air of a queen and gazed disdainfully at the whole house, as if to say, “<u>I've come later than all of you, you crowd of upstarts and provincials, I've come later than you!</u>\" There are persons who go to the theater like the contestants in a mule-race: the last one in, wins, and we know very sensible men who would ascend the scaffold rather than enter a theater before the first act.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_6",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from Louise Erdrich's 2020 novel *The Night Watchman*. Louis Pipestone is collecting signatures for a petition from fellow members of the Turtle Mountain Band of Chippewa on the tribe's reservation in North Dakota. Louis Pipestone tended the petition like a garden. He kept it with him at all times. In town, his eyes sharpened when he noticed a tribal member who hadn't yet signed. Wherever they were\u2014at the gas pump, mercantile [general store], at Henry's [Caf\u00e9], on the road, or outside the clinic and hospital\u2014Louis cornered them. If they were waiting for a baby to be born, he'd have them sign. If they were laughing, if they were arguing, if they were taking a child home from school, they signed.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from Louise Erdrich's 2020 novel *The Night Watchman*. Louis Pipestone is collecting signatures for a petition from fellow members of the Turtle Mountain Band of Chippewa on the tribe's reservation in North Dakota. Louis Pipestone tended the petition like a garden. He kept it with him at all times. In town, his eyes sharpened when he noticed a tribal member who hadn't yet signed. Wherever they were—at the gas pump, mercantile [general store], at Henry's [Café], on the road, or outside the clinic and hospital—Louis cornered them. If they were waiting for a baby to be born, he'd have them sign. If they were laughing, if they were arguing, if they were taking a child home from school, they signed.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,48 +221,47 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_7",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?",
     "choices": [
       {
         "id": "A",
-        "text": "It conveys Don Jer\u00f3nimo's lack of interest in continuing to support playwrights."
+        "text": "It conveys Don Jerónimo's lack of interest in continuing to support playwrights."
       },
       {
         "id": "B",
-        "text": "It explains Don Jer\u00f3nimo's view of the quality of theatrical works of the time."
+        "text": "It explains Don Jerónimo's view of the quality of theatrical works of the time."
       },
       {
         "id": "C",
-        "text": "It creates a contrast between the talent of a young playwright and that of Don Jer\u00f3nimo."
+        "text": "It creates a contrast between the talent of a young playwright and that of Don Jerónimo."
       },
       {
         "id": "D",
-        "text": "It emphasizes the degree to which Don Jer\u00f3nimo's support is consequential for inexperienced playwrights."
+        "text": "It emphasizes the degree to which Don Jerónimo's support is consequential for inexperienced playwrights."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlB_Eng_M1_Q7_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_8",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which question does the text most directly attempt to answer?\nA contraction of \"you all,\" the pronoun \"y'all\" has long been used as a plural version of \"you\" in the South and in Black communities around the US. In recent decades, most other English-speaking communities in the US have begun to use \"y'all.\" What explains its rise in popularity? Many varieties of English have no pronoun that specifically addresses more than one person and instead must use \"you\" to address both one person and more than one. But \"y'all\" always refers to two or more people. As a result, it conveys the speaker's meaning more precisely than \"you\" can.\n\nWhich question does the text most directly attempt to answer?",
+    "text": "Which question does the text most directly attempt to answer?\nA contraction of \"you all,\" the pronoun \"y'all\" has long been used as a plural version of \"you\" in the South and in Black communities around the US. In recent decades, most other English-speaking communities in the US have begun to use \"y'all.\" What explains its rise in popularity? Many varieties of English have no pronoun that specifically addresses more than one person and instead must use \"you\" to address both one person and more than one. But \"y'all\" always refers to two or more people. As a result, it conveys the speaker's meaning more precisely than \"you\" can.",
     "choices": [
       {
         "id": "A",
@@ -284,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_9",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "What does the text suggest about the term \u201ccellophane\"?\nMany people use the trademark \u201cKleenex\" to refer generally to facial tissue rather than specifically to products made by Kimberly-Clark, the company that owns the trademark. As legal experts note, this may pose a problem for Kimberly-Clark. In the US, courts can cancel a trademark if they decide that its meaning is no longer specific to the trademark owner's products. If \u201cKleenex\" were judged to have become a generic term, as \u201ccellophane\u201d was, other companies would be free to use it to promote similar products, making it harder for Kimberly-Clark to stand out from competitors.\n\nWhat does the text suggest about the term \u201ccellophane\"?",
+    "text": "What does the text suggest about the term “cellophane\"?\nMany people use the trademark “Kleenex\" to refer generally to facial tissue rather than specifically to products made by Kimberly-Clark, the company that owns the trademark. As legal experts note, this may pose a problem for Kimberly-Clark. In the US, courts can cancel a trademark if they decide that its meaning is no longer specific to the trademark owner's products. If “Kleenex\" were judged to have become a generic term, as “cellophane” was, other companies would be free to use it to promote similar products, making it harder for Kimberly-Clark to stand out from competitors.",
     "choices": [
       {
         "id": "A",
@@ -320,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -330,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_10",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the underlined claim?\nThe SCAD Museum of Art in Savannah, Georgia, has around 4,500 works of art. Digital images of hundreds of those works have been put online through the museum's website and the Google Arts & Culture project. One of the images is of *The Card Game*, a painting by Jacob Lawrence. In a paper, a student claims that <u>putting a work from the museum online increases the number of people who experience that work.</u>\n\nWhich finding, if true, would most directly support the underlined claim?",
+    "text": "Which finding, if true, would most directly support the underlined claim?\nThe SCAD Museum of Art in Savannah, Georgia, has around 4,500 works of art. Digital images of hundreds of those works have been put online through the museum's website and the Google Arts & Culture project. One of the images is of *The Card Game*, a painting by Jacob Lawrence. In a paper, a student claims that <u>putting a work from the museum online increases the number of people who experience that work.</u>",
     "choices": [
       {
         "id": "A",
@@ -356,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -366,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_11",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the example?\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?",
     "choices": [
       {
         "id": "A",
@@ -392,30 +391,29 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlB_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_12",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the researcher's example?\nIt is common for freshwater lakes near or above a latitude of 45\u00b0 north of the equator, like Opeongo Lake in Canada, to accumulate surface ice in winter. The amount and duration of ice depends on many factors, including local weather conditions as well as the lake's depth, volume, and surface area, but a climate researcher claims that some lakes in these latitudes have seen a decline in the duration of ice between the early 1980s and the mid-2000s. She cites as a typical example ______\n\nWhich choice most effectively uses data from the graph to complete the researcher's example?",
+    "text": "Which choice most effectively uses data from the graph to complete the researcher's example?\nIt is common for freshwater lakes near or above a latitude of 45° north of the equator, like Opeongo Lake in Canada, to accumulate surface ice in winter. The amount and duration of ice depends on many factors, including local weather conditions as well as the lake's depth, volume, and surface area, but a climate researcher claims that some lakes in these latitudes have seen a decline in the duration of ice between the early 1980s and the mid-2000s. She cites as a typical example ______",
     "choices": [
       {
         "id": "A",
-        "text": "both Lake Neusiedl and Ouluj\u00e4rvi, which had fewer than 195 days of ice in the winter of 1980-81."
+        "text": "both Lake Neusiedl and Oulujärvi, which had fewer than 195 days of ice in the winter of 1980-81."
       },
       {
         "id": "B",
-        "text": "Ouluj\u00e4rvi, which had fewer days of ice in the winter of 2005-06 than it did in the winter of 1980-81."
+        "text": "Oulujärvi, which had fewer days of ice in the winter of 2005-06 than it did in the winter of 1980-81."
       },
       {
         "id": "C",
@@ -423,28 +421,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "both Lake Neusiedl and Ouluj\u00e4rvi, which had more than 100 days of ice in the winter of 2005-06."
+        "text": "both Lake Neusiedl and Oulujärvi, which had more than 100 days of ice in the winter of 2005-06."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlB_Eng_M1_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_13",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which finding, if true, would most directly support Bura and colleagues' claim?\nVeronica L. Bura, Akito Y. Kawahara, and Jaye E. Yack investigated the evolution and function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks on isolated caterpillars, 33% of the tested species produced sound, which ranged from clicks in *Manduca pellenia* to vocalizations in *Sphecodina abbottii*. Although some insects use sound to communicate with members of the same species, the researchers claim that the caterpillar sounds recorded in their study are directed primarily at predators.\n\nWhich finding, if true, would most directly support Bura and colleagues' claim?",
+    "text": "Which finding, if true, would most directly support Bura and colleagues' claim?\nVeronica L. Bura, Akito Y. Kawahara, and Jaye E. Yack investigated the evolution and function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks on isolated caterpillars, 33% of the tested species produced sound, which ranged from clicks in *Manduca pellenia* to vocalizations in *Sphecodina abbottii*. Although some insects use sound to communicate with members of the same species, the researchers claim that the caterpillar sounds recorded in their study are directed primarily at predators.",
     "choices": [
       {
         "id": "A",
@@ -466,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -474,13 +471,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_14",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nOver 600 languages are spoken in New York City in addition to English\u2014one can find Aromanian spoken in the neighborhood of Ridgewood, or Hindi in Gramercy Park. Many immigrants from north China, where Mandarin is the primary language, reside in the neighborhood of Flushing (part of New York City's borough of Queens) while those who emigrated from south China, where many people speak Cantonese or Fuzhounese as a first language, tend to reside in Chinatown, in the borough of Manhattan. Among speakers of Chinese languages, those in Flushing tend to speak Mandarin as their primary language while those in Chinatown tend to speak Cantonese or Fuzhounese as their primary language. This is most likely because ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nOver 600 languages are spoken in New York City in addition to English—one can find Aromanian spoken in the neighborhood of Ridgewood, or Hindi in Gramercy Park. Many immigrants from north China, where Mandarin is the primary language, reside in the neighborhood of Flushing (part of New York City's borough of Queens) while those who emigrated from south China, where many people speak Cantonese or Fuzhounese as a first language, tend to reside in Chinatown, in the borough of Manhattan. Among speakers of Chinese languages, those in Flushing tend to speak Mandarin as their primary language while those in Chinatown tend to speak Cantonese or Fuzhounese as their primary language. This is most likely because ______",
     "choices": [
       {
         "id": "A",
@@ -502,9 +499,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -512,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_15",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAn upcoming exhibition will showcase Vincent van Gogh's drawing *Snowy Landscape with Stooping Woman*, which Van Gogh <u> </u> in the city of Nuenen nearly 150 years ago.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAn upcoming exhibition will showcase Vincent van Gogh's drawing *Snowy Landscape with Stooping Woman*, which Van Gogh <u> </u> in the city of Nuenen nearly 150 years ago.",
     "choices": [
       {
         "id": "A",
@@ -538,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -548,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_16",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile the greater adjutant can be found in places like the Chao Phraya River in Thailand and the Teknaf Game Reserve in Bangladesh, more than 80 percent of this endangered stork species is found in Assam, India. There, wildlife biologist Dr. Purnima Devi Barman is on the front lines of conservation efforts that\u2014through community involvement and scientific ______ aim to bring adjutants back from near extinction.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile the greater adjutant can be found in places like the Chao Phraya River in Thailand and the Teknaf Game Reserve in Bangladesh, more than 80 percent of this endangered stork species is found in Assam, India. There, wildlife biologist Dr. Purnima Devi Barman is on the front lines of conservation efforts that—through community involvement and scientific ______ aim to bring adjutants back from near extinction.",
     "choices": [
       {
         "id": "A",
@@ -568,13 +565,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "study\u2014"
+        "text": "study—"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -584,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_17",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1987, chemist Ahmed Zewail devised a novel technique in optical spectroscopy that allowed him to study ultrafast chemical reactions occurring within molecules. Years later, he ______ for this groundbreaking research with the Wolf Prize in Chemistry and the Robert A. Welch Award and hence would become known as the father of femtochemistry.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1987, chemist Ahmed Zewail devised a novel technique in optical spectroscopy that allowed him to study ultrafast chemical reactions occurring within molecules. Years later, he ______ for this groundbreaking research with the Wolf Prize in Chemistry and the Robert A. Welch Award and hence would become known as the father of femtochemistry.",
     "choices": [
       {
         "id": "A",
@@ -610,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -620,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_18",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nNavajo artist Sally Black's mastery of traditional weaving techniques is apparent in her expertly crafted baskets, which typically are woven from sumac (a textured and flexible material) and ______ bold colors.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nNavajo artist Sally Black's mastery of traditional weaving techniques is apparent in her expertly crafted baskets, which typically are woven from sumac (a textured and flexible material) and ______ bold colors.",
     "choices": [
       {
         "id": "A",
@@ -646,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -656,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_19",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nSolarpunk is an art movement that imagines renewable energy-powered technology infused complementarily into nature. In Paolo Bacigalupi's solarpunk short story \"Eficiency,\" an artificial intelligence that absorbs sustainable energies, redistributing them through intricate networks of weights and generators, ______ Chicago's energy grid.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nSolarpunk is an art movement that imagines renewable energy-powered technology infused complementarily into nature. In Paolo Bacigalupi's solarpunk short story \"Eficiency,\" an artificial intelligence that absorbs sustainable energies, redistributing them through intricate networks of weights and generators, ______ Chicago's energy grid.",
     "choices": [
       {
         "id": "A",
@@ -682,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -691,12 +688,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_20",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Los Angeles County, California, bicycle paths such as the Legg Lake bicycle path\u2014which is 2.2 miles long\u2014have become an increasingly popular means of travel. Moreover, lawyer and cycling ______ has identified several features of the Los Angeles landscape, like its temperate climate and mostly flat roads, that make the city naturally bike-friendly.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Los Angeles County, California, bicycle paths such as the Legg Lake bicycle path—which is 2.2 miles long—have become an increasingly popular means of travel. Moreover, lawyer and cycling ______ has identified several features of the Los Angeles landscape, like its temperate climate and mostly flat roads, that make the city naturally bike-friendly.",
     "choices": [
       {
         "id": "A",
@@ -718,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_21",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWithin Earth's biomes, there are four main types of desert: arid, semiarid, coastal, and cold. The Kyzylkum Desert in central Asia is a semiarid desert, for<u> </u>a total area of about 300,000 km 2, it is also one of the largest deserts of any type.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWithin Earth's biomes, there are four main types of desert: arid, semiarid, coastal, and cold. The Kyzylkum Desert in central Asia is a semiarid desert, for<u> </u>a total area of about 300,000 km 2, it is also one of the largest deserts of any type.",
     "choices": [
       {
         "id": "A",
@@ -754,9 +751,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -764,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_22",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe first documented use of the English word \"humiliation\" is attributed to poet Geoffrey Chaucer's 1386 work \u201cThe Parson's Tale.\u201d However, Chaucer didn't write in Modern English; ______ he wrote in what we now call Middle English, which was commonly used during the period.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe first documented use of the English word \"humiliation\" is attributed to poet Geoffrey Chaucer's 1386 work “The Parson's Tale.” However, Chaucer didn't write in Modern English; ______ he wrote in what we now call Middle English, which was commonly used during the period.",
     "choices": [
       {
         "id": "A",
@@ -790,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -800,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_23",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nCourses on African American history can be found at colleges and universities across the US. For example, historian Jeanne Theoharis teaches courses at Brooklyn College about the Civil Rights and Black Power movements. ______ at Virginia Tech University, historian PaulaMarie Seniors teaches courses about Africana studies.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nCourses on African American history can be found at colleges and universities across the US. For example, historian Jeanne Theoharis teaches courses at Brooklyn College about the Civil Rights and Black Power movements. ______ at Virginia Tech University, historian PaulaMarie Seniors teaches courses about Africana studies.",
     "choices": [
       {
         "id": "A",
@@ -826,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -836,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_24",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe Coastal Futures Conservatory in Virginia is known for creating aural representations of ecological data. One such effort combines underwater audio recorded in seagrass beds with data that track rising carbon levels in the seagrass. As carbon levels increase, the audio is correspondingly distorted; __________ listeners can \u201chear\u201d the changes in the carbon levels.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe Coastal Futures Conservatory in Virginia is known for creating aural representations of ecological data. One such effort combines underwater audio recorded in seagrass beds with data that track rising carbon levels in the seagrass. As carbon levels increase, the audio is correspondingly distorted; __________ listeners can “hear” the changes in the carbon levels.",
     "choices": [
       {
         "id": "A",
@@ -862,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -872,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_25",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "The student wants to present a finding from the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 In a 2021 study, researchers showed participants an unaltered image of a popular character or logo alongside two slightly altered versions.\n\u2022 The Bic logo contains a cartoon man holding a pen.\n\u2022 In the first alteration, the man was holding a pencil.\n\u2022 In the second alteration, the man was holding nothing.\n\u2022 Participants were asked to identify the correct version.\n\u2022 65.3% of participants selected the unaltered image.\n\nThe student wants to present a finding from the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to present a finding from the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• In a 2021 study, researchers showed participants an unaltered image of a popular character or logo alongside two slightly altered versions.\n• The Bic logo contains a cartoon man holding a pen.\n• In the first alteration, the man was holding a pencil.\n• In the second alteration, the man was holding nothing.\n• Participants were asked to identify the correct version.\n• 65.3% of participants selected the unaltered image.",
     "choices": [
       {
         "id": "A",
@@ -898,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -908,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_26",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "The student wants to compare the hardness of the three minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n\u2022 Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n\u2022 Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n\u2022 The mineral fluorite has a Mohs scale number of 4.\n\u2022 The mineral quartz has a Mohs scale number of 7.\n\u2022 The mineral diamond has a Mohs scale number of 10.\n\nThe student wants to compare the hardness of the three minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the hardness of the three minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n• Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n• Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n• The mineral fluorite has a Mohs scale number of 4.\n• The mineral quartz has a Mohs scale number of 7.\n• The mineral diamond has a Mohs scale number of 10.",
     "choices": [
       {
         "id": "A",
@@ -934,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -944,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_27",
     "testName": "June 2024 International Form B SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize the role Mark Wood played when performing with TSO?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Trans-Siberian Orchestra (TSO) is a band from the United States that was created in 1996.\n\u2022 The band's sound combines the genres of hard rock and classical music, with an epic assembly of nearly fifty musicians that includes over a dozen singers.\n\u2022 Musicians are regularly invited to perform with TSO on tour.\n\u2022 Electric violinist Mark Wood toured with TSO from 1999 to 2008.\n\u2022 Guitarist Bill Hudson toured with TSO in 2015.\n\nWhich choice most effectively uses information from the given sentences to emphasize the role Mark Wood played when performing with TSO?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize the role Mark Wood played when performing with TSO?\nWhile researching a topic, a student has taken the following notes:\n• Trans-Siberian Orchestra (TSO) is a band from the United States that was created in 1996.\n• The band's sound combines the genres of hard rock and classical music, with an epic assembly of nearly fifty musicians that includes over a dozen singers.\n• Musicians are regularly invited to perform with TSO on tour.\n• Electric violinist Mark Wood toured with TSO from 1999 to 2008.\n• Guitarist Bill Hudson toured with TSO in 2015.",
     "choices": [
       {
         "id": "A",
@@ -970,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

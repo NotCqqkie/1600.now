@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_2",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -16,15 +16,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_3",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -52,15 +52,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_4",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -88,16 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M2_Q4_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_5",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -125,20 +124,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M2_Q5_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_6",
     "testName": "May 2024 International Form D SAT Math Module 2",
-    "text": "x + 5 y = 5\nx \u2212 5 y = 7\nThe solution to the given system of equations is (x, y). What is the value of x?",
+    "text": "x + 5 y = 5\nx − 5 y = 7\nThe solution to the given system of equations is (x, y). What is the value of x?",
     "choices": [
       {
         "id": "A",
@@ -162,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_7",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -198,16 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_8",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -235,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_9",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -271,16 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M2_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_12",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -308,19 +304,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_13",
     "testName": "May 2024 International Form D SAT Math Module 2",
-    "text": "y = 2 x 2 \u2212 13 x + 24\ny = 3 x + a\nIn the given system of equations, a is a constant. The graphs of the equations in the given system intersect at exactly one point, (x, y), in the xy -plane. What is the value of x?",
+    "text": "y = 2 x 2 − 13 x + 24\ny = 3 x + a\nIn the given system of equations, a is a constant. The graphs of the equations in the given system intersect at exactly one point, (x, y), in the xy -plane. What is the value of x?",
     "choices": [
       {
         "id": "A",
@@ -343,16 +339,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_14",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -380,15 +376,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_15",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -416,15 +412,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_16",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -435,15 +431,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_17",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -471,35 +467,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M2_Q17_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_18",
     "testName": "May 2024 International Form D SAT Math Module 2",
-    "text": "The expression 5x 4 + 7x 4 \u2212 2x 4 is equivalent to bx 4, where b is a constant. What is the value of b?",
+    "text": "The expression 5x 4 + 7x 4 − 2x 4 is equivalent to bx 4, where b is a constant. What is the value of b?",
     "choices": [],
     "correctAnswer": "10",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_19",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -527,7 +522,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -535,11 +530,11 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_20",
     "testName": "May 2024 International Form D SAT Math Module 2",
-    "text": "A circle in the xy -plane has its center at (7, 2) and a radius with a length of 6. The equation for this circle can be written in the form (x \u2212 h) 2 + (y \u2212 k) 2 = b, where h, k, and b are constants. What is the value of h?",
+    "text": "A circle in the xy -plane has its center at (7, 2) and a radius with a length of 6. The equation for this circle can be written in the form (x − h) 2 + (y − k) 2 = b, where h, k, and b are constants. What is the value of h?",
     "choices": [],
     "correctAnswer": "7",
     "type": "free-response",
@@ -553,8 +548,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_21",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -582,16 +577,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlD_Math_M2_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_22",
     "testName": "May 2024 International Form D SAT Math Module 2",
@@ -619,7 +613,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   }

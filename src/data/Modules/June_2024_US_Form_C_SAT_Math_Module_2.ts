@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_1",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -16,20 +16,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USC_Math_M2_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_2",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "Monarch butterflies can fly only with a body temperature of at least 55.0 degrees Fahrenheit (\u00b0F). If a monarch butterfly's body temperature is 34.3\u00b0F, what is the minimum increase needed in its body temperature, in \u00b0F, so that it can fly?",
+    "text": "Monarch butterflies can fly only with a body temperature of at least 55.0 degrees Fahrenheit (°F). If a monarch butterfly's body temperature is 34.3°F, what is the minimum increase needed in its body temperature, in °F, so that it can fly?",
     "choices": [
       {
         "id": "A",
@@ -53,15 +52,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_3",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -89,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_4",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -105,7 +104,7 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "y = 14.7 \u2212 10x"
+        "text": "y = 14.7 − 10x"
       },
       {
         "id": "B",
@@ -113,11 +112,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "y = \u221214.7 \u2212 10x"
+        "text": "y = −14.7 − 10x"
       },
       {
         "id": "D",
-        "text": "y = \u221214.7 + 10x"
+        "text": "y = −14.7 + 10x"
       }
     ],
     "correctAnswer": "B",
@@ -125,16 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USC_Math_M2_Q4_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_5",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -162,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_6",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -178,7 +176,7 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "g(x)= $\\frac{1}{4}$ x \u2212 5"
+        "text": "g(x)= $\\frac{1}{4}$ x − 5"
       },
       {
         "id": "B",
@@ -186,7 +184,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "g(x)=- $\\frac{1}{4}$ x \u2212 5"
+        "text": "g(x)=- $\\frac{1}{4}$ x − 5"
       },
       {
         "id": "D",
@@ -198,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_7",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -217,15 +215,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_8",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -253,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_9",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -289,15 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_10",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -325,15 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_11",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -361,16 +359,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USC_Math_M2_Q11_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Sample Statistics and Margin of Error",
-    "difficulty": "null",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_12",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -398,15 +395,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Sample Statistics and Margin of Error",
+      "skill": "Inference from sample statistics and margin of error",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_13",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -417,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_14",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -452,16 +449,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_15",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -489,15 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_16",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -525,20 +522,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USC_Math_M2_Q16_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_17",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "y \u2212 34 = px\nThe given equation relates the positive numbers p, x, and y. Which equation correctly expresses y in terms of p and x?",
+    "text": "y − 34 = px\nThe given equation relates the positive numbers p, x, and y. Which equation correctly expresses y in terms of p and x?",
     "choices": [
       {
         "id": "A",
@@ -562,15 +558,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_18",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -581,20 +577,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USC_Math_M2_Q18_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_19",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "A company has a customer loyalty program. In January 2018, there were 700 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 8% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where m \u226424?",
+    "text": "A company has a customer loyalty program. In January 2018, there were 700 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 8% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where m ≤24?",
     "choices": [
       {
         "id": "A",
@@ -625,27 +620,27 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_20",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "(x \u2212 16)(x \u2212 12)(x + 5)(x + 13)= 0\nWhat is a positive solution to the given equation?",
+    "text": "(x − 16)(x − 12)(x + 5)(x + 13)= 0\nWhat is a positive solution to the given equation?",
     "choices": [],
     "correctAnswer": "16,12",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_21",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -656,15 +651,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_22",
     "testName": "June 2024 US Form C SAT Math Module 2",
@@ -692,7 +687,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   }

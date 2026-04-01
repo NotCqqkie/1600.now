@@ -5,7 +5,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_1",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -39,9 +39,9 @@ export const questions: Question[] = [
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_2",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -68,17 +68,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlC_Math_M2_Q2_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_3",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -106,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_4",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -142,7 +141,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -150,27 +149,27 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_5",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "Circle K has a radius of 2 millimeters (mm). Circle L has an area of l44\u03c0 mm 2. What is the total area, in mm 2, of circles K and L?",
+    "text": "Circle K has a radius of 2 millimeters (mm). Circle L has an area of l44π mm 2. What is the total area, in mm 2, of circles K and L?",
     "choices": [
       {
         "id": "A",
-        "text": "14\u03c0"
+        "text": "14π"
       },
       {
         "id": "B",
-        "text": "28\u03c0"
+        "text": "28π"
       },
       {
         "id": "C",
-        "text": "56\u03c0"
+        "text": "56π"
       },
       {
         "id": "D",
-        "text": "148\u03c0"
+        "text": "148π"
       }
     ],
     "correctAnswer": "D",
@@ -185,8 +184,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_6",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -214,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_7",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -250,15 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_8",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -286,15 +285,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_9",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -322,7 +321,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -330,7 +329,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_10",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -365,28 +364,27 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_11",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "A property owner wants to find the length x, in feet, across a pond as represented in the figure, $\\overline{PR}$ intersects $\\overline{ST}$ at point Q, and \u2220PTQ is congruent to \u2220RSQ. The lengths represented by PQ, TQ, QS, and RS were determined to be 4,200 feet, 8,400 feet, 1,400 feet, and 1,600 feet, respectively. What is the value of x?",
+    "text": "A property owner wants to find the length x, in feet, across a pond as represented in the figure, $\\overline{PR}$ intersects $\\overline{ST}$ at point Q, and ∠PTQ is congruent to ∠RSQ. The lengths represented by PQ, TQ, QS, and RS were determined to be 4,200 feet, 8,400 feet, 1,400 feet, and 1,600 feet, respectively. What is the value of x?",
     "choices": [],
     "correctAnswer": "9600",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlC_Math_M2_Q11_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_12",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -414,19 +412,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_13",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "In the figure shown, the measure ofangle X is 52\u00b0, The length of $\\overline{XY}$ is 24 units and thelength of $\\overline{XZ}$ is 17 units, What is the area, in square units, of triangle XYZ?",
+    "text": "In the figure shown, the measure ofangle X is 52°, The length of $\\overline{XY}$ is 24 units and thelength of $\\overline{XZ}$ is 17 units, What is the area, in square units, of triangle XYZ?",
     "choices": [
       {
         "id": "A",
@@ -438,11 +436,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "sin 52 \u00b0"
+        "text": "sin 52 °"
       },
       {
         "id": "D",
-        "text": "sin 52 \u00b0"
+        "text": "sin 52 °"
       }
     ],
     "correctAnswer": "C",
@@ -450,16 +448,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlC_Math_M2_Q13_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_14",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -487,19 +484,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Sample Statistics and Margin of Error",
-    "difficulty": "null",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_15",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 325 degrees Fahrenheit (\u00b0 F)The research manager recorded the amount of time, in minutes, each oven takes to preheat to 325 \u00b0 F, Based on the first sample, the research manager estimated that this type of oven takes an average of 15.2 minutes to preheat to 325 \u00b0 F, with an associated margin of error of 1 minute, Based on the second sample, the research manager estimated that this type of oven takes an average of 15. 4 minutes to preheat to 325 \u00b0 F, with an associated margin of error of 2.2 minutes, Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?",
+    "text": "A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 325 degrees Fahrenheit (° F)The research manager recorded the amount of time, in minutes, each oven takes to preheat to 325 ° F, Based on the first sample, the research manager estimated that this type of oven takes an average of 15.2 minutes to preheat to 325 ° F, with an associated margin of error of 1 minute, Based on the second sample, the research manager estimated that this type of oven takes an average of 15. 4 minutes to preheat to 325 ° F, with an associated margin of error of 2.2 minutes, Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?",
     "choices": [
       {
         "id": "A",
@@ -511,11 +508,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "The first sample took more time on average to preheat to 325 \u00b0 F than the second sample."
+        "text": "The first sample took more time on average to preheat to 325 ° F than the second sample."
       },
       {
         "id": "D",
-        "text": "The first sample took less time on average to preheat to 325 \u00b0 F than the second sample."
+        "text": "The first sample took less time on average to preheat to 325 ° F than the second sample."
       }
     ],
     "correctAnswer": "A",
@@ -523,15 +520,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Sample Statistics and Margin of Error",
+      "skill": "Inference from sample statistics and margin of error",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_16",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -542,15 +539,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_17",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -578,7 +575,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
@@ -586,7 +583,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_18",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -621,8 +618,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_19",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -633,34 +630,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_20",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "The function p is defined by p(x)= \u03b1((x + 5) 2 -b) (x + 5) 2 - c), where a, b,and c are constants. In the xy-plane, the graph of y= p(x) passes through the points(-6,30)and (0,342).What is the value of p(-10)+ p(-4)?",
+    "text": "The function p is defined by p(x)= α((x + 5) 2 -b) (x + 5) 2 - c), where a, b,and c are constants. In the xy-plane, the graph of y= p(x) passes through the points(-6,30)and (0,342).What is the value of p(-10)+ p(-4)?",
     "choices": [],
     "correctAnswer": "372",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_21",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -688,15 +685,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_22",
     "testName": "December 2024 International Form C SAT Math Module 2",
@@ -707,7 +704,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   }

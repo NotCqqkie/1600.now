@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_1",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nScholars long thought that the initial spread of silk beyond China occurred in the second century CE, but this view has been ______ by new archaeological evidence from South Asia that reveals that the people of the Indus Civilization made use of silk at least 1,000 years earlier.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nScholars long thought that the initial spread of silk beyond China occurred in the second century CE, but this view has been ______ by new archaeological evidence from South Asia that reveals that the people of the Indus Civilization made use of silk at least 1,000 years earlier.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_2",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2022 study, Nicol\u00e1s M. Morato and colleagues attempted to resolve a long-standing paradox: although water is critical to most reactions that enable life, during the earliest stages of Earth's history\u2014when most of the planet's surface was covered by oceans\u2014the presence of water likely ______ the formation of proteins and other biomolecules that are found in all living organisms.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2022 study, Nicolás M. Morato and colleagues attempted to resolve a long-standing paradox: although water is critical to most reactions that enable life, during the earliest stages of Earth's history—when most of the planet's surface was covered by oceans—the presence of water likely ______ the formation of proteins and other biomolecules that are found in all living organisms.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_3",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA team of microbiologists measured surface temperatures of various wild mushrooms, including *Amanita muscaria* and a species from the genus *Thelephora*. The temperatures ranged from 1.4 to 5.9\u00b0C lower than the temperature of the surrounding air, a difference the team ______ to water evaporating from the mushrooms and thus cooling them.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nA team of microbiologists measured surface temperatures of various wild mushrooms, including *Amanita muscaria* and a species from the genus *Thelephora*. The temperatures ranged from 1.4 to 5.9°C lower than the temperature of the surrounding air, a difference the team ______ to water evaporating from the mushrooms and thus cooling them.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_4",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDespite stated claims of the ______ of the research, much analysis of income inequality performed in the 2010s suffered from a myopic focus on a few countries in North America and Western Europe, partly due to limited data availability. Researchers would later remedy this shortcoming after gaining new access to administrative records located in nations in Africa, such as Ivory Coast, and Eastern Europe, such as Poland.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDespite stated claims of the ______ of the research, much analysis of income inequality performed in the 2010s suffered from a myopic focus on a few countries in North America and Western Europe, partly due to limited data availability. Researchers would later remedy this shortcoming after gaining new access to administrative records located in nations in Africa, such as Ivory Coast, and Eastern Europe, such as Poland.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_5",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Yung Wing's 1909 memoir *My Life in China and America*. Yung Wing was the first person from China to graduate from a US university. <u>Little did I realize when in 1845 I wrote, while in the Morrison School, a composition on \"An Imaginary Voyage to New York and up the Hudson,\" that I was to see New York in reality.</u> This incident leads me to the reflection that sometimes our imagination foreshadows what lies uppermost in our minds and brings possibilities within the sphere of realities.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Yung Wing's 1909 memoir *My Life in China and America*. Yung Wing was the first person from China to graduate from a US university. <u>Little did I realize when in 1845 I wrote, while in the Morrison School, a composition on \"An Imaginary Voyage to New York and up the Hudson,\" that I was to see New York in reality.</u> This incident leads me to the reflection that sometimes our imagination foreshadows what lies uppermost in our minds and brings possibilities within the sphere of realities.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_6",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Jerome K. Jerome's 1889 novel *Three Men in a Boat (To Say Nothing of the Dog)*. The narrator and two friends are taking a boat down the River Thames in England.\nIn a boat, I have always noticed that it is the fixed idea of each member of the crew that he is doing everything. <u>Harris's notion was, that it was he alone who had been working, and that both George and I had been imposing upon him</u>. George, on the other hand, ridiculed the idea of Harris's having done anything more than eat and sleep, and had a cast-iron opinion that it was he\u2014George himself\u2014who had done all the labour worth speaking of.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Jerome K. Jerome's 1889 novel *Three Men in a Boat (To Say Nothing of the Dog)*. The narrator and two friends are taking a boat down the River Thames in England.\nIn a boat, I have always noticed that it is the fixed idea of each member of the crew that he is doing everything. <u>Harris's notion was, that it was he alone who had been working, and that both George and I had been imposing upon him</u>. George, on the other hand, ridiculed the idea of Harris's having done anything more than eat and sleep, and had a cast-iron opinion that it was he—George himself—who had done all the labour worth speaking of.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_7",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nDriven to sell as many paintings as possible, Alfred Hair, an influential figure among the landscape artists known as the Florida Highwaymen, pioneered \"fast painting,\" a technique (which in part involved swift applications of paint) that many Highwaymen, including Livingston Roberts, adopted. <u>To conclude that this approach accounts for the ethereal qualities now synonymous with the Highwaymen aesthetic is tempting but inaccurate, as Hair's methods weren't universally practiced by his affiliates:</u> George Buckner, for example, painted with greater deliberateness but achieved the same effects.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nDriven to sell as many paintings as possible, Alfred Hair, an influential figure among the landscape artists known as the Florida Highwaymen, pioneered \"fast painting,\" a technique (which in part involved swift applications of paint) that many Highwaymen, including Livingston Roberts, adopted. <u>To conclude that this approach accounts for the ethereal qualities now synonymous with the Highwaymen aesthetic is tempting but inaccurate, as Hair's methods weren't universally practiced by his affiliates:</u> George Buckner, for example, painted with greater deliberateness but achieved the same effects.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -256,12 +256,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_8",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nStudies of ocean wave breaking have predominantly focused on traveling waves (those propagating along the horizontal plane), so Mark McAllister et al. utilized a circular wave tank to produce and study spike waves, axisymmetric standing waves that can erupt vertically when traveling waves propagating in opposing directions intersect. Traveling waves break when wave steepness (height-to-length ratio) passes a critical threshold; breaking thus constrains wave height. McAllister et al. found that spike waves can exceed that constraint, as other factors than just steepness (e.g., jet stability and cavity shape) mediate spike-wave breaking.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nStudies of ocean wave breaking have predominantly focused on traveling waves (those propagating along the horizontal plane), so Mark McAllister et al. utilized a circular wave tank to produce and study spike waves, axisymmetric standing waves that can erupt vertically when traveling waves propagating in opposing directions intersect. Traveling waves break when wave steepness (height-to-length ratio) passes a critical threshold; breaking thus constrains wave height. McAllister et al. found that spike waves can exceed that constraint, as other factors than just steepness (e.g., jet stability and cavity shape) mediate spike-wave breaking.",
     "choices": [
       {
         "id": "A",
@@ -283,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Central Ideas and Details",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_9",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice best describes the finding made by Wright, as presented in the text?\nOptimal foraging theory (OFT) holds that animals' foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Joel Brown and colleagues found to be negatively associated with foraging by Arizona pocket mice but Patricia C. Wright found to be positively associated with foraging by three-striped night monkeys. This discrepancy is explicable in terms of OFT: the monkeys' greater reliance on vision means that higher lunar intensity benefits them more than it benefits the mice.\n\nWhich choice best describes the finding made by Wright, as presented in the text?",
+    "text": "Which choice best describes the finding made by Wright, as presented in the text?\nOptimal foraging theory (OFT) holds that animals' foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Joel Brown and colleagues found to be negatively associated with foraging by Arizona pocket mice but Patricia C. Wright found to be positively associated with foraging by three-striped night monkeys. This discrepancy is explicable in terms of OFT: the monkeys' greater reliance on vision means that higher lunar intensity benefits them more than it benefits the mice.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -329,15 +329,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_10",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly weaken the researchers' conclusion?\nNautilids are marine mollusks that begin growing their shells before emerging from their eggs and continue to add shell segments throughout their lifetimes. The walls between their shells' chambers are called septa, and the deeper the water in which a septum forms, the greater the concentration of the isotope oxygen-18 the septum will contain. Since temperature falls as depth increases, if the area of ocean a nautilid inhabits is known, this isotopic signature can reveal the temperature at which its septa formed. Paleontologist Amane Tajika and colleagues examined each of the septa in two nautilid shells and concluded that septum sample M23 formed at a temperature of 14.0\u00b0C whereas sample F02 formed at 20.8\u00b0C.\n\nWhich finding, if true, would most directly weaken the researchers' conclusion?",
+    "text": "Which finding, if true, would most directly weaken the researchers' conclusion?\nNautilids are marine mollusks that begin growing their shells before emerging from their eggs and continue to add shell segments throughout their lifetimes. The walls between their shells' chambers are called septa, and the deeper the water in which a septum forms, the greater the concentration of the isotope oxygen-18 the septum will contain. Since temperature falls as depth increases, if the area of ocean a nautilid inhabits is known, this isotopic signature can reveal the temperature at which its septa formed. Paleontologist Amane Tajika and colleagues examined each of the septa in two nautilid shells and concluded that septum sample M23 formed at a temperature of 14.0°C whereas sample F02 formed at 20.8°C.",
     "choices": [
       {
         "id": "A",
-        "text": "At a depth of 140 meters in the nautilids' habitat, the water is 20.8\u00b0C and the concentration of oxygen-18 is equal to that in sample F02."
+        "text": "At a depth of 140 meters in the nautilids' habitat, the water is 20.8°C and the concentration of oxygen-18 is equal to that in sample F02."
       },
       {
         "id": "B",
@@ -349,13 +349,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "At a depth of 385 meters in the nautilids' habitat, the water is 14.0\u00b0C and the concentration of oxygen-18 is equal to that in sample M23."
+        "text": "At a depth of 385 meters in the nautilids' habitat, the water is 14.0°C and the concentration of oxygen-18 is equal to that in sample M23."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_11",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which quotation from an art historian would most directly support the claim made in the text?\nIn Din\u00e9 (Navajo) culture, *ikaah* (sandpaintings) are created and then erased as part of sacred healing ceremonies lasting no more than a few days, but Din\u00e9 *hataalii* (chanter, healer, cultural guide) Fred Stevens developed fixatives to preserve desacralized sandpaintings. While on a US-sponsored cultural ambassadorial trip in Europe and the Americas in the 1960s, Stevens produced several such sandpaintings and gave them to cultural institutions. This may seem in tension with the role of cultural ambassador\u2014how could static objects authentically represent an inherently ephemeral and dynamic practice?\u2014but such a view is itself overly object-focused and neglects how Stevens strove to convey exactly those characteristics of *ikaah* as a cultural practice.\n\nWhich quotation from an art historian would most directly support the claim made in the text?",
+    "text": "Which quotation from an art historian would most directly support the claim made in the text?\nIn Diné (Navajo) culture, *ikaah* (sandpaintings) are created and then erased as part of sacred healing ceremonies lasting no more than a few days, but Diné *hataalii* (chanter, healer, cultural guide) Fred Stevens developed fixatives to preserve desacralized sandpaintings. While on a US-sponsored cultural ambassadorial trip in Europe and the Americas in the 1960s, Stevens produced several such sandpaintings and gave them to cultural institutions. This may seem in tension with the role of cultural ambassador—how could static objects authentically represent an inherently ephemeral and dynamic practice?—but such a view is itself overly object-focused and neglects how Stevens strove to convey exactly those characteristics of *ikaah* as a cultural practice.",
     "choices": [
       {
         "id": "A",
@@ -377,21 +377,21 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "\"While Stevens's ambassadorial sandpaintings are undoubtedly educative for audiences that have little exposure to Din\u00e9 culture, they should not be confused with authentic *ikaah*, which cannot be extricated from a practice that is intentionally and necessarily transitory nor condensed into a single persistent object.\""
+        "text": "\"While Stevens's ambassadorial sandpaintings are undoubtedly educative for audiences that have little exposure to Diné culture, they should not be confused with authentic *ikaah*, which cannot be extricated from a practice that is intentionally and necessarily transitory nor condensed into a single persistent object.\""
       },
       {
         "id": "C",
-        "text": "\"The most compelling way to reconcile the apparent tension between the temporary and performative nature of *ikaah* and the persistent and static nature of Stevens's ambassadorial sandpaintings is to recognize that Stevens was an ambassador not only of Din\u00e9 culture but of a US art culture that tended to value permanent works over ephemeral ones.\""
+        "text": "\"The most compelling way to reconcile the apparent tension between the temporary and performative nature of *ikaah* and the persistent and static nature of Stevens's ambassadorial sandpaintings is to recognize that Stevens was an ambassador not only of Diné culture but of a US art culture that tended to value permanent works over ephemeral ones.\""
       },
       {
         "id": "D",
-        "text": "\"It is important to recall Stevens's own actions as a gift-giver\u2014a temporary and performative role\u2014of the sandpaintings, for by taking those actions, Stevens publicly enacted the transmission of knowledge of both traditional *ikaah* practices and cutting-edge chemistry (in the form of the preservative additives), a hybrid that reflects the dynamism of Din\u00e9 culture.\""
+        "text": "\"It is important to recall Stevens's own actions as a gift-giver—a temporary and performative role—of the sandpaintings, for by taking those actions, Stevens publicly enacted the transmission of knowledge of both traditional *ikaah* practices and cutting-edge chemistry (in the form of the preservative additives), a hybrid that reflects the dynamism of Diné culture.\""
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_12",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice best describes data from the table that support Taylor and team's conclusion?\nSome animals evade predation with the help of contrasting markings that signal toxicity. Lisa Taylor and team studied how jumping spiders behave toward termites (their regular prey) to which solid black, solid white, or black-and-white striped (i.e., contrasting) capes were affixed. Each spider was placed in a clear container in the center of a circular dish in which six termites, two with each of the three cape types, could be seen. Noting which termites the spiders first looked at and which termites they ultimately targeted, the researchers concluded that contrasting markings were a deterrent.\n\nWhich choice best describes data from the table that support Taylor and team's conclusion?",
+    "text": "Which choice best describes data from the table that support Taylor and team's conclusion?\nSome animals evade predation with the help of contrasting markings that signal toxicity. Lisa Taylor and team studied how jumping spiders behave toward termites (their regular prey) to which solid black, solid white, or black-and-white striped (i.e., contrasting) capes were affixed. Each spider was placed in a clear container in the center of a circular dish in which six termites, two with each of the three cape types, could be seen. Noting which termites the spiders first looked at and which termites they ultimately targeted, the researchers concluded that contrasting markings were a deterrent.",
     "choices": [
       {
         "id": "A",
@@ -427,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_25_IntlB_Eng_M2_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_13",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly support N\u00fa\u00f1ez and colleagues\u2019 claim? Rafael N\u00fa\u00f1ez and colleagues studied how members of the Yupno, an Indigenous group in Papua New Guinea, conceptualize time in both spoken language and gestures. The researchers recorded Yupno speakers explaining certain temporal words and phrases, such as *ono-ropmo* bilak, a past-oriented expression that translates to \u201ca couple of years ago,\u201d and coded each speaker\u2019s manual gestures. Previous research has found a tendency in many cultures to make temporal distinctions along imagined linear axes: for instance, English speakers often refer to the front/back axis to describe events in time. Some researchers believe this tendency is universal, but N\u00fa\u00f1ez and colleagues claim this is not the case.\n\nWhich finding, if true, would most directly support N\u00fa\u00f1ez and colleagues\u2019 claim?",
+    "text": "Which finding, if true, would most directly support Núñez and colleagues’ claim? Rafael Núñez and colleagues studied how members of the Yupno, an Indigenous group in Papua New Guinea, conceptualize time in both spoken language and gestures. The researchers recorded Yupno speakers explaining certain temporal words and phrases, such as *ono-ropmo* bilak, a past-oriented expression that translates to “a couple of years ago,” and coded each speaker’s manual gestures. Previous research has found a tendency in many cultures to make temporal distinctions along imagined linear axes: for instance, English speakers often refer to the front/back axis to describe events in time. Some researchers believe this tendency is universal, but Núñez and colleagues claim this is not the case.",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -473,12 +472,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_14",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nWhistler waves are low-frequency plasma waves that on Earth are typically generated by lightning. Numerous recordings of whistler waves on Venus have led many scientists to suggest that the planet's atmosphere is host to extensive amounts of lightning, and, in fact, Venusian whistler waves have similar energy signatures to those of whistler waves generated by lightning on Earth. The majority of Venusian whistler wave data come from two spacecraft missions\u2014the Pioneer Venus Orbiter (PVO) and the Venus Express (VEX)\u2014which have included few observations of other phenomena consistent with lightning occurrences (such as flashes of light), leading other scientists to suggest that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nWhistler waves are low-frequency plasma waves that on Earth are typically generated by lightning. Numerous recordings of whistler waves on Venus have led many scientists to suggest that the planet's atmosphere is host to extensive amounts of lightning, and, in fact, Venusian whistler waves have similar energy signatures to those of whistler waves generated by lightning on Earth. The majority of Venusian whistler wave data come from two spacecraft missions—the Pioneer Venus Orbiter (PVO) and the Venus Express (VEX)—which have included few observations of other phenomena consistent with lightning occurrences (such as flashes of light), leading other scientists to suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -500,9 +499,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_15",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nIn the world's democracies, proportionally few elected representatives are young adults. While some philosophers argue that certain types of underrepresentation (of women, for example) are unfair in principle and should be remediated via quotas, there is broad agreement that youth underrepresentation is not inherently unfair since it is universal (all people are underrepresented when young), temporary (underrepresented young people become overrepresented older people), and reflective of a legitimate concern (lack of relevant experience). Accordingly, when philosopher Juliana Uhuru Bidadanure advocates for youth quotas for elected representatives, she does so on the basis of their instrumental value for promoting youth interests, arguing that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nIn the world's democracies, proportionally few elected representatives are young adults. While some philosophers argue that certain types of underrepresentation (of women, for example) are unfair in principle and should be remediated via quotas, there is broad agreement that youth underrepresentation is not inherently unfair since it is universal (all people are underrepresented when young), temporary (underrepresented young people become overrepresented older people), and reflective of a legitimate concern (lack of relevant experience). Accordingly, when philosopher Juliana Uhuru Bidadanure advocates for youth quotas for elected representatives, she does so on the basis of their instrumental value for promoting youth interests, arguing that ______",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -546,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_16",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n\"Paper Dragons\" by James P. Blaylock, *The Ape's Wife and Other Stories* by Caitlin R. Kiernan, and \"Confess the Seasons\" by Charles L. Grant are all pieces of literature that have won the prestigious World Fantasy ______ the works received the honor in the categories of short story, collection, and novella, respectively.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n\"Paper Dragons\" by James P. Blaylock, *The Ape's Wife and Other Stories* by Caitlin R. Kiernan, and \"Confess the Seasons\" by Charles L. Grant are all pieces of literature that have won the prestigious World Fantasy ______ the works received the honor in the categories of short story, collection, and novella, respectively.",
     "choices": [
       {
         "id": "A",
@@ -572,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -582,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_17",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAll member nations of the North Atlantic Treaty Organization, or NATO\u2014including Iceland, which joined in 1949; Hungary, which joined in 1999; and Bulgaria, which joined in ______ are committed to NATO's principle of collective defense, each member pledging to defend all others.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAll member nations of the North Atlantic Treaty Organization, or NATO—including Iceland, which joined in 1949; Hungary, which joined in 1999; and Bulgaria, which joined in ______ are committed to NATO's principle of collective defense, each member pledging to defend all others.",
     "choices": [
       {
         "id": "A",
@@ -602,13 +601,49 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "2004\u2014"
+        "text": "2004—"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_18",
+    "testName": "June 2025 International Form B SAT English Module 2",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMultidisciplinary at its core, ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Diné/Creek artist Anna Tsouhlarakis engages a range of art forms—primarily video, photography, and performance—in her body of work."
+      },
+      {
+        "id": "B",
+        "text": "video, photography, and performance are among the range of art forms that Diné/Creek artist Anna Tsouhlarakis primarily engages in her body of work."
+      },
+      {
+        "id": "C",
+        "text": "a range of art forms—primarily video, photography, and performance—are engaged by Diné/Creek artist Anna Tsouhlarakis in her body of work."
+      },
+      {
+        "id": "D",
+        "text": "Diné/Creek artist Anna Tsouhlarakis's body of work engages a range of art forms—primarily video, photography, and performance."
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -618,47 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_18",
-    "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMultidisciplinary at its core, ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Din\u00e9/Creek artist Anna Tsouhlarakis engages a range of art forms\u2014primarily video, photography, and performance\u2014in her body of work."
-      },
-      {
-        "id": "B",
-        "text": "video, photography, and performance are among the range of art forms that Din\u00e9/Creek artist Anna Tsouhlarakis primarily engages in her body of work."
-      },
-      {
-        "id": "C",
-        "text": "a range of art forms\u2014primarily video, photography, and performance\u2014are engaged by Din\u00e9/Creek artist Anna Tsouhlarakis in her body of work."
-      },
-      {
-        "id": "D",
-        "text": "Din\u00e9/Creek artist Anna Tsouhlarakis's body of work engages a range of art forms\u2014primarily video, photography, and performance."
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Reading and Writing",
-      "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
-      "confidence": "high"
-    }
-  },
-  {
-    "section": "Reading and Writing",
-    "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_19",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAt the Chicxulub asteroid impact crater in Mexico, the presence of many fossilized microbacteria, which seem to have thrived there despite the extreme heat that persisted after the Chicxulub impact, ______ claims that bacteria are among the planet's most resilient organisms.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAt the Chicxulub asteroid impact crater in Mexico, the presence of many fossilized microbacteria, which seem to have thrived there despite the extreme heat that persisted after the Chicxulub impact, ______ claims that bacteria are among the planet's most resilient organisms.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -690,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_20",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Xu Bing's art installation *Book from the Sky*, each one of the thousands of faux Chinese characters\u2014printed in precise columns on the trio of long scrolls that swoop across the ceiling, on the rows of open books that undulate along the floor, and on the paper walls that stand to the sides\u2014 ______ no meaning. Invented by Bing, the characters present plausibly and grandiosely, inviting yet punishing those who yearn to decode them.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Xu Bing's art installation *Book from the Sky*, each one of the thousands of faux Chinese characters—printed in precise columns on the trio of long scrolls that swoop across the ceiling, on the rows of open books that undulate along the floor, and on the paper walls that stand to the sides— ______ no meaning. Invented by Bing, the characters present plausibly and grandiosely, inviting yet punishing those who yearn to decode them.",
     "choices": [
       {
         "id": "A",
@@ -716,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -725,12 +724,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_21",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA loose confederation of cities from eleven modern-day countries, the Hanseatic League was a powerful mercantile alliance that dominated northern European trade between the 13th and 17th centuries. Hanseatic League member ______ was serendipitously located on the Warnow River in Germany, giving Rostock's merchants access to key maritime trade routes.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA loose confederation of cities from eleven modern-day countries, the Hanseatic League was a powerful mercantile alliance that dominated northern European trade between the 13th and 17th centuries. Hanseatic League member ______ was serendipitously located on the Warnow River in Germany, giving Rostock's merchants access to key maritime trade routes.",
     "choices": [
       {
         "id": "A",
@@ -752,9 +751,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_22",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nA staunch supporter of women's voting rights, Wilhelmina Kekelaokalaninui Widemann Dowsett sought to coordinate the efforts of suffragists in her native Hawai'i. ______ in 1912, she founded the National Women's Equal Suffrage Association of Hawai'i, an organization that lobbied for women's voting rights in the US territory.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nA staunch supporter of women's voting rights, Wilhelmina Kekelaokalaninui Widemann Dowsett sought to coordinate the efforts of suffragists in her native Hawai'i. ______ in 1912, she founded the National Women's Equal Suffrage Association of Hawai'i, an organization that lobbied for women's voting rights in the US territory.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_23",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn quantum physics, Karen Barad's theory of agential realism\u2014which emphasizes the entanglement, or \"intra-action,\" of human and nonhuman actors\u2014is a foundational rebuke to the dualistic subject-object divide that has undergirded scientific epistemology for centuries. ______ Barad's theory presents a paradigmatic shift in the scientific understanding of reality and the quantum world.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn quantum physics, Karen Barad's theory of agential realism—which emphasizes the entanglement, or \"intra-action,\" of human and nonhuman actors—is a foundational rebuke to the dualistic subject-object divide that has undergirded scientific epistemology for centuries. ______ Barad's theory presents a paradigmatic shift in the scientific understanding of reality and the quantum world.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_24",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nUpper-atmospheric jets\u2014phenomena whereby electrical discharges cause narrow cones of blue light to briefly burst upward from the tops of thunderclouds\u2014have been observed reaching the ionosphere. The extreme altitudes involved (the ionosphere begins about 80 km above Earth) mark these gigantic jets as outliers; ______ the majority of jets reach heights of only 20 to 50 km.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nUpper-atmospheric jets—phenomena whereby electrical discharges cause narrow cones of blue light to briefly burst upward from the tops of thunderclouds—have been observed reaching the ionosphere. The extreme altitudes involved (the ionosphere begins about 80 km above Earth) mark these gigantic jets as outliers; ______ the majority of jets reach heights of only 20 to 50 km.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_25",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "The student wants to compare how Schubart and Charpentier describe the mood of C minor. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 In music theory, the term \"key\" refers to the set of musical notes that forms the foundation of a piece of music.\n\u2022 In *Ideas Toward an Aesthetic of Music* (1806), German poet and composer Christian Schubart describes the moods of various musical keys.\n\u2022 He describes the key of C minor as expressing \"longing.\"\n\u2022 In *R\u00e8gles de Composition* (1682), French composer Marc-Antoine Charpentier undertakes the same task.\n\u2022 He describes the key of C minor as \"obscure and sad.\"\n\u2022 \"Don't Speak\" by No Doubt (1996) is a song written in C minor.\n\nThe student wants to compare how Schubart and Charpentier describe the mood of C minor. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare how Schubart and Charpentier describe the mood of C minor. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• In music theory, the term \"key\" refers to the set of musical notes that forms the foundation of a piece of music.\n• In *Ideas Toward an Aesthetic of Music* (1806), German poet and composer Christian Schubart describes the moods of various musical keys.\n• He describes the key of C minor as expressing \"longing.\"\n• In *Règles de Composition* (1682), French composer Marc-Antoine Charpentier undertakes the same task.\n• He describes the key of C minor as \"obscure and sad.\"\n• \"Don't Speak\" by No Doubt (1996) is a song written in C minor.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,33 +905,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_26",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize how long Hess's sport has been a Paralympic event?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Paralympic Games are a series of international sporting events involving athletes with an impairment.\n\u2022 A gold medal indicates that an athlete finished in first place.\n\u2022 Swimming has been an event at the Paralympics since 1960.\n\u2022 B\u00e9atrice Hess competed as a Paralympic swimmer from 1984 to 2004.\n\u2022 She won twenty-five medals.\n\u2022 Of these medals, twenty were gold.\n\nWhich choice most effectively uses information from the given sentences to emphasize how long Hess's sport has been a Paralympic event?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize how long Hess's sport has been a Paralympic event?\nWhile researching a topic, a student has taken the following notes:\n• The Paralympic Games are a series of international sporting events involving athletes with an impairment.\n• A gold medal indicates that an athlete finished in first place.\n• Swimming has been an event at the Paralympics since 1960.\n• Béatrice Hess competed as a Paralympic swimmer from 1984 to 2004.\n• She won twenty-five medals.\n• Of these medals, twenty were gold.",
     "choices": [
       {
         "id": "A",
-        "text": "An accomplished Paralympian with multiple gold medal wins, B\u00e9atrice Hess competed as a swimmer from 1984 to 2004."
+        "text": "An accomplished Paralympian with multiple gold medal wins, Béatrice Hess competed as a swimmer from 1984 to 2004."
       },
       {
         "id": "B",
-        "text": "B\u00e9atrice Hess competed at the Paralympic Games, a series of international sporting events."
+        "text": "Béatrice Hess competed at the Paralympic Games, a series of international sporting events."
       },
       {
         "id": "C",
-        "text": "Swimming, a sport in which B\u00e9atrice Hess took home twenty gold medals, has been an event at the Paralympic Games since 1960."
+        "text": "Swimming, a sport in which Béatrice Hess took home twenty gold medals, has been an event at the Paralympic Games since 1960."
       },
       {
         "id": "D",
-        "text": "During her career in swimming, which started in 1984, B\u00e9atrice Hess took home a total of twenty-five medals, twenty of which were gold."
+        "text": "During her career in swimming, which started in 1984, Béatrice Hess took home a total of twenty-five medals, twenty of which were gold."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "110d04d6-17dd-46a6-a6d5-c895e1d91668_27",
     "testName": "June 2025 International Form B SAT English Module 2",
-    "text": "The student wants to make a generalization based on the study's findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A 2022 study analyzed geotagged social media posts to assess the effect of parks on happiness in 25 US cities.\n\u2022 The happiness benefit of a city's parks was the numeric difference between the calculated happiness scores of posts made in parks and posts made elsewhere.\n\u2022 A benefit above 0 indicates a positive effect.\n\u2022 The park happiness benefit in San Francisco, California, was greater than 0.10.\n\u2022 The park happiness benefit in Washington, DC, was greater than 0 but less than 0.10.\n\u2022 The average happiness benefit of parks across all cities was 0.10.\n\nThe student wants to make a generalization based on the study's findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to make a generalization based on the study's findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A 2022 study analyzed geotagged social media posts to assess the effect of parks on happiness in 25 US cities.\n• The happiness benefit of a city's parks was the numeric difference between the calculated happiness scores of posts made in parks and posts made elsewhere.\n• A benefit above 0 indicates a positive effect.\n• The park happiness benefit in San Francisco, California, was greater than 0.10.\n• The park happiness benefit in Washington, DC, was greater than 0 but less than 0.10.\n• The average happiness benefit of parks across all cities was 0.10.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

@@ -5,7 +5,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_1",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -40,8 +40,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_2",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -52,15 +52,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_3",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -88,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_4",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -112,11 +112,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "(0, \u22125)"
+        "text": "(0, −5)"
       },
       {
         "id": "D",
-        "text": "(0, \u22127)"
+        "text": "(0, −7)"
       }
     ],
     "correctAnswer": "D",
@@ -124,16 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Math_M2_Q4_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_5",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -161,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_6",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -196,17 +195,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Math_M2_Q6_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_7",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -234,16 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_8",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -271,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_9",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -307,16 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Math_M2_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_10",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -327,15 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_12",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -363,15 +359,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_13",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -387,11 +383,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "F = 41 \u2212 a"
+        "text": "F = 41 − a"
       },
       {
         "id": "D",
-        "text": "F = a \u2212 41"
+        "text": "F = a − 41"
       }
     ],
     "correctAnswer": "A",
@@ -399,15 +395,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_14",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -435,15 +431,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_15",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -454,19 +450,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_16",
     "testName": "May 2024 International Form C SAT Math Module 2",
-    "text": "In the figure shown, lines l and k are parallel and line t intersects both lines. If x\uff1e165, which of the following must be true?",
+    "text": "In the figure shown, lines l and k are parallel and line t intersects both lines. If x＞165, which of the following must be true?",
     "choices": [
       {
         "id": "A",
@@ -490,35 +486,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
-      "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Math_M2_Q16_1.png"
-  },
-  {
-    "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_17",
-    "testName": "May 2024 International Form C SAT Math Module 2",
-    "text": "The expression7x 4 +10x 4 \u221210x 4 is equivalent to bx 4, where is a constant. What is the value of b?",
-    "choices": [],
-    "correctAnswer": "7",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_17",
+    "testName": "May 2024 International Form C SAT Math Module 2",
+    "text": "The expression7x 4 +10x 4 −10x 4 is equivalent to bx 4, where is a constant. What is the value of b?",
+    "choices": [],
+    "correctAnswer": "7",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_18",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -546,15 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_19",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -582,7 +577,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -590,11 +585,11 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_20",
     "testName": "May 2024 International Form C SAT Math Module 2",
-    "text": "A circle in the xy-plane has its center at (5, 1) and a radius with a length of 7. The equation for this circle can be written in the form (x \u2212 h) 2 + (y \u2212 k) 2 = b, where h, k, and b are constants. What is the value of h?",
+    "text": "A circle in the xy-plane has its center at (5, 1) and a radius with a length of 7. The equation for this circle can be written in the form (x − h) 2 + (y − k) 2 = b, where h, k, and b are constants. What is the value of h?",
     "choices": [],
     "correctAnswer": "5",
     "type": "free-response",
@@ -608,8 +603,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_21",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -637,16 +632,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Math_M2_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_22",
     "testName": "May 2024 International Form C SAT Math Module 2",
@@ -674,7 +668,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   }

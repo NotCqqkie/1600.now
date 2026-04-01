@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_1",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \u201craise\u201d most nearly mean?\nThe following text is from Jhumpa Lahiri's 2003 novel *The Namesake*. Gogol, a child, is at a beach in Massachusetts with his father. He watches his father <u>raise</u> a kite within minutes into the wind, so high that Gogol must tip his head back in order to see, a rippling speck against the sky. The wind whips around their ears, turning their faces cold.\n\u00a92003 by Jhumpa Lahiri\n\nAs used in the text, what does the word \u201craise\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “raise” most nearly mean?\nThe following text is from Jhumpa Lahiri's 2003 novel *The Namesake*. Gogol, a child, is at a beach in Massachusetts with his father. He watches his father <u>raise</u> a kite within minutes into the wind, so high that Gogol must tip his head back in order to see, a rippling speck against the sky. The wind whips around their ears, turning their faces cold.\n©2003 by Jhumpa Lahiri",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_2",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nNovelist Leon Forrest admired William Faulkner's writing style. Forrest's novel *Divine Days* contains a long passage in tribute to Faulkner that is a perfect ______ of Faulkner's style: anyone familiar with Faulkner's writing would see the resemblance.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nNovelist Leon Forrest admired William Faulkner's writing style. Forrest's novel *Divine Days* contains a long passage in tribute to Faulkner that is a perfect ______ of Faulkner's style: anyone familiar with Faulkner's writing would see the resemblance.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_3",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Stock Exchange of Thailand in Bangkok, Thailand, is a dedicated exchange for investing in companies operating in Thailand, ensuring those companies receive certain regulatory oversight. Knowing this can <u> </u> potential investors\u2019 worries about bureaucratic minutiae and thereby allow them to instead focus on identifying sound business opportunities.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Stock Exchange of Thailand in Bangkok, Thailand, is a dedicated exchange for investing in companies operating in Thailand, ensuring those companies receive certain regulatory oversight. Knowing this can <u> </u> potential investors’ worries about bureaucratic minutiae and thereby allow them to instead focus on identifying sound business opportunities.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_4",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe tendency to group authors together into distinct literary movements often encourages literary scholars to ______ subtleties in an author's style. Those studying the works of Amos Bronson Alcott, for instance, may inadvertently overlook nuances in his work by focusing only on the most obvious ways in which his style corresponds to transcendentalism.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe tendency to group authors together into distinct literary movements often encourages literary scholars to ______ subtleties in an author's style. Those studying the works of Amos Bronson Alcott, for instance, may inadvertently overlook nuances in his work by focusing only on the most obvious ways in which his style corresponds to transcendentalism.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_5",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough it does not guarantee a book's commercial success, <u> </u> can play a big role in that success\u2014a well-executed marketing campaign helped to make Richard Bachman's novel *The Regulators* the fifth-best-selling novel of 1996.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough it does not guarantee a book's commercial success, <u> </u> can play a big role in that success—a well-executed marketing campaign helped to make Richard Bachman's novel *The Regulators* the fifth-best-selling novel of 1996.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_6",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from Louise Erdrich's 2020 novel *The Night Watchman*. Louis Pipe stone is collecting signatures for a petition from fellow members of the Turtle Mountain Band of Chippewa on the tribe's reservation in North Dakota. Louis Pipe stone tended the petition like a garden. He kept it with him at all times. In town, his eyes sharpened when he noticed a tribal member who hadn't yet signed. Wherever they were\u2014at the gas pump, mercantile [general store], at Henry's [Caf\u00e9], on the road, or outside the clinic and hospital\u2014Louis cornered them. If they were waiting for a baby to be born, he'd have them sign. If they were laughing, if they were arguing. If they were taking a child home from school, they signed.\n\u00a92020 by Louise Erdrich\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from Louise Erdrich's 2020 novel *The Night Watchman*. Louis Pipe stone is collecting signatures for a petition from fellow members of the Turtle Mountain Band of Chippewa on the tribe's reservation in North Dakota. Louis Pipe stone tended the petition like a garden. He kept it with him at all times. In town, his eyes sharpened when he noticed a tribal member who hadn't yet signed. Wherever they were—at the gas pump, mercantile [general store], at Henry's [Café], on the road, or outside the clinic and hospital—Louis cornered them. If they were waiting for a baby to be born, he'd have them sign. If they were laughing, if they were arguing. If they were taking a child home from school, they signed.\n©2020 by Louise Erdrich",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_7",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn Nuxalk, an Indigenous language from the Pacific Northwest region of what are now the United States and Canada, *wats'* means \u201ca dog,\" whereas *wawats'ii* means \u201ca small or cute dog.\" <u>This phenomenon, in which an element of a root word is repeated, sometimes with modification, within another word that is related to the root word, is called *reduplication*</u>. In this case, the element \u201cwa\u201d in *wats'* gets repeated in *wawats'ii*. There are many examples of this type of reduplication in Nuxalk.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn Nuxalk, an Indigenous language from the Pacific Northwest region of what are now the United States and Canada, *wats'* means “a dog,\" whereas *wawats'ii* means “a small or cute dog.\" <u>This phenomenon, in which an element of a root word is repeated, sometimes with modification, within another word that is related to the root word, is called *reduplication*</u>. In this case, the element “wa” in *wats'* gets repeated in *wawats'ii*. There are many examples of this type of reduplication in Nuxalk.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_8",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "According to the text, what did Sun and colleagues discover about surfactants?\nMicroplastics are tiny pieces of plastic waste. Areas of the ocean with higher concentrations of microplastic particles also have smaller and fewer waves. A study by Yukun Sun and colleagues found that the concentration of microplastic particles cannot be the only reason for this reduced wave activity because the concentration of particles that would have the observed effect is much higher than that found in these areas of the ocean. However, they found that surfactants, chemicals often used to manufacture plastics, are released into the water from microplastics and have a much stronger wave-reducing effect.\n\nAccording to the text, what did Sun and colleagues discover about surfactants?",
+    "text": "According to the text, what did Sun and colleagues discover about surfactants?\nMicroplastics are tiny pieces of plastic waste. Areas of the ocean with higher concentrations of microplastic particles also have smaller and fewer waves. A study by Yukun Sun and colleagues found that the concentration of microplastic particles cannot be the only reason for this reduced wave activity because the concentration of particles that would have the observed effect is much higher than that found in these areas of the ocean. However, they found that surfactants, chemicals often used to manufacture plastics, are released into the water from microplastics and have a much stronger wave-reducing effect.",
     "choices": [
       {
         "id": "A",
@@ -283,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "skill": "Command of Evidence",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_9",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nArtificial leaves are a developing renewable energy technology that mimics the process of photosynthesis in plants. These devices are silicon-based solar cells coated in chemical catalysts that activate reactions that split water molecules into hydrogen and oxygen gas. The technology, while generating lots of interest, is not yet commercially viable as a large-scale energy source. To meet this challenge, scientists from many fields are researching ways to store, transport, and distribute the energy the devices produce while other scientists are working to improve the cost and efficiency of the devices.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nArtificial leaves are a developing renewable energy technology that mimics the process of photosynthesis in plants. These devices are silicon-based solar cells coated in chemical catalysts that activate reactions that split water molecules into hydrogen and oxygen gas. The technology, while generating lots of interest, is not yet commercially viable as a large-scale energy source. To meet this challenge, scientists from many fields are researching ways to store, transport, and distribute the energy the devices produce while other scientists are working to improve the cost and efficiency of the devices.",
     "choices": [
       {
         "id": "A",
@@ -319,21 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Central Ideas and Details",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_10",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the comparison?\nTotal Areas of Five Tribal Nations around the United States\nTribal nation\nLocation\nArea (square miles)\nTohono O'odham Nation\nArizona\n4,453\nStanding Rock Sioux Tribe\nNorth and South Dakota\n3,662\nHopi Tribe\nArizona\n2,533\nYakama Nation\nWashington\n2,188\nChoctaw Nation\nOklahoma\n10,864\nA citizen of the Standing Rock Sioux Tribe is a student in a geography class. The student wants to compare the total area covered by his tribal nation in North and South Dakota with the total areas covered by certain tribal nations in other states. Looking at the table, he finds that the area of the Standing Rock Sioux Tribe is 3,662 square miles, while the area of the Yakama Nation in Washington is ______________\n\nWhich choice most effectively uses data from the table to complete the comparison?",
+    "text": "Which choice most effectively uses data from the table to complete the comparison?\nTotal Areas of Five Tribal Nations around the United States\nTribal nation\nLocation\nArea (square miles)\nTohono O'odham Nation\nArizona\n4,453\nStanding Rock Sioux Tribe\nNorth and South Dakota\n3,662\nHopi Tribe\nArizona\n2,533\nYakama Nation\nWashington\n2,188\nChoctaw Nation\nOklahoma\n10,864\nA citizen of the Standing Rock Sioux Tribe is a student in a geography class. The student wants to compare the total area covered by his tribal nation in North and South Dakota with the total areas covered by certain tribal nations in other states. Looking at the table, he finds that the area of the Standing Rock Sioux Tribe is 3,662 square miles, while the area of the Yakama Nation in Washington is ______________",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
       "confidence": "high"
     }
   },
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_11",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice best describes data from the table that support P\u00f6tzelsberger and colleagues' conclusion?\nNumbers of the 23 Non-native Tree Species Reported and the Insect and Fungus Threats to Them\nCountry\nTrees\nFungi\nInsects\nItaly\n14\n57\n42\nPoland\n10\n25\n105\nFinland\n6\n11\n28\nElisabeth P\u00f6tzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Poland, Italy, and Finland about the number of these species grown in those countries as well as the numbers of insect and fungus species that damage those trees. The researchers concluded that Poland reported a greater number of damaging insect species than either of the other countries did.\n\nWhich choice best describes data from the table that support P\u00f6tzelsberger and colleagues' conclusion?",
+    "text": "Which choice best describes data from the table that support Pötzelsberger and colleagues' conclusion?\nNumbers of the 23 Non-native Tree Species Reported and the Insect and Fungus Threats to Them\nCountry\nTrees\nFungi\nInsects\nItaly\n14\n57\n42\nPoland\n10\n25\n105\nFinland\n6\n11\n28\nElisabeth Pötzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Poland, Italy, and Finland about the number of these species grown in those countries as well as the numbers of insect and fungus species that damage those trees. The researchers concluded that Poland reported a greater number of damaging insect species than either of the other countries did.",
     "choices": [
       {
         "id": "A",
@@ -391,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_12",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice best describes data in the table that support the city planner's conclusion?\nRanking of Environmental and Sociocultural Benefits of Urban Agriculture (scale of 1 to 25; 1 = highest)\nEsther Sany\u00e9-Mengual, Kathrin Specht, and their team surveyed three groups of people in Bologna, Italy\u2014leaders of urban agriculture projects, stakeholders in urban agriculture (e.g., food researchers and urban farming associations), and the general public\u2014to compare their views about the extent to which urban agriculture contributes to 25 social or ecological services that the team identified. The researchers used these, with a ranking of 1 indicating to rank the services that a group perceives that urban agriculture benefits that service the most. Using only the rankings shown in the table, a city planner in Bologna who is promoting a new urban agriculture project concludes that advertisements aimed at the general public should emphasize the project's benefit to the provision of medicinal plants.\n\nWhich choice best describes data in the table that support the city planner's conclusion?",
+    "text": "Which choice best describes data in the table that support the city planner's conclusion?\nRanking of Environmental and Sociocultural Benefits of Urban Agriculture (scale of 1 to 25; 1 = highest)\nEsther Sanyé-Mengual, Kathrin Specht, and their team surveyed three groups of people in Bologna, Italy—leaders of urban agriculture projects, stakeholders in urban agriculture (e.g., food researchers and urban farming associations), and the general public—to compare their views about the extent to which urban agriculture contributes to 25 social or ecological services that the team identified. The researchers used these, with a ranking of 1 indicating to rank the services that a group perceives that urban agriculture benefits that service the most. Using only the rankings shown in the table, a city planner in Bologna who is promoting a new urban agriculture project concludes that advertisements aimed at the general public should emphasize the project's benefit to the provision of medicinal plants.",
     "choices": [
       {
         "id": "A",
@@ -427,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_IntlA_Eng_M1_Q12_1.jpg"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_13",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support Bura and colleagues' claim?\nVeronica L. Bura, Akito Y. Kawahara, and Jayne E. Yack investigated the evolution and function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks on isolated caterpillars, 33% of the tested species produced sound, which ranged from clicks in *Manduca pellenia* to vocalizations in *Sphecodina abbottii*. Although some insects use sound to communicate with members of the same species, the researchers claim that the caterpillar sounds recorded in their study are directed primarily at predators.\n\nWhich finding, if true, would most directly support Bura and colleagues' claim?",
+    "text": "Which finding, if true, would most directly support Bura and colleagues' claim?\nVeronica L. Bura, Akito Y. Kawahara, and Jayne E. Yack investigated the evolution and function of sound production in silk moth and hawk moth caterpillars. They found that during harmless simulated attacks on isolated caterpillars, 33% of the tested species produced sound, which ranged from clicks in *Manduca pellenia* to vocalizations in *Sphecodina abbottii*. Although some insects use sound to communicate with members of the same species, the researchers claim that the caterpillar sounds recorded in their study are directed primarily at predators.",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -474,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_14",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nOver 600 languages are spoken in New York City in addition to English\u2014one can find Aromanian spoken in the neighborhood of Ridgewood, or Hindi in Gramercy Park. Many immigrants from north China, where Mandarin is the primary language, reside in the neighborhood of Flushing (part of New York City's borough of Queens) while those who emigrated from south China, where many people speak Cantonese or Fuzhounese as a first language, tend to reside in Chinatown, in the borough of Manhattan. Among speakers of Chinese languages, those in Flushing tend to speak Mandarin as their primary language while those in Chinatown tend to speak Cantonese or Fuzhounese as their primary language. This is most likely because <u> </u>\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nOver 600 languages are spoken in New York City in addition to English—one can find Aromanian spoken in the neighborhood of Ridgewood, or Hindi in Gramercy Park. Many immigrants from north China, where Mandarin is the primary language, reside in the neighborhood of Flushing (part of New York City's borough of Queens) while those who emigrated from south China, where many people speak Cantonese or Fuzhounese as a first language, tend to reside in Chinatown, in the borough of Manhattan. Among speakers of Chinese languages, those in Flushing tend to speak Mandarin as their primary language while those in Chinatown tend to speak Cantonese or Fuzhounese as their primary language. This is most likely because <u> </u>",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_15",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRobert Morris's image was printed on $1,000 US banknotes in 1862, making the former US superintendent of finance one of many nonpresidents ______ on US currency.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRobert Morris's image was printed on $1,000 US banknotes in 1862, making the former US superintendent of finance one of many nonpresidents ______ on US currency.",
     "choices": [
       {
         "id": "A",
@@ -536,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -546,15 +545,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_16",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany experts, like lawyer and cycling advocate Ernesto Hernandez-Lopez, have proposed bike travel as one possible way to alleviate congestion on the busy roadways of Los Angeles County, California. Indeed, local bicycle paths like the San Francisquito ______ have become an increasingly popular means of travel for commuter and recreational trips alike.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany experts, like lawyer and cycling advocate Ernesto Hernandez-Lopez, have proposed bike travel as one possible way to alleviate congestion on the busy roadways of Los Angeles County, California. Indeed, local bicycle paths like the San Francisquito ______ have become an increasingly popular means of travel for commuter and recreational trips alike.",
     "choices": [
       {
         "id": "A",
-        "text": "Trail which is 4.36 miles long\u2014"
+        "text": "Trail which is 4.36 miles long—"
       },
       {
         "id": "B",
@@ -572,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -582,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_17",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWisconsin, ______ 1,372 feet in elevation, reaches its highest point at Timms Hill.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWisconsin, ______ 1,372 feet in elevation, reaches its highest point at Timms Hill.",
     "choices": [
       {
         "id": "A",
@@ -608,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_18",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOver the years, dozens of architectural and archaeological sites important to Hawaiian history and culture, such as the Wailua Complex of Heiaus and Menehune Fishpond, have been added to the Hawai'i Register of Historic Places, and each year, a review board of experts that includes sociologist Alton Okinaka and architect Katie Stephens gathers to ______ which sites to add next to the growing registry.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOver the years, dozens of architectural and archaeological sites important to Hawaiian history and culture, such as the Wailua Complex of Heiaus and Menehune Fishpond, have been added to the Hawai'i Register of Historic Places, and each year, a review board of experts that includes sociologist Alton Okinaka and architect Katie Stephens gathers to ______ which sites to add next to the growing registry.",
     "choices": [
       {
         "id": "A",
@@ -644,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -654,15 +653,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_19",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile the greater adjutant can be found in places like the Koshi Tappu Wildlife Reserve in Nepal and Chhnuk Tru in Cambodia, more than 80 percent of this endangered stork species is found in Assam, India. There, wildlife biologist Dr. Purnima Devi Barman is on the front lines of conservation efforts _________ through community involvement and scientific study, aim to bring adjutants back from near-extinction.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile the greater adjutant can be found in places like the Koshi Tappu Wildlife Reserve in Nepal and Chhnuk Tru in Cambodia, more than 80 percent of this endangered stork species is found in Assam, India. There, wildlife biologist Dr. Purnima Devi Barman is on the front lines of conservation efforts _________ through community involvement and scientific study, aim to bring adjutants back from near-extinction.",
     "choices": [
       {
         "id": "A",
-        "text": "that\u2014"
+        "text": "that—"
       },
       {
         "id": "B",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -690,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_20",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn knot theory (the mathematical study of curved, closed loops), knots are characterized by their crossing numbers\u2014that is, the number of times the knotted thread crosses over itself. The trefoil knot and the figure-eight knot, each with a crossing number below five, ______ among the simplest possible knots with the fewest number of crossings.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn knot theory (the mathematical study of curved, closed loops), knots are characterized by their crossing numbers—that is, the number of times the knotted thread crosses over itself. The trefoil knot and the figure-eight knot, each with a crossing number below five, ______ among the simplest possible knots with the fewest number of crossings.",
     "choices": [
       {
         "id": "A",
@@ -716,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_21",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAt 4,000 years old, the Ancient Yew, a common yew (*Taxus baccata*) located in the United Kingdom, is one of the oldest known trees in the world. With four millennia of climate data in its tree rings, a single tree like this, claims <u>______</u> Valerie Trouet, can tell the history of the world.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAt 4,000 years old, the Ancient Yew, a common yew (*Taxus baccata*) located in the United Kingdom, is one of the oldest known trees in the world. With four millennia of climate data in its tree rings, a single tree like this, claims <u>______</u> Valerie Trouet, can tell the history of the world.",
     "choices": [
       {
         "id": "A",
@@ -742,7 +741,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "dendrochronologist\u2014"
+        "text": "dendrochronologist—"
       },
       {
         "id": "D",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_22",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nSpace scientist Luminata llinca Ignat is excited about the potential of the new James Webb Space Telescope (JWST). Unlike its predecessor, the Hubble Telescope, the JWST is primarily an infrared telescope. Most light from distant galaxies is infrared; <u> </u> the JWST can provide llinca lgnat and her team much more information about these galaxies than the Hubble could.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nSpace scientist Luminata llinca Ignat is excited about the potential of the new James Webb Space Telescope (JWST). Unlike its predecessor, the Hubble Telescope, the JWST is primarily an infrared telescope. Most light from distant galaxies is infrared; <u> </u> the JWST can provide llinca lgnat and her team much more information about these galaxies than the Hubble could.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_23",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nDuring many historic New York City parades, including the 1912 ticker-tape parade for US Olympic champions, the ribbonlike swirls descending on the scene were paper spools from \u201ctickers,\u201d telegraph machines that were used to transmit stock prices. ______ the tickers had long since been retired by the time of the parade for the New York Giants in 2008. Then, shredded standard paper enriched the celebration.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nDuring many historic New York City parades, including the 1912 ticker-tape parade for US Olympic champions, the ribbonlike swirls descending on the scene were paper spools from “tickers,” telegraph machines that were used to transmit stock prices. ______ the tickers had long since been retired by the time of the parade for the New York Giants in 2008. Then, shredded standard paper enriched the celebration.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_24",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two birds?\nWhile researching a topic, a student has taken the following notes:\n\u2022 *Birds of Northern South America* is an identification guidebook by ornithologists Robin Restall, Clemencia Rodner, and Miguel Lentino.\n\u2022 It lists the thirty-five hummingbird species found in Suriname.\n\u2022 The great-billed hermit is a large hummingbird found in Suriname.\n\u2022 It is identifiable by its bronzy back and its very long, black, curved bill.\n\u2022 The amethyst woodstar is a small hummingbird found in Suriname.\n\u2022 It is identifiable by its green back and its short, black, straight bill.\n\nWhich choice most effectively uses information from the given sentences to emphasize a difference between the two birds?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two birds?\nWhile researching a topic, a student has taken the following notes:\n• *Birds of Northern South America* is an identification guidebook by ornithologists Robin Restall, Clemencia Rodner, and Miguel Lentino.\n• It lists the thirty-five hummingbird species found in Suriname.\n• The great-billed hermit is a large hummingbird found in Suriname.\n• It is identifiable by its bronzy back and its very long, black, curved bill.\n• The amethyst woodstar is a small hummingbird found in Suriname.\n• It is identifiable by its green back and its short, black, straight bill.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -870,15 +869,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_25",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "The student wants to emphasize a difference between the French Republican and Gregorian calendars. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The French Republican calendar replaced the Gregorian calendar in France from 1793 to 1805.\n\u2022 Both calendars are divided into twelve months.\n\u2022 The timelines for the months don't match.\n\u2022 The sixth month of the French Republican calendar, Vent\u00f3se, begins during February, the second month of the Gregorian calendar.\n\u2022 The eighth month of the French Republican calendar, Flor\u00e9al, begins during April, the fourth month of the Gregorian calendar.\n\nThe student wants to emphasize a difference between the French Republican and Gregorian calendars. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between the French Republican and Gregorian calendars. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The French Republican calendar replaced the Gregorian calendar in France from 1793 to 1805.\n• Both calendars are divided into twelve months.\n• The timelines for the months don't match.\n• The sixth month of the French Republican calendar, Ventóse, begins during February, the second month of the Gregorian calendar.\n• The eighth month of the French Republican calendar, Floréal, begins during April, the fourth month of the Gregorian calendar.",
     "choices": [
       {
         "id": "A",
-        "text": "Used in France from 1793 to 1805, the French Republican calendar includes the months of Vent\u00f3se and Flor\u00e9al (the sixth and eighth months of the year)."
+        "text": "Used in France from 1793 to 1805, the French Republican calendar includes the months of Ventóse and Floréal (the sixth and eighth months of the year)."
       },
       {
         "id": "B",
@@ -890,13 +889,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "The French Republican calendar, which replaced the Gregorian calendar in France from 1793 to 1805, has twelve months, including the months of Vent\u00f3se and Flor\u00e9al."
+        "text": "The French Republican calendar, which replaced the Gregorian calendar in France from 1793 to 1805, has twelve months, including the months of Ventóse and Floréal."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_26",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "The student wants to compare the hardness of the three minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n\u2022 Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n\u2022 Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n\u2022 The mineral fluorite has a Mohs scale number of 4.\n\u2022 The mineral quartz has a Mohs scale number of 7.\n\u2022 The mineral diamond has a Mohs scale number of 10.\n\nThe student wants to compare the hardness of the three minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the hardness of the three minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n• Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n• Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n• The mineral fluorite has a Mohs scale number of 4.\n• The mineral quartz has a Mohs scale number of 7.\n• The mineral diamond has a Mohs scale number of 10.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,33 +941,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_27",
     "testName": "June 2024 International Form A SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to begin a narration of Mex\u00eda's collection of *Wulffa maculata*?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Yn\u00e9s Mex\u00eda was a Mexican American botanist.\n\u2022 Between 1917 and 1938, she collected over 150,000 botanical samples throughout the Americas.\n\u2022 She collected a sample of *Wulffa maculata* in Minas Gerais, Brazil, on January 25, 1930.\n\u2022 She collected a sample of *Senecio chapalensis* in Jalisco, Mexico, on January 17, 1927.\n\u2022 These specimens are part of the Asteraceae family.\n\u2022 They can now be viewed online at the CV, Starr Virtual Herbarium.\n\nWhich choice most effectively uses information from the given sentences to begin a narration of Mex\u00eda's collection of *Wulffa maculata*?",
+    "text": "Which choice most effectively uses information from the given sentences to begin a narration of Mexía's collection of *Wulffa maculata*?\nWhile researching a topic, a student has taken the following notes:\n• Ynés Mexía was a Mexican American botanist.\n• Between 1917 and 1938, she collected over 150,000 botanical samples throughout the Americas.\n• She collected a sample of *Wulffa maculata* in Minas Gerais, Brazil, on January 25, 1930.\n• She collected a sample of *Senecio chapalensis* in Jalisco, Mexico, on January 17, 1927.\n• These specimens are part of the Asteraceae family.\n• They can now be viewed online at the CV, Starr Virtual Herbarium.",
     "choices": [
       {
         "id": "A",
-        "text": "It was on January 25, 1930, in the state of Minas Gerais, that Yn\u00e9s Mex\u00eda added a new specimen to her growing collection of botanical samples: *Wulffa maculata* of the Asteraceae family."
+        "text": "It was on January 25, 1930, in the state of Minas Gerais, that Ynés Mexía added a new specimen to her growing collection of botanical samples: *Wulffa maculata* of the Asteraceae family."
       },
       {
         "id": "B",
-        "text": "Yn\u00e9s Mex\u00eda collected a sample of *Wulffa maculata* in January of 1930 and *Senecio chapalensis* in January of 1927."
+        "text": "Ynés Mexía collected a sample of *Wulffa maculata* in January of 1930 and *Senecio chapalensis* in January of 1927."
       },
       {
         "id": "C",
-        "text": "While both specimens collected by Yn\u00e9s Mex\u00eda are members of the Asteraceae family, *Wulffa maculata* was collected in Minas Gerais, Brazil, and *Senecio chapalensis* was collected in Jalisco, Mexico."
+        "text": "While both specimens collected by Ynés Mexía are members of the Asteraceae family, *Wulffa maculata* was collected in Minas Gerais, Brazil, and *Senecio chapalensis* was collected in Jalisco, Mexico."
       },
       {
         "id": "D",
-        "text": "Thousands of botanical samples collected from across the Americas by Yn\u00e9s Mex\u00eda can now be found in one place: online at the CV. Starr Virtual Herbarium."
+        "text": "Thousands of botanical samples collected from across the Americas by Ynés Mexía can now be found in one place: online at the CV. Starr Virtual Herbarium."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

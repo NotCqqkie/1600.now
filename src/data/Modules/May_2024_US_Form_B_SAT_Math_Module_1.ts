@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_1",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USB_Math_M1_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_2",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -70,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_3",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -89,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -125,16 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USB_Math_M1_Q4_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_5",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -145,15 +143,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_6",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -164,15 +162,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_7",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -182,36 +180,35 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
-      "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USB_Math_M1_Q7_1.png"
-  },
-  {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_8",
-    "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "The function f(x) = 180(x \u2212 2) gives the sum of the interior angles, in degrees, for a polygon with x sides. What is the sum of the interior angles, in degrees, for a polygon with 34 sides?",
-    "choices": [],
-    "correctAnswer": "5760",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_8",
+    "testName": "May 2024 US Form B SAT Math Module 1",
+    "text": "The function f(x) = 180(x − 2) gives the sum of the interior angles, in degrees, for a polygon with x sides. What is the sum of the interior angles, in degrees, for a polygon with 34 sides?",
+    "choices": [],
+    "correctAnswer": "5760",
+    "type": "free-response",
+    "category": {
+      "subject": "Math",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_9",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -239,15 +236,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_10",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -275,15 +272,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_11",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -311,15 +308,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_12",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -327,19 +324,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "x + 110 \u2264 150"
+        "text": "x + 110 ≤ 150"
       },
       {
         "id": "B",
-        "text": "x + 110 \u2265 150"
+        "text": "x + 110 ≥ 150"
       },
       {
         "id": "C",
-        "text": "x + 55 \u2264 150"
+        "text": "x + 55 ≤ 150"
       },
       {
         "id": "D",
-        "text": "x + 55 \u2265 150"
+        "text": "x + 55 ≥ 150"
       }
     ],
     "correctAnswer": "A",
@@ -347,7 +344,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
@@ -355,11 +352,11 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_13",
     "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "A circle has a circumference of 12\u03c0 centimeters. What is the diameter, in centimeters, of the circle?",
+    "text": "A circle has a circumference of 12π centimeters. What is the diameter, in centimeters, of the circle?",
     "choices": [],
     "correctAnswer": "12",
     "type": "free-response",
@@ -373,20 +370,20 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_14",
     "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "4y = 9x + 14\n\u22124y = 5x \u2212 23\nThe solution to the given system of equations is \uff08 x \uff0c y \uff09. What is the value of 56 x?",
+    "text": "4y = 9x + 14\n−4y = 5x − 23\nThe solution to the given system of equations is （ x ， y ）. What is the value of 56 x?",
     "choices": [
       {
         "id": "A",
-        "text": "\u221236"
+        "text": "−36"
       },
       {
         "id": "B",
-        "text": "\u22129"
+        "text": "−9"
       },
       {
         "id": "C",
@@ -402,19 +399,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_15",
     "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "\u25b3 QPR is similar to \u25b3 STR. The lengths represented by $\\overline{ST}$, $\\overline{QP}$, $\\overline{PR}$, and $\\overline{QR}$ in the figure are 11, 18, 24, and 30, respectively. What is the length of $\\overline{SR}$?",
+    "text": "△ QPR is similar to △ STR. The lengths represented by $\\overline{ST}$, $\\overline{QP}$, $\\overline{PR}$, and $\\overline{QR}$ in the figure are 11, 18, 24, and 30, respectively. What is the length of $\\overline{SR}$?",
     "choices": [
       {
         "id": "A",
@@ -438,20 +435,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USB_Math_M1_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_16",
     "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "f(x) =(x \u2212 66)(x \u2212 68)\nThe function f is defined by the given equation. For what value of x does f(x) reach its minimum?",
+    "text": "f(x) =(x − 66)(x − 68)\nThe function f is defined by the given equation. For what value of x does f(x) reach its minimum?",
     "choices": [
       {
         "id": "A",
@@ -467,7 +463,7 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "\u22121"
+        "text": "−1"
       }
     ],
     "correctAnswer": "B",
@@ -475,15 +471,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_17",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -511,7 +507,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -519,7 +515,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_18",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -554,16 +550,16 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_19",
     "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "A moving truck rental company charges its customers \\$195 for the first hour of renting a truck and \\$75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where y is the total cost, in dollars, of renting a truck from this company for x hours, w is the cost, in dollars, of gas used, and x \u2265 1?",
+    "text": "A moving truck rental company charges its customers \\$195 for the first hour of renting a truck and \\$75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where y is the total cost, in dollars, of renting a truck from this company for x hours, w is the cost, in dollars, of gas used, and x ≥ 1?",
     "choices": [
       {
         "id": "A",
-        "text": "y = 195 + 75(x \u2212 1)+ w"
+        "text": "y = 195 + 75(x − 1)+ w"
       },
       {
         "id": "B",
@@ -575,7 +571,7 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "y = 75(x \u2212 1) + w"
+        "text": "y = 75(x − 1) + w"
       }
     ],
     "correctAnswer": "A",
@@ -583,15 +579,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_20",
     "testName": "May 2024 US Form B SAT Math Module 1",
@@ -619,20 +615,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_USB_Math_M1_Q20_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_21",
     "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "f(x) = (x \u2212 a)(x \u2212 b)\nThe function f is defined by the given equation, where a and b are integer constants. If f(15) > 0, f(18) < 0, and f(21) > 0, which of the following could be the value of a + b?",
+    "text": "f(x) = (x − a)(x − b)\nThe function f is defined by the given equation, where a and b are integer constants. If f(15) > 0, f(18) < 0, and f(21) > 0, which of the following could be the value of a + b?",
     "choices": [
       {
         "id": "A",
@@ -656,7 +651,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -664,11 +659,11 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_22",
     "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "x 2 + 9x + y 2 \u2212 7y + 11 = 0\nIn the xy -plane, the graph of the given equation is a circle. What is the radius of the circle?",
+    "text": "x 2 + 9x + y 2 − 7y + 11 = 0\nIn the xy -plane, the graph of the given equation is a circle. What is the radius of the circle?",
     "choices": [
       {
         "id": "A",

@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_1",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "As used in the text, what does the phrase \u201cconcern myself with\" most nearly mean?\nThe following text is adapted from Rudolfo Anaya's 1972 novel *Bless Me, Ultima*. The young narrator is eating breakfast with his two sisters in their home in rural New Mexico.\nI sat across the table from Deborah and Teresa and ate my atole and the hot tortilla with butter. I said very little. I usually spoke very little to my two sisters. They were older than I and they were very close. They usually spent the entire day in the attic, playing dolls and giggling. I did not <u>concern myself with</u> those things.\n\nAs used in the text, what does the phrase \u201cconcern myself with\" most nearly mean?",
+    "text": "As used in the text, what does the phrase “concern myself with\" most nearly mean?\nThe following text is adapted from Rudolfo Anaya's 1972 novel *Bless Me, Ultima*. The young narrator is eating breakfast with his two sisters in their home in rural New Mexico.\nI sat across the table from Deborah and Teresa and ate my atole and the hot tortilla with butter. I said very little. I usually spoke very little to my two sisters. They were older than I and they were very close. They usually spent the entire day in the attic, playing dolls and giggling. I did not <u>concern myself with</u> those things.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_2",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe percentage of US forest land that a 2023 federal report identified as being either mature or old growth exceeds other recent estimates. Given how little ______ there is among scientists regarding the scope of these categories, this discrepancy shouldn't be surprising: forest researchers regularly dispute one another's classifications.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe percentage of US forest land that a 2023 federal report identified as being either mature or old growth exceeds other recent estimates. Given how little ______ there is among scientists regarding the scope of these categories, this discrepancy shouldn't be surprising: forest researchers regularly dispute one another's classifications.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_3",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nKaram Kang has demonstrated that lobbying does little to alter the probability that a particular energy policy under consideration by the United States Congress will be enacted, but lobbying is not as ________ as this finding seems to suggest. As Kang herself notes, lobbying can shape which policy proposals members of Congress bring forward for consideration in the first place.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nKaram Kang has demonstrated that lobbying does little to alter the probability that a particular energy policy under consideration by the United States Congress will be enacted, but lobbying is not as ________ as this finding seems to suggest. As Kang herself notes, lobbying can shape which policy proposals members of Congress bring forward for consideration in the first place.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_4",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough it does not guarantee a book's commercial success, ______ can play a big role in that success\u2014a well-executed marketing campaign helped to make Danielle Steel's novel *The Gift* the fourth-best-selling novel of 1994.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough it does not guarantee a book's commercial success, ______ can play a big role in that success—a well-executed marketing campaign helped to make Danielle Steel's novel *The Gift* the fourth-best-selling novel of 1994.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_5",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPeople sometimes dismiss a claim if it comes from a source they regard as self-interested, but from a strictly logical perspective, the source of a claim is ________: it has no direct bearing on whether the claim is true.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPeople sometimes dismiss a claim if it comes from a source they regard as self-interested, but from a strictly logical perspective, the source of a claim is ________: it has no direct bearing on whether the claim is true.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_6",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nWhen people think of dinosaurs with feathers, they typically think of winged dinosaurs, such as the four-winged Microraptor. <u>However, many dinosaurs that didn't have wings also had feathers on their bodies.</u> For instance, research indicates that the wingless, speedy Ornithomimus likely had feathers.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nWhen people think of dinosaurs with feathers, they typically think of winged dinosaurs, such as the four-winged Microraptor. <u>However, many dinosaurs that didn't have wings also had feathers on their bodies.</u> For instance, research indicates that the wingless, speedy Ornithomimus likely had feathers.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_7",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe following text is from Annie Dillard's 1987 autobiographical novel *An American Childhood*. The narrator is a young girl living in Pittsburgh.\nI walked. My mother had given me the freedom of the streets as soon as I could say our telephone number. I walked and memorized the neighborhood. I made a mental map and located myself upon it. At night in bed I rehearsed the small world's scheme and set challenges: <u>Find the store using backyards only. Imagine a route from the school to my friend's house.</u>\n\u00a91987 by Annie Dillard\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe following text is from Annie Dillard's 1987 autobiographical novel *An American Childhood*. The narrator is a young girl living in Pittsburgh.\nI walked. My mother had given me the freedom of the streets as soon as I could say our telephone number. I walked and memorized the neighborhood. I made a mental map and located myself upon it. At night in bed I rehearsed the small world's scheme and set challenges: <u>Find the store using backyards only. Imagine a route from the school to my friend's house.</u>\n©1987 by Annie Dillard",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_8",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nGus Edwards's atmospheric play *Black Body Blues* was produced in 1978 by the groundbreaking Negro Ensemble Company (NEC). NEC cofounder Douglas Turner Ward, who worked as an actor, director, and playwright, had met actor and producer Robert Hooks while they were performing in a 1960 touring production of Lorraine Hansberry's play *A Raisin in the Sun*. Together, they envisioned a theater company that would nurture and showcase the work of Black theater professionals. Since NEC's founding in 1967, its workshops and performances have given Black playwrights, including Edwards, a forum for their compelling stories.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nGus Edwards's atmospheric play *Black Body Blues* was produced in 1978 by the groundbreaking Negro Ensemble Company (NEC). NEC cofounder Douglas Turner Ward, who worked as an actor, director, and playwright, had met actor and producer Robert Hooks while they were performing in a 1960 touring production of Lorraine Hansberry's play *A Raisin in the Sun*. Together, they envisioned a theater company that would nurture and showcase the work of Black theater professionals. Since NEC's founding in 1967, its workshops and performances have given Black playwrights, including Edwards, a forum for their compelling stories.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_9",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Based on the text, what is one disadvantage of some conventional thermal preservation methods?\nThe food industry has long used thermal technologies to preserve food in large batches. Recent advancements in infrared heating were made through research in Mexico on the preservation of bean flour. Infrared heating is generally considered to be an improvement over more conventional thermal preservation methods: whereas conventional methods transfer energy from the surface of a food to its interior, infrared heating uses high-intensity infrared light to generate heat within the food itself, thus reducing industrial cooking times.\n\nBased on the text, what is one disadvantage of some conventional thermal preservation methods?",
+    "text": "Based on the text, what is one disadvantage of some conventional thermal preservation methods?\nThe food industry has long used thermal technologies to preserve food in large batches. Recent advancements in infrared heating were made through research in Mexico on the preservation of bean flour. Infrared heating is generally considered to be an improvement over more conventional thermal preservation methods: whereas conventional methods transfer energy from the surface of a food to its interior, infrared heating uses high-intensity infrared light to generate heat within the food itself, thus reducing industrial cooking times.",
     "choices": [
       {
         "id": "A",
@@ -319,21 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_10",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "The author makes which point about the Spanish language?\n\u201cCocoa\u201d is an example of a loanword\u2014that is, a word that originated in one language and was later adopted by another. The word came to English indirectly from *cacao*, the Spanish word for the plant that chocolate is made from. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is *cacahuatl*. \u201cIguana\u201d is also Indigenous in origin and entered English through Spanish. But in this case, the original source was *Taino*, a language of the Caribbean islands, in which the word for the group of related lizard species is *iwana*.\n\nThe author makes which point about the Spanish language?",
+    "text": "The author makes which point about the Spanish language?\n“Cocoa” is an example of a loanword—that is, a word that originated in one language and was later adopted by another. The word came to English indirectly from *cacao*, the Spanish word for the plant that chocolate is made from. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is *cacahuatl*. “Iguana” is also Indigenous in origin and entered English through Spanish. But in this case, the original source was *Taino*, a language of the Caribbean islands, in which the word for the group of related lizard species is *iwana*.",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_11",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nTotal Areas of Five Tribal Nations around the United States\nIn terms of total area, the Navajo Nation is the largest tribal nation in the United States. It covers 24,425 square miles in Arizona, Colorado, and New Mexico. Most tribal nations in the US are much smaller. For example, the total area of the Muscogee Nation in Oklahoma is 4,867 square miles. And in Washington, the total area of the Colville Tribes is ________\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nTotal Areas of Five Tribal Nations around the United States\nIn terms of total area, the Navajo Nation is the largest tribal nation in the United States. It covers 24,425 square miles in Arizona, Colorado, and New Mexico. Most tribal nations in the US are much smaller. For example, the total area of the Muscogee Nation in Oklahoma is 4,867 square miles. And in Washington, the total area of the Colville Tribes is ________",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_IntlC_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_12",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nMillions of Metric Tons of Copper Mined in 1995 and 2020\nWhile doing research for a paper about copper mining, a student finds a table with information about four different countries. The student notes that the country that mined 0.55 million metric tons of copper in 2020 had mined _______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nMillions of Metric Tons of Copper Mined in 1995 and 2020\nWhile doing research for a paper about copper mining, a student finds a table with information about four different countries. The student notes that the country that mined 0.55 million metric tons of copper in 2020 had mined _______",
     "choices": [
       {
         "id": "A",
@@ -428,58 +427,57 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
-      "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_IntlC_Eng_M1_Q12_1.png"
-  },
-  {
-    "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_13",
-    "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which quotation from \u201cA Pair of Silk Stockings\u201d most effectively illustrates the claim?\n\u201cA Pair of Silk Stockings\u201d is an 1897 short story written by Kate Chopin. In the story, Chopin suggests that the protagonist, Mrs. Sommers, experiences a shift in her sense of self as a result of putting on certain articles of clothing, writing, ______\n\nWhich quotation from \u201cA Pair of Silk Stockings\u201d most effectively illustrates the claim?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "\u201cMrs. Sommers was one who knew the value of bargains; who could stand for hours making her way inch by inch toward the desired object that was selling below cost.\u201d"
-      },
-      {
-        "id": "B",
-        "text": "\u201cShe held back her skirts and turned her feet one way and her head another way as she glanced down at the polished, pointed-tipped boots.\u201d"
-      },
-      {
-        "id": "C",
-        "text": "\u201cShe would buy so and so many yards of percale for new shirt waists for the boys and Janie and Mag.\u201d"
-      },
-      {
-        "id": "D",
-        "text": "\u201cHer stockings and boots and well fitting gloves had worked marvels in her bearing\u2014had given her a feeling of assurance, a sense of belonging to the well-dressed multitude.\u201d"
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_13",
+    "testName": "March 2024 International Form C SAT English Module 1",
+    "text": "Which quotation from “A Pair of Silk Stockings” most effectively illustrates the claim?\n“A Pair of Silk Stockings” is an 1897 short story written by Kate Chopin. In the story, Chopin suggests that the protagonist, Mrs. Sommers, experiences a shift in her sense of self as a result of putting on certain articles of clothing, writing, ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“Mrs. Sommers was one who knew the value of bargains; who could stand for hours making her way inch by inch toward the desired object that was selling below cost.”"
+      },
+      {
+        "id": "B",
+        "text": "“She held back her skirts and turned her feet one way and her head another way as she glanced down at the polished, pointed-tipped boots.”"
+      },
+      {
+        "id": "C",
+        "text": "“She would buy so and so many yards of percale for new shirt waists for the boys and Janie and Mag.”"
+      },
+      {
+        "id": "D",
+        "text": "“Her stockings and boots and well fitting gloves had worked marvels in her bearing—had given her a feeling of assurance, a sense of belonging to the well-dressed multitude.”"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_14",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the student's conclusion?\nAverage Hours Worked per Person per Year in 1950 and 2017\nCalculations may be inexact due to rounding\nA student in an economics course is examining the decline since 1950 in average hours worked per person per year in various nations due to both increased productivity and the adoption of policies that limit working hours. The first task in this investigation is to determine how the decline in Argentina compares to that in other countries. The student finds that _____\n\nWhich choice most effectively uses data from the table to complete the student's conclusion?",
+    "text": "Which choice most effectively uses data from the table to complete the student's conclusion?\nAverage Hours Worked per Person per Year in 1950 and 2017\nCalculations may be inexact due to rounding\nA student in an economics course is examining the decline since 1950 in average hours worked per person per year in various nations due to both increased productivity and the adoption of policies that limit working hours. The first task in this investigation is to determine how the decline in Argentina compares to that in other countries. The student finds that _____",
     "choices": [
       {
         "id": "A",
@@ -501,22 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_24_IntlC_Eng_M1_Q14_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_15",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nThe Mammillaria cactus *M. guerreronis* occurs naturally only in the state of Guerrero in Mexico, and the smallness of its range makes it especially vulnerable to extinction. The traditional single-species approach to conservation emphasizes the need to focus on individual species most at risk, like *M. guerreronis*, but recently, conservationists have argued that an ecosystem-based approach that incorporates the many interactions between the climate, terrain, and various species of a given geographical area may lead to better outcomes for all the species in a given location. If this view is correct, the single-species approach to the conservation of *M. guerreronis* could thus ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe Mammillaria cactus *M. guerreronis* occurs naturally only in the state of Guerrero in Mexico, and the smallness of its range makes it especially vulnerable to extinction. The traditional single-species approach to conservation emphasizes the need to focus on individual species most at risk, like *M. guerreronis*, but recently, conservationists have argued that an ecosystem-based approach that incorporates the many interactions between the climate, terrain, and various species of a given geographical area may lead to better outcomes for all the species in a given location. If this view is correct, the single-species approach to the conservation of *M. guerreronis* could thus ______",
     "choices": [
       {
         "id": "A",
@@ -538,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_16",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIt is widely known that New York City's Museum of Modern Art (MoMA) ______ a vast collection of oil paintings, including Paul Klee's *In the Grass* and Fernand L\u00e9ger's *Contrast of Forms*.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIt is widely known that New York City's Museum of Modern Art (MoMA) ______ a vast collection of oil paintings, including Paul Klee's *In the Grass* and Fernand Léger's *Contrast of Forms*.",
     "choices": [
       {
         "id": "A",
@@ -574,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_17",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAn accomplished birder might be able to spot thousands of different species over the course of a career, from *Amadina erythrocephala* to *Arborophila rufogularis*, but no birder has ever achieved the ultimate ______ an in-person glimpse of all 10,000-plus species of birds.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAn accomplished birder might be able to spot thousands of different species over the course of a career, from *Amadina erythrocephala* to *Arborophila rufogularis*, but no birder has ever achieved the ultimate ______ an in-person glimpse of all 10,000-plus species of birds.",
     "choices": [
       {
         "id": "A",
@@ -610,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_18",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, with its coveted 3-star rating being awarded to top restaurants like Kitcho Arashiyama in ______ when brothers Andre and Edouard Michelin created the guide in 1900, it was little more than a marketing gimmick\u2014a way to increase profits for their tire company by encouraging their customers to drive across France, visiting the guide's recommended hotels and restaurants along the way.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, with its coveted 3-star rating being awarded to top restaurants like Kitcho Arashiyama in ______ when brothers Andre and Edouard Michelin created the guide in 1900, it was little more than a marketing gimmick—a way to increase profits for their tire company by encouraging their customers to drive across France, visiting the guide's recommended hotels and restaurants along the way.",
     "choices": [
       {
         "id": "A",
@@ -646,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_19",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen attempting to determine a fault's seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault's physical dimensions and geological ______ the Imperial fault in Imperial County, California, the US Geological Survey compiles such data in several ways: by exchanging information with state geological surveys, by linking maps of the fault with sources that offer detailed descriptions of it, and by maintaining a database of quantitative data such as the fault's length (46 km).\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen attempting to determine a fault's seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault's physical dimensions and geological ______ the Imperial fault in Imperial County, California, the US Geological Survey compiles such data in several ways: by exchanging information with state geological surveys, by linking maps of the fault with sources that offer detailed descriptions of it, and by maintaining a database of quantitative data such as the fault's length (46 km).",
     "choices": [
       {
         "id": "A",
@@ -682,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_20",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1987, chemist Ahmed Zewail devised a novel technique in optical spectroscopy that allowed him to study ultrafast chemical reactions occurring within molecules. Years later, he ______ for this groundbreaking research with the Robert A. Welch Award and the Priestley Medal from the American Chemical Society and hence would become known as the father of femtochemistry.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1987, chemist Ahmed Zewail devised a novel technique in optical spectroscopy that allowed him to study ultrafast chemical reactions occurring within molecules. Years later, he ______ for this groundbreaking research with the Robert A. Welch Award and the Priestley Medal from the American Chemical Society and hence would become known as the father of femtochemistry.",
     "choices": [
       {
         "id": "A",
@@ -718,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_21",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFor Canada, a member of the North Atlantic Treaty Organization (NATO) since 1949, NATO's principle of collective defense confers both benefits and ______ organization's many members, nations as disparate as the US and Slovenia, are all bound to defend Canada, the reverse is also true.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFor Canada, a member of the North Atlantic Treaty Organization (NATO) since 1949, NATO's principle of collective defense confers both benefits and ______ organization's many members, nations as disparate as the US and Slovenia, are all bound to defend Canada, the reverse is also true.",
     "choices": [
       {
         "id": "A",
@@ -754,21 +751,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_22",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIf you could travel in a spaceship to Elara, one of Jupiter's many moons, you'd find a moon with a prograde orbit. This means that Elara orbits Jupiter in the same direction that Jupiter rotates on its axis. ________ at Pasiphae, another Jovian moon, you'd find an example of a retrograde orbit, with the moon revolving around Jupiter in the opposite direction.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIf you could travel in a spaceship to Elara, one of Jupiter's many moons, you'd find a moon with a prograde orbit. This means that Elara orbits Jupiter in the same direction that Jupiter rotates on its axis. ________ at Pasiphae, another Jovian moon, you'd find an example of a retrograde orbit, with the moon revolving around Jupiter in the opposite direction.",
     "choices": [
       {
         "id": "A",
@@ -790,9 +787,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -800,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_23",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "The student wants to describe how scientific understanding about the glass's origin has evolved. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Scientists have long sought to determine the origin of glass in Chile's Atacama Desert.\n\u2022 A 2017 study concluded that ancient grass fires had melted the area's sandy soil into glass.\n\u2022 In 2021, a different study revealed that the mineral signatures of glass samples were consistent with the mineral signatures of comet samples collected by NASA.\n\u2022 That study concluded that the glass had formed as a result of a cometary explosion close to the desert's surface.\n\nThe student wants to describe how scientific understanding about the glass's origin has evolved. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to describe how scientific understanding about the glass's origin has evolved. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Scientists have long sought to determine the origin of glass in Chile's Atacama Desert.\n• A 2017 study concluded that ancient grass fires had melted the area's sandy soil into glass.\n• In 2021, a different study revealed that the mineral signatures of glass samples were consistent with the mineral signatures of comet samples collected by NASA.\n• That study concluded that the glass had formed as a result of a cometary explosion close to the desert's surface.",
     "choices": [
       {
         "id": "A",
@@ -820,13 +817,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "\u9009\u9879\u7f3a\u5931\uff0c\u4e0d\u5f71\u54cd\u505a\u9898"
+        "text": "选项缺失，不影响做题"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -836,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_24",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between Water Line and Seven Earth Mountain?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Maya Lin is a US artist known for her memorials and large-scale installation artworks.\n\u2022 She became famous in 1982 when she completed the Vietnam Veterans Memorial, which consists of two 246-foot granite walls.\n\u2022 She completed *Water Line* in 2006.\n\u2022 It is an installation composed of aluminum tubing that fills an entire gallery room.\n\u2022 She completed *Seven Earth Mountain* in 2015.\n\u2022 It is an installation composed of soil that fills an entire gallery room.\n\nWhich choice most effectively uses information from the given sentences to emphasize a difference between Water Line and Seven Earth Mountain?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between Water Line and Seven Earth Mountain?\nWhile researching a topic, a student has taken the following notes:\n• Maya Lin is a US artist known for her memorials and large-scale installation artworks.\n• She became famous in 1982 when she completed the Vietnam Veterans Memorial, which consists of two 246-foot granite walls.\n• She completed *Water Line* in 2006.\n• It is an installation composed of aluminum tubing that fills an entire gallery room.\n• She completed *Seven Earth Mountain* in 2015.\n• It is an installation composed of soil that fills an entire gallery room.",
     "choices": [
       {
         "id": "A",
@@ -862,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -872,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_25",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "The student wants to explain what a sky island is. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Peloncillo-Pan Duro Mountains are a mountain range located in northwestern Mexico.\n\u2022 The range is one of the dozens of \u201csky islands\u201d in the southwestern US and northwestern Mexico.\n\u2022 A sky island is an isolated mountain range whose environment differs drastically from that of the surrounding lowlands.\n\u2022 The US Forest Service (USFS) said, \u201cThe mountains are islands surrounded by deserts that are seas.\u201d\n\u2022 The USFS said, \u201cEach Sky Island is a unique ecosystem.\u201d\n\nThe student wants to explain what a sky island is. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain what a sky island is. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Peloncillo-Pan Duro Mountains are a mountain range located in northwestern Mexico.\n• The range is one of the dozens of “sky islands” in the southwestern US and northwestern Mexico.\n• A sky island is an isolated mountain range whose environment differs drastically from that of the surrounding lowlands.\n• The US Forest Service (USFS) said, “The mountains are islands surrounded by deserts that are seas.”\n• The USFS said, “Each Sky Island is a unique ecosystem.”",
     "choices": [
       {
         "id": "A",
@@ -892,13 +889,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "The USFS considers the Peloncillo-Pan Duro Mountains to be a \u201cunique ecosystem.\u201d"
+        "text": "The USFS considers the Peloncillo-Pan Duro Mountains to be a “unique ecosystem.”"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -908,15 +905,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_26",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize the number of gold medals won by Daniel Dias?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Paralympic Games are a series of international sporting events involving athletes with an impairment.\n\u2022 A gold medal indicates that an athlete finished in first place.\n\u2022 Rolf Heinzmann competed as a Paralympic alpine skier from 1980 to 2002.\n\u2022 He won fourteen medals, twelve of which were gold.\n\u2022 Daniel Dias competed as a Paralympic swimmer from 2008 to 2020.\n\u2022 He won thirty-eight medals, twenty-five of which were gold.\n\nWhich choice most effectively uses information from the given sentences to emphasize the number of gold medals won by Daniel Dias?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize the number of gold medals won by Daniel Dias?\nWhile researching a topic, a student has taken the following notes:\n• The Paralympic Games are a series of international sporting events involving athletes with an impairment.\n• A gold medal indicates that an athlete finished in first place.\n• Rolf Heinzmann competed as a Paralympic alpine skier from 1980 to 2002.\n• He won fourteen medals, twelve of which were gold.\n• Daniel Dias competed as a Paralympic swimmer from 2008 to 2020.\n• He won thirty-eight medals, twenty-five of which were gold.",
     "choices": [
       {
         "id": "A",
-        "text": "In his career as a Paralympic swimmer, Daniel Dias won thirty-eight total medals \u2014 twenty-five of them were gold."
+        "text": "In his career as a Paralympic swimmer, Daniel Dias won thirty-eight total medals — twenty-five of them were gold."
       },
       {
         "id": "B",
@@ -934,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -944,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "1772a8fc-3104-49c8-9168-d2704967f5fd_27",
     "testName": "March 2024 International Form C SAT English Module 1",
-    "text": "The student wants to make a generalization about brown seaweed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The human tongue contains taste receptors for a rich, savory flavor called umami.\n\u2022 Umami is triggered by the compounds in a variety of foods, including pork and tomato paste.\n\u2022 Participants in a study tasted a sample of macrokelp, a type of brown seaweed.\n\u2022 They rated its umami intensity as moderate.\n\u2022 The participants tasted a sample of ma-konbu, another type of brown seaweed.\n\u2022 They rated its umami intensity as high.\n\nThe student wants to make a generalization about brown seaweed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to make a generalization about brown seaweed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The human tongue contains taste receptors for a rich, savory flavor called umami.\n• Umami is triggered by the compounds in a variety of foods, including pork and tomato paste.\n• Participants in a study tasted a sample of macrokelp, a type of brown seaweed.\n• They rated its umami intensity as moderate.\n• The participants tasted a sample of ma-konbu, another type of brown seaweed.\n• They rated its umami intensity as high.",
     "choices": [
       {
         "id": "A",
@@ -970,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

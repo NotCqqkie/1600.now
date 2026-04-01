@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_1",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_3",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_4",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -105,7 +105,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -113,7 +113,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_5",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -148,8 +148,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_6",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -160,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_7",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -179,19 +179,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_8",
     "testName": "November 2024 International Form A SAT Math Module 2",
-    "text": "How many solutions does the equation $7(x+12)+5x=12(x+7)$ have \uff1f",
+    "text": "How many solutions does the equation $7(x+12)+5x=12(x+7)$ have ？",
     "choices": [
       {
         "id": "A",
@@ -215,19 +215,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Sample Statistics and Margin of Error",
-    "difficulty": "null",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_9",
     "testName": "November 2024 International Form A SAT Math Module 2",
-    "text": "The manager of a gym selected a sample of 142 members at random to estimate the percentage of the gym\u2019s members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 89% of the gym\u2019s members would continue to pay for a membership if the price increased, with an associated margin of error of 5.15%. If the survey is repeated with a random sample of 284 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
+    "text": "The manager of a gym selected a sample of 142 members at random to estimate the percentage of the gym’s members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 89% of the gym’s members would continue to pay for a membership if the price increased, with an associated margin of error of 5.15%. If the survey is repeated with a random sample of 284 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
     "choices": [
       {
         "id": "A",
@@ -239,11 +239,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "The estimate of the percentage of the gym \u2019 s members that would continue to pay for a membership if the price increased will be lower."
+        "text": "The estimate of the percentage of the gym ’ s members that would continue to pay for a membership if the price increased will be lower."
       },
       {
         "id": "D",
-        "text": "The estimate of the percentage of the gym \u2019 s members that would continue to pay for a membership if the price increased will be higher."
+        "text": "The estimate of the percentage of the gym ’ s members that would continue to pay for a membership if the price increased will be higher."
       }
     ],
     "correctAnswer": "A",
@@ -251,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Sample Statistics and Margin of Error",
+      "skill": "Inference from sample statistics and margin of error",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_10",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -270,15 +270,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_11",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -306,16 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlA_Math_M2_Q11_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_12",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -343,16 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlA_Math_M2_Q12_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_13",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -380,15 +378,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_14",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -416,7 +414,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
@@ -424,7 +422,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_16",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -432,19 +430,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": ",6,498\u03c0"
+        "text": ",6,498π"
       },
       {
         "id": "B",
-        "text": ",12,996\u03c0"
+        "text": ",12,996π"
       },
       {
         "id": "C",
-        "text": ",25,992\u03c0"
+        "text": ",25,992π"
       },
       {
         "id": "D",
-        "text": ",51,984\u03c0"
+        "text": ",51,984π"
       }
     ],
     "correctAnswer": "A",
@@ -460,7 +458,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_17",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -478,27 +476,27 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_18",
     "testName": "November 2024 International Form A SAT Math Module 2",
-    "text": "A polygon has exactly 87 sides. If the measure of each of the 87interior angles of this polygon is (180p)\u00b0, what is the value of p?",
+    "text": "A polygon has exactly 87 sides. If the measure of each of the 87interior angles of this polygon is (180p)°, what is the value of p?",
     "choices": [],
     "correctAnswer": "85/87,0.977,.9770",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_19",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -526,7 +524,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -534,7 +532,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_20",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -569,8 +567,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_21",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -598,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_22",
     "testName": "November 2024 International Form A SAT Math Module 2",
@@ -617,7 +615,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   }

@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_1",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Apollo Moon landings (1969-1972) brought atmospheric sensors and seismic sensors to the Moon and produced large amounts of data. Researcher Renee Weber, who is investigating tectonic activity on the Moon, continues to use Apollo's data, demonstrating that the missions' value to science is ______.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Apollo Moon landings (1969-1972) brought atmospheric sensors and seismic sensors to the Moon and produced large amounts of data. Researcher Renee Weber, who is investigating tectonic activity on the Moon, continues to use Apollo's data, demonstrating that the missions' value to science is ______.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_2",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nBecause cyanobacteria and other microphytobenthos (MPB)\u2014microscopic organisms inhabiting tidal flats\u2014are consumed by mussels as well as by certain shorebirds and fish, MPB are ______ estuary ecosystems. Decreased MPB abundance, which may be caused by environmental stressors, thus has a direct, negative impact on coastal food webs.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nBecause cyanobacteria and other microphytobenthos (MPB)—microscopic organisms inhabiting tidal flats—are consumed by mussels as well as by certain shorebirds and fish, MPB are ______ estuary ecosystems. Decreased MPB abundance, which may be caused by environmental stressors, thus has a direct, negative impact on coastal food webs.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_3",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome pieces of music might have many meanings\u2014the composition of Charlotte Moorman can ______ as many different interpretations as there are people to listen to them\u2014and so as long as a listener's interpretation isn't willfully absurd or the result of inattention, it is difficult to justify the claim that the listener has misunderstood the piece.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome pieces of music might have many meanings—the composition of Charlotte Moorman can ______ as many different interpretations as there are people to listen to them—and so as long as a listener's interpretation isn't willfully absurd or the result of inattention, it is difficult to justify the claim that the listener has misunderstood the piece.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_4",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe inventories of consonant sounds among the Polynesian languages of the Pacific tend toward the ______: Sikaiana in the south Pacific has a total of nine consonants, and \u02bb\u014clelo Hawai\u02bbi, the language of Native Hawaiian people, has one fewer, while the global median per language is over twenty-two.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe inventories of consonant sounds among the Polynesian languages of the Pacific tend toward the ______: Sikaiana in the south Pacific has a total of nine consonants, and ʻŌlelo Hawaiʻi, the language of Native Hawaiian people, has one fewer, while the global median per language is over twenty-two.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_5",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nFounded in Long Beach, California, in 1996, the Museum of Latin American Art is dedicated to modern and contemporary art by Latin American artists and Latino artists in the United States. Since its founding, it has acquired more than 1,300 objects for its permanent collection. More recently founded US-based institutions devoted to Latino cultures include Casa de Rosado. Located in Lansing, Michigan, it focuses on the arts and cultures of Latino communities in Michigan.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nFounded in Long Beach, California, in 1996, the Museum of Latin American Art is dedicated to modern and contemporary art by Latin American artists and Latino artists in the United States. Since its founding, it has acquired more than 1,300 objects for its permanent collection. More recently founded US-based institutions devoted to Latino cultures include Casa de Rosado. Located in Lansing, Michigan, it focuses on the arts and cultures of Latino communities in Michigan.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_6",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from D.A. Lozano's 1844 poem \"A Remembrance of Puerto Cabello-The Mangle\" (translated by Agnes Blake Poor in 1918). The poem is a dedication to Puerto Cabello, a town on the northern coast of Venezuela. And while outside the tempest is raving o'er the Ocean,\nAnd the ship is madly driving on some lone and desert shore;\nThy warm and land-locked waters swell with an easy motion,\nAnd gently glides the light pirogue [canoe] at dipping of the oar.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe following text is adapted from D.A. Lozano's 1844 poem \"A Remembrance of Puerto Cabello-The Mangle\" (translated by Agnes Blake Poor in 1918). The poem is a dedication to Puerto Cabello, a town on the northern coast of Venezuela. And while outside the tempest is raving o'er the Ocean,\nAnd the ship is madly driving on some lone and desert shore;\nThy warm and land-locked waters swell with an easy motion,\nAnd gently glides the light pirogue [canoe] at dipping of the oar.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -219,13 +219,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_7",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "According to the text, what is one way that non-Indigenous museums typically differ from the cultural centers operated by the Pueblo of Pojoaque and the Tohono O'odham Nation?\nIn what is now New Mexico, the Pueblo of Pojoaque operates the Poeh Cultural Center. Relying on traditional knowledge to guide the design of exhibits, this institution presents Pojoaque history and culture to the tribe's citizens. The Tohono O'odham Nation, a tribe in Arizona, employs a similar strategy in its own cultural center. Both centers contrast with museums that aren't Indigenous-led, when displaying Indigenous artifacts, such museums tend to anticipate mainly non-Indigenous audiences and rely on Euro-centric strategies for designing exhibits.\n\nAccording to the text, what is one way that non-Indigenous museums typically differ from the cultural centers operated by the Pueblo of Pojoaque and the Tohono O'odham Nation?",
+    "text": "According to the text, what is one way that non-Indigenous museums typically differ from the cultural centers operated by the Pueblo of Pojoaque and the Tohono O'odham Nation?\nIn what is now New Mexico, the Pueblo of Pojoaque operates the Poeh Cultural Center. Relying on traditional knowledge to guide the design of exhibits, this institution presents Pojoaque history and culture to the tribe's citizens. The Tohono O'odham Nation, a tribe in Arizona, employs a similar strategy in its own cultural center. Both centers contrast with museums that aren't Indigenous-led, when displaying Indigenous artifacts, such museums tend to anticipate mainly non-Indigenous audiences and rely on Euro-centric strategies for designing exhibits.",
     "choices": [
       {
         "id": "A",
@@ -247,21 +247,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_8",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Based on the text, why is the kiwikiu a highly specialized species?\nThe Hawaiian archipelago is home to the kiwikiu (*Pseudonestor xanthophrys*), one of several bird species that can only be found on the islands. Due to Hawai'i's uniquely varied geographic and ecological conditions, the kiwikiu became highly specialized as it adapted to survive in a specific island habitat. However, like many highly specialized species, the kiwikiu is particularly vulnerable to environmental stressors, such as disease, invasive species, and habitat destruction, that disrupt the delicately balanced ecosystems in which the birds live.\n\nBased on the text, why is the kiwikiu a highly specialized species?",
+    "text": "Based on the text, why is the kiwikiu a highly specialized species?\nThe Hawaiian archipelago is home to the kiwikiu (*Pseudonestor xanthophrys*), one of several bird species that can only be found on the islands. Due to Hawai'i's uniquely varied geographic and ecological conditions, the kiwikiu became highly specialized as it adapted to survive in a specific island habitat. However, like many highly specialized species, the kiwikiu is particularly vulnerable to environmental stressors, such as disease, invasive species, and habitat destruction, that disrupt the delicately balanced ecosystems in which the birds live.",
     "choices": [
       {
         "id": "A",
@@ -283,9 +283,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_9",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nThe following text is adapted from Guy de Maupassant's 1884 short story \"A Recollection,\" from the collection *Guy de Maupassant Short Stories* (translated by Albert M.C. McMaster et al. in 1903). The narrator is taking a boat down the Seine river from Paris, France, to the surrounding countryside. I took up a position in the bows [front of the boat], standing up and looking at the quays, the trees, the houses and the bridges disappearing behind us. And suddenly I perceived the great viaduct of Point du Jour which blocked the river. It was the end of Paris, the beginning of the country, and behind the double row of arches the Seine, suddenly spreading out as though it had regained space and liberty, became all at once the peaceful river which flows through the plains, alongside the wooded hills, amid the meadows, along the edge of the forests.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nThe following text is adapted from Guy de Maupassant's 1884 short story \"A Recollection,\" from the collection *Guy de Maupassant Short Stories* (translated by Albert M.C. McMaster et al. in 1903). The narrator is taking a boat down the Seine river from Paris, France, to the surrounding countryside. I took up a position in the bows [front of the boat], standing up and looking at the quays, the trees, the houses and the bridges disappearing behind us. And suddenly I perceived the great viaduct of Point du Jour which blocked the river. It was the end of Paris, the beginning of the country, and behind the double row of arches the Seine, suddenly spreading out as though it had regained space and liberty, became all at once the peaceful river which flows through the plains, alongside the wooded hills, amid the meadows, along the edge of the forests.",
     "choices": [
       {
         "id": "A",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_10",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega region of Costa Rica, Juan Pablo Arroyo-Mora and colleagues used historical aerial photography and remote sensing data to track changes in the annual mean size of forest patches across different land use capability classes (categories that indicate possible uses of forest land). Due to the Chorotega region's climate, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. By 1986, mean forest patch sizes had dropped considerably. In that year, they were between ______\n\nWhich choice most effectively uses data from the graph to complete the assertion?",
+    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega region of Costa Rica, Juan Pablo Arroyo-Mora and colleagues used historical aerial photography and remote sensing data to track changes in the annual mean size of forest patches across different land use capability classes (categories that indicate possible uses of forest land). Due to the Chorotega region's climate, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. By 1986, mean forest patch sizes had dropped considerably. In that year, they were between ______",
     "choices": [
       {
         "id": "A",
@@ -355,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Eng_M1_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_11",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the example?\nLin-Tai Ho and colleagues monitored fish populations in a tide pool in Taiwan. They found that some species were entirely absent from the tide pool at particular times of the year; for example, they did not observe even one ______\n\nWhich choice most effectively uses data from the graph to complete the example?",
+    "text": "Which choice most effectively uses data from the graph to complete the example?\nLin-Tai Ho and colleagues monitored fish populations in a tide pool in Taiwan. They found that some species were entirely absent from the tide pool at particular times of the year; for example, they did not observe even one ______",
     "choices": [
       {
         "id": "A",
@@ -392,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_12",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which finding, if true, would most directly weaken the student's hypothesis?\nPaleontologist Amane Tajika and colleagues analyzed the shells of two marine mollusks called nautilids that were collected from waters near New Caledonia. Sample F13 and other shell sections formed during adulthood suggest that mature New Caledonian nautilids live at the same depths as mature Fijian nautilids. However, sample M06, which formed while the nautilid was still in its egg, had a chemical signature suggesting the egg had been laid in water 120 meters deep, while Fijian nautilids typically lay eggs at depths of at least 170 meters. Because water temperature decreases as depth increases, a biology student hypothesized that the New Caledonian nautilids lay their eggs in warmer water than Fijian nautilids do.\n\nWhich finding, if true, would most directly weaken the student's hypothesis?",
+    "text": "Which finding, if true, would most directly weaken the student's hypothesis?\nPaleontologist Amane Tajika and colleagues analyzed the shells of two marine mollusks called nautilids that were collected from waters near New Caledonia. Sample F13 and other shell sections formed during adulthood suggest that mature New Caledonian nautilids live at the same depths as mature Fijian nautilids. However, sample M06, which formed while the nautilid was still in its egg, had a chemical signature suggesting the egg had been laid in water 120 meters deep, while Fijian nautilids typically lay eggs at depths of at least 170 meters. Because water temperature decreases as depth increases, a biology student hypothesized that the New Caledonian nautilids lay their eggs in warmer water than Fijian nautilids do.",
     "choices": [
       {
         "id": "A",
@@ -429,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -439,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_13",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nMany studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water in North America. But Petri Porvari and Matti Verta did not find this correlation in a study conducted in Finland, leading some scientists to hypothesize that the pattern is particular to North America. However, Yao Luo and colleagues reported dissolved organic carbon and mercury rising or falling together in a study conducted in China, and several other studies from outside North America have yielded similar results, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nMany studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water in North America. But Petri Porvari and Matti Verta did not find this correlation in a study conducted in Finland, leading some scientists to hypothesize that the pattern is particular to North America. However, Yao Luo and colleagues reported dissolved organic carbon and mercury rising or falling together in a study conducted in China, and several other studies from outside North America have yielded similar results, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -465,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -475,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_14",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nRudolf Cesaretti et al. conducted an analysis of historical urban scaling trends circa 1300 CE in Western Europe, focusing on agglomeration patterns within medieval settlements. They examined settlements in urban systems across Western Europe, with groupings based on regionally distinct political structures, economic focuses, and spatial constraints\u2014including the aristocratically controlled city-state of Parma in northern Italy, merchant controlled city-states like Goerlitz in Germany, the wool-trading centers of Lincoln and Canterbury in England, and prime trade fair towns like Troyes in France. A prevalent trend emerged: as a city's total settled area increased, so did population density in its core urban areas. This finding implies that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nRudolf Cesaretti et al. conducted an analysis of historical urban scaling trends circa 1300 CE in Western Europe, focusing on agglomeration patterns within medieval settlements. They examined settlements in urban systems across Western Europe, with groupings based on regionally distinct political structures, economic focuses, and spatial constraints—including the aristocratically controlled city-state of Parma in northern Italy, merchant controlled city-states like Goerlitz in Germany, the wool-trading centers of Lincoln and Canterbury in England, and prime trade fair towns like Troyes in France. A prevalent trend emerged: as a city's total settled area increased, so did population density in its core urban areas. This finding implies that ______",
     "choices": [
       {
         "id": "A",
@@ -501,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -511,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_15",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter much debate, ______ finally made a decision: the judges for the 1947 Nobel Prize in Literature would award Andr\u00e9 Paul Guillaume Gide of France with that year's prize \"for his comprehensive and artistically significant writings, in which human problems and conditions have been presented with a fearless love of truth and keen psychological insight.\"\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter much debate, ______ finally made a decision: the judges for the 1947 Nobel Prize in Literature would award André Paul Guillaume Gide of France with that year's prize \"for his comprehensive and artistically significant writings, in which human problems and conditions have been presented with a fearless love of truth and keen psychological insight.\"",
     "choices": [
       {
         "id": "A",
@@ -537,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_16",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn June of 1966, the song \"I Need Love\" was a top-ten hit. Having climbed the charts for six weeks, ______ ranked No. 4 on the Billboard Hot 100 list of most popular songs.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn June of 1966, the song \"I Need Love\" was a top-ten hit. Having climbed the charts for six weeks, ______ ranked No. 4 on the Billboard Hot 100 list of most popular songs.",
     "choices": [
       {
         "id": "A",
@@ -573,45 +571,45 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_17",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1847, the novel *Agnes Grey* was published under the pen name Acton Bell. Now, we know that ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1847, the novel *Agnes Grey* was published under the pen name Acton Bell. Now, we know that ______",
     "choices": [
       {
         "id": "A",
-        "text": "was the author's real name Anne Bront\u00eb?"
+        "text": "was the author's real name Anne Brontë?"
       },
       {
         "id": "B",
-        "text": "the author's real name was Anne Bront\u00eb."
+        "text": "the author's real name was Anne Brontë."
       },
       {
         "id": "C",
-        "text": "was the author's real name Anne Bront\u00eb."
+        "text": "was the author's real name Anne Brontë."
       },
       {
         "id": "D",
-        "text": "the author's real name was Anne Bront\u00eb?"
+        "text": "the author's real name was Anne Brontë?"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -619,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_18",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile the greater adjutant (*Leptoptilos dubius*) can be found in places like the Inner Gulf of Thailand and Manchar Lake in ______ than 80 percent of this endangered stork species is found in Assam, India. There, wildlife biologist Dr. Purnima Devi Barman is on the front lines of conservation efforts to bring adjutants back from near extinction.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhile the greater adjutant (*Leptoptilos dubius*) can be found in places like the Inner Gulf of Thailand and Manchar Lake in ______ than 80 percent of this endangered stork species is found in Assam, India. There, wildlife biologist Dr. Purnima Devi Barman is on the front lines of conservation efforts to bring adjutants back from near extinction.",
     "choices": [
       {
         "id": "A",
@@ -645,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -654,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_19",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCanada and Germany have two of the longest constitutions in the world. At 19,565 and 27,379 words, respectively, these ______ according to research by constitutional scholars George Tsebelis and Dominic J. Nardi, correlate with GDPs (gross domestic products) that are lower than those of countries with shorter constitutions.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCanada and Germany have two of the longest constitutions in the world. At 19,565 and 27,379 words, respectively, these ______ according to research by constitutional scholars George Tsebelis and Dominic J. Nardi, correlate with GDPs (gross domestic products) that are lower than those of countries with shorter constitutions.",
     "choices": [
       {
         "id": "A",
@@ -681,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_20",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA pet cat poses next to its owners in *Kiesler and Wife*, an oil painting by American ______ Will Barnet.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA pet cat poses next to its owners in *Kiesler and Wife*, an oil painting by American ______ Will Barnet.",
     "choices": [
       {
         "id": "A",
@@ -707,7 +705,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "artist\u2014"
+        "text": "artist—"
       },
       {
         "id": "D",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_21",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nEvery US state has an associated state soil, which is typically selected by a group of experts then passed through the state legislature to receive its official designation. For example, Arkansas's Stuttgart soil was formally designated in 1997, and Maine's Chesuncook soil in 1999. ______ years pass between a soil's selection and official designation, as the legislative process can be notoriously slow.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nEvery US state has an associated state soil, which is typically selected by a group of experts then passed through the state legislature to receive its official designation. For example, Arkansas's Stuttgart soil was formally designated in 1997, and Maine's Chesuncook soil in 1999. ______ years pass between a soil's selection and official designation, as the legislative process can be notoriously slow.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_22",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nA 1990 study of schooling fish observed the fish mimicking the behavior of school-mates rapidly swimming away from a predator. This is an example of an information cascade that benefits the collective. ______ the animal world is at times susceptible to the spread of misinformation, often with unfavorable results: a 2010 study of semipalmated sandpipers concluded that fleeing in response to flock-mates' false alarms caused the birds to abandon safe nesting grounds unnecessarily.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nA 1990 study of schooling fish observed the fish mimicking the behavior of school-mates rapidly swimming away from a predator. This is an example of an information cascade that benefits the collective. ______ the animal world is at times susceptible to the spread of misinformation, often with unfavorable results: a 2010 study of semipalmated sandpipers concluded that fleeing in response to flock-mates' false alarms caused the birds to abandon safe nesting grounds unnecessarily.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_23",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "The student wants to describe the process of relief printing. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 *Bread* is a 1968 black-and-white linocut print by Black American artist Elizabeth Catlett.\n\u2022 It features a young girl eating a slice of bread.\n\u2022 Relief printing is a technique in which an image is first carved onto a printing block made of wood, rubber or other materials.\n\u2022 The block is then painted and stamped onto a print surface.\n\u2022 Lino cutting is a type of relief printing that uses linoleum tile as the printing block.\n\nThe student wants to describe the process of relief printing. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to describe the process of relief printing. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Bread* is a 1968 black-and-white linocut print by Black American artist Elizabeth Catlett.\n• It features a young girl eating a slice of bread.\n• Relief printing is a technique in which an image is first carved onto a printing block made of wood, rubber or other materials.\n• The block is then painted and stamped onto a print surface.\n• Lino cutting is a type of relief printing that uses linoleum tile as the printing block.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_24",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "The student wants to emphasize a similarity between the two countries. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Usually, a country's capital is also its largest city by population.\n\u2022 The capital of the Philippines is Manila.\n\u2022 Its largest city by population is Quezon City.\n\u2022 The capital of Liechtenstein is Vaduz.\n\u2022 Its largest city by population is Schaan.\n\nThe student wants to emphasize a similarity between the two countries. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between the two countries. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Usually, a country's capital is also its largest city by population.\n• The capital of the Philippines is Manila.\n• Its largest city by population is Quezon City.\n• The capital of Liechtenstein is Vaduz.\n• Its largest city by population is Schaan.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_25",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize how Wilkerson documents the Great Migration?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Historian Isabel Wilkerson's book *The Warmth of Other Suns* is about the Great Migration.\n\u2022 The Great Migration was a period in twentieth-century US history when over six million African Americans moved from the rural South to cities such as Detroit, Michigan.\n\u2022 To document this period, Wilkerson narrates the personal journeys of George Swanson Starling and Robert Pershing Foster, among others.\n\u2022 The book won the Mark Lynton History Prize in 2011.\n\u2022 It also won the National Book Critics Circle Award in 2011.\n\nWhich choice most effectively uses information from the given sentences to emphasize how Wilkerson documents the Great Migration?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize how Wilkerson documents the Great Migration?\nWhile researching a topic, a student has taken the following notes:\n• Historian Isabel Wilkerson's book *The Warmth of Other Suns* is about the Great Migration.\n• The Great Migration was a period in twentieth-century US history when over six million African Americans moved from the rural South to cities such as Detroit, Michigan.\n• To document this period, Wilkerson narrates the personal journeys of George Swanson Starling and Robert Pershing Foster, among others.\n• The book won the Mark Lynton History Prize in 2011.\n• It also won the National Book Critics Circle Award in 2011.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_26",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "The student wants to emphasize a similarity between Judeth Insel and David Davidson. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 India Arie is an African American singer and songwriter.\n\u2022 The media outlet BBC Music has described her music as a \"blend of hip hop, soul and folk [that is] as subtle as it [is] inspired.\"\n\u2022 Her acclaimed albums feature many talented musicians.\n\u2022 Judeth Insel played viola on her first studio album, *Acoustic Soul* (2001).\n\u2022 David Davidson played violin on her second studio album, *Voyage to India* (2002).\n\nThe student wants to emphasize a similarity between Judeth Insel and David Davidson. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between Judeth Insel and David Davidson. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• India Arie is an African American singer and songwriter.\n• The media outlet BBC Music has described her music as a \"blend of hip hop, soul and folk [that is] as subtle as it [is] inspired.\"\n• Her acclaimed albums feature many talented musicians.\n• Judeth Insel played viola on her first studio album, *Acoustic Soul* (2001).\n• David Davidson played violin on her second studio album, *Voyage to India* (2002).",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_27",
     "testName": "March 2025 US Form B SAT English Module 1",
-    "text": "The student wants to make and support a generalization about Merle Oberon's early career. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Merle Oberon (1911-1979) was an actress born in Mumbai (then known as Bombay), India.\n\u2022 She was of Indian, Maori, and Irish heritage.\n\u2022 She was the first Indian-born actress to be nominated for an Academy Award.\n\u2022 Early in her career, she played many nameless, uncredited roles, such as her role in *Alf's Button* (1930).\n\u2022 Later, she played many named, credited roles, such as Marjorie Ismay in *Forever and a Day* (1943).\n\nThe student wants to make and support a generalization about Merle Oberon's early career. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to make and support a generalization about Merle Oberon's early career. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Merle Oberon (1911-1979) was an actress born in Mumbai (then known as Bombay), India.\n• She was of Indian, Maori, and Irish heritage.\n• She was the first Indian-born actress to be nominated for an Academy Award.\n• Early in her career, she played many nameless, uncredited roles, such as her role in *Alf's Button* (1930).\n• Later, she played many named, credited roles, such as Marjorie Ismay in *Forever and a Day* (1943).",
     "choices": [
       {
         "id": "A",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

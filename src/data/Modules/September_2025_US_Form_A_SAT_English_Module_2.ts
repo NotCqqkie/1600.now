@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_1",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "As used in the text, what does the word \"obtrusive\" most nearly mean?\nThe following text is from Thomas Hardy's 1874 novel *Far from the Madding Crowd*. In the text, the narrator describes an open tract of land.\nThe changes of the seasons are less <u>obtrusive</u> on spots of this kind than amid woodland scenery. Still, to a close observer, they are just as perceptible; the difference is that their media of manifestation are less trite and familiar than such well-known ones as the bursting of the buds or the fall of the leaf.\n\nAs used in the text, what does the word \"obtrusive\" most nearly mean?",
+    "text": "As used in the text, what does the word \"obtrusive\" most nearly mean?\nThe following text is from Thomas Hardy's 1874 novel *Far from the Madding Crowd*. In the text, the narrator describes an open tract of land.\nThe changes of the seasons are less <u>obtrusive</u> on spots of this kind than amid woodland scenery. Still, to a close observer, they are just as perceptible; the difference is that their media of manifestation are less trite and familiar than such well-known ones as the bursting of the buds or the fall of the leaf.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_2",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe metal displayed in the structure of House in Kamiaraya by Kazuto Nishi Architects and the metal hardware in UE House by GENETO are representative aspects of a juxtaposition common in contemporary Japanese architecture: the ______ of sleek, contemporary elements and traditional organic materials in a single design is a trend with both aesthetic and highly practical purposes.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe metal displayed in the structure of House in Kamiaraya by Kazuto Nishi Architects and the metal hardware in UE House by GENETO are representative aspects of a juxtaposition common in contemporary Japanese architecture: the ______ of sleek, contemporary elements and traditional organic materials in a single design is a trend with both aesthetic and highly practical purposes.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_3",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDescribed in treatises mainly published between 1768 and 1950 (such as William Holdsworth and William Aldridge's *Natural short-Hand*), musical stenography used quickly written squiggles and dots in an attempt to preserve, in print and in real time, the ______ features of live performances\u2014those that result from impromptu deviations of performers when fidelity to an established musical score is not mandated.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDescribed in treatises mainly published between 1768 and 1950 (such as William Holdsworth and William Aldridge's *Natural short-Hand*), musical stenography used quickly written squiggles and dots in an attempt to preserve, in print and in real time, the ______ features of live performances—those that result from impromptu deviations of performers when fidelity to an established musical score is not mandated.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_4",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe plaice is ectothermic, or cold-blooded, and the southern bluefin tuna is a regional endotherm, meaning that parts of its body are typically warmer than the surrounding water. The basking shark had been classified as a full ectotherm, a position that became ______ after researchers Haley R. Dolton and colleagues showed that the basking shark's body temperature is consistently 1.0 to 1.5 \u00b0C warmer than the water.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe plaice is ectothermic, or cold-blooded, and the southern bluefin tuna is a regional endotherm, meaning that parts of its body are typically warmer than the surrounding water. The basking shark had been classified as a full ectotherm, a position that became ______ after researchers Haley R. Dolton and colleagues showed that the basking shark's body temperature is consistently 1.0 to 1.5 °C warmer than the water.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_5",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\n*The Heege Manuscript* (HM) is a collection of booklets of once-unbound paper sheets on which Richard Heege copied various texts at his fifteenth-century home between Derbyshire and Nottinghamshire in England. <u>Most other contemporaneous personal manuscripts like the *Findern Anthology* (FA) consist primarily of pieces by celebrated medieval authors like Chaucer and other readings favored by elites,</u> whereas the HM has a distinctive emphasis on the popular, including entertainments like scary stories, and the practical, with advice about hygiene.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\n*The Heege Manuscript* (HM) is a collection of booklets of once-unbound paper sheets on which Richard Heege copied various texts at his fifteenth-century home between Derbyshire and Nottinghamshire in England. <u>Most other contemporaneous personal manuscripts like the *Findern Anthology* (FA) consist primarily of pieces by celebrated medieval authors like Chaucer and other readings favored by elites,</u> whereas the HM has a distinctive emphasis on the popular, including entertainments like scary stories, and the practical, with advice about hygiene.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_6",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Based on the texts, the author of Text 2 would most like to know the answer to which question about Cruz and colleagues' study that is not addressed in Text 1?\nText 1\nThe University of California, Irvine, and the online class provider edX are two of the many institutions offering training programs in entrepreneurship. But what results do such programs produce? In a study of businesspeople in Spain, researcher Natalia Cruz and colleagues addressed this question and reported that participants who received entrepreneurial training showed high innovativeness in entrepreneurial activities.\nText 2\nWhile studies of entrepreneurial training typically report positive results, a close look at these studies reveals widespread methodological shortcomings. This research literature is plagued by unclear hypotheses, insufficient sample sizes, a lack of control groups, and failures to establish pretraining baselines for the measured attributes of participants.\n\nBased on the texts, the author of Text 2 would most like to know the answer to which question about Cruz and colleagues' study that is not addressed in Text 1?",
+    "text": "Based on the texts, the author of Text 2 would most like to know the answer to which question about Cruz and colleagues' study that is not addressed in Text 1?\nText 1\nThe University of California, Irvine, and the online class provider edX are two of the many institutions offering training programs in entrepreneurship. But what results do such programs produce? In a study of businesspeople in Spain, researcher Natalia Cruz and colleagues addressed this question and reported that participants who received entrepreneurial training showed high innovativeness in entrepreneurial activities.\nText 2\nWhile studies of entrepreneurial training typically report positive results, a close look at these studies reveals widespread methodological shortcomings. This research literature is plagued by unclear hypotheses, insufficient sample sizes, a lack of control groups, and failures to establish pretraining baselines for the measured attributes of participants.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -219,13 +219,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_7",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Information in the text best supports which statement about recommender systems?\nR.D. Lawrence et al. found that a recommender system (RS)\u2014an algorithm that generates personalized product suggestions for online shoppers\u2014impacted consumer behavior and increased sales, a result that was corroborated by Dokyun Lee and Kartik Hosanagar. However, Lee and Hosanagar also determined that whereas an RS had a stronger positive effect on item views for utilitarian products (e.g., dish detergents) than for hedonic products (e.g., music albums), the RS had a stronger positive effect on likelihood of purchase for hedonic products than for utilitarian ones.\n\nInformation in the text best supports which statement about recommender systems?",
+    "text": "Information in the text best supports which statement about recommender systems?\nR.D. Lawrence et al. found that a recommender system (RS)—an algorithm that generates personalized product suggestions for online shoppers—impacted consumer behavior and increased sales, a result that was corroborated by Dokyun Lee and Kartik Hosanagar. However, Lee and Hosanagar also determined that whereas an RS had a stronger positive effect on item views for utilitarian products (e.g., dish detergents) than for hedonic products (e.g., music albums), the RS had a stronger positive effect on likelihood of purchase for hedonic products than for utilitarian ones.",
     "choices": [
       {
         "id": "A",
@@ -247,9 +247,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -257,48 +257,47 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_8",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nDue to the Chorotega region's accessibility, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. Juan Pablo Arroyo-Mora and colleagues used historical aerial photography and remote sensing data to track fragmentation metrics across different land use capability classes (categories that indicate possible uses of forest land). One such metric, edge density, can be used to indicate the regularity of forest patch sizes, with decreases in edge density suggesting a trend towards uninterrupted forest patches with more regular shapes. The team found a range of edge density levels, from lows of around 80 meters per hectare or less in the 1960s and 1970s for all classes, to a high in 1986 of approximately ______\n\nWhich choice most effectively uses data from the graph to complete the assertion?",
+    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nDue to the Chorotega region's accessibility, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. Juan Pablo Arroyo-Mora and colleagues used historical aerial photography and remote sensing data to track fragmentation metrics across different land use capability classes (categories that indicate possible uses of forest land). One such metric, edge density, can be used to indicate the regularity of forest patch sizes, with decreases in edge density suggesting a trend towards uninterrupted forest patches with more regular shapes. The team found a range of edge density levels, from lows of around 80 meters per hectare or less in the 1960s and 1970s for all classes, to a high in 1986 of approximately ______",
     "choices": [
       {
         "id": "A",
-        "text": "for Class \u2166."
+        "text": "for Class Ⅶ."
       },
       {
         "id": "B",
-        "text": "for Class \u2160-\u2163."
+        "text": "for Class Ⅰ-Ⅳ."
       },
       {
         "id": "C",
-        "text": "for Class \u2166."
+        "text": "for Class Ⅶ."
       },
       {
         "id": "D",
-        "text": "for Class \u2165."
+        "text": "for Class Ⅵ."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Sep_25_USA_Eng_M2_Q8_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_9",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nStudies of the population density of cougars (*Puma concolor*) have yielded a range of results, which may in part reflect differences in the effectiveness of the methods that researchers have used in their studies. For example, the difference between the maximum population density reported by Linda L. Sweanor et al. and that reported by David M. Choate et al. might be artificially large if the use of ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nStudies of the population density of cougars (*Puma concolor*) have yielded a range of results, which may in part reflect differences in the effectiveness of the methods that researchers have used in their studies. For example, the difference between the maximum population density reported by Linda L. Sweanor et al. and that reported by David M. Choate et al. might be artificially large if the use of ______",
     "choices": [
       {
         "id": "A",
@@ -320,22 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Sep_25_USA_Eng_M2_Q9_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_10",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which finding from the study, if true, would most directly account for the recommendation by Venter et al.?\nVegetation has two primary mechanisms by which it reduces air pollution: deposition (absorption of pollutants) and, the more effective, dispersion (dilution of pollutants by ventilation). Accordingly, establishment of green space to reduce major air pollutants such as coarse particulate matter in urban areas receives considerable attention. Research by Zander S. Venter et al. comprised data from air-quality monitoring stations in Belgium, the US state of West Virginia, and thousands of other global locations over a ten-year span, coupled with aerial imagery of those locations from the same period. The researchers ultimately recommended that reducing anthropogenic emissions remain the primary focus of urban air-quality improvement efforts.\n\nWhich finding from the study, if true, would most directly account for the recommendation by Venter et al.?",
+    "text": "Which finding from the study, if true, would most directly account for the recommendation by Venter et al.?\nVegetation has two primary mechanisms by which it reduces air pollution: deposition (absorption of pollutants) and, the more effective, dispersion (dilution of pollutants by ventilation). Accordingly, establishment of green space to reduce major air pollutants such as coarse particulate matter in urban areas receives considerable attention. Research by Zander S. Venter et al. comprised data from air-quality monitoring stations in Belgium, the US state of West Virginia, and thousands of other global locations over a ten-year span, coupled with aerial imagery of those locations from the same period. The researchers ultimately recommended that reducing anthropogenic emissions remain the primary focus of urban air-quality improvement efforts.",
     "choices": [
       {
         "id": "A",
@@ -357,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -367,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_11",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nNortheastern Missouri's Ralls County is among the most rural counties in the United States: the US Census Bureau classified it as 96.1% rural in 2010. Researchers often struggle to recruit residents of counties like Ralls for inclusion in studies. Melissa Valerio and colleagues tested whether an approach called snowball sampling improves recruitment. Working in two rural counties, they recruited a few people (known as \"seeds\") with the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Though the seeds were given minimal guidance, many more people they recruited had the desired characteristics for the study than would be expected by chance alone, most likely because ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nNortheastern Missouri's Ralls County is among the most rural counties in the United States: the US Census Bureau classified it as 96.1% rural in 2010. Researchers often struggle to recruit residents of counties like Ralls for inclusion in studies. Melissa Valerio and colleagues tested whether an approach called snowball sampling improves recruitment. Working in two rural counties, they recruited a few people (known as \"seeds\") with the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Though the seeds were given minimal guidance, many more people they recruited had the desired characteristics for the study than would be expected by chance alone, most likely because ______",
     "choices": [
       {
         "id": "A",
@@ -393,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -402,12 +400,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_12",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nNeuroscientist Artin Arshamian and his team sought to determine what affects a person's perception of an odor as pleasant: is it culture, personal taste, or aspects of human anatomy? The team assessed odor preferences in ten groups of people with different modes of living (urban, agricultural, and hunter-gatherer), including the Manig people from a small community in Thailand and urban dwellers from a large city in Mexico. The team observed that across cultures, people generally rated odors about the same: ethyl butyrate, which smells like peaches, was typically rated more pleasant than mushroom alcohol, which smells like fungus. The team's study thus undermined the idea that ______.\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nNeuroscientist Artin Arshamian and his team sought to determine what affects a person's perception of an odor as pleasant: is it culture, personal taste, or aspects of human anatomy? The team assessed odor preferences in ten groups of people with different modes of living (urban, agricultural, and hunter-gatherer), including the Manig people from a small community in Thailand and urban dwellers from a large city in Mexico. The team observed that across cultures, people generally rated odors about the same: ethyl butyrate, which smells like peaches, was typically rated more pleasant than mushroom alcohol, which smells like fungus. The team's study thus undermined the idea that ______.",
     "choices": [
       {
         "id": "A",
@@ -429,9 +427,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -439,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_13",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nA soil's microbial community (the microbial taxa present in their relative abundances) is known to affect plants' cyclical processes. Corrine Walsh and colleagues hypothesized that microbial communities could also affect plants' flavor chemistry, including volatiles and secondary metabolites like glucosinolates. Recognizing that soil moisture varies by location in the wild and could influence plants' chemistry, Walsh et al. introduced distinct microbial communities to individually potted mustard plants (*Brassica juncea*) growing in a controlled environment, then measured the plants' glucosinolates, like butenyl and allyl (the most prominent), that create the spicy and bitter flavors in mustard. This method thus enabled the researchers to ______.\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nA soil's microbial community (the microbial taxa present in their relative abundances) is known to affect plants' cyclical processes. Corrine Walsh and colleagues hypothesized that microbial communities could also affect plants' flavor chemistry, including volatiles and secondary metabolites like glucosinolates. Recognizing that soil moisture varies by location in the wild and could influence plants' chemistry, Walsh et al. introduced distinct microbial communities to individually potted mustard plants (*Brassica juncea*) growing in a controlled environment, then measured the plants' glucosinolates, like butenyl and allyl (the most prominent), that create the spicy and bitter flavors in mustard. This method thus enabled the researchers to ______.",
     "choices": [
       {
         "id": "A",
@@ -465,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -475,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_14",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nLouisiana resident P.B.S. Pinchback, one of the nearly two thousand African Americans elected to public office during the decade that followed the Civil War, ______ his term as a member of the state senate in 1868.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nLouisiana resident P.B.S. Pinchback, one of the nearly two thousand African Americans elected to public office during the decade that followed the Civil War, ______ his term as a member of the state senate in 1868.",
     "choices": [
       {
         "id": "A",
@@ -501,21 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_15",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\n*Aftermath the Kings and Their Biographies* is one of the hundreds of thousands of manuscripts that have survived from roughly the sixteenth century to the present ______ being passed down through private libraries in the city of Timbuktu, Mali. Many of these manuscripts can be found at the Al-lmam Essayouti Library.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\n*Aftermath the Kings and Their Biographies* is one of the hundreds of thousands of manuscripts that have survived from roughly the sixteenth century to the present ______ being passed down through private libraries in the city of Timbuktu, Mali. Many of these manuscripts can be found at the Al-lmam Essayouti Library.",
     "choices": [
       {
         "id": "A",
@@ -537,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -547,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_16",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOccurring in the constellation Perseus, 240 million light-years from Earth, SN 2006gy was a ______ explosion of a massive star, which blasts large amounts of radiation, heavy elements, and debris into space\u2014that was first detected by American astronomer Robert Quimby.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOccurring in the constellation Perseus, 240 million light-years from Earth, SN 2006gy was a ______ explosion of a massive star, which blasts large amounts of radiation, heavy elements, and debris into space—that was first detected by American astronomer Robert Quimby.",
     "choices": [
       {
         "id": "A",
@@ -567,13 +565,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "supernova\u2014the"
+        "text": "supernova—the"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -583,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_17",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nThe neurotechnology company Neuros Medical is working on an exciting new technology: a process that uses bioelectric signals to target sensory nerves to help relieve pain. Neuros Medical's technology, alongside other such neuromodulation technologies that function by stimulating nervous system structures, ______ the way for future advancements in neurotechnology.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nThe neurotechnology company Neuros Medical is working on an exciting new technology: a process that uses bioelectric signals to target sensory nerves to help relieve pain. Neuros Medical's technology, alongside other such neuromodulation technologies that function by stimulating nervous system structures, ______ the way for future advancements in neurotechnology.",
     "choices": [
       {
         "id": "A",
@@ -609,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -619,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_18",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nTaking a structuralist approach to analyzing Tomas Rivera's novel *And the Earth Did Not Devour Him* would lead a critic to focus on the linguistic conventions inherent in the novel. On the other hand, a New Historicist analysis ______ on historical context and its relationship to power structures might yield a radically different interpretation of Rivera's novel.\n\nWhich choice completes the text so that it conforms to the conventions of standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of standard English?\nTaking a structuralist approach to analyzing Tomas Rivera's novel *And the Earth Did Not Devour Him* would lead a critic to focus on the linguistic conventions inherent in the novel. On the other hand, a New Historicist analysis ______ on historical context and its relationship to power structures might yield a radically different interpretation of Rivera's novel.",
     "choices": [
       {
         "id": "A",
@@ -645,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_19",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe legacy of the Spanish Empire, which once controlled portions of five continents, is evident in Spanish-speaking Paraguay, one of many places that reveal their imperial history in their language. Contrast Paraguay with the Netherlands, which ceased to be part of the empire in ______ the latter's connection to the empire is so attenuated that Spanish is seldom spoken there today.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe legacy of the Spanish Empire, which once controlled portions of five continents, is evident in Spanish-speaking Paraguay, one of many places that reveal their imperial history in their language. Contrast Paraguay with the Netherlands, which ceased to be part of the empire in ______ the latter's connection to the empire is so attenuated that Spanish is seldom spoken there today.",
     "choices": [
       {
         "id": "A",
@@ -681,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_20",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nTo determine the approximate age of wooden tools excavated from an archaeological site in Spain, archaeologist Joseba Rios-Garaizar and colleagues collected samples of sediments surrounding the tools; these samples were then analyzed using a method known as optically stimulated luminescence (OSL) dating. ______ OSL dating indicated that the tools were between 50,000 and 137,000 years old.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nTo determine the approximate age of wooden tools excavated from an archaeological site in Spain, archaeologist Joseba Rios-Garaizar and colleagues collected samples of sediments surrounding the tools; these samples were then analyzed using a method known as optically stimulated luminescence (OSL) dating. ______ OSL dating indicated that the tools were between 50,000 and 137,000 years old.",
     "choices": [
       {
         "id": "A",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_21",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nArchitect Victor Gruen, the designer of Indiana's Woodmar Plaza shopping mall, conceived of the mall as an indoor version of the European town square, a communal space that encouraged visitors to stroll and linger. ______ he designed Woodmar Plaza with long, pedestrian-friendly promenades and ample seating areas clustered around fountains and greenery.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nArchitect Victor Gruen, the designer of Indiana's Woodmar Plaza shopping mall, conceived of the mall as an indoor version of the European town square, a communal space that encouraged visitors to stroll and linger. ______ he designed Woodmar Plaza with long, pedestrian-friendly promenades and ample seating areas clustered around fountains and greenery.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_22",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn his meta-analysis of recent studies of animal information cascades, Joseph S. McCormick presents several examples of adaptive cascades (i.e., information transfers that benefit a collective), including one that involves humpback whales. However, not all cascades are beneficial. ______ His meta-analysis cites one study that described how black-throated blue warblers followed flock-mates' choice of habitat even when that habitat lacked adequate vegetative cover.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn his meta-analysis of recent studies of animal information cascades, Joseph S. McCormick presents several examples of adaptive cascades (i.e., information transfers that benefit a collective), including one that involves humpback whales. However, not all cascades are beneficial. ______ His meta-analysis cites one study that described how black-throated blue warblers followed flock-mates' choice of habitat even when that habitat lacked adequate vegetative cover.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_23",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nAs can be seen in the case of *The Dial*, a New York magazine published from July 1920 to July 1929, some small periodicals influential in the development of the modernist movement have been explored in depth by scholars. The London magazine *Voices* (1919), ______ remains among those modernist periodicals \"of interest and significance about which relatively little is known,\" according to scholars Peter Brooker and Andrew Thacker.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAs can be seen in the case of *The Dial*, a New York magazine published from July 1920 to July 1929, some small periodicals influential in the development of the modernist movement have been explored in depth by scholars. The London magazine *Voices* (1919), ______ remains among those modernist periodicals \"of interest and significance about which relatively little is known,\" according to scholars Peter Brooker and Andrew Thacker.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_24",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "The student wants to explain why potassium is not fully liquid in a chain melt state. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Atoms in a solid state are ordered and cannot move freely; atoms in a liquid state are disordered and can move three-dimensionally.\n\u2022 Under high pressure and heat, potassium forms an unusual dual structure: a solid lattice of atoms (the host) surrounds partially liquid atom chains (the guest).\n\u2022 This hybrid state (chain melt) was previously thought to be a transitional phase between solid and liquid states.\n\u2022 A 2019 study confirmed that even under extreme heat, the host structure remained solid while the guest structure did not become fully liquid.\n\u2022 These guest atoms exhibited disorder but were confined to one-dimensional movement by the host.\n\u2022 Chain melt was determined to be a stable, distinct state.\n\nThe student wants to explain why potassium is not fully liquid in a chain melt state. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain why potassium is not fully liquid in a chain melt state. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Atoms in a solid state are ordered and cannot move freely; atoms in a liquid state are disordered and can move three-dimensionally.\n• Under high pressure and heat, potassium forms an unusual dual structure: a solid lattice of atoms (the host) surrounds partially liquid atom chains (the guest).\n• This hybrid state (chain melt) was previously thought to be a transitional phase between solid and liquid states.\n• A 2019 study confirmed that even under extreme heat, the host structure remained solid while the guest structure did not become fully liquid.\n• These guest atoms exhibited disorder but were confined to one-dimensional movement by the host.\n• Chain melt was determined to be a stable, distinct state.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_25",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "The student wants to compare McClintock's discovery with Lederberg's. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 In the 1940s, geneticist Barbara McClintock discovered mobile segments of DNA.\n\u2022 McClintock called these segments \"controlling elements,\" but they are now commonly known as transposable elements (TEs).\n\u2022 TEs are capable of altering gene expression as they change position within a cell's genome.\n\u2022 In 1950, geneticist Esther Lederberg discovered a process (the lysogenic cycle) by which bacteria-infecting viruses (phages) pass their genetic material to a host cell's descendants.\n\u2022 Phage DNA will enter a bacterial host cell and incorporate itself into the host cell's genome.\n\u2022 When the host cell divides, the phage DNA replicates along with the host's DNA.\n\nThe student wants to compare McClintock's discovery with Lederberg's. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare McClintock's discovery with Lederberg's. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• In the 1940s, geneticist Barbara McClintock discovered mobile segments of DNA.\n• McClintock called these segments \"controlling elements,\" but they are now commonly known as transposable elements (TEs).\n• TEs are capable of altering gene expression as they change position within a cell's genome.\n• In 1950, geneticist Esther Lederberg discovered a process (the lysogenic cycle) by which bacteria-infecting viruses (phages) pass their genetic material to a host cell's descendants.\n• Phage DNA will enter a bacterial host cell and incorporate itself into the host cell's genome.\n• When the host cell divides, the phage DNA replicates along with the host's DNA.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_26",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "The student wants to paraphrase a quotation from Champ and Freeman to explain the inefficiency of barter economies. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes.\n\u2022 Grain was used as commodity money in ancient Sumer.\n\u2022 In a commodity money economy, specific goods act as a common unit of monetary exchange that can be used to buy and sell other goods.\n\u2022 In a barter economy, goods are traded directly between parties without the use of money.\n\u2022 Economists Bruce Champ and Scott Freeman: bartering requires that \\\"the person with whom you wish to trade must not only have what you want but also want what you have. The inefficiency is apparent; a great deal of time is spent merely finding someone with whom to trade.\\\"\n\u2022 Champ and Freeman: when \\\"individuals might come to accept one particular good in exchange for other goods even if they do not wish to consume that good...barter economies essentially become monetary economies.\\\"\n\nThe student wants to paraphrase a quotation from Champ and Freeman to explain the inefficiency of barter economies. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to paraphrase a quotation from Champ and Freeman to explain the inefficiency of barter economies. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes.\n• Grain was used as commodity money in ancient Sumer.\n• In a commodity money economy, specific goods act as a common unit of monetary exchange that can be used to buy and sell other goods.\n• In a barter economy, goods are traded directly between parties without the use of money.\n• Economists Bruce Champ and Scott Freeman: bartering requires that \\\"the person with whom you wish to trade must not only have what you want but also want what you have. The inefficiency is apparent; a great deal of time is spent merely finding someone with whom to trade.\\\"\n• Champ and Freeman: when \\\"individuals might come to accept one particular good in exchange for other goods even if they do not wish to consume that good...barter economies essentially become monetary economies.\\\"",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_27",
     "testName": "September 2025 US Form A SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two flags?\nWhile researching a topic, a student has taken the following notes.\n\u2022 Vexillology is the study of flags.\n\u2022 The flags of many countries include symbols like animals, plants, or landforms.\n\u2022 These symbols often represent an aspect of the region's history, culture, or landscape.\n\u2022 The flag of Eritrea includes an olive branch.\n\u2022 The flag of Croatia includes leopards.\n\nWhich choice most effectively uses information from the given sentences to emphasize a difference between the two flags?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two flags?\nWhile researching a topic, a student has taken the following notes.\n• Vexillology is the study of flags.\n• The flags of many countries include symbols like animals, plants, or landforms.\n• These symbols often represent an aspect of the region's history, culture, or landscape.\n• The flag of Eritrea includes an olive branch.\n• The flag of Croatia includes leopards.",
     "choices": [
       {
         "id": "A",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

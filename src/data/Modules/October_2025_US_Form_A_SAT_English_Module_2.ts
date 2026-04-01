@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_1",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn addition to the giant stock exchanges in places like London, Mumbai, and Tokyo, there are many smaller exchanges such as the Beirut Stock Exchange in Beirut, Lebanon. Though small, by being dedicated to Lebanon, it can better address factors that help local businesses ______, and that focus on the success of local businesses benefits investors and the local economy.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn addition to the giant stock exchanges in places like London, Mumbai, and Tokyo, there are many smaller exchanges such as the Beirut Stock Exchange in Beirut, Lebanon. Though small, by being dedicated to Lebanon, it can better address factors that help local businesses ______, and that focus on the success of local businesses benefits investors and the local economy.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_2",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "As used in the text, what does the word \"follow\" most nearly mean?\nThe following text is from Rudolfo Anaya's 1972 novel *Bless Me, Ultima*. Two of the narrator's adult brothers have decided to move away from home. Another brother has decided not to accompany them.\nIn the morning Le\u00f3n and Eugene were gone, but Andrew remained. They had talked long into the night, and finally he had given up the idea of going with them. I think he did not like to <u>follow</u> their ways, and he wanted to please my mother.\n\u25ce1972 by Rudolfo Anaya\n\nAs used in the text, what does the word \"follow\" most nearly mean?",
+    "text": "As used in the text, what does the word \"follow\" most nearly mean?\nThe following text is from Rudolfo Anaya's 1972 novel *Bless Me, Ultima*. Two of the narrator's adult brothers have decided to move away from home. Another brother has decided not to accompany them.\nIn the morning León and Eugene were gone, but Andrew remained. They had talked long into the night, and finally he had given up the idea of going with them. I think he did not like to <u>follow</u> their ways, and he wanted to please my mother.\n◎1972 by Rudolfo Anaya",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_3",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2020 paper, Arya Udry et al. cautioned that although similarities in the isotopic signatures of elements detected in Mars's atmosphere and in Martian meteorites recovered on Earth make it tempting to treat the geochemical properties of the meteorites as ______ those of Mars's interiors, Mars's geology cannot be ascertained based solely on meteorite-sample analyses.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2020 paper, Arya Udry et al. cautioned that although similarities in the isotopic signatures of elements detected in Mars's atmosphere and in Martian meteorites recovered on Earth make it tempting to treat the geochemical properties of the meteorites as ______ those of Mars's interiors, Mars's geology cannot be ascertained based solely on meteorite-sample analyses.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_4",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nCorrine Walsh and colleagues tested whether soil microorganisms from ecologically different settings\u2014aspen grove, irrigated pasture, and so on\u2014affect plants' flavor chemistry. Although they found associations between plants' glucosinolates (compounds that produce spicy and bitter flavors) and plants' growth conditions, variations in glucosinolates could not be ______ soil microbes specifically.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nCorrine Walsh and colleagues tested whether soil microorganisms from ecologically different settings—aspen grove, irrigated pasture, and so on—affect plants' flavor chemistry. Although they found associations between plants' glucosinolates (compounds that produce spicy and bitter flavors) and plants' growth conditions, variations in glucosinolates could not be ______ soil microbes specifically.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_5",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\nThe Walt Whitman House in Camden, New Jersey, is the house where Walt Whitman lived for eight years and where he wrote later editions of his poetry collection *Leaves of Grass*. Now the house is a museum dedicated to Whitman's life and writings. Visitors travel to this museum to feel more connected to an author they admire. To encourage that sense of connection, the museum's curators have set up exhibits with furnishings and d\u00e9cor owned by Whitman. Such exhibits help visitors understand day-to-day life in the house where Whitman felt inspired.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe Walt Whitman House in Camden, New Jersey, is the house where Walt Whitman lived for eight years and where he wrote later editions of his poetry collection *Leaves of Grass*. Now the house is a museum dedicated to Whitman's life and writings. Visitors travel to this museum to feel more connected to an author they admire. To encourage that sense of connection, the museum's curators have set up exhibits with furnishings and décor owned by Whitman. Such exhibits help visitors understand day-to-day life in the house where Whitman felt inspired.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_6",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined portion in the text?\nThe following text is adapted from Henrik Ibsen's 1899 play *When We Dead Awaken* (translated by William Archer in 1907). Ulfheim is introducing himself to Professor Rubek, a sculptor.\nULFHEIM: I believe <u>I have the honour of addressing no less a person than the great Sculptor Rubek</u>.\nPROFESSOR RUBEK: (*Nods.*) I remember meeting you once or twice\u2014the autumn when I was last at home.\nULFHEIM: That's many years ago, now. And then you weren't so illustrious as I hear you've since become.\n\nWhich choice best describes the function of the underlined portion in the text?",
+    "text": "Which choice best describes the function of the underlined portion in the text?\nThe following text is adapted from Henrik Ibsen's 1899 play *When We Dead Awaken* (translated by William Archer in 1907). Ulfheim is introducing himself to Professor Rubek, a sculptor.\nULFHEIM: I believe <u>I have the honour of addressing no less a person than the great Sculptor Rubek</u>.\nPROFESSOR RUBEK: (*Nods.*) I remember meeting you once or twice—the autumn when I was last at home.\nULFHEIM: That's many years ago, now. And then you weren't so illustrious as I hear you've since become.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_7",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely disagree about the answer to which question?\nText 1\nBrown University and the investment bank Barclays are two of the many institutions offering training programs in entrepreneurship. But what results do such programs produce? In a study of business school graduates in Norway, researchers Lars Kolvereid and Oystein Moen addressed this question and convincingly demonstrated that participants showed strong intentions to become entrepreneurs as a result of receiving entrepreneurial training.\nText 2\nWhile studies of entrepreneurial training typically report positive results, a close look at these studies reveals widespread methodological shortcomings. For instance, a 1997 study by Lars Kolvereid and Oystein Moen found benefits of entrepreneurial education for graduates of Norwegian business schools, but the study only collected data on subjects after the training, not before, making it unclear whether the training actually had an effect.\n\nBased on the texts, the author of Text 1 and the author of Text 2 would most likely disagree about the answer to which question?",
+    "text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely disagree about the answer to which question?\nText 1\nBrown University and the investment bank Barclays are two of the many institutions offering training programs in entrepreneurship. But what results do such programs produce? In a study of business school graduates in Norway, researchers Lars Kolvereid and Oystein Moen addressed this question and convincingly demonstrated that participants showed strong intentions to become entrepreneurs as a result of receiving entrepreneurial training.\nText 2\nWhile studies of entrepreneurial training typically report positive results, a close look at these studies reveals widespread methodological shortcomings. For instance, a 1997 study by Lars Kolvereid and Oystein Moen found benefits of entrepreneurial education for graduates of Norwegian business schools, but the study only collected data on subjects after the training, not before, making it unclear whether the training actually had an effect.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_8",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Information in the text best supports which statement about Zhao et al.'s findings?\nScientists study the abundance and the activity ratios (AR)\u2014the relative radioactive decay rates of two isotopes\u2014of uranium (U) isotopes in bodies of water to track sediment transport and deposition and to monitor groundwater quality. However, isotope abundance and AR are not always uniform across a single body of water, which may affect the reliability of results if sampling is not sufficiently representative. Chen Zhao et al. analyzed concentrations of the isotope U-238 and the U-234/U-238 AR at multiple depths and locations in two lakes in China, finding no significant variation in values within the same lake.\n\nInformation in the text best supports which statement about Zhao et al.'s findings?",
+    "text": "Information in the text best supports which statement about Zhao et al.'s findings?\nScientists study the abundance and the activity ratios (AR)—the relative radioactive decay rates of two isotopes—of uranium (U) isotopes in bodies of water to track sediment transport and deposition and to monitor groundwater quality. However, isotope abundance and AR are not always uniform across a single body of water, which may affect the reliability of results if sampling is not sufficiently representative. Chen Zhao et al. analyzed concentrations of the isotope U-238 and the U-234/U-238 AR at multiple depths and locations in two lakes in China, finding no significant variation in values within the same lake.",
     "choices": [
       {
         "id": "A",
@@ -283,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_9",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nOne challenge faced by researchers studying global urbanization is that different countries have different definitions of what constitutes an urban settlement. Many countries define urban settlements based on the number of people living in them. However, countries do not all use the same number; for example, Greenland uses a minimum population of 200, while Benin uses 10,000. Other countries use a combination of population and other factors, like how close buildings are to each other. This variation makes it difficult for researchers to compare aspects of urbanization in different countries.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nOne challenge faced by researchers studying global urbanization is that different countries have different definitions of what constitutes an urban settlement. Many countries define urban settlements based on the number of people living in them. However, countries do not all use the same number; for example, Greenland uses a minimum population of 200, while Benin uses 10,000. Other countries use a combination of population and other factors, like how close buildings are to each other. This variation makes it difficult for researchers to compare aspects of urbanization in different countries.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Central Ideas and Details",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_10",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nScientists collected information about brown bears in Katmai National Park in Alaska. This information included each bear's sex, age, and approximate weight. Among the bears whose information is shown in the table, the youngest one was the bear with identification number ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nScientists collected information about brown bears in Katmai National Park in Alaska. This information included each bear's sex, age, and approximate weight. Among the bears whose information is shown in the table, the youngest one was the bear with identification number ______",
     "choices": [
       {
         "id": "A",
@@ -355,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_USA_Eng_M2_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_11",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "According to the table, in what year did India make the change mentioned in the text?\nIn the 1980s and 1990s, many countries began allowing foreign investors to purchase shares of companies based in those countries.\n\nAccording to the table, in what year did India make the change mentioned in the text?",
+    "text": "According to the table, in what year did India make the change mentioned in the text?\nIn the 1980s and 1990s, many countries began allowing foreign investors to purchase shares of companies based in those countries.",
     "choices": [
       {
         "id": "A",
@@ -392,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_USA_Eng_M2_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_12",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which potential finding from another study, if true, would most directly strengthen the team's conclusion?\nPsychologists Gregory Bryant, Dorsa Amir, and colleagues investigated cross-cultural perceptions of spontaneous (real) laughter and volitional (fake or forced) laughter. Study participants from 21 societies, including those in Japan and Turkey, listened to randomized recordings of 18 spontaneous laughs taken from natural conversations between pairs of women and 18 volitional laughs produced separately by 18 different women in response to an instruction to laugh. Analysis of the participants' evaluations of the laughs prompted the team to conclude that the ability to distinguish between spontaneous and volitional laughter appears to be universal across cultures.\n\nWhich potential finding from another study, if true, would most directly strengthen the team's conclusion?",
+    "text": "Which potential finding from another study, if true, would most directly strengthen the team's conclusion?\nPsychologists Gregory Bryant, Dorsa Amir, and colleagues investigated cross-cultural perceptions of spontaneous (real) laughter and volitional (fake or forced) laughter. Study participants from 21 societies, including those in Japan and Turkey, listened to randomized recordings of 18 spontaneous laughs taken from natural conversations between pairs of women and 18 volitional laughs produced separately by 18 different women in response to an instruction to laugh. Analysis of the participants' evaluations of the laughs prompted the team to conclude that the ability to distinguish between spontaneous and volitional laughter appears to be universal across cultures.",
     "choices": [
       {
         "id": "A",
@@ -429,21 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_13",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which additional finding from Yuan and colleagues' study, if true, would best support the researchers' conclusion?\nCertain species, such as Hay's Spring amphipods (*Stygobromus hayi*), lack functional eyes or ocular organs altogether and rely on other mechanisms for navigation. Licheng Yuan and colleagues investigated such mechanisms in the Chinese red-headed centipede (*Scolopendra subspinipes mutilans*), which has no organs with photoreceptors (light-detecting cells) but can sense and avoid sunlight. The researchers placed individual specimens in a clear container (container 1) connected to a container covered in black tape (container 2) and then exposed the containers to simulated sunlight. They observed a rapid increase in the temperature of the centipedes' antennae with the onset of exposure, followed by the centipedes' escape to container 2. Based on their observations, the researchers concluded that thermal receptors in the antennae are likely responsible for light detection in the centipedes.\n\nWhich additional finding from Yuan and colleagues' study, if true, would best support the researchers' conclusion?",
+    "text": "Which additional finding from Yuan and colleagues' study, if true, would best support the researchers' conclusion?\nCertain species, such as Hay's Spring amphipods (*Stygobromus hayi*), lack functional eyes or ocular organs altogether and rely on other mechanisms for navigation. Licheng Yuan and colleagues investigated such mechanisms in the Chinese red-headed centipede (*Scolopendra subspinipes mutilans*), which has no organs with photoreceptors (light-detecting cells) but can sense and avoid sunlight. The researchers placed individual specimens in a clear container (container 1) connected to a container covered in black tape (container 2) and then exposed the containers to simulated sunlight. They observed a rapid increase in the temperature of the centipedes' antennae with the onset of exposure, followed by the centipedes' escape to container 2. Based on their observations, the researchers concluded that thermal receptors in the antennae are likely responsible for light detection in the centipedes.",
     "choices": [
       {
         "id": "A",
@@ -465,9 +463,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Central Ideas and Details",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -475,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_14",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nIntroducing a new species into a delicate ecosystem can often be harmful. The common waxbill and other fruit-eating birds have established themselves on the Hawaiian island of Oahu after being brought there in the last 150 years. Many plant species on the island rely on the activity of fruit-eating birds to maintain and increase their populations. In recent studies, common waxbills have been found to spread seeds of native forest plants that are at risk of extinction, such as the olomea shrub and the alahee tree, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nIntroducing a new species into a delicate ecosystem can often be harmful. The common waxbill and other fruit-eating birds have established themselves on the Hawaiian island of Oahu after being brought there in the last 150 years. Many plant species on the island rely on the activity of fruit-eating birds to maintain and increase their populations. In recent studies, common waxbills have been found to spread seeds of native forest plants that are at risk of extinction, such as the olomea shrub and the alahee tree, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -501,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -511,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_15",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nMany Indigenous songs serve as repositories of ecological knowledge\u2014e.g., Yi songs about the natural environment and O'odham songs about desert plants. In a study by ethnobiologist Dana Lepofsky et al., a song keeper for the Kwakwaka'wakw people provided access to ancient songs referring to the people's creation of terraced intertidal gardens to foster clams for consumption. Cross-references of that information with both archaeological and paleoecological records have revealed significant increases in clam size and productivity concurrent with the most prevalent use of these clam gardens. This finding suggests that researchers should consider ______.\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nMany Indigenous songs serve as repositories of ecological knowledge—e.g., Yi songs about the natural environment and O'odham songs about desert plants. In a study by ethnobiologist Dana Lepofsky et al., a song keeper for the Kwakwaka'wakw people provided access to ancient songs referring to the people's creation of terraced intertidal gardens to foster clams for consumption. Cross-references of that information with both archaeological and paleoecological records have revealed significant increases in clam size and productivity concurrent with the most prevalent use of these clam gardens. This finding suggests that researchers should consider ______.",
     "choices": [
       {
         "id": "A",
@@ -537,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -547,15 +545,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_16",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe smoke point of corn oil ______ around 450 degrees Fahrenheit. When corn oil is heated past this temperature, it will begin to combust and emit smoke.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe smoke point of corn oil ______ around 450 degrees Fahrenheit. When corn oil is heated past this temperature, it will begin to combust and emit smoke.",
     "choices": [
       {
         "id": "A",
-        "text": "is\u2014"
+        "text": "is—"
       },
       {
         "id": "B",
@@ -573,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -583,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_17",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBecause many of the first cattle ranchers in the US learned the trade from Spanish-speaking Mexican *vaqueros* (cowboys), many ranching terms in the English language come from Spanish. One example is the word \"lasso.\" It comes from the Spanish word / azo. Another example is \"rodeo.\" ______ comes from the Spanish word *rodear*.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBecause many of the first cattle ranchers in the US learned the trade from Spanish-speaking Mexican *vaqueros* (cowboys), many ranching terms in the English language come from Spanish. One example is the word \"lasso.\" It comes from the Spanish word / azo. Another example is \"rodeo.\" ______ comes from the Spanish word *rodear*.",
     "choices": [
       {
         "id": "A",
@@ -609,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_18",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nLocated in what is now Egypt, the Pyramid of Userkaf is one of the oldest known structures in the world, ______ researchers a glimpse into ages long gone.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nLocated in what is now Egypt, the Pyramid of Userkaf is one of the oldest known structures in the world, ______ researchers a glimpse into ages long gone.",
     "choices": [
       {
         "id": "A",
@@ -645,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_19",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the Suzuki method, folk songs like \"Mary Had a Little Lamb\" are taught to beginning music students as young as three, while students of traditional methods often only ______ such songs at the age of five.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the Suzuki method, folk songs like \"Mary Had a Little Lamb\" are taught to beginning music students as young as three, while students of traditional methods often only ______ such songs at the age of five.",
     "choices": [
       {
         "id": "A",
@@ -681,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_20",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMarch\u00e9 Monge has operated for more than a century, making ______ both a popular shopping destination and an important piece of Paris's history.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMarché Monge has operated for more than a century, making ______ both a popular shopping destination and an important piece of Paris's history.",
     "choices": [
       {
         "id": "A",
@@ -717,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_21",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen a soil is classified using the International Union of Soil Sciences' system, its similarity to each of the 32 soil reference groups\u2014defined by several criteria\u2014 ______ evaluated, one group at a time, until a match is found. The comparisons are made in a specific order; thus, the criteria for kastanozems (soils with highly organic topsoil) are only applied if the soil doesn't match the criteria for planosols.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen a soil is classified using the International Union of Soil Sciences' system, its similarity to each of the 32 soil reference groups—defined by several criteria— ______ evaluated, one group at a time, until a match is found. The comparisons are made in a specific order; thus, the criteria for kastanozems (soils with highly organic topsoil) are only applied if the soil doesn't match the criteria for planosols.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_22",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn the early 1920s, researchers at the US Geological Survey determined the geographic center of Maine using a simple method. First, they attached a string to the middle point of a cardboard cutout of the state and suspended it in the air. ______ they adjusted the suspension point until the cutout hung perfectly flat. Ultimately, this point was determined to be the center.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn the early 1920s, researchers at the US Geological Survey determined the geographic center of Maine using a simple method. First, they attached a string to the middle point of a cardboard cutout of the state and suspended it in the air. ______ they adjusted the suspension point until the cutout hung perfectly flat. Ultimately, this point was determined to be the center.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_23",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nWhen the first railroads were built in Australia in the 1800s, a variety of track sizes (gauges) were used across the continent, resulting in what historians call the \"railway gauge muddle.\" The Mornington Railway line in Victoria used broad tracks. ______ the Rockhampton Steam Tramway line in Queensland used narrow gauge tracks.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWhen the first railroads were built in Australia in the 1800s, a variety of track sizes (gauges) were used across the continent, resulting in what historians call the \"railway gauge muddle.\" The Mornington Railway line in Victoria used broad tracks. ______ the Rockhampton Steam Tramway line in Queensland used narrow gauge tracks.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_24",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "The student wants to emphasize the number of SNOTEL sites in Wyoming. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Snow hydrologist Zoe Wellschlager helps maintain automated snow measurement stations throughout the western United States.\n\u2022 They are called SNOTEL sites.\n\u2022 There are around 90 sites throughout Wyoming.\n\u2022 There is one at Cottonwood Creek.\n\nThe student wants to emphasize the number of SNOTEL sites in Wyoming. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the number of SNOTEL sites in Wyoming. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Snow hydrologist Zoe Wellschlager helps maintain automated snow measurement stations throughout the western United States.\n• They are called SNOTEL sites.\n• There are around 90 sites throughout Wyoming.\n• There is one at Cottonwood Creek.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_25",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "The student wants to emphasize the location of Hornsdale Wind Farm. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Wind is a renewable energy source.\n\u2022 A wind farm uses turbines to convert wind into electrical power.\n\u2022 A wind farm's maximum electrical output is called its nameplate capacity.\n\u2022 Hornsdale Wind Farm is located in Hornsdale, Australia.\n\u2022 Its nameplate capacity is 316 megawatts.\n\nThe student wants to emphasize the location of Hornsdale Wind Farm. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the location of Hornsdale Wind Farm. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Wind is a renewable energy source.\n• A wind farm uses turbines to convert wind into electrical power.\n• A wind farm's maximum electrical output is called its nameplate capacity.\n• Hornsdale Wind Farm is located in Hornsdale, Australia.\n• Its nameplate capacity is 316 megawatts.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_26",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "The student wants to compare the disadvantages of the geothermal systems used at the Wayang Windu and Raft River plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Wayang Windu geothermal power plant in Indonesia uses a flash steam system to generate electricity.\n\u2022 Flash steam technology requires geothermal reservoir temperatures above 180\u2103.\n\u2022 The use of flash steam systems worldwide is limited because many geothermal reservoirs aren't hot enough.\n\u2022 The Raft River geothermal power plant in Idaho uses a binary cycle system.\n\u2022 Binary cycle technology can generate energy from lower-temperature (less than 180\u2103) geothermal reservoirs.\n\u2022 Binary cycle systems involve higher maintenance costs than flash steam systems.\n\nThe student wants to compare the disadvantages of the geothermal systems used at the Wayang Windu and Raft River plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the disadvantages of the geothermal systems used at the Wayang Windu and Raft River plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Wayang Windu geothermal power plant in Indonesia uses a flash steam system to generate electricity.\n• Flash steam technology requires geothermal reservoir temperatures above 180℃.\n• The use of flash steam systems worldwide is limited because many geothermal reservoirs aren't hot enough.\n• The Raft River geothermal power plant in Idaho uses a binary cycle system.\n• Binary cycle technology can generate energy from lower-temperature (less than 180℃) geothermal reservoirs.\n• Binary cycle systems involve higher maintenance costs than flash steam systems.",
     "choices": [
       {
         "id": "A",
@@ -919,7 +917,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Unlike the Raft River plant, the Wayang Windu plant uses a flash steam system, which requires a less common resource: geothermal reservoirs with temperatures above 180\u2103."
+        "text": "Unlike the Raft River plant, the Wayang Windu plant uses a flash steam system, which requires a less common resource: geothermal reservoirs with temperatures above 180℃."
       },
       {
         "id": "C",
@@ -927,13 +925,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "The system at the Wayang Windu plant requires temperatures above 180\u2103, while the system at the Raft River plant can operate at lower temperatures."
+        "text": "The system at the Wayang Windu plant requires temperatures above 180℃, while the system at the Raft River plant can operate at lower temperatures."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,33 +941,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "9419dcb9-3471-4777-be13-1ee14db6d1bc_27",
     "testName": "October 2025 US Form A SAT English Module 2",
-    "text": "The student wants to emphasize a similarity between *ArcelorMittal Orbit* and *\u010cumil the Sewer Worker*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 *ArcelorMittal Orbit* is an artwork by Sir Anish Kapoor and Cecil Balmond.\n\u2022 It is a 375-foot steel tower with a spiraling staircase and working slide.\n\u2022 It is on display in a public park in London, England.\n\u2022 *\u010cumil the Sewer Worker* is a work of art by Viktor Hul\u00edk.\n\u2022 It is a bronze sculpture of a man emerging from under a manhole cover.\n\u2022 It is on display on a public street in Bratislava, Slovakia.\n\nThe student wants to emphasize a similarity between *ArcelorMittal Orbit* and *\u010cumil the Sewer Worker*. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between *ArcelorMittal Orbit* and *Čumil the Sewer Worker*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *ArcelorMittal Orbit* is an artwork by Sir Anish Kapoor and Cecil Balmond.\n• It is a 375-foot steel tower with a spiraling staircase and working slide.\n• It is on display in a public park in London, England.\n• *Čumil the Sewer Worker* is a work of art by Viktor Hulík.\n• It is a bronze sculpture of a man emerging from under a manhole cover.\n• It is on display on a public street in Bratislava, Slovakia.",
     "choices": [
       {
         "id": "A",
-        "text": "*ArcelorMittal Orbit* and *\u010cumil the Sewer Worker* are both on display at public locations."
+        "text": "*ArcelorMittal Orbit* and *Čumil the Sewer Worker* are both on display at public locations."
       },
       {
         "id": "B",
-        "text": "*ArcelorMittal Orbit*, but not *\u010cumil the Sewer Worker*, can be found in London, England."
+        "text": "*ArcelorMittal Orbit*, but not *Čumil the Sewer Worker*, can be found in London, England."
       },
       {
         "id": "C",
-        "text": "Both *ArcelorMittal Orbit* and *\u010cumil the Sewer Worker* were created by Sir Anish Kapoor and Cecil Balmond."
+        "text": "Both *ArcelorMittal Orbit* and *Čumil the Sewer Worker* were created by Sir Anish Kapoor and Cecil Balmond."
       },
       {
         "id": "D",
-        "text": "*\u010cumil the Sewer Worker*, a bronze sculpture of a man emerging from under a manhole cover, is on display on a public street."
+        "text": "*Čumil the Sewer Worker*, a bronze sculpture of a man emerging from under a manhole cover, is on display on a public street."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

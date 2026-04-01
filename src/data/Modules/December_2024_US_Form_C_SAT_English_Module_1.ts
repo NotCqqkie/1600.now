@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_1",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAncient Greek and Roman sculpture is sometimes characterized as idealizing human subjects, but in fact there are many Greco-Roman sculptures that depict people in decidedly ______ ways.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAncient Greek and Roman sculpture is sometimes characterized as idealizing human subjects, but in fact there are many Greco-Roman sculptures that depict people in decidedly ______ ways.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_2",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nLessons from previous declines in biodiversity can help shape policy recommendations aimed at preserving species at risk. The factors that contributed to the extinction of the shrub-ox around 9500 BCE may also be ______ endangered species today.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nLessons from previous declines in biodiversity can help shape policy recommendations aimed at preserving species at risk. The factors that contributed to the extinction of the shrub-ox around 9500 BCE may also be ______ endangered species today.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_3",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2018 article celebrating films depicting the Black experience, critics for the New York Times ______ Ossie Davis's 1970 film *Cotton Comes to Harlem* and Cheryl Dunye's 1996 film *The Watermelon Woman*, praising the former as \"especially pointed\" and the latter as \"heartbreaking and inspiring.\"\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2018 article celebrating films depicting the Black experience, critics for the New York Times ______ Ossie Davis's 1970 film *Cotton Comes to Harlem* and Cheryl Dunye's 1996 film *The Watermelon Woman*, praising the former as \"especially pointed\" and the latter as \"heartbreaking and inspiring.\"",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_4",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nIn 1879, in an effort to determine the longevity of certain seeds left in soil, botanist William Beal buried 20 glass bottles filled with sand and seeds from a variety of plants, including *Verbascum*, *Lepidium virginicum*, and *Stellaria media*. Since then, some of the bottles have been retrieved in the periodic checks of seed viability researchers are conducting. After 60 years had elapsed, most of the seeds in those bottles stopped germinating, but *Verbascum* seeds have remained viable, including those from a bottle dug up in 2021 by Margaret Fleming, Lars Brudvig, and colleagues.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nIn 1879, in an effort to determine the longevity of certain seeds left in soil, botanist William Beal buried 20 glass bottles filled with sand and seeds from a variety of plants, including *Verbascum*, *Lepidium virginicum*, and *Stellaria media*. Since then, some of the bottles have been retrieved in the periodic checks of seed viability researchers are conducting. After 60 years had elapsed, most of the seeds in those bottles stopped germinating, but *Verbascum* seeds have remained viable, including those from a bottle dug up in 2021 by Margaret Fleming, Lars Brudvig, and colleagues.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_5",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice best describes the overall structure of the text?\nMexican textile artist Victoria Villasana weaves stories of triumph, using her unique method of applying colorful yarn to photographs of people. In some works, Villasana focuses on celebrating cultural icons who are people of color, as she does in her depiction of musician and composer Prince. However, in other works, Villasana honors ordinary people, as she does in her captivating portrayal of a young girl sitting on a sidewalk. Villasana sees both of these approaches as ways of depicting the power and interconnectedness of all people.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nMexican textile artist Victoria Villasana weaves stories of triumph, using her unique method of applying colorful yarn to photographs of people. In some works, Villasana focuses on celebrating cultural icons who are people of color, as she does in her depiction of musician and composer Prince. However, in other works, Villasana honors ordinary people, as she does in her captivating portrayal of a young girl sitting on a sidewalk. Villasana sees both of these approaches as ways of depicting the power and interconnectedness of all people.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_6",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe following text is from Sara Teasdale's 1922 poem \"Two Songs for Solitude.\" My heart has grown rich with the passing of years,\nI have less need now than when I was young\n<u>To share myself with every comer,\nOr shape my thoughts into words with my tongue.</u>\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe following text is from Sara Teasdale's 1922 poem \"Two Songs for Solitude.\" My heart has grown rich with the passing of years,\nI have less need now than when I was young\n<u>To share myself with every comer,\nOr shape my thoughts into words with my tongue.</u>",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_7",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Based on the texts, both authors would most likely agree with which statement?\nText 1\nIn 2015 Rasht, Iran, was named a City of Gastronomy by UNESCO in recognition of the city's unique food culture. The honor is well known among residents of the city as well as tourists who visit. It's obvious that the selection of Rasht by UNESCO has brought awareness to local recipes, cooking practices, and chefs and has provided a boost to the city's tourism industry.\nText 2\nMany people in Rasht's restaurant industry hoped that food tourism would increase after the city was chosen as a City of Gastronomy in 2015. However, as researcher Eerang Park and colleagues argue, cities must still create effective marketing strategies to benefit fully from being named a City of Gastronomy. Without an intentional effort to promote the city's food scene, many current and potential visitors to Rasht may not even be aware that it's home to uniquely delicious food.\n\nBased on the texts, both authors would most likely agree with which statement?",
+    "text": "Based on the texts, both authors would most likely agree with which statement?\nText 1\nIn 2015 Rasht, Iran, was named a City of Gastronomy by UNESCO in recognition of the city's unique food culture. The honor is well known among residents of the city as well as tourists who visit. It's obvious that the selection of Rasht by UNESCO has brought awareness to local recipes, cooking practices, and chefs and has provided a boost to the city's tourism industry.\nText 2\nMany people in Rasht's restaurant industry hoped that food tourism would increase after the city was chosen as a City of Gastronomy in 2015. However, as researcher Eerang Park and colleagues argue, cities must still create effective marketing strategies to benefit fully from being named a City of Gastronomy. Without an intentional effort to promote the city's food scene, many current and potential visitors to Rasht may not even be aware that it's home to uniquely delicious food.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_8",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nLike many other bird species that live only on the Hawaiian archipelago, the 'akeke'e has adapted to life in a well-defined habitat, resulting in highly specialized physical and behavioral characteristics that aid the species in survival. However, because the 'akeke'e is highly specialized, it is especially vulnerable to environmental changes that can disrupt the delicately balanced ecosystem in which it lives.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nLike many other bird species that live only on the Hawaiian archipelago, the 'akeke'e has adapted to life in a well-defined habitat, resulting in highly specialized physical and behavioral characteristics that aid the species in survival. However, because the 'akeke'e is highly specialized, it is especially vulnerable to environmental changes that can disrupt the delicately balanced ecosystem in which it lives.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_9",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Based on the text, what can be inferred about *Ancient Language*?\nIn 2004, Andrew Rogers created *Ancient Language*. In this work, Rogers created an 80-meter-long geoglyph out of rocks in the Atacama Desert. Rogers's work is part of the land art movement, in which artists reject the confinement and commercialization of art galleries. These artists usually install large-scale pieces outdoors, often in surprising locations.\n\nBased on the text, what can be inferred about *Ancient Language*?",
+    "text": "Based on the text, what can be inferred about *Ancient Language*?\nIn 2004, Andrew Rogers created *Ancient Language*. In this work, Rogers created an 80-meter-long geoglyph out of rocks in the Atacama Desert. Rogers's work is part of the land art movement, in which artists reject the confinement and commercialization of art galleries. These artists usually install large-scale pieces outdoors, often in surprising locations.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_10",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is researching the ColecoVision and other important gaming systems that were part of the global rise of the home video game industry during the 1970s and 1980s. The student is surprised to find that the ColecoVision sold relatively few units worldwide, with only about ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is researching the ColecoVision and other important gaming systems that were part of the global rise of the home video game industry during the 1970s and 1980s. The student is surprised to find that the ColecoVision sold relatively few units worldwide, with only about ______",
     "choices": [
       {
         "id": "A",
@@ -355,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_USC_Eng_M1_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_11",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which finding from Christina Zdenek, Timothy Staples, and their team's study, if true, would most directly challenge the underlined assumption?\nA student is studying how woma pythons, eastern brown snakes, and rough-scaled death adders react to sound. The student knew that many snakes display movement of more than 20 cm in response to sound traveling through the ground, but assumed that <u>snakes do not detect sound traveling through the air</u> until reading a study by Christina Zdenek, Timothy Staples, and their team.\n\nWhich finding from Christina Zdenek, Timothy Staples, and their team's study, if true, would most directly challenge the underlined assumption?",
+    "text": "Which finding from Christina Zdenek, Timothy Staples, and their team's study, if true, would most directly challenge the underlined assumption?\nA student is studying how woma pythons, eastern brown snakes, and rough-scaled death adders react to sound. The student knew that many snakes display movement of more than 20 cm in response to sound traveling through the ground, but assumed that <u>snakes do not detect sound traveling through the air</u> until reading a study by Christina Zdenek, Timothy Staples, and their team.",
     "choices": [
       {
         "id": "A",
@@ -392,9 +391,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -402,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_12",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which quotation from \"A Pair of Silk Stockings\" most effectively illustrates the claim?\n\"A Pair of Silk Stockings\" is an 1897 short story written by Kate Chopin. In the story, Mrs. Sommers becomes engrossed in the decision of how she should spend a recently obtained sum of money: ______\n\nWhich quotation from \"A Pair of Silk Stockings\" most effectively illustrates the claim?",
+    "text": "Which quotation from \"A Pair of Silk Stockings\" most effectively illustrates the claim?\n\"A Pair of Silk Stockings\" is an 1897 short story written by Kate Chopin. In the story, Mrs. Sommers becomes engrossed in the decision of how she should spend a recently obtained sum of money: ______",
     "choices": [
       {
         "id": "A",
@@ -428,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_13",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nData are approximate.\nA 2022 US Department of Agriculture report by Kayode Ajewole et al. calculated average annual growth rates of agricultural exports from countries over the five years before and the five years following the creation of a free trade agreement (FTA) with the US. The table shows data for five countries in the study. (Post-FTA calculations included some anticipatory effects preceding the agreements' official start.) Ajewole et al. note that an increase in the rate of exports to the US in the post-FTA period does not necessarily indicate that a country produced more goods for export as a result of the FTA. Rather, FTAs sometimes incentivize countries to redirect existing trade from nonmember countries to FTA partners, as is most likely the case with ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nData are approximate.\nA 2022 US Department of Agriculture report by Kayode Ajewole et al. calculated average annual growth rates of agricultural exports from countries over the five years before and the five years following the creation of a free trade agreement (FTA) with the US. The table shows data for five countries in the study. (Post-FTA calculations included some anticipatory effects preceding the agreements' official start.) Ajewole et al. note that an increase in the rate of exports to the US in the post-FTA period does not necessarily indicate that a country produced more goods for export as a result of the FTA. Rather, FTAs sometimes incentivize countries to redirect existing trade from nonmember countries to FTA partners, as is most likely the case with ______",
     "choices": [
       {
         "id": "A",
@@ -464,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_USC_Eng_M1_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_14",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nStudies conducted in individual Western societies have demonstrated associations between personality traits and five musical factors (mellowness, unpretentiousness, sophistication, intensity, and contemporariness) underlying individual preferences for styles of Western music. To investigate these associations across cultures, David M. Greenberg et al. collected music-preference assessments for Western genres and self-reported personality traits from participants in fifty-three countries across six continents. The study confirmed that the five-factor framework accurately captured participants' tastes in Western music, and, moreover, the study found similar correlations between patterns of these factors and of personality traits, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nStudies conducted in individual Western societies have demonstrated associations between personality traits and five musical factors (mellowness, unpretentiousness, sophistication, intensity, and contemporariness) underlying individual preferences for styles of Western music. To investigate these associations across cultures, David M. Greenberg et al. collected music-preference assessments for Western genres and self-reported personality traits from participants in fifty-three countries across six continents. The study confirmed that the five-factor framework accurately captured participants' tastes in Western music, and, moreover, the study found similar correlations between patterns of these factors and of personality traits, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -501,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -510,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_15",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nThe oceanic whitetip shark and the Pacific halibut are ectothermic (cold-blooded) fish, whereas the shortfin mako shark and the yellowfin tuna are regional endotherms\u2014they retain metabolic heat resulting in body temperatures above the ambient water temperature. Modeling the effect of falling ambient temperatures on ectotherms indicated to researchers Haley R. Dolton and colleagues that ectotherms' body temperatures inexorably decrease toward the ambient temperature. Data from wild basking sharks show that even though their body temperature consistently remains 1.0 to 1.5 \u00b0C above ambient, it also declines as the ambient temperature falls. This suggests that the body temperatures of the ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe oceanic whitetip shark and the Pacific halibut are ectothermic (cold-blooded) fish, whereas the shortfin mako shark and the yellowfin tuna are regional endotherms—they retain metabolic heat resulting in body temperatures above the ambient water temperature. Modeling the effect of falling ambient temperatures on ectotherms indicated to researchers Haley R. Dolton and colleagues that ectotherms' body temperatures inexorably decrease toward the ambient temperature. Data from wild basking sharks show that even though their body temperature consistently remains 1.0 to 1.5 °C above ambient, it also declines as the ambient temperature falls. This suggests that the body temperatures of the ______",
     "choices": [
       {
         "id": "A",
@@ -537,9 +535,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -547,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_16",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nNanoengineers have developed synthesized cerium oxide nanoparticles that are used to improve treatments for certain conditions related to oxidative stress. As nanotechnology evolves, medical technology ______ to evolve as well.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nNanoengineers have developed synthesized cerium oxide nanoparticles that are used to improve treatments for certain conditions related to oxidative stress. As nanotechnology evolves, medical technology ______ to evolve as well.",
     "choices": [
       {
         "id": "A",
@@ -573,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -582,12 +580,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_17",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMr. T, Rasta, and Makhulu were special animals to big cat enthusiasts. Between 2006 and ______ lions prowled the Greater Kruger National Park game reserve in South Africa, forming part of a dominant coalition\u2014the term for a group of male lions\u2014known as the Mapogo.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMr. T, Rasta, and Makhulu were special animals to big cat enthusiasts. Between 2006 and ______ lions prowled the Greater Kruger National Park game reserve in South Africa, forming part of a dominant coalition—the term for a group of male lions—known as the Mapogo.",
     "choices": [
       {
         "id": "A",
@@ -609,9 +607,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -619,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_18",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nNavajo artist Sally Black's mastery of traditional weaving techniques is apparent in her expertly crafted baskets, which typically are woven from sumac (a textured and flexible material) and ______ bold colors.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nNavajo artist Sally Black's mastery of traditional weaving techniques is apparent in her expertly crafted baskets, which typically are woven from sumac (a textured and flexible material) and ______ bold colors.",
     "choices": [
       {
         "id": "A",
@@ -645,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -654,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_19",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA 2014 study led by ______ studied the impact of fertilizers containing nitrogen on grassland arthropod populations. Another study, led by Malie Lessard-Therrien in 2018, looked at fertilizers containing nitrogen and two other macronutrients: phosphorus and potassium.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA 2014 study led by ______ studied the impact of fertilizers containing nitrogen on grassland arthropod populations. Another study, led by Malie Lessard-Therrien in 2018, looked at fertilizers containing nitrogen and two other macronutrients: phosphorus and potassium.",
     "choices": [
       {
         "id": "A",
@@ -681,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_20",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMost conifers (plants that grow cones, such as pines, firs, and spruces) are evergreen, meaning that they keep live foliage year-round. The tamarack tree (*Larix laricina*), however, is a deciduous conifer, meaning that it regularly ______ all its needles.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMost conifers (plants that grow cones, such as pines, firs, and spruces) are evergreen, meaning that they keep live foliage year-round. The tamarack tree (*Larix laricina*), however, is a deciduous conifer, meaning that it regularly ______ all its needles.",
     "choices": [
       {
         "id": "A",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_21",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAmong the many ancient Egyptian units of measurement, the units *sa* and *shesep* were used to measure area and ______ neither unit is commonly used today.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAmong the many ancient Egyptian units of measurement, the units *sa* and *shesep* were used to measure area and ______ neither unit is commonly used today.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_22",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nTextile artist Amber Joy Greenidge-Sabral wanted to avoid using harsh synthetic dyes that could be damaging to the environment. ______ she began experimenting with more environmentally friendly natural dye methods, using organic materials like Texas paintbrush and madder root for their natural brown and red colors.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nTextile artist Amber Joy Greenidge-Sabral wanted to avoid using harsh synthetic dyes that could be damaging to the environment. ______ she began experimenting with more environmentally friendly natural dye methods, using organic materials like Texas paintbrush and madder root for their natural brown and red colors.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_23",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "The student wants to emphasize how many participants selected an altered version of Fred Flintstone. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 In a 2021 study, researchers showed participants an unaltered image of a popular character or logo alongside two slightly altered versions.\n\u2022 Fred Flintstone is a cartoon man in a spotted tunic.\n\u2022 In the first alteration, the tunic had a striped pattern.\n\u2022 In the second alteration, the tunic had no pattern.\n\u2022 Participants were asked to identify the correct version.\n\u2022 86.9% of participants selected the unaltered image, and 13.1% selected an altered version.\n\nThe student wants to emphasize how many participants selected an altered version of Fred Flintstone. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize how many participants selected an altered version of Fred Flintstone. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• In a 2021 study, researchers showed participants an unaltered image of a popular character or logo alongside two slightly altered versions.\n• Fred Flintstone is a cartoon man in a spotted tunic.\n• In the first alteration, the tunic had a striped pattern.\n• In the second alteration, the tunic had no pattern.\n• Participants were asked to identify the correct version.\n• 86.9% of participants selected the unaltered image, and 13.1% selected an altered version.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_24",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "The student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The human tongue contains taste receptors for a rich, savory flavor called umami.\n\u2022 Umami is triggered by the compounds in a variety of foods, including tuna and garlic.\n\u2022 Participants in a study tasted a sample of North Pacific konbu, a type of brown seaweed.\n\u2022 They rated its umami intensity as moderate.\n\u2022 The participants tasted a sample of arame, another type of brown seaweed.\n\u2022 They rated its umami intensity as high.\n\nThe student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The human tongue contains taste receptors for a rich, savory flavor called umami.\n• Umami is triggered by the compounds in a variety of foods, including tuna and garlic.\n• Participants in a study tasted a sample of North Pacific konbu, a type of brown seaweed.\n• They rated its umami intensity as moderate.\n• The participants tasted a sample of arame, another type of brown seaweed.\n• They rated its umami intensity as high.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_25",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "The student wants to specify where *Hadramphus tuberculatus* was identified. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 *Hadramphus tuberculatus* is an insect species.\n\u2022 It was believed to be extinct until a living specimen was identified in New Zealand in 2004.\n\u2022 *Catagonus wagneri* is a mammal species.\n\u2022 It was believed to be extinct until a living specimen was identified in Argentina in 1974.\n\u2022 They are considered Lazarus species.\n\u2022 \"Lazarus species\" is a term for living species of organisms that were once believed to be extinct.\n\nThe student wants to specify where *Hadramphus tuberculatus* was identified. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to specify where *Hadramphus tuberculatus* was identified. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Hadramphus tuberculatus* is an insect species.\n• It was believed to be extinct until a living specimen was identified in New Zealand in 2004.\n• *Catagonus wagneri* is a mammal species.\n• It was believed to be extinct until a living specimen was identified in Argentina in 1974.\n• They are considered Lazarus species.\n• \"Lazarus species\" is a term for living species of organisms that were once believed to be extinct.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_26",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize a similarity between Dickerson and Onslow?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Herpetology is primarily the study of amphibians and reptiles.\n\u2022 Mary Cynthia Dickerson was an American herpetologist born in 1866.\n\u2022 She is known for her research on frogs.\n\u2022 Biochemistry is primarily the study of the chemical makeup and activity of organisms.\n\u2022 Muriel Wheldale Onslow was a British biochemist born in 1880.\n\u2022 She is known for her research on the basis of petal color in dragon flowers.\n\nWhich choice most effectively uses information from the given sentences to emphasize a similarity between Dickerson and Onslow?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize a similarity between Dickerson and Onslow?\nWhile researching a topic, a student has taken the following notes:\n• Herpetology is primarily the study of amphibians and reptiles.\n• Mary Cynthia Dickerson was an American herpetologist born in 1866.\n• She is known for her research on frogs.\n• Biochemistry is primarily the study of the chemical makeup and activity of organisms.\n• Muriel Wheldale Onslow was a British biochemist born in 1880.\n• She is known for her research on the basis of petal color in dragon flowers.",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "2151936b-0a32-450c-9679-a3f550831cb9_27",
     "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to explain the concept of torsional heating?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Generally, an object will heat up when twisted.\n\u2022 The twisting of an object is known as torsion.\n\u2022 A 2019 study led by researchers Zunfeng Liu and Ray Baughman tested the torsional heating of various fibers.\n\u2022 When dimethicone fiber was twisted, its average surface temperature increased by 1.8\u00b0C.\n\u2022 When natural rubber fiber was twisted, its average surface temperature increased by 15.3\u00b0C.\n\nWhich choice most effectively uses information from the given sentences to explain the concept of torsional heating?",
+    "text": "Which choice most effectively uses information from the given sentences to explain the concept of torsional heating?\nWhile researching a topic, a student has taken the following notes:\n• Generally, an object will heat up when twisted.\n• The twisting of an object is known as torsion.\n• A 2019 study led by researchers Zunfeng Liu and Ray Baughman tested the torsional heating of various fibers.\n• When dimethicone fiber was twisted, its average surface temperature increased by 1.8°C.\n• When natural rubber fiber was twisted, its average surface temperature increased by 15.3°C.",
     "choices": [
       {
         "id": "A",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

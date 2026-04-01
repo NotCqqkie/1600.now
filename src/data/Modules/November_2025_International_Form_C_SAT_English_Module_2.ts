@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_1",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nExposed to harsh environmental conditions for centuries, lighthouses such as La Jument lighthouse off the coast of Brittany, France, exemplify the ______ between marine structures and ocean forces: the continuous impact of breaking waves necessitates periodic reinforcements to or redesigns of the structures that in turn may alter local wave patterns.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nExposed to harsh environmental conditions for centuries, lighthouses such as La Jument lighthouse off the coast of Brittany, France, exemplify the ______ between marine structures and ocean forces: the continuous impact of breaking waves necessitates periodic reinforcements to or redesigns of the structures that in turn may alter local wave patterns.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_2",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\n______ the mythological and heroic subject matter often found in works by Horace Vernet and other establishment figures, Honor\u00e9 Daumier\u02bcs painting *The Third-Class Carriage* instead focuses on something decidedly mundane: working-class travelers in a third-class railway car.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\n______ the mythological and heroic subject matter often found in works by Horace Vernet and other establishment figures, Honoré Daumierʼs painting *The Third-Class Carriage* instead focuses on something decidedly mundane: working-class travelers in a third-class railway car.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_3",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough copies of *The Adventures of Indiana Jones in Wenceslas Square in Prague on January 16, 1989\u2014*an underground computer game that was created anonymously in 1989 as an act of political protest against the authoritarian regime of what was then Czechoslovakia\u2014were originally distributed ______, the game is now readily available online for anyone to play.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough copies of *The Adventures of Indiana Jones in Wenceslas Square in Prague on January 16, 1989—*an underground computer game that was created anonymously in 1989 as an act of political protest against the authoritarian regime of what was then Czechoslovakia—were originally distributed ______, the game is now readily available online for anyone to play.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_4",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn their study of caterpillars in fragmented forests (formerly contiguous forests that have been broken into isolated patches by roads or other interruptions), James Mickley et al. stress that although fragmentation inevitably ______ alterations to local ecological processes, the changes will likely have a greater impact on *Catocala ilia*, a specialist feeding on a limited number of plant species, than on a species like *Achatia distincta* that feeds on several.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn their study of caterpillars in fragmented forests (formerly contiguous forests that have been broken into isolated patches by roads or other interruptions), James Mickley et al. stress that although fragmentation inevitably ______ alterations to local ecological processes, the changes will likely have a greater impact on *Catocala ilia*, a specialist feeding on a limited number of plant species, than on a species like *Achatia distincta* that feeds on several.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -148,12 +148,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_5",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEstablishing protected areas (PAs), such as the Mamanuca Islands in Fiji, is a common conservation strategy, but because PAs restrict some kinds of economic activity, it's widely thought that they hinder economic development. This perception is driven in part by the fact that economic assessments often don't capture the indirect effects of tourism linked to PAs. But Hasita Bhammar et al. found that tourism associated with the Mamanuca Islands boosts local demand for goods and services in other economic sectors, resulting in, for instance, increased income from retail in nearby areas.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEstablishing protected areas (PAs), such as the Mamanuca Islands in Fiji, is a common conservation strategy, but because PAs restrict some kinds of economic activity, it's widely thought that they hinder economic development. This perception is driven in part by the fact that economic assessments often don't capture the indirect effects of tourism linked to PAs. But Hasita Bhammar et al. found that tourism associated with the Mamanuca Islands boosts local demand for goods and services in other economic sectors, resulting in, for instance, increased income from retail in nearby areas.",
     "choices": [
       {
         "id": "A",
@@ -175,9 +175,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_6",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nTypically, synthetic leather is petroleum based, but materials scientists searching for an ecologically sustainable alternative have used various bacteria that secrete linear chains of glucose, forming a dense mesh of cellulose called a pellicle, which is leatherlike except in color. The standard process for dyeing leather generates substantial wastewater and other undesirable byproducts, so <u>adopting such a regimen would run counter to the ecological promise of the pellicle approach.</u> To address this, Kenneth T. Walker and colleagues worked to modify *Komagataeibacter rhaeticus* bacteria to produce a pellicle with embedded pigmentation cells, thereby allowing the pellicle to \"dye\" itself from the inside.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nTypically, synthetic leather is petroleum based, but materials scientists searching for an ecologically sustainable alternative have used various bacteria that secrete linear chains of glucose, forming a dense mesh of cellulose called a pellicle, which is leatherlike except in color. The standard process for dyeing leather generates substantial wastewater and other undesirable byproducts, so <u>adopting such a regimen would run counter to the ecological promise of the pellicle approach.</u> To address this, Kenneth T. Walker and colleagues worked to modify *Komagataeibacter rhaeticus* bacteria to produce a pellicle with embedded pigmentation cells, thereby allowing the pellicle to \"dye\" itself from the inside.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_7",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice best describes the relationship between the two texts?\nText 1\nMooseberry (*Viburnum edule*) plants are native to Alaska, where harsh conditions have historically impeded potential invasive species. As the boreal climate has warmed in recent decades, however, common knotgrass (*Polygonum aviculare*) plants have established themselves in Alaska. Previous research conducted in non-boreal ecosystems has documented warming-induced increases in summer temperatures benefiting invasive species more than native species.\nText 2\nAt a site near Fairbanks, Alaska, Christa Mulder and Katie Spellman tracked *V. edule* and *P. aviculare*, along with other native and invasive species, over several years. They observed that although average summer temperatures were substantially higher in some years of the study than in others, neither *V. edule* nor *P. aviculare* showed any significant variation in summer growth patterns from year to year.\n\nWhich choice best describes the relationship between the two texts?",
+    "text": "Which choice best describes the relationship between the two texts?\nText 1\nMooseberry (*Viburnum edule*) plants are native to Alaska, where harsh conditions have historically impeded potential invasive species. As the boreal climate has warmed in recent decades, however, common knotgrass (*Polygonum aviculare*) plants have established themselves in Alaska. Previous research conducted in non-boreal ecosystems has documented warming-induced increases in summer temperatures benefiting invasive species more than native species.\nText 2\nAt a site near Fairbanks, Alaska, Christa Mulder and Katie Spellman tracked *V. edule* and *P. aviculare*, along with other native and invasive species, over several years. They observed that although average summer temperatures were substantially higher in some years of the study than in others, neither *V. edule* nor *P. aviculare* showed any significant variation in summer growth patterns from year to year.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -255,17 +255,17 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_8",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Information in the text best supports which statement about Azara\u02bcs night monkeys?\nOptimal foraging theory (OFT) holds that animals\u02bc foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which W.J. Cresswell and Stephen Harris found to be negatively associated with foraging by European badgers but Eduardo Fern\u00e1ndez-Duque and colleagues found to be positively associated with foraging by Azara\u02bcs night monkeys. This discrepancy is explicable in terms of OFT: the monkeys\u02bc greater reliance on vision means that higher lunar intensity benefits them more than it benefits the badgers.\n\nInformation in the text best supports which statement about Azara\u02bcs night monkeys?",
+    "text": "Information in the text best supports which statement about Azaraʼs night monkeys?\nOptimal foraging theory (OFT) holds that animalsʼ foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which W.J. Cresswell and Stephen Harris found to be negatively associated with foraging by European badgers but Eduardo Fernández-Duque and colleagues found to be positively associated with foraging by Azaraʼs night monkeys. This discrepancy is explicable in terms of OFT: the monkeysʼ greater reliance on vision means that higher lunar intensity benefits them more than it benefits the badgers.",
     "choices": [
       {
         "id": "A",
-        "text": "If the monkeys\u02bc foraging behavior under increased lunar intensity actually reflects a cost-benefit trade-off, their behavior should be more similar to that of European badgers than it is."
+        "text": "If the monkeysʼ foraging behavior under increased lunar intensity actually reflects a cost-benefit trade-off, their behavior should be more similar to that of European badgers than it is."
       },
       {
         "id": "B",
@@ -273,7 +273,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "If increased lunar intensity imposed the same costs on the monkeys that it imposes on European badgers, there would be no association between lunar intensity and the monkeys\u02bc foraging."
+        "text": "If increased lunar intensity imposed the same costs on the monkeys that it imposes on European badgers, there would be no association between lunar intensity and the monkeysʼ foraging."
       },
       {
         "id": "D",
@@ -283,9 +283,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_9",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice best describes data in the table that support the city planner\u02bcs conclusion?\nRanking of Environmental and Sociocultural Benefits of Urban Agriculture (scale of 1 to 25; 1 = highest)\nEsther Sany\u00e9-Mengual, Kathrin Specht, and their team surveyed three groups of people in Bologna, Italy\u2014leaders of urban agriculture projects, stakeholders in urban agriculture (e.g., food researchers and urban farming associations), and the general public\u2014to compare their views about the extent to which urban agriculture contributes to 25 social or ecological services that the team identified. The researchers used these ratings to rank the services for each group, with a ranking of 1 indicating that a group perceives that urban agriculture benefits that service the most. Using only the rankings shown in the table, a city planner in Bologna who is promoting a new urban agriculture project concludes that advertisements aimed at project leaders should emphasize the project's benefit to the enhancement of pollination.\n\nWhich choice best describes data in the table that support the city planner\u02bcs conclusion?",
+    "text": "Which choice best describes data in the table that support the city plannerʼs conclusion?\nRanking of Environmental and Sociocultural Benefits of Urban Agriculture (scale of 1 to 25; 1 = highest)\nEsther Sanyé-Mengual, Kathrin Specht, and their team surveyed three groups of people in Bologna, Italy—leaders of urban agriculture projects, stakeholders in urban agriculture (e.g., food researchers and urban farming associations), and the general public—to compare their views about the extent to which urban agriculture contributes to 25 social or ecological services that the team identified. The researchers used these ratings to rank the services for each group, with a ranking of 1 indicating that a group perceives that urban agriculture benefits that service the most. Using only the rankings shown in the table, a city planner in Bologna who is promoting a new urban agriculture project concludes that advertisements aimed at project leaders should emphasize the project's benefit to the enhancement of pollination.",
     "choices": [
       {
         "id": "A",
@@ -319,22 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_25_IntlC_Eng_M2_Q9_2.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_10",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice best presents a conclusion about the habits of New Year\u02bcs resolution makers that is best supported by information in the text and the table?\nPercentages of New Year\u02bcs Resolution Makers Who Make Certain Kinds of Resolutions\nA Pew Research Center survey conducted in January 2024 found that three out of ten US adults make at least one New Year\u02bcs resolution (a promise for the year ahead), while half of those who make a resolution make more than one. The survey asked participants what kinds of resolutions they made and separated them into several categories. The table presents percentages of people who make particular kinds of New Year\u02bcs resolutions among those who choose to make them, indexed by age bracket.\n\nWhich choice best presents a conclusion about the habits of New Year\u02bcs resolution makers that is best supported by information in the text and the table?",
+    "text": "Which choice best presents a conclusion about the habits of New Yearʼs resolution makers that is best supported by information in the text and the table?\nPercentages of New Yearʼs Resolution Makers Who Make Certain Kinds of Resolutions\nA Pew Research Center survey conducted in January 2024 found that three out of ten US adults make at least one New Yearʼs resolution (a promise for the year ahead), while half of those who make a resolution make more than one. The survey asked participants what kinds of resolutions they made and separated them into several categories. The table presents percentages of people who make particular kinds of New Yearʼs resolutions among those who choose to make them, indexed by age bracket.",
     "choices": [
       {
         "id": "A",
@@ -342,7 +341,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Among all US adults, people become less likely to make New Year\u02bcs resolutions as they age, regardless of the type of resolution."
+        "text": "Among all US adults, people become less likely to make New Yearʼs resolutions as they age, regardless of the type of resolution."
       },
       {
         "id": "C",
@@ -356,44 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
-      "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_25_IntlC_Eng_M2_Q10_3.png"
-  },
-  {
-    "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "13cfe765-425a-44bc-b085-25d580925451_11",
-    "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which quotation from Richard II most effectively illustrates the claim?\n*Richard II* is a play from the 1590s by William Shakespeare. Although King Richard has been vanquished by his cousin Henry Bolingbroke, he intimates that he is not entirely ready to show subservience to his cousin, saying, ______\n\nWhich quotation from Richard II most effectively illustrates the claim?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "\u201cAm I both priest and clerk? Well then, amen. / God save the King! although I be not he; / And yet, amen, if heaven do think him me.\u201d"
-      },
-      {
-        "id": "B",
-        "text": "\u201cI have no name, no title,\u2014 / No, not that name was given me at the font,\u2014 / But \u02bctis usurp\u02bcd:\u2014 Alack the heavy day, / That I have worn so many winters out, / And know not now what name to call myself!\u201d"
-      },
-      {
-        "id": "C",
-        "text": "\u201cStill my griefs are mine. / You may my glories and my state depose, / But not my griefs; still am I king of those.\u201d"
-      },
-      {
-        "id": "D",
-        "text": "\u201cAlack, why am I sent for to a king, / Before I have shook off the regal thoughts / Wherewith I reign\u02bcd? I hardly yet have learn\u02bcd / To insinuate, flatter, bow, and bend my knee.\u201d"
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -403,33 +365,69 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
-    "id": "13cfe765-425a-44bc-b085-25d580925451_12",
+    "id": "13cfe765-425a-44bc-b085-25d580925451_11",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text?\nScholars cite *Men of Maize*, the 1949 novel by Guatemalan author Miguel \u00c1ngel Asturias, as a foundational text of magical realism, the Latin American style of fiction in which antirealistic plot devices\u2014often borrowed from the spiritual and narrative traditions of Indigenous and colonial societies in the Americas\u2014are deployed in an otherwise realistic mode of representation typical of the modern novel. This style has exerted a decisive influence on authors in the United States, including Susan Power, <u>whose 1994 novel *The Grass Dancer* resembles classic magical realist novels in its juxtaposition of literary realism with long-established cultural traditions\u2014namely, those of the Dakota people of the northern plains.</u>\n\nWhich quotation from a literary scholar would most directly support the claim in the underlined portion of the text?",
+    "text": "Which quotation from Richard II most effectively illustrates the claim?\n*Richard II* is a play from the 1590s by William Shakespeare. Although King Richard has been vanquished by his cousin Henry Bolingbroke, he intimates that he is not entirely ready to show subservience to his cousin, saying, ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cThe cultural traditions of the Dakota people of the northern plains, which figure so prominently in the magical realist tradition of Latin America, permit realistic as well as antirealistic scenarios\u2014much as *The Grass Dancer does*.\u201d"
+        "text": "“Am I both priest and clerk? Well then, amen. / God save the King! although I be not he; / And yet, amen, if heaven do think him me.”"
       },
       {
         "id": "B",
-        "text": "\u201cAlthough much of *The Grass Dancer* conforms to the conventions of realistic fiction, Susan Power also incorporates elements drawn from Dakota cultural traditions that transcend and expose the limitations of realism.\u201d"
+        "text": "“I have no name, no title,— / No, not that name was given me at the font,— / But ʼtis usurpʼd:— Alack the heavy day, / That I have worn so many winters out, / And know not now what name to call myself!”"
       },
       {
         "id": "C",
-        "text": "\u201cEven though *The Grass Dancer* alternates between realistic and antirealistic modes of representation, the influence of Dakota cultural traditions remains constant throughout the novel.\u201d"
+        "text": "“Still my griefs are mine. / You may my glories and my state depose, / But not my griefs; still am I king of those.”"
       },
       {
         "id": "D",
-        "text": "\u201cMuch of the interest of *The Grass Dancer* derives from the productive tension between its competing influences\u2014namely, Dakota cultural traditions and the magical realism of Latin America.\u201d"
+        "text": "“Alack, why am I sent for to a king, / Before I have shook off the regal thoughts / Wherewith I reignʼd? I hardly yet have learnʼd / To insinuate, flatter, bow, and bend my knee.”"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "13cfe765-425a-44bc-b085-25d580925451_12",
+    "testName": "November 2025 International Form C SAT English Module 2",
+    "text": "Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text?\nScholars cite *Men of Maize*, the 1949 novel by Guatemalan author Miguel Ángel Asturias, as a foundational text of magical realism, the Latin American style of fiction in which antirealistic plot devices—often borrowed from the spiritual and narrative traditions of Indigenous and colonial societies in the Americas—are deployed in an otherwise realistic mode of representation typical of the modern novel. This style has exerted a decisive influence on authors in the United States, including Susan Power, <u>whose 1994 novel *The Grass Dancer* resembles classic magical realist novels in its juxtaposition of literary realism with long-established cultural traditions—namely, those of the Dakota people of the northern plains.</u>",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“The cultural traditions of the Dakota people of the northern plains, which figure so prominently in the magical realist tradition of Latin America, permit realistic as well as antirealistic scenarios—much as *The Grass Dancer does*.”"
+      },
+      {
+        "id": "B",
+        "text": "“Although much of *The Grass Dancer* conforms to the conventions of realistic fiction, Susan Power also incorporates elements drawn from Dakota cultural traditions that transcend and expose the limitations of realism.”"
+      },
+      {
+        "id": "C",
+        "text": "“Even though *The Grass Dancer* alternates between realistic and antirealistic modes of representation, the influence of Dakota cultural traditions remains constant throughout the novel.”"
+      },
+      {
+        "id": "D",
+        "text": "“Much of the interest of *The Grass Dancer* derives from the productive tension between its competing influences—namely, Dakota cultural traditions and the magical realism of Latin America.”"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -439,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_13",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nWhile mammals collectively exhibit the highest ratio of brain size to body size among vertebrates, a team led by paleontologist Ornella Bertrand demonstrates that for ten million years following the extinction of dinosaurs, that ratio in fact shrank for mammals as they evolved to fill newly vacated ecological niches and their bodies increased in size more rapidly than their brains. Competition for resources tends to favor intelligence and thus large, complex brains, but during this period, the abundance of resources relative to mammalian population numbers likely moderated competition and facilitated an increase in body size. Bertrand and her team reason that as population numbers swelled, competition intensified, creating conditions that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nWhile mammals collectively exhibit the highest ratio of brain size to body size among vertebrates, a team led by paleontologist Ornella Bertrand demonstrates that for ten million years following the extinction of dinosaurs, that ratio in fact shrank for mammals as they evolved to fill newly vacated ecological niches and their bodies increased in size more rapidly than their brains. Competition for resources tends to favor intelligence and thus large, complex brains, but during this period, the abundance of resources relative to mammalian population numbers likely moderated competition and facilitated an increase in body size. Bertrand and her team reason that as population numbers swelled, competition intensified, creating conditions that ______",
     "choices": [
       {
         "id": "A",
@@ -465,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -474,12 +472,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Inferences",
-    "difficulty": "null",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_14",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nAs exemplified by Sakha songs about local ecosystems and Kaluli songs about rainforest sounds, ecological information can be transmitted in Indigenous songs, and in some instances is maintained only in this way. Kwaxsistalla Wathl'thla, a song keeper for the Kwakwaka'wakw people in Canada, collaborated with ethnobiologist Dana Lepofsky et al., sharing songs referencing terraced intertidal clam gardens the people implemented in the past to foster healthy development of a dietary staple. Drawing on archaeological evidence as well, Lepofsky et al. determined that the prevalence of the practice described in the songs corresponded with growth in clam size and abundance despite increased harvesting pressure\u2014a finding that demonstrates that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nAs exemplified by Sakha songs about local ecosystems and Kaluli songs about rainforest sounds, ecological information can be transmitted in Indigenous songs, and in some instances is maintained only in this way. Kwaxsistalla Wathl'thla, a song keeper for the Kwakwaka'wakw people in Canada, collaborated with ethnobiologist Dana Lepofsky et al., sharing songs referencing terraced intertidal clam gardens the people implemented in the past to foster healthy development of a dietary staple. Drawing on archaeological evidence as well, Lepofsky et al. determined that the prevalence of the practice described in the songs corresponded with growth in clam size and abundance despite increased harvesting pressure—a finding that demonstrates that ______",
     "choices": [
       {
         "id": "A",
@@ -495,15 +493,15 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "although the researchers\u02bc hypothesis does not appear to be supported, this may be because the levels of zinc exposure the plants in the experiment received did not match their exposure in their natural environments."
+        "text": "although the researchersʼ hypothesis does not appear to be supported, this may be because the levels of zinc exposure the plants in the experiment received did not match their exposure in their natural environments."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Inferences",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -511,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_15",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEnacted in 1991, Latvia\u02bcs 4,917-word constitution, in contrast to Chile\u02bcs, which was enacted in 1980 and contains a far greater number (25,821) of words, ______ as the 4th shortest in the world. Such data are studied by constitutional scholars like Dominic J. Nardi, who can use them to draw broader conclusions.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEnacted in 1991, Latviaʼs 4,917-word constitution, in contrast to Chileʼs, which was enacted in 1980 and contains a far greater number (25,821) of words, ______ as the 4th shortest in the world. Such data are studied by constitutional scholars like Dominic J. Nardi, who can use them to draw broader conclusions.",
     "choices": [
       {
         "id": "A",
@@ -537,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -547,15 +545,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_16",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAstronomers Annie and Edward Maunder meticulously studied historical records of dark areas on the sun\u02bcs surface known as sunspots. Their work in the late 1800s led to the identification of a period from 1645 to 1715\u2014now known as the Maunder ______ sunspots were notably scarce, a phenomenon that solar physicists continue to investigate.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAstronomers Annie and Edward Maunder meticulously studied historical records of dark areas on the sunʼs surface known as sunspots. Their work in the late 1800s led to the identification of a period from 1645 to 1715—now known as the Maunder ______ sunspots were notably scarce, a phenomenon that solar physicists continue to investigate.",
     "choices": [
       {
         "id": "A",
-        "text": "Minimum\u2014when"
+        "text": "Minimum—when"
       },
       {
         "id": "B",
@@ -573,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -583,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_17",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTo British musician Jacob Collier, substituting the II chord for the bvii chord\u2014its opposite in pitch and tone\u2014adds expression to improvisation without creating dissonance. This conceptualization of harmonic opposites did not originate with ______ in 1985, the idea was first articulated in Swiss musicologist Ernst Levy\u2019s posthumously published book *A Theory of Harmony*.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTo British musician Jacob Collier, substituting the II chord for the bvii chord—its opposite in pitch and tone—adds expression to improvisation without creating dissonance. This conceptualization of harmonic opposites did not originate with ______ in 1985, the idea was first articulated in Swiss musicologist Ernst Levy’s posthumously published book *A Theory of Harmony*.",
     "choices": [
       {
         "id": "A",
@@ -609,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -619,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_18",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe statement \u201call tarantulas are venomous\u201d is scientific because it could be proved false by a single observation to the contrary, according to Karl Popper. Popper's theory ______ that scientific hypotheses must be refutable, termed the criterion of falsifiability, rejects the confirmationist position that uses verifiability as the standard for scientific hypotheses.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe statement “all tarantulas are venomous” is scientific because it could be proved false by a single observation to the contrary, according to Karl Popper. Popper's theory ______ that scientific hypotheses must be refutable, termed the criterion of falsifiability, rejects the confirmationist position that uses verifiability as the standard for scientific hypotheses.",
     "choices": [
       {
         "id": "A",
@@ -645,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -654,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_19",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nNovelist and playwright Mary Russell Mitford joined with 55 other prominent British writers in 1837 to petition the US Congress for greater copyright protections. This cadre of renowned ______ that American publishers\u02bc appropriation of their work caused, in the words of the petition, \u201cdeep and extensive injuries...on their reputation and property,\u201d helped sow the seeds for the International Copyright Act of 1891.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nNovelist and playwright Mary Russell Mitford joined with 55 other prominent British writers in 1837 to petition the US Congress for greater copyright protections. This cadre of renowned ______ that American publishersʼ appropriation of their work caused, in the words of the petition, “deep and extensive injuries...on their reputation and property,” helped sow the seeds for the International Copyright Act of 1891.",
     "choices": [
       {
         "id": "A",
@@ -681,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_20",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nAs anthropologist Cristina Grasseni explains, many artisanal cheeses in Italy, such as Provolone Valpadana from Trentino-Alto Adige and Ragusano from Sicily, are highly valued for their regional authenticity; ______ they are prized for being made using local ingredients and methods typical of their respective geographic regions.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAs anthropologist Cristina Grasseni explains, many artisanal cheeses in Italy, such as Provolone Valpadana from Trentino-Alto Adige and Ragusano from Sicily, are highly valued for their regional authenticity; ______ they are prized for being made using local ingredients and methods typical of their respective geographic regions.",
     "choices": [
       {
         "id": "A",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_21",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe early Australian railroad system of the 1800s was famously uncoordinated. Trains on the broad gauge Victorian Goldfields Railway line in Victoria couldn't travel on the Hotham Valley Railway in Western Australia, which used narrow gauge tracks, without performing time-consuming conversions. ______ historians refer to this complicated system as the \u201cmixed gauge muddle.\u201d\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe early Australian railroad system of the 1800s was famously uncoordinated. Trains on the broad gauge Victorian Goldfields Railway line in Victoria couldn't travel on the Hotham Valley Railway in Western Australia, which used narrow gauge tracks, without performing time-consuming conversions. ______ historians refer to this complicated system as the “mixed gauge muddle.”",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_22",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nWhen ordering the branches of the Yukon River system, cartographers tend to begin with the riverway\u02bcs lowest point, the Yukon River. ______ hydrologists begin at the top of the river system, with the Iditarod River and other tributaries fed by the riverway\u02bcs source, Alaska\u02bcs Llewellyn Glacier.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWhen ordering the branches of the Yukon River system, cartographers tend to begin with the riverwayʼs lowest point, the Yukon River. ______ hydrologists begin at the top of the river system, with the Iditarod River and other tributaries fed by the riverwayʼs source, Alaskaʼs Llewellyn Glacier.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_23",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nCharles Demuth\u2019s 1931 painting *Chimney and Water Tower* is a classic Precisionist work. The Precisionists strove for cold, machine-like perfection, with crisp lines, geometric shapes, and smooth, brushstroke-free surfaces. ______ Precisionist works often feature skyscrapers, bridges, and factories, highlighting these angular structures\u2019 engineered symmetry.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nCharles Demuth’s 1931 painting *Chimney and Water Tower* is a classic Precisionist work. The Precisionists strove for cold, machine-like perfection, with crisp lines, geometric shapes, and smooth, brushstroke-free surfaces. ______ Precisionist works often feature skyscrapers, bridges, and factories, highlighting these angular structures’ engineered symmetry.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_24",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nAs volcanologists like Tamsin Mather are apt to make clear, not all volcanoes are the same. Ischia in Italy, for example, is a complex volcano, a mixed landform consisting of related volcanic centers and their associated lava flows and pyroclastic rock. Mount Vsevidof in Alaska, ______ is a stratovolcano, a conical volcano built up by many layers of hardened lava and tephra.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAs volcanologists like Tamsin Mather are apt to make clear, not all volcanoes are the same. Ischia in Italy, for example, is a complex volcano, a mixed landform consisting of related volcanic centers and their associated lava flows and pyroclastic rock. Mount Vsevidof in Alaska, ______ is a stratovolcano, a conical volcano built up by many layers of hardened lava and tephra.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -871,15 +869,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_25",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "The student wants to provide a historical overview of the Shackleton expedition. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 1914: British explorer Ernest Shackleton and a small crew embarked on an expedition to Antarctica.\n\u2022 1915: Shackleton\u02bcs ship *Endurance* became stuck in ice before eventually breaking apart and sinking.\n\u2022 1916: After more harrowing sea-ice adventures, the entire crew was rescued.\n\u2022 1959: Historian Alfred Lansing wrote a book called *Endurance: Shackleton\u02bcs Incredible Voyage*.\n\u2022 1959: Historian Alfred Lansing wrote a book called *Endurance: Shackleton\u02bcs Incredible Voyage*.\n\u2022 2001: Filmmaker George Butler released a documentary called *The Endurance: Shackleton\u02bcs Legendary Antarctic Expedition*.\n\u2022 2022: The wreckage of *Endurance* was discovered at the bottom of Antarctica\u02bcs Weddell Sea.\n\nThe student wants to provide a historical overview of the Shackleton expedition. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide a historical overview of the Shackleton expedition. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• 1914: British explorer Ernest Shackleton and a small crew embarked on an expedition to Antarctica.\n• 1915: Shackletonʼs ship *Endurance* became stuck in ice before eventually breaking apart and sinking.\n• 1916: After more harrowing sea-ice adventures, the entire crew was rescued.\n• 1959: Historian Alfred Lansing wrote a book called *Endurance: Shackletonʼs Incredible Voyage*.\n• 1959: Historian Alfred Lansing wrote a book called *Endurance: Shackletonʼs Incredible Voyage*.\n• 2001: Filmmaker George Butler released a documentary called *The Endurance: Shackletonʼs Legendary Antarctic Expedition*.\n• 2022: The wreckage of *Endurance* was discovered at the bottom of Antarcticaʼs Weddell Sea.",
     "choices": [
       {
         "id": "A",
-        "text": "Alfred Lansing wrote about the history of Shackleton\u02bcs 1914\u201316 expedition in the book *Endurance: Shackleton\u02bcs Incredible Voyage* (1959); years later, in 2001, George Butler released a documentary about the expedition."
+        "text": "Alfred Lansing wrote about the history of Shackletonʼs 1914–16 expedition in the book *Endurance: Shackletonʼs Incredible Voyage* (1959); years later, in 2001, George Butler released a documentary about the expedition."
       },
       {
         "id": "B",
@@ -891,13 +889,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Shackleton\u02bcs expedition has inspired a 1959 book, a 2001 film, and a 2022 discovery."
+        "text": "Shackletonʼs expedition has inspired a 1959 book, a 2001 film, and a 2022 discovery."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,19 +905,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_26",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "The student wants to support Browner\u02bcs claim about Louis Ballard\u02bcs compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Louis Ballard was a classical composer and citizen of the Quapaw Tribe.\n\u2022 Ballard\u02bcs composition *Desert Trilogy* was nominated for the Pulitzer Prize in music in 1971.\n\u2022 His composition *Cac\u00e9ga Ayuw\u00edpi* incorporates Hopi notched sticks, a traditional Native instrument.\n\u2022 Ethnomusicologist Tara Browner claims that Ballard\u02bcs compositions rely on elements originating within Native musical traditions.\n\nThe student wants to support Browner\u02bcs claim about Louis Ballard\u02bcs compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to support Brownerʼs claim about Louis Ballardʼs compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Louis Ballard was a classical composer and citizen of the Quapaw Tribe.\n• Ballardʼs composition *Desert Trilogy* was nominated for the Pulitzer Prize in music in 1971.\n• His composition *Cacéga Ayuwípi* incorporates Hopi notched sticks, a traditional Native instrument.\n• Ethnomusicologist Tara Browner claims that Ballardʼs compositions rely on elements originating within Native musical traditions.",
     "choices": [
       {
         "id": "A",
-        "text": "Classical composer Louis Ballard, who wrote *Cac\u00e9ga Ayuw\u00edpi*, was nominated for the Pulitzer Prize in music in 1971."
+        "text": "Classical composer Louis Ballard, who wrote *Cacéga Ayuwípi*, was nominated for the Pulitzer Prize in music in 1971."
       },
       {
         "id": "B",
-        "text": "Browner claims that Louis Ballard\u02bcs compositions, one of which was nominated for the Pulitzer Prize, rely on elements originating within Native musical traditions."
+        "text": "Browner claims that Louis Ballardʼs compositions, one of which was nominated for the Pulitzer Prize, rely on elements originating within Native musical traditions."
       },
       {
         "id": "C",
@@ -927,13 +925,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Browner posits that Louis Ballard\u02bcs compositions rely on elements originating within Native musical traditions; *Cac\u00e9ga Ayuw\u00edpi* affirms this assertion, incorporating Hopi notched sticks."
+        "text": "Browner posits that Louis Ballardʼs compositions rely on elements originating within Native musical traditions; *Cacéga Ayuwípi* affirms this assertion, incorporating Hopi notched sticks."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "13cfe765-425a-44bc-b085-25d580925451_27",
     "testName": "November 2025 International Form C SAT English Module 2",
-    "text": "The student wants to make and support a claim regarding the applicability of the farm-size transition hypothesis to Thailand. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The farm-size transition hypothesis predicts that economic pressures associated with modernization result in smaller farms amalgamating into larger-scale commercial farms.\n\u2022 Masters et al. (2013): The average farm size in Asia \u201calready has or will soon begin to rise.\u201d\n\u2022 Promkhambut et al. (2023) argue that small rice farms in Thailand have adopted modern farming methods without a significant scaling-up of farm size.\n\u2022 Promkhambut et al.: \u201cThe persistence of [small] rice farms [in Thailand] does not represent a \u2018failure\u02bc to modernize...or a \u2018truncated\u02bc transition\u2014it is a *response* to modernization.\u201d\n\nThe student wants to make and support a claim regarding the applicability of the farm-size transition hypothesis to Thailand. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to make and support a claim regarding the applicability of the farm-size transition hypothesis to Thailand. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The farm-size transition hypothesis predicts that economic pressures associated with modernization result in smaller farms amalgamating into larger-scale commercial farms.\n• Masters et al. (2013): The average farm size in Asia “already has or will soon begin to rise.”\n• Promkhambut et al. (2023) argue that small rice farms in Thailand have adopted modern farming methods without a significant scaling-up of farm size.\n• Promkhambut et al.: “The persistence of [small] rice farms [in Thailand] does not represent a ‘failureʼ to modernize...or a ‘truncatedʼ transition—it is a *response* to modernization.”",
     "choices": [
       {
         "id": "A",
@@ -959,17 +957,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Masters et al. report that the average farm size \u201calready has or will soon begin to rise\u201d in Asia, a finding that is consistent with the farm-size transition hypothesis."
+        "text": "Masters et al. report that the average farm size “already has or will soon begin to rise” in Asia, a finding that is consistent with the farm-size transition hypothesis."
       },
       {
         "id": "D",
-        "text": "The predicted shift to large-scale commercial farming may not hold true for rice farms in Thailand, where, according to Promkhambut et al., rice farms have remained small as they\u02bcve modernized."
+        "text": "The predicted shift to large-scale commercial farming may not hold true for rice farms in Thailand, where, according to Promkhambut et al., rice farms have remained small as theyʼve modernized."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

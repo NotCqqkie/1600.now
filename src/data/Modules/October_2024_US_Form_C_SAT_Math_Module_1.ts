@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_1",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_2",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_3",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -97,7 +97,7 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "(63x\u00b2)(x)"
+        "text": "(63x²)(x)"
       }
     ],
     "correctAnswer": "B",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_4",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -124,35 +124,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_5",
     "testName": "October 2024 US Form C SAT Math Module 1",
-    "text": "In $\u25b3$ FGH, the measures of \u2220F and \u2220G are each 39\u00b0. What is the measure of \u2220H?",
+    "text": "In $△$ FGH, the measures of ∠F and ∠G are each 39°. What is the measure of ∠H?",
     "choices": [
       {
         "id": "A",
-        "text": "78\u00b0"
+        "text": "78°"
       },
       {
         "id": "B",
-        "text": "102\u00b0"
+        "text": "102°"
       },
       {
         "id": "C",
-        "text": "129\u00b0"
+        "text": "129°"
       },
       {
         "id": "D",
-        "text": "141\u00b0"
+        "text": "141°"
       }
     ],
     "correctAnswer": "B",
@@ -160,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_6",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -196,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_7",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -215,15 +215,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_8",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -251,16 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USC_Math_M1_Q8_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_9",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -288,16 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USC_Math_M1_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_10",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -308,15 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_11",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -327,15 +325,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_12",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -363,15 +361,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_13",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -382,15 +380,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_14",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -418,15 +416,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Sample Statistics and Margin of Error",
-    "difficulty": "null",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_15",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -454,19 +452,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Sample Statistics and Margin of Error",
+      "skill": "Inference from sample statistics and margin of error",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_16",
     "testName": "October 2024 US Form C SAT Math Module 1",
-    "text": "g(x)= $\\frac{2}{7}$ x+ $\\frac{8}{5}$\nh(x)=5x-7\nThe functions g and h are defined by the equations shown. Which expression is equivalent\nto g(x)\u00b7h(x)?",
+    "text": "g(x)= $\\frac{2}{7}$ x+ $\\frac{8}{5}$\nh(x)=5x-7\nThe functions g and h are defined by the equations shown. Which expression is equivalent\nto g(x)·h(x)?",
     "choices": [
       {
         "id": "A",
@@ -490,7 +488,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -498,11 +496,11 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_17",
     "testName": "October 2024 US Form C SAT Math Module 1",
-    "text": "The height of a right circular cylinder is 6 inches longer than its radius, and the surface area of the cylinder is 1,080\u03c0 square inches. What is the cylinder's radius, in inches?",
+    "text": "The height of a right circular cylinder is 6 inches longer than its radius, and the surface area of the cylinder is 1,080π square inches. What is the cylinder's radius, in inches?",
     "choices": [
       {
         "id": "A",
@@ -533,8 +531,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_18",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -545,15 +543,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_19",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -581,16 +579,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USC_Math_M1_Q19_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_20",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -625,8 +622,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_21",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -654,16 +651,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USC_Math_M1_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_22",
     "testName": "October 2024 US Form C SAT Math Module 1",
@@ -691,7 +687,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   }

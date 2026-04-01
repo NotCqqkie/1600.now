@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_1",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough not closely related, the hedgehog tenrecs of Madagascar share basic ______ true hedgehogs, including protective spines, pointed snouts, and small body size\u2014traits the two groups of mammals independently developed in response to equivalent roles in their respective habitats.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough not closely related, the hedgehog tenrecs of Madagascar share basic ______ true hedgehogs, including protective spines, pointed snouts, and small body size—traits the two groups of mammals independently developed in response to equivalent roles in their respective habitats.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_2",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nNancy Bird-Walton, who was an aviation pioneer, undoubtedly accomplished much, but her place in our historical memory is perhaps more ______ than that of a noteworthy \u201cfirst\u201d such as Krystyna Chojnowska-Liskiewicz, who was the first woman to sail solo around the world, a deed for which she will always be remembered.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nNancy Bird-Walton, who was an aviation pioneer, undoubtedly accomplished much, but her place in our historical memory is perhaps more ______ than that of a noteworthy “first” such as Krystyna Chojnowska-Liskiewicz, who was the first woman to sail solo around the world, a deed for which she will always be remembered.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_3",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome robots such as WABOT-2 (developed in 1984) and Sophia (developed in 2015) are designed to resemble humans so that people will find it easier to interact with them. To that end, certain features such as bipedal locomotion can help to ______ people\u2019s feelings of comfort, but a robot that looks *too* human can fall into the \u201cuncanny valley,\u201d meaning that its appearance unintentionally unsettles those who encounter it.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome robots such as WABOT-2 (developed in 1984) and Sophia (developed in 2015) are designed to resemble humans so that people will find it easier to interact with them. To that end, certain features such as bipedal locomotion can help to ______ people’s feelings of comfort, but a robot that looks *too* human can fall into the “uncanny valley,” meaning that its appearance unintentionally unsettles those who encounter it.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_4",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhile recent scholarship has undermined claims that the works of twelfth-century Islamic philosopher Ibn Rushd were ______ other Muslim philosophers of his time, it is indisputable that his location in the Muslim-ruled area of what is now Spain meant that his works were primarily available thousands of miles west of the era\u2019s center of Islamic thought.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhile recent scholarship has undermined claims that the works of twelfth-century Islamic philosopher Ibn Rushd were ______ other Muslim philosophers of his time, it is indisputable that his location in the Muslim-ruled area of what is now Spain meant that his works were primarily available thousands of miles west of the era’s center of Islamic thought.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,15 +149,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_5",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nCommunity science, which involves professional scientists collaborating with amateur science enthusiasts to study a topic, is often an effective and engaging way to conduct research. It can lead to greater public awareness of an ecosystem, provide youth with learning experiences outside of the classroom, and increase the amount of data researchers can collect. This approach was essential to the success of a study by biologist Grace Herzel and colleagues of butterfly wing patterns and their relation to behavior, which included findings from hundreds of students and community members in northwestern Arkansas.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nCommunity science, which involves professional scientists collaborating with amateur science enthusiasts to study a topic, is often an effective and engaging way to conduct research. It can lead to greater public awareness of an ecosystem, provide youth with learning experiences outside of the classroom, and increase the amount of data researchers can collect. This approach was essential to the success of a study by biologist Grace Herzel and colleagues of butterfly wing patterns and their relation to behavior, which included findings from hundreds of students and community members in northwestern Arkansas.",
     "choices": [
       {
         "id": "A",
-        "text": "It introduces the topic of a scientific study, describes the study\u2019s importance, and then presents the study\u2019s results."
+        "text": "It introduces the topic of a scientific study, describes the study’s importance, and then presents the study’s results."
       },
       {
         "id": "B",
@@ -169,13 +169,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "It argues for a new approach to scientific research, comments on the public\u2019s opinion about the approach, and then describes how that approach was applied in a certain study."
+        "text": "It argues for a new approach to scientific research, comments on the public’s opinion about the approach, and then describes how that approach was applied in a certain study."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,15 +185,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_6",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely give the same answer to which question?\nText 1\nIn separate studies, Yanbo Xiao and colleagues and San\u0101a Wahbi and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)\u2014a lattice of fungal strands in the soil. Xiao and colleagues excluded all pathways other than the CMN by using barriers to keep the plants\u2019 root systems separate while allowing mycorrhizal strands through\u2014a crucial step Wahbi and colleagues\u2019 study did not take.\nText 2\nXiao and colleagues took the necessary precaution of separating the plants\u2019 root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the threadlike hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers\u2019 experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.\n\nBased on the texts, the author of Text 1 and the author of Text 2 would most likely give the same answer to which question?",
+    "text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely give the same answer to which question?\nText 1\nIn separate studies, Yanbo Xiao and colleagues and Sanāa Wahbi and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)—a lattice of fungal strands in the soil. Xiao and colleagues excluded all pathways other than the CMN by using barriers to keep the plants’ root systems separate while allowing mycorrhizal strands through—a crucial step Wahbi and colleagues’ study did not take.\nText 2\nXiao and colleagues took the necessary precaution of separating the plants’ root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the threadlike hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers’ experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.",
     "choices": [
       {
         "id": "A",
-        "text": "Are the barriers used in Xiao and colleagues\u2019 study sufficient to ensure that nutrient transfer could only occur via a CMN?"
+        "text": "Are the barriers used in Xiao and colleagues’ study sufficient to ensure that nutrient transfer could only occur via a CMN?"
       },
       {
         "id": "B",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -220,12 +220,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_7",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "According to the text, what is one potential drawback of Hidalgo and colleagues\u2019 method?\nResearchers C\u00e9sar A. Hidalgo, Elisa Castaner, and Andres Sevtsuk created a computer model to predict the mix of businesses and places of interest found in a given neighborhood. The team used data from the Google Places API service to help identify movie theaters, gyms, and other businesses and map their locations. This approach has some limits\u2014data from Places API tend to be restricted to places that are customer facing\u2014but the data set nonetheless provides an extremely reliable source to study colocation patterns of neighborhood amenities.\n\nAccording to the text, what is one potential drawback of Hidalgo and colleagues\u2019 method?",
+    "text": "According to the text, what is one potential drawback of Hidalgo and colleagues’ method?\nResearchers César A. Hidalgo, Elisa Castaner, and Andres Sevtsuk created a computer model to predict the mix of businesses and places of interest found in a given neighborhood. The team used data from the Google Places API service to help identify movie theaters, gyms, and other businesses and map their locations. This approach has some limits—data from Places API tend to be restricted to places that are customer facing—but the data set nonetheless provides an extremely reliable source to study colocation patterns of neighborhood amenities.",
     "choices": [
       {
         "id": "A",
@@ -247,25 +247,25 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_8",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Based on the text, the author would be most likely to disagree with which statement about vocal manipulation in hyperpop?\nA number of artists associated with hyperpop, a movement in electronic music that emerged in the 2010s, aggressively manipulate their recorded voice. The musician Laura Les, for example, shifts the pitch of her vocals to be much higher than that of her natural range. And even the hyperpop artists who don\u2019t rely on pitch-shifting, such as Charli XCX, often distort their vocals using digital tools. Rather than being an arbitrary stylistic choice, hyperpop\u2019s persistent modification of the voice functions as a commentary on how digital technology mediates human experience today.\n\nBased on the text, the author would be most likely to disagree with which statement about vocal manipulation in hyperpop?",
+    "text": "Based on the text, the author would be most likely to disagree with which statement about vocal manipulation in hyperpop?\nA number of artists associated with hyperpop, a movement in electronic music that emerged in the 2010s, aggressively manipulate their recorded voice. The musician Laura Les, for example, shifts the pitch of her vocals to be much higher than that of her natural range. And even the hyperpop artists who don’t rely on pitch-shifting, such as Charli XCX, often distort their vocals using digital tools. Rather than being an arbitrary stylistic choice, hyperpop’s persistent modification of the voice functions as a commentary on how digital technology mediates human experience today.",
     "choices": [
       {
         "id": "A",
-        "text": "It is a symbol of the influence that hyperpop exerts on listeners\u2019 sense of self."
+        "text": "It is a symbol of the influence that hyperpop exerts on listeners’ sense of self."
       },
       {
         "id": "B",
@@ -277,27 +277,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "It confirms hyperpop\u2019s ability to offset certain negative effects of digital technology."
+        "text": "It confirms hyperpop’s ability to offset certain negative effects of digital technology."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_9",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "According to the text, what did Brown and colleagues find and why does that occur?\nJoel Brown and colleagues showed that high moonlight intensity inhibits the activity of the Arizona pocket mouse (*Perognathus amplus*), a finding explicable in terms of benefits and costs: greater lunar intensity may not enable the mice to increase foraging success enough to offset the higher chance of detection by predatory owls or hawks. Though many other nocturnal mammals respond to lunar intensity variations similarly to Arizona pocket mice, three-striped night monkeys (*Aotus trivigatus*) display the opposite pattern, as their heavy reliance on visual foraging results in a different balance of reward and risk.\n\nAccording to the text, what did Brown and colleagues find and why does that occur?",
+    "text": "According to the text, what did Brown and colleagues find and why does that occur?\nJoel Brown and colleagues showed that high moonlight intensity inhibits the activity of the Arizona pocket mouse (*Perognathus amplus*), a finding explicable in terms of benefits and costs: greater lunar intensity may not enable the mice to increase foraging success enough to offset the higher chance of detection by predatory owls or hawks. Though many other nocturnal mammals respond to lunar intensity variations similarly to Arizona pocket mice, three-striped night monkeys (*Aotus trivigatus*) display the opposite pattern, as their heavy reliance on visual foraging results in a different balance of reward and risk.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -329,33 +329,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_10",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which quotation from \u201cThe Yellow Wallpaper\u201d most effectively illustrates the claim?\n\u201cThe Yellow Wallpaper\u201d is a 1892 short story by Charlotte Perkins Gilman. In the story, the narrator expresses mixed feelings about her surroundings: ______\n\nWhich quotation from \u201cThe Yellow Wallpaper\u201d most effectively illustrates the claim?",
+    "text": "Which quotation from “The Yellow Wallpaper” most effectively illustrates the claim?\n“The Yellow Wallpaper” is a 1892 short story by Charlotte Perkins Gilman. In the story, the narrator expresses mixed feelings about her surroundings: ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cThis wallpaper has a kind of sub-pattern in a different shade, a particularly irritating one, for you can only see it in certain lights, and not clearly then.\u201d"
+        "text": "“This wallpaper has a kind of sub-pattern in a different shade, a particularly irritating one, for you can only see it in certain lights, and not clearly then.”"
       },
       {
         "id": "B",
-        "text": "\u201cBy moonlight / the moon shines in all night when there is a moon / I wouldn\u2019t know it was the same paper.\u201d"
+        "text": "“By moonlight / the moon shines in all night when there is a moon / I wouldn’t know it was the same paper.”"
       },
       {
         "id": "C",
-        "text": "\u201cI\u2019m really getting quite fond of the big room, all but that horrid [wall] paper.\u201d"
+        "text": "“I’m really getting quite fond of the big room, all but that horrid [wall] paper.”"
       },
       {
         "id": "D",
-        "text": "\u201cThe color is repellant, almost revolting: a smouldering, unclean yellow, strangely faded by the slow turning sunlight.\u201d"
+        "text": "“The color is repellant, almost revolting: a smouldering, unclean yellow, strangely faded by the slow turning sunlight.”"
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_11",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice most effectively use data from the graph to complete the text?\nIt may seem that the optimal strategy for an animal pursuing prey or escaping predators is to move at maximal speed, but the energy expense of exploiting full speed capacity can disfavor such a strategy even in escape contexts, as evidenced by the fact that ______\n\nWhich choice most effectively use data from the graph to complete the text?",
+    "text": "Which choice most effectively use data from the graph to complete the text?\nIt may seem that the optimal strategy for an animal pursuing prey or escaping predators is to move at maximal speed, but the energy expense of exploiting full speed capacity can disfavor such a strategy even in escape contexts, as evidenced by the fact that ______",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_23A_Eng_M2_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_12",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThe small white heron and the glossy ibis are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D\u2019Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of these birds\u2019 habitats, such as how quickly water drains from the area and the amount of tree-canopy cover there is in the area. They found that small white herons prefer areas with extensive canopy cover, but this was not true for glossy ibises. The researchers therefore concluded that wetland-management strategies that increase the amount of tree canopy in potential wetland bird habitats are less likely to ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe small white heron and the glossy ibis are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D’Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of these birds’ habitats, such as how quickly water drains from the area and the amount of tree-canopy cover there is in the area. They found that small white herons prefer areas with extensive canopy cover, but this was not true for glossy ibises. The researchers therefore concluded that wetland-management strategies that increase the amount of tree canopy in potential wetland bird habitats are less likely to ______",
     "choices": [
       {
         "id": "A",
@@ -418,17 +417,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "decrease the area\u2019s appeal to both small white herons and glossy ibises than they are to increase the appeal to other species."
+        "text": "decrease the area’s appeal to both small white herons and glossy ibises than they are to increase the appeal to other species."
       },
       {
         "id": "D",
-        "text": "attract birds that don\u2019t typically live in wetlands to the area than they are to attract small white herons or glossy ibises to the area."
+        "text": "attract birds that don’t typically live in wetlands to the area than they are to attract small white herons or glossy ibises to the area."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_13",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nBiologists Rebecca M. Calisi-Rodriguez and George E. Bentley examined research on kestrels and canaries, both of which have been studied in the laboratory as well as in the wild, to see how studies\u2019 settings might have affected their results. Lab studies are useful because they make it easy to control important variables, but kestrels\u2019 surroundings can significantly affect their hormone levels. Therefore, it\u2019s not altogether surprising that when Calisi-Rodriguez and Bentley examined studies of kestrels, they found that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nBiologists Rebecca M. Calisi-Rodriguez and George E. Bentley examined research on kestrels and canaries, both of which have been studied in the laboratory as well as in the wild, to see how studies’ settings might have affected their results. Lab studies are useful because they make it easy to control important variables, but kestrels’ surroundings can significantly affect their hormone levels. Therefore, it’s not altogether surprising that when Calisi-Rodriguez and Bentley examined studies of kestrels, they found that ______",
     "choices": [
       {
         "id": "A",
@@ -464,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -474,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_14",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWoven from recycled yarn and hand tufted using a carpet weaving technique passed down by the artist\u2019s Turkish grandmother, ______ so lush and tactilely inviting that you are tempted to reach out and touch them.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWoven from recycled yarn and hand tufted using a carpet weaving technique passed down by the artist’s Turkish grandmother, ______ so lush and tactilely inviting that you are tempted to reach out and touch them.",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -509,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_15",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe editors of *Home Ground: A Guide to the American Landscape* turned to the ______ to craft the entry about \u201chueco,\u201d a term referring to a water-retaining depression in a rock face.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe editors of *Home Ground: A Guide to the American Landscape* turned to the ______ to craft the entry about “hueco,” a term referring to a water-retaining depression in a rock face.",
     "choices": [
       {
         "id": "A",
@@ -536,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_16",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that if conforms to the conventions of Standard English?\nFeatured in *The New Woman Behind the Camera* (2021) is a photograph taken in 1935 by Karimeh ______ \u201cThree Women,\u201d Abbud\u2019s image contributes to the exhibition\u2019s goal of showcasing the diverse, innovative, often aesthetically daring work of female photographers from the 1920s through the 1950s.\n\nWhich choice completes the text so that if conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that if conforms to the conventions of Standard English?\nFeatured in *The New Woman Behind the Camera* (2021) is a photograph taken in 1935 by Karimeh ______ “Three Women,” Abbud’s image contributes to the exhibition’s goal of showcasing the diverse, innovative, often aesthetically daring work of female photographers from the 1920s through the 1950s.",
     "choices": [
       {
         "id": "A",
@@ -572,9 +571,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -582,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_17",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn her 1983 book *The Managed Hear: Commercialization of Human Feeling*, sociologist Arlie Russell Hochschild first explored at length her conception of a \u201csociology of emotions\u201d\u2014the idea that the various cultural and ideological frameworks a person has internalized (class, gender, political affiliation, etc.) ______ each emotional reaction that person has within a situation.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn her 1983 book *The Managed Hear: Commercialization of Human Feeling*, sociologist Arlie Russell Hochschild first explored at length her conception of a “sociology of emotions”—the idea that the various cultural and ideological frameworks a person has internalized (class, gender, political affiliation, etc.) ______ each emotional reaction that person has within a situation.",
     "choices": [
       {
         "id": "A",
@@ -608,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -618,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_18",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPhotographer M\u00e1ria Svarbov\u00e1 has reached audiences well beyond her home country of Slovakia. In 2020, her work was featured at the Alex Schlesinger Gallery in ______ the exhibited photographs, with their vivid pastel colors, overexposed tones, and mirrorlike symmetry, captivated audiences.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPhotographer Mária Svarbová has reached audiences well beyond her home country of Slovakia. In 2020, her work was featured at the Alex Schlesinger Gallery in ______ the exhibited photographs, with their vivid pastel colors, overexposed tones, and mirrorlike symmetry, captivated audiences.",
     "choices": [
       {
         "id": "A",
@@ -644,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -654,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_19",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn February 1, 2018, Florida-based researchers Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres-S\u00e1nchez ______ climate data from several sites in Puerto Rico\u2019s Luquillo Mountains. At 12:00 a.m., the air temperature was 15.6\u2103 at site CC1, the site with the highest elevation, and it had shifted to 16.2\u2103 by 6:00 p.m.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn February 1, 2018, Florida-based researchers Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres-Sánchez ______ climate data from several sites in Puerto Rico’s Luquillo Mountains. At 12:00 a.m., the air temperature was 15.6℃ at site CC1, the site with the highest elevation, and it had shifted to 16.2℃ by 6:00 p.m.",
     "choices": [
       {
         "id": "A",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -689,12 +688,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_20",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 2013, a study led by the researcher Laura A. Burkle investigated the relationship between grassland arthropod populations and agricultural ______ macronutrients like nitrogen, phosphorus, and potassium. Containing fertilizers boost the productivity of crops, potentially offering more nutrients for arthropods.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 2013, a study led by the researcher Laura A. Burkle investigated the relationship between grassland arthropod populations and agricultural ______ macronutrients like nitrogen, phosphorus, and potassium. Containing fertilizers boost the productivity of crops, potentially offering more nutrients for arthropods.",
     "choices": [
       {
         "id": "A",
@@ -716,9 +715,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_21",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe world\u2019s first airplane, the 1903 Wright Flyer, was not very aerodynamic, as evidenced by its low lift-to-drag ratio of just 8.3:1. The Douglas DC-10 jet, like most modern aircraft, is far more aerodynamic. ______ its lift-to-drag ratio is more than twice that of the Wright Flyer.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe world’s first airplane, the 1903 Wright Flyer, was not very aerodynamic, as evidenced by its low lift-to-drag ratio of just 8.3:1. The Douglas DC-10 jet, like most modern aircraft, is far more aerodynamic. ______ its lift-to-drag ratio is more than twice that of the Wright Flyer.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_22",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nModernista architects championed nature in their designs. ______ the whimsical archways and ornate floral tilework of Casa Amatller, a Modernista private home designed by Josep Puig i Cadafalch, couldn\u2019t exactly grow in a forest. Still, one sees natural influences in Puig i Cadafalch\u2019s penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nModernista architects championed nature in their designs. ______ the whimsical archways and ornate floral tilework of Casa Amatller, a Modernista private home designed by Josep Puig i Cadafalch, couldn’t exactly grow in a forest. Still, one sees natural influences in Puig i Cadafalch’s penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_23",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nBefore the first railroads were built in Australia, engineers warned against using multiple track widths across the continent. ______ regional officials couldn\u2019t agree on a single-width system. Thus, railways in Queensland, like the Big Pineapple Railway, were made using narrow tracks, while those in Victoria were built with wide tracks.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nBefore the first railroads were built in Australia, engineers warned against using multiple track widths across the continent. ______ regional officials couldn’t agree on a single-width system. Thus, railways in Queensland, like the Big Pineapple Railway, were made using narrow tracks, while those in Victoria were built with wide tracks.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_24",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nLegislators in Barbados are elected via a first-past-the-post electoral system. In this winner-take-all voting system, the seat is awarded to the candidate who receives not a majority but a plurality (i.e., greatest number) of votes. ______ if several popular candidates are vying for the same seat, it is possible for a candidate to win an election despite receiving less than 50% of the votes.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nLegislators in Barbados are elected via a first-past-the-post electoral system. In this winner-take-all voting system, the seat is awarded to the candidate who receives not a majority but a plurality (i.e., greatest number) of votes. ______ if several popular candidates are vying for the same seat, it is possible for a candidate to win an election despite receiving less than 50% of the votes.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,33 +869,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_25",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize when she collected both of the samples?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Yn\u00e9s Mex\u00eda was a Mexican American botanist.\n\u2022 Between 1917 and 1938, she collected over 150,000 botanical samples throughout the Americas.\n\u2022 She collected a sample of *Erigeron maximus* in Minas Gerais, Brazil, on February 1, 1930.\n\u2022 She collected a sample of *Brickellia diffusa* in Jalisco, Mexico, on November 23, 1926.\n\u2022 These specimens are members of the Asteraceae family.\n\u2022 They can now be viewed online at the C.V. Starr Virtual Herbarium.\n\nWhich choice most effectively uses information from the given sentences to emphasize when she collected both of the samples?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize when she collected both of the samples?\nWhile researching a topic, a student has taken the following notes:\n• Ynés Mexía was a Mexican American botanist.\n• Between 1917 and 1938, she collected over 150,000 botanical samples throughout the Americas.\n• She collected a sample of *Erigeron maximus* in Minas Gerais, Brazil, on February 1, 1930.\n• She collected a sample of *Brickellia diffusa* in Jalisco, Mexico, on November 23, 1926.\n• These specimens are members of the Asteraceae family.\n• They can now be viewed online at the C.V. Starr Virtual Herbarium.",
     "choices": [
       {
         "id": "A",
-        "text": "While both specimens collected by Yn\u00e9s Mex\u00eda are members of the same family, *Erigeron maximus* was found in Minas Gerais and *Brickellia diffusa* was found in Jalisco."
+        "text": "While both specimens collected by Ynés Mexía are members of the same family, *Erigeron maximus* was found in Minas Gerais and *Brickellia diffusa* was found in Jalisco."
       },
       {
         "id": "B",
-        "text": "Yn\u00e9s Mex\u00eda collected a sample of *Erigeron maximus* in February of 1930, after collecting *Brickellia diffusa* in November of 1926."
+        "text": "Ynés Mexía collected a sample of *Erigeron maximus* in February of 1930, after collecting *Brickellia diffusa* in November of 1926."
       },
       {
         "id": "C",
-        "text": "On February 1 in 1930, Yn\u00e9s Mex\u00eda added a new specimen to her growing collection of botanical samples: *Erigeron maximus* of the Asteraceae family."
+        "text": "On February 1 in 1930, Ynés Mexía added a new specimen to her growing collection of botanical samples: *Erigeron maximus* of the Asteraceae family."
       },
       {
         "id": "D",
-        "text": "Thousands of botanical samples collected by Yn\u00e9s Mex\u00eda can now be found in one place: online at the C.V. Starr Virtual Herbarium."
+        "text": "Thousands of botanical samples collected by Ynés Mexía can now be found in one place: online at the C.V. Starr Virtual Herbarium."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,15 +905,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_26",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "The student wants to emphasize the 2020 population of Acaxochitl\u00e1n. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Acaxochitl\u00e1n is a municipality in the state of Hidalgo, Mexico.\n\u2022 Municipalities are governmental regions responsible for providing many public services to their residents.\n\u2022 One service they provide is water treatment.\n\u2022 Acaxochitl\u00e1n\u2019s population was 46,065 in 2020.\n\u2022 Its population was 40,583 in 2010.\n\u2022 Hidalgo is divided into 84 municipalities.\n\nThe student wants to emphasize the 2020 population of Acaxochitl\u00e1n. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the 2020 population of Acaxochitlán. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Acaxochitlán is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is water treatment.\n• Acaxochitlán’s population was 46,065 in 2020.\n• Its population was 40,583 in 2010.\n• Hidalgo is divided into 84 municipalities.",
     "choices": [
       {
         "id": "A",
-        "text": "As a municipality in Hidalgo, Acaxochitl\u00e1n is responsible for providing public services to its population."
+        "text": "As a municipality in Hidalgo, Acaxochitlán is responsible for providing public services to its population."
       },
       {
         "id": "B",
@@ -922,17 +921,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "As of 2020, Acaxochitl\u00e1n was one of 84 municipalities in Hidalgo, Mexico."
+        "text": "As of 2020, Acaxochitlán was one of 84 municipalities in Hidalgo, Mexico."
       },
       {
         "id": "D",
-        "text": "In 2020, the municipality of Acaxochitl\u00e1n had a population of 46,065."
+        "text": "In 2020, the municipality of Acaxochitlán had a population of 46,065."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,15 +941,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6d1c961-52d1-4186-baf5-d276dfd4939f_27",
     "testName": "December 2023 Form A SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Vexillology is the study of flags.\n\u2022 The flags of many countries include symbols like animals, plants, or landforms.\n\u2022 These symbols often represent an aspect of the region\u2019s history, culture, or landscape.\n\u2022 The flag of Grenada includes a clove of nutmeg.\n\u2022 The flag of Andorra includes a cow.\n\nWhich choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags?",
+    "text": "Which choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags?\nWhile researching a topic, a student has taken the following notes:\n• Vexillology is the study of flags.\n• The flags of many countries include symbols like animals, plants, or landforms.\n• These symbols often represent an aspect of the region’s history, culture, or landscape.\n• The flag of Grenada includes a clove of nutmeg.\n• The flag of Andorra includes a cow.",
     "choices": [
       {
         "id": "A",
-        "text": "Grenada\u2019s flag includes a clove of nutmeg, a symbol that is important to that country\u2019s national identity."
+        "text": "Grenada’s flag includes a clove of nutmeg, a symbol that is important to that country’s national identity."
       },
       {
         "id": "B",
@@ -958,7 +957,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "The flags of some countries include symbols of plants: Grenada\u2019s, for example, includes a clove of nutmeg."
+        "text": "The flags of some countries include symbols of plants: Grenada’s, for example, includes a clove of nutmeg."
       },
       {
         "id": "D",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

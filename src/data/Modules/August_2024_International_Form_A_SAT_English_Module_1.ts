@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_1",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nBecoming a member of the organization Indigenous Photograph has helped Sara Aliaga Ticona (Aymara) to ______ her work with an audience beyond Bolivia, where she's from. The organization's database of members is used by photography editors and others in the media industry around the world.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nBecoming a member of the organization Indigenous Photograph has helped Sara Aliaga Ticona (Aymara) to ______ her work with an audience beyond Bolivia, where she's from. The organization's database of members is used by photography editors and others in the media industry around the world.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_2",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSince the Hubble Space Telescope was launched into space in 1990, astronauts have needed to complete regular missions to repair the telescope and keep it working smoothly. Researchers hope that robots will soon be able to make these repairs. Employing robots instead of humans to make repairs will be helpful, as ______ astronauts to maintain the telescope can be expensive.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSince the Hubble Space Telescope was launched into space in 1990, astronauts have needed to complete regular missions to repair the telescope and keep it working smoothly. Researchers hope that robots will soon be able to make these repairs. Employing robots instead of humans to make repairs will be helpful, as ______ astronauts to maintain the telescope can be expensive.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_3",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn 1776, the United States sent Benjamin Franklin to France to try to win the country's support in the United States' fight for independence from Great Britain. Franklin was very popular in France. This <u> </u> surely helped him to convince France to assist the United States.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn 1776, the United States sent Benjamin Franklin to France to try to win the country's support in the United States' fight for independence from Great Britain. Franklin was very popular in France. This <u> </u> surely helped him to convince France to assist the United States.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_4",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe creation of Lotte Reiniger's 1926 animated film *The Adventures of Prince Achmed* was ______ process. Over the course of three years, Reiniger and her collaborators painstakingly made more than 250,000 individual images of hand-cut paper silhouettes and repeatedly had to invent entirely new methods and tools to create the special effects Reiniger envisioned.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe creation of Lotte Reiniger's 1926 animated film *The Adventures of Prince Achmed* was ______ process. Over the course of three years, Reiniger and her collaborators painstakingly made more than 250,000 individual images of hand-cut paper silhouettes and repeatedly had to invent entirely new methods and tools to create the special effects Reiniger envisioned.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_5",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the reference to Brown's biography in the text as a whole?\nThe following text is from Yung Wing's 1909 memoir *My Life in China and America*. Yung Wing was the first American college graduate of Chinese heritage; Phoebe Brown was the first prominent female hymn writer in the United States. I look back upon my acquaintance with Mrs. Phoebe H. Brown with a mingled feeling of respect and admiration. She certainly was a remarkable New England woman-a woman of surpassing strength of moral and religious character. <u>Those who have had the rare privilege of reading her stirring biography, will, I am sure, bear me out in this statement</u>. She went through the crucible of unprecedented adversities and trials of life and came out one of the rare shining lights that beautify the New England sky.\n\nWhich choice best describes the function of the reference to Brown's biography in the text as a whole?",
+    "text": "Which choice best describes the function of the reference to Brown's biography in the text as a whole?\nThe following text is from Yung Wing's 1909 memoir *My Life in China and America*. Yung Wing was the first American college graduate of Chinese heritage; Phoebe Brown was the first prominent female hymn writer in the United States. I look back upon my acquaintance with Mrs. Phoebe H. Brown with a mingled feeling of respect and admiration. She certainly was a remarkable New England woman-a woman of surpassing strength of moral and religious character. <u>Those who have had the rare privilege of reading her stirring biography, will, I am sure, bear me out in this statement</u>. She went through the crucible of unprecedented adversities and trials of life and came out one of the rare shining lights that beautify the New England sky.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_6",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Mary Shelley's 1818 novel *Frankenstein*. Victor Frankenstein, who is narrating this portion of text, describes the state of scientific knowledge as he began his own study of the natural world. The untaught peasant beheld the elements around him and was acquainted with their practical uses. The most learned philosopher knew little more. He had partially unveiled the face of Nature, but her immortal lineaments were still a wonder and a mystery. <u>He might dissect, anatomise, and give names, but, not to speak of a final cause, causes in their secondary and tertiary grades were utterly unknown to him.</u> I had gazed upon the fortifications and impediments that seemed to keep human beings from entering the citadel of nature, and rashly and ignorantly I had repined.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Mary Shelley's 1818 novel *Frankenstein*. Victor Frankenstein, who is narrating this portion of text, describes the state of scientific knowledge as he began his own study of the natural world. The untaught peasant beheld the elements around him and was acquainted with their practical uses. The most learned philosopher knew little more. He had partially unveiled the face of Nature, but her immortal lineaments were still a wonder and a mystery. <u>He might dissect, anatomise, and give names, but, not to speak of a final cause, causes in their secondary and tertiary grades were utterly unknown to him.</u> I had gazed upon the fortifications and impediments that seemed to keep human beings from entering the citadel of nature, and rashly and ignorantly I had repined.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -220,12 +220,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "skill": "Command of Evidence",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_7",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nIn the 1940s, Evelyn Cunningham worked for the Pittsburgh Courier, focusing on coverage of the early civil rights movement. Cunningham's accomplishment is just one example of the rich history of Black journalism in the United States. That history is preserved by the National Association of Black Journalists, which was founded in Washington, D.C. in 1975 to support Black media professionals and honor people like Cunningham.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nIn the 1940s, Evelyn Cunningham worked for the Pittsburgh Courier, focusing on coverage of the early civil rights movement. Cunningham's accomplishment is just one example of the rich history of Black journalism in the United States. That history is preserved by the National Association of Black Journalists, which was founded in Washington, D.C. in 1975 to support Black media professionals and honor people like Cunningham.",
     "choices": [
       {
         "id": "A",
@@ -247,9 +247,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Central Ideas and Details",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -257,15 +257,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_8",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nWhy do ocelots purr but jaguars roar? Researchers hypothesize that this difference between the two feline species may be partly due to a U-shaped bone in their throats called the hyoid. Ocelots, which are much smaller than jaguars, have a rigid hyoid that rumbles when the cat's larynx vibrates, resulting in a purr. By contrast, jaguars have a somewhat flexible hyoid, and the bone is attached to the skull with a stretchy ligament that ocelots lack. These traits allow jaguars and most other species of big cats to produce powerful roars. The same traits may also prevent most big cats from purring.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nWhy do ocelots purr but jaguars roar? Researchers hypothesize that this difference between the two feline species may be partly due to a U-shaped bone in their throats called the hyoid. Ocelots, which are much smaller than jaguars, have a rigid hyoid that rumbles when the cat's larynx vibrates, resulting in a purr. By contrast, jaguars have a somewhat flexible hyoid, and the bone is attached to the skull with a stretchy ligament that ocelots lack. These traits allow jaguars and most other species of big cats to produce powerful roars. The same traits may also prevent most big cats from purring.",
     "choices": [
       {
         "id": "A",
-        "text": "Both ocelots and jaguars have U-shaped hyoid bones, but ocelots\u2019 hyoids are rigid whereas jaguars' hyoids are flexible."
+        "text": "Both ocelots and jaguars have U-shaped hyoid bones, but ocelots’ hyoids are rigid whereas jaguars' hyoids are flexible."
       },
       {
         "id": "B",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -293,15 +293,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_9",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\n\u201cCoyote\u201d is an example of a loanword\u2014that is, a word that originated in one language and was later adopted by another. The word came to English indirectly from *coyote*, the Spanish word for the wild canine species. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is *coyotl*. \u201cCondor\u201d also has an Indigenous origin and entered English through Spanish, but in this case, the original source was Quechua, a language of South America, in which the word for the large vulture species is *kuntur*.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\n“Coyote” is an example of a loanword—that is, a word that originated in one language and was later adopted by another. The word came to English indirectly from *coyote*, the Spanish word for the wild canine species. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is *coyotl*. “Condor” also has an Indigenous origin and entered English through Spanish, but in this case, the original source was Quechua, a language of South America, in which the word for the large vulture species is *kuntur*.",
     "choices": [
       {
         "id": "A",
-        "text": "The English words \u201ccoyote\u201d and \u201ccondor\u201d are both examples of loanwords from Indigenous languages."
+        "text": "The English words “coyote” and “condor” are both examples of loanwords from Indigenous languages."
       },
       {
         "id": "B",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_10",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support Bainbridge and colleagues' claim?\nMany believe that lullabies, characterized by their slow tempos, contain some acoustic features that are universally calming to infants. In a study, Constance M. Bainbridge and colleagues played both a lullaby sung in the Luk Saami language and a non-lullaby sung in the Tundra Nenets language to a group of infants. The researchers also measured the infants\u2019 heart rates, as a reduced heart rate is considered a measure of relaxation. They claim that the lullaby did indeed relax the infants.\n\nWhich finding, if true, would most directly support Bainbridge and colleagues' claim?",
+    "text": "Which finding, if true, would most directly support Bainbridge and colleagues' claim?\nMany believe that lullabies, characterized by their slow tempos, contain some acoustic features that are universally calming to infants. In a study, Constance M. Bainbridge and colleagues played both a lullaby sung in the Luk Saami language and a non-lullaby sung in the Tundra Nenets language to a group of infants. The researchers also measured the infants’ heart rates, as a reduced heart rate is considered a measure of relaxation. They claim that the lullaby did indeed relax the infants.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -365,33 +365,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_11",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which quotation from *A Pair of Silk Stockings* most effectively illustrates the claim?\n*A Pair of Silk Stockings* is an 1897 short story by Kate Chopin. In the story, Mrs. Sommers is depicted as sometimes making decisions without conscious deliberation: ______\n\nWhich quotation from *A Pair of Silk Stockings* most effectively illustrates the claim?",
+    "text": "Which quotation from *A Pair of Silk Stockings* most effectively illustrates the claim?\n*A Pair of Silk Stockings* is an 1897 short story by Kate Chopin. In the story, Mrs. Sommers is depicted as sometimes making decisions without conscious deliberation: ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cShe handed the girl a five-dollar bill and waited for her change and for her parcel. What a very small parcel it was!\u201d"
+        "text": "“She handed the girl a five-dollar bill and waited for her change and for her parcel. What a very small parcel it was!”"
       },
       {
         "id": "B",
-        "text": "\u201cShe had no time, no second of time to devote to the past. The needs of the present absorbed her every faculty.\u201d"
+        "text": "“She had no time, no second of time to devote to the past. The needs of the present absorbed her every faculty.”"
       },
       {
         "id": "C",
-        "text": "\u201cShe was not thinking at all. She seemed for the time to be taking a rest from that laborious and fatiguing function and to have abandoned herself to some mechanical impulse that directed her actions and freed her of responsibility.\u201d"
+        "text": "“She was not thinking at all. She seemed for the time to be taking a rest from that laborious and fatiguing function and to have abandoned herself to some mechanical impulse that directed her actions and freed her of responsibility.”"
       },
       {
         "id": "D",
-        "text": "\u201cMrs. Sommers selected a black pair and looked at them very long and closely. She pretended to be examining their texture, which the clerk assured her was excellent.\u201d"
+        "text": "“Mrs. Sommers selected a black pair and looked at them very long and closely. She pretended to be examining their texture, which the clerk assured her was excellent.”"
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,33 +401,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_12",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which quotation from a psychologist not involved in the team's study would most directly weaken the team's conclusion?\nPsychologists Gregory Bryant, Dorsa Amir, and colleagues investigated cross-cultural perceptions of spontaneous (real) laughter and volitional (fake or forced) laughter. Study participants from 21 societies, including those in Austria and Turkey, listened to randomized recordings of 18 spontaneous laughs taken from natural conversations between pairs of women and 18 volitional laughs produced separately by 18 different women in response to an experimenter's instruction to laugh. Analysis of the participants' evaluations of the laughs prompted the team to conclude that the ability to distinguish between spontaneous and volitional laughter appears to be universal across cultures.\n\nWhich quotation from a psychologist not involved in the team's study would most directly weaken the team's conclusion?",
+    "text": "Which quotation from a psychologist not involved in the team's study would most directly weaken the team's conclusion?\nPsychologists Gregory Bryant, Dorsa Amir, and colleagues investigated cross-cultural perceptions of spontaneous (real) laughter and volitional (fake or forced) laughter. Study participants from 21 societies, including those in Austria and Turkey, listened to randomized recordings of 18 spontaneous laughs taken from natural conversations between pairs of women and 18 volitional laughs produced separately by 18 different women in response to an experimenter's instruction to laugh. Analysis of the participants' evaluations of the laughs prompted the team to conclude that the ability to distinguish between spontaneous and volitional laughter appears to be universal across cultures.",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cWhen an individual chooses to produce volitional laughter in a natural social context, the laughter often shares certain acoustic qualities, such as pitch and fluctuation of intensity, with spontaneous laughter.\u201d"
+        "text": "“When an individual chooses to produce volitional laughter in a natural social context, the laughter often shares certain acoustic qualities, such as pitch and fluctuation of intensity, with spontaneous laughter.”"
       },
       {
         "id": "B",
-        "text": "\u201cAlthough the team considered the average size of communities in each society in the study, that demographic factor was found to have no effect on listeners' identifications of laughter as spontaneous or volitional.\u201d"
+        "text": "“Although the team considered the average size of communities in each society in the study, that demographic factor was found to have no effect on listeners' identifications of laughter as spontaneous or volitional.”"
       },
       {
         "id": "C",
-        "text": "\u201cJudgments of spontaneous laughter are often associated with acoustic features such as greater intensity variability and higher pitch.\u201d"
+        "text": "“Judgments of spontaneous laughter are often associated with acoustic features such as greater intensity variability and higher pitch.”"
       },
       {
         "id": "D",
-        "text": "\u201cRecent studies in communications have shown that certain acoustic features of spontaneous laughter, such as pitch and intensity, are consistent both within and across societies.\u201d"
+        "text": "“Recent studies in communications have shown that certain acoustic features of spontaneous laughter, such as pitch and intensity, are consistent both within and across societies.”"
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -437,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_13",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega region of Costa Rica, Juan Pablo Arroyo-Mora and colleagues used historical aerial photography and remote sensing data to track changes in the forest cover area across different land use capability classes (categories that indicate possible uses of forest land). Due to the Chorotega region's climate, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. By the mid-1980s, however, increased public awareness and environmental reforms, along with a decline in meat prices, triggered a natural regrowth process, as evident by the ______\n\nWhich choice most effectively uses data from the graph to complete the assertion?",
+    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega region of Costa Rica, Juan Pablo Arroyo-Mora and colleagues used historical aerial photography and remote sensing data to track changes in the forest cover area across different land use capability classes (categories that indicate possible uses of forest land). Due to the Chorotega region's climate, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. By the mid-1980s, however, increased public awareness and environmental reforms, along with a decline in meat prices, triggered a natural regrowth process, as evident by the ______",
     "choices": [
       {
         "id": "A",
@@ -463,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Aug_24_IntlA_Eng_M1_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_14",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nThere are over 150 species of the cactus genus *Mammillaria* throughout the Americas, but their survival can be threatened by high precipitation and dense vegetation that blocks sunlight. Researchers have located species from the genus in almost every state in Mexico, with several of them, like *M. knippeliana*, restricted to only one state. The fact that this genus has not been observed in eastern and western Coahuila has been attributed to a lack of appropriate habitat, but much of the landscape in this area is notoriously inaccessible, which suggests that _________\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThere are over 150 species of the cactus genus *Mammillaria* throughout the Americas, but their survival can be threatened by high precipitation and dense vegetation that blocks sunlight. Researchers have located species from the genus in almost every state in Mexico, with several of them, like *M. knippeliana*, restricted to only one state. The fact that this genus has not been observed in eastern and western Coahuila has been attributed to a lack of appropriate habitat, but much of the landscape in this area is notoriously inaccessible, which suggests that _________",
     "choices": [
       {
         "id": "A",
@@ -500,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -510,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_15",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe 1958 poem \"The Ghost's Leavetaking\" by American author Sylvia Plath ___ the first use of the word \"dreamscape.\"\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe 1958 poem \"The Ghost's Leavetaking\" by American author Sylvia Plath ___ the first use of the word \"dreamscape.\"",
     "choices": [
       {
         "id": "A",
@@ -536,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_16",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFlorence Est\u00e9 and Lily Everett were among the 300 artists who exhibited at the 1913 Armory Show, a groundbreaking New York City art exhibition that introduced modernism to American audiences. Though shocking at the time, an abstract cubist painting exhibited by Marcel Duchamp\u2014one of several works that received scorn from critics\u2014__________ the Western art canon more than a century later.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFlorence Esté and Lily Everett were among the 300 artists who exhibited at the 1913 Armory Show, a groundbreaking New York City art exhibition that introduced modernism to American audiences. Though shocking at the time, an abstract cubist painting exhibited by Marcel Duchamp—one of several works that received scorn from critics—__________ the Western art canon more than a century later.",
     "choices": [
       {
         "id": "A",
@@ -572,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -581,12 +580,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_17",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncreasing the heat on an uncovered boiling pot of water does not increase the temperature of the water. What increases is the rate at which the water turns to ______ a pressure cooker pot, though, an airtight seal traps the vapor in the pot, creating pressure that allows the temperature of the water to increase past its boiling point.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncreasing the heat on an uncovered boiling pot of water does not increase the temperature of the water. What increases is the rate at which the water turns to ______ a pressure cooker pot, though, an airtight seal traps the vapor in the pot, creating pressure that allows the temperature of the water to increase past its boiling point.",
     "choices": [
       {
         "id": "A",
@@ -608,9 +607,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -618,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_18",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, a Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, \u201cproduced the most outstanding work in an idealistic ______ in 1912, for instance, judges recognized Gerhart Johann Robert Hauptmann \"[for] his fruitful, varied and outstanding production in the realm of dramatic art.\u201d\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, a Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, “produced the most outstanding work in an idealistic ______ in 1912, for instance, judges recognized Gerhart Johann Robert Hauptmann \"[for] his fruitful, varied and outstanding production in the realm of dramatic art.”",
     "choices": [
       {
         "id": "A",
@@ -644,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -654,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_19",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith a blend of traditional design elements, such as arched Gothic ceilings, and modern ones, such as floor-to-ceiling ______ design splits the difference between old and new, a mixture that is increasingly seen in home interiors in the US.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith a blend of traditional design elements, such as arched Gothic ceilings, and modern ones, such as floor-to-ceiling ______ design splits the difference between old and new, a mixture that is increasingly seen in home interiors in the US.",
     "choices": [
       {
         "id": "A",
@@ -670,7 +669,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "windows\u2014transitional"
+        "text": "windows—transitional"
       },
       {
         "id": "D",
@@ -680,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -690,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_20",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPaintings by the renowned twentieth-century US ______ were featured in *Artist to Artist*, an exhibition at the Smithsonian Art Museum that paired the works of artists whose career trajectories intersected in meaningful ways.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPaintings by the renowned twentieth-century US ______ were featured in *Artist to Artist*, an exhibition at the Smithsonian Art Museum that paired the works of artists whose career trajectories intersected in meaningful ways.",
     "choices": [
       {
         "id": "A",
@@ -716,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -726,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_21",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn March 1862, John Ahoy joined the US Navy, where he went on to serve aboard the *USS Pinola* during the US Civil War. ______ he earned a place in US history as one of the war's few Chinese-born American soldiers.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn March 1862, John Ahoy joined the US Navy, where he went on to serve aboard the *USS Pinola* during the US Civil War. ______ he earned a place in US history as one of the war's few Chinese-born American soldiers.",
     "choices": [
       {
         "id": "A",
@@ -752,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_22",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe London Array, an offshore wind farm located off the coast of England, produces about 630 megawatts (MW) of electricity per year. __________ England's Hornsea Project One offshore wind farm, which generates the most power of any single offshore farm, produces 1,218 MW of electricity.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe London Array, an offshore wind farm located off the coast of England, produces about 630 megawatts (MW) of electricity per year. __________ England's Hornsea Project One offshore wind farm, which generates the most power of any single offshore farm, produces 1,218 MW of electricity.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_23",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn 1974, Mexican chemist Mario Molina and US chemist F. Sherwood Rowland discovered that chemicals called CFCs were harmful to the ozone layer. Their research was extremely influential in the fight against CFCs. ______ it laid the foundation for a 1987 treaty that phased out the use of CFCs across the globe.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 1974, Mexican chemist Mario Molina and US chemist F. Sherwood Rowland discovered that chemicals called CFCs were harmful to the ozone layer. Their research was extremely influential in the fight against CFCs. ______ it laid the foundation for a 1987 treaty that phased out the use of CFCs across the globe.",
     "choices": [
       {
         "id": "A",
@@ -824,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_24",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nGenerally, sleek vehicles are more aerodynamic than bulkier ones. The streamlined nose of the Airbus A320 jet, __________, helps it glide through wind with relative ease, while a boxy pickup truck encounters more wind resistance, making it less aerodynamic.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nGenerally, sleek vehicles are more aerodynamic than bulkier ones. The streamlined nose of the Airbus A320 jet, __________, helps it glide through wind with relative ease, while a boxy pickup truck encounters more wind resistance, making it less aerodynamic.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_25",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to present the study and its findings?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Springtails are a group of noninsect hexapods (six-legged animals).\n\u2022 Researchers Claudia Marcela Ospina-S\u00e1nchez, Felipe N. Soto-Adames, and Grizelle Gonz\u00e1lez conducted a study to determine how many springtail species are present in Puerto Rico.\n\u2022 They found a total of 146 springtail species.\n\u2022 They found 1 springtail species belonging to the genus *Hemisotoma*.\n\u2022 They found 3 springtail species belonging to the genus *Sphaeridia*.\n\nWhich choice most effectively uses information from the given sentences to present the study and its findings?",
+    "text": "Which choice most effectively uses information from the given sentences to present the study and its findings?\nWhile researching a topic, a student has taken the following notes:\n• Springtails are a group of noninsect hexapods (six-legged animals).\n• Researchers Claudia Marcela Ospina-Sánchez, Felipe N. Soto-Adames, and Grizelle González conducted a study to determine how many springtail species are present in Puerto Rico.\n• They found a total of 146 springtail species.\n• They found 1 springtail species belonging to the genus *Hemisotoma*.\n• They found 3 springtail species belonging to the genus *Sphaeridia*.",
     "choices": [
       {
         "id": "A",
@@ -882,11 +881,11 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "According to a study by researchers Claudia Marcela Ospina-S\u00e1nchez, Felipe N. Soto-Adames, and Grizelle Gonz\u00e1lez, there are 146 springtail species present in Puerto Rico, including one from the genus *Hemisotoma* and three from the genus *Sphaeridia*."
+        "text": "According to a study by researchers Claudia Marcela Ospina-Sánchez, Felipe N. Soto-Adames, and Grizelle González, there are 146 springtail species present in Puerto Rico, including one from the genus *Hemisotoma* and three from the genus *Sphaeridia*."
       },
       {
         "id": "C",
-        "text": "Researchers Claudia Marcela Ospina-S\u00e1nchez, Felipe N. Soto-Adames,and Grizelle Gonz\u00e1lez studied springtails in Puerto Rico, and they wanted to know how many species there are in the genus *Hemisotoma* and the genus *Sphaeridia*."
+        "text": "Researchers Claudia Marcela Ospina-Sánchez, Felipe N. Soto-Adames,and Grizelle González studied springtails in Puerto Rico, and they wanted to know how many species there are in the genus *Hemisotoma* and the genus *Sphaeridia*."
       },
       {
         "id": "D",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_26",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "The student wants to explain what a merchant vessel is and provide examples. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A merchant vessel is any ship hired to carry cargo or passengers. Common merchant vessels include bulk carriers, cruise liners, and oil tankers.\n\u2022 A vessel's carrying capacity is also known as its deadweight tonnage (DWT).\n\u2022 In 2021, there were a total of 1,236 merchant vessels registered in Greece.\n\u2022 The combined DWT of these vessels was 64.9 million tons.\n\nThe student wants to explain what a merchant vessel is and provide examples. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain what a merchant vessel is and provide examples. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A merchant vessel is any ship hired to carry cargo or passengers. Common merchant vessels include bulk carriers, cruise liners, and oil tankers.\n• A vessel's carrying capacity is also known as its deadweight tonnage (DWT).\n• In 2021, there were a total of 1,236 merchant vessels registered in Greece.\n• The combined DWT of these vessels was 64.9 million tons.",
     "choices": [
       {
         "id": "A",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -942,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "73482b52-a20f-452d-896f-76f578ac2361_27",
     "testName": "August 2024 International Form A SAT English Module 1",
-    "text": "The student wants to contrast the song *Poor Miner's Farewell* with the song *Bring Him Back Home*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Musicians around the world have used protest songs to raise awareness about human rights violations.\n\u2022 US folk singer Aunt Molly Jackson released the protest song *Poor Miner's Farewell* in 1932.\n\u2022 It exposed the unlivable wages and dangerous working conditions coal miners faced in Kentucky during the 1920s and 1930s.\n\u2022 South African singer-songwriter Hugh Masekela released the protest song *Bring Him Back Home* in 1987.\n\u2022 It called on the South African government to free Nelson Mandela, an anti-apartheid leader who'd been unjustly imprisoned.\n\nThe student wants to contrast the song *Poor Miner's Farewell* with the song *Bring Him Back Home*. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast the song *Poor Miner's Farewell* with the song *Bring Him Back Home*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Musicians around the world have used protest songs to raise awareness about human rights violations.\n• US folk singer Aunt Molly Jackson released the protest song *Poor Miner's Farewell* in 1932.\n• It exposed the unlivable wages and dangerous working conditions coal miners faced in Kentucky during the 1920s and 1930s.\n• South African singer-songwriter Hugh Masekela released the protest song *Bring Him Back Home* in 1987.\n• It called on the South African government to free Nelson Mandela, an anti-apartheid leader who'd been unjustly imprisoned.",
     "choices": [
       {
         "id": "A",
@@ -968,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_1",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while ______ literary forms, such as the short story, are recognizable as such even as they evolve, there are rarer \"intergeneric\" forms that might, for example, use elements of both fiction and essays to create something unclassifiable. The very short publications of Diane Williams arguably fit in this category, since they straddle the line between prose and poetry.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while ______ literary forms, such as the short story, are recognizable as such even as they evolve, there are rarer \"intergeneric\" forms that might, for example, use elements of both fiction and essays to create something unclassifiable. The very short publications of Diane Williams arguably fit in this category, since they straddle the line between prose and poetry.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_2",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nFor most of its length, the Pungue River has sufficiently high flow velocity to suspend sedimentary particles, but when the river reaches the calmer waters of the Indian Ocean, its channel widens and divides, reducing flow velocity and thereby ______ sedimentary particle suspension. Particles are thus deposited, eventually forming deltaic lobes.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nFor most of its length, the Pungue River has sufficiently high flow velocity to suspend sedimentary particles, but when the river reaches the calmer waters of the Indian Ocean, its channel widens and divides, reducing flow velocity and thereby ______ sedimentary particle suspension. Particles are thus deposited, eventually forming deltaic lobes.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_3",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPostcranial skeletal pneumaticity (PSP) refers to the presence of extensions of an animal's lungs and air sacs inside its bones. Though such structures do not typically fossilize, they are believed to have been present in *Tyrannosaurus*, *Anhanguera*, and other Cretaceous theropods and pterosaurs. To ______ PSP from fossils, researchers look for indicators such as large foramina (holes in bones).\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPostcranial skeletal pneumaticity (PSP) refers to the presence of extensions of an animal's lungs and air sacs inside its bones. Though such structures do not typically fossilize, they are believed to have been present in *Tyrannosaurus*, *Anhanguera*, and other Cretaceous theropods and pterosaurs. To ______ PSP from fossils, researchers look for indicators such as large foramina (holes in bones).",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_4",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe subscription model in which consumers who do not deliberately cancel their subscriptions automatically pay recurring fees for access to products and services benefits retailers when consumer ______ is high. Many of the 8.5 percent of subscribers who canceled their food and beverage subscriptions in January 2022 had stopped valuing their subscriptions long before then, but sellers profited from those customers' passivity in their interim.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe subscription model in which consumers who do not deliberately cancel their subscriptions automatically pay recurring fees for access to products and services benefits retailers when consumer ______ is high. Many of the 8.5 percent of subscribers who canceled their food and beverage subscriptions in January 2022 had stopped valuing their subscriptions long before then, but sellers profited from those customers' passivity in their interim.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -147,13 +147,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_5",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nSvante P\u00e4\u00e4bo and other researchers studying the history of organisms have long utilized ancient DNA\u2014DNA recovered from ancient organic material that has been preserved under natural conditions. However, Reyjane P. Oliveira and colleagues' 2017 study of the evolutionary trajectory of the Malagasy grass genus *Chasechloa* instead relied on historical DNA\u2014genomic data incidentally preserved in specimens that are housed in natural history collections\u2014<u>thus capitalizing on the research potential offered by a vast but hitherto relatively underutilized source of insight into the biological past.</u>\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nSvante Pääbo and other researchers studying the history of organisms have long utilized ancient DNA—DNA recovered from ancient organic material that has been preserved under natural conditions. However, Reyjane P. Oliveira and colleagues' 2017 study of the evolutionary trajectory of the Malagasy grass genus *Chasechloa* instead relied on historical DNA—genomic data incidentally preserved in specimens that are housed in natural history collections—<u>thus capitalizing on the research potential offered by a vast but hitherto relatively underutilized source of insight into the biological past.</u>",
     "choices": [
       {
         "id": "A",
@@ -175,9 +175,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
       "confidence": "high"
     }
   },
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_6",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nFounded in Denver in 1991, the Museo de Las Americas is one of the best known US based institutions showcasing Latino cultures. Since its founding, it has acquired more than 4,800 objects for its permanent collection. <u>Since 2000, the number of Latino cultural institutions in the US has expanded considerably.</u> LA Plaza de Cultura y Artes, which opened in Los Angeles in 2011 and focuses on Mexican American art and culture, is among the most prominent.\n\nWhich choice best states the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nFounded in Denver in 1991, the Museo de Las Americas is one of the best known US based institutions showcasing Latino cultures. Since its founding, it has acquired more than 4,800 objects for its permanent collection. <u>Since 2000, the number of Latino cultural institutions in the US has expanded considerably.</u> LA Plaza de Cultura y Artes, which opened in Los Angeles in 2011 and focuses on Mexican American art and culture, is among the most prominent.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_7",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice best describes the main purpose of the text?\nIn Bhutan, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by approximately two thirds between 2000 and 2019; such shifts are often explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high technology fuels displace solid fuels as incomes rise). Rasmus Heltberg's study of fuel use in Nepal shows this model to be reductive, however; household fuel use was heterogeneous, flexible, and influenced by several factors, including the stability of the local electrical grid.\n\nWhich choice best describes the main purpose of the text?",
+    "text": "Which choice best describes the main purpose of the text?\nIn Bhutan, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by approximately two thirds between 2000 and 2019; such shifts are often explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high technology fuels displace solid fuels as incomes rise). Rasmus Heltberg's study of fuel use in Nepal shows this model to be reductive, however; household fuel use was heterogeneous, flexible, and influenced by several factors, including the stability of the local electrical grid.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_8",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nThe following text is from George Eliot's 1857 short story \"The Sad Fortunes of the Rev. Amos Barton.\" The Countess Czerlaski is a newcomer to the town of Milby. It is true, the Countess was a little vain, a little ambitious, a little selfish, a little shallow and frivolous, a little given to white lies\u2014But who considers such slight blemishes, such moral pimples as these, disqualifications for entering into the most respectable society! Indeed, the severest ladies in Milby would have been perfectly aware that these characteristics would have created no wide distinction between the Countess Czerlaski and themselves: and since it was clear there was a wide distinction\u2014why, it must lie in the possession of some vices from which they were undeniably free.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nThe following text is from George Eliot's 1857 short story \"The Sad Fortunes of the Rev. Amos Barton.\" The Countess Czerlaski is a newcomer to the town of Milby. It is true, the Countess was a little vain, a little ambitious, a little selfish, a little shallow and frivolous, a little given to white lies—But who considers such slight blemishes, such moral pimples as these, disqualifications for entering into the most respectable society! Indeed, the severest ladies in Milby would have been perfectly aware that these characteristics would have created no wide distinction between the Countess Czerlaski and themselves: and since it was clear there was a wide distinction—why, it must lie in the possession of some vices from which they were undeniably free.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_9",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "As presented in the text, the findings of Sauquet et al. best support which statement?\nSome researchers posit that species on the South Pacific island of Grande Terre are the surviving members of clades that inhabited other islands in the region before the complete emergence of Grande Terre 37 million years ago. In a 2012 study, however, Herv\u00e9 Sauquet et al. found that the crown age (the age of the most recent common ancestor of all living and extinct species in the clade) of the clade of southern beeches on Grande Terre is 16.4 million years; Sauquet et al. further found that the crown age of the clade of southern beeches in the South Pacific generally is also approximately 16.4 million years.\n\nAs presented in the text, the findings of Sauquet et al. best support which statement?",
+    "text": "As presented in the text, the findings of Sauquet et al. best support which statement?\nSome researchers posit that species on the South Pacific island of Grande Terre are the surviving members of clades that inhabited other islands in the region before the complete emergence of Grande Terre 37 million years ago. In a 2012 study, however, Hervé Sauquet et al. found that the crown age (the age of the most recent common ancestor of all living and extinct species in the clade) of the clade of southern beeches on Grande Terre is 16.4 million years; Sauquet et al. further found that the crown age of the clade of southern beeches in the South Pacific generally is also approximately 16.4 million years.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_10",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which quotation from a historian best supports the student's claim?\nA student is writing a research paper on the history of irrigation in the southwestern United States, situating the development of Lake Sabrina (a man-made body of water created in Inyo County, California, in 1908) in a larger historical context. The student claims that some modern-day irrigation methods used in southwestern states, such as California, Arizona, and New Mexico, have a lineage that long predates the completion of Lake Sabrina.\n\nWhich quotation from a historian best supports the student's claim?",
+    "text": "Which quotation from a historian best supports the student's claim?\nA student is writing a research paper on the history of irrigation in the southwestern United States, situating the development of Lake Sabrina (a man-made body of water created in Inyo County, California, in 1908) in a larger historical context. The student claims that some modern-day irrigation methods used in southwestern states, such as California, Arizona, and New Mexico, have a lineage that long predates the completion of Lake Sabrina.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_11",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nPeriods of subfreezing temperatures in Alaska have been growing shorter as a result of climate changes, potentially enabling increased carbon dioxide (CO\u2082) absorption through greater productivity of sidebells wintergreen (*Orthilia secunda*) plants and other vegetation, but also potentially enabling increased CO\u2082 output through greater heterotrophic respiration (CO\u2082 generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs\u2014years of soil moisture and snow cover data among them\u2014to evaluate the effects of climate changes on the CO\u2082 balance in Alaska, concluding that net CO\u2082 is likely to increase if seasonal snow cover arrives earlier relative to the onset of soil surface freezing.\n\nWhich finding, if true, would most directly support the researchers' conclusion?",
+    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nPeriods of subfreezing temperatures in Alaska have been growing shorter as a result of climate changes, potentially enabling increased carbon dioxide (CO₂) absorption through greater productivity of sidebells wintergreen (*Orthilia secunda*) plants and other vegetation, but also potentially enabling increased CO₂ output through greater heterotrophic respiration (CO₂ generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs—years of soil moisture and snow cover data among them—to evaluate the effects of climate changes on the CO₂ balance in Alaska, concluding that net CO₂ is likely to increase if seasonal snow cover arrives earlier relative to the onset of soil surface freezing.",
     "choices": [
       {
         "id": "A",
@@ -391,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_12",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega region of Costa Rica, Juan Pablo Arroyo More and colleagues used historical aerial photography and remote sensing data to track changes in the total number of forest patches in areas of different land use capability classes (categories that indicate possible uses of forest land). Due to the Chorotega region's accessibility, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s: this conversion is evident in the ______\n\nWhich choice most effectively uses data from the graph to complete the assertion?",
+    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega region of Costa Rica, Juan Pablo Arroyo More and colleagues used historical aerial photography and remote sensing data to track changes in the total number of forest patches in areas of different land use capability classes (categories that indicate possible uses of forest land). Due to the Chorotega region's accessibility, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s: this conversion is evident in the ______",
     "choices": [
       {
         "id": "A",
@@ -427,22 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_25_USA_Eng_M2_Q12_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_13",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice best describes data from the table that weaken the student's argument?\nIssuing a one-dollar coin yields positive seigniorage\u2014profit generated when the face value of a coin exceeds the unit cost of producing it\u2014for Singapore's government, which can be used to fund such services as education. Issuing coins can also result in negative seigniorage, however, and this phenomenon led Australia to stop producing certain coins. A student argues that it is in the financial interest of the United States to follow the example of Australia with regard to each of the four coins shown in the table.\n\nWhich choice best describes data from the table that weaken the student's argument?",
+    "text": "Which choice best describes data from the table that weaken the student's argument?\nIssuing a one-dollar coin yields positive seigniorage—profit generated when the face value of a coin exceeds the unit cost of producing it—for Singapore's government, which can be used to fund such services as education. Issuing coins can also result in negative seigniorage, however, and this phenomenon led Australia to stop producing certain coins. A student argues that it is in the financial interest of the United States to follow the example of Australia with regard to each of the four coins shown in the table.",
     "choices": [
       {
         "id": "A",
@@ -464,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_25_USA_Eng_M2_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_14",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThough longitudinal studies like the Northern Ireland longitudinal study (NILS), which has surveyed approximately 500,000 participants in Northern Ireland to find trends in public health, are expensive because they are conducted over many years, by spanning these time frames, they can reveal causal patterns. But studies for which cause and effect is not at issue, like a public opinion study that merely seeks to determine the proportion of a city's population that supports a particular tax proposal, can succeed without longitudinal methods, which means that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThough longitudinal studies like the Northern Ireland longitudinal study (NILS), which has surveyed approximately 500,000 participants in Northern Ireland to find trends in public health, are expensive because they are conducted over many years, by spanning these time frames, they can reveal causal patterns. But studies for which cause and effect is not at issue, like a public opinion study that merely seeks to determine the proportion of a city's population that supports a particular tax proposal, can succeed without longitudinal methods, which means that ______",
     "choices": [
       {
         "id": "A",
@@ -501,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -510,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_15",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThe Virgin Group's introduction of the Virgin Atlantic airline in 1984 is an instance of brand extension\u2014the company leveraged its brand recognition as a music retailer to enter a new product category. To investigate how market share affects consumers' likelihood of purchasing brand extensions, Alicia Grasby et al identified 30 extended brand pairs (e.g., the same brand of vacuum cleaner and microwave) in household purchasing data; for each pair, Grasby et al. calculated the branded products' market share and calculated the increase in probability of a brand in one category being purchased if the same brand was purchased in the other category. A broad inverse relationship between the two values emerged, which can most reasonably be attributed to the fact that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe Virgin Group's introduction of the Virgin Atlantic airline in 1984 is an instance of brand extension—the company leveraged its brand recognition as a music retailer to enter a new product category. To investigate how market share affects consumers' likelihood of purchasing brand extensions, Alicia Grasby et al identified 30 extended brand pairs (e.g., the same brand of vacuum cleaner and microwave) in household purchasing data; for each pair, Grasby et al. calculated the branded products' market share and calculated the increase in probability of a brand in one category being purchased if the same brand was purchased in the other category. A broad inverse relationship between the two values emerged, which can most reasonably be attributed to the fact that ______",
     "choices": [
       {
         "id": "A",
@@ -537,9 +535,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -547,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_16",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe small celestial body known as 2060 Chiron is expected to have a relatively short lifetime in the outer solar system. Within just a few million years, 2060 Chiron is likely to migrate into the inner solar system or be destroyed, according to ______ trajectory.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe small celestial body known as 2060 Chiron is expected to have a relatively short lifetime in the outer solar system. Within just a few million years, 2060 Chiron is likely to migrate into the inner solar system or be destroyed, according to ______ trajectory.",
     "choices": [
       {
         "id": "A",
@@ -573,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_17",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFocusing on *Mirounga angustirostris*\u2014or ______ 2021 study by researchers Akinori Takahashi, Daniel Costa, and Patrick Robinson found that female elephant seals devote more than 80% of their time to foraging for prey in the northern Pacific Ocean.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nFocusing on *Mirounga angustirostris*—or ______ 2021 study by researchers Akinori Takahashi, Daniel Costa, and Patrick Robinson found that female elephant seals devote more than 80% of their time to foraging for prey in the northern Pacific Ocean.",
     "choices": [
       {
         "id": "A",
@@ -595,7 +593,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "northern elephant seals, as they're more commonly known\u2014a"
+        "text": "northern elephant seals, as they're more commonly known—a"
       },
       {
         "id": "C",
@@ -603,15 +601,15 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "northern elephant seals\u2014as they're more commonly known, a"
+        "text": "northern elephant seals—as they're more commonly known, a"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -619,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_18",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA 2016 study by researchers Andreas Keller and Leslie Vosshall evaluating how participants described the odors of various chemical compounds revealed some similarities between the odor of sample 15 (linoleic acid) and that of sample 18 (propionic acid). The ______ primary descriptors both included \"sour\"; however, the next most common word used for sample 15 was \"decayed,\" while that for sample 18 was \"musky.\"\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA 2016 study by researchers Andreas Keller and Leslie Vosshall evaluating how participants described the odors of various chemical compounds revealed some similarities between the odor of sample 15 (linoleic acid) and that of sample 18 (propionic acid). The ______ primary descriptors both included \"sour\"; however, the next most common word used for sample 15 was \"decayed,\" while that for sample 18 was \"musky.\"",
     "choices": [
       {
         "id": "A",
@@ -645,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_19",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Orionid meteor shower's brightness typically surpasses that of the Daytime Arietid meteor shower due to the interplay of three main factors\u2014namely, the size and composition of the ______ velocity upon entering Earth's mesosphere, with higher-velocity meteoroids releasing more energy; and atmospheric fluctuations, such as changes in sky conditions.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Orionid meteor shower's brightness typically surpasses that of the Daytime Arietid meteor shower due to the interplay of three main factors—namely, the size and composition of the ______ velocity upon entering Earth's mesosphere, with higher-velocity meteoroids releasing more energy; and atmospheric fluctuations, such as changes in sky conditions.",
     "choices": [
       {
         "id": "A",
@@ -675,13 +673,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "meteoroids\u2014their"
+        "text": "meteoroids—their"
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_20",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDespite differences in history, language, and geography, the geopolitical entities that constitute the South Pacific regions of Micronesia, Melanesia, and Polynesia share one feature: ______ an island or a group of islands. For example, the Pitcairn Islands in Polynesia is a territory that is part of Great Britain and consists of only one inhabited island with fewer than one hundred residents.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDespite differences in history, language, and geography, the geopolitical entities that constitute the South Pacific regions of Micronesia, Melanesia, and Polynesia share one feature: ______ an island or a group of islands. For example, the Pitcairn Islands in Polynesia is a territory that is part of Great Britain and consists of only one inhabited island with fewer than one hundred residents.",
     "choices": [
       {
         "id": "A",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_21",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe parks of Memphis, Tennessee, seem to be making people happier. In 2022, a team of researchers ______ to find connections between the physical location in which a social media post was created and the content of that post analyzed geotagged social media posts from various sites in Memphis. The team found that posts from the city's parks contained more words associated with happiness than did the other posts.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe parks of Memphis, Tennessee, seem to be making people happier. In 2022, a team of researchers ______ to find connections between the physical location in which a social media post was created and the content of that post analyzed geotagged social media posts from various sites in Memphis. The team found that posts from the city's parks contained more words associated with happiness than did the other posts.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_22",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nSpace scientist Antonella Nota is excited about the potential of the new James Webb Space Telescope (JWST). Unlike its predecessor the Hubble Telescope, the JWST is primarily an infrared telescope. Most light from distant galaxies is infrared; ______ the JWST can provide Nota and her team much more information about these galaxies than the Hubble could.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nSpace scientist Antonella Nota is excited about the potential of the new James Webb Space Telescope (JWST). Unlike its predecessor the Hubble Telescope, the JWST is primarily an infrared telescope. Most light from distant galaxies is infrared; ______ the JWST can provide Nota and her team much more information about these galaxies than the Hubble could.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_23",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "The student wants to support the claim that the online archive features both older and newer artifacts. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Hina Hanta is an online archive curated by the Choctaw Nation of Oklahoma.\n\u2022 It features images of many cultural artifacts relevant to the history of the Choctaw people.\n\u2022 It features basketry, including a trunk basket (*tapushik pothoma* in Choctaw) made from cane.\n\u2022 The trunk basket was made in 2019.\n\u2022 The archive features household items, including a stamp (*isht inchunwa*) made from rubber.\n\u2022 The stamp was made in the 1800s.\n\nThe student wants to support the claim that the online archive features both older and newer artifacts. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to support the claim that the online archive features both older and newer artifacts. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Hina Hanta is an online archive curated by the Choctaw Nation of Oklahoma.\n• It features images of many cultural artifacts relevant to the history of the Choctaw people.\n• It features basketry, including a trunk basket (*tapushik pothoma* in Choctaw) made from cane.\n• The trunk basket was made in 2019.\n• The archive features household items, including a stamp (*isht inchunwa*) made from rubber.\n• The stamp was made in the 1800s.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_24",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "The student wants to compare the sizes of the two mountain ranges. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Peloncillo Pan Duro Mountains are located in northwestern Mexico.\n\u2022 They cover an area of 1,360 square miles (mi\u00b2).\n\u2022 The Big Hatchet Mountains are located in the southwestern United States.\n\u2022 They cover an area of 65 mi\u00b2.\n\u2022 These mountain ranges are two of the dozens of \"sky islands\" in the southwestern US and northwestern Mexico.\n\u2022 A sky island is an isolated mountain range whose environment differs drastically from that of the surrounding lowlands.\n\nThe student wants to compare the sizes of the two mountain ranges. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the sizes of the two mountain ranges. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Peloncillo Pan Duro Mountains are located in northwestern Mexico.\n• They cover an area of 1,360 square miles (mi²).\n• The Big Hatchet Mountains are located in the southwestern United States.\n• They cover an area of 65 mi².\n• These mountain ranges are two of the dozens of \"sky islands\" in the southwestern US and northwestern Mexico.\n• A sky island is an isolated mountain range whose environment differs drastically from that of the surrounding lowlands.",
     "choices": [
       {
         "id": "A",
@@ -847,7 +845,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "In terms of area, the Peloncillo-Pan Duro Mountains (which cover 1,360 mi\u00b2) are larger than the Big Hatchet Mountains (65 mi\u00b2)."
+        "text": "In terms of area, the Peloncillo-Pan Duro Mountains (which cover 1,360 mi²) are larger than the Big Hatchet Mountains (65 mi²)."
       },
       {
         "id": "C",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_25",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "The student wants to emphasize a difference between Bengali and Danish nouns. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Bengali is a language in the Indo-Aryan language family.\n\u2022 In Bengali, a noun takes a different form when that noun functions as a location in a sentence.\n\u2022 The Bengali noun bari (house) is combined with the locative suffix -*te* to become the locative noun *barite* (in the house).\n\u2022 Danish is a language in the Germanic language family.\n\u2022 In Danish, nouns do not change form to indicate location.\n\u2022 In Danish, nouns used as a location must be indicated by prepositions such as *i* (in) or *p\u00e5* (on).\n\nThe student wants to emphasize a difference between Bengali and Danish nouns. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between Bengali and Danish nouns. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Bengali is a language in the Indo-Aryan language family.\n• In Bengali, a noun takes a different form when that noun functions as a location in a sentence.\n• The Bengali noun bari (house) is combined with the locative suffix -*te* to become the locative noun *barite* (in the house).\n• Danish is a language in the Germanic language family.\n• In Danish, nouns do not change form to indicate location.\n• In Danish, nouns used as a location must be indicated by prepositions such as *i* (in) or *på* (on).",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_26",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "The student wants to explain the principle espoused by the Bauhaus. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Lou Scheper-Berkenkamp was a painter and author born in Wesel, Germany.\n\u2022 She began attending the Bauhaus in 1920.\n\u2022 The Bauhaus was an influential German art and design school.\n\u2022 The school famously espoused the design principle of \"form follows function.\"\n\u2022 \"Form follows function\" means that an object's shape should be determined primarily by its intended purpose.\n\nThe student wants to explain the principle espoused by the Bauhaus. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain the principle espoused by the Bauhaus. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Lou Scheper-Berkenkamp was a painter and author born in Wesel, Germany.\n• She began attending the Bauhaus in 1920.\n• The Bauhaus was an influential German art and design school.\n• The school famously espoused the design principle of \"form follows function.\"\n• \"Form follows function\" means that an object's shape should be determined primarily by its intended purpose.",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -941,13 +939,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "5fe11073-c749-47d4-9e43-2addecd1932f_27",
     "testName": "May 2025 US Form A SAT English Module 2",
-    "text": "The student wants to use a quotation from Fazal to explain an advantage of the geothermal system at the Platanares plant. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 According to researcher Muhammad Rayyan Fazal, \"geothermal electric energy...[is] capable of producing more energy per megawatt per year as compared to similar capacity solar and wind power systems.\"\n\u2022 Geothermal power plants typically employ dry steam systems, flash steam systems, or binary cycle systems to produce electricity from high-temperature geothermal fluid.\n\u2022 The Platanares geothermal power plant in Honduras uses a binary cycle system.\n\u2022 Fazal says that binary cycle systems \"pump 100% geothermal fluid back to the injection well, hence offering the least environmental impact with little or no emissions.\"\n\nThe student wants to use a quotation from Fazal to explain an advantage of the geothermal system at the Platanares plant. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to use a quotation from Fazal to explain an advantage of the geothermal system at the Platanares plant. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• According to researcher Muhammad Rayyan Fazal, \"geothermal electric energy...[is] capable of producing more energy per megawatt per year as compared to similar capacity solar and wind power systems.\"\n• Geothermal power plants typically employ dry steam systems, flash steam systems, or binary cycle systems to produce electricity from high-temperature geothermal fluid.\n• The Platanares geothermal power plant in Honduras uses a binary cycle system.\n• Fazal says that binary cycle systems \"pump 100% geothermal fluid back to the injection well, hence offering the least environmental impact with little or no emissions.\"",
     "choices": [
       {
         "id": "A",
@@ -959,7 +957,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "Since they return all geothermal fluid to the injection well, binary cycle systems\u2014such as the one at the Platanares plant\u2014produce \"the least environmental impact,\" according to Fazal."
+        "text": "Since they return all geothermal fluid to the injection well, binary cycle systems—such as the one at the Platanares plant—produce \"the least environmental impact,\" according to Fazal."
       },
       {
         "id": "D",
@@ -969,9 +967,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
       "confidence": "high"
     }
   }

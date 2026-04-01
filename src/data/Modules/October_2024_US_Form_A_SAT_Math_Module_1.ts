@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_1",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_2",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -49,19 +49,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "\uff08-8\uff0c0\uff09"
+        "text": "（-8，0）"
       },
       {
         "id": "B",
-        "text": "\uff08-5\uff0c0\uff09"
+        "text": "（-5，0）"
       },
       {
         "id": "C",
-        "text": "\uff080\uff0c5\uff09"
+        "text": "（0，5）"
       },
       {
         "id": "D",
-        "text": "\uff080\uff0c8\uff09"
+        "text": "（0，8）"
       }
     ],
     "correctAnswer": "D",
@@ -69,16 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M1_Q2_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_3",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -106,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_4",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -142,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_5",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -178,35 +177,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_6",
     "testName": "October 2024 US Form A SAT Math Module 1",
-    "text": "In $\u25b3$ JKL, the measures of both \u2220J and \u2220K are equal and the measure of \u2220L is 136\u00b0. What is the measure of \u2220J?",
+    "text": "In $△$ JKL, the measures of both ∠J and ∠K are equal and the measure of ∠L is 136°. What is the measure of ∠J?",
     "choices": [
       {
         "id": "A",
-        "text": "22\u00b0"
+        "text": "22°"
       },
       {
         "id": "B",
-        "text": "44\u00b0"
+        "text": "44°"
       },
       {
         "id": "C",
-        "text": "68\u00b0"
+        "text": "68°"
       },
       {
         "id": "D",
-        "text": "90\u00b0"
+        "text": "90°"
       }
     ],
     "correctAnswer": "A",
@@ -214,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_7",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -233,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_8",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -269,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_9",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -288,16 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M1_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_10",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -325,15 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_11",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -344,15 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_12",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -380,15 +378,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Sample Statistics and Margin of Error",
-    "difficulty": "null",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_13",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -416,7 +414,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Sample Statistics and Margin of Error",
+      "skill": "Inference from sample statistics and margin of error",
       "confidence": "high"
     }
   },
@@ -424,7 +422,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -432,19 +430,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "546+676\u03c0"
+        "text": "546+676π"
       },
       {
         "id": "B",
-        "text": "364+676\u03c0"
+        "text": "364+676π"
       },
       {
         "id": "C",
-        "text": "546+338\u03c0"
+        "text": "546+338π"
       },
       {
         "id": "D",
-        "text": "364+338\u03c0"
+        "text": "364+338π"
       }
     ],
     "correctAnswer": "C",
@@ -454,14 +452,13 @@ export const questions: Question[] = [
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M1_Q14_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_15",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -489,19 +486,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_16",
     "testName": "October 2024 US Form A SAT Math Module 1",
-    "text": "The function f(x)= 236(1.022) x models the value, in dollars, of a certain bank account from 1958 through 1973, where x is the number of years after the end of 1958. Which of the following is the best interpretation of\u201cf(5) is approximately equal to 263\u201d in this context?",
+    "text": "The function f(x)= 236(1.022) x models the value, in dollars, of a certain bank account from 1958 through 1973, where x is the number of years after the end of 1958. Which of the following is the best interpretation of“f(5) is approximately equal to 263” in this context?",
     "choices": [
       {
         "id": "A",
@@ -525,15 +522,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_17",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -544,15 +541,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_18",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -563,15 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_19",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -598,17 +595,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M1_Q19_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_20",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -619,7 +615,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -627,7 +623,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_21",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -662,8 +658,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_22",
     "testName": "October 2024 US Form A SAT Math Module 1",
@@ -674,9 +670,8 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_USA_Math_M1_Q22_1.png"
+    }
   }
 ];

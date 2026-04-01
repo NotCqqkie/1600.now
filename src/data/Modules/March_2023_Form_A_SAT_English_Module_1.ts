@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_1",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Al-Fattah Al-Aleem Mosque in the New Administrative Capital, Egypt, is a massive mosque that can accommodate approximately 17,000 people at once, making it an ______ sight to behold.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Al-Fattah Al-Aleem Mosque in the New Administrative Capital, Egypt, is a massive mosque that can accommodate approximately 17,000 people at once, making it an ______ sight to behold.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_2",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Lascaux Cave paintings\u2014detailed paintings of animals found in what is now France and dating from around 17,000 years ago\u2014are sometimes said to be emotionally powerful despite their age, but in fact the paintings are ______ precisely because of their age. It is the link of shared humanity with the artists across so many centuries that gives the Lascaux Cave paintings such resonance.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Lascaux Cave paintings—detailed paintings of animals found in what is now France and dating from around 17,000 years ago—are sometimes said to be emotionally powerful despite their age, but in fact the paintings are ______ precisely because of their age. It is the link of shared humanity with the artists across so many centuries that gives the Lascaux Cave paintings such resonance.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_3",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome robots such as Surena (developed in 2008) and COMAN (developed in 2012) feature humanoid characteristics like bipedal locomotion so that people will find it easier to interact with them. While these features can help to ______ feelings of comfort in people, a robot that looks too like human can fall into the \u201cuncanny valley,\u201d meaning that its appearance unintentionally unsettles those who encounter it.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome robots such as Surena (developed in 2008) and COMAN (developed in 2012) feature humanoid characteristics like bipedal locomotion so that people will find it easier to interact with them. While these features can help to ______ feelings of comfort in people, a robot that looks too like human can fall into the “uncanny valley,” meaning that its appearance unintentionally unsettles those who encounter it.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_4",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the *International Corpus of English* are enormous collections of electronically stored texts that can be used for empirical testing of hypotheses regarding how ______ a word is in spoken and written English. For instance, one might have a guess about the incidence of the word \u201cfirst,\u201d but only an analysis of a corpus can prove that \u201cfirst\u201d is the third most commonly used adjective.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the *International Corpus of English* are enormous collections of electronically stored texts that can be used for empirical testing of hypotheses regarding how ______ a word is in spoken and written English. For instance, one might have a guess about the incidence of the word “first,” but only an analysis of a corpus can prove that “first” is the third most commonly used adjective.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_5",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome features, such as the mihrab (or niche), are present in nearly every mosque. But mosques often reflect multiple architectural styles, resulting in a unique ______ of those influences, as in the case of the Sheikh Zayed Mosque, which combines elements from the Persian, Mughal, and Moorish styles.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nSome features, such as the mihrab (or niche), are present in nearly every mosque. But mosques often reflect multiple architectural styles, resulting in a unique ______ of those influences, as in the case of the Sheikh Zayed Mosque, which combines elements from the Persian, Mughal, and Moorish styles.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_6",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cdefine\u201d most nearly mean?\nThe following text is from E. Pauline Johnson's 2002 poem \u201c*Shadow Lake*.\u201d The little fern-leaf, bending\nUpon the brink, its green reflection greets\nAnd kisses soft the shadow that it meets\nWith touch so fine,\nThe border line\nThe keenest vision can't <u>define</u>;\nSo perfect is the blending.\n\nAs used in the text, what does the word \u201cdefine\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “define” most nearly mean?\nThe following text is from E. Pauline Johnson's 2002 poem “*Shadow Lake*.” The little fern-leaf, bending\nUpon the brink, its green reflection greets\nAnd kisses soft the shadow that it meets\nWith touch so fine,\nThe border line\nThe keenest vision can't <u>define</u>;\nSo perfect is the blending.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_7",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is adapted from Matthew Arnold's 1869 nonfiction book *Culture and Anarchy*.\n<u>The Times [a British newspaper], replying to some foreign structures on the dress, looks, and behavior of the English abroad, urges that the English ideal is that everyone should be free to do and to look just as he likes.</u> But culture indefatigably tries, not to make what each raw person may like the rule by which he fashions himself; but to draw ever nearer to a sense of what is indeed beautiful, graceful, and becoming, and to get the raw person to like that.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is adapted from Matthew Arnold's 1869 nonfiction book *Culture and Anarchy*.\n<u>The Times [a British newspaper], replying to some foreign structures on the dress, looks, and behavior of the English abroad, urges that the English ideal is that everyone should be free to do and to look just as he likes.</u> But culture indefatigably tries, not to make what each raw person may like the rule by which he fashions himself; but to draw ever nearer to a sense of what is indeed beautiful, graceful, and becoming, and to get the raw person to like that.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_8",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support Martinez and colleagues' hypothesis?\nThe bird species *Myiobius barbatus* (the bearded flycatcher), which forages in relatively dense vegetation, and *Platyrinchus saturatus* (the cinnamon-crested spadebill), which forages in open areas or low-density vegetation, share territory in French Guiana with *Thainnomanes caesius* (the cinereous antshrike), which emits a loud alarm call when it detects predators. Biologist Ari Martinez and colleagues, who studied the ecological community the species share, hypothesized that there is an inverse relationship between birds' field of vision while foraging and their sensitivity to alarm calls from neighboring species.\n\nWhich finding, if true, would most directly support Martinez and colleagues' hypothesis?",
+    "text": "Which finding, if true, would most directly support Martinez and colleagues' hypothesis?\nThe bird species *Myiobius barbatus* (the bearded flycatcher), which forages in relatively dense vegetation, and *Platyrinchus saturatus* (the cinnamon-crested spadebill), which forages in open areas or low-density vegetation, share territory in French Guiana with *Thainnomanes caesius* (the cinereous antshrike), which emits a loud alarm call when it detects predators. Biologist Ari Martinez and colleagues, who studied the ecological community the species share, hypothesized that there is an inverse relationship between birds' field of vision while foraging and their sensitivity to alarm calls from neighboring species.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_9",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the example?\nA report from an international organization that monitors the numbers of women serving as judges or magistrates on various nations' highest courts, such as the Supreme Court in Finland and the Supreme Court in the Dominican Republic. From 2009 to 2013, the number of women serving as justices or magistrates on highest courts in most countries increased. However, there are also countries where the number decreased or remained unchanged; for example, ______\n\nWhich choice most effectively uses data from the graph to complete the example?",
+    "text": "Which choice most effectively uses data from the graph to complete the example?\nA report from an international organization that monitors the numbers of women serving as judges or magistrates on various nations' highest courts, such as the Supreme Court in Finland and the Supreme Court in the Dominican Republic. From 2009 to 2013, the number of women serving as justices or magistrates on highest courts in most countries increased. However, there are also countries where the number decreased or remained unchanged; for example, ______",
     "choices": [
       {
         "id": "A",
@@ -319,22 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_23A_Eng_M1_Q9_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_10",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the assertion?\nDanijel Jug and colleagues found that tilling\u2014the practice of turning soil with hoes, plows, or other machines before planting crops\u2014was associated with an increased yield of winter wheat. But some studies of other crops have found the opposite effect, for example ______\n\nWhich choice most effectively uses data from the table to complete the assertion?",
+    "text": "Which choice most effectively uses data from the table to complete the assertion?\nDanijel Jug and colleagues found that tilling—the practice of turning soil with hoes, plows, or other machines before planting crops—was associated with an increased yield of winter wheat. But some studies of other crops have found the opposite effect, for example ______",
     "choices": [
       {
         "id": "A",
@@ -356,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_23A_Eng_M1_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_11",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes data in the table that support the journalist's claim?\nPopulation figures for a city can vary significantly depending on what areas are included in the count. Often, governments will report a value for the city proper (including only residents within the city limits) and another for the larger metropolitan area (including residents from nearby places beyond the city limits). Citing the data in the table, a journalist claims the population estimates from the United Nations (UN) most likely included people outside the cities proper.\n\nWhich choice best describes data in the table that support the journalist's claim?",
+    "text": "Which choice best describes data in the table that support the journalist's claim?\nPopulation figures for a city can vary significantly depending on what areas are included in the count. Often, governments will report a value for the city proper (including only residents within the city limits) and another for the larger metropolitan area (including residents from nearby places beyond the city limits). Citing the data in the table, a journalist claims the population estimates from the United Nations (UN) most likely included people outside the cities proper.",
     "choices": [
       {
         "id": "A",
@@ -393,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_23A_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_12",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nThe Study on Global Ageing and Adult Health (SAGE) seeks to discover long-term trends related to aging by compiling and analyzing evidence from approximately 66,000 participants in multiple countries. As with most longitudinal studies, extensive funding support is needed for SAGE to collect the relevant data over timescales and at intervals that will support robust conclusions. But the quality of a more constrained investigation, such as a sociology study seeking only to yield the average age at which people in a given city first become parents, is much less dependent on high levels of funding because ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe Study on Global Ageing and Adult Health (SAGE) seeks to discover long-term trends related to aging by compiling and analyzing evidence from approximately 66,000 participants in multiple countries. As with most longitudinal studies, extensive funding support is needed for SAGE to collect the relevant data over timescales and at intervals that will support robust conclusions. But the quality of a more constrained investigation, such as a sociology study seeking only to yield the average age at which people in a given city first become parents, is much less dependent on high levels of funding because ______",
     "choices": [
       {
         "id": "A",
@@ -430,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -439,12 +436,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_13",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nAnne Bronte's 1847 novel *Agnes Grey* contains elements drawn from Bronte's own life: there are many parallels between the experiences of the novel's title character and those of Bronte, and as a result *Agnes Grey* is regularly described as an autobiographical novel. This characterization can be useful, but it also presents drawbacks in terms of how the work is perceived, as it may lead readers to believe that Bronte merely fictionalized true events, which, in an artistic field where creativity and inventiveness are prized, can suggest that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nAnne Bronte's 1847 novel *Agnes Grey* contains elements drawn from Bronte's own life: there are many parallels between the experiences of the novel's title character and those of Bronte, and as a result *Agnes Grey* is regularly described as an autobiographical novel. This characterization can be useful, but it also presents drawbacks in terms of how the work is perceived, as it may lead readers to believe that Bronte merely fictionalized true events, which, in an artistic field where creativity and inventiveness are prized, can suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -466,21 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_14",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nPrevious research has shown that plant species with a narrow geographical range tend to be more genetically homogeneous than plant species with extensive ranges are. Based on these findings, researchers recently ran simulations to predict how the genetic variation of several species of *Mammillaria*, a genus of cactus found throughout the Americas, might change in different distribution conditions. One of these species, *M. klissingiana*, is found only in the state of Tamaulipas. The researchers simulated what would happen if *M. klissingiana* spread to new habitats outside Tamaulipas, and, consistent with previous findings, the results showed that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nPrevious research has shown that plant species with a narrow geographical range tend to be more genetically homogeneous than plant species with extensive ranges are. Based on these findings, researchers recently ran simulations to predict how the genetic variation of several species of *Mammillaria*, a genus of cactus found throughout the Americas, might change in different distribution conditions. One of these species, *M. klissingiana*, is found only in the state of Tamaulipas. The researchers simulated what would happen if *M. klissingiana* spread to new habitats outside Tamaulipas, and, consistent with previous findings, the results showed that ______",
     "choices": [
       {
         "id": "A",
@@ -502,21 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_15",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nArthurian legends (tales related to the character of King Arthur) derive from many sources, such as *Annales Cambriae*, composed around 970, and the *Mabinogion* from the 12th and 13th centuries. One of the most significant sources, Geoffrey of Monmouth's *History of the Kings of Britain*, was written in Latin in the 1130s; some material from it was later adapted by the Norman poet Wace into the *Roman de Brut* in 1155. But while no source before 1155 includes references to the famous Round Table at which Arthur's knights assembled, both the *Roman de Brut* and Sir Thomas Malory's 15th-century compilation of Arthurian legends, *Le Morte d\u2019Arthur*, do. It can therefore be inferred that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nArthurian legends (tales related to the character of King Arthur) derive from many sources, such as *Annales Cambriae*, composed around 970, and the *Mabinogion* from the 12th and 13th centuries. One of the most significant sources, Geoffrey of Monmouth's *History of the Kings of Britain*, was written in Latin in the 1130s; some material from it was later adapted by the Norman poet Wace into the *Roman de Brut* in 1155. But while no source before 1155 includes references to the famous Round Table at which Arthur's knights assembled, both the *Roman de Brut* and Sir Thomas Malory's 15th-century compilation of Arthurian legends, *Le Morte d’Arthur*, do. It can therefore be inferred that ______",
     "choices": [
       {
         "id": "A",
@@ -532,15 +529,15 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "*Le Morte d\u2019Arthur* is more historically accurate than *History*, because the *Mabinogion* had not been written when Geoffrey of Monmouth was writing his work."
+        "text": "*Le Morte d’Arthur* is more historically accurate than *History*, because the *Mabinogion* had not been written when Geoffrey of Monmouth was writing his work."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -548,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_16",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe writer Maya Angelou, along with others such as Lorenzo Thomas and Gwendolyn Brooks, ______ commonly associated with the Black Arts movement, a loose-knit group of writers and artists active in the 1960s and the 1970s who were interested in exploring the Black American experience through their work.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe writer Maya Angelou, along with others such as Lorenzo Thomas and Gwendolyn Brooks, ______ commonly associated with the Black Arts movement, a loose-knit group of writers and artists active in the 1960s and the 1970s who were interested in exploring the Black American experience through their work.",
     "choices": [
       {
         "id": "A",
@@ -574,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -583,12 +580,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_17",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, but when it was created in 1889, it was little more than a marketing gimmick; brothers Andre and Edouard Michelin sought to increase profits for their tire company by encouraging their customers to drive across France, visiting the guide's recommended hotels and restaurants along the way. Nevertheless, the guide soon grew in scope and ______ its modest French eateries were replaced with some of the most esteemed restaurants from around the world, including Ishikawa in Tokyo and Jade Dragon in Macau.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, but when it was created in 1889, it was little more than a marketing gimmick; brothers Andre and Edouard Michelin sought to increase profits for their tire company by encouraging their customers to drive across France, visiting the guide's recommended hotels and restaurants along the way. Nevertheless, the guide soon grew in scope and ______ its modest French eateries were replaced with some of the most esteemed restaurants from around the world, including Ishikawa in Tokyo and Jade Dragon in Macau.",
     "choices": [
       {
         "id": "A",
@@ -610,9 +607,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -620,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_18",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWriter Silvia Moreno-Garcia's love of short fiction began when she read a collection of Edgar Allan Poe's stories as a child, and she would develop into a prolific short story writer herself, publishing pieces like \u201cAhuizotl\u201d (2015) and \u201cWater\u201d (2007). Yet she's best known as novelist, in part due to her ______ Gothic (2020) earning a spot on the *New York Times* Best Sellers list.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWriter Silvia Moreno-Garcia's love of short fiction began when she read a collection of Edgar Allan Poe's stories as a child, and she would develop into a prolific short story writer herself, publishing pieces like “Ahuizotl” (2015) and “Water” (2007). Yet she's best known as novelist, in part due to her ______ Gothic (2020) earning a spot on the *New York Times* Best Sellers list.",
     "choices": [
       {
         "id": "A",
@@ -646,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -656,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_19",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWithin Earth's biomes, there are four main types of deserts: arid, semiarid, coastal, and cold. The Great Salt Desert in western Asia is an arid ______ it is one of the largest deserts in the world, with a total area of about 77,000 km\u00b2.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWithin Earth's biomes, there are four main types of deserts: arid, semiarid, coastal, and cold. The Great Salt Desert in western Asia is an arid ______ it is one of the largest deserts in the world, with a total area of about 77,000 km².",
     "choices": [
       {
         "id": "A",
@@ -682,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -691,12 +688,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_20",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nSociologist Alton Okinaka sits on the review board tasked with adding new sites to the Hawaii Register of Historic Places, which includes the Pufu'opae Bridge, built in 1915, and the Ma\u2019alaea General Store, built in 1910. Okinaka doesn't make such decisions single-handedly, ______ historical designations must be approved by a group of nine other experts.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nSociologist Alton Okinaka sits on the review board tasked with adding new sites to the Hawaii Register of Historic Places, which includes the Pufu'opae Bridge, built in 1915, and the Ma’alaea General Store, built in 1910. Okinaka doesn't make such decisions single-handedly, ______ historical designations must be approved by a group of nine other experts.",
     "choices": [
       {
         "id": "A",
@@ -718,9 +715,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -728,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_21",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter finding information about Harold Eugene Ford, who represented Tennessee in the United States House of Representatives, the student discovered biographical sketches of two other Black Americans who served in ______ Harold Washington of Illinois and Augustus (Gus) Freeman Hawkins of California.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter finding information about Harold Eugene Ford, who represented Tennessee in the United States House of Representatives, the student discovered biographical sketches of two other Black Americans who served in ______ Harold Washington of Illinois and Augustus (Gus) Freeman Hawkins of California.",
     "choices": [
       {
         "id": "A",
@@ -754,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -764,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_22",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. According to this data, in July 2021, a \"basket\" of goods and services priced at 100 US dollars (USD) in the United States would have cost 62 USD in fellow OECD member ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. According to this data, in July 2021, a \"basket\" of goods and services priced at 100 US dollars (USD) in the United States would have cost 62 USD in fellow OECD member ______",
     "choices": [
       {
         "id": "A",
@@ -784,13 +781,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "nation\u2014Chile."
+        "text": "nation—Chile."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -800,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_23",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\n\u201cOf Names,\u201d an essay by French philosopher Michel de Montaigne, explores a relatively light subject, while his essay \u201cOf the Punishment of Cowardice\u201d takes on heavier fare. No matter the essay topic, Montaigne challenges his own ideas, beliefs, and values. ______ he questions his own perspective, regardless of subject matter.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\n“Of Names,” an essay by French philosopher Michel de Montaigne, explores a relatively light subject, while his essay “Of the Punishment of Cowardice” takes on heavier fare. No matter the essay topic, Montaigne challenges his own ideas, beliefs, and values. ______ he questions his own perspective, regardless of subject matter.",
     "choices": [
       {
         "id": "A",
@@ -826,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -836,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_24",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThough Middle English was widely spoken in fourteenth-century England, the language was rarely employed in literature until poet Geoffrey Chaucer helped pioneer its literary use. ______ his manuscripts contain the first documented uses of over 2,000 English words\u2014like the word \"exaltation\" in his 1386 poem \u201cThe Squire\u2019s Tale\u201d\u2014which led a contemporary to dub him \u201cthe first finder of our fair language.\u201d\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThough Middle English was widely spoken in fourteenth-century England, the language was rarely employed in literature until poet Geoffrey Chaucer helped pioneer its literary use. ______ his manuscripts contain the first documented uses of over 2,000 English words—like the word \"exaltation\" in his 1386 poem “The Squire’s Tale”—which led a contemporary to dub him “the first finder of our fair language.”",
     "choices": [
       {
         "id": "A",
@@ -862,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -872,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_25",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nBuilt at a scale of 1:110, the Eiffel Tower in Baku, Azerbaijan, is one of many replicas of the famous Eiffel Tower in Paris, France. ______ towers like the Metallic Tower of Fourviere in Lyon, France, though not exact replicas, pay homage to the Eiffel's iconic spire-like design.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nBuilt at a scale of 1:110, the Eiffel Tower in Baku, Azerbaijan, is one of many replicas of the famous Eiffel Tower in Paris, France. ______ towers like the Metallic Tower of Fourviere in Lyon, France, though not exact replicas, pay homage to the Eiffel's iconic spire-like design.",
     "choices": [
       {
         "id": "A",
@@ -898,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -908,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_26",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe Cheruku rasamu mango variety is from the South Asian country of India. ______ in 2018, 18.8 million metric tons of mangoes were produced.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe Cheruku rasamu mango variety is from the South Asian country of India. ______ in 2018, 18.8 million metric tons of mangoes were produced.",
     "choices": [
       {
         "id": "A",
@@ -934,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -944,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_27",
     "testName": "March 2023 Form A SAT English Module 1",
-    "text": "The student wants to begin a narrative about Merle Oberon's life. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Merle Oberon (1911\u20131979) was an actress born in Mumbai (then known as Bombay), India.\n\u2022 She was of Indian, Maori, and Irish heritage.\n\u2022 She was the first Indian-born actress to be nominated for an Academy Award.\n\u2022 Early in her career, she played many nameless, uncredited roles, such as her role in *Aren\u2019t We All?* (1932).\n\u2022 Later, she played many named, credited roles, such as Sue Mayberry in *Affectionately Yours* (1941).\n\nThe student wants to begin a narrative about Merle Oberon's life. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to begin a narrative about Merle Oberon's life. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Merle Oberon (1911–1979) was an actress born in Mumbai (then known as Bombay), India.\n• She was of Indian, Maori, and Irish heritage.\n• She was the first Indian-born actress to be nominated for an Academy Award.\n• Early in her career, she played many nameless, uncredited roles, such as her role in *Aren’t We All?* (1932).\n• Later, she played many named, credited roles, such as Sue Mayberry in *Affectionately Yours* (1941).",
     "choices": [
       {
         "id": "A",
@@ -970,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_1",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M1_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_2",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -53,15 +52,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_3",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -89,7 +88,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -97,7 +96,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_4",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -132,12 +131,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_6",
     "testName": "March 2025 US Form B SAT Math Module 1",
-    "text": "x =16\n\u22123 x + y =\u22125\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "text": "x =16\n−3 x + y =−5\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
     "choices": [
       {
         "id": "A",
@@ -161,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_7",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -197,7 +196,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
@@ -205,7 +204,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_8",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -213,19 +212,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "35\u03c0"
+        "text": "35π"
       },
       {
         "id": "B",
-        "text": "70\u03c0"
+        "text": "70π"
       },
       {
         "id": "C",
-        "text": "140\u03c0"
+        "text": "140π"
       },
       {
         "id": "D",
-        "text": "1,225\u03c0"
+        "text": "1,225π"
       }
     ],
     "correctAnswer": "D",
@@ -241,11 +240,11 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_9",
     "testName": "March 2025 US Form B SAT Math Module 1",
-    "text": "In the xy-plane, circle F is defined by the equation (x + 7) 2 + (1 + 7) 2 = 36. Circle G has the same center as circle F, and the radius of circle G is 2 units greater than the radius of circle F. Circle G is defined by the equation (x + 7)\u00b2+ (y + 7) 2 = p, where p is a constant.What is the value of p?",
+    "text": "In the xy-plane, circle F is defined by the equation (x + 7) 2 + (1 + 7) 2 = 36. Circle G has the same center as circle F, and the radius of circle G is 2 units greater than the radius of circle F. Circle G is defined by the equation (x + 7)²+ (y + 7) 2 = p, where p is a constant.What is the value of p?",
     "choices": [],
     "correctAnswer": "64",
     "type": "free-response",
@@ -259,8 +258,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_10",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -288,15 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_11",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -307,35 +306,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_12",
     "testName": "March 2025 US Form B SAT Math Module 1",
-    "text": "In the figure shown, triangle CAE is similar to triangle CBD. The measure of angle CBD is 57\u00b0, and AE=21(BD). What is the measure of angle CAE?",
+    "text": "In the figure shown, triangle CAE is similar to triangle CBD. The measure of angle CBD is 57°, and AE=21(BD). What is the measure of angle CAE?",
     "choices": [
       {
         "id": "A",
-        "text": "$(21\u00b757)^\\circ$"
+        "text": "$(21·57)^\\circ$"
       },
       {
         "id": "B",
-        "text": "(21+ 57)\u00b0"
+        "text": "(21+ 57)°"
       },
       {
         "id": "C",
-        "text": "57\u00b0"
+        "text": "57°"
       },
       {
         "id": "D",
-        "text": "21\u00b0"
+        "text": "21°"
       }
     ],
     "correctAnswer": "C",
@@ -343,16 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M1_Q12_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_13",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -380,16 +378,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M1_Q13_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_15",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -417,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_16",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -453,15 +450,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_18",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -489,15 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_19",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -507,8 +504,8 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -516,7 +513,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_20",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -551,28 +548,27 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_21",
     "testName": "March 2025 US Form B SAT Math Module 1",
-    "text": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan \u03b8 < $\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 29.1 inches, what is the least possible value of x, in inches?",
+    "text": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan θ < $\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 29.1 inches, what is the least possible value of x, in inches?",
     "choices": [],
     "correctAnswer": "349.2",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M1_Q21_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_22",
     "testName": "March 2025 US Form B SAT Math Module 1",
@@ -582,10 +578,9 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_USB_Math_M1_Q22_1.png"
+    }
   }
 ];
