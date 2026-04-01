@@ -35,11 +35,11 @@ import { getBankPool } from "@/data/questionBank";
 type CategoryMapItem = { subject: string; domain: string; skill: string };
 const buildLiveCategoryMap = (): Record<string, CategoryMapItem> => {
   const map: Record<string, CategoryMapItem> = {};
-  for (const q of getBankPool("math")) {
-    map[`bank-math-${q.id}`] = { subject: "Math", domain: q.category.domain, skill: q.category.skill };
+  for (const q of getBankPool("math", "all")) {
+    map[q.stableId] = { subject: "Math", domain: q.category.domain, skill: q.category.skill };
   }
-  for (const q of getBankPool("reading")) {
-    map[`bank-reading-${q.id}`] = { subject: "English", domain: q.category.domain, skill: q.category.skill };
+  for (const q of getBankPool("reading", "all")) {
+    map[q.stableId] = { subject: "English", domain: q.category.domain, skill: q.category.skill };
   }
   return map;
 };

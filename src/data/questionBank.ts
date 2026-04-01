@@ -1,8 +1,7 @@
-import { questions as allQuestionsData, type Question as SourceQuestion } from "./all_questions";
-import { questionImageMap } from "./questionImageMap";
-import { satImageManifest } from "./satImageManifest";
-// @ts-ignore
-// import categoryMap from "./category_map.json"; // IDs don't match anymore
+import { questions as pastSatQuestionsData, type Question as SourceQuestion } from "./all_questions";
+import { questions as unofficialQuestionsData } from "./unofficialQuestions";
+import { resolveSatChoiceImage, resolveSatQuestionImages } from "./satQuestionImages";
+import { normalizeTextForMathRendering } from "@/lib/utils";
 import {
   classifyQuestion,
   inferSubjectFromSource,
@@ -18,10 +17,35 @@ import {
   allEnglishDomains,
 } from "./questionCategories";
 
-const allQuestions = allQuestionsData;
-// const questionCategoryMap = categoryMap as Record<string, { subject: string; domain: string; skill: string; confidence: string }>;
-
 export type BankSubject = "math" | "reading";
+export type BankSourceId = "past" | "unofficial";
+export type BankSourceFilter = BankSourceId | "all";
+
+export const BANK_SOURCE_LABELS: Record<BankSourceId, string> = {
+  unofficial: "Unofficial Bank",
+  past: "Past SAT-based",
+};
+
+export const DEFAULT_BANK_SOURCE: BankSourceId = "unofficial";
+
+interface RawBankSource {
+  bankType: BankSourceId;
+  bankLabel: string;
+  questions: SourceQuestion[];
+}
+
+const rawSources: RawBankSource[] = [
+  {
+    bankType: "unofficial",
+    bankLabel: BANK_SOURCE_LABELS.unofficial,
+    questions: unofficialQuestionsData as SourceQuestion[],
+  },
+  {
+    bankType: "past",
+    bankLabel: BANK_SOURCE_LABELS.past,
+    questions: pastSatQuestionsData,
+  },
+];
 
 export interface BankChoice {
   id: string;
@@ -30,8 +54,13 @@ export interface BankChoice {
 }
 
 export interface BankQuestion {
-  /** 1-based index within the filtered subject list */
+  /** 1-based index within the active bank source + subject pool */
   id: number;
+  /** stable unique id for progress and storage */
+  stableId: string;
+  bankType: BankSourceId;
+  bankLabel: string;
+  subject: BankSubject;
   /** original unique id from the source dataset */
   sourceId: string;
   questionNumber: number | string;
@@ -51,132 +80,68 @@ export interface BankQuestion {
 export type { QuestionCategory, MathDomain, EnglishDomain, MathSkill, EnglishSkill };
 export { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains };
 
-// Prefer the SAT-style images directory for all bank assets
-const SAT_IMAGE_BASE = "/images/SAT-Style%20Questions/";
-
-const safeDecodeURIComponent = (value: string): string => {
-  try {
-    return decodeURIComponent(value);
-  } catch {
-    return value;
-  }
+export const normalizeBankSource = (value: string | null | undefined): BankSourceId => {
+  if (value === "past") return "past";
+  if (value === "unofficial") return "unofficial";
+  return DEFAULT_BANK_SOURCE;
 };
 
-const toCanonicalSatImagePath = (input: string): string | undefined => {
-  if (!input) return undefined;
-  const normalized = input.replace(/\\/g, "/").trim();
-  const segments = normalized.split("/").filter(Boolean);
-  const rawName = segments[segments.length - 1];
-  if (!rawName) return undefined;
-  const decodedName = safeDecodeURIComponent(rawName);
-  return `${SAT_IMAGE_BASE}${encodeURIComponent(decodedName)}`;
-};
+export const buildBankQuestionKey = (
+  bankType: BankSourceId,
+  subject: BankSubject,
+  sourceId: string,
+): string => `bank-${bankType}-${subject}-${sourceId}`;
 
-const ensureSatImagePath = (path: string) => {
-  if (!path) return undefined;
-
-  const normalized = path.replace(/\\/g, "/").trim();
-  const candidates = new Set<string>();
-
-  if (normalized.startsWith("/images/")) {
-    const encodedFull = normalized
-      .split("/")
-      .map((segment, index) =>
-        index === 0 ? segment : encodeURIComponent(safeDecodeURIComponent(segment))
-      )
-      .join("/");
-    candidates.add(encodedFull);
-    candidates.add(normalized);
-  }
-
-  const canonicalSatPath = toCanonicalSatImagePath(normalized);
-  if (canonicalSatPath) {
-    candidates.add(canonicalSatPath);
-  }
-
-  for (const candidate of candidates) {
-    if (satImageManifest.has(candidate)) {
-      return candidate;
-    }
-  }
-
-  return undefined;
-};
-
-// Heuristic: preserve real math $...$ pairs; escape lone/likely-currency dollars.
 const sanitizeCurrency = (text: string | null | undefined): string => {
-  if (!text) return text || "";
-  let result = "";
-  let i = 0;
-  while (i < text.length) {
-    const ch = text[i];
-    if (ch !== "$") {
-      result += ch;
-      i += 1;
-      continue;
-    }
-
-    // Find the next dollar sign
-    const next = text.indexOf("$", i + 1);
-    if (next === -1) {
-      result += "&dollar;";
-      i += 1;
-      continue;
-    }
-
-    const between = text.slice(i + 1, next);
-    const hasMathTokens = /\\|\^|_|\{|\}|=|\//.test(between);
-    const isShortPair = between.length <= 6; // covers $2$, $-2$, $x+5$
-
-    if (hasMathTokens || isShortPair) {
-      // Treat as math delimiter pair; keep both dollars
-      result += "$" + between + "$";
-      i = next + 1;
-    } else {
-      // Likely currency (e.g., $ 2.50) — escape current and keep scanning
-      result += "&dollar;";
-      i += 1;
-    }
-  }
-  return result;
+  return normalizeTextForMathRendering(text);
 };
 
 const inferQuestionSubject = (q: SourceQuestion): QuestionCategory["subject"] | null =>
   inferSubjectFromSource({
     section: q.section,
     subject: q.category?.subject,
+    domain: q.category?.domain ?? q.domain,
+    skill: q.category?.skill ?? q.skill,
     testName: q.testName,
   });
 
 const isMathQuestion = (q: SourceQuestion): boolean => {
-    // 0. Trust structured metadata when available
-    const sourceSubject = inferQuestionSubject(q);
-    if (sourceSubject) return sourceSubject === "Math";
+  const sourceSubject = inferQuestionSubject(q);
+  if (sourceSubject) return sourceSubject === "Math";
 
-    // 1. Check for Math in image path
-    if (q.image && (q.image.includes("Math") || q.image.includes("_Math_"))) return true;
-    if (q.image && (q.image.includes("Eng") || q.image.includes("_Eng_"))) return false;
+  if (q.image && (q.image.includes("Math") || q.image.includes("_Math_"))) return true;
+  if (q.image && (q.image.includes("Eng") || q.image.includes("_Eng_"))) return false;
 
-    // 2. Check for Math Symbols in text
-    // We ignore generic "\\" because it is used as a separator in English questions
-    if (q.text.includes("$")) return true;
-    // Check for specific LaTeX math indicators
-    if (/\\(frac|sqrt|sum|int|theta|pi|infty|approx|ne|le|ge|cdot|angle|triangle)/.test(q.text)) return true;
+  if (q.text.includes("$")) return true;
+  if (/\\(frac|sqrt|sum|int|theta|pi|infty|approx|ne|le|ge|cdot|angle|triangle)/.test(q.text)) return true;
 
-    const lower = q.text.toLowerCase();
+  const lower = q.text.toLowerCase();
+  const englishKeywords = [
+    "choice completes the text",
+    "most logical and precise",
+    "main purpose of the text",
+    "based on the text",
+    "function of the underlined part",
+  ];
+  if (englishKeywords.some((keyword) => lower.includes(keyword))) return false;
 
-    // 3. Early exit for English indicators (prioritize over generic math keywords)
-    const englishKeywords = ["choice completes the text", "most logical and precise", "main purpose of the text", "based on the text", "function of the underlined part"];
-    if (englishKeywords.some(k => lower.includes(k))) return false;
+  const mathKeywords = [
+    "equation",
+    "function",
+    "triangle",
+    "circle",
+    "graph",
+    "xy-plane",
+    "value of",
+    "x-axis",
+    "y-axis",
+    "integer",
+    "constant",
+  ];
+  if (mathKeywords.some((keyword) => lower.includes(keyword))) return true;
 
-    // 4. Check for specific keywords
-    const mathKeywords = ["equation", "function", "triangle", "circle", "graph", "xy-plane", "value of", "x-axis", "y-axis", "integer", "constant"];
-    if (mathKeywords.some(k => lower.includes(k))) return true;
-
-    // Fallback: If it has numbers and symbols = Math? 
-    if (/[0-9]=/.test(q.text)) return true;
-
-    return false;
+  if (/[0-9]=/.test(q.text)) return true;
+  return false;
 };
 
 const hasRenderableStem = (q: SourceQuestion): boolean => {
@@ -185,62 +150,140 @@ const hasRenderableStem = (q: SourceQuestion): boolean => {
   return hasText || hasImage;
 };
 
-const mapImages = (q: SourceQuestion) => {
-  const supplemental = questionImageMap[String(q.id)];
-  const supplementalImages = supplemental?.questionImages
-    ?.map((img) => {
-      const src = ensureSatImagePath(img.src);
-      if (!src) return null;
-      return {
-        src,
-        alt: img.alt || "Question image",
-      };
-    })
-    .filter((img): img is { src: string; alt: string } => Boolean(img));
-
-  if (supplementalImages && supplementalImages.length > 0) {
-    return supplementalImages;
-  }
-
-  if (!q.image) return undefined;
-  const stemImage = ensureSatImagePath(q.image);
-  if (!stemImage) return undefined;
-  return [
-    {
-      src: stemImage,
-      alt: "Question image",
-    },
-  ];
-};
+const mapImages = (q: SourceQuestion) => resolveSatQuestionImages(q.id, q.image);
 
 const mapChoices = (q: SourceQuestion) => {
-  const choices = q.choices;
-  if (!choices) return undefined;
-  const supplemental = questionImageMap[String(q.id)];
-  return choices.map((choice) => {
-    const fallbackChoiceImage = supplemental?.choiceImages?.[choice.id];
-    const resolvedChoiceImage = choice.image
-      ? ensureSatImagePath(choice.image)
-      : fallbackChoiceImage
-      ? ensureSatImagePath(fallbackChoiceImage)
-      : undefined;
-
-    return {
-      id: choice.id,
-      text: choice.text ? sanitizeCurrency(choice.text) : undefined,
-      image: resolvedChoiceImage,
-    } satisfies BankChoice;
-  });
+  if (!q.choices) return undefined;
+  return q.choices.map((choice) => ({
+    id: choice.id,
+    text: choice.text ? sanitizeCurrency(choice.text) : undefined,
+    image: resolveSatChoiceImage(q.id, choice.id, choice.image),
+  }));
 };
 
-const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
-  const type: BankQuestion["type"] = q.type;
-  const sourceSubject = inferQuestionSubject(q);
-  const isMath = sourceSubject ? sourceSubject === "Math" : isMathQuestion(q);
-  // Full text for classification
-  const fullText = q.text + " " + (q.choices?.map((c) => c.text || "").join(" ") || "");
-  
-  let category: QuestionCategory;
+const extractLegacyQuestionNumber = (sourceId: string): number | string => {
+  const match = sourceId.match(/_(\d+)$/);
+  return match ? Number.parseInt(match[1], 10) : sourceId;
+};
+
+const QUESTION_PROMPT_PATTERNS = [
+  /^which choice\b/i,
+  /^based on the two texts\b/i,
+  /^based on both texts\b/i,
+  /^based on these notes\b/i,
+  /^based on the text\b/i,
+  /^based on the texts\b/i,
+  /^according to the text\b/i,
+  /^according to the texts\b/i,
+  /^according to the table\b/i,
+  /^according to the graph\b/i,
+  /^according to the figure\b/i,
+  /^what does the text\b/i,
+  /^what do the texts\b/i,
+  /^what does the passage\b/i,
+  /^what does the graph\b/i,
+  /^what is the main idea\b/i,
+  /^what is the main purpose\b/i,
+  /^what is true\b/i,
+  /^what can be concluded\b/i,
+  /^what can reasonably be inferred\b/i,
+  /^what does the text most strongly suggest\b/i,
+  /^which finding\b/i,
+  /^which statement\b/i,
+  /^how would the author\b/i,
+  /^how does the author\b/i,
+  /^how does the text\b/i,
+  /^which quotation\b/i,
+  /^which choice best\b/i,
+  /^it can most reasonably be inferred\b/i,
+  /^the student wants\b/i,
+];
+
+const PASSAGE_MARKER_PATTERNS = [
+  /^text 1\b/i,
+  /^text 2\b/i,
+  /^while researching a topic\b/i,
+  /^the (?:table|graph|figure|chart)\b/i,
+  /^for each data category\b/i,
+  /^•\s/m,
+];
+
+const isLikelyQuestionPrompt = (text: string): boolean => {
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  return QUESTION_PROMPT_PATTERNS.some((pattern) => pattern.test(trimmed));
+};
+
+const isLikelyPassageBlock = (text: string): boolean => {
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  if (PASSAGE_MARKER_PATTERNS.some((pattern) => pattern.test(trimmed))) return true;
+  if (/^text\s+\d+\b/im.test(trimmed)) return true;
+  if (trimmed.includes("\n")) return true;
+  if (!trimmed.endsWith("?") && trimmed.split(/\s+/).length >= 25) return true;
+  return false;
+};
+
+const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
+  if (!raw.includes("\\\\")) {
+    return {
+      passage: sanitizeCurrency(raw),
+      questionText: undefined,
+    };
+  }
+
+  const parts = raw.split("\\\\");
+  let first = parts[0]?.trim() || "";
+  let rest = parts.slice(1).join("\n\n").trim();
+
+  if (first.endsWith("Text 1")) {
+    first = first.substring(0, first.lastIndexOf("Text 1")).trim();
+    rest = `Text 1\n\n${rest}`.trim();
+  }
+
+  const firstLooksLikeQuestion = isLikelyQuestionPrompt(first);
+  const restLooksLikeQuestion = isLikelyQuestionPrompt(rest);
+  const firstLooksLikePassage = isLikelyPassageBlock(first);
+  const restLooksLikePassage = isLikelyPassageBlock(rest);
+
+  const firstEndsWithQuestion = first.endsWith("?");
+  const restEndsWithQuestion = rest.endsWith("?");
+
+  if ((restLooksLikeQuestion || restEndsWithQuestion) && (firstLooksLikePassage || !firstLooksLikeQuestion)) {
+    return {
+      passage: sanitizeCurrency(first),
+      questionText: sanitizeCurrency(rest),
+    };
+  }
+
+  if ((firstLooksLikeQuestion || firstEndsWithQuestion) && (restLooksLikePassage || !restLooksLikeQuestion)) {
+    return {
+      passage: sanitizeCurrency(rest),
+      questionText: sanitizeCurrency(first),
+    };
+  }
+
+  if (firstLooksLikePassage && !restLooksLikePassage) {
+    return {
+      passage: sanitizeCurrency(first),
+      questionText: sanitizeCurrency(rest),
+    };
+  }
+
+  if (restLooksLikePassage && !firstLooksLikePassage) {
+    return {
+      passage: sanitizeCurrency(rest),
+      questionText: sanitizeCurrency(first),
+    };
+  }
+
+  return {
+    passage: sanitizeCurrency(rest),
+    questionText: sanitizeCurrency(first),
+  };
+};
+
+const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQuestion, "id"> => {
   const sourceCategory = normalizeCategoryFromSource({
     section: q.section,
     testName: q.testName,
@@ -250,155 +293,145 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
     confidence: q.category?.confidence,
   });
 
-  if (sourceCategory && (!sourceSubject || sourceCategory.subject === sourceSubject)) {
-    category = sourceCategory;
-  } else {
-    // Fallback to classifier only when source metadata is missing/inconsistent
-    category = classifyQuestion(fullText, isMath) || {
+  const isMath = sourceCategory
+    ? sourceCategory.subject === "Math"
+    : isMathQuestion(q);
+
+  const fullText = `${q.text} ${(q.choices?.map((choice) => choice.text || "").join(" ")) || ""}`;
+  const category =
+    sourceCategory ||
+    classifyQuestion(fullText, isMath) || {
       subject: isMath ? "Math" : "English",
       domain: isMath ? "Algebra" : "Information and Ideas",
       skill: isMath ? "Linear equations in one variable" : "Central Ideas and Details",
       confidence: "low" as const,
     };
-  }
 
-  // Layout Logic for English Questions
+  const subject: BankSubject = category.subject === "Math" ? "math" : "reading";
   let prompt = sanitizeCurrency(q.text);
-  let passage: string | undefined = undefined;
+  let passage: string | undefined;
   let questionText: string | undefined = sanitizeCurrency(q.text);
 
   if (!isMath) {
-    // English Logic
     const isRhetorical = category.skill === "Rhetorical Synthesis";
 
     if (isRhetorical) {
-       // Rhetorical Synthesis: All content on left (Passage), nothing above choices
-       passage = prompt;
-       questionText = undefined;
+      passage = prompt;
+      questionText = undefined;
     } else {
-       // Standard English: Split into Question (First part) and Passage (Remaining)
-       // The dataset typically uses "\\" (double backslash) to separate the question prompt from the passage
-       const raw = q.text;
-       // Check for double backslash (represented as \\\\ in literal string matches)
-       if (raw.includes("\\\\")) {
-         const parts = raw.split("\\\\");
-         // Part 0 is usually the question: "Which choice..."
-         let qText = parts[0];
-         let pText = parts.slice(1).join("\n\n");
-         
-         // Fix for "Text 1" leaking into the Question Prompt (Right side)
-         // Often appears as "...questions? Text 1"
-         if (qText.trim().endsWith("Text 1")) {
-            // Strip "Text 1" from the end of the question text
-            qText = qText.substring(0, qText.lastIndexOf("Text 1"));
-            // Prepend "Text 1" to the passage text
-            pText = "Text 1\n\n" + pText;
-         }
-
-         questionText = sanitizeCurrency(qText);
-         passage = sanitizeCurrency(pText);
-       } else {
-         // Fallback: If we can't split, put everything in passage to avoid duplication
-         // (Or keep as undefined passage + full questionText? No, user complained about duplication)
-         // If we set passage, Left View uses it. Right View uses questionText.
-         // If we set passage=prompt, questionText=undefined -> Left has content, Right has none.
-         passage = prompt;
-         questionText = undefined;
-       }
+      const splitStem = splitEnglishStem(q.text);
+      passage = splitStem.passage;
+      questionText = splitStem.questionText;
     }
   }
-  
+
+  const sourceId = String(q.id);
+
   return {
-    id: idx + 1,
-    sourceId: q.id.toString(),
-    questionNumber: q.id,
-    testName: q.testName || "Practice Question", 
+    stableId: buildBankQuestionKey(source.bankType, subject, sourceId),
+    bankType: source.bankType,
+    bankLabel: source.bankLabel,
+    subject,
+    sourceId,
+    questionNumber: source.bankType === "past" ? extractLegacyQuestionNumber(sourceId) : sourceId,
+    testName: q.testName || source.bankLabel,
     prompt,
-    passage, 
+    passage,
     questionText,
     choices: q.type === "multiple-choice" ? mapChoices(q) : undefined,
-    type,
+    type: q.type,
     correctAnswer: q.correctAnswer,
     questionImages: mapImages(q),
     category,
   };
 };
 
-const rawMathQuestions = allQuestions.filter((q) => isMathQuestion(q) && hasRenderableStem(q));
-const rawReadingQuestions = allQuestions.filter((q) => !isMathQuestion(q) && hasRenderableStem(q));
-
-let _mathQuestions: BankQuestion[] | null = null;
-let _readingQuestions: BankQuestion[] | null = null;
-
-const getMathQuestions = () => {
-  if (!_mathQuestions) {
-    _mathQuestions = rawMathQuestions.map(normalizeQuestion);
-  }
-  return _mathQuestions;
+const normalizedQuestionsBySource: Record<BankSourceId, Omit<BankQuestion, "id">[]> = {
+  unofficial: rawSources[0].questions.filter(hasRenderableStem).map((q) => normalizeQuestion(rawSources[0], q)),
+  past: rawSources[1].questions.filter(hasRenderableStem).map((q) => normalizeQuestion(rawSources[1], q)),
 };
 
-const getReadingQuestions = () => {
-  if (!_readingQuestions) {
-    _readingQuestions = rawReadingQuestions.map(normalizeQuestion);
-  }
-  return _readingQuestions;
+const poolCache = new Map<string, BankQuestion[]>();
+
+const getSourceIdsForFilter = (bankSource: BankSourceFilter): BankSourceId[] => {
+  if (bankSource === "all") return ["unofficial", "past"];
+  return [bankSource];
 };
 
-export const bankCounts = {
-  math: rawMathQuestions.length,
-  reading: rawReadingQuestions.length,
-};
+const makePoolCacheKey = (subject: BankSubject, bankSource: BankSourceFilter) => `${subject}:${bankSource}`;
 
-export const getBankQuestion = (subject: BankSubject, questionIndex: number): BankQuestion | null => {
-  const pool = subject === "math" ? getMathQuestions() : getReadingQuestions();
-  return pool[questionIndex - 1] || null;
-};
+export const getBankPool = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): BankQuestion[] => {
+  const cacheKey = makePoolCacheKey(subject, bankSource);
+  const cached = poolCache.get(cacheKey);
+  if (cached) return cached;
 
-export const getBankPool = (subject: BankSubject): BankQuestion[] =>
-  subject === "math" ? getMathQuestions() : getReadingQuestions();
+  const pool = getSourceIdsForFilter(bankSource)
+    .flatMap((sourceId) => normalizedQuestionsBySource[sourceId])
+    .filter((question) => question.subject === subject)
+    .map((question, index) => ({
+      ...question,
+      id: index + 1,
+    }));
+
+  poolCache.set(cacheKey, pool);
+  return pool;
+};
 
 export const getAllBankQuestions = getBankPool;
 
-// Filter by domain
+export const getBankQuestion = (
+  subject: BankSubject,
+  questionIndex: number,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): BankQuestion | null => getBankPool(subject, bankSource)[questionIndex - 1] || null;
+
+export const getBankCounts = (
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): Record<BankSubject, number> => ({
+  math: getBankPool("math", bankSource).length,
+  reading: getBankPool("reading", bankSource).length,
+});
+
+export const bankCounts = getBankCounts("all");
+
 export const getQuestionsByDomain = (
   subject: BankSubject,
-  domain: MathDomain | EnglishDomain
-): BankQuestion[] => {
-  const pool = getBankPool(subject);
-  return pool.filter((q) => q.category.domain === domain);
-};
+  domain: MathDomain | EnglishDomain,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): BankQuestion[] => getBankPool(subject, bankSource).filter((question) => question.category.domain === domain);
 
-// Filter by skill
 export const getQuestionsBySkill = (
   subject: BankSubject,
-  skill: MathSkill | EnglishSkill
-): BankQuestion[] => {
-  const pool = getBankPool(subject);
-  return pool.filter((q) => q.category.skill === skill);
-};
+  skill: MathSkill | EnglishSkill,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): BankQuestion[] => getBankPool(subject, bankSource).filter((question) => question.category.skill === skill);
 
-// Get counts by domain
-export const getDomainCounts = (subject: BankSubject): Record<string, number> => {
-  const pool = getBankPool(subject);
+export const getDomainCounts = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): Record<string, number> => {
   const counts: Record<string, number> = {};
-  for (const q of pool) {
-    counts[q.category.domain] = (counts[q.category.domain] || 0) + 1;
+  for (const question of getBankPool(subject, bankSource)) {
+    counts[question.category.domain] = (counts[question.category.domain] || 0) + 1;
   }
   return counts;
 };
 
-// Get counts by skill
-export const getSkillCounts = (subject: BankSubject): Record<string, number> => {
-  const pool = getBankPool(subject);
+export const getSkillCounts = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): Record<string, number> => {
   const counts: Record<string, number> = {};
-  for (const q of pool) {
-    counts[q.category.skill] = (counts[q.category.skill] || 0) + 1;
+  for (const question of getBankPool(subject, bankSource)) {
+    counts[question.category.skill] = (counts[question.category.skill] || 0) + 1;
   }
   return counts;
 };
 
-// Get all questions with low confidence for review
-export const getLowConfidenceQuestions = (subject: BankSubject): BankQuestion[] => {
-  const pool = getBankPool(subject);
-  return pool.filter((q) => q.category.confidence === "low");
-};
+export const getLowConfidenceQuestions = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): BankQuestion[] => getBankPool(subject, bankSource).filter((question) => question.category.confidence === "low");

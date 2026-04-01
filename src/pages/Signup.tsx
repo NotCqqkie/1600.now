@@ -12,19 +12,19 @@ import { Loader2 } from "lucide-react";
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [loading, setLoading] = useState(false);
-  const { signInWithGoogle, signUpWithEmailPassword, user, loading } = useAuth();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { signInWithGoogle, signUpWithEmailPassword, user, loading: authLoading } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
   // Redirect once auth resolves — handles both popup and redirect flows.
   useEffect(() => {
-    if (!loading && user) navigate("/");
-  }, [user, loading, navigate]);
+    if (!authLoading && user) navigate("/");
+  }, [user, authLoading, navigate]);
 
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
+    setIsSubmitting(true);
     try {
       await signUpWithEmailPassword(email, password);
       
@@ -40,7 +40,7 @@ const Signup = () => {
         description: error.message,
       });
     } finally {
-      setLoading(false);
+      setIsSubmitting(false);
     }
   };
 
@@ -108,8 +108,8 @@ const Signup = () => {
                   required
                 />
               </div>
-              <Button type="submit" className="w-full" disabled={loading}>
-                {loading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+              <Button type="submit" className="w-full" disabled={isSubmitting || authLoading}>
+                {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 Create account
               </Button>
             </form>

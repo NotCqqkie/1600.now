@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { useAuth } from "@/contexts/AuthContext";
-import { bankCounts } from "@/data/questionBank";
 import {
   ArrowRight,
   BarChart3,
@@ -23,8 +22,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 
-const questionBankTotal = bankCounts.math + bankCounts.reading;
-const totalQuestions = questionBankTotal + 100;
+const DEFAULT_QUESTION_BANK_TOTAL = 5880;
 
 // ─── Demo state machine ────────────────────────────────────────────────────
 
@@ -488,7 +486,9 @@ const FeatureCard = ({
 const Home = () => {
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
+  const [questionBankTotal, setQuestionBankTotal] = useState(DEFAULT_QUESTION_BANK_TOTAL);
   const [countValue, setCountValue] = useState(0);
+  const totalQuestions = questionBankTotal + 100;
 
   // Font + animation injection
   useEffect(() => {
@@ -533,6 +533,25 @@ const Home = () => {
     };
   }, []);
 
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadQuestionCounts = async () => {
+      const { bankCounts } = await import("@/data/questionBank");
+      if (!cancelled) {
+        setQuestionBankTotal(bankCounts.math + bankCounts.reading);
+      }
+    };
+
+    loadQuestionCounts().catch(() => {
+      // Keep the fallback count if the bank module fails to load.
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   // Count-up animation
   useEffect(() => {
     let frame = 0;
@@ -547,7 +566,7 @@ const Home = () => {
     };
     frame = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(frame);
-  }, []);
+  }, [totalQuestions]);
 
   return (
     <div
