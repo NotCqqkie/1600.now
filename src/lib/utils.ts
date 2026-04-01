@@ -101,6 +101,46 @@ const isSimpleCurrencyExpression = (candidate: string): boolean => {
   return /^[0-9][0-9,\s]*(?:\.\d+)?$/.test(amount);
 };
 
+const isSimplePercentExpression = (candidate: string): boolean => {
+  const trimmed = candidate.trim();
+  return /^[-+]?(?:\d[\d,]*(?:\.\d+)?|[A-Za-z][A-Za-z0-9]*)\s*%$/.test(trimmed);
+};
+
+const normalizeMathWrappedPercentages = (content: string): string => {
+  let result = "";
+  let cursor = 0;
+
+  while (cursor < content.length) {
+    if (
+      content[cursor] !== "$" ||
+      isEscapedAt(content, cursor) ||
+      content[cursor + 1] === "$"
+    ) {
+      result += content[cursor];
+      cursor += 1;
+      continue;
+    }
+
+    const closing = findClosingMathDelimiter(content, cursor, 1);
+    if (closing === -1) {
+      result += content[cursor];
+      cursor += 1;
+      continue;
+    }
+
+    const candidate = content.slice(cursor + 1, closing);
+    if (isSimplePercentExpression(candidate)) {
+      result += candidate.trim().replace(/\s*%\s*$/, "%");
+    } else {
+      result += content.slice(cursor, closing + 1);
+    }
+
+    cursor = closing + 1;
+  }
+
+  return result;
+};
+
 const normalizeMathWrappedCurrency = (content: string): string => {
   let result = "";
   let cursor = 0;
@@ -143,7 +183,9 @@ export function normalizeTextForMathRendering(text: string | null | undefined): 
   if (!text) return text || "";
 
   const normalizedCurrency = normalizeMathWrappedCurrency(
-    normalizeMalformedComparatorCommands(text)
+    normalizeMathWrappedPercentages(
+      normalizeMalformedComparatorCommands(text)
+    )
   );
   let result = "";
   let cursor = 0;
@@ -281,13 +323,19 @@ export function renderMixedContent(text: string): string {
     // Italic (asterisks): *text* (supports spacing like "* n *")
     html = html.replace(/(^|[^*])\*([^*]+?)\*(?!\*)/g, (_, prefix: string, inner: string) => {
       const trimmed = inner.trim();
-      return trimmed ? `${prefix}<i>${trimmed}</i>` : _;
+      if (!trimmed) return _;
+      const leading = inner.match(/^\s*/)?.[0] ?? "";
+      const trailing = inner.match(/\s*$/)?.[0] ?? "";
+      return `${prefix}${leading}<i>${trimmed}</i>${trailing}`;
     });
 
     // Italic (underscores): _text_ (supports spacing like "_ n _")
     html = html.replace(/(^|[^_])_([^_]+?)_(?!_)/g, (_, prefix: string, inner: string) => {
       const trimmed = inner.trim();
-      return trimmed ? `${prefix}<i>${trimmed}</i>` : _;
+      if (!trimmed) return _;
+      const leading = inner.match(/^\s*/)?.[0] ?? "";
+      const trailing = inner.match(/\s*$/)?.[0] ?? "";
+      return `${prefix}${leading}<i>${trimmed}</i>${trailing}`;
     });
 
     html = html.replace(

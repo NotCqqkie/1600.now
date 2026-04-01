@@ -136,7 +136,25 @@ const looksLikePassageBlock = (text: string): boolean => {
 
 const extractLeadingQuestionSentence = (text: string): { sentence?: string; remainder: string } => {
   const trimmed = text.trim();
-  if (!trimmed || looksLikePassageBlock(trimmed)) {
+  if (!trimmed) {
+    return { remainder: trimmed };
+  }
+
+  const newlineIndex = trimmed.indexOf("\n");
+  if (newlineIndex !== -1) {
+    const firstLine = trimmed.slice(0, newlineIndex).trim();
+    const rest = trimmed.slice(newlineIndex + 1).trim();
+    if (
+      firstLine &&
+      rest &&
+      looksLikeQuestionSentence(firstLine) &&
+      looksLikePassageBlock(rest)
+    ) {
+      return { sentence: firstLine, remainder: rest };
+    }
+  }
+
+  if (looksLikePassageBlock(trimmed)) {
     return { remainder: trimmed };
   }
 
@@ -900,6 +918,7 @@ function Question() {
               className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
               wrapperClassName="max-w-full"
               loading="lazy"
+              trimWhitespace={isBank && bankSource === 'unofficial'}
             />
           </div>
         ))}
@@ -1214,20 +1233,6 @@ function Question() {
                       {renderQuestionImages()}
                       {renderContent(stemContent)}
                     </>
-                  )}
-                  {questionImages && (
-                    <div className="space-y-2">
-                      {questionImages.map((img, idx) => (
-                        <div key={idx} className="w-full flex justify-center">
-                          <img
-                            src={img.src}
-                            alt={img.alt || `Question image ${idx + 1}`}
-                            className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
-                            loading="lazy"
-                          />
-                        </div>
-                      ))}
-                    </div>
                   )}
               </div>
 

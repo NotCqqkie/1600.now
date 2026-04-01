@@ -78,6 +78,7 @@ export const MultipleChoiceQuestion = ({
               )}
               wrapperClassName="max-w-full"
               loading="lazy"
+              trimWhitespace
             />
           </div>
         )}

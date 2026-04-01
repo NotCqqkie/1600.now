@@ -273,12 +273,63 @@ const isLikelyPassageBlock = (text: string): boolean => {
   return false;
 };
 
-const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
-  if (!raw.includes("\\\\")) {
+const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?: string } => {
+  const trimmed = raw.trim();
+  if (!trimmed) {
     return {
-      passage: sanitizeCurrency(raw),
+      passage: undefined,
       questionText: undefined,
     };
+  }
+
+  const newlineIndex = trimmed.indexOf("\n");
+  if (newlineIndex !== -1) {
+    const firstLine = trimmed.slice(0, newlineIndex).trim();
+    const rest = trimmed.slice(newlineIndex + 1).trim();
+    if (
+      firstLine &&
+      rest &&
+      (isLikelyQuestionPrompt(firstLine) || firstLine.endsWith("?")) &&
+      (isLikelyPassageBlock(rest) || !isLikelyQuestionPrompt(rest))
+    ) {
+      return {
+        passage: sanitizeCurrency(rest),
+        questionText: sanitizeCurrency(firstLine),
+      };
+    }
+  }
+
+  const sentenceMatch = trimmed.match(/^(.+?\?)(?:\s+|$)([\s\S]*)$/);
+  if (!sentenceMatch) {
+    return {
+      passage: sanitizeCurrency(trimmed),
+      questionText: undefined,
+    };
+  }
+
+  const questionSentence = sentenceMatch[1].trim();
+  const remainder = (sentenceMatch[2] || "").trim();
+  if (
+    questionSentence &&
+    remainder &&
+    isLikelyQuestionPrompt(questionSentence) &&
+    (isLikelyPassageBlock(remainder) || !isLikelyQuestionPrompt(remainder))
+  ) {
+    return {
+      passage: sanitizeCurrency(remainder),
+      questionText: sanitizeCurrency(questionSentence),
+    };
+  }
+
+  return {
+    passage: sanitizeCurrency(trimmed),
+    questionText: undefined,
+  };
+};
+
+const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
+  if (!raw.includes("\\\\")) {
+    return splitQuestionFirstStem(raw);
   }
 
   const parts = raw.split("\\\\");
