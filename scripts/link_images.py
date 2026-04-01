@@ -164,7 +164,7 @@ def main():
             if not exists:
                 q["questionImages"].append({
                     "src": final_path,
-                    "alt": f"Question {q['question_number']} Image"
+                    "alt": f"SAT question {q.get('id', q['question_number'])} image"
                 })
                 matched_count += 1
                 # print(f"Linked {fname} to {key}")

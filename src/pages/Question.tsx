@@ -12,6 +12,7 @@ import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { PreviousAttemptsDialog } from "@/components/PreviousAttemptsDialog";
+import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3 } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { toast } from "sonner";
@@ -22,7 +23,13 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { questions as originalQuestions } from "@/data/100 Hard";
-import { getBankQuestion as getBankQuestionNormal, bankCounts as normalBankCounts } from "@/data/questionBank";
+import {
+  getBankCounts as getBankCountsNormal,
+  getBankPool as getBankPoolNormal,
+  getBankQuestion as getBankQuestionNormal,
+  normalizeBankSource,
+  type BankSourceId,
+} from "@/data/questionBank";
 import { getBankQuestion as getBankQuestionOfficial, bankCounts as officialBankCounts } from "@/data/officialQuestionBank";
 import { cn, normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
 import { useUserProgress } from "@/hooks/useUserProgress";
@@ -77,6 +84,9 @@ const getNextStateForGreaterThan = ({
 type PracticeSetItem = {
   id: number;
   subject: "math" | "reading";
+  bankType?: BankSourceId;
+  sourceId?: string;
+  storageId?: string;
 };
 
 const formatTimer = (totalSeconds: number) => {
@@ -85,8 +95,51 @@ const formatTimer = (totalSeconds: number) => {
   return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 };
 
+const QUESTION_SENTENCE_PATTERNS = [
+  /^which choice\b/i,
+  /^based on the\b/i,
+  /^based on both texts\b/i,
+  /^based on the two texts\b/i,
+  /^according to the\b/i,
+  /^what\b/i,
+  /^which\b/i,
+  /^how would the author\b/i,
+  /^how does the author\b/i,
+  /^how does the text\b/i,
+  /^the student wants\b/i,
+];
+
+const PASSAGE_BLOCK_PATTERNS = [
+  /^text 1\b/i,
+  /^text 2\b/i,
+  /^while researching a topic\b/i,
+  /^the (?:table|graph|figure|chart)\b/i,
+  /^for each data category\b/i,
+  /^•\s/m,
+];
+
+const looksLikeQuestionSentence = (text: string): boolean => {
+  const trimmed = text.trim();
+  if (!trimmed || !trimmed.endsWith("?")) return false;
+  return QUESTION_SENTENCE_PATTERNS.some((pattern) => pattern.test(trimmed));
+};
+
+const looksLikePassageBlock = (text: string): boolean => {
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  if (PASSAGE_BLOCK_PATTERNS.some((pattern) => pattern.test(trimmed))) return true;
+  if (/^text\s+\d+\b/im.test(trimmed)) return true;
+  if (trimmed.includes("\n")) return true;
+  if (!trimmed.endsWith("?") && trimmed.split(/\s+/).length >= 25) return true;
+  return false;
+};
+
 const extractLeadingQuestionSentence = (text: string): { sentence?: string; remainder: string } => {
   const trimmed = text.trim();
+  if (!trimmed || looksLikePassageBlock(trimmed)) {
+    return { remainder: trimmed };
+  }
+
   const match = trimmed.match(/^(.+?\?)(?:\s+|$)([\s\S]*)$/);
   if (!match) {
     return { remainder: trimmed };
@@ -94,6 +147,15 @@ const extractLeadingQuestionSentence = (text: string): { sentence?: string; rema
 
   const sentence = match[1].trim();
   const remainder = (match[2] || "").trim();
+
+  if (!looksLikeQuestionSentence(sentence)) {
+    return { remainder: trimmed };
+  }
+
+  if (remainder && !looksLikePassageBlock(remainder)) {
+    return { remainder: trimmed };
+  }
+
   return { sentence, remainder };
 };
 
@@ -110,6 +172,8 @@ function Question() {
 
   // Practice Mode detection
   const isPracticeMode = searchParams.get('practice') === 'true';
+  const bankSource = normalizeBankSource(searchParams.get("bankType"));
+  const bankQuerySuffix = isBank ? `?bankType=${bankSource}` : "";
   const practiceSet = useMemo<PracticeSetItem[]>(() => {
     if (!isPracticeMode) return [];
     try {
@@ -125,8 +189,13 @@ function Question() {
   const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading";
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || practiceSet.length === 0) return -1;
-    return practiceSet.findIndex((q) => q.id === questionNumber && q.subject === subject);
-  }, [isPracticeMode, practiceSet, questionNumber, subject]);
+    return practiceSet.findIndex(
+      (q) =>
+        q.id === questionNumber &&
+        q.subject === subject &&
+        (isOfficialBank || !q.bankType || q.bankType === bankSource),
+    );
+  }, [isPracticeMode, practiceSet, questionNumber, subject, isOfficialBank, bankSource]);
   const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
 
   // Data fetching logic
@@ -137,15 +206,15 @@ function Question() {
     
     // Bank / Official Bank Logic
     const getter = isOfficialBank ? getBankQuestionOfficial : getBankQuestionNormal;
-    const q = getter(subject, questionNumber);
+    const q = isOfficialBank ? getter(subject, questionNumber) : getter(subject, questionNumber, bankSource);
     
     if (!q) return null;
     return {
       ...q,
-      uuid: `${isOfficialBank ? 'official' : 'bank'}-${subject}-${q.id}` // Unique ID
+      uuid: isOfficialBank ? `official-${subject}-${q.id}` : q.stableId,
     };
 
-  }, [is100Hard, isBank, isOfficialBank, questionNumber, subject]);
+  }, [is100Hard, isBank, isOfficialBank, questionNumber, subject, bankSource]);
 
   const { progress, addAttempt, toggleReview } = useUserProgress();
   
@@ -192,6 +261,16 @@ function Question() {
   const currentQuestion = questionData;
   const currentProgress = currentQuestion ? (progress[currentQuestion.uuid] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
   const markedForReview = currentProgress.isMarkedForReview;
+  const localStateKey = currentQuestion
+    ? (is100Hard ? `question-${questionNumber}` : currentQuestion.uuid)
+    : `question-${questionNumber}`;
+  const bankNavigationItems = useMemo(() => {
+    if (!isBank) return [];
+    return getBankPoolNormal(subject, bankSource).map((question) => ({
+      id: question.id,
+      storageId: question.stableId,
+    }));
+  }, [isBank, subject, bankSource]);
 
   // View Mode Defaulting for different subjects
   useEffect(() => {
@@ -501,7 +580,7 @@ function Question() {
   }, [isSplitScreenActive]);
 
   if (!currentQuestion) {
-    const fallbackDestination = isOfficialBank ? "/official-bank" : isBank ? "/bank" : "/";
+    const fallbackDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/";
     return <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">Question not found</h1>
@@ -544,11 +623,11 @@ function Question() {
       return practiceSet.length;
     }
     if (subject) {
-      const counts = isOfficialBank ? officialBankCounts : normalBankCounts;
+      const counts = isOfficialBank ? officialBankCounts : getBankCountsNormal(bankSource);
       return counts[subject] || 0;
     }
     return 0;
-  }, [is100Hard, effectivePracticeMode, practiceSet, isOfficialBank, subject]);
+  }, [is100Hard, effectivePracticeMode, practiceSet, isOfficialBank, subject, bankSource]);
 
   const displayQuestionNumber = effectivePracticeMode ? currentPracticeIndex + 1 : questionNumber;
   const canGoPrevious = is100Hard
@@ -566,14 +645,9 @@ function Question() {
     if (!effectivePracticeMode || idx < 0 || idx >= practiceSet.length) return;
     const target = practiceSet[idx];
     const base = isOfficialBank ? '/official-bank' : '/bank';
-    navigate(`${base}/${target.subject}/${target.id}?practice=true&idx=${idx + 1}`);
+    const sourceQuery = !isOfficialBank && target.bankType ? `bankType=${target.bankType}&` : "";
+    navigate(`${base}/${target.subject}/${target.id}?${sourceQuery}practice=true&idx=${idx + 1}`);
   };
-
-  const storagePrefix = useMemo(() => {
-     if (is100Hard) return 'question';
-     if (subject) return `${isOfficialBank ? 'official-bank' : 'bank'}-${subject}`;
-     return 'bank'; 
-  }, [is100Hard, subject, isOfficialBank]);
 
   const handlePrevious = () => {
     if (!canGoPrevious) return;
@@ -588,7 +662,7 @@ function Question() {
     }
 
     const base = isOfficialBank ? '/official-bank' : '/bank';
-    navigate(`${base}/${subject}/${questionNumber - 1}`);
+    navigate(`${base}/${subject}/${questionNumber - 1}${isBank ? bankQuerySuffix : ""}`);
   };
 
   const handleNext = () => {
@@ -604,7 +678,14 @@ function Question() {
     }
 
     const base = isOfficialBank ? '/official-bank' : '/bank';
-    navigate(`${base}/${subject}/${questionNumber + 1}`);
+    navigate(`${base}/${subject}/${questionNumber + 1}${isBank ? bankQuerySuffix : ""}`);
+  };
+
+  const handleToggleReview = () => {
+    if (!currentQuestion || is100Hard) return;
+    const nextMarkedState = !markedForReview;
+    toggleReview(currentQuestion.uuid);
+    localStorage.setItem(`${currentQuestion.uuid}-flagged`, String(nextMarkedState));
   };
 
   const handleCheck = (overrideAnswer?: string) => {
@@ -657,20 +738,20 @@ function Question() {
     setAttemptCount(newAttemptCount);
 
     // Save answer state to localStorage
-    localStorage.setItem(`question-${questionNumber}-answer`, userAnswer);
-    localStorage.setItem(`question-${questionNumber}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
+    localStorage.setItem(`${localStateKey}-answer`, userAnswer);
+    localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
 
     if (isCorrect) {
       const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
       setCheckButtonState(status);
       
       // Save status to localStorage
-      localStorage.setItem(`question-${questionNumber}-status`, status);
+      localStorage.setItem(`${localStateKey}-status`, status);
     } else {
       setCheckButtonState("incorrect");
       
       // Save incorrect status
-      localStorage.setItem(`question-${questionNumber}-status`, 'incorrect');
+      localStorage.setItem(`${localStateKey}-status`, 'incorrect');
     }
   };
 
@@ -723,7 +804,7 @@ function Question() {
             
             const nextId = choiceIds[nextIndex];
             setSelectedAnswer(nextId);
-            localStorage.setItem(`question-${questionNumber}-answer`, nextId);
+            localStorage.setItem(`${localStateKey}-answer`, nextId);
           }
           break;
       }
@@ -813,10 +894,11 @@ function Question() {
       <div className="space-y-2">
         {questionImages.map((img, idx) => (
           <div key={`${img.src}-${idx}`} className="w-full flex justify-center">
-            <img
+            <TransparentAwareImage
               src={normalizePublicAssetPath(img.src)}
               alt={img.alt || `Question image ${idx + 1}`}
               className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
+              wrapperClassName="max-w-full"
               loading="lazy"
             />
           </div>
@@ -824,7 +906,7 @@ function Question() {
       </div>
     );
   };
-  const backDestination = isOfficialBank ? "/official-bank" : isBank ? "/bank" : "/";
+  const backDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/";
   const timerControls = (
     <>
       <Button
@@ -1026,7 +1108,7 @@ function Question() {
                     
                     <Button
                       variant="ghost"
-                      onClick={() => toggleReview(currentQuestion.uuid)}
+                      onClick={handleToggleReview}
                       className="h-7 rounded px-3 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-black/50"
                     >
                       <Bookmark className={cn("h-3.5 w-3.5", markedForReview && "bookmark-flag")} />
@@ -1061,12 +1143,12 @@ function Question() {
                     selectedAnswer={selectedAnswer}
                     onAnswerChange={(answer) => {
                       setSelectedAnswer(answer);
-                      localStorage.setItem(`question-${questionNumber}-answer`, answer);
+                      localStorage.setItem(`${localStateKey}-answer`, answer);
                     }}
                     onCheck={handleCheck}
                     strikeoutMode={strikeoutMode}
                     checkedAnswers={checkedAnswers}
-                    questionId={questionNumber}
+                    questionId={is100Hard ? questionNumber : currentQuestion.uuid}
                   />
                 ) : (
                   <div className="space-y-3">
@@ -1094,7 +1176,7 @@ function Question() {
                     
                     <Button
                       variant="ghost"
-                      onClick={() => toggleReview(currentQuestion.uuid)}
+                      onClick={handleToggleReview}
                       className="h-9 rounded px-4 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-black/50"
                     >
                       <Bookmark className={cn("h-4 w-4", markedForReview && "bookmark-flag")} />
@@ -1121,16 +1203,16 @@ function Question() {
               <div className="mb-6 sm:mb-8">
                   {passageContent ? (
                     <>
-                      {renderContent(passageContent)}
                       {renderQuestionImages()}
+                      {renderContent(passageContent)}
                       {showQuestionTextAboveChoices && readingQuestionSentence && (
                         <div className="mt-4">{renderContent(readingQuestionSentence)}</div>
                       )}
                     </>
                   ) : (
                     <>
-                      {renderContent(stemContent)}
                       {renderQuestionImages()}
+                      {renderContent(stemContent)}
                     </>
                   )}
               </div>
@@ -1142,12 +1224,12 @@ function Question() {
                   selectedAnswer={selectedAnswer}
                   onAnswerChange={(answer) => {
                     setSelectedAnswer(answer);
-                    localStorage.setItem(`question-${questionNumber}-answer`, answer);
+                    localStorage.setItem(`${localStateKey}-answer`, answer);
                   }}
                   onCheck={handleCheck}
                   strikeoutMode={strikeoutMode}
                   checkedAnswers={checkedAnswers}
-                  questionId={questionNumber}
+                  questionId={is100Hard ? questionNumber : currentQuestion.uuid}
                 />
               ) : (
                 <div className="space-y-3">
@@ -1224,7 +1306,7 @@ function Question() {
                         onJump={(idx) => {
                              navigateToPracticeIndex(idx);
                         }}
-                        storagePrefix={`bank-${subject}`}
+                        exitTo={`/bank?bankType=${bankSource}`}
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition} 
                      />
@@ -1235,9 +1317,9 @@ function Question() {
                     totalQuestions={totalQuestions}
                     onJump={(qNum) => {
                        const base = isOfficialBank ? '/official-bank' : '/bank';
-                       navigate(`${base}/${subject}/${qNum}`);
+                       navigate(`${base}/${subject}/${qNum}${isBank ? bankQuerySuffix : ""}`);
                     }}
-                    storagePrefix={storagePrefix}
+                    items={bankNavigationItems}
                     isSplitScreenActive={isSplitScreenActive}
                     splitPosition={splitPosition}
                  />

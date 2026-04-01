@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Youtube } from "lucide-react";
 import { DraggableWindow } from "./DraggableWindow";
-import { renderMixedContent } from "@/lib/utils";
+import { normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
 
 interface ExplanationWindowProps {
   videoUrl?: string;
@@ -76,7 +76,11 @@ export const ExplanationWindow = ({
 
     if (questionType === "multiple-choice") {
       const choice = choices?.find(c => c.id === correctAnswer);
-      const content = choice?.text || (choice?.image ? `<img src="${choice.image}" alt="Answer Image" class="max-w-full h-auto" />` : "");
+      const content = choice?.text || (
+        choice?.image
+          ? `<img src="${normalizePublicAssetPath(choice.image)}" alt="SAT question ${questionId ?? "unknown"} choice ${correctAnswer} image" class="max-w-full h-auto" />`
+          : ""
+      );
       
       return (
         <div className="flex flex-col gap-2">

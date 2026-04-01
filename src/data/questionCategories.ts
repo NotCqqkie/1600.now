@@ -171,26 +171,6 @@ const normalizeConfidence = (value: string | null | undefined): QuestionCategory
   return "high";
 };
 
-export const inferSubjectFromSource = (input: SourceCategoryInput): QuestionCategory["subject"] | null => {
-  const fromSection = normalizeKey(input.section);
-  if (fromSection === "math") return "Math";
-  if (fromSection === "reading and writing" || fromSection === "english" || fromSection === "reading & writing") {
-    return "English";
-  }
-
-  const fromSubject = normalizeKey(input.subject);
-  if (fromSubject === "math") return "Math";
-  if (fromSubject === "english" || fromSubject === "reading and writing" || fromSubject === "reading & writing") {
-    return "English";
-  }
-
-  const fromTestName = input.testName ?? "";
-  if (/\bmath\b/i.test(fromTestName)) return "Math";
-  if (/\b(english|reading|writing)\b/i.test(fromTestName)) return "English";
-
-  return null;
-};
-
 const toMathDomain = (value: string | null | undefined): MathDomain | null => {
   const key = normalizeKey(value);
   return allMathDomains.find((d) => normalizeKey(d) === key) ?? null;
@@ -209,6 +189,38 @@ const toMathSkill = (value: string | null | undefined): MathSkill | null => {
 const toEnglishSkill = (value: string | null | undefined): EnglishSkill | null => {
   const key = normalizeKey(value);
   return englishSkillAliasMap[key] ?? null;
+};
+
+const inferSubjectFromTaxonomy = (
+  domain: string | null | undefined,
+  skill: string | null | undefined,
+): QuestionCategory["subject"] | null => {
+  if (toMathDomain(domain) || toMathSkill(skill)) return "Math";
+  if (toEnglishDomain(domain) || toEnglishSkill(skill)) return "English";
+  return null;
+};
+
+export const inferSubjectFromSource = (input: SourceCategoryInput): QuestionCategory["subject"] | null => {
+  const fromTaxonomy = inferSubjectFromTaxonomy(input.domain, input.skill);
+  if (fromTaxonomy) return fromTaxonomy;
+
+  const fromSection = normalizeKey(input.section);
+  if (fromSection === "math") return "Math";
+  if (fromSection === "reading and writing" || fromSection === "english" || fromSection === "reading & writing") {
+    return "English";
+  }
+
+  const fromSubject = normalizeKey(input.subject);
+  if (fromSubject === "math") return "Math";
+  if (fromSubject === "english" || fromSubject === "reading and writing" || fromSubject === "reading & writing") {
+    return "English";
+  }
+
+  const fromTestName = input.testName ?? "";
+  if (/\bmath\b/i.test(fromTestName)) return "Math";
+  if (/\b(english|reading|writing)\b/i.test(fromTestName)) return "English";
+
+  return null;
 };
 
 const getMathDomainForSkill = (skill: MathSkill): MathDomain => {

@@ -1,10 +1,13 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useState, useMemo } from "react";
 import {
   getQuestionsByDomain,
   getQuestionsBySkill,
+  normalizeBankSource,
+  BANK_SOURCE_LABELS,
   type BankSubject,
   type BankQuestion,
+  type BankSourceId,
   type MathDomain,
   type EnglishDomain,
   type MathSkill,
@@ -24,9 +27,11 @@ import {
   Flag,
   CheckCircle2,
 } from "lucide-react";
+import { BankSourceToggle } from "@/components/BankSourceToggle";
 
 const BankFiltered = () => {
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { subject, filterType, filterValue } = useParams<{
     subject: BankSubject;
     filterType: "domain" | "skill";
@@ -40,21 +45,27 @@ const BankFiltered = () => {
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
   const isMath = validSubject === "math";
   const decodedFilter = decodeURIComponent(filterValue || "");
+  const bankSource = normalizeBankSource(searchParams.get("bankType"));
 
   const questions = useMemo(() => {
     if (filterType === "domain") {
-      return getQuestionsByDomain(validSubject, decodedFilter as MathDomain | EnglishDomain);
+      return getQuestionsByDomain(validSubject, decodedFilter as MathDomain | EnglishDomain, bankSource);
     } else {
-      return getQuestionsBySkill(validSubject, decodedFilter as MathSkill | EnglishSkill);
+      return getQuestionsBySkill(validSubject, decodedFilter as MathSkill | EnglishSkill, bankSource);
     }
-  }, [validSubject, filterType, decodedFilter]);
+  }, [validSubject, filterType, decodedFilter, bankSource]);
 
   // Get answered/flagged states from localStorage
   const getQuestionState = (q: BankQuestion) => {
-    const prefix = `bank-${validSubject}`;
-    const answered = localStorage.getItem(`${prefix}-answer-${q.id}`);
-    const flagged = localStorage.getItem(`${prefix}-flag-${q.id}`) === "true";
+    const answered = localStorage.getItem(`${q.stableId}-answer`);
+    const flagged = localStorage.getItem(`${q.stableId}-flagged`) === "true";
     return { answered: !!answered, flagged };
+  };
+
+  const handleBankSourceChange = (nextSource: BankSourceId) => {
+    const nextParams = new URLSearchParams(searchParams);
+    nextParams.set("bankType", nextSource);
+    setSearchParams(nextParams);
   };
 
   const filteredQuestions = useMemo(() => {
@@ -64,7 +75,7 @@ const BankFiltered = () => {
       (q) =>
         q.prompt.toLowerCase().includes(lower) ||
         q.testName.toLowerCase().includes(lower) ||
-        q.id.toString().includes(lower)
+        q.sourceId.toLowerCase().includes(lower)
     );
   }, [questions, search]);
 
@@ -76,7 +87,7 @@ const BankFiltered = () => {
 
   const handleQuestionClick = (q: BankQuestion) => {
     // Navigate to the question, but we need to use the pool-relative ID
-    navigate(`/bank/${validSubject}/${q.id}`);
+    navigate(`/bank/${validSubject}/${q.id}?bankType=${q.bankType}`);
   };
 
   const answeredCount = questions.filter((q) => getQuestionState(q).answered).length;
@@ -90,7 +101,7 @@ const BankFiltered = () => {
             <Button
               variant="ghost"
               size="icon"
-              onClick={() => navigate(`/bank/${validSubject}/browse`)}
+              onClick={() => navigate(`/bank/${validSubject}/browse?bankType=${bankSource}`)}
             >
               <ArrowLeft className="h-5 w-5" />
             </Button>
@@ -108,7 +119,7 @@ const BankFiltered = () => {
               </div>
               <div>
                 <p className="text-xs text-muted-foreground uppercase tracking-wider">
-                  {filterType === "domain" ? "Domain" : "Skill"}
+                  {BANK_SOURCE_LABELS[bankSource]} • {filterType === "domain" ? "Domain" : "Skill"}
                 </p>
                 <h1 className="text-xl font-bold">{decodedFilter}</h1>
               </div>
@@ -118,6 +129,8 @@ const BankFiltered = () => {
               <p className="text-xs text-muted-foreground">questions</p>
             </div>
           </div>
+
+          <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
 
           {/* Stats Bar */}
           <Card className="p-4 flex items-center gap-6">
@@ -192,7 +205,7 @@ const BankFiltered = () => {
                           {q.prompt.length > 100 ? "..." : ""}
                         </p>
                         <p className="text-xs text-muted-foreground">
-                          {q.testName} • Q{q.questionNumber}
+                          {q.testName} • {q.bankLabel} • ID {q.sourceId}
                         </p>
                       </div>
                       <div className="flex items-center gap-2">

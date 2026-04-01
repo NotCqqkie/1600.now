@@ -127,43 +127,74 @@ const ScoreCalculator = () => {
         </div>
       </header>
 
-      <main className="container mx-auto max-w-5xl px-4 py-8">
-        <div className="grid gap-6 lg:grid-cols-[1.3fr_0.7fr]">
-          <Card className="border-border/70 p-6 shadow-sm">
-            <div className="mb-6 flex items-center justify-between gap-3">
+      <main className="container mx-auto max-w-6xl px-4 py-8 md:py-10">
+        <div className="space-y-6">
+          <Card className="overflow-hidden border-border/70 bg-gradient-to-br from-card via-card to-muted/20 shadow-sm">
+            <div className="grid gap-6 p-6 md:p-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
               <div>
-                <h1 className="text-2xl font-bold tracking-tight text-foreground">SAT Score Calculator</h1>
-                <p className="mt-1 text-sm text-muted-foreground">Adjust your module scores to estimate Reading and Writing, Math, and total.</p>
+                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-muted-foreground">Digital SAT estimator</p>
+                <h1 className="mt-3 text-3xl font-black tracking-tight text-foreground md:text-4xl">SAT Score Calculator</h1>
+                <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground md:text-base">
+                  Move each module slider to estimate your section scores. The total updates live so you can see the effect immediately.
+                </p>
               </div>
-              <Button variant="outline" onClick={resetScores}>
-                Reset
-              </Button>
-            </div>
 
-            <div className="space-y-4">
+              <div className="grid gap-3 sm:grid-cols-3">
+                <div className="rounded-3xl border border-primary/15 bg-primary/5 p-5 shadow-sm sm:col-span-3">
+                  <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted-foreground">Total score</p>
+                  <p className="mt-3 text-6xl font-black tracking-[-0.04em] md:text-7xl" style={{ color: scores.color }}>
+                    {scores.total}
+                  </p>
+                </div>
+
+                <div className="rounded-2xl bg-muted/50 p-4">
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Reading & Writing</p>
+                  <p className="mt-2 text-3xl font-black text-foreground">{scores.readingWriting}</p>
+                </div>
+
+                <div className="rounded-2xl bg-muted/50 p-4">
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Math</p>
+                  <p className="mt-2 text-3xl font-black text-foreground">{scores.math}</p>
+                </div>
+
+                <div className="flex items-center justify-end sm:justify-start">
+                  <Button variant="outline" onClick={resetScores} className="h-11 rounded-full px-5 text-sm font-semibold">
+                    Reset scores
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </Card>
+
+          <Card className="border-border/70 p-5 shadow-sm md:p-6">
+            <div className="grid gap-4">
               {digitalSatSections.map((section, secIdx) => {
                 const value = rawScores[String(secIdx)] ?? 0;
                 return (
-                  <div key={section.title} className="rounded-2xl border border-border/80 p-4">
-                    <div className="mb-4 flex items-center justify-between gap-3">
+                  <div
+                    key={section.title}
+                    className="rounded-3xl border border-border/70 bg-gradient-to-r from-background to-muted/20 p-5 shadow-sm transition-colors hover:border-primary/25"
+                  >
+                    <div className="mb-5 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                       <div>
-                        <p className="text-base font-semibold text-foreground">{section.title}</p>
+                        <p className="text-lg font-bold text-foreground md:text-xl">{section.title}</p>
+                        <p className="mt-1 text-sm text-muted-foreground">Raw score selector</p>
                       </div>
-                      <div className="rounded-xl bg-muted/40 px-3 py-2 text-right">
-                        <p className="text-2xl font-bold text-foreground">
-                          {value}
-                          <span className="ml-1 text-sm font-medium text-muted-foreground">/ {section.maxRaw}</span>
-                        </p>
+
+                      <div className="inline-flex min-w-[110px] items-end justify-between rounded-2xl border border-border/60 bg-background/90 px-4 py-3 text-right shadow-sm">
+                        <span className="text-3xl font-black tracking-tight text-foreground">{value}</span>
+                        <span className="pb-1 text-sm font-medium text-muted-foreground">/ {section.maxRaw}</span>
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-3 md:gap-4">
                       <Button
                         type="button"
                         variant="outline"
                         size="icon"
-                        className="h-9 w-9 rounded-full"
+                        className="h-12 w-12 flex-shrink-0 rounded-full border-2 text-lg font-bold"
                         onClick={() => updateScore(secIdx, Math.max(0, value - 1))}
+                        aria-label={`Decrease ${section.title} raw score`}
                       >
                         -
                       </Button>
@@ -173,14 +204,15 @@ const ScoreCalculator = () => {
                         max={section.maxRaw}
                         step={1}
                         onValueChange={([next]) => updateScore(secIdx, next)}
-                        className="py-3 [&_[role=slider]]:border-4 [&_[role=slider]]:border-emerald-500 [&_[role=slider]]:shadow-lg [&_[role=slider]]:shadow-emerald-500/20 [&_[data-orientation=horizontal]]:h-3 [&_[data-orientation=horizontal]>span]:bg-emerald-500"
+                        className="py-4 [&_[role=slider]]:h-8 [&_[role=slider]]:w-8 [&_[role=slider]]:border-[5px] [&_[role=slider]]:border-primary [&_[role=slider]]:bg-background [&_[role=slider]]:shadow-xl [&_[role=slider]]:shadow-primary/20 [&_[role=slider]]:hover:scale-110 [&_[data-orientation=horizontal]]:h-4 [&_[data-radix-collection-item]]:transition-transform"
                       />
                       <Button
                         type="button"
                         variant="outline"
                         size="icon"
-                        className="h-9 w-9 rounded-full"
+                        className="h-12 w-12 flex-shrink-0 rounded-full border-2 text-lg font-bold"
                         onClick={() => updateScore(secIdx, Math.min(section.maxRaw, value + 1))}
+                        aria-label={`Increase ${section.title} raw score`}
                       >
                         +
                       </Button>
@@ -188,28 +220,6 @@ const ScoreCalculator = () => {
                   </div>
                 );
               })}
-            </div>
-          </Card>
-
-          <Card className="border-border/70 p-6 shadow-sm lg:sticky lg:top-24 lg:h-fit">
-            <h2 className="text-sm font-semibold uppercase tracking-[0.22em] text-muted-foreground">Scores</h2>
-            <div className="mt-5 space-y-4">
-              <div className="rounded-2xl bg-muted/40 p-4">
-                <p className="text-sm text-muted-foreground">Reading and Writing</p>
-                <p className="mt-1 text-4xl font-black text-foreground">{scores.readingWriting}</p>
-              </div>
-
-              <div className="rounded-2xl bg-muted/40 p-4">
-                <p className="text-sm text-muted-foreground">Math</p>
-                <p className="mt-1 text-4xl font-black text-foreground">{scores.math}</p>
-              </div>
-
-              <div className="rounded-2xl border border-primary/15 bg-primary/5 p-4">
-                <p className="text-sm text-muted-foreground">Total</p>
-                <p className="mt-1 text-5xl font-black tracking-tight" style={{ color: scores.color }}>
-                  {scores.total}
-                </p>
-              </div>
             </div>
           </Card>
         </div>

@@ -9,8 +9,8 @@ const ModuleView = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
   const navigate = useNavigate();
   
-  const mathPool = useMemo(() => getAllBankQuestions("math"), []);
-  const readingPool = useMemo(() => getAllBankQuestions("reading"), []);
+  const mathPool = useMemo(() => getAllBankQuestions("math", "past"), []);
+  const readingPool = useMemo(() => getAllBankQuestions("reading", "past"), []);
   
   const allQuestions = useMemo(() => {
      return [...mathPool, ...readingPool];
@@ -52,6 +52,8 @@ const ModuleView = () => {
                 subject: isMath ? "math" : "reading",
                 id: globalIndex + 1, // 1-based index for the URL /bank/math/123
                 sourceId: q.sourceId,
+                bankType: "past",
+                storageId: q.stableId,
                 index: idx
             };
         }).filter(Boolean); // Remove nulls
@@ -61,7 +63,7 @@ const ModuleView = () => {
             // Navigate to first question immediately
             const first = practiceSet[0];
             if (first) {
-                 navigate(`/bank/${first.subject}/${first.id}?practice=true&idx=0`, { replace: true });
+                 navigate(`/bank/${first.subject}/${first.id}?bankType=past&practice=true&idx=0`, { replace: true });
             }
         }
     }
