@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_1",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe National Heritage Fellowship was created to honor exceptional folk and traditional artists in the United States. In 2013, the fellowship was given to the Pyramid Lake Paiute storyteller Ralph Burns. Burns was ______ to receive it because of his lifetime contributions to the arts.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe National Heritage Fellowship was created to honor exceptional folk and traditional artists in the United States. In 2013, the fellowship was given to the Pyramid Lake Paiute storyteller Ralph Burns. Burns was ______ to receive it because of his lifetime contributions to the arts.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_2",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cconstantly\u201d most nearly mean?\nThe following text is adapted from Willa Cather\u2019s 1912 novel *Alexander\u2019s Bridge*.\nFor the next few days Alexander was very busy. He took a desk in the office of a [Scottish] engineering firm on Henrietta Street, and was at work almost <u>constantly</u>. He avoided the clubs and usually dined alone at his hotel.\n\nAs used in the text, what does the word \u201cconstantly\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “constantly” most nearly mean?\nThe following text is adapted from Willa Cather’s 1912 novel *Alexander’s Bridge*.\nFor the next few days Alexander was very busy. He took a desk in the office of a [Scottish] engineering firm on Henrietta Street, and was at work almost <u>constantly</u>. He avoided the clubs and usually dined alone at his hotel.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_3",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough it does not guarantee a book\u2019s commercial success, ______ can play a big role in that success\u2014a well-executed marketing campaign helped to make Danielle Steel\u2019s novel *The Gift* the fourth-best-selling novel of 1994.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThough it does not guarantee a book’s commercial success, ______ can play a big role in that success—a well-executed marketing campaign helped to make Danielle Steel’s novel *The Gift* the fourth-best-selling novel of 1994.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_4",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAccording to a team of neuroeconomists from the University of Zurich, ease of decision making may be linked to communication between two brain regions, the prefrontal cortex and the parietal cortex. Individuals tend to be more decisive if the information flow between the regions is intensified, whereas they make choices more slowly when information flow is ______.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAccording to a team of neuroeconomists from the University of Zurich, ease of decision making may be linked to communication between two brain regions, the prefrontal cortex and the parietal cortex. Individuals tend to be more decisive if the information flow between the regions is intensified, whereas they make choices more slowly when information flow is ______.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_5",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nEcologist Exequiel Ezcurra and colleagues found that the inhabitants of the Mexica empire used natural landmarks to track time with a high degree of ______. By observing the sun\u2019s position in relation to various points on the mountains surrounding the Basin of Mexico, the Mexica were able to precisely identify the dates when significant events such as solstices occurred.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nEcologist Exequiel Ezcurra and colleagues found that the inhabitants of the Mexica empire used natural landmarks to track time with a high degree of ______. By observing the sun’s position in relation to various points on the mountains surrounding the Basin of Mexico, the Mexica were able to precisely identify the dates when significant events such as solstices occurred.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -185,23 +185,23 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_6",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nThe Old Manse in Concord, Massachusetts, is the house where Ralph Waldo Emerson lived for a few years and wrote his essay \u201cNature.\u201d Now the house is a museum dedicated to Emerson\u2019s life and writings. Visitors travel to this museum to feel more connected to an author they admire. To encourage that sense of connection, the museum\u2019s curators recommend nearby hiking trails and organize outdoor activities. Such activities help visitors appreciate the natural scenery that inspired Emerson.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe Old Manse in Concord, Massachusetts, is the house where Ralph Waldo Emerson lived for a few years and wrote his essay “Nature.” Now the house is a museum dedicated to Emerson’s life and writings. Visitors travel to this museum to feel more connected to an author they admire. To encourage that sense of connection, the museum’s curators recommend nearby hiking trails and organize outdoor activities. Such activities help visitors appreciate the natural scenery that inspired Emerson.",
     "choices": [
       {
         "id": "A",
-        "text": "To summarize Emerson\u2019s biography."
+        "text": "To summarize Emerson’s biography."
       },
       {
         "id": "B",
-        "text": "To explain why readers enjoy Emerson\u2019s works."
+        "text": "To explain why readers enjoy Emerson’s works."
       },
       {
         "id": "C",
-        "text": "To describe a museum focused on Emerson\u2019s life and works."
+        "text": "To describe a museum focused on Emerson’s life and works."
       },
       {
         "id": "D",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_7",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nHorses and toads can see in three dimensions (3D), which helps them perceive distance and depth. Octopuses and squid are thought to lack 3D vision. Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true. The team studied how cuttlefish wearing 3D glasses reacted to 3D images of shrimp (a favorite prey) projected on a tank wall. <u>Cuttlefish changed their striking position to match the 3D images, suggesting that their vision is more like that of horses and toads than that of octopuses or squid.</u>\n\nWhich choice best states the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nHorses and toads can see in three dimensions (3D), which helps them perceive distance and depth. Octopuses and squid are thought to lack 3D vision. Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true. The team studied how cuttlefish wearing 3D glasses reacted to 3D images of shrimp (a favorite prey) projected on a tank wall. <u>Cuttlefish changed their striking position to match the 3D images, suggesting that their vision is more like that of horses and toads than that of octopuses or squid.</u>",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,23 +257,23 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_8",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the references to \u201cpopulation density\u201d and \u201cindividual physical fitness\u201d in the text as a whole?\nBoston has high pedestrian traffic, but simply replicating a feature of Boston associated with walkability\u2014e.g., its high number of intersections\u2014may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals\u2019 decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>population density</u>, others the role of <u>individual physical fitness</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals\u2019 choices.\n\nWhich choice best describes the function of the references to \u201cpopulation density\u201d and \u201cindividual physical fitness\u201d in the text as a whole?",
+    "text": "Which choice best describes the function of the references to “population density” and “individual physical fitness” in the text as a whole?\nBoston has high pedestrian traffic, but simply replicating a feature of Boston associated with walkability—e.g., its high number of intersections—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals’ decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>population density</u>, others the role of <u>individual physical fitness</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals’ choices.",
     "choices": [
       {
         "id": "A",
-        "text": "They represent factors that have been identified as important influences on walking decisions but that the text suggests are merely some of the many factors that may contribute to people\u2019s decision-making about walking."
+        "text": "They represent factors that have been identified as important influences on walking decisions but that the text suggests are merely some of the many factors that may contribute to people’s decision-making about walking."
       },
       {
         "id": "B",
-        "text": "They are examples of factors that studies suggest are important in people\u2019s decision making about walking but that the text claims most people rarely consider when making walking decisions."
+        "text": "They are examples of factors that studies suggest are important in people’s decision making about walking but that the text claims most people rarely consider when making walking decisions."
       },
       {
         "id": "C",
-        "text": "They identify factors that Alfonzo argues have been overemphasized in studies of decision-making about walking but that the text asserts are relevant to most people\u2019s walking decisions."
+        "text": "They identify factors that Alfonzo argues have been overemphasized in studies of decision-making about walking but that the text asserts are relevant to most people’s walking decisions."
       },
       {
         "id": "D",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_9",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nThe following text is adapted from Emily Dickinson\u2019s circa 1873 poem \u201cThere is no Frigate like a Book.\u201d A frigate is a light, fast ship; coursers are swift horses.\nThere is no Frigate like a Book\nTo take us Lands away\nNor any Coursers like a Page\nOf prancing Poetry\u2014\nThis Traverse may the poorest take\nWithout oppress of Toll\u2014\nHow frugal is the Chariot\nThat bears the Human soul.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nThe following text is adapted from Emily Dickinson’s circa 1873 poem “There is no Frigate like a Book.” A frigate is a light, fast ship; coursers are swift horses.\nThere is no Frigate like a Book\nTo take us Lands away\nNor any Coursers like a Page\nOf prancing Poetry—\nThis Traverse may the poorest take\nWithout oppress of Toll—\nHow frugal is the Chariot\nThat bears the Human soul.",
     "choices": [
       {
         "id": "A",
@@ -305,7 +305,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Reading is a way of defying the modern world\u2019s emphasis on money."
+        "text": "Reading is a way of defying the modern world’s emphasis on money."
       },
       {
         "id": "C",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_10",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nDarcie Little Badger is a novelist and a member of the Lipan Apache Tribe of Texas. Critics and fellow writers have praised her work for combining traditional Apache stories with popular genres of literature, such as fantasy and horror fiction. But Little Badger is not the only Indigenous writer to blend traditional stories with popular literature. In the 2016 novel *Wrist*, Nathan Adler successfully blended the oral storytelling tradition of their people, the Anishinaabe, with horror fiction.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nDarcie Little Badger is a novelist and a member of the Lipan Apache Tribe of Texas. Critics and fellow writers have praised her work for combining traditional Apache stories with popular genres of literature, such as fantasy and horror fiction. But Little Badger is not the only Indigenous writer to blend traditional stories with popular literature. In the 2016 novel *Wrist*, Nathan Adler successfully blended the oral storytelling tradition of their people, the Anishinaabe, with horror fiction.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -365,33 +365,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_11",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which quotation from a translation of *Uncle Vanya* most effectively illustrates the claim?\n*Uncle Vanya: Scenes from Country Life in Four Acts* is an 1898 play by Anton Chekhov, originally written in Russian. In the play, Professor Serebrakoff and his wife Helena have come to stay at their country estate, which Vanya manages with the help of Sonia, the professor\u2019s daughter from a previous marriage. Chekhov portrays the professor as being unable to adjust to living at the country estate, as is evident when ______\n\nWhich quotation from a translation of *Uncle Vanya* most effectively illustrates the claim?",
+    "text": "Which quotation from a translation of *Uncle Vanya* most effectively illustrates the claim?\n*Uncle Vanya: Scenes from Country Life in Four Acts* is an 1898 play by Anton Chekhov, originally written in Russian. In the play, Professor Serebrakoff and his wife Helena have come to stay at their country estate, which Vanya manages with the help of Sonia, the professor’s daughter from a previous marriage. Chekhov portrays the professor as being unable to adjust to living at the country estate, as is evident when ______",
     "choices": [
       {
         "id": "A",
-        "text": "Vanya says to Professor Serebrakoff, \u201cWe used to think of you as almost superhuman, but now the scales have fallen from my eyes and I see you as you are!\u201d."
+        "text": "Vanya says to Professor Serebrakoff, “We used to think of you as almost superhuman, but now the scales have fallen from my eyes and I see you as you are!”."
       },
       {
         "id": "B",
-        "text": "Professor Serebrakoff says, \u201cI am a book worm and a scholar, and am unfamiliar with practical affairs. I cannot. I find dispense with the help of well-informed people.\u201d."
+        "text": "Professor Serebrakoff says, “I am a book worm and a scholar, and am unfamiliar with practical affairs. I cannot. I find dispense with the help of well-informed people.”."
       },
       {
         "id": "C",
-        "text": "Professor Serebrakoff says to Helena, \u201cI am used to my library and the lecture hall and to the esteem and admiration of my colleagues. Now I suddenly find myself plunged into this wilderness [the estate], condemned to see the same stupid people from morning till night and listen to their futile conversations.\u201d."
+        "text": "Professor Serebrakoff says to Helena, “I am used to my library and the lecture hall and to the esteem and admiration of my colleagues. Now I suddenly find myself plunged into this wilderness [the estate], condemned to see the same stupid people from morning till night and listen to their futile conversations.”."
       },
       {
         "id": "D",
-        "text": "Professor Serebrakoff says to Helena and Sonia, \u201cNo, no, no! Don\u2019t leave me alone with [Vanya]! Oh. don\u2019t He will begin to lecture me.\u201d."
+        "text": "Professor Serebrakoff says to Helena and Sonia, “No, no, no! Don’t leave me alone with [Vanya]! Oh. don’t He will begin to lecture me.”."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -399,37 +399,37 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_12",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which quotation from a researcher would best support the student\u2019s assertion?\nFish whose DNA has been modified to include genetic material from other species are known as transgenic. Some transgenic fish have genes from jellyfish that result in fluorescence (that is, they glow in the dark). Although these fish were initially engineered for research purposes in the 1990s, they were sold as pets in the 2000s and can now be found in the wild in creeks in Brazil. A student in a biology seminar who is writing a paper on these fish asserts that their escape from Brazilian fish farms into the wild may have significant negative long-term ecological effects.\n\nWhich quotation from a researcher would best support the student\u2019s assertion?",
+    "text": "Which quotation from a researcher would best support the student’s assertion?\nFish whose DNA has been modified to include genetic material from other species are known as transgenic. Some transgenic fish have genes from jellyfish that result in fluorescence (that is, they glow in the dark). Although these fish were initially engineered for research purposes in the 1990s, they were sold as pets in the 2000s and can now be found in the wild in creeks in Brazil. A student in a biology seminar who is writing a paper on these fish asserts that their escape from Brazilian fish farms into the wild may have significant negative long-term ecological effects.",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cIn one site in the wild where transgenic fish were observed, females outnumbered males, while in another the numbers of females and males were equivalent.\u201d"
+        "text": "“In one site in the wild where transgenic fish were observed, females outnumbered males, while in another the numbers of females and males were equivalent.”"
       },
       {
         "id": "B",
-        "text": "\u201cThough some presence of transgenic fish in the wild has been recorded, there are insufficient studies of the impact of those fish on the ecosystems into which they are introduced.\u201d"
+        "text": "“Though some presence of transgenic fish in the wild has been recorded, there are insufficient studies of the impact of those fish on the ecosystems into which they are introduced.”"
       },
       {
         "id": "C",
-        "text": "\u201cThe ecosystems into which transgenic fish are known to have been introduced may represent a subset of the ecosystems into which the fish have actually been introduced.\u201d"
+        "text": "“The ecosystems into which transgenic fish are known to have been introduced may represent a subset of the ecosystems into which the fish have actually been introduced.”"
       },
       {
         "id": "D",
-        "text": "\u201cThrough interbreeding, transgenic fish might introduce the trait of fluorescence into wild fish populations, making those populations more vulnerable to predators.\u201d"
+        "text": "“Through interbreeding, transgenic fish might introduce the trait of fluorescence into wild fish populations, making those populations more vulnerable to predators.”"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -437,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_13",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice uses data from the table to most effectively complete the comparison?\nContributions of Three Key Industries to Oklahoma\nEconomy in 2017\nThe Cherokee Nation, the Quapaw Tribe, and the more than thirty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. In fact, when the tribes\u2019 activity is regarded as a single industry, its contribution to the Oklahoma economy in 2017 ____________\n\nWhich choice uses data from the table to most effectively complete the comparison?",
+    "text": "Which choice uses data from the table to most effectively complete the comparison?\nContributions of Three Key Industries to Oklahoma\nEconomy in 2017\nThe Cherokee Nation, the Quapaw Tribe, and the more than thirty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. In fact, when the tribes’ activity is regarded as a single industry, its contribution to the Oklahoma economy in 2017 ____________",
     "choices": [
       {
         "id": "A",
@@ -463,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_23A_Eng_M1_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_14",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice best describes data from the table that support Ehmann and colleagues\u2019 hypothesis?\nPeering at Adult Orangutans by Immature Orangutans\nOne way that young orangutans acquire foraging skills is through a behavior scientists call peering\u2014closely watching older orangutans as they engage in an activity that the young have not yet mastered. Since male orangutans typically leave the area of their birth upon maturity and females do not, Beatrice Ehmann and her colleagues hypothesized that it is more advantageous for immature males than females to devote attention to orangutans who are immigrants to the home region of the immature individual, and this should be reflected in sex-specific differences in peering behavior.\n\nWhich choice best describes data from the table that support Ehmann and colleagues\u2019 hypothesis?",
+    "text": "Which choice best describes data from the table that support Ehmann and colleagues’ hypothesis?\nPeering at Adult Orangutans by Immature Orangutans\nOne way that young orangutans acquire foraging skills is through a behavior scientists call peering—closely watching older orangutans as they engage in an activity that the young have not yet mastered. Since male orangutans typically leave the area of their birth upon maturity and females do not, Beatrice Ehmann and her colleagues hypothesized that it is more advantageous for immature males than females to devote attention to orangutans who are immigrants to the home region of the immature individual, and this should be reflected in sex-specific differences in peering behavior.",
     "choices": [
       {
         "id": "A",
@@ -494,28 +493,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "The proportion of peering events directed at immigrants to immature orangutans\u2019 home regions ranged from a low of 0.33 to a high of 1.00."
+        "text": "The proportion of peering events directed at immigrants to immature orangutans’ home regions ranged from a low of 0.33 to a high of 1.00."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_23A_Eng_M1_Q14_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_15",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nIn May of 1987, Malaysia liberalized its stock market, meaning that it began allowing foreign individuals and businesses to invest money in Malaysian companies. This was part of a wave of stock market liberalizations around the world\u2014Thailand in 1988, Mexico in 1989, and so on. The standard view among economists at the time was that liberalization would make it easier for companies to raise money from investors. Economist Peter Blair Henry examined the economies of 11 countries that were part of the liberalization wave and found that, on average, companies based in those countries received significant increases in investment in the three years following liberalization, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nIn May of 1987, Malaysia liberalized its stock market, meaning that it began allowing foreign individuals and businesses to invest money in Malaysian companies. This was part of a wave of stock market liberalizations around the world—Thailand in 1988, Mexico in 1989, and so on. The standard view among economists at the time was that liberalization would make it easier for companies to raise money from investors. Economist Peter Blair Henry examined the economies of 11 countries that were part of the liberalization wave and found that, on average, companies based in those countries received significant increases in investment in the three years following liberalization, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -537,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -547,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_16",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n\u201cHe was just the man for such a place, and it was just the place for such a man.\u201d This line is from Frederick Douglass\u2019s autobiography *Narrative of the Life of Frederick Douglass* (1845). It\u2019s an example of antimetabole, a writing technique that ______ emphasis by repeating a statement in a reversed order.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n“He was just the man for such a place, and it was just the place for such a man.” This line is from Frederick Douglass’s autobiography *Narrative of the Life of Frederick Douglass* (1845). It’s an example of antimetabole, a writing technique that ______ emphasis by repeating a statement in a reversed order.",
     "choices": [
       {
         "id": "A",
@@ -573,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -583,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_17",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOver several years, anthropologist Livia Barbosa surveyed individuals in Brazil about their eating habits, collecting data, for example, on what days of the week respondents were more likely ______ common Brazilian foods, such as broa (a fennel-flavored cornbread) and tareco (a disk-shaped biscuit).\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOver several years, anthropologist Livia Barbosa surveyed individuals in Brazil about their eating habits, collecting data, for example, on what days of the week respondents were more likely ______ common Brazilian foods, such as broa (a fennel-flavored cornbread) and tareco (a disk-shaped biscuit).",
     "choices": [
       {
         "id": "A",
@@ -609,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_18",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTo coders like Black Girls Code founder Kimberly Bryant, the computer programming languages Perl and Pascal have a clear difference: the former is an object-oriented language while the latter is not. Because both languages require highly technical knowledge to understand, though, laypeople ______ to distinguish between them.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTo coders like Black Girls Code founder Kimberly Bryant, the computer programming languages Perl and Pascal have a clear difference: the former is an object-oriented language while the latter is not. Because both languages require highly technical knowledge to understand, though, laypeople ______ to distinguish between them.",
     "choices": [
       {
         "id": "A",
@@ -645,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -654,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_19",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncluded among a particular group of mid-twentieth-century artists known as the Zaria School, Nigerian expressionist ______ was known for using bold lines and for drawing on Indigenous artistic traditions and rejecting Western values.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncluded among a particular group of mid-twentieth-century artists known as the Zaria School, Nigerian expressionist ______ was known for using bold lines and for drawing on Indigenous artistic traditions and rejecting Western values.",
     "choices": [
       {
         "id": "A",
@@ -681,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_20",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Timeline of African American Music, a website that traces the history of genres such as soul and ragtime, is the result of decades of research by ethnomusicologist Portia K. Maultsby. She was not alone in her ______ Fernando Orejuela and Stephanie Shonekan, among other scholars, also contributed to the project.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Timeline of African American Music, a website that traces the history of genres such as soul and ragtime, is the result of decades of research by ethnomusicologist Portia K. Maultsby. She was not alone in her ______ Fernando Orejuela and Stephanie Shonekan, among other scholars, also contributed to the project.",
     "choices": [
       {
         "id": "A",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_21",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis, researchers applied a statistical model to a set of words to infer the rate of cognate replacement\u2014the rate at which a word will be replaced over time with a noncognate form\u2014in Indo-European languages. The researchers found that negative adjectives like \u201cgrim\u201d evolve most rapidly; ______ negative nouns evolve most slowly.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis, researchers applied a statistical model to a set of words to infer the rate of cognate replacement—the rate at which a word will be replaced over time with a noncognate form—in Indo-European languages. The researchers found that negative adjectives like “grim” evolve most rapidly; ______ negative nouns evolve most slowly.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_22",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn the 1880s, inventor Lewis Latimer improved upon Thomas Edison\u2019s design for the electric light bulb. ______ Latimer made the light bulb more durable by placing cardboard around its carbon filament. With this innovation, Latimer became the first Black inventor to contribute to the electrification of the world.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn the 1880s, inventor Lewis Latimer improved upon Thomas Edison’s design for the electric light bulb. ______ Latimer made the light bulb more durable by placing cardboard around its carbon filament. With this innovation, Latimer became the first Black inventor to contribute to the electrification of the world.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_23",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nSoil polluted with nickel (a heavy metal) is harmful to many plants and animals, but the plant species *Najas marina*, or spiny water nymph, can thrive in such conditions. ______ as a metal hyperaccumulator, *Najas marina* absorbs a large amount of nickel and sequesters it in its roots and shoots, thereby reducing concentrations of this harmful substance in the soil.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nSoil polluted with nickel (a heavy metal) is harmful to many plants and animals, but the plant species *Najas marina*, or spiny water nymph, can thrive in such conditions. ______ as a metal hyperaccumulator, *Najas marina* absorbs a large amount of nickel and sequesters it in its roots and shoots, thereby reducing concentrations of this harmful substance in the soil.",
     "choices": [
       {
         "id": "A",
@@ -815,7 +813,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "What\u2019s more,"
+        "text": "What’s more,"
       },
       {
         "id": "D",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_24",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize the size of the sculpture?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Richard Serra is an American artist.\n\u2022 He is known for his large metal sculptures.\n\u2022 His sculpture *Rotate* is roughly 6 feet wide and 12 feet tall.\n\u2022 It is made from weathering steel.\n\nWhich choice most effectively uses information from the given sentences to emphasize the size of the sculpture?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize the size of the sculpture?\nWhile researching a topic, a student has taken the following notes:\n• Richard Serra is an American artist.\n• He is known for his large metal sculptures.\n• His sculpture *Rotate* is roughly 6 feet wide and 12 feet tall.\n• It is made from weathering steel.",
     "choices": [
       {
         "id": "A",
@@ -847,7 +845,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Richard Serra\u2019s Rotate is made of weathering steel."
+        "text": "Richard Serra’s Rotate is made of weathering steel."
       },
       {
         "id": "C",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,19 +869,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_25",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "The student wants to emphasize a difference between the two approaches to dyeing blue jeans. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Traditionally, manufacturers have dyed denim jeans blue by dipping them in a solution containing indigo powder.\n\u2022 Indigo doesn\u2019t dissolve in just water, so manufacturers must mix hazardous chemicals with water to dissolve the powder.\n\u2022 Textile researcher Smriti Rai discovered a process for dyeing blue jeans without chemicals.\n\u2022 Rai added indigo powder to a hydrogel containing nanocellulose and produced a dye that could be spread directly onto the denim.\n\u2022 Nanocellulose is a natural, plant-based substance that separates the molecules of indigo powder.\n\nThe student wants to emphasize a difference between the two approaches to dyeing blue jeans. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between the two approaches to dyeing blue jeans. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Traditionally, manufacturers have dyed denim jeans blue by dipping them in a solution containing indigo powder.\n• Indigo doesn’t dissolve in just water, so manufacturers must mix hazardous chemicals with water to dissolve the powder.\n• Textile researcher Smriti Rai discovered a process for dyeing blue jeans without chemicals.\n• Rai added indigo powder to a hydrogel containing nanocellulose and produced a dye that could be spread directly onto the denim.\n• Nanocellulose is a natural, plant-based substance that separates the molecules of indigo powder.",
     "choices": [
       {
         "id": "A",
-        "text": "Though created using a different process, Rai\u2019s dye contains the same ingredient as the dye produced by blue jean manufacturers."
+        "text": "Though created using a different process, Rai’s dye contains the same ingredient as the dye produced by blue jean manufacturers."
       },
       {
         "id": "B",
-        "text": "Nanocellulose is a natural, plant-based substance that separates the molecules of indigo powder, which doesn\u2019t dissolve in water."
+        "text": "Nanocellulose is a natural, plant-based substance that separates the molecules of indigo powder, which doesn’t dissolve in water."
       },
       {
         "id": "C",
@@ -891,13 +889,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Rai\u2019s approach substitutes a natural plant-based substance for the hazardous chemicals that manufacturers have traditionally used."
+        "text": "Rai’s approach substitutes a natural plant-based substance for the hazardous chemicals that manufacturers have traditionally used."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,19 +905,19 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_26",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "The student wants to emphasize a similarity between P waves and S waves. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Earthquakes start at a point called a \u201cfocus\u201d and spread out from there as seismic waves.\n\u2022 The two types of seismic waves that travel beneath Earth\u2019s surface are primary waves (P waves) and secondary waves (S waves).\n\u2022 P waves travel more quickly beneath Earth\u2019s surface than do S waves.\n\u2022 P waves compress and expand the ground, causing it to move backward and forward.\n\u2022 S waves cause the ground to move from side to side.\n\nThe student wants to emphasize a similarity between P waves and S waves. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between P waves and S waves. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Earthquakes start at a point called a “focus” and spread out from there as seismic waves.\n• The two types of seismic waves that travel beneath Earth’s surface are primary waves (P waves) and secondary waves (S waves).\n• P waves travel more quickly beneath Earth’s surface than do S waves.\n• P waves compress and expand the ground, causing it to move backward and forward.\n• S waves cause the ground to move from side to side.",
     "choices": [
       {
         "id": "A",
-        "text": "P waves and S waves both travel beneath Earth\u2019s surface, causing the ground to move."
+        "text": "P waves and S waves both travel beneath Earth’s surface, causing the ground to move."
       },
       {
         "id": "B",
-        "text": "P waves travel away from an earthquake\u2019s starting point at a higher rate of speed than do S waves."
+        "text": "P waves travel away from an earthquake’s starting point at a higher rate of speed than do S waves."
       },
       {
         "id": "C",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,23 +941,23 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_27",
     "testName": "December 2023 Form A SAT English Module 1",
-    "text": "The student wants to specify how long the Gambia officially used the Gambian pound. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A currency is a money system.\n\u2022 Sometimes, countries adopt a new currency to replace an older one.\n\u2022 The Gambia adopted the Gambian pound as its official currency in 1965.\n\u2022 The dalasi replaced the Gambian pound in 1971.\n\u2022 The dalasi remains the Gambia\u2019s official currency.\n\nThe student wants to specify how long the Gambia officially used the Gambian pound. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to specify how long the Gambia officially used the Gambian pound. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A currency is a money system.\n• Sometimes, countries adopt a new currency to replace an older one.\n• The Gambia adopted the Gambian pound as its official currency in 1965.\n• The dalasi replaced the Gambian pound in 1971.\n• The dalasi remains the Gambia’s official currency.",
     "choices": [
       {
         "id": "A",
-        "text": "The Gambian pound was the Gambia\u2019s official currency from 1965 to 1971."
+        "text": "The Gambian pound was the Gambia’s official currency from 1965 to 1971."
       },
       {
         "id": "B",
-        "text": "Though the Gambia currently uses the dalasi, the country\u2019s former official currency was introduced in 1965."
+        "text": "Though the Gambia currently uses the dalasi, the country’s former official currency was introduced in 1965."
       },
       {
         "id": "C",
-        "text": "The dalasi has been the Gambia\u2019s official currency since 1971, when it replaced the Gambian pound."
+        "text": "The dalasi has been the Gambia’s official currency since 1971, when it replaced the Gambian pound."
       },
       {
         "id": "D",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

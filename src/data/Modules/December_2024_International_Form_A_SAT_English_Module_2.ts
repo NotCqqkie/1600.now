@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_1",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPossessing an outstanding collection of public art, Chicago has everything from monumental mosaics like Marc Chagall's *Four Seasons* at sites like Chase Tower to innovative street art like Kashink's mural *Be The Change You Wish To See* located on South Wabash Avenue. The ______ public art on display in the city can thus satisfy any art lover.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPossessing an outstanding collection of public art, Chicago has everything from monumental mosaics like Marc Chagall's *Four Seasons* at sites like Chase Tower to innovative street art like Kashink's mural *Be The Change You Wish To See* located on South Wabash Avenue. The ______ public art on display in the city can thus satisfy any art lover.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_2",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2018 article about films depicting the experiences of Black Americans, critics for the New York Times praise Madeline Anderson's 1970 film *I Am Somebody* as \"galvanizing\" and Carl Franklin's 1995 film *Devil in a Blue Dress* as \"picture perfect.\" Fans of the two films hope that such ______ will attract new audiences to these works.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2018 article about films depicting the experiences of Black Americans, critics for the New York Times praise Madeline Anderson's 1970 film *I Am Somebody* as \"galvanizing\" and Carl Franklin's 1995 film *Devil in a Blue Dress* as \"picture perfect.\" Fans of the two films hope that such ______ will attract new audiences to these works.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_3",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe fossil remains of the individual known as Misliya-1, discovered in Israel in 2002, can help paleoanthropologists not only ______ steps in the evolution of hominids but also illuminate the Pleistocene epoch generally, revealing important details about the time in which Misliya-1 lived.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe fossil remains of the individual known as Misliya-1, discovered in Israel in 2002, can help paleoanthropologists not only ______ steps in the evolution of hominids but also illuminate the Pleistocene epoch generally, revealing important details about the time in which Misliya-1 lived.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_4",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which finding from the model tests, if true, would support the researchers' hypothesis?\nThroughout history, tall structures such as Gonbad-e Qabus in Iran or Hwangnyongsa in South Korea have posed a challenge to their architects, since these structures are more susceptible to physical forces than smaller structures. For example, the lower floors of a building must be able to support the enormous weight of the upper floors. To test a hypothesis that steel is more suitable than concrete for construction of a tall building's lower floors, researchers created a computer model of two buildings that were identical except that one had concrete lower floors while one had steel lower floors, and simulated the effects of the forces of wind and gravity on those structures over the course of a century.\n\nWhich finding from the model tests, if true, would support the researchers' hypothesis?",
+    "text": "Which finding from the model tests, if true, would support the researchers' hypothesis?\nThroughout history, tall structures such as Gonbad-e Qabus in Iran or Hwangnyongsa in South Korea have posed a challenge to their architects, since these structures are more susceptible to physical forces than smaller structures. For example, the lower floors of a building must be able to support the enormous weight of the upper floors. To test a hypothesis that steel is more suitable than concrete for construction of a tall building's lower floors, researchers created a computer model of two buildings that were identical except that one had concrete lower floors while one had steel lower floors, and simulated the effects of the forces of wind and gravity on those structures over the course of a century.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_5",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\n*HMS Surprise*, first published in 1973, is a novel in Patrick O'Brian's Aubrey/Maturin series, which includes twenty completed books. Some critics have found fault with the abrupt endings of *HMS Surprise* and other books in the series, saying that they do not finish conclusively but arbitrarily stop. <u>But other critics argue that the books should not be thought of as discrete texts with traditional beginnings and endings but as a single incredibly long work, similar to other multivolume stories, such as John Galsworthy's *The Forsyte Saga*.</u>\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\n*HMS Surprise*, first published in 1973, is a novel in Patrick O'Brian's Aubrey/Maturin series, which includes twenty completed books. Some critics have found fault with the abrupt endings of *HMS Surprise* and other books in the series, saying that they do not finish conclusively but arbitrarily stop. <u>But other critics argue that the books should not be thought of as discrete texts with traditional beginnings and endings but as a single incredibly long work, similar to other multivolume stories, such as John Galsworthy's *The Forsyte Saga*.</u>",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_6",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nVertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. <u>While horizontal gene transfer is common among prokaryotes\u2014single-celled organisms, such as the bacteria *Brevibacillus borstelensis* and *Lactococcus lactis*\u2014it has rarely been observed among eukaryotes (multicellular organisms).</u> However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.\n\nWhich choice best states the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best states the function of the underlined sentence in the text as a whole?\nVertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. <u>While horizontal gene transfer is common among prokaryotes—single-celled organisms, such as the bacteria *Brevibacillus borstelensis* and *Lactococcus lactis*—it has rarely been observed among eukaryotes (multicellular organisms).</u> However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_7",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement?\nText 1\nIn separate studies, Stephen Meding and Robert J. Zasoski and Xinhua He and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)\u2014a lattice of fungal strands in the soil. Meding and Zasoski excluded all pathways other than the CMN by using barriers to keep the plants' root systems separate while allowing mycorrhizal strands through\u2014a crucial step He and colleagues' study did not take.\nText 2\nMeding and Zasoski took the necessary precaution of separating the plants' root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the thread-like hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers' experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.\n\nBased on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement?",
+    "text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement?\nText 1\nIn separate studies, Stephen Meding and Robert J. Zasoski and Xinhua He and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)—a lattice of fungal strands in the soil. Meding and Zasoski excluded all pathways other than the CMN by using barriers to keep the plants' root systems separate while allowing mycorrhizal strands through—a crucial step He and colleagues' study did not take.\nText 2\nMeding and Zasoski took the necessary precaution of separating the plants' root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the thread-like hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers' experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_8",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice best describes the finding made by Curtis and colleagues, as presented in the text?\nOptimal foraging theory (OFT) holds that animals' foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Joel Brown and colleagues found to be negatively associated with foraging by Arizona pocket mice but Deborah J. Curtis and colleagues found to be positively associated with foraging by mongoose lemurs. This discrepancy is explicable in terms of OFT: the lemurs' greater reliance on vision means that higher lunar intensity benefits them more than it benefits the mice.\n\nWhich choice best describes the finding made by Curtis and colleagues, as presented in the text?",
+    "text": "Which choice best describes the finding made by Curtis and colleagues, as presented in the text?\nOptimal foraging theory (OFT) holds that animals' foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Joel Brown and colleagues found to be negatively associated with foraging by Arizona pocket mice but Deborah J. Curtis and colleagues found to be positively associated with foraging by mongoose lemurs. This discrepancy is explicable in terms of OFT: the lemurs' greater reliance on vision means that higher lunar intensity benefits them more than it benefits the mice.",
     "choices": [
       {
         "id": "A",
@@ -283,21 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_9",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "According to the text, which factors seemed to be linked to the behavior of butterflies in Grace Herzel and colleagues' study?\nBiologist Grace Herzel and colleagues conducted a study of how butterfly color and weather conditions relate to butterfly behavior, which wouldn't have been possible without data gathered by students and other amateur science enthusiasts in the community. Considering over three years' worth of data, the researchers found that white butterflies were observed on green flowers more often than any other butterflies were, and that butterflies were observed to feed more often on cloudy days than on other days.\n\nAccording to the text, which factors seemed to be linked to the behavior of butterflies in Grace Herzel and colleagues' study?",
+    "text": "According to the text, which factors seemed to be linked to the behavior of butterflies in Grace Herzel and colleagues' study?\nBiologist Grace Herzel and colleagues conducted a study of how butterfly color and weather conditions relate to butterfly behavior, which wouldn't have been possible without data gathered by students and other amateur science enthusiasts in the community. Considering over three years' worth of data, the researchers found that white butterflies were observed on green flowers more often than any other butterflies were, and that butterflies were observed to feed more often on cloudy days than on other days.",
     "choices": [
       {
         "id": "A",
@@ -319,21 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_10",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which finding, if true, would most directly support Martinez and colleagues' conclusion?\nThe bird species *Myiobius barbatus* (the bearded flycatcher) shares some territory in French Guiana with *Thamnomanes caesius* (the cinereous antshrike), which emits a loud alarm call when it detects predators. Biologist Ari Martinez and colleagues recorded *T. caesius* alarm calls and played them in the vicinity of wild *M. barbatus*. Finding that the birds often froze in place or scattered into vegetation upon hearing the calls, they concluded that *M. barbatus* associates *T. caesius* alarm calls with danger.\n\nWhich finding, if true, would most directly support Martinez and colleagues' conclusion?",
+    "text": "Which finding, if true, would most directly support Martinez and colleagues' conclusion?\nThe bird species *Myiobius barbatus* (the bearded flycatcher) shares some territory in French Guiana with *Thamnomanes caesius* (the cinereous antshrike), which emits a loud alarm call when it detects predators. Biologist Ari Martinez and colleagues recorded *T. caesius* alarm calls and played them in the vicinity of wild *M. barbatus*. Finding that the birds often froze in place or scattered into vegetation upon hearing the calls, they concluded that *M. barbatus* associates *T. caesius* alarm calls with danger.",
     "choices": [
       {
         "id": "A",
@@ -355,9 +355,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_11",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice best describes data from the table that weaken the student's claim?\nResearchers have used several different methods to determine the population density of cougars (*Puma concolor*). A student claims that the use of scat-detecting dogs produces the most precise results, with the smallest difference between minimum and maximum densities.\n\nWhich choice best describes data from the table that weaken the student's claim?",
+    "text": "Which choice best describes data from the table that weaken the student's claim?\nResearchers have used several different methods to determine the population density of cougars (*Puma concolor*). A student claims that the use of scat-detecting dogs produces the most precise results, with the smallest difference between minimum and maximum densities.",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlA_Eng_M2_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_12",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which finding, if true, would most directly support Shcherbakova and colleagues' claim?\nThe linguistic niche hypothesis (LNH) posits that the exotericity of languages (how prevalent non-native speakers are) and grammatical complexity are inversely related, which the LNH ascribes to attrition of complex grammatical rules as more non-native speakers adopt the language but fail to acquire those rules. Focusing on two characteristics that are positive indices of grammatical complexity, fusion (when new phonemes arise from the merger of previously distinct ones) and informativity (languages' capacity for meaningful variation), Olena Shcherbakova and colleagues conducted a quantitative analysis for more than 1,300 languages and claim the outcome is inconsistent with the LNH.\n\nWhich finding, if true, would most directly support Shcherbakova and colleagues' claim?",
+    "text": "Which finding, if true, would most directly support Shcherbakova and colleagues' claim?\nThe linguistic niche hypothesis (LNH) posits that the exotericity of languages (how prevalent non-native speakers are) and grammatical complexity are inversely related, which the LNH ascribes to attrition of complex grammatical rules as more non-native speakers adopt the language but fail to acquire those rules. Focusing on two characteristics that are positive indices of grammatical complexity, fusion (when new phonemes arise from the merger of previously distinct ones) and informativity (languages' capacity for meaningful variation), Olena Shcherbakova and colleagues conducted a quantitative analysis for more than 1,300 languages and claim the outcome is inconsistent with the LNH.",
     "choices": [
       {
         "id": "A",
@@ -428,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -438,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_13",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the statement?\nNeuroscientist Kiyohito ligaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much). They then recruited participants to use the same scale to rate several sets of paintings in various styles and calculated the correlation between the ratings predicted by the model and those reported by the participants. Assuming participant P7 gave equal ratings to the impressionist and color-field paintings, the data in the graph suggest that the model predicted that ______\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+    "text": "Which choice most effectively uses data from the graph to complete the statement?\nNeuroscientist Kiyohito ligaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much). They then recruited participants to use the same scale to rate several sets of paintings in various styles and calculated the correlation between the ratings predicted by the model and those reported by the participants. Assuming participant P7 gave equal ratings to the impressionist and color-field paintings, the data in the graph suggest that the model predicted that ______",
     "choices": [
       {
         "id": "A",
@@ -464,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlA_Eng_M2_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_14",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nArthurian legends (tales related to the character of King Arthur) derive from many often contradictory sources, such as *Vita Sancti Cadoci*, composed in the 11th century, and *Culhwch* and *Olwen* from the second half of the 12th century. Sir Thomas Malory's 15th-century text *Le Morte d'Arthur* was an attempt to compile these stories into a coherent narrative. Many of Malory's sources derive from Geoffrey of Monmouth's *History of the Kings of Britain*, written in the 1130s. While neither *History* nor any works that predate it mention Arthur's famous Round Table at which his knights assembled, *Le Morte d'Arthur* does, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nArthurian legends (tales related to the character of King Arthur) derive from many often contradictory sources, such as *Vita Sancti Cadoci*, composed in the 11th century, and *Culhwch* and *Olwen* from the second half of the 12th century. Sir Thomas Malory's 15th-century text *Le Morte d'Arthur* was an attempt to compile these stories into a coherent narrative. Many of Malory's sources derive from Geoffrey of Monmouth's *History of the Kings of Britain*, written in the 1130s. While neither *History* nor any works that predate it mention Arthur's famous Round Table at which his knights assembled, *Le Morte d'Arthur* does, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -501,9 +499,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -511,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_15",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nProlonged exposure to anthropogenic noise (sounds from human sources like traffic or mining) can affect animals, as Graeme Shannon and colleagues found in a 2016 study of black-tailed prairie dogs. Researchers conducted a meta-analysis of studies of how such noise affects animals and found that, for every study, relevant traits or behaviors of the animals were observably different between the exposed group and the otherwise similar but unexposed group. Although, on average, studies of mammals showed larger differences than studies of amphibians did, for every class of animals examined, there were individual studies showing differences well above the average for mammals. Therefore, the results of the meta analysis suggest that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nProlonged exposure to anthropogenic noise (sounds from human sources like traffic or mining) can affect animals, as Graeme Shannon and colleagues found in a 2016 study of black-tailed prairie dogs. Researchers conducted a meta-analysis of studies of how such noise affects animals and found that, for every study, relevant traits or behaviors of the animals were observably different between the exposed group and the otherwise similar but unexposed group. Although, on average, studies of mammals showed larger differences than studies of amphibians did, for every class of animals examined, there were individual studies showing differences well above the average for mammals. Therefore, the results of the meta analysis suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -537,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -547,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_16",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe term \"retroflex\" derives from Latin and means \"bent back,\" an apt descriptor for the branch of consonants\u2014retroflex consonants\u2014pronounced with the tongue curling up and back in the mouth. In many languages, including English, these consonants are ______ in some dialects of Mandarin, however, four such consonants (\"ch,\" \"sh,\" \"zh,\" and \"r\") are relatively common.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe term \"retroflex\" derives from Latin and means \"bent back,\" an apt descriptor for the branch of consonants—retroflex consonants—pronounced with the tongue curling up and back in the mouth. In many languages, including English, these consonants are ______ in some dialects of Mandarin, however, four such consonants (\"ch,\" \"sh,\" \"zh,\" and \"r\") are relatively common.",
     "choices": [
       {
         "id": "A",
@@ -573,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -583,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_17",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlong with carbon dioxide concentration and temperature, light intensity affects the chemical reaction rate of ______ as light intensity increases, so does the rate at which the reactants (water and carbon dioxide) are converted into their products (glucose and oxygen).\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlong with carbon dioxide concentration and temperature, light intensity affects the chemical reaction rate of ______ as light intensity increases, so does the rate at which the reactants (water and carbon dioxide) are converted into their products (glucose and oxygen).",
     "choices": [
       {
         "id": "A",
@@ -609,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -619,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_18",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe fungus *Tricholoma matsutake*, commonly referred to as matsutake, is known to establish ectomycorrhizal bonds with certain pine tree species; in many cases, such symbiotic relationships, wherein fungal hyphae make contact with the pine's root system, ______ extensive networks, which can be used to transport nutrients between trees.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe fungus *Tricholoma matsutake*, commonly referred to as matsutake, is known to establish ectomycorrhizal bonds with certain pine tree species; in many cases, such symbiotic relationships, wherein fungal hyphae make contact with the pine's root system, ______ extensive networks, which can be used to transport nutrients between trees.",
     "choices": [
       {
         "id": "A",
@@ -645,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_19",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough he would go on to work with many respected bands, including CAB on their album *CAB 2*, American ______ may be best known for his time with Sugar Hill Records, where he helped craft the sound of early hip-hop music.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough he would go on to work with many respected bands, including CAB on their album *CAB 2*, American ______ may be best known for his time with Sugar Hill Records, where he helped craft the sound of early hip-hop music.",
     "choices": [
       {
         "id": "A",
@@ -681,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_20",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nGretchen Legler's short essay on \"sound,\" a word referring to a large inlet or channel of a sea or ocean, is included in the collection *Home Ground: A Guide to the American Landscape*. The book wasn't written solely by ______ other authors, such as Stephen Graham Jones and Barry Lopez, also contributed essays.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nGretchen Legler's short essay on \"sound,\" a word referring to a large inlet or channel of a sea or ocean, is included in the collection *Home Ground: A Guide to the American Landscape*. The book wasn't written solely by ______ other authors, such as Stephen Graham Jones and Barry Lopez, also contributed essays.",
     "choices": [
       {
         "id": "A",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_21",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty eight member countries. According to this data, in July 2021, a \"basket\" of goods and services priced at 100 US dollars (USD) in the United States would have cost 66 USD in fellow OECD member ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty eight member countries. According to this data, in July 2021, a \"basket\" of goods and services priced at 100 US dollars (USD) in the United States would have cost 66 USD in fellow OECD member ______",
     "choices": [
       {
         "id": "A",
@@ -747,13 +745,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "nation\u2014Latvia."
+        "text": "nation—Latvia."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_22",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn his painting *At the Cycle Race Track*, Jean Metzinger aims to depict a bike race in four-dimensional space. Of course, Metzinger's painting doesn't technically represent a fourth dimension; humans can only see in three dimensions. ______ by depicting the race through multiple, simultaneous perspectives, Metzinger offers a fascinating glimpse at what this other universe might look like.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn his painting *At the Cycle Race Track*, Jean Metzinger aims to depict a bike race in four-dimensional space. Of course, Metzinger's painting doesn't technically represent a fourth dimension; humans can only see in three dimensions. ______ by depicting the race through multiple, simultaneous perspectives, Metzinger offers a fascinating glimpse at what this other universe might look like.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_23",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson recalculated the geographic center of Nebraska, which had previously been determined in 1920 by the US Geological Survey (USGS). The USGS, Rogerson contended, had omitted important considerations, not least the curvature of the earth. ______ the state's USGS-determined center\u2014a point 10 miles northwest of the municipality of Broken Bow\u2014was inaccurate.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson recalculated the geographic center of Nebraska, which had previously been determined in 1920 by the US Geological Survey (USGS). The USGS, Rogerson contended, had omitted important considerations, not least the curvature of the earth. ______ the state's USGS-determined center—a point 10 miles northwest of the municipality of Broken Bow—was inaccurate.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_24",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nOn August 5, 1938, aviator Douglas Corrigan received a ticker-tape parade in New York City in recognition of his transatlantic flight. Of the 206 ticker-tape parades held between 1886 and 2022, a number were for achievements in aviation. ______ Corrigan's parade was just one of 16 honoring pilots.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nOn August 5, 1938, aviator Douglas Corrigan received a ticker-tape parade in New York City in recognition of his transatlantic flight. Of the 206 ticker-tape parades held between 1886 and 2022, a number were for achievements in aviation. ______ Corrigan's parade was just one of 16 honoring pilots.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_25",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "The student wants to emphasize the order in which the two students attended the Bauhaus. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Bauhaus was an influential German art and design school founded in 1919 by Walter Gropius.\n\u2022 Gropius was the school's director from 1919 to 1928.\n\u2022 Hannes Meyer was its director from 1928 to 1930.\n\u2022 Ludwig Mies van der Rohe was its director from 1930 to 1933.\n\u2022 Josef Albers was a painter and educator who began attending the Bauhaus in 1920.\n\u2022 Stella Steyn was a painter and illustrator who began attending the Bauhaus in 1931.\n\nThe student wants to emphasize the order in which the two students attended the Bauhaus. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the order in which the two students attended the Bauhaus. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Bauhaus was an influential German art and design school founded in 1919 by Walter Gropius.\n• Gropius was the school's director from 1919 to 1928.\n• Hannes Meyer was its director from 1928 to 1930.\n• Ludwig Mies van der Rohe was its director from 1930 to 1933.\n• Josef Albers was a painter and educator who began attending the Bauhaus in 1920.\n• Stella Steyn was a painter and illustrator who began attending the Bauhaus in 1931.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_26",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "The student wants to contrast the two samples. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Generally, an object will heat up when twisted.\n\u2022 The twisting of an object is known as torsion.\n\u2022 A 2019 study led by Zunfeng Liu and Ray Baughman tested the torsional heating of various fibers.\n\u2022 When a 0.7-millimeter thick sample of single-ply nickel-titanium (NiTi) wire was twisted, its average surface temperature increased by 21.3\u00b0C.\n\u2022 When a 2-millimeter-thick sample of ethylene propylene diene monomer (EPDM) rubber fiber was twisted, its average surface temperature increased by 12\u00b0C.\n\nThe student wants to contrast the two samples. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast the two samples. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Generally, an object will heat up when twisted.\n• The twisting of an object is known as torsion.\n• A 2019 study led by Zunfeng Liu and Ray Baughman tested the torsional heating of various fibers.\n• When a 0.7-millimeter thick sample of single-ply nickel-titanium (NiTi) wire was twisted, its average surface temperature increased by 21.3°C.\n• When a 2-millimeter-thick sample of ethylene propylene diene monomer (EPDM) rubber fiber was twisted, its average surface temperature increased by 12°C.",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_27",
     "testName": "December 2024 International Form A SAT English Module 2",
-    "text": "The student wants to specify the total mass of Earth's magnesium relative to that of all elements. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Element abundance is a relative measure of the amount of a chemical element in a given environment.\n\u2022 Abundance can be expressed as a mass fraction.\n\u2022 A mass fraction is the ratio of the total mass of an element to the combined mass of all elements in a given environment.\n\u2022 The mass fraction of magnesium (Mg) on Earth is 154,000 parts per million (ppm).\n\u2022 The mass fraction of zinc (Zn) on Earth is 40 ppm.\n\nThe student wants to specify the total mass of Earth's magnesium relative to that of all elements. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to specify the total mass of Earth's magnesium relative to that of all elements. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Element abundance is a relative measure of the amount of a chemical element in a given environment.\n• Abundance can be expressed as a mass fraction.\n• A mass fraction is the ratio of the total mass of an element to the combined mass of all elements in a given environment.\n• The mass fraction of magnesium (Mg) on Earth is 154,000 parts per million (ppm).\n• The mass fraction of zinc (Zn) on Earth is 40 ppm.",
     "choices": [
       {
         "id": "A",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

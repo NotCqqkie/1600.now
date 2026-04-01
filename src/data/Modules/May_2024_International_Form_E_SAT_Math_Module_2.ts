@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_1",
     "testName": "May 2024 International Form E SAT Math Module 2",
-    "text": "The amount of Alex\u2019s bill for a food order was \\$30.00. Alex gave a tip of 10% of the amount of the bill. What is the amount,in dollars,of the tip Alex gave?",
+    "text": "The amount of Alex’s bill for a food order was \\$30.00. Alex gave a tip of 10% of the amount of the bill. What is the amount,in dollars,of the tip Alex gave?",
     "choices": [
       {
         "id": "A",
@@ -39,9 +39,9 @@ export const questions: Question[] = [
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_2",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -68,17 +68,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlE_Math_M2_Q2_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_3",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -106,19 +105,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_4",
     "testName": "May 2024 International Form E SAT Math Module 2",
-    "text": "If 4 c = 16,what is the value of 4 c \u2212 9?",
+    "text": "If 4 c = 16,what is the value of 4 c − 9?",
     "choices": [
       {
         "id": "A",
@@ -142,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_5",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -178,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_6",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -197,19 +196,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_7",
     "testName": "May 2024 International Form E SAT Math Module 2",
-    "text": "Barbara and Maria are each saving for a trip. On January 1,Barbara starts with \\$70 and saves an additional \\$10 each week,and Maria starts with \\$120 and saves an additional \\$5 each week. The graphs give the total amount y, in dollars,that Barbara and Maria have each saved x weeks after January 1. How many weeks after January 1 will Barbara\u2019s and Maria\u2019s savings be equal?",
+    "text": "Barbara and Maria are each saving for a trip. On January 1,Barbara starts with \\$70 and saves an additional \\$10 each week,and Maria starts with \\$120 and saves an additional \\$5 each week. The graphs give the total amount y, in dollars,that Barbara and Maria have each saved x weeks after January 1. How many weeks after January 1 will Barbara’s and Maria’s savings be equal?",
     "choices": [
       {
         "id": "A",
@@ -232,17 +231,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlE_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_8",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -270,16 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlE_Math_M2_Q8_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_9",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -309,14 +306,13 @@ export const questions: Question[] = [
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlE_Math_M2_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_10",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -324,19 +320,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "x 3 \uff087+56 x \uff09"
+        "text": "x 3 （7+56 x ）"
       },
       {
         "id": "B",
-        "text": "7x 2 \uff08 x +49\uff09"
+        "text": "7x 2 （ x +49）"
       },
       {
         "id": "C",
-        "text": "7x 2 \uff08 x +8\uff09"
+        "text": "7x 2 （ x +8）"
       },
       {
         "id": "D",
-        "text": "x 2 \uff08 7 +56 x \uff09"
+        "text": "x 2 （ 7 +56 x ）"
       }
     ],
     "correctAnswer": "C",
@@ -344,15 +340,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_11",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -380,20 +376,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlE_Math_M2_Q11_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_12",
     "testName": "May 2024 International Form E SAT Math Module 2",
-    "text": "Which expression is equivalent to 9 + 8 \u2212 5 x 2 \u2212 2 x 2?",
+    "text": "Which expression is equivalent to 9 + 8 − 5 x 2 − 2 x 2?",
     "choices": [
       {
         "id": "A",
@@ -417,15 +412,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_13",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -453,23 +448,23 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_14",
     "testName": "May 2024 International Form E SAT Math Module 2",
-    "text": "Line k is defined by y = 3 x \u2212 2. Line j is parallel to line k in the xy -plane and passes through the point (0, 1). Which equation defines line j?",
+    "text": "Line k is defined by y = 3 x − 2. Line j is parallel to line k in the xy -plane and passes through the point (0, 1). Which equation defines line j?",
     "choices": [
       {
         "id": "A",
-        "text": "y = x \u2212 2"
+        "text": "y = x − 2"
       },
       {
         "id": "B",
@@ -477,27 +472,27 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "y = \u2212 x \u2212 2"
+        "text": "y = − x − 2"
       },
       {
         "id": "D",
-        "text": "y = \u22123 x + 1"
+        "text": "y = −3 x + 1"
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_16",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -508,15 +503,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_17",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -544,15 +539,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_18",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -580,38 +575,38 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_19",
     "testName": "May 2024 International Form E SAT Math Module 2",
-    "text": "f(x)=(x + 6)(x \u2212 7)\nIf the given function f is graphed in the xy -plane, where y = f (x), what is the x -coordinate of an x -intercept\nof the graph?",
+    "text": "f(x)=(x + 6)(x − 7)\nIf the given function f is graphed in the xy -plane, where y = f (x), what is the x -coordinate of an x -intercept\nof the graph?",
     "choices": [],
     "correctAnswer": "-6,7",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_20",
     "testName": "May 2024 International Form E SAT Math Module 2",
-    "text": "x 2 \u2212 49 = 0\nHow many distinct real solutions does the given equation have?",
+    "text": "x 2 − 49 = 0\nHow many distinct real solutions does the given equation have?",
     "choices": [
       {
         "id": "A",
@@ -635,15 +630,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_21",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -654,16 +649,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlE_Math_M2_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_22",
     "testName": "May 2024 International Form E SAT Math Module 2",
@@ -691,9 +685,8 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlE_Math_M2_Q22_1.png"
+    }
   }
 ];

@@ -4,12 +4,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_1",
     "testName": "May 2025 International Form B SAT Math Module 1",
-    "text": "In triangle ABC, the measure of angle A is 34 \u00b0 and the measure of angle B is 90 \u00b0. What is the measure, in degrees, of angle C?",
+    "text": "In triangle ABC, the measure of angle A is 34 ° and the measure of angle B is 90 °. What is the measure, in degrees, of angle C?",
     "choices": [
       {
         "id": "A",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_2",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -69,19 +69,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_3",
     "testName": "May 2025 International Form B SAT Math Module 1",
-    "text": "Which expression is equivalent to $30x^{2}+6x+6$ \uff1f",
+    "text": "Which expression is equivalent to $30x^{2}+6x+6$ ？",
     "choices": [
       {
         "id": "A",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_4",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_5",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -160,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_6",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -196,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_7",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -232,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_8",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -268,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_9",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -304,15 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_10",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -323,7 +323,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
@@ -331,7 +331,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_11",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -366,8 +366,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_12",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -395,15 +395,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_13",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -431,34 +431,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_14",
     "testName": "May 2025 International Form B SAT Math Module 1",
-    "text": "A club plans to sell tote bags. The club members estimate they will sell 80 tote bags when the bags are priced at \\$9 each. For every price increase of \\$1, they estimate they will sell 8 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at \\$12 each? (revenue = price \u00d7 number sold)",
+    "text": "A club plans to sell tote bags. The club members estimate they will sell 80 tote bags when the bags are priced at \\$9 each. For every price increase of \\$1, they estimate they will sell 8 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at \\$12 each? (revenue = price × number sold)",
     "choices": [],
     "correctAnswer": "672",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_15",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -469,15 +469,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_16",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -488,15 +488,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_17",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -524,15 +524,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_18",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -560,16 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_25_IntlB_Math_M1_Q18_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_19",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -580,16 +579,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_25_IntlB_Math_M1_Q19_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_20",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -617,7 +615,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -625,7 +623,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_21",
     "testName": "May 2025 International Form B SAT Math Module 1",
@@ -644,7 +642,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_22",
     "testName": "May 2025 International Form B SAT Math Module 1",

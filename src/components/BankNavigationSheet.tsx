@@ -11,16 +11,17 @@ interface BankNavigationSheetProps {
   onJump: (questionNumber: number) => void;
   isSplitScreenActive?: boolean;
   splitPosition?: number;
-  storagePrefix: string;
+  items?: Array<{ id: number; storageId: string }>;
+  storagePrefix?: string;
 }
 
-const getQuestionStatus = (prefix: string, questionNum: number): string => {
-  const status = localStorage.getItem(`${prefix}-${questionNum}-status`);
+const getQuestionStatus = (storageId: string): string => {
+  const status = localStorage.getItem(`${storageId}-status`);
   return status || "unanswered";
 };
 
-const isQuestionFlagged = (prefix: string, questionNum: number): boolean => {
-  return localStorage.getItem(`${prefix}-${questionNum}-flagged`) === "true";
+const isQuestionFlagged = (storageId: string): boolean => {
+  return localStorage.getItem(`${storageId}-flagged`) === "true";
 };
 
 export const BankNavigationSheet = ({
@@ -29,6 +30,7 @@ export const BankNavigationSheet = ({
   onJump,
   isSplitScreenActive = false,
   splitPosition = 50,
+  items,
   storagePrefix,
 }: BankNavigationSheetProps) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -143,8 +145,11 @@ export const BankNavigationSheet = ({
             className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-2 overflow-auto max-h-[calc(55vh-230px)] p-1"
           >
             {Array.from({ length: totalQuestions }, (_, i) => i + 1).map((num) => {
-              const status = getQuestionStatus(storagePrefix, num);
-              const isFlagged = isQuestionFlagged(storagePrefix, num);
+              const item = items[num - 1];
+              const fallbackStorageId = storagePrefix ? `${storagePrefix}-${num}` : undefined;
+              const storageId = item?.storageId || fallbackStorageId;
+              const status = storageId ? getQuestionStatus(storageId) : "unanswered";
+              const isFlagged = storageId ? isQuestionFlagged(storageId) : false;
               const isCurrent = num === currentQuestion;
               return (
                 <button

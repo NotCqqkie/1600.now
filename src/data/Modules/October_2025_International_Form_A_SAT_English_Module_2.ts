@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_1",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nMicrobiologist Radam\u00e9s Cordero and team investigated surface temperatures of a variety of fungi, including *Marasmius capillaris* and a species from the genus *Cantharellus*, in a study ______ a previous observation: Cordero had taken thermal images of various wild mushrooms while hiking and found that the mushrooms all appeared to be colder than the surrounding environment, raising questions about thermoregulation in fungi.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nMicrobiologist Radamés Cordero and team investigated surface temperatures of a variety of fungi, including *Marasmius capillaris* and a species from the genus *Cantharellus*, in a study ______ a previous observation: Cordero had taken thermal images of various wild mushrooms while hiking and found that the mushrooms all appeared to be colder than the surrounding environment, raising questions about thermoregulation in fungi.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_2",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPlayers of online games are largely aware that the games collect their data, and they're often willing to trade some privacy for a fun experience. But the games are often quite ______ about what data they collect and why. Because of this, data-privacy advocates are seeking to expand online players' knowledge of data collection practices and improve their ability to navigate privacy-setting features in games.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPlayers of online games are largely aware that the games collect their data, and they're often willing to trade some privacy for a fun experience. But the games are often quite ______ about what data they collect and why. Because of this, data-privacy advocates are seeking to expand online players' knowledge of data collection practices and improve their ability to navigate privacy-setting features in games.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_3",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDescribed in treatises mainly published between 1768 and 1950 (such as William Holdsworth and William Aldridge's *Natural Short-Hand*), musical stenography used quickly written squiggles and dots in an attempt to preserve, in print and in real time, the ______ features of live performances\u2014those that result from impromptu deviations of performers when fidelity to an established musical score is not mandated.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDescribed in treatises mainly published between 1768 and 1950 (such as William Holdsworth and William Aldridge's *Natural Short-Hand*), musical stenography used quickly written squiggles and dots in an attempt to preserve, in print and in real time, the ______ features of live performances—those that result from impromptu deviations of performers when fidelity to an established musical score is not mandated.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_4",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "As used in the text, what does the word \"betraying\" most nearly mean?\nThe following text is from Edward Gibbon's 1796 *Memoirs of My Life and Writings*. Gibbon reflects on publishing a volume of his series *The History of the Decline and Fall of the Roman Empire*.\nI am at a loss how to describe the success of the work, without <u>betraying</u> the vanity of the writer. The first impression was exhausted in a few days; a second and third edition were scarcely adequate to the demand.\n\nAs used in the text, what does the word \"betraying\" most nearly mean?",
+    "text": "As used in the text, what does the word \"betraying\" most nearly mean?\nThe following text is from Edward Gibbon's 1796 *Memoirs of My Life and Writings*. Gibbon reflects on publishing a volume of his series *The History of the Decline and Fall of the Roman Empire*.\nI am at a loss how to describe the success of the work, without <u>betraying</u> the vanity of the writer. The first impression was exhausted in a few days; a second and third edition were scarcely adequate to the demand.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_5",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\nAl Black's *Sunset Backwater Scene with Egrets*, a wetland landscape with silhouettes of moss-covered trees contrasted by a vibrant orange sky, is typical of paintings by the Florida Highwaymen, loosely affiliated landscape artists mainly active in Fort Pierce, Florida, during the 1950s and '60s. Some art historians suggest that Highwaymen paintings played a role in shaping popular perceptions of the state that persist today: the natural iconography that Black and colleagues constantly revisited\u2014lush tropical forests, vivid sunsets\u2014is now seen as classically Floridian.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nAl Black's *Sunset Backwater Scene with Egrets*, a wetland landscape with silhouettes of moss-covered trees contrasted by a vibrant orange sky, is typical of paintings by the Florida Highwaymen, loosely affiliated landscape artists mainly active in Fort Pierce, Florida, during the 1950s and '60s. Some art historians suggest that Highwaymen paintings played a role in shaping popular perceptions of the state that persist today: the natural iconography that Black and colleagues constantly revisited—lush tropical forests, vivid sunsets—is now seen as classically Floridian.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_6",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nThe metal featured in both the structure of the House in Kamiaraya by Kazuto Nishi Architects and the hardware in the One-Room Residence of 5 Layers by Matsuyama Architect and Associates is representative of a trend in contemporary Japanese interior design to juxtapose sleek, modern accents with traditional organic materials such as paper. The prominent featuring of metal stems from the post-World War II emphasis on technological progress, while more traditional natural materials help preserve longstanding architectural and aesthetic approaches.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nThe metal featured in both the structure of the House in Kamiaraya by Kazuto Nishi Architects and the hardware in the One-Room Residence of 5 Layers by Matsuyama Architect and Associates is representative of a trend in contemporary Japanese interior design to juxtapose sleek, modern accents with traditional organic materials such as paper. The prominent featuring of metal stems from the post-World War II emphasis on technological progress, while more traditional natural materials help preserve longstanding architectural and aesthetic approaches.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_7",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nThe following text is from Nathaniel Hawthorne's 1830 short story \"Sir William Phips.\"\nThe knowledge, communicated by the historian and biographer, is analogous to that which we acquire of a country by the map,\u2014minute, perhaps, and accurate, and available for all necessary purposes, but cold and naked, and wholly destitute of the mimic charm produced by landscape painting. These defects are partly remediable, and even without an absolute violation of literal truth, although by methods rightfully interdicted to professors of biographical exactness.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nThe following text is from Nathaniel Hawthorne's 1830 short story \"Sir William Phips.\"\nThe knowledge, communicated by the historian and biographer, is analogous to that which we acquire of a country by the map,—minute, perhaps, and accurate, and available for all necessary purposes, but cold and naked, and wholly destitute of the mimic charm produced by landscape painting. These defects are partly remediable, and even without an absolute violation of literal truth, although by methods rightfully interdicted to professors of biographical exactness.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_8",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nDeposits of valuable objects, called hoards, have been unearthed in many different parts of Ireland and Northern Ireland. Technological advancements in the twenty-first century have made it easier to locate hoards, but plenty of hoards were found earlier. For example, ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nDeposits of valuable objects, called hoards, have been unearthed in many different parts of Ireland and Northern Ireland. Technological advancements in the twenty-first century have made it easier to locate hoards, but plenty of hoards were found earlier. For example, ______",
     "choices": [
       {
         "id": "A",
@@ -283,22 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Eng_M2_Q8_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_9",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the comparison?\nThe nearly forty tribes located in Oklahoma, including the Osage Nation and the Seminole Nation, operate numerous businesses and generate billions of dollars in revenue. A student in an economics class is researching the tribes' collective activity as a single industry. The student wants to compare that industry's contribution to Oklahoma's overall economy in 2017 with the contributions made by three other industries in the state. Looking at the table, the student finds that tribal economic activity totaled over $7.3 billion, ranking it above ______\n\nWhich choice most effectively uses data from the table to complete the comparison?",
+    "text": "Which choice most effectively uses data from the table to complete the comparison?\nThe nearly forty tribes located in Oklahoma, including the Osage Nation and the Seminole Nation, operate numerous businesses and generate billions of dollars in revenue. A student in an economics class is researching the tribes' collective activity as a single industry. The student wants to compare that industry's contribution to Oklahoma's overall economy in 2017 with the contributions made by three other industries in the state. Looking at the table, the student finds that tribal economic activity totaled over $7.3 billion, ranking it above ______",
     "choices": [
       {
         "id": "A",
@@ -320,22 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Eng_M2_Q9_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_10",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nStudies have found that when looking at other people's eyes, humans tend to perceive dilated pupils positively and constricted pupils negatively. Noting that a dark iris\u2014the colored portion surrounding the pupil\u2014is hard to distinguish from the black of the pupil (and thereby affects the pupil's apparent size) and that many domestic dogs have dark irises, Akitsugu Konno et al. showed close-up images of dogs' faces to human participants and asked them to rate the dogs' traits and their own attitudes toward the dogs. Their findings suggest that ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nStudies have found that when looking at other people's eyes, humans tend to perceive dilated pupils positively and constricted pupils negatively. Noting that a dark iris—the colored portion surrounding the pupil—is hard to distinguish from the black of the pupil (and thereby affects the pupil's apparent size) and that many domestic dogs have dark irises, Akitsugu Konno et al. showed close-up images of dogs' faces to human participants and asked them to rate the dogs' traits and their own attitudes toward the dogs. Their findings suggest that ______",
     "choices": [
       {
         "id": "A",
@@ -351,28 +349,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "differences in dogs\u2019 pupil size may elicit a stronger response in humans than differences in people\u2019s pupil size do, as participants\u2019 responses to the images when dogs\u2019 pupils were actually large were indistinguishable from participants\u2019 responses when dogs\u2019 pupils only appeared to be large due to iris color."
+        "text": "differences in dogs’ pupil size may elicit a stronger response in humans than differences in people’s pupil size do, as participants’ responses to the images when dogs’ pupils were actually large were indistinguishable from participants’ responses when dogs’ pupils only appeared to be large due to iris color."
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlA_Eng_M2_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_11",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which finding from the study, if true, would most directly support the text's characterization of the study's results?\nCarolina chickadees are cavity nesting birds that initiate nest building at the same time of year as golden paper wasps, a species that also nests in enclosed spaces. Researchers observed that both species will settle in nesting boxes, but birds and wasps are not often observed co-occupying boxes, leading to the hypothesis that the two species compete for nesting sites. To test this hypothesis, the researchers installed nesting boxes throughout a nature preserve in the US state of North Carolina, manipulated some of the boxes to exclude birds, and then monitored the boxes for two years. Not only was the hypothesis validated, there was also a clear indication of competitive advantage for birds.\n\nWhich finding from the study, if true, would most directly support the text's characterization of the study's results?",
+    "text": "Which finding from the study, if true, would most directly support the text's characterization of the study's results?\nCarolina chickadees are cavity nesting birds that initiate nest building at the same time of year as golden paper wasps, a species that also nests in enclosed spaces. Researchers observed that both species will settle in nesting boxes, but birds and wasps are not often observed co-occupying boxes, leading to the hypothesis that the two species compete for nesting sites. To test this hypothesis, the researchers installed nesting boxes throughout a nature preserve in the US state of North Carolina, manipulated some of the boxes to exclude birds, and then monitored the boxes for two years. Not only was the hypothesis validated, there was also a clear indication of competitive advantage for birds.",
     "choices": [
       {
         "id": "A",
@@ -394,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -404,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_12",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which finding about the Cairo site, if true, would most directly support Khudadad's conclusion?\nBased on findings from fossil sites, paleobotanists had developed the so-called partition hypothesis, which holds that there were two distinctly different kinds of biomes during the Devonian period (circa 360 to 420 million years ago). One was a tropical deltaic forest biome home to plants such as the fernlike *Eospermatopteris*, and the other was an arid floodplain forest biome home to plants such as the coniferlike *Archaeopteris*. Recently, however, evolutionary ecologist Khudadad Khudadad examined the remnants of a Devonian forest in what is now Cairo, New York, and concluded that evidence from the Cairo site is inconsistent with the partition hypothesis.\n\nWhich finding about the Cairo site, if true, would most directly support Khudadad's conclusion?",
+    "text": "Which finding about the Cairo site, if true, would most directly support Khudadad's conclusion?\nBased on findings from fossil sites, paleobotanists had developed the so-called partition hypothesis, which holds that there were two distinctly different kinds of biomes during the Devonian period (circa 360 to 420 million years ago). One was a tropical deltaic forest biome home to plants such as the fernlike *Eospermatopteris*, and the other was an arid floodplain forest biome home to plants such as the coniferlike *Archaeopteris*. Recently, however, evolutionary ecologist Khudadad Khudadad examined the remnants of a Devonian forest in what is now Cairo, New York, and concluded that evidence from the Cairo site is inconsistent with the partition hypothesis.",
     "choices": [
       {
         "id": "A",
@@ -430,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -440,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_13",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which finding, if true, would most directly challenge the second research team's conclusion?\nCallie W. Babbitt, Hema Madaka, and colleagues assembled a database of materials used in consumer electronics by studying products in the lab and by gathering data from similar product studies. The team gave each of these studies a rating for level of detail (with a higher rating for reported data with more detail) and for level of traceability (with a higher rating for clearer descriptions of procedures). Based on these ratings, a second research team concluded that a study by Baipaki P. Hikwama provided more specificity in its data than a study by Timothy G. Townsend and colleagues did.\n\nWhich finding, if true, would most directly challenge the second research team's conclusion?",
+    "text": "Which finding, if true, would most directly challenge the second research team's conclusion?\nCallie W. Babbitt, Hema Madaka, and colleagues assembled a database of materials used in consumer electronics by studying products in the lab and by gathering data from similar product studies. The team gave each of these studies a rating for level of detail (with a higher rating for reported data with more detail) and for level of traceability (with a higher rating for clearer descriptions of procedures). Based on these ratings, a second research team concluded that a study by Baipaki P. Hikwama provided more specificity in its data than a study by Timothy G. Townsend and colleagues did.",
     "choices": [
       {
         "id": "A",
@@ -466,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -476,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_14",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nFrom November 1980 to February 1981, oil prices rose 45%, creating what economists term an oil shock. Although oil shocks have occurred multiple times since 1945, a broadly applicable description of how oil shocks affect economies at the national level has proved elusive, a problem typically attributed to the fact that oil shocks' effects are substantially conditioned on country-specific characteristics (oil import-export ratios, most importantly). Recently, however, Gbadebo Oladosu et al. showed that economists' estimates of national economies' responsiveness to oil shocks are highly heterogeneous even within a given country and time frame\u2014ranging by more than a factor of five in the case of the United States during a recent oil shock, for instance\u2014suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nFrom November 1980 to February 1981, oil prices rose 45%, creating what economists term an oil shock. Although oil shocks have occurred multiple times since 1945, a broadly applicable description of how oil shocks affect economies at the national level has proved elusive, a problem typically attributed to the fact that oil shocks' effects are substantially conditioned on country-specific characteristics (oil import-export ratios, most importantly). Recently, however, Gbadebo Oladosu et al. showed that economists' estimates of national economies' responsiveness to oil shocks are highly heterogeneous even within a given country and time frame—ranging by more than a factor of five in the case of the United States during a recent oil shock, for instance—suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -502,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -511,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_15",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nSaeed M.Z.A. Tarabieh conducted a study of consumer attitudes toward Jordanian food and beverage companies and found that for consumers who value environmental conservation, their likelihood of purchasing a product decreased when their perception of the product's risk of causing environmental harm increased. Subsequently, other researchers conducted a study of various demographic groups in Australia, investigating participants' intentions to purchase a new television, and found that, on average, middle-aged adults had the lowest perception among all the demographic groups in the study of the environmental risks of the TV. Assuming that the results of Tarabieh's study are broadly applicable, this finding suggests that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nSaeed M.Z.A. Tarabieh conducted a study of consumer attitudes toward Jordanian food and beverage companies and found that for consumers who value environmental conservation, their likelihood of purchasing a product decreased when their perception of the product's risk of causing environmental harm increased. Subsequently, other researchers conducted a study of various demographic groups in Australia, investigating participants' intentions to purchase a new television, and found that, on average, middle-aged adults had the lowest perception among all the demographic groups in the study of the environmental risks of the TV. Assuming that the results of Tarabieh's study are broadly applicable, this finding suggests that ______",
     "choices": [
       {
         "id": "A",
@@ -538,9 +535,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -548,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_16",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a letter dated January 14th, 1780, congressman John Witherspoon attempts to persuade General George Washington that the Continental Army's difficulty in procuring supplies, often attributed to disloyalty among civilian farmers and merchants, ______ due to concerns suppliers have about receiving compensation in the form of rapidly depreciating Continental currency.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a letter dated January 14th, 1780, congressman John Witherspoon attempts to persuade General George Washington that the Continental Army's difficulty in procuring supplies, often attributed to disloyalty among civilian farmers and merchants, ______ due to concerns suppliers have about receiving compensation in the form of rapidly depreciating Continental currency.",
     "choices": [
       {
         "id": "A",
@@ -574,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -584,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_17",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nSocial media platforms have made the collection of qualitative human behavioral data easier than ever. To collect such data by means of social media does raise a serious ethical ______ terms of service stipulate that platforms can analyze users\u2019 accounts and posts, according to sociologist Jose van Dijck, users are not informed when their data are included in behavioral studies.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nSocial media platforms have made the collection of qualitative human behavioral data easier than ever. To collect such data by means of social media does raise a serious ethical ______ terms of service stipulate that platforms can analyze users’ accounts and posts, according to sociologist Jose van Dijck, users are not informed when their data are included in behavioral studies.",
     "choices": [
       {
         "id": "A",
@@ -610,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -620,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_18",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe neurotechnology company MindMaze is working on an exciting new technology: game-based digital therapies that improve neuroplasticity to help with cognitive rehabilitation. MindMaze's technology, alongside other such neuromodulation technologies that function by stimulating nervous system structures, ______ the way for future advancements in neurotechnology.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe neurotechnology company MindMaze is working on an exciting new technology: game-based digital therapies that improve neuroplasticity to help with cognitive rehabilitation. MindMaze's technology, alongside other such neuromodulation technologies that function by stimulating nervous system structures, ______ the way for future advancements in neurotechnology.",
     "choices": [
       {
         "id": "A",
@@ -646,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -655,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_19",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nHelical ______ widely understood to confer stability and efficiency in the locomotion of a variety of microscopic organisms\u2014including bacteria, eukaryotic algae, and ciliates\u2014bestows similar advantages, albeit via different propulsive modes, to larger oceanic macroplanktons, such as salps.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nHelical ______ widely understood to confer stability and efficiency in the locomotion of a variety of microscopic organisms—including bacteria, eukaryotic algae, and ciliates—bestows similar advantages, albeit via different propulsive modes, to larger oceanic macroplanktons, such as salps.",
     "choices": [
       {
         "id": "A",
@@ -682,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -692,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_20",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlberto Gabriele, author of *Reading Popular Culture in Victorian Print,* tracks the transnational dissemination of works by author Mary Elizabeth Braddon via the magazine ______ from 1866 to 1899 and distributed throughout the Australian cities of Melbourne, Adelaide, and Hobart; the continental European cities of Brussels, Paris, and Turin; and cities in Turkey, India, and Jamaica, this magazine helped make Braddon's serialized novels globally available.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlberto Gabriele, author of *Reading Popular Culture in Victorian Print,* tracks the transnational dissemination of works by author Mary Elizabeth Braddon via the magazine ______ from 1866 to 1899 and distributed throughout the Australian cities of Melbourne, Adelaide, and Hobart; the continental European cities of Brussels, Paris, and Turin; and cities in Turkey, India, and Jamaica, this magazine helped make Braddon's serialized novels globally available.",
     "choices": [
       {
         "id": "A",
@@ -718,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -727,16 +724,16 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_21",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBrothers Orville and Wilbur Wright famously received a patent for their flying machine on May 22, 1906. Louisiana native Charles F. Page, who was born into slavery and self-educated, created a gas-powered flying ship in 1903 that was officially patented on April 10, ______ only model had been suspiciously destroyed en route to a planned demonstration at the 1904 World's Fair, and, discouraged, he never built a replacement.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBrothers Orville and Wilbur Wright famously received a patent for their flying machine on May 22, 1906. Louisiana native Charles F. Page, who was born into slavery and self-educated, created a gas-powered flying ship in 1903 that was officially patented on April 10, ______ only model had been suspiciously destroyed en route to a planned demonstration at the 1904 World's Fair, and, discouraged, he never built a replacement.",
     "choices": [
       {
         "id": "A",
-        "text": "1906\u2014roughly six weeks earlier\u2014Page's"
+        "text": "1906—roughly six weeks earlier—Page's"
       },
       {
         "id": "B",
@@ -748,15 +745,15 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "1906\u2014roughly six weeks earlier. Page's"
+        "text": "1906—roughly six weeks earlier. Page's"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -764,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_22",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn contrast to first-past-the-post electoral processes, the proportional representation system by which Australia's Senate is elected begins with citizens casting their votes not for specific candidates but for political parties. ______ once the votes have been tabulated, each party is awarded a number of seats proportional to the number of votes it received.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn contrast to first-past-the-post electoral processes, the proportional representation system by which Australia's Senate is elected begins with citizens casting their votes not for specific candidates but for political parties. ______ once the votes have been tabulated, each party is awarded a number of seats proportional to the number of votes it received.",
     "choices": [
       {
         "id": "A",
@@ -790,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -800,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_23",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nAt Storm King Art Center, an outdoor sculpture park in New York, Charles Ginnever's *Fayette: For Charles and Medgar Evers* is exposed to rain, snow, heat, and humidity. ______ it remains in good condition due to its material: Ginnever's sculpture is made of corrosion-resistant steel.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nAt Storm King Art Center, an outdoor sculpture park in New York, Charles Ginnever's *Fayette: For Charles and Medgar Evers* is exposed to rain, snow, heat, and humidity. ______ it remains in good condition due to its material: Ginnever's sculpture is made of corrosion-resistant steel.",
     "choices": [
       {
         "id": "A",
@@ -826,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -836,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_24",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nA writer whose debut novel is a success may struggle to live up to that first book's promise. ______ as in the case of Tommy Orange, author of the popular debut *There There* (2018) and the sequel *Wandering Stars* (2024), the follow-up actually elevates the writer's reputation. (*Wandering Stars* was labeled a \"towering achievement\" by the *New York Times*.)\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nA writer whose debut novel is a success may struggle to live up to that first book's promise. ______ as in the case of Tommy Orange, author of the popular debut *There There* (2018) and the sequel *Wandering Stars* (2024), the follow-up actually elevates the writer's reputation. (*Wandering Stars* was labeled a \"towering achievement\" by the *New York Times*.)",
     "choices": [
       {
         "id": "A",
@@ -862,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -872,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_25",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nBox modeling and digital sculpting approaches to three-dimensional digital modeling for video games yield graphics that accurately represent the relative sizes and proportions of real-world objects, but since these graphics are rendered from perfect geometric shapes, they tend to lack organic realism. ______ these 3D elements may display unnaturally precise angles and curves as compared to their real-world counterparts.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nBox modeling and digital sculpting approaches to three-dimensional digital modeling for video games yield graphics that accurately represent the relative sizes and proportions of real-world objects, but since these graphics are rendered from perfect geometric shapes, they tend to lack organic realism. ______ these 3D elements may display unnaturally precise angles and curves as compared to their real-world counterparts.",
     "choices": [
       {
         "id": "A",
@@ -898,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -908,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_26",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "The student wants to contrast the locations of the two specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Horridus is the nickname of a *Triceratops* fossil specimen housed at the Melbourne Museum.\n\u2022 The Melbourne Museum is located in Melbourne, Australia.\n\u2022 Horridus lived in the Late Cretaceous period.\n\u2022 Dio is the nickname of a *Triceratops* fossil specimen housed at the Royal Ontario Museum.\n\u2022 The Royal Ontario Museum is located in Ontario, Canada.\n\u2022 Dio lived in the Late Cretaceous period.\n\nThe student wants to contrast the locations of the two specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to contrast the locations of the two specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Horridus is the nickname of a *Triceratops* fossil specimen housed at the Melbourne Museum.\n• The Melbourne Museum is located in Melbourne, Australia.\n• Horridus lived in the Late Cretaceous period.\n• Dio is the nickname of a *Triceratops* fossil specimen housed at the Royal Ontario Museum.\n• The Royal Ontario Museum is located in Ontario, Canada.\n• Dio lived in the Late Cretaceous period.",
     "choices": [
       {
         "id": "A",
@@ -934,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -944,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_27",
     "testName": "October 2025 International Form A SAT English Module 2",
-    "text": "The student wants to explain why Cree is classified as a synthetic language. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Cree is a synthetic language in the Algonquian language family.\n\u2022 In synthetic languages, nouns can take several different forms (or cases) depending on their function within a sentence.\n\u2022 Combining the suffix *-ihk* with the Cree noun *s\u0101kahikan* (lake) forms the locative-case noun *s\u0101kahikanihk* (in the lake).\n\u2022 Synthetic languages have extensive case systems.\n\u2022 In analytic languages, cases are not typically used to indicate noun function.\n\u2022 Noun function is instead indicated through word order and auxiliary words (such as prepositions and adjectives).\n\nThe student wants to explain why Cree is classified as a synthetic language. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain why Cree is classified as a synthetic language. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Cree is a synthetic language in the Algonquian language family.\n• In synthetic languages, nouns can take several different forms (or cases) depending on their function within a sentence.\n• Combining the suffix *-ihk* with the Cree noun *sākahikan* (lake) forms the locative-case noun *sākahikanihk* (in the lake).\n• Synthetic languages have extensive case systems.\n• In analytic languages, cases are not typically used to indicate noun function.\n• Noun function is instead indicated through word order and auxiliary words (such as prepositions and adjectives).",
     "choices": [
       {
         "id": "A",
@@ -970,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

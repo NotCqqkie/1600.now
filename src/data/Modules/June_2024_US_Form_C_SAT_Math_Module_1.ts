@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_1",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -16,35 +16,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_2",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "In triangle XYZ, two of the angles have the same measure. If the measure of angle X is 108\u00b0 and the measure of angle Y is 36\u00b0, what is the measure of angle Z?",
+    "text": "In triangle XYZ, two of the angles have the same measure. If the measure of angle X is 108° and the measure of angle Y is 36°, what is the measure of angle Z?",
     "choices": [
       {
         "id": "A",
-        "text": "36\u00b0"
+        "text": "36°"
       },
       {
         "id": "B",
-        "text": "72\u00b0"
+        "text": "72°"
       },
       {
         "id": "C",
-        "text": "108\u00b0"
+        "text": "108°"
       },
       {
         "id": "D",
-        "text": "180\u00b0"
+        "text": "180°"
       }
     ],
     "correctAnswer": "A",
@@ -52,15 +52,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_3",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -88,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_4",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -124,7 +124,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -132,7 +132,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_6",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -167,8 +167,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_7",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -179,19 +179,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_8",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "A club plans to sell tote bags. The club members estimate they will sell 90 tote bags when the bags are priced at \\$11 each. For every price increase of \\$1, they estimate they will sell 9 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at \\$13 each?(revenue = price \u00d7 number sold)",
+    "text": "A club plans to sell tote bags. The club members estimate they will sell 90 tote bags when the bags are priced at \\$11 each. For every price increase of \\$1, they estimate they will sell 9 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at \\$13 each?(revenue = price × number sold)",
     "choices": [
       {
         "id": "A",
@@ -215,19 +215,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Sample Statistics and Margin of Error",
-    "difficulty": "null",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_9",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 325 degrees Fahrenheit (\u00b0F). The research manager recorded the amount of time, in minutes, each oven takes to preheat to 325\u00b0F. Based on the first sample, the research manager estimated that this type of oven takes an average of 13.2 minutes to preheat to 325\u00b0F, with an associated margin of error of 1 minute. Based on the second sample, the research manager estimated that this type of oven takes an average of 13.4 minutes to preheat to 325\u00b0F, with an associated margin of error of 2.3 minutes. Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?",
+    "text": "A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 325 degrees Fahrenheit (°F). The research manager recorded the amount of time, in minutes, each oven takes to preheat to 325°F. Based on the first sample, the research manager estimated that this type of oven takes an average of 13.2 minutes to preheat to 325°F, with an associated margin of error of 1 minute. Based on the second sample, the research manager estimated that this type of oven takes an average of 13.4 minutes to preheat to 325°F, with an associated margin of error of 2.3 minutes. Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?",
     "choices": [
       {
         "id": "A",
@@ -251,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Sample Statistics and Margin of Error",
+      "skill": "Inference from sample statistics and margin of error",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_10",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -270,15 +270,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_11",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -289,35 +289,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_12",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "The measure of angle Z is 45\u00b0. What is the measure, in <u>radians</u>, of angle Z?",
+    "text": "The measure of angle Z is 45°. What is the measure, in <u>radians</u>, of angle Z?",
     "choices": [
       {
         "id": "A",
-        "text": "$\\frac{1}{8}$ \u03c0"
+        "text": "$\\frac{1}{8}$ π"
       },
       {
         "id": "B",
-        "text": "$\\frac{1}{4}$ \u03c0"
+        "text": "$\\frac{1}{4}$ π"
       },
       {
         "id": "C",
-        "text": "$\\frac{1}{2}$ \u03c0"
+        "text": "$\\frac{1}{2}$ π"
       },
       {
         "id": "D",
-        "text": "$\\frac{3}{4}$ \u03c0"
+        "text": "$\\frac{3}{4}$ π"
       }
     ],
     "correctAnswer": "B",
@@ -325,15 +325,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_13",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -341,19 +341,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "12\u03c0"
+        "text": "12π"
       },
       {
         "id": "B",
-        "text": "26\u03c0"
+        "text": "26π"
       },
       {
         "id": "C",
-        "text": "2,016\u03c0"
+        "text": "2,016π"
       },
       {
         "id": "D",
-        "text": "2,352\u03c0"
+        "text": "2,352π"
       }
     ],
     "correctAnswer": "D",
@@ -361,19 +361,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_14",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "Which expression is equivalent to $(39y)^{\\frac{1}{2}}$ \uff0cwhere y\uff1e1\uff1f",
+    "text": "Which expression is equivalent to $(39y)^{\\frac{1}{2}}$ ，where y＞1？",
     "choices": [
       {
         "id": "A",
@@ -397,19 +397,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_15",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "In triangle QRS shown, QR\uff1cRS. Which expression represents the length of $\\overline{QS}$?",
+    "text": "In triangle QRS shown, QR＜RS. Which expression represents the length of $\\overline{QS}$?",
     "choices": [
       {
         "id": "A",
@@ -433,16 +433,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Jun_24_USC_Math_M1_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_16",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -453,15 +452,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_17",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -469,19 +468,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "2x + 35 \u2264 520"
+        "text": "2x + 35 ≤ 520"
       },
       {
         "id": "B",
-        "text": "2x + 35 \u2265 520"
+        "text": "2x + 35 ≥ 520"
       },
       {
         "id": "C",
-        "text": "4x + 70 \u2264 520"
+        "text": "4x + 70 ≤ 520"
       },
       {
         "id": "D",
-        "text": "4x + 70 \u2265 520"
+        "text": "4x + 70 ≥ 520"
       }
     ],
     "correctAnswer": "D",
@@ -489,15 +488,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_18",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -525,19 +524,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_19",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "5x 2 \u2212 9x \u2212 3 = 0\nWhat is the greatest solution to the given equation?",
+    "text": "5x 2 − 9x − 3 = 0\nWhat is the greatest solution to the given equation?",
     "choices": [
       {
         "id": "A",
@@ -561,19 +560,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_20",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "F (x)= $\\frac{9}{5}$ (x \u2212 273.15)+32\nThe function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 3.40 kelvins, by how much did the temperature increase, in degrees Fahrenhe it?",
+    "text": "F (x)= $\\frac{9}{5}$ (x − 273.15)+32\nThe function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 3.40 kelvins, by how much did the temperature increase, in degrees Fahrenhe it?",
     "choices": [
       {
         "id": "A",
@@ -597,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_21",
     "testName": "June 2024 US Form C SAT Math Module 1",
@@ -633,19 +632,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_22",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "In triangle JKL, the measure of angle J is (90b)\u00b0, the measure of angle K is (71a)\u00b0, and the measure of angle L is (19a)\u00b0, where a and b are constants. Which of the following must be true?",
+    "text": "In triangle JKL, the measure of angle J is (90b)°, the measure of angle K is (71a)°, and the measure of angle L is (19a)°, where a and b are constants. Which of the following must be true?",
     "choices": [
       {
         "id": "A",
@@ -669,7 +668,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   }

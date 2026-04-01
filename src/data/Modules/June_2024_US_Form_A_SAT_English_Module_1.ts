@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_1",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWireless headphones and other small electronic devices sometimes use batteries that can't be taken out and swapped for new ones. Environmental policy researcher Jessika Richter warns that once these internal batteries stop working, the devices become ______ and are typically thrown away, creating harmful waste.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWireless headphones and other small electronic devices sometimes use batteries that can't be taken out and swapped for new ones. Environmental policy researcher Jessika Richter warns that once these internal batteries stop working, the devices become ______ and are typically thrown away, creating harmful waste.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_2",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIt is hardly an exaggeration to characterize modern Hawaiian literature as having ______ the traditional stories of the *K\u00e1naka Maoli*, the Native Hawaiian people. In a variety of ways, Samuel Kamakau, Kristiana Kahakauwila, and other acclaimed writers have drawn on these stories to craft a rich portrait of the Hawaiian Islands and their people.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIt is hardly an exaggeration to characterize modern Hawaiian literature as having ______ the traditional stories of the *Kánaka Maoli*, the Native Hawaiian people. In a variety of ways, Samuel Kamakau, Kristiana Kahakauwila, and other acclaimed writers have drawn on these stories to craft a rich portrait of the Hawaiian Islands and their people.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_3",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cplaced\" most nearly mean?\nThe following text is from Charles Chesnutt's 1905 novel *The Colonel's Dream*. Mr. French and Mr. Kirby work together. Mr. French, the senior partner, who sat opposite Kirby, was an older man\u2014a safe guess would have<u> placed</u> him somewhere in the debatable ground between forty and fifty: of a good height, as could be seen even from the seated figure, the upper part of which was held erect with the unconscious ease which one associates with military training.\n\nAs used in the text, what does the word \u201cplaced\" most nearly mean?",
+    "text": "As used in the text, what does the word “placed\" most nearly mean?\nThe following text is from Charles Chesnutt's 1905 novel *The Colonel's Dream*. Mr. French and Mr. Kirby work together. Mr. French, the senior partner, who sat opposite Kirby, was an older man—a safe guess would have<u> placed</u> him somewhere in the debatable ground between forty and fifty: of a good height, as could be seen even from the seated figure, the upper part of which was held erect with the unconscious ease which one associates with military training.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_4",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Dhaka Stock Exchange in Dhaka, Bangladesh, is a dedicated exchange for investing in companies operating in Bangladesh, ensuring those companies receive certain regulatory oversight. Knowing this can __________ potential investors\u2019 worries about bureaucratic minutiae and thereby allow them to instead focus on identifying sound business opportunities.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Dhaka Stock Exchange in Dhaka, Bangladesh, is a dedicated exchange for investing in companies operating in Bangladesh, ensuring those companies receive certain regulatory oversight. Knowing this can __________ potential investors’ worries about bureaucratic minutiae and thereby allow them to instead focus on identifying sound business opportunities.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_5",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nShedding light on the thermal biology of fungi, research by Radam\u00e9s Cordero et al. indicates that certain mushrooms (including *Marasmius capillaris* and species from the genus *Russula*) can achieve a hypothermic state through evaporative cooling. Effects of this thermoregulation were not limited to the fungi's fruiting bodies and root-like hyphae: <u>temperature reductions were observed in the air immediately surrounding the mushrooms</u>. Though slight, the reductions inspired an air-cooling device; using approximately 400 grams of mushrooms, the team's prototype lowered the air temperature in a controlled environment by 10\u00b0C in forty minutes.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nShedding light on the thermal biology of fungi, research by Radamés Cordero et al. indicates that certain mushrooms (including *Marasmius capillaris* and species from the genus *Russula*) can achieve a hypothermic state through evaporative cooling. Effects of this thermoregulation were not limited to the fungi's fruiting bodies and root-like hyphae: <u>temperature reductions were observed in the air immediately surrounding the mushrooms</u>. Though slight, the reductions inspired an air-cooling device; using approximately 400 grams of mushrooms, the team's prototype lowered the air temperature in a controlled environment by 10°C in forty minutes.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_6",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice best states the main purpose of the text?\nAnimals use many objects as tools to achieve goals more easily. Such goals include grooming, finding food, and protecting themselves. For a long time, people thought tool use was unique to primates. Elephants and other animals, though, have busted the myth that tool use requires hands. Inventively, elephants use branches to scratch themselves. Woodpecker finches also get creative. They use cactus spines to pry insects from hiding places.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nAnimals use many objects as tools to achieve goals more easily. Such goals include grooming, finding food, and protecting themselves. For a long time, people thought tool use was unique to primates. Elephants and other animals, though, have busted the myth that tool use requires hands. Inventively, elephants use branches to scratch themselves. Woodpecker finches also get creative. They use cactus spines to pry insects from hiding places.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_7",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice best describes the overall structure of the text?\nFounded in Denver in 1991, the Museo de Las Americas is dedicated to art from Latin America, including the art of Indigenous peoples. Since its founding, it has acquired more than 4,800 objects for its permanent collection. More recently founded US-based institutions devoted to Latino cultures include the Latino Cultural Center. Located in Dallas, it focuses on Latino cultures and art in the United States.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nFounded in Denver in 1991, the Museo de Las Americas is dedicated to art from Latin America, including the art of Indigenous peoples. Since its founding, it has acquired more than 4,800 objects for its permanent collection. More recently founded US-based institutions devoted to Latino cultures include the Latino Cultural Center. Located in Dallas, it focuses on Latino cultures and art in the United States.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_8",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portions in the text as a whole?\nThe following text is from Virginia Woolf's 1919 novel *Night and Day*. The text describes a gathering of young artists and intellectuals. One person after another rose, and, as with <u>an ill-balanced axe, attempted to hew out</u> his conception of art a little more clearly, and sat down with the feeling that, for some reason which he could not grasp, his <u>strokes had gone awry</u>. As they sat down they turned almost invariably to the person sitting next them, and rectified and continued what they had just said in public.\n\nWhich choice best describes the function of the underlined portions in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portions in the text as a whole?\nThe following text is from Virginia Woolf's 1919 novel *Night and Day*. The text describes a gathering of young artists and intellectuals. One person after another rose, and, as with <u>an ill-balanced axe, attempted to hew out</u> his conception of art a little more clearly, and sat down with the feeling that, for some reason which he could not grasp, his <u>strokes had gone awry</u>. As they sat down they turned almost invariably to the person sitting next them, and rectified and continued what they had just said in public.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -291,13 +291,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_9",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "What does the text most directly suggest about Pimentel and colleagues conclusion?\nIn 2016 Marta S. Pimentel and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Sparus aurata*, a species of fish. However, Pimentel and colleagues\u2019 study relied on a mean sample size of only 12 fish. In a 2022 review of various scientists conclusions about the impacts of ocean acidification on fish behavior, Timothy D. Clark and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.\n\nWhat does the text most directly suggest about Pimentel and colleagues conclusion?",
+    "text": "What does the text most directly suggest about Pimentel and colleagues conclusion?\nIn 2016 Marta S. Pimentel and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Sparus aurata*, a species of fish. However, Pimentel and colleagues’ study relied on a mean sample size of only 12 fish. In a 2022 review of various scientists conclusions about the impacts of ocean acidification on fish behavior, Timothy D. Clark and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
     "choices": [
       {
         "id": "A",
@@ -319,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_10",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which statement about Alfagali and other Africanist scholars is best supported by information in the text?\nImmanuel Wallerstein and other historians of capitalism rarely discuss domestic capitalism in Africa before the period of European colonization, implicitly presenting capitalism as external to and imposed on Africa. Crislayne Alfagali and other Africanist scholars have shown, however, that in parts of Africa, wage labor competition, the manufacture of surplus goods for monetized sale, and other features of capitalism predated colonization. One reason for this discrepancy is that historians of capitalism tend to focus on longitudinal economic data drawn from archival records, which do not exist for much of precolonial Africa.\n\nWhich statement about Alfagali and other Africanist scholars is best supported by information in the text?",
+    "text": "Which statement about Alfagali and other Africanist scholars is best supported by information in the text?\nImmanuel Wallerstein and other historians of capitalism rarely discuss domestic capitalism in Africa before the period of European colonization, implicitly presenting capitalism as external to and imposed on Africa. Crislayne Alfagali and other Africanist scholars have shown, however, that in parts of Africa, wage labor competition, the manufacture of surplus goods for monetized sale, and other features of capitalism predated colonization. One reason for this discrepancy is that historians of capitalism tend to focus on longitudinal economic data drawn from archival records, which do not exist for much of precolonial Africa.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -365,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_11",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nEffect of Neighboring Species on Pollinator Visits to Target Species\nNeighboring species\nTarget species\nEffect value\n*creeping thistle*\n*wild radish*\n0.2523\n*Elands sourfig*\n*Montpellier cistus*\n0.3580\n*leafy spurge*\n*Lewis flax*\n-0.3238\nResearchers Carolina Laura Morales and Anna Traveset gathered data about flowering plants growing alongside each other in various locations. In each case, the researchers identified one plant as a \"target species\" and a nearby plant as a \"neighboring species.\" The researchers then calculated a positive or negative value to show how the neighboring species affected pollinator visits to the target species. One example of a neighboring species with a negative effect value is the <u> </u>\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nEffect of Neighboring Species on Pollinator Visits to Target Species\nNeighboring species\nTarget species\nEffect value\n*creeping thistle*\n*wild radish*\n0.2523\n*Elands sourfig*\n*Montpellier cistus*\n0.3580\n*leafy spurge*\n*Lewis flax*\n-0.3238\nResearchers Carolina Laura Morales and Anna Traveset gathered data about flowering plants growing alongside each other in various locations. In each case, the researchers identified one plant as a \"target species\" and a nearby plant as a \"neighboring species.\" The researchers then calculated a positive or negative value to show how the neighboring species affected pollinator visits to the target species. One example of a neighboring species with a negative effect value is the <u> </u>",
     "choices": [
       {
         "id": "A",
@@ -391,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -401,33 +401,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_13",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which quotation from a translation of *Uncle Vanya* most effectively illustrates the claim?\n*Uncle Vanya: Scenes from Country Life in Four Acts* is an 1898 play by Anton Chekhov, originally written in Russian. In the play, Professor Serebrakoff and his wife Helena have come to stay at their country estate, which Vanya manages with the help of Sonia, the professor's daughter from a previous marriage. Chekhov portrays the professor as being unable to adjust to living at the country estate, as is evident when <u> </u>\n\nWhich quotation from a translation of *Uncle Vanya* most effectively illustrates the claim?",
+    "text": "Which quotation from a translation of *Uncle Vanya* most effectively illustrates the claim?\n*Uncle Vanya: Scenes from Country Life in Four Acts* is an 1898 play by Anton Chekhov, originally written in Russian. In the play, Professor Serebrakoff and his wife Helena have come to stay at their country estate, which Vanya manages with the help of Sonia, the professor's daughter from a previous marriage. Chekhov portrays the professor as being unable to adjust to living at the country estate, as is evident when <u> </u>",
     "choices": [
       {
         "id": "A",
-        "text": "Vanya says to himself, \u201cI was proud of [Professor Serebrakoff] and of his learning; I received all his words and writings as inspired and now? Now he has retired, and what is the total of his life? A blank!\""
+        "text": "Vanya says to himself, “I was proud of [Professor Serebrakoff] and of his learning; I received all his words and writings as inspired and now? Now he has retired, and what is the total of his life? A blank!\""
       },
       {
         "id": "B",
-        "text": "Professor Serebrakoff says to Helena, \u201cEver since I have been old I have been hateful to myself, and I am sure, hateful to you all as well.\u201d"
+        "text": "Professor Serebrakoff says to Helena, “Ever since I have been old I have been hateful to myself, and I am sure, hateful to you all as well.”"
       },
       {
         "id": "C",
-        "text": "Professor Serebrakoff says, \u201cI am a book-worm and a scholar, and am unfamiliar with practical affairs. I cannot, I find, dispense with the help of well-informed people.\u201d"
+        "text": "Professor Serebrakoff says, “I am a book-worm and a scholar, and am unfamiliar with practical affairs. I cannot, I find, dispense with the help of well-informed people.”"
       },
       {
         "id": "D",
-        "text": "Professor Serebrakoff says to Helena, \u201cI am used to my library and the lecture hall and to the esteem and admiration of my colleagues. Now I suddenly find myself plunged into this wilderness [the estate], condemned to see the same stupid people from morning till night and listen to their futile conversations.\u201d"
+        "text": "Professor Serebrakoff says to Helena, “I am used to my library and the lecture hall and to the esteem and admiration of my colleagues. Now I suddenly find myself plunged into this wilderness [the estate], condemned to see the same stupid people from morning till night and listen to their futile conversations.”"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -436,12 +436,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Inferences",
-    "difficulty": "null",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_14",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nNew Zealand has classified the rainbow lorikeet as an invasive species that could harm some of the country's native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that Earth's climate is changing in ways that challenge such classifications. Climate changes may force animals from their current ranges. Climate changes may also create good habitats in areas where a species couldn't live previously. These observations suggest that ____\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nNew Zealand has classified the rainbow lorikeet as an invasive species that could harm some of the country's native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that Earth's climate is changing in ways that challenge such classifications. Climate changes may force animals from their current ranges. Climate changes may also create good habitats in areas where a species couldn't live previously. These observations suggest that ____",
     "choices": [
       {
         "id": "A",
@@ -463,9 +463,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Inferences",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -473,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_15",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nGottfried Schlaug et al. established that musical training is associated with physical alterations in the brain. Noting that such alterations may affect how sonic stimuli engender a hedonic response (a feeling of satisfaction and pleasure), Antonia Olivia Dolan et al. recently had musicians and nonmusicians listen to recordings\u2014Led Zeppelin's \u201cWhole Lotta Love,\u201d Jose Gonzalez's \u201cHeartbeats,\u201d and others\u2014and adjust the volume to the most pleasurable level for each recording. Although musicians and nonmusicians were clinically comparable in terms of their ability to detect sounds, musicians preferred to hear the recordings at a higher volume than nonmusicians did, leading Dolan et al. to conclude that _____\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nGottfried Schlaug et al. established that musical training is associated with physical alterations in the brain. Noting that such alterations may affect how sonic stimuli engender a hedonic response (a feeling of satisfaction and pleasure), Antonia Olivia Dolan et al. recently had musicians and nonmusicians listen to recordings—Led Zeppelin's “Whole Lotta Love,” Jose Gonzalez's “Heartbeats,” and others—and adjust the volume to the most pleasurable level for each recording. Although musicians and nonmusicians were clinically comparable in terms of their ability to detect sounds, musicians preferred to hear the recordings at a higher volume than nonmusicians did, leading Dolan et al. to conclude that _____",
     "choices": [
       {
         "id": "A",
@@ -485,7 +485,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "physical aspects of musicians\u2019 brains may suppress the hedonic response to music at volumes that provoke the hedonic response in nonmusicians."
+        "text": "physical aspects of musicians’ brains may suppress the hedonic response to music at volumes that provoke the hedonic response in nonmusicians."
       },
       {
         "id": "C",
@@ -499,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -508,12 +508,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_16",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA painting by 19th-century artist Katsushika Hokusai, __________\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA painting by 19th-century artist Katsushika Hokusai, __________",
     "choices": [
       {
         "id": "A",
@@ -535,9 +535,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -545,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_17",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlthough the epic poem *Raghuva\u1e43\u015ba* dates back to the 4th century, ______ compelling narrative still captivates readers today.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlthough the epic poem *Raghuvaṃśa* dates back to the 4th century, ______ compelling narrative still captivates readers today.",
     "choices": [
       {
         "id": "A",
@@ -571,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -581,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_18",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nResearchers Tammy Kernodle and Christina Zanfagna have lent their expertise on Black history and music to an important new ______ *Timeline of African American Music*, a digital resource that traces the development of individual musical genres (such as swing and bebop) while also revealing the connections between them.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nResearchers Tammy Kernodle and Christina Zanfagna have lent their expertise on Black history and music to an important new ______ *Timeline of African American Music*, a digital resource that traces the development of individual musical genres (such as swing and bebop) while also revealing the connections between them.",
     "choices": [
       {
         "id": "A",
@@ -607,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -617,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_19",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPublished in 1945, Gwendolyn Brooks's poem \"Queen of the Blues\" demonstrates Brooks's penchant for crafting short, compressed lines infused with bursts of vivid imagery and <u> </u> the syncopated rhythms of the blues into her work.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPublished in 1945, Gwendolyn Brooks's poem \"Queen of the Blues\" demonstrates Brooks's penchant for crafting short, compressed lines infused with bursts of vivid imagery and <u> </u> the syncopated rhythms of the blues into her work.",
     "choices": [
       {
         "id": "A",
@@ -643,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_20",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs comet C/1911 N1 (Kiess) orbits the Sun, it is trailed by a stream of rocky particles. When Earth passes through this meteoroid stream each year, typically between August 28 and September 5, the 66-kilometer-per-second collision between these meteoroids and atmospheric gases ______ streaks of light in the sky\u2014the Aurigid meteor shower.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs comet C/1911 N1 (Kiess) orbits the Sun, it is trailed by a stream of rocky particles. When Earth passes through this meteoroid stream each year, typically between August 28 and September 5, the 66-kilometer-per-second collision between these meteoroids and atmospheric gases ______ streaks of light in the sky—the Aurigid meteor shower.",
     "choices": [
       {
         "id": "A",
@@ -679,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -689,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_21",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nScientists studying asteroid deflection have focused on secondary objects such as S/2018 (15745), a moonlet orbiting the near-Earth asteroid Yuliya. In 2022 NASA intentionally crashed a probe into just such an object, successfully altering its orbit. ______ these results are no guarantee that Yuliya and other primary objects would be similarly affected.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nScientists studying asteroid deflection have focused on secondary objects such as S/2018 (15745), a moonlet orbiting the near-Earth asteroid Yuliya. In 2022 NASA intentionally crashed a probe into just such an object, successfully altering its orbit. ______ these results are no guarantee that Yuliya and other primary objects would be similarly affected.",
     "choices": [
       {
         "id": "A",
@@ -715,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -725,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_22",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nBill Belew's talent for intricately and expertly detailed costume design was on full display with the Blue Rain jumpsuit, created for musical icon Elvis Presley to wear onstage. <u> </u> the suit's blue rhinestones showcased Belew's careful attention to detail.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nBill Belew's talent for intricately and expertly detailed costume design was on full display with the Blue Rain jumpsuit, created for musical icon Elvis Presley to wear onstage. <u> </u> the suit's blue rhinestones showcased Belew's careful attention to detail.",
     "choices": [
       {
         "id": "A",
@@ -751,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -761,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_23",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "The student wants to specify the number of merchant ships in Saudi Arabia in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A merchant ship is any ship hired to carry cargo or passengers.\n\u2022 A ship's carrying capacity is also known as its deadweight tonnage (DWT).\n\u2022 In 2021, there were a total of 392 merchant ships registered in Saudi Arabia.\n\u2022 The combined DWT of these ships was 13.7 million tons.\n\nThe student wants to specify the number of merchant ships in Saudi Arabia in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to specify the number of merchant ships in Saudi Arabia in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A merchant ship is any ship hired to carry cargo or passengers.\n• A ship's carrying capacity is also known as its deadweight tonnage (DWT).\n• In 2021, there were a total of 392 merchant ships registered in Saudi Arabia.\n• The combined DWT of these ships was 13.7 million tons.",
     "choices": [
       {
         "id": "A",
@@ -781,13 +781,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "There were a total of 392 merchant ships\u2014ships hired to carry cargo or passengers\u2014registered in Saudi Arabia in 2021."
+        "text": "There were a total of 392 merchant ships—ships hired to carry cargo or passengers—registered in Saudi Arabia in 2021."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -797,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_24",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "The student wants to emphasize a difference between quintidi and decadi. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The French Republican calendar was used in France from 1793 to 1805.\n\u2022 Each calendar week had ten days, two of which were called *quintidi* and *decadi*.\n\u2022 Each quintidi was given a unique name in honor of an animal.\n\u2022 Each decadi was given a unique name in honor of an agricultural tool.\n\u2022 B\u00e9lier, a quintidi in the month of Thermidor, was named after the ram.\n\u2022 Crible, a decadi in the month of Niv\u00f4se, was named after the sieve.\n\nThe student wants to emphasize a difference between quintidi and decadi. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between quintidi and decadi. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The French Republican calendar was used in France from 1793 to 1805.\n• Each calendar week had ten days, two of which were called *quintidi* and *decadi*.\n• Each quintidi was given a unique name in honor of an animal.\n• Each decadi was given a unique name in honor of an agricultural tool.\n• Bélier, a quintidi in the month of Thermidor, was named after the ram.\n• Crible, a decadi in the month of Nivôse, was named after the sieve.",
     "choices": [
       {
         "id": "A",
@@ -817,13 +817,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Each decadi was named after an agricultural tool; for example, a decadi during the month of Niv\u00f4se was named after the sieve."
+        "text": "Each decadi was named after an agricultural tool; for example, a decadi during the month of Nivôse was named after the sieve."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -833,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_25",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "The student wants to provide an explanation and example of Kepler's first law of planetary motion. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Kepler's first law of planetary motion states that the orbit of a planet around the Sun is an ellipse.\n\u2022 The law also states that, in an elliptical orbit, the object being orbited is one of the ellipse's foci.\n\u2022 Kepler's laws of planetary motion also apply to natural satellites (e.g. moons).\n\u2022 Umbriel is a moon of Uranus that orbits the planet in 4.14 Earth days on average.\n\u2022 Umbriel's orbit is elliptical.\n\nThe student wants to provide an explanation and example of Kepler's first law of planetary motion. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an explanation and example of Kepler's first law of planetary motion. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Kepler's first law of planetary motion states that the orbit of a planet around the Sun is an ellipse.\n• The law also states that, in an elliptical orbit, the object being orbited is one of the ellipse's foci.\n• Kepler's laws of planetary motion also apply to natural satellites (e.g. moons).\n• Umbriel is a moon of Uranus that orbits the planet in 4.14 Earth days on average.\n• Umbriel's orbit is elliptical.",
     "choices": [
       {
         "id": "A",
@@ -859,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -869,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_26",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "The student wants to define the term \"Lazarus species\" and provide an example of one. Which choice most effectively uses relevant information from the notes to accomplish these goals?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The black-footed ferret is a mammal species.\n\u2022 Up until 1981, it was believed to be extinct. That year, a live black-footed ferret was identified in the wild in the United States.\n\u2022 The black-footed ferret is considered a Lazarus species.\n\u2022 \"Lazarus species\" is a term for living species of organisms that were once believed to be extinct.\n\nThe student wants to define the term \"Lazarus species\" and provide an example of one. Which choice most effectively uses relevant information from the notes to accomplish these goals?",
+    "text": "The student wants to define the term \"Lazarus species\" and provide an example of one. Which choice most effectively uses relevant information from the notes to accomplish these goals?\nWhile researching a topic, a student has taken the following notes:\n• The black-footed ferret is a mammal species.\n• Up until 1981, it was believed to be extinct. That year, a live black-footed ferret was identified in the wild in the United States.\n• The black-footed ferret is considered a Lazarus species.\n• \"Lazarus species\" is a term for living species of organisms that were once believed to be extinct.",
     "choices": [
       {
         "id": "A",
@@ -895,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -905,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "4989a736-d8cf-4f22-b057-f6543b77d0fd_27",
     "testName": "June 2024 US Form A SAT English Module 1",
-    "text": "The student wants to provide an example of the way in which Ballard's compositions blend Western classical music with elements of Native musical traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Louis Ballard was a classical composer and citizen of the Quapaw Tribe.\n\u2022 He is one of the first composers to synthesize Western classical music with elements from various Native musical traditions.\n\u2022 Ballard's *Pan Indian Rhythms* (1970) for percussion is written in a classical form.\n\u2022 It incorporates Ute notched sticks, a traditional Native instrument.\n\nThe student wants to provide an example of the way in which Ballard's compositions blend Western classical music with elements of Native musical traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of the way in which Ballard's compositions blend Western classical music with elements of Native musical traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Louis Ballard was a classical composer and citizen of the Quapaw Tribe.\n• He is one of the first composers to synthesize Western classical music with elements from various Native musical traditions.\n• Ballard's *Pan Indian Rhythms* (1970) for percussion is written in a classical form.\n• It incorporates Ute notched sticks, a traditional Native instrument.",
     "choices": [
       {
         "id": "A",
@@ -931,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

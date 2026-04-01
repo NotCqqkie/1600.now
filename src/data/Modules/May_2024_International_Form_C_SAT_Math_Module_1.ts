@@ -4,28 +4,27 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_1",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (\u00b0F), when the air temperature is 38\u00b0F and the wind speed is 60 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (°F), when the air temperature is 38°F and the wind speed is 60 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "22",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Math_M1_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_2",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -41,11 +40,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "m = 3(n + p)\u22124"
+        "text": "m = 3(n + p)−4"
       },
       {
         "id": "D",
-        "text": "m = 3 \u2212 n \u2212 p \u2212 4"
+        "text": "m = 3 − n − p − 4"
       }
     ],
     "correctAnswer": "A",
@@ -53,15 +52,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_3",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -89,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_4",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -125,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_5",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -144,15 +143,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_6",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -160,7 +159,7 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "x = \u22122"
+        "text": "x = −2"
       },
       {
         "id": "B",
@@ -168,7 +167,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "5x = \u22124"
+        "text": "5x = −4"
       },
       {
         "id": "D",
@@ -180,34 +179,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_7",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "In triangle JKL, the measures of \u2220K and \u2220L are each 34\u00b0. What is the measure of \u2220J, in degrees? (Disregard the degree symbol when entering your answer.)",
+    "text": "In triangle JKL, the measures of ∠K and ∠L are each 34°. What is the measure of ∠J, in degrees? (Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "112",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_8",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -234,16 +233,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_9",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -271,7 +270,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
@@ -279,7 +278,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_10",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -315,27 +314,27 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_11",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "Circle K has a radius of 2 millimeters (mm). Circle L has an area of 121\u03c0 mm 2. What is the total area, in mm 2, of circles K and L?",
+    "text": "Circle K has a radius of 2 millimeters (mm). Circle L has an area of 121π mm 2. What is the total area, in mm 2, of circles K and L?",
     "choices": [
       {
         "id": "A",
-        "text": "13\u03c0"
+        "text": "13π"
       },
       {
         "id": "B",
-        "text": "26\u03c0"
+        "text": "26π"
       },
       {
         "id": "C",
-        "text": "52\u03c0"
+        "text": "52π"
       },
       {
         "id": "D",
-        "text": "125\u03c0"
+        "text": "125π"
       }
     ],
     "correctAnswer": "D",
@@ -350,27 +349,27 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_12",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "If 3 x + 4 = 10, what is the value of 9 x \u2212 4?",
+    "text": "If 3 x + 4 = 10, what is the value of 9 x − 4?",
     "choices": [],
     "correctAnswer": "14",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_13",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -398,38 +397,38 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_14",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "What is the sum of the solutions to the equation 2x 2 \u2212 6x + 5 = 13?",
+    "text": "What is the sum of the solutions to the equation 2x 2 − 6x + 5 = 13?",
     "choices": [],
     "correctAnswer": "3",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_15",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "y = 23\ny = \u22123(x \u2212 23) 2 + 20\nIf the given equations are graphed in the xy -plane, at how many points do the graphs of the equations intersect?",
+    "text": "y = 23\ny = −3(x − 23) 2 + 20\nIf the given equations are graphed in the xy -plane, at how many points do the graphs of the equations intersect?",
     "choices": [
       {
         "id": "A",
@@ -453,19 +452,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_16",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "y = 400(3) 2x\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, x, starting from the end of January 1997, where 0 \u2264 x \u2264 4. Which statement is the best interpretation of the y-intercept of the graph of this equation in the xy -plane?",
+    "text": "y = 400(3) 2x\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, x, starting from the end of January 1997, where 0 ≤ x ≤ 4. Which statement is the best interpretation of the y-intercept of the graph of this equation in the xy -plane?",
     "choices": [
       {
         "id": "A",
@@ -489,19 +488,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_17",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "The function f is defined by f(x) = (\u22122)(3) x + 21. What is the y -intercept of the graph of y = f(x) in the xy -plane?",
+    "text": "The function f is defined by f(x) = (−2)(3) x + 21. What is the y -intercept of the graph of y = f(x) in the xy -plane?",
     "choices": [
       {
         "id": "A",
@@ -509,7 +508,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "(0, \u22122)"
+        "text": "(0, −2)"
       },
       {
         "id": "C",
@@ -525,15 +524,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_18",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -544,15 +543,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_19",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -580,15 +579,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_20",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -596,7 +595,7 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "y = 200(x)\u00b3"
+        "text": "y = 200(x)³"
       },
       {
         "id": "B",
@@ -616,15 +615,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_21",
     "testName": "May 2024 International Form C SAT Math Module 1",
@@ -632,19 +631,19 @@ export const questions: Question[] = [
     "choices": [
       {
         "id": "A",
-        "text": "y > 3x \u2212 5"
+        "text": "y > 3x − 5"
       },
       {
         "id": "B",
-        "text": "y < 3x \u2212 5"
+        "text": "y < 3x − 5"
       },
       {
         "id": "C",
-        "text": "y > 15x \u2212 5"
+        "text": "y > 15x − 5"
       },
       {
         "id": "D",
-        "text": "y < 15x \u2212 5"
+        "text": "y < 15x − 5"
       }
     ],
     "correctAnswer": "C",
@@ -652,27 +651,26 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Math_M1_Q21_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_22",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "2|6x \u2212 1|= 6x + 9\nWhat is the sum of the solutions to the given equation?",
+    "text": "2|6x − 1|= 6x + 9\nWhat is the sum of the solutions to the given equation?",
     "choices": [],
     "correctAnswer": "13/9,1.444",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   }

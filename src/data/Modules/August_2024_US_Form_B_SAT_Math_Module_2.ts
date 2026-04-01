@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_1",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "https://sat.oly.st/images/1b84f322ac95af733835b9d05ba99ada.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_2",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -70,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_3",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -106,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_4",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -142,16 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "https://sat.oly.st/images/544b406947627812e97029a63c87ddfc.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_5",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -179,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_6",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -215,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_7",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -251,15 +249,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_8",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -287,15 +285,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_9",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -306,19 +304,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_10",
     "testName": "August 2024 US Form B SAT Math Module 2",
-    "text": "Triangles * ABC * and* DEF * are similar, where * A * corresponds to* D *, and * B * corresponds to * E. * The measure of angle A is 26\u00b0, and * AB *= 4. Which of the following statements must be true?\nI. The measure of angle * D * is 26\u00b0\nII.* DE *=4",
+    "text": "Triangles * ABC * and* DEF * are similar, where * A * corresponds to* D *, and * B * corresponds to * E. * The measure of angle A is 26°, and * AB *= 4. Which of the following statements must be true?\nI. The measure of angle * D * is 26°\nII.* DE *=4",
     "choices": [
       {
         "id": "A",
@@ -342,7 +340,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
@@ -350,7 +348,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_11",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -369,7 +367,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_12",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -404,8 +402,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_13",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -416,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_14",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -452,15 +450,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_15",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -488,15 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_16",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -524,15 +522,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_17",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -543,34 +541,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_18",
     "testName": "August 2024 US Form B SAT Math Module 2",
-    "text": "2cos(90-* a *)\u00b0\u00b7cos * b *\u00b0+ sin(* a +y *)\u00b0\u00b7sin(90 -b)\u00b0\nIn the given expression, * a *and * b * are constants such that sin * a *\u00b0= 0.50, cos * b *\u00b0= 0.99, and 0 < b< 90. What is the value of the given expression when * y *=0?",
+    "text": "2cos(90-* a *)°·cos * b *°+ sin(* a +y *)°·sin(90 -b)°\nIn the given expression, * a *and * b * are constants such that sin * a *°= 0.50, cos * b *°= 0.99, and 0 < b< 90. What is the value of the given expression when * y *=0?",
     "choices": [],
     "correctAnswer": "1.485",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_19",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -598,16 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "https://sat.oly.st/images/394555d46284b28a52818fdf043d38b3.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_20",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -618,15 +615,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_21",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -654,15 +651,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_22",
     "testName": "August 2024 US Form B SAT Math Module 2",
@@ -690,7 +687,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   }

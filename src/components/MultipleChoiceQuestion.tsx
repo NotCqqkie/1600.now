@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
-import { cn, renderMixedContent } from "@/lib/utils";
+import { cn, normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import "katex/dist/katex.min.css";
 
 interface Choice {
@@ -68,13 +69,14 @@ export const MultipleChoiceQuestion = ({
         )}
         {hasImage && (
           <div className="w-full -mx-1 flex justify-center">
-            <img
-              src={choice.image}
-              alt={`Choice ${choice.id}`}
+            <TransparentAwareImage
+              src={normalizePublicAssetPath(choice.image)}
+              alt={`SAT question ${questionId} choice ${choice.id} image`}
               className={cn(
                 "w-auto max-w-full h-auto max-h-[220px] sm:max-h-[260px] rounded-lg object-contain block",
                 dimmed && "opacity-60"
               )}
+              wrapperClassName="max-w-full"
               loading="lazy"
             />
           </div>

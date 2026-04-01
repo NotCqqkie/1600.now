@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M2_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_2",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -70,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_3",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -106,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_5",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -142,7 +141,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
@@ -150,7 +149,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_7",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -163,14 +162,13 @@ export const questions: Question[] = [
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_8",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -181,19 +179,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9",
     "testName": "December 2024 International Form B SAT Math Module 2",
-    "text": "In right triangle ABC, the tangent of \u2220C is $\\frac{3}{4}$. what is the length of $\\overline{AB}$?",
+    "text": "In right triangle ABC, the tangent of ∠C is $\\frac{3}{4}$. what is the length of $\\overline{AB}$?",
     "choices": [
       {
         "id": "A",
@@ -217,16 +215,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M2_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_10",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -254,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_11",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -290,15 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_13",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -309,15 +306,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_14",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -345,15 +342,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_15",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -381,15 +378,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_16",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -417,16 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M2_Q16_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_17",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -437,19 +433,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_19",
     "testName": "December 2024 International Form B SAT Math Module 2",
-    "text": "\u221216(5x\u22122) 2 +6(5x\u22123) 2\nThe given expresslon can be rewritten as $\\frac{c}{4}x^{2}+\\frac{b}{4}x+\\frac{c}{4}$, where a, b, and c are constants. What is the yalue a+b+c?",
+    "text": "−16(5x−2) 2 +6(5x−3) 2\nThe given expresslon can be rewritten as $\\frac{c}{4}x^{2}+\\frac{b}{4}x+\\frac{c}{4}$, where a, b, and c are constants. What is the yalue a+b+c?",
     "choices": [
       {
         "id": "A",
@@ -473,15 +469,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_20",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -509,15 +505,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_21",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -545,7 +541,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
@@ -553,7 +549,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22",
     "testName": "December 2024 International Form B SAT Math Module 2",
@@ -566,7 +562,6 @@ export const questions: Question[] = [
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlB_Math_M2_Q22_1.png"
+    }
   }
 ];

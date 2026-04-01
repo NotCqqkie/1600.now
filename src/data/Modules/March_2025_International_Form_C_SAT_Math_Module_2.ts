@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_1",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_2",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -69,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_3",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -105,19 +105,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_4",
     "testName": "March 2025 International Form C SAT Math Module 2",
-    "text": "$T(x)=67-8x$\nThe function T estimates the temperature, in degrees Fahrenheit (\u00b0F), in a certain city one day in January, where x is the number of hours after 10 a.m. and 1 $\\le$ x $\\le$ 5. According to the function, what was the estimated decrease in temperature each hour, in \u00b0F, in this city during this time period?",
+    "text": "$T(x)=67-8x$\nThe function T estimates the temperature, in degrees Fahrenheit (°F), in a certain city one day in January, where x is the number of hours after 10 a.m. and 1 $\\le$ x $\\le$ 5. According to the function, what was the estimated decrease in temperature each hour, in °F, in this city during this time period?",
     "choices": [
       {
         "id": "A",
@@ -141,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability",
-    "difficulty": "null",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_5",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -177,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Probability",
+      "skill": "Probability and conditional probability",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_6",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -213,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_7",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -232,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Evaluating Statistical Claims",
-    "difficulty": "null",
+    "skill": "Evaluating statistical claims: Observational studies and experiments",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_8",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -251,15 +251,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Evaluating Statistical Claims",
+      "skill": "Evaluating statistical claims: Observational studies and experiments",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_9",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -287,15 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_10",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -323,16 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlC_Math_M2_Q10_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_11",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -359,16 +358,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "domain": "Algebra",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_12",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -396,16 +395,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlC_Math_M2_Q12_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_13",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -433,15 +431,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_14",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -469,15 +467,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_15",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -488,15 +486,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_16",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -524,16 +522,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlC_Math_M2_Q16_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_17",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -567,9 +564,9 @@ export const questions: Question[] = [
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_18",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -596,20 +593,20 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_19",
     "testName": "March 2025 International Form C SAT Math Module 2",
-    "text": "In triangle ABC, the measure of angle A is 52\u00b0and AC= 35. In triangle PQR, the measure of angle P is 52\u00b0and PR= 105. Which additional piece of information is sufficient to prove that triangle ABC is similar to triangle PQR?",
+    "text": "In triangle ABC, the measure of angle A is 52°and AC= 35. In triangle PQR, the measure of angle P is 52°and PR= 105. Which additional piece of information is sufficient to prove that triangle ABC is similar to triangle PQR?",
     "choices": [
       {
         "id": "A",
@@ -621,11 +618,11 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "The measures of angle B and angle R are 34\u00b0and 94\u00b0, respectively."
+        "text": "The measures of angle B and angle R are 34°and 94°, respectively."
       },
       {
         "id": "D",
-        "text": "The measures of angle B and angle Q are 52\u00b0and 34\u00b0, respectively."
+        "text": "The measures of angle B and angle Q are 52°and 34°, respectively."
       }
     ],
     "correctAnswer": "C",
@@ -633,7 +630,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
@@ -641,7 +638,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_20",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -659,8 +656,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_21",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -671,15 +668,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_22",
     "testName": "March 2025 International Form C SAT Math Module 2",
@@ -690,7 +687,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   }

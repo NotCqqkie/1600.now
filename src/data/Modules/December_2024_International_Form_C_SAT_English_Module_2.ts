@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_1",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhen it comes to crafting policy recommendations to protect species at risk, lessons from previous declines in biodiversity can be especially ______. The factors that contributed to the extinction of the Caribbean ground sloth around 3000 BCE, for example, may be applicable to endangered species today.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhen it comes to crafting policy recommendations to protect species at risk, lessons from previous declines in biodiversity can be especially ______. The factors that contributed to the extinction of the Caribbean ground sloth around 3000 BCE, for example, may be applicable to endangered species today.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_2",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Pacific halibut is an ectothermic (cold-blooded) fish, whereas the yellowfin tuna is a regional endotherm; unlike that of ectotherms, its body temperature remains above the ambient water temperature. The basking shark had been classified as a full ectotherm, but researchers Haley R. Dolton et al. found that its body temperature remains 1.0 to 1.5\u00b0C above ambient, which is ______ that classification.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Pacific halibut is an ectothermic (cold-blooded) fish, whereas the yellowfin tuna is a regional endotherm; unlike that of ectotherms, its body temperature remains above the ambient water temperature. The basking shark had been classified as a full ectotherm, but researchers Haley R. Dolton et al. found that its body temperature remains 1.0 to 1.5°C above ambient, which is ______ that classification.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_3",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn the late 2010s, the price of vintage cards from the game *Magic: The Gathering* rose dramatically, which had the counterintuitive effect of ______ demand: buyers who hadn't previously wanted to purchase *Magic: The Gathering* cards thronged the market, believing prices would continue to rise and the cards could be resold later at a profit.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn the late 2010s, the price of vintage cards from the game *Magic: The Gathering* rose dramatically, which had the counterintuitive effect of ______ demand: buyers who hadn't previously wanted to purchase *Magic: The Gathering* cards thronged the market, believing prices would continue to rise and the cards could be resold later at a profit.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_4",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nSpanning the 1920s to the 1980s, Mexican architect Luis Barrag\u00e1n's prolific career evolved through distinct phases. As epitomized by the house in Calle Pedro Loza in Guadalajara, many of Barrag\u00e1n's first projects integrated traditional Mexican building techniques into Mediterranean designs. Extensive travels abroad later sparked an engagement with modernist and functionalist aesthetics styles whose emphasis on utility and whose repudiation of traditional architecture's more ornamental elements are readily apparent in Barrag\u00e1n's Pizarro Suarez House.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nSpanning the 1920s to the 1980s, Mexican architect Luis Barragán's prolific career evolved through distinct phases. As epitomized by the house in Calle Pedro Loza in Guadalajara, many of Barragán's first projects integrated traditional Mexican building techniques into Mediterranean designs. Extensive travels abroad later sparked an engagement with modernist and functionalist aesthetics styles whose emphasis on utility and whose repudiation of traditional architecture's more ornamental elements are readily apparent in Barragán's Pizarro Suarez House.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_5",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined statement in the text as a whole?\n<u>Individual elephants and Arctic herbivores such as caribou tend to have fixed geographic ranges throughout their lifetimes</u>, which had prompted some researchers to speculate that the Arctic woolly mammoth, an extinct elephantid, might have exhibited similar behavior. Mammoth tusks grew in sequential layers, incorporating ingested minerals and organics, and so each ivory stratum reflects the ratio of strontium isotopes (87 Sr/ 86 Sr) in the local environment; thus, the sequence of strata shows where the animal roamed during life. Recent analysis of the strontium ratios in the strata of one Arctic woolly mammoth tusk in relation to the geographic distribution of strontium ratios in the environment shows the animal's range began to expand as it reached sexual maturity, only to contract again in its final 1.5 years.\n\nWhich choice best describes the function of the underlined statement in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined statement in the text as a whole?\n<u>Individual elephants and Arctic herbivores such as caribou tend to have fixed geographic ranges throughout their lifetimes</u>, which had prompted some researchers to speculate that the Arctic woolly mammoth, an extinct elephantid, might have exhibited similar behavior. Mammoth tusks grew in sequential layers, incorporating ingested minerals and organics, and so each ivory stratum reflects the ratio of strontium isotopes (87 Sr/ 86 Sr) in the local environment; thus, the sequence of strata shows where the animal roamed during life. Recent analysis of the strontium ratios in the strata of one Arctic woolly mammoth tusk in relation to the geographic distribution of strontium ratios in the environment shows the animal's range began to expand as it reached sexual maturity, only to contract again in its final 1.5 years.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_6",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Based on the texts, both authors would most likely agree with which statement?\nText 1\nFrench Impressionist artist Edgar Degas insisted that his paintings be kept in their original frames after they were sold. Like many Impressionist painters, Degas used painted frames that stood in contrast to the gold frames frequently seen at the Paris Salon, a prestigious art exhibition that was sponsored by the French government and promoted traditional painting styles. Impressionist painters likely chose these colorful frames to distinguish themselves from what was considered conventional at the time.\nText 2\nImpressionist painters often focused on the interplay of color and light in their works. As such, those Impressionists who placed their works in painted frames instead of the more traditional gold ones did so for aesthetic reasons: a frame's color was likely chosen because it would harmonize with the colors or subjects in a painting. Gold, conversely, could distract from the subtleties in a painted scene.\n\nBased on the texts, both authors would most likely agree with which statement?",
+    "text": "Based on the texts, both authors would most likely agree with which statement?\nText 1\nFrench Impressionist artist Edgar Degas insisted that his paintings be kept in their original frames after they were sold. Like many Impressionist painters, Degas used painted frames that stood in contrast to the gold frames frequently seen at the Paris Salon, a prestigious art exhibition that was sponsored by the French government and promoted traditional painting styles. Impressionist painters likely chose these colorful frames to distinguish themselves from what was considered conventional at the time.\nText 2\nImpressionist painters often focused on the interplay of color and light in their works. As such, those Impressionists who placed their works in painted frames instead of the more traditional gold ones did so for aesthetic reasons: a frame's color was likely chosen because it would harmonize with the colors or subjects in a painting. Gold, conversely, could distract from the subtleties in a painted scene.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -219,13 +219,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_7",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "What does the text most strongly suggest about the story of Hans Castorp?\nThe following text is from Thomas Mann's 1924 novel *The Magic Mountain*, translated by John E. Woods in 1995. The story of Hans Castorp that we intend to tell here\u2014not for his sake (for the reader will come to know him as a perfectly ordinary, if engaging young man), but for the sake of the story itself, which seems to us to be very much worth telling (although in Hans Castorp's favor it should be noted that it is his story, and that not every story happens to everybody)\u2014is a story that took place long ago, and is, so to speak, covered with the patina of history and must necessarily be told with verbs whose tense is that of the deepest past.\n\nWhat does the text most strongly suggest about the story of Hans Castorp?",
+    "text": "What does the text most strongly suggest about the story of Hans Castorp?\nThe following text is from Thomas Mann's 1924 novel *The Magic Mountain*, translated by John E. Woods in 1995. The story of Hans Castorp that we intend to tell here—not for his sake (for the reader will come to know him as a perfectly ordinary, if engaging young man), but for the sake of the story itself, which seems to us to be very much worth telling (although in Hans Castorp's favor it should be noted that it is his story, and that not every story happens to everybody)—is a story that took place long ago, and is, so to speak, covered with the patina of history and must necessarily be told with verbs whose tense is that of the deepest past.",
     "choices": [
       {
         "id": "A",
@@ -247,9 +247,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_8",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the assertion?\n*Drosophila* (fruit flies) have generation times of 10-12 days, so seasonal changes in rainfall and other environmental conditions can drive seasonal fluctuations in chromosome rearrangements in species such as *D. persimilis* and *D. mediopunctata*. *Drosophila* body size (for which wing centroid size serves as a proxy measure) correlates with life span. Banu Sebnem Onder and Cansu Fidan Aksoy measured the wing sizes of members of a *D. melanogaster* population in Yesil\u00f6z, Turkey, that were collected monthly between May and October over three years. Their research suggests that *Drosophila* collected in relatively warmer months should tend to have a longer life span, as is illustrated by the finding that ______\n\nWhich choice most effectively uses data from the table to complete the assertion?",
+    "text": "Which choice most effectively uses data from the table to complete the assertion?\n*Drosophila* (fruit flies) have generation times of 10-12 days, so seasonal changes in rainfall and other environmental conditions can drive seasonal fluctuations in chromosome rearrangements in species such as *D. persimilis* and *D. mediopunctata*. *Drosophila* body size (for which wing centroid size serves as a proxy measure) correlates with life span. Banu Sebnem Onder and Cansu Fidan Aksoy measured the wing sizes of members of a *D. melanogaster* population in Yesilöz, Turkey, that were collected monthly between May and October over three years. Their research suggests that *Drosophila* collected in relatively warmer months should tend to have a longer life span, as is illustrated by the finding that ______",
     "choices": [
       {
         "id": "A",
@@ -283,22 +283,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlC_Eng_M2_Q8_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_9",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the text?\n*Hemerocallis* sp. plants typically carry a negative electrical charge, while bees and other pollinators tend to accumulate a positive charge. Given that negatively and positively charged objects attract, a research team hypothesized that the difference in charges could attract *Hemerocallis* sp. stamens to the plants' pollinators. Based on the team's experiments, the hypothesis was well supported for positive charges above a certain threshold. The team found that queen honeybees exceeded that threshold, which suggests that ______\n\nWhich choice most effectively uses data from the graph to complete the text?",
+    "text": "Which choice most effectively uses data from the graph to complete the text?\n*Hemerocallis* sp. plants typically carry a negative electrical charge, while bees and other pollinators tend to accumulate a positive charge. Given that negatively and positively charged objects attract, a research team hypothesized that the difference in charges could attract *Hemerocallis* sp. stamens to the plants' pollinators. Based on the team's experiments, the hypothesis was well supported for positive charges above a certain threshold. The team found that queen honeybees exceeded that threshold, which suggests that ______",
     "choices": [
       {
         "id": "A",
@@ -320,22 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_IntlC_Eng_M2_Q9_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_10",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nGrowing seasons in Alaska have been extending further into the year in response to climate warming, potentially enabling increased carbon dioxide (CO 2) absorption through greater productivity of marsh cinquefoil (*Comarum palustre*) plants and other vegetation, but also potentially enabling increased CO 2 output through greater heterotrophic respiration (CO 2 generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs years of solar radiation and snow cover data among them to evaluate the effects of warming on the CO 2 balance in Alaska, concluding that net CO 2 is likely to increase if warming hastens spring snow melt.\n\nWhich finding, if true, would most directly support the researchers' conclusion?",
+    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nGrowing seasons in Alaska have been extending further into the year in response to climate warming, potentially enabling increased carbon dioxide (CO 2) absorption through greater productivity of marsh cinquefoil (*Comarum palustre*) plants and other vegetation, but also potentially enabling increased CO 2 output through greater heterotrophic respiration (CO 2 generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs years of solar radiation and snow cover data among them to evaluate the effects of warming on the CO 2 balance in Alaska, concluding that net CO 2 is likely to increase if warming hastens spring snow melt.",
     "choices": [
       {
         "id": "A",
@@ -357,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -367,11 +365,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_11",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the researcher's claim?\nA team of public transportation experts in Detroit is creating a new streetcar stop for the Woodward Avenue Streetcar system that will service a neighborhood in which a stop does not currently exist. To decide where to place the stop, the team is using a survey from ten years ago that asked how far neighborhood residents would be willing to walk to a streetcar stop. The team also looked at studies showing that people's willingness to walk to public transit is influenced by factors like weather and the presence of paved sidewalks and available crosswalks. A researcher has argued that the survey does not accurately reflect the feelings of today's residents of this neighborhood.\n\nWhich finding, if true, would most directly support the researcher's claim?",
+    "text": "Which finding, if true, would most directly support the researcher's claim?\nA team of public transportation experts in Detroit is creating a new streetcar stop for the Woodward Avenue Streetcar system that will service a neighborhood in which a stop does not currently exist. To decide where to place the stop, the team is using a survey from ten years ago that asked how far neighborhood residents would be willing to walk to a streetcar stop. The team also looked at studies showing that people's willingness to walk to public transit is influenced by factors like weather and the presence of paved sidewalks and available crosswalks. A researcher has argued that the survey does not accurately reflect the feelings of today's residents of this neighborhood.",
     "choices": [
       {
         "id": "A",
@@ -393,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -403,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_12",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the hypothesis presented in the text?\nSome food packaging contains silver nanoparticles (Ag-NPs), which can leach into waterways and soils via wastewater. In a 2015 study, Tina Ramskov and colleagues found that Ag-NPs can accumulate in the bodies of marine annelid worms (*Capitella teleta*). While bioaccumulation of manufactured nanoparticles may be inherently worrisome, it has been hypothesized that Ag-NP bioaccumulation in invertebrates like *C. teleta* could serve a valuable proxy role, obviating the need for manufacturers to conduct costly and intrusive sampling of vertebrate species\u2014such as Atlantic salmon (*Salmo salar*), commonly used in regulatory compliance testing\u2014for nanoparticle bioaccumulation, as environmental protection laws currently require.\n\nWhich finding, if true, would most directly support the hypothesis presented in the text?",
+    "text": "Which finding, if true, would most directly support the hypothesis presented in the text?\nSome food packaging contains silver nanoparticles (Ag-NPs), which can leach into waterways and soils via wastewater. In a 2015 study, Tina Ramskov and colleagues found that Ag-NPs can accumulate in the bodies of marine annelid worms (*Capitella teleta*). While bioaccumulation of manufactured nanoparticles may be inherently worrisome, it has been hypothesized that Ag-NP bioaccumulation in invertebrates like *C. teleta* could serve a valuable proxy role, obviating the need for manufacturers to conduct costly and intrusive sampling of vertebrate species—such as Atlantic salmon (*Salmo salar*), commonly used in regulatory compliance testing—for nanoparticle bioaccumulation, as environmental protection laws currently require.",
     "choices": [
       {
         "id": "A",
@@ -429,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -439,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_13",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nTo address the susceptibility of materials used in components of high-performance machinery, such as aircraft engines, to creep (deformation that is induced by persistent mechanical stress and that often occurs at elevated temperatures), materials researchers have developed silicon carbide (SiC) fibers for producing aerospace composites. Testing the thermomechanical properties of several commercially available SiC fibers, Ramakrishna T Bhatt et al. found that in comparison with two polymer-derived SiC fibers, a nitrogen-treated SiC fiber exhibited a lower minimum creep rate, a measure of the rate at which a stress-exposed material deforms at a constant temperature and uniaxial load. The finding suggests that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nTo address the susceptibility of materials used in components of high-performance machinery, such as aircraft engines, to creep (deformation that is induced by persistent mechanical stress and that often occurs at elevated temperatures), materials researchers have developed silicon carbide (SiC) fibers for producing aerospace composites. Testing the thermomechanical properties of several commercially available SiC fibers, Ramakrishna T Bhatt et al. found that in comparison with two polymer-derived SiC fibers, a nitrogen-treated SiC fiber exhibited a lower minimum creep rate, a measure of the rate at which a stress-exposed material deforms at a constant temperature and uniaxial load. The finding suggests that ______",
     "choices": [
       {
         "id": "A",
@@ -465,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -474,12 +472,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_14",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nChelsea Wood et al. tracked temperature driven changes in the abundance of *Gonocerca sp*. (a complex life cycle parasite, or CLP, that requires three host species throughout its life cycle), *Gyrodactylus sp.* (a directly transmitted parasite, which requires only one host species), and 83 other parasite taxa found on eight fish species. CLPs are transmitted when an infected host is ingested by an individual of another species, typically shielding CLPs from the external environment, whereas directly transmitted parasites are exposed to external conditions during transmission. However, Wood et al, found that three host CLP abundance decreased as sea temperatures rose, whereas directly transmitted parasite abundance was largely stable, suggesting that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nChelsea Wood et al. tracked temperature driven changes in the abundance of *Gonocerca sp*. (a complex life cycle parasite, or CLP, that requires three host species throughout its life cycle), *Gyrodactylus sp.* (a directly transmitted parasite, which requires only one host species), and 83 other parasite taxa found on eight fish species. CLPs are transmitted when an infected host is ingested by an individual of another species, typically shielding CLPs from the external environment, whereas directly transmitted parasites are exposed to external conditions during transmission. However, Wood et al, found that three host CLP abundance decreased as sea temperatures rose, whereas directly transmitted parasite abundance was largely stable, suggesting that ______",
     "choices": [
       {
         "id": "A",
@@ -501,9 +499,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
@@ -511,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_15",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how shorter winters will affect future mammal population sizes in US national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Tuskegee National Forest in Alabama is a small forest, covering less than 100,000 acres. If used to evaluate the effect of shorter winters on this forest in ten years, the model would likely therefore ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how shorter winters will affect future mammal population sizes in US national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Tuskegee National Forest in Alabama is a small forest, covering less than 100,000 acres. If used to evaluate the effect of shorter winters on this forest in ten years, the model would likely therefore ______",
     "choices": [
       {
         "id": "A",
@@ -537,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -546,12 +544,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_16",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe hypothesized protolanguage from which all Kartvelian languages have descended, ______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe hypothesized protolanguage from which all Kartvelian languages have descended, ______",
     "choices": [
       {
         "id": "A",
@@ -573,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_17",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a chemical reaction, the value known as molar mass helps convert between the mass of the reactants and the mass of the product. The gaseous ______ have molar masses of 42.08 and 44.10 g/mol, respectively.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a chemical reaction, the value known as molar mass helps convert between the mass of the reactants and the mass of the product. The gaseous ______ have molar masses of 42.08 and 44.10 g/mol, respectively.",
     "choices": [
       {
         "id": "A",
@@ -609,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_18",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Roman historian Suetonius's *De vita caesarum*, a biography of the Roman Empire's first leaders, is an extant work: it can still be read. By contrast, Suetonius's book on miscellaneous topics, *Pratum*, no copies of which ______ is a lost work: it can be accessed only indirectly, through references to it in extant works.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Roman historian Suetonius's *De vita caesarum*, a biography of the Roman Empire's first leaders, is an extant work: it can still be read. By contrast, Suetonius's book on miscellaneous topics, *Pratum*, no copies of which ______ is a lost work: it can be accessed only indirectly, through references to it in extant works.",
     "choices": [
       {
         "id": "A",
@@ -645,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_19",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWithin Earth's biomes, there are four main types of desert: arid, semiarid, coastal, and cold. The Australian Desert in Australasia is an arid ______ with a total area of about 2,700,000 km 2, it is one of the largest deserts of any type.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWithin Earth's biomes, there are four main types of desert: arid, semiarid, coastal, and cold. The Australian Desert in Australasia is an arid ______ with a total area of about 2,700,000 km 2, it is one of the largest deserts of any type.",
     "choices": [
       {
         "id": "A",
@@ -681,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_20",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn most of the world's beaches, sand is a predictable cream or beige color. The sand at Talofofo Beach in Guam is an ______ sand gets its shade from deposits of gray-and tan-hued quartz and feldspar, deposits of crushed olivine crystal and other organic matter lend the sand at Talofofo Beach a colorful green tint.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn most of the world's beaches, sand is a predictable cream or beige color. The sand at Talofofo Beach in Guam is an ______ sand gets its shade from deposits of gray-and tan-hued quartz and feldspar, deposits of crushed olivine crystal and other organic matter lend the sand at Talofofo Beach a colorful green tint.",
     "choices": [
       {
         "id": "A",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_21",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe parks of Austin, Texas, seem to be making people happier. In 2022, a team of researchers ______ to find connections between the physical location in which a social media post was created and the content of that post analyzed geotagged social media posts from various sites in Austin. The team found that posts from the city's parks contained more words associated with happiness than did the other posts.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe parks of Austin, Texas, seem to be making people happier. In 2022, a team of researchers ______ to find connections between the physical location in which a social media post was created and the content of that post analyzed geotagged social media posts from various sites in Austin. The team found that posts from the city's parks contained more words associated with happiness than did the other posts.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_22",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe near-Earth asteroid Atira is orbited by the moonlet S/2017 (163693). In 2022 scientists studying asteroid deflection intentionally crashed a probe into a similar moonlet, Dimorphos, shortening its orbital period by 32 minutes. ______ it used to take Dimorphos 11 hours, 55 minutes to orbit the near-Earth asteroid Didymos; now it takes 11 hours, 23 minutes.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe near-Earth asteroid Atira is orbited by the moonlet S/2017 (163693). In 2022 scientists studying asteroid deflection intentionally crashed a probe into a similar moonlet, Dimorphos, shortening its orbital period by 32 minutes. ______ it used to take Dimorphos 11 hours, 55 minutes to orbit the near-Earth asteroid Didymos; now it takes 11 hours, 23 minutes.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_23",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn his 2020 poem \"This Town,\" Saad Ali contemplates Ivan Aivazovsky's 1859 painting *Lunar Night on the Black Sea*. Translating the painting's depiction of a seascape into vivid figurative phrases\u2014such as \"a dozen sea shells converse\"\u2014Ali suggests the fluid interplay of poetry and painting. ______ Ali's poem highlights fundamental tensions between these modes of representation.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn his 2020 poem \"This Town,\" Saad Ali contemplates Ivan Aivazovsky's 1859 painting *Lunar Night on the Black Sea*. Translating the painting's depiction of a seascape into vivid figurative phrases—such as \"a dozen sea shells converse\"—Ali suggests the fluid interplay of poetry and painting. ______ Ali's poem highlights fundamental tensions between these modes of representation.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,15 +833,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_24",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "The student wants to define the term \"georeferencing.\" Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Georeferencing is the process of assigning geographic coordinates to an image.\n\u2022 This process enables mapping software to place the image in its real-world location.\n\u2022 A 2017 project by Tania L\u00f3pez Marrero and colleagues georeferenced a set of aerial photographs of Puerto Rico's coastline taken in 1930.\n\u2022 These photographs are the earliest known aerial photographs of Puerto Rico.\n\u2022 L\u00f3pez Marrero's project provided data that can help researchers analyze changes in Puerto Rico's coastline.\n\nThe student wants to define the term \"georeferencing.\" Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to define the term \"georeferencing.\" Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Georeferencing is the process of assigning geographic coordinates to an image.\n• This process enables mapping software to place the image in its real-world location.\n• A 2017 project by Tania López Marrero and colleagues georeferenced a set of aerial photographs of Puerto Rico's coastline taken in 1930.\n• These photographs are the earliest known aerial photographs of Puerto Rico.\n• López Marrero's project provided data that can help researchers analyze changes in Puerto Rico's coastline.",
     "choices": [
       {
         "id": "A",
-        "text": "Tania L\u00f3pez Marrero and colleagues used georeferencing in their analysis of the earliest known aerial photographs of Puerto Rico."
+        "text": "Tania López Marrero and colleagues used georeferencing in their analysis of the earliest known aerial photographs of Puerto Rico."
       },
       {
         "id": "B",
@@ -851,7 +849,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "A 2017 project by Tania L\u00f3pez Marrero and colleagues assigned geographic coordinates to photographs of Puerto Rico's coastline and also used georeferencing."
+        "text": "A 2017 project by Tania López Marrero and colleagues assigned geographic coordinates to photographs of Puerto Rico's coastline and also used georeferencing."
       },
       {
         "id": "D",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_25",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "The student wants to emphasize a similarity between Jean Toomer and Herman Melville. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A copyright prevents a book's contents from being reproduced (published) without permission from the copyright holder.\n\u2022 When a book's copyright expires, the book enters the public domain and can be legally reproduced by anyone.\n\u2022 *Cane* is a novel by Jean Toomer.\n\u2022 It entered the public domain in 2019.\n\u2022 *Billy Budd, Sailor* is a novella by Herman Melville.\n\u2022 It entered the public domain in 2020.\n\nThe student wants to emphasize a similarity between Jean Toomer and Herman Melville. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between Jean Toomer and Herman Melville. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A copyright prevents a book's contents from being reproduced (published) without permission from the copyright holder.\n• When a book's copyright expires, the book enters the public domain and can be legally reproduced by anyone.\n• *Cane* is a novel by Jean Toomer.\n• It entered the public domain in 2019.\n• *Billy Budd, Sailor* is a novella by Herman Melville.\n• It entered the public domain in 2020.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_26",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "The student wants to describe *Silver Upper White River* to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Maya Lin is an American artist known for her memorials and works of installation art.\n\u2022 She completed the Women's Table in 1993.\n\u2022 It is a memorial sculpture consisting of a thirty two ton granite fountain, and it is designed to commemorate female students at Yale University.\n\u2022 She completed *Silver Upper White River* in 2015.\n\u2022 It is an installation composed of recycled silver that fills an entire gallery wall.\n\nThe student wants to describe *Silver Upper White River* to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to describe *Silver Upper White River* to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Maya Lin is an American artist known for her memorials and works of installation art.\n• She completed the Women's Table in 1993.\n• It is a memorial sculpture consisting of a thirty two ton granite fountain, and it is designed to commemorate female students at Yale University.\n• She completed *Silver Upper White River* in 2015.\n• It is an installation composed of recycled silver that fills an entire gallery wall.",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_27",
     "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "The student wants to emphasize an objective of the GREEN SURGE study. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A multiyear study called GREEN SURGE examined forty-four different types of UNAs (urban natural areas) in cities throughout Europe.\n\u2022 A primary aim of the study was to determine the benefits of UNAs in these cities.\n\u2022 Large urban parks are among the types of UNAs included in the study.\n\u2022 Large urban parks are defined as green city areas reserved for recreational use.\n\u2022 They can benefit urban environments by contributing to biodiversity.\n\nThe student wants to emphasize an objective of the GREEN SURGE study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize an objective of the GREEN SURGE study. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A multiyear study called GREEN SURGE examined forty-four different types of UNAs (urban natural areas) in cities throughout Europe.\n• A primary aim of the study was to determine the benefits of UNAs in these cities.\n• Large urban parks are among the types of UNAs included in the study.\n• Large urban parks are defined as green city areas reserved for recreational use.\n• They can benefit urban environments by contributing to biodiversity.",
     "choices": [
       {
         "id": "A",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

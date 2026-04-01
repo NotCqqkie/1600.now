@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_1",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -33,15 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_2",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -69,16 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_USB_Math_M2_Q2_1.png"
+    }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_3",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -105,17 +104,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_USB_Math_M2_Q3_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_4",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -150,8 +148,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_5",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -179,15 +177,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_6",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -215,15 +213,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_7",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -234,15 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_8",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -270,35 +268,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_9",
     "testName": "December 2024 US Form B SAT Math Module 2",
-    "text": "In the figure shown, point T lies on segment SW, and segment TU is parallel to segment VW. The measure of angle V is 26\u00b0, and the measure of angle STU is 74\u00b0. What is the value of p-r?",
+    "text": "In the figure shown, point T lies on segment SW, and segment TU is parallel to segment VW. The measure of angle V is 26°, and the measure of angle STU is 74°. What is the value of p-r?",
     "choices": [],
     "correctAnswer": "80",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_USB_Math_M2_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_10",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -333,8 +330,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_11",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -362,16 +359,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_USB_Math_M2_Q11_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_12",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -399,7 +395,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -407,7 +403,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_13",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -442,8 +438,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_14",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -471,15 +467,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_15",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -506,17 +502,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Dec_24_USB_Math_M2_Q15_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_16",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -544,15 +539,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_17",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -580,15 +575,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_18",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -616,15 +611,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_19",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -652,34 +647,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_20",
     "testName": "December 2024 US Form B SAT Math Module 2",
-    "text": "Function f is a quadratic function. The graph of y= f(x) in the xy-plane has a vertex at (4,-6), contains the point (3, -8), and has a y-intercept at (0, a). The graph of y= 5 \u00b7 f(x) has a y-intercept at (0, b). What is the positive difference between a and b?",
+    "text": "Function f is a quadratic function. The graph of y= f(x) in the xy-plane has a vertex at (4,-6), contains the point (3, -8), and has a y-intercept at (0, a). The graph of y= 5 · f(x) has a y-intercept at (0, b). What is the positive difference between a and b?",
     "choices": [],
     "correctAnswer": "152",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_21",
     "testName": "December 2024 US Form B SAT Math Module 2",
@@ -690,7 +685,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
@@ -698,7 +693,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_22",
     "testName": "December 2024 US Form B SAT Math Module 2",

@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_1",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDespite stated claims of global relevance, much major research on income inequality performed in the 2010s suffered from a myopic focus on a few countries in North America and Western Europe, partly due to limited data availability. Researchers would later ______ this shortcoming after gaining new access to banking records located in nations in Asia, such as China, and Eastern Europe, such as Hungary.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDespite stated claims of global relevance, much major research on income inequality performed in the 2010s suffered from a myopic focus on a few countries in North America and Western Europe, partly due to limited data availability. Researchers would later ______ this shortcoming after gaining new access to banking records located in nations in Asia, such as China, and Eastern Europe, such as Hungary.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_2",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nOne popular theory of the origin of the Moon, the \u201cbig whack,\" posits that a protoplanet called Theia collided with Earth, flinging debris into orbit that eventually coalesced into the Moon. Until recently, Theia was ______, but researcher Qian Yuan and colleagues now claim to have identified pieces of the protoplanet in the lowermost section of Earth's mantle.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nOne popular theory of the origin of the Moon, the “big whack,\" posits that a protoplanet called Theia collided with Earth, flinging debris into orbit that eventually coalesced into the Moon. Until recently, Theia was ______, but researcher Qian Yuan and colleagues now claim to have identified pieces of the protoplanet in the lowermost section of Earth's mantle.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_3",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPolitical blogs with conspicuous ideological alignments became an integral component of US media in the early 2000s. While some commentators lauded this development, asserting that such blogs had a welcome transparency missing from traditional news, less ______ observers countered that such blogs tended to ideological extremes that exacerbated political polarization to problematic levels.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPolitical blogs with conspicuous ideological alignments became an integral component of US media in the early 2000s. While some commentators lauded this development, asserting that such blogs had a welcome transparency missing from traditional news, less ______ observers countered that such blogs tended to ideological extremes that exacerbated political polarization to problematic levels.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_4",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\nDuring Rome's republican period, which ended in the first century BCE, libraries were predominantly owned by wealthy individuals who tightly controlled access to their book collections. The first public library became available in Rome in 28 BCE and was soon followed by one commissioned by Emperor Augustus. As modern scholar Fabio Fernandes notes, however, these two traditions aren't as distinct as they seem, as both the emperor and the private library owners viewed their libraries as extensions of their personal patronage, just on vastly differing scales.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nDuring Rome's republican period, which ended in the first century BCE, libraries were predominantly owned by wealthy individuals who tightly controlled access to their book collections. The first public library became available in Rome in 28 BCE and was soon followed by one commissioned by Emperor Augustus. As modern scholar Fabio Fernandes notes, however, these two traditions aren't as distinct as they seem, as both the emperor and the private library owners viewed their libraries as extensions of their personal patronage, just on vastly differing scales.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_5",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\nThe following text is from George Marion McClellan's 1895 poem *Eternity*. My spirit swoons, and all my senses cry\nFor Ocean's breast and covering of the sky.\nRock me to sleep, ye waves, and outward bound,\nJust let me drift far out from toil and care.\nWhere lapping of the waves shall be the sound,\nWhich mingled with the winds that gently bear\nMe on between a peaceful sea and sky,\nTo make my soothing slumberous lullaby.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe following text is from George Marion McClellan's 1895 poem *Eternity*. My spirit swoons, and all my senses cry\nFor Ocean's breast and covering of the sky.\nRock me to sleep, ye waves, and outward bound,\nJust let me drift far out from toil and care.\nWhere lapping of the waves shall be the sound,\nWhich mingled with the winds that gently bear\nMe on between a peaceful sea and sky,\nTo make my soothing slumberous lullaby.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Cross-Text Connections",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_6",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Based on the texts, the author of Text 2 would most likely agree with which statement about the \u201cprinciple\" mentioned in Text 1?\nText 1\nIn parts of the Northwest Territories, Canada, the rough-legged hawk is a major predator of the collared lemming. Researcher Alice Kenney and colleagues found that when this predation pressure on collared lemmings was temporarily reduced, their numbers significantly increased. This finding illustrates a foundational ecological principle: predators control prey population numbers.\nText 2\nRobert D. Haves and colleagues found that excluding wolves from a site in Yukon, Canada, where they typically prey on Dall sheep had no significant effect on Dall sheep abundance. Many other predation relief studies show an increase in prey abundance, but those studies often focus on small, rapidly reproducing prey, like birds, lemmings, and rabbits, rather than large, slowly reproducing prey, like Dall sheep, which could account for the difference between those results and Haves and colleagues' results.\n\nBased on the texts, the author of Text 2 would most likely agree with which statement about the \u201cprinciple\" mentioned in Text 1?",
+    "text": "Based on the texts, the author of Text 2 would most likely agree with which statement about the “principle\" mentioned in Text 1?\nText 1\nIn parts of the Northwest Territories, Canada, the rough-legged hawk is a major predator of the collared lemming. Researcher Alice Kenney and colleagues found that when this predation pressure on collared lemmings was temporarily reduced, their numbers significantly increased. This finding illustrates a foundational ecological principle: predators control prey population numbers.\nText 2\nRobert D. Haves and colleagues found that excluding wolves from a site in Yukon, Canada, where they typically prey on Dall sheep had no significant effect on Dall sheep abundance. Many other predation relief studies show an increase in prey abundance, but those studies often focus on small, rapidly reproducing prey, like birds, lemmings, and rabbits, rather than large, slowly reproducing prey, like Dall sheep, which could account for the difference between those results and Haves and colleagues' results.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Cross-Text Connections",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_7",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which statement about Arca is best supported by the text?\nMany artists associated with hyperpop, a movement in electronic music that emerged in the 2010s, conform to the model perfected by American musician Laura Les: bold synthesizer arrangements, propulsive electronically manipulated vocals. Yet the movement is hardly uniform: Venezuelan recording artist Arca incorporates Latin rhythms into the hyperpop sound, for example. Such stylistic diversity is encouraged in part by the music streaming app Spotify, whose curated playlist of hyperpop songs balances cohesion with variety.\n\nWhich statement about Arca is best supported by the text?",
+    "text": "Which statement about Arca is best supported by the text?\nMany artists associated with hyperpop, a movement in electronic music that emerged in the 2010s, conform to the model perfected by American musician Laura Les: bold synthesizer arrangements, propulsive electronically manipulated vocals. Yet the movement is hardly uniform: Venezuelan recording artist Arca incorporates Latin rhythms into the hyperpop sound, for example. Such stylistic diversity is encouraged in part by the music streaming app Spotify, whose curated playlist of hyperpop songs balances cohesion with variety.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -255,13 +255,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_8",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nEighteenth-century economist Adam Smith is famed for his metaphor of the invisible hand, which he putatively used to illustrate a robust model of how individuals produce aggregate benefits by pursuing their own economic interests. Note \u201cputatively\u201d: as Gavin Kennedy has shown, Smith deploys this metaphor only once in his economic writings\u2014to make a narrow point about the then-dominant economic theory of mercantilism\u2014and it was largely ignored until some twentieth-century economists eager to secure an intellectual pedigree for their views elevated it to a fully-fledged paradigm.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nEighteenth-century economist Adam Smith is famed for his metaphor of the invisible hand, which he putatively used to illustrate a robust model of how individuals produce aggregate benefits by pursuing their own economic interests. Note “putatively”: as Gavin Kennedy has shown, Smith deploys this metaphor only once in his economic writings—to make a narrow point about the then-dominant economic theory of mercantilism—and it was largely ignored until some twentieth-century economists eager to secure an intellectual pedigree for their views elevated it to a fully-fledged paradigm.",
     "choices": [
       {
         "id": "A",
@@ -283,57 +283,57 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_9",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which quotation from *Memoirs of Elleanor Eldridge* most effectively illustrates the claim?\n*Memoirs of Elleanor Eldridge* is an 1838 historical account by Elleanor Eldridge and Frances Harriet Whipple Green. In the book, the authors describe how restorative sleep can be for young people, writing, ______\n\nWhich quotation from *Memoirs of Elleanor Eldridge* most effectively illustrates the claim?",
+    "text": "Which quotation from *Memoirs of Elleanor Eldridge* most effectively illustrates the claim?\n*Memoirs of Elleanor Eldridge* is an 1838 historical account by Elleanor Eldridge and Frances Harriet Whipple Green. In the book, the authors describe how restorative sleep can be for young people, writing, ______",
     "choices": [
       {
         "id": "A",
-        "text": "\u201cLet us, dear reader remember the punishment of idle curiosity, as taught in the true and affecting history [named] *Blue Beard*; and, striving to be content with the facts in the case, seek not to lift the veil, which the sensibility of truelove, and feminine delicacy, have alike conspired to draw.\u201d"
+        "text": "“Let us, dear reader remember the punishment of idle curiosity, as taught in the true and affecting history [named] *Blue Beard*; and, striving to be content with the facts in the case, seek not to lift the veil, which the sensibility of truelove, and feminine delicacy, have alike conspired to draw.”"
       },
       {
         "id": "B",
-        "text": "\u201cThen let no one turn with too much [fussiness] from the simple story of the humble Elleanor, though it may contain few, or none, of the thrilling charms of poetry and passion.\u201d"
+        "text": "“Then let no one turn with too much [fussiness] from the simple story of the humble Elleanor, though it may contain few, or none, of the thrilling charms of poetry and passion.”"
       },
       {
         "id": "C",
-        "text": "\u201cBlessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.\u201d"
+        "text": "“Blessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.”"
       },
       {
         "id": "D",
-        "text": "\u201cHome is home, to the lowly as well as the great, and no rank, or color, destroys its sacred character, its power over the mind, and the affections.\u201d"
+        "text": "“Home is home, to the lowly as well as the great, and no rank, or color, destroys its sacred character, its power over the mind, and the affections.”"
       }
     ],
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_10",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nEarly Earth is thought to have been characterized by a stagnant lid tectonic regime, in which the upper lithosphere (the outer rocky layer) was essentially immobile and there was no interaction between the lithosphere and the underlying mantle. Researchers investigated the timing of the transition from a stagnant lid regime to a tectonic plate regime, in which the lithosphere is fractured into dynamic plates that in turn allow lithospheric and mantle material to mix. Examining chemical data from lithospheric and mantle-derived rocks ranging from 285 million to 3.8 billion years old, the researchers dated the transition to 3.2 billion years ago.\n\nWhich finding, if true, would most directly support the researchers' conclusion?",
+    "text": "Which finding, if true, would most directly support the researchers' conclusion?\nEarly Earth is thought to have been characterized by a stagnant lid tectonic regime, in which the upper lithosphere (the outer rocky layer) was essentially immobile and there was no interaction between the lithosphere and the underlying mantle. Researchers investigated the timing of the transition from a stagnant lid regime to a tectonic plate regime, in which the lithosphere is fractured into dynamic plates that in turn allow lithospheric and mantle material to mix. Examining chemical data from lithospheric and mantle-derived rocks ranging from 285 million to 3.8 billion years old, the researchers dated the transition to 3.2 billion years ago.",
     "choices": [
       {
         "id": "A",
@@ -355,21 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_11",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the example?\nNeuroscientist Kiyohito Ligaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much). They then recruited participants to use the same scale to rate several sets of paintings in various styles and calculated the correlation between the ratings predicted by the model and those reported by the participants. Assuming participant P6 gave equal ratings to the abstract and cubist paintings, the data in the graph indicate the model predicted that ______\n\nWhich choice most effectively uses data from the graph to complete the example?",
+    "text": "Which choice most effectively uses data from the graph to complete the example?\nNeuroscientist Kiyohito Ligaya and colleagues developed a computational model to predict how much a person will enjoy a particular work of art on a scale from 1 (not at all) to 4 (very much). They then recruited participants to use the same scale to rate several sets of paintings in various styles and calculated the correlation between the ratings predicted by the model and those reported by the participants. Assuming participant P6 gave equal ratings to the abstract and cubist paintings, the data in the graph indicate the model predicted that ______",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_24_IntlB_Eng_M2_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_12",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nScholars are increasingly and exploring the communication and preservation of ecological knowledge through Indigenous (e.g., Kazakh songs about water and foraging quality and those of the O'odham people about desert plants). In one study, ethnobiologist Dana Lepofsky et al. received insight from Kwaxsistalla Wathl'thla, a song keeper for the Kwakwaka'wakw people in Canada, into songs referencing the people's use of terraced gardens in intertidal zones along the Pacific Northwest coast for the cultivation of clams for consumption. Archaeological evidence of significant increases in clam size and abundance in that area concurrent with the documented past implementation of the method described in the songs supports the conclusion that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nScholars are increasingly and exploring the communication and preservation of ecological knowledge through Indigenous (e.g., Kazakh songs about water and foraging quality and those of the O'odham people about desert plants). In one study, ethnobiologist Dana Lepofsky et al. received insight from Kwaxsistalla Wathl'thla, a song keeper for the Kwakwaka'wakw people in Canada, into songs referencing the people's use of terraced gardens in intertidal zones along the Pacific Northwest coast for the cultivation of clams for consumption. Archaeological evidence of significant increases in clam size and abundance in that area concurrent with the documented past implementation of the method described in the songs supports the conclusion that ______",
     "choices": [
       {
         "id": "A",
@@ -428,21 +427,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_13",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nFor its 1974 work *Instant Mural*, the Chicano art collective Asco taped members Patssi Valdez and Humberto Sandoval to an outdoor wall in East Los Angeles. The work is manifestly a commentary on constraint, but many critics focus on Valdez and the social constraints women faced at the time, which is understandable but leaves the presence of Valdez's male collaborator Sandoval unexplained. We should instead consider that in 1974 the art establishment's recognition of Chicano artists was (and had long been) restricted to sociohistorical muralists, leaving nonmuralist Chicano artists\u2014like Asco's members\u2014struggling to even exhibit their work; attending to this context opens an interpretation that accounts for all the evidence, allowing us to conclude that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nFor its 1974 work *Instant Mural*, the Chicano art collective Asco taped members Patssi Valdez and Humberto Sandoval to an outdoor wall in East Los Angeles. The work is manifestly a commentary on constraint, but many critics focus on Valdez and the social constraints women faced at the time, which is understandable but leaves the presence of Valdez's male collaborator Sandoval unexplained. We should instead consider that in 1974 the art establishment's recognition of Chicano artists was (and had long been) restricted to sociohistorical muralists, leaving nonmuralist Chicano artists—like Asco's members—struggling to even exhibit their work; attending to this context opens an interpretation that accounts for all the evidence, allowing us to conclude that ______",
     "choices": [
       {
         "id": "A",
@@ -464,21 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_14",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDespite the fact that what is now known as the Cassegrain reflector was first constructed by Bonaventura Cavalieri, the telescope is named after the seventeenth-century French astronomer Laurent Cassegrain. One might assume cases like this, where a discovery or concept is not named after the first person who discovered it, to be ______ they are counted among a litany of examples of Stigler's law.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDespite the fact that what is now known as the Cassegrain reflector was first constructed by Bonaventura Cavalieri, the telescope is named after the seventeenth-century French astronomer Laurent Cassegrain. One might assume cases like this, where a discovery or concept is not named after the first person who discovered it, to be ______ they are counted among a litany of examples of Stigler's law.",
     "choices": [
       {
         "id": "A",
@@ -500,21 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_15",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncluded in *Black Refractions: Highlights from The Studio Museum in Harlem*, a 2019 group exhibition at the Museum of the African Diaspora in San Francisco, California, was the work of artist Lorna Simpson, who is best known for her multimedia artworks that juxtapose images of African American women with text fragments. Her work challenges conventional notions of race, gender, history, ______ she is credited with expanding the horizons of conceptual photographic art.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncluded in *Black Refractions: Highlights from The Studio Museum in Harlem*, a 2019 group exhibition at the Museum of the African Diaspora in San Francisco, California, was the work of artist Lorna Simpson, who is best known for her multimedia artworks that juxtapose images of African American women with text fragments. Her work challenges conventional notions of race, gender, history, ______ she is credited with expanding the horizons of conceptual photographic art.",
     "choices": [
       {
         "id": "A",
@@ -536,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_16",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMoussa Ould Ebnou is a novelist from Boutilimit, Mauritania, who has earned international acclaim in recent years. Writers of other literary forms, such as poetry and drama, are less likely to be recognized beyond their nations' borders, but many are still well ______ Koulsy Lamko, for example, is a celebrated playwright from Chad.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMoussa Ould Ebnou is a novelist from Boutilimit, Mauritania, who has earned international acclaim in recent years. Writers of other literary forms, such as poetry and drama, are less likely to be recognized beyond their nations' borders, but many are still well ______ Koulsy Lamko, for example, is a celebrated playwright from Chad.",
     "choices": [
       {
         "id": "A",
@@ -572,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_17",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRecent analysis of 2010 BL4 an outer solar system object orbiting the Sun between Jupiter and Neptune\u2014has determined its color to be gray, suggesting an icy composition. Such interpretations are ultimately ______ the object's gray coloration may be an incidental effect of radiation, solar wind, or collisions with other objects rather than evidence of its physical makeup.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRecent analysis of 2010 BL4 an outer solar system object orbiting the Sun between Jupiter and Neptune—has determined its color to be gray, suggesting an icy composition. Such interpretations are ultimately ______ the object's gray coloration may be an incidental effect of radiation, solar wind, or collisions with other objects rather than evidence of its physical makeup.",
     "choices": [
       {
         "id": "A",
@@ -608,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_18",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the list \u201cSplendid Things\" from Sei Shonagon's *Pillow Book*, the author delights in grape\u2014colored fabric, wisteria vines around a tree, and a snow-covered garden. So shrewd an observer is Shonagon, a lady-in-waiting to Empress Teishi, that her book's musings on tenth-century Japanese courtly life ______ readers a thousand years later.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn the list “Splendid Things\" from Sei Shonagon's *Pillow Book*, the author delights in grape—colored fabric, wisteria vines around a tree, and a snow-covered garden. So shrewd an observer is Shonagon, a lady-in-waiting to Empress Teishi, that her book's musings on tenth-century Japanese courtly life ______ readers a thousand years later.",
     "choices": [
       {
         "id": "A",
@@ -644,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_19",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe present-day city of Dushanbe, Tajikistan, was the capital of the Tajik Autonomous Soviet Socialist Republic, one of many nominally autonomous republics within the Soviet Union. Each of these republics ______ established along ethnolinguistic lines: most residents of the Tajik Republic spoke Persian, for example.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe present-day city of Dushanbe, Tajikistan, was the capital of the Tajik Autonomous Soviet Socialist Republic, one of many nominally autonomous republics within the Soviet Union. Each of these republics ______ established along ethnolinguistic lines: most residents of the Tajik Republic spoke Persian, for example.",
     "choices": [
       {
         "id": "A",
@@ -680,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_20",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nWhen, in 2017, Cambridge University students Lucy Moss and Toby Marlow decided they wanted to develop a musical together, one of their goals was for their female actor friends to have good parts to play. ______ they created the show *Six*, a retelling of the history of King Henry VIII's wives in which each of the six queens has a starring role.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWhen, in 2017, Cambridge University students Lucy Moss and Toby Marlow decided they wanted to develop a musical together, one of their goals was for their female actor friends to have good parts to play. ______ they created the show *Six*, a retelling of the history of King Henry VIII's wives in which each of the six queens has a starring role.",
     "choices": [
       {
         "id": "A",
@@ -716,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_21",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nThe prime meridian, the global indicator of zero degrees longitude established in 1884, was originally determined using astronomically derived coordinates. ______ as decades passed, new calculations would reveal increasingly precise coordinates, yet the prime meridian remained unchanged; it wasn't until the 1980s that, spurred by improved geodetic data, the prime meridian was officially moved roughly one hundred meters east.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe prime meridian, the global indicator of zero degrees longitude established in 1884, was originally determined using astronomically derived coordinates. ______ as decades passed, new calculations would reveal increasingly precise coordinates, yet the prime meridian remained unchanged; it wasn't until the 1980s that, spurred by improved geodetic data, the prime meridian was officially moved roughly one hundred meters east.",
     "choices": [
       {
         "id": "A",
@@ -752,9 +751,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -762,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_22",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize the discovery of (19308) 1996 TO66 to an audience already familiar with Jane Luu?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Minor planets are astronomical objects that orbit the Sun but are neither planets nor comets.\n\u2022 Astronomer Jane Luu has discovered many minor planets in her career.\n\u2022 Alongside colleagues David C. Jewitt and Chadwick Trujillo, she discovered the minor planet (19308) 1996 TO66 on October 12, 1996.\n\u2022 Alongside colleagues David C. Jewitt, Chadwick Trujillo, and David J. Tholen, she discovered the minor planet (24978) 1998 HJ151 on April 28, 1998.\n\nWhich choice most effectively uses information from the given sentences to emphasize the discovery of (19308) 1996 TO66 to an audience already familiar with Jane Luu?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize the discovery of (19308) 1996 TO66 to an audience already familiar with Jane Luu?\nWhile researching a topic, a student has taken the following notes:\n• Minor planets are astronomical objects that orbit the Sun but are neither planets nor comets.\n• Astronomer Jane Luu has discovered many minor planets in her career.\n• Alongside colleagues David C. Jewitt and Chadwick Trujillo, she discovered the minor planet (19308) 1996 TO66 on October 12, 1996.\n• Alongside colleagues David C. Jewitt, Chadwick Trujillo, and David J. Tholen, she discovered the minor planet (24978) 1998 HJ151 on April 28, 1998.",
     "choices": [
       {
         "id": "A",
@@ -788,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -798,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_23",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "The student wants to provide an example of a particle physicist whose research focuses on neutrinos. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Samoil M. Bilenky is a Russian particle physicist.\n\u2022 Particle physicists study subatomic particles.\n\u2022 Neutrinos are some of the least understood subatomic particles.\n\u2022 Neutrinos were first discovered in the mid-twentieth century.\n\u2022 Bilenky is known for his research on neutrino oscillations.\n\nThe student wants to provide an example of a particle physicist whose research focuses on neutrinos. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of a particle physicist whose research focuses on neutrinos. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Samoil M. Bilenky is a Russian particle physicist.\n• Particle physicists study subatomic particles.\n• Neutrinos are some of the least understood subatomic particles.\n• Neutrinos were first discovered in the mid-twentieth century.\n• Bilenky is known for his research on neutrino oscillations.",
     "choices": [
       {
         "id": "A",
@@ -818,13 +817,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "By studying neutrino oscillations\u2014to name just one example\u2014particle physicists can learn more about neutrinos."
+        "text": "By studying neutrino oscillations—to name just one example—particle physicists can learn more about neutrinos."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -834,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_24",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "The student wants to emphasize the order in which the supercontinents were formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A supercontinent is a single landmass made up of most or all of Earth's continents.\n\u2022 Over time, continents merge together to form supercontinents, which then break apart.\n\u2022 This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n\u2022 Ur was a supercontinent that formed about 3.1 billion years ago.\n\u2022 Columbia was a supercontinent that formed about 1.8 billion years ago.\n\nThe student wants to emphasize the order in which the supercontinents were formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize the order in which the supercontinents were formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A supercontinent is a single landmass made up of most or all of Earth's continents.\n• Over time, continents merge together to form supercontinents, which then break apart.\n• This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n• Ur was a supercontinent that formed about 3.1 billion years ago.\n• Columbia was a supercontinent that formed about 1.8 billion years ago.",
     "choices": [
       {
         "id": "A",
@@ -860,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -870,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_25",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "The student wants to emphasize a difference between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 *Catharsis, Conversion, Traumata* is a 1986 sculpture by American artist Joseph Kosuth.\n\u2022 It consists of a blue neon sign that spells out the title phrase.\n\u2022 *Harvest Moon* is a 2013 sculpture by British/Pakistani artist Shezad Dawood.\n\u2022 It consists of a yellow neon sign that forms an abstract moon shape.\n\u2022 Neon signs became popular with advertisers in the 1920s and began to decline in popularity in the 1960s.\n\u2022 Neon signs became popular with artists in the 1960s and continue to be popular today.\n\nThe student wants to emphasize a difference between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Catharsis, Conversion, Traumata* is a 1986 sculpture by American artist Joseph Kosuth.\n• It consists of a blue neon sign that spells out the title phrase.\n• *Harvest Moon* is a 2013 sculpture by British/Pakistani artist Shezad Dawood.\n• It consists of a yellow neon sign that forms an abstract moon shape.\n• Neon signs became popular with advertisers in the 1920s and began to decline in popularity in the 1960s.\n• Neon signs became popular with artists in the 1960s and continue to be popular today.",
     "choices": [
       {
         "id": "A",
@@ -896,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -906,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_26",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "The student wants to present contextual analysis to an audience unfamiliar with the concept. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Pattern analysis and contextual analysis are two approaches to art criticism.\n\u2022 Pattern analysis examines the repetition of visual elements in an artwork.\n\u2022 Such an analysis of Andy Warhol's *Campbell's Soup Cans* might consider how the painting's repetition of images of soup cans emphasizes the excesses of consumer culture.\n\u2022 Contextual analysis considers the historical and cultural contexts of an artwork's time.\n\u2022 Such an analysis of Pablo Picasso's *Les Demoiselles d\u2019Avignon* might consider how the painting's portrayal of fragmented human figures challenged conventions of beauty during a time of cultural upheaval (early twentieth century).\n\nThe student wants to present contextual analysis to an audience unfamiliar with the concept. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to present contextual analysis to an audience unfamiliar with the concept. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Pattern analysis and contextual analysis are two approaches to art criticism.\n• Pattern analysis examines the repetition of visual elements in an artwork.\n• Such an analysis of Andy Warhol's *Campbell's Soup Cans* might consider how the painting's repetition of images of soup cans emphasizes the excesses of consumer culture.\n• Contextual analysis considers the historical and cultural contexts of an artwork's time.\n• Such an analysis of Pablo Picasso's *Les Demoiselles d’Avignon* might consider how the painting's portrayal of fragmented human figures challenged conventions of beauty during a time of cultural upheaval (early twentieth century).",
     "choices": [
       {
         "id": "A",
@@ -918,7 +917,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "*Les Demoiselles d\u2019Avignon*'s portrayal of fragmented human figures challenged conventions of beauty during a time of cultural upheaval (early twentieth century)."
+        "text": "*Les Demoiselles d’Avignon*'s portrayal of fragmented human figures challenged conventions of beauty during a time of cultural upheaval (early twentieth century)."
       },
       {
         "id": "C",
@@ -932,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -940,13 +939,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_27",
     "testName": "October 2024 International Form B SAT English Module 2",
-    "text": "The student wants to compare the curviness of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 A river's stream length is the length of a line that follows along the river path.\n\u2022 A river's valley length is the length of a straight line drawn from the beginning of the river to the end.\n\u2022 The river's curviness, or sinuosity, is the ratio of the river's stream length to its valley length.\n\u2022 Low-sinuosity rivers have a stream length 1-1.5 times longer than their valley length, and high-sinuosity rivers have a stream length 1.5 or more times longer than their valley length.\n\u2022 The Embarras River in Canada has high sinuosity.\n\u2022 The Luni River in India has low sinuosity.\n\nThe student wants to compare the curviness of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to compare the curviness of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A river's stream length is the length of a line that follows along the river path.\n• A river's valley length is the length of a straight line drawn from the beginning of the river to the end.\n• The river's curviness, or sinuosity, is the ratio of the river's stream length to its valley length.\n• Low-sinuosity rivers have a stream length 1-1.5 times longer than their valley length, and high-sinuosity rivers have a stream length 1.5 or more times longer than their valley length.\n• The Embarras River in Canada has high sinuosity.\n• The Luni River in India has low sinuosity.",
     "choices": [
       {
         "id": "A",
@@ -968,9 +967,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
       "confidence": "high"
     }
   }

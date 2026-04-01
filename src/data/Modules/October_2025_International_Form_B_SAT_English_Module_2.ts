@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_1",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDanza Azteca arose in the 1500s when the traditions of the Chichimeca Jonaz people ______ those of other tribes in Central Mexico, creating a hybrid dance form that spread across Mexico and later to Mexican communities in the US. Chichimeca Jonaz influences can still be seen in the performances by groups like Danza Azteca Citlaltonac, which is based in Coachella, California.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDanza Azteca arose in the 1500s when the traditions of the Chichimeca Jonaz people ______ those of other tribes in Central Mexico, creating a hybrid dance form that spread across Mexico and later to Mexican communities in the US. Chichimeca Jonaz influences can still be seen in the performances by groups like Danza Azteca Citlaltonac, which is based in Coachella, California.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_2",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2020 paper, Arya Udry et al. cautioned that although similarities in the isotopic signatures of elements detected in Mars's atmosphere and in Martian meteorites recovered on Earth make it tempting to treat the geochemical properties of the meteorites as ______ those of Mars's interiors, Mars's geology cannot be ascertained based solely on meteorite-sample analyses.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nIn a 2020 paper, Arya Udry et al. cautioned that although similarities in the isotopic signatures of elements detected in Mars's atmosphere and in Martian meteorites recovered on Earth make it tempting to treat the geochemical properties of the meteorites as ______ those of Mars's interiors, Mars's geology cannot be ascertained based solely on meteorite-sample analyses.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_3",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs the use of non-oil energy resources has increased, the relationship between oil shocks\u2014such as the 57% rise in oil prices from May 1979 to January 1980\u2014and national economic activity has ______. Indeed, Gbadebo Oladosu and colleagues showed that the effect of recent oil shocks on the gross domestic product of India was only slightly greater than zero.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs the use of non-oil energy resources has increased, the relationship between oil shocks—such as the 57% rise in oil prices from May 1979 to January 1980—and national economic activity has ______. Indeed, Gbadebo Oladosu and colleagues showed that the effect of recent oil shocks on the gross domestic product of India was only slightly greater than zero.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_4",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\nThe Federalist Papers are a collection of 85 essays written by Alexander Hamilton, John Jay, and James Madison. They were published pseudonymously in the *New York Packet* and other New York newspapers in 1787-88 and argue that New Yorkers should vote to ratify the proposed United States Constitution. Though the authorship of most of the individual essays is certain, that of a few is in question: for instance, while No. 15, \"The insufficiency of the Present Confederation to Preserve the Union,\" was surely penned by Hamilton, No. 52, \"The House of Representatives,\" may have been written by either Hamilton or Madison.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nThe Federalist Papers are a collection of 85 essays written by Alexander Hamilton, John Jay, and James Madison. They were published pseudonymously in the *New York Packet* and other New York newspapers in 1787-88 and argue that New Yorkers should vote to ratify the proposed United States Constitution. Though the authorship of most of the individual essays is certain, that of a few is in question: for instance, while No. 15, \"The insufficiency of the Present Confederation to Preserve the Union,\" was surely penned by Hamilton, No. 52, \"The House of Representatives,\" may have been written by either Hamilton or Madison.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_5",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe Museum of Modern Art (MOMA) in New York City has an exhibition of video games that includes *Yars' Revenge* from 1982, which museum visitors can play onsite, and *SimCity 2000* from 1994, which visitors can see only in a video presentation. <u>MOMA claims the video presentations are only for games that would be impractical to display in a playable form,</u> but video games are an inherently interactive medium, a feature that is grossly absent in a video-only presentation.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nThe Museum of Modern Art (MOMA) in New York City has an exhibition of video games that includes *Yars' Revenge* from 1982, which museum visitors can play onsite, and *SimCity 2000* from 1994, which visitors can see only in a video presentation. <u>MOMA claims the video presentations are only for games that would be impractical to display in a playable form,</u> but video games are an inherently interactive medium, a feature that is grossly absent in a video-only presentation.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_6",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice best describes the function of the reference to \"anvil and strife\" in the text as a whole?\nThe following text is from Anne Spencer's 1922 poem \"Translation.\"\nWe trekked into a far country,\nMy friend and I.\nOur deeper content was never spoken,\nBut each knew all the other said.\nHe told me how calm his soul was laid\nBy the lack of <u>anvil and strife.</u>\n\"The wooing kestrel,\" I said, \"mutes his mating-note\nTo please the harmony of this sweet silence.\"\n\nWhich choice best describes the function of the reference to \"anvil and strife\" in the text as a whole?",
+    "text": "Which choice best describes the function of the reference to \"anvil and strife\" in the text as a whole?\nThe following text is from Anne Spencer's 1922 poem \"Translation.\"\nWe trekked into a far country,\nMy friend and I.\nOur deeper content was never spoken,\nBut each knew all the other said.\nHe told me how calm his soul was laid\nBy the lack of <u>anvil and strife.</u>\n\"The wooing kestrel,\" I said, \"mutes his mating-note\nTo please the harmony of this sweet silence.\"",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -221,11 +221,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_7",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice best states the main idea of the text?\nThe following text is adapted from Matthew Arnold's 1869 nonfiction book *Culture and Anarchy*. The *Times* [a British newspaper], replying to some foreign strictures on the dress, looks, and behaviour of the English abroad, urges that the English ideal is that everyone should be free to do and to look just as he likes. But culture indefatigably tries, not to make what each raw person may like, the rule by which he fashions himself; but to draw ever nearer to a sense of what is indeed beautiful, graceful, and becoming, and to get the raw person to like that.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nThe following text is adapted from Matthew Arnold's 1869 nonfiction book *Culture and Anarchy*. The *Times* [a British newspaper], replying to some foreign strictures on the dress, looks, and behaviour of the English abroad, urges that the English ideal is that everyone should be free to do and to look just as he likes. But culture indefatigably tries, not to make what each raw person may like, the rule by which he fashions himself; but to draw ever nearer to a sense of what is indeed beautiful, graceful, and becoming, and to get the raw person to like that.",
     "choices": [
       {
         "id": "A",
@@ -247,7 +247,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -257,15 +257,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_8",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nStudies of the population density of cougars (*Puma concolor*) have yielded a range of results, which may in part reflect differences in the effectiveness of the methods that researchers have used in their studies. If, for example, the use of helicopter surveying tends to lead to overestimates of cougar population density, that may explain why the study by ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nStudies of the population density of cougars (*Puma concolor*) have yielded a range of results, which may in part reflect differences in the effectiveness of the methods that researchers have used in their studies. If, for example, the use of helicopter surveying tends to lead to overestimates of cougar population density, that may explain why the study by ______",
     "choices": [
       {
         "id": "A",
-        "text": "Juan I. Zan\u00f3n-Martinez et al. required a study area of 1,179 square kilometers, while the study by David M. Choate et al. required a study area of 1,225 square kilometers."
+        "text": "Juan I. Zanón-Martinez et al. required a study area of 1,179 square kilometers, while the study by David M. Choate et al. required a study area of 1,225 square kilometers."
       },
       {
         "id": "B",
@@ -277,28 +277,27 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Gregory A. Davidson et al. reported a maximum density of 5.50 individuals per 100 square kilometers, while the study by Juan I. Zan\u00f3n-Martinez et al., which used regular camera trapping, reported a lower maximum density."
+        "text": "Gregory A. Davidson et al. reported a maximum density of 5.50 individuals per 100 square kilometers, while the study by Juan I. Zanón-Martinez et al., which used regular camera trapping, reported a lower maximum density."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlB_Eng_M2_Q8_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Standard English Conventions",
-    "skill": "Boundaries",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_9",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which statement, if true, would most strongly support the text's description of *On Earth We're Briefly Gorgeous*?\nAutofiction is an emerging literary form that incorporates autobiographical writing into fiction. Practitioners of autofiction emphasize the autobiographical aspects of their work by patterning their protagonists' lives after their own, typically naming their protagonists after themselves. Autofiction usually borrows formal elements from autobiographical writing too, including its first person point of view and its use of a narrative voice so forthright that it borders on confessional. Ocean Vuong's 2019 novel *On Earth We're Briefly Gorgeous* is a representative work of autofiction, one that erases the distinction that fiction typically observes between authors and the characters they create.\n\nWhich statement, if true, would most strongly support the text's description of *On Earth We're Briefly Gorgeous*?",
+    "text": "Which statement, if true, would most strongly support the text's description of *On Earth We're Briefly Gorgeous*?\nAutofiction is an emerging literary form that incorporates autobiographical writing into fiction. Practitioners of autofiction emphasize the autobiographical aspects of their work by patterning their protagonists' lives after their own, typically naming their protagonists after themselves. Autofiction usually borrows formal elements from autobiographical writing too, including its first person point of view and its use of a narrative voice so forthright that it borders on confessional. Ocean Vuong's 2019 novel *On Earth We're Briefly Gorgeous* is a representative work of autofiction, one that erases the distinction that fiction typically observes between authors and the characters they create.",
     "choices": [
       {
         "id": "A",
@@ -310,7 +309,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "*On Earth We're Briefly Gorgeous* makes use of imagery in much the same way that contemporary poetry does, exploiting certain images\u2014butterflies for example\u2014for their emotional or conceptual associations; in this way, Vuong blurs the distinction between poetry and fiction."
+        "text": "*On Earth We're Briefly Gorgeous* makes use of imagery in much the same way that contemporary poetry does, exploiting certain images—butterflies for example—for their emotional or conceptual associations; in this way, Vuong blurs the distinction between poetry and fiction."
       },
       {
         "id": "D",
@@ -320,9 +319,9 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Standard English Conventions",
-      "skill": "Boundaries",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
@@ -330,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_10",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the text and data from the table to support the student's claim?\nA tariff is a tax on imported goods intended to protect domestic producers of similar goods from international competition. Eliminating tariffs can lead to an influx of cheaper imported goods, lowering prices; in a place where domestic production is relatively expensive, this influx can suppress domestic production, as the country's consumers favor more cheaply produced imported goods over domestically produced ones. A student consults a table showing projected changes in production and average market prices of agricultural commodities in four countries in a tariff-elimination scenario. Based on the data, the student claims that compared with India and Russia, agricultural production in Argentina and the United States is likely relatively inexpensive.\n\nWhich choice most effectively uses information from the text and data from the table to support the student's claim?",
+    "text": "Which choice most effectively uses information from the text and data from the table to support the student's claim?\nA tariff is a tax on imported goods intended to protect domestic producers of similar goods from international competition. Eliminating tariffs can lead to an influx of cheaper imported goods, lowering prices; in a place where domestic production is relatively expensive, this influx can suppress domestic production, as the country's consumers favor more cheaply produced imported goods over domestically produced ones. A student consults a table showing projected changes in production and average market prices of agricultural commodities in four countries in a tariff-elimination scenario. Based on the data, the student claims that compared with India and Russia, agricultural production in Argentina and the United States is likely relatively inexpensive.",
     "choices": [
       {
         "id": "A",
@@ -356,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlB_Eng_M2_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_11",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice best describes data in the graph that support Liu et al.'s conclusion?\nHigh entropy alloys (HEAs) typically combine five or more elements in roughly equal proportions, and medium entropy alloys (MEAs) typically combine three or four elements in similar proportions. HEAs and MEAs are known for withstanding cracking at extremely low (cryogenic) temperatures relatively well, though their fracture toughness generally falls as temperature does. Dong Liu et al. investigated the fracture toughness (both the initiation and propagation toughness) of the HEA CrMnFeCoNi and its MEA derivative CrCoNi and concluded that the alloys\u2019 toughness performance differs from that of most HEAs and MEAs.\n\nWhich choice best describes data in the graph that support Liu et al.'s conclusion?",
+    "text": "Which choice best describes data in the graph that support Liu et al.'s conclusion?\nHigh entropy alloys (HEAs) typically combine five or more elements in roughly equal proportions, and medium entropy alloys (MEAs) typically combine three or four elements in similar proportions. HEAs and MEAs are known for withstanding cracking at extremely low (cryogenic) temperatures relatively well, though their fracture toughness generally falls as temperature does. Dong Liu et al. investigated the fracture toughness (both the initiation and propagation toughness) of the HEA CrMnFeCoNi and its MEA derivative CrCoNi and concluded that the alloys’ toughness performance differs from that of most HEAs and MEAs.",
     "choices": [
       {
         "id": "A",
@@ -393,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlB_Eng_M2_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_12",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses a quotation from a translation of *The Clouds* to illustrate the claim?\n*The Clouds* is a 423 BCE play by Aristophanes, originally written in ancient Greek. At the time, professional intellectuals called sophists taught customers rhetorical techniques to use in public speaking, along with providing instruction in other subjects. In the play, Aristophanes satirizes sophists as having an exaggerated sense of their own wisdom, as seen when the character ______\n\nWhich choice most effectively uses a quotation from a translation of *The Clouds* to illustrate the claim?",
+    "text": "Which choice most effectively uses a quotation from a translation of *The Clouds* to illustrate the claim?\n*The Clouds* is a 423 BCE play by Aristophanes, originally written in ancient Greek. At the time, professional intellectuals called sophists taught customers rhetorical techniques to use in public speaking, along with providing instruction in other subjects. In the play, Aristophanes satirizes sophists as having an exaggerated sense of their own wisdom, as seen when the character ______",
     "choices": [
       {
         "id": "A",
@@ -430,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -440,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_13",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nSome studies of migrating animals measure how far the animals travel in a year by fitting individuals with GPS tracking collars. Other studies track annual round-trip distance (RTD), which is equal to double the distance separating the two habitats a population migrates between each year. A researcher argues that since GPS records all of an animal's movements, using the GPS method to track a population would result in significantly higher recorded travel distances than using the RTD method would. For example, it's very likely that the distance reported for the ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nSome studies of migrating animals measure how far the animals travel in a year by fitting individuals with GPS tracking collars. Other studies track annual round-trip distance (RTD), which is equal to double the distance separating the two habitats a population migrates between each year. A researcher argues that since GPS records all of an animal's movements, using the GPS method to track a population would result in significantly higher recorded travel distances than using the RTD method would. For example, it's very likely that the distance reported for the ______",
     "choices": [
       {
         "id": "A",
@@ -466,22 +463,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Oct_25_IntlB_Eng_M2_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_14",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nMany contemporary Indigenous painters practice a specifically indigenous mode of abstraction; for example, Dyani White Hawk assembles compositions out of motifs common in the bead work and other traditional arts of her tribe. In contrast, the prominent Indigenous practitioners of abstract painting during the mid-twentieth century, such as the Luise\u00f1o artist Fritz Scholder, typically aligned their compositional strategies with Abstract Expressionism\u2014a school of painting dominated by European American artists\u2014instead of with traditionally nonrepresentational forms of indigenous art. Thus, in the case of Scholder's generation, the identification of an abstract painting as Indigenous art tends to ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nMany contemporary Indigenous painters practice a specifically indigenous mode of abstraction; for example, Dyani White Hawk assembles compositions out of motifs common in the bead work and other traditional arts of her tribe. In contrast, the prominent Indigenous practitioners of abstract painting during the mid-twentieth century, such as the Luiseño artist Fritz Scholder, typically aligned their compositional strategies with Abstract Expressionism—a school of painting dominated by European American artists—instead of with traditionally nonrepresentational forms of indigenous art. Thus, in the case of Scholder's generation, the identification of an abstract painting as Indigenous art tends to ______",
     "choices": [
       {
         "id": "A",
@@ -503,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -513,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_15",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nPaleoanthropologists have struggled to determine the onset of consistent clothing use by hominids. The appearance of hide-scraping tools by 780,000 years ago (780Ka) enabled clothing production but does not entail it, and while clothing is thought to have been thermally superfluous for anatomically modern humans in their African range around their emergence by 300 Ka, it was essential for the persistence of humans outside Africa by 70 Ka. Melissa Toups et al. proposed a novel proxy: the evolution of the clothing-exclusive variant of the human-exclusive parasite *Pediculus humanus* (head lice), which Toups et al. date to as early as 170 Ka. This variant could not have emerged and survived without ample ecological niches, so if Toups et al. are correct, then ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nPaleoanthropologists have struggled to determine the onset of consistent clothing use by hominids. The appearance of hide-scraping tools by 780,000 years ago (780Ka) enabled clothing production but does not entail it, and while clothing is thought to have been thermally superfluous for anatomically modern humans in their African range around their emergence by 300 Ka, it was essential for the persistence of humans outside Africa by 70 Ka. Melissa Toups et al. proposed a novel proxy: the evolution of the clothing-exclusive variant of the human-exclusive parasite *Pediculus humanus* (head lice), which Toups et al. date to as early as 170 Ka. This variant could not have emerged and survived without ample ecological niches, so if Toups et al. are correct, then ______",
     "choices": [
       {
         "id": "A",
@@ -539,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -549,11 +545,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_16",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn biology, many initially disordered systems will naturally move toward greater order according to the principle of self-organization, a conceptual framework for pattern ______ biologists believe can be used to explain a range of organic phenomena, from population dynamics to the sociality of bees and ants.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn biology, many initially disordered systems will naturally move toward greater order according to the principle of self-organization, a conceptual framework for pattern ______ biologists believe can be used to explain a range of organic phenomena, from population dynamics to the sociality of bees and ants.",
     "choices": [
       {
         "id": "A",
@@ -575,7 +571,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -585,11 +581,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_17",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDong Lai and Diego J. Mu\u00f1oz's work on circumbinary disk accretion\u2014a process in which, due to gravity, material from an orbiting disk spirals inward and accumulates onto two stars or black holes\u2014relies heavily on simulations. Lai and Mu\u00f1oz recognize the need for direct ______ recommending evolving binary star systems as a promising avenue for future study.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nDong Lai and Diego J. Muñoz's work on circumbinary disk accretion—a process in which, due to gravity, material from an orbiting disk spirals inward and accumulates onto two stars or black holes—relies heavily on simulations. Lai and Muñoz recognize the need for direct ______ recommending evolving binary star systems as a promising avenue for future study.",
     "choices": [
       {
         "id": "A",
@@ -611,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -621,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_18",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nConceptual artist Joan Jonas's first work, Wind (1968), is a silent film depicting people on a beach struggling to move about in extremely windy conditions. Wind has been recognized for bringing the principles of postmodern dance\u2014which demystifies traditional choreography by foregrounding features of movement that ballet and other classical dance forms obscure (such as clumsiness, weightiness, resistance, and ______ to video.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nConceptual artist Joan Jonas's first work, Wind (1968), is a silent film depicting people on a beach struggling to move about in extremely windy conditions. Wind has been recognized for bringing the principles of postmodern dance—which demystifies traditional choreography by foregrounding features of movement that ballet and other classical dance forms obscure (such as clumsiness, weightiness, resistance, and ______ to video.",
     "choices": [
       {
         "id": "A",
@@ -637,7 +633,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "gravity)\u2014"
+        "text": "gravity)—"
       },
       {
         "id": "D",
@@ -647,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -657,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_19",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a 2022 study, Fa-Gang Wang et al. concluded that ocher artifacts excavated from an archaeological site in China date to between 39,000 and 41,000 years ago. The reliability of the dates that Wang et al. have posited, which were obtained through processes that determined when buried mineral grains surrounding the ocher artifacts were last exposed to sunlight, ______ in part upon the researchers\u2019 exclusion of mineral grains that lacked adequate sun exposure before burial.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a 2022 study, Fa-Gang Wang et al. concluded that ocher artifacts excavated from an archaeological site in China date to between 39,000 and 41,000 years ago. The reliability of the dates that Wang et al. have posited, which were obtained through processes that determined when buried mineral grains surrounding the ocher artifacts were last exposed to sunlight, ______ in part upon the researchers’ exclusion of mineral grains that lacked adequate sun exposure before burial.",
     "choices": [
       {
         "id": "A",
@@ -683,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_20",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn recent years, the English writer Matilda Betham (1776-1852), whose poetry was widely read during her lifetime, has been rediscovered by contemporary audiences\u2014a resurgence of interest that is largely due to literary scholars such as Elaine Bailey, whose work ______ the richness of Betham's poems and the poet's historical importance to the Romantic literary movement encourages a broader rethinking of British Romanticism itself.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn recent years, the English writer Matilda Betham (1776-1852), whose poetry was widely read during her lifetime, has been rediscovered by contemporary audiences—a resurgence of interest that is largely due to literary scholars such as Elaine Bailey, whose work ______ the richness of Betham's poems and the poet's historical importance to the Romantic literary movement encourages a broader rethinking of British Romanticism itself.",
     "choices": [
       {
         "id": "A",
@@ -719,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -729,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_21",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1977, legendary Puerto Rican performer Rita Moreno won an Emmy Award, making her one of the rare talents to earn the highest honors in television, music, film, and stage entertainment\u2014the Emmy, Grammy, Oscar, and Tony ______ the achievement is known as \"winning the EGOT.\"\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1977, legendary Puerto Rican performer Rita Moreno won an Emmy Award, making her one of the rare talents to earn the highest honors in television, music, film, and stage entertainment—the Emmy, Grammy, Oscar, and Tony ______ the achievement is known as \"winning the EGOT.\"",
     "choices": [
       {
         "id": "A",
@@ -745,7 +741,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "awards, respectively\u2014"
+        "text": "awards, respectively—"
       },
       {
         "id": "D",
@@ -755,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -765,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_22",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn a given rock formation, Tortonian rock from 11.6 million years ago might directly abut Capitanian rock from 264.3 million years ago. But how could this happen? Time did not actually stand still during the intervening 252.7 million years; ______ this geologic unconformity likely resulted from natural processes removing sedimentary material from the stratigraphic record.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn a given rock formation, Tortonian rock from 11.6 million years ago might directly abut Capitanian rock from 264.3 million years ago. But how could this happen? Time did not actually stand still during the intervening 252.7 million years; ______ this geologic unconformity likely resulted from natural processes removing sedimentary material from the stratigraphic record.",
     "choices": [
       {
         "id": "A",
@@ -791,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -801,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_23",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nMany historical accounts of the 1930s focus on the widespread movement of people from dust bowl-ravaged Great Plains states to faraway California. However, a 2016 study of 1940 census data complicates this popular narrative; ______ researchers determined, migrants in states hardest hit by prolonged droughts and dust storms\u2014Colorado, Kansas, Oklahoma, and Texas\u2014merely relocated within the region.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nMany historical accounts of the 1930s focus on the widespread movement of people from dust bowl-ravaged Great Plains states to faraway California. However, a 2016 study of 1940 census data complicates this popular narrative; ______ researchers determined, migrants in states hardest hit by prolonged droughts and dust storms—Colorado, Kansas, Oklahoma, and Texas—merely relocated within the region.",
     "choices": [
       {
         "id": "A",
@@ -827,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -837,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_24",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "The student wants to emphasize how the French Republican calendar honored rural life. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The French Republican calendar was used in France from 1793 to 1805.\n\u2022 Each month was divided into three weeks of ten days each, followed by five supplemental days.\n\u2022 Each day was named after a plant, animal, agricultural tool, or mineral as a way of honoring an aspect of rural life.\n\u2022 Brumaire is the second month in the calendar.\n\u2022 The fifth day of Brumaire is named Oie, which means \"goose.\"\n\nThe student wants to emphasize how the French Republican calendar honored rural life. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize how the French Republican calendar honored rural life. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The French Republican calendar was used in France from 1793 to 1805.\n• Each month was divided into three weeks of ten days each, followed by five supplemental days.\n• Each day was named after a plant, animal, agricultural tool, or mineral as a way of honoring an aspect of rural life.\n• Brumaire is the second month in the calendar.\n• The fifth day of Brumaire is named Oie, which means \"goose.\"",
     "choices": [
       {
         "id": "A",
@@ -863,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -873,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_25",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "The student wants to present the methods used in the 2020 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 In a 2020 study, researchers in California investigated how many potential nesting sites female wood ducks visited during the nesting season.\n\u2022 The researchers placed nest boxes throughout the survey area and tagged 138 female wood ducks with radio frequency ID trackers.\n\u2022 These trackers recorded how many nest boxes each duck visited.\n\u2022 67 ducks (48.5%) visited only one nest box.\n\u2022 18 ducks (13.0%) visited 10 or more nest boxes.\n\u2022 Younger ducks were more likely to visit multiple nest boxes.\n\nThe student wants to present the methods used in the 2020 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to present the methods used in the 2020 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• In a 2020 study, researchers in California investigated how many potential nesting sites female wood ducks visited during the nesting season.\n• The researchers placed nest boxes throughout the survey area and tagged 138 female wood ducks with radio frequency ID trackers.\n• These trackers recorded how many nest boxes each duck visited.\n• 67 ducks (48.5%) visited only one nest box.\n• 18 ducks (13.0%) visited 10 or more nest boxes.\n• Younger ducks were more likely to visit multiple nest boxes.",
     "choices": [
       {
         "id": "A",
@@ -899,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -909,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_26",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "The student wants to make a distinction between the two portolan traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Haym ibn Risch was a fourteenth-century Majorcan cartographer of portolan charts.\n\u2022 Francesco Pizigano was a fourteenth-century Venetian cartographer of portolan charts.\n\u2022 Portolan charts were early nautical charts that mapped the waterways of the Mediterranean and Black Seas.\n\u2022 Portolan charts in the Venetian tradition tended to be sparse in illustrations.\n\u2022 Those in the Majorcan tradition tended to be richly illustrated.\n\u2022 In Majorcan charts, the Atlas Mountains are depicted as a palm tree, and Bohemia is depicted as a horseshoe.\n\nThe student wants to make a distinction between the two portolan traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to make a distinction between the two portolan traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Haym ibn Risch was a fourteenth-century Majorcan cartographer of portolan charts.\n• Francesco Pizigano was a fourteenth-century Venetian cartographer of portolan charts.\n• Portolan charts were early nautical charts that mapped the waterways of the Mediterranean and Black Seas.\n• Portolan charts in the Venetian tradition tended to be sparse in illustrations.\n• Those in the Majorcan tradition tended to be richly illustrated.\n• In Majorcan charts, the Atlas Mountains are depicted as a palm tree, and Bohemia is depicted as a horseshoe.",
     "choices": [
       {
         "id": "A",
@@ -935,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -945,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_27",
     "testName": "October 2025 International Form B SAT English Module 2",
-    "text": "The student wants to paraphrase a quotation from Champ and Freeman to explain the inefficiency of barter economies. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Squirrel pelts were used as commodity money in medieval Russia.\n\u2022 In a commodity money economy, specific goods act as a common unit of monetary exchange that can be used to buy and sell other goods.\n\u2022 In a barter economy, goods are traded directly between parties without the use of money.\n\u2022 Economists Bruce Champ and Scott Freeman: bartering requires that \"the person with whom you wish to trade must not only have what you want but also want what you have.\"\n\u2022 \"The inefficiency is apparent; a great deal of time is spent merely finding someone with whom to trade.\"\n\u2022 Champ and Freeman: when \"individuals might come to accept one particular good in exchange for others even if they do not wish to consume that good...barter economies essentially become monetary economies.\"\n\nThe student wants to paraphrase a quotation from Champ and Freeman to explain the inefficiency of barter economies. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to paraphrase a quotation from Champ and Freeman to explain the inefficiency of barter economies. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Squirrel pelts were used as commodity money in medieval Russia.\n• In a commodity money economy, specific goods act as a common unit of monetary exchange that can be used to buy and sell other goods.\n• In a barter economy, goods are traded directly between parties without the use of money.\n• Economists Bruce Champ and Scott Freeman: bartering requires that \"the person with whom you wish to trade must not only have what you want but also want what you have.\"\n• \"The inefficiency is apparent; a great deal of time is spent merely finding someone with whom to trade.\"\n• Champ and Freeman: when \"individuals might come to accept one particular good in exchange for others even if they do not wish to consume that good...barter economies essentially become monetary economies.\"",
     "choices": [
       {
         "id": "A",
@@ -971,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

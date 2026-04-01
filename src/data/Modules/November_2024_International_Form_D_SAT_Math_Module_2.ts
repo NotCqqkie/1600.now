@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_1",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -33,16 +33,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlD_Math_M2_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_2",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -70,15 +69,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Sample Statistics and Margin of Error",
-    "difficulty": "null",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_4",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -106,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Sample Statistics and Margin of Error",
+      "skill": "Inference from sample statistics and margin of error",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_5",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -142,15 +141,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_6",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -161,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_7",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -196,17 +195,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlD_Math_M2_Q7_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Two-Variable Data",
-    "difficulty": "null",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_8",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -234,16 +232,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Two-Variable Data",
+      "skill": "Two-variable data: Models and scatterplots",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlD_Math_M2_Q8_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_9",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -271,15 +268,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_10",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -307,15 +304,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-Variable Data",
-    "difficulty": "null",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_11",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -326,16 +323,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "One-Variable Data",
+      "skill": "One-variable data: Distributions and measures of center and spread",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlD_Math_M2_Q11_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_12",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -363,15 +359,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_13",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -381,36 +377,36 @@ export const questions: Question[] = [
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_14",
     "testName": "November 2024 International Form D SAT Math Module 2",
-    "text": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\u2160. $\\frac{(x^{\\frac{14}{3}})(y^{\\frac{5}{3}})}{3}$\n\u2161. $\\frac{3x^{11}y^{2}}{5}$",
+    "text": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\nⅠ. $\\frac{(x^{\\frac{14}{3}})(y^{\\frac{5}{3}})}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
     "choices": [
       {
         "id": "A",
-        "text": "\u2160 only"
+        "text": "Ⅰ only"
       },
       {
         "id": "B",
-        "text": "\u2161 only"
+        "text": "Ⅱ only"
       },
       {
         "id": "C",
-        "text": "\u2160 and \u2161"
+        "text": "Ⅰ and Ⅱ"
       },
       {
         "id": "D",
-        "text": "Neither \u2160 nor \u2161"
+        "text": "Neither Ⅰ nor Ⅱ"
       }
     ],
     "correctAnswer": "C",
@@ -418,15 +414,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_15",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -454,15 +450,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_16",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -473,7 +469,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
@@ -481,7 +477,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_17",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -516,8 +512,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_18",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -528,15 +524,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_19",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -564,15 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_20",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -583,15 +579,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Inequalities",
-    "difficulty": "null",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_21",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -619,15 +615,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Inequalities",
+      "skill": "Linear inequalities in one or two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Equations in One Variable",
-    "difficulty": "null",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_22",
     "testName": "November 2024 International Form D SAT Math Module 2",
@@ -638,7 +634,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Equations in One Variable",
+      "skill": "Linear equations in one variable",
       "confidence": "high"
     }
   }

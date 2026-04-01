@@ -3,9 +3,9 @@ import { Question } from "../all_questions";
 export const questions: Question[] = [
   {
     "section": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_1",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -32,16 +32,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_2",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -68,16 +68,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_3",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -105,15 +105,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_4",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -124,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_5",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -160,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_6",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -196,15 +196,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_7",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -231,21 +231,20 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "https://sat.oly.st/images/678b2973b93dd1be3f76704388158d12.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_9",
     "testName": "August 2024 International Form A SAT Math Module 2",
-    "text": "The three points shown defne a circle. The circumference of this circle is *k\u03c0*, where *k* is a constant. What is the value of *k*?",
+    "text": "The three points shown defne a circle. The circumference of this circle is *kπ*, where *k* is a constant. What is the value of *k*?",
     "choices": [
       {
         "id": "A",
@@ -271,14 +270,13 @@ export const questions: Question[] = [
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "confidence": "high"
-    },
-    "image": "https://sat.oly.st/images/0d6bd9bcff0fa34ff4a67753564317b8.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_10",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -306,7 +304,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -314,7 +312,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_11",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -349,8 +347,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_12",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -361,7 +359,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
@@ -369,11 +367,11 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_13",
     "testName": "August 2024 International Form A SAT Math Module 2",
-    "text": "A rectangle is inscribed in a circle such that the length of the diagonal of the rectangle is twice the length of its shortest side. The circumference of the circle is 114\u03c0 units. What is the area, in square units, of the rectangle?",
+    "text": "A rectangle is inscribed in a circle such that the length of the diagonal of the rectangle is twice the length of its shortest side. The circumference of the circle is 114π units. What is the area, in square units, of the rectangle?",
     "choices": [
       {
         "id": "A",
@@ -404,8 +402,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_14",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -433,7 +431,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -441,7 +439,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_15",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -476,12 +474,12 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_16",
     "testName": "August 2024 International Form A SAT Math Module 2",
-    "text": "For groups of 5 or more people, a tour guide charges $9 for the first person in the group and $6 for each additional person. Which function *g* gives the total charge, in dollars, for a tourwith a group of *n* people, where n \u2265 5?",
+    "text": "For groups of 5 or more people, a tour guide charges $9 for the first person in the group and $6 for each additional person. Which function *g* gives the total charge, in dollars, for a tourwith a group of *n* people, where n ≥ 5?",
     "choices": [
       {
         "id": "A",
@@ -505,15 +503,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_17",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -541,34 +539,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_18",
     "testName": "August 2024 International Form A SAT Math Module 2",
-    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is (9x - 490)\u00b0. The sum of the measures of one of the acute angles and three of the obtuse angles is (-18x + w)\u00b0. What is the value of * w *?",
+    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is (9x - 490)°. The sum of the measures of one of the acute angles and three of the obtuse angles is (-18x + w)°. What is the value of * w *?",
     "choices": [],
     "correctAnswer": "1520",
     "type": "free-response",
     "category": {
       "subject": "Math",
-      "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_19",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -579,15 +577,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and Volume",
-    "difficulty": "null",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_20",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -598,15 +596,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and Volume",
+      "skill": "Area and volume",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_21",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -617,15 +615,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, Angles, and Triangles",
-    "difficulty": "null",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_22",
     "testName": "August 2024 International Form A SAT Math Module 2",
@@ -653,7 +651,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Lines, Angles, and Triangles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     }
   }

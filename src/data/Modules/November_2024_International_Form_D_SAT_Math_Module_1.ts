@@ -4,8 +4,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_1",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -33,36 +33,34 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlD_Math_M1_Q1_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_2",
     "testName": "November 2024 International Form D SAT Math Module 1",
-    "text": "In the figure, two lines intersect at a point. If $\u03b3$ = 61, what is the value of $s$?",
+    "text": "In the figure, two lines intersect at a point. If $γ$ = 61, what is the value of $s$?",
     "choices": [],
     "correctAnswer": "61",
     "type": "free-response",
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlD_Math_M1_Q2_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_3",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -90,15 +88,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_5",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -126,15 +124,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_6",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -162,15 +160,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_7",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -198,7 +196,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
@@ -206,7 +204,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_8",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -240,9 +238,9 @@ export const questions: Question[] = [
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_9",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -269,17 +267,16 @@ export const questions: Question[] = [
     "type": "multiple-choice",
     "category": {
       "subject": "Math",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlD_Math_M1_Q9_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_10",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -290,15 +287,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_11",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -326,7 +323,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
@@ -334,7 +331,7 @@ export const questions: Question[] = [
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_12",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -369,8 +366,8 @@ export const questions: Question[] = [
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_13",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -398,15 +395,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_14",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -434,15 +431,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_15",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -453,15 +450,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Ratios, Rates, Proportions, and Units",
-    "difficulty": "null",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_16",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -472,15 +469,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Problem-Solving and Data Analysis",
-      "skill": "Ratios, Rates, Proportions, and Units",
+      "skill": "Ratios, rates, proportional relationships, and units",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_17",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -491,16 +488,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Linear Functions",
+      "skill": "Linear functions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlD_Math_M1_Q17_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Nonlinear Functions",
-    "difficulty": "null",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_18",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -528,19 +524,19 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Nonlinear Functions",
+      "skill": "Nonlinear functions",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right Triangles and Trigonometry",
-    "difficulty": "null",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_19",
     "testName": "November 2024 International Form D SAT Math Module 1",
-    "text": "What is the value of sin 18\u03c0?",
+    "text": "What is the value of sin 18π?",
     "choices": [
       {
         "id": "A",
@@ -564,15 +560,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right Triangles and Trigonometry",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_20",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -600,36 +596,35 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_IntlD_Math_M1_Q20_1.png"
+    }
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of Linear Equations",
-    "difficulty": "null",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_21",
     "testName": "November 2024 International Form D SAT Math Module 1",
-    "text": "$\\frac{1}{9}x-\\frac{3r}{7}y=34$\nOne of the equations in a system of two linear equations is given, where $\u03b3$ is a nonzero constant. The system has no solution. If the other equation in the system is graphed in the $xy$ -plane, what is the slope of the graph?",
+    "text": "$\\frac{1}{9}x-\\frac{3r}{7}y=34$\nOne of the equations in a system of two linear equations is given, where $γ$ is a nonzero constant. The system has no solution. If the other equation in the system is graphed in the $xy$ -plane, what is the slope of the graph?",
     "choices": [
       {
         "id": "A",
-        "text": "$-\\frac{27\u03b3}{7}$"
+        "text": "$-\\frac{27γ}{7}$"
       },
       {
         "id": "B",
-        "text": "$-\\frac{27}{7\u03b3}$"
+        "text": "$-\\frac{27}{7γ}$"
       },
       {
         "id": "C",
-        "text": "$\\frac{7\u03b3}{27}$"
+        "text": "$\\frac{7γ}{27}$"
       },
       {
         "id": "D",
-        "text": "$\\frac{7}{27\u03b3}$"
+        "text": "$\\frac{7}{27γ}$"
       }
     ],
     "correctAnswer": "D",
@@ -637,15 +632,15 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Algebra",
-      "skill": "Systems of Linear Equations",
+      "skill": "Systems of two linear equations in two variables",
       "confidence": "high"
     }
   },
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_22",
     "testName": "November 2024 International Form D SAT Math Module 1",
@@ -673,7 +668,7 @@ export const questions: Question[] = [
     "category": {
       "subject": "Math",
       "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "skill": "Equivalent expressions",
       "confidence": "high"
     }
   }

@@ -1,5 +1,5 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,14 +12,19 @@ import { Loader2 } from "lucide-react";
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [loading, setLoading] = useState(false);
-  const { signInWithGoogle, signUpWithEmailPassword } = useAuth();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { signInWithGoogle, signUpWithEmailPassword, user, loading: authLoading } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
+  // Redirect once auth resolves — handles both popup and redirect flows.
+  useEffect(() => {
+    if (!authLoading && user) navigate("/");
+  }, [user, authLoading, navigate]);
+
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
+    setIsSubmitting(true);
     try {
       await signUpWithEmailPassword(email, password);
       
@@ -35,13 +40,14 @@ const Signup = () => {
         description: error.message,
       });
     } finally {
-      setLoading(false);
+      setIsSubmitting(false);
     }
   };
 
   const handleGoogleLogin = async () => {
     try {
       await signInWithGoogle();
+      navigate("/");
     } catch (error: any) {
       toast({
         variant: "destructive",
@@ -102,8 +108,8 @@ const Signup = () => {
                   required
                 />
               </div>
-              <Button type="submit" className="w-full" disabled={loading}>
-                {loading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+              <Button type="submit" className="w-full" disabled={isSubmitting || authLoading}>
+                {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 Create account
               </Button>
             </form>

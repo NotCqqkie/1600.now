@@ -11,7 +11,9 @@ import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
 import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet";
+import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { cn, renderMixedContent } from "@/lib/utils";
+import { useUserProgress } from "@/hooks/useUserProgress";
 import { Bookmark, Check, ChevronLeft, ChevronRight, Eye, EyeOff, Minimize2, Maximize2, Pause, Play, Strikethrough, Rows3, Columns3 } from "lucide-react";
 import {
   DropdownMenu,
@@ -69,6 +71,8 @@ const BankQuestion = () => {
   const storagePrefix = subject ? `bank-${subject}` : "bank";
   const questionKey = `${storagePrefix}-${question?.id || questionNumber}`;
   const strikeoutId = (subject ? SUBJECT_BASE_ID[subject] : 400000) + (question?.id || 0);
+
+  const { addAttempt } = useUserProgress();
 
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
   const [freeResponseAnswer, setFreeResponseAnswer] = useState<string>("");
@@ -292,6 +296,12 @@ const BankQuestion = () => {
       setCheckButtonState("incorrect");
       localStorage.setItem(`${questionKey}-status`, "incorrect");
     }
+
+    // Track in useUserProgress (powers the Profile statistics page).
+    // Only record the first attempt per session to avoid double-counting.
+    if (newAttempts === 1 || !Object.values(checkedAnswers).some(Boolean)) {
+      addAttempt(questionKey, isCorrect ? "correct" : "incorrect", elapsedSeconds, userAnswer);
+    }
   };
 
   const hasSelection = question?.type === "multiple-choice" ? Boolean(selectedAnswer) : Boolean(freeResponseAnswer);
@@ -500,10 +510,11 @@ const BankQuestion = () => {
                   <div className="space-y-2">
                     {question.questionImages.map((img, idx) => (
                       <div key={idx} className="w-full flex justify-center">
-                        <img
+                        <TransparentAwareImage
                           src={img.src}
                           alt={img.alt || `Question image ${idx + 1}`}
                           className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
+                          wrapperClassName="max-w-full"
                           loading="lazy"
                         />
                       </div>
@@ -652,10 +663,11 @@ const BankQuestion = () => {
                   <div className="space-y-2">
                     {question.questionImages.map((img, idx) => (
                       <div key={idx} className="w-full flex justify-center">
-                        <img
+                        <TransparentAwareImage
                           src={img.src}
                           alt={img.alt || `Question image ${idx + 1}`}
                           className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
+                          wrapperClassName="max-w-full"
                           loading="lazy"
                         />
                       </div>

@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_1",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs with other river deltas, the Shatt al-Arab River delta is ______: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Persian Gulf.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAs with other river deltas, the Shatt al-Arab River delta is ______: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Persian Gulf.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_2",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nLucian of Samosata (modern-day Turkey) was a second-century satirist who mostly published critiques of philosophers of the time. His work *True History*, however, is ______: featuring tropes that are hallmarks of present-day science fiction (e.g., space travel, interplanetary conflict), it is regarded by some scholars as the earliest known work in the genre.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nLucian of Samosata (modern-day Turkey) was a second-century satirist who mostly published critiques of philosophers of the time. His work *True History*, however, is ______: featuring tropes that are hallmarks of present-day science fiction (e.g., space travel, interplanetary conflict), it is regarded by some scholars as the earliest known work in the genre.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_3",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe familial structure of the black swan (*Cygnus atratus*) shows tremendous ______: breeding pairs with demonstrated success in rearing cygnets (young swans) have been observed to foster those of less successful pairs, and while rearing by female-male pairs is most common, male-male pairs sometimes rear cygnets too, achieving a significantly higher rate of survival to adulthood than female-male pairs.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe familial structure of the black swan (*Cygnus atratus*) shows tremendous ______: breeding pairs with demonstrated success in rearing cygnets (young swans) have been observed to foster those of less successful pairs, and while rearing by female-male pairs is most common, male-male pairs sometimes rear cygnets too, achieving a significantly higher rate of survival to adulthood than female-male pairs.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_4",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice best states the main purpose of the text?\nFounded in Long Beach, California, in 1996, the Museum of Latin American Art is dedicated to modern and contemporary art by Latin American artists and Latino artists in the United States. Since its founding, it has acquired more than 1,300 objects for its permanent collection. More recently founded US-based institutions devoted to Latino cultures include the National Hispanic Cultural Center. Located in Albuquerque, it focuses on the literature, art, and cultures of Latin America as well as of Latino communities in the United States.\n\nWhich choice best states the main purpose of the text?",
+    "text": "Which choice best states the main purpose of the text?\nFounded in Long Beach, California, in 1996, the Museum of Latin American Art is dedicated to modern and contemporary art by Latin American artists and Latino artists in the United States. Since its founding, it has acquired more than 1,300 objects for its permanent collection. More recently founded US-based institutions devoted to Latino cultures include the National Hispanic Cultural Center. Located in Albuquerque, it focuses on the literature, art, and cultures of Latin America as well as of Latino communities in the United States.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_5",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice best describes the overall structure of the text?\nPaintings by the Florida Highwaymen\u2014an informal collective of prolific landscape artists active in Florida during the 1950s and '60s\u2014are recognizable by their reiteration of the same general compositional structures and subjects: breaking waves and backcountry pines, to name two. But there was room for individuation: Sam Newton's *Tangerine Sky*, for example, may resemble other Highwaymen paintings at first glance, but his works stand out for their more realistic and less impressionistic qualities.\n\nWhich choice best describes the overall structure of the text?",
+    "text": "Which choice best describes the overall structure of the text?\nPaintings by the Florida Highwaymen—an informal collective of prolific landscape artists active in Florida during the 1950s and '60s—are recognizable by their reiteration of the same general compositional structures and subjects: breaking waves and backcountry pines, to name two. But there was room for individuation: Sam Newton's *Tangerine Sky*, for example, may resemble other Highwaymen paintings at first glance, but his works stand out for their more realistic and less impressionistic qualities.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -183,13 +183,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear Equations and Systems",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_6",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Based on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.'s research, as presented in Text 1?\nText 1\nHycean planets are a class of exoplanets (planets outside our solar system) with oceans of liquid water\u2014critical to supporting life\u2014and atmospheres rich in hydrogen. Computer models have determined that for potential hycean planets, the range of the habitable zone (HZ), the distance from a star that allows a planet to retain liquid water on its surface, begins at about 1 astronomical unit (AU). In 2021, Nikku Madhusudhan et al. identified K2-18 b as a hycean candidate, noting that the planet is located right on the inner edge of the HZ.\nText 2\nIn a 2023 paper, Shang-Min Tsai et al. claimed that the hydrogen-rich atmospheres of K2-18 b and other hycean candidates admit wavelengths of light that cause elevated surface temperatures and increased water evaporation. Unlike earlier assessments, Tsai et al.'s calculations therefore placed the inner edge for these planets' HZ as far out as 3.85 AU.\n\nBased on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.'s research, as presented in Text 1?",
+    "text": "Based on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.'s research, as presented in Text 1?\nText 1\nHycean planets are a class of exoplanets (planets outside our solar system) with oceans of liquid water—critical to supporting life—and atmospheres rich in hydrogen. Computer models have determined that for potential hycean planets, the range of the habitable zone (HZ), the distance from a star that allows a planet to retain liquid water on its surface, begins at about 1 astronomical unit (AU). In 2021, Nikku Madhusudhan et al. identified K2-18 b as a hycean candidate, noting that the planet is located right on the inner edge of the HZ.\nText 2\nIn a 2023 paper, Shang-Min Tsai et al. claimed that the hydrogen-rich atmospheres of K2-18 b and other hycean candidates admit wavelengths of light that cause elevated surface temperatures and increased water evaporation. Unlike earlier assessments, Tsai et al.'s calculations therefore placed the inner edge for these planets' HZ as far out as 3.85 AU.",
     "choices": [
       {
         "id": "A",
@@ -211,57 +211,57 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Nonlinear Equations and Systems",
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Cross-Text Connections",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_7",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Information in the text best supports which statement about the design of the house in Calle Pedro Loza?\nMexican architect Luis Barrag\u00e1n's prolific career, which spanned the 1920s to the 1980s, evolved through distinct phases. After traveling to the United States and Europe in the early 1930s and immersing himself in a broader architectural discourse, Barrag\u00e1n began incorporating principles derived from functionalism and modernism in his work, as seen in the Pizarro Su\u00e1rez House, whose unadorned geometric forms contrast with his earlier projects in Guadalajara, such as the house in Calle Pedro Loza, which evince the aesthetics of traditional Mediterranean and Mexican styles.\n\nInformation in the text best supports which statement about the design of the house in Calle Pedro Loza?",
+    "text": "Information in the text best supports which statement about the design of the house in Calle Pedro Loza?\nMexican architect Luis Barragán's prolific career, which spanned the 1920s to the 1980s, evolved through distinct phases. After traveling to the United States and Europe in the early 1930s and immersing himself in a broader architectural discourse, Barragán began incorporating principles derived from functionalism and modernism in his work, as seen in the Pizarro Suárez House, whose unadorned geometric forms contrast with his earlier projects in Guadalajara, such as the house in Calle Pedro Loza, which evince the aesthetics of traditional Mediterranean and Mexican styles.",
     "choices": [
       {
         "id": "A",
-        "text": "It represents a transitional moment between the early and late phases of Barrag\u00e1n's development."
+        "text": "It represents a transitional moment between the early and late phases of Barragán's development."
       },
       {
         "id": "B",
-        "text": "It reflects an approach to ornamentation and shape that Barrag\u00e1n later stopped using."
+        "text": "It reflects an approach to ornamentation and shape that Barragán later stopped using."
       },
       {
         "id": "C",
-        "text": "It displays the effects of Barrag\u00e1n's exposure to international architectural trends in the 1930s."
+        "text": "It displays the effects of Barragán's exposure to international architectural trends in the 1930s."
       },
       {
         "id": "D",
-        "text": "It is characteristic of the Guadalajaran architecture that influenced Barrag\u00e1n throughout his career."
+        "text": "It is characteristic of the Guadalajaran architecture that influenced Barragán throughout his career."
       }
     ],
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_8",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which finding, if true, would most directly illustrate the researchers' finding?\nNorfolk, Virginia, has installed engineered structures along 56% of its shoreline to protect infrastructure from wave erosion and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures\u2014riprap and bulkheads\u2014Diann Prosser et al. surveyed waterbird communities consisting of the osprey, the common tern, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (IWCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.\n\nWhich finding, if true, would most directly illustrate the researchers' finding?",
+    "text": "Which finding, if true, would most directly illustrate the researchers' finding?\nNorfolk, Virginia, has installed engineered structures along 56% of its shoreline to protect infrastructure from wave erosion and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures—riprap and bulkheads—Diann Prosser et al. surveyed waterbird communities consisting of the osprey, the common tern, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (IWCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.",
     "choices": [
       {
         "id": "A",
@@ -283,9 +283,9 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_9",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which statement, if true, would account for data shown in the graph and would illustrate the point made by the researchers?\nChesapeake Bay seagrass meadows constitute crucial habitats for many aquatic species. Historically, eelgrass has been predominant, but widgeon grass is proving better suited to recent increases in sea temperature, tolerating heat better and growing faster than eelgrass does. Although the increase in widgeon grass has been associated with a substantial increase in total seagrass coverage in the bay, researchers caution that the latter change does not necessarily make the seagrass ecosystem as a whole more resilient to environmental shocks.\n\nWhich statement, if true, would account for data shown in the graph and would illustrate the point made by the researchers?",
+    "text": "Which statement, if true, would account for data shown in the graph and would illustrate the point made by the researchers?\nChesapeake Bay seagrass meadows constitute crucial habitats for many aquatic species. Historically, eelgrass has been predominant, but widgeon grass is proving better suited to recent increases in sea temperature, tolerating heat better and growing faster than eelgrass does. Although the increase in widgeon grass has been associated with a substantial increase in total seagrass coverage in the bay, researchers caution that the latter change does not necessarily make the seagrass ecosystem as a whole more resilient to environmental shocks.",
     "choices": [
       {
         "id": "A",
@@ -319,22 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlC_Eng_M2_Q9_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_10",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice most effectively uses data from the table to complete the example?\nSome studies of migrating animals measure how far the animals travel in a year by fitting individuals with GPS tracking collars. Other studies track annual round-trip distance (RTD), which is equal to double the distance separating the two habitats a population migrates between each year. A researcher argues that since GPS records all of an animal's movements, using the GPS method to track a population would result in significantly higher recorded travel distances than using the RTD method would. For example, it's very likely that the distance reported for the ______\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "text": "Which choice most effectively uses data from the table to complete the example?\nSome studies of migrating animals measure how far the animals travel in a year by fitting individuals with GPS tracking collars. Other studies track annual round-trip distance (RTD), which is equal to double the distance separating the two habitats a population migrates between each year. A researcher argues that since GPS records all of an animal's movements, using the GPS method to track a population would result in significantly higher recorded travel distances than using the RTD method would. For example, it's very likely that the distance reported for the ______",
     "choices": [
       {
         "id": "A",
@@ -356,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Mar_25_IntlC_Eng_M2_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_11",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which finding, if true, would most directly support the text's claim about wireless communication devices?\nPiezoelectric harvesters convert kinetic energy (resonance) to electrical energy, precluding the need for external electrical sources. The vibration of a spacecraft, for example, can provide sufficient energy to power many of its sensors piezoelectrically. A newly designed piezoelectric harvester incorporating a highly conductive carbon-fiber-reinforced polymer (CFRP) electrode has been shown to provide steady energy loads during resonance, an absolute prerequisite for wireless communication devices to be powered piezoelectrically.\n\nWhich finding, if true, would most directly support the text's claim about wireless communication devices?",
+    "text": "Which finding, if true, would most directly support the text's claim about wireless communication devices?\nPiezoelectric harvesters convert kinetic energy (resonance) to electrical energy, precluding the need for external electrical sources. The vibration of a spacecraft, for example, can provide sufficient energy to power many of its sensors piezoelectrically. A newly designed piezoelectric harvester incorporating a highly conductive carbon-fiber-reinforced polymer (CFRP) electrode has been shown to provide steady energy loads during resonance, an absolute prerequisite for wireless communication devices to be powered piezoelectrically.",
     "choices": [
       {
         "id": "A",
@@ -393,7 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -403,11 +401,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_12",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nConsumers increasingly expect that goods they purchase online will be delivered rapidly, even as soon as the day of purchase. Although efficiencies in long-distance transport of parcels have greatly improved delivery times, last-mile logistics (the final step in delivery to consumers) present a bottleneck for delivery companies. Time pressure resulting from consumer expectations is not the only challenge; other obstacles, such as the increasing congestion of roadways, persist. While innovations to mitigate these challenges have been emerging\u2014the use of aerial drones, for instance\u2014success has been constrained due to the additional complications that arise (e.g., a lack of suitable drone landing sites in residential areas). Consequently, ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nConsumers increasingly expect that goods they purchase online will be delivered rapidly, even as soon as the day of purchase. Although efficiencies in long-distance transport of parcels have greatly improved delivery times, last-mile logistics (the final step in delivery to consumers) present a bottleneck for delivery companies. Time pressure resulting from consumer expectations is not the only challenge; other obstacles, such as the increasing congestion of roadways, persist. While innovations to mitigate these challenges have been emerging—the use of aerial drones, for instance—success has been constrained due to the additional complications that arise (e.g., a lack of suitable drone landing sites in residential areas). Consequently, ______",
     "choices": [
       {
         "id": "A",
@@ -429,7 +427,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -439,11 +437,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_13",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nScientists looking for signs of ancient life in Asia have found many examples of fossilized hominins, including in a geological formation at the Minatogawa Limestone Quarry. However, to find even older specimens like early multicellular organisms from the Ediacaran period, scientists must look elsewhere, such as in the Ediacaran geological formation at Mistaken Point in North America, because ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nScientists looking for signs of ancient life in Asia have found many examples of fossilized hominins, including in a geological formation at the Minatogawa Limestone Quarry. However, to find even older specimens like early multicellular organisms from the Ediacaran period, scientists must look elsewhere, such as in the Ediacaran geological formation at Mistaken Point in North America, because ______",
     "choices": [
       {
         "id": "A",
@@ -465,7 +463,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -475,11 +473,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_14",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nMicrobial fuel cells (MFCs) capitalize on the ability of some species of bacteria to metabolize metal, liberating electrons. The bacteria form a dense biofilm on the surface of an electron-collecting anode, but moving the electrons from the bacterial cytoplasm to an external electrode requires that the electrons pass through a series of inefficient oxidation-reduction (redox) reactions. Accordingly, MFC power output rarely exceeds a density of 0.30 milliwatts per square centimeter (mW/cm\u00b2). In an experiment, researchers added silver nanoparticles to carbon paper covering the anode in an MFC. The resulting power density was 0.66 mW/cm\u00b2. Since metals such as silver exhibit high electrical conductivity, the researchers hypothesized that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nMicrobial fuel cells (MFCs) capitalize on the ability of some species of bacteria to metabolize metal, liberating electrons. The bacteria form a dense biofilm on the surface of an electron-collecting anode, but moving the electrons from the bacterial cytoplasm to an external electrode requires that the electrons pass through a series of inefficient oxidation-reduction (redox) reactions. Accordingly, MFC power output rarely exceeds a density of 0.30 milliwatts per square centimeter (mW/cm²). In an experiment, researchers added silver nanoparticles to carbon paper covering the anode in an MFC. The resulting power density was 0.66 mW/cm². Since metals such as silver exhibit high electrical conductivity, the researchers hypothesized that ______",
     "choices": [
       {
         "id": "A",
@@ -501,7 +499,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -511,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_15",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice most logically completes the text?\nThe ratio of methane to other atmospheric constituents\u2014represented by a measure called the methane mole fraction\u2014influences a variety of meteorological phenomena, notably precipitation and humidity. For Titan, Saturn's largest moon, the observational data that exist are too sparse and discrepant to fully constrain the range of the methane mole fraction at various atmospheric levels. Juan Lora and colleagues point out that outputs of the IPSL atmospheric model of Titan, which track closely to observations in some respects, reflect how the model's developers responded to this challenge: by prescribing a uniform methane mole fraction for the lowest level of the atmosphere. It is therefore important to note that ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nThe ratio of methane to other atmospheric constituents—represented by a measure called the methane mole fraction—influences a variety of meteorological phenomena, notably precipitation and humidity. For Titan, Saturn's largest moon, the observational data that exist are too sparse and discrepant to fully constrain the range of the methane mole fraction at various atmospheric levels. Juan Lora and colleagues point out that outputs of the IPSL atmospheric model of Titan, which track closely to observations in some respects, reflect how the model's developers responded to this challenge: by prescribing a uniform methane mole fraction for the lowest level of the atmosphere. It is therefore important to note that ______",
     "choices": [
       {
         "id": "A",
@@ -537,7 +535,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -546,12 +544,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_16",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEpic poetry is a literary genre characterized by lengthy narratives that emphasize the heroic or divine. *The Argonautica*, an epic poem of Greek origin, dates back to the ______ the poem's heroic narrative still captivates modern readers.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEpic poetry is a literary genre characterized by lengthy narratives that emphasize the heroic or divine. *The Argonautica*, an epic poem of Greek origin, dates back to the ______ the poem's heroic narrative still captivates modern readers.",
     "choices": [
       {
         "id": "A",
@@ -573,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_17",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nKizomba, a genre of dance that originated in Angola, has become an international ______ 2022, the Indian dance duo known as Elvis and Namrata defeated performers from around the world to win the annual Olympiads of Kizomba competition held in Paris, France, becoming the first ever Asian winners.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nKizomba, a genre of dance that originated in Angola, has become an international ______ 2022, the Indian dance duo known as Elvis and Namrata defeated performers from around the world to win the annual Olympiads of Kizomba competition held in Paris, France, becoming the first ever Asian winners.",
     "choices": [
       {
         "id": "A",
@@ -609,9 +607,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -619,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_18",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Austronesian language family comprises some 1,200 languages\u2014including the ______ Tetum and Fijian, which are spoken by 800,000 and 640,000 speakers, respectively\u2014and accounts for one-fifth of the world's languages, making it of keen interest to linguists like Diane Massam.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Austronesian language family comprises some 1,200 languages—including the ______ Tetum and Fijian, which are spoken by 800,000 and 640,000 speakers, respectively—and accounts for one-fifth of the world's languages, making it of keen interest to linguists like Diane Massam.",
     "choices": [
       {
         "id": "A",
@@ -645,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -654,12 +652,12 @@ export const questions: Question[] = [
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_19",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn addition to being a celebrated writer, musician, and educator, Zitk\u00e1la-\u0160\u00e1 (Yankton Dakota) was the cofounder of the National Council of American ______ advocated for Native American civil rights throughout the 1920s and 1930s.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn addition to being a celebrated writer, musician, and educator, Zitkála-Šá (Yankton Dakota) was the cofounder of the National Council of American ______ advocated for Native American civil rights throughout the 1920s and 1930s.",
     "choices": [
       {
         "id": "A",
@@ -681,9 +679,9 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
-      "skill": "Form, Structure, and Sense",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
@@ -691,11 +689,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_20",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMitochondrial genomes reproduce asexually, which should over time result in an accumulation of harmful mutations and a decline in mitochondrial functionality. However, nuclear genes are hypothesized to coevolve with the rate of mitochondrial decline, eliminating mutational erosion. Such a compensatory measure ______ the organelle's decline, unlike enzyme-stabilizing accessory proteins, offers an evolutionary explanation of mitochondrial reproduction.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMitochondrial genomes reproduce asexually, which should over time result in an accumulation of harmful mutations and a decline in mitochondrial functionality. However, nuclear genes are hypothesized to coevolve with the rate of mitochondrial decline, eliminating mutational erosion. Such a compensatory measure ______ the organelle's decline, unlike enzyme-stabilizing accessory proteins, offers an evolutionary explanation of mitochondrial reproduction.",
     "choices": [
       {
         "id": "A",
@@ -717,7 +715,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -727,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_21",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a US national election, one might expect major-party campaigns to focus on the most populous states. However, if polls and past voting data suggest that the outcome in a given state is a foregone conclusion, a campaign will not invest its resources there. Ultimately, a state's voting record and polling data, not its population size, ______ its importance to campaigns.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a US national election, one might expect major-party campaigns to focus on the most populous states. However, if polls and past voting data suggest that the outcome in a given state is a foregone conclusion, a campaign will not invest its resources there. Ultimately, a state's voting record and polling data, not its population size, ______ its importance to campaigns.",
     "choices": [
       {
         "id": "A",
@@ -753,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -763,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_22",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nIn an ekphrastic poem, a poet explores a work of visual art, such as a drawing, sculpture, or painting. Robert Hayden's 1994 poem \"Monet's Waterlilies,\" for example, meditates on Claude Monet's 1899 painting *Water Lilies*; Sasha Pimentel's 2017 poem \"The Kiss,\" ______ takes a painting as its subject: Gustav Klimt's 1908 work *The Kiss*.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn an ekphrastic poem, a poet explores a work of visual art, such as a drawing, sculpture, or painting. Robert Hayden's 1994 poem \"Monet's Waterlilies,\" for example, meditates on Claude Monet's 1899 painting *Water Lilies*; Sasha Pimentel's 2017 poem \"The Kiss,\" ______ takes a painting as its subject: Gustav Klimt's 1908 work *The Kiss*.",
     "choices": [
       {
         "id": "A",
@@ -789,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -799,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_23",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "Which choice completes the text with the most logical transition?\nSoil polluted with iron (a heavy metal) is harmful to many plants and animals, but the plant species *Limnocharis flava*, or yellow velvetleaf, not only thrives in such conditions but also helps remediate them. As a metal hyperaccumulator, *Limnocharis flava* absorbs a large amount of iron and stores it safely in its roots and shoots; ______ iron concentrations in the soil decrease.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nSoil polluted with iron (a heavy metal) is harmful to many plants and animals, but the plant species *Limnocharis flava*, or yellow velvetleaf, not only thrives in such conditions but also helps remediate them. As a metal hyperaccumulator, *Limnocharis flava* absorbs a large amount of iron and stores it safely in its roots and shoots; ______ iron concentrations in the soil decrease.",
     "choices": [
       {
         "id": "A",
@@ -825,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -835,11 +833,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_24",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "The student wants to provide an example of a country that uses the word \"dollar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The English word \"dollar\" comes from the German word \"thaler.\"\n\u2022 Today, more than twenty different national currencies are referred to as \"dollars.\"\n\u2022 Kiribati's currency is known as the Kiribati dollar.\n\nThe student wants to provide an example of a country that uses the word \"dollar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of a country that uses the word \"dollar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The English word \"dollar\" comes from the German word \"thaler.\"\n• Today, more than twenty different national currencies are referred to as \"dollars.\"\n• Kiribati's currency is known as the Kiribati dollar.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_25",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "The student wants to present historical analysis to an audience unfamiliar with the concept. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Stylistic analysis and historical analysis are two approaches to art criticism.\n\u2022 Stylistic analysis examines how an artwork's visual features contribute to its overall style.\n\u2022 Such an analysis of Claude Monet's *Water Lilies* might consider how the painting's loose brushwork represents an impressionist style.\n\u2022 Historical analysis considers the historical context in which a work was created.\n\u2022 Such an analysis of Diego Vel\u00e1zquez's *Las Meninas* might consider how the painting's depiction of the artist with King Philip IV symbolizes art's historical ties to power.\n\nThe student wants to present historical analysis to an audience unfamiliar with the concept. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to present historical analysis to an audience unfamiliar with the concept. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Stylistic analysis and historical analysis are two approaches to art criticism.\n• Stylistic analysis examines how an artwork's visual features contribute to its overall style.\n• Such an analysis of Claude Monet's *Water Lilies* might consider how the painting's loose brushwork represents an impressionist style.\n• Historical analysis considers the historical context in which a work was created.\n• Such an analysis of Diego Velázquez's *Las Meninas* might consider how the painting's depiction of the artist with King Philip IV symbolizes art's historical ties to power.",
     "choices": [
       {
         "id": "A",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_26",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "The student wants to emphasize a difference between carbon nanotubes and graphite. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Carbon can exist in several distinct structural forms called allotropes.\n\u2022 Graphite is a carbon allotrope.\n\u2022 Graphite is composed of stacked graphene sheets.\n\u2022 Each graphene sheet is composed of carbon atoms arranged in a flat honeycomb pattern.\n\u2022 Carbon nanotubes are carbon allotropes.\n\u2022 They are composed of one or more graphene sheets wrapped into a cylindrical shape.\n\nThe student wants to emphasize a difference between carbon nanotubes and graphite. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between carbon nanotubes and graphite. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Carbon can exist in several distinct structural forms called allotropes.\n• Graphite is a carbon allotrope.\n• Graphite is composed of stacked graphene sheets.\n• Each graphene sheet is composed of carbon atoms arranged in a flat honeycomb pattern.\n• Carbon nanotubes are carbon allotropes.\n• They are composed of one or more graphene sheets wrapped into a cylindrical shape.",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "e580c519-9667-4b3b-8a1e-a7bec6eba694_27",
     "testName": "March 2025 International Form C SAT English Module 2",
-    "text": "The student wants to describe the study's research methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 In a 2004 study, researchers Jorge E. L\u00f3pez and C. Vaughan wanted to explore the effects of ingestion by bats on the germination of *Piper sancti-felicis* seeds in Costa Rica.\n\u2022 The team of researchers tested 125 *Piper sancti-felicis* seeds that had been ingested by chestnut short-tailed bats.\n\u2022 Of these, 82 seeds (66%) germinated.\n\u2022 As a control, J.E. L\u00f3pez and C. Vaughan tested 125 *Piper sancti-felicis* seeds that had not been ingested by chestnut short-tailed bats.\n\u2022 Of these, 88 seeds (70%) germinated.\n\nThe student wants to describe the study's research methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to describe the study's research methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• In a 2004 study, researchers Jorge E. López and C. Vaughan wanted to explore the effects of ingestion by bats on the germination of *Piper sancti-felicis* seeds in Costa Rica.\n• The team of researchers tested 125 *Piper sancti-felicis* seeds that had been ingested by chestnut short-tailed bats.\n• Of these, 82 seeds (66%) germinated.\n• As a control, J.E. López and C. Vaughan tested 125 *Piper sancti-felicis* seeds that had not been ingested by chestnut short-tailed bats.\n• Of these, 88 seeds (70%) germinated.",
     "choices": [
       {
         "id": "A",
@@ -955,7 +953,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "J.E. L\u00f3pez and C. Vaughan wanted to explore the effects of chestnut short-tailed bats' ingestion on *Piper sancti-felicis* seed germination."
+        "text": "J.E. López and C. Vaughan wanted to explore the effects of chestnut short-tailed bats' ingestion on *Piper sancti-felicis* seed germination."
       },
       {
         "id": "C",
@@ -963,13 +961,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "Research by J.E. L\u00f3pez and C. Vaughan revealed that 82 of 125\u2014that is, 66%\u2014of the *Piper sancti-felicis* seeds that had been ingested by the bats germinated."
+        "text": "Research by J.E. López and C. Vaughan revealed that 82 of 125—that is, 66%—of the *Piper sancti-felicis* seeds that had been ingested by the bats germinated."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

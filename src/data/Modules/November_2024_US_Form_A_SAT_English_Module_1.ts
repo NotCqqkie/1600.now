@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_1",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough Hawaiian literature is highly heterogeneous in many ways, it is also characterized by considerable thematic ______: scholars have drawn connections linking works by writers such as Mary Kawena Pukui and Gary Pak to the traditional stories of the Kanaka Maoli, the Native Hawaiian people.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAlthough Hawaiian literature is highly heterogeneous in many ways, it is also characterized by considerable thematic ______: scholars have drawn connections linking works by writers such as Mary Kawena Pukui and Gary Pak to the traditional stories of the Kanaka Maoli, the Native Hawaiian people.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_2",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cdrawn\u201d most nearly mean?\nThe following text is from Georgia Douglas Johnson\u2019s 1918 poem \u201cPeace.\u201d I rest me deep within the wood,\n<u>Drawn</u> by its silent call,\nFar from the throbbing crowd of men,\nOn nature\u2019s breast I fall.\n\nAs used in the text, what does the word \u201cdrawn\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “drawn” most nearly mean?\nThe following text is from Georgia Douglas Johnson’s 1918 poem “Peace.” I rest me deep within the wood,\n<u>Drawn</u> by its silent call,\nFar from the throbbing crowd of men,\nOn nature’s breast I fall.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_3",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "As used in the text, what does the word \u201cmanifest\u201d most nearly mean?\nThe following text is from a 1955 translation of Samuel Beckett\u2019s 1951 novel *Molloy* (translated by the author and Patrick Bowles). In the text, Molloy has arrived at the town ramparts, an elevated walkway atop the city walls. And having cleared the ramparts I had to confess the sky was clearing, prior to its winding in the other shroud, night. Yes, the great cloud was ravelling, discovering here and there a pale and dying sky, and the sun, already down, was <u>manifest</u> in the livid tongues of fire darting towards the zenith, falling and darting again, ever more pale and languid, and doomed no sooner lit to be extinguished.\n\nAs used in the text, what does the word \u201cmanifest\u201d most nearly mean?",
+    "text": "As used in the text, what does the word “manifest” most nearly mean?\nThe following text is from a 1955 translation of Samuel Beckett’s 1951 novel *Molloy* (translated by the author and Patrick Bowles). In the text, Molloy has arrived at the town ramparts, an elevated walkway atop the city walls. And having cleared the ramparts I had to confess the sky was clearing, prior to its winding in the other shroud, night. Yes, the great cloud was ravelling, discovering here and there a pale and dying sky, and the sun, already down, was <u>manifest</u> in the livid tongues of fire darting towards the zenith, falling and darting again, ever more pale and languid, and doomed no sooner lit to be extinguished.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -113,11 +113,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_4",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhen minor planets are discovered, each is given a unique identification number, and some may be given a unique name, as in the case of 1083 Salvia, which was named after the plant genus that includes sages. Under current astronomical conventions, it is ______ for the discoverers to name their discoveries, but they are not required to do so; whether to assign a minor planet a name is entirely the choice of whoever discovers it.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nWhen minor planets are discovered, each is given a unique identification number, and some may be given a unique name, as in the case of 1083 Salvia, which was named after the plant genus that includes sages. Under current astronomical conventions, it is ______ for the discoverers to name their discoveries, but they are not required to do so; whether to assign a minor planet a name is entirely the choice of whoever discovers it.",
     "choices": [
       {
         "id": "A",
@@ -139,7 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -149,11 +149,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_5",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Jos\u00e9 Rizal's 1891 novel *The Reign of Greed* (translated by Charles Derbyshire in 1912). A lady accompanied by her husband entered at that moment and took her place in one of the two vacant boxes. She had the air of a queen and gazed disdainfully at the whole house, as if to say, <u>\u201cI\u2019ve come later than all of you, you crowd of upstarts and provincials, I\u2019ve come later than you!\u201d</u> There are persons who go to the theater like the contestants in a mule-race: the last one in, wins, and we know very sensible men who would ascend the scaffold rather than enter a theater before the first act.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from José Rizal's 1891 novel *The Reign of Greed* (translated by Charles Derbyshire in 1912). A lady accompanied by her husband entered at that moment and took her place in one of the two vacant boxes. She had the air of a queen and gazed disdainfully at the whole house, as if to say, <u>“I’ve come later than all of you, you crowd of upstarts and provincials, I’ve come later than you!”</u> There are persons who go to the theater like the contestants in a mule-race: the last one in, wins, and we know very sensible men who would ascend the scaffold rather than enter a theater before the first act.",
     "choices": [
       {
         "id": "A",
@@ -175,7 +175,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,11 +185,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_6",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\n*Master and Commander*, first published in 1969, is a novel in Patrick O\u2019Brian\u2019s Aubrey/Maturin series, which includes twenty books plus an unfinished fragment of a twenty-first. <u>Like the rest of the books in the series, *Master and Commander* has a rather abrupt ending, but the following book, *Post Captain*, picks up neatly where *Master and Commander* leaves off.</u> Thus, the sudden ending is only an issue if one considers the books as independent texts\u2014the Aubrey/Maturin series is best thought of as a single incredibly long work, similar to other multivolume stories, such as John Galsworthy\u2019s *The Forsyte Saga*.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\n*Master and Commander*, first published in 1969, is a novel in Patrick O’Brian’s Aubrey/Maturin series, which includes twenty books plus an unfinished fragment of a twenty-first. <u>Like the rest of the books in the series, *Master and Commander* has a rather abrupt ending, but the following book, *Post Captain*, picks up neatly where *Master and Commander* leaves off.</u> Thus, the sudden ending is only an issue if one considers the books as independent texts—the Aubrey/Maturin series is best thought of as a single incredibly long work, similar to other multivolume stories, such as John Galsworthy’s *The Forsyte Saga*.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -219,21 +219,21 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_7",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nMexican architect Luis Barrag\u00e1n\u2019s prolific career, which spanned the 1920s to the 1980s, evolved through distinct phases. As epitomized by the Aguilar House in Guadalajara, many of Barrag\u00e1n\u2019s first projects integrated traditional Mexican building techniques into Mediterranean designs. <u>Extensive travels abroad later sparked an engagement with modernist and functionalist aesthetics</u>\u2014styles whose emphasis on utility and whose repudiation of traditional architecture\u2019s more ornamental elements are readily apparent in Barrag\u00e1n\u2019s house in Calle Guadiana.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best describes the function of the underlined portion in the text as a whole?\nMexican architect Luis Barragán’s prolific career, which spanned the 1920s to the 1980s, evolved through distinct phases. As epitomized by the Aguilar House in Guadalajara, many of Barragán’s first projects integrated traditional Mexican building techniques into Mediterranean designs. <u>Extensive travels abroad later sparked an engagement with modernist and functionalist aesthetics</u>—styles whose emphasis on utility and whose repudiation of traditional architecture’s more ornamental elements are readily apparent in Barragán’s house in Calle Guadiana.",
     "choices": [
       {
         "id": "A",
-        "text": "It presents biographical information that accounts for the transition in Barrag\u00e1n\u2019s career that is discussed in the text."
+        "text": "It presents biographical information that accounts for the transition in Barragán’s career that is discussed in the text."
       },
       {
         "id": "B",
-        "text": "It notes why the two architectural projects described in the text constitute major departures from Barrag\u00e1n\u2019s typical style."
+        "text": "It notes why the two architectural projects described in the text constitute major departures from Barragán’s typical style."
       },
       {
         "id": "C",
@@ -241,15 +241,15 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "It explains why the architectural project discussed later in the sentence was highly regarded by Barrag\u00e1n\u2019s contemporaries."
+        "text": "It explains why the architectural project discussed later in the sentence was highly regarded by Barragán’s contemporaries."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Craft and Structure",
-      "skill": "Text Structure and Purpose",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -257,11 +257,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_8",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nMexican textile artist Victoria Villasana weaves stories of triumph, using her unique method of applying colorful yarn to photographs of people. In some works, Villasana focuses on celebrating cultural icons who are people of color, as she does in her depiction of artist Frida Kahlo. However, in other works, Villasana honors ordinary people, as she does in her captivating portrayal of a young girl sitting on a sidewalk. Villasana sees both of these approaches as ways of depicting the power and interconnectedness of all people.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nMexican textile artist Victoria Villasana weaves stories of triumph, using her unique method of applying colorful yarn to photographs of people. In some works, Villasana focuses on celebrating cultural icons who are people of color, as she does in her depiction of artist Frida Kahlo. However, in other works, Villasana honors ordinary people, as she does in her captivating portrayal of a young girl sitting on a sidewalk. Villasana sees both of these approaches as ways of depicting the power and interconnectedness of all people.",
     "choices": [
       {
         "id": "A",
@@ -283,7 +283,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -293,15 +293,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_9",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nWhy do black-footed cats purr but leopards roar? Researchers hypothesize that this difference between the two feline species may be partly due to a U-shaped bone in their throats called the hyoid. Black-footed cats, which are much smaller than leopards, have a rigid hyoid that rumbles when the cat's larynx vibrates, resulting in a purr. By contrast, leopards have a somewhat flexible hyoid, and the bone is attached to the skull with a stretchy ligament that black-footed cats lack. These traits allow leopards and most other species of big cats to produce powerful roars. The same traits may also prevent most big cats from purring.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nWhy do black-footed cats purr but leopards roar? Researchers hypothesize that this difference between the two feline species may be partly due to a U-shaped bone in their throats called the hyoid. Black-footed cats, which are much smaller than leopards, have a rigid hyoid that rumbles when the cat's larynx vibrates, resulting in a purr. By contrast, leopards have a somewhat flexible hyoid, and the bone is attached to the skull with a stretchy ligament that black-footed cats lack. These traits allow leopards and most other species of big cats to produce powerful roars. The same traits may also prevent most big cats from purring.",
     "choices": [
       {
         "id": "A",
-        "text": "Both black-footed cats and leopards have U-shaped hyoid bones, but black-footed cats\u2019 hyoids are rigid whereas leopards' hyoids are flexible."
+        "text": "Both black-footed cats and leopards have U-shaped hyoid bones, but black-footed cats’ hyoids are rigid whereas leopards' hyoids are flexible."
       },
       {
         "id": "B",
@@ -319,7 +319,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -329,11 +329,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Central Ideas and Details",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_10",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice best states the main idea of the text?\nIn their meta-analysis of research on advergames (video games developed to promote products or services), Zeph M.C. van Berlo et al., confirm that such games, though they can elicit player interest, may not facilitate subsequent recall of product and brand information. This phenomenon can be explained by the finite nature of cognitive capacity as it is articulated in Annie Lang's limited capacity model of motivated mediated message processing. In this case, players\u2019 cognitive resources are directed foremost toward the advergame's mechanics, leaving little or no capacity for encoding and storing the information the advertiser intends to be salient.\n\nWhich choice best states the main idea of the text?",
+    "text": "Which choice best states the main idea of the text?\nIn their meta-analysis of research on advergames (video games developed to promote products or services), Zeph M.C. van Berlo et al., confirm that such games, though they can elicit player interest, may not facilitate subsequent recall of product and brand information. This phenomenon can be explained by the finite nature of cognitive capacity as it is articulated in Annie Lang's limited capacity model of motivated mediated message processing. In this case, players’ cognitive resources are directed foremost toward the advergame's mechanics, leaving little or no capacity for encoding and storing the information the advertiser intends to be salient.",
     "choices": [
       {
         "id": "A",
@@ -355,7 +355,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Central Ideas and Details",
       "confidence": "high"
@@ -363,13 +363,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_11",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is writing a research paper on the global rise of the home video game industry during the 1970s and 1980s. The student wants to know the approximate number of units sold worldwide of the MSX, manufactured by ASCII Corp. The student finds that the number sold was approximately ______.\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is writing a research paper on the global rise of the home video game industry during the 1970s and 1980s. The student wants to know the approximate number of units sold worldwide of the MSX, manufactured by ASCII Corp. The student finds that the number sold was approximately ______.",
     "choices": [
       {
         "id": "A",
@@ -391,22 +391,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
+      "subject": "English",
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
       "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_USA_Eng_M1_Q11_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_12",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is researching copper mining. The student learns that the total amount of copper mined worldwide increased from 10.00 million metric tons in 1995 to 20.60 million metric tons in 2020. Considering a table with information about four countries, the student notes that the global increase in mined copper occurred even though ______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "text": "Which choice most effectively uses data from the table to complete the statement?\nA student is researching copper mining. The student learns that the total amount of copper mined worldwide increased from 10.00 million metric tons in 1995 to 20.60 million metric tons in 2020. Considering a table with information about four countries, the student notes that the global increase in mined copper occurred even though ______",
     "choices": [
       {
         "id": "A",
@@ -428,58 +427,57 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
-      "confidence": "high"
-    },
-    "image": "/images_labeled/Nov_24_USA_Eng_M1_Q12_1.png"
-  },
-  {
-    "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_13",
-    "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which quotation from *The Age of Innocence* best illustrates the claim?\n*The Age of Innocence* is a 1920 novel by Edith Wharton set in New York City in the 1870s. In the novel, Newland Archer arrives late to an opera performance, which the narrator attributes to Newland\u2019s enjoyment of anticipation: ______\n\nWhich quotation from *The Age of Innocence* best illustrates the claim?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "\u201cTo come to the Opera in a [carriage for hire] was almost as honourable a way of arriving as in one's own carriage.\u201d"
-      },
-      {
-        "id": "B",
-        "text": "\u201c[T]hinking over a pleasure to come often gave [Newland] a subtler satisfaction than its realisation.\u201d"
-      },
-      {
-        "id": "C",
-        "text": "\u201cWhen Newland Archer opened the door at the back of the club box the curtain had just gone up on the garden scene. There was no reason why the young man should not have come earlier, for he had dined at seven, alone with his mother and sister.\u201d"
-      },
-      {
-        "id": "D",
-        "text": "\u201cNo expense had been spared on the setting, which was acknowledged to be very beautiful even by people who shared [Newland's] acquaintance with the Opera houses of Paris and Vienna.\u201d"
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_13",
+    "testName": "November 2024 US Form A SAT English Module 1",
+    "text": "Which quotation from *The Age of Innocence* best illustrates the claim?\n*The Age of Innocence* is a 1920 novel by Edith Wharton set in New York City in the 1870s. In the novel, Newland Archer arrives late to an opera performance, which the narrator attributes to Newland’s enjoyment of anticipation: ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“To come to the Opera in a [carriage for hire] was almost as honourable a way of arriving as in one's own carriage.”"
+      },
+      {
+        "id": "B",
+        "text": "“[T]hinking over a pleasure to come often gave [Newland] a subtler satisfaction than its realisation.”"
+      },
+      {
+        "id": "C",
+        "text": "“When Newland Archer opened the door at the back of the club box the curtain had just gone up on the garden scene. There was no reason why the young man should not have come earlier, for he had dined at seven, alone with his mother and sister.”"
+      },
+      {
+        "id": "D",
+        "text": "“No expense had been spared on the setting, which was acknowledged to be very beautiful even by people who shared [Newland's] acquaintance with the Opera houses of Paris and Vienna.”"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_14",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which finding, if true, would most directly support the researchers\u2019 hypothesis?\nCardiff, Wales, has installed engineered structures\u2014mainly breakwalls\u2014along 87% of its shoreline to protect infrastructure from storm surges and other hazards, a practice known as shoreline hardening. Investigating the impact of such structures on waterbird communities at various sites in the Chesapeake Bay on the US East Coast, Diann Prosser et al. hypothesized that shoreline hardening more negatively affects waterbirds than does land development for uses such as housing or agriculture. To evaluate the responses of local waterbird species, including the osprey, to landscape alterations, the researchers utilized the Index of Waterbird Community Integrity (IWCI), on which a low score corresponds to low community integrity.\n\nWhich finding, if true, would most directly support the researchers\u2019 hypothesis?",
+    "text": "Which finding, if true, would most directly support the researchers’ hypothesis?\nCardiff, Wales, has installed engineered structures—mainly breakwalls—along 87% of its shoreline to protect infrastructure from storm surges and other hazards, a practice known as shoreline hardening. Investigating the impact of such structures on waterbird communities at various sites in the Chesapeake Bay on the US East Coast, Diann Prosser et al. hypothesized that shoreline hardening more negatively affects waterbirds than does land development for uses such as housing or agriculture. To evaluate the responses of local waterbird species, including the osprey, to landscape alterations, the researchers utilized the Index of Waterbird Community Integrity (IWCI), on which a low score corresponds to low community integrity.",
     "choices": [
       {
         "id": "A",
@@ -501,21 +499,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_15",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nAll stainless steel contains varying amounts of iron, carbon, and corrosion\u2014inhibiting chromium. However, *ferritic stainless steel*, often used for cooking utensils, contains a higher percentage of chromium (at least 10.5%) than does *austenitic stainless steel* and a higher concentration of iron, which is responsible for its magnetic properties. Unlike *ferritic stainless steel*, *austenitic stainless steel* has a face-centered cubic crystalline structure resulting from the addition of nickel to the alloy. *Austenitic stainless steel* has two subtypes: the 200 series, often used for washing machines, and the 300 series, which has more nickel than the 200 series and is often used for mining and chemical equipment or compensators. Thus, stainless steel used to manufacture ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nAll stainless steel contains varying amounts of iron, carbon, and corrosion—inhibiting chromium. However, *ferritic stainless steel*, often used for cooking utensils, contains a higher percentage of chromium (at least 10.5%) than does *austenitic stainless steel* and a higher concentration of iron, which is responsible for its magnetic properties. Unlike *ferritic stainless steel*, *austenitic stainless steel* has a face-centered cubic crystalline structure resulting from the addition of nickel to the alloy. *Austenitic stainless steel* has two subtypes: the 200 series, often used for washing machines, and the 300 series, which has more nickel than the 200 series and is often used for mining and chemical equipment or compensators. Thus, stainless steel used to manufacture ______",
     "choices": [
       {
         "id": "A",
@@ -537,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_16",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Los Angeles County, California, bicycle paths like the Rio Hondo bicycle path\u2014which is about 15.6 miles long\u2014have become an increasingly popular means of travel for commuter and recreational trips alike. Moreover, Ernesto ______ has identified bike travel as one possible way to alleviate vehicle congestion, citing the bike friendliness of the area's temperate climate and mostly flat roads.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn Los Angeles County, California, bicycle paths like the Rio Hondo bicycle path—which is about 15.6 miles long—have become an increasingly popular means of travel for commuter and recreational trips alike. Moreover, Ernesto ______ has identified bike travel as one possible way to alleviate vehicle congestion, citing the bike friendliness of the area's temperate climate and mostly flat roads.",
     "choices": [
       {
         "id": "A",
@@ -573,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_17",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBear River High School and Bryce Valley High School are two of several Utah ______ enormous geoglyph of the letters *BR* overlooks Bear River High, while a geoglyph of the letters *BV* overlooks Bryce Valley High.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nBear River High School and Bryce Valley High School are two of several Utah ______ enormous geoglyph of the letters *BR* overlooks Bear River High, while a geoglyph of the letters *BV* overlooks Bryce Valley High.",
     "choices": [
       {
         "id": "A",
@@ -609,21 +607,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_18",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith one in Finland and another in Australia, the observatory sites that form the Super Dual Auroral Radar Network\u2014or SuperDARN, as space physicists like Mark Lester call it\u2014number nearly five ______ across the globe, the radars track ionospheric irregularities and other geospace phenomena.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith one in Finland and another in Australia, the observatory sites that form the Super Dual Auroral Radar Network—or SuperDARN, as space physicists like Mark Lester call it—number nearly five ______ across the globe, the radars track ionospheric irregularities and other geospace phenomena.",
     "choices": [
       {
         "id": "A",
@@ -645,21 +643,21 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_19",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n\u201cAnalyst,\u201d like other dactyls that pair exclusively with one other word (e.g., \u201cfortify\u201d and \u201cmortify\u201d), ______ with \u201cpanelist\u201d to form a closed rhyming pair.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\n“Analyst,” like other dactyls that pair exclusively with one other word (e.g., “fortify” and “mortify”), ______ with “panelist” to form a closed rhyming pair.",
     "choices": [
       {
         "id": "A",
@@ -681,21 +679,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_20",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs disparate as their works may seem, commonalities exist between Antonello da Messina, Italian Renaissance painter of the Venetian ______ Flemish mannerist painter of the Antwerp School; and Jose Guerrero, American abstract painter of the New York School.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAs disparate as their works may seem, commonalities exist between Antonello da Messina, Italian Renaissance painter of the Venetian ______ Flemish mannerist painter of the Antwerp School; and Jose Guerrero, American abstract painter of the New York School.",
     "choices": [
       {
         "id": "A",
@@ -717,21 +715,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_21",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nHelical ______ widely understood to confer stability and efficiency in the locomotion of a variety of microscopic organisms\u2014including bacteria, eukaryotic algae, and ciliates\u2014bestows similar advantages, albeit via different propulsive modes, to larger oceanic macroplanktons, such as salps.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nHelical ______ widely understood to confer stability and efficiency in the locomotion of a variety of microscopic organisms—including bacteria, eukaryotic algae, and ciliates—bestows similar advantages, albeit via different propulsive modes, to larger oceanic macroplanktons, such as salps.",
     "choices": [
       {
         "id": "A",
@@ -753,21 +751,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "subject": "English",
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_22",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nIn 1965, Morrie Turner's comic strip *Wee Pals* became the first serial comic by a Black cartoonist to be syndicated, appearing in papers nationwide. ______ many other strips by Black cartoonists were syndicated, including Charles Boyce's *Compu-Toon* in 1994 and Aaron McGruder's *The Boondocks* in 1996.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nIn 1965, Morrie Turner's comic strip *Wee Pals* became the first serial comic by a Black cartoonist to be syndicated, appearing in papers nationwide. ______ many other strips by Black cartoonists were syndicated, including Charles Boyce's *Compu-Toon* in 1994 and Aaron McGruder's *The Boondocks* in 1996.",
     "choices": [
       {
         "id": "A",
@@ -789,21 +787,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_23",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nThe star Wezen is unvaryingly bright, consistently ranking as one of the brightest stars in the sky (Wezen ranked 36th on a recent list). By contrast, the brightness of the red giant Betelgeuse varies considerably. Indeed, between April and June 2023, Betelgeuse became an astonishing 40% brighter; ______ its ranking rose from 10th to 7th.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nThe star Wezen is unvaryingly bright, consistently ranking as one of the brightest stars in the sky (Wezen ranked 36th on a recent list). By contrast, the brightness of the red giant Betelgeuse varies considerably. Indeed, between April and June 2023, Betelgeuse became an astonishing 40% brighter; ______ its ranking rose from 10th to 7th.",
     "choices": [
       {
         "id": "A",
@@ -825,21 +823,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "skill": "Transitions",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_24",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nGenerally, sleek vehicles are more aerodynamic than bulkier ones. The streamlined nose of the F-4 Phantom II jet, ______ helps it glide through wind with relative ease, while a boxy semitruck encounters more wind resistance, making it less aerodynamic.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nGenerally, sleek vehicles are more aerodynamic than bulkier ones. The streamlined nose of the F-4 Phantom II jet, ______ helps it glide through wind with relative ease, while a boxy semitruck encounters more wind resistance, making it less aerodynamic.",
     "choices": [
       {
         "id": "A",
@@ -861,9 +859,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
-      "skill": "Rhetorical Synthesis",
+      "skill": "Transitions",
       "confidence": "high"
     }
   },
@@ -871,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_25",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "The student wants to explain an advantage of the Oak Tree House dwelling site. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Oak Tree House is an Ancestral Puebloan dwelling site located in southwestern Colorado.\n\u2022 It was built under a rock overhang and inhabited from approximately 1180\u20141210 CE.\n\u2022 The overhanging rock ledges offered protection from heavy rain and snow.\n\u2022 Yucca House is an Ancestral Puebloan dwelling site located in southwestern Colorado.\n\u2022 It was built on relatively flat terrain and inhabited from approximately 1080\u20141275 CE.\n\u2022 This level surface allowed for the construction of large terraced buildings.\n\nThe student wants to explain an advantage of the Oak Tree House dwelling site. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to explain an advantage of the Oak Tree House dwelling site. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Oak Tree House is an Ancestral Puebloan dwelling site located in southwestern Colorado.\n• It was built under a rock overhang and inhabited from approximately 1180—1210 CE.\n• The overhanging rock ledges offered protection from heavy rain and snow.\n• Yucca House is an Ancestral Puebloan dwelling site located in southwestern Colorado.\n• It was built on relatively flat terrain and inhabited from approximately 1080—1275 CE.\n• This level surface allowed for the construction of large terraced buildings.",
     "choices": [
       {
         "id": "A",
@@ -883,7 +881,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Located in southwestern Colorado, Oak Tree House is an Ancestral Puebloan dwelling site that was inhabited from approximately 1180\u20141210 CE."
+        "text": "Located in southwestern Colorado, Oak Tree House is an Ancestral Puebloan dwelling site that was inhabited from approximately 1180—1210 CE."
       },
       {
         "id": "C",
@@ -897,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -907,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_26",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "The student wants to emphasize a similarity between the two artworks. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The Carnegie Prize is an international art competition administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania.\n\u2022 Painter John Lavery of Ireland won a Carnegie Prize gold medal in 1896.\n\u2022 Lavery's winning artwork was a painting entitled *Lady in Brown*.\n\u2022 Sculptor Alexander Calder of the US won a Carnegie Prize gold medal in 1958.\n\u2022 Calder's winning artwork was a sculpture entitled *Mobile: Pittsburgh*.\n\nThe student wants to emphasize a similarity between the two artworks. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a similarity between the two artworks. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Carnegie Prize is an international art competition administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania.\n• Painter John Lavery of Ireland won a Carnegie Prize gold medal in 1896.\n• Lavery's winning artwork was a painting entitled *Lady in Brown*.\n• Sculptor Alexander Calder of the US won a Carnegie Prize gold medal in 1958.\n• Calder's winning artwork was a sculpture entitled *Mobile: Pittsburgh*.",
     "choices": [
       {
         "id": "A",
@@ -933,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -943,11 +941,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_27",
     "testName": "November 2024 US Form A SAT English Module 1",
-    "text": "The student wants to describe the role of refrigerants in freezers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Freezers and other cooling technologies use chemical compounds called refrigerants to absorb heat and release cold air.\n\u2022 When a refrigerant absorbs heat, it undergoes vaporization, changing from a liquid to a gas.\n\u2022 When it cools, it undergoes condensation, changing from a gas to a liquid.\n\u2022 The refrigerant fluoromethane is a hydrofluorocarbon (HFC).\n\u2022 HFCs are composed of the elements hydrogen, fluorine, and carbon.\n\nThe student wants to describe the role of refrigerants in freezers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to describe the role of refrigerants in freezers. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Freezers and other cooling technologies use chemical compounds called refrigerants to absorb heat and release cold air.\n• When a refrigerant absorbs heat, it undergoes vaporization, changing from a liquid to a gas.\n• When it cools, it undergoes condensation, changing from a gas to a liquid.\n• The refrigerant fluoromethane is a hydrofluorocarbon (HFC).\n• HFCs are composed of the elements hydrogen, fluorine, and carbon.",
     "choices": [
       {
         "id": "A",
@@ -969,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"

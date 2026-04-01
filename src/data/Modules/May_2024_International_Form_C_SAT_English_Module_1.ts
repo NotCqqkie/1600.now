@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_1",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDomesticated thousands of years ago in South America, the papaya deviates structurally from the wild plant it is descended from. Maize (corn), another domesticated crop from the Americas, doesn\u2019t closely resemble any wild plant, and genetic research only recently ______ its ancestor to be teosinte grass.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nDomesticated thousands of years ago in South America, the papaya deviates structurally from the wild plant it is descended from. Maize (corn), another domesticated crop from the Americas, doesn’t closely resemble any wild plant, and genetic research only recently ______ its ancestor to be teosinte grass.",
     "choices": [
       {
         "id": "A",
@@ -31,7 +31,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -41,11 +41,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_2",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word?\nRonyoung Kim creatively captures the Korean American immigrant experience in her novel *Clay Walls* by writing about a family from three ______ perspectives. The first section of the novel is from the mother Haesu's perspective, the second is from the father Chun's perspective, and the last is from the daughter Faye's perspective.\n\nWhich choice completes the text with the most logical and precise word?",
+    "text": "Which choice completes the text with the most logical and precise word?\nRonyoung Kim creatively captures the Korean American immigrant experience in her novel *Clay Walls* by writing about a family from three ______ perspectives. The first section of the novel is from the mother Haesu's perspective, the second is from the father Chun's perspective, and the last is from the daughter Faye's perspective.",
     "choices": [
       {
         "id": "A",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -77,11 +77,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_3",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAncient Greek and Roman sculpture is sometimes characterized as idealizing human subjects, but in fact there are many Greco-Roman sculptures that depict people in decidedly ______ ways.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "text": "Which choice completes the text with the most logical and precise word or phrase?\nAncient Greek and Roman sculpture is sometimes characterized as idealizing human subjects, but in fact there are many Greco-Roman sculptures that depict people in decidedly ______ ways.",
     "choices": [
       {
         "id": "A",
@@ -103,7 +103,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
       "confidence": "high"
@@ -111,17 +111,17 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Algebra",
-    "skill": "Linear Functions",
-    "difficulty": "null",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_4",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice best states the function of the underlined portion in the text as a whole?\nBarn owls and horses see in three dimensions (3D) by combining two images in their brains, one from each eye. This produces a sense of depth, helping the animals judge how close or far away an object is. Researchers have investigated 3D vision in praying mantises as well. In one study, Vivek Nityananda and his team fitted mantises' faces with two different color filters, one covering each eye,<u> much like the filters in 3D glasses once worn at movies.</u> By observing the mantises' reaction to projected images, the team confirmed that mantises do indeed have 3D vision, but it's unlike that of other animals.\n\nWhich choice best states the function of the underlined portion in the text as a whole?",
+    "text": "Which choice best states the function of the underlined portion in the text as a whole?\nBarn owls and horses see in three dimensions (3D) by combining two images in their brains, one from each eye. This produces a sense of depth, helping the animals judge how close or far away an object is. Researchers have investigated 3D vision in praying mantises as well. In one study, Vivek Nityananda and his team fitted mantises' faces with two different color filters, one covering each eye,<u> much like the filters in 3D glasses once worn at movies.</u> By observing the mantises' reaction to projected images, the team confirmed that mantises do indeed have 3D vision, but it's unlike that of other animals.",
     "choices": [
       {
         "id": "A",
-        "text": "It emphasizes a difference between the research on praying mantis vision and research on other animals\u2019 vision."
+        "text": "It emphasizes a difference between the research on praying mantis vision and research on other animals’ vision."
       },
       {
         "id": "B",
@@ -139,43 +139,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Algebra",
-      "skill": "Linear Functions",
-      "confidence": "high"
-    }
-  },
-  {
-    "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Text Structure and Purpose",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_5",
-    "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice best describes the main purpose of the text?\nA study by Dr. Paul Hanel and colleagues concluded that people are more likely to behave politely when listening to ideas they disagree with if they think about values before they engage in a discussion. Study participants were assigned to one of two groups. The experimental group spent a few minutes writing about one of their personal values before they had a group discussion on a controversial topic. And the control group spent a few minutes writing about a drink (tea, milk, etc.) before their group discussion on that topic. Hanel and colleagues found that the experimental group\u2019s discussion was more civil than the control group\u2019s discussion was.\n\nWhich choice best describes the main purpose of the text?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "To suggest ways to improve a certain study\u2019s experimental design"
-      },
-      {
-        "id": "B",
-        "text": "To explain a study\u2019s conclusion and how a research team arrived at that conclusion"
-      },
-      {
-        "id": "C",
-        "text": "To argue that researchers were surprised by the results of a certain study"
-      },
-      {
-        "id": "D",
-        "text": "To describe a widely held belief and how a study\u2019s results support that belief"
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -185,15 +149,51 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
-    "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_6",
+    "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_5",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Jerome K. Jerome\u2019s 1889 novel *Three Men in a Boat (To Say Nothing of the Dog)*. The narrator and two friends are taking a boat down the River Thames in England. In a boat, I have always noticed that it is the fixed idea of each member of the crew that he is doing everything. <u>Harris\u2019s notion was, that it was he alone who had been working, and that both George and I had been imposing upon him.</u> George, on the other hand, ridiculed the idea of Harris\u2019s having done anything more than eat and sleep, and had a cast-iron opinion that it was he\u2014George himself\u2014who had done all the labour worth speaking of.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "text": "Which choice best describes the main purpose of the text?\nA study by Dr. Paul Hanel and colleagues concluded that people are more likely to behave politely when listening to ideas they disagree with if they think about values before they engage in a discussion. Study participants were assigned to one of two groups. The experimental group spent a few minutes writing about one of their personal values before they had a group discussion on a controversial topic. And the control group spent a few minutes writing about a drink (tea, milk, etc.) before their group discussion on that topic. Hanel and colleagues found that the experimental group’s discussion was more civil than the control group’s discussion was.",
     "choices": [
       {
         "id": "A",
-        "text": "It offers Harris\u2019s belief as a specific example of a trend the narrator has observed while boating."
+        "text": "To suggest ways to improve a certain study’s experimental design"
+      },
+      {
+        "id": "B",
+        "text": "To explain a study’s conclusion and how a research team arrived at that conclusion"
+      },
+      {
+        "id": "C",
+        "text": "To argue that researchers were surprised by the results of a certain study"
+      },
+      {
+        "id": "D",
+        "text": "To describe a widely held belief and how a study’s results support that belief"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "English",
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_6",
+    "testName": "May 2024 International Form C SAT English Module 1",
+    "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Jerome K. Jerome’s 1889 novel *Three Men in a Boat (To Say Nothing of the Dog)*. The narrator and two friends are taking a boat down the River Thames in England. In a boat, I have always noticed that it is the fixed idea of each member of the crew that he is doing everything. <u>Harris’s notion was, that it was he alone who had been working, and that both George and I had been imposing upon him.</u> George, on the other hand, ridiculed the idea of Harris’s having done anything more than eat and sleep, and had a cast-iron opinion that it was he—George himself—who had done all the labour worth speaking of.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It offers Harris’s belief as a specific example of a trend the narrator has observed while boating."
       },
       {
         "id": "B",
@@ -205,13 +205,13 @@ export const questions: Question[] = [
       },
       {
         "id": "D",
-        "text": "It establishes Harris\u2019s feelings about the narrator\u2019s idea of how boat trips usually proceed."
+        "text": "It establishes Harris’s feelings about the narrator’s idea of how boat trips usually proceed."
       }
     ],
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Craft and Structure",
       "skill": "Text Structure and Purpose",
       "confidence": "high"
@@ -219,13 +219,13 @@ export const questions: Question[] = [
   },
   {
     "section": "Reading and Writing",
-    "domain": "Advanced Math",
-    "skill": "Equivalent Expressions",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_7",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "According to the text, what change coincided with Don Jer\u00f3nimo becoming a patron of the theater?\nThe following text is adapted from Armando Palacio Vald\u00e9s\u2019s short story *The Love of Clotilde*, originally published in Spanish in 1884.\nIt was said that in [Don Jer\u00f3nimo\u2019s] youth he once wrote a play which won him nothing but hisses and free entry for life behind the scenes of the theaters. Whether resigned or not to the verdict of the public, he ceased to write plays and assumed instead the nobler r\u00f4le of patron to unrecognized authors and artists and to ruined managers.\nAny youth from the provinces who arrived in Madrid with a drama in his pocket could take no surer road to seeing it produced than that which led to the home of Don Jer\u00f3nimo. One and all, he received them with open arms, the good and the bad alike.\n\nAccording to the text, what change coincided with Don Jer\u00f3nimo becoming a patron of the theater?",
+    "text": "According to the text, what change coincided with Don Jerónimo becoming a patron of the theater?\nThe following text is adapted from Armando Palacio Valdés’s short story *The Love of Clotilde*, originally published in Spanish in 1884.\nIt was said that in [Don Jerónimo’s] youth he once wrote a play which won him nothing but hisses and free entry for life behind the scenes of the theaters. Whether resigned or not to the verdict of the public, he ceased to write plays and assumed instead the nobler rôle of patron to unrecognized authors and artists and to ruined managers.\nAny youth from the provinces who arrived in Madrid with a drama in his pocket could take no surer road to seeing it produced than that which led to the home of Don Jerónimo. One and all, he received them with open arms, the good and the bad alike.",
     "choices": [
       {
         "id": "A",
@@ -247,21 +247,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Advanced Math",
-      "skill": "Equivalent Expressions",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
   {
     "section": "Reading and Writing",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "null",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_8",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Based on the text, what can most reasonably be concluded about krill consumption among sei and bowhead whales?\nLike all species of baleen whales, the sei whale feeds on tiny creatures known as krill by filtering water through bristlelike keratin structures called baleen plates. In this way, baleen whales can eat up to 30 percent of their total mass per day. And while no one would call the sei whale small\u2014it can have a mass as high as 25,000 kg\u2014it is one of the smaller baleen whales and is much smaller than the bowhead whale, which can weigh a whopping 66,000 kg and consume as much as 19,800 kg of krill per day.\n\nBased on the text, what can most reasonably be concluded about krill consumption among sei and bowhead whales?",
+    "text": "Based on the text, what can most reasonably be concluded about krill consumption among sei and bowhead whales?\nLike all species of baleen whales, the sei whale feeds on tiny creatures known as krill by filtering water through bristlelike keratin structures called baleen plates. In this way, baleen whales can eat up to 30 percent of their total mass per day. And while no one would call the sei whale small—it can have a mass as high as 25,000 kg—it is one of the smaller baleen whales and is much smaller than the bowhead whale, which can weigh a whopping 66,000 kg and consume as much as 19,800 kg of krill per day.",
     "choices": [
       {
         "id": "A",
@@ -283,9 +283,9 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Problem-Solving and Data Analysis",
-      "skill": "Percentages",
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
       "confidence": "high"
     }
   },
@@ -293,11 +293,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_9",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega region of Costa Rica, Juan Pablo Arroyo-Mora and colleagues used historical aerial photography and remote sensing data to track changes in the forest cover area across different land use capability classes (categories that indicate possible uses of forest land). Due to the Chorotega region\u2019s accessibility, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. By the mid-1980s, however, increased public awareness and environmental reforms, along with a decline in meat prices, triggered a natural regrowth process, as evident by the ______\n\nWhich choice most effectively uses data from the graph to complete the assertion?",
+    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nTo understand the extent of deforestation in the Chorotega region of Costa Rica, Juan Pablo Arroyo-Mora and colleagues used historical aerial photography and remote sensing data to track changes in the forest cover area across different land use capability classes (categories that indicate possible uses of forest land). Due to the Chorotega region’s accessibility, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. By the mid-1980s, however, increased public awareness and environmental reforms, along with a decline in meat prices, triggered a natural regrowth process, as evident by the ______",
     "choices": [
       {
         "id": "A",
@@ -319,22 +319,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Eng_M1_Q9_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_10",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the statement?\nA team of scientists wants to improve the recycling of two of the most common types of lithium-ion batteries used in electronic devices. The team tested two new processes that involve grinding battery materials and aluminum foil together. The highest percentage of lithium recovered in the tests was closest to ______\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+    "text": "Which choice most effectively uses data from the graph to complete the statement?\nA team of scientists wants to improve the recycling of two of the most common types of lithium-ion batteries used in electronic devices. The team tested two new processes that involve grinding battery materials and aluminum foil together. The highest percentage of lithium recovered in the tests was closest to ______",
     "choices": [
       {
         "id": "A",
@@ -356,22 +355,21 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Eng_M1_Q10_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_11",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses data from the graph to complete the example?\nLin-Tai Ho and colleagues monitored fish populations in a tide pool in Taiwan. They found that some species were entirely absent from the tide pool at particular times of the year; for example, they did not observe even one ______\n\nWhich choice most effectively uses data from the graph to complete the example?",
+    "text": "Which choice most effectively uses data from the graph to complete the example?\nLin-Tai Ho and colleagues monitored fish populations in a tide pool in Taiwan. They found that some species were entirely absent from the tide pool at particular times of the year; for example, they did not observe even one ______",
     "choices": [
       {
         "id": "A",
@@ -393,44 +391,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
-      "domain": "Information and Ideas",
-      "skill": "Command of Evidence",
-      "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Eng_M1_Q11_1.png"
-  },
-  {
-    "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "null",
-    "rationale": null,
-    "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_12",
-    "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which quotation from *The Age of Innocence* best illustrates the claim?\n*The Age of Innocence* is a 1920 novel by Edith Wharton set in New York City in the 1870s. In the novel, Newland Archer attends an opera. Newland compares his intellect favorably to that of other men of New York City society who are in the audience: ______\n\nWhich quotation from *The Age of Innocence* best illustrates the claim?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "\u201cNewland Archer felt himself distinctly the superior of these chosen specimens of old New York gentility; he had probably read more, thought more, and even seen a good deal more of the world, than any other man of the number.\u201d"
-      },
-      {
-        "id": "B",
-        "text": "\u201cThinking over a pleasure to come often gave [Newland] a subtler satisfaction than its realisation. This was especially the case when the pleasure was a delicate one, as his pleasures mostly were.\u201d"
-      },
-      {
-        "id": "C",
-        "text": "\u201cNo expense had been spared on the setting, which was acknowledged to be very beautiful even by people who shared [Newland\u2019s] acquaintance with the Opera houses of Paris and Vienna.\u201d"
-      },
-      {
-        "id": "D",
-        "text": "\u201cSingly [the men around Newland] betrayed their inferiority; but grouped together they represented \u2018New York,\u2019 and the habit of masculine solidarity made him accept their doctrine on all the issues called moral.\u201d"
-      }
-    ],
-    "correctAnswer": "A",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
@@ -440,11 +401,47 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "null",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_12",
+    "testName": "May 2024 International Form C SAT English Module 1",
+    "text": "Which quotation from *The Age of Innocence* best illustrates the claim?\n*The Age of Innocence* is a 1920 novel by Edith Wharton set in New York City in the 1870s. In the novel, Newland Archer attends an opera. Newland compares his intellect favorably to that of other men of New York City society who are in the audience: ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“Newland Archer felt himself distinctly the superior of these chosen specimens of old New York gentility; he had probably read more, thought more, and even seen a good deal more of the world, than any other man of the number.”"
+      },
+      {
+        "id": "B",
+        "text": "“Thinking over a pleasure to come often gave [Newland] a subtler satisfaction than its realisation. This was especially the case when the pleasure was a delicate one, as his pleasures mostly were.”"
+      },
+      {
+        "id": "C",
+        "text": "“No expense had been spared on the setting, which was acknowledged to be very beautiful even by people who shared [Newland’s] acquaintance with the Opera houses of Paris and Vienna.”"
+      },
+      {
+        "id": "D",
+        "text": "“Singly [the men around Newland] betrayed their inferiority; but grouped together they represented ‘New York,’ and the habit of masculine solidarity made him accept their doctrine on all the issues called moral.”"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "category": {
+      "subject": "English",
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence",
+      "confidence": "high"
+    }
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_13",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice best describes data from the graph that support the student\u2019s claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the United States in the 1990s was present both in very large cities such as Miami, Florida, and smaller areas such as Allentown-Bethlehem, Pennsylvania, and Boise, Idaho; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.\n\nWhich choice best describes data from the graph that support the student\u2019s claim?",
+    "text": "Which choice best describes data from the graph that support the student’s claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the United States in the 1990s was present both in very large cities such as Miami, Florida, and smaller areas such as Allentown-Bethlehem, Pennsylvania, and Boise, Idaho; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.",
     "choices": [
       {
         "id": "A",
@@ -466,26 +463,25 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
       "confidence": "high"
-    },
-    "image": "/images_labeled/May_24_IntlC_Eng_M1_Q13_1.png"
+    }
   },
   {
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Inferences",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_14",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice most logically completes the text?\nConventional theories of rhetoric hold that presenting information as coming from credentialed experts increases that information\u2019s credibility. When communications researcher Sungkyoung Lee and her colleagues tested messages seeking volunteers for clinical trials, however, they found that participants in their study judged recruitment messages from former trial volunteers as significantly more credible than messages from doctors (i.e., credentialed experts). One reason for this may be that the doctors\u2019 status as credentialed experts wasn\u2019t ignored but rather was outweighed by participants\u2019 views of the experiential relevance of the two types of messengers; that is, participants may have reacted the way they did because ______\n\nWhich choice most logically completes the text?",
+    "text": "Which choice most logically completes the text?\nConventional theories of rhetoric hold that presenting information as coming from credentialed experts increases that information’s credibility. When communications researcher Sungkyoung Lee and her colleagues tested messages seeking volunteers for clinical trials, however, they found that participants in their study judged recruitment messages from former trial volunteers as significantly more credible than messages from doctors (i.e., credentialed experts). One reason for this may be that the doctors’ status as credentialed experts wasn’t ignored but rather was outweighed by participants’ views of the experiential relevance of the two types of messengers; that is, participants may have reacted the way they did because ______",
     "choices": [
       {
         "id": "A",
-        "text": "participants did not have enough experience to evaluate the credibility of the doctors\u2019 messages but did have enough experience to evaluate the credibility of former trial volunteers\u2019 messages."
+        "text": "participants did not have enough experience to evaluate the credibility of the doctors’ messages but did have enough experience to evaluate the credibility of former trial volunteers’ messages."
       },
       {
         "id": "B",
@@ -493,17 +489,17 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "participants regarded the experiences of both the doctors and former trial volunteers as relevant to the subject of clinical trials but were skeptical of the doctors\u2019 status as credentialed experts."
+        "text": "participants regarded the experiences of both the doctors and former trial volunteers as relevant to the subject of clinical trials but were skeptical of the doctors’ status as credentialed experts."
       },
       {
         "id": "D",
-        "text": "the fact that former trial volunteers went through the same experience that participants were contemplating while doctors did not was more important to participants than the doctors\u2019 status as credentialed experts was."
+        "text": "the fact that former trial volunteers went through the same experience that participants were contemplating while doctors did not was more important to participants than the doctors’ status as credentialed experts was."
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Information and Ideas",
       "skill": "Inferences",
       "confidence": "high"
@@ -513,11 +509,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_15",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nChicken fat reaches its smoke point at around 375 degrees Fahrenheit. At this temperature, the substance cannot absorb any more heat energy. As a result, ______ will begin to combust, emitting smoke.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nChicken fat reaches its smoke point at around 375 degrees Fahrenheit. At this temperature, the substance cannot absorb any more heat energy. As a result, ______ will begin to combust, emitting smoke.",
     "choices": [
       {
         "id": "A",
@@ -539,21 +535,21 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_16",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOver several years, anthropologist L\u00edvia Barbosa surveyed individuals in Brazil about their eating habits, collecting data, for example, on what days of the week respondents were more likely ______ common Brazilian foods, such as moqueca capixaba (a seafood stew) and carne-de-sol (a cured meat dish).\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOver several years, anthropologist Lívia Barbosa surveyed individuals in Brazil about their eating habits, collecting data, for example, on what days of the week respondents were more likely ______ common Brazilian foods, such as moqueca capixaba (a seafood stew) and carne-de-sol (a cured meat dish).",
     "choices": [
       {
         "id": "A",
@@ -575,21 +571,21 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
+      "confidence": "medium"
     }
   },
   {
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_17",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAmong the world\u2019s largest deserts are the Syrian Desert, ranked ______ and the Ferlo Desert, ranked thirty-second.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAmong the world’s largest deserts are the Syrian Desert, ranked ______ and the Ferlo Desert, ranked thirty-second.",
     "choices": [
       {
         "id": "A",
@@ -611,7 +607,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -621,11 +617,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_18",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe constitution of Poland, enacted in 1997, enshrines 60 total rights across 19,602 words of text. According to constitutional scholar Giovanni Sartori, who examines the implications of constitutional length on civil rights, ______ 112th in a global ranking of the shortest constitutions.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe constitution of Poland, enacted in 1997, enshrines 60 total rights across 19,602 words of text. According to constitutional scholar Giovanni Sartori, who examines the implications of constitutional length on civil rights, ______ 112th in a global ranking of the shortest constitutions.",
     "choices": [
       {
         "id": "A",
@@ -633,11 +629,11 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "they\u2019re"
+        "text": "they’re"
       },
       {
         "id": "C",
-        "text": "it\u2019s"
+        "text": "it’s"
       },
       {
         "id": "D",
@@ -647,7 +643,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
       "confidence": "high"
@@ -657,11 +653,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_19",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMost sand is beige because of deposits of gray- and tan-hued minerals, such as quartz and feldspar. The sand at Balos Beach in Greece is a more unusual ______ deposits of crushed coral and other organic matter lend the sand a unique pink hue.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMost sand is beige because of deposits of gray- and tan-hued minerals, such as quartz and feldspar. The sand at Balos Beach in Greece is a more unusual ______ deposits of crushed coral and other organic matter lend the sand a unique pink hue.",
     "choices": [
       {
         "id": "A",
@@ -683,7 +679,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -693,33 +689,33 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_20",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, the Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, \u201cproduced the most outstanding work in an idealistic ______ in 2004, for instance, judges recognized Elfriede Jelinek \u201cfor her musical flow of voices and counter-voices in novels and plays that with extraordinary linguistic zeal reveal the absurdity of society\u2019s clich\u00e9s and their subjugating power.\u201d\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, the Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, “produced the most outstanding work in an idealistic ______ in 2004, for instance, judges recognized Elfriede Jelinek “for her musical flow of voices and counter-voices in novels and plays that with extraordinary linguistic zeal reveal the absurdity of society’s clichés and their subjugating power.”",
     "choices": [
       {
         "id": "A",
-        "text": "direction\u201d"
+        "text": "direction”"
       },
       {
         "id": "B",
-        "text": "direction\u201d and,"
+        "text": "direction” and,"
       },
       {
         "id": "C",
-        "text": "direction,\u201d"
+        "text": "direction,”"
       },
       {
         "id": "D",
-        "text": "direction\u201d;"
+        "text": "direction”;"
       }
     ],
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -729,11 +725,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_21",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn March 3, 2005, American astronomers detected an extremely bright light, which they identified as a supernova (the explosion of a massive star) occurring 4.7 billion light-years from Earth. It began to dim over the next few ______ although they are extremely powerful, supernovas are short-lived phenomena.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn March 3, 2005, American astronomers detected an extremely bright light, which they identified as a supernova (the explosion of a massive star) occurring 4.7 billion light-years from Earth. It began to dim over the next few ______ although they are extremely powerful, supernovas are short-lived phenomena.",
     "choices": [
       {
         "id": "A",
@@ -755,7 +751,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
       "confidence": "high"
@@ -765,11 +761,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_22",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical transition?\nWilliam Shakespeare likely arrived in London as early as 1585, at the age of 21, to pursue a career in the theater. Little is known of his early years there, but by 1591 he was becoming known for plays such as *The Taming of the Shrew*. ______ in 1596, he would delight audiences with *King John*, considered by some to be one of his greatest works.\n\nWhich choice completes the text with the most logical transition?",
+    "text": "Which choice completes the text with the most logical transition?\nWilliam Shakespeare likely arrived in London as early as 1585, at the age of 21, to pursue a career in the theater. Little is known of his early years there, but by 1591 he was becoming known for plays such as *The Taming of the Shrew*. ______ in 1596, he would delight audiences with *King John*, considered by some to be one of his greatest works.",
     "choices": [
       {
         "id": "A",
@@ -791,7 +787,7 @@ export const questions: Question[] = [
     "correctAnswer": "D",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Transitions",
       "confidence": "high"
@@ -801,11 +797,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_23",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "The student wants to provide an example of a dinosaur fossil specimen\u2019s nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Dinosaur fossil specimens can be found at science museums all over the world.\n\u2022 Many dinosaur fossil specimens are given nicknames.\n\u2022 The Houston Museum of Natural Science in Houston, Texas, houses a dinosaur fossil specimen nicknamed Wyrex.\n\u2022 Wyrex lived in the Late Cretaceous period, which ended more than 65 million years ago.\n\u2022 It is a member of the genus *Tyrannosaurus*.\n\nThe student wants to provide an example of a dinosaur fossil specimen\u2019s nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to provide an example of a dinosaur fossil specimen’s nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Dinosaur fossil specimens can be found at science museums all over the world.\n• Many dinosaur fossil specimens are given nicknames.\n• The Houston Museum of Natural Science in Houston, Texas, houses a dinosaur fossil specimen nicknamed Wyrex.\n• Wyrex lived in the Late Cretaceous period, which ended more than 65 million years ago.\n• It is a member of the genus *Tyrannosaurus*.",
     "choices": [
       {
         "id": "A",
@@ -827,7 +823,7 @@ export const questions: Question[] = [
     "correctAnswer": "C",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -837,15 +833,15 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_24",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize how Wilkerson documents the Great Migration?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Historian Isabel Wilkerson\u2019s book *The Warmth of Other Suns* is about the Great Migration.\n\u2022 The Great Migration was a period in twentieth-century US history when over six million African Americans moved from the rural South to cities such as Denver, Colorado.\n\u2022 To document this period, Wilkerson narrates the personal journeys of Ida Mae Gladney and Robert Pershing Foster, among others.\n\u2022 The book won the Mark Lynton History Prize in 2011.\n\u2022 It also won the Heartland Prize in 2011.\n\nWhich choice most effectively uses information from the given sentences to emphasize how Wilkerson documents the Great Migration?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize how Wilkerson documents the Great Migration?\nWhile researching a topic, a student has taken the following notes:\n• Historian Isabel Wilkerson’s book *The Warmth of Other Suns* is about the Great Migration.\n• The Great Migration was a period in twentieth-century US history when over six million African Americans moved from the rural South to cities such as Denver, Colorado.\n• To document this period, Wilkerson narrates the personal journeys of Ida Mae Gladney and Robert Pershing Foster, among others.\n• The book won the Mark Lynton History Prize in 2011.\n• It also won the Heartland Prize in 2011.",
     "choices": [
       {
         "id": "A",
-        "text": "In 2011, Isabel Wilkerson\u2019s book *The Warmth of Other Suns* won not only the Mark Lynton History Prize but also the Heartland Prize."
+        "text": "In 2011, Isabel Wilkerson’s book *The Warmth of Other Suns* won not only the Mark Lynton History Prize but also the Heartland Prize."
       },
       {
         "id": "B",
@@ -863,7 +859,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -873,11 +869,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_25",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "The student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The human tongue contains taste receptors for a rich, savory flavor called umami.\n\u2022 Umami is triggered by the compounds in a variety of foods, including ham and mushrooms.\n\u2022 Participants in a study tasted a sample of winged kelp, a type of brown seaweed.\n\u2022 They rated its umami intensity as moderate.\n\u2022 The participants tasted a sample of arame, another type of brown seaweed.\n\u2022 They rated its umami intensity as high.\n\nThe student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "text": "The student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The human tongue contains taste receptors for a rich, savory flavor called umami.\n• Umami is triggered by the compounds in a variety of foods, including ham and mushrooms.\n• Participants in a study tasted a sample of winged kelp, a type of brown seaweed.\n• They rated its umami intensity as moderate.\n• The participants tasted a sample of arame, another type of brown seaweed.\n• They rated its umami intensity as high.",
     "choices": [
       {
         "id": "A",
@@ -885,7 +881,7 @@ export const questions: Question[] = [
       },
       {
         "id": "B",
-        "text": "Although winged kelp and arame are types of brown seaweed, the latter\u2019s umami flavor is more intense."
+        "text": "Although winged kelp and arame are types of brown seaweed, the latter’s umami flavor is more intense."
       },
       {
         "id": "C",
@@ -899,7 +895,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -909,11 +905,11 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_26",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize when Marvin Minsky won the A.M. Turing Award?\nWhile researching a topic, a student has taken the following notes:\n\u2022 The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM).\n\u2022 The ACM gives the award for \u201cmajor contributions of lasting importance to computing.\u201d\n\u2022 Marvin Minsky won the award in 1969 for playing a central role in developing the field of artificial intelligence.\n\nWhich choice most effectively uses information from the given sentences to emphasize when Marvin Minsky won the A.M. Turing Award?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize when Marvin Minsky won the A.M. Turing Award?\nWhile researching a topic, a student has taken the following notes:\n• The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM).\n• The ACM gives the award for “major contributions of lasting importance to computing.”\n• Marvin Minsky won the award in 1969 for playing a central role in developing the field of artificial intelligence.",
     "choices": [
       {
         "id": "A",
@@ -925,7 +921,7 @@ export const questions: Question[] = [
       },
       {
         "id": "C",
-        "text": "The prestigious A.M. Turing Award is given for \u201cmajor contributions of lasting importance to computing.\u201d"
+        "text": "The prestigious A.M. Turing Award is given for “major contributions of lasting importance to computing.”"
       },
       {
         "id": "D",
@@ -935,7 +931,7 @@ export const questions: Question[] = [
     "correctAnswer": "B",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
@@ -945,23 +941,23 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "null",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_27",
     "testName": "May 2024 International Form C SAT English Module 1",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize the location of the figures in *A Promise*?\nWhile researching a topic, a student has taken the following notes:\n\u2022 Calida Garcia Rawles is an African American painter.\n\u2022 She is known for her large-scale, hyperrealistic paintings depicting African American figures in water.\n\u2022 The painting *Little Swimmer* (48 \u00d7 60 in) depicts a young girl with her arms at her sides swimming at the top of the canvas.\n\u2022 *A Promise* (48 \u00d7 72 in) depicts two men in white shirts floating on the left side of the canvas.\n\u2022 She paints the water with vivid blue colors, including light blue and cobalt.\n\u2022 The mood in the paintings is tranquil.\n\nWhich choice most effectively uses information from the given sentences to emphasize the location of the figures in *A Promise*?",
+    "text": "Which choice most effectively uses information from the given sentences to emphasize the location of the figures in *A Promise*?\nWhile researching a topic, a student has taken the following notes:\n• Calida Garcia Rawles is an African American painter.\n• She is known for her large-scale, hyperrealistic paintings depicting African American figures in water.\n• The painting *Little Swimmer* (48 × 60 in) depicts a young girl with her arms at her sides swimming at the top of the canvas.\n• *A Promise* (48 × 72 in) depicts two men in white shirts floating on the left side of the canvas.\n• She paints the water with vivid blue colors, including light blue and cobalt.\n• The mood in the paintings is tranquil.",
     "choices": [
       {
         "id": "A",
-        "text": "In Rawles\u2019s painting *A Promise*, two men are depicted on the left side of the canvas."
+        "text": "In Rawles’s painting *A Promise*, two men are depicted on the left side of the canvas."
       },
       {
         "id": "B",
-        "text": "At 48 by 72 inches, Rawles\u2019s *A Promise* is even larger than the sizable 48-by-60-inch painting *Little Swimmer*."
+        "text": "At 48 by 72 inches, Rawles’s *A Promise* is even larger than the sizable 48-by-60-inch painting *Little Swimmer*."
       },
       {
         "id": "C",
-        "text": "While the number of figures may differ, constant among Rawles\u2019s hyperrealistic works is the tranquil mood that the paintings evoke."
+        "text": "While the number of figures may differ, constant among Rawles’s hyperrealistic works is the tranquil mood that the paintings evoke."
       },
       {
         "id": "D",
@@ -971,7 +967,7 @@ export const questions: Question[] = [
     "correctAnswer": "A",
     "type": "multiple-choice",
     "category": {
-      "subject": "Reading and Writing",
+      "subject": "English",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
       "confidence": "high"
