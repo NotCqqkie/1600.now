@@ -1,7 +1,6 @@
 import { useParams, useNavigate, useLocation, useSearchParams } from "react-router-dom";
 import { useState, useEffect, useRef, useLayoutEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { NavigationSheet } from "@/components/NavigationSheet";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
@@ -35,10 +34,9 @@ import { cn, normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import "katex/dist/katex.min.css";
 
-// Use original 100 hard questions with uuid for progress tracking
 const hardQuestions = originalQuestions.map(q => ({
   ...q,
-  uuid: `hard-${q.id}` // Unique ID for progress tracking
+  uuid: `hard-${q.id}`
 }));
 
 type LowerThanHysteresisArgs = {
@@ -64,7 +62,6 @@ const getNextStateForLowerThan = ({
   if (currentState) {
     return value <= exitThreshold;
   }
-
   return value < enterThreshold;
 };
 
@@ -77,7 +74,6 @@ const getNextStateForGreaterThan = ({
   if (currentState) {
     return value >= exitThreshold;
   }
-
   return value > enterThreshold;
 };
 
@@ -183,12 +179,10 @@ function Question() {
   const location = useLocation();
   const [searchParams] = useSearchParams();
 
-  // Mode detection
   const isBank = location.pathname.startsWith('/bank');
   const isOfficialBank = location.pathname.startsWith('/official-bank');
   const is100Hard = !isBank && !isOfficialBank;
 
-  // Practice Mode detection
   const isPracticeMode = searchParams.get('practice') === 'true';
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
   const bankQuerySuffix = isBank ? `?bankType=${bankSource}` : "";
@@ -200,8 +194,6 @@ function Question() {
       return [];
     }
   }, [isPracticeMode]);
-
-  // If needed: const practiceIdx = parseInt(searchParams.get('idx') || '0', 10);
 
   const questionNumber = parseInt(id || "1", 10);
   const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading";
@@ -216,13 +208,11 @@ function Question() {
   }, [isPracticeMode, practiceSet, questionNumber, subject, isOfficialBank, bankSource]);
   const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
 
-  // Data fetching logic
   const questionData = useMemo(() => {
     if (is100Hard) {
       return hardQuestions.find(q => q.id === questionNumber);
     }
     
-    // Bank / Official Bank Logic
     const getter = isOfficialBank ? getBankQuestionOfficial : getBankQuestionNormal;
     const q = isOfficialBank ? getter(subject, questionNumber) : getter(subject, questionNumber, bankSource);
     
@@ -242,7 +232,7 @@ function Question() {
   const [checkButtonState, setCheckButtonState] = useState<"idle" | "incorrect" | "correct-first" | "correct-later">("idle");
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
-  const [sidebarredWindows, setSidebarredWindows] = useState<Set<string>>(new Set()); // Track which windows SHOULD be sidebarred
+  const [sidebarredWindows, setSidebarredWindows] = useState<Set<string>>(new Set());
   const [splitPosition, setSplitPosition] = useState(50);
   const [attemptCount, setAttemptCount] = useState(0);
   const [shouldCompress, setShouldCompress] = useState(false);
@@ -290,17 +280,15 @@ function Question() {
     }));
   }, [isBank, subject, bankSource]);
 
-  // View Mode Defaulting for different subjects
   useEffect(() => {
      if (isBank || isOfficialBank) {
         if (subject === 'reading') setQuestionViewMode('horizontal');
         else setQuestionViewMode('vertical');
      } else {
-        setQuestionViewMode('vertical'); // Default for 100 Hard
+        setQuestionViewMode('vertical');
      }
   }, [isBank, isOfficialBank, subject, questionNumber]); 
 
-  // Reset timer on question change
   useEffect(() => {
     startTimeRef.current = Date.now();
     setElapsedSeconds(0);
@@ -317,13 +305,10 @@ function Question() {
     return () => window.clearInterval(timerId);
   }, [isTimerPaused]);
 
-  // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
-  // Use hidden measurement controls plus hysteresis to avoid compression state thrash.
   useLayoutEffect(() => {
     const checkSpace = () => {
-      // Bottom navigation compression
       if (bottomNavRef.current && bottomMeasurementRef.current) {
         const containerWidth = bottomNavRef.current.offsetWidth;
         const buttonsNaturalWidth = bottomMeasurementRef.current.scrollWidth;
@@ -346,7 +331,6 @@ function Question() {
         }
       }
 
-      // Keep center controls centered only while they have the same gap as neighboring controls.
       if (
         bottomNavCenterRef.current &&
         bottomNavLeftRef.current &&
@@ -377,7 +361,6 @@ function Question() {
         }
       }
 
-      // Keep timer centered when possible and restore centering once enough room returns.
       if (topNavRef.current && topLeftRef.current && topRightControlsRef.current && topTimerRef.current) {
         const containerWidth = topNavRef.current.offsetWidth;
         const leftWidth = topLeftRef.current.offsetWidth;
@@ -401,7 +384,6 @@ function Question() {
         }
       }
 
-      // Top bar compression
       if (topNavRef.current && topMeasurementRef.current && topLeftMeasurementRef.current) {
         const containerWidth = topNavRef.current.offsetWidth;
         const leftNaturalWidth = topLeftMeasurementRef.current.scrollWidth;
@@ -440,62 +422,38 @@ function Question() {
 
     if (topNavRef.current) {
       resizeObserver.observe(topNavRef.current);
-      if (topLeftRef.current) {
-        resizeObserver.observe(topLeftRef.current);
-      }
-      if (topRightRef.current) {
-        resizeObserver.observe(topRightRef.current);
-      }
-      if (topRightControlsRef.current) {
-        resizeObserver.observe(topRightControlsRef.current);
-      }
-      if (topTimerRef.current) {
-        resizeObserver.observe(topTimerRef.current);
-      }
+      if (topLeftRef.current) resizeObserver.observe(topLeftRef.current);
+      if (topRightRef.current) resizeObserver.observe(topRightRef.current);
+      if (topRightControlsRef.current) resizeObserver.observe(topRightControlsRef.current);
+      if (topTimerRef.current) resizeObserver.observe(topTimerRef.current);
     }
     if (bottomNavRef.current) {
       resizeObserver.observe(bottomNavRef.current);
       const navSheet = bottomNavRef.current.querySelector('[data-nav-sheet]');
-      if (navSheet instanceof HTMLElement) {
-        resizeObserver.observe(navSheet);
-      }
-      if (bottomNavLeftRef.current) {
-        resizeObserver.observe(bottomNavLeftRef.current);
-      }
-      if (bottomNavCenterRef.current) {
-        resizeObserver.observe(bottomNavCenterRef.current);
-      }
-      if (bottomNavRightRef.current) {
-        resizeObserver.observe(bottomNavRightRef.current);
-      }
+      if (navSheet instanceof HTMLElement) resizeObserver.observe(navSheet);
+      if (bottomNavLeftRef.current) resizeObserver.observe(bottomNavLeftRef.current);
+      if (bottomNavCenterRef.current) resizeObserver.observe(bottomNavCenterRef.current);
+      if (bottomNavRightRef.current) resizeObserver.observe(bottomNavRightRef.current);
     }
-    if (topMeasurementRef.current) {
-      resizeObserver.observe(topMeasurementRef.current);
-    }
-    if (bottomMeasurementRef.current) {
-      resizeObserver.observe(bottomMeasurementRef.current);
-    }
+    if (topMeasurementRef.current) resizeObserver.observe(topMeasurementRef.current);
+    if (bottomMeasurementRef.current) resizeObserver.observe(bottomMeasurementRef.current);
 
     window.addEventListener('resize', scheduleCheck);
     scheduleCheck();
 
     return () => {
-      if (frameId !== null) {
-        cancelAnimationFrame(frameId);
-      }
+      if (frameId !== null) cancelAnimationFrame(frameId);
       window.removeEventListener('resize', scheduleCheck);
       resizeObserver.disconnect();
     };
   }, []);
 
-  // Handle question split divider resizing (for horizontal view mode)
   useEffect(() => {
     if (!isResizingQuestionSplit) return;
 
     document.body.classList.add("noselect");
 
     const handleMouseMove = (e: MouseEvent) => {
-      // Calculate position relative to the available content area
       const availableWidth = isSplitScreenActive 
         ? (window.innerWidth * splitPosition) / 100 
         : window.innerWidth;
@@ -519,7 +477,6 @@ function Question() {
     };
   }, [isResizingQuestionSplit, isSplitScreenActive, splitPosition]);
 
-  // Track fullscreen changes to keep button state in sync
   useEffect(() => {
     setIsFullscreen(Boolean(document.fullscreenElement));
     const handleFullscreenChange = () => setIsFullscreen(Boolean(document.fullscreenElement));
@@ -527,33 +484,24 @@ function Question() {
     return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
   }, []);
 
-  // Handle split screen changes from windows
   const handleSplitScreenChange = (isSplit: boolean, windowId: string) => {
     setSplitScreenWindows(prev => {
       const newSet = new Set(prev);
-      if (isSplit) {
-        newSet.add(windowId);
-      } else {
-        newSet.delete(windowId);
-      }
+      if (isSplit) newSet.add(windowId);
+      else newSet.delete(windowId);
       return newSet;
     });
   };
 
-  // Handle sidebar toggle from windows - controls whether a window SHOULD be sidebarred
   const handleSidebarToggle = (windowId: string, shouldBeSidebarred: boolean) => {
     setSidebarredWindows(prev => {
       const newSet = new Set(prev);
-      if (shouldBeSidebarred) {
-        newSet.add(windowId);
-      } else {
-        newSet.delete(windowId);
-      }
+      if (shouldBeSidebarred) newSet.add(windowId);
+      else newSet.delete(windowId);
       return newSet;
     });
   };
 
-  // Handle split position changes from the divider inside DraggableWindow
   const handleSplitPositionChange = (newPosition: number) => {
     const roundedPosition = Math.round(newPosition * 4) / 4;
     setSplitPosition(prev => (Math.abs(prev - roundedPosition) < 0.25 ? prev : roundedPosition));
@@ -573,7 +521,6 @@ function Question() {
     }
   };
 
-  // Bring a window to front
   const bringToFront = (windowId: string) => {
     setWindowOrder(prev => {
       const newOrder = prev.filter(id => id !== windowId);
@@ -582,15 +529,11 @@ function Question() {
     });
   };
 
-  // Get z-index for a window - windows stack based on interaction order
   const getZIndex = (windowId: string) => {
     const index = windowOrder.indexOf(windowId);
-    // Use larger gaps between windows for clearer layering
     return 50 + index * 20;
   };
 
-
-  // Reset split position when split screen is deactivated
   useEffect(() => {
     if (!isSplitScreenActive) {
       setSplitPosition(50);
@@ -607,7 +550,6 @@ function Question() {
     </div>;
   }
 
-  // Reset selection and visual states immediately on question change to avoid flashes
   useLayoutEffect(() => {
     setSelectedAnswer("");
     setFreeResponseAnswer("");
@@ -616,7 +558,6 @@ function Question() {
     setAttemptCount(0);
   }, [questionNumber]);
 
-  // Helper to render content with consistent styling
   const renderContent = (content: string, center: boolean = false) => {
     if (!content) return null;
     const html = renderMixedContent(content);
@@ -633,13 +574,9 @@ function Question() {
     );
   };
 
-
-
   const totalQuestions = useMemo(() => {
     if (is100Hard) return 100;
-    if (effectivePracticeMode) {
-      return practiceSet.length;
-    }
+    if (effectivePracticeMode) return practiceSet.length;
     if (subject) {
       const counts = isOfficialBank ? officialBankCounts : getBankCountsNormal(bankSource);
       return counts[subject] || 0;
@@ -673,12 +610,10 @@ function Question() {
       navigate(`/hard/${questionNumber - 1}`);
       return;
     }
-
     if (effectivePracticeMode) {
       navigateToPracticeIndex(currentPracticeIndex - 1);
       return;
     }
-
     const base = isOfficialBank ? '/official-bank' : '/bank';
     navigate(`${base}/${subject}/${questionNumber - 1}${isBank ? bankQuerySuffix : ""}`);
   };
@@ -689,12 +624,10 @@ function Question() {
       navigate(`/hard/${questionNumber + 1}`);
       return;
     }
-
     if (effectivePracticeMode) {
       navigateToPracticeIndex(currentPracticeIndex + 1);
       return;
     }
-
     const base = isOfficialBank ? '/official-bank' : '/bank';
     navigate(`${base}/${subject}/${questionNumber + 1}${isBank ? bankQuerySuffix : ""}`);
   };
@@ -714,30 +647,17 @@ function Question() {
       return;
     }
 
-    // If we've already recorded a correct answer for this question in the current session,
-    // ignore further checks until the user navigates away (choices reset on navigation).
     const alreadyCorrect = Object.values(checkedAnswers).some(Boolean);
-    if (alreadyCorrect) {
-      return;
-    }
+    if (alreadyCorrect) return;
+    if (checkedAnswers[userAnswer] !== undefined) return;
 
-    // Don't re-check an already checked answer
-    if (checkedAnswers[userAnswer] !== undefined) {
-      return;
-    }
-
-    // If using override answer, also select it
     if (overrideAnswer && overrideAnswer !== selectedAnswer) {
       setSelectedAnswer(overrideAnswer);
     }
 
-    const normalizeAnswer = (answer: string) => {
-      return answer.toString().trim().toLowerCase().replace(/\s+/g, '');
-    };
-
+    const normalizeAnswer = (answer: string) => answer.toString().trim().toLowerCase().replace(/\s+/g, '');
     const isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(currentQuestion.correctAnswer);
     
-    // Format the answer for display (e.g., "A. answer text")
     let formattedAnswer = userAnswer;
     if (currentQuestion.type === "multiple-choice" && currentQuestion.choices) {
       const choice = currentQuestion.choices.find(c => c.id === userAnswer);
@@ -746,7 +666,6 @@ function Question() {
       }
     }
     
-    // Add attempt
     const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
     addAttempt(currentQuestion.uuid, isCorrect ? "correct" : "incorrect", duration, formattedAnswer);
 
@@ -755,29 +674,22 @@ function Question() {
     const newAttemptCount = attemptCount + 1;
     setAttemptCount(newAttemptCount);
 
-    // Save answer state to localStorage
     localStorage.setItem(`${localStateKey}-answer`, userAnswer);
     localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
 
     if (isCorrect) {
       const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
       setCheckButtonState(status);
-      
-      // Save status to localStorage
       localStorage.setItem(`${localStateKey}-status`, status);
     } else {
       setCheckButtonState("incorrect");
-      
-      // Save incorrect status
       localStorage.setItem(`${localStateKey}-status`, 'incorrect');
     }
   };
 
-  // Universal Hotkeys
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
-      // Don't interfere if user is typing in an input, unless it's Enter to submit
       if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
         if (e.key === 'Enter') {
           e.preventDefault();
@@ -808,14 +720,11 @@ function Question() {
             let nextIndex = 0;
             
             if (currentIndex === -1) {
-              // If no selection, Down starts at first, Up starts at last
               nextIndex = e.key === 'ArrowDown' ? 0 : choiceIds.length - 1;
             } else {
               if (e.key === 'ArrowUp') {
-                // Cycle backward
                 nextIndex = (currentIndex - 1 + choiceIds.length) % choiceIds.length;
               } else {
-                // Cycle forward
                 nextIndex = (currentIndex + 1) % choiceIds.length;
               }
             }
@@ -830,14 +739,7 @@ function Question() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [
-    handleNext, 
-    handlePrevious, 
-    handleCheck, 
-    currentQuestion, 
-    selectedAnswer, 
-    questionNumber
-  ]);
+  }, [handleNext, handlePrevious, handleCheck, currentQuestion, selectedAnswer, questionNumber]);
 
   const hasSelection = currentQuestion.type === 'multiple-choice' ? Boolean(selectedAnswer) : Boolean(freeResponseAnswer);
   const isCheckDisabled = !hasSelection || checkButtonState === "correct-first" || checkButtonState === "correct-later";
@@ -905,6 +807,7 @@ function Question() {
     ? Boolean(readingQuestionSentence)
     : Boolean(questionTextContent) &&
       (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
+      
   const renderQuestionImages = () => {
     if (!questionImages?.length) return null;
 
@@ -925,6 +828,7 @@ function Question() {
       </div>
     );
   };
+  
   const backDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/";
   const timerControls = (
     <>
@@ -954,7 +858,6 @@ function Question() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
-      {/* Header */}
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div 
           className="container mx-auto px-4 py-4"
@@ -1031,16 +934,11 @@ function Question() {
                   onClick={toggleFullscreen}
                   title={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
                 >
-                  {isFullscreen ? (
-                    <Minimize2 className="h-4 w-4" />
-                  ) : (
-                    <Maximize2 className="h-4 w-4" />
-                  )}
+                  {isFullscreen ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
                 </Button>
               </div>
             </div>
 
-            {/* Hidden measurements keep compression thresholds stable regardless of current UI mode */}
             <div
               ref={topLeftMeasurementRef}
               aria-hidden="true"
@@ -1084,7 +982,6 @@ function Question() {
         </div>
       </header>
 
-      {/* Main Content */}
       <main 
         className={`flex-1 pb-28 ${questionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
         style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : questionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
@@ -1093,10 +990,8 @@ function Question() {
           className={`relative ${questionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
           style={{ maxWidth: isSplitScreenActive || questionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || questionViewMode === 'horizontal' ? "0" : "0 auto" }}
         >
-          {/* Horizontal Layout Mode */}
           {questionViewMode === 'horizontal' ? (
             <div className="flex relative" style={{ minHeight: '400px' }}>
-              {/* Left Panel - Question Content */}
               <div
                 className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
@@ -1105,7 +1000,6 @@ function Question() {
                 {renderQuestionImages()}
               </div>
 
-              {/* Horizontal Divider */}
               <div 
                 className="w-4 cursor-col-resize flex items-center justify-center group flex-shrink-0 self-stretch"
                 onMouseDown={() => setIsResizingQuestionSplit(true)}
@@ -1113,12 +1007,10 @@ function Question() {
                 <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors rounded" />
               </div>
 
-              {/* Right Panel - Answer Area */}
               <div 
                 className="pl-4 overflow-y-auto"
                 style={{ width: `${100 - questionSplitPosition}%` }}
               >
-                {/* Question Toolbar (Horizontal Box) */}
                 <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-4 rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
                   <div className="flex items-center h-full gap-2">
                     <div className="bg-white dark:bg-black text-black dark:text-white h-full w-10 flex items-center justify-center font-bold text-lg shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
@@ -1184,10 +1076,8 @@ function Question() {
               </div>
             </div>
           ) : (
-            /* Vertical Layout Mode (default) */
             <>
-               {/* Question Toolbar (Vertical Box) */}
-                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
+               <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
                   <div className="flex items-center h-full gap-2">
                     <div className="bg-white dark:bg-black text-black dark:text-white h-full w-12 flex items-center justify-center font-bold text-xl shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
                       {displayQuestionNumber}
@@ -1218,7 +1108,6 @@ function Question() {
                   </div>
                 </div>
 
-              {/* Question Content */}
               <div className="mb-6 sm:mb-8 space-y-4">
                   {passageContent ? (
                     <>
@@ -1236,7 +1125,6 @@ function Question() {
                   )}
               </div>
 
-              {/* Answer Area */}
               {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
                 <MultipleChoiceQuestion 
                   choices={currentQuestion.choices}
@@ -1267,7 +1155,6 @@ function Question() {
         </div>
       </main>
 
-      {/* Bottom Navigation - Fixed at bottom */}
       <div 
         ref={bottomNavRef}
         className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40"
@@ -1275,7 +1162,6 @@ function Question() {
       >
         <div className="container mx-auto px-4 py-3">
           <div ref={bottomNavGridRef} className="relative grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2">
-            {/* Left: Previous Button - fixed width to prevent layout shift */}
             <div ref={bottomNavLeftRef} className="shrink-0" style={{ minWidth: shouldCompress ? undefined : '100px' }}>
               <Button
                 variant="outline"
@@ -1288,7 +1174,6 @@ function Question() {
               </Button>
             </div>
 
-            {/* Center: Navigation Sheet */}
             <div
               ref={bottomNavCenterRef}
               data-nav-sheet
@@ -1311,9 +1196,7 @@ function Question() {
                      <OfficialPracticeNavigationSheet 
                         currentIndex={currentPracticeIndex}
                         practiceSet={practiceSet}
-                        onJump={(idx) => {
-                             navigateToPracticeIndex(idx);
-                        }}
+                        onJump={(idx) => navigateToPracticeIndex(idx)}
                         storagePrefix={`official-bank-${subject}`}
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition}
@@ -1322,9 +1205,7 @@ function Question() {
                      <PracticeNavigationSheet 
                         currentIndex={currentPracticeIndex}
                         practiceSet={practiceSet}
-                        onJump={(idx) => {
-                             navigateToPracticeIndex(idx);
-                        }}
+                        onJump={(idx) => navigateToPracticeIndex(idx)}
                         exitTo={`/bank?bankType=${bankSource}`}
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition} 
@@ -1345,7 +1226,6 @@ function Question() {
               )}
             </div>
 
-            {/* Right: Explanation, Check, Next - fixed width to prevent layout shift */}
             <div
               ref={bottomNavRightRef}
               className="ml-auto flex gap-2 shrink-0 justify-end"
@@ -1388,7 +1268,6 @@ function Question() {
               </Button>
             </div>
             
-            {/* Hidden measurement div - renders full-size buttons off-screen to measure natural width */}
             <div 
               ref={bottomMeasurementRef}
               aria-hidden="true"

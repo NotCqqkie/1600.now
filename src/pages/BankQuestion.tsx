@@ -1,7 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState, useMemo } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { BankSubject, bankCounts, getBankPool, getBankQuestion } from "@/data/questionBank";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
@@ -39,11 +38,8 @@ const BankQuestion = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
 
-  // Check if in practice mode
   const isPracticeMode = searchParams.get('practice') === 'true';
-  const practiceIdx = parseInt(searchParams.get('idx') || '0', 10);
 
-  // Get practice set from sessionStorage
   const practiceSet = useMemo(() => {
     if (!isPracticeMode) return null;
     try {
@@ -56,7 +52,6 @@ const BankQuestion = () => {
 
   const practiceTotal = practiceSet?.length || 0;
 
-  // Find current position in practice set
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || !practiceSet) return -1;
     return practiceSet.findIndex(q => q.id === Number.parseInt(rawId || '0', 10) && q.subject === rawSubject);
@@ -87,7 +82,6 @@ const BankQuestion = () => {
   const [splitPosition, setSplitPosition] = useState(50);
   const [isFullscreen, setIsFullscreen] = useState(false);
   
-  // Default to vertical for math, horizontal for reading
   const [questionViewMode, setQuestionViewMode] = useState<'vertical' | 'horizontal'>(() => {
     return rawSubject === 'reading' ? 'horizontal' : 'vertical';
   });
@@ -99,9 +93,6 @@ const BankQuestion = () => {
   const [isTimerVisible, setIsTimerVisible] = useState(true);
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
-  const questionContentRef = useRef<HTMLDivElement>(null);
-
-  // Helper to render content with consistent styling
   const renderContent = (content: string, center: boolean = false) => {
     if (!content) return null;
     const html = renderMixedContent(content);
@@ -127,12 +118,9 @@ const BankQuestion = () => {
 
   useEffect(() => {
     if (!subject || !question) return;
-    // load persisted state
     const savedFlagged = localStorage.getItem(`${questionKey}-flagged`);
     setMarkedForReview(savedFlagged === "true");
 
-    // intentionally NOT loading previous answers to force a "fresh practice" experience
-    // while keeping the aggregated stats/history in localStorage
     setSelectedAnswer("");
     setFreeResponseAnswer("");
     setCheckedAnswers({});
@@ -141,8 +129,6 @@ const BankQuestion = () => {
     const savedAttempts = localStorage.getItem(`${questionKey}-attempts`);
     setAttemptCount(savedAttempts ? Number.parseInt(savedAttempts, 10) || 0 : 0);
   }, [subject, questionKey, question]);
-
-  // Removed manual innerHTML injection in favor of renderContent helper used in JSX
 
   useEffect(() => {
     if (!isSplitScreenActive) {
@@ -165,7 +151,6 @@ const BankQuestion = () => {
     return () => window.clearInterval(timerId);
   }, [isTimerPaused]);
 
-  // Handle question split divider resizing (for horizontal view mode)
   useEffect(() => {
     if (!isResizingQuestionSplit) return;
 
@@ -223,17 +208,14 @@ const BankQuestion = () => {
     }
   };
 
-  // Navigation for practice mode
   const goToPracticeIndex = (idx: number) => {
     if (!practiceSet || idx < 0 || idx >= practiceSet.length) return;
     const target = practiceSet[idx];
     navigate(`/bank/${target.subject}/${target.id}?practice=true&idx=${idx + 1}`);
   };
 
-  // Navigation for normal mode
   const goTo = (num: number) => {
     if (effectivePracticeMode && practiceSet) {
-      // In practice mode, num is the 1-based index in the practice set
       goToPracticeIndex(num - 1);
     } else {
       if (!subject) return;
@@ -258,7 +240,6 @@ const BankQuestion = () => {
     }
   };
 
-  // Get current position for display
   const displayQuestionNumber = effectivePracticeMode ? (currentPracticeIndex + 1) : questionNumber;
   const canGoPrevious = effectivePracticeMode ? currentPracticeIndex > 0 : questionNumber > 1;
   const canGoNext = effectivePracticeMode ? currentPracticeIndex < practiceTotal - 1 : questionNumber < totalQuestions;
@@ -297,8 +278,6 @@ const BankQuestion = () => {
       localStorage.setItem(`${questionKey}-status`, "incorrect");
     }
 
-    // Track in useUserProgress (powers the Profile statistics page).
-    // Only record the first attempt per session to avoid double-counting.
     if (newAttempts === 1 || !Object.values(checkedAnswers).some(Boolean)) {
       addAttempt(questionKey, isCorrect ? "correct" : "incorrect", elapsedSeconds, userAnswer);
     }
@@ -307,11 +286,9 @@ const BankQuestion = () => {
   const hasSelection = question?.type === "multiple-choice" ? Boolean(selectedAnswer) : Boolean(freeResponseAnswer);
   const isCheckDisabled = !hasSelection || checkButtonState === "correct-first" || checkButtonState === "correct-later";
 
-  // Universal Hotkeys
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
-      // Don't interfere if user is typing in an input, unless it's Enter to submit
       if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
         if (e.key === 'Enter') {
           e.preventDefault();
@@ -342,14 +319,11 @@ const BankQuestion = () => {
             let nextIndex = 0;
             
             if (currentIndex === -1) {
-              // If no selection, Down starts at first, Up starts at last
               nextIndex = e.key === 'ArrowDown' ? 0 : choiceIds.length - 1;
             } else {
               if (e.key === 'ArrowUp') {
-                // Cycle backward
                 nextIndex = (currentIndex - 1 + choiceIds.length) % choiceIds.length;
               } else {
-                // Cycle forward
                 nextIndex = (currentIndex + 1) % choiceIds.length;
               }
             }
@@ -364,16 +338,7 @@ const BankQuestion = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [
-    canGoNext, 
-    canGoPrevious, 
-    handleNext, 
-    handlePrevious, 
-    handleCheck, 
-    question, 
-    selectedAnswer, 
-    questionKey
-  ]);
+  }, [canGoNext, canGoPrevious, handleNext, handlePrevious, handleCheck, question, selectedAnswer, questionKey]);
 
   if (!subject || !question || Number.isNaN(questionNumber)) {
     return (
@@ -493,17 +458,12 @@ const BankQuestion = () => {
           className={`relative ${questionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
           style={{ maxWidth: isSplitScreenActive || questionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || questionViewMode === 'horizontal' ? "0" : "0 auto" }}
         >
-
-
-          {/* Horizontal Layout Mode */}
           {questionViewMode === 'horizontal' ? (
             <div className="flex relative" style={{ minHeight: '400px' }}>
-              {/* Left Panel - Passage Content */}
               <div 
                 className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
               >
-                {/* Use passage if available, otherwise prompt/question text fallback */}
                 {renderContent(stemContent)}
                 
                 {question.questionImages && question.questionImages.length > 0 && (
@@ -523,7 +483,6 @@ const BankQuestion = () => {
                 )}
               </div>
 
-              {/* Horizontal Divider */}
               <div 
                 className="w-4 cursor-col-resize flex items-center justify-center group flex-shrink-0 self-stretch"
                 onMouseDown={() => setIsResizingQuestionSplit(true)}
@@ -531,12 +490,10 @@ const BankQuestion = () => {
                 <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors rounded" />
               </div>
 
-              {/* Right Panel - Question + Answer Area */}
               <div 
                 className="pl-4 overflow-y-auto"
                 style={{ width: `${100 - questionSplitPosition}%` }}
               >
-                {/* Question Toolbar (Horizontal Box) */}
                 <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-4 rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
                   <div className="flex items-center h-full gap-2">
                     <div className="bg-white dark:bg-black text-black dark:text-white h-full w-10 flex items-center justify-center font-bold text-lg shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
@@ -572,7 +529,6 @@ const BankQuestion = () => {
                   </div>
                 </div>
 
-                {/* Specific Question Text above choices */}
                 {showQuestionTextAboveChoices && questionTextContent && (
                   <div className="mb-6">
                     {renderContent(questionTextContent)}
@@ -610,10 +566,8 @@ const BankQuestion = () => {
               </div>
             </div>
           ) : (
-            /* Vertical Layout Mode (default) */
             <>
-               {/* Question Toolbar (Vertical Box) */}
-                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
+               <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
                   <div className="flex items-center h-full gap-2">
                     <div className="bg-white dark:bg-black text-black dark:text-white h-full w-12 flex items-center justify-center font-bold text-xl shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
                       {displayQuestionNumber}
@@ -649,7 +603,6 @@ const BankQuestion = () => {
                 </div>
 
               <div className="mb-6 sm:mb-8 space-y-4">
-                 {/* Stacked content: Passage/Context + Question */}
                  {passageContent ? (
                     <>
                        {renderContent(passageContent)}
