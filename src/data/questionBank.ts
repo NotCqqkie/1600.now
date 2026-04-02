@@ -47,6 +47,10 @@ const rawSources: RawBankSource[] = [
   },
 ];
 
+const rawSourceMap: Record<BankSourceId, RawBankSource> = Object.fromEntries(
+  rawSources.map((source) => [source.bankType, source]),
+) as Record<BankSourceId, RawBankSource>;
+
 export interface BankChoice {
   id: string;
   text?: string;
@@ -412,7 +416,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
   const normalizedText = normalizedSource.text;
   const normalizedRationale = normalizedSource.rationale ? sanitizeCurrency(normalizedSource.rationale) : normalizedSource.rationale;
 
-  let prompt = sanitizeCurrency(normalizedText);
+  const prompt = sanitizeCurrency(normalizedText);
   let passage: string | undefined;
   let questionText: string | undefined = sanitizeCurrency(normalizedText);
 
@@ -452,12 +456,61 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
   };
 };
 
-const normalizedQuestionsBySource: Record<BankSourceId, Omit<BankQuestion, "id">[]> = {
-  unofficial: rawSources[0].questions.filter(hasRenderableStem).map((q) => normalizeQuestion(rawSources[0], q)),
-  past: rawSources[1].questions.filter(hasRenderableStem).map((q) => normalizeQuestion(rawSources[1], q)),
+const poolCache = new Map<string, BankQuestion[]>();
+const rawSourceSubjectCache = new Map<string, SourceQuestion[]>();
+const normalizedSourceSubjectCache = new Map<string, Omit<BankQuestion, "id">[]>();
+
+const makeSourceSubjectCacheKey = (sourceId: BankSourceId, subject: BankSubject) =>
+  `${sourceId}:${subject}`;
+
+const getRawSourceSubjectQuestions = (
+  sourceId: BankSourceId,
+  subject: BankSubject,
+): SourceQuestion[] => {
+  const cacheKey = makeSourceSubjectCacheKey(sourceId, subject);
+  const cached = rawSourceSubjectCache.get(cacheKey);
+  if (cached) return cached;
+
+  const source = rawSourceMap[sourceId];
+  const questions = source.questions.filter((question) => {
+    if (!hasRenderableStem(question)) return false;
+    const sourceCategory = normalizeCategoryFromSource({
+      section: question.section,
+      testName: question.testName,
+      subject: question.category?.subject,
+      domain: question.category?.domain ?? question.domain,
+      skill: question.category?.skill ?? question.skill,
+      confidence: question.category?.confidence,
+    });
+
+    const questionSubject: BankSubject =
+      (sourceCategory ? sourceCategory.subject === "Math" : isMathQuestion(question))
+        ? "math"
+        : "reading";
+
+    return questionSubject === subject;
+  });
+
+  rawSourceSubjectCache.set(cacheKey, questions);
+  return questions;
 };
 
-const poolCache = new Map<string, BankQuestion[]>();
+const getNormalizedSourceSubjectQuestions = (
+  sourceId: BankSourceId,
+  subject: BankSubject,
+): Omit<BankQuestion, "id">[] => {
+  const cacheKey = makeSourceSubjectCacheKey(sourceId, subject);
+  const cached = normalizedSourceSubjectCache.get(cacheKey);
+  if (cached) return cached;
+
+  const source = rawSourceMap[sourceId];
+  const normalized = getRawSourceSubjectQuestions(sourceId, subject).map((question) =>
+    normalizeQuestion(source, question),
+  );
+
+  normalizedSourceSubjectCache.set(cacheKey, normalized);
+  return normalized;
+};
 
 const getSourceIdsForFilter = (bankSource: BankSourceFilter): BankSourceId[] => {
   if (bankSource === "all") return ["unofficial", "past"];
@@ -475,8 +528,7 @@ export const getBankPool = (
   if (cached) return cached;
 
   const pool = getSourceIdsForFilter(bankSource)
-    .flatMap((sourceId) => normalizedQuestionsBySource[sourceId])
-    .filter((question) => question.subject === subject)
+    .flatMap((sourceId) => getNormalizedSourceSubjectQuestions(sourceId, subject))
     .map((question, index) => ({
       ...question,
       id: index + 1,
@@ -497,8 +549,14 @@ export const getBankQuestion = (
 export const getBankCounts = (
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
 ): Record<BankSubject, number> => ({
-  math: getBankPool("math", bankSource).length,
-  reading: getBankPool("reading", bankSource).length,
+  math: getSourceIdsForFilter(bankSource).reduce(
+    (total, sourceId) => total + getRawSourceSubjectQuestions(sourceId, "math").length,
+    0,
+  ),
+  reading: getSourceIdsForFilter(bankSource).reduce(
+    (total, sourceId) => total + getRawSourceSubjectQuestions(sourceId, "reading").length,
+    0,
+  ),
 });
 
 export const bankCounts = getBankCounts("all");
