@@ -651,21 +651,6 @@ const Home = () => {
             textAlign: "center",
           }}
         >
-          {/* Label */}
-          <div className="h-fade-1" style={{ marginBottom: 24 }}>
-            <span
-              style={{
-                fontSize: 12,
-                color: "rgba(255,255,255,0.35)",
-                fontWeight: 400,
-                letterSpacing: "0.06em",
-                textTransform: "uppercase",
-              }}
-            >
-              Free &nbsp;·&nbsp; No account required &nbsp;·&nbsp; SAT 2025–2026
-            </span>
-          </div>
-
           {/* Headline */}
           <h1
             className="h-fade-2"
