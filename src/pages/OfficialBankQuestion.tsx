@@ -1,7 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState, useMemo } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { BankSubject, bankCounts, getBankPool, getBankQuestion } from "@/data/officialQuestionBank";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
@@ -33,11 +32,8 @@ const OfficialBankQuestion = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
 
-  // Check if in practice mode
   const isPracticeMode = searchParams.get('practice') === 'true';
-  const practiceIdx = parseInt(searchParams.get('idx') || '0', 10);
 
-  // Get practice set from sessionStorage
   const practiceSet = useMemo(() => {
     if (!isPracticeMode) return null;
     try {
@@ -50,30 +46,20 @@ const OfficialBankQuestion = () => {
 
   const practiceTotal = practiceSet?.length || 0;
 
-  // Find current position in practice set
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || !practiceSet) return -1;
-    // Note: ensure id comparison works for string/number types
     return practiceSet.findIndex(q => String(q.id) === rawId && q.subject === rawSubject);
   }, [isPracticeMode, practiceSet, rawId, rawSubject]);
   const effectivePracticeMode = Boolean(isPracticeMode && practiceSet && practiceSet.length > 0 && currentPracticeIndex >= 0);
 
   const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : null) as BankSubject | null;
-  // Handle string IDs for official bank
   const questionId = rawId || "1";
   
-  // For total count, if using official bank, might differ.
-  // bankCounts might be correct if officialQuestionBank updates it.
   const totalQuestions = effectivePracticeMode ? practiceTotal : (subject ? bankCounts[subject] : 0);
-  
   const question = subject ? getBankQuestion(subject, questionId) : null;
 
   const storagePrefix = subject ? `official-bank-${subject}` : "official-bank";
   const questionKey = `${storagePrefix}-${question?.id || questionId}`;
-  
-  // Official questions might use UUIDs, so simple addition for strikeoutId won't work.
-  // We'll use the ID string directly as a suffix if it's a string, or a hash.
-  // But MultipleChoiceQuestion just needs a unique ID scope.
   const strikeoutId = question?.id || questionKey;
 
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
@@ -89,7 +75,6 @@ const OfficialBankQuestion = () => {
   const [splitPosition, setSplitPosition] = useState(50);
   const [isFullscreen, setIsFullscreen] = useState(false);
   
-  // Default to vertical for math, horizontal for reading
   const [questionViewMode, setQuestionViewMode] = useState<'vertical' | 'horizontal'>(() => {
     return rawSubject === 'reading' ? 'horizontal' : 'vertical';
   });
@@ -101,9 +86,6 @@ const OfficialBankQuestion = () => {
   const [isTimerVisible, setIsTimerVisible] = useState(true);
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
-  const questionContentRef = useRef<HTMLDivElement>(null);
-
-  // Helper to render content with consistent styling
   const renderContent = (content: string, center: boolean = false) => {
     if (!content) return null;
     const html = renderMixedContent(content);
@@ -129,12 +111,9 @@ const OfficialBankQuestion = () => {
 
   useEffect(() => {
     if (!subject || !question) return;
-    // load persisted state
     const savedFlagged = localStorage.getItem(`${questionKey}-flagged`);
     setMarkedForReview(savedFlagged === "true");
 
-    // intentionally NOT loading previous answers to force a "fresh practice" experience
-    // while keeping the aggregated stats/history in localStorage
     setSelectedAnswer("");
     setFreeResponseAnswer("");
     setCheckedAnswers({});
@@ -165,7 +144,6 @@ const OfficialBankQuestion = () => {
     return () => window.clearInterval(timerId);
   }, [isTimerPaused]);
 
-  // Handle question split divider resizing (for horizontal view mode)
   useEffect(() => {
     if (!isResizingQuestionSplit) return;
 
@@ -223,43 +201,17 @@ const OfficialBankQuestion = () => {
     }
   };
 
-  // Navigation for practice mode
   const goToPracticeIndex = (idx: number) => {
     if (!practiceSet || idx < 0 || idx >= practiceSet.length) return;
     const target = practiceSet[idx];
     navigate(`/official-bank/${target.subject}/${target.id}?practice=true&idx=${idx + 1}`);
   };
 
-  // Navigation for normal mode
   const goTo = (targetId: string | number) => {
-    if (isPracticeMode && practiceSet) {
-      // In practice mode, num is the 1-based index in the practice set  <-- comment from original, logic slightly different for ID
-      // This is "go to Nth question" or "go to question ID"?
-      // The original BankQuestion expected `num` (an integer index for the pool).
-      // Here `targetId` in official bank might be string.
-      // If `goTo` is called with a number, and official bank relies on array index, we need similar logic.
-      // Original: navigate(`/bank/${subject}/${num}`);
-      // getBankQuestion(subject, num) expects 1-based index if it's the sequential bank.
-      // If official bank is just an array, then strict ID might be needed.
-      // Let's assume getBankQuestion handles "id" which might be "1", "2", etc OR "uuid".
-      // If "official-bank" behavior mimics "bank", then "num" is likely an index 1...N.
-      
-      if (!subject) return;
-       navigate(`/official-bank/${subject}/${targetId}`);
-    } else {
-      // Logic for sequential navigation in pool
-      // If official bank allows sequential by index (1..N), we use that.
-      if (!subject) return;
-      navigate(`/official-bank/${subject}/${targetId}`);
-    }
+    if (!subject) return;
+    navigate(`/official-bank/${subject}/${targetId}`);
   };
 
-  // Assuming sequential integer IDs for now if next/prev logic is needed based on +1/-1
-  // If IDs are strings/UUIDs, next/prev requires finding current index in global pool.
-  // The original `getBankQuestion(subject, id)`:
-  // "returns the question at that index (1-based) OR with that ID".
-  // `getBankPool(subject)` returns array.
-  
   const pool = subject ? getBankPool(subject) : [];
   const currentPoolIndex = useMemo(() => {
      if (!question || !pool.length) return -1;
@@ -288,10 +240,9 @@ const OfficialBankQuestion = () => {
     }
   };
   
-  // Re-calc basic nav flags based on pool index
   const canGoPrevious = effectivePracticeMode ? currentPracticeIndex > 0 : currentPoolIndex > 0;
   const canGoNext = effectivePracticeMode ? currentPracticeIndex < practiceTotal - 1 : currentPoolIndex < pool.length - 1;
-  const displayQuestionNumber = effectivePracticeMode ? (currentPracticeIndex + 1) : (currentPoolIndex + 1); // 1-based index in pool
+  const displayQuestionNumber = effectivePracticeMode ? (currentPracticeIndex + 1) : (currentPoolIndex + 1);
 
   const handleCheck = (overrideAnswer?: string) => {
     if (!question) return;
@@ -331,11 +282,9 @@ const OfficialBankQuestion = () => {
   const hasSelection = question?.type === "multiple-choice" ? Boolean(selectedAnswer) : Boolean(freeResponseAnswer);
   const isCheckDisabled = !hasSelection || checkButtonState === "correct-first" || checkButtonState === "correct-later";
 
-  // Universal Hotkeys
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
-      // Don't interfere if user is typing in an input, unless it's Enter to submit
       if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
         if (e.key === 'Enter') {
           e.preventDefault();
@@ -366,14 +315,11 @@ const OfficialBankQuestion = () => {
             let nextIndex = 0;
             
             if (currentIndex === -1) {
-              // If no selection, Down starts at first, Up starts at last
               nextIndex = e.key === 'ArrowDown' ? 0 : choiceIds.length - 1;
             } else {
               if (e.key === 'ArrowUp') {
-                // Cycle backward
                 nextIndex = (currentIndex - 1 + choiceIds.length) % choiceIds.length;
               } else {
-                // Cycle forward
                 nextIndex = (currentIndex + 1) % choiceIds.length;
               }
             }
@@ -388,16 +334,7 @@ const OfficialBankQuestion = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [
-    canGoNext, 
-    canGoPrevious, 
-    handleNext, 
-    handlePrevious, 
-    handleCheck, 
-    question, 
-    selectedAnswer, 
-    questionKey
-  ]);
+  }, [canGoNext, canGoPrevious, handleNext, handlePrevious, handleCheck, question, selectedAnswer, questionKey]);
 
   if (!subject || !question) {
     return (
@@ -517,17 +454,12 @@ const OfficialBankQuestion = () => {
           className={`relative ${questionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
           style={{ maxWidth: isSplitScreenActive || questionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || questionViewMode === 'horizontal' ? "0" : "0 auto" }}
         >
-
-
-          {/* Horizontal Layout Mode */}
           {questionViewMode === 'horizontal' ? (
             <div className="flex relative" style={{ minHeight: '400px' }}>
-              {/* Left Panel - Passage Content */}
               <div 
                 className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
               >
-                {/* Use passage if available, otherwise prompt/question text fallback */}
                 {renderContent(stemContent)}
                 
                 {question.questionImages && question.questionImages.length > 0 && (
@@ -547,7 +479,6 @@ const OfficialBankQuestion = () => {
                 )}
               </div>
 
-              {/* Horizontal Divider */}
               <div 
                 className="w-4 cursor-col-resize flex items-center justify-center group flex-shrink-0 self-stretch"
                 onMouseDown={() => setIsResizingQuestionSplit(true)}
@@ -555,12 +486,10 @@ const OfficialBankQuestion = () => {
                 <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors rounded" />
               </div>
 
-              {/* Right Panel - Question + Answer Area */}
               <div 
                 className="pl-4 overflow-y-auto"
                 style={{ width: `${100 - questionSplitPosition}%` }}
               >
-                {/* Question Toolbar (Horizontal Box) */}
                 <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-4 rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
                   <div className="flex items-center h-full gap-2">
                     <div className="bg-white dark:bg-black text-black dark:text-white h-full w-10 flex items-center justify-center font-bold text-lg shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
@@ -596,7 +525,6 @@ const OfficialBankQuestion = () => {
                   </div>
                 </div>
 
-                {/* Specific Question Text above choices */}
                 {showQuestionTextAboveChoices && questionTextContent && (
                   <div className="mb-6">
                     {renderContent(questionTextContent)}
@@ -634,10 +562,8 @@ const OfficialBankQuestion = () => {
               </div>
             </div>
           ) : (
-            /* Vertical Layout Mode (default) */
             <>
-               {/* Question Toolbar (Vertical Box) */}
-                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
+               <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
                   <div className="flex items-center h-full gap-2">
                     <div className="bg-white dark:bg-black text-black dark:text-white h-full w-12 flex items-center justify-center font-bold text-xl shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
                       {displayQuestionNumber}
@@ -673,7 +599,6 @@ const OfficialBankQuestion = () => {
                 </div>
 
               <div className="mb-6 sm:mb-8 space-y-4">
-                 {/* Stacked content: Passage/Context + Question */}
                  {passageContent ? (
                     <>
                        {renderContent(passageContent)}
@@ -760,10 +685,6 @@ const OfficialBankQuestion = () => {
                   currentQuestion={Math.max(1, currentPoolIndex + 1)}
                   totalQuestions={totalQuestions}
                   onJump={(idx) => {
-                       // BankNavigationSheet usually sends idx (1-based)
-                       // logic: onJump needs to map to ID or Index.
-                       // Standard Bank: onJump(num). goTo(num).
-                       // Here process is:
                        if (idx < 1 || idx > pool.length) return;
                        if (pool[idx - 1]) {
                            goTo(pool[idx - 1].id);
@@ -819,7 +740,6 @@ const OfficialBankQuestion = () => {
              isCorrect={checkButtonState === "correct-first" || checkButtonState === "correct-later"}
              showExplanation={checkButtonState === "correct-first" || checkButtonState === "correct-later" || attemptCount >= 3}
           />
-
         </div>
       </main>
     </div>
