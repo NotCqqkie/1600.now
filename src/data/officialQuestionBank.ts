@@ -45,6 +45,7 @@ export interface BankQuestion {
   correctAnswer?: string | null;
   rationale?: string | null;
   questionImages?: { src: string; alt: string }[];
+  difficulty?: "Easy" | "Medium" | "Hard" | null;
   /** Category classification */
   category: QuestionCategory;
 }
@@ -55,6 +56,14 @@ export { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomain
 
 const sanitizeCurrency = (text: string | null | undefined): string => {
   return normalizeTextForMathRendering(text);
+};
+
+const normalizeDifficulty = (value: string | null | undefined): "Easy" | "Medium" | "Hard" | null => {
+  const normalized = (value ?? "").trim().toLowerCase();
+  if (normalized === "easy") return "Easy";
+  if (normalized === "medium") return "Medium";
+  if (normalized === "hard") return "Hard";
+  return null;
 };
 
 const inferQuestionSubject = (q: SourceQuestion): QuestionCategory["subject"] | null =>
@@ -345,6 +354,7 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
     correctAnswer: q.correctAnswer,
     rationale: q.rationale ? sanitizeCurrency(q.rationale) : q.rationale,
     questionImages: mapImages(q.id, q.image),
+    difficulty: normalizeDifficulty(q.difficulty),
     category,
   };
 };

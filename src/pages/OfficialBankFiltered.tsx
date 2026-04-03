@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import {
   getQuestionsByDomain,
   getQuestionsBySkill,
@@ -40,6 +40,11 @@ const OfficialBankFiltered = () => {
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
   const isMath = validSubject === "math";
   const decodedFilter = decodeURIComponent(filterValue || "");
+
+  useEffect(() => {
+    sessionStorage.removeItem("question-view-mode:official:math");
+    sessionStorage.removeItem("question-view-mode:official:reading");
+  }, []);
 
   const questions = useMemo(() => {
     if (filterType === "domain") {

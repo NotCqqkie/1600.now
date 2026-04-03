@@ -28,6 +28,7 @@ import {
   QuestionBankFilterPanel,
   QuestionBankFilters,
   defaultFilters,
+  hasActiveQuestionBankFilters,
 } from "@/components/QuestionBankFilterPanel";
 import {
   getUserProgressStatic,
@@ -118,6 +119,11 @@ const OfficialBankIndex = () => {
   // Check if question passes filters
   const questionPassesFilters = useCallback((q: BankQuestion, subject: BankSubject): boolean => {
     const progress = getQuestionProgress(q, subject);
+
+    if (filters.difficulty !== "all") {
+      const normalizedDifficulty = (q.difficulty ?? "").trim().toLowerCase();
+      if (normalizedDifficulty !== filters.difficulty) return false;
+    }
 
     // Marked for review filter
     if (filters.markedForReview !== "all") {
@@ -771,7 +777,7 @@ const OfficialBankIndex = () => {
             onFiltersChange={setFilters}
             rightContent={
               <div className="flex items-center gap-4">
-                {Object.values(filters).some(v => v !== "all" && v !== "none") && (
+                {hasActiveQuestionBankFilters(filters) && (
                   <Button 
                     variant="ghost" 
                     size="sm" 

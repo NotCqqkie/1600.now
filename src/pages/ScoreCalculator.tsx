@@ -1,16 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { RotateCcw } from "lucide-react";
-import { Link } from "react-router-dom";
 
 import { Slider } from "@/components/ui/slider";
-import { cn } from "@/lib/utils";
 import { getSatScoreColor, satCalculatorYears } from "@/data/satCalculator";
-
-const tabLinks = [
-  { to: "/bank", label: "Question Bank" },
-  { to: "/hard/1", label: "100 Hard Questions" },
-  { to: "/score-calculator", label: "Score Calculator" },
-];
 
 const digitalSatSections = satCalculatorYears[0].sections;
 const rwSections = digitalSatSections.slice(0, 2);
@@ -93,26 +85,6 @@ const ScoreCalculator = () => {
   return (
     <div className="min-h-screen bg-background" style={{ fontFamily: "'Outfit', sans-serif" }}>
       <main style={{ maxWidth: 1240, margin: "0 auto", padding: "32px 24px 80px" }}>
-        <nav
-          className="mb-8 flex flex-wrap items-center gap-2"
-          aria-label="Score calculator navigation"
-        >
-          {tabLinks.map((link) => (
-            <Link
-              key={link.to}
-              to={link.to}
-              className={cn(
-                "rounded-full border px-4 py-2 text-sm font-medium transition-colors",
-                link.to === "/score-calculator"
-                  ? "border-transparent bg-foreground text-background"
-                  : "border-border bg-card text-foreground hover:bg-muted",
-              )}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
-
         <div
           className="grid gap-7 lg:grid-cols-[minmax(0,1.4fr)_minmax(320px,380px)]"
           style={{ alignItems: "start" }}

@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import { getBankPool } from "@/data/questionBank";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { Button } from "@/components/ui/button";
 import {
   AreaChart,
@@ -16,10 +15,6 @@ import {
 } from "recharts";
 import { intervalToDuration } from "date-fns";
 import {
-  ChevronDown,
-  LogOut,
-  Settings,
-  User,
   Target,
   Clock,
   Zap,
@@ -28,15 +23,8 @@ import {
   ArrowRight,
   TrendingDown,
   TrendingUp,
+  User,
 } from "lucide-react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 // ─── Category map (same as Profile.tsx) ───────────────────────────────────
 
@@ -210,7 +198,7 @@ const DomainBar = ({
 
 const Analysis = () => {
   const navigate = useNavigate();
-  const { user, signOut } = useAuth();
+  const { user } = useAuth();
   const { progress } = useUserProgress();
 
   useEffect(() => {
@@ -378,94 +366,6 @@ const Analysis = () => {
       className="min-h-screen"
       style={{ fontFamily: "'Outfit', sans-serif" }}
     >
-      {/* ── HEADER (consistent with other pages) ─────────────────────── */}
-      <header className="sticky top-0 z-20 border-b border-border bg-card/95 backdrop-blur">
-        <div className="container mx-auto flex h-16 items-center justify-between gap-3 px-4">
-          <Link
-            to="/"
-            className="inline-flex flex-shrink-0 items-center no-underline"
-            aria-label="1600.now homepage"
-          >
-            <img
-              src="/logo_b.png"
-              alt="1600.now"
-              className="h-10 object-contain dark:hidden"
-            />
-            <img
-              src="/logo_w.png"
-              alt="1600.now"
-              className="hidden h-10 object-contain dark:block"
-            />
-          </Link>
-
-          <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 text-sm text-muted-foreground md:flex">
-            <Link
-              to="/bank"
-              className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground transition-colors"
-            >
-              Question Bank
-            </Link>
-            <Link
-              to="/hard/1"
-              className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground transition-colors"
-            >
-              100 Hard Questions
-            </Link>
-            <Link
-              to="/score-calculator"
-              className="rounded-md px-3 py-1.5 hover:bg-muted hover:text-foreground transition-colors"
-            >
-              Score Calculator
-            </Link>
-          </nav>
-
-          <div className="inline-flex flex-shrink-0 items-center gap-2">
-            <ThemeToggle />
-            {user ? (
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="outline" size="sm" className="gap-1.5">
-                    <User className="h-4 w-4" />
-                    <span>Account</span>
-                    <ChevronDown className="h-3 w-3 text-muted-foreground" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-56">
-                  <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                  <div className="truncate px-2 py-1.5 text-xs text-muted-foreground">
-                    {user.email}
-                  </div>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem onClick={() => navigate("/profile")}>
-                    <Settings className="mr-2 h-4 w-4" />
-                    <span>Profile</span>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem
-                    onClick={() => navigate("/analysis")}
-                    className="bg-primary/10 text-foreground"
-                  >
-                    <BarChart3 className="mr-2 h-4 w-4" />
-                    <span>Statistics</span>
-                  </DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem
-                    onClick={() => signOut()}
-                    className="text-red-600 focus:text-red-600"
-                  >
-                    <LogOut className="mr-2 h-4 w-4" />
-                    <span>Log out</span>
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            ) : (
-              <Button size="sm" onClick={() => navigate("/login")}>
-                Sign In
-              </Button>
-            )}
-          </div>
-        </div>
-      </header>
-
       {/* ── DARK HERO BANNER ─────────────────────────────────────────── */}
       <section
         style={{

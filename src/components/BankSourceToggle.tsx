@@ -1,19 +1,19 @@
 import { Button } from "@/components/ui/button";
 import {
   BANK_SOURCE_LABELS,
-  type BankSourceId,
+  type BankSourceFilter,
 } from "@/data/questionBank";
 
 interface BankSourceToggleProps {
-  value: BankSourceId;
-  onChange: (value: BankSourceId) => void;
+  value: BankSourceFilter;
+  onChange: (value: BankSourceFilter) => void;
 }
 
 export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => {
-  const sources: BankSourceId[] = ["unofficial", "past"];
+  const sources: BankSourceFilter[] = ["unofficial", "past", "all"];
 
   return (
-    <div className="inline-flex rounded-lg border bg-card p-1">
+    <div className="inline-flex flex-wrap rounded-lg border bg-card p-1">
       {sources.map((source) => (
         <Button
           key={source}

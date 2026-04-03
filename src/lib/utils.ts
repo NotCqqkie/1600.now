@@ -176,15 +176,167 @@ const normalizeMathWrappedCurrency = (content: string): string => {
   return result;
 };
 
+const normalizeAsteriskWrappedMath = (content: string): string => {
+  let normalized = content;
+
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z])\s*\*\s*in the\s*\*\s*xy\s*\*(?=-plane\b)/gi,
+    (_, variable: string) => `$${variable}$ in the $xy$`,
+  );
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z])\s*\*\s*in terms of\b/gi,
+    (_, variable: string) => `$${variable}$ in terms of`,
+  );
+
+  // Unwrap doubly emphasized math tokens such as "** x **" that should just be x.
+  normalized = normalized.replace(
+    /\*\*\s*([A-Za-z0-9]+(?:\.[A-Za-z0-9]+)?|xy|pi|π)\s*\*\*/gi,
+    "$1",
+  );
+
+  // Repair common coordinate corruption like "(* x **, y *)" -> "(x, y)".
+  normalized = normalized.replace(
+    /\(\*\s*([A-Za-z])\s*\*\*\s*,\s*([A-Za-z])\s*\*\)/g,
+    "($1, $2)",
+  );
+  normalized = normalized.replace(
+    /\(\*\s*([A-Za-z])\s*,\s*([A-Za-z])\s*\*\)/g,
+    "($1, $2)",
+  );
+
+  // Repair starred variable lists such as "* h, b *" and "* b, x, *".
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z])((?:\s*,\s*[A-Za-z])+)\s*,?\s*\*/g,
+    (match, first: string, rest: string) => {
+      const variables = [first, ...rest.split(",").map((part) => part.trim()).filter(Boolean)];
+      if (!variables.every((variable) => /^[A-Za-z]$/.test(variable))) {
+        return match;
+      }
+
+      const hasTrailingComma = /,\s*\*$/.test(match);
+      return `${variables.map((variable) => `$${variable}$`).join(", ")}${hasTrailingComma ? "," : ""}`;
+    },
+  );
+
+  // Repair malformed starred variables before punctuation, such as "* y ** *=".
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z]+)\s*\*\*\s*\*\s*([=,)])/g,
+    (_, variable: string, suffix: string) => `$${variable}$${suffix}`,
+  );
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z]+)\s*\*\*\s*([=,)])/g,
+    (_, variable: string, suffix: string) => `$${variable}$${suffix}`,
+  );
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z]+)\s*\*\*\s*,\s*\*/g,
+    (_, variable: string) => `$${variable}$, `,
+  );
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z]+)\s*\?\s*\*/g,
+    (_, variable: string) => `$${variable}$?`,
+  );
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z]+)\s*\*\*\s*\*/g,
+    (_, variable: string) => `$${variable}$`,
+  );
+  normalized = normalized.replace(/\*\s*(in [^*]+?)\s*\*/gi, "$1");
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z])\s*\*\s*(hours?|days?|seconds?|minutes?|months?|years?)\b/gi,
+    (_, variable: string, unit: string) => `$${variable}$ ${unit}`,
+  );
+  normalized = normalized.replace(
+    /\b([A-Za-z])\s*\*\s*(hours?|days?|seconds?|minutes?|months?|years?)\b/gi,
+    (_, variable: string, unit: string) => `$${variable}$ ${unit}`,
+  );
+
+  // Repair exponent corruption such as "* x ** 2 *" -> "$x^2$" and "* a 2 *" -> "$a^2$".
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z])\s*\*\*\s*(\d+)\s*\*/g,
+    (_, variable: string, exponent: string) => `$${variable}^${exponent}$`,
+  );
+  normalized = normalized.replace(
+    /\*\s*([A-Za-z])\s+2\s*\*/g,
+    (_, variable: string) => `$${variable}^2$`,
+  );
+
+  // Convert remaining math-like starred spans to LaTeX math while leaving prose titles alone.
+  normalized = normalized.replace(/\*([^*\n]+?)\*/g, (match, inner: string) => {
+    const candidate = inner
+      .replace(/\*\*\s*([A-Za-z0-9]+(?:\.[A-Za-z0-9]+)?|xy|pi|π)\s*\*\*/gi, "$1")
+      .trim()
+      .replace(/\s+/g, " ");
+
+    if (!candidate || !isLikelyInlineMath(candidate)) {
+      return match;
+    }
+
+    return `$${candidate}$`;
+  });
+
+  normalized = normalized.replace(/\*\s*\*/g, "");
+
+  return normalized;
+};
+
+const normalizeFullWidthMathPunctuation = (content: string): string =>
+  content
+    .replace(/[（]/g, "(")
+    .replace(/[）]/g, ")")
+    .replace(/[，]/g, ",")
+    .replace(/[？]/g, "?")
+    .replace(/[＞]/g, ">")
+    .replace(/[＜]/g, "<");
+
+const normalizeImplicitMathExponents = (content: string): string => {
+  let normalized = content;
+
+  normalized = normalized.replace(
+    /\)\s+([23])(?=(?:\s*[+\-)=,?.]|$))/g,
+    ")^$1",
+  );
+  normalized = normalized.replace(
+    /(^|[^A-Za-z])([A-Za-z])\s+([23])(?=(?:\s*[A-Za-z+\-)=,?.]|$))/g,
+    (_, prefix: string, variable: string, exponent: string) => `${prefix}${variable}^${exponent}`,
+  );
+
+  return normalized;
+};
+
+const normalizeInlineMathSpacing = (content: string): string => {
+  let normalized = content;
+
+  normalized = normalized.replace(
+    /\$([A-Za-z]+)\$\(([^)$]+)\)/g,
+    (_, fn: string, arg: string) => `$${fn}(${arg})$`,
+  );
+  normalized = normalized.replace(
+    /([A-Za-z]+)\(\$([A-Za-z]+)\$\)/g,
+    (_, fn: string, arg: string) => `$${fn}(${arg})$`,
+  );
+
+  normalized = normalized.replace(/([A-Za-z])(\$[A-Za-z][^$]*\$)/g, "$1 $2");
+  normalized = normalized.replace(/(\$[A-Za-z][^$]*\$)([A-Za-z])/g, "$1 $2");
+
+  return normalized;
+};
+
 const normalizeMalformedComparatorCommands = (content: string): string =>
   content.replace(/\\(le|ge|lt|gt)([A-Za-pr-zA-PR-Z0-9])(?=[^A-Za-z]|$)/g, "\\$1 $2");
 
 export function normalizeTextForMathRendering(text: string | null | undefined): string {
   if (!text) return text || "";
 
-  const normalizedCurrency = normalizeMathWrappedCurrency(
-    normalizeMathWrappedPercentages(
-      normalizeMalformedComparatorCommands(text)
+  const normalizedCurrency = normalizeInlineMathSpacing(
+    normalizeMathWrappedCurrency(
+      normalizeMathWrappedPercentages(
+        normalizeMalformedComparatorCommands(
+          normalizeImplicitMathExponents(
+            normalizeFullWidthMathPunctuation(
+              normalizeAsteriskWrappedMath(text)
+            )
+          )
+        )
+      )
     )
   );
   let result = "";

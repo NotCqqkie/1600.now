@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
 import {
   Select,
   SelectContent,
@@ -20,12 +19,13 @@ import {
   Bookmark,
   CheckCircle,
   XCircle,
-  RotateCcw,
+  BarChart3,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // Filter state types
 export interface QuestionBankFilters {
+  difficulty: "all" | "easy" | "medium" | "hard";
   timeSpent: "all" | "none" | "0-20s" | "20-40s" | "40s-1m" | "1m-2m" | "2m-3m" | "3m-5m" | "5m+";
   markedForReview: "all" | "yes" | "no";
   solved: "all" | "yes" | "no";
@@ -33,11 +33,17 @@ export interface QuestionBankFilters {
 }
 
 export const defaultFilters: QuestionBankFilters = {
+  difficulty: "all",
   timeSpent: "all",
   markedForReview: "all",
   solved: "all",
   answeredIncorrectly: "all",
 };
+
+export const hasActiveQuestionBankFilters = (filters: QuestionBankFilters): boolean =>
+  (Object.keys(defaultFilters) as Array<keyof QuestionBankFilters>).some(
+    (key) => filters[key] !== defaultFilters[key],
+  );
 
 interface FilterPanelProps {
   filters: QuestionBankFilters;
@@ -82,15 +88,6 @@ export function QuestionBankFilterPanel({
     onFiltersChange({ ...filters, [key]: value });
   };
 
-  const resetFilters = () => {
-    onFiltersChange(defaultFilters);
-  };
-
-  const hasActiveFilters = Object.entries(filters).some(([key, value]) => {
-    const defaultValue = defaultFilters[key as keyof QuestionBankFilters];
-    return value !== defaultValue;
-  });
-
   return (
     <div className="space-y-4">
       {/* Top Bar */}
@@ -111,8 +108,25 @@ export function QuestionBankFilterPanel({
       <Collapsible open={isOpen} onOpenChange={setIsOpen}>
         <CollapsibleContent>
           <div className="border rounded-lg p-4 bg-muted/30 space-y-4">
-            {/* Filter Grid - 2 columns on mobile, 4 on desktop */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {/* Filter Grid - 2 columns on mobile, 5 on desktop */}
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              <FilterCard icon={BarChart3} label="Difficulty">
+                <Select
+                  value={filters.difficulty}
+                  onValueChange={(v) => updateFilter("difficulty", v as typeof filters.difficulty)}
+                >
+                  <SelectTrigger className="w-full">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="all">Any Difficulty</SelectItem>
+                    <SelectItem value="easy">Easy</SelectItem>
+                    <SelectItem value="medium">Medium</SelectItem>
+                    <SelectItem value="hard">Hard</SelectItem>
+                  </SelectContent>
+                </Select>
+              </FilterCard>
+
               <FilterCard icon={Clock} label="Time Spent Solving">
                 <Select
                   value={filters.timeSpent}
