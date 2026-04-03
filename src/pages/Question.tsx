@@ -104,9 +104,6 @@ const formatTimer = (totalSeconds: number) => {
   return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 };
 
-const formatQuestionType = (type: "multiple-choice" | "free-response") =>
-  type === "multiple-choice" ? "Multiple Choice" : "Student Response";
-
 const QUESTION_SENTENCE_PATTERNS = [
   /^which choice\b/i,
   /^based on the\b/i,
@@ -323,23 +320,17 @@ function Question() {
       bankLabel: string;
       subject: "math" | "reading";
       sourceId: string;
-      questionNumber: number | string;
-      testName: string;
-      type: "multiple-choice" | "free-response";
       correctAnswer?: string | null;
       difficulty?: "Easy" | "Medium" | "Hard" | null;
       category?: {
-        subject?: string;
         domain?: string;
         skill?: string;
-        confidence?: string;
       };
     }>;
 
     const bankLabel = isOfficialBank ? "Official Question Bank" : questionWithMetadata.bankLabel || "Question Bank";
     const sourceSubject = questionWithMetadata.subject || subject;
     const subjectLabel = sourceSubject === "reading" ? "Reading and Writing" : "Math";
-    const questionType = questionWithMetadata.type ? formatQuestionType(questionWithMetadata.type) : "Unknown";
 
     const fields: QuestionInfoField[] = [
       { label: "Bank", value: bankLabel },
@@ -347,27 +338,14 @@ function Question() {
       { label: "Difficulty", value: questionWithMetadata.difficulty || "Unassigned" },
       { label: "Domain", value: questionWithMetadata.category?.domain || "Unassigned" },
       { label: "Skill", value: questionWithMetadata.category?.skill || "Unassigned" },
-      { label: "Classification Confidence", value: questionWithMetadata.category?.confidence || "Unassigned" },
-      { label: "Question Type", value: questionType },
-      { label: "Test Name", value: questionWithMetadata.testName || "Unknown" },
-      { label: "Question Number", value: String(questionWithMetadata.questionNumber ?? questionNumber) },
       { label: "Source ID", value: questionWithMetadata.sourceId || "Unknown" },
-      { label: "Storage Key", value: currentQuestion.uuid },
       { label: "Correct Answer", value: currentQuestion.correctAnswer || "Unavailable" },
     ];
 
-    const rawQuestionData = {
-      ...currentQuestion,
-      bankLabel,
-      subject: sourceSubject,
-      storageKey: currentQuestion.uuid,
-    };
-
     return {
       fields,
-      rawData: JSON.stringify(rawQuestionData, null, 2),
     };
-  }, [currentQuestion, is100Hard, isOfficialBank, questionNumber, subject]);
+  }, [currentQuestion, is100Hard, isOfficialBank, subject]);
   const bankNavigationItems = useMemo(() => {
     if (!isBank) return [];
     return getBankPoolNormal(subject, bankSource).map((question) => ({
@@ -963,8 +941,7 @@ function Question() {
     <Dialog>
       <DialogTrigger asChild>
         <Button variant="outline" size="sm" title="Question Info">
-          <Info className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
-          {!topShouldCompress && "Info"}
+          <Info className="h-4 w-4" />
         </Button>
       </DialogTrigger>
       <DialogContent className="max-w-3xl max-h-[85vh] overflow-hidden">
@@ -984,13 +961,6 @@ function Question() {
                 <p className="mt-1 text-sm font-medium break-all">{field.value}</p>
               </div>
             ))}
-          </div>
-
-          <div className="space-y-2">
-            <p className="text-sm font-semibold">Full Question Data</p>
-            <pre className="max-h-[320px] overflow-auto rounded-lg border bg-muted/40 p-3 text-xs leading-5">
-              {questionInfo.rawData}
-            </pre>
           </div>
         </div>
       </DialogContent>
@@ -1113,8 +1083,7 @@ function Question() {
               </Button>
               {questionInfo && (
                 <Button variant="outline" size="sm">
-                  <span className="mr-2 inline-block h-4 w-4" />
-                  Info
+                  <Info className="h-4 w-4" />
                 </Button>
               )}
               <Button variant="outline" size="sm">
@@ -1161,7 +1130,7 @@ function Question() {
               >
                 <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-4 rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
                   <div className="flex items-center h-full gap-2">
-                    <div className="bg-white dark:bg-black text-black dark:text-white h-full w-10 flex items-center justify-center font-bold text-lg shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
+                    <div className="bg-white dark:bg-black text-black dark:text-white h-full min-w-[3.75rem] px-2 flex items-center justify-center font-bold text-lg tabular-nums shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
                       {displayQuestionNumber}
                     </div>
                     
@@ -1227,7 +1196,7 @@ function Question() {
             <>
                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
                   <div className="flex items-center h-full gap-2">
-                    <div className="bg-white dark:bg-black text-black dark:text-white h-full w-12 flex items-center justify-center font-bold text-xl shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
+                    <div className="bg-white dark:bg-black text-black dark:text-white h-full min-w-[4.25rem] px-2 flex items-center justify-center font-bold text-xl tabular-nums shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
                       {displayQuestionNumber}
                     </div>
                     
@@ -1380,7 +1349,6 @@ function Question() {
               style={{ minWidth: shouldCompress ? undefined : '280px' }}
             >
               <ExplanationWindow 
-                videoUrl={currentQuestion?.explanationVideo}
                 onSplitScreenChange={handleSplitScreenChange}
                 onSplitPositionChange={handleSplitPositionChange}
                 splitPosition={splitPosition}

@@ -5,7 +5,6 @@ import { DraggableWindow } from "./DraggableWindow";
 import { normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
 
 interface ExplanationWindowProps {
-  videoUrl?: string;
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   onSplitPositionChange?: (newPosition: number) => void;
   splitPosition?: number;

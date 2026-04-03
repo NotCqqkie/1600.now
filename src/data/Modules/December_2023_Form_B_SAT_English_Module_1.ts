@@ -761,7 +761,7 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Transitions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "rationale": null,
     "id": "25547537-4b75-4c1c-8c86-e3b70293c301_22",
     "testName": "December 2023 Form B SAT English Module 1",

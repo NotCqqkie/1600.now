@@ -27,3 +27,6 @@ dist-ssr
 
 .env
 .aider*
+__pycache__/
+*.pyc
+scripts/reports/
