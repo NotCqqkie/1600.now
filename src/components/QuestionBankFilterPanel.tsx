@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { MultiSelect } from "@/components/ui/multi-select";
 import {
   Select,
   SelectContent,
@@ -24,26 +25,48 @@ import {
 import { cn } from "@/lib/utils";
 
 // Filter state types
+export type DifficultyFilterValue = "easy" | "medium" | "hard";
+export type TimeSpentFilterValue = "none" | "0-20s" | "20-40s" | "40s-1m" | "1m-2m" | "2m-3m" | "3m-5m" | "5m+";
+
 export interface QuestionBankFilters {
-  difficulty: "all" | "easy" | "medium" | "hard";
-  timeSpent: "all" | "none" | "0-20s" | "20-40s" | "40s-1m" | "1m-2m" | "2m-3m" | "3m-5m" | "5m+";
+  difficulty: DifficultyFilterValue[];
+  timeSpent: TimeSpentFilterValue[];
   markedForReview: "all" | "yes" | "no";
   solved: "all" | "yes" | "no";
   answeredIncorrectly: "all" | "yes" | "no";
 }
 
 export const defaultFilters: QuestionBankFilters = {
-  difficulty: "all",
-  timeSpent: "all",
+  difficulty: [],
+  timeSpent: [],
   markedForReview: "all",
   solved: "all",
   answeredIncorrectly: "all",
 };
 
 export const hasActiveQuestionBankFilters = (filters: QuestionBankFilters): boolean =>
-  (Object.keys(defaultFilters) as Array<keyof QuestionBankFilters>).some(
-    (key) => filters[key] !== defaultFilters[key],
-  );
+  filters.difficulty.length > 0 ||
+  filters.timeSpent.length > 0 ||
+  filters.markedForReview !== defaultFilters.markedForReview ||
+  filters.solved !== defaultFilters.solved ||
+  filters.answeredIncorrectly !== defaultFilters.answeredIncorrectly;
+
+const difficultyOptions = [
+  { label: "Easy", value: "easy" },
+  { label: "Medium", value: "medium" },
+  { label: "Hard", value: "hard" },
+] as const;
+
+const timeSpentOptions = [
+  { label: "Not Attempted", value: "none" },
+  { label: "0-20 seconds", value: "0-20s" },
+  { label: "20-40 seconds", value: "20-40s" },
+  { label: "40s - 1 minute", value: "40s-1m" },
+  { label: "1-2 minutes", value: "1m-2m" },
+  { label: "2-3 minutes", value: "2m-3m" },
+  { label: "3-5 minutes", value: "3m-5m" },
+  { label: "5+ minutes", value: "5m+" },
+] as const;
 
 interface FilterPanelProps {
   filters: QuestionBankFilters;
@@ -111,42 +134,21 @@ export function QuestionBankFilterPanel({
             {/* Filter Grid - 2 columns on mobile, 5 on desktop */}
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               <FilterCard icon={BarChart3} label="Difficulty">
-                <Select
-                  value={filters.difficulty}
-                  onValueChange={(v) => updateFilter("difficulty", v as typeof filters.difficulty)}
-                >
-                  <SelectTrigger className="w-full">
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="all">Any Difficulty</SelectItem>
-                    <SelectItem value="easy">Easy</SelectItem>
-                    <SelectItem value="medium">Medium</SelectItem>
-                    <SelectItem value="hard">Hard</SelectItem>
-                  </SelectContent>
-                </Select>
+                <MultiSelect
+                  options={[...difficultyOptions]}
+                  selected={filters.difficulty}
+                  onChange={(value) => updateFilter("difficulty", value as QuestionBankFilters["difficulty"])}
+                  placeholder="Any Difficulty"
+                />
               </FilterCard>
 
               <FilterCard icon={Clock} label="Time Spent Solving">
-                <Select
-                  value={filters.timeSpent}
-                  onValueChange={(v) => updateFilter("timeSpent", v as typeof filters.timeSpent)}
-                >
-                  <SelectTrigger className="w-full">
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="all">Any Time</SelectItem>
-                    <SelectItem value="none">Not Attempted</SelectItem>
-                    <SelectItem value="0-20s">0-20 seconds</SelectItem>
-                    <SelectItem value="20-40s">20-40 seconds</SelectItem>
-                    <SelectItem value="40s-1m">40s - 1 minute</SelectItem>
-                    <SelectItem value="1m-2m">1-2 minutes</SelectItem>
-                    <SelectItem value="2m-3m">2-3 minutes</SelectItem>
-                    <SelectItem value="3m-5m">3-5 minutes</SelectItem>
-                    <SelectItem value="5m+">5+ minutes</SelectItem>
-                  </SelectContent>
-                </Select>
+                <MultiSelect
+                  options={[...timeSpentOptions]}
+                  selected={filters.timeSpent}
+                  onChange={(value) => updateFilter("timeSpent", value as QuestionBankFilters["timeSpent"])}
+                  placeholder="Any Time"
+                />
               </FilterCard>
 
               <FilterCard icon={Bookmark} label="Marked for Review">

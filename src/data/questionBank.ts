@@ -1,6 +1,7 @@
 import { questions as pastSatQuestionsData, type Question as SourceQuestion } from "./all_questions";
 import { questions as unofficialQuestionsData } from "./unofficialQuestions";
 import { resolveSatChoiceImage, resolveSatQuestionImages } from "./satQuestionImages";
+import { unofficialCompositePrimaryImageIndex } from "./unofficialCompositeImageSelection";
 import { normalizeTextForMathRendering } from "@/lib/utils";
 import {
   classifyQuestion,
@@ -128,26 +129,60 @@ const trimCompositeRationale = (rationale: string): string => {
   return rationale.slice(0, secondMarkerIndex).trim();
 };
 
-const normalizeUnofficialMathCompositeQuestion = (
+const pickPrimaryCompositeQuestionImages = (
+  sourceId: string,
+  images: { src: string; alt: string }[] | undefined,
+): { src: string; alt: string }[] | undefined => {
+  if (!images || images.length <= 1) return images;
+  const preferredIndex = unofficialCompositePrimaryImageIndex[sourceId] ?? 0;
+  return [images[Math.min(preferredIndex, images.length - 1)]];
+};
+
+const getCompositeMathQuestionMetadata = (
   source: RawBankSource,
   subject: BankSubject,
   text: string,
   rationale?: string | null,
-): { text: string; rationale?: string | null } => {
+  correctAnswer?: string | null,
+  choices?: SourceQuestion["choices"],
+) => {
   if (source.bankType !== "unofficial" || subject !== "math" || !rationale) {
-    return { text, rationale };
+    return {
+      isComposite: false,
+      text,
+      rationale,
+      typeOverride: undefined as SourceQuestion["type"] | undefined,
+      choicesOverride: undefined as SourceQuestion["choices"] | undefined,
+    };
   }
 
   const questionMarkCount = (text.match(/\?/g) || []).length;
   const correctAnswerMarkerCount = [...rationale.matchAll(CORRECT_ANSWER_MARKER_REGEX)].length;
 
   if (questionMarkCount < 2 || correctAnswerMarkerCount < 2) {
-    return { text, rationale };
+    return {
+      isComposite: false,
+      text,
+      rationale,
+      typeOverride: undefined as SourceQuestion["type"] | undefined,
+      choicesOverride: undefined as SourceQuestion["choices"] | undefined,
+    };
   }
 
+  const trimmedText = trimCompositeMathStem(text);
+  const trimmedRationale = trimCompositeRationale(rationale);
+  const normalizedCorrectAnswer = (correctAnswer ?? "").trim();
+  const choiceIds = new Set((choices ?? []).map((choice) => choice.id));
+  const isFirstQuestionFreeResponse =
+    /^\s*The correct answer is\b/i.test(trimmedRationale) ||
+    (normalizedCorrectAnswer.length > 0 && !choiceIds.has(normalizedCorrectAnswer));
+
   return {
-    text: trimCompositeMathStem(text),
-    rationale: trimCompositeRationale(rationale),
+    isComposite: true,
+    text: trimmedText,
+    rationale: trimmedRationale,
+    typeOverride: isFirstQuestionFreeResponse ? "free-response" : undefined,
+    choicesOverride: isFirstQuestionFreeResponse ? undefined : choices,
   };
 };
 
@@ -206,15 +241,6 @@ const hasRenderableStem = (q: SourceQuestion): boolean => {
 };
 
 const mapImages = (q: SourceQuestion) => resolveSatQuestionImages(q.id, q.image);
-
-const mapChoices = (q: SourceQuestion) => {
-  if (!q.choices) return undefined;
-  return q.choices.map((choice) => ({
-    id: choice.id,
-    text: choice.text ? sanitizeCurrency(choice.text) : undefined,
-    image: resolveSatChoiceImage(q.id, choice.id, choice.image),
-  }));
-};
 
 const extractLegacyQuestionNumber = (sourceId: string): number | string => {
   const match = sourceId.match(/_(\d+)$/);
@@ -414,9 +440,21 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     };
 
   const subject: BankSubject = category.subject === "Math" ? "math" : "reading";
-  const normalizedSource = normalizeUnofficialMathCompositeQuestion(source, subject, q.text, q.rationale);
+  const normalizedSource = getCompositeMathQuestionMetadata(
+    source,
+    subject,
+    q.text,
+    q.rationale,
+    q.correctAnswer,
+    q.choices,
+  );
   const normalizedText = normalizedSource.text;
   const normalizedRationale = normalizedSource.rationale ? sanitizeCurrency(normalizedSource.rationale) : normalizedSource.rationale;
+  const normalizedType = normalizedSource.typeOverride ?? q.type;
+  const normalizedChoices = normalizedSource.choicesOverride ?? q.choices;
+  const normalizedQuestionImages = normalizedSource.isComposite
+    ? pickPrimaryCompositeQuestionImages(String(q.id), mapImages(q))
+    : mapImages(q);
 
   const prompt = sanitizeCurrency(normalizedText);
   let passage: string | undefined;
@@ -448,11 +486,19 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     prompt,
     passage,
     questionText,
-    choices: q.type === "multiple-choice" ? mapChoices(q) : undefined,
-    type: q.type,
+    choices: normalizedType === "multiple-choice"
+      ? (normalizedChoices
+        ? normalizedChoices.map((choice) => ({
+            id: choice.id,
+            text: choice.text ? sanitizeCurrency(choice.text) : undefined,
+            image: resolveSatChoiceImage(q.id, choice.id, choice.image),
+          }))
+        : undefined)
+      : undefined,
+    type: normalizedType,
     correctAnswer: q.correctAnswer,
     rationale: normalizedRationale,
-    questionImages: mapImages(q),
+    questionImages: normalizedQuestionImages,
     difficulty: normalizeDifficulty(q.difficulty),
     category,
   };

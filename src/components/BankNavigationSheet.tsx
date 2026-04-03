@@ -73,7 +73,7 @@ export const BankNavigationSheet = ({
       case "correct-first":
         return "bg-[#C8E6C9] border-[#1B5E20] dark:bg-[#1B5E20] dark:border-[#2E7D32]";
       case "correct-later":
-        return "bg-[#FFE0B2] border-[#E65100] dark:bg-[#E65100] dark:border-[#EF6C00]";
+        return "bg-[#FFE0B2] border-[#E65100] dark:bg-[#5F2A00] dark:border-[#C75C00]";
       case "incorrect":
         return "bg-[#FFCDD2] border-[#B71C1C] dark:bg-[#5C1010] dark:border-[#8B0000]";
       default:
@@ -123,7 +123,7 @@ export const BankNavigationSheet = ({
               <span>Correct</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#FFE0B2] dark:bg-[#E65100] rounded border border-[#E65100] dark:border-[#EF6C00]" />
+              <div className="w-4 h-4 bg-[#FFE0B2] dark:bg-[#5F2A00] rounded border border-[#E65100] dark:border-[#C75C00]" />
               <span>Correct (after attempts)</span>
             </div>
             <div className="flex items-center gap-1.5">
@@ -159,7 +159,7 @@ export const BankNavigationSheet = ({
                     setIsOpen(false);
                   }}
                   className={cn(
-                    "h-9 flex items-center justify-center rounded border-2 text-xs font-medium relative transition-colors",
+                    "h-9 min-w-[2.75rem] px-1.5 flex items-center justify-center rounded border-2 text-[11px] font-medium tabular-nums relative transition-colors",
                     getStatusColor(status),
                     isCurrent && "ring-2 ring-primary ring-offset-1"
                   )}

@@ -623,8 +623,10 @@ const report = {
 
 const reportPath = path.resolve(
   import.meta.dirname ?? '.',
+  'reports',
   'audit_report.json'
 );
+fs.mkdirSync(path.dirname(reportPath), { recursive: true });
 fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
 console.log(`\nReport written to ${reportPath}`);
 console.log('\n' + summary);

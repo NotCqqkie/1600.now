@@ -287,6 +287,12 @@ const normalizeFullWidthMathPunctuation = (content: string): string =>
     .replace(/[＞]/g, ">")
     .replace(/[＜]/g, "<");
 
+const normalizeDecimalCommas = (content: string): string =>
+  content.replace(
+    /\b(\d{2,}),(\d{1,2})(?=\s+(?:feet?|foot|inches?|seconds?|minutes?|hours?|days?|years?|months?|meters?|miles?|kilograms?|grams?|pounds?|dollars?|cents?|degrees?|megawatts?|joules?|gallons?|liters?|percent|above|below|after|before|per|when|where|of|from|at|high|low|long|wide|tall|deep)\b)/gi,
+    "$1.$2",
+  );
+
 const normalizeImplicitMathExponents = (content: string): string => {
   let normalized = content;
 
@@ -320,6 +326,38 @@ const normalizeInlineMathSpacing = (content: string): string => {
   return normalized;
 };
 
+const normalizeBareMathFragments = (content: string): string => {
+  const wrapMath = (candidate: string): string => {
+    const trimmed = candidate.trim();
+    if (!trimmed || trimmed.includes("$")) return candidate;
+    if (!isLikelyInlineMath(trimmed)) return candidate;
+    return `$${trimmed}$`;
+  };
+
+  const normalizedLines = content
+    .split("\n")
+    .map((line) => {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed.includes("$")) return line;
+      if (!/[=<>|]/.test(trimmed)) return line;
+      if (!/^[A-Za-z0-9().,^+\-−=<>|/ ]+$/.test(trimmed)) return line;
+      return line.replace(trimmed, wrapMath(trimmed));
+    })
+    .join("\n");
+
+  return normalizedLines.replace(
+    /\b(what is the value of)\s+([^?]+?)(\?)/gi,
+    (match, prefix: string, candidate: string, suffix: string) => {
+      const trimmed = candidate.trim();
+      if (!trimmed || trimmed.includes("$")) return match;
+      if (!/[=^+\-*/()0-9A-Za-z]/.test(trimmed)) return match;
+      const wrapped = wrapMath(trimmed);
+      if (wrapped === trimmed) return match;
+      return `${prefix} ${wrapped}${suffix}`;
+    },
+  );
+};
+
 const normalizeMalformedComparatorCommands = (content: string): string =>
   content.replace(/\\(le|ge|lt|gt)([A-Za-pr-zA-PR-Z0-9])(?=[^A-Za-z]|$)/g, "\\$1 $2");
 
@@ -330,9 +368,13 @@ export function normalizeTextForMathRendering(text: string | null | undefined): 
     normalizeMathWrappedCurrency(
       normalizeMathWrappedPercentages(
         normalizeMalformedComparatorCommands(
-          normalizeImplicitMathExponents(
-            normalizeFullWidthMathPunctuation(
-              normalizeAsteriskWrappedMath(text)
+          normalizeBareMathFragments(
+            normalizeImplicitMathExponents(
+              normalizeDecimalCommas(
+                normalizeFullWidthMathPunctuation(
+                  normalizeAsteriskWrappedMath(text)
+                )
+              )
             )
           )
         )

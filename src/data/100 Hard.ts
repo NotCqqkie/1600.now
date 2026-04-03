@@ -9,7 +9,6 @@ export interface Question {
 
   correctAnswer: string;
   type: "multiple-choice" | "free-response";
-  explanationVideo?: string;
 }
 
 const baseQuestions: Question[] = [
@@ -960,7 +959,4 @@ const baseQuestions: Question[] = [
   },
 ];
 
-export const questions: Question[] = baseQuestions.map(q => ({
-  ...q,
-  explanationVideo: "/videos/MTSI.mp4"
-}));
+export const questions: Question[] = baseQuestions;

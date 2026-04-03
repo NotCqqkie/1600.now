@@ -41,7 +41,7 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "rationale": null,
     "id": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_2",
     "testName": "June 2024 International Form A SAT English Module 2",

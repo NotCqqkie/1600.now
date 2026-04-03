@@ -120,9 +120,9 @@ const OfficialBankIndex = () => {
   const questionPassesFilters = useCallback((q: BankQuestion, subject: BankSubject): boolean => {
     const progress = getQuestionProgress(q, subject);
 
-    if (filters.difficulty !== "all") {
+    if (filters.difficulty.length > 0) {
       const normalizedDifficulty = (q.difficulty ?? "").trim().toLowerCase();
-      if (normalizedDifficulty !== filters.difficulty) return false;
+      if (!filters.difficulty.includes(normalizedDifficulty as typeof filters.difficulty[number])) return false;
     }
 
     // Marked for review filter
@@ -146,10 +146,13 @@ const OfficialBankIndex = () => {
     }
 
     // Time spent filter
-    if (filters.timeSpent !== "all") {
+    if (filters.timeSpent.length > 0) {
       const timeRange = getTimeSpentRange(progress.totalTimeSpentSeconds);
-      if (filters.timeSpent === "none" && progress.totalTimeSpentSeconds > 0) return false;
-      if (filters.timeSpent !== "none" && timeRange !== filters.timeSpent) return false;
+      const matchesTimeSpent = filters.timeSpent.some((filterValue) => {
+        if (filterValue === "none") return progress.totalTimeSpentSeconds === 0;
+        return timeRange === filterValue;
+      });
+      if (!matchesTimeSpent) return false;
     }
 
     return true;

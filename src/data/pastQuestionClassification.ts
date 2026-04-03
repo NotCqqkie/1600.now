@@ -3,6 +3,7 @@ import {
   normalizeCategoryFromSource,
   type QuestionCategory,
 } from "./questionCategories.ts";
+import { questions as unofficialQuestionsData } from "./unofficialQuestions.ts";
 
 export type QuestionDifficulty = "Easy" | "Medium" | "Hard";
 
@@ -19,6 +20,10 @@ export interface PastQuestionLike {
 export interface PastQuestionMetadata {
   category: QuestionCategory;
   difficulty: QuestionDifficulty;
+}
+
+interface DifficultyTaggedPastQuestionLike extends PastQuestionLike {
+  difficulty?: string | null;
 }
 
 const MATH_LINE_SKILL: QuestionCategory = {
@@ -77,6 +82,40 @@ const MATH_DOMAIN_SKILLS = new Set([
   "Circles",
 ]);
 
+const QUESTION_WRAPPER_PATTERNS = [
+  /^which choice\b/i,
+  /^based on the two texts\b/i,
+  /^based on both texts\b/i,
+  /^based on these notes\b/i,
+  /^based on the text\b/i,
+  /^based on the texts\b/i,
+  /^according to the text\b/i,
+  /^according to the texts\b/i,
+  /^according to the table\b/i,
+  /^according to the graph\b/i,
+  /^according to the figure\b/i,
+  /^what does the text\b/i,
+  /^what do the texts\b/i,
+  /^what does the passage\b/i,
+  /^what does the graph\b/i,
+  /^what is the main idea\b/i,
+  /^what is the main purpose\b/i,
+  /^what is true\b/i,
+  /^what can be concluded\b/i,
+  /^what can reasonably be inferred\b/i,
+  /^what does the text most strongly suggest\b/i,
+  /^which finding\b/i,
+  /^which statement\b/i,
+  /^how would the author\b/i,
+  /^how does the author\b/i,
+  /^how does the text\b/i,
+  /^which quotation\b/i,
+  /^which best describes\b/i,
+  /^which choice best\b/i,
+  /^it can most reasonably be inferred\b/i,
+  /^the student wants\b/i,
+];
+
 const extractQuestionNumber = (id: string | number): number | null => {
   const sourceId = String(id);
   const suffixMatch = sourceId.match(/_(\d+)$/);
@@ -96,6 +135,112 @@ const normalizeText = (value: string | null | undefined): string =>
     .replace(/[*_`]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+
+const normalizeDifficulty = (
+  value: string | null | undefined,
+): QuestionDifficulty | null => {
+  const normalized = (value ?? "").trim().toLowerCase();
+  if (normalized === "easy") return "Easy";
+  if (normalized === "medium") return "Medium";
+  if (normalized === "hard") return "Hard";
+  return null;
+};
+
+const buildCategoryKey = (
+  question: Pick<PastQuestionLike, "section" | "domain" | "skill" | "testName">,
+  categoryOverride?: QuestionCategory | null,
+): string => {
+  const normalizedCategory =
+    categoryOverride ??
+    normalizeCategoryFromSource({
+      section: question.section,
+      testName: question.testName,
+      domain: question.domain,
+      skill: question.skill,
+    }) ??
+    null;
+
+  if (normalizedCategory) {
+    return [
+      normalizedCategory.subject,
+      normalizedCategory.domain,
+      normalizedCategory.skill,
+    ]
+      .join(" | ")
+      .toLowerCase();
+  }
+
+  return [question.section ?? "", question.domain ?? "", question.skill ?? ""]
+    .map((part) => String(part).trim().toLowerCase())
+    .join(" | ");
+};
+
+const extractCoreQuestionText = (text: string | null | undefined): string => {
+  const parts = (text ?? "")
+    .replace(/\\\\/g, "\n")
+    .split(/\n+/)
+    .map((part) => normalizeText(part).toLowerCase())
+    .filter(Boolean)
+    .filter(
+      (part) => !QUESTION_WRAPPER_PATTERNS.some((pattern) => pattern.test(part)),
+    );
+
+  return parts.join(" ");
+};
+
+const normalizeChoiceTextForDifficultyMatch = (
+  value: string | null | undefined,
+): string =>
+  normalizeText(value)
+    .toLowerCase()
+    .replace(/\s*([,;:.!?—-])\s*/g, "$1");
+
+const buildDifficultyMatchSignature = (
+  question: PastQuestionLike,
+  categoryOverride?: QuestionCategory | null,
+): string | null => {
+  const coreQuestionText = extractCoreQuestionText(question.text);
+  if (!coreQuestionText) return null;
+
+  const choiceBag = (question.choices ?? [])
+    .map((choice) => normalizeChoiceTextForDifficultyMatch(choice.text))
+    .filter(Boolean)
+    .sort()
+    .join(" || ");
+
+  return [
+    coreQuestionText,
+    buildCategoryKey(question, categoryOverride),
+    choiceBag,
+  ].join(" ### ");
+};
+
+const buildUnofficialDifficultyMap = (): Map<string, QuestionDifficulty> => {
+  const difficultiesBySignature = new Map<string, Set<QuestionDifficulty>>();
+
+  for (const question of unofficialQuestionsData as DifficultyTaggedPastQuestionLike[]) {
+    const signature = buildDifficultyMatchSignature(question);
+    const difficulty = normalizeDifficulty(question.difficulty);
+    if (!signature || !difficulty) continue;
+
+    if (!difficultiesBySignature.has(signature)) {
+      difficultiesBySignature.set(signature, new Set<QuestionDifficulty>());
+    }
+
+    difficultiesBySignature.get(signature)!.add(difficulty);
+  }
+
+  const resolved = new Map<string, QuestionDifficulty>();
+
+  for (const [signature, difficulties] of difficultiesBySignature.entries()) {
+    if (difficulties.size !== 1) continue;
+    resolved.set(signature, [...difficulties][0]);
+  }
+
+  return resolved;
+};
+
+const UNOFFICIAL_DIFFICULTY_BY_SIGNATURE = buildUnofficialDifficultyMap();
 
 const getFullText = (question: PastQuestionLike): string =>
   [question.text, ...(question.choices ?? []).map((choice) => choice.text ?? "")]
@@ -466,10 +611,19 @@ const classifyPastCategory = (question: PastQuestionLike): QuestionCategory => {
 };
 
 const inferPastDifficulty = (
+  question: PastQuestionLike,
+  category: QuestionCategory,
   questionNumber: number | null,
   totalQuestions: number,
   testName: string | null | undefined,
 ): QuestionDifficulty => {
+  const unofficialDifficulty = UNOFFICIAL_DIFFICULTY_BY_SIGNATURE.get(
+    buildDifficultyMatchSignature(question, category) ?? "",
+  );
+  if (unofficialDifficulty) {
+    return unofficialDifficulty;
+  }
+
   if (!questionNumber || totalQuestions <= 1) {
     return /module 2/i.test(testName ?? "") ? "Medium" : "Easy";
   }
@@ -505,10 +659,17 @@ export const buildPastQuestionMetadataMap = (
     const testName = question.testName ?? "Past SAT-based";
     const questionNumber = extractQuestionNumber(question.id);
     const totalQuestions = countsByTestName.get(testName) ?? 0;
+    const category = classifyPastCategory(question);
 
     result.set(sourceId, {
-      category: classifyPastCategory(question),
-      difficulty: inferPastDifficulty(questionNumber, totalQuestions, testName),
+      category,
+      difficulty: inferPastDifficulty(
+        question,
+        category,
+        questionNumber,
+        totalQuestions,
+        testName,
+      ),
     });
   }
 

@@ -4,9 +4,10 @@ from pathlib import Path
 
 WORKSPACE_ROOT = Path(__file__).parent.parent
 QUESTIONS_JSON = WORKSPACE_ROOT / "src/data/questions.json"
-OUTPUT_REPORT = WORKSPACE_ROOT / "scripts/math_issues_report.txt"
+OUTPUT_REPORT = WORKSPACE_ROOT / "scripts/reports/math_issues_report.txt"
 
 def analyze_questions():
+    OUTPUT_REPORT.parent.mkdir(parents=True, exist_ok=True)
     with open(QUESTIONS_JSON, "r", encoding="utf-8") as f:
         questions = json.load(f)
 
