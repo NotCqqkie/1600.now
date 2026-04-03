@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import {
   getBankPool,
@@ -13,7 +14,7 @@ import {
   BANK_SOURCE_LABELS,
   type BankSubject,
   type BankQuestion,
-  type BankSourceId,
+  type BankSourceFilter,
   type MathDomain,
   type EnglishDomain,
   type MathSkill,
@@ -56,6 +57,11 @@ const BankBrowse = () => {
   const { subject } = useParams<{ subject: BankSubject }>();
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
+
+  useEffect(() => {
+    sessionStorage.removeItem("question-view-mode:bank:math");
+    sessionStorage.removeItem("question-view-mode:bank:reading");
+  }, []);
   
   const isMath = validSubject === "math";
   const domains: string[] = isMath ? [...allMathDomains] : [...allEnglishDomains];
@@ -67,7 +73,7 @@ const BankBrowse = () => {
   const skillCounts = getSkillCounts(validSubject, bankSource);
   const totalQuestions = getBankPool(validSubject, bankSource).length;
 
-  const handleBankSourceChange = (nextSource: BankSourceId) => {
+  const handleBankSourceChange = (nextSource: BankSourceFilter) => {
     const nextParams = new URLSearchParams(searchParams);
     nextParams.set("bankType", nextSource);
     setSearchParams(nextParams);
@@ -81,7 +87,7 @@ const BankBrowse = () => {
       subject: q.subject,
       id: q.id,
       sourceId: q.sourceId,
-      bankType: q.bankType,
+      bankType: bankSource,
       storageId: q.stableId,
       index: index + 1, // 1-based index within practice set
     }));
@@ -94,7 +100,7 @@ const BankBrowse = () => {
   };
 
   const handleShuffleDomain = (domain: string) => {
-      let questions = getQuestionsByDomain(validSubject, domain as MathDomain | EnglishDomain, bankSource);
+      const questions = getQuestionsByDomain(validSubject, domain as MathDomain | EnglishDomain, bankSource);
       // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -105,7 +111,7 @@ const BankBrowse = () => {
   };
 
   const handleShuffleSkill = (skill: string) => {
-    let questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill, bankSource);
+    const questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill, bankSource);
       // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -116,7 +122,7 @@ const BankBrowse = () => {
   };
     
   const handleShuffleAll = () => {
-    let questions = getBankPool(validSubject, bankSource);
+    const questions = getBankPool(validSubject, bankSource);
       // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {

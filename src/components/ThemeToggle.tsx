@@ -1,40 +1,67 @@
 import { useState, useEffect } from "react";
 import { Moon, Sun } from "lucide-react";
 
+const THEME_STORAGE_KEY = "theme";
+const THEME_EVENT = "app-theme-change";
+
+const getPreferredDarkMode = () => {
+  if (typeof window === "undefined") return false;
+
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+  if (savedTheme === "dark") return true;
+  if (savedTheme === "light") return false;
+
+  return (
+    document.documentElement.classList.contains("dark") ||
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  );
+};
+
+const applyTheme = (isDark: boolean) => {
+  document.documentElement.classList.toggle("dark", isDark);
+  localStorage.setItem(THEME_STORAGE_KEY, isDark ? "dark" : "light");
+};
+
 export const ThemeToggle = () => {
-  const [isDark, setIsDark] = useState(() => {
-    if (typeof window !== 'undefined') {
-      return document.documentElement.classList.contains('dark') ||
-        localStorage.getItem('theme') === 'dark' ||
-        (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    }
-    return false;
-  });
+  const [isDark, setIsDark] = useState(getPreferredDarkMode);
 
   useEffect(() => {
-    if (isDark) {
-      document.documentElement.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-    }
+    applyTheme(isDark);
   }, [isDark]);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
-      document.documentElement.classList.add('dark');
-      setIsDark(true);
-    } else if (savedTheme === 'light') {
-      document.documentElement.classList.remove('dark');
-      setIsDark(false);
-    }
+    setIsDark(getPreferredDarkMode());
+
+    const handleStorage = (event: StorageEvent) => {
+      if (event.key === THEME_STORAGE_KEY) {
+        setIsDark(getPreferredDarkMode());
+      }
+    };
+
+    const handleThemeEvent = () => {
+      setIsDark(getPreferredDarkMode());
+    };
+
+    window.addEventListener("storage", handleStorage);
+    window.addEventListener(THEME_EVENT, handleThemeEvent);
+
+    return () => {
+      window.removeEventListener("storage", handleStorage);
+      window.removeEventListener(THEME_EVENT, handleThemeEvent);
+    };
   }, []);
+
+  const toggleTheme = () => {
+    const nextIsDark = !isDark;
+    applyTheme(nextIsDark);
+    setIsDark(nextIsDark);
+    window.dispatchEvent(new Event(THEME_EVENT));
+  };
 
   return (
     <button
-      onClick={() => setIsDark(!isDark)}
+      type="button"
+      onClick={toggleTheme}
       className="relative h-8 w-14 rounded-full bg-gradient-to-r from-sky-300 to-blue-400 dark:from-indigo-900 dark:to-slate-800 p-1 transition-all duration-500 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-primary shadow-inner"
       aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
     >
@@ -45,11 +72,12 @@ export const ThemeToggle = () => {
       <div
         className={`
           relative h-6 w-6 rounded-full bg-white dark:bg-slate-200 shadow-lg
-          transform transition-all duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+          transform transition-all duration-300
           ${isDark ? 'translate-x-6' : 'translate-x-0'}
           flex items-center justify-center
         `}
         style={{
+          transitionTimingFunction: "cubic-bezier(0.34, 1.56, 0.64, 1)",
           boxShadow: isDark 
             ? '0 2px 8px rgba(0,0,0,0.3), inset 0 1px 2px rgba(255,255,255,0.2)' 
             : '0 2px 8px rgba(0,0,0,0.15), inset 0 1px 2px rgba(255,255,255,0.8)'

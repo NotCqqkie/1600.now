@@ -12,7 +12,7 @@ import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { PreviousAttemptsDialog } from "@/components/PreviousAttemptsDialog";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
-import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3 } from "lucide-react";
+import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { toast } from "sonner";
 import {
@@ -21,13 +21,21 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import { questions as originalQuestions } from "@/data/100 Hard";
 import {
   getBankCounts as getBankCountsNormal,
   getBankPool as getBankPoolNormal,
   getBankQuestion as getBankQuestionNormal,
   normalizeBankSource,
-  type BankSourceId,
+  type BankSourceFilter,
 } from "@/data/questionBank";
 import { getBankQuestion as getBankQuestionOfficial, bankCounts as officialBankCounts } from "@/data/officialQuestionBank";
 import { cn, normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
@@ -80,9 +88,14 @@ const getNextStateForGreaterThan = ({
 type PracticeSetItem = {
   id: number;
   subject: "math" | "reading";
-  bankType?: BankSourceId;
+  bankType?: BankSourceFilter;
   sourceId?: string;
   storageId?: string;
+};
+
+type QuestionInfoField = {
+  label: string;
+  value: string;
 };
 
 const formatTimer = (totalSeconds: number) => {
@@ -90,6 +103,9 @@ const formatTimer = (totalSeconds: number) => {
   const seconds = totalSeconds % 60;
   return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 };
+
+const formatQuestionType = (type: "multiple-choice" | "free-response") =>
+  type === "multiple-choice" ? "Multiple Choice" : "Student Response";
 
 const QUESTION_SENTENCE_PATTERNS = [
   /^which choice\b/i,
@@ -173,6 +189,30 @@ const extractLeadingQuestionSentence = (text: string): { sentence?: string; rema
   return { sentence, remainder };
 };
 
+type QuestionViewMode = "vertical" | "horizontal";
+
+const getDefaultQuestionViewMode = (
+  subject: "math" | "reading",
+  isBank: boolean,
+  isOfficialBank: boolean,
+): QuestionViewMode => {
+  if (isBank || isOfficialBank) {
+    return subject === "reading" ? "horizontal" : "vertical";
+  }
+
+  return "vertical";
+};
+
+const getQuestionViewModeStorageKey = (
+  subject: "math" | "reading",
+  isBank: boolean,
+  isOfficialBank: boolean,
+) => {
+  if (isOfficialBank) return `question-view-mode:official:${subject}`;
+  if (isBank) return `question-view-mode:bank:${subject}`;
+  return "question-view-mode:hard";
+};
+
 function Question() {
   const { id, subject: rawSubject } = useParams<{ id: string; subject?: string }>();
   const navigate = useNavigate();
@@ -197,16 +237,6 @@ function Question() {
 
   const questionNumber = parseInt(id || "1", 10);
   const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading";
-  const currentPracticeIndex = useMemo(() => {
-    if (!isPracticeMode || practiceSet.length === 0) return -1;
-    return practiceSet.findIndex(
-      (q) =>
-        q.id === questionNumber &&
-        q.subject === subject &&
-        (isOfficialBank || !q.bankType || q.bankType === bankSource),
-    );
-  }, [isPracticeMode, practiceSet, questionNumber, subject, isOfficialBank, bankSource]);
-  const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
 
   const questionData = useMemo(() => {
     if (is100Hard) {
@@ -223,6 +253,19 @@ function Question() {
     };
 
   }, [is100Hard, isBank, isOfficialBank, questionNumber, subject, bankSource]);
+  const currentQuestion = questionData;
+  const currentPracticeIndex = useMemo(() => {
+    if (!isPracticeMode || practiceSet.length === 0) return -1;
+    return practiceSet.findIndex(
+      (q) =>
+        q.subject === subject &&
+        (q.storageId
+          ? q.storageId === currentQuestion?.uuid
+          : q.id === questionNumber &&
+            (isOfficialBank || !q.bankType || q.bankType === bankSource)),
+    );
+  }, [isPracticeMode, practiceSet, questionNumber, subject, isOfficialBank, bankSource, currentQuestion]);
+  const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
 
   const { progress, addAttempt, toggleReview } = useUserProgress();
   
@@ -241,7 +284,9 @@ function Question() {
   const [shouldPinTopTimerCenter, setShouldPinTopTimerCenter] = useState(true);
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation']);
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [questionViewMode, setQuestionViewMode] = useState<'vertical' | 'horizontal'>('vertical');
+  const [questionViewMode, setQuestionViewMode] = useState<QuestionViewMode>(() =>
+    getDefaultQuestionViewMode(subject, isBank, isOfficialBank),
+  );
   const [questionSplitPosition, setQuestionSplitPosition] = useState(50);
   const [isResizingQuestionSplit, setIsResizingQuestionSplit] = useState(false);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
@@ -266,12 +311,63 @@ function Question() {
   const topTimerPinnedRef = useRef(true);
   const startTimeRef = useRef(Date.now());
 
-  const currentQuestion = questionData;
   const currentProgress = currentQuestion ? (progress[currentQuestion.uuid] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
   const markedForReview = currentProgress.isMarkedForReview;
   const localStateKey = currentQuestion
     ? (is100Hard ? `question-${questionNumber}` : currentQuestion.uuid)
     : `question-${questionNumber}`;
+  const questionInfo = useMemo(() => {
+    if (!currentQuestion || is100Hard) return null;
+
+    const questionWithMetadata = currentQuestion as Partial<{
+      bankLabel: string;
+      subject: "math" | "reading";
+      sourceId: string;
+      questionNumber: number | string;
+      testName: string;
+      type: "multiple-choice" | "free-response";
+      correctAnswer?: string | null;
+      difficulty?: "Easy" | "Medium" | "Hard" | null;
+      category?: {
+        subject?: string;
+        domain?: string;
+        skill?: string;
+        confidence?: string;
+      };
+    }>;
+
+    const bankLabel = isOfficialBank ? "Official Question Bank" : questionWithMetadata.bankLabel || "Question Bank";
+    const sourceSubject = questionWithMetadata.subject || subject;
+    const subjectLabel = sourceSubject === "reading" ? "Reading and Writing" : "Math";
+    const questionType = questionWithMetadata.type ? formatQuestionType(questionWithMetadata.type) : "Unknown";
+
+    const fields: QuestionInfoField[] = [
+      { label: "Bank", value: bankLabel },
+      { label: "Subject", value: subjectLabel },
+      { label: "Difficulty", value: questionWithMetadata.difficulty || "Unassigned" },
+      { label: "Domain", value: questionWithMetadata.category?.domain || "Unassigned" },
+      { label: "Skill", value: questionWithMetadata.category?.skill || "Unassigned" },
+      { label: "Classification Confidence", value: questionWithMetadata.category?.confidence || "Unassigned" },
+      { label: "Question Type", value: questionType },
+      { label: "Test Name", value: questionWithMetadata.testName || "Unknown" },
+      { label: "Question Number", value: String(questionWithMetadata.questionNumber ?? questionNumber) },
+      { label: "Source ID", value: questionWithMetadata.sourceId || "Unknown" },
+      { label: "Storage Key", value: currentQuestion.uuid },
+      { label: "Correct Answer", value: currentQuestion.correctAnswer || "Unavailable" },
+    ];
+
+    const rawQuestionData = {
+      ...currentQuestion,
+      bankLabel,
+      subject: sourceSubject,
+      storageKey: currentQuestion.uuid,
+    };
+
+    return {
+      fields,
+      rawData: JSON.stringify(rawQuestionData, null, 2),
+    };
+  }, [currentQuestion, is100Hard, isOfficialBank, questionNumber, subject]);
   const bankNavigationItems = useMemo(() => {
     if (!isBank) return [];
     return getBankPoolNormal(subject, bankSource).map((question) => ({
@@ -281,13 +377,21 @@ function Question() {
   }, [isBank, subject, bankSource]);
 
   useEffect(() => {
-     if (isBank || isOfficialBank) {
-        if (subject === 'reading') setQuestionViewMode('horizontal');
-        else setQuestionViewMode('vertical');
-     } else {
-        setQuestionViewMode('vertical');
-     }
-  }, [isBank, isOfficialBank, subject, questionNumber]); 
+    const storageKey = getQuestionViewModeStorageKey(subject, isBank, isOfficialBank);
+    const storedMode = sessionStorage.getItem(storageKey);
+    const defaultMode = getDefaultQuestionViewMode(subject, isBank, isOfficialBank);
+    setQuestionViewMode(
+      storedMode === "horizontal" || storedMode === "vertical"
+        ? storedMode
+        : defaultMode,
+    );
+  }, [isBank, isOfficialBank, subject]);
+
+  const handleQuestionViewModeChange = (mode: QuestionViewMode) => {
+    const storageKey = getQuestionViewModeStorageKey(subject, isBank, isOfficialBank);
+    sessionStorage.setItem(storageKey, mode);
+    setQuestionViewMode(mode);
+  };
 
   useEffect(() => {
     startTimeRef.current = Date.now();
@@ -753,7 +857,7 @@ function Question() {
       case "correct-first":
         return "bg-[#C8E6C9] hover:bg-[#A5D6A7] border-[#1B5E20] text-[#1B5E20] dark:bg-[#1B5E20] dark:hover:bg-[#144216] dark:border-[#2E7D32] dark:text-white disabled:opacity-100";
       case "correct-later":
-        return "bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#E65100] text-[#BF360C] dark:bg-[#E65100] dark:hover:bg-[#BF360C] dark:border-[#EF6C00] dark:text-white disabled:opacity-100";
+        return "bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#E65100] text-[#BF360C] dark:bg-[#5F2A00] dark:hover:bg-[#4C2100] dark:border-[#C75C00] dark:text-white disabled:opacity-100";
       case "incorrect":
         return "bg-[#FFCDD2] hover:bg-[#EF9A9A] border-[#B71C1C] text-[#2C1A1A] dark:bg-[#5C1010] dark:hover:bg-[#4A0D0D] dark:border-[#8B0000] dark:text-white";
       default:
@@ -855,6 +959,43 @@ function Question() {
       </Button>
     </>
   );
+  const questionInfoDialog = questionInfo ? (
+    <Dialog>
+      <DialogTrigger asChild>
+        <Button variant="outline" size="sm" title="Question Info">
+          <Info className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+          {!topShouldCompress && "Info"}
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="max-w-3xl max-h-[85vh] overflow-hidden">
+        <DialogHeader>
+          <DialogTitle>Question Info</DialogTitle>
+          <DialogDescription>
+            Difficulty, category, and source metadata for this question.
+          </DialogDescription>
+        </DialogHeader>
+        <div className="space-y-4 overflow-y-auto pr-1 max-h-[70vh]">
+          <div className="grid gap-3 sm:grid-cols-2">
+            {questionInfo.fields.map((field) => (
+              <div key={field.label} className="rounded-lg border bg-muted/30 p-3">
+                <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                  {field.label}
+                </p>
+                <p className="mt-1 text-sm font-medium break-all">{field.value}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="space-y-2">
+            <p className="text-sm font-semibold">Full Question Data</p>
+            <pre className="max-h-[320px] overflow-auto rounded-lg border bg-muted/40 p-3 text-xs leading-5">
+              {questionInfo.rawData}
+            </pre>
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+  ) : null;
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
@@ -918,16 +1059,17 @@ function Question() {
                     </Button>
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="end">
-                    <DropdownMenuItem onClick={() => setQuestionViewMode('vertical')} className={questionViewMode === 'vertical' ? 'bg-muted' : ''}>
+                    <DropdownMenuItem onClick={() => handleQuestionViewModeChange('vertical')} className={questionViewMode === 'vertical' ? 'bg-muted' : ''}>
                       <Rows3 className="mr-2 h-4 w-4" />
                       Vertical
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => setQuestionViewMode('horizontal')} className={questionViewMode === 'horizontal' ? 'bg-muted' : ''}>
+                    <DropdownMenuItem onClick={() => handleQuestionViewModeChange('horizontal')} className={questionViewMode === 'horizontal' ? 'bg-muted' : ''}>
                       <Columns3 className="mr-2 h-4 w-4" />
                       Horizontal
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
+                {questionInfoDialog}
                 <Button
                   variant="outline"
                   size="sm"
@@ -969,6 +1111,12 @@ function Question() {
                 <span className="mr-2 inline-block h-4 w-4" />
                 View
               </Button>
+              {questionInfo && (
+                <Button variant="outline" size="sm">
+                  <span className="mr-2 inline-block h-4 w-4" />
+                  Info
+                </Button>
+              )}
               <Button variant="outline" size="sm">
                 <span className="inline-block h-4 w-4" />
               </Button>
