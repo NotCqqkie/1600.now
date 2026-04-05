@@ -29,12 +29,12 @@ import {
   QuestionBankFilters,
   defaultFilters,
   hasActiveQuestionBankFilters,
+  MAX_TIME_SPENT_FILTER_SECONDS,
 } from "@/components/QuestionBankFilterPanel";
 import {
   getUserProgressStatic,
   isQuestionSolved,
   isQuestionAnsweredIncorrectly,
-  getTimeSpentRange,
   QuestionProgress,
 } from "@/hooks/useUserProgress";
 
@@ -146,13 +146,13 @@ const OfficialBankIndex = () => {
     }
 
     // Time spent filter
-    if (filters.timeSpent.length > 0) {
-      const timeRange = getTimeSpentRange(progress.totalTimeSpentSeconds);
-      const matchesTimeSpent = filters.timeSpent.some((filterValue) => {
-        if (filterValue === "none") return progress.totalTimeSpentSeconds === 0;
-        return timeRange === filterValue;
-      });
-      if (!matchesTimeSpent) return false;
+    const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
+    if (progress.totalTimeSpentSeconds < minTimeSpent) return false;
+    if (
+      maxTimeSpent < MAX_TIME_SPENT_FILTER_SECONDS &&
+      progress.totalTimeSpentSeconds > maxTimeSpent
+    ) {
+      return false;
     }
 
     return true;
@@ -797,7 +797,7 @@ const OfficialBankIndex = () => {
                     checked={isMultiSelect}
                     onCheckedChange={setIsMultiSelect}
                   />
-                  <Label htmlFor="multi-select-mode">Multiple Topics</Label>
+                  <Label htmlFor="multi-select-mode">Select multiple topics</Label>
                 </div>
               </div>
             }

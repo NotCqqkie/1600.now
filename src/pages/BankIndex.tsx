@@ -22,7 +22,6 @@ import {
   FileText,
   ChevronRight,
   ChevronDown,
-  Home,
   Play,
   Shuffle,
   RotateCcw,
@@ -32,13 +31,13 @@ import {
   QuestionBankFilters,
   defaultFilters,
   hasActiveQuestionBankFilters,
+  MAX_TIME_SPENT_FILTER_SECONDS,
 } from "@/components/QuestionBankFilterPanel";
 import { BankSourceToggle } from "@/components/BankSourceToggle";
 import {
   getUserProgressStatic,
   isQuestionSolved,
   isQuestionAnsweredIncorrectly,
-  getTimeSpentRange,
   QuestionProgress,
 } from "@/hooks/useUserProgress";
 
@@ -162,13 +161,13 @@ const BankIndex = () => {
     }
 
     // Time spent filter
-    if (filters.timeSpent.length > 0) {
-      const timeRange = getTimeSpentRange(progress.totalTimeSpentSeconds);
-      const matchesTimeSpent = filters.timeSpent.some((filterValue) => {
-        if (filterValue === "none") return progress.totalTimeSpentSeconds === 0;
-        return timeRange === filterValue;
-      });
-      if (!matchesTimeSpent) return false;
+    const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
+    if (progress.totalTimeSpentSeconds < minTimeSpent) return false;
+    if (
+      maxTimeSpent < MAX_TIME_SPENT_FILTER_SECONDS &&
+      progress.totalTimeSpentSeconds > maxTimeSpent
+    ) {
+      return false;
     }
 
     return true;
@@ -783,16 +782,22 @@ const BankIndex = () => {
       <section className="container mx-auto px-4 pt-8 pb-12">
         <div className="max-w-6xl mx-auto space-y-6">
           {/* Header */}
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" onClick={() => navigate("/")}>
-              <Home className="h-5 w-5" />
-            </Button>
-            <div>
-              <h1 className="text-3xl font-bold">Question Bank</h1>
-              <p className="text-muted-foreground">
-                {BANK_SOURCE_LABELS[bankSource]} • {questionCounts.math.total + questionCounts.reading.total} questions available
-              </p>
-            </div>
+          <div>
+            <h1
+              style={{
+                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontSize: "clamp(26px, 3.5vw, 36px)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                color: "hsl(var(--foreground))",
+                marginBottom: 4,
+              }}
+            >
+              Question Bank
+            </h1>
+            <p className="text-sm text-muted-foreground">
+              {BANK_SOURCE_LABELS[bankSource]} · {questionCounts.math.total + questionCounts.reading.total} questions available
+            </p>
           </div>
 
           {/* Filter Panel */}
@@ -819,7 +824,7 @@ const BankIndex = () => {
                     checked={isMultiSelect}
                     onCheckedChange={setIsMultiSelect}
                   />
-                  <Label htmlFor="multi-select-mode">Multiple Topics</Label>
+                  <Label htmlFor="multi-select-mode">Select multiple topics</Label>
                 </div>
               </div>
             }

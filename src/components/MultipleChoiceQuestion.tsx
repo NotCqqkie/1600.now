@@ -68,7 +68,7 @@ export const MultipleChoiceQuestion = ({
               src={normalizePublicAssetPath(choice.image)}
               alt={`SAT question ${questionId} choice ${choice.id} image`}
               className={cn(
-                "w-auto max-w-full h-auto max-h-[220px] sm:max-h-[260px] rounded-lg object-contain block",
+                "w-auto max-w-full h-auto max-h-[220px] sm:max-h-[260px] rounded-[10px] object-contain block",
                 dimmed && "opacity-60"
               )}
               wrapperClassName="max-w-full"
@@ -174,7 +174,7 @@ export const MultipleChoiceQuestion = ({
                 e.stopPropagation();
                 if (isLocked) return;
                 if (onAnswerChange) {
-                  onAnswerChange(choice.id);
+                  onAnswerChange(isSelected ? "" : choice.id);
                 }
               }}
             >

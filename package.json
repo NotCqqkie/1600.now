@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "build:dev": "vite build --mode development",
+    "build": "npm run lint:undef && vite build",
+    "build:dev": "npm run lint:undef && vite build --mode development",
     "lint": "eslint .",
+    "lint:undef": "eslint --config eslint.undefined.config.js 'src/**/*.{ts,tsx}'",
     "preview": "vite preview"
   },
   "dependencies": {

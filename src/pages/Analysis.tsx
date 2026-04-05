@@ -1,4 +1,4 @@
-import { useMemo, useEffect } from "react";
+import { type ReactNode, useMemo, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
@@ -25,6 +25,11 @@ import {
   TrendingUp,
   User,
 } from "lucide-react";
+import {
+  getPreferredDarkMode,
+  THEME_EVENT,
+  THEME_STORAGE_KEY,
+} from "@/lib/theme";
 
 // ─── Category map (same as Profile.tsx) ───────────────────────────────────
 
@@ -76,19 +81,24 @@ const StatTile = ({
   icon,
   color,
   empty,
+  isDarkMode,
 }: {
   value: string;
   label: string;
-  icon: React.ReactNode;
+  icon: ReactNode;
   color?: string;
   empty?: boolean;
+  isDarkMode: boolean;
 }) => (
   <div
     style={{
-      background: "rgba(255,255,255,0.05)",
-      border: "1px solid rgba(255,255,255,0.09)",
+      background: isDarkMode ? "rgba(255,255,255,0.05)" : "rgba(255,255,255,0.82)",
+      border: isDarkMode
+        ? "1px solid rgba(255,255,255,0.09)"
+        : "1px solid rgba(15,23,42,0.08)",
       borderRadius: 14,
       padding: "20px 22px",
+      boxShadow: isDarkMode ? "none" : "0 12px 28px rgba(15,23,42,0.06)",
     }}
   >
     <div
@@ -97,7 +107,7 @@ const StatTile = ({
         alignItems: "center",
         gap: 6,
         marginBottom: 12,
-        color: "rgba(255,255,255,0.4)",
+        color: isDarkMode ? "rgba(255,255,255,0.4)" : "rgba(15,23,42,0.45)",
         fontSize: 11,
         letterSpacing: "0.06em",
         textTransform: "uppercase",
@@ -112,7 +122,9 @@ const StatTile = ({
         fontFamily: "'Space Mono', monospace",
         fontSize: "clamp(24px, 3vw, 36px)",
         fontWeight: 700,
-        color: empty ? "rgba(255,255,255,0.2)" : color ?? "white",
+        color: empty
+          ? (isDarkMode ? "rgba(255,255,255,0.2)" : "rgba(15,23,42,0.2)")
+          : color ?? (isDarkMode ? "white" : "hsl(var(--foreground))"),
         letterSpacing: "-0.025em",
         lineHeight: 1,
       }}
@@ -121,6 +133,228 @@ const StatTile = ({
     </div>
   </div>
 );
+
+// ─── Activity Heatmap (GitHub-style) ──────────────────────────────────────
+
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const DAY_LABELS = ["","Mon","","Wed","","Fri",""];
+const CELL = 13;
+const GAP = 3;
+
+// Relative-intensity color levels using the primary cyan
+const LEVEL_COLORS = [
+  "rgba(148,163,184,0.18)",  // 0: empty
+  "rgba(125,211,252,0.28)",  // 1: light
+  "rgba(125,211,252,0.55)",  // 2: medium
+  "rgba(125,211,252,0.80)",  // 3: strong
+  "rgba(125,211,252,1.00)",  // 4: max
+];
+
+function getActivityLevel(count: number, max: number): number {
+  if (count === 0 || max === 0) return 0;
+  const ratio = count / max;
+  if (ratio <= 0.12) return 1;
+  if (ratio <= 0.35) return 2;
+  if (ratio <= 0.65) return 3;
+  return 4;
+}
+
+interface HeatCell {
+  date: Date;
+  dateStr: string;
+  count: number;
+}
+
+const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> }) => {
+  const [tooltip, setTooltip] = useState<{
+    count: number;
+    dateStr: string;
+    rect: DOMRect;
+  } | null>(null);
+
+  // Build a grid of 53 weeks × 7 days, ending on today
+  const { weeks, monthLabels } = useMemo(() => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    // Start of the current week (Sunday)
+    const startOfThisWeek = new Date(today);
+    startOfThisWeek.setDate(startOfThisWeek.getDate() - today.getDay());
+
+    // Go back 52 full weeks
+    const startDate = new Date(startOfThisWeek);
+    startDate.setDate(startDate.getDate() - 52 * 7);
+
+    const weeks: HeatCell[][] = [];
+    const cur = new Date(startDate);
+
+    while (cur <= today) {
+      const week: HeatCell[] = [];
+      for (let d = 0; d < 7; d++) {
+        const dateStr =
+          `${cur.getFullYear()}-` +
+          `${String(cur.getMonth() + 1).padStart(2, "0")}-` +
+          `${String(cur.getDate()).padStart(2, "0")}`;
+        week.push({ date: new Date(cur), dateStr, count: dailyCounts[dateStr] ?? 0 });
+        cur.setDate(cur.getDate() + 1);
+      }
+      weeks.push(week);
+    }
+
+    // Month label: show at the first week where the first day crosses into a new month
+    const monthLabels: Record<number, string> = {};
+    let lastMonth = -1;
+    weeks.forEach((week, wi) => {
+      const m = week[0].date.getMonth();
+      if (m !== lastMonth) {
+        monthLabels[wi] = MONTHS[m];
+        lastMonth = m;
+      }
+    });
+
+    return { weeks, monthLabels };
+  }, [dailyCounts]);
+
+  const maxCount = useMemo(
+    () => Math.max(1, ...Object.values(dailyCounts)),
+    [dailyCounts],
+  );
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  return (
+    // Outer wrapper: non-overflowing, contains both scroll area and portal-free tooltip
+    <div style={{ position: "relative" }}>
+      {/* Scrollable grid only — tooltip lives outside this div */}
+      <div style={{ overflowX: "auto", overflowY: "visible", paddingBottom: 4 }}>
+        {/* Month labels row */}
+        <div style={{ display: "flex", marginLeft: 30, marginBottom: 5 }}>
+          {weeks.map((_, wi) => (
+            <div
+              key={wi}
+              style={{
+                width: CELL,
+                marginRight: GAP,
+                flexShrink: 0,
+                fontSize: 10,
+                color: "hsl(var(--muted-foreground))",
+                whiteSpace: "nowrap",
+                overflow: "visible",
+              }}
+            >
+              {monthLabels[wi] ?? ""}
+            </div>
+          ))}
+        </div>
+
+        {/* Grid: day labels + week columns */}
+        <div style={{ display: "flex", gap: 0 }}>
+          {/* Day-of-week labels */}
+          <div style={{ display: "flex", flexDirection: "column", gap: GAP, marginRight: 6, flexShrink: 0 }}>
+            {DAY_LABELS.map((label, i) => (
+              <div
+                key={i}
+                style={{
+                  height: CELL,
+                  width: 24,
+                  fontSize: 10,
+                  lineHeight: `${CELL}px`,
+                  color: "hsl(var(--muted-foreground))",
+                  textAlign: "right",
+                }}
+              >
+                {label}
+              </div>
+            ))}
+          </div>
+
+          {/* Week columns */}
+          <div style={{ display: "flex", gap: GAP }}>
+            {weeks.map((week, wi) => (
+              <div key={wi} style={{ display: "flex", flexDirection: "column", gap: GAP }}>
+                {week.map(({ date, dateStr, count }) => {
+                  const isFuture = date > today;
+                  const level = isFuture ? -1 : getActivityLevel(count, maxCount);
+                  return (
+                    <div
+                      key={dateStr}
+                      onMouseEnter={(e) => {
+                        if (!isFuture)
+                          setTooltip({ count, dateStr, rect: e.currentTarget.getBoundingClientRect() });
+                      }}
+                      onMouseLeave={() => setTooltip(null)}
+                      style={{
+                        width: CELL,
+                        height: CELL,
+                        borderRadius: 3,
+                        background: isFuture ? "transparent" : LEVEL_COLORS[level],
+                        flexShrink: 0,
+                      }}
+                    />
+                  );
+                })}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Legend — outside the scroll container so it doesn't stretch it */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 5,
+          marginTop: 10,
+          justifyContent: "flex-end",
+        }}
+      >
+        <span style={{ fontSize: 11, color: "hsl(var(--muted-foreground))" }}>Less</span>
+        {LEVEL_COLORS.map((color, i) => (
+          <div
+            key={i}
+            style={{ width: CELL, height: CELL, borderRadius: 3, background: color, flexShrink: 0 }}
+          />
+        ))}
+        <span style={{ fontSize: 11, color: "hsl(var(--muted-foreground))" }}>More</span>
+      </div>
+
+      {/* Tooltip — outside the scroll container, fixed to viewport */}
+      {tooltip && (
+        <div
+          style={{
+            position: "fixed",
+            left: tooltip.rect.left + tooltip.rect.width / 2,
+            top: tooltip.rect.top - 10,
+            transform: "translateX(-50%) translateY(-100%)",
+            background: "hsl(var(--popover))",
+            border: "1px solid hsl(var(--border))",
+            borderRadius: 8,
+            padding: "6px 11px",
+            fontSize: 12,
+            color: "hsl(var(--popover-foreground))",
+            pointerEvents: "none",
+            zIndex: 9999,
+            whiteSpace: "nowrap",
+            boxShadow: "0 4px 16px rgba(0,0,0,0.18)",
+            fontFamily: "'Outfit', sans-serif",
+          }}
+        >
+          <strong style={{ color: "hsl(var(--foreground))" }}>
+            {tooltip.count} question{tooltip.count !== 1 ? "s" : ""}
+          </strong>
+          {" on "}
+          {new Date(tooltip.dateStr + "T12:00:00").toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+          })}
+        </div>
+      )}
+    </div>
+  );
+};
 
 const DomainBar = ({
   name,
@@ -200,6 +434,7 @@ const Analysis = () => {
   const navigate = useNavigate();
   const { user } = useAuth();
   const { progress } = useUserProgress();
+  const [isDarkMode, setIsDarkMode] = useState(getPreferredDarkMode);
 
   useEffect(() => {
     const link = document.createElement("link");
@@ -223,6 +458,32 @@ const Analysis = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const root = document.documentElement;
+    const syncTheme = () => setIsDarkMode(getPreferredDarkMode());
+    syncTheme();
+
+    const observer = new MutationObserver(syncTheme);
+    observer.observe(root, { attributes: true, attributeFilter: ["class"] });
+
+    const handleStorage = (event: StorageEvent) => {
+      if (event.key === THEME_STORAGE_KEY) syncTheme();
+    };
+
+    const handleThemeEvent = () => syncTheme();
+
+    window.addEventListener("storage", handleStorage);
+    window.addEventListener(THEME_EVENT, handleThemeEvent);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("storage", handleStorage);
+      window.removeEventListener(THEME_EVENT, handleThemeEvent);
+    };
+  }, []);
+
   const stats = useMemo(() => {
     const allProgress = Object.values(progress);
 
@@ -242,6 +503,8 @@ const Analysis = () => {
 
     // Group attempts by date (YYYY-MM-DD) for progression chart
     const byDate: Record<string, { total: number; correct: number }> = {};
+    // All attempts per day for the activity heatmap
+    const dailyCounts: Record<string, number> = {};
 
     allProgress.forEach((qp) => {
       if (qp.attempts.length === 0) return;
@@ -278,6 +541,13 @@ const Analysis = () => {
         if (!byDate[key]) byDate[key] = { total: 0, correct: 0 };
         byDate[key].total++;
         if (isSolved) byDate[key].correct++;
+      }
+
+      // Count ALL attempts per day for the activity heatmap
+      for (const attempt of qp.attempts) {
+        const d = new Date(attempt.timestamp);
+        const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+        dailyCounts[key] = (dailyCounts[key] || 0) + 1;
       }
     });
 
@@ -347,6 +617,7 @@ const Analysis = () => {
       englishDomains,
       weakSkills,
       strongSkills,
+      dailyCounts,
     };
   }, [progress]);
 
@@ -369,8 +640,9 @@ const Analysis = () => {
       {/* ── DARK HERO BANNER ─────────────────────────────────────────── */}
       <section
         style={{
-          background:
-            "linear-gradient(160deg, hsl(226,42%,7%) 0%, hsl(220,38%,10%) 55%, hsl(214,34%,13%) 100%)",
+          background: isDarkMode
+            ? "linear-gradient(160deg, hsl(226,42%,7%) 0%, hsl(220,38%,10%) 55%, hsl(214,34%,13%) 100%)"
+            : "linear-gradient(160deg, hsl(210,70%,98%) 0%, hsl(205,72%,95%) 48%, hsl(215,44%,92%) 100%)",
           position: "relative",
           overflow: "hidden",
         }}
@@ -381,7 +653,9 @@ const Analysis = () => {
             position: "absolute",
             inset: 0,
             backgroundImage:
-              "linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px)",
+              isDarkMode
+                ? "linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px)"
+                : "linear-gradient(rgba(15,23,42,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(15,23,42,0.05) 1px, transparent 1px)",
             backgroundSize: "52px 52px",
             pointerEvents: "none",
           }}
@@ -395,8 +669,9 @@ const Analysis = () => {
             width: 600,
             height: 400,
             borderRadius: "50%",
-            background:
-              "radial-gradient(ellipse, rgba(125,211,252,0.07) 0%, transparent 68%)",
+            background: isDarkMode
+              ? "radial-gradient(ellipse, rgba(125,211,252,0.07) 0%, transparent 68%)"
+              : "radial-gradient(ellipse, rgba(56,189,248,0.18) 0%, transparent 70%)",
             pointerEvents: "none",
           }}
         />
@@ -416,10 +691,12 @@ const Analysis = () => {
                 display: "inline-block",
                 padding: "3px 12px",
                 borderRadius: 100,
-                background: "rgba(125,211,252,0.1)",
-                border: "1px solid rgba(125,211,252,0.18)",
+                background: isDarkMode ? "rgba(125,211,252,0.1)" : "rgba(56,189,248,0.1)",
+                border: isDarkMode
+                  ? "1px solid rgba(125,211,252,0.18)"
+                  : "1px solid rgba(56,189,248,0.25)",
                 fontSize: 11,
-                color: "hsl(201,100%,78%)",
+                color: isDarkMode ? "hsl(201,100%,78%)" : "hsl(201,100%,40%)",
                 fontWeight: 500,
                 letterSpacing: "0.06em",
                 textTransform: "uppercase",
@@ -434,7 +711,7 @@ const Analysis = () => {
               fontFamily: "'Instrument Serif', Georgia, serif",
               fontSize: "clamp(30px, 4.5vw, 52px)",
               fontWeight: 400,
-              color: "white",
+              color: isDarkMode ? "white" : "hsl(220,35%,15%)",
               letterSpacing: "-0.02em",
               margin: "0 0 32px",
               lineHeight: 1.1,
@@ -456,6 +733,7 @@ const Analysis = () => {
               label="Questions"
               icon={<BookOpen size={13} />}
               empty={isEmpty}
+              isDarkMode={isDarkMode}
             />
             <StatTile
               value={`${accuracy}%`}
@@ -463,6 +741,7 @@ const Analysis = () => {
               icon={<Target size={13} />}
               color={accuracyColor(accuracy)}
               empty={isEmpty}
+              isDarkMode={isDarkMode}
             />
             <StatTile
               value={`${firstTryRate}%`}
@@ -470,12 +749,14 @@ const Analysis = () => {
               icon={<Zap size={13} />}
               color={accuracyColor(firstTryRate)}
               empty={isEmpty}
+              isDarkMode={isDarkMode}
             />
             <StatTile
               value={fmtTime(stats.totalTime)}
               label="Time Studied"
               icon={<Clock size={13} />}
               empty={isEmpty}
+              isDarkMode={isDarkMode}
             />
           </div>
         </div>
@@ -580,6 +861,36 @@ const Analysis = () => {
           </div>
         ) : (
           <div style={{ display: "flex", flexDirection: "column", gap: 48, paddingTop: 16 }}>
+
+            {/* Activity heatmap */}
+            <section className="stats-fade" style={{ animationDelay: "0s" }}>
+              <div style={{ marginBottom: 20 }}>
+                <h2
+                  style={{
+                    fontFamily: "'Instrument Serif', Georgia, serif",
+                    fontSize: "clamp(20px, 2.5vw, 28px)",
+                    fontWeight: 400,
+                    color: "hsl(var(--foreground))",
+                    margin: "0 0 4px",
+                  }}
+                >
+                  Activity
+                </h2>
+                <p style={{ fontSize: 13, color: "hsl(var(--muted-foreground))" }}>
+                  Questions answered per day over the past year
+                </p>
+              </div>
+              <div
+                style={{
+                  background: "hsl(var(--card))",
+                  border: "1px solid hsl(var(--border))",
+                  borderRadius: 16,
+                  padding: "20px 24px 16px",
+                }}
+              >
+                <ActivityHeatmap dailyCounts={stats.dailyCounts} />
+              </div>
+            </section>
 
             {/* Accuracy over time */}
             {stats.progressionData.length > 1 && (

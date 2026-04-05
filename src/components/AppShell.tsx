@@ -1,4 +1,4 @@
-import { type ReactNode, useEffect, useMemo, useState } from "react";
+import { type ReactNode, useMemo, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import {
   BarChart3,
@@ -22,12 +22,10 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/contexts/AuthContext";
 
-const SIDEBAR_HIDDEN_KEY = "app-shell-sidebar-hidden";
-
 const primaryItems = [
   { label: "Home", href: "/", icon: Home, match: (pathname: string) => pathname === "/" },
   { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank") || pathname.startsWith("/official-bank") },
-  { label: "100 Hard Questions", href: "/hard/1", icon: Target, match: (pathname: string) => pathname.startsWith("/hard/") },
+  { label: "100 Hard Math Questions", href: "/hard/1", icon: Target, match: (pathname: string) => pathname.startsWith("/hard/") },
   { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator") },
   { label: "Practice Modules", href: "/modules", icon: GraduationCap, match: (pathname: string) => pathname.startsWith("/modules") },
   { label: "Vocabulary", href: "/vocab", icon: SpellCheck, match: (pathname: string) => pathname.startsWith("/vocab") },
@@ -37,11 +35,6 @@ const secondaryItems = [
   { label: "Settings", href: "/profile", icon: Settings, match: (pathname: string) => pathname.startsWith("/profile") },
   { label: "Statistics", href: "/analysis", icon: BarChart3, match: (pathname: string) => pathname.startsWith("/analysis") },
 ];
-
-const isSidebarHiddenFromSession = () => {
-  if (typeof window === "undefined") return false;
-  return sessionStorage.getItem(SIDEBAR_HIDDEN_KEY) === "true";
-};
 
 const SidebarLink = ({
   href,
@@ -77,12 +70,8 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
-  const [isSidebarHidden, setIsSidebarHidden] = useState(isSidebarHiddenFromSession);
+  const [isSidebarHidden, setIsSidebarHidden] = useState(false);
   const isDesktopCollapsed = isSidebarHidden;
-
-  useEffect(() => {
-    sessionStorage.setItem(SIDEBAR_HIDDEN_KEY, String(isSidebarHidden));
-  }, [isSidebarHidden]);
 
   const activePrimary = useMemo(
     () => primaryItems.find((item) => item.match(location.pathname))?.label,

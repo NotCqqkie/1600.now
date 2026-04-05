@@ -1,5 +1,5 @@
-import { Link, useNavigate } from "react-router-dom";
-import { AlertCircle, ArrowLeft, LogOut, Palette, Settings } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { AlertCircle, LogOut, Palette, Settings } from "lucide-react";
 
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
@@ -34,24 +34,30 @@ const Profile = () => {
 
   return (
     <div className="min-h-screen bg-background p-6">
-      <div className="mx-auto max-w-4xl space-y-8">
-        <div className="mb-4 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" asChild>
-              <Link to="/">
-                <ArrowLeft className="h-5 w-5" />
-              </Link>
-            </Button>
-            <h1 className="text-2xl font-bold">Settings</h1>
-          </div>
+      <div className="mx-auto max-w-4xl space-y-6">
+        <div className="flex items-center justify-between gap-4">
+          <h1
+            style={{
+              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontSize: "clamp(24px, 3vw, 32px)",
+              fontWeight: 400,
+              letterSpacing: "-0.02em",
+              color: "hsl(var(--foreground))",
+              margin: 0,
+            }}
+          >
+            Settings
+          </h1>
 
-          <div className="flex items-center gap-4">
-            <div className="mr-2 text-sm text-muted-foreground">{user?.email}</div>
+          <div className="flex items-center gap-3">
+            {user?.email && (
+              <span className="hidden sm:block text-sm text-muted-foreground">{user.email}</span>
+            )}
             <Button
               variant="outline"
               size="sm"
               onClick={handleSignOut}
-              className="text-red-600 hover:bg-red-50 hover:text-red-700"
+              className="text-red-600 hover:bg-red-50 hover:text-red-700 cursor-pointer"
             >
               <LogOut className="mr-2 h-4 w-4" />
               Sign Out
