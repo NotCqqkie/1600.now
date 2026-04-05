@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { type ElementType, type ReactNode, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { MultiSelect } from "@/components/ui/multi-select";
+import { Slider } from "@/components/ui/slider";
 import {
   Select,
   SelectContent,
@@ -26,11 +27,12 @@ import { cn } from "@/lib/utils";
 
 // Filter state types
 export type DifficultyFilterValue = "easy" | "medium" | "hard";
-export type TimeSpentFilterValue = "none" | "0-20s" | "20-40s" | "40s-1m" | "1m-2m" | "2m-3m" | "3m-5m" | "5m+";
+export const MAX_TIME_SPENT_FILTER_SECONDS = 600;
+export const DEFAULT_TIME_SPENT_RANGE: [number, number] = [0, MAX_TIME_SPENT_FILTER_SECONDS];
 
 export interface QuestionBankFilters {
   difficulty: DifficultyFilterValue[];
-  timeSpent: TimeSpentFilterValue[];
+  timeSpentRange: [number, number];
   markedForReview: "all" | "yes" | "no";
   solved: "all" | "yes" | "no";
   answeredIncorrectly: "all" | "yes" | "no";
@@ -38,7 +40,7 @@ export interface QuestionBankFilters {
 
 export const defaultFilters: QuestionBankFilters = {
   difficulty: [],
-  timeSpent: [],
+  timeSpentRange: DEFAULT_TIME_SPENT_RANGE,
   markedForReview: "all",
   solved: "all",
   answeredIncorrectly: "all",
@@ -46,7 +48,8 @@ export const defaultFilters: QuestionBankFilters = {
 
 export const hasActiveQuestionBankFilters = (filters: QuestionBankFilters): boolean =>
   filters.difficulty.length > 0 ||
-  filters.timeSpent.length > 0 ||
+  filters.timeSpentRange[0] !== DEFAULT_TIME_SPENT_RANGE[0] ||
+  filters.timeSpentRange[1] !== DEFAULT_TIME_SPENT_RANGE[1] ||
   filters.markedForReview !== defaultFilters.markedForReview ||
   filters.solved !== defaultFilters.solved ||
   filters.answeredIncorrectly !== defaultFilters.answeredIncorrectly;
@@ -57,22 +60,30 @@ const difficultyOptions = [
   { label: "Hard", value: "hard" },
 ] as const;
 
-const timeSpentOptions = [
-  { label: "Not Attempted", value: "none" },
-  { label: "0-20 seconds", value: "0-20s" },
-  { label: "20-40 seconds", value: "20-40s" },
-  { label: "40s - 1 minute", value: "40s-1m" },
-  { label: "1-2 minutes", value: "1m-2m" },
-  { label: "2-3 minutes", value: "2m-3m" },
-  { label: "3-5 minutes", value: "3m-5m" },
-  { label: "5+ minutes", value: "5m+" },
-] as const;
+const SLIDER_THUMB_SIZE_PX = 24;
 
 interface FilterPanelProps {
   filters: QuestionBankFilters;
   onFiltersChange: (filters: QuestionBankFilters) => void;
-  rightContent?: React.ReactNode;
+  rightContent?: ReactNode;
 }
+
+const formatTimeSpentValue = (seconds: number, isUpperBound = false): string => {
+  if (seconds === MAX_TIME_SPENT_FILTER_SECONDS && isUpperBound) return "10m+";
+  if (seconds === 0) return "0s";
+  if (seconds < 60) return `${seconds}s`;
+
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = seconds % 60;
+  return remainingSeconds === 0 ? `${minutes}m` : `${minutes}m ${remainingSeconds}s`;
+};
+
+const getSliderBubbleLeft = (seconds: number): string => {
+  const ratio = seconds / MAX_TIME_SPENT_FILTER_SECONDS;
+  const pixelOffset = SLIDER_THUMB_SIZE_PX / 2 - ratio * SLIDER_THUMB_SIZE_PX;
+
+  return `calc(${(ratio * 100).toFixed(4)}% + ${pixelOffset.toFixed(2)}px)`;
+};
 
 // Filter card component for consistent styling
 function FilterCard({
@@ -81,9 +92,9 @@ function FilterCard({
   children,
   className,
 }: {
-  icon: React.ElementType;
+  icon: ElementType;
   label: string;
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
 }) {
   return (
@@ -103,6 +114,7 @@ export function QuestionBankFilterPanel({
   rightContent,
 }: FilterPanelProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
 
   const updateFilter = <K extends keyof QuestionBankFilters>(
     key: K,
@@ -143,12 +155,38 @@ export function QuestionBankFilterPanel({
               </FilterCard>
 
               <FilterCard icon={Clock} label="Time Spent Solving">
-                <MultiSelect
-                  options={[...timeSpentOptions]}
-                  selected={filters.timeSpent}
-                  onChange={(value) => updateFilter("timeSpent", value as QuestionBankFilters["timeSpent"])}
-                  placeholder="Any Time"
-                />
+                <div className="space-y-3 pt-1">
+                  <div className="relative px-3 pt-10">
+                    <div
+                      className="pointer-events-none absolute left-0 top-0 z-10 -translate-x-1/2"
+                      style={{ left: getSliderBubbleLeft(minTimeSpent) }}
+                    >
+                      <span className="inline-flex min-w-[3.5rem] items-center justify-center rounded-full border border-border/60 bg-background px-3 py-1 text-xs font-semibold text-foreground shadow-sm">
+                        {formatTimeSpentValue(minTimeSpent)}
+                      </span>
+                    </div>
+                    <div
+                      className="pointer-events-none absolute left-0 top-0 z-10 -translate-x-1/2"
+                      style={{ left: getSliderBubbleLeft(maxTimeSpent) }}
+                    >
+                      <span className="inline-flex min-w-[3.5rem] items-center justify-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold text-foreground shadow-sm">
+                        {formatTimeSpentValue(maxTimeSpent, true)}
+                      </span>
+                    </div>
+                    <Slider
+                      value={[minTimeSpent, maxTimeSpent]}
+                      min={0}
+                      max={MAX_TIME_SPENT_FILTER_SECONDS}
+                      step={5}
+                      minStepsBetweenThumbs={1}
+                      onValueChange={(value) => updateFilter("timeSpentRange", value as [number, number])}
+                      aria-label={["Minimum time spent", "Maximum time spent"]}
+                    />
+                  </div>
+                  <p className="text-xs text-muted-foreground">
+                    Filter questions by total time spent per question.
+                  </p>
+                </div>
               </FilterCard>
 
               <FilterCard icon={Bookmark} label="Marked for Review">

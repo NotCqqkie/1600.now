@@ -6,9 +6,14 @@ import { BrandLogo } from "@/components/BrandLogo";
 import {
   ArrowRight,
   BarChart3,
+  BookOpen,
+  Calculator,
   ChevronDown,
+  GraduationCap,
   LogOut,
   Settings,
+  SpellCheck,
+  Target,
   User,
 } from "lucide-react";
 import {
@@ -575,7 +580,7 @@ const Home = () => {
               to="/hard/1"
               className="rounded-md px-3 py-1.5 transition-colors hover:bg-muted hover:text-foreground"
             >
-              100 Hard Questions
+              100 Hard Math Questions
             </Link>
             <Link
               to="/score-calculator"
@@ -704,6 +709,25 @@ const Home = () => {
             textAlign: "center",
           }}
         >
+          {/* Badge */}
+          <div className="h-fade-1" style={{ marginBottom: 24 }}>
+            <span
+              style={{
+                display: "inline-block",
+                padding: "5px 14px",
+                borderRadius: 100,
+                background: isDarkMode ? "rgba(125,211,252,0.1)" : "rgba(56,189,248,0.1)",
+                border: isDarkMode ? "1px solid rgba(125,211,252,0.2)" : "1px solid rgba(56,189,248,0.25)",
+                fontSize: 12,
+                color: isDarkMode ? "hsl(201,100%,78%)" : "hsl(201,100%,40%)",
+                fontWeight: 500,
+                letterSpacing: "0.03em",
+              }}
+            >
+              Free · No registration required
+            </span>
+          </div>
+
           {/* Headline */}
           <h1
             className="h-fade-2"
@@ -836,7 +860,7 @@ const Home = () => {
                   isDarkMode ? "rgba(255,255,255,0.11)" : "rgba(15,23,42,0.12)";
               }}
             >
-              100 Hard Questions
+              100 Hard Math Questions
             </button>
           </div>
 
@@ -910,152 +934,296 @@ const Home = () => {
       </section>
 
       {/* ── FEATURES ───────────────────────────────────────────────────── */}
-      <section
-        className="bg-background"
-        style={{ padding: "64px 24px 96px" }}
-      >
-        <div style={{ maxWidth: 720, margin: "0 auto" }}>
-          <h2
-            style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
-              fontSize: "clamp(28px, 3.5vw, 40px)",
-              fontWeight: 400,
-              letterSpacing: "-0.02em",
-              color: "hsl(var(--foreground))",
-              marginBottom: 48,
-            }}
-          >
-            What's here
-          </h2>
+      <section className="bg-background" style={{ padding: "72px 24px 0" }}>
+        <div style={{ maxWidth: 960, margin: "0 auto" }}>
+          <div style={{ marginBottom: 52 }}>
+            <h2
+              style={{
+                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontSize: "clamp(28px, 3.5vw, 42px)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                color: "hsl(var(--foreground))",
+                marginBottom: 12,
+              }}
+            >
+              Everything you need.
+              <br />
+              <em style={{ fontStyle: "italic", color: "hsl(201,100%,60%)" }}>Nothing you don't.</em>
+            </h2>
+            <p
+              style={{
+                fontSize: 15,
+                color: isDarkMode ? "rgba(255,255,255,0.42)" : "rgba(15,23,42,0.55)",
+                fontWeight: 300,
+                maxWidth: 420,
+              }}
+            >
+              All the tools for SAT prep, in one place. No account required to start.
+            </p>
+          </div>
 
-          {[
-            {
-              n: "01",
-              title: "Question Bank",
-              desc: `${questionBankTotal.toLocaleString()} SAT questions across Math and Reading & Writing. Filter by topic, skill, or test source — drill exactly the areas you're losing points in.`,
-              href: "/bank",
-              cta: "Explore questions",
-            },
-            {
-              n: "02",
-              title: "100 Hard Questions",
-              desc: "A curated set of the hardest SAT questions. Not a vibe check — it shows precisely where your strategy breaks under pressure.",
-              href: "/hard/1",
-              cta: "Start the set",
-            },
-            {
-              n: "03",
-              title: "Progress tracking",
-              desc: "Per-domain accuracy, accuracy over time, and a clear view of which skills to focus on next. Requires a free account.",
-              href: user ? "/analysis" : "/signup",
-              cta: user ? "View your stats" : "Create account",
-            },
-          ].map((item, idx) => (
-            <div key={item.n}>
-              {/* Divider */}
-              <div
-                style={{
-                  height: 1,
-                  background: "hsl(var(--border))",
-                  marginBottom: 28,
-                }}
-              />
-              <div
-                style={{
-                  display: "flex",
-                  gap: "clamp(20px, 4vw, 48px)",
-                  alignItems: "flex-start",
-                  paddingBottom: idx === 2 ? 0 : 28,
-                }}
-              >
-                {/* Number */}
-                <span
-                  style={{
-                    fontFamily: "'Space Mono', monospace",
-                    fontSize: 12,
-                    fontWeight: 700,
-                    color: "hsl(var(--muted-foreground))",
-                    letterSpacing: "0.04em",
-                    paddingTop: 4,
-                    flexShrink: 0,
-                    width: 28,
-                  }}
-                >
-                  {item.n}
-                </span>
-
-                {/* Content */}
-                <div style={{ flex: 1 }}>
-                  <h3
-                    style={{
-                      fontFamily: "'Instrument Serif', Georgia, serif",
-                      fontSize: "clamp(20px, 2.5vw, 26px)",
-                      fontWeight: 400,
-                      color: "hsl(var(--foreground))",
-                      margin: "0 0 10px",
-                      letterSpacing: "-0.01em",
-                    }}
-                  >
-                    {item.title}
-                  </h3>
-                  <p
-                    style={{
-                      fontSize: 14,
-                      color: "hsl(var(--muted-foreground))",
-                      lineHeight: 1.7,
-                      margin: "0 0 16px",
-                      maxWidth: 480,
-                      fontWeight: 300,
-                    }}
-                  >
-                    {item.desc}
-                  </p>
-                  <button
-                    onClick={() => navigate(item.href)}
-                    style={{
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: 6,
-                      fontSize: 13,
-                      fontWeight: 500,
-                      color: "hsl(201,100%,60%)",
-                      background: "none",
-                      border: "none",
-                      cursor: "pointer",
-                      padding: 0,
-                      fontFamily: "'Outfit', sans-serif",
-                      transition: "gap 0.15s",
-                    }}
-                    onMouseEnter={(e) => {
-                      (e.currentTarget as HTMLButtonElement).style.gap = "10px";
-                    }}
-                    onMouseLeave={(e) => {
-                      (e.currentTarget as HTMLButtonElement).style.gap = "6px";
-                    }}
-                  >
-                    {item.cta}
-                    <ArrowRight size={13} />
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
-          {/* Bottom rule */}
+          {/* Feature grid */}
           <div
             style={{
-              height: 1,
-              background: "hsl(var(--border))",
-              marginTop: 0,
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gap: 20,
+              marginBottom: 80,
+            }}
+          >
+            {[
+              {
+                Icon: BookOpen,
+                title: "Question Bank",
+                desc: `${questionBankTotal.toLocaleString()} SAT questions across Math and Reading & Writing. Filter by topic, skill, or test source.`,
+                href: "/bank",
+                cta: "Explore questions",
+                accent: "hsl(201,100%,74%)",
+              },
+              {
+                Icon: Target,
+                title: "100 Hard Math Questions",
+                desc: "A curated set of the hardest SAT math questions — shows precisely where your strategy breaks under pressure.",
+                href: "/hard/1",
+                cta: "Start the set",
+                accent: "hsl(201,100%,74%)",
+              },
+              {
+                Icon: GraduationCap,
+                title: "Practice Modules",
+                desc: "Full exam modules from real past tests. Practice a complete section in timed conditions.",
+                href: "/modules",
+                cta: "Browse modules",
+                accent: "hsl(201,100%,74%)",
+              },
+              {
+                Icon: SpellCheck,
+                title: "Vocabulary",
+                desc: "High-frequency SAT words with flashcards, match games, and spaced-repetition learn mode.",
+                href: "/vocab",
+                cta: "Study vocabulary",
+                accent: "hsl(39,100%,57%)",
+              },
+              {
+                Icon: Calculator,
+                title: "Score Calculator",
+                desc: "Convert raw section scores to a scaled SAT score estimate in seconds.",
+                href: "/score-calculator",
+                cta: "Calculate score",
+                accent: "hsl(39,100%,57%)",
+              },
+              {
+                Icon: BarChart3,
+                title: "Progress Tracking",
+                desc: "Per-domain accuracy, trends over time, and a clear view of which skills to focus on next.",
+                href: user ? "/analysis" : "/signup",
+                cta: user ? "View your stats" : "Create free account",
+                accent: "hsl(39,100%,57%)",
+              },
+            ].map(({ Icon, title, desc, href, cta, accent }) => (
+              <button
+                key={title}
+                onClick={() => navigate(href)}
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                  gap: 0,
+                  padding: "24px",
+                  borderRadius: 16,
+                  border: isDarkMode
+                    ? "1px solid rgba(255,255,255,0.07)"
+                    : "1px solid rgba(15,23,42,0.08)",
+                  background: isDarkMode
+                    ? "rgba(255,255,255,0.025)"
+                    : "rgba(255,255,255,0.9)",
+                  textAlign: "left",
+                  cursor: "pointer",
+                  fontFamily: "'Outfit', sans-serif",
+                  transition: "border-color 0.18s, background 0.18s, transform 0.18s",
+                }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLButtonElement).style.borderColor = accent + "55";
+                  (e.currentTarget as HTMLButtonElement).style.background = isDarkMode
+                    ? "rgba(255,255,255,0.05)"
+                    : "rgba(255,255,255,1)";
+                  (e.currentTarget as HTMLButtonElement).style.transform = "translateY(-2px)";
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLButtonElement).style.borderColor = isDarkMode
+                    ? "rgba(255,255,255,0.07)"
+                    : "rgba(15,23,42,0.08)";
+                  (e.currentTarget as HTMLButtonElement).style.background = isDarkMode
+                    ? "rgba(255,255,255,0.025)"
+                    : "rgba(255,255,255,0.9)";
+                  (e.currentTarget as HTMLButtonElement).style.transform = "translateY(0)";
+                }}
+              >
+                {/* Icon */}
+                <div
+                  style={{
+                    width: 38,
+                    height: 38,
+                    borderRadius: 10,
+                    background: accent + "18",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    marginBottom: 16,
+                    flexShrink: 0,
+                  }}
+                >
+                  <Icon size={18} style={{ color: accent }} />
+                </div>
+
+                <h3
+                  style={{
+                    fontFamily: "'Instrument Serif', Georgia, serif",
+                    fontSize: 20,
+                    fontWeight: 400,
+                    color: "hsl(var(--foreground))",
+                    margin: "0 0 8px",
+                    letterSpacing: "-0.01em",
+                  }}
+                >
+                  {title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: 13.5,
+                    color: isDarkMode ? "rgba(255,255,255,0.44)" : "rgba(15,23,42,0.58)",
+                    lineHeight: 1.65,
+                    margin: "0 0 20px",
+                    fontWeight: 300,
+                    flex: 1,
+                  }}
+                >
+                  {desc}
+                </p>
+                <span
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 5,
+                    fontSize: 13,
+                    fontWeight: 500,
+                    color: accent,
+                  }}
+                >
+                  {cta}
+                  <ArrowRight size={12} />
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── CTA STRIP ──────────────────────────────────────────────────── */}
+      <section style={{ padding: "0 24px 80px" }}>
+        <div
+          style={{
+            maxWidth: 960,
+            margin: "0 auto",
+            borderRadius: 20,
+            padding: "48px 40px",
+            background: isDarkMode
+              ? "linear-gradient(135deg, hsl(222,30%,13%) 0%, hsl(220,28%,10%) 100%)"
+              : "linear-gradient(135deg, hsl(201,100%,96%) 0%, hsl(205,90%,92%) 100%)",
+            border: isDarkMode
+              ? "1px solid rgba(255,255,255,0.07)"
+              : "1px solid rgba(56,189,248,0.2)",
+            position: "relative",
+            overflow: "hidden",
+          }}
+        >
+          {/* glow */}
+          <div
+            style={{
+              position: "absolute",
+              right: "-5%",
+              top: "-20%",
+              width: 320,
+              height: 320,
+              borderRadius: "50%",
+              background: isDarkMode
+                ? "radial-gradient(ellipse, rgba(125,211,252,0.08) 0%, transparent 68%)"
+                : "radial-gradient(ellipse, rgba(56,189,248,0.2) 0%, transparent 68%)",
+              pointerEvents: "none",
             }}
           />
+          <div style={{ position: "relative" }}>
+            <h2
+              style={{
+                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontSize: "clamp(22px, 3vw, 32px)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                color: "hsl(var(--foreground))",
+                margin: "0 0 10px",
+              }}
+            >
+              {user ? "Keep going." : "Start for free today."}
+            </h2>
+            <p
+              style={{
+                fontSize: 14,
+                color: isDarkMode ? "rgba(255,255,255,0.46)" : "rgba(15,23,42,0.62)",
+                margin: "0 0 28px",
+                fontWeight: 300,
+                maxWidth: 360,
+                lineHeight: 1.65,
+              }}
+            >
+              {user
+                ? "You have access to every tool on the platform — no upgrades, no paywalls."
+                : "Create a free account to unlock progress tracking and personalized practice."}
+            </p>
+            <button
+              onClick={() => navigate(user ? "/bank" : "/signup")}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
+                padding: "12px 26px",
+                borderRadius: 10,
+                background: "hsl(201,100%,74%)",
+                color: "hsl(210,50%,12%)",
+                fontWeight: 600,
+                fontSize: 14,
+                border: "none",
+                cursor: "pointer",
+                fontFamily: "'Outfit', sans-serif",
+                boxShadow: isDarkMode
+                  ? "0 0 28px rgba(125,211,252,0.22)"
+                  : "0 8px 24px rgba(56,189,248,0.2)",
+                transition: "transform 0.14s, box-shadow 0.14s",
+              }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLButtonElement).style.transform = "translateY(-2px)";
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLButtonElement).style.transform = "translateY(0)";
+              }}
+            >
+              {user ? "Go to Question Bank" : "Get started free"}
+              <ArrowRight size={15} />
+            </button>
+          </div>
         </div>
       </section>
 
       {/* ── FOOTER ─────────────────────────────────────────────────────── */}
       <footer className="border-t border-border bg-card mt-auto">
-        <div className="container mx-auto px-4 py-4 text-xs text-muted-foreground flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5">
-          <p>© 2026 1600.now</p>
-          <span>Built for focused SAT prep.</span>
+        <div className="container mx-auto px-4 py-5 text-xs text-muted-foreground flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <BrandLogo variant="mark" className="h-5 w-5" />
+            <span>© 2026 1600.now</span>
+          </div>
+          <div className="flex items-center gap-4">
+            <span>Built for focused SAT prep.</span>
+          </div>
         </div>
       </footer>
     </div>

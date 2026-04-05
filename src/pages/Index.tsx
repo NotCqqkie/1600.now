@@ -146,26 +146,24 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b bg-card sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <img
-                src="/logo_b.png"
-                alt="1600.now"
-                className="h-8 w-auto max-w-[220px] object-contain dark:hidden"
-              />
-              <img
-                src="/logo_w.png"
-                alt="1600.now"
-                className="hidden h-8 w-auto max-w-[220px] object-contain dark:block"
-              />
-              <p className="text-muted-foreground text-sm">Master the SAT with comprehensive practice</p>
-            </div>
-          </div>
-        </div>
-      </header>
+      {/* Page header */}
+      <div className="container mx-auto px-4 pt-8 pb-2">
+        <h1
+          style={{
+            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontSize: "clamp(24px, 3vw, 32px)",
+            fontWeight: 400,
+            letterSpacing: "-0.02em",
+            color: "hsl(var(--foreground))",
+            marginBottom: 4,
+          }}
+        >
+          Browse
+        </h1>
+        <p className="text-sm text-muted-foreground">
+          Jump to any topic, skill, or question set.
+        </p>
+      </div>
 
       {/* Quick Access Cards */}
       <section className="container mx-auto px-4 py-6">
@@ -179,8 +177,8 @@ const Index = () => {
                 <Trophy className="h-8 w-8 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">100 Hard Questions</h3>
-                <p className="text-sm text-muted-foreground">Curated challenging problems</p>
+                <h3 className="text-xl font-bold">100 Hard Math Questions</h3>
+                <p className="text-sm text-muted-foreground">Curated challenging math problems</p>
               </div>
             </div>
           </Card>
@@ -234,7 +232,18 @@ const Index = () => {
 
       {/* Main Content - Two Column Tree */}
       <main className="container mx-auto px-4 py-4">
-        <h2 className="text-2xl font-bold mb-6">Browse by Topic</h2>
+        <h2
+          style={{
+            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontSize: "clamp(20px, 2.5vw, 26px)",
+            fontWeight: 400,
+            letterSpacing: "-0.015em",
+            color: "hsl(var(--foreground))",
+            marginBottom: 24,
+          }}
+        >
+          Browse by Topic
+        </h2>
         <div className="grid md:grid-cols-2 gap-8">
           {Object.entries(categoryTree).map(([subject, data]) => {
             const Icon = data.icon;

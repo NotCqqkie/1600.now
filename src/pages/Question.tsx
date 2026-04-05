@@ -2,7 +2,6 @@ import { useParams, useNavigate, useLocation, useSearchParams } from "react-rout
 import { useState, useEffect, useRef, useLayoutEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { NavigationSheet } from "@/components/NavigationSheet";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
 import { OfficialPracticeNavigationSheet } from "@/components/OfficialPracticeNavigationSheet"; 
 import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet"; 
@@ -353,6 +352,18 @@ function Question() {
       storageId: question.stableId,
     }));
   }, [isBank, subject, bankSource]);
+
+  // Items for the 100 Hard Questions navigator — storageId matches the
+  // localStateKey format "question-N" so BankNavigationSheet reads the
+  // same localStorage keys as the rest of the hard question logic.
+  const hardNavigationItems = useMemo(
+    () =>
+      Array.from({ length: 100 }, (_, i) => ({
+        id: i + 1,
+        storageId: `question-${i + 1}`,
+      })),
+    [],
+  );
 
   useEffect(() => {
     const storageKey = getQuestionViewModeStorageKey(subject, isBank, isOfficialBank);
@@ -900,7 +911,7 @@ function Question() {
             <TransparentAwareImage
               src={normalizePublicAssetPath(img.src)}
               alt={img.alt || `Question image ${idx + 1}`}
-              className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
+              className="max-w-full h-auto max-h-[340px] rounded-[8px] object-contain border border-border"
               wrapperClassName="max-w-full"
               loading="lazy"
               trimWhitespace={isBank && bankSource === 'unofficial'}
@@ -1303,8 +1314,11 @@ function Question() {
             >
               <PreviousAttemptsDialog attempts={currentProgress.attempts} />
               {is100Hard ? (
-                  <NavigationSheet 
-                    currentQuestion={questionNumber} 
+                  <BankNavigationSheet
+                    currentQuestion={questionNumber}
+                    totalQuestions={100}
+                    onJump={(qNum) => navigate(`/hard/${qNum}`)}
+                    items={hardNavigationItems}
                     isSplitScreenActive={isSplitScreenActive}
                     splitPosition={splitPosition}
                   />

@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useState } from "react";
+import { type CSSProperties, useEffect, useMemo, useState } from "react";
 import { RotateCcw } from "lucide-react";
 
 import { Slider } from "@/components/ui/slider";
 import { getSatScoreColor, satCalculatorYears } from "@/data/satCalculator";
+import { cn } from "@/lib/utils";
 
 const digitalSatSections = satCalculatorYears[0].sections;
 const rwSections = digitalSatSections.slice(0, 2);
@@ -85,6 +86,23 @@ const ScoreCalculator = () => {
   return (
     <div className="min-h-screen bg-background" style={{ fontFamily: "'Outfit', sans-serif" }}>
       <main style={{ maxWidth: 1240, margin: "0 auto", padding: "32px 24px 80px" }}>
+        <div style={{ marginBottom: 28 }}>
+          <h1
+            style={{
+              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontSize: "clamp(26px, 3.5vw, 36px)",
+              fontWeight: 400,
+              letterSpacing: "-0.02em",
+              color: "hsl(var(--foreground))",
+              marginBottom: 4,
+            }}
+          >
+            Score Calculator
+          </h1>
+          <p style={{ fontSize: 13, color: "hsl(var(--muted-foreground))" }}>
+            Enter your raw scores to estimate your SAT total.
+          </p>
+        </div>
         <div
           className="grid gap-7 lg:grid-cols-[minmax(0,1.4fr)_minmax(320px,380px)]"
           style={{ alignItems: "start" }}
@@ -360,7 +378,7 @@ const ScoreSummaryCard = ({
                       marginBottom: 6,
                       transition: "color 0.4s ease",
                       "--score-glow": `${scores.color}55`,
-                    } as React.CSSProperties
+                    } as CSSProperties
                   }
                 >
                   {scores.total}
@@ -526,7 +544,7 @@ const ScoreSummaryCard = ({
   );
 };
 
-const stepperBtn: React.CSSProperties = {
+const stepperBtn: CSSProperties = {
   width: 40,
   height: 40,
   borderRadius: "50%",
