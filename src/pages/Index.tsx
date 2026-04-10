@@ -170,7 +170,7 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <Card 
             className="p-6 cursor-pointer hover:shadow-lg transition-shadow border-2 border-primary/20 hover:border-primary/50"
-            onClick={() => navigate("/hard/1")}
+            onClick={() => navigate("/hard")}
           >
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-lg bg-primary/10">
