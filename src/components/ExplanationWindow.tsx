@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Youtube } from "lucide-react";
 import { DraggableWindow } from "./DraggableWindow";
-import { normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
+import { normalizePublicAssetPath } from "@/lib/utils";
+import { renderMixedContent } from "@/lib/mathRendering";
 
 interface ExplanationWindowProps {
-  videoUrl?: string;
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
   onSplitPositionChange?: (newPosition: number) => void;
   splitPosition?: number;

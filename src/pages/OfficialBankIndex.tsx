@@ -28,12 +28,13 @@ import {
   QuestionBankFilterPanel,
   QuestionBankFilters,
   defaultFilters,
+  hasActiveQuestionBankFilters,
+  MAX_TIME_SPENT_FILTER_SECONDS,
 } from "@/components/QuestionBankFilterPanel";
 import {
   getUserProgressStatic,
   isQuestionSolved,
   isQuestionAnsweredIncorrectly,
-  getTimeSpentRange,
   QuestionProgress,
 } from "@/hooks/useUserProgress";
 
@@ -119,6 +120,11 @@ const OfficialBankIndex = () => {
   const questionPassesFilters = useCallback((q: BankQuestion, subject: BankSubject): boolean => {
     const progress = getQuestionProgress(q, subject);
 
+    if (filters.difficulty.length > 0) {
+      const normalizedDifficulty = (q.difficulty ?? "").trim().toLowerCase();
+      if (!filters.difficulty.includes(normalizedDifficulty as typeof filters.difficulty[number])) return false;
+    }
+
     // Marked for review filter
     if (filters.markedForReview !== "all") {
       if (filters.markedForReview === "yes" && !progress.isMarkedForReview) return false;
@@ -140,10 +146,13 @@ const OfficialBankIndex = () => {
     }
 
     // Time spent filter
-    if (filters.timeSpent !== "all") {
-      const timeRange = getTimeSpentRange(progress.totalTimeSpentSeconds);
-      if (filters.timeSpent === "none" && progress.totalTimeSpentSeconds > 0) return false;
-      if (filters.timeSpent !== "none" && timeRange !== filters.timeSpent) return false;
+    const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
+    if (progress.totalTimeSpentSeconds < minTimeSpent) return false;
+    if (
+      maxTimeSpent < MAX_TIME_SPENT_FILTER_SECONDS &&
+      progress.totalTimeSpentSeconds > maxTimeSpent
+    ) {
+      return false;
     }
 
     return true;
@@ -771,7 +780,7 @@ const OfficialBankIndex = () => {
             onFiltersChange={setFilters}
             rightContent={
               <div className="flex items-center gap-4">
-                {Object.values(filters).some(v => v !== "all" && v !== "none") && (
+                {hasActiveQuestionBankFilters(filters) && (
                   <Button 
                     variant="ghost" 
                     size="sm" 
@@ -788,7 +797,7 @@ const OfficialBankIndex = () => {
                     checked={isMultiSelect}
                     onCheckedChange={setIsMultiSelect}
                   />
-                  <Label htmlFor="multi-select-mode">Multiple Topics</Label>
+                  <Label htmlFor="multi-select-mode">Select multiple topics</Label>
                 </div>
               </div>
             }

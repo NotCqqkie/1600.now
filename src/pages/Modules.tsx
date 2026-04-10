@@ -1,13 +1,12 @@
 import { useState, useMemo } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { getAllBankQuestions, type BankQuestion } from "@/data/questionBank";
 import { parseTestName, type ModuleMetadata } from "@/data/modules";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { BookOpen, Calculator, Calendar, Filter, GraduationCap, Home } from "lucide-react";
-import { ThemeToggle } from "@/components/ThemeToggle"; // Import toggle
+import { BookOpen, Calculator, Calendar, Filter, GraduationCap } from "lucide-react";
 
 const Modules = () => {
   const navigate = useNavigate();
@@ -63,22 +62,22 @@ const Modules = () => {
 
   return (
     <div className="container mx-auto py-8 px-4">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
-        <div>
-          <h1 className="text-3xl font-bold flex items-center gap-2">
-            <BookOpen className="h-8 w-8" />
-            Practice Modules
-          </h1>
-          <p className="text-muted-foreground mt-2">
-            Browse and practice full exam modules sorted by year and subject.
-          </p>
-        </div>
-        <div className="flex items-center gap-3">
-             <Button variant="ghost" className="gap-2" onClick={() => navigate("/")}>
-                <Home className="h-4 w-4" /> Home
-             </Button>
-             <ThemeToggle />
-        </div>
+      <div className="mb-8">
+        <h1
+          style={{
+            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontSize: "clamp(26px, 3.5vw, 36px)",
+            fontWeight: 400,
+            letterSpacing: "-0.02em",
+            color: "hsl(var(--foreground))",
+            marginBottom: 6,
+          }}
+        >
+          Practice Modules
+        </h1>
+        <p className="text-sm text-muted-foreground">
+          Browse and practice full exam modules sorted by year and subject.
+        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8 p-4 bg-muted/30 rounded-lg border">

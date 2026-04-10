@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import {
   getBankPool,
@@ -50,6 +51,11 @@ const OfficialBankBrowse = () => {
   const navigate = useNavigate();
   const { subject } = useParams<{ subject: BankSubject }>();
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
+
+  useEffect(() => {
+    sessionStorage.removeItem("question-view-mode:official:math");
+    sessionStorage.removeItem("question-view-mode:official:reading");
+  }, []);
   
   const isMath = validSubject === "math";
   const domains: string[] = isMath ? [...allMathDomains] : [...allEnglishDomains];
@@ -81,7 +87,7 @@ const OfficialBankBrowse = () => {
   };
 
   const handleShuffleDomain = (domain: string) => {
-      let questions = getQuestionsByDomain(validSubject, domain as MathDomain | EnglishDomain);
+      const questions = getQuestionsByDomain(validSubject, domain as MathDomain | EnglishDomain);
       // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -92,7 +98,7 @@ const OfficialBankBrowse = () => {
   };
 
   const handleShuffleSkill = (skill: string) => {
-    let questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill);
+    const questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill);
       // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -103,7 +109,7 @@ const OfficialBankBrowse = () => {
   };
     
   const handleShuffleAll = () => {
-    let questions = getBankPool(validSubject);
+    const questions = getBankPool(validSubject);
       // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {

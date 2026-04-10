@@ -117,6 +117,7 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Outfit', system-ui, sans-serif;
     background-image:
       radial-gradient(circle at 20% 20%, hsla(201 100% 85% / 0.25), transparent 35%),
       radial-gradient(circle at 80% 0%, hsla(39 100% 57% / 0.2), transparent 40%),

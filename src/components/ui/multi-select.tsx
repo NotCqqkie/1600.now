@@ -15,7 +15,6 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover"
-import { Badge } from "@/components/ui/badge"
 
 export type Option = {
   label: string
@@ -38,6 +37,16 @@ export function MultiSelect({
   className,
 }: MultiSelectProps) {
   const [open, setOpen] = React.useState(false)
+  const selectedLabels = selected
+    .map((val) => options.find((option) => option.value === val)?.label || val)
+    .filter(Boolean)
+
+  const triggerLabel =
+    selected.length === 0
+      ? placeholder
+      : selected.length <= 2
+        ? selectedLabels.join(", ")
+        : `${selected.length} selected`
 
   const handleSelect = (value: string) => {
     if (selected.includes(value)) {
@@ -54,27 +63,15 @@ export function MultiSelect({
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className={cn("w-full justify-between", className)}
+          className={cn("w-full justify-between gap-2 overflow-hidden", className)}
         >
-          <div className="flex gap-1 flex-wrap">
-            {selected.length === 0 && placeholder}
-            {selected.length > 0 && selected.length <= 2 && (
-                selected.map((val) => (
-                    <Badge variant="secondary" key={val} className="mr-1">
-                        {options.find((o) => o.value === val)?.label || val}
-                    </Badge>
-                ))
-            )}
-            {selected.length > 2 && (
-                <Badge variant="secondary">
-                    {selected.length} selected
-                </Badge>
-            )}
-          </div>
+          <span className="min-w-0 flex-1 truncate text-left">
+            {triggerLabel}
+          </span>
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-full p-0">
+      <PopoverContent className="w-[var(--radix-popover-trigger-width)] min-w-[16rem] p-0">
         <Command>
           <CommandInput placeholder="Search..." />
           <CommandList>

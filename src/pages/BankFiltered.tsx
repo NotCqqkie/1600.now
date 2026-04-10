@@ -1,5 +1,5 @@
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import {
   getQuestionsByDomain,
   getQuestionsBySkill,
@@ -7,7 +7,7 @@ import {
   BANK_SOURCE_LABELS,
   type BankSubject,
   type BankQuestion,
-  type BankSourceId,
+  type BankSourceFilter,
   type MathDomain,
   type EnglishDomain,
   type MathSkill,
@@ -47,6 +47,11 @@ const BankFiltered = () => {
   const decodedFilter = decodeURIComponent(filterValue || "");
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
 
+  useEffect(() => {
+    sessionStorage.removeItem("question-view-mode:bank:math");
+    sessionStorage.removeItem("question-view-mode:bank:reading");
+  }, []);
+
   const questions = useMemo(() => {
     if (filterType === "domain") {
       return getQuestionsByDomain(validSubject, decodedFilter as MathDomain | EnglishDomain, bankSource);
@@ -62,7 +67,7 @@ const BankFiltered = () => {
     return { answered: !!answered, flagged };
   };
 
-  const handleBankSourceChange = (nextSource: BankSourceId) => {
+  const handleBankSourceChange = (nextSource: BankSourceFilter) => {
     const nextParams = new URLSearchParams(searchParams);
     nextParams.set("bankType", nextSource);
     setSearchParams(nextParams);
@@ -87,7 +92,7 @@ const BankFiltered = () => {
 
   const handleQuestionClick = (q: BankQuestion) => {
     // Navigate to the question, but we need to use the pool-relative ID
-    navigate(`/bank/${validSubject}/${q.id}?bankType=${q.bankType}`);
+    navigate(`/bank/${validSubject}/${q.id}?bankType=${bankSource}`);
   };
 
   const answeredCount = questions.filter((q) => getQuestionState(q).answered).length;

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
-import { cn, normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
+import { cn, normalizePublicAssetPath } from "@/lib/utils";
+import { renderMixedContent } from "@/lib/mathRendering";
 import { Button } from "@/components/ui/button";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import "katex/dist/katex.min.css";
@@ -36,12 +37,7 @@ export const MultipleChoiceQuestion = ({
   // Reset strikeouts immediately when the question changes to avoid flash of old state
   useLayoutEffect(() => {
     setStruckOut(new Set());
-    // Note: Don't clear choiceRefs here as they are set during render and needed by useEffect
   }, [questionId]);
-
-
-  // Removed localStorage persistence for strikeouts to ensure fresh state on navigation
-
 
   useEffect(() => {
     // Render mixed content (HTML text + KaTeX math) for each choice
@@ -73,11 +69,12 @@ export const MultipleChoiceQuestion = ({
               src={normalizePublicAssetPath(choice.image)}
               alt={`SAT question ${questionId} choice ${choice.id} image`}
               className={cn(
-                "w-auto max-w-full h-auto max-h-[220px] sm:max-h-[260px] rounded-lg object-contain block",
+                "w-auto max-w-full h-auto max-h-[220px] sm:max-h-[260px] rounded-[10px] object-contain block",
                 dimmed && "opacity-60"
               )}
               wrapperClassName="max-w-full"
               loading="lazy"
+              trimWhitespace
             />
           </div>
         )}
@@ -95,7 +92,6 @@ export const MultipleChoiceQuestion = ({
         newSet.delete(choiceId);
       } else {
         newSet.add(choiceId);
-        // If striking out the selected answer, unselect it
         if (isCurrentlySelected && onAnswerChange) {
           onAnswerChange("");
         }
@@ -114,11 +110,9 @@ export const MultipleChoiceQuestion = ({
         const showIncorrect = wasChecked && checkedAnswers[choice.id] === false;
         const hasImage = Boolean(choice.image);
         
-        // If struck out, show the strikethrough view
         if (isStruckOut) {
           return (
             <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
-              {/* Main choice card - clickable to unstrikeout and select */}
               <div 
                 className={cn(
                   "flex-1 flex gap-3 rounded-xl border-2 border-border bg-muted/30 p-4 cursor-pointer hover:bg-muted/50 transition-colors",
@@ -127,35 +121,29 @@ export const MultipleChoiceQuestion = ({
                 onClick={(e) => {
                   e.preventDefault();
                   e.stopPropagation();
-                  // Unstrikeout
                   setStruckOut(prev => {
                     const newSet = new Set(prev);
                     newSet.delete(choice.id);
                     return newSet;
                   });
-                  // Select the answer
                   if (onAnswerChange) {
                     onAnswerChange(choice.id);
                   }
                 }}
               >
-                {/* Circle with letter - dimmed */}
                 <div className="flex-shrink-0 w-8 h-8 rounded-full border-2 border-muted-foreground/30 flex items-center justify-center font-semibold text-sm text-muted-foreground/50">
                   {choice.id}
                 </div>
                 
-                {/* Choice text with line through entire row */}
                 <div className="flex-1 relative overflow-wrap-anywhere">
                   {renderChoiceContent(choice, true)}
                 </div>
               </div>
-              {/* Full-width strikethrough line - extends equally beyond both edges of the box */}
               <div className={cn(
                 "absolute top-1/2 h-[2px] bg-muted-foreground/40 -translate-y-1/2 pointer-events-none",
                 strikeoutMode ? "left-[-8px] right-[48px]" : "left-[-8px] right-[-8px]"
               )} />
               
-              {/* Undo button - only shows when strikeout mode is active */}
               {strikeoutMode && (
                 <button
                   className="absolute right-0 top-1/2 -translate-y-1/2 text-foreground underline font-medium text-sm hover:text-primary transition-colors shrink-0"
@@ -168,12 +156,10 @@ export const MultipleChoiceQuestion = ({
           );
         }
         
-        // If already checked, don't allow selection
         const isLocked = wasChecked || hasCorrectAnswerLocked;
         
         return (
           <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
-            {/* Main choice card */}
             <div
               className={cn(
                 "group flex-1 flex gap-3 rounded-xl border-2 border-border p-4 transition-colors",
@@ -187,14 +173,12 @@ export const MultipleChoiceQuestion = ({
               onClick={(e) => {
                 e.preventDefault();
                 e.stopPropagation();
-                // Don't allow selection if already checked
                 if (isLocked) return;
                 if (onAnswerChange) {
-                  onAnswerChange(choice.id);
+                  onAnswerChange(isSelected ? "" : choice.id);
                 }
               }}
             >
-              {/* Circle with letter */}
               <div
                 className={cn(
                   "flex-shrink-0 w-8 h-8 rounded-full border-2 flex items-center justify-center font-semibold text-sm transition-colors",
@@ -210,12 +194,10 @@ export const MultipleChoiceQuestion = ({
                 {choice.id}
               </div>
               
-              {/* Choice text */}
               <div className="flex-1 break-words overflow-wrap-anywhere">
                 {renderChoiceContent(choice)}
               </div>
               
-              {/* Check button - shows on hover OR when selected, if not already checked */}
               {onCheck && !wasChecked && !hasCorrectAnswerLocked && (
                 <Button
                   size="sm"
@@ -226,7 +208,6 @@ export const MultipleChoiceQuestion = ({
                   )}
                   onClick={(e) => {
                     e.stopPropagation();
-                    // Pass the choice ID directly to check - this selects and checks immediately
                     onCheck(choice.id);
                   }}
                 >
@@ -235,18 +216,15 @@ export const MultipleChoiceQuestion = ({
               )}
             </div>
             
-            {/* Strikethrough button on the right - only shows when strikeout mode is active */}
             {strikeoutMode && (
               <button
                 className="absolute right-0 top-1/2 -translate-y-1/2 flex-shrink-0 w-8 h-8 flex items-center justify-center transition-colors hover:opacity-70"
                 onClick={(e) => toggleStrikeout(choice.id, e)}
                 title="Strike out this choice"
               >
-                {/* Circle with letter */}
                 <div className="w-8 h-8 rounded-full border-2 border-muted-foreground/50 flex items-center justify-center font-semibold text-sm text-muted-foreground">
                   {choice.id}
                 </div>
-                {/* Strikethrough line extending beyond circle - semi-transparent */}
                 <div className="absolute top-1/2 -left-1 -right-1 h-[2px] bg-muted-foreground/50 -translate-y-1/2" />
               </button>
             )}

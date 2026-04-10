@@ -1,7 +1,8 @@
 import { questions as pastSatQuestionsData, type Question as SourceQuestion } from "./all_questions";
 import { questions as unofficialQuestionsData } from "./unofficialQuestions";
 import { resolveSatChoiceImage, resolveSatQuestionImages } from "./satQuestionImages";
-import { normalizeTextForMathRendering } from "@/lib/utils";
+import { unofficialCompositePrimaryImageIndex } from "./unofficialCompositeImageSelection";
+import { normalizeTextForMathRendering } from "@/lib/mathTextNormalization";
 import {
   classifyQuestion,
   inferSubjectFromSource,
@@ -21,9 +22,10 @@ export type BankSubject = "math" | "reading";
 export type BankSourceId = "past" | "unofficial";
 export type BankSourceFilter = BankSourceId | "all";
 
-export const BANK_SOURCE_LABELS: Record<BankSourceId, string> = {
+export const BANK_SOURCE_LABELS: Record<BankSourceFilter, string> = {
   unofficial: "Unofficial Bank",
   past: "Past SAT-based",
+  all: "Both Banks",
 };
 
 export const DEFAULT_BANK_SOURCE: BankSourceId = "unofficial";
@@ -46,6 +48,10 @@ const rawSources: RawBankSource[] = [
     questions: pastSatQuestionsData,
   },
 ];
+
+const rawSourceMap: Record<BankSourceId, RawBankSource> = Object.fromEntries(
+  rawSources.map((source) => [source.bankType, source]),
+) as Record<BankSourceId, RawBankSource>;
 
 export interface BankChoice {
   id: string;
@@ -82,7 +88,8 @@ export interface BankQuestion {
 export type { QuestionCategory, MathDomain, EnglishDomain, MathSkill, EnglishSkill };
 export { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains };
 
-export const normalizeBankSource = (value: string | null | undefined): BankSourceId => {
+export const normalizeBankSource = (value: string | null | undefined): BankSourceFilter => {
+  if (value === "all") return "all";
   if (value === "past") return "past";
   if (value === "unofficial") return "unofficial";
   return DEFAULT_BANK_SOURCE;
@@ -122,26 +129,60 @@ const trimCompositeRationale = (rationale: string): string => {
   return rationale.slice(0, secondMarkerIndex).trim();
 };
 
-const normalizeUnofficialMathCompositeQuestion = (
+const pickPrimaryCompositeQuestionImages = (
+  sourceId: string,
+  images: { src: string; alt: string }[] | undefined,
+): { src: string; alt: string }[] | undefined => {
+  if (!images || images.length <= 1) return images;
+  const preferredIndex = unofficialCompositePrimaryImageIndex[sourceId] ?? 0;
+  return [images[Math.min(preferredIndex, images.length - 1)]];
+};
+
+const getCompositeMathQuestionMetadata = (
   source: RawBankSource,
   subject: BankSubject,
   text: string,
   rationale?: string | null,
-): { text: string; rationale?: string | null } => {
+  correctAnswer?: string | null,
+  choices?: SourceQuestion["choices"],
+) => {
   if (source.bankType !== "unofficial" || subject !== "math" || !rationale) {
-    return { text, rationale };
+    return {
+      isComposite: false,
+      text,
+      rationale,
+      typeOverride: undefined as SourceQuestion["type"] | undefined,
+      choicesOverride: undefined as SourceQuestion["choices"] | undefined,
+    };
   }
 
   const questionMarkCount = (text.match(/\?/g) || []).length;
   const correctAnswerMarkerCount = [...rationale.matchAll(CORRECT_ANSWER_MARKER_REGEX)].length;
 
   if (questionMarkCount < 2 || correctAnswerMarkerCount < 2) {
-    return { text, rationale };
+    return {
+      isComposite: false,
+      text,
+      rationale,
+      typeOverride: undefined as SourceQuestion["type"] | undefined,
+      choicesOverride: undefined as SourceQuestion["choices"] | undefined,
+    };
   }
 
+  const trimmedText = trimCompositeMathStem(text);
+  const trimmedRationale = trimCompositeRationale(rationale);
+  const normalizedCorrectAnswer = (correctAnswer ?? "").trim();
+  const choiceIds = new Set((choices ?? []).map((choice) => choice.id));
+  const isFirstQuestionFreeResponse =
+    /^\s*The correct answer is\b/i.test(trimmedRationale) ||
+    (normalizedCorrectAnswer.length > 0 && !choiceIds.has(normalizedCorrectAnswer));
+
   return {
-    text: trimCompositeMathStem(text),
-    rationale: trimCompositeRationale(rationale),
+    isComposite: true,
+    text: trimmedText,
+    rationale: trimmedRationale,
+    typeOverride: isFirstQuestionFreeResponse ? "free-response" : undefined,
+    choicesOverride: isFirstQuestionFreeResponse ? undefined : choices,
   };
 };
 
@@ -200,15 +241,6 @@ const hasRenderableStem = (q: SourceQuestion): boolean => {
 };
 
 const mapImages = (q: SourceQuestion) => resolveSatQuestionImages(q.id, q.image);
-
-const mapChoices = (q: SourceQuestion) => {
-  if (!q.choices) return undefined;
-  return q.choices.map((choice) => ({
-    id: choice.id,
-    text: choice.text ? sanitizeCurrency(choice.text) : undefined,
-    image: resolveSatChoiceImage(q.id, choice.id, choice.image),
-  }));
-};
 
 const extractLegacyQuestionNumber = (sourceId: string): number | string => {
   const match = sourceId.match(/_(\d+)$/);
@@ -273,12 +305,63 @@ const isLikelyPassageBlock = (text: string): boolean => {
   return false;
 };
 
-const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
-  if (!raw.includes("\\\\")) {
+const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?: string } => {
+  const trimmed = raw.trim();
+  if (!trimmed) {
     return {
-      passage: sanitizeCurrency(raw),
+      passage: undefined,
       questionText: undefined,
     };
+  }
+
+  const newlineIndex = trimmed.indexOf("\n");
+  if (newlineIndex !== -1) {
+    const firstLine = trimmed.slice(0, newlineIndex).trim();
+    const rest = trimmed.slice(newlineIndex + 1).trim();
+    if (
+      firstLine &&
+      rest &&
+      (isLikelyQuestionPrompt(firstLine) || firstLine.endsWith("?")) &&
+      (isLikelyPassageBlock(rest) || !isLikelyQuestionPrompt(rest))
+    ) {
+      return {
+        passage: sanitizeCurrency(rest),
+        questionText: sanitizeCurrency(firstLine),
+      };
+    }
+  }
+
+  const sentenceMatch = trimmed.match(/^(.+?\?)(?:\s+|$)([\s\S]*)$/);
+  if (!sentenceMatch) {
+    return {
+      passage: sanitizeCurrency(trimmed),
+      questionText: undefined,
+    };
+  }
+
+  const questionSentence = sentenceMatch[1].trim();
+  const remainder = (sentenceMatch[2] || "").trim();
+  if (
+    questionSentence &&
+    remainder &&
+    isLikelyQuestionPrompt(questionSentence) &&
+    (isLikelyPassageBlock(remainder) || !isLikelyQuestionPrompt(remainder))
+  ) {
+    return {
+      passage: sanitizeCurrency(remainder),
+      questionText: sanitizeCurrency(questionSentence),
+    };
+  }
+
+  return {
+    passage: sanitizeCurrency(trimmed),
+    questionText: undefined,
+  };
+};
+
+const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
+  if (!raw.includes("\\\\")) {
+    return splitQuestionFirstStem(raw);
   }
 
   const parts = raw.split("\\\\");
@@ -357,11 +440,23 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     };
 
   const subject: BankSubject = category.subject === "Math" ? "math" : "reading";
-  const normalizedSource = normalizeUnofficialMathCompositeQuestion(source, subject, q.text, q.rationale);
+  const normalizedSource = getCompositeMathQuestionMetadata(
+    source,
+    subject,
+    q.text,
+    q.rationale,
+    q.correctAnswer,
+    q.choices,
+  );
   const normalizedText = normalizedSource.text;
   const normalizedRationale = normalizedSource.rationale ? sanitizeCurrency(normalizedSource.rationale) : normalizedSource.rationale;
+  const normalizedType = normalizedSource.typeOverride ?? q.type;
+  const normalizedChoices = normalizedSource.choicesOverride ?? q.choices;
+  const normalizedQuestionImages = normalizedSource.isComposite
+    ? pickPrimaryCompositeQuestionImages(String(q.id), mapImages(q))
+    : mapImages(q);
 
-  let prompt = sanitizeCurrency(normalizedText);
+  const prompt = sanitizeCurrency(normalizedText);
   let passage: string | undefined;
   let questionText: string | undefined = sanitizeCurrency(normalizedText);
 
@@ -391,22 +486,79 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     prompt,
     passage,
     questionText,
-    choices: q.type === "multiple-choice" ? mapChoices(q) : undefined,
-    type: q.type,
+    choices: normalizedType === "multiple-choice"
+      ? (normalizedChoices
+        ? normalizedChoices.map((choice) => ({
+            id: choice.id,
+            text: choice.text ? sanitizeCurrency(choice.text) : undefined,
+            image: resolveSatChoiceImage(q.id, choice.id, choice.image),
+          }))
+        : undefined)
+      : undefined,
+    type: normalizedType,
     correctAnswer: q.correctAnswer,
     rationale: normalizedRationale,
-    questionImages: mapImages(q),
+    questionImages: normalizedQuestionImages,
     difficulty: normalizeDifficulty(q.difficulty),
     category,
   };
 };
 
-const normalizedQuestionsBySource: Record<BankSourceId, Omit<BankQuestion, "id">[]> = {
-  unofficial: rawSources[0].questions.filter(hasRenderableStem).map((q) => normalizeQuestion(rawSources[0], q)),
-  past: rawSources[1].questions.filter(hasRenderableStem).map((q) => normalizeQuestion(rawSources[1], q)),
+const poolCache = new Map<string, BankQuestion[]>();
+const rawSourceSubjectCache = new Map<string, SourceQuestion[]>();
+const normalizedSourceSubjectCache = new Map<string, Omit<BankQuestion, "id">[]>();
+
+const makeSourceSubjectCacheKey = (sourceId: BankSourceId, subject: BankSubject) =>
+  `${sourceId}:${subject}`;
+
+const getRawSourceSubjectQuestions = (
+  sourceId: BankSourceId,
+  subject: BankSubject,
+): SourceQuestion[] => {
+  const cacheKey = makeSourceSubjectCacheKey(sourceId, subject);
+  const cached = rawSourceSubjectCache.get(cacheKey);
+  if (cached) return cached;
+
+  const source = rawSourceMap[sourceId];
+  const questions = source.questions.filter((question) => {
+    if (!hasRenderableStem(question)) return false;
+    const sourceCategory = normalizeCategoryFromSource({
+      section: question.section,
+      testName: question.testName,
+      subject: question.category?.subject,
+      domain: question.category?.domain ?? question.domain,
+      skill: question.category?.skill ?? question.skill,
+      confidence: question.category?.confidence,
+    });
+
+    const questionSubject: BankSubject =
+      (sourceCategory ? sourceCategory.subject === "Math" : isMathQuestion(question))
+        ? "math"
+        : "reading";
+
+    return questionSubject === subject;
+  });
+
+  rawSourceSubjectCache.set(cacheKey, questions);
+  return questions;
 };
 
-const poolCache = new Map<string, BankQuestion[]>();
+const getNormalizedSourceSubjectQuestions = (
+  sourceId: BankSourceId,
+  subject: BankSubject,
+): Omit<BankQuestion, "id">[] => {
+  const cacheKey = makeSourceSubjectCacheKey(sourceId, subject);
+  const cached = normalizedSourceSubjectCache.get(cacheKey);
+  if (cached) return cached;
+
+  const source = rawSourceMap[sourceId];
+  const normalized = getRawSourceSubjectQuestions(sourceId, subject).map((question) =>
+    normalizeQuestion(source, question),
+  );
+
+  normalizedSourceSubjectCache.set(cacheKey, normalized);
+  return normalized;
+};
 
 const getSourceIdsForFilter = (bankSource: BankSourceFilter): BankSourceId[] => {
   if (bankSource === "all") return ["unofficial", "past"];
@@ -424,8 +576,7 @@ export const getBankPool = (
   if (cached) return cached;
 
   const pool = getSourceIdsForFilter(bankSource)
-    .flatMap((sourceId) => normalizedQuestionsBySource[sourceId])
-    .filter((question) => question.subject === subject)
+    .flatMap((sourceId) => getNormalizedSourceSubjectQuestions(sourceId, subject))
     .map((question, index) => ({
       ...question,
       id: index + 1,
@@ -446,8 +597,14 @@ export const getBankQuestion = (
 export const getBankCounts = (
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
 ): Record<BankSubject, number> => ({
-  math: getBankPool("math", bankSource).length,
-  reading: getBankPool("reading", bankSource).length,
+  math: getSourceIdsForFilter(bankSource).reduce(
+    (total, sourceId) => total + getRawSourceSubjectQuestions(sourceId, "math").length,
+    0,
+  ),
+  reading: getSourceIdsForFilter(bankSource).reduce(
+    (total, sourceId) => total + getRawSourceSubjectQuestions(sourceId, "reading").length,
+    0,
+  ),
 });
 
 export const bankCounts = getBankCounts("all");
