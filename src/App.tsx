@@ -7,11 +7,14 @@ import { Suspense, lazy, type ReactNode } from "react";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LegalDisclaimer } from "@/components/LegalDisclaimer";
+import { AppShell } from "@/components/AppShell";
+import { Seo } from "@/components/Seo";
 
 const Home = lazy(() => import("./pages/Home"));
 const Login = lazy(() => import("./pages/Login"));
 const Signup = lazy(() => import("./pages/Signup"));
 const Index = lazy(() => import("./pages/Index"));
+const HardQuestionsIntro = lazy(() => import("./pages/HardQuestionsIntro"));
 const Question = lazy(() => import("./pages/Question"));
 const BankIndex = lazy(() => import("./pages/BankIndex"));
 const BankBrowse = lazy(() => import("./pages/BankBrowse"));
@@ -39,6 +42,8 @@ const withSuspense = (page: ReactNode) => (
   <Suspense fallback={<Loading />}>{page}</Suspense>
 );
 
+const withShellSuspense = (page: ReactNode) => withSuspense(<AppShell>{page}</AppShell>);
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -46,28 +51,30 @@ const App = () => (
         <Toaster />
         <Sonner position="top-center" duration={2000} />
         <BrowserRouter>
+          <Seo />
           <ScrollToTop />
           <Routes>
             <Route path="/" element={withSuspense(<Home />)} />
             <Route path="/login" element={withSuspense(<Login />)} />
-            <Route path="/modules" element={withSuspense(<Modules />)} />
-            <Route path="/modules/:moduleId" element={withSuspense(<ModuleView />)} />
+            <Route path="/modules" element={withShellSuspense(<Modules />)} />
+            <Route path="/modules/:moduleId" element={withShellSuspense(<ModuleView />)} />
             <Route path="/signup" element={withSuspense(<Signup />)} />
-            <Route path="/profile" element={withSuspense(<Profile />)} />
-            <Route path="/score-calculator" element={withSuspense(<ScoreCalculator />)} />
-            <Route path="/browse" element={withSuspense(<Index />)} />
+            <Route path="/profile" element={withShellSuspense(<Profile />)} />
+            <Route path="/score-calculator" element={withShellSuspense(<ScoreCalculator />)} />
+            <Route path="/browse" element={withShellSuspense(<Index />)} />
+            <Route path="/hard" element={withShellSuspense(<HardQuestionsIntro />)} />
             <Route path="/hard/:id" element={withSuspense(<Question />)} />
-            <Route path="/bank" element={withSuspense(<BankIndex />)} />
-            <Route path="/bank/:subject/browse" element={withSuspense(<BankBrowse />)} />
-            <Route path="/bank/:subject/:filterType/:filterValue" element={withSuspense(<BankFiltered />)} />
+            <Route path="/bank" element={withShellSuspense(<BankIndex />)} />
+            <Route path="/bank/:subject/browse" element={withShellSuspense(<BankBrowse />)} />
+            <Route path="/bank/:subject/:filterType/:filterValue" element={withShellSuspense(<BankFiltered />)} />
             <Route path="/bank/:subject/:id" element={withSuspense(<Question />)} />
-            <Route path="/official-bank" element={withSuspense(<OfficialBankIndex />)} />
-            <Route path="/official-bank/:subject/browse" element={withSuspense(<OfficialBankBrowse />)} />
-            <Route path="/official-bank/:subject/:filterType/:filterValue" element={withSuspense(<OfficialBankFiltered />)} />
+            <Route path="/official-bank" element={withShellSuspense(<OfficialBankIndex />)} />
+            <Route path="/official-bank/:subject/browse" element={withShellSuspense(<OfficialBankBrowse />)} />
+            <Route path="/official-bank/:subject/:filterType/:filterValue" element={withShellSuspense(<OfficialBankFiltered />)} />
             <Route path="/official-bank/:subject/:id" element={withSuspense(<Question />)} />
-            <Route path="/vocab" element={withSuspense(<Vocab />)} />
-            <Route path="/analysis" element={withSuspense(<Analysis />)} />
-            <Route path="*" element={withSuspense(<NotFound />)} />
+            <Route path="/vocab" element={withShellSuspense(<Vocab />)} />
+            <Route path="/analysis" element={withShellSuspense(<Analysis />)} />
+            <Route path="*" element={withShellSuspense(<NotFound />)} />
           </Routes>
           <LegalDisclaimer />
         </BrowserRouter>

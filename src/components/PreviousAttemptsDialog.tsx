@@ -52,6 +52,7 @@ export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttem
     lastAttempt: Attempt;
     totalDuration: number;
     result: "correct" | "incorrect";
+    recoveredAfterIncorrect: boolean;
   }
 
   const sessions: Session[] = [];
@@ -80,7 +81,8 @@ export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttem
       summary,
       lastAttempt: last,
       totalDuration,
-      result: last.result
+      result: last.result,
+      recoveredAfterIncorrect: last.result === "correct" && incorrectCount > 0,
     });
     currentGroup = [];
   };
@@ -133,9 +135,12 @@ export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttem
               >
                 <div className="flex items-center justify-between">
                   <Badge 
-                    className={session.result === "correct" 
-                      ? "bg-green-600 hover:bg-green-700" 
-                      : "bg-red-600 hover:bg-red-700"
+                    className={
+                      session.result === "incorrect"
+                        ? "bg-red-600 hover:bg-red-700"
+                        : session.recoveredAfterIncorrect
+                        ? "bg-orange-500 hover:bg-orange-600"
+                        : "bg-green-600 hover:bg-green-700"
                     }
                   >
                     {session.result === "correct" ? (

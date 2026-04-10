@@ -19,7 +19,7 @@ function transformQuestion(raw) {
             // For Math, passage is usually context. Prepend it.
             text = raw.passage + "\n\n" + text;
         } else {
-            // For English, use the delimiter expected by OfficialBankQuestion logic
+            // For English, use the delimiter expected by the shared question-page stem splitter.
             // Format: "Question Text \\\\ Passage Text"
             text = text + " \\\\\\\\ " + raw.passage; 
         }

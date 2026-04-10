@@ -1,4 +1,3 @@
-
 import json
 import re
 
@@ -6,18 +5,11 @@ def fix_latex_spacing(text):
     if not text:
         return text
 
-    # Apply fixes
-    
     # 1. Separate Equation from following text
-    # text = re.sub(r'(\$[^\$]+=[^\$]+\$)\s*([A-Z])', r'\1\n\2', text)
-    # Be more careful not to break inline math. "where $x=2$ is true" -> Don't break.
-    # "is true. $x=2$ The equation" -> Break.
-    
     # Break if $eq$ is followed by Capital Letter.
     text = re.sub(r'(\$[^\$]+=[^\$]+\$)\s+(?=[A-Z])', r'\1\n', text)
     
     # Break if Text ends with . and followed by $eq$ (display style?)
-    # Only if eq has =.
     text = re.sub(r'([a-z]\.)\s+(?=\$[^$]+=[^$]+\$)', r'\1\n', text)
     
     # Break between two display style equations
@@ -30,18 +22,16 @@ def fix_missing_latex(text):
         return text
     
     parts = text.split('$')
-    
     new_parts = []
+    
     for i, part in enumerate(parts):
         if i % 2 == 1:
             # This is Latex, keep it
             new_parts.append(part)
         else:
             # This is Text. Look for unformatted equations.
-            
             p1 = r'(?:\b-?\d+(?:\.\d+)?)\s*[x-z]\s*[+\-]\s*(?:-?\d+(?:\.\d+)?)\s*[x-z]?\s*=\s*(?:-?\d+(?:\.\d+)?(?:\([^\)]+\))?|-?\d+(?:\.\d+)?)'
             p2 = r'\b-?\d+(?:\.\d+)?\s*[x-z]\s*=\s*-?\d+(?:\.\d+)?\b'
-            
             combined_pattern = f"{p1}|{p2}"
             
             def wrap_match(m):
@@ -74,7 +64,6 @@ def process_file(filepath):
                 q['passage'] = modified
                 count += 1
                 
-                # Store modification for review
                 modifications.append({
                     'id': q.get('id'),
                     'original': original,
@@ -84,7 +73,6 @@ def process_file(filepath):
 
     print(f"Total modified: {count}")
 
-    # Print a few examples of modifications
     print("\n--- Example Modifications ---")
     for mod in modifications[:10]:
          print(f"--- Q {mod['id']} ---")
@@ -92,7 +80,6 @@ def process_file(filepath):
          print("NEW:", mod['modified'])
          print("-" * 20)
     
-    # Print specific Q11 checks if modified
     print("\n--- Question 11 Modifications ---")
     found_11 = False
     for mod in modifications:

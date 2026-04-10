@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import {
   getBankPool,
@@ -10,7 +10,7 @@ import {
   BANK_SOURCE_LABELS,
   type BankQuestion,
   type BankSubject,
-  type BankSourceId,
+  type BankSourceFilter,
 } from "@/data/questionBank";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
@@ -22,7 +22,6 @@ import {
   FileText,
   ChevronRight,
   ChevronDown,
-  Home,
   Play,
   Shuffle,
   RotateCcw,
@@ -31,13 +30,14 @@ import {
   QuestionBankFilterPanel,
   QuestionBankFilters,
   defaultFilters,
+  hasActiveQuestionBankFilters,
+  MAX_TIME_SPENT_FILTER_SECONDS,
 } from "@/components/QuestionBankFilterPanel";
 import { BankSourceToggle } from "@/components/BankSourceToggle";
 import {
   getUserProgressStatic,
   isQuestionSolved,
   isQuestionAnsweredIncorrectly,
-  getTimeSpentRange,
   QuestionProgress,
 } from "@/hooks/useUserProgress";
 
@@ -80,6 +80,11 @@ const BankIndex = () => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
+
+  useEffect(() => {
+    sessionStorage.removeItem("question-view-mode:bank:math");
+    sessionStorage.removeItem("question-view-mode:bank:reading");
+  }, []);
   
   // Selection Mode State
   const [isMultiSelect, setIsMultiSelect] = useState(false);
@@ -120,7 +125,7 @@ const BankIndex = () => {
     };
   }, [userProgress]);
 
-  const handleBankSourceChange = useCallback((nextSource: BankSourceId) => {
+  const handleBankSourceChange = useCallback((nextSource: BankSourceFilter) => {
     const nextParams = new URLSearchParams(searchParams);
     nextParams.set("bankType", nextSource);
     setSearchParams(nextParams);
@@ -129,6 +134,11 @@ const BankIndex = () => {
   // Check if question passes filters
   const questionPassesFilters = useCallback((q: BankQuestion, subject: BankSubject): boolean => {
     const progress = getQuestionProgress(q, subject);
+
+    if (filters.difficulty.length > 0) {
+      const normalizedDifficulty = (q.difficulty ?? "").trim().toLowerCase();
+      if (!filters.difficulty.includes(normalizedDifficulty as typeof filters.difficulty[number])) return false;
+    }
 
     // Marked for review filter
     if (filters.markedForReview !== "all") {
@@ -151,10 +161,13 @@ const BankIndex = () => {
     }
 
     // Time spent filter
-    if (filters.timeSpent !== "all") {
-      const timeRange = getTimeSpentRange(progress.totalTimeSpentSeconds);
-      if (filters.timeSpent === "none" && progress.totalTimeSpentSeconds > 0) return false;
-      if (filters.timeSpent !== "none" && timeRange !== filters.timeSpent) return false;
+    const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
+    if (progress.totalTimeSpentSeconds < minTimeSpent) return false;
+    if (
+      maxTimeSpent < MAX_TIME_SPENT_FILTER_SECONDS &&
+      progress.totalTimeSpentSeconds > maxTimeSpent
+    ) {
+      return false;
     }
 
     return true;
@@ -399,7 +412,7 @@ const BankIndex = () => {
       subject: q.subject,
       id: q.id,
       sourceId: q.sourceId,
-      bankType: q.bankType,
+      bankType: bankSource,
       storageId: q.stableId,
       index: index + 1, // 1-based index within practice set
     }));
@@ -409,7 +422,7 @@ const BankIndex = () => {
     // Navigate to the first question in practice mode
     const first = practiceSet[0];
     navigate(`/bank/${first.subject}/${first.id}?bankType=${first.bankType}&practice=true&idx=1`);
-  }, [navigate]);
+  }, [bankSource, navigate]);
 
   const handleCreatePracticeSet = useCallback((shuffle: boolean = false) => {
     let questions = getSelectedQuestions();
@@ -769,16 +782,22 @@ const BankIndex = () => {
       <section className="container mx-auto px-4 pt-8 pb-12">
         <div className="max-w-6xl mx-auto space-y-6">
           {/* Header */}
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" onClick={() => navigate("/")}>
-              <Home className="h-5 w-5" />
-            </Button>
-            <div>
-              <h1 className="text-3xl font-bold">Questionbank</h1>
-              <p className="text-muted-foreground">
-                {BANK_SOURCE_LABELS[bankSource]} • {questionCounts.math.total + questionCounts.reading.total} questions available
-              </p>
-            </div>
+          <div>
+            <h1
+              style={{
+                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontSize: "clamp(26px, 3.5vw, 36px)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                color: "hsl(var(--foreground))",
+                marginBottom: 4,
+              }}
+            >
+              Question Bank
+            </h1>
+            <p className="text-sm text-muted-foreground">
+              {BANK_SOURCE_LABELS[bankSource]} · {questionCounts.math.total + questionCounts.reading.total} questions available
+            </p>
           </div>
 
           {/* Filter Panel */}
@@ -788,7 +807,7 @@ const BankIndex = () => {
             rightContent={
               <div className="flex items-center gap-4">
                 <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
-                {Object.values(filters).some(v => v !== "all" && v !== "none") && (
+                {hasActiveQuestionBankFilters(filters) && (
                   <Button 
                     variant="ghost" 
                     size="sm" 
@@ -805,7 +824,7 @@ const BankIndex = () => {
                     checked={isMultiSelect}
                     onCheckedChange={setIsMultiSelect}
                   />
-                  <Label htmlFor="multi-select-mode">Multiple Topics</Label>
+                  <Label htmlFor="multi-select-mode">Select multiple topics</Label>
                 </div>
               </div>
             }

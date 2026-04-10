@@ -12,7 +12,6 @@ try:
     actual_images = os.listdir(IMAGES_DIR)
     image_list = set(actual_images)
     print(f"Indexed {len(actual_images)} images from {IMAGES_DIR}")
-
 except FileNotFoundError:
     print(f"Error: Directory {IMAGES_DIR} not found.")
     exit(1)
@@ -54,7 +53,7 @@ def replace_image_path(match):
 
     # 3. Try "and_1_more" cases
     if not found:
-        name, ext = os.path.splitext(filename) # Start from input filename
+        name, ext = os.path.splitext(filename)
         # If input has _1 (e.g. Name_1.png), try Name_and_1_more.png
         if name.endswith("_1"):
             base_name = name[:-2]
@@ -65,12 +64,10 @@ def replace_image_path(match):
                 print(f"Fixed 'and_1_more': {filename} -> {candidate}")
 
     final_web_path = WEB_PATH_PREFIX + candidate
-    
     return f'image: "{final_web_path}"'
 
 # Pattern: image: "..." or image: '...'
 pattern = re.compile(r'image:\s*["\']([^"\']+)["\']')
-
 new_content = pattern.sub(replace_image_path, content)
 
 with open(ALL_QUESTIONS_PATH, "w", encoding="utf-8") as f:

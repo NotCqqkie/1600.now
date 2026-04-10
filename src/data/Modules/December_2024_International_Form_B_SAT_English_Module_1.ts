@@ -869,7 +869,7 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "c39b24c5-b805-4b9b-a609-e68df8471f04_25",
     "testName": "December 2024 International Form B SAT English Module 1",

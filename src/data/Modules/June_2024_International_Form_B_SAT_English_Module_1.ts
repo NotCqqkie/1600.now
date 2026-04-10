@@ -5,7 +5,7 @@ export const questions: Question[] = [
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "rationale": null,
     "id": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_1",
     "testName": "June 2024 International Form B SAT English Module 1",

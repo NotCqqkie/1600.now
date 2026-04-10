@@ -1,9 +1,7 @@
 import { useParams, useNavigate, useLocation, useSearchParams } from "react-router-dom";
 import { useState, useEffect, useRef, useLayoutEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { NavigationSheet } from "@/components/NavigationSheet";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
 import { OfficialPracticeNavigationSheet } from "@/components/OfficialPracticeNavigationSheet"; 
 import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet"; 
@@ -13,7 +11,7 @@ import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { PreviousAttemptsDialog } from "@/components/PreviousAttemptsDialog";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
-import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3 } from "lucide-react";
+import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { toast } from "sonner";
 import {
@@ -22,23 +20,31 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import { questions as originalQuestions } from "@/data/100 Hard";
 import {
   getBankCounts as getBankCountsNormal,
   getBankPool as getBankPoolNormal,
   getBankQuestion as getBankQuestionNormal,
   normalizeBankSource,
-  type BankSourceId,
+  type BankSourceFilter,
 } from "@/data/questionBank";
 import { getBankQuestion as getBankQuestionOfficial, bankCounts as officialBankCounts } from "@/data/officialQuestionBank";
-import { cn, normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
+import { cn, normalizePublicAssetPath } from "@/lib/utils";
+import { renderMixedContent } from "@/lib/mathRendering";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import "katex/dist/katex.min.css";
 
-// Use original 100 hard questions with uuid for progress tracking
 const hardQuestions = originalQuestions.map(q => ({
   ...q,
-  uuid: `hard-${q.id}` // Unique ID for progress tracking
+  uuid: `hard-${q.id}`
 }));
 
 type LowerThanHysteresisArgs = {
@@ -64,7 +70,6 @@ const getNextStateForLowerThan = ({
   if (currentState) {
     return value <= exitThreshold;
   }
-
   return value < enterThreshold;
 };
 
@@ -77,16 +82,20 @@ const getNextStateForGreaterThan = ({
   if (currentState) {
     return value >= exitThreshold;
   }
-
   return value > enterThreshold;
 };
 
 type PracticeSetItem = {
   id: number;
   subject: "math" | "reading";
-  bankType?: BankSourceId;
+  bankType?: BankSourceFilter;
   sourceId?: string;
   storageId?: string;
+};
+
+type QuestionInfoField = {
+  label: string;
+  value: string;
 };
 
 const formatTimer = (totalSeconds: number) => {
@@ -136,7 +145,25 @@ const looksLikePassageBlock = (text: string): boolean => {
 
 const extractLeadingQuestionSentence = (text: string): { sentence?: string; remainder: string } => {
   const trimmed = text.trim();
-  if (!trimmed || looksLikePassageBlock(trimmed)) {
+  if (!trimmed) {
+    return { remainder: trimmed };
+  }
+
+  const newlineIndex = trimmed.indexOf("\n");
+  if (newlineIndex !== -1) {
+    const firstLine = trimmed.slice(0, newlineIndex).trim();
+    const rest = trimmed.slice(newlineIndex + 1).trim();
+    if (
+      firstLine &&
+      rest &&
+      looksLikeQuestionSentence(firstLine) &&
+      looksLikePassageBlock(rest)
+    ) {
+      return { sentence: firstLine, remainder: rest };
+    }
+  }
+
+  if (looksLikePassageBlock(trimmed)) {
     return { remainder: trimmed };
   }
 
@@ -159,18 +186,40 @@ const extractLeadingQuestionSentence = (text: string): { sentence?: string; rema
   return { sentence, remainder };
 };
 
+type QuestionViewMode = "vertical" | "horizontal";
+
+const getDefaultQuestionViewMode = (
+  subject: "math" | "reading",
+  isBank: boolean,
+  isOfficialBank: boolean,
+): QuestionViewMode => {
+  if (isBank || isOfficialBank) {
+    return subject === "reading" ? "horizontal" : "vertical";
+  }
+
+  return "vertical";
+};
+
+const getQuestionViewModeStorageKey = (
+  subject: "math" | "reading",
+  isBank: boolean,
+  isOfficialBank: boolean,
+) => {
+  if (isOfficialBank) return `question-view-mode:official:${subject}`;
+  if (isBank) return `question-view-mode:bank:${subject}`;
+  return "question-view-mode:hard";
+};
+
 function Question() {
   const { id, subject: rawSubject } = useParams<{ id: string; subject?: string }>();
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();
 
-  // Mode detection
   const isBank = location.pathname.startsWith('/bank');
   const isOfficialBank = location.pathname.startsWith('/official-bank');
   const is100Hard = !isBank && !isOfficialBank;
 
-  // Practice Mode detection
   const isPracticeMode = searchParams.get('practice') === 'true';
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
   const bankQuerySuffix = isBank ? `?bankType=${bankSource}` : "";
@@ -183,28 +232,14 @@ function Question() {
     }
   }, [isPracticeMode]);
 
-  // If needed: const practiceIdx = parseInt(searchParams.get('idx') || '0', 10);
-
   const questionNumber = parseInt(id || "1", 10);
   const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading";
-  const currentPracticeIndex = useMemo(() => {
-    if (!isPracticeMode || practiceSet.length === 0) return -1;
-    return practiceSet.findIndex(
-      (q) =>
-        q.id === questionNumber &&
-        q.subject === subject &&
-        (isOfficialBank || !q.bankType || q.bankType === bankSource),
-    );
-  }, [isPracticeMode, practiceSet, questionNumber, subject, isOfficialBank, bankSource]);
-  const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
 
-  // Data fetching logic
   const questionData = useMemo(() => {
     if (is100Hard) {
       return hardQuestions.find(q => q.id === questionNumber);
     }
     
-    // Bank / Official Bank Logic
     const getter = isOfficialBank ? getBankQuestionOfficial : getBankQuestionNormal;
     const q = isOfficialBank ? getter(subject, questionNumber) : getter(subject, questionNumber, bankSource);
     
@@ -215,6 +250,19 @@ function Question() {
     };
 
   }, [is100Hard, isBank, isOfficialBank, questionNumber, subject, bankSource]);
+  const currentQuestion = questionData;
+  const currentPracticeIndex = useMemo(() => {
+    if (!isPracticeMode || practiceSet.length === 0) return -1;
+    return practiceSet.findIndex(
+      (q) =>
+        q.subject === subject &&
+        (q.storageId
+          ? q.storageId === currentQuestion?.uuid
+          : q.id === questionNumber &&
+            (isOfficialBank || !q.bankType || q.bankType === bankSource)),
+    );
+  }, [isPracticeMode, practiceSet, questionNumber, subject, isOfficialBank, bankSource, currentQuestion]);
+  const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
 
   const { progress, addAttempt, toggleReview } = useUserProgress();
   
@@ -224,7 +272,7 @@ function Question() {
   const [checkButtonState, setCheckButtonState] = useState<"idle" | "incorrect" | "correct-first" | "correct-later">("idle");
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
-  const [sidebarredWindows, setSidebarredWindows] = useState<Set<string>>(new Set()); // Track which windows SHOULD be sidebarred
+  const [sidebarredWindows, setSidebarredWindows] = useState<Set<string>>(new Set());
   const [splitPosition, setSplitPosition] = useState(50);
   const [attemptCount, setAttemptCount] = useState(0);
   const [shouldCompress, setShouldCompress] = useState(false);
@@ -233,7 +281,9 @@ function Question() {
   const [shouldPinTopTimerCenter, setShouldPinTopTimerCenter] = useState(true);
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation']);
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [questionViewMode, setQuestionViewMode] = useState<'vertical' | 'horizontal'>('vertical');
+  const [questionViewMode, setQuestionViewMode] = useState<QuestionViewMode>(() =>
+    getDefaultQuestionViewMode(subject, isBank, isOfficialBank),
+  );
   const [questionSplitPosition, setQuestionSplitPosition] = useState(50);
   const [isResizingQuestionSplit, setIsResizingQuestionSplit] = useState(false);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
@@ -258,12 +308,43 @@ function Question() {
   const topTimerPinnedRef = useRef(true);
   const startTimeRef = useRef(Date.now());
 
-  const currentQuestion = questionData;
   const currentProgress = currentQuestion ? (progress[currentQuestion.uuid] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
   const markedForReview = currentProgress.isMarkedForReview;
   const localStateKey = currentQuestion
     ? (is100Hard ? `question-${questionNumber}` : currentQuestion.uuid)
     : `question-${questionNumber}`;
+  const questionInfo = useMemo(() => {
+    if (!currentQuestion || is100Hard) return null;
+
+    const questionWithMetadata = currentQuestion as Partial<{
+      bankLabel: string;
+      subject: "math" | "reading";
+      sourceId: string;
+      correctAnswer?: string | null;
+      difficulty?: "Easy" | "Medium" | "Hard" | null;
+      category?: {
+        domain?: string;
+        skill?: string;
+      };
+    }>;
+
+    const bankLabel = isOfficialBank ? "Official Question Bank" : questionWithMetadata.bankLabel || "Question Bank";
+    const sourceSubject = questionWithMetadata.subject || subject;
+    const subjectLabel = sourceSubject === "reading" ? "Reading and Writing" : "Math";
+
+    const fields: QuestionInfoField[] = [
+      { label: "Bank", value: bankLabel },
+      { label: "Subject", value: subjectLabel },
+      { label: "Difficulty", value: questionWithMetadata.difficulty || "Unassigned" },
+      { label: "Domain", value: questionWithMetadata.category?.domain || "Unassigned" },
+      { label: "Skill", value: questionWithMetadata.category?.skill || "Unassigned" },
+      { label: "Source ID", value: questionWithMetadata.sourceId || "Unknown" },
+    ];
+
+    return {
+      fields,
+    };
+  }, [currentQuestion, is100Hard, isOfficialBank, subject]);
   const bankNavigationItems = useMemo(() => {
     if (!isBank) return [];
     return getBankPoolNormal(subject, bankSource).map((question) => ({
@@ -272,17 +353,35 @@ function Question() {
     }));
   }, [isBank, subject, bankSource]);
 
-  // View Mode Defaulting for different subjects
-  useEffect(() => {
-     if (isBank || isOfficialBank) {
-        if (subject === 'reading') setQuestionViewMode('horizontal');
-        else setQuestionViewMode('vertical');
-     } else {
-        setQuestionViewMode('vertical'); // Default for 100 Hard
-     }
-  }, [isBank, isOfficialBank, subject, questionNumber]); 
+  // Items for the 100 Hard Questions navigator — storageId matches the
+  // localStateKey format "question-N" so BankNavigationSheet reads the
+  // same localStorage keys as the rest of the hard question logic.
+  const hardNavigationItems = useMemo(
+    () =>
+      Array.from({ length: 100 }, (_, i) => ({
+        id: i + 1,
+        storageId: `question-${i + 1}`,
+      })),
+    [],
+  );
 
-  // Reset timer on question change
+  useEffect(() => {
+    const storageKey = getQuestionViewModeStorageKey(subject, isBank, isOfficialBank);
+    const storedMode = sessionStorage.getItem(storageKey);
+    const defaultMode = getDefaultQuestionViewMode(subject, isBank, isOfficialBank);
+    setQuestionViewMode(
+      storedMode === "horizontal" || storedMode === "vertical"
+        ? storedMode
+        : defaultMode,
+    );
+  }, [isBank, isOfficialBank, subject]);
+
+  const handleQuestionViewModeChange = (mode: QuestionViewMode) => {
+    const storageKey = getQuestionViewModeStorageKey(subject, isBank, isOfficialBank);
+    sessionStorage.setItem(storageKey, mode);
+    setQuestionViewMode(mode);
+  };
+
   useEffect(() => {
     startTimeRef.current = Date.now();
     setElapsedSeconds(0);
@@ -299,13 +398,10 @@ function Question() {
     return () => window.clearInterval(timerId);
   }, [isTimerPaused]);
 
-  // Compute if any window is in split screen mode
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
-  // Use hidden measurement controls plus hysteresis to avoid compression state thrash.
   useLayoutEffect(() => {
     const checkSpace = () => {
-      // Bottom navigation compression
       if (bottomNavRef.current && bottomMeasurementRef.current) {
         const containerWidth = bottomNavRef.current.offsetWidth;
         const buttonsNaturalWidth = bottomMeasurementRef.current.scrollWidth;
@@ -328,7 +424,6 @@ function Question() {
         }
       }
 
-      // Keep center controls centered only while they have the same gap as neighboring controls.
       if (
         bottomNavCenterRef.current &&
         bottomNavLeftRef.current &&
@@ -359,7 +454,6 @@ function Question() {
         }
       }
 
-      // Keep timer centered when possible and restore centering once enough room returns.
       if (topNavRef.current && topLeftRef.current && topRightControlsRef.current && topTimerRef.current) {
         const containerWidth = topNavRef.current.offsetWidth;
         const leftWidth = topLeftRef.current.offsetWidth;
@@ -383,7 +477,6 @@ function Question() {
         }
       }
 
-      // Top bar compression
       if (topNavRef.current && topMeasurementRef.current && topLeftMeasurementRef.current) {
         const containerWidth = topNavRef.current.offsetWidth;
         const leftNaturalWidth = topLeftMeasurementRef.current.scrollWidth;
@@ -422,62 +515,38 @@ function Question() {
 
     if (topNavRef.current) {
       resizeObserver.observe(topNavRef.current);
-      if (topLeftRef.current) {
-        resizeObserver.observe(topLeftRef.current);
-      }
-      if (topRightRef.current) {
-        resizeObserver.observe(topRightRef.current);
-      }
-      if (topRightControlsRef.current) {
-        resizeObserver.observe(topRightControlsRef.current);
-      }
-      if (topTimerRef.current) {
-        resizeObserver.observe(topTimerRef.current);
-      }
+      if (topLeftRef.current) resizeObserver.observe(topLeftRef.current);
+      if (topRightRef.current) resizeObserver.observe(topRightRef.current);
+      if (topRightControlsRef.current) resizeObserver.observe(topRightControlsRef.current);
+      if (topTimerRef.current) resizeObserver.observe(topTimerRef.current);
     }
     if (bottomNavRef.current) {
       resizeObserver.observe(bottomNavRef.current);
       const navSheet = bottomNavRef.current.querySelector('[data-nav-sheet]');
-      if (navSheet instanceof HTMLElement) {
-        resizeObserver.observe(navSheet);
-      }
-      if (bottomNavLeftRef.current) {
-        resizeObserver.observe(bottomNavLeftRef.current);
-      }
-      if (bottomNavCenterRef.current) {
-        resizeObserver.observe(bottomNavCenterRef.current);
-      }
-      if (bottomNavRightRef.current) {
-        resizeObserver.observe(bottomNavRightRef.current);
-      }
+      if (navSheet instanceof HTMLElement) resizeObserver.observe(navSheet);
+      if (bottomNavLeftRef.current) resizeObserver.observe(bottomNavLeftRef.current);
+      if (bottomNavCenterRef.current) resizeObserver.observe(bottomNavCenterRef.current);
+      if (bottomNavRightRef.current) resizeObserver.observe(bottomNavRightRef.current);
     }
-    if (topMeasurementRef.current) {
-      resizeObserver.observe(topMeasurementRef.current);
-    }
-    if (bottomMeasurementRef.current) {
-      resizeObserver.observe(bottomMeasurementRef.current);
-    }
+    if (topMeasurementRef.current) resizeObserver.observe(topMeasurementRef.current);
+    if (bottomMeasurementRef.current) resizeObserver.observe(bottomMeasurementRef.current);
 
     window.addEventListener('resize', scheduleCheck);
     scheduleCheck();
 
     return () => {
-      if (frameId !== null) {
-        cancelAnimationFrame(frameId);
-      }
+      if (frameId !== null) cancelAnimationFrame(frameId);
       window.removeEventListener('resize', scheduleCheck);
       resizeObserver.disconnect();
     };
   }, []);
 
-  // Handle question split divider resizing (for horizontal view mode)
   useEffect(() => {
     if (!isResizingQuestionSplit) return;
 
     document.body.classList.add("noselect");
 
     const handleMouseMove = (e: MouseEvent) => {
-      // Calculate position relative to the available content area
       const availableWidth = isSplitScreenActive 
         ? (window.innerWidth * splitPosition) / 100 
         : window.innerWidth;
@@ -501,7 +570,6 @@ function Question() {
     };
   }, [isResizingQuestionSplit, isSplitScreenActive, splitPosition]);
 
-  // Track fullscreen changes to keep button state in sync
   useEffect(() => {
     setIsFullscreen(Boolean(document.fullscreenElement));
     const handleFullscreenChange = () => setIsFullscreen(Boolean(document.fullscreenElement));
@@ -509,33 +577,24 @@ function Question() {
     return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
   }, []);
 
-  // Handle split screen changes from windows
   const handleSplitScreenChange = (isSplit: boolean, windowId: string) => {
     setSplitScreenWindows(prev => {
       const newSet = new Set(prev);
-      if (isSplit) {
-        newSet.add(windowId);
-      } else {
-        newSet.delete(windowId);
-      }
+      if (isSplit) newSet.add(windowId);
+      else newSet.delete(windowId);
       return newSet;
     });
   };
 
-  // Handle sidebar toggle from windows - controls whether a window SHOULD be sidebarred
   const handleSidebarToggle = (windowId: string, shouldBeSidebarred: boolean) => {
     setSidebarredWindows(prev => {
       const newSet = new Set(prev);
-      if (shouldBeSidebarred) {
-        newSet.add(windowId);
-      } else {
-        newSet.delete(windowId);
-      }
+      if (shouldBeSidebarred) newSet.add(windowId);
+      else newSet.delete(windowId);
       return newSet;
     });
   };
 
-  // Handle split position changes from the divider inside DraggableWindow
   const handleSplitPositionChange = (newPosition: number) => {
     const roundedPosition = Math.round(newPosition * 4) / 4;
     setSplitPosition(prev => (Math.abs(prev - roundedPosition) < 0.25 ? prev : roundedPosition));
@@ -555,7 +614,6 @@ function Question() {
     }
   };
 
-  // Bring a window to front
   const bringToFront = (windowId: string) => {
     setWindowOrder(prev => {
       const newOrder = prev.filter(id => id !== windowId);
@@ -564,15 +622,11 @@ function Question() {
     });
   };
 
-  // Get z-index for a window - windows stack based on interaction order
   const getZIndex = (windowId: string) => {
     const index = windowOrder.indexOf(windowId);
-    // Use larger gaps between windows for clearer layering
     return 50 + index * 20;
   };
 
-
-  // Reset split position when split screen is deactivated
   useEffect(() => {
     if (!isSplitScreenActive) {
       setSplitPosition(50);
@@ -589,7 +643,6 @@ function Question() {
     </div>;
   }
 
-  // Reset selection and visual states immediately on question change to avoid flashes
   useLayoutEffect(() => {
     setSelectedAnswer("");
     setFreeResponseAnswer("");
@@ -598,7 +651,6 @@ function Question() {
     setAttemptCount(0);
   }, [questionNumber]);
 
-  // Helper to render content with consistent styling
   const renderContent = (content: string, center: boolean = false) => {
     if (!content) return null;
     const html = renderMixedContent(content);
@@ -615,13 +667,9 @@ function Question() {
     );
   };
 
-
-
   const totalQuestions = useMemo(() => {
     if (is100Hard) return 100;
-    if (effectivePracticeMode) {
-      return practiceSet.length;
-    }
+    if (effectivePracticeMode) return practiceSet.length;
     if (subject) {
       const counts = isOfficialBank ? officialBankCounts : getBankCountsNormal(bankSource);
       return counts[subject] || 0;
@@ -655,12 +703,10 @@ function Question() {
       navigate(`/hard/${questionNumber - 1}`);
       return;
     }
-
     if (effectivePracticeMode) {
       navigateToPracticeIndex(currentPracticeIndex - 1);
       return;
     }
-
     const base = isOfficialBank ? '/official-bank' : '/bank';
     navigate(`${base}/${subject}/${questionNumber - 1}${isBank ? bankQuerySuffix : ""}`);
   };
@@ -671,18 +717,16 @@ function Question() {
       navigate(`/hard/${questionNumber + 1}`);
       return;
     }
-
     if (effectivePracticeMode) {
       navigateToPracticeIndex(currentPracticeIndex + 1);
       return;
     }
-
     const base = isOfficialBank ? '/official-bank' : '/bank';
     navigate(`${base}/${subject}/${questionNumber + 1}${isBank ? bankQuerySuffix : ""}`);
   };
 
   const handleToggleReview = () => {
-    if (!currentQuestion || is100Hard) return;
+    if (!currentQuestion) return;
     const nextMarkedState = !markedForReview;
     toggleReview(currentQuestion.uuid);
     localStorage.setItem(`${currentQuestion.uuid}-flagged`, String(nextMarkedState));
@@ -696,30 +740,17 @@ function Question() {
       return;
     }
 
-    // If we've already recorded a correct answer for this question in the current session,
-    // ignore further checks until the user navigates away (choices reset on navigation).
     const alreadyCorrect = Object.values(checkedAnswers).some(Boolean);
-    if (alreadyCorrect) {
-      return;
-    }
+    if (alreadyCorrect) return;
+    if (checkedAnswers[userAnswer] !== undefined) return;
 
-    // Don't re-check an already checked answer
-    if (checkedAnswers[userAnswer] !== undefined) {
-      return;
-    }
-
-    // If using override answer, also select it
     if (overrideAnswer && overrideAnswer !== selectedAnswer) {
       setSelectedAnswer(overrideAnswer);
     }
 
-    const normalizeAnswer = (answer: string) => {
-      return answer.toString().trim().toLowerCase().replace(/\s+/g, '');
-    };
-
+    const normalizeAnswer = (answer: string) => answer.toString().trim().toLowerCase().replace(/\s+/g, '');
     const isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(currentQuestion.correctAnswer);
     
-    // Format the answer for display (e.g., "A. answer text")
     let formattedAnswer = userAnswer;
     if (currentQuestion.type === "multiple-choice" && currentQuestion.choices) {
       const choice = currentQuestion.choices.find(c => c.id === userAnswer);
@@ -728,7 +759,6 @@ function Question() {
       }
     }
     
-    // Add attempt
     const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
     addAttempt(currentQuestion.uuid, isCorrect ? "correct" : "incorrect", duration, formattedAnswer);
 
@@ -737,29 +767,22 @@ function Question() {
     const newAttemptCount = attemptCount + 1;
     setAttemptCount(newAttemptCount);
 
-    // Save answer state to localStorage
     localStorage.setItem(`${localStateKey}-answer`, userAnswer);
     localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
 
     if (isCorrect) {
       const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
       setCheckButtonState(status);
-      
-      // Save status to localStorage
       localStorage.setItem(`${localStateKey}-status`, status);
     } else {
       setCheckButtonState("incorrect");
-      
-      // Save incorrect status
       localStorage.setItem(`${localStateKey}-status`, 'incorrect');
     }
   };
 
-  // Universal Hotkeys
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
-      // Don't interfere if user is typing in an input, unless it's Enter to submit
       if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
         if (e.key === 'Enter') {
           e.preventDefault();
@@ -790,14 +813,11 @@ function Question() {
             let nextIndex = 0;
             
             if (currentIndex === -1) {
-              // If no selection, Down starts at first, Up starts at last
               nextIndex = e.key === 'ArrowDown' ? 0 : choiceIds.length - 1;
             } else {
               if (e.key === 'ArrowUp') {
-                // Cycle backward
                 nextIndex = (currentIndex - 1 + choiceIds.length) % choiceIds.length;
               } else {
-                // Cycle forward
                 nextIndex = (currentIndex + 1) % choiceIds.length;
               }
             }
@@ -812,14 +832,7 @@ function Question() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [
-    handleNext, 
-    handlePrevious, 
-    handleCheck, 
-    currentQuestion, 
-    selectedAnswer, 
-    questionNumber
-  ]);
+  }, [handleNext, handlePrevious, handleCheck, currentQuestion, selectedAnswer, questionNumber]);
 
   const hasSelection = currentQuestion.type === 'multiple-choice' ? Boolean(selectedAnswer) : Boolean(freeResponseAnswer);
   const isCheckDisabled = !hasSelection || checkButtonState === "correct-first" || checkButtonState === "correct-later";
@@ -833,7 +846,7 @@ function Question() {
       case "correct-first":
         return "bg-[#C8E6C9] hover:bg-[#A5D6A7] border-[#1B5E20] text-[#1B5E20] dark:bg-[#1B5E20] dark:hover:bg-[#144216] dark:border-[#2E7D32] dark:text-white disabled:opacity-100";
       case "correct-later":
-        return "bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#E65100] text-[#BF360C] dark:bg-[#E65100] dark:hover:bg-[#BF360C] dark:border-[#EF6C00] dark:text-white disabled:opacity-100";
+        return "bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#E65100] text-[#BF360C] dark:bg-[#5F2A00] dark:hover:bg-[#4C2100] dark:border-[#C75C00] dark:text-white disabled:opacity-100";
       case "incorrect":
         return "bg-[#FFCDD2] hover:bg-[#EF9A9A] border-[#B71C1C] text-[#2C1A1A] dark:bg-[#5C1010] dark:hover:bg-[#4A0D0D] dark:border-[#8B0000] dark:text-white";
       default:
@@ -887,6 +900,7 @@ function Question() {
     ? Boolean(readingQuestionSentence)
     : Boolean(questionTextContent) &&
       (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
+      
   const renderQuestionImages = () => {
     if (!questionImages?.length) return null;
 
@@ -897,15 +911,17 @@ function Question() {
             <TransparentAwareImage
               src={normalizePublicAssetPath(img.src)}
               alt={img.alt || `Question image ${idx + 1}`}
-              className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
+              className="max-w-full h-auto max-h-[340px] rounded-[8px] object-contain border border-border"
               wrapperClassName="max-w-full"
               loading="lazy"
+              trimWhitespace={isBank && bankSource === 'unofficial'}
             />
           </div>
         ))}
       </div>
     );
   };
+  
   const backDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/";
   const timerControls = (
     <>
@@ -932,10 +948,38 @@ function Question() {
       </Button>
     </>
   );
+  const questionInfoDialog = questionInfo ? (
+    <Dialog>
+      <DialogTrigger asChild>
+        <Button variant="outline" size="sm" title="Question Info">
+          <Info className="h-4 w-4" />
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="max-w-3xl max-h-[85vh] overflow-hidden">
+        <DialogHeader>
+          <DialogTitle>Question Info</DialogTitle>
+          <DialogDescription>
+            Difficulty, category, and source metadata for this question.
+          </DialogDescription>
+        </DialogHeader>
+        <div className="space-y-4 overflow-y-auto pr-1 max-h-[70vh]">
+          <div className="grid gap-3 sm:grid-cols-2">
+            {questionInfo.fields.map((field) => (
+              <div key={field.label} className="rounded-lg border bg-muted/30 p-3">
+                <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                  {field.label}
+                </p>
+                <p className="mt-1 text-sm font-medium break-all">{field.value}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+  ) : null;
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
-      {/* Header */}
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div 
           className="container mx-auto px-4 py-4"
@@ -996,32 +1040,28 @@ function Question() {
                     </Button>
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="end">
-                    <DropdownMenuItem onClick={() => setQuestionViewMode('vertical')} className={questionViewMode === 'vertical' ? 'bg-muted' : ''}>
+                    <DropdownMenuItem onClick={() => handleQuestionViewModeChange('vertical')} className={questionViewMode === 'vertical' ? 'bg-muted' : ''}>
                       <Rows3 className="mr-2 h-4 w-4" />
                       Vertical
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => setQuestionViewMode('horizontal')} className={questionViewMode === 'horizontal' ? 'bg-muted' : ''}>
+                    <DropdownMenuItem onClick={() => handleQuestionViewModeChange('horizontal')} className={questionViewMode === 'horizontal' ? 'bg-muted' : ''}>
                       <Columns3 className="mr-2 h-4 w-4" />
                       Horizontal
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
+                {questionInfoDialog}
                 <Button
                   variant="outline"
                   size="sm"
                   onClick={toggleFullscreen}
                   title={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
                 >
-                  {isFullscreen ? (
-                    <Minimize2 className="h-4 w-4" />
-                  ) : (
-                    <Maximize2 className="h-4 w-4" />
-                  )}
+                  {isFullscreen ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
                 </Button>
               </div>
             </div>
 
-            {/* Hidden measurements keep compression thresholds stable regardless of current UI mode */}
             <div
               ref={topLeftMeasurementRef}
               aria-hidden="true"
@@ -1052,6 +1092,11 @@ function Question() {
                 <span className="mr-2 inline-block h-4 w-4" />
                 View
               </Button>
+              {questionInfo && (
+                <Button variant="outline" size="sm">
+                  <Info className="h-4 w-4" />
+                </Button>
+              )}
               <Button variant="outline" size="sm">
                 <span className="inline-block h-4 w-4" />
               </Button>
@@ -1065,7 +1110,6 @@ function Question() {
         </div>
       </header>
 
-      {/* Main Content */}
       <main 
         className={`flex-1 pb-28 ${questionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
         style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : questionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
@@ -1074,10 +1118,8 @@ function Question() {
           className={`relative ${questionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
           style={{ maxWidth: isSplitScreenActive || questionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || questionViewMode === 'horizontal' ? "0" : "0 auto" }}
         >
-          {/* Horizontal Layout Mode */}
           {questionViewMode === 'horizontal' ? (
             <div className="flex relative" style={{ minHeight: '400px' }}>
-              {/* Left Panel - Question Content */}
               <div
                 className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
@@ -1086,7 +1128,6 @@ function Question() {
                 {renderQuestionImages()}
               </div>
 
-              {/* Horizontal Divider */}
               <div 
                 className="w-4 cursor-col-resize flex items-center justify-center group flex-shrink-0 self-stretch"
                 onMouseDown={() => setIsResizingQuestionSplit(true)}
@@ -1094,15 +1135,13 @@ function Question() {
                 <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors rounded" />
               </div>
 
-              {/* Right Panel - Answer Area */}
               <div 
                 className="pl-4 overflow-y-auto"
                 style={{ width: `${100 - questionSplitPosition}%` }}
               >
-                {/* Question Toolbar (Horizontal Box) */}
                 <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-4 rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
                   <div className="flex items-center h-full gap-2">
-                    <div className="bg-white dark:bg-black text-black dark:text-white h-full w-10 flex items-center justify-center font-bold text-lg shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
+                    <div className="bg-white dark:bg-black text-black dark:text-white h-full min-w-[3.75rem] px-2 flex items-center justify-center font-bold text-lg tabular-nums shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
                       {displayQuestionNumber}
                     </div>
                     
@@ -1165,12 +1204,10 @@ function Question() {
               </div>
             </div>
           ) : (
-            /* Vertical Layout Mode (default) */
             <>
-               {/* Question Toolbar (Vertical Box) */}
-                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
+               <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-6 rounded-md overflow-hidden h-12 shadow-sm border border-slate-200 dark:border-slate-700">
                   <div className="flex items-center h-full gap-2">
-                    <div className="bg-white dark:bg-black text-black dark:text-white h-full w-12 flex items-center justify-center font-bold text-xl shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
+                    <div className="bg-white dark:bg-black text-black dark:text-white h-full min-w-[4.25rem] px-2 flex items-center justify-center font-bold text-xl tabular-nums shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
                       {displayQuestionNumber}
                     </div>
                     
@@ -1199,7 +1236,6 @@ function Question() {
                   </div>
                 </div>
 
-              {/* Question Content */}
               <div className="mb-6 sm:mb-8 space-y-4">
                   {passageContent ? (
                     <>
@@ -1215,23 +1251,8 @@ function Question() {
                       {renderContent(stemContent)}
                     </>
                   )}
-                  {questionImages && (
-                    <div className="space-y-2">
-                      {questionImages.map((img, idx) => (
-                        <div key={idx} className="w-full flex justify-center">
-                          <img
-                            src={img.src}
-                            alt={img.alt || `Question image ${idx + 1}`}
-                            className="max-w-full h-auto max-h-[340px] rounded-md object-contain border border-border"
-                            loading="lazy"
-                          />
-                        </div>
-                      ))}
-                    </div>
-                  )}
               </div>
 
-              {/* Answer Area */}
               {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
                 <MultipleChoiceQuestion 
                   choices={currentQuestion.choices}
@@ -1262,7 +1283,6 @@ function Question() {
         </div>
       </main>
 
-      {/* Bottom Navigation - Fixed at bottom */}
       <div 
         ref={bottomNavRef}
         className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40"
@@ -1270,7 +1290,6 @@ function Question() {
       >
         <div className="container mx-auto px-4 py-3">
           <div ref={bottomNavGridRef} className="relative grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2">
-            {/* Left: Previous Button - fixed width to prevent layout shift */}
             <div ref={bottomNavLeftRef} className="shrink-0" style={{ minWidth: shouldCompress ? undefined : '100px' }}>
               <Button
                 variant="outline"
@@ -1283,7 +1302,6 @@ function Question() {
               </Button>
             </div>
 
-            {/* Center: Navigation Sheet */}
             <div
               ref={bottomNavCenterRef}
               data-nav-sheet
@@ -1296,8 +1314,11 @@ function Question() {
             >
               <PreviousAttemptsDialog attempts={currentProgress.attempts} />
               {is100Hard ? (
-                  <NavigationSheet 
-                    currentQuestion={questionNumber} 
+                  <BankNavigationSheet
+                    currentQuestion={questionNumber}
+                    totalQuestions={100}
+                    onJump={(qNum) => navigate(`/hard/${qNum}`)}
+                    items={hardNavigationItems}
                     isSplitScreenActive={isSplitScreenActive}
                     splitPosition={splitPosition}
                   />
@@ -1306,9 +1327,7 @@ function Question() {
                      <OfficialPracticeNavigationSheet 
                         currentIndex={currentPracticeIndex}
                         practiceSet={practiceSet}
-                        onJump={(idx) => {
-                             navigateToPracticeIndex(idx);
-                        }}
+                        onJump={(idx) => navigateToPracticeIndex(idx)}
                         storagePrefix={`official-bank-${subject}`}
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition}
@@ -1317,9 +1336,7 @@ function Question() {
                      <PracticeNavigationSheet 
                         currentIndex={currentPracticeIndex}
                         practiceSet={practiceSet}
-                        onJump={(idx) => {
-                             navigateToPracticeIndex(idx);
-                        }}
+                        onJump={(idx) => navigateToPracticeIndex(idx)}
                         exitTo={`/bank?bankType=${bankSource}`}
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition} 
@@ -1340,14 +1357,12 @@ function Question() {
               )}
             </div>
 
-            {/* Right: Explanation, Check, Next - fixed width to prevent layout shift */}
             <div
               ref={bottomNavRightRef}
               className="ml-auto flex gap-2 shrink-0 justify-end"
               style={{ minWidth: shouldCompress ? undefined : '280px' }}
             >
               <ExplanationWindow 
-                videoUrl={currentQuestion?.explanationVideo}
                 onSplitScreenChange={handleSplitScreenChange}
                 onSplitPositionChange={handleSplitPositionChange}
                 splitPosition={splitPosition}
@@ -1383,7 +1398,6 @@ function Question() {
               </Button>
             </div>
             
-            {/* Hidden measurement div - renders full-size buttons off-screen to measure natural width */}
             <div 
               ref={bottomMeasurementRef}
               aria-hidden="true"

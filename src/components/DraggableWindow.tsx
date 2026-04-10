@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
-import { X, Columns2, Minus, Maximize2 } from "lucide-react";
+import { X, Columns2, Minus, Maximize2, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -236,8 +236,18 @@ export const DraggableWindow = ({
     if (onFocus) {
       onFocus();
     }
-    
-    if (!isSidebarred && (e.target as HTMLElement).closest(".window-header")) {
+
+    if (e.button !== 0) return;
+
+    const target = e.target as HTMLElement;
+    const isHeader = Boolean(target.closest(".window-header"));
+    const isInteractiveTarget = Boolean(
+      target.closest("button, [role='button'], input, textarea, select, a")
+    );
+
+    if (!isSidebarred && isHeader && !isInteractiveTarget) {
+      e.preventDefault();
+
       // Allow dragging even when minimized
       setIsDragging(true);
       const newDragOffset = {
@@ -448,6 +458,14 @@ export const DraggableWindow = ({
 
   const resizeHandleClass = "absolute bg-transparent hover:bg-primary/20 transition-colors z-10";
 
+  const handleNativeDragStart = (e: React.DragEvent<HTMLDivElement>) => {
+    const target = e.target as HTMLElement;
+
+    if (target.closest(".window-header")) {
+      e.preventDefault();
+    }
+  };
+
   // Use portal to render directly to body, bypassing any stacking context issues
   return createPortal(
     <>
@@ -477,6 +495,7 @@ export const DraggableWindow = ({
         )}
         style={windowStyle}
         onMouseDown={handleMouseDown}
+        onDragStart={handleNativeDragStart}
       >
         {/* Resize Handles - hidden when minimized or sidebarred */}
         {!isMinimized && !isSidebarred && (
@@ -532,22 +551,24 @@ export const DraggableWindow = ({
 
         {/* Window Header */}
         <div className={cn(
-          "window-header flex items-center justify-between px-4 py-3 bg-muted border-b border-border",
+          "window-header flex select-none items-center justify-between px-4 py-3 bg-muted border-b border-border",
           isSidebarred ? "cursor-default" : "cursor-grab active:cursor-grabbing"
         )}>
-          <h3 className="font-semibold text-foreground">{title}</h3>
-          <div className="flex items-center gap-2">
+          <div className="flex min-w-0 items-center gap-2">
             {enableSplitScreen && (
               <Button
                 variant="ghost"
                 size="icon"
-                className={cn("h-8 w-8", isSidebarred && "bg-primary/20")}
+                className={cn("h-8 w-8 shrink-0", isSidebarred && "bg-primary/20")}
                 onClick={toggleSidebar}
-                title={isSidebarred ? "Exit split screen" : "Split screen"}
+                title={isSidebarred ? "Hide away" : "Pop out"}
               >
-                <Columns2 className="h-4 w-4" />
+                {isSidebarred ? <ChevronRight className="h-4 w-4" /> : <Columns2 className="h-4 w-4" />}
               </Button>
             )}
+            <h3 className="truncate font-semibold text-foreground">{title}</h3>
+          </div>
+          <div className="flex items-center gap-2">
             {!isSidebarred && (
               <Button
                 variant="ghost"

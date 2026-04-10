@@ -1,7 +1,7 @@
 import { officialQuestions as allQuestionsData } from "./official_questions";
 import { Question as SourceQuestion } from "./all_questions";
 import { normalizeSatImagePath, resolveSatQuestionImages } from "./satQuestionImages";
-import { normalizeTextForMathRendering } from "@/lib/utils";
+import { normalizeTextForMathRendering } from "@/lib/mathTextNormalization";
 // @ts-ignore
 // import categoryMap from "./category_map.json"; // IDs don't match anymore
 import {
@@ -45,6 +45,7 @@ export interface BankQuestion {
   correctAnswer?: string | null;
   rationale?: string | null;
   questionImages?: { src: string; alt: string }[];
+  difficulty?: "Easy" | "Medium" | "Hard" | null;
   /** Category classification */
   category: QuestionCategory;
 }
@@ -55,6 +56,14 @@ export { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomain
 
 const sanitizeCurrency = (text: string | null | undefined): string => {
   return normalizeTextForMathRendering(text);
+};
+
+const normalizeDifficulty = (value: string | null | undefined): "Easy" | "Medium" | "Hard" | null => {
+  const normalized = (value ?? "").trim().toLowerCase();
+  if (normalized === "easy") return "Easy";
+  if (normalized === "medium") return "Medium";
+  if (normalized === "hard") return "Hard";
+  return null;
 };
 
 const inferQuestionSubject = (q: SourceQuestion): QuestionCategory["subject"] | null =>
@@ -159,12 +168,63 @@ const isLikelyPassageBlock = (text: string): boolean => {
   return false;
 };
 
-const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
-  if (!raw.includes("\\\\")) {
+const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?: string } => {
+  const trimmed = raw.trim();
+  if (!trimmed) {
     return {
-      passage: sanitizeCurrency(raw),
+      passage: undefined,
       questionText: undefined,
     };
+  }
+
+  const newlineIndex = trimmed.indexOf("\n");
+  if (newlineIndex !== -1) {
+    const firstLine = trimmed.slice(0, newlineIndex).trim();
+    const rest = trimmed.slice(newlineIndex + 1).trim();
+    if (
+      firstLine &&
+      rest &&
+      (isLikelyQuestionPrompt(firstLine) || firstLine.endsWith("?")) &&
+      (isLikelyPassageBlock(rest) || !isLikelyQuestionPrompt(rest))
+    ) {
+      return {
+        passage: sanitizeCurrency(rest),
+        questionText: sanitizeCurrency(firstLine),
+      };
+    }
+  }
+
+  const sentenceMatch = trimmed.match(/^(.+?\?)(?:\s+|$)([\s\S]*)$/);
+  if (!sentenceMatch) {
+    return {
+      passage: sanitizeCurrency(trimmed),
+      questionText: undefined,
+    };
+  }
+
+  const questionSentence = sentenceMatch[1].trim();
+  const remainder = (sentenceMatch[2] || "").trim();
+  if (
+    questionSentence &&
+    remainder &&
+    isLikelyQuestionPrompt(questionSentence) &&
+    (isLikelyPassageBlock(remainder) || !isLikelyQuestionPrompt(remainder))
+  ) {
+    return {
+      passage: sanitizeCurrency(remainder),
+      questionText: sanitizeCurrency(questionSentence),
+    };
+  }
+
+  return {
+    passage: sanitizeCurrency(trimmed),
+    questionText: undefined,
+  };
+};
+
+const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
+  if (!raw.includes("\\\\")) {
+    return splitQuestionFirstStem(raw);
   }
 
   const parts = raw.split("\\\\");
@@ -294,6 +354,7 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
     correctAnswer: q.correctAnswer,
     rationale: q.rationale ? sanitizeCurrency(q.rationale) : q.rationale,
     questionImages: mapImages(q.id, q.image),
+    difficulty: normalizeDifficulty(q.difficulty),
     category,
   };
 };
