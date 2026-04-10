@@ -577,7 +577,7 @@ const Home = () => {
               Question Bank
             </Link>
             <Link
-              to="/hard/1"
+              to="/hard"
               className="rounded-md px-3 py-1.5 transition-colors hover:bg-muted hover:text-foreground"
             >
               100 Hard Math Questions
@@ -825,7 +825,7 @@ const Home = () => {
             </button>
 
             <button
-              onClick={() => navigate("/hard/1")}
+              onClick={() => navigate("/hard")}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -985,7 +985,7 @@ const Home = () => {
                 Icon: Target,
                 title: "100 Hard Math Questions",
                 desc: "A curated set of the hardest SAT math questions — shows precisely where your strategy breaks under pressure.",
-                href: "/hard/1",
+                href: "/hard",
                 cta: "Start the set",
                 accent: "hsl(201,100%,74%)",
               },

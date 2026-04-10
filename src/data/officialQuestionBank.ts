@@ -1,7 +1,7 @@
 import { officialQuestions as allQuestionsData } from "./official_questions";
 import { Question as SourceQuestion } from "./all_questions";
 import { normalizeSatImagePath, resolveSatQuestionImages } from "./satQuestionImages";
-import { normalizeTextForMathRendering } from "@/lib/utils";
+import { normalizeTextForMathRendering } from "@/lib/mathTextNormalization";
 // @ts-ignore
 // import categoryMap from "./category_map.json"; // IDs don't match anymore
 import {

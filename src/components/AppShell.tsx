@@ -1,4 +1,4 @@
-import { type ReactNode, useMemo, useState } from "react";
+import { type ReactNode, useEffect, useMemo, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import {
   BarChart3,
@@ -25,7 +25,7 @@ import { useAuth } from "@/contexts/AuthContext";
 const primaryItems = [
   { label: "Home", href: "/", icon: Home, match: (pathname: string) => pathname === "/" },
   { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank") || pathname.startsWith("/official-bank") },
-  { label: "100 Hard Math Questions", href: "/hard/1", icon: Target, match: (pathname: string) => pathname.startsWith("/hard/") },
+  { label: "100 Hard Math Questions", href: "/hard", icon: Target, match: (pathname: string) => pathname.startsWith("/hard") },
   { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator") },
   { label: "Practice Modules", href: "/modules", icon: GraduationCap, match: (pathname: string) => pathname.startsWith("/modules") },
   { label: "Vocabulary", href: "/vocab", icon: SpellCheck, match: (pathname: string) => pathname.startsWith("/vocab") },
@@ -42,19 +42,21 @@ const SidebarLink = ({
   icon: Icon,
   active,
   collapsed = false,
+  labelsVisible = true,
 }: {
   href: string;
   label: string;
   icon: typeof Home;
   active: boolean;
   collapsed?: boolean;
+  labelsVisible?: boolean;
 }) => (
   <Link
     to={href}
     aria-label={label}
     title={collapsed ? label : undefined}
     className={cn(
-      "flex items-center rounded-xl text-sm font-medium transition-colors",
+      "relative flex items-center overflow-hidden rounded-xl text-sm font-medium transition-colors",
       collapsed ? "justify-center px-0 py-3" : "gap-3 px-3 py-2.5",
       active
         ? "bg-foreground text-background shadow-sm"
@@ -62,7 +64,21 @@ const SidebarLink = ({
     )}
   >
     <Icon className={cn("shrink-0", collapsed ? "h-5 w-5" : "h-4 w-4")} />
-    <span className={cn(collapsed && "sr-only")}>{label}</span>
+    {collapsed ? (
+      <span className="sr-only">{label}</span>
+    ) : (
+      <span
+        aria-hidden={!labelsVisible}
+        className={cn(
+          "whitespace-nowrap transition-opacity duration-150",
+          labelsVisible
+            ? "opacity-100"
+            : "pointer-events-none invisible opacity-0",
+        )}
+      >
+        {label}
+      </span>
+    )}
   </Link>
 );
 
@@ -71,7 +87,21 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
   const [isSidebarHidden, setIsSidebarHidden] = useState(false);
+  const [labelsVisible, setLabelsVisible] = useState(true);
   const isDesktopCollapsed = isSidebarHidden;
+
+  useEffect(() => {
+    if (isDesktopCollapsed) {
+      setLabelsVisible(false);
+      return;
+    }
+
+    const timeout = window.setTimeout(() => {
+      setLabelsVisible(true);
+    }, 220);
+
+    return () => window.clearTimeout(timeout);
+  }, [isDesktopCollapsed]);
 
   const activePrimary = useMemo(
     () => primaryItems.find((item) => item.match(location.pathname))?.label,
@@ -107,20 +137,31 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
             : "w-72 translate-x-0 px-4",
         )}
       >
-        <div className={cn("px-2", isDesktopCollapsed ? "flex flex-col items-center gap-3 px-0" : "flex items-start justify-between")}>
-          <BrandLogo variant="mark" className="h-10 w-10" />
-          <button
-            type="button"
-            className={cn(
-              "inline-flex items-center justify-center text-muted-foreground transition-colors hover:text-foreground",
-              isDesktopCollapsed ? "h-8 w-8 rounded-xl border border-border/70 bg-background/70" : "mt-1 h-6 w-6",
-            )}
-            onClick={() => setIsSidebarHidden((hidden) => !hidden)}
-            aria-label={isDesktopCollapsed ? "Expand sidebar" : "Hide sidebar"}
-            title={isDesktopCollapsed ? "Expand sidebar" : "Hide sidebar"}
-          >
-            {isDesktopCollapsed ? <ChevronRight className="h-4 w-4" /> : <ChevronLeft className="h-4 w-4" />}
-          </button>
+        <div className={cn("px-2", isDesktopCollapsed ? "flex flex-col items-center px-0" : "flex items-start justify-between")}>
+          {isDesktopCollapsed ? (
+            <button
+              type="button"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-border/70 bg-background/70 text-muted-foreground transition-colors hover:text-foreground"
+              onClick={() => setIsSidebarHidden((hidden) => !hidden)}
+              aria-label="Expand sidebar"
+              title="Expand sidebar"
+            >
+              <ChevronRight className="h-4 w-4" />
+            </button>
+          ) : (
+            <>
+              <BrandLogo variant="mark" className="h-10 w-10" />
+              <button
+                type="button"
+                className="mt-1 inline-flex h-6 w-6 items-center justify-center text-muted-foreground transition-colors hover:text-foreground"
+                onClick={() => setIsSidebarHidden((hidden) => !hidden)}
+                aria-label="Hide sidebar"
+                title="Hide sidebar"
+              >
+                <ChevronLeft className="h-4 w-4" />
+              </button>
+            </>
+          )}
         </div>
 
         <div className="mt-6 flex-1 overflow-y-auto">
@@ -133,6 +174,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                 icon={item.icon}
                 active={activePrimary === item.label}
                 collapsed={isDesktopCollapsed}
+                labelsVisible={labelsVisible}
               />
             ))}
           </div>
@@ -151,6 +193,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                 icon={item.icon}
                 active={activeSecondary === item.label}
                 collapsed={isDesktopCollapsed}
+                labelsVisible={labelsVisible}
               />
             ))}
           </div>

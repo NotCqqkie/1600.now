@@ -37,7 +37,8 @@ import {
   type BankSourceFilter,
 } from "@/data/questionBank";
 import { getBankQuestion as getBankQuestionOfficial, bankCounts as officialBankCounts } from "@/data/officialQuestionBank";
-import { cn, normalizePublicAssetPath, renderMixedContent } from "@/lib/utils";
+import { cn, normalizePublicAssetPath } from "@/lib/utils";
+import { renderMixedContent } from "@/lib/mathRendering";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import "katex/dist/katex.min.css";
 
@@ -338,7 +339,6 @@ function Question() {
       { label: "Domain", value: questionWithMetadata.category?.domain || "Unassigned" },
       { label: "Skill", value: questionWithMetadata.category?.skill || "Unassigned" },
       { label: "Source ID", value: questionWithMetadata.sourceId || "Unknown" },
-      { label: "Correct Answer", value: currentQuestion.correctAnswer || "Unavailable" },
     ];
 
     return {
@@ -726,7 +726,7 @@ function Question() {
   };
 
   const handleToggleReview = () => {
-    if (!currentQuestion || is100Hard) return;
+    if (!currentQuestion) return;
     const nextMarkedState = !markedForReview;
     toggleReview(currentQuestion.uuid);
     localStorage.setItem(`${currentQuestion.uuid}-flagged`, String(nextMarkedState));

@@ -1,5 +1,7 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import { getPreferredDarkMode, THEME_EVENT, THEME_STORAGE_KEY } from "@/lib/theme";
 
 interface BrandLogoProps {
   className?: string;
@@ -14,8 +16,31 @@ export const BrandLogo = ({
   href = "/",
   variant = "full",
 }: BrandLogoProps) => {
-  const lightSrc = variant === "mark" ? "/logo_b.png" : "/logo_text_b.png";
-  const darkSrc = variant === "mark" ? "/logo_w.png" : "/logo_text_w.png";
+  const [isDark, setIsDark] = useState(getPreferredDarkMode);
+
+  useEffect(() => {
+    const syncTheme = () => {
+      setIsDark(getPreferredDarkMode());
+    };
+
+    const handleStorage = (event: StorageEvent) => {
+      if (event.key === THEME_STORAGE_KEY) {
+        syncTheme();
+      }
+    };
+
+    window.addEventListener("storage", handleStorage);
+    window.addEventListener(THEME_EVENT, syncTheme);
+
+    return () => {
+      window.removeEventListener("storage", handleStorage);
+      window.removeEventListener(THEME_EVENT, syncTheme);
+    };
+  }, []);
+
+  const src = variant === "mark"
+    ? (isDark ? "/optimized/logo_w_160.png" : "/optimized/logo_b_160.png")
+    : (isDark ? "/optimized/logo_text_w_600.png" : "/optimized/logo_text_b_600.png");
 
   const content = (
     <span
@@ -27,24 +52,15 @@ export const BrandLogo = ({
       )}
     >
       <img
-        src={lightSrc}
+        src={src}
         alt="1600.now"
         className={cn(
-          "absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-100 dark:opacity-0",
+          "absolute inset-0 h-full w-full object-contain",
           imageClassName,
         )}
         loading="eager"
-        decoding="async"
-      />
-      <img
-        src={darkSrc}
-        alt="1600.now"
-        className={cn(
-          "absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-100 dark:opacity-100",
-          imageClassName,
-        )}
-        loading="eager"
-        decoding="async"
+        decoding="sync"
+        fetchPriority="high"
       />
     </span>
   );

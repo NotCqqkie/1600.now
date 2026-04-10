@@ -1,9 +1,11 @@
-import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { X, Bookmark, Home } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { Home } from "lucide-react";
+import { useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import { createPortal } from "react-dom";
+import {
+  QuestionNavigatorSheet,
+  type QuestionNavigatorItem,
+} from "@/components/QuestionNavigatorSheet";
 
 interface PracticeSetItem {
   subject: string;
@@ -38,41 +40,7 @@ export const OfficialPracticeNavigationSheet = ({
   splitPosition = 50,
   storagePrefix,
 }: PracticeNavigationSheetProps) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const gridRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    if (!isOpen) return;
-    gridRef.current?.scrollTo({ top: 0 });
-  }, [isOpen]);
-
-  const getCenterStyle = () => {
-    if (isSplitScreenActive) {
-      const leftPercent = splitPosition / 2;
-      return {
-        left: `${leftPercent}%`,
-        transform: "translateX(-50%)",
-      };
-    }
-    return {
-      left: "50%",
-      transform: "translateX(-50%)",
-    };
-  };
-
-  const getStatusColor = (status: string) => {
-    switch (status) {
-      case "correct-first":
-        return "bg-[#C8E6C9] border-[#1B5E20] dark:bg-[#1B5E20] dark:border-[#2E7D32]";
-      case "correct-later":
-        return "bg-[#FFE0B2] border-[#E65100] dark:bg-[#5F2A00] dark:border-[#C75C00]";
-      case "incorrect":
-        return "bg-[#FFCDD2] border-[#B71C1C] dark:bg-[#5C1010] dark:border-[#8B0000]";
-      default:
-        return "bg-background border-border";
-    }
-  };
 
   const handleExitPractice = () => {
     sessionStorage.removeItem('practiceSet');
@@ -80,91 +48,38 @@ export const OfficialPracticeNavigationSheet = ({
     navigate('/official-bank');
   };
 
+  const navigatorItems = useMemo<QuestionNavigatorItem[]>(
+    () =>
+      practiceSet.map((item, idx) => {
+        const prefix = `${storagePrefix}`;
+
+        return {
+          key: `${item.subject}-${item.id}`,
+          label: idx + 1,
+          status: getQuestionStatus(prefix, item.id),
+          isFlagged: isQuestionFlagged(prefix, item.id),
+          isCurrent: idx === currentIndex,
+          onSelect: () => onJump(idx),
+          title: `${item.subject === "math" ? "Math" : "Reading"} Q${item.id}`,
+        };
+      }),
+    [currentIndex, onJump, practiceSet, storagePrefix]
+  );
+
   return (
-    <>
-      <Button variant="outline" size="sm" onClick={() => setIsOpen(!isOpen)}>
-        Question {currentIndex + 1} of {practiceSet.length}
-      </Button>
-
-      {isOpen && typeof document !== "undefined" && createPortal(
-        <div
-          className="fixed bottom-20 z-30 bg-card border-2 border-border rounded-xl shadow-xl p-4 w-[min(90vw,520px)] max-h-[55vh] overflow-hidden"
-          style={getCenterStyle()}
-        >
-          <div className="flex items-center justify-between pb-3 border-b mb-3">
-            <div>
-              <h3 className="text-lg font-semibold">Official Practice Set Navigator</h3>
-              <p className="text-xs text-muted-foreground">
-                {practiceSet.length} questions in this set
-              </p>
-            </div>
-            <div className="flex items-center gap-2">
-              <Button variant="outline" size="sm" onClick={handleExitPractice} className="gap-1">
-                <Home className="h-4 w-4" />
-                Exit Practice
-              </Button>
-              <Button variant="ghost" size="sm" className="h-8 w-8 p-0" onClick={() => setIsOpen(false)}>
-                <X className="h-4 w-4" />
-              </Button>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap gap-3 items-center justify-center py-2 border-b mb-3 text-xs">
-            <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#C8E6C9] dark:bg-[#1B5E20] rounded border border-[#1B5E20] dark:border-[#2E7D32]" />
-              <span>Correct</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#FFE0B2] dark:bg-[#5F2A00] rounded border border-[#E65100] dark:border-[#C75C00]" />
-              <span>Correct (after attempts)</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-[#FFCDD2] dark:bg-[#5C1010] rounded border border-[#B71C1C] dark:border-[#8B0000]" />
-              <span>Incorrect</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <div className="w-4 h-4 bg-background rounded border-2 border-border" />
-              <span>Unanswered</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <Bookmark className="h-4 w-4 bookmark-flag" />
-              <span>Marked for Review</span>
-            </div>
-          </div>
-
-          <div
-            ref={gridRef}
-            className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-2 overflow-auto max-h-[calc(55vh-180px)] p-1"
-          >
-            {practiceSet.map((item, idx) => {
-              // CHANGED: official-bank- prefix
-              const prefix = `official-bank-${item.subject}`;
-              const status = getQuestionStatus(prefix, item.id);
-              const isFlagged = isQuestionFlagged(prefix, item.id);
-              const isCurrent = idx === currentIndex;
-              return (
-                <button
-                  key={`${item.subject}-${item.id}`}
-                  onClick={() => {
-                    onJump(idx);
-                    setIsOpen(false);
-                  }}
-                  className={cn(
-                    "h-9 min-w-[2.75rem] px-1.5 flex items-center justify-center rounded border-2 text-[11px] font-medium tabular-nums relative transition-colors",
-                    getStatusColor(status),
-                    isCurrent && "ring-2 ring-primary ring-offset-1"
-                  )}
-                  title={`${item.subject === 'math' ? 'Math' : 'Reading'} Q${item.id}`}
-                >
-                  {isFlagged && <Bookmark className="absolute -top-1.5 -right-1.5 h-3.5 w-3.5 bookmark-flag" />}
-                  <span className="text-foreground dark:text-white">{idx + 1}</span>
-                </button>
-              );
-            })}
-          </div>
-        </div>,
-        document.body
+    <QuestionNavigatorSheet
+      buttonLabel={`Question ${currentIndex + 1} of ${practiceSet.length}`}
+      title="Official Practice Set Navigator"
+      subtitle={`${practiceSet.length} questions in this set`}
+      items={navigatorItems}
+      isSplitScreenActive={isSplitScreenActive}
+      splitPosition={splitPosition}
+      headerActions={(
+        <Button variant="outline" size="sm" onClick={handleExitPractice} className="gap-1">
+          <Home className="h-4 w-4" />
+          Exit Practice
+        </Button>
       )}
-    </>
+    />
   );
 };

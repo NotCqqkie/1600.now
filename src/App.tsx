@@ -8,11 +8,13 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LegalDisclaimer } from "@/components/LegalDisclaimer";
 import { AppShell } from "@/components/AppShell";
+import { Seo } from "@/components/Seo";
 
 const Home = lazy(() => import("./pages/Home"));
 const Login = lazy(() => import("./pages/Login"));
 const Signup = lazy(() => import("./pages/Signup"));
 const Index = lazy(() => import("./pages/Index"));
+const HardQuestionsIntro = lazy(() => import("./pages/HardQuestionsIntro"));
 const Question = lazy(() => import("./pages/Question"));
 const BankIndex = lazy(() => import("./pages/BankIndex"));
 const BankBrowse = lazy(() => import("./pages/BankBrowse"));
@@ -49,6 +51,7 @@ const App = () => (
         <Toaster />
         <Sonner position="top-center" duration={2000} />
         <BrowserRouter>
+          <Seo />
           <ScrollToTop />
           <Routes>
             <Route path="/" element={withSuspense(<Home />)} />
@@ -59,6 +62,7 @@ const App = () => (
             <Route path="/profile" element={withShellSuspense(<Profile />)} />
             <Route path="/score-calculator" element={withShellSuspense(<ScoreCalculator />)} />
             <Route path="/browse" element={withShellSuspense(<Index />)} />
+            <Route path="/hard" element={withShellSuspense(<HardQuestionsIntro />)} />
             <Route path="/hard/:id" element={withSuspense(<Question />)} />
             <Route path="/bank" element={withShellSuspense(<BankIndex />)} />
             <Route path="/bank/:subject/browse" element={withShellSuspense(<BankBrowse />)} />

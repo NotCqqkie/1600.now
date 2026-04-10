@@ -1,4 +1,4 @@
-import { type ReactNode, useMemo, useEffect, useState } from "react";
+import { type ReactNode, useMemo, useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
@@ -166,10 +166,12 @@ interface HeatCell {
 }
 
 const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> }) => {
+  const containerRef = useRef<HTMLDivElement | null>(null);
   const [tooltip, setTooltip] = useState<{
     count: number;
     dateStr: string;
-    rect: DOMRect;
+    left: number;
+    top: number;
   } | null>(null);
 
   // Build a grid of 53 weeks × 7 days, ending on today
@@ -225,7 +227,7 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
 
   return (
     // Outer wrapper: non-overflowing, contains both scroll area and portal-free tooltip
-    <div style={{ position: "relative" }}>
+    <div ref={containerRef} style={{ position: "relative" }}>
       {/* Scrollable grid only — tooltip lives outside this div */}
       <div style={{ overflowX: "auto", overflowY: "visible", paddingBottom: 4 }}>
         {/* Month labels row */}
@@ -280,8 +282,17 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
                     <div
                       key={dateStr}
                       onMouseEnter={(e) => {
-                        if (!isFuture)
-                          setTooltip({ count, dateStr, rect: e.currentTarget.getBoundingClientRect() });
+                        if (isFuture) return;
+                        const rect = e.currentTarget.getBoundingClientRect();
+                        const containerRect = containerRef.current?.getBoundingClientRect();
+                        if (!containerRect) return;
+
+                        setTooltip({
+                          count,
+                          dateStr,
+                          left: rect.left - containerRect.left + rect.width / 2,
+                          top: rect.top - containerRect.top - 10,
+                        });
                       }}
                       onMouseLeave={() => setTooltip(null)}
                       style={{
@@ -320,14 +331,14 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
         <span style={{ fontSize: 11, color: "hsl(var(--muted-foreground))" }}>More</span>
       </div>
 
-      {/* Tooltip — outside the scroll container, fixed to viewport */}
+      {/* Tooltip — outside the scroll container, anchored to the heatmap container */}
       {tooltip && (
         <div
           style={{
-            position: "fixed",
-            left: tooltip.rect.left + tooltip.rect.width / 2,
-            top: tooltip.rect.top - 10,
-            transform: "translateX(-50%) translateY(-100%)",
+            position: "absolute",
+            left: tooltip.left,
+            top: tooltip.top,
+            transform: "translate(-50%, -100%)",
             background: "hsl(var(--popover))",
             border: "1px solid hsl(var(--border))",
             borderRadius: 8,

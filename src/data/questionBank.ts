@@ -2,7 +2,7 @@ import { questions as pastSatQuestionsData, type Question as SourceQuestion } fr
 import { questions as unofficialQuestionsData } from "./unofficialQuestions";
 import { resolveSatChoiceImage, resolveSatQuestionImages } from "./satQuestionImages";
 import { unofficialCompositePrimaryImageIndex } from "./unofficialCompositeImageSelection";
-import { normalizeTextForMathRendering } from "@/lib/utils";
+import { normalizeTextForMathRendering } from "@/lib/mathTextNormalization";
 import {
   classifyQuestion,
   inferSubjectFromSource,

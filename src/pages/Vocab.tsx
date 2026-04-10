@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -14,10 +13,9 @@ import { Progress } from "@/components/ui/progress";
 import { vocabularySets } from "@/data/vocabulary";
 import {
   ArrowLeftRight, CheckCircle2, ChevronLeft, ChevronRight, Clock,
-  GraduationCap, Layers, Palette, Pointer, Repeat, RotateCcw,
+  GraduationCap, Layers, Repeat, RotateCcw,
   Search, Shuffle, SpellCheck, Target, XCircle, Zap,
 } from "lucide-react";
-import { ThemeToggle } from "@/components/ThemeToggle";
 
 /* ═══════════════════════════════════════════════
    TYPES
@@ -153,8 +151,6 @@ const textSizeClass = (text: string, variant: "front" | "back") => {
    ═══════════════════════════════════════════════ */
 
 const Vocab = () => {
-  const navigate = useNavigate();
-
   /* ─── Core state ─── */
   const [browseQuery, setBrowseQuery] = useState("");
   const [activeSetId, setActiveSetId] = useState<string>("all");
@@ -413,7 +409,6 @@ const Vocab = () => {
       reviewed: 0, gotIt: 0, needPractice: 0, noIdea: 0,
       startProgress: { ...progress },
     });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allWords, studySettings.flashCount, flashDeckSeed]);
 
   // BUG FIX: keyboard handler — include flashIndex + flashFlipped in deps
@@ -436,7 +431,6 @@ const Vocab = () => {
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeTab, flashDeck.length, isAnimating, flashIndex, flashFlipped]);
 
   const handleFlashAdvance = (delta: number) => {
@@ -935,41 +929,42 @@ const Vocab = () => {
      ═══════════════════════════════════════════════ */
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-100 text-foreground dark:from-[#0b162a] dark:via-[#0d1326] dark:to-[#0a1020]">
-      {/* ─── Header ─── */}
-      <header className="sticky top-0 z-20 border-b border-primary/10 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/70">
-        <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <Button variant="ghost" size="sm" onClick={() => navigate("/")}>
-              <ChevronLeft className="mr-1.5 h-4 w-4" />
-              Home
-            </Button>
-            <span className="hidden sm:inline-flex text-sm text-muted-foreground">Vocabulary</span>
-          </div>
-          <ThemeToggle />
-        </div>
-      </header>
-
+    <div className="min-h-screen bg-background">
       <main className="container mx-auto px-4 py-8 space-y-5">
-        {/* ─── Hero (compact) ─── */}
-        <div className="relative overflow-hidden rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/8 via-card to-accent/15 p-5 sm:p-6 shadow-xl">
-          <div
-            className="absolute inset-0 opacity-50 blur-3xl pointer-events-none"
+        {/* ─── Page header ─── */}
+        <div style={{ marginBottom: 4 }}>
+          <h1
             style={{
-              background:
-                "radial-gradient(circle at 25% 30%, rgba(84,197,255,0.35), transparent 32%), radial-gradient(circle at 75% 15%, rgba(255,196,120,0.25), transparent 28%)",
+              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontSize: "clamp(24px, 3vw, 32px)",
+              fontWeight: 400,
+              letterSpacing: "-0.02em",
+              color: "hsl(var(--foreground))",
+              marginBottom: 4,
             }}
-          />
-          <div className="relative flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-            <div className="space-y-3 max-w-2xl">
-              <div className="inline-flex items-center gap-2 rounded-full bg-background/70 px-3 py-1 text-xs font-semibold text-primary shadow-sm ring-1 ring-primary/30">
-                <Palette className="h-3.5 w-3.5" />
-                SAT Vocabulary Studio
-              </div>
-              <h1 className="text-2xl sm:text-3xl font-bold leading-tight text-foreground">
-                Master your SAT vocabulary
-              </h1>
-              <div className="flex flex-wrap items-center gap-2">
+          >
+            Vocabulary
+          </h1>
+          <p className="text-sm text-muted-foreground">
+            {allWords.length} words · {masteredPercent}% mastered
+          </p>
+        </div>
+
+        {/* ─── Progress strip ─── */}
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 16,
+            padding: "16px 20px",
+            borderRadius: 16,
+            border: "1px solid hsl(var(--border))",
+            background: "hsl(var(--card))",
+          }}
+        >
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 8 }}>
+              <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
                 <Badge className="bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-200 border-0">
                   New: {progressSummary.new}
                 </Badge>
@@ -980,27 +975,29 @@ const Vocab = () => {
                   Mastered: {progressSummary.mastered}
                 </Badge>
               </div>
-            </div>
-
-            {/* Progress bar + reset */}
-            <div className="min-w-[200px] max-w-sm w-full space-y-2">
-              <div className="flex items-center justify-between text-xs text-muted-foreground">
-                <span className="uppercase tracking-wide">Mastery</span>
-                <div className="flex items-center gap-2">
-                  <span className="font-semibold text-foreground">{masteredPercent}%</span>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-6 px-2 text-[10px] text-muted-foreground hover:text-destructive"
-                    onClick={handleResetProgress}
-                  >
-                    <RotateCcw className="h-3 w-3 mr-1" />
-                    Reset
-                  </Button>
-                </div>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>
+                <span
+                  style={{
+                    fontFamily: "'Space Mono', monospace",
+                    fontSize: 13,
+                    fontWeight: 700,
+                    color: "hsl(var(--foreground))",
+                  }}
+                >
+                  {masteredPercent}%
+                </span>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="h-6 px-2 text-[11px] text-muted-foreground hover:text-destructive"
+                  onClick={handleResetProgress}
+                >
+                  <RotateCcw className="h-3 w-3 mr-1" />
+                  Reset
+                </Button>
               </div>
-              <Progress value={masteredPercent} className="h-2.5" />
             </div>
+            <Progress value={masteredPercent} className="h-2" />
           </div>
         </div>
 

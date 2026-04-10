@@ -1,17 +1,6 @@
 
 import React, { createContext, useContext, useEffect, useState } from "react";
-import {
-  GoogleAuthProvider,
-  User as FirebaseUser,
-  createUserWithEmailAndPassword,
-  getRedirectResult,
-  onAuthStateChanged,
-  signInWithEmailAndPassword,
-  signInWithPopup,
-  signInWithRedirect,
-  signOut as firebaseSignOut,
-} from "firebase/auth";
-import { auth, firebaseConfigError } from "@/lib/firebase";
+import type { Auth, User as FirebaseUser } from "firebase/auth";
 
 export interface AppUser {
   id: string;
@@ -45,11 +34,34 @@ const AuthContext = createContext<AuthContextType>({
 
 export const useAuth = () => useContext(AuthContext);
 
-const getAuthUnavailableError = () =>
+const getAuthUnavailableError = (firebaseConfigError?: string | null) =>
   new Error(
     firebaseConfigError ||
       "Firebase authentication is not configured. Set VITE_FIREBASE_* variables.",
   );
+
+let authDependenciesPromise:
+  | Promise<{
+      auth: Auth | null;
+      firebaseConfigError: string | null;
+      authModule: typeof import("firebase/auth");
+    }>
+  | null = null;
+
+const loadAuthDependencies = async () => {
+  if (!authDependenciesPromise) {
+    authDependenciesPromise = Promise.all([
+      import("firebase/auth"),
+      import("@/lib/firebase"),
+    ]).then(([authModule, firebaseModule]) => ({
+      auth: firebaseModule.auth,
+      firebaseConfigError: firebaseModule.firebaseConfigError,
+      authModule,
+    }));
+  }
+
+  return authDependenciesPromise;
+};
 
 const toAppUser = (firebaseUser: FirebaseUser | null): AppUser | null => {
   if (!firebaseUser) return null;
@@ -70,43 +82,77 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!auth) {
-      setLoading(false);
-      return;
-    }
+    let cancelled = false;
+    let unsubscribe: (() => void) | undefined;
 
-    // Process any pending redirect result (from signInWithRedirect flow).
-    // onAuthStateChanged will fire afterward with the signed-in user.
-    getRedirectResult(auth).catch(() => {
-      // No redirect pending — ignore.
-    });
+    const initializeAuth = async () => {
+      const { auth, authModule } = await loadAuthDependencies();
 
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
-      const appUser = toAppUser(firebaseUser);
-      setSession(appUser);
-      setUser(appUser);
-      setLoading(false);
-    });
+      if (cancelled) return;
 
-    return () => unsubscribe();
+      if (!auth) {
+        setLoading(false);
+        return;
+      }
+
+      // Process any pending redirect result (from signInWithRedirect flow).
+      // onAuthStateChanged will fire afterward with the signed-in user.
+      authModule.getRedirectResult(auth).catch(() => {
+        // No redirect pending — ignore.
+      });
+
+      unsubscribe = authModule.onAuthStateChanged(auth, (firebaseUser) => {
+        if (cancelled) return;
+
+        const appUser = toAppUser(firebaseUser);
+        setSession(appUser);
+        setUser(appUser);
+        setLoading(false);
+      });
+    };
+
+    const idleCallback =
+      "requestIdleCallback" in window
+        ? window.requestIdleCallback(() => {
+            void initializeAuth();
+          })
+        : window.setTimeout(() => {
+            void initializeAuth();
+          }, 1);
+
+    return () => {
+      cancelled = true;
+      unsubscribe?.();
+
+      if ("cancelIdleCallback" in window) {
+        window.cancelIdleCallback(idleCallback as number);
+      } else {
+        window.clearTimeout(idleCallback as number);
+      }
+    };
   }, []);
 
   const signInWithEmailPassword = async (email: string, password: string) => {
-    if (!auth) throw getAuthUnavailableError();
-    await signInWithEmailAndPassword(auth, email, password);
+    const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
+    if (!auth) throw getAuthUnavailableError(firebaseConfigError);
+    await authModule.signInWithEmailAndPassword(auth, email, password);
   };
 
   const signUpWithEmailPassword = async (email: string, password: string) => {
-    if (!auth) throw getAuthUnavailableError();
-    await createUserWithEmailAndPassword(auth, email, password);
+    const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
+    if (!auth) throw getAuthUnavailableError(firebaseConfigError);
+    await authModule.createUserWithEmailAndPassword(auth, email, password);
   };
 
   const signInWithGoogle = async () => {
-    if (!auth) throw getAuthUnavailableError();
-    const provider = new GoogleAuthProvider();
+    const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
+    if (!auth) throw getAuthUnavailableError(firebaseConfigError);
+
+    const provider = new authModule.GoogleAuthProvider();
     provider.setCustomParameters({ prompt: "select_account" });
+
     try {
-      await signInWithPopup(auth, provider);
+      await authModule.signInWithPopup(auth, provider);
     } catch (error: any) {
       const code = error?.code;
       if (
@@ -114,7 +160,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         code === "auth/cancelled-popup-request" ||
         code === "auth/operation-not-supported-in-this-environment"
       ) {
-        await signInWithRedirect(auth, provider);
+        await authModule.signInWithRedirect(auth, provider);
         return;
       }
 
@@ -123,8 +169,9 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   };
 
   const signOut = async () => {
-    if (!auth) throw getAuthUnavailableError();
-    await firebaseSignOut(auth);
+    const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
+    if (!auth) throw getAuthUnavailableError(firebaseConfigError);
+    await authModule.signOut(auth);
   };
 
   return (
