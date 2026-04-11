@@ -114,6 +114,8 @@ export function QuestionBankFilterPanel({
   rightContent,
 }: FilterPanelProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const hasActiveFilters = hasActiveQuestionBankFilters(filters);
+  const isHighlighted = isOpen || hasActiveFilters;
   const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
 
   const updateFilter = <K extends keyof QuestionBankFilters>(
@@ -128,9 +130,12 @@ export function QuestionBankFilterPanel({
       {/* Top Bar */}
       <div className="flex flex-wrap gap-3 items-center">
         <Button
-          variant={isOpen ? "secondary" : "outline"}
+          variant="outline"
           onClick={() => setIsOpen(!isOpen)}
-          className="gap-2"
+          className={cn(
+            "gap-2 transition-colors",
+            isHighlighted && "border-[#B4E1FF] bg-[#B4E1FF] text-foreground hover:bg-[#9BD8FF] hover:border-[#9BD8FF] dark:border-[#2D5A87] dark:bg-[#1E3A5F] dark:text-foreground dark:hover:bg-[#24476F] dark:hover:border-[#356796]",
+          )}
         >
           <Filter className="h-4 w-4" />
           Filters

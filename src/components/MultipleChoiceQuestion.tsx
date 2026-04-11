@@ -19,6 +19,7 @@ interface MultipleChoiceQuestionProps {
   strikeoutMode?: boolean;
   checkedAnswers?: Record<string, boolean>;
   questionId: number | string;
+  subject?: "math" | "reading";
 }
 
 export const MultipleChoiceQuestion = ({ 
@@ -28,7 +29,8 @@ export const MultipleChoiceQuestion = ({
   onCheck,
   strikeoutMode = false,
   checkedAnswers = {},
-  questionId
+  questionId,
+  subject = "math",
 }: MultipleChoiceQuestionProps) => {
   const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
   const choiceRefs = useRef<{ [key: string]: HTMLSpanElement | null }>({});
@@ -45,11 +47,13 @@ export const MultipleChoiceQuestion = ({
       if (!choice.text) return;
       const element = choiceRefs.current[choice.id];
       if (element) {
-        const renderedHtml = renderMixedContent(choice.text);
+        const renderedHtml = renderMixedContent(choice.text, {
+          normalizeMath: subject === "math",
+        });
         element.innerHTML = `<span style="font-family: 'Noto Serif', serif; font-size: 1.1rem; line-height: 1.6; display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
       }
     });
-  }, [choices, questionId]);
+  }, [choices, questionId, subject]);
 
   const renderChoiceContent = (choice: Choice, dimmed = false) => {
     const hasText = Boolean(choice.text);

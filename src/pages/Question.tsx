@@ -12,7 +12,6 @@ import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { PreviousAttemptsDialog } from "@/components/PreviousAttemptsDialog";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info } from "lucide-react";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { toast } from "sonner";
 import {
   DropdownMenu,
@@ -39,6 +38,7 @@ import {
 import { getBankQuestion as getBankQuestionOfficial, bankCounts as officialBankCounts } from "@/data/officialQuestionBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/mathRendering";
+import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import "katex/dist/katex.min.css";
 
@@ -651,9 +651,40 @@ function Question() {
     setAttemptCount(0);
   }, [questionNumber]);
 
+  const emphasizeReadingHeaders = (content: string): string => {
+    const headerPatterns = [
+      /^text\s*\d+$/i,
+      /^while researching a topic, a student has taken the following notes:?$/i,
+      /^notes:?$/i,
+      /^the following text(?:s)?\b/i,
+      /^the student wants\b/i,
+      /^impact of .+$/i,
+    ];
+
+    return content
+      .split("\n")
+      .map((line) => {
+        const trimmed = line.trim();
+        if (!trimmed) return line;
+        const normalizedHeader = trimmed.replace(/^text\s*(\d+)$/i, "Text $1");
+        if (!headerPatterns.some((pattern) => pattern.test(trimmed) || pattern.test(normalizedHeader))) {
+          return line;
+        }
+
+        return line.replace(trimmed, `<strong>${normalizedHeader}</strong>`);
+      })
+      .join("\n");
+  };
+
   const renderContent = (content: string, center: boolean = false) => {
     if (!content) return null;
-    const html = renderMixedContent(content);
+    const formattedContent =
+      subject === "reading"
+        ? emphasizeReadingHeaders(normalizeReadingDisplayText(content))
+        : content;
+    const html = renderMixedContent(formattedContent, {
+      normalizeMath: subject === "math",
+    });
     return (
       <div 
         className={cn("text-foreground break-words prose prose-stone dark:prose-invert max-w-none", center && "text-center")}
@@ -1008,7 +1039,6 @@ function Question() {
                 </div>
               )}
               <div ref={topRightControlsRef} className="flex items-center gap-2">
-                <ThemeToggle />
                 <FormulaSheetDialog 
                   onSplitScreenChange={handleSplitScreenChange}
                   splitPosition={splitPosition}
@@ -1265,6 +1295,7 @@ function Question() {
                   strikeoutMode={strikeoutMode}
                   checkedAnswers={checkedAnswers}
                   questionId={is100Hard ? questionNumber : currentQuestion.uuid}
+                  subject={subject}
                 />
               ) : (
                 <div className="space-y-3">
