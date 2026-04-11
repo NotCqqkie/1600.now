@@ -19,7 +19,6 @@ import {
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
   Calculator,
@@ -80,6 +79,9 @@ const createEmptySelection = (): TopicSelectionState => {
     reading: { selected: false, domains: readingDomains },
   };
 };
+
+const topicCheckboxClass =
+  "h-5 w-5 rounded-md border-sky-300/70 bg-white/85 shadow-sm transition-all data-[state=checked]:border-sky-400 data-[state=checked]:bg-sky-300 data-[state=checked]:text-slate-900 hover:border-sky-400 hover:bg-sky-50 focus-visible:ring-sky-300/70 dark:border-sky-700/70 dark:bg-slate-900/80 dark:data-[state=checked]:border-sky-500 dark:data-[state=checked]:bg-sky-500 dark:data-[state=checked]:text-slate-950 dark:hover:border-sky-500 dark:hover:bg-slate-800";
 
 const BankIndex = () => {
   const navigate = useNavigate();
@@ -443,6 +445,7 @@ const BankIndex = () => {
         storageId: q.stableId,
         index: index + 1,
       }));
+      sessionStorage.removeItem('practiceExitTo');
       sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
       sessionStorage.setItem('practiceSetTotal', String(practiceSet.length));
       const first = practiceSet[0];
@@ -492,7 +495,7 @@ const BankIndex = () => {
   const renderBrowseView = () => (
     <div className="grid md:grid-cols-2 gap-6">
       {/* Math Section */}
-      <Card className="p-6">
+      <div className="p-6">
         <div className="flex items-center gap-3 mb-4">
           <div 
             className={`flex items-center gap-3 flex-1 ${isMultiSelect ? 'cursor-pointer' : ''}`}
@@ -507,6 +510,7 @@ const BankIndex = () => {
                 checked={topicSelection.math.selected}
                 onCheckedChange={(checked) => toggleSubject("math", !!checked)}
                 onClick={(e) => e.stopPropagation()}
+                className={topicCheckboxClass}
               />
             )}
             <div className="p-2 rounded-lg bg-primary/10">
@@ -541,15 +545,16 @@ const BankIndex = () => {
           </div>
         </div>
 
-        <div className="space-y-2">
+        <div className="space-y-3">
           {allMathDomains.map((domain) => (
-            <div key={domain} className="border rounded-lg p-3">
+            <div key={domain} className="px-1 py-1">
               <div className="flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors">
                 {isMultiSelect && (
                   <Checkbox
                     checked={topicSelection.math.domains[domain]?.selected || false}
                     onCheckedChange={(checked) => toggleDomain("math", domain, !!checked)}
                     onClick={(e) => e.stopPropagation()}
+                    className={topicCheckboxClass}
                   />
                 )}
                 <div className="flex items-center justify-between flex-1">
@@ -597,7 +602,7 @@ const BankIndex = () => {
                 </div>
               </div>
               {expandedDomains[domain] && (
-                <div className="mt-2 space-y-1 ml-6">
+                <div className="mt-2 ml-6 space-y-1">
                   {mathDomainSkills[domain].map((skill) => (
                     <div
                       key={skill}
@@ -615,6 +620,7 @@ const BankIndex = () => {
                           checked={topicSelection.math.domains[domain]?.skills[skill] || false}
                           onCheckedChange={(checked) => toggleSkill("math", domain, skill, !!checked)}
                           onClick={(e) => e.stopPropagation()}
+                          className={topicCheckboxClass}
                         />
                       )}
                       <span className="text-foreground truncate flex-1 mr-2">
@@ -643,10 +649,10 @@ const BankIndex = () => {
             </div>
           ))}
         </div>
-      </Card>
+      </div>
 
       {/* Reading Section */}
-      <Card className="p-6">
+      <div className="p-6">
         <div className="flex items-center gap-3 mb-4">
           <div 
             className={`flex items-center gap-3 flex-1 ${isMultiSelect ? 'cursor-pointer' : ''}`}
@@ -661,6 +667,7 @@ const BankIndex = () => {
                 checked={topicSelection.reading.selected}
                 onCheckedChange={(checked) => toggleSubject("reading", !!checked)}
                 onClick={(e) => e.stopPropagation()}
+                className={topicCheckboxClass}
               />
             )}
             <div className="p-2 rounded-lg bg-secondary/10">
@@ -695,15 +702,16 @@ const BankIndex = () => {
           </div>
         </div>
 
-        <div className="space-y-2">
+        <div className="space-y-3">
           {allEnglishDomains.map((domain) => (
-            <div key={domain} className="border rounded-lg p-3">
+            <div key={domain} className="px-1 py-1">
               <div className="flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors">
                 {isMultiSelect && (
                   <Checkbox
                     checked={topicSelection.reading.domains[domain]?.selected || false}
                     onCheckedChange={(checked) => toggleDomain("reading", domain, !!checked)}
                     onClick={(e) => e.stopPropagation()}
+                    className={topicCheckboxClass}
                   />
                 )}
                 <div className="flex items-center justify-between flex-1">
@@ -751,7 +759,7 @@ const BankIndex = () => {
                 </div>
               </div>
               {expandedDomains[domain] && (
-                <div className="mt-2 space-y-1 ml-6">
+                <div className="mt-2 ml-6 space-y-1">
                   {englishDomainSkills[domain].map((skill) => (
                     <div
                       key={skill}
@@ -769,6 +777,7 @@ const BankIndex = () => {
                           checked={topicSelection.reading.domains[domain]?.skills[skill] || false}
                           onCheckedChange={(checked) => toggleSkill("reading", domain, skill, !!checked)}
                           onClick={(e) => e.stopPropagation()}
+                          className={topicCheckboxClass}
                         />
                       )}
                       <span className="text-foreground truncate flex-1 mr-2">
@@ -797,7 +806,7 @@ const BankIndex = () => {
             </div>
           ))}
         </div>
-      </Card>
+      </div>
     </div>
   );
 

@@ -1,164 +1,188 @@
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { getAllBankQuestions, type BankQuestion } from "@/data/questionBank";
-import { parseTestName, type ModuleMetadata } from "@/data/modules";
+import {
+  buildModulePracticeSet,
+  getPracticeSets,
+  type PracticeModule,
+} from "@/data/modulePracticeBank";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { BookOpen, Calculator, Calendar, Filter, GraduationCap } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+} from "@/components/ui/card";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { ArrowRight } from "lucide-react";
+
+const practiceSets = getPracticeSets();
+
+const getModuleProgressCounts = (module: PracticeModule) => {
+  return module.questions.reduce(
+    (counts, entry) => {
+      const status = localStorage.getItem(`${entry.bankQuestion.stableId}-status`);
+      if (status === "correct-first") counts.correct += 1;
+      if (status === "incorrect") counts.incorrect += 1;
+      if (status === "correct-later") counts.correctAfterReview += 1;
+      return counts;
+    },
+    { correct: 0, incorrect: 0, correctAfterReview: 0 },
+  );
+};
 
 const Modules = () => {
   const navigate = useNavigate();
-  
-  // Combine all questions
-  const allQuestions = useMemo(() => {
-    return [...getAllBankQuestions("math"), ...getAllBankQuestions("reading")];
+  const [subjectFilter, setSubjectFilter] = useState<"all" | "reading" | "math">("all");
+  const [moduleFilter, setModuleFilter] = useState<"all" | "1" | "2">("all");
+
+  const filteredPracticeSets = useMemo(() => {
+    return practiceSets
+      .map((practiceSet) => ({
+        ...practiceSet,
+        modules: practiceSet.modules.filter((module) => {
+          if (subjectFilter !== "all" && module.subject !== subjectFilter) return false;
+          if (moduleFilter !== "all" && String(module.moduleNumber) !== moduleFilter) return false;
+          return true;
+        }),
+      }))
+      .filter((practiceSet) => practiceSet.modules.length > 0);
+  }, [moduleFilter, subjectFilter]);
+
+  const moduleProgressBySlug = useMemo(() => {
+    return new Map(
+      practiceSets.flatMap((practiceSet) =>
+        practiceSet.modules.map((module) => [module.slug, getModuleProgressCounts(module)] as const),
+      ),
+    );
   }, []);
 
-  // Group by Module
-  const modules = useMemo(() => {
-    const map = new Map<string, ModuleMetadata & { questionType: string }>();
-    
-    allQuestions.forEach(q => {
-      const parsed = parseTestName(q.testName || "");
-      if (parsed && parsed.id) {
-        if (!map.has(parsed.id)) {
-          map.set(parsed.id, { ...parsed, questionCount: 0, questionType: parsed.subject || "Math" } as any);
-        }
-        const meta = map.get(parsed.id)!;
-        meta.questionCount++;
-      }
-    });
-    
-    return Array.from(map.values()).sort((a, b) => {
-      // Sort by Year desc, then Month desc
-      if (a.year !== b.year) return b.year - a.year;
-      // Simple string sort for month might not be chronologically correct but okay for now
-      return (a.testName || "").localeCompare(b.testName || "");
-    });
-  }, [allQuestions]);
+  const openModule = (module: PracticeModule) => {
+    const practiceSet = buildModulePracticeSet(module.slug);
+    if (!practiceSet || practiceSet.length === 0) return;
 
-  // Filters
-  const [subjectFilter, setSubjectFilter] = useState<string>("all");
-  const [yearFilter, setYearFilter] = useState<string>("all");
-  const [moduleFilter, setModuleFilter] = useState<string>("all");
-
-  const availableYears = useMemo(() => Array.from(new Set(modules.map(m => m.year))).sort((a, b) => b - a), [modules]);
-
-  const filteredModules = useMemo(() => {
-    return modules.filter(m => {
-      if (subjectFilter !== "all" && m.subject !== (subjectFilter === "math" ? "Math" : "Reading & Writing")) return false;
-      if (yearFilter !== "all" && m.year.toString() !== yearFilter) return false;
-      if (moduleFilter !== "all") {
-        if (moduleFilter === "1" && m.moduleNumber !== 1) return false;
-        if (moduleFilter === "2" && m.moduleNumber !== 2) return false;
-        if (moduleFilter === "easy" && (m.moduleNumber !== 2 || m.difficulty !== "Easy")) return false; // Heuristic?
-        // Note: difficulty parsing for "easy/hard" might need checking logic in parseTestName
-      }
-      return true;
-    });
-  }, [modules, subjectFilter, yearFilter, moduleFilter]);
+    sessionStorage.setItem("practiceExitTo", "/modules");
+    sessionStorage.setItem("practiceSet", JSON.stringify(practiceSet));
+    const first = practiceSet[0];
+    navigate(`/bank/${first.subject}/${first.id}?bankType=past&practice=true&idx=0`);
+  };
 
   return (
-    <div className="container mx-auto py-8 px-4">
-      <div className="mb-8">
+    <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
+      <div className="max-w-3xl">
         <h1
           style={{
             fontFamily: "'Instrument Serif', Georgia, serif",
-            fontSize: "clamp(26px, 3.5vw, 36px)",
+            fontSize: "clamp(32px, 4vw, 48px)",
             fontWeight: 400,
-            letterSpacing: "-0.02em",
+            letterSpacing: "-0.03em",
+            lineHeight: 1,
             color: "hsl(var(--foreground))",
-            marginBottom: 6,
           }}
         >
-          Practice Modules
+          SAT Module Practice
         </h1>
-        <p className="text-sm text-muted-foreground">
-          Browse and practice full exam modules sorted by year and subject.
+        <p className="mt-3 text-sm leading-6 text-muted-foreground sm:text-base">
+          Practice full SAT modules grouped into complete reading and math sets.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8 p-4 bg-muted/30 rounded-lg border">
-        <div className="flex items-center gap-2 font-medium text-muted-foreground">
-          <Filter className="h-4 w-4" /> Filters:
-        </div>
-        
-        <Select value={subjectFilter} onValueChange={setSubjectFilter}>
-          <SelectTrigger>
-            <SelectValue placeholder="Subject" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="all">All Subjects</SelectItem>
-            <SelectItem value="math">Math</SelectItem>
-            <SelectItem value="reading">Reading & Writing</SelectItem>
-          </SelectContent>
-        </Select>
+      <Card className="border-border/70">
+        <CardContent className="p-6">
+          <div className="grid gap-3 sm:grid-cols-2">
+            <Select value={subjectFilter} onValueChange={(value) => setSubjectFilter(value as typeof subjectFilter)}>
+              <SelectTrigger>
+                <SelectValue placeholder="Subject" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All subjects</SelectItem>
+                <SelectItem value="reading">Reading &amp; Writing</SelectItem>
+                <SelectItem value="math">Math</SelectItem>
+              </SelectContent>
+            </Select>
 
-        <Select value={yearFilter} onValueChange={setYearFilter}>
-          <SelectTrigger>
-            <SelectValue placeholder="Year" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="all">All Years</SelectItem>
-            {availableYears.map(y => (
-              <SelectItem key={y} value={y.toString()}>{y}</SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+            <Select value={moduleFilter} onValueChange={(value) => setModuleFilter(value as typeof moduleFilter)}>
+              <SelectTrigger>
+                <SelectValue placeholder="Module" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All modules</SelectItem>
+                <SelectItem value="1">Module 1</SelectItem>
+                <SelectItem value="2">Module 2</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+        </CardContent>
+      </Card>
 
-        <Select value={moduleFilter} onValueChange={setModuleFilter}>
-          <SelectTrigger>
-            <SelectValue placeholder="Module Type" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="all">All Modules</SelectItem>
-            <SelectItem value="1">Module 1</SelectItem>
-            <SelectItem value="2">Module 2 (All)</SelectItem>
-          </SelectContent>
-        </Select>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredModules.map((m) => (
-          <Card key={m.id} className="hover:shadow-md transition-shadow cursor-pointer border-t-4 border-t-primary/50" onClick={() => navigate(`/modules/${m.id}`)}>
-            <CardHeader className="pb-2">
-              <div className="flex justify-between items-start">
-                <Badge variant={m.subject === "Math" ? "default" : "secondary"}>
-                  {m.subject === "Math" ? <Calculator className="w-3 h-3 mr-1" /> : <BookOpen className="w-3 h-3 mr-1" />}
-                  {m.subject}
-                </Badge>
-                <Badge variant="outline" className="font-mono">
-                  {m.year}
-                </Badge>
-              </div>
-              <CardTitle className="text-lg mt-2 leading-tight">
-                {m.month} {m.year} {m.form ? `Form ${m.form}` : ""}
-              </CardTitle>
+      <div className="flex flex-col gap-4">
+        {filteredPracticeSets.map((practiceSet) => (
+          <Card key={practiceSet.id} className="border-border/70 bg-background/90">
+            <CardHeader className="pb-3">
+              <div className="text-lg font-semibold">Practice Set {practiceSet.setNumber}</div>
             </CardHeader>
-            <CardContent>
-              <div className="flex items-center justify-between text-sm text-muted-foreground">
-                <span className="flex items-center gap-1">
-                  <GraduationCap className="h-4 w-4" />
-                  Module {m.moduleNumber}
-                </span>
-                <span>
-                  {m.questionCount} Questions
-                </span>
-              </div>
+            <CardContent className="flex flex-col gap-3">
+              {practiceSet.modules.map((module) => {
+                const progressCounts = moduleProgressBySlug.get(module.slug) ?? {
+                  correct: 0,
+                  incorrect: 0,
+                  correctAfterReview: 0,
+                };
+                const hasProgress =
+                  progressCounts.correct > 0 ||
+                  progressCounts.incorrect > 0 ||
+                  progressCounts.correctAfterReview > 0;
+
+                return (
+                  <div
+                    key={module.slug}
+                    className="px-1 py-2"
+                  >
+                    <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                      <div className="min-w-0">
+                        <div className="truncate text-base font-semibold">
+                          {module.publicTitle}
+                          {hasProgress && (
+                            <span className="ml-2 text-sm font-medium text-muted-foreground">
+                              <span className="text-emerald-600">{progressCounts.correct} correct</span>
+                              {" · "}
+                              <span className="text-rose-600">{progressCounts.incorrect} incorrect</span>
+                              {" · "}
+                              <span className="text-sky-600">{progressCounts.correctAfterReview} after review</span>
+                            </span>
+                          )}
+                        </div>
+                        <div className="text-sm text-muted-foreground">
+                          {module.subjectLabel} • Module {module.moduleNumber} • {module.questionCount} questions
+                        </div>
+                      </div>
+
+                      <Button
+                        className="group shrink-0 justify-between gap-2 sm:min-w-[180px]"
+                        onClick={() => openModule(module)}
+                      >
+                        Enter module
+                        <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+                      </Button>
+                    </div>
+                  </div>
+                );
+              })}
             </CardContent>
-            <CardFooter className="pt-0">
-               <Button className="w-full" variant="outline">Start Practice</Button>
-            </CardFooter>
           </Card>
         ))}
       </div>
-      
-      {filteredModules.length === 0 && (
-        <div className="text-center py-12 text-muted-foreground">
-          No modules found matching your filters.
-        </div>
+
+      {filteredPracticeSets.length === 0 && (
+        <Card className="border-dashed border-border/70">
+          <CardContent className="py-12 text-center text-sm text-muted-foreground">
+            No practice sets matched those filters.
+          </CardContent>
+        </Card>
       )}
     </div>
   );

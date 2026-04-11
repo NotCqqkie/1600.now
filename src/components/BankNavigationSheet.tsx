@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { type ReactNode, useMemo } from "react";
 import {
   QuestionNavigatorSheet,
   type QuestionNavigatorItem,
@@ -12,6 +12,7 @@ interface BankNavigationSheetProps {
   splitPosition?: number;
   items?: Array<{ id: number; storageId: string }>;
   storagePrefix?: string;
+  headerActions?: ReactNode;
 }
 
 const getQuestionStatus = (storageId: string): string => {
@@ -31,23 +32,33 @@ export const BankNavigationSheet = ({
   splitPosition = 50,
   items,
   storagePrefix,
+  headerActions,
 }: BankNavigationSheetProps) => {
   const navigatorItems = useMemo<QuestionNavigatorItem[]>(
-    () =>
-      Array.from({ length: totalQuestions }, (_, i) => i + 1).map((num) => {
-        const item = items?.[num - 1];
-        const fallbackStorageId = storagePrefix ? `${storagePrefix}-${num}` : undefined;
+    () => {
+      const sourceItems =
+        items && items.length > 0
+          ? items
+          : Array.from({ length: totalQuestions }, (_, i) => ({
+              id: i + 1,
+              storageId: storagePrefix ? `${storagePrefix}-${i + 1}` : "",
+            }));
+
+      return sourceItems.map((item, index) => {
+        const fallbackStorageId = storagePrefix ? `${storagePrefix}-${item.id}` : undefined;
         const storageId = item?.storageId || fallbackStorageId;
 
         return {
-          key: num,
-          label: num,
+          key: item.id,
+          label: item.id,
           status: storageId ? getQuestionStatus(storageId) : "unanswered",
           isFlagged: storageId ? isQuestionFlagged(storageId) : false,
-          isCurrent: num === currentQuestion,
-          onSelect: () => onJump(num),
+          isCurrent: item.id === currentQuestion,
+          onSelect: () => onJump(item.id),
+          title: `Question ${index + 1}`,
         };
-      }),
+      });
+    },
     [currentQuestion, items, onJump, storagePrefix, totalQuestions]
   );
 
@@ -59,6 +70,7 @@ export const BankNavigationSheet = ({
       items={navigatorItems}
       isSplitScreenActive={isSplitScreenActive}
       splitPosition={splitPosition}
+      headerActions={headerActions}
     />
   );
 };

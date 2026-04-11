@@ -22,7 +22,6 @@ import {
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -35,7 +34,11 @@ import {
   normalizeBankSource,
   type BankSourceFilter,
 } from "@/data/questionBank";
-import { getBankQuestion as getBankQuestionOfficial, bankCounts as officialBankCounts } from "@/data/officialQuestionBank";
+import {
+  getBankPool as getBankPoolOfficial,
+  getBankQuestion as getBankQuestionOfficial,
+  bankCounts as officialBankCounts,
+} from "@/data/officialQuestionBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
@@ -96,6 +99,56 @@ type PracticeSetItem = {
 type QuestionInfoField = {
   label: string;
   value: string;
+};
+
+type OrderedNavigationItem = {
+  id: number;
+  storageId: string;
+};
+
+const getStoredQuestionStatus = (storageId: string): string =>
+  localStorage.getItem(`${storageId}-status`) || "unanswered";
+
+const getGroupedQuestionOrderStorageKey = ({
+  is100Hard,
+  isOfficialBank,
+  subject,
+  bankSource,
+}: {
+  is100Hard: boolean;
+  isOfficialBank: boolean;
+  subject: "math" | "reading";
+  bankSource: BankSourceFilter;
+}) => {
+  if (is100Hard) return "question-order:hard";
+  if (isOfficialBank) return `question-order:official:${subject}`;
+  return `question-order:bank:${subject}:${bankSource}`;
+};
+
+const readStoredQuestionOrder = (storageKey: string): number[] | null => {
+  try {
+    const raw = sessionStorage.getItem(storageKey);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed.filter((value): value is number => typeof value === "number") : null;
+  } catch {
+    return null;
+  }
+};
+
+const reconcileQuestionOrder = (defaultOrder: number[], storedOrder: number[] | null): number[] => {
+  if (!storedOrder || storedOrder.length === 0) return defaultOrder;
+
+  const validIds = new Set(defaultOrder);
+  const seen = new Set<number>();
+  const ordered = storedOrder.filter((id) => {
+    if (!validIds.has(id) || seen.has(id)) return false;
+    seen.add(id);
+    return true;
+  });
+
+  if (ordered.length === 0) return defaultOrder;
+  return [...ordered, ...defaultOrder.filter((id) => !seen.has(id))];
 };
 
 const formatTimer = (totalSeconds: number) => {
@@ -231,6 +284,10 @@ function Question() {
       return [];
     }
   }, [isPracticeMode]);
+  const practiceExitTo = useMemo(
+    () => sessionStorage.getItem("practiceExitTo"),
+    [location.key],
+  );
 
   const questionNumber = parseInt(id || "1", 10);
   const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading";
@@ -289,6 +346,7 @@ function Question() {
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [isTimerPaused, setIsTimerPaused] = useState(false);
   const [isTimerVisible, setIsTimerVisible] = useState(true);
+  const [groupedOrderVersion, setGroupedOrderVersion] = useState(0);
   const bottomNavRef = useRef<HTMLDivElement>(null);
   const bottomNavGridRef = useRef<HTMLDivElement>(null);
   const bottomNavLeftRef = useRef<HTMLDivElement>(null);
@@ -328,41 +386,77 @@ function Question() {
       };
     }>;
 
-    const bankLabel = isOfficialBank ? "Official Question Bank" : questionWithMetadata.bankLabel || "Question Bank";
     const sourceSubject = questionWithMetadata.subject || subject;
     const subjectLabel = sourceSubject === "reading" ? "Reading and Writing" : "Math";
 
     const fields: QuestionInfoField[] = [
-      { label: "Bank", value: bankLabel },
-      { label: "Subject", value: subjectLabel },
+      { label: "Section", value: subjectLabel },
       { label: "Difficulty", value: questionWithMetadata.difficulty || "Unassigned" },
       { label: "Domain", value: questionWithMetadata.category?.domain || "Unassigned" },
       { label: "Skill", value: questionWithMetadata.category?.skill || "Unassigned" },
-      { label: "Source ID", value: questionWithMetadata.sourceId || "Unknown" },
     ];
 
     return {
       fields,
     };
-  }, [currentQuestion, is100Hard, isOfficialBank, subject]);
-  const bankNavigationItems = useMemo(() => {
-    if (!isBank) return [];
-    return getBankPoolNormal(subject, bankSource).map((question) => ({
-      id: question.id,
-      storageId: question.stableId,
-    }));
-  }, [isBank, subject, bankSource]);
+  }, [currentQuestion, is100Hard, subject]);
+  const baseNavigationItems = useMemo<OrderedNavigationItem[]>(() => {
+    if (is100Hard) {
+      return Array.from({ length: 100 }, (_, i) => ({
+        id: i + 1,
+        storageId: `question-${i + 1}`,
+      }));
+    }
+
+    if (isOfficialBank) {
+      return getBankPoolOfficial(subject).map((question) => ({
+        id: question.id,
+        storageId: `official-${subject}-${question.id}`,
+      }));
+    }
+
+    if (isBank) {
+      return getBankPoolNormal(subject, bankSource).map((question) => ({
+        id: question.id,
+        storageId: question.stableId,
+      }));
+    }
+
+    return [];
+  }, [bankSource, is100Hard, isBank, isOfficialBank, subject]);
+
+  const groupedOrderStorageKey = useMemo(
+    () =>
+      getGroupedQuestionOrderStorageKey({
+        is100Hard,
+        isOfficialBank,
+        subject,
+        bankSource,
+      }),
+    [bankSource, is100Hard, isOfficialBank, subject],
+  );
+
+  const orderedNavigationItems = useMemo<OrderedNavigationItem[]>(() => {
+    if (baseNavigationItems.length === 0) return [];
+
+    const defaultOrder = baseNavigationItems.map((item) => item.id);
+    const resolvedOrder = reconcileQuestionOrder(
+      defaultOrder,
+      readStoredQuestionOrder(groupedOrderStorageKey),
+    );
+    const itemMap = new Map(baseNavigationItems.map((item) => [item.id, item]));
+
+    return resolvedOrder
+      .map((id) => itemMap.get(id))
+      .filter((item): item is OrderedNavigationItem => Boolean(item));
+  }, [baseNavigationItems, groupedOrderStorageKey, groupedOrderVersion]);
 
   // Items for the 100 Hard Questions navigator — storageId matches the
   // localStateKey format "question-N" so BankNavigationSheet reads the
   // same localStorage keys as the rest of the hard question logic.
-  const hardNavigationItems = useMemo(
-    () =>
-      Array.from({ length: 100 }, (_, i) => ({
-        id: i + 1,
-        storageId: `question-${i + 1}`,
-      })),
-    [],
+  const orderedQuestionIds = useMemo(
+    () => orderedNavigationItems.map((item) => item.id),
+    [orderedNavigationItems],
   );
 
   useEffect(() => {
@@ -634,7 +728,7 @@ function Question() {
   }, [isSplitScreenActive]);
 
   if (!currentQuestion) {
-    const fallbackDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/";
+    const fallbackDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/bank";
     return <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">Question not found</h1>
@@ -652,39 +746,89 @@ function Question() {
   }, [questionNumber]);
 
   const emphasizeReadingHeaders = (content: string): string => {
-    const headerPatterns = [
+    const fullLineHeaderPatterns = [
       /^text\s*\d+$/i,
       /^while researching a topic, a student has taken the following notes:?$/i,
       /^notes:?$/i,
-      /^the following text(?:s)?\b/i,
-      /^the student wants\b/i,
       /^impact of .+$/i,
     ];
+
+    const partialLineHeaderPatterns = [
+      /^the following text(?:s)?\b/i,
+      /^the student wants\b/i,
+    ];
+
+    const findIntroBoundary = (line: string): number | null => {
+      const sentenceBoundaryMatch = line.match(/[.?!](?=\s+[A-Z["“'(<])/);
+      if (sentenceBoundaryMatch?.index !== undefined) {
+        return sentenceBoundaryMatch.index + sentenceBoundaryMatch[0].length;
+      }
+
+      const colonBoundaryMatch = line.match(/:(?=\s+[A-Z["“'(<])/);
+      if (colonBoundaryMatch?.index !== undefined) {
+        return colonBoundaryMatch.index + 1;
+      }
+
+      return null;
+    };
 
     return content
       .split("\n")
       .map((line) => {
         const trimmed = line.trim();
         if (!trimmed) return line;
+
         const normalizedHeader = trimmed.replace(/^text\s*(\d+)$/i, "Text $1");
-        if (!headerPatterns.some((pattern) => pattern.test(trimmed) || pattern.test(normalizedHeader))) {
+        if (fullLineHeaderPatterns.some((pattern) => pattern.test(trimmed) || pattern.test(normalizedHeader))) {
+          return line.replace(trimmed, `<strong>${normalizedHeader}</strong>`);
+        }
+
+        if (!partialLineHeaderPatterns.some((pattern) => pattern.test(trimmed))) {
           return line;
         }
 
-        return line.replace(trimmed, `<strong>${normalizedHeader}</strong>`);
+        const boundary = findIntroBoundary(trimmed);
+        if (!boundary) {
+          return line.replace(trimmed, `<strong>${trimmed}</strong>`);
+        }
+
+        const intro = trimmed.slice(0, boundary).trimEnd();
+        const remainder = trimmed.slice(boundary);
+        return line.replace(trimmed, `<strong>${intro}</strong>${remainder}`);
       })
       .join("\n");
   };
 
-  const renderContent = (content: string, center: boolean = false) => {
+  const promoteLeadingReadingHeader = (html: string): string => {
+    if (subject !== "reading" || !html) return html;
+
+    return html.replace(
+      /^\s*<strong>([\s\S]*?)<\/strong>(?:<br\s*\/?>\s*)?/i,
+      (_match, inner: string) =>
+        `<strong style="display:block;font-size:1.08em;line-height:1.45;margin-bottom:0.35em;">${inner.trim()}</strong>`,
+    );
+  };
+
+  const renderContent = (
+    content: string,
+    options: {
+      center?: boolean;
+      emphasizeHeaders?: boolean;
+    } = {},
+  ) => {
     if (!content) return null;
+    const { center = false, emphasizeHeaders = true } = options;
     const formattedContent =
       subject === "reading"
-        ? emphasizeReadingHeaders(normalizeReadingDisplayText(content))
+        ? emphasizeHeaders
+          ? emphasizeReadingHeaders(normalizeReadingDisplayText(content))
+          : normalizeReadingDisplayText(content)
         : content;
-    const html = renderMixedContent(formattedContent, {
-      normalizeMath: subject === "math",
-    });
+    const html = promoteLeadingReadingHeader(
+      renderMixedContent(formattedContent, {
+        normalizeMath: subject === "math",
+      }),
+    );
     return (
       <div 
         className={cn("text-foreground break-words prose prose-stone dark:prose-invert max-w-none", center && "text-center")}
@@ -708,17 +852,21 @@ function Question() {
     return 0;
   }, [is100Hard, effectivePracticeMode, practiceSet, isOfficialBank, subject, bankSource]);
 
+  const currentOrderedQuestionIndex = useMemo(
+    () => orderedQuestionIds.indexOf(questionNumber),
+    [orderedQuestionIds, questionNumber],
+  );
   const displayQuestionNumber = effectivePracticeMode ? currentPracticeIndex + 1 : questionNumber;
   const canGoPrevious = is100Hard
-    ? questionNumber > 1
+    ? currentOrderedQuestionIndex > 0
     : effectivePracticeMode
       ? currentPracticeIndex > 0
-      : questionNumber > 1;
+      : currentOrderedQuestionIndex > 0;
   const canGoNext = is100Hard
-    ? questionNumber < totalQuestions
+    ? currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1
     : effectivePracticeMode
       ? currentPracticeIndex < totalQuestions - 1
-      : questionNumber < totalQuestions;
+      : currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1;
 
   const navigateToPracticeIndex = (idx: number) => {
     if (!effectivePracticeMode || idx < 0 || idx >= practiceSet.length) return;
@@ -731,7 +879,8 @@ function Question() {
   const handlePrevious = () => {
     if (!canGoPrevious) return;
     if (is100Hard) {
-      navigate(`/hard/${questionNumber - 1}`);
+      const previousQuestionId = orderedQuestionIds[currentOrderedQuestionIndex - 1];
+      if (previousQuestionId) navigate(`/hard/${previousQuestionId}`);
       return;
     }
     if (effectivePracticeMode) {
@@ -739,13 +888,17 @@ function Question() {
       return;
     }
     const base = isOfficialBank ? '/official-bank' : '/bank';
-    navigate(`${base}/${subject}/${questionNumber - 1}${isBank ? bankQuerySuffix : ""}`);
+    const previousQuestionId = orderedQuestionIds[currentOrderedQuestionIndex - 1];
+    if (previousQuestionId) {
+      navigate(`${base}/${subject}/${previousQuestionId}${isBank ? bankQuerySuffix : ""}`);
+    }
   };
 
   const handleNext = () => {
     if (!canGoNext) return;
     if (is100Hard) {
-      navigate(`/hard/${questionNumber + 1}`);
+      const nextQuestionId = orderedQuestionIds[currentOrderedQuestionIndex + 1];
+      if (nextQuestionId) navigate(`/hard/${nextQuestionId}`);
       return;
     }
     if (effectivePracticeMode) {
@@ -753,7 +906,36 @@ function Question() {
       return;
     }
     const base = isOfficialBank ? '/official-bank' : '/bank';
-    navigate(`${base}/${subject}/${questionNumber + 1}${isBank ? bankQuerySuffix : ""}`);
+    const nextQuestionId = orderedQuestionIds[currentOrderedQuestionIndex + 1];
+    if (nextQuestionId) {
+      navigate(`${base}/${subject}/${nextQuestionId}${isBank ? bankQuerySuffix : ""}`);
+    }
+  };
+
+  const handleGroupAnswered = () => {
+    if (effectivePracticeMode || orderedNavigationItems.length === 0) return;
+
+    const answeredItems = orderedNavigationItems.filter(
+      (item) => getStoredQuestionStatus(item.storageId) !== "unanswered",
+    );
+    const unansweredItems = orderedNavigationItems.filter(
+      (item) => getStoredQuestionStatus(item.storageId) === "unanswered",
+    );
+    const nextOrder = [...answeredItems, ...unansweredItems].map((item) => item.id);
+
+    sessionStorage.setItem(groupedOrderStorageKey, JSON.stringify(nextOrder));
+    setGroupedOrderVersion((version) => version + 1);
+
+    const nextQuestionId = unansweredItems[0]?.id ?? answeredItems[0]?.id;
+    if (!nextQuestionId || nextQuestionId === questionNumber) return;
+
+    if (is100Hard) {
+      navigate(`/hard/${nextQuestionId}`);
+      return;
+    }
+
+    const base = isOfficialBank ? "/official-bank" : "/bank";
+    navigate(`${base}/${subject}/${nextQuestionId}${isBank ? bankQuerySuffix : ""}`);
   };
 
   const handleToggleReview = () => {
@@ -953,7 +1135,7 @@ function Question() {
     );
   };
   
-  const backDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/";
+  const backDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/bank";
   const timerControls = (
     <>
       <Button
@@ -986,21 +1168,25 @@ function Question() {
           <Info className="h-4 w-4" />
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-w-3xl max-h-[85vh] overflow-hidden">
-        <DialogHeader>
-          <DialogTitle>Question Info</DialogTitle>
-          <DialogDescription>
-            Difficulty, category, and source metadata for this question.
-          </DialogDescription>
+      <DialogContent className="max-h-[85vh] max-w-3xl overflow-hidden border-white/10 bg-[#101010] p-8 text-white shadow-2xl sm:rounded-[28px] [&>button]:right-5 [&>button]:top-5 [&>button]:h-12 [&>button]:w-12 [&>button]:rounded-2xl [&>button]:border [&>button]:border-white/30 [&>button]:bg-transparent [&>button]:text-white/80 [&>button]:opacity-100 [&>button]:ring-0 [&>button]:ring-offset-0 [&>button]:transition-colors [&>button]:hover:bg-white/10 [&>button]:hover:text-white [&>button_svg]:h-7 [&>button_svg]:w-7">
+        <DialogHeader className="space-y-0">
+          <DialogTitle className="text-[2.1rem] font-semibold tracking-[-0.03em] text-white">
+            Question Info
+          </DialogTitle>
         </DialogHeader>
-        <div className="space-y-4 overflow-y-auto pr-1 max-h-[70vh]">
-          <div className="grid gap-3 sm:grid-cols-2">
+        <div className="max-h-[70vh] overflow-y-auto pt-2">
+          <div className="grid gap-x-12 gap-y-10 sm:grid-cols-2">
             {questionInfo.fields.map((field) => (
-              <div key={field.label} className="rounded-lg border bg-muted/30 p-3">
-                <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+              <div
+                key={field.label}
+                className="min-w-0 space-y-2"
+              >
+                <p className="text-[0.95rem] font-medium tracking-[-0.01em] text-white/60">
                   {field.label}
                 </p>
-                <p className="mt-1 text-sm font-medium break-all">{field.value}</p>
+                <p className="break-words text-[1.55rem] font-medium leading-tight tracking-[-0.02em] text-white">
+                  {field.value}
+                </p>
               </div>
             ))}
           </div>
@@ -1154,8 +1340,8 @@ function Question() {
                 className="pr-4 overflow-y-auto space-y-4"
                 style={{ width: `${questionSplitPosition}%` }}
               >
-                {renderContent(stemContent)}
                 {renderQuestionImages()}
+                {renderContent(stemContent)}
               </div>
 
               <div 
@@ -1202,7 +1388,7 @@ function Question() {
 
                 {showQuestionTextAboveChoices && readingQuestionSentence && (
                   <div className="mb-6">
-                    {renderContent(readingQuestionSentence)}
+                    {renderContent(readingQuestionSentence, { emphasizeHeaders: false })}
                   </div>
                 )}
 
@@ -1272,7 +1458,7 @@ function Question() {
                       {renderQuestionImages()}
                       {renderContent(passageContent)}
                       {showQuestionTextAboveChoices && readingQuestionSentence && (
-                        <div className="mt-4">{renderContent(readingQuestionSentence)}</div>
+                        <div className="mt-4">{renderContent(readingQuestionSentence, { emphasizeHeaders: false })}</div>
                       )}
                     </>
                   ) : (
@@ -1349,9 +1535,14 @@ function Question() {
                     currentQuestion={questionNumber}
                     totalQuestions={100}
                     onJump={(qNum) => navigate(`/hard/${qNum}`)}
-                    items={hardNavigationItems}
+                    items={orderedNavigationItems}
                     isSplitScreenActive={isSplitScreenActive}
                     splitPosition={splitPosition}
+                    headerActions={(
+                      <Button variant="outline" size="sm" onClick={handleGroupAnswered}>
+                        Group Answered
+                      </Button>
+                    )}
                   />
               ) : effectivePracticeMode ? (
                  isOfficialBank ? (
@@ -1368,7 +1559,7 @@ function Question() {
                         currentIndex={currentPracticeIndex}
                         practiceSet={practiceSet}
                         onJump={(idx) => navigateToPracticeIndex(idx)}
-                        exitTo={`/bank?bankType=${bankSource}`}
+                        exitTo={practiceExitTo || `/bank?bankType=${bankSource}`}
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition} 
                      />
@@ -1381,9 +1572,14 @@ function Question() {
                        const base = isOfficialBank ? '/official-bank' : '/bank';
                        navigate(`${base}/${subject}/${qNum}${isBank ? bankQuerySuffix : ""}`);
                     }}
-                    items={bankNavigationItems}
+                    items={orderedNavigationItems}
                     isSplitScreenActive={isSplitScreenActive}
                     splitPosition={splitPosition}
+                    headerActions={(
+                      <Button variant="outline" size="sm" onClick={handleGroupAnswered}>
+                        Group Answered
+                      </Button>
+                    )}
                  />
               )}
             </div>
