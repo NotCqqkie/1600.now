@@ -47,6 +47,7 @@ export const PracticeNavigationSheet = ({
   const handleExitPractice = () => {
     sessionStorage.removeItem('practiceSet');
     sessionStorage.removeItem('practiceSetTotal');
+    sessionStorage.removeItem('practiceExitTo');
     navigate(exitTo);
   };
 

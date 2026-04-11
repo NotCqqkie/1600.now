@@ -123,6 +123,7 @@ const BankBrowse = () => {
         storageId: (q as BankQuestion).stableId,
         index: index + 1,
       }));
+      sessionStorage.removeItem('practiceExitTo');
       sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
       sessionStorage.setItem('practiceSetTotal', String(practiceSet.length));
       const first = practiceSet[0];

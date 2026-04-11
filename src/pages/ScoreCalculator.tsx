@@ -3,6 +3,7 @@ import { RotateCcw } from "lucide-react";
 
 import { Slider } from "@/components/ui/slider";
 import { satCalculatorYears } from "@/data/satCalculator";
+import { useThemeMode } from "@/hooks/useThemeMode";
 import { cn } from "@/lib/utils";
 
 const digitalSatSections = satCalculatorYears[0].sections;
@@ -24,8 +25,8 @@ const getScoreAccent = (score: number, maxScore: number) => {
 };
 
 const SCORE_TRANSITION = "color 0.24s ease, background 0.24s ease, box-shadow 0.24s ease";
-
 const ScoreCalculator = () => {
+  const isDarkMode = useThemeMode();
   const [rawScores, setRawScores] = useState<Record<string, number>>(() =>
     Object.fromEntries(
       digitalSatSections.map((section, secIdx) => [
@@ -106,8 +107,31 @@ const ScoreCalculator = () => {
     );
   };
 
+  const themeColors = useMemo(
+    () => ({
+      pageBg: isDarkMode ? "hsl(var(--background))" : "#ffffff",
+      surfaceBg: isDarkMode ? "rgba(15,23,42,0.8)" : "#ffffff",
+      textColor: isDarkMode ? "#f8fafc" : "#0f172a",
+      mutedText: isDarkMode ? "rgba(226,232,240,0.72)" : "#64748b",
+      borderColor: isDarkMode ? "rgba(148,163,184,0.16)" : "rgba(15,23,42,0.08)",
+      railColor: isDarkMode ? "rgba(71,85,105,0.72)" : "rgba(148,163,184,0.2)",
+      buttonBg: isDarkMode ? "#e2e8f0" : "#0f172a",
+      buttonText: isDarkMode ? "#0f172a" : "#ffffff",
+      thumbClass: isDarkMode
+        ? "[&_[role=slider]]:border-slate-900 [&_[role=slider]]:bg-slate-100"
+        : "[&_[role=slider]]:border-white [&_[role=slider]]:bg-white",
+      trackClass: isDarkMode
+        ? "[&_[data-orientation=horizontal]]:bg-slate-700"
+        : "[&_[data-orientation=horizontal]]:bg-slate-200",
+      stepperBg: isDarkMode ? "rgba(15,23,42,0.92)" : "#ffffff",
+      stepperShadow: isDarkMode ? "0 8px 18px rgba(2,6,23,0.32)" : "0 8px 18px rgba(15,23,42,0.08)",
+      summaryBorder: isDarkMode ? "1px solid rgba(148,163,184,0.14)" : "1px solid rgba(148,163,184,0.15)",
+    }),
+    [isDarkMode],
+  );
+
   return (
-    <div className="min-h-screen bg-background" style={{ fontFamily: "'Outfit', sans-serif" }}>
+    <div className="min-h-screen" style={{ fontFamily: "'Outfit', sans-serif", backgroundColor: themeColors.pageBg }}>
       <main style={{ maxWidth: 1100, margin: "0 auto", padding: "32px 24px 80px" }}>
         {/* Side-by-side: sliders left, score info right — both stretch to equal height */}
         <div style={{ display: "flex", gap: 28, alignItems: "stretch" }}>
@@ -120,6 +144,7 @@ const ScoreCalculator = () => {
               sectionOffset={0}
               rawScores={rawScores}
               onUpdate={updateScore}
+              themeColors={themeColors}
             />
 
             <SubjectPanel
@@ -129,6 +154,7 @@ const ScoreCalculator = () => {
               sectionOffset={2}
               rawScores={rawScores}
               onUpdate={updateScore}
+              themeColors={themeColors}
             />
           </div>
 
@@ -138,6 +164,7 @@ const ScoreCalculator = () => {
               scores={scores}
               modules={moduleProgress}
               onReset={resetScores}
+              themeColors={themeColors}
             />
           </div>
         </div>
@@ -153,6 +180,15 @@ interface SubjectPanelProps {
   sectionOffset: number;
   rawScores: Record<string, number>;
   onUpdate: (idx: number, val: number) => void;
+  themeColors: {
+    surfaceBg: string;
+    textColor: string;
+    borderColor: string;
+    thumbClass: string;
+    trackClass: string;
+    stepperBg: string;
+    stepperShadow: string;
+  };
 }
 
 interface ScoreSummaryCardProps {
@@ -171,6 +207,16 @@ interface ScoreSummaryCardProps {
     progress: number;
   }[];
   onReset: () => void;
+  themeColors: {
+    surfaceBg: string;
+    textColor: string;
+    mutedText: string;
+    borderColor: string;
+    railColor: string;
+    buttonBg: string;
+    buttonText: string;
+    summaryBorder: string;
+  };
 }
 
 const SubjectPanel = ({
@@ -180,6 +226,7 @@ const SubjectPanel = ({
   sectionOffset,
   rawScores,
   onUpdate,
+  themeColors,
 }: SubjectPanelProps) => {
   return (
     <div>
@@ -204,7 +251,7 @@ const SubjectPanel = ({
           style={{
             fontSize: 15,
             fontWeight: 600,
-            color: "hsl(var(--foreground))",
+            color: themeColors.textColor,
             margin: 0,
           }}
         >
@@ -221,8 +268,8 @@ const SubjectPanel = ({
             <div
               key={section.title}
               style={{
-                background: "hsl(var(--card))",
-                border: "1px solid hsl(var(--border))",
+                background: themeColors.surfaceBg,
+                border: `1px solid ${themeColors.borderColor}`,
                 borderRadius: 18,
                 padding: "20px",
                 boxShadow: "0 12px 30px rgba(15,23,42,0.04)",
@@ -241,7 +288,7 @@ const SubjectPanel = ({
                   style={{
                     fontSize: 13,
                     fontWeight: 600,
-                    color: "hsl(var(--foreground))",
+                    color: themeColors.textColor,
                     margin: 0,
                   }}
                 >
@@ -252,7 +299,7 @@ const SubjectPanel = ({
                     fontFamily: "'Space Mono', monospace",
                     fontSize: 20,
                     fontWeight: 700,
-                    color: "hsl(var(--foreground))",
+                    color: themeColors.textColor,
                     flexShrink: 0,
                   }}
                 >
@@ -269,7 +316,7 @@ const SubjectPanel = ({
               >
                 <button
                   type="button"
-                  style={stepperBtn}
+                  style={getStepperBtn(themeColors)}
                   onClick={() => onUpdate(globalIdx, Math.max(0, value - 1))}
                   aria-label={`Decrease ${section.title}`}
                 >
@@ -285,16 +332,18 @@ const SubjectPanel = ({
                     onValueChange={([next]) => onUpdate(globalIdx, next)}
                     className={cn(
                       "py-4",
-                      "[&_[role=slider]]:h-9 [&_[role=slider]]:w-9 [&_[role=slider]]:border-[4px] [&_[role=slider]]:bg-background",
+                      "[&_[role=slider]]:h-9 [&_[role=slider]]:w-9 [&_[role=slider]]:border-[4px]",
+                      themeColors.thumbClass,
                       "[&_[role=slider]]:shadow-[0_14px_30px_rgba(15,23,42,0.18)] [&_[role=slider]]:hover:scale-110",
-                      "[&_[data-orientation=horizontal]]:h-4 [&_[data-orientation=horizontal]]:border-0 [&_[data-orientation=horizontal]]:bg-muted/70",
+                      "[&_[data-orientation=horizontal]]:h-4 [&_[data-orientation=horizontal]]:border-0",
+                      themeColors.trackClass,
                     )}
                   />
                 </div>
 
                 <button
                   type="button"
-                  style={stepperBtn}
+                  style={getStepperBtn(themeColors)}
                   onClick={() =>
                     onUpdate(globalIdx, Math.min(section.maxRaw, value + 1))
                   }
@@ -315,6 +364,7 @@ const ScoreSummaryCard = ({
   scores,
   modules,
   onReset,
+  themeColors,
 }: ScoreSummaryCardProps) => {
   const totalProgress = (scores.total / 1600) * 100;
   const ringBackground = `conic-gradient(${scores.totalColor} 0deg, ${scores.totalColor} ${totalProgress * 3.6}deg, rgba(148,163,184,0.18) ${totalProgress * 3.6}deg, rgba(148,163,184,0.18) 360deg)`;
@@ -322,9 +372,8 @@ const ScoreSummaryCard = ({
   return (
     <div
       style={{
-        background:
-          "linear-gradient(180deg, hsl(var(--card)) 0%, color-mix(in srgb, hsl(var(--card)) 88%, white 12%) 100%)",
-        border: "1px solid hsl(var(--border))",
+        background: themeColors.surfaceBg,
+        border: `1px solid ${themeColors.borderColor}`,
         borderRadius: 24,
         padding: "24px 20px",
         boxShadow: "0 18px 50px rgba(15,23,42,0.08)",
@@ -351,12 +400,11 @@ const ScoreSummaryCard = ({
               width: "100%",
               height: "100%",
               borderRadius: "50%",
-              background:
-                "radial-gradient(circle at top, rgba(255,255,255,0.1), rgba(255,255,255,0.02) 58%, rgba(255,255,255,0)), hsl(var(--card))",
+              background: themeColors.surfaceBg,
               display: "grid",
               placeItems: "center",
               textAlign: "center",
-              border: "1px solid rgba(148,163,184,0.15)",
+              border: themeColors.summaryBorder,
             }}
           >
             <div>
@@ -379,7 +427,7 @@ const ScoreSummaryCard = ({
               <div
                 style={{
                   fontSize: 10,
-                  color: "hsl(var(--muted-foreground))",
+                  color: themeColors.mutedText,
                   textTransform: "uppercase",
                   letterSpacing: "0.12em",
                   fontWeight: 700,
@@ -411,11 +459,11 @@ const ScoreSummaryCard = ({
               gap: 12,
               padding: "12px 14px",
               borderRadius: 14,
-              background: "hsl(var(--muted)/0.35)",
-              border: "1px solid hsl(var(--border))",
+              background: themeColors.surfaceBg,
+              border: `1px solid ${themeColors.borderColor}`,
             }}
           >
-            <span style={{ fontSize: 13, fontWeight: 600, color: "hsl(var(--foreground))" }}>
+            <span style={{ fontSize: 13, fontWeight: 600, color: themeColors.textColor }}>
               {item.label}
             </span>
             <span
@@ -447,14 +495,14 @@ const ScoreSummaryCard = ({
                 gap: 8,
               }}
             >
-              <span style={{ fontSize: 12, color: "hsl(var(--muted-foreground))", fontWeight: 600 }}>
+              <span style={{ fontSize: 12, color: themeColors.mutedText, fontWeight: 600 }}>
                 {module.title}
               </span>
               <span
                 style={{
                   fontFamily: "'Space Mono', monospace",
                   fontSize: 11,
-                  color: "hsl(var(--foreground))",
+                  color: themeColors.textColor,
                   fontWeight: 700,
                   flexShrink: 0,
                 }}
@@ -466,7 +514,7 @@ const ScoreSummaryCard = ({
               style={{
                 height: 8,
                 borderRadius: 999,
-                background: "hsl(var(--muted))",
+                background: themeColors.railColor,
                 overflow: "hidden",
               }}
             >
@@ -496,9 +544,9 @@ const ScoreSummaryCard = ({
           gap: 8,
           padding: "11px 18px",
           borderRadius: 999,
-          background: "hsl(var(--foreground))",
+          background: themeColors.buttonBg,
           border: "none",
-          color: "hsl(var(--background))",
+          color: themeColors.buttonText,
           fontSize: 13,
           fontWeight: 700,
           cursor: "pointer",
@@ -521,13 +569,18 @@ const ScoreSummaryCard = ({
   );
 };
 
-const stepperBtn: CSSProperties = {
+const getStepperBtn = (themeColors: {
+  borderColor: string;
+  stepperBg: string;
+  textColor: string;
+  stepperShadow: string;
+}): CSSProperties => ({
   width: 40,
   height: 40,
   borderRadius: "50%",
-  border: "1.5px solid hsl(var(--border))",
-  background: "hsl(var(--background))",
-  color: "hsl(var(--foreground))",
+  border: `1.5px solid ${themeColors.borderColor}`,
+  background: themeColors.stepperBg,
+  color: themeColors.textColor,
   fontSize: 20,
   fontWeight: 400,
   cursor: "pointer",
@@ -537,7 +590,7 @@ const stepperBtn: CSSProperties = {
   flexShrink: 0,
   lineHeight: 1,
   transition: "background 0.15s, border-color 0.15s, transform 0.15s ease",
-  boxShadow: "0 8px 18px rgba(15,23,42,0.08)",
-};
+  boxShadow: themeColors.stepperShadow,
+});
 
 export default ScoreCalculator;
