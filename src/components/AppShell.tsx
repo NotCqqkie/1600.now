@@ -1,4 +1,4 @@
-import { type ReactNode, useEffect, useMemo, useState } from "react";
+import { type ReactNode, useMemo, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import {
   BarChart3,
@@ -12,15 +12,27 @@ import {
   LogOut,
   Settings,
   SpellCheck,
+  SunMoon,
   Target,
   UserPlus,
 } from "lucide-react";
 
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { BrandLogo } from "@/components/BrandLogo";
 import { Button } from "@/components/ui/button";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/contexts/AuthContext";
+import { useThemeMode } from "@/hooks/useThemeMode";
+import { applyTheme } from "@/lib/theme";
 
 const COLLAPSED_DESKTOP_WIDTH_CLASS = "lg:w-[4.5rem]";
 const COLLAPSED_DESKTOP_PADDING_CLASS = "lg:pl-[4.5rem]";
@@ -80,27 +92,63 @@ const SidebarLink = ({
   );
 };
 
+const FooterActionButton = ({
+  label,
+  icon: Icon,
+  expanded,
+  onClick,
+  variant = "ghost",
+  className,
+  title,
+}: {
+  label: string;
+  icon: typeof Home;
+  expanded: boolean;
+  onClick: () => void;
+  variant?: "ghost" | "outline";
+  className?: string;
+  title?: string;
+}) => {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-label={label}
+      title={title ?? label}
+      className={cn(
+        "flex h-9 items-center overflow-hidden rounded-lg text-[13px] font-medium transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
+        expanded ? "w-full pr-2" : "w-9 pr-0",
+        variant === "outline"
+          ? "border border-border/70 text-muted-foreground hover:bg-muted hover:text-foreground"
+          : "text-muted-foreground hover:bg-muted hover:text-foreground",
+        className,
+      )}
+    >
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center">
+        <Icon className="h-4 w-4 shrink-0" />
+      </span>
+      <span
+        className={cn(
+          "min-w-0 overflow-hidden whitespace-nowrap transition-[max-width,opacity,transform,margin] duration-200 ease-out",
+          expanded ? "ml-0.5 max-w-[10rem] opacity-100 translate-x-0" : "ml-0 max-w-0 opacity-0 -translate-x-1",
+        )}
+      >
+        {label}
+      </span>
+    </button>
+  );
+};
+
 export const AppShell = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
+  const isDark = useThemeMode();
   const [isSidebarHidden, setIsSidebarHidden] = useState(false);
-  const [showExpandedFooter, setShowExpandedFooter] = useState(false);
+  const [isLogoutDialogOpen, setIsLogoutDialogOpen] = useState(false);
   const isDesktopCollapsed = isSidebarHidden;
   const showExpandedContent = !isDesktopCollapsed;
-
-  useEffect(() => {
-    if (isDesktopCollapsed) {
-      setShowExpandedFooter(false);
-      return;
-    }
-
-    const timeoutId = window.setTimeout(() => {
-      setShowExpandedFooter(true);
-    }, 150);
-
-    return () => window.clearTimeout(timeoutId);
-  }, [isDesktopCollapsed]);
+  const footerSlotHeightClass = user ? "h-[4.875rem]" : "h-[7.5rem]";
 
   const activePrimary = useMemo(
     () => primaryItems.find((item) => item.match(location.pathname))?.label,
@@ -113,8 +161,13 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
   );
 
   const handleSignOut = async () => {
+    setIsLogoutDialogOpen(false);
     await signOut();
     navigate("/");
+  };
+
+  const handleThemeToggle = () => {
+    applyTheme(!isDark);
   };
 
   return (
@@ -159,7 +212,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
           <BrandLogo
             variant={showExpandedContent ? "full" : "mark"}
             className={showExpandedContent ? "h-9 w-[148px]" : "h-9 w-9"}
-            imageClassName={showExpandedContent ? "origin-left scale-[1.26] object-left -translate-x-[3px]" : undefined}
+            imageClassName={showExpandedContent ? "origin-left scale-[1.30] object-left -translate-x-[5px]" : undefined}
           />
         </div>
 
@@ -202,81 +255,66 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
           </div>
         </div>
 
-        <div className="space-y-2 border-t border-border/70 pt-2.5">
-          {showExpandedFooter ? (
-            <>
-              <div className="flex items-center justify-between gap-2 rounded-lg border border-border/70 bg-background/70 px-2.5 py-2">
-                <div>
-                  <p className="text-[13px] font-medium leading-none">Theme</p>
-                  <p className="mt-1 text-[11px] leading-none text-muted-foreground">Light or dark mode</p>
-                </div>
-                <ThemeToggle />
-              </div>
+        <div className="border-t border-border/70 pt-2.5">
+          <div className={cn("overflow-hidden", footerSlotHeightClass)}>
+            <div className="space-y-1.5">
+              <FooterActionButton
+                label="Theme"
+                icon={SunMoon}
+                expanded={showExpandedContent}
+                onClick={handleThemeToggle}
+                variant="outline"
+                title={isDark ? "Switch to light mode" : "Switch to dark mode"}
+              />
 
               {user ? (
-                <div className="space-y-1.5 rounded-lg border border-border/70 bg-background/70 p-2.5">
-                  <div className="text-xs text-muted-foreground truncate">{user.email}</div>
-                  <Button type="button" variant="outline" className="h-8 w-full justify-start gap-2 text-red-600 hover:text-red-700" onClick={handleSignOut}>
-                    <LogOut className="h-4 w-4" />
-                    Log out
-                  </Button>
-                </div>
-              ) : (
-                <div className="space-y-1.5 rounded-lg border border-border/70 bg-background/70 p-2.5">
-                  <Button type="button" variant="outline" className="h-8 w-full justify-start gap-2" onClick={() => navigate("/login")}>
-                    <LogIn className="h-4 w-4" />
-                    Log In
-                  </Button>
-                  <Button type="button" className="h-8 w-full justify-start gap-2" onClick={() => navigate("/signup")}>
-                    <UserPlus className="h-4 w-4" />
-                    Sign Up
-                  </Button>
-                </div>
-              )}
-            </>
-          ) : (
-            <div className="flex flex-col items-start gap-1.5">
-              <ThemeToggle compact />
-
-              {user ? (
-                <Button
-                  type="button"
+                <FooterActionButton
+                  label="Log out"
+                  icon={LogOut}
+                  expanded={showExpandedContent}
+                  onClick={() => setIsLogoutDialogOpen(true)}
                   variant="outline"
-                  size="icon"
                   className="text-red-600 hover:text-red-700"
-                  onClick={handleSignOut}
-                  aria-label="Log out"
                   title={user.email ? `Log out (${user.email})` : "Log out"}
-                >
-                  <LogOut className="h-4 w-4" />
-                </Button>
+                />
               ) : (
                 <>
-                  <Button
-                    type="button"
-                    variant="outline"
-                    size="icon"
+                  <FooterActionButton
+                    label="Log In"
+                    icon={LogIn}
+                    expanded={showExpandedContent}
                     onClick={() => navigate("/login")}
-                    aria-label="Log In"
-                    title="Log In"
-                  >
-                    <LogIn className="h-4 w-4" />
-                  </Button>
-                  <Button
-                    type="button"
-                    size="icon"
+                    variant="outline"
+                    className="text-foreground hover:text-foreground"
+                  />
+                  <FooterActionButton
+                    label="Sign Up"
+                    icon={UserPlus}
+                    expanded={showExpandedContent}
                     onClick={() => navigate("/signup")}
-                    aria-label="Sign Up"
-                    title="Sign Up"
-                  >
-                    <UserPlus className="h-4 w-4" />
-                  </Button>
+                    className="bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 hover:text-primary-foreground"
+                  />
                 </>
               )}
             </div>
-          )}
+          </div>
         </div>
       </aside>
+
+      <AlertDialog open={isLogoutDialogOpen} onOpenChange={setIsLogoutDialogOpen}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Log out?</AlertDialogTitle>
+            <AlertDialogDescription>
+              Are you sure you want to log out?
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction onClick={handleSignOut}>Log out</AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
 
       <Button
         type="button"

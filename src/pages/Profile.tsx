@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
-import { AlertCircle, LogOut, Palette, Settings } from "lucide-react";
+import { AlertCircle, LogOut, Settings } from "lucide-react";
 
 import { useAuth } from "@/contexts/AuthContext";
+import { useThemeMode } from "@/hooks/useThemeMode";
 import { useUserProgress } from "@/hooks/useUserProgress";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -22,6 +22,9 @@ const Profile = () => {
   const { user, signOut } = useAuth();
   const { resetProgress } = useUserProgress();
   const navigate = useNavigate();
+  const isDarkMode = useThemeMode();
+  const headingColor = isDarkMode ? "#f8fafc" : "#0f172a";
+  const mutedColor = isDarkMode ? "rgba(226,232,240,0.72)" : "#64748b";
 
   const handleSignOut = async () => {
     try {
@@ -33,7 +36,10 @@ const Profile = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background p-6">
+    <div
+      className="min-h-screen p-6"
+      style={{ backgroundColor: isDarkMode ? "hsl(var(--background))" : "#ffffff" }}
+    >
       <div className="mx-auto max-w-4xl space-y-6">
         <div className="flex items-center justify-between gap-4">
           <h1
@@ -42,7 +48,7 @@ const Profile = () => {
               fontSize: "clamp(24px, 3vw, 32px)",
               fontWeight: 400,
               letterSpacing: "-0.02em",
-              color: "hsl(var(--foreground))",
+              color: headingColor,
               margin: 0,
             }}
           >
@@ -51,7 +57,7 @@ const Profile = () => {
 
           <div className="flex items-center gap-3">
             {user?.email && (
-              <span className="hidden sm:block text-sm text-muted-foreground">{user.email}</span>
+              <span className="hidden text-sm sm:block" style={{ color: mutedColor }}>{user.email}</span>
             )}
             <Button
               variant="outline"
@@ -65,12 +71,11 @@ const Profile = () => {
           </div>
         </div>
 
-        <div className="rounded-xl border bg-card p-6 shadow-sm">
-          <SettingsView
-            user={user}
-            handleResetProgress={resetProgress}
-          />
-        </div>
+        <SettingsView
+          user={user}
+          handleResetProgress={resetProgress}
+          isDarkMode={isDarkMode}
+        />
       </div>
     </div>
   );
@@ -79,69 +84,64 @@ const Profile = () => {
 const SettingsView = ({
   user,
   handleResetProgress,
+  isDarkMode,
 }: {
   user: { email?: string | null; id?: string | null } | null;
   handleResetProgress: () => void;
+  isDarkMode: boolean;
 }) => {
+  const headingColor = isDarkMode ? "#f8fafc" : "#0f172a";
+  const mutedColor = isDarkMode ? "rgba(226,232,240,0.72)" : "#64748b";
+  const cardStyle = {
+    backgroundColor: isDarkMode ? "rgba(15,23,42,0.84)" : "#ffffff",
+    borderColor: isDarkMode ? "rgba(148,163,184,0.16)" : "rgba(15, 23, 42, 0.08)",
+  };
+
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       <div className="mb-6">
-        <h2 className="flex items-center gap-2 text-2xl font-bold">
+        <h2 className="flex items-center gap-2 text-2xl font-bold" style={{ color: headingColor }}>
           <Settings className="h-6 w-6" />
           Account Settings
         </h2>
-        <p className="text-muted-foreground">Manage your account information and app preferences.</p>
+        <p style={{ color: mutedColor }}>Manage your account information and app preferences.</p>
       </div>
 
-      <Card>
+      <Card style={cardStyle}>
         <CardHeader>
-          <CardTitle>Account Details</CardTitle>
-          <CardDescription>Your personal information</CardDescription>
+          <CardTitle style={{ color: headingColor }}>Account Details</CardTitle>
+          <CardDescription style={{ color: mutedColor }}>Your personal information</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div>
-            <label className="text-sm font-medium text-muted-foreground">Email</label>
-            <div className="text-lg">{user?.email || "Not logged in"}</div>
+            <label className="text-sm font-medium" style={{ color: mutedColor }}>Email</label>
+            <div className="text-lg" style={{ color: headingColor }}>{user?.email || "Not logged in"}</div>
           </div>
           <div>
-            <label className="text-sm font-medium text-muted-foreground">User ID</label>
-            <div className="break-all font-mono text-xs text-muted-foreground">{user?.id || "-"}</div>
+            <label className="text-sm font-medium" style={{ color: mutedColor }}>User ID</label>
+            <div className="break-all font-mono text-xs" style={{ color: mutedColor }}>{user?.id || "-"}</div>
           </div>
         </CardContent>
       </Card>
 
-      <Card>
-        <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Palette className="h-5 w-5" />
-            Appearance
-          </CardTitle>
-          <CardDescription>Customize your interface experience</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="flex items-center justify-between">
-            <div>
-              <div className="font-medium">Theme Mode</div>
-              <div className="text-sm text-muted-foreground">Toggle between light and dark visual themes.</div>
-            </div>
-            <ThemeToggle />
-          </div>
-        </CardContent>
-      </Card>
-
-      <Card className="border-red-200 bg-red-50/10 dark:border-red-900/50">
+      <Card
+        style={{
+          backgroundColor: isDarkMode ? "rgba(15,23,42,0.84)" : "#ffffff",
+          borderColor: isDarkMode ? "rgba(248,113,113,0.28)" : "rgba(248, 113, 113, 0.38)",
+        }}
+      >
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-red-600 dark:text-red-400">
             <AlertCircle className="h-5 w-5" />
             Danger Zone
           </CardTitle>
-          <CardDescription>Actions that cannot be undone</CardDescription>
+          <CardDescription style={{ color: mutedColor }}>Actions that cannot be undone</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="flex items-center justify-between gap-4">
             <div>
-              <div className="font-medium">Reset All Progress</div>
-              <div className="text-sm text-muted-foreground">Clears all question history, attempts, and time tracking.</div>
+              <div className="font-medium" style={{ color: headingColor }}>Reset All Progress</div>
+              <div className="text-sm" style={{ color: mutedColor }}>Clears all question history, attempts, and time tracking.</div>
             </div>
             <AlertDialog>
               <AlertDialogTrigger asChild>

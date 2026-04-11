@@ -692,25 +692,6 @@ const Home = () => {
             textAlign: "center",
           }}
         >
-          {/* Badge */}
-          <div className="h-fade-1" style={{ marginBottom: 24 }}>
-            <span
-              style={{
-                display: "inline-block",
-                padding: "5px 14px",
-                borderRadius: 100,
-                background: isDarkMode ? "rgba(125,211,252,0.1)" : "rgba(56,189,248,0.1)",
-                border: isDarkMode ? "1px solid rgba(125,211,252,0.2)" : "1px solid rgba(56,189,248,0.25)",
-                fontSize: 12,
-                color: isDarkMode ? "hsl(201,100%,78%)" : "hsl(201,100%,40%)",
-                fontWeight: 500,
-                letterSpacing: "0.03em",
-              }}
-            >
-              Free · No registration required
-            </span>
-          </div>
-
           {/* Headline */}
           <h1
             className="h-fade-2"
@@ -751,7 +732,7 @@ const Home = () => {
           >
             Accurate SAT practice built from real past tests.
             <br />
-            No fluff. No paywalls.
+            No paywalls.
           </p>
 
           {/* CTAs */}
