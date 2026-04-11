@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { BrandLogo } from "@/components/BrandLogo";
 import {
   ArrowRight,
@@ -25,6 +24,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
+import { useThemeMode } from "@/hooks/useThemeMode";
 
 const DEFAULT_QUESTION_BANK_TOTAL = 5880;
 
@@ -463,10 +463,7 @@ const Home = () => {
   const { user, signOut } = useAuth();
   const [questionBankTotal, setQuestionBankTotal] = useState(DEFAULT_QUESTION_BANK_TOTAL);
   const [countValue, setCountValue] = useState(0);
-  const [isDarkMode, setIsDarkMode] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return document.documentElement.classList.contains("dark");
-  });
+  const isDarkMode = useThemeMode();
   const totalQuestions = questionBankTotal + 100;
 
   // Font + animation injection
@@ -531,19 +528,6 @@ const Home = () => {
     };
   }, []);
 
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-
-    const root = document.documentElement;
-    const syncTheme = () => setIsDarkMode(root.classList.contains("dark"));
-    syncTheme();
-
-    const observer = new MutationObserver(syncTheme);
-    observer.observe(root, { attributes: true, attributeFilter: ["class"] });
-
-    return () => observer.disconnect();
-  }, []);
-
   // Count-up animation
   useEffect(() => {
     let frame = 0;
@@ -566,8 +550,8 @@ const Home = () => {
       style={{ fontFamily: "'Outfit', sans-serif" }}
     >
       <header className="sticky top-0 z-20 border-b border-border bg-card/95 backdrop-blur">
-        <div className="container mx-auto flex h-16 items-center justify-between gap-3 px-4">
-          <BrandLogo variant="mark" className="h-10 w-10" />
+        <div className="container mx-auto flex h-16 items-center justify-between gap-3 px-3 sm:px-4">
+          <BrandLogo variant="mark" className="h-9 w-9" />
 
           <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 text-sm text-muted-foreground md:flex">
             <Link
@@ -591,7 +575,6 @@ const Home = () => {
           </nav>
 
           <div className="inline-flex flex-shrink-0 items-center gap-2">
-            <ThemeToggle />
             {user ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>

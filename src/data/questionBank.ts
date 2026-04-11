@@ -3,6 +3,7 @@ import { questions as unofficialQuestionsData } from "./unofficialQuestions";
 import { resolveSatChoiceImage, resolveSatQuestionImages } from "./satQuestionImages";
 import { unofficialCompositePrimaryImageIndex } from "./unofficialCompositeImageSelection";
 import { normalizeTextForMathRendering } from "@/lib/mathTextNormalization";
+import { normalizeReadingText } from "@/lib/readingTextNormalization";
 import {
   classifyQuestion,
   inferSubjectFromSource,
@@ -109,16 +110,56 @@ const normalizeDifficulty = (value: string | null | undefined): "Easy" | "Medium
   return null;
 };
 
-const sanitizeCurrency = (text: string | null | undefined): string => {
+const sanitizeMathText = (text: string | null | undefined): string => {
   return normalizeTextForMathRendering(text);
 };
 
+const sanitizeReadingText = (text: string | null | undefined): string => {
+  return normalizeReadingText(text);
+};
+
 const CORRECT_ANSWER_MARKER_REGEX = /(?:Choice [A-D] is correct\.|The correct answer is\b)/g;
+const CHOICE_CORRECT_ANSWER_REGEX = /Choice ([A-D]) is correct\./g;
 
 const trimCompositeMathStem = (text: string): string => {
   const firstQuestionMark = text.indexOf("?");
   if (firstQuestionMark === -1) return text.trim();
   return text.slice(0, firstQuestionMark + 1).trim();
+};
+
+const trimContaminatedMathStem = (text: string): string => {
+  const lines = text
+    .split("\n")
+    .map((line) => line.trimEnd())
+    .filter((line) => line.trim().length > 0);
+  const questionLineIndexes = lines.reduce<number[]>((indexes, line, index) => {
+    if (line.includes("?")) indexes.push(index);
+    return indexes;
+  }, []);
+
+  if (questionLineIndexes.length < 2) {
+    return text.trim();
+  }
+
+  const previousQuestionIndex = questionLineIndexes[questionLineIndexes.length - 2];
+  const lastQuestionIndex = questionLineIndexes[questionLineIndexes.length - 1];
+  const actualQuestionLine = lines[lastQuestionIndex] ?? "";
+  const actualSuffix = lines.slice(previousQuestionIndex + 1);
+
+  const shouldPreserveLeadingSetup =
+    /\b(?:equation|graph|table|figure)\s+above\b/i.test(actualQuestionLine);
+
+  if (!shouldPreserveLeadingSetup) {
+    return actualSuffix.join("\n").trim();
+  }
+
+  const leadingSetup = lines.slice(0, previousQuestionIndex).filter((line) => {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.includes("?")) return false;
+    return /^[A-Za-z0-9\s$*(),.+\-=/\\<>:^{}[\]|]+$/.test(trimmed);
+  });
+
+  return [...leadingSetup, ...actualSuffix].join("\n").trim();
 };
 
 const trimCompositeRationale = (rationale: string): string => {
@@ -127,6 +168,15 @@ const trimCompositeRationale = (rationale: string): string => {
   const secondMarkerIndex = markers[1].index ?? -1;
   if (secondMarkerIndex <= 0) return rationale.trim();
   return rationale.slice(0, secondMarkerIndex).trim();
+};
+
+const trimContaminatedCompositeRationale = (rationale: string): string => {
+  const choiceMatch = rationale.match(CHOICE_CORRECT_ANSWER_REGEX);
+  if (!choiceMatch) return rationale.trim();
+
+  const firstChoiceMarkerIndex = rationale.search(CHOICE_CORRECT_ANSWER_REGEX);
+  if (firstChoiceMarkerIndex <= 0) return rationale.trim();
+  return rationale.slice(firstChoiceMarkerIndex).trim();
 };
 
 const pickPrimaryCompositeQuestionImages = (
@@ -153,6 +203,7 @@ const getCompositeMathQuestionMetadata = (
       rationale,
       typeOverride: undefined as SourceQuestion["type"] | undefined,
       choicesOverride: undefined as SourceQuestion["choices"] | undefined,
+      correctAnswerOverride: undefined as string | null | undefined,
     };
   }
 
@@ -166,6 +217,7 @@ const getCompositeMathQuestionMetadata = (
       rationale,
       typeOverride: undefined as SourceQuestion["type"] | undefined,
       choicesOverride: undefined as SourceQuestion["choices"] | undefined,
+      correctAnswerOverride: undefined as string | null | undefined,
     };
   }
 
@@ -173,6 +225,24 @@ const getCompositeMathQuestionMetadata = (
   const trimmedRationale = trimCompositeRationale(rationale);
   const normalizedCorrectAnswer = (correctAnswer ?? "").trim();
   const choiceIds = new Set((choices ?? []).map((choice) => choice.id));
+  const choiceAnswerMatches = [...rationale.matchAll(CHOICE_CORRECT_ANSWER_REGEX)];
+  const looksLikePrependedStalePrompt =
+    normalizedCorrectAnswer.length > 0 &&
+    !choiceIds.has(normalizedCorrectAnswer) &&
+    choiceAnswerMatches.length > 0 &&
+    /\b(?:equation|graph|table|figure)\s+above\b/i.test(text);
+
+  if (looksLikePrependedStalePrompt) {
+    return {
+      isComposite: true,
+      text: trimContaminatedMathStem(text),
+      rationale: trimContaminatedCompositeRationale(rationale),
+      typeOverride: "multiple-choice" as const,
+      choicesOverride: choices,
+      correctAnswerOverride: choiceAnswerMatches[0]?.[1] ?? correctAnswer,
+    };
+  }
+
   const isFirstQuestionFreeResponse =
     /^\s*The correct answer is\b/i.test(trimmedRationale) ||
     (normalizedCorrectAnswer.length > 0 && !choiceIds.has(normalizedCorrectAnswer));
@@ -183,6 +253,7 @@ const getCompositeMathQuestionMetadata = (
     rationale: trimmedRationale,
     typeOverride: isFirstQuestionFreeResponse ? "free-response" : undefined,
     choicesOverride: isFirstQuestionFreeResponse ? undefined : choices,
+    correctAnswerOverride: undefined as string | null | undefined,
   };
 };
 
@@ -325,8 +396,8 @@ const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?:
       (isLikelyPassageBlock(rest) || !isLikelyQuestionPrompt(rest))
     ) {
       return {
-        passage: sanitizeCurrency(rest),
-        questionText: sanitizeCurrency(firstLine),
+        passage: sanitizeReadingText(rest),
+        questionText: sanitizeReadingText(firstLine),
       };
     }
   }
@@ -334,7 +405,7 @@ const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?:
   const sentenceMatch = trimmed.match(/^(.+?\?)(?:\s+|$)([\s\S]*)$/);
   if (!sentenceMatch) {
     return {
-      passage: sanitizeCurrency(trimmed),
+      passage: sanitizeReadingText(trimmed),
       questionText: undefined,
     };
   }
@@ -348,18 +419,45 @@ const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?:
     (isLikelyPassageBlock(remainder) || !isLikelyQuestionPrompt(remainder))
   ) {
     return {
-      passage: sanitizeCurrency(remainder),
-      questionText: sanitizeCurrency(questionSentence),
+      passage: sanitizeReadingText(remainder),
+      questionText: sanitizeReadingText(questionSentence),
     };
   }
 
   return {
-    passage: sanitizeCurrency(trimmed),
+    passage: sanitizeReadingText(trimmed),
     questionText: undefined,
   };
 };
 
+const splitTrailingQuestionPrompt = (raw: string): { passage?: string; questionText?: string } | null => {
+  const lines = raw
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  if (lines.length < 2) return null;
+
+  const lastLine = lines[lines.length - 1];
+  const passageLines = lines.slice(0, -1);
+  const passageText = passageLines.join("\n").trim();
+
+  if (!isLikelyQuestionPrompt(lastLine) || !isLikelyPassageBlock(passageText)) {
+    return null;
+  }
+
+  return {
+    passage: sanitizeReadingText(passageText),
+    questionText: sanitizeReadingText(lastLine),
+  };
+};
+
 const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
+  const trailingPromptSplit = splitTrailingQuestionPrompt(raw);
+  if (trailingPromptSplit) {
+    return trailingPromptSplit;
+  }
+
   if (!raw.includes("\\\\")) {
     return splitQuestionFirstStem(raw);
   }
@@ -383,36 +481,38 @@ const splitEnglishStem = (raw: string): { passage?: string; questionText?: strin
 
   if ((restLooksLikeQuestion || restEndsWithQuestion) && (firstLooksLikePassage || !firstLooksLikeQuestion)) {
     return {
-      passage: sanitizeCurrency(first),
-      questionText: sanitizeCurrency(rest),
+      passage: sanitizeReadingText(first),
+      questionText: sanitizeReadingText(rest),
     };
   }
 
   if ((firstLooksLikeQuestion || firstEndsWithQuestion) && (restLooksLikePassage || !restLooksLikeQuestion)) {
     return {
-      passage: sanitizeCurrency(rest),
-      questionText: sanitizeCurrency(first),
+      passage: sanitizeReadingText(rest),
+      questionText: sanitizeReadingText(first),
     };
   }
 
   if (firstLooksLikePassage && !restLooksLikePassage) {
     return {
-      passage: sanitizeCurrency(first),
-      questionText: sanitizeCurrency(rest),
+      passage: sanitizeReadingText(first),
+      questionText: sanitizeReadingText(rest),
     };
   }
 
   if (restLooksLikePassage && !firstLooksLikePassage) {
     return {
-      passage: sanitizeCurrency(rest),
-      questionText: sanitizeCurrency(first),
+      passage: sanitizeReadingText(rest),
+      questionText: sanitizeReadingText(first),
     };
   }
 
-  return {
-    passage: sanitizeCurrency(rest),
-    questionText: sanitizeCurrency(first),
+  const fallbackSplit = {
+    passage: sanitizeReadingText(rest),
+    questionText: sanitizeReadingText(first),
   };
+
+  return splitTrailingQuestionPrompt(fallbackSplit.passage ?? "") ?? fallbackSplit;
 };
 
 const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQuestion, "id"> => {
@@ -449,16 +549,18 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     q.choices,
   );
   const normalizedText = normalizedSource.text;
-  const normalizedRationale = normalizedSource.rationale ? sanitizeCurrency(normalizedSource.rationale) : normalizedSource.rationale;
+  const sanitizeText = subject === "math" ? sanitizeMathText : sanitizeReadingText;
+  const normalizedRationale = normalizedSource.rationale ? sanitizeText(normalizedSource.rationale) : normalizedSource.rationale;
   const normalizedType = normalizedSource.typeOverride ?? q.type;
   const normalizedChoices = normalizedSource.choicesOverride ?? q.choices;
   const normalizedQuestionImages = normalizedSource.isComposite
     ? pickPrimaryCompositeQuestionImages(String(q.id), mapImages(q))
     : mapImages(q);
+  const normalizedCorrectAnswer = normalizedSource.correctAnswerOverride ?? q.correctAnswer;
 
-  const prompt = sanitizeCurrency(normalizedText);
+  const prompt = sanitizeText(normalizedText);
   let passage: string | undefined;
-  let questionText: string | undefined = sanitizeCurrency(normalizedText);
+  let questionText: string | undefined = sanitizeText(normalizedText);
 
   if (!isMath) {
     const isRhetorical = category.skill === "Rhetorical Synthesis";
@@ -490,13 +592,13 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
       ? (normalizedChoices
         ? normalizedChoices.map((choice) => ({
             id: choice.id,
-            text: choice.text ? sanitizeCurrency(choice.text) : undefined,
+            text: choice.text ? sanitizeText(choice.text) : undefined,
             image: resolveSatChoiceImage(q.id, choice.id, choice.image),
           }))
         : undefined)
       : undefined,
     type: normalizedType,
-    correctAnswer: q.correctAnswer,
+    correctAnswer: normalizedCorrectAnswer,
     rationale: normalizedRationale,
     questionImages: normalizedQuestionImages,
     difficulty: normalizeDifficulty(q.difficulty),

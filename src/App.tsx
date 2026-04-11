@@ -19,9 +19,6 @@ const Question = lazy(() => import("./pages/Question"));
 const BankIndex = lazy(() => import("./pages/BankIndex"));
 const BankBrowse = lazy(() => import("./pages/BankBrowse"));
 const BankFiltered = lazy(() => import("./pages/BankFiltered"));
-const OfficialBankIndex = lazy(() => import("./pages/OfficialBankIndex"));
-const OfficialBankBrowse = lazy(() => import("./pages/OfficialBankBrowse"));
-const OfficialBankFiltered = lazy(() => import("./pages/OfficialBankFiltered"));
 const Analysis = lazy(() => import("./pages/Analysis"));
 const Modules = lazy(() => import("./pages/Modules"));
 const ModuleView = lazy(() => import("./pages/ModuleView"));
@@ -68,9 +65,9 @@ const App = () => (
             <Route path="/bank/:subject/browse" element={withShellSuspense(<BankBrowse />)} />
             <Route path="/bank/:subject/:filterType/:filterValue" element={withShellSuspense(<BankFiltered />)} />
             <Route path="/bank/:subject/:id" element={withSuspense(<Question />)} />
-            <Route path="/official-bank" element={withShellSuspense(<OfficialBankIndex />)} />
-            <Route path="/official-bank/:subject/browse" element={withShellSuspense(<OfficialBankBrowse />)} />
-            <Route path="/official-bank/:subject/:filterType/:filterValue" element={withShellSuspense(<OfficialBankFiltered />)} />
+            <Route path="/official-bank" element={withShellSuspense(<BankIndex />)} />
+            <Route path="/official-bank/:subject/browse" element={withShellSuspense(<BankBrowse />)} />
+            <Route path="/official-bank/:subject/:filterType/:filterValue" element={withShellSuspense(<BankFiltered />)} />
             <Route path="/official-bank/:subject/:id" element={withSuspense(<Question />)} />
             <Route path="/vocab" element={withShellSuspense(<Vocab />)} />
             <Route path="/analysis" element={withShellSuspense(<Analysis />)} />

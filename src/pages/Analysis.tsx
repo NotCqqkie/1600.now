@@ -25,11 +25,7 @@ import {
   TrendingUp,
   User,
 } from "lucide-react";
-import {
-  getPreferredDarkMode,
-  THEME_EVENT,
-  THEME_STORAGE_KEY,
-} from "@/lib/theme";
+import { useThemeMode } from "@/hooks/useThemeMode";
 
 // ─── Category map (same as Profile.tsx) ───────────────────────────────────
 
@@ -445,7 +441,7 @@ const Analysis = () => {
   const navigate = useNavigate();
   const { user } = useAuth();
   const { progress } = useUserProgress();
-  const [isDarkMode, setIsDarkMode] = useState(getPreferredDarkMode);
+  const isDarkMode = useThemeMode();
 
   useEffect(() => {
     const link = document.createElement("link");
@@ -466,32 +462,6 @@ const Analysis = () => {
     return () => {
       document.head.removeChild(link);
       document.getElementById("analysis-keyframes")?.remove();
-    };
-  }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-
-    const root = document.documentElement;
-    const syncTheme = () => setIsDarkMode(getPreferredDarkMode());
-    syncTheme();
-
-    const observer = new MutationObserver(syncTheme);
-    observer.observe(root, { attributes: true, attributeFilter: ["class"] });
-
-    const handleStorage = (event: StorageEvent) => {
-      if (event.key === THEME_STORAGE_KEY) syncTheme();
-    };
-
-    const handleThemeEvent = () => syncTheme();
-
-    window.addEventListener("storage", handleStorage);
-    window.addEventListener(THEME_EVENT, handleThemeEvent);
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener("storage", handleStorage);
-      window.removeEventListener(THEME_EVENT, handleThemeEvent);
     };
   }, []);
 

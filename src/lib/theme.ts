@@ -1,6 +1,11 @@
 export const THEME_STORAGE_KEY = "theme";
 export const THEME_EVENT = "app-theme-change";
 
+export const isDarkThemeActive = () => {
+  if (typeof document === "undefined") return false;
+  return document.documentElement.classList.contains("dark");
+};
+
 const getStoredTheme = (): "dark" | "light" | null => {
   if (typeof window === "undefined") return null;
 
@@ -14,15 +19,42 @@ export const getPreferredDarkMode = () => {
   const savedTheme = getStoredTheme();
   if (savedTheme) return savedTheme === "dark";
 
-  return document.documentElement.classList.contains("dark");
+  return isDarkThemeActive();
+};
+
+const dispatchThemeChange = () => {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new Event(THEME_EVENT));
 };
 
 export const applyTheme = (isDark: boolean) => {
   if (typeof document === "undefined") return;
 
-  document.documentElement.classList.toggle("dark", isDark);
+  const root = document.documentElement;
+  root.classList.toggle("dark", isDark);
+  root.style.colorScheme = isDark ? "dark" : "light";
 
   if (typeof window !== "undefined") {
     localStorage.setItem(THEME_STORAGE_KEY, isDark ? "dark" : "light");
   }
+
+  dispatchThemeChange();
+};
+
+export const subscribeToTheme = (callback: () => void) => {
+  if (typeof window === "undefined") return () => {};
+
+  const handleStorage = (event: StorageEvent) => {
+    if (event.key === THEME_STORAGE_KEY) {
+      callback();
+    }
+  };
+
+  window.addEventListener(THEME_EVENT, callback);
+  window.addEventListener("storage", handleStorage);
+
+  return () => {
+    window.removeEventListener(THEME_EVENT, callback);
+    window.removeEventListener("storage", handleStorage);
+  };
 };

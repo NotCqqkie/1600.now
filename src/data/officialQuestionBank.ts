@@ -2,6 +2,7 @@ import { officialQuestions as allQuestionsData } from "./official_questions";
 import { Question as SourceQuestion } from "./all_questions";
 import { normalizeSatImagePath, resolveSatQuestionImages } from "./satQuestionImages";
 import { normalizeTextForMathRendering } from "@/lib/mathTextNormalization";
+import { normalizeReadingText } from "@/lib/readingTextNormalization";
 // @ts-ignore
 // import categoryMap from "./category_map.json"; // IDs don't match anymore
 import {
@@ -54,8 +55,12 @@ export interface BankQuestion {
 export type { QuestionCategory, MathDomain, EnglishDomain, MathSkill, EnglishSkill };
 export { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains };
 
-const sanitizeCurrency = (text: string | null | undefined): string => {
+const sanitizeMathText = (text: string | null | undefined): string => {
   return normalizeTextForMathRendering(text);
+};
+
+const sanitizeReadingText = (text: string | null | undefined): string => {
+  return normalizeReadingText(text);
 };
 
 const normalizeDifficulty = (value: string | null | undefined): "Easy" | "Medium" | "Hard" | null => {
@@ -188,8 +193,8 @@ const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?:
       (isLikelyPassageBlock(rest) || !isLikelyQuestionPrompt(rest))
     ) {
       return {
-        passage: sanitizeCurrency(rest),
-        questionText: sanitizeCurrency(firstLine),
+        passage: sanitizeReadingText(rest),
+        questionText: sanitizeReadingText(firstLine),
       };
     }
   }
@@ -197,7 +202,7 @@ const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?:
   const sentenceMatch = trimmed.match(/^(.+?\?)(?:\s+|$)([\s\S]*)$/);
   if (!sentenceMatch) {
     return {
-      passage: sanitizeCurrency(trimmed),
+      passage: sanitizeReadingText(trimmed),
       questionText: undefined,
     };
   }
@@ -211,18 +216,45 @@ const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?:
     (isLikelyPassageBlock(remainder) || !isLikelyQuestionPrompt(remainder))
   ) {
     return {
-      passage: sanitizeCurrency(remainder),
-      questionText: sanitizeCurrency(questionSentence),
+      passage: sanitizeReadingText(remainder),
+      questionText: sanitizeReadingText(questionSentence),
     };
   }
 
   return {
-    passage: sanitizeCurrency(trimmed),
+    passage: sanitizeReadingText(trimmed),
     questionText: undefined,
   };
 };
 
+const splitTrailingQuestionPrompt = (raw: string): { passage?: string; questionText?: string } | null => {
+  const lines = raw
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  if (lines.length < 2) return null;
+
+  const lastLine = lines[lines.length - 1];
+  const passageLines = lines.slice(0, -1);
+  const passageText = passageLines.join("\n").trim();
+
+  if (!isLikelyQuestionPrompt(lastLine) || !isLikelyPassageBlock(passageText)) {
+    return null;
+  }
+
+  return {
+    passage: sanitizeReadingText(passageText),
+    questionText: sanitizeReadingText(lastLine),
+  };
+};
+
 const splitEnglishStem = (raw: string): { passage?: string; questionText?: string } => {
+  const trailingPromptSplit = splitTrailingQuestionPrompt(raw);
+  if (trailingPromptSplit) {
+    return trailingPromptSplit;
+  }
+
   if (!raw.includes("\\\\")) {
     return splitQuestionFirstStem(raw);
   }
@@ -246,47 +278,52 @@ const splitEnglishStem = (raw: string): { passage?: string; questionText?: strin
 
   if ((restLooksLikeQuestion || restEndsWithQuestion) && (firstLooksLikePassage || !firstLooksLikeQuestion)) {
     return {
-      passage: sanitizeCurrency(first),
-      questionText: sanitizeCurrency(rest),
+      passage: sanitizeReadingText(first),
+      questionText: sanitizeReadingText(rest),
     };
   }
 
   if ((firstLooksLikeQuestion || firstEndsWithQuestion) && (restLooksLikePassage || !restLooksLikeQuestion)) {
     return {
-      passage: sanitizeCurrency(rest),
-      questionText: sanitizeCurrency(first),
+      passage: sanitizeReadingText(rest),
+      questionText: sanitizeReadingText(first),
     };
   }
 
   if (firstLooksLikePassage && !restLooksLikePassage) {
     return {
-      passage: sanitizeCurrency(first),
-      questionText: sanitizeCurrency(rest),
+      passage: sanitizeReadingText(first),
+      questionText: sanitizeReadingText(rest),
     };
   }
 
   if (restLooksLikePassage && !firstLooksLikePassage) {
     return {
-      passage: sanitizeCurrency(rest),
-      questionText: sanitizeCurrency(first),
+      passage: sanitizeReadingText(rest),
+      questionText: sanitizeReadingText(first),
     };
   }
 
-  return {
-    passage: sanitizeCurrency(rest),
-    questionText: sanitizeCurrency(first),
+  const fallbackSplit = {
+    passage: sanitizeReadingText(rest),
+    questionText: sanitizeReadingText(first),
   };
+
+  return splitTrailingQuestionPrompt(fallbackSplit.passage ?? "") ?? fallbackSplit;
 };
 
 const mapImages = (questionId: string | number, image?: string) => resolveSatQuestionImages(questionId, image);
 
-const mapChoices = (choices: SourceQuestion["choices"]) => {
+const mapChoices = (
+  choices: SourceQuestion["choices"],
+  sanitizeText: (text: string | null | undefined) => string,
+) => {
   if (!choices) return undefined;
   return choices.map((choice) => {
     const resolvedChoiceImage = normalizeSatImagePath(choice.image);
     return {
       id: choice.id,
-      text: choice.text ? sanitizeCurrency(choice.text) : undefined,
+      text: choice.text ? sanitizeText(choice.text) : undefined,
       image: resolvedChoiceImage,
     } satisfies BankChoice;
   });
@@ -322,9 +359,10 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
   }
 
   // Layout Logic for English Questions
-  let prompt = sanitizeCurrency(q.text);
+  const sanitizeText = isMath ? sanitizeMathText : sanitizeReadingText;
+  let prompt = sanitizeText(q.text);
   let passage: string | undefined = undefined;
-  let questionText: string | undefined = sanitizeCurrency(q.text);
+  let questionText: string | undefined = sanitizeText(q.text);
 
   if (!isMath) {
     // English Logic
@@ -349,10 +387,10 @@ const normalizeQuestion = (q: SourceQuestion, idx: number): BankQuestion => {
     prompt,
     passage, 
     questionText,
-    choices: q.type === "multiple-choice" ? mapChoices(q.choices) : undefined,
+    choices: q.type === "multiple-choice" ? mapChoices(q.choices, sanitizeText) : undefined,
     type,
     correctAnswer: q.correctAnswer,
-    rationale: q.rationale ? sanitizeCurrency(q.rationale) : q.rationale,
+    rationale: q.rationale ? sanitizeText(q.rationale) : q.rationale,
     questionImages: mapImages(q.id, q.image),
     difficulty: normalizeDifficulty(q.difficulty),
     category,

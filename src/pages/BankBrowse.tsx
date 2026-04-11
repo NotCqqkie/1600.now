@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import { useNavigate, useParams, useSearchParams } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams, useLocation } from "react-router-dom";
 import {
-  getBankPool,
-  getDomainCounts,
-  getSkillCounts,
-  getQuestionsByDomain,
-  getQuestionsBySkill,
+  getBankPool as getBankPoolNormal,
+  getDomainCounts as getDomainCountsNormal,
+  getSkillCounts as getSkillCountsNormal,
+  getQuestionsByDomain as getQuestionsByDomainNormal,
+  getQuestionsBySkill as getQuestionsBySkillNormal,
   mathDomainSkills,
   englishDomainSkills,
   allMathDomains,
@@ -20,6 +20,14 @@ import {
   type MathSkill,
   type EnglishSkill,
 } from "@/data/questionBank";
+import {
+  getBankPool as getBankPoolOfficial,
+  getDomainCounts as getDomainCountsOfficial,
+  getSkillCounts as getSkillCountsOfficial,
+  getQuestionsByDomain as getQuestionsByDomainOfficial,
+  getQuestionsBySkill as getQuestionsBySkillOfficial,
+  type BankQuestion as OfficialBankQuestion,
+} from "@/data/officialQuestionBank";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -53,25 +61,37 @@ const domainIcons: Record<string, string> = {
 
 const BankBrowse = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
   const { subject } = useParams<{ subject: BankSubject }>();
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
+
+  const isOfficial = location.pathname.startsWith("/official-bank");
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
+  const basePath = isOfficial ? "/official-bank" : "/bank";
+  const bankQuerySuffix = isOfficial ? "" : `?bankType=${bankSource}`;
 
   useEffect(() => {
-    sessionStorage.removeItem("question-view-mode:bank:math");
-    sessionStorage.removeItem("question-view-mode:bank:reading");
-  }, []);
-  
+    const prefix = isOfficial ? "official" : "bank";
+    sessionStorage.removeItem(`question-view-mode:${prefix}:math`);
+    sessionStorage.removeItem(`question-view-mode:${prefix}:reading`);
+  }, [isOfficial]);
+
   const isMath = validSubject === "math";
   const domains: string[] = isMath ? [...allMathDomains] : [...allEnglishDomains];
-  const domainSkillMap: Record<string, string[]> = isMath 
+  const domainSkillMap: Record<string, string[]> = isMath
     ? Object.fromEntries(Object.entries(mathDomainSkills).map(([k, v]) => [k, [...v]]))
     : Object.fromEntries(Object.entries(englishDomainSkills).map(([k, v]) => [k, [...v]]));
-  
-  const domainCounts = getDomainCounts(validSubject, bankSource);
-  const skillCounts = getSkillCounts(validSubject, bankSource);
-  const totalQuestions = getBankPool(validSubject, bankSource).length;
+
+  const domainCounts = isOfficial
+    ? getDomainCountsOfficial(validSubject)
+    : getDomainCountsNormal(validSubject, bankSource);
+  const skillCounts = isOfficial
+    ? getSkillCountsOfficial(validSubject)
+    : getSkillCountsNormal(validSubject, bankSource);
+  const totalQuestions = isOfficial
+    ? getBankPoolOfficial(validSubject).length
+    : getBankPoolNormal(validSubject, bankSource).length;
 
   const handleBankSourceChange = (nextSource: BankSourceFilter) => {
     const nextParams = new URLSearchParams(searchParams);
@@ -79,70 +99,78 @@ const BankBrowse = () => {
     setSearchParams(nextParams);
   };
 
-  const startPracticeSession = (questions: BankQuestion[]) => {
+  const startPracticeSession = (questions: (BankQuestion | OfficialBankQuestion)[]) => {
     if (questions.length === 0) return;
-    
-    // Store the practice set with full info for navigation
-    const practiceSet = questions.map((q, index) => ({
-      subject: q.subject,
-      id: q.id,
-      sourceId: q.sourceId,
-      bankType: bankSource,
-      storageId: q.stableId,
-      index: index + 1, // 1-based index within practice set
-    }));
-    sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
-    sessionStorage.setItem('practiceSetTotal', String(practiceSet.length));
-    
-    // Navigate to the first question in practice mode
-    const first = practiceSet[0];
-    navigate(`/bank/${first.subject}/${first.id}?bankType=${first.bankType}&practice=true&idx=1`);
+
+    if (isOfficial) {
+      const practiceSet = questions.map((q, index) => ({
+        subject: (q as OfficialBankQuestion).category.subject === "Math" ? "math" : "reading",
+        id: q.id,
+        sourceId: q.sourceId,
+        index: index + 1,
+        isOfficial: true,
+      }));
+      sessionStorage.setItem('officialPracticeSet', JSON.stringify(practiceSet));
+      sessionStorage.setItem('officialPracticeSetTotal', String(practiceSet.length));
+      const first = practiceSet[0];
+      navigate(`/official-bank/${first.subject}/${first.id}?practice=true&idx=1`);
+    } else {
+      const practiceSet = questions.map((q, index) => ({
+        subject: (q as BankQuestion).subject,
+        id: q.id,
+        sourceId: q.sourceId,
+        bankType: bankSource,
+        storageId: (q as BankQuestion).stableId,
+        index: index + 1,
+      }));
+      sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
+      sessionStorage.setItem('practiceSetTotal', String(practiceSet.length));
+      const first = practiceSet[0];
+      navigate(`/bank/${first.subject}/${first.id}?bankType=${first.bankType}&practice=true&idx=1`);
+    }
+  };
+
+  const shuffleArray = <T,>(arr: T[]): T[] => {
+    const shuffled = [...arr];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
   };
 
   const handleShuffleDomain = (domain: string) => {
-      const questions = getQuestionsByDomain(validSubject, domain as MathDomain | EnglishDomain, bankSource);
-      // Fisher-Yates shuffle
-      const shuffled = [...questions];
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-      }
-      startPracticeSession(shuffled);
+    const questions = isOfficial
+      ? getQuestionsByDomainOfficial(validSubject, domain as MathDomain | EnglishDomain)
+      : getQuestionsByDomainNormal(validSubject, domain as MathDomain | EnglishDomain, bankSource);
+    startPracticeSession(shuffleArray(questions));
   };
 
   const handleShuffleSkill = (skill: string) => {
-    const questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill, bankSource);
-      // Fisher-Yates shuffle
-      const shuffled = [...questions];
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-      }
-      startPracticeSession(shuffled);
+    const questions = isOfficial
+      ? getQuestionsBySkillOfficial(validSubject, skill as MathSkill | EnglishSkill)
+      : getQuestionsBySkillNormal(validSubject, skill as MathSkill | EnglishSkill, bankSource);
+    startPracticeSession(shuffleArray(questions));
   };
-    
+
   const handleShuffleAll = () => {
-    const questions = getBankPool(validSubject, bankSource);
-      // Fisher-Yates shuffle
-      const shuffled = [...questions];
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-      }
-      startPracticeSession(shuffled);
+    const questions = isOfficial
+      ? getBankPoolOfficial(validSubject)
+      : getBankPoolNormal(validSubject, bankSource);
+    startPracticeSession(shuffleArray(questions));
   };
 
   const handleSkillClick = (skill: string) => {
-    // Find the first question with this skill
-    const questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill, bankSource);
+    const questions = isOfficial
+      ? getQuestionsBySkillOfficial(validSubject, skill as MathSkill | EnglishSkill)
+      : getQuestionsBySkillNormal(validSubject, skill as MathSkill | EnglishSkill, bankSource);
     if (questions.length > 0) {
-      // Navigate to the browse filtered view
-      navigate(`/bank/${validSubject}/skill/${encodeURIComponent(skill)}?bankType=${bankSource}`);
+      navigate(`${basePath}/${validSubject}/skill/${encodeURIComponent(skill)}${bankQuerySuffix}`);
     }
   };
 
   const handleDomainClick = (domain: string) => {
-    navigate(`/bank/${validSubject}/domain/${encodeURIComponent(domain)}?bankType=${bankSource}`);
+    navigate(`${basePath}/${validSubject}/domain/${encodeURIComponent(domain)}${bankQuerySuffix}`);
   };
 
   return (
@@ -151,7 +179,7 @@ const BankBrowse = () => {
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Header */}
           <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" onClick={() => navigate("/bank")}>
+            <Button variant="ghost" size="icon" onClick={() => navigate(basePath)}>
               <ArrowLeft className="h-5 w-5" />
             </Button>
             <div className="flex items-center gap-3">
@@ -166,10 +194,10 @@ const BankBrowse = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold">
-                  {isMath ? "Math" : "Reading & Writing"} Skills
+                  {isMath ? "Math" : "Reading & Writing"} Skills{isOfficial ? " (Official)" : ""}
                 </h1>
                 <p className="text-sm text-muted-foreground">
-                  {BANK_SOURCE_LABELS[bankSource]} • {totalQuestions} questions across {domains.length} domains
+                  {!isOfficial && `${BANK_SOURCE_LABELS[bankSource]} \u2022 `}{totalQuestions} questions across {domains.length} domains
                 </p>
               </div>
             </div>
@@ -179,19 +207,19 @@ const BankBrowse = () => {
           <div className="flex flex-wrap gap-2 items-center">
             <Button
               variant={isMath ? "default" : "outline"}
-              onClick={() => navigate(`/bank/math/browse?bankType=${bankSource}`)}
+              onClick={() => navigate(`${basePath}/math/browse${bankQuerySuffix}`)}
             >
               <Calculator className="h-4 w-4 mr-2" />
               Math
             </Button>
             <Button
               variant={!isMath ? "default" : "outline"}
-              onClick={() => navigate(`/bank/reading/browse?bankType=${bankSource}`)}
+              onClick={() => navigate(`${basePath}/reading/browse${bankQuerySuffix}`)}
             >
               <FileText className="h-4 w-4 mr-2" />
               Reading & Writing
             </Button>
-            <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
+            {!isOfficial && <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />}
           </div>
 
           {/* Domain Accordion */}
@@ -200,15 +228,15 @@ const BankBrowse = () => {
               const skills = domainSkillMap[domain] || [];
               const domainCount = domainCounts[domain] || 0;
               const icon = domainIcons[domain] || "📚";
-              
+
               return (
                 <AccordionItem
                   key={domain}
                   value={domain}
-                  className="border rounded-lg bg-card px-4"
+                  className="overflow-hidden rounded-xl border bg-card px-0"
                 >
-                  <AccordionTrigger className="hover:no-underline py-4">
-                    <div className="flex items-center gap-3 flex-1">
+                  <AccordionTrigger className="px-4 py-0 hover:no-underline">
+                    <div className="flex min-h-[5rem] w-full items-center gap-3">
                       <span className="text-xl">{icon}</span>
                       <div className="flex-1 text-left">
                         <div className="flex items-center gap-2">
@@ -218,30 +246,32 @@ const BankBrowse = () => {
                           </Badge>
                         </div>
                       </div>
-                      <Button
-                        variant="ghost"
-                        size="icon"
-                        className="h-8 w-8 mr-1"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleShuffleDomain(domain);
-                        }}
-                        title="Shuffle Domain"
-                      >
-                        <Shuffle className="h-4 w-4" />
-                      </Button>
-                      <Button
-                        variant="ghost"
-                        size="sm"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleDomainClick(domain);
-                        }}
-                        className="text-xs"
-                      >
-                        Practice All
-                        <ChevronRight className="h-3 w-3 ml-1" />
-                      </Button>
+                      <div className="mr-2 flex shrink-0 items-center gap-1">
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          className="h-8 w-8"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleShuffleDomain(domain);
+                          }}
+                          title="Shuffle Domain"
+                        >
+                          <Shuffle className="h-4 w-4" />
+                        </Button>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleDomainClick(domain);
+                          }}
+                          className="text-xs"
+                        >
+                          Practice All
+                          <ChevronRight className="ml-1 h-3 w-3" />
+                        </Button>
+                      </div>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pb-4">
@@ -296,15 +326,15 @@ const BankBrowse = () => {
                   Jump into all {totalQuestions} questions in order
                 </p>
               </div>
-              <Button 
-                variant="outline" 
-                size="icon" 
+              <Button
+                variant="outline"
+                size="icon"
                 onClick={handleShuffleAll}
                 title="Shuffle All"
               >
                   <Shuffle className="h-4 w-4" />
               </Button>
-              <Button onClick={() => navigate(`/bank/${validSubject}/1`)}>
+              <Button onClick={() => navigate(`${basePath}/${validSubject}/1`)}>
                 Start
                 <ChevronRight className="h-4 w-4 ml-1" />
               </Button>
