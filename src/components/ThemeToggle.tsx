@@ -1,46 +1,14 @@
-import { useState, useEffect } from "react";
 import { Moon, Sun } from "lucide-react";
 import {
   applyTheme,
-  getPreferredDarkMode,
-  THEME_EVENT,
-  THEME_STORAGE_KEY,
 } from "@/lib/theme";
+import { useThemeMode } from "@/hooks/useThemeMode";
 
 export const ThemeToggle = ({ compact = false }: { compact?: boolean }) => {
-  const [isDark, setIsDark] = useState(getPreferredDarkMode);
-
-  useEffect(() => {
-    applyTheme(isDark);
-  }, [isDark]);
-
-  useEffect(() => {
-    setIsDark(getPreferredDarkMode());
-
-    const handleStorage = (event: StorageEvent) => {
-      if (event.key === THEME_STORAGE_KEY) {
-        setIsDark(getPreferredDarkMode());
-      }
-    };
-
-    const handleThemeEvent = () => {
-      setIsDark(getPreferredDarkMode());
-    };
-
-    window.addEventListener("storage", handleStorage);
-    window.addEventListener(THEME_EVENT, handleThemeEvent);
-
-    return () => {
-      window.removeEventListener("storage", handleStorage);
-      window.removeEventListener(THEME_EVENT, handleThemeEvent);
-    };
-  }, []);
+  const isDark = useThemeMode();
 
   const toggleTheme = () => {
-    const nextIsDark = !isDark;
-    applyTheme(nextIsDark);
-    setIsDark(nextIsDark);
-    window.dispatchEvent(new Event(THEME_EVENT));
+    applyTheme(!isDark);
   };
 
   return (

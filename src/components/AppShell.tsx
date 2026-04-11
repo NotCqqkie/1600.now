@@ -22,6 +22,9 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/contexts/AuthContext";
 
+const COLLAPSED_DESKTOP_WIDTH_CLASS = "lg:w-[4.5rem]";
+const COLLAPSED_DESKTOP_PADDING_CLASS = "lg:pl-[4.5rem]";
+
 const primaryItems = [
   { label: "Home", href: "/", icon: Home, match: (pathname: string) => pathname === "/" },
   { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank") || pathname.startsWith("/official-bank") },
@@ -41,66 +44,62 @@ const SidebarLink = ({
   label,
   icon: Icon,
   active,
-  collapsed = false,
-  labelsVisible = true,
+  showLabel = false,
 }: {
   href: string;
   label: string;
   icon: typeof Home;
   active: boolean;
-  collapsed?: boolean;
-  labelsVisible?: boolean;
-}) => (
-  <Link
-    to={href}
-    aria-label={label}
-    title={collapsed ? label : undefined}
-    className={cn(
-      "relative flex items-center overflow-hidden rounded-xl text-sm font-medium transition-colors",
-      collapsed ? "justify-center px-0 py-3" : "gap-3 px-3 py-2.5",
-      active
-        ? "bg-foreground text-background shadow-sm"
-        : "text-muted-foreground hover:bg-muted hover:text-foreground",
-    )}
-  >
-    <Icon className={cn("shrink-0", collapsed ? "h-5 w-5" : "h-4 w-4")} />
-    {collapsed ? (
-      <span className="sr-only">{label}</span>
-    ) : (
+  showLabel?: boolean;
+}) => {
+  return (
+    <Link
+      to={href}
+      aria-label={label}
+      title={label}
+      className={cn(
+        "flex h-9 items-center overflow-hidden rounded-lg text-[13px] font-medium transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
+        showLabel ? "w-full pr-2" : "w-9 pr-0",
+        active
+          ? "bg-foreground text-background shadow-sm"
+          : "text-muted-foreground hover:bg-muted hover:text-foreground",
+      )}
+    >
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center">
+        <Icon className="h-4 w-4 shrink-0" />
+      </span>
       <span
-        aria-hidden={!labelsVisible}
         className={cn(
-          "whitespace-nowrap transition-opacity duration-150",
-          labelsVisible
-            ? "opacity-100"
-            : "pointer-events-none invisible opacity-0",
+          "min-w-0 overflow-hidden whitespace-nowrap transition-[max-width,opacity,transform,margin] duration-200 ease-out",
+          showLabel ? "ml-0.5 max-w-[10rem] opacity-100 translate-x-0" : "ml-0 max-w-0 opacity-0 -translate-x-1",
         )}
       >
         {label}
       </span>
-    )}
-  </Link>
-);
+    </Link>
+  );
+};
 
 export const AppShell = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
   const [isSidebarHidden, setIsSidebarHidden] = useState(false);
-  const [labelsVisible, setLabelsVisible] = useState(true);
+  const [showExpandedFooter, setShowExpandedFooter] = useState(false);
   const isDesktopCollapsed = isSidebarHidden;
+  const showExpandedContent = !isDesktopCollapsed;
 
   useEffect(() => {
     if (isDesktopCollapsed) {
-      setLabelsVisible(false);
+      setShowExpandedFooter(false);
       return;
     }
 
-    const timeout = window.setTimeout(() => {
-      setLabelsVisible(true);
-    }, 220);
+    const timeoutId = window.setTimeout(() => {
+      setShowExpandedFooter(true);
+    }, 150);
 
-    return () => window.clearTimeout(timeout);
+    return () => window.clearTimeout(timeoutId);
   }, [isDesktopCollapsed]);
 
   const activePrimary = useMemo(
@@ -131,40 +130,40 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
 
       <aside
         className={cn(
-          "fixed inset-y-0 left-0 z-40 flex flex-col border-r border-border/60 bg-card/95 py-5 backdrop-blur transition-[width,transform,padding] duration-300",
+          "fixed inset-y-0 left-0 z-40 flex flex-col border-r border-border/60 bg-card/95 py-3 backdrop-blur transition-[width,transform] duration-200 ease-out lg:px-4",
           isSidebarHidden
-            ? "w-72 -translate-x-full px-4 lg:w-20 lg:translate-x-0 lg:px-3"
-            : "w-72 translate-x-0 px-4",
+            ? `w-72 -translate-x-full px-4 ${COLLAPSED_DESKTOP_WIDTH_CLASS} lg:translate-x-0`
+            : "w-72 translate-x-0 px-4 lg:w-64",
         )}
       >
-        <div className={cn("px-2", isDesktopCollapsed ? "flex flex-col items-center px-0" : "flex items-start justify-between")}>
-          {isDesktopCollapsed ? (
-            <button
-              type="button"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-border/70 bg-background/70 text-muted-foreground transition-colors hover:text-foreground"
-              onClick={() => setIsSidebarHidden((hidden) => !hidden)}
-              aria-label="Expand sidebar"
-              title="Expand sidebar"
-            >
-              <ChevronRight className="h-4 w-4" />
-            </button>
-          ) : (
-            <>
-              <BrandLogo variant="mark" className="h-10 w-10" />
-              <button
-                type="button"
-                className="mt-1 inline-flex h-6 w-6 items-center justify-center text-muted-foreground transition-colors hover:text-foreground"
-                onClick={() => setIsSidebarHidden((hidden) => !hidden)}
-                aria-label="Hide sidebar"
-                title="Hide sidebar"
-              >
-                <ChevronLeft className="h-4 w-4" />
-              </button>
-            </>
+        <button
+          type="button"
+          className={cn(
+            "absolute top-3 z-10 hidden items-center justify-center text-muted-foreground transition-all duration-200 ease-out hover:text-foreground lg:inline-flex",
+            isSidebarHidden
+              ? "left-full h-8 w-6 rounded-r-lg border border-l-0 border-border/70 bg-card/95 shadow-sm"
+              : "right-4 h-9 w-9 rounded-lg",
           )}
+          onClick={() => setIsSidebarHidden((hidden) => !hidden)}
+          aria-label={isSidebarHidden ? "Expand sidebar" : "Hide sidebar"}
+          title={isSidebarHidden ? "Expand sidebar" : "Hide sidebar"}
+        >
+          {isSidebarHidden ? (
+            <ChevronRight className="h-4 w-4" />
+          ) : (
+            <ChevronLeft className="h-4 w-4" />
+          )}
+        </button>
+
+        <div className="flex h-9 items-start overflow-hidden">
+          <BrandLogo
+            variant={showExpandedContent ? "full" : "mark"}
+            className={showExpandedContent ? "h-9 w-[148px]" : "h-9 w-9"}
+            imageClassName={showExpandedContent ? "origin-left scale-[1.26] object-left -translate-x-[3px]" : undefined}
+          />
         </div>
 
-        <div className="mt-6 flex-1 overflow-y-auto">
+        <div className="mt-3 flex-1 overflow-y-auto">
           <div className="space-y-1">
             {primaryItems.map((item) => (
               <SidebarLink
@@ -173,18 +172,23 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                 label={item.label}
                 icon={item.icon}
                 active={activePrimary === item.label}
-                collapsed={isDesktopCollapsed}
-                labelsVisible={labelsVisible}
+                showLabel={showExpandedContent}
               />
             ))}
           </div>
 
-          {!isDesktopCollapsed && (
-            <div className="mt-8 px-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-              Account
-            </div>
-          )}
-          <div className="mt-3 space-y-1">
+          <div className="mt-4 px-2.5">
+            {showExpandedContent ? (
+              <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                Account
+              </div>
+            ) : (
+              <div className="flex h-4 items-center justify-start">
+                <span className="block h-px w-6 rounded-full bg-border/90" />
+              </div>
+            )}
+          </div>
+          <div className="mt-2 space-y-1">
             {secondaryItems.map((item) => (
               <SidebarLink
                 key={item.label}
@@ -192,16 +196,46 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                 label={item.label}
                 icon={item.icon}
                 active={activeSecondary === item.label}
-                collapsed={isDesktopCollapsed}
-                labelsVisible={labelsVisible}
+                showLabel={showExpandedContent}
               />
             ))}
           </div>
         </div>
 
-        <div className="space-y-4 border-t border-border/70 pt-4">
-          {isDesktopCollapsed ? (
-            <div className="flex flex-col items-center gap-2">
+        <div className="space-y-2 border-t border-border/70 pt-2.5">
+          {showExpandedFooter ? (
+            <>
+              <div className="flex items-center justify-between gap-2 rounded-lg border border-border/70 bg-background/70 px-2.5 py-2">
+                <div>
+                  <p className="text-[13px] font-medium leading-none">Theme</p>
+                  <p className="mt-1 text-[11px] leading-none text-muted-foreground">Light or dark mode</p>
+                </div>
+                <ThemeToggle />
+              </div>
+
+              {user ? (
+                <div className="space-y-1.5 rounded-lg border border-border/70 bg-background/70 p-2.5">
+                  <div className="text-xs text-muted-foreground truncate">{user.email}</div>
+                  <Button type="button" variant="outline" className="h-8 w-full justify-start gap-2 text-red-600 hover:text-red-700" onClick={handleSignOut}>
+                    <LogOut className="h-4 w-4" />
+                    Log out
+                  </Button>
+                </div>
+              ) : (
+                <div className="space-y-1.5 rounded-lg border border-border/70 bg-background/70 p-2.5">
+                  <Button type="button" variant="outline" className="h-8 w-full justify-start gap-2" onClick={() => navigate("/login")}>
+                    <LogIn className="h-4 w-4" />
+                    Log In
+                  </Button>
+                  <Button type="button" className="h-8 w-full justify-start gap-2" onClick={() => navigate("/signup")}>
+                    <UserPlus className="h-4 w-4" />
+                    Sign Up
+                  </Button>
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="flex flex-col items-start gap-1.5">
               <ThemeToggle compact />
 
               {user ? (
@@ -240,37 +274,6 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                 </>
               )}
             </div>
-          ) : (
-            <>
-              <div className="flex items-center justify-between gap-3 rounded-xl border border-border/70 bg-background/70 px-3 py-3">
-                <div>
-                  <p className="text-sm font-medium">Theme</p>
-                  <p className="text-xs text-muted-foreground">Light or dark mode</p>
-                </div>
-                <ThemeToggle />
-              </div>
-
-              {user ? (
-                <div className="space-y-2 rounded-xl border border-border/70 bg-background/70 p-3">
-                  <div className="text-xs text-muted-foreground truncate">{user.email}</div>
-                  <Button type="button" variant="outline" className="w-full justify-start gap-2 text-red-600 hover:text-red-700" onClick={handleSignOut}>
-                    <LogOut className="h-4 w-4" />
-                    Log out
-                  </Button>
-                </div>
-              ) : (
-                <div className="space-y-2 rounded-xl border border-border/70 bg-background/70 p-3">
-                  <Button type="button" variant="outline" className="w-full justify-start gap-2" onClick={() => navigate("/login")}>
-                    <LogIn className="h-4 w-4" />
-                    Log In
-                  </Button>
-                  <Button type="button" className="w-full justify-start gap-2" onClick={() => navigate("/signup")}>
-                    <UserPlus className="h-4 w-4" />
-                    Sign Up
-                  </Button>
-                </div>
-              )}
-            </>
           )}
         </div>
       </aside>
@@ -289,7 +292,12 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
         <ChevronRight className="h-4 w-4" />
       </Button>
 
-      <div className={cn("min-h-screen transition-[padding] duration-300", isSidebarHidden ? "lg:pl-20" : "lg:pl-72")}>
+      <div
+        className={cn(
+          "min-h-screen transition-[padding] duration-200 ease-out",
+          isSidebarHidden ? COLLAPSED_DESKTOP_PADDING_CLASS : "lg:pl-64",
+        )}
+      >
         {children}
       </div>
     </div>

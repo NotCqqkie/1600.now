@@ -6,15 +6,22 @@ import {
 } from "@/lib/mathTextNormalization";
 import { normalizePublicAssetPath } from "@/lib/utils";
 
-export function renderMixedContent(text: string): string {
+type RenderMixedContentOptions = {
+  normalizeMath?: boolean;
+};
+
+export function renderMixedContent(text: string, options: RenderMixedContentOptions = {}): string {
   if (!text) return "";
+  const { normalizeMath = true } = options;
 
   let processedText = text;
   processedText = processedText.replace(/\\\\\\\\/g, "<br /><br />");
   processedText = processedText.replace(/\\\\/g, "<br />");
   processedText = processedText.replace(/\\n/g, "<br />");
   processedText = processedText.replace(/\n/g, "<br />");
-  processedText = normalizeTextForMathRendering(processedText);
+  if (normalizeMath) {
+    processedText = normalizeTextForMathRendering(processedText);
+  }
 
   type ContentSegment =
     | { type: "text"; value: string }
@@ -78,9 +85,24 @@ export function renderMixedContent(text: string): string {
   const applyInlineFormatting = (content: string): string => {
     let html = content.replace(/\n/g, "<br />");
 
+    html = html.replace(/~~([^~]+?)~~/g, (_, inner: string) => {
+      const trimmed = inner.trim();
+      return trimmed ? `<del>${trimmed}</del>` : _;
+    });
+
+    html = html.replace(/<strong>([\s\S]*?)<\/strong>/gi, (_, inner: string) => {
+      const trimmed = inner.trim();
+      return trimmed ? `<strong>${trimmed}</strong>` : _;
+    });
+
+    html = html.replace(/<em>([\s\S]*?)<\/em>/gi, (_, inner: string) => {
+      const trimmed = inner.trim();
+      return trimmed ? `<em>${trimmed}</em>` : _;
+    });
+
     html = html.replace(/\*\*([^*]+?)\*\*/g, (_, inner: string) => {
       const trimmed = inner.trim();
-      return trimmed ? `<b>${trimmed}</b>` : _;
+      return trimmed ? `<strong>${trimmed}</strong>` : _;
     });
 
     html = html.replace(/__([^_]+?)__/g, (_, inner: string) => {
@@ -93,7 +115,7 @@ export function renderMixedContent(text: string): string {
       if (!trimmed) return _;
       const leading = inner.match(/^\s*/)?.[0] ?? "";
       const trailing = inner.match(/\s*$/)?.[0] ?? "";
-      return `${prefix}${leading}<i>${trimmed}</i>${trailing}`;
+      return `${prefix}${leading}<em>${trimmed}</em>${trailing}`;
     });
 
     html = html.replace(/(^|[^_])_([^_]+?)_(?!_)/g, (_, prefix: string, inner: string) => {
@@ -101,7 +123,7 @@ export function renderMixedContent(text: string): string {
       if (!trimmed) return _;
       const leading = inner.match(/^\s*/)?.[0] ?? "";
       const trailing = inner.match(/\s*$/)?.[0] ?? "";
-      return `${prefix}${leading}<i>${trimmed}</i>${trailing}`;
+      return `${prefix}${leading}<em>${trimmed}</em>${trailing}`;
     });
 
     html = html.replace(

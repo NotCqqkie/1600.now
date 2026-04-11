@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { getPreferredDarkMode, THEME_EVENT, THEME_STORAGE_KEY } from "@/lib/theme";
+import { useThemeMode } from "@/hooks/useThemeMode";
 
 interface BrandLogoProps {
   className?: string;
@@ -16,38 +15,18 @@ export const BrandLogo = ({
   href = "/",
   variant = "full",
 }: BrandLogoProps) => {
-  const [isDark, setIsDark] = useState(getPreferredDarkMode);
-
-  useEffect(() => {
-    const syncTheme = () => {
-      setIsDark(getPreferredDarkMode());
-    };
-
-    const handleStorage = (event: StorageEvent) => {
-      if (event.key === THEME_STORAGE_KEY) {
-        syncTheme();
-      }
-    };
-
-    window.addEventListener("storage", handleStorage);
-    window.addEventListener(THEME_EVENT, syncTheme);
-
-    return () => {
-      window.removeEventListener("storage", handleStorage);
-      window.removeEventListener(THEME_EVENT, syncTheme);
-    };
-  }, []);
+  const isDark = useThemeMode();
 
   const src = variant === "mark"
-    ? (isDark ? "/optimized/logo_w_160.png" : "/optimized/logo_b_160.png")
-    : (isDark ? "/optimized/logo_text_w_600.png" : "/optimized/logo_text_b_600.png");
+    ? (isDark ? "/optimized/logo_mark_w_320.png" : "/optimized/logo_mark_b_320.png")
+    : (isDark ? "/optimized/logo_text_w_1200.png" : "/optimized/logo_text_b_1200.png");
 
   const content = (
     <span
       className={cn(
         variant === "mark"
           ? "relative block h-10 w-10 shrink-0 overflow-hidden"
-          : "relative block h-10 w-[150px] shrink-0 overflow-hidden",
+          : "relative block h-10 w-[165px] shrink-0 overflow-hidden",
         className,
       )}
     >
