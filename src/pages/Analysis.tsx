@@ -1,8 +1,8 @@
 import { type ReactNode, useMemo, useEffect, useRef, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
-import { getBankPool } from "@/data/questionBank";
+import { getBankPool, type BankSubject } from "@/data/questionBank";
 import { Button } from "@/components/ui/button";
 import {
   AreaChart,
@@ -29,21 +29,21 @@ import { useThemeMode } from "@/hooks/useThemeMode";
 
 // ─── Category map (same as Profile.tsx) ───────────────────────────────────
 
-type CategoryMapItem = { subject: string; domain: string; skill: string };
+type CategoryMapItem = { subject: BankSubject; domain: string; skill: string };
 
 const buildLiveCategoryMap = (): Record<string, CategoryMapItem> => {
   const map: Record<string, CategoryMapItem> = {};
   try {
     for (const q of getBankPool("math", "all")) {
       map[q.stableId] = {
-        subject: "Math",
+        subject: "math",
         domain: q.category.domain,
         skill: q.category.skill,
       };
     }
     for (const q of getBankPool("reading", "all")) {
       map[q.stableId] = {
-        subject: "English",
+        subject: "reading",
         domain: q.category.domain,
         skill: q.category.skill,
       };
@@ -69,6 +69,149 @@ const fmtTime = (seconds: number): string => {
 const accuracyColor = (pct: number) =>
   pct >= 70 ? "#4ade80" : pct >= 50 ? "#fbbf24" : "#f87171";
 
+const formatAverageAttempts = (attempts: number | null) =>
+  attempts == null ? "—" : `${attempts.toFixed(1)}x`;
+
+type InsightItem = {
+  title: string;
+  meta: string;
+  value: string;
+  valueColor: string;
+  placeholder?: boolean;
+};
+
+const subjectLabel = (subject: BankSubject) =>
+  subject === "math" ? "Math" : "Reading & Writing";
+
+const InsightGroup = ({
+  title,
+  items,
+}: {
+  title: string;
+  items: InsightItem[];
+}) => (
+  <div>
+    <div
+      style={{
+        fontSize: 12,
+        fontWeight: 600,
+        letterSpacing: "0.06em",
+        textTransform: "uppercase",
+        color: "hsl(var(--muted-foreground))",
+        marginBottom: 10,
+      }}
+    >
+      {title}
+    </div>
+    <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+      {items.map((item, index) => (
+        <div
+          key={`${title}-${item.title}-${index}`}
+          style={{
+            borderBottom: index === items.length - 1 ? "none" : "1px solid hsl(var(--border))",
+            padding: "12px 0",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: 12,
+            opacity: item.placeholder ? 0.7 : 1,
+          }}
+        >
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <p
+              style={{
+                fontSize: 13,
+                fontWeight: 500,
+                color: item.placeholder
+                  ? "hsl(var(--muted-foreground))"
+                  : "hsl(var(--foreground))",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+                margin: "0 0 3px",
+              }}
+            >
+              {item.title}
+            </p>
+            <p
+              style={{
+                fontSize: 11,
+                color: "hsl(var(--muted-foreground))",
+                margin: 0,
+              }}
+            >
+              {item.meta}
+            </p>
+          </div>
+          {!item.placeholder && (
+            <div
+              style={{
+                flexShrink: 0,
+                minWidth: 58,
+                textAlign: "right",
+                fontFamily: "'Space Mono', monospace",
+                fontSize: 12,
+                fontWeight: 700,
+                color: item.valueColor,
+              }}
+            >
+              {item.value}
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+);
+
+const SubjectInsightCard = ({
+  title,
+  accent,
+  groups,
+}: {
+  title: string;
+  accent: string;
+  groups: Array<{ title: string; items: InsightItem[] }>;
+}) => (
+  <div
+    style={{
+      background: "hsl(var(--card))",
+      border: "1px solid hsl(var(--border))",
+      borderRadius: 16,
+      padding: "24px",
+      display: "flex",
+      flexDirection: "column",
+      gap: 18,
+    }}
+  >
+    <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+      <div
+        style={{
+          width: 8,
+          height: 8,
+          borderRadius: "50%",
+          background: accent,
+          flexShrink: 0,
+        }}
+      />
+      <span
+        style={{
+          fontSize: 15,
+          fontWeight: 600,
+          color: "hsl(var(--foreground))",
+        }}
+      >
+        {title}
+      </span>
+    </div>
+    <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
+      {groups.map((group) => (
+        <InsightGroup key={group.title} title={group.title} items={group.items} />
+      ))}
+    </div>
+  </div>
+);
+
 // ─── Sub-components ────────────────────────────────────────────────────────
 
 const StatTile = ({
@@ -88,35 +231,47 @@ const StatTile = ({
 }) => (
   <div
     style={{
-      background: isDarkMode ? "rgba(255,255,255,0.05)" : "rgba(255,255,255,0.82)",
-      border: isDarkMode
-        ? "1px solid rgba(255,255,255,0.09)"
-        : "1px solid rgba(15,23,42,0.08)",
-      borderRadius: 14,
-      padding: "20px 22px",
-      boxShadow: isDarkMode ? "none" : "0 12px 28px rgba(15,23,42,0.06)",
+      display: "flex",
+      flexDirection: "column",
+      gap: 10,
+      padding: "4px 0",
+      minHeight: 0,
     }}
   >
     <div
       style={{
         display: "flex",
         alignItems: "center",
-        gap: 6,
-        marginBottom: 12,
-        color: isDarkMode ? "rgba(255,255,255,0.4)" : "rgba(15,23,42,0.45)",
+        justifyContent: "space-between",
+        gap: 8,
+        color: isDarkMode ? "rgba(255,255,255,0.42)" : "rgba(15,23,42,0.5)",
         fontSize: 11,
         letterSpacing: "0.06em",
         textTransform: "uppercase",
         fontWeight: 500,
       }}
     >
-      {icon}
-      {label}
+      <span>{label}</span>
+      <span
+        style={{
+          width: 28,
+          height: 28,
+          borderRadius: 999,
+          display: "inline-flex",
+          alignItems: "center",
+          justifyContent: "center",
+          background: "transparent",
+          color: isDarkMode ? "hsl(201,100%,78%)" : "hsl(201,100%,40%)",
+          flexShrink: 0,
+        }}
+      >
+        {icon}
+      </span>
     </div>
     <div
       style={{
         fontFamily: "'Space Mono', monospace",
-        fontSize: "clamp(24px, 3vw, 36px)",
+        fontSize: "clamp(24px, 2.4vw, 32px)",
         fontWeight: 700,
         color: empty
           ? (isDarkMode ? "rgba(255,255,255,0.2)" : "rgba(15,23,42,0.2)")
@@ -127,10 +282,19 @@ const StatTile = ({
     >
       {empty ? "—" : value}
     </div>
+    <div
+      style={{
+        width: 36,
+        height: 2,
+        borderRadius: 999,
+        background: empty
+          ? (isDarkMode ? "rgba(255,255,255,0.12)" : "rgba(15,23,42,0.12)")
+          : color ?? "hsl(201,100%,74%)",
+        opacity: empty ? 0.5 : 0.95,
+      }}
+    />
   </div>
 );
-
-// ─── Activity Heatmap (GitHub-style) ──────────────────────────────────────
 
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const DAY_LABELS = ["","Mon","","Wed","","Fri",""];
@@ -363,78 +527,6 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
   );
 };
 
-const DomainBar = ({
-  name,
-  accuracy,
-  attempted,
-}: {
-  name: string;
-  accuracy: number;
-  attempted: number;
-}) => {
-  const col = accuracyColor(accuracy);
-  return (
-    <div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "baseline",
-          marginBottom: 6,
-        }}
-      >
-        <span
-          style={{
-            fontSize: 13,
-            fontWeight: 500,
-            color: "hsl(var(--foreground))",
-          }}
-        >
-          {name}
-        </span>
-        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <span
-            style={{
-              fontSize: 11,
-              color: "hsl(var(--muted-foreground))",
-            }}
-          >
-            {attempted} attempted
-          </span>
-          <span
-            style={{
-              fontFamily: "'Space Mono', monospace",
-              fontSize: 13,
-              fontWeight: 700,
-              color: col,
-            }}
-          >
-            {accuracy}%
-          </span>
-        </div>
-      </div>
-      <div
-        style={{
-          height: 6,
-          borderRadius: 3,
-          background: "hsl(var(--muted))",
-          overflow: "hidden",
-        }}
-      >
-        <div
-          style={{
-            height: "100%",
-            borderRadius: 3,
-            width: `${accuracy}%`,
-            background: col,
-            transition: "width 0.8s cubic-bezier(0.4,0,0.2,1)",
-          }}
-        />
-      </div>
-    </div>
-  );
-};
-
 // ─── Main component ────────────────────────────────────────────────────────
 
 const Analysis = () => {
@@ -471,15 +563,25 @@ const Analysis = () => {
     let totalAttempted = 0,
       totalCorrect = 0,
       totalTime = 0,
-      correctFirstTry = 0;
+      correctFirstTry = 0,
+      solvedCount = 0,
+      totalAttemptsToCorrect = 0;
+
+    const subjectTotals: Record<
+      BankSubject,
+      { attempted: number; totalTime: number }
+    > = {
+      math: { attempted: 0, totalTime: 0 },
+      reading: { attempted: 0, totalTime: 0 },
+    };
 
     const domainStats: Record<
       string,
-      { attempted: number; correct: number; subject: string }
+      { attempted: number; correct: number; subject: BankSubject; totalTime: number }
     > = {};
     const skillStats: Record<
       string,
-      { attempted: number; correct: number; domain: string; subject: string }
+      { attempted: number; correct: number; domain: string; subject: BankSubject; totalTime: number }
     > = {};
 
     // Group attempts by date (YYYY-MM-DD) for progression chart
@@ -491,27 +593,34 @@ const Analysis = () => {
       if (qp.attempts.length === 0) return;
 
       const meta = liveCategoryMap[qp.questionId];
-      const isSolved = qp.attempts.some((a) => a.result === "correct");
-      const isFirstTry = qp.attempts[0]?.result === "correct";
+      const firstCorrectAttemptIndex = qp.attempts.findIndex((a) => a.result === "correct");
+      const isSolved = firstCorrectAttemptIndex >= 0;
+      const isFirstTry = firstCorrectAttemptIndex === 0;
 
       totalAttempted++;
       totalTime += qp.totalTimeSpentSeconds;
       if (isSolved) {
         totalCorrect++;
+        solvedCount++;
+        totalAttemptsToCorrect += firstCorrectAttemptIndex + 1;
         if (isFirstTry) correctFirstTry++;
       }
 
       if (meta) {
         const { subject, domain, skill } = meta;
+        subjectTotals[subject].attempted++;
+        subjectTotals[subject].totalTime += qp.totalTimeSpentSeconds;
 
         if (!domainStats[domain])
-          domainStats[domain] = { attempted: 0, correct: 0, subject };
+          domainStats[domain] = { attempted: 0, correct: 0, subject, totalTime: 0 };
         domainStats[domain].attempted++;
+        domainStats[domain].totalTime += qp.totalTimeSpentSeconds;
         if (isSolved) domainStats[domain].correct++;
 
         if (!skillStats[skill])
-          skillStats[skill] = { attempted: 0, correct: 0, domain, subject };
+          skillStats[skill] = { attempted: 0, correct: 0, domain, subject, totalTime: 0 };
         skillStats[skill].attempted++;
+        skillStats[skill].totalTime += qp.totalTimeSpentSeconds;
         if (isSolved) skillStats[skill].correct++;
       }
 
@@ -548,56 +657,139 @@ const Analysis = () => {
         };
       });
 
-    const mathDomains = Object.entries(domainStats)
-      .filter(([, v]) => v.subject === "Math")
+    const domainsBySubject = (subject: BankSubject) =>
+      Object.entries(domainStats)
+      .filter(([, v]) => v.subject === subject)
       .map(([name, v]) => ({
         name,
         ...v,
         accuracy:
           v.attempted > 0 ? Math.round((v.correct / v.attempted) * 100) : 0,
+        avgTime: v.attempted > 0 ? v.totalTime / v.attempted : 0,
       }))
       .sort((a, b) => b.attempted - a.attempted);
 
-    const englishDomains = Object.entries(domainStats)
-      .filter(([, v]) => v.subject === "English")
+    const skillsBySubject = (subject: BankSubject) =>
+      Object.entries(skillStats)
+      .filter(([, v]) => v.subject === subject)
       .map(([name, v]) => ({
         name,
         ...v,
         accuracy:
           v.attempted > 0 ? Math.round((v.correct / v.attempted) * 100) : 0,
+        avgTime: v.attempted > 0 ? v.totalTime / v.attempted : 0,
       }))
       .sort((a, b) => b.attempted - a.attempted);
 
-    const weakSkills = Object.entries(skillStats)
-      .filter(([, v]) => v.attempted >= 3)
-      .map(([name, v]) => ({
-        name,
-        ...v,
-        accuracy: Math.round((v.correct / v.attempted) * 100),
-      }))
-      .sort((a, b) => a.accuracy - b.accuracy)
-      .slice(0, 6);
+    const mathDomains = domainsBySubject("math");
+    const readingDomains = domainsBySubject("reading");
+    const rankTop = <T,>(items: T[], compare: (left: T, right: T) => number) =>
+      [...items].sort(compare).slice(0, 3);
 
-    const strongSkills = Object.entries(skillStats)
-      .filter(([, v]) => v.attempted >= 3)
-      .map(([name, v]) => ({
-        name,
-        ...v,
-        accuracy: Math.round((v.correct / v.attempted) * 100),
-      }))
-      .sort((a, b) => b.accuracy - a.accuracy)
-      .slice(0, 3);
+    const averageAttemptsToCorrect =
+      solvedCount > 0 ? totalAttemptsToCorrect / solvedCount : null;
+
+    const avgTimePerQuestion = {
+      math:
+        subjectTotals.math.attempted > 0
+          ? subjectTotals.math.totalTime / subjectTotals.math.attempted
+          : null,
+      reading:
+        subjectTotals.reading.attempted > 0
+          ? subjectTotals.reading.totalTime / subjectTotals.reading.attempted
+          : null,
+    };
+
+    const buildAccuracyItems = (
+      subject: BankSubject,
+      direction: "asc" | "desc",
+    ): InsightItem[] => {
+      const ranked = rankTop(
+        domainsBySubject(subject).filter((entry) => entry.attempted > 0),
+        (left, right) =>
+          direction === "asc"
+            ? left.accuracy - right.accuracy || right.attempted - left.attempted
+            : right.accuracy - left.accuracy || right.attempted - left.attempted,
+      ).map((entry) => ({
+        title: entry.name,
+        meta: `${entry.attempted} attempted`,
+        value: `${entry.accuracy}%`,
+        valueColor: accuracyColor(entry.accuracy),
+      }));
+
+      while (ranked.length < 3) {
+        ranked.push({
+          title: "More answers needed",
+          meta: `Answer more ${subjectLabel(subject)} questions to unlock a fuller report.`,
+          value: "",
+          valueColor: "hsl(var(--muted-foreground))",
+          placeholder: true,
+        });
+      }
+
+      return ranked;
+    };
+
+    const buildTimeItems = (
+      subject: BankSubject,
+      direction: "asc" | "desc",
+      source: "domain" | "skill",
+    ): InsightItem[] => {
+      const entries = (source === "domain" ? domainsBySubject(subject) : skillsBySubject(subject))
+        .filter((entry) => entry.attempted > 0);
+      const ranked = rankTop(
+        entries,
+        (left, right) =>
+          direction === "asc"
+            ? left.avgTime - right.avgTime || right.attempted - left.attempted
+            : right.avgTime - left.avgTime || right.attempted - left.attempted,
+      ).map((entry) => ({
+        title: entry.name,
+        meta:
+          source === "skill"
+            ? `${entry.domain} · ${entry.attempted} attempted`
+            : `${entry.attempted} attempted`,
+        value: fmtTime(Math.round(entry.avgTime)),
+        valueColor: direction === "asc" ? "#38bdf8" : "#f59e0b",
+      }));
+
+      while (ranked.length < 3) {
+        ranked.push({
+          title: "More answers needed",
+          meta: `Answer more ${subjectLabel(subject)} questions to unlock a fuller report.`,
+          value: "",
+          valueColor: "hsl(var(--muted-foreground))",
+          placeholder: true,
+        });
+      }
+
+      return ranked;
+    };
 
     return {
       totalAttempted,
       totalCorrect,
       totalTime,
       correctFirstTry,
+      mathAttempted: subjectTotals.math.attempted,
+      readingAttempted: subjectTotals.reading.attempted,
+      averageAttemptsToCorrect,
+      avgTimePerQuestion,
       progressionData,
       mathDomains,
-      englishDomains,
-      weakSkills,
-      strongSkills,
+      readingDomains,
+      mathAccuracyLow: buildAccuracyItems("math", "asc"),
+      mathAccuracyHigh: buildAccuracyItems("math", "desc"),
+      readingAccuracyLow: buildAccuracyItems("reading", "asc"),
+      readingAccuracyHigh: buildAccuracyItems("reading", "desc"),
+      mathTimeHigh: buildTimeItems("math", "desc", "domain"),
+      mathTimeLow: buildTimeItems("math", "asc", "domain"),
+      readingTimeHigh: buildTimeItems("reading", "desc", "domain"),
+      readingTimeLow: buildTimeItems("reading", "asc", "domain"),
+      mathQuickestTypes: buildTimeItems("math", "asc", "skill"),
+      mathSlowestTypes: buildTimeItems("math", "desc", "skill"),
+      readingQuickestTypes: buildTimeItems("reading", "asc", "skill"),
+      readingSlowestTypes: buildTimeItems("reading", "desc", "skill"),
       dailyCounts,
     };
   }, [progress]);
@@ -701,12 +893,19 @@ const Analysis = () => {
             Performance overview
           </h1>
 
-          {/* 4 key stats */}
           <div
             style={{
+              background: isDarkMode ? "rgba(255,255,255,0.05)" : "rgba(255,255,255,0.8)",
+              border: isDarkMode
+                ? "1px solid rgba(255,255,255,0.1)"
+                : "1px solid rgba(15,23,42,0.08)",
+              borderRadius: 24,
+              padding: "22px 24px",
+              boxShadow: isDarkMode ? "none" : "0 22px 48px rgba(15,23,42,0.08)",
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(155px, 1fr))",
-              gap: 14,
+              gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
+              columnGap: 28,
+              rowGap: 20,
             }}
           >
             <StatTile
@@ -733,6 +932,49 @@ const Analysis = () => {
               isDarkMode={isDarkMode}
             />
             <StatTile
+              value={formatAverageAttempts(stats.averageAttemptsToCorrect)}
+              label="Attempts to Correct"
+              icon={<BarChart3 size={13} />}
+              empty={isEmpty || stats.averageAttemptsToCorrect == null}
+              isDarkMode={isDarkMode}
+            />
+            <StatTile
+              value={stats.totalCorrect.toLocaleString()}
+              label="Solved"
+              icon={<Target size={13} />}
+              color={accuracyColor(accuracy)}
+              empty={isEmpty}
+              isDarkMode={isDarkMode}
+            />
+            <StatTile
+              value={fmtTime(Math.round(stats.avgTimePerQuestion.math ?? 0))}
+              label="Math Time / Q"
+              icon={<Clock size={13} />}
+              empty={isEmpty || stats.avgTimePerQuestion.math == null}
+              isDarkMode={isDarkMode}
+            />
+            <StatTile
+              value={fmtTime(Math.round(stats.avgTimePerQuestion.reading ?? 0))}
+              label="Reading Time / Q"
+              icon={<Clock size={13} />}
+              empty={isEmpty || stats.avgTimePerQuestion.reading == null}
+              isDarkMode={isDarkMode}
+            />
+            <StatTile
+              value={stats.mathAttempted.toLocaleString()}
+              label="Math Questions"
+              icon={<BookOpen size={13} />}
+              empty={isEmpty}
+              isDarkMode={isDarkMode}
+            />
+            <StatTile
+              value={stats.readingAttempted.toLocaleString()}
+              label="Reading Questions"
+              icon={<BookOpen size={13} />}
+              empty={isEmpty}
+              isDarkMode={isDarkMode}
+            />
+            <StatTile
               value={fmtTime(stats.totalTime)}
               label="Time Studied"
               icon={<Clock size={13} />}
@@ -745,9 +987,10 @@ const Analysis = () => {
         {/* Fade to background */}
         <div
           style={{
-            height: 64,
-            background:
-              "linear-gradient(to bottom, transparent, hsl(var(--background)))",
+            height: 112,
+            background: isDarkMode
+              ? "linear-gradient(to bottom, rgba(15,23,42,0) 0%, rgba(15,23,42,0.32) 42%, hsl(var(--background)) 100%)"
+              : "linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.52) 42%, hsl(var(--background)) 100%)",
           }}
         />
       </section>
@@ -841,7 +1084,7 @@ const Analysis = () => {
             </Button>
           </div>
         ) : (
-          <div style={{ display: "flex", flexDirection: "column", gap: 48, paddingTop: 16 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 40, paddingTop: 4 }}>
 
             {/* Activity heatmap */}
             <section className="stats-fade" style={{ animationDelay: "0s" }}>
@@ -989,360 +1232,111 @@ const Analysis = () => {
               </section>
             )}
 
-            {/* Domain breakdown */}
             <section className="stats-fade" style={{ animationDelay: "0.1s" }}>
               <div style={{ marginBottom: 20 }}>
-                <h2
+                <div
                   style={{
-                    fontFamily: "'Instrument Serif', Georgia, serif",
-                    fontSize: "clamp(20px, 2.5vw, 28px)",
-                    fontWeight: 400,
-                    color: "hsl(var(--foreground))",
-                    margin: "0 0 4px",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 7,
+                    marginBottom: 4,
                   }}
                 >
-                  Accuracy by domain
-                </h2>
-                <p
-                  style={{
-                    fontSize: 13,
-                    color: "hsl(var(--muted-foreground))",
-                  }}
-                >
-                  How you're doing across Math and English topic areas
+                  <TrendingDown size={16} style={{ color: "#f87171" }} />
+                  <h3
+                    style={{
+                      fontFamily: "'Instrument Serif', serif",
+                      fontSize: "clamp(18px, 2vw, 24px)",
+                      fontWeight: 400,
+                      color: "hsl(var(--foreground))",
+                      margin: 0,
+                    }}
+                  >
+                    Focus areas
+                  </h3>
+                </div>
+                <p style={{ fontSize: 13, color: "hsl(var(--muted-foreground))" }}>
+                  Least and most accurate sections for each subject
                 </p>
               </div>
               <div
                 style={{
                   display: "grid",
-                  gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
                   gap: 20,
                 }}
               >
-                {(
-                  [
-                    {
-                      label: "Math",
-                      domains: stats.mathDomains,
-                      accent: "#60a5fa",
-                    },
-                    {
-                      label: "English",
-                      domains: stats.englishDomains,
-                      accent: "#fb923c",
-                    },
-                  ] as const
-                ).map(({ label, domains, accent }) => (
-                  <div
-                    key={label}
-                    style={{
-                      background: "hsl(var(--card))",
-                      border: "1px solid hsl(var(--border))",
-                      borderRadius: 16,
-                      padding: "24px",
-                    }}
-                  >
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: 8,
-                        marginBottom: 22,
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: 8,
-                          height: 8,
-                          borderRadius: "50%",
-                          background: accent,
-                          flexShrink: 0,
-                        }}
-                      />
-                      <span
-                        style={{
-                          fontSize: 15,
-                          fontWeight: 600,
-                          color: "hsl(var(--foreground))",
-                        }}
-                      >
-                        {label}
-                      </span>
-                    </div>
-                    {domains.length === 0 ? (
-                      <p
-                        style={{
-                          color: "hsl(var(--muted-foreground))",
-                          fontSize: 13,
-                        }}
-                      >
-                        No {label} questions attempted yet.
-                      </p>
-                    ) : (
-                      <div
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          gap: 18,
-                        }}
-                      >
-                        {domains.map((d) => (
-                          <DomainBar
-                            key={d.name}
-                            name={d.name}
-                            accuracy={d.accuracy}
-                            attempted={d.attempted}
-                          />
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                ))}
+                <SubjectInsightCard
+                  title="Math"
+                  accent="#60a5fa"
+                  groups={[
+                    { title: "Least accurate sections", items: stats.mathAccuracyLow },
+                    { title: "Greatest accuracy sections", items: stats.mathAccuracyHigh },
+                  ]}
+                />
+                <SubjectInsightCard
+                  title="Reading & Writing"
+                  accent="#fb923c"
+                  groups={[
+                    { title: "Least accurate sections", items: stats.readingAccuracyLow },
+                    { title: "Greatest accuracy sections", items: stats.readingAccuracyHigh },
+                  ]}
+                />
               </div>
             </section>
 
-            {/* Weak + Strong areas */}
-            {(stats.weakSkills.length > 0 || stats.strongSkills.length > 0) && (
-              <section
-                className="stats-fade"
-                style={{ animationDelay: "0.15s" }}
-              >
+            <section className="stats-fade" style={{ animationDelay: "0.15s" }}>
+              <div style={{ marginBottom: 20 }}>
                 <div
                   style={{
-                    display: "grid",
-                    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-                    gap: 20,
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 7,
+                    marginBottom: 4,
                   }}
                 >
-                  {/* Needs work */}
-                  {stats.weakSkills.length > 0 && (
-                    <div>
-                      <div style={{ marginBottom: 16 }}>
-                        <div
-                          style={{
-                            display: "flex",
-                            alignItems: "center",
-                            gap: 7,
-                            marginBottom: 4,
-                          }}
-                        >
-                          <TrendingDown size={16} style={{ color: "#f87171" }} />
-                          <h3
-                            style={{
-                              fontFamily: "'Instrument Serif', serif",
-                              fontSize: "clamp(18px, 2vw, 24px)",
-                              fontWeight: 400,
-                              color: "hsl(var(--foreground))",
-                              margin: 0,
-                            }}
-                          >
-                            Focus areas
-                          </h3>
-                        </div>
-                        <p
-                          style={{
-                            fontSize: 13,
-                            color: "hsl(var(--muted-foreground))",
-                          }}
-                        >
-                          Skills with the most room to improve
-                        </p>
-                      </div>
-                      <div
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          gap: 10,
-                        }}
-                      >
-                        {stats.weakSkills.map((skill) => {
-                          const col = accuracyColor(skill.accuracy);
-                          return (
-                            <div
-                              key={skill.name}
-                              style={{
-                                background: "hsl(var(--card))",
-                                border: "1px solid hsl(var(--border))",
-                                borderRadius: 12,
-                                padding: "14px 16px",
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "space-between",
-                                gap: 12,
-                              }}
-                            >
-                              <div style={{ flex: 1, minWidth: 0 }}>
-                                <p
-                                  style={{
-                                    fontSize: 13,
-                                    fontWeight: 500,
-                                    color: "hsl(var(--foreground))",
-                                    overflow: "hidden",
-                                    textOverflow: "ellipsis",
-                                    whiteSpace: "nowrap",
-                                    margin: "0 0 3px",
-                                  }}
-                                >
-                                  {skill.name}
-                                </p>
-                                <p
-                                  style={{
-                                    fontSize: 11,
-                                    color: "hsl(var(--muted-foreground))",
-                                    margin: 0,
-                                  }}
-                                >
-                                  {skill.domain} · {skill.attempted} attempts
-                                </p>
-                              </div>
-                              <div
-                                style={{
-                                  flexShrink: 0,
-                                  width: 46,
-                                  height: 46,
-                                  borderRadius: "50%",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "center",
-                                  border: `2px solid ${col}`,
-                                  background:
-                                    skill.accuracy < 50
-                                      ? "rgba(248,113,113,0.08)"
-                                      : "rgba(251,191,36,0.08)",
-                                }}
-                              >
-                                <span
-                                  style={{
-                                    fontFamily: "'Space Mono', monospace",
-                                    fontSize: 12,
-                                    fontWeight: 700,
-                                    color: col,
-                                  }}
-                                >
-                                  {skill.accuracy}%
-                                </span>
-                              </div>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Strengths */}
-                  {stats.strongSkills.length > 0 && (
-                    <div>
-                      <div style={{ marginBottom: 16 }}>
-                        <div
-                          style={{
-                            display: "flex",
-                            alignItems: "center",
-                            gap: 7,
-                            marginBottom: 4,
-                          }}
-                        >
-                          <TrendingUp size={16} style={{ color: "#4ade80" }} />
-                          <h3
-                            style={{
-                              fontFamily: "'Instrument Serif', serif",
-                              fontSize: "clamp(18px, 2vw, 24px)",
-                              fontWeight: 400,
-                              color: "hsl(var(--foreground))",
-                              margin: 0,
-                            }}
-                          >
-                            Your strengths
-                          </h3>
-                        </div>
-                        <p
-                          style={{
-                            fontSize: 13,
-                            color: "hsl(var(--muted-foreground))",
-                          }}
-                        >
-                          Topics where you're performing well
-                        </p>
-                      </div>
-                      <div
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          gap: 10,
-                        }}
-                      >
-                        {stats.strongSkills.map((skill) => {
-                          const col = accuracyColor(skill.accuracy);
-                          return (
-                            <div
-                              key={skill.name}
-                              style={{
-                                background: "hsl(var(--card))",
-                                border: "1px solid hsl(var(--border))",
-                                borderRadius: 12,
-                                padding: "14px 16px",
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "space-between",
-                                gap: 12,
-                              }}
-                            >
-                              <div style={{ flex: 1, minWidth: 0 }}>
-                                <p
-                                  style={{
-                                    fontSize: 13,
-                                    fontWeight: 500,
-                                    color: "hsl(var(--foreground))",
-                                    overflow: "hidden",
-                                    textOverflow: "ellipsis",
-                                    whiteSpace: "nowrap",
-                                    margin: "0 0 3px",
-                                  }}
-                                >
-                                  {skill.name}
-                                </p>
-                                <p
-                                  style={{
-                                    fontSize: 11,
-                                    color: "hsl(var(--muted-foreground))",
-                                    margin: 0,
-                                  }}
-                                >
-                                  {skill.domain} · {skill.attempted} attempts
-                                </p>
-                              </div>
-                              <div
-                                style={{
-                                  flexShrink: 0,
-                                  width: 46,
-                                  height: 46,
-                                  borderRadius: "50%",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "center",
-                                  border: `2px solid ${col}`,
-                                  background: "rgba(74,222,128,0.08)",
-                                }}
-                              >
-                                <span
-                                  style={{
-                                    fontFamily: "'Space Mono', monospace",
-                                    fontSize: 12,
-                                    fontWeight: 700,
-                                    color: col,
-                                  }}
-                                >
-                                  {skill.accuracy}%
-                                </span>
-                              </div>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )}
+                  <TrendingUp size={16} style={{ color: "#38bdf8" }} />
+                  <h3
+                    style={{
+                      fontFamily: "'Instrument Serif', serif",
+                      fontSize: "clamp(18px, 2vw, 24px)",
+                      fontWeight: 400,
+                      color: "hsl(var(--foreground))",
+                      margin: 0,
+                    }}
+                  >
+                    Question type pacing
+                  </h3>
                 </div>
-              </section>
-            )}
+                <p style={{ fontSize: 13, color: "hsl(var(--muted-foreground))" }}>
+                  The question types you're quickest and slowest at in each subject
+                </p>
+              </div>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+                  gap: 20,
+                }}
+              >
+                <SubjectInsightCard
+                  title="Math"
+                  accent="#60a5fa"
+                  groups={[
+                    { title: "Quickest question types", items: stats.mathQuickestTypes },
+                    { title: "Slowest question types", items: stats.mathSlowestTypes },
+                  ]}
+                />
+                <SubjectInsightCard
+                  title="Reading & Writing"
+                  accent="#fb923c"
+                  groups={[
+                    { title: "Quickest question types", items: stats.readingQuickestTypes },
+                    { title: "Slowest question types", items: stats.readingSlowestTypes },
+                  ]}
+                />
+              </div>
+            </section>
           </div>
         )}
       </main>

@@ -1,4 +1,4 @@
-import { ArrowRight, Target } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 import { Button } from "@/components/ui/button";
@@ -8,13 +8,8 @@ const HardQuestionsIntro = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 py-10 sm:px-6 lg:px-8">
+      <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 pt-20 pb-10 sm:px-6 lg:px-8">
         <section className="rounded-[32px] border border-border/70 bg-card px-6 py-8 shadow-[0_24px_80px_rgba(15,23,42,0.08)] sm:px-8">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-sky-200/70 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-700 dark:border-sky-900/70 dark:bg-sky-950/60 dark:text-sky-200">
-            <Target className="h-3.5 w-3.5" />
-            Hard Math Set
-          </div>
-
           <h1
             className="max-w-3xl text-[clamp(2.4rem,5vw,4.6rem)] leading-[0.94] tracking-[-0.04em] text-foreground"
             style={{ fontFamily: "'Instrument Serif', Georgia, serif" }}

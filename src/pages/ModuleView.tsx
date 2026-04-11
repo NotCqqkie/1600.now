@@ -1,94 +1,120 @@
-import { useMemo, useEffect } from "react";
-import { useParams, Link, useNavigate } from "react-router-dom";
-import { getAllBankQuestions } from "@/data/questionBank";
-import { parseTestName } from "@/data/modules";
+import { useMemo } from "react";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import { buildModulePracticeSet, getPracticeModule } from "@/data/modulePracticeBank";
 import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { ArrowLeft, ArrowRight, BookOpen, Calculator, Play } from "lucide-react";
 
 const ModuleView = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
   const navigate = useNavigate();
-  
-  const mathPool = useMemo(() => getAllBankQuestions("math", "past"), []);
-  const readingPool = useMemo(() => getAllBankQuestions("reading", "past"), []);
-  
-  const allQuestions = useMemo(() => {
-     return [...mathPool, ...readingPool];
-  }, [mathPool, readingPool]);
 
-  const moduleData = useMemo(() => {
-    const questions = allQuestions.filter(q => {
-        const p = parseTestName(q.testName || "");
-        return p && p.id === moduleId;
-    });
-    
-    if (questions.length === 0) return null;
-    
-    const firstParsed = parseTestName(questions[0].testName || "");
-    return {
-        metadata: firstParsed,
-        questions: questions.sort((a, b) => a.questionNumber - b.questionNumber)
-    };
-  }, [allQuestions, moduleId]);
+  const module = useMemo(() => (moduleId ? getPracticeModule(moduleId) : null), [moduleId]);
 
-  // Auto-redirect to practice
-  useEffect(() => {
-    if (moduleData) {
-        const { questions, metadata } = moduleData;
-        const isMath = metadata?.subject === "Math";
-        const pool = isMath ? mathPool : readingPool;
+  const startModule = () => {
+    if (!module) return;
 
-        const practiceSet = questions.map((q, idx) => {
-            // Find global index in the pool
-            // We use sourceId because that is the unique identifier from the raw data
-            const globalIndex = pool.findIndex(pq => pq.sourceId === q.sourceId);
-            
-            if (globalIndex === -1) {
-                console.warn("Question not found in pool", q.sourceId);
-                return null;
-            }
+    const practiceSet = buildModulePracticeSet(module.slug);
+    if (!practiceSet || practiceSet.length === 0) return;
 
-            return {
-                subject: isMath ? "math" : "reading",
-                id: globalIndex + 1, // 1-based index for the URL /bank/math/123
-                sourceId: q.sourceId,
-                bankType: "past",
-                storageId: q.stableId,
-                index: idx
-            };
-        }).filter(Boolean); // Remove nulls
+    sessionStorage.setItem("practiceExitTo", "/modules");
+    sessionStorage.setItem("practiceSet", JSON.stringify(practiceSet));
+    const first = practiceSet[0];
+    navigate(`/bank/${first.subject}/${first.id}?bankType=past&practice=true&idx=0`);
+  };
 
-        if (practiceSet.length > 0) {
-            sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
-            // Navigate to first question immediately
-            const first = practiceSet[0];
-            if (first) {
-                 navigate(`/bank/${first.subject}/${first.id}?bankType=past&practice=true&idx=0`, { replace: true });
-            }
-        }
-    }
-  }, [moduleData, mathPool, readingPool, navigate]);
+  if (!module) {
+    return (
+      <div className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-4 py-12 sm:px-6">
+        <Button variant="ghost" asChild className="w-fit gap-2">
+          <Link to="/modules">
+            <ArrowLeft className="h-4 w-4" />
+            Back to modules
+          </Link>
+        </Button>
 
-  if (!moduleData) {
-      return (
-        <div className="container mx-auto py-12 text-center">
-             {/* If we haven't found data, it might be loading or actually missing. 
-                 Since we don't have async loading here (it's memory based), 
-                 if it's missing, it's really missing. */}
-            <h2 className="text-xl font-semibold">Module not found</h2>
-            <Button variant="link" asChild className="mt-4">
-                <Link to="/modules">Return to Modules</Link>
-            </Button>
-        </div>
-      );
+        <Card className="border-dashed border-border/70">
+          <CardContent className="py-12 text-center">
+            <h2 className="text-xl font-semibold">Practice set not found</h2>
+          </CardContent>
+        </Card>
+      </div>
+    );
   }
 
+  const isMath = module.subject === "math";
+
   return (
-    <div className="flex h-screen w-full items-center justify-center">
-        <div className="flex flex-col items-center gap-4">
-            <Loader2 className="h-8 w-8 animate-spin text-primary" />
-            <p className="text-muted-foreground">Starting module...</p>
-        </div>
+    <div className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
+      <Button variant="ghost" asChild className="w-fit gap-2 px-0">
+        <Link to="/modules">
+          <ArrowLeft className="h-4 w-4" />
+          Back to SAT Module Practice
+        </Link>
+      </Button>
+
+      <Card className="border-border/70">
+        <CardHeader className="gap-4">
+          <div className="flex flex-wrap items-center gap-2">
+            <Badge variant={isMath ? "default" : "secondary"} className="gap-1.5">
+              {isMath ? <Calculator className="h-3.5 w-3.5" /> : <BookOpen className="h-3.5 w-3.5" />}
+              {module.subjectLabel}
+            </Badge>
+            <Badge variant="outline">Module {module.moduleNumber}</Badge>
+          </div>
+
+          <div>
+            <h1
+              style={{
+                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontSize: "clamp(32px, 4vw, 46px)",
+                fontWeight: 400,
+                letterSpacing: "-0.03em",
+                lineHeight: 1,
+                color: "hsl(var(--foreground))",
+              }}
+            >
+              SAT Module Practice
+            </h1>
+            <CardTitle className="mt-4 text-2xl">{module.publicSubtitle}</CardTitle>
+            <CardDescription className="mt-2 text-sm leading-6">
+              {module.publicTitle} with {module.questionCount} questions.
+            </CardDescription>
+          </div>
+        </CardHeader>
+
+        <CardContent className="space-y-5">
+          <div className="grid gap-4 sm:grid-cols-2">
+            <div className="rounded-xl border border-border/60 bg-muted/30 p-4">
+              <div className="text-xs uppercase tracking-[0.16em] text-muted-foreground">Question count</div>
+              <div className="mt-2 text-3xl font-semibold">{module.questionCount}</div>
+            </div>
+            <div className="rounded-xl border border-border/60 bg-muted/30 p-4">
+              <div className="text-xs uppercase tracking-[0.16em] text-muted-foreground">Set</div>
+              <div className="mt-2 text-3xl font-semibold">{module.setNumber}</div>
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-border/60 bg-muted/30 p-4 text-sm leading-6 text-muted-foreground">
+            This practice set opens directly in the SAT question flow and keeps the questions in module order.
+          </div>
+
+          <Button size="lg" className="w-full justify-between" onClick={startModule}>
+            Start practice
+            <span className="flex items-center gap-2">
+              <Play className="h-4 w-4" />
+              <ArrowRight className="h-4 w-4" />
+            </span>
+          </Button>
+        </CardContent>
+      </Card>
     </div>
   );
 };
