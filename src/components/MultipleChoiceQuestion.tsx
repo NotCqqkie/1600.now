@@ -50,7 +50,7 @@ export const MultipleChoiceQuestion = ({
         const renderedHtml = renderMixedContent(choice.text, {
           normalizeMath: subject === "math",
         });
-        element.innerHTML = `<span style="font-family: 'Noto Serif', serif; font-size: 1.1rem; line-height: 1.6; display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
+        element.innerHTML = `<span style="font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.54; display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
       }
     });
   }, [choices, questionId, subject]);
@@ -201,22 +201,28 @@ export const MultipleChoiceQuestion = ({
               <div className="flex-1 break-words overflow-wrap-anywhere">
                 {renderChoiceContent(choice)}
               </div>
-              
-              {onCheck && !wasChecked && !hasCorrectAnswerLocked && (
-                <Button
-                  size="sm"
-                  variant="outline"
-                  className={cn(
-                    "ml-2 px-4 transition-opacity",
-                    isSelected ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+
+              {onCheck && (
+                <div className="ml-2 flex w-[84px] shrink-0 justify-end self-center">
+                  {!wasChecked && !hasCorrectAnswerLocked ? (
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className={cn(
+                        "px-4 transition-opacity",
+                        isSelected ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+                      )}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onCheck(choice.id);
+                      }}
+                    >
+                      Check
+                    </Button>
+                  ) : (
+                    <span aria-hidden="true" className="h-9 w-full opacity-0" />
                   )}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onCheck(choice.id);
-                  }}
-                >
-                  Check
-                </Button>
+                </div>
               )}
             </div>
             
