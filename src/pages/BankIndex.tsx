@@ -16,7 +16,6 @@ import {
   getBankPool as getBankPoolOfficial,
   type BankQuestion as OfficialBankQuestion,
 } from "@/data/officialQuestionBank";
-import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -81,7 +80,28 @@ const createEmptySelection = (): TopicSelectionState => {
 };
 
 const topicCheckboxClass =
-  "h-5 w-5 rounded-md border-sky-300/70 bg-white/85 shadow-sm transition-all data-[state=checked]:border-sky-400 data-[state=checked]:bg-sky-300 data-[state=checked]:text-slate-900 hover:border-sky-400 hover:bg-sky-50 focus-visible:ring-sky-300/70 dark:border-sky-700/70 dark:bg-slate-900/80 dark:data-[state=checked]:border-sky-500 dark:data-[state=checked]:bg-sky-500 dark:data-[state=checked]:text-slate-950 dark:hover:border-sky-500 dark:hover:bg-slate-800";
+  "absolute left-0 top-0 h-5 w-5 rounded-md border border-sky-300/70 bg-white/90 shadow-sm transition-all duration-200 data-[state=checked]:border-sky-400 data-[state=checked]:bg-sky-300 data-[state=checked]:text-slate-900 hover:border-sky-400 hover:bg-sky-50 focus-visible:ring-2 focus-visible:ring-sky-300/70 focus-visible:ring-offset-0 dark:border-slate-500 dark:bg-slate-900 dark:text-slate-100 dark:data-[state=checked]:border-sky-400 dark:data-[state=checked]:bg-sky-400 dark:data-[state=checked]:text-slate-950 dark:hover:border-sky-400 dark:hover:bg-slate-800 dark:shadow-[0_0_0_1px_rgba(148,163,184,0.08)]";
+
+const TopicCheckboxSlot = ({
+  visible,
+  checked,
+  onCheckedChange,
+}: {
+  visible: boolean;
+  checked: boolean;
+  onCheckedChange: (checked: boolean) => void;
+}) => (
+  <div className="relative h-5 w-5 shrink-0">
+    {visible && (
+      <Checkbox
+        checked={checked}
+        onCheckedChange={(next) => onCheckedChange(!!next)}
+        onClick={(e) => e.stopPropagation()}
+        className={topicCheckboxClass}
+      />
+    )}
+  </div>
+);
 
 const BankIndex = () => {
   const navigate = useNavigate();
@@ -505,14 +525,11 @@ const BankIndex = () => {
               }
             }}
           >
-            {isMultiSelect && (
-              <Checkbox
-                checked={topicSelection.math.selected}
-                onCheckedChange={(checked) => toggleSubject("math", !!checked)}
-                onClick={(e) => e.stopPropagation()}
-                className={topicCheckboxClass}
-              />
-            )}
+            <TopicCheckboxSlot
+              visible={isMultiSelect}
+              checked={topicSelection.math.selected}
+              onCheckedChange={(checked) => toggleSubject("math", checked)}
+            />
             <div className="p-2 rounded-lg bg-primary/10">
               <Calculator className="h-6 w-6 text-primary" />
             </div>
@@ -549,14 +566,11 @@ const BankIndex = () => {
           {allMathDomains.map((domain) => (
             <div key={domain} className="px-1 py-1">
               <div className="flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors">
-                {isMultiSelect && (
-                  <Checkbox
-                    checked={topicSelection.math.domains[domain]?.selected || false}
-                    onCheckedChange={(checked) => toggleDomain("math", domain, !!checked)}
-                    onClick={(e) => e.stopPropagation()}
-                    className={topicCheckboxClass}
-                  />
-                )}
+                <TopicCheckboxSlot
+                  visible={isMultiSelect}
+                  checked={topicSelection.math.domains[domain]?.selected || false}
+                  onCheckedChange={(checked) => toggleDomain("math", domain, checked)}
+                />
                 <div className="flex items-center justify-between flex-1">
                   <span 
                     className="font-medium flex-1 py-1 cursor-pointer"
@@ -615,14 +629,11 @@ const BankIndex = () => {
                         }
                       }}
                     >
-                      {isMultiSelect && (
-                        <Checkbox
-                          checked={topicSelection.math.domains[domain]?.skills[skill] || false}
-                          onCheckedChange={(checked) => toggleSkill("math", domain, skill, !!checked)}
-                          onClick={(e) => e.stopPropagation()}
-                          className={topicCheckboxClass}
-                        />
-                      )}
+                      <TopicCheckboxSlot
+                        visible={isMultiSelect}
+                        checked={topicSelection.math.domains[domain]?.skills[skill] || false}
+                        onCheckedChange={(checked) => toggleSkill("math", domain, skill, checked)}
+                      />
                       <span className="text-foreground truncate flex-1 mr-2">
                         {skill}
                       </span>
@@ -662,14 +673,11 @@ const BankIndex = () => {
               }
             }}
           >
-            {isMultiSelect && (
-              <Checkbox
-                checked={topicSelection.reading.selected}
-                onCheckedChange={(checked) => toggleSubject("reading", !!checked)}
-                onClick={(e) => e.stopPropagation()}
-                className={topicCheckboxClass}
-              />
-            )}
+            <TopicCheckboxSlot
+              visible={isMultiSelect}
+              checked={topicSelection.reading.selected}
+              onCheckedChange={(checked) => toggleSubject("reading", checked)}
+            />
             <div className="p-2 rounded-lg bg-secondary/10">
               <FileText className="h-6 w-6 text-secondary" />
             </div>
@@ -706,14 +714,11 @@ const BankIndex = () => {
           {allEnglishDomains.map((domain) => (
             <div key={domain} className="px-1 py-1">
               <div className="flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors">
-                {isMultiSelect && (
-                  <Checkbox
-                    checked={topicSelection.reading.domains[domain]?.selected || false}
-                    onCheckedChange={(checked) => toggleDomain("reading", domain, !!checked)}
-                    onClick={(e) => e.stopPropagation()}
-                    className={topicCheckboxClass}
-                  />
-                )}
+                <TopicCheckboxSlot
+                  visible={isMultiSelect}
+                  checked={topicSelection.reading.domains[domain]?.selected || false}
+                  onCheckedChange={(checked) => toggleDomain("reading", domain, checked)}
+                />
                 <div className="flex items-center justify-between flex-1">
                   <span 
                     className="font-medium flex-1 py-1 cursor-pointer"
@@ -772,14 +777,11 @@ const BankIndex = () => {
                         }
                       }}
                     >
-                      {isMultiSelect && (
-                        <Checkbox
-                          checked={topicSelection.reading.domains[domain]?.skills[skill] || false}
-                          onCheckedChange={(checked) => toggleSkill("reading", domain, skill, !!checked)}
-                          onClick={(e) => e.stopPropagation()}
-                          className={topicCheckboxClass}
-                        />
-                      )}
+                      <TopicCheckboxSlot
+                        visible={isMultiSelect}
+                        checked={topicSelection.reading.domains[domain]?.skills[skill] || false}
+                        onCheckedChange={(checked) => toggleSkill("reading", domain, skill, checked)}
+                      />
                       <span className="text-foreground truncate flex-1 mr-2">
                         {skill}
                       </span>
@@ -861,10 +863,10 @@ const BankIndex = () => {
                   </Button>
                 )}
                 <div className="flex items-center space-x-2 border-l pl-4">
-                  <Switch
+                  <Checkbox
                     id="multi-select-mode"
                     checked={isMultiSelect}
-                    onCheckedChange={setIsMultiSelect}
+                    onCheckedChange={(checked) => setIsMultiSelect(!!checked)}
                   />
                   <Label htmlFor="multi-select-mode">Select multiple topics</Label>
                 </div>

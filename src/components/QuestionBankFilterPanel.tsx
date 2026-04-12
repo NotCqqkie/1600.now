@@ -98,7 +98,7 @@ function FilterCard({
   className?: string;
 }) {
   return (
-    <div className={cn("bg-card border rounded-lg p-4 space-y-2", className)}>
+    <div className={cn("space-y-2", className)}>
       <div className="flex items-center gap-2 text-sm text-muted-foreground">
         <Icon className="h-4 w-4" />
         <span>{label}</span>
@@ -149,8 +149,8 @@ export function QuestionBankFilterPanel({
         <CollapsibleContent>
           <div className="border rounded-lg p-4 bg-muted/30 space-y-4">
             {/* Filter Grid - 2 columns on mobile, 5 on desktop */}
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-              <FilterCard icon={BarChart3} label="Difficulty">
+            <div className="grid grid-cols-2 md:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)] gap-4">
+              <FilterCard icon={BarChart3} label="Difficulty" className="min-w-0">
                 <MultiSelect
                   options={[...difficultyOptions]}
                   selected={filters.difficulty}
@@ -159,14 +159,14 @@ export function QuestionBankFilterPanel({
                 />
               </FilterCard>
 
-              <FilterCard icon={Clock} label="Time Spent Solving">
+              <FilterCard icon={Clock} label="Time Spent Solving" className="min-w-0">
                 <div className="space-y-3 pt-1">
-                  <div className="relative px-3 pt-10">
+                  <div className="relative px-2 pt-11">
                     <div
                       className="pointer-events-none absolute left-0 top-0 z-10 -translate-x-1/2"
                       style={{ left: getSliderBubbleLeft(minTimeSpent) }}
                     >
-                      <span className="inline-flex min-w-[3.5rem] items-center justify-center rounded-full border border-border/60 bg-background px-3 py-1 text-xs font-semibold text-foreground shadow-sm">
+                      <span className="inline-flex min-w-[4.5rem] whitespace-nowrap items-center justify-center rounded-full border border-border/60 bg-background px-3.5 py-1.5 text-xs font-semibold text-foreground shadow-sm">
                         {formatTimeSpentValue(minTimeSpent)}
                       </span>
                     </div>
@@ -174,7 +174,7 @@ export function QuestionBankFilterPanel({
                       className="pointer-events-none absolute left-0 top-0 z-10 -translate-x-1/2"
                       style={{ left: getSliderBubbleLeft(maxTimeSpent) }}
                     >
-                      <span className="inline-flex min-w-[3.5rem] items-center justify-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold text-foreground shadow-sm">
+                      <span className="inline-flex min-w-[4.5rem] whitespace-nowrap items-center justify-center rounded-full border border-primary/20 bg-primary/10 px-3.5 py-1.5 text-xs font-semibold text-foreground shadow-sm">
                         {formatTimeSpentValue(maxTimeSpent, true)}
                       </span>
                     </div>
@@ -194,7 +194,7 @@ export function QuestionBankFilterPanel({
                 </div>
               </FilterCard>
 
-              <FilterCard icon={Bookmark} label="Marked for Review">
+              <FilterCard icon={Bookmark} label="Marked for Review" className="min-w-0">
                 <Select
                   value={filters.markedForReview}
                   onValueChange={(v) => updateFilter("markedForReview", v as typeof filters.markedForReview)}
@@ -210,7 +210,7 @@ export function QuestionBankFilterPanel({
                 </Select>
               </FilterCard>
 
-              <FilterCard icon={CheckCircle} label="Solved">
+              <FilterCard icon={CheckCircle} label="Solved" className="min-w-0">
                 <Select
                   value={filters.solved}
                   onValueChange={(v) => updateFilter("solved", v as typeof filters.solved)}
@@ -226,7 +226,7 @@ export function QuestionBankFilterPanel({
                 </Select>
               </FilterCard>
 
-              <FilterCard icon={XCircle} label="Answered Incorrectly">
+              <FilterCard icon={XCircle} label="Answered Incorrectly" className="min-w-0">
                 <Select
                   value={filters.answeredIncorrectly}
                   onValueChange={(v) => updateFilter("answeredIncorrectly", v as typeof filters.answeredIncorrectly)}

@@ -210,9 +210,10 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
 
         <div className="flex h-9 items-start overflow-hidden">
           <BrandLogo
-            variant={showExpandedContent ? "full" : "mark"}
-            className={showExpandedContent ? "h-9 w-[148px]" : "h-9 w-9"}
-            imageClassName={showExpandedContent ? "origin-left scale-[1.30] object-left -translate-x-[5px]" : undefined}
+            variant="adaptive"
+            collapsed={!showExpandedContent}
+            className="h-9 w-[148px]"
+            imageClassName="origin-left scale-[1.30] object-left -translate-x-[5px]"
           />
         </div>
 
