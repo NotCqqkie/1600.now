@@ -8,15 +8,22 @@ import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet";
 import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationWindow } from "@/components/ExplanationWindow";
+import { ReadingPassageAnnotator } from "@/components/ReadingPassageAnnotator";
+import { QuestionNotesWindow } from "@/components/QuestionNotesWindow";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { PreviousAttemptsDialog } from "@/components/PreviousAttemptsDialog";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
-import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info } from "lucide-react";
+import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info, Highlighter, Moon, MoreHorizontal, StickyNote, Sun } from "lucide-react";
 import { toast } from "sonner";
 import {
   DropdownMenu,
+  DropdownMenuCheckboxItem,
   DropdownMenuContent,
   DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import {
@@ -24,7 +31,6 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog";
 import { questions as originalQuestions } from "@/data/100 Hard";
 import {
@@ -42,7 +48,9 @@ import {
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
+import { applyTheme } from "@/lib/theme";
 import { useUserProgress } from "@/hooks/useUserProgress";
+import { useThemeMode } from "@/hooks/useThemeMode";
 import "katex/dist/katex.min.css";
 
 const hardQuestions = originalQuestions.map(q => ({
@@ -263,11 +271,17 @@ const getQuestionViewModeStorageKey = (
   return "question-view-mode:hard";
 };
 
+const getDefaultQuestionSplitPosition = (subject: "math" | "reading") =>
+  subject === "reading" ? 55 : 50;
+
+const READING_ANNOTATION_MODE_STORAGE_KEY = "question-reading-annotation-mode";
+
 function Question() {
   const { id, subject: rawSubject } = useParams<{ id: string; subject?: string }>();
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();
+  const isDark = useThemeMode();
 
   const isBank = location.pathname.startsWith('/bank');
   const isOfficialBank = location.pathname.startsWith('/official-bank');
@@ -336,17 +350,26 @@ function Question() {
   const [topShouldCompress, setTopShouldCompress] = useState(false);
   const [shouldPinBottomNavCenter, setShouldPinBottomNavCenter] = useState(true);
   const [shouldPinTopTimerCenter, setShouldPinTopTimerCenter] = useState(true);
-  const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation']);
+  const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation', 'note']);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [questionViewMode, setQuestionViewMode] = useState<QuestionViewMode>(() =>
     getDefaultQuestionViewMode(subject, isBank, isOfficialBank),
   );
-  const [questionSplitPosition, setQuestionSplitPosition] = useState(50);
+  const [questionSplitPosition, setQuestionSplitPosition] = useState(() =>
+    getDefaultQuestionSplitPosition(subject),
+  );
   const [isResizingQuestionSplit, setIsResizingQuestionSplit] = useState(false);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [isTimerPaused, setIsTimerPaused] = useState(false);
   const [isTimerVisible, setIsTimerVisible] = useState(true);
   const [groupedOrderVersion, setGroupedOrderVersion] = useState(0);
+  const [isQuestionInfoOpen, setIsQuestionInfoOpen] = useState(false);
+  const [isNoteWindowOpen, setIsNoteWindowOpen] = useState(false);
+  const [isAnnotationModeEnabled, setIsAnnotationModeEnabled] = useState<boolean>(() => {
+    if (typeof window === "undefined") return true;
+    const stored = localStorage.getItem(READING_ANNOTATION_MODE_STORAGE_KEY);
+    return stored === null ? true : stored === "true";
+  });
   const bottomNavRef = useRef<HTMLDivElement>(null);
   const bottomNavGridRef = useRef<HTMLDivElement>(null);
   const bottomNavLeftRef = useRef<HTMLDivElement>(null);
@@ -469,6 +492,18 @@ function Question() {
         : defaultMode,
     );
   }, [isBank, isOfficialBank, subject]);
+
+  useEffect(() => {
+    if (questionViewMode !== "horizontal") return;
+    setQuestionSplitPosition(getDefaultQuestionSplitPosition(subject));
+  }, [questionNumber, questionViewMode, subject, isBank, isOfficialBank]);
+
+  useEffect(() => {
+    localStorage.setItem(
+      READING_ANNOTATION_MODE_STORAGE_KEY,
+      String(isAnnotationModeEnabled),
+    );
+  }, [isAnnotationModeEnabled]);
 
   const handleQuestionViewModeChange = (mode: QuestionViewMode) => {
     const storageKey = getQuestionViewModeStorageKey(subject, isBank, isOfficialBank);
@@ -728,7 +763,7 @@ function Question() {
   }, [isSplitScreenActive]);
 
   if (!currentQuestion) {
-    const fallbackDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/bank";
+    const fallbackDestination = practiceExitTo || (isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/bank");
     return <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">Question not found</h1>
@@ -809,6 +844,28 @@ function Question() {
     );
   };
 
+  const getRenderedContentHtml = (
+    content: string,
+    options: {
+      center?: boolean;
+      emphasizeHeaders?: boolean;
+    } = {},
+  ) => {
+    if (!content) return "";
+    const { emphasizeHeaders = true } = options;
+    const formattedContent =
+      subject === "reading"
+        ? emphasizeHeaders
+          ? emphasizeReadingHeaders(normalizeReadingDisplayText(content))
+          : normalizeReadingDisplayText(content)
+        : content;
+    return promoteLeadingReadingHeader(
+      renderMixedContent(formattedContent, {
+        normalizeMath: subject === "math",
+      }),
+    );
+  };
+
   const renderContent = (
     content: string,
     options: {
@@ -817,22 +874,12 @@ function Question() {
     } = {},
   ) => {
     if (!content) return null;
-    const { center = false, emphasizeHeaders = true } = options;
-    const formattedContent =
-      subject === "reading"
-        ? emphasizeHeaders
-          ? emphasizeReadingHeaders(normalizeReadingDisplayText(content))
-          : normalizeReadingDisplayText(content)
-        : content;
-    const html = promoteLeadingReadingHeader(
-      renderMixedContent(formattedContent, {
-        normalizeMath: subject === "math",
-      }),
-    );
+    const { center = false } = options;
+    const html = getRenderedContentHtml(content, options);
     return (
       <div 
         className={cn("text-foreground break-words prose prose-stone dark:prose-invert max-w-none", center && "text-center")}
-        style={{ fontFamily: "'Noto Serif', serif", fontSize: "1.1rem", lineHeight: "1.8" }}
+        style={{ fontFamily: "'Noto Serif', serif", fontSize: "1rem", lineHeight: "1.73" }}
       >
         <span 
           style={{ display: "block", width: "100%" }}
@@ -996,7 +1043,11 @@ function Question() {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
-      if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
+      if (target.tagName === 'TEXTAREA') {
+        return;
+      }
+
+      if (target.tagName === 'INPUT') {
         if (e.key === 'Enter') {
           e.preventDefault();
           handleCheck();
@@ -1113,6 +1164,15 @@ function Question() {
     ? Boolean(readingQuestionSentence)
     : Boolean(questionTextContent) &&
       (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
+  const readingPassageContent = subject === "reading"
+    ? (passageContent ?? stemContent)
+    : undefined;
+  const readingPassageHtml = readingPassageContent
+    ? getRenderedContentHtml(readingPassageContent)
+    : "";
+  const annotationStorageKey = `${localStateKey}-passage-annotations`;
+  const noteStorageKey = `${localStateKey}-note`;
+  const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
       
   const renderQuestionImages = () => {
     if (!questionImages?.length) return null;
@@ -1135,7 +1195,14 @@ function Question() {
     );
   };
   
-  const backDestination = isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/bank";
+  const backDestination = practiceExitTo || (isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/bank");
+  const openNoteWindow = () => {
+    bringToFront("note");
+    setIsNoteWindowOpen(true);
+  };
+  const toggleTheme = () => {
+    applyTheme(!isDark);
+  };
   const timerControls = (
     <>
       <Button
@@ -1162,29 +1229,24 @@ function Question() {
     </>
   );
   const questionInfoDialog = questionInfo ? (
-    <Dialog>
-      <DialogTrigger asChild>
-        <Button variant="outline" size="sm" title="Question Info">
-          <Info className="h-4 w-4" />
-        </Button>
-      </DialogTrigger>
-      <DialogContent className="max-h-[85vh] max-w-3xl overflow-hidden border-white/10 bg-[#101010] p-8 text-white shadow-2xl sm:rounded-[28px] [&>button]:right-5 [&>button]:top-5 [&>button]:h-12 [&>button]:w-12 [&>button]:rounded-2xl [&>button]:border [&>button]:border-white/30 [&>button]:bg-transparent [&>button]:text-white/80 [&>button]:opacity-100 [&>button]:ring-0 [&>button]:ring-offset-0 [&>button]:transition-colors [&>button]:hover:bg-white/10 [&>button]:hover:text-white [&>button_svg]:h-7 [&>button_svg]:w-7">
+    <Dialog open={isQuestionInfoOpen} onOpenChange={setIsQuestionInfoOpen}>
+      <DialogContent className="max-h-[85vh] max-w-3xl overflow-hidden border-white/10 bg-[#101010] p-7 text-white shadow-2xl sm:rounded-[28px] [&>button]:right-5 [&>button]:top-5 [&>button]:flex [&>button]:h-11 [&>button]:w-11 [&>button]:items-center [&>button]:justify-center [&>button]:rounded-2xl [&>button]:border [&>button]:border-white/30 [&>button]:bg-transparent [&>button]:p-0 [&>button]:text-white/80 [&>button]:opacity-100 [&>button]:ring-0 [&>button]:ring-offset-0 [&>button]:transition-colors [&>button]:hover:bg-white/10 [&>button]:hover:text-white [&>button_svg]:h-5 [&>button_svg]:w-5">
         <DialogHeader className="space-y-0">
-          <DialogTitle className="text-[2.1rem] font-semibold tracking-[-0.03em] text-white">
+          <DialogTitle className="text-[1.7rem] font-semibold tracking-[-0.025em] text-white">
             Question Info
           </DialogTitle>
         </DialogHeader>
         <div className="max-h-[70vh] overflow-y-auto pt-2">
-          <div className="grid gap-x-12 gap-y-10 sm:grid-cols-2">
+          <div className="grid gap-x-10 gap-y-8 sm:grid-cols-2">
             {questionInfo.fields.map((field) => (
               <div
                 key={field.label}
-                className="min-w-0 space-y-2"
+                className="min-w-0 space-y-1.5"
               >
-                <p className="text-[0.95rem] font-medium tracking-[-0.01em] text-white/60">
+                <p className="text-[0.82rem] font-medium tracking-[-0.01em] text-white/60">
                   {field.label}
                 </p>
-                <p className="break-words text-[1.55rem] font-medium leading-tight tracking-[-0.02em] text-white">
+                <p className="break-words text-[1.15rem] font-medium leading-snug tracking-[-0.015em] text-white">
                   {field.value}
                 </p>
               </div>
@@ -1197,6 +1259,15 @@ function Question() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
+      {questionInfoDialog}
+      <QuestionNotesWindow
+        isOpen={isNoteWindowOpen}
+        onClose={() => setIsNoteWindowOpen(false)}
+        storageKey={noteStorageKey}
+        onFocus={() => bringToFront("note")}
+        zIndex={getZIndex("note")}
+        constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+      />
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div 
           className="container mx-auto px-4 py-4"
@@ -1225,56 +1296,99 @@ function Question() {
                 </div>
               )}
               <div ref={topRightControlsRef} className="flex items-center gap-2">
-                <FormulaSheetDialog 
-                  onSplitScreenChange={handleSplitScreenChange}
-                  splitPosition={splitPosition}
-                  onFocus={() => bringToFront('referenceSheet')}
-                  zIndex={getZIndex('referenceSheet')}
-                  constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
-                  compressed={topShouldCompress}
-                />
-                <DesmosDialog 
-                  onSplitScreenChange={handleSplitScreenChange}
-                  onSplitPositionChange={handleSplitPositionChange}
-                  splitPosition={splitPosition}
-                  onFocus={() => bringToFront('desmos')}
-                  zIndex={getZIndex('desmos')}
-                  constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
-                  isSidebarred={sidebarredWindows.has('desmos')}
-                  onSidebarToggle={handleSidebarToggle}
-                  compressed={topShouldCompress}
-                />
+                {subject === "math" && (
+                  <>
+                    <FormulaSheetDialog
+                      onSplitScreenChange={handleSplitScreenChange}
+                      splitPosition={splitPosition}
+                      onFocus={() => bringToFront('referenceSheet')}
+                      zIndex={getZIndex('referenceSheet')}
+                      constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                      compressed={topShouldCompress}
+                    />
+                    <DesmosDialog
+                      onSplitScreenChange={handleSplitScreenChange}
+                      onSplitPositionChange={handleSplitPositionChange}
+                      splitPosition={splitPosition}
+                      onFocus={() => bringToFront('desmos')}
+                      zIndex={getZIndex('desmos')}
+                      constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                      isSidebarred={sidebarredWindows.has('desmos')}
+                      onSidebarToggle={handleSidebarToggle}
+                      compressed={topShouldCompress}
+                    />
+                  </>
+                )}
+                {isReadingPassageAnnotatable && (
+                  <Button
+                    variant={isAnnotationModeEnabled ? "default" : "outline"}
+                    size="sm"
+                    onClick={() => setIsAnnotationModeEnabled((prev) => !prev)}
+                    title={isAnnotationModeEnabled ? "Turn annotation mode off" : "Turn annotation mode on"}
+                  >
+                    <Highlighter className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                    {!topShouldCompress && "Annotate"}
+                  </Button>
+                )}
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" title="Question View">
-                      {questionViewMode === 'vertical' ? (
-                        <Rows3 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
-                      ) : (
-                        <Columns3 className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
-                      )}
-                      {!topShouldCompress && "View"}
+                    <Button variant="outline" size="sm" title="More">
+                      <MoreHorizontal className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                      {!topShouldCompress && "More"}
                     </Button>
                   </DropdownMenuTrigger>
-                  <DropdownMenuContent align="end">
-                    <DropdownMenuItem onClick={() => handleQuestionViewModeChange('vertical')} className={questionViewMode === 'vertical' ? 'bg-muted' : ''}>
-                      <Rows3 className="mr-2 h-4 w-4" />
-                      Vertical
+                  <DropdownMenuContent align="end" className="w-56">
+                    <DropdownMenuLabel>More</DropdownMenuLabel>
+                    <DropdownMenuItem onClick={openNoteWindow}>
+                      <StickyNote className="mr-2 h-4 w-4" />
+                      Add Note
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => handleQuestionViewModeChange('horizontal')} className={questionViewMode === 'horizontal' ? 'bg-muted' : ''}>
-                      <Columns3 className="mr-2 h-4 w-4" />
-                      Horizontal
+                    {questionInfo && (
+                      <DropdownMenuItem onClick={() => setIsQuestionInfoOpen(true)}>
+                        <Info className="mr-2 h-4 w-4" />
+                        Question Info
+                      </DropdownMenuItem>
+                    )}
+                    <DropdownMenuSeparator />
+                    <DropdownMenuLabel>View Mode</DropdownMenuLabel>
+                    <DropdownMenuRadioGroup
+                      value={questionViewMode}
+                      onValueChange={(value) =>
+                        handleQuestionViewModeChange(value as QuestionViewMode)
+                      }
+                    >
+                      <DropdownMenuRadioItem value="vertical">
+                        <Rows3 className="mr-2 h-4 w-4" />
+                        Vertical
+                      </DropdownMenuRadioItem>
+                      <DropdownMenuRadioItem value="horizontal">
+                        <Columns3 className="mr-2 h-4 w-4" />
+                        Horizontal
+                      </DropdownMenuRadioItem>
+                    </DropdownMenuRadioGroup>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuCheckboxItem
+                      checked={isDark}
+                      onSelect={(event) => event.preventDefault()}
+                      onCheckedChange={toggleTheme}
+                    >
+                      {isDark ? (
+                        <Moon className="mr-2 h-4 w-4" />
+                      ) : (
+                        <Sun className="mr-2 h-4 w-4" />
+                      )}
+                      Dark Mode
+                    </DropdownMenuCheckboxItem>
+                    <DropdownMenuItem onClick={toggleFullscreen}>
+                      {isFullscreen ? (
+                        <Minimize2 className="mr-2 h-4 w-4" />
+                      ) : (
+                        <Maximize2 className="mr-2 h-4 w-4" />
+                      )}
+                      {isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen"}
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
-                {questionInfoDialog}
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={toggleFullscreen}
-                  title={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
-                >
-                  {isFullscreen ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
-                </Button>
               </div>
             </div>
 
@@ -1296,25 +1410,27 @@ function Question() {
               style={{ visibility: 'hidden', pointerEvents: 'none' }}
             >
               <div className="h-8 w-14 rounded-full border" />
-              <Button variant="outline" size="sm">
-                <span className="mr-2 inline-block h-4 w-4" />
-                Reference Sheet
-              </Button>
-              <Button variant="outline" size="sm">
-                <span className="mr-2 inline-block h-4 w-4" />
-                Desmos
-              </Button>
-              <Button variant="outline" size="sm">
-                <span className="mr-2 inline-block h-4 w-4" />
-                View
-              </Button>
-              {questionInfo && (
+              {subject === "math" && (
+                <>
+                  <Button variant="outline" size="sm">
+                    <span className="mr-2 inline-block h-4 w-4" />
+                    Reference Sheet
+                  </Button>
+                  <Button variant="outline" size="sm">
+                    <span className="mr-2 inline-block h-4 w-4" />
+                    Desmos
+                  </Button>
+                </>
+              )}
+              {isReadingPassageAnnotatable && (
                 <Button variant="outline" size="sm">
-                  <Info className="h-4 w-4" />
+                  <span className="mr-2 inline-block h-4 w-4" />
+                  Annotate
                 </Button>
               )}
               <Button variant="outline" size="sm">
-                <span className="inline-block h-4 w-4" />
+                <span className="mr-2 inline-block h-4 w-4" />
+                More
               </Button>
               <div className="inline-flex items-center gap-2">
                 <div className="h-9 w-9 rounded-md border" />
@@ -1341,7 +1457,15 @@ function Question() {
                 style={{ width: `${questionSplitPosition}%` }}
               >
                 {renderQuestionImages()}
-                {renderContent(stemContent)}
+                {subject === "reading" ? (
+                  <ReadingPassageAnnotator
+                    html={readingPassageHtml}
+                    storageKey={annotationStorageKey}
+                    enabled={isAnnotationModeEnabled}
+                  />
+                ) : (
+                  renderContent(stemContent)
+                )}
               </div>
 
               <div 
@@ -1456,7 +1580,11 @@ function Question() {
                   {passageContent ? (
                     <>
                       {renderQuestionImages()}
-                      {renderContent(passageContent)}
+                      <ReadingPassageAnnotator
+                        html={readingPassageHtml}
+                        storageKey={annotationStorageKey}
+                        enabled={isAnnotationModeEnabled}
+                      />
                       {showQuestionTextAboveChoices && readingQuestionSentence && (
                         <div className="mt-4">{renderContent(readingQuestionSentence, { emphasizeHeaders: false })}</div>
                       )}
@@ -1464,7 +1592,15 @@ function Question() {
                   ) : (
                     <>
                       {renderQuestionImages()}
-                      {renderContent(stemContent)}
+                      {subject === "reading" ? (
+                        <ReadingPassageAnnotator
+                          html={readingPassageHtml}
+                          storageKey={annotationStorageKey}
+                          enabled={isAnnotationModeEnabled}
+                        />
+                      ) : (
+                        renderContent(stemContent)
+                      )}
                     </>
                   )}
               </div>
