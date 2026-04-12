@@ -19,7 +19,6 @@ import {
   Clock,
   Zap,
   BookOpen,
-  BarChart3,
   ArrowRight,
   TrendingDown,
   TrendingUp,
@@ -68,9 +67,6 @@ const fmtTime = (seconds: number): string => {
 
 const accuracyColor = (pct: number) =>
   pct >= 70 ? "#4ade80" : pct >= 50 ? "#fbbf24" : "#f87171";
-
-const formatAverageAttempts = (attempts: number | null) =>
-  attempts == null ? "—" : `${attempts.toFixed(1)}x`;
 
 type InsightItem = {
   title: string;
@@ -564,15 +560,14 @@ const Analysis = () => {
       totalCorrect = 0,
       totalTime = 0,
       correctFirstTry = 0,
-      solvedCount = 0,
-      totalAttemptsToCorrect = 0;
+      solvedCount = 0;
 
     const subjectTotals: Record<
       BankSubject,
-      { attempted: number; totalTime: number }
+      { attempted: number; totalTime: number; correct: number }
     > = {
-      math: { attempted: 0, totalTime: 0 },
-      reading: { attempted: 0, totalTime: 0 },
+      math: { attempted: 0, totalTime: 0, correct: 0 },
+      reading: { attempted: 0, totalTime: 0, correct: 0 },
     };
 
     const domainStats: Record<
@@ -602,7 +597,6 @@ const Analysis = () => {
       if (isSolved) {
         totalCorrect++;
         solvedCount++;
-        totalAttemptsToCorrect += firstCorrectAttemptIndex + 1;
         if (isFirstTry) correctFirstTry++;
       }
 
@@ -610,6 +604,7 @@ const Analysis = () => {
         const { subject, domain, skill } = meta;
         subjectTotals[subject].attempted++;
         subjectTotals[subject].totalTime += qp.totalTimeSpentSeconds;
+        if (isSolved) subjectTotals[subject].correct++;
 
         if (!domainStats[domain])
           domainStats[domain] = { attempted: 0, correct: 0, subject, totalTime: 0 };
@@ -686,9 +681,6 @@ const Analysis = () => {
     const rankTop = <T,>(items: T[], compare: (left: T, right: T) => number) =>
       [...items].sort(compare).slice(0, 3);
 
-    const averageAttemptsToCorrect =
-      solvedCount > 0 ? totalAttemptsToCorrect / solvedCount : null;
-
     const avgTimePerQuestion = {
       math:
         subjectTotals.math.attempted > 0
@@ -697,6 +689,17 @@ const Analysis = () => {
       reading:
         subjectTotals.reading.attempted > 0
           ? subjectTotals.reading.totalTime / subjectTotals.reading.attempted
+          : null,
+    };
+
+    const subjectAccuracy = {
+      math:
+        subjectTotals.math.attempted > 0
+          ? Math.round((subjectTotals.math.correct / subjectTotals.math.attempted) * 100)
+          : null,
+      reading:
+        subjectTotals.reading.attempted > 0
+          ? Math.round((subjectTotals.reading.correct / subjectTotals.reading.attempted) * 100)
           : null,
     };
 
@@ -771,10 +774,8 @@ const Analysis = () => {
       totalCorrect,
       totalTime,
       correctFirstTry,
-      mathAttempted: subjectTotals.math.attempted,
-      readingAttempted: subjectTotals.reading.attempted,
-      averageAttemptsToCorrect,
       avgTimePerQuestion,
+      subjectAccuracy,
       progressionData,
       mathDomains,
       readingDomains,
@@ -894,6 +895,7 @@ const Analysis = () => {
           </h1>
 
           <div
+            className="grid grid-cols-2 md:grid-cols-4"
             style={{
               background: isDarkMode ? "rgba(255,255,255,0.05)" : "rgba(255,255,255,0.8)",
               border: isDarkMode
@@ -902,8 +904,6 @@ const Analysis = () => {
               borderRadius: 24,
               padding: "22px 24px",
               boxShadow: isDarkMode ? "none" : "0 22px 48px rgba(15,23,42,0.08)",
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
               columnGap: 28,
               rowGap: 20,
             }}
@@ -932,21 +932,6 @@ const Analysis = () => {
               isDarkMode={isDarkMode}
             />
             <StatTile
-              value={formatAverageAttempts(stats.averageAttemptsToCorrect)}
-              label="Attempts to Correct"
-              icon={<BarChart3 size={13} />}
-              empty={isEmpty || stats.averageAttemptsToCorrect == null}
-              isDarkMode={isDarkMode}
-            />
-            <StatTile
-              value={stats.totalCorrect.toLocaleString()}
-              label="Solved"
-              icon={<Target size={13} />}
-              color={accuracyColor(accuracy)}
-              empty={isEmpty}
-              isDarkMode={isDarkMode}
-            />
-            <StatTile
               value={fmtTime(Math.round(stats.avgTimePerQuestion.math ?? 0))}
               label="Math Time / Q"
               icon={<Clock size={13} />}
@@ -961,17 +946,19 @@ const Analysis = () => {
               isDarkMode={isDarkMode}
             />
             <StatTile
-              value={stats.mathAttempted.toLocaleString()}
-              label="Math Questions"
-              icon={<BookOpen size={13} />}
-              empty={isEmpty}
+              value={`${stats.subjectAccuracy.math ?? 0}%`}
+              label="Math Accuracy"
+              icon={<TrendingUp size={13} />}
+              color={accuracyColor(stats.subjectAccuracy.math ?? 0)}
+              empty={isEmpty || stats.subjectAccuracy.math == null}
               isDarkMode={isDarkMode}
             />
             <StatTile
-              value={stats.readingAttempted.toLocaleString()}
-              label="Reading Questions"
-              icon={<BookOpen size={13} />}
-              empty={isEmpty}
+              value={`${stats.subjectAccuracy.reading ?? 0}%`}
+              label="Reading Accuracy"
+              icon={<TrendingDown size={13} />}
+              color={accuracyColor(stats.subjectAccuracy.reading ?? 0)}
+              empty={isEmpty || stats.subjectAccuracy.reading == null}
               isDarkMode={isDarkMode}
             />
             <StatTile
