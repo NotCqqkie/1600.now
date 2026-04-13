@@ -23,6 +23,7 @@ interface ReadingPassageAnnotatorProps {
   storageKey: string;
   enabled: boolean;
   className?: string;
+  storageArea?: Storage;
 }
 
 const ANNOTATION_COLORS: Record<
@@ -60,11 +61,11 @@ const clampPopupY = (y: number) => Math.max(16, y);
 const isAnnotationColor = (value: unknown): value is AnnotationColor =>
   value === "yellow" || value === "green" || value === "blue" || value === "pink";
 
-const loadAnnotations = (storageKey: string): PassageAnnotation[] => {
+const loadAnnotations = (storageArea: Storage, storageKey: string): PassageAnnotation[] => {
   if (typeof window === "undefined") return [];
 
   try {
-    const raw = localStorage.getItem(storageKey);
+    const raw = storageArea.getItem(storageKey);
     if (!raw) return [];
 
     const parsed = JSON.parse(raw);
@@ -87,9 +88,13 @@ const loadAnnotations = (storageKey: string): PassageAnnotation[] => {
   }
 };
 
-const saveAnnotations = (storageKey: string, annotations: PassageAnnotation[]) => {
+const saveAnnotations = (
+  storageArea: Storage,
+  storageKey: string,
+  annotations: PassageAnnotation[],
+) => {
   if (typeof window === "undefined") return;
-  localStorage.setItem(storageKey, JSON.stringify(annotations));
+  storageArea.setItem(storageKey, JSON.stringify(annotations));
 };
 
 const getTextLength = (root: HTMLElement) => root.textContent?.length ?? 0;
@@ -163,11 +168,14 @@ export const ReadingPassageAnnotator = ({
   storageKey,
   enabled,
   className,
+  storageArea = localStorage,
 }: ReadingPassageAnnotatorProps) => {
   const rootRef = useRef<HTMLDivElement>(null);
   const selectionPopupRef = useRef<HTMLDivElement>(null);
   const deletePopupRef = useRef<HTMLDivElement>(null);
-  const [annotations, setAnnotations] = useState<PassageAnnotation[]>(() => loadAnnotations(storageKey));
+  const [annotations, setAnnotations] = useState<PassageAnnotation[]>(() =>
+    loadAnnotations(storageArea, storageKey),
+  );
   const [pendingSelection, setPendingSelection] = useState<{
     start: number;
     end: number;
@@ -180,14 +188,14 @@ export const ReadingPassageAnnotator = ({
   } | null>(null);
 
   useEffect(() => {
-    setAnnotations(loadAnnotations(storageKey));
+    setAnnotations(loadAnnotations(storageArea, storageKey));
     setPendingSelection(null);
     setAnnotationToDelete(null);
-  }, [storageKey]);
+  }, [storageArea, storageKey]);
 
   useEffect(() => {
-    saveAnnotations(storageKey, annotations);
-  }, [annotations, storageKey]);
+    saveAnnotations(storageArea, storageKey, annotations);
+  }, [annotations, storageArea, storageKey]);
 
   useEffect(() => {
     if (enabled) return;

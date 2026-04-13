@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
-  buildModulePracticeSet,
+  getPracticeModule,
   getPracticeSets,
   type PracticeModule,
 } from "@/data/modulePracticeBank";
@@ -9,6 +9,8 @@ import {
   classifyModuleCompletion,
   getModuleProgressCounts,
 } from "@/lib/moduleProgress";
+import { getModulePracticeSession } from "@/lib/modulePracticeSession";
+import { launchModulePractice } from "@/lib/modulePracticeNavigation";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -22,7 +24,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, PlayCircle } from "lucide-react";
 
 const practiceSets = getPracticeSets();
 
@@ -51,6 +53,22 @@ const Modules = () => {
     );
   }, [progressRefreshKey]);
 
+  const mostRecentSession = useMemo(() => {
+    const sessions = practiceSets
+      .flatMap((practiceSet) => practiceSet.modules)
+      .map((module) => ({
+        module,
+        session: getModulePracticeSession(module.slug),
+      }))
+      .filter(
+        (entry): entry is { module: PracticeModule; session: NonNullable<ReturnType<typeof getModulePracticeSession>> } =>
+          Boolean(entry.session) && entry.session.status !== "submitted",
+      )
+      .sort((left, right) => right.session.startedAt - left.session.startedAt);
+
+    return sessions[0] ?? null;
+  }, [progressRefreshKey]);
+
   const filteredPracticeSets = useMemo(() => {
     return practiceSets
       .map((practiceSet) => ({
@@ -74,13 +92,21 @@ const Modules = () => {
   }, [moduleFilter, subjectFilter, completionFilter, moduleProgressBySlug]);
 
   const openModule = (module: PracticeModule) => {
-    const practiceSet = buildModulePracticeSet(module.slug);
-    if (!practiceSet || practiceSet.length === 0) return;
+    navigate(`/modules/${module.slug}`);
+  };
 
-    sessionStorage.setItem("practiceExitTo", "/modules");
-    sessionStorage.setItem("practiceSet", JSON.stringify(practiceSet));
-    const first = practiceSet[0];
-    navigate(`/bank/${first.subject}/${first.id}?bankType=past&practice=true&idx=0`);
+  const resumeMostRecentSession = () => {
+    if (!mostRecentSession) return;
+    const module = getPracticeModule(mostRecentSession.module.slug);
+    if (!module) return;
+
+    launchModulePractice({
+      module,
+      navigate,
+      resumeExisting: true,
+      savedSession: mostRecentSession.session,
+      settings: mostRecentSession.session.settings,
+    });
   };
 
   return (
@@ -102,6 +128,33 @@ const Modules = () => {
           Practice full SAT modules grouped into complete reading and math sets.
         </p>
       </div>
+
+      {mostRecentSession ? (
+        <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30">
+          <CardContent className="flex flex-col gap-4 py-6 sm:flex-row sm:items-center sm:justify-between">
+            <div className="min-w-0">
+              <div className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                Resume Most Recent Module
+              </div>
+              <div className="mt-2 text-xl font-semibold tracking-[-0.02em] text-foreground">
+                {mostRecentSession.module.publicTitle}
+              </div>
+              <div className="mt-1 text-sm text-muted-foreground">
+                Question {mostRecentSession.session.currentIndex + 1} of {mostRecentSession.session.questionCount}
+                {" · "}
+                {mostRecentSession.session.settings.timed
+                  ? `${Math.max(0, Math.floor((mostRecentSession.session.remainingSeconds ?? 0) / 60))} min remaining`
+                  : "Untimed"}
+              </div>
+            </div>
+
+            <Button className="gap-2 self-start sm:self-auto" onClick={resumeMostRecentSession}>
+              <PlayCircle className="h-4 w-4" />
+              Continue
+            </Button>
+          </CardContent>
+        </Card>
+      ) : null}
 
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         <Select value={subjectFilter} onValueChange={(value) => setSubjectFilter(value as typeof subjectFilter)}>

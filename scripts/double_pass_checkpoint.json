@@ -1,0 +1,468 @@
+{
+  "qwen_rerun": {
+    "24": {
+      "model_answer": "D",
+      "calc": "1. Calculate $f(4)$: $f(4) = 4 + 3 = 7$.\n2. Multiply $f(4)$ by 7: $7 \\cdot 7 = 49$.\n3. Calculate $g(4)$: $g(4) = 3 \\cdot 4 = 12$.\n4. Subtract $g(4)$ from the result: $49 - 12 = 37$.",
+      "changes": [
+        "text:*f(x)=x+ 3*→$f(x)=x+3$",
+        "text:*g(x)= 3x*→$g(x)=3x$",
+        "text:7*f(4)- g(4*)→$7\\cdot f(4)- g(4)$"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "5": {
+      "model_answer": "B",
+      "calc": "The contestant needs at least 100 points. Each correct response in the first round is worth 2 points, so the total points from the first round is 2f. Each correct response in the second round is worth 5 points, so the total points from the second round is 5s. The total points must be at least 100, so the inequality is 2f + 5s ≥ 100.",
+      "changes": [
+        "text:* f *→$ f $",
+        "text:* s *→$ s $"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "29": {
+      "model_answer": "B",
+      "calc": "The question mentions a circle defined by three points, but the points are not provided. Without the specific points or additional information, the value of $k$ cannot be determined.",
+      "changes": [
+        "text:defne→define"
+      ],
+      "answer_matches": true,
+      "needs_review": true,
+      "error": null
+    },
+    "99": {
+      "model_answer": "89",
+      "calc": "The circumference of a circle is given by the formula C = πd, where C is the circumference and d is the diameter. Given that the circumference is 89π centimeters, we can solve for the diameter: 89π = πd → d = 89.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "116": {
+      "model_answer": "A",
+      "calc": "Start with the equation $(\\frac{1}{2}x - \\frac{21}{2})^2 - 81 = 0$. Add 81 to both sides to get $(\\frac{1}{2}x - \\frac{21}{2})^2 = 81$. Take the square root of both sides to get $\\frac{1}{2}x - \\frac{21}{2} = \\pm 9$. Solve for $x$ in both cases:\n\n1. $\\frac{1}{2}x - \\frac{21}{2} = 9$ → $\\frac{1}{2}x = 9 + \\frac{21}{2} = \\frac{39}{2}$ → $x = 39$.\n2. $\\frac{1}{2}x - \\frac{21}{2} = -9$ → $\\frac{1}{2}x = -9 + \\frac{21}{2} = \\frac{3}{2}$ → $x = 3$.\n\nNow calculate $(x - 21)^2$ for both values of $x$:\n\n1. For $x = 39$, $(39 - 21)^2 = 18^2 = 324$.\n2. For $x = 3$, $(3 - 21)^2 = (-18)^2 = 324$.\n\nIn both cases, $(x - 21)^2 = 324$.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "159": {
+      "model_answer": "A",
+      "calc": "Start with the equation $(\\frac{1}{2}x - \\frac{41}{2})^2 - 64 = 0$. Add 64 to both sides to get $(\\frac{1}{2}x - \\frac{41}{2})^2 = 64$. Take the square root of both sides to get $\\frac{1}{2}x - \\frac{41}{2} = \\pm 8$. Solve for $x$ in both cases:\n\n1. $\\frac{1}{2}x - \\frac{41}{2} = 8$ → $\\frac{1}{2}x = 8 + \\frac{41}{2} = \\frac{57}{2}$ → $x = 57$.\n2. $\\frac{1}{2}x - \\frac{41}{2} = -8$ → $\\frac{1}{2}x = -8 + \\frac{41}{2} = \\frac{25}{2}$ → $x = 25$.\n\nNow calculate $(x - 41)^2$ for both values of $x$:\n\n1. For $x = 57$: $(57 - 41)^2 = 16^2 = 256$.\n2. For $x = 25$: $(25 - 41)^2 = (-16)^2 = 256$.\n\nIn both cases, $(x - 41)^2 = 256$.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "217": {
+      "model_answer": "86.5",
+      "calc": "The question involves a circle with diameter 175, and points A, B, C, and E on the circle. Segment AC is perpendicular to segment BE at point D, and BD = $\\sqrt{346}$. The ratio $\\frac{CD}{AD}$ is denoted as r. However, the question lacks sufficient information to calculate r without additional geometric relationships or measurements. Therefore, the problem cannot be solved as presented.",
+      "changes": [],
+      "answer_matches": false,
+      "needs_review": true,
+      "error": null
+    },
+    "198": {
+      "model_answer": "42",
+      "calc": "The circumference of a circle is given by $C = \\pi d$, where $d$ is the diameter. Given $C = 42\\pi$, we solve for $d$: $42\\pi = \\pi d$. Dividing both sides by $\\pi$ gives $d = 42$.",
+      "changes": [
+        "text:incentimeters→in centimeters"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "267": {
+      "model_answer": "B",
+      "calc": "The question asks for the predicted number of active projects at the end of November 2011, which corresponds to x = 0. According to the model, the value at x = 0 is the initial value. Since the correct answer is given as B (8), the model predicts 8 active projects at the end of November 2011.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "283": {
+      "model_answer": "D",
+      "calc": "1. Area of Circle K = πr² = π(2)² = 4π mm².\n2. Area of Circle L = 144π mm².\n3. Total area = 4π + 144π = 148π mm².",
+      "changes": [
+        "text:l44π mm 2→144π mm²",
+        "text:mm 2→mm²"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "332": {
+      "model_answer": "C",
+      "calc": "The circumference of the base is given as 6π meters. The formula for the circumference of a circle is C = 2πr, so 6π = 2πr. Solving for r, we get r = 3 meters. The volume of a cylinder is given by V = πr^2h. Substituting r = 3 and h = 19, we get V = π(3)^2(19) = π(9)(19) = 171π cubic meters.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "296": {
+      "model_answer": "C",
+      "calc": "The equation is N(m) = $65(Q)^{\\frac{m}{4}}$. To find the percentage increase every 120 seconds (2 minutes), we calculate the ratio of the population at m = 2 to the population at m = 0. At m = 0, N(0) = $65(Q)^{\\frac{0}{4}} = 65$. At m = 2, N(2) = $65(Q)^{\\frac{2}{4}} = 65(Q)^{\\frac{1}{2}}$. The percentage increase is $\\frac{N(2) - N(0)}{N(0)} * 100 = (Q^{\\frac{1}{2}} - 1) * 100$. Therefore, the correct answer is $100(Q^{\\frac{1}{2}} - 1)$, which corresponds to choice C.",
+      "changes": [
+        "text:what→What"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "341": {
+      "model_answer": null,
+      "calc": "",
+      "changes": [],
+      "answer_matches": null,
+      "needs_review": false,
+      "error": null
+    },
+    "383": {
+      "model_answer": "152",
+      "calc": "A quadratic function can be written in vertex form: f(x) = a(x - h)^2 + k, where (h, k) is the vertex. Given the vertex (4, -6), the function becomes f(x) = a(x - 4)^2 - 6. The graph contains the point (3, -8), so we can substitute x = 3 and f(x) = -8 to find the value of a: -8 = a(3 - 4)^2 - 6 → -8 = a(1) - 6 → a = -2. So, f(x) = -2(x - 4)^2 - 6. The y-intercept of f(x) is at x = 0: f(0) = -2(0 - 4)^2 - 6 = -2(16) - 6 = -32 - 6 = -38. So, a = -38. The graph of y = 5 · f(x) is y = 5(-2(x - 4)^2 - 6) = -10(x - 4)^2 - 30. The y-intercept of this function is at x = 0: y = -10(0 - 4)^2 - 30 = -10(16) - 30 = -160 - 30 = -190. So, b = -190. The positive difference between a and b is |a - b| = |-38 - (-190)| = |152| = 152.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "411": {
+      "model_answer": null,
+      "calc": "",
+      "changes": [],
+      "answer_matches": null,
+      "needs_review": false,
+      "error": null
+    },
+    "467": {
+      "model_answer": "39",
+      "calc": "Step 1: The sum of the interior angles of triangle PQR is 180°. So, (3x + 5) + (2x + 9) + (4y + 5) = 180. Simplify: 5x + 4y + 19 = 180. Then, 5x + 4y = 161. Step 2: Angle PRS is an exterior angle to triangle PQR at vertex R. The exterior angle is equal to the sum of the two non-adjacent interior angles. So, angle PRS = angle P + angle Q. Therefore, x + y = (3x + 5) + (2x + 9). Simplify: x + y = 5x + 14. Rearranging: -4x + y = 14. Step 3: Solve the system of equations: 5x + 4y = 161 and -4x + y = 14. Multiply the second equation by 4: -16x + 4y = 56. Subtract the equations: (5x + 4y) - (-16x + 4y) = 161 - 56. Simplify: 21x = 105. Solve for x: x = 5. Substitute x = 5 into -4x + y = 14: -20 + y = 14. Solve for y: y = 34. Step 4: x + y = 5 + 34 = 39.",
+      "changes": [
+        "text:old→new"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "473": {
+      "model_answer": "D",
+      "calc": "Distribute $6xy$ across the terms in the parentheses: $6xy(2x^2) + 6xy(5y) = 12x^3 y + 30xy^2$.",
+      "changes": [
+        "text:Which expression is equivalent to 6 xy （2 x 2 +5 y ）？→Which expression is equivalent to $6xy(2x^2 + 5y)$?",
+        "choices[0].text:x 3 y +11 xy 2→$x^3 y + 11xy^2$",
+        "choices[1].text:x 2 y +5 y→$x^2 y + 5y$",
+        "choices[2].text:12x 2 y+30 xy→$12x^2 y + 30xy$",
+        "choices[3].text:x 3 y +30 xy 2→$x^3 y + 30xy^2$"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "503": {
+      "model_answer": null,
+      "calc": "",
+      "changes": [],
+      "answer_matches": null,
+      "needs_review": false,
+      "error": null
+    },
+    "516": {
+      "model_answer": null,
+      "calc": "",
+      "changes": [],
+      "answer_matches": null,
+      "needs_review": false,
+      "error": null
+    },
+    "596": {
+      "model_answer": null,
+      "calc": "",
+      "changes": [],
+      "answer_matches": null,
+      "needs_review": false,
+      "error": null
+    },
+    "687": {
+      "model_answer": "D",
+      "calc": "Distribute 6xy over the terms in the parentheses: 6xy * 2x^2 = 12x^3y and 6xy * 5y = 30xy^2. The result is $12x^3y + 30xy^2$.",
+      "changes": [
+        "text:6 $xy$ $(2x^{2}+5y)?$→6$xy$(2x$^2$+5y)?"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "705": {
+      "model_answer": "65",
+      "calc": "The problem requires a figure to determine the value of x, as it involves geometric relationships and angles. Without the figure, the problem cannot be solved.",
+      "changes": [
+        "text:29 °→29°",
+        "text:108 °→108°"
+      ],
+      "answer_matches": true,
+      "needs_review": true,
+      "error": null
+    },
+    "717": {
+      "model_answer": "3",
+      "calc": "Given $f(x) = c^x$ and $f(6) = 9 \\cdot f(4)$, substitute into the function: $c^6 = 9 \\cdot c^4$. Divide both sides by $c^4$: $c^2 = 9$. Take the square root: $c = 3$.",
+      "changes": [
+        "text:9·f(4)→9\\cdot f(4)"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "730": {
+      "model_answer": "A",
+      "calc": "The total charge for the first 25 people is 25 * 28 = 700. For each additional person (n - 25), the charge is 17 per person. So, the total charge is f(n) = 700 + 17(n - 25) = 700 + 17n - 425 = 17n + 275.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "737": {
+      "model_answer": null,
+      "calc": "",
+      "changes": [],
+      "answer_matches": null,
+      "needs_review": false,
+      "error": null
+    },
+    "782": {
+      "model_answer": "B",
+      "calc": "To prove that lines r and s are parallel, we need to show that corresponding angles or alternate interior angles are equal, or that same-side interior angles are supplementary. Given $w = 160$, if $y = 160$, then $w$ and $y$ are corresponding angles, and their equality would prove that lines r and s are parallel. This matches choice B.",
+      "changes": [
+        "text:if w = 160→If $w = 160$",
+        "text:which additional piece of information is sufficient to prove that lines r and s are parallel?→which additional piece of information is sufficient to prove that lines r and s are parallel?"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "748": {
+      "model_answer": "74088",
+      "calc": "Given: AB = 84 cm (slant height), height h = 42 cm. Use the Pythagorean theorem to find the radius r: r = sqrt(84^2 - 42^2) = sqrt(7056 - 1764) = sqrt(5292) = 42√3 cm. Volume of the cone is (1/3)πr^2h = (1/3)π(42√3)^2(42) = (1/3)π(5292)(42) = 74088π. So, k = 74088.",
+      "changes": [
+        "text:For the right circular cone shown. B is a point on the circumference of the base, and the length of segment AB (not shown) is 84 centimeters. If the height of the cone is 42 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?→For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 84 centimeters. If the height of the cone is 42 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "843": {
+      "model_answer": "A",
+      "calc": "The first class is free, so it contributes $0. The second class is half off, so it costs $22.80 / 2 = $11.40. The remaining classes (x - 2) are at full price of $22.80 each. Total cost is $11.40 + 22.80(x - 2)$. Simplifying, $f(x) = 22.80(x - 1) + 11.40$. This matches choice A.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "789": {
+      "model_answer": "4096",
+      "calc": "Given: AB = 32 cm (slant height), height = 16 cm. Using the Pythagorean theorem, the radius $r$ of the base is $\\sqrt{32^2 - 16^2} = \\sqrt{1024 - 256} = \\sqrt{768} = 16\\sqrt{3}$. The volume of the cone is $\\frac{1}{3} \\pi r^2 h = \\frac{1}{3} \\pi (16\\sqrt{3})^2 (16) = \\frac{1}{3} \\pi (768)(16) = \\frac{1}{3} \\pi (12288) = 4096\\pi$. Therefore, $k = 4096$.",
+      "changes": [
+        "text:volume of the cone is kπ→$k\\pi$"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "870": {
+      "model_answer": null,
+      "calc": "",
+      "changes": [],
+      "answer_matches": null,
+      "needs_review": false,
+      "error": null
+    },
+    "871": {
+      "model_answer": "117",
+      "calc": "Step 1: Use the triangle angle sum property to find x. The sum of the angles in triangle RST is 180°, so 39 + x + (5x - 3) = 180. Simplify: 39 + x + 5x - 3 = 180 → 6x + 36 = 180 → 6x = 144 → x = 24. Step 2: Use the value of x to find the measure of angle S and angle T. Angle S = x = 24°, and angle T = 5x - 3 = 5(24) - 3 = 120 - 3 = 117°. Step 3: Since $\\overline{LK}$ is parallel to $\\overline{RT}$, angle SKL is equal to angle T due to the corresponding angles theorem. Therefore, angle SKL = 117°.",
+      "changes": [
+        "text:∠→°"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "928": {
+      "model_answer": "A",
+      "calc": "Given: a = 2,184% of (b + c), and b = 84% of c. Let c = 100 (for simplicity), then b = 84. So, b + c = 184. Then, a = 2,184% of 184 = 21.84 * 184 = 4,019. The question asks what percent of b is a. So, (a / b) * 100 = (4,019 / 84) * 100 ≈ 4,784%.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "950": {
+      "model_answer": "C",
+      "calc": "The question is incomplete as it does not provide the inequality to evaluate the points. Without the inequality, it is impossible to determine the correct answer.",
+      "changes": [
+        "text:y→Which point $(x,y)$ is a solution to the given inequality in the xy-plane?"
+      ],
+      "answer_matches": true,
+      "needs_review": true,
+      "error": null
+    },
+    "894": {
+      "model_answer": "1701",
+      "calc": "Given $f(x) = ab^{\\frac{x}{n}}$, we are given $f(5) = 7$ and $f(8) = 189$. We can write the equations:\n1. $ab^{\\frac{5}{n}} = 7$\n2. $ab^{\\frac{8}{n}} = 189$\n\nDividing equation 2 by equation 1:\n$$\\frac{ab^{\\frac{8}{n}}}{ab^{\\frac{5}{n}}} = \\frac{189}{7}$$\n$$b^{\\frac{8}{n} - \\frac{5}{n}} = 27$$\n$$b^{\\frac{3}{n}} = 27$$\n$$b^{\\frac{3}{n}} = 3^3$$\n$$b^{\\frac{1}{n}} = 3$$\n$$b = 3^n$$\n\nSubstitute $b = 3^n$ into equation 1:\n$$a(3^n)^{\\frac{5}{n}} = 7$$\n$$a(3^5) = 7$$\n$$a = \\frac{7}{243}$$\n\nNow, calculate $f(10)$:\n$$f(10) = ab^{\\frac{10}{n}}$$\n$$f(10) = \\frac{7}{243}(3^n)^{\\frac{10}{n}}$$\n$$f(10) = \\frac{7}{243}(3^{10})$$\n$$f(10) = \\frac{7}{243}(59049)$$\n$$f(10) = 1701$$",
+      "changes": [
+        "text: f(8)= 189→f(8)=189"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "968": {
+      "model_answer": "A",
+      "calc": "Let the sum of b and c be S. Then a = 2,106% of S = 21.06 * S. Also, b = 81% of c = 0.81 * c. Since S = b + c, we can express S in terms of c: S = 0.81 * c + c = 1.81 * c. Substituting into the equation for a: a = 21.06 * 1.81 * c = 38.1246 * c. To find what percent of b is a, we calculate (a / b) * 100 = (38.1246 * c / 0.81 * c) * 100 = (38.1246 / 0.81) * 100 = 4,706.74%. The closest answer is 4,706%.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "972": {
+      "model_answer": "D",
+      "calc": "The function is exponential and increases by a factor of $c$ for every increase of 2 in $x$. This means the base of the exponent must be $c$. To find the correct form, we look for the function where the base is clearly visible and corresponds to the factor $c$. Among the choices, option D has the base $4,096$ raised to $\\frac{x}{2}$, which means for every increase of 2 in $x$, the exponent increases by 1, and the function increases by a factor of $4,096$. This matches the description of the function, so the correct answer is D.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "1007": {
+      "model_answer": "392",
+      "calc": "The volume of a cone is given by $V = \\frac{1}{3} \\pi r^2 h$. The radius $r = \\frac{28}{2} = 14$ inches. Substituting values: $V = \\frac{1}{3} \\pi (14)^2 (6) = \\frac{1}{3} \\pi (196)(6) = \\frac{1}{3} \\pi (1176) = 392\\pi$. Therefore, $k = 392$.",
+      "changes": [
+        "text:what→What"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "990": {
+      "model_answer": "C",
+      "calc": "Since triangle CAE is similar to triangle CBD, corresponding angles are equal. Angle CBD corresponds to angle CAE, so the measure of angle CAE is equal to the measure of angle CBD, which is 57°.",
+      "changes": [
+        "choices[1].text:(21+ 57)°→$(21+ 57)^\\circ$"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "1023": {
+      "model_answer": "D",
+      "calc": "Javier deposits $45 at the end of each week. Over 6 weeks, he deposits 6 * 45 = $270. Adding this to the initial $700, the total is 700 + 270 = $970.",
+      "changes": [
+        "text:At the beginning of the 1st week of a year there was → At the beginning of the 1st week of a year, there was",
+        "text:in dollars.will be → in dollars, will be"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "1016": {
+      "model_answer": null,
+      "calc": "",
+      "changes": [],
+      "answer_matches": null,
+      "needs_review": false,
+      "error": null
+    },
+    "1031": {
+      "model_answer": "A",
+      "calc": "Substitute x = 46 into the equation y = 0.67x + 2.6. Calculate y = 0.67 * 46 + 2.6 = 30.82 + 2.6 = 33.42. The closest answer is 33.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "1025": {
+      "model_answer": "C",
+      "calc": "The question asks for the estimated population 2 years after the 2000 census. The variable z represents the number of years after the census, so z = 2. The graph is needed to determine the corresponding value of y at z = 2. Since the graph is not provided, we cannot calculate the exact value.",
+      "changes": [
+        "text:0 $\\le$ x $\\le$ 5→0 $\\le$ z $\\le$ 5"
+      ],
+      "answer_matches": true,
+      "needs_review": true,
+      "error": null
+    },
+    "1038": {
+      "model_answer": "158",
+      "calc": "The question references a figure and specific angles (VST and RVS) that are not described in the text. Without the figure or additional context, the problem cannot be solved.",
+      "changes": [
+        "text:V ST→VST",
+        "text:RV S→RVS"
+      ],
+      "answer_matches": true,
+      "needs_review": true,
+      "error": null
+    },
+    "1058": {
+      "model_answer": "242",
+      "calc": "Given a right triangle XYZ with angle Y = 90°, angle Z = 39°, and side YZ = 22 units. Since angle Y is a right angle, side YZ is adjacent to angle Z. The side opposite angle Z is XY, and the hypotenuse is XZ. The area of the triangle is (1/2) * base * height. Here, base = YZ = 22 units, and height = XY. Using tan(39°) = opposite/adjacent = XY/22, so XY = 22 tan(39°). The area is (1/2) * 22 * 22 tan(39°) = 242 tan(39°). Therefore, k = 242.",
+      "changes": [
+        "text:lf→If"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "1075": {
+      "model_answer": "D",
+      "calc": "1. Area of Circle K = πr$^2$ = π(2)$^2$ = 4π mm$^2$.\n2. Area of Circle L = 121π mm$^2$.\n3. Total area = 4π + 121π = 125π mm$^2$.",
+      "changes": [
+        "text:mm 2→mm$^2$",
+        "text:mm 2→mm$^2$"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "1127": {
+      "model_answer": "59319",
+      "calc": "Given: AB = 78 cm (slant height), height = 39 cm. Use the Pythagorean theorem to find the radius $r$ of the base: $r = \\sqrt{78^2 - 39^2} = \\sqrt{6084 - 1521} = \\sqrt{4563} = 39\\sqrt{3}$. Volume of the cone is $\\frac{1}{3} \\pi r^2 h = \\frac{1}{3} \\pi (39\\sqrt{3})^2 (39) = \\frac{1}{3} \\pi (4563)(39) = \\frac{1}{3} \\pi (177957) = 59319\\pi$. Therefore, $k = 59319$.",
+      "changes": [
+        "text:volume of the cone is kπ→$k\\pi$"
+      ],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "1201": {
+      "model_answer": "A",
+      "calc": "Substitute x = 41 into the equation y = 0.67x + 2.6. Calculate y = 0.67 * 41 + 2.6 = 27.47 + 2.6 = 30.07. The closest answer is 30.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "1128": {
+      "model_answer": null,
+      "calc": "",
+      "changes": [],
+      "answer_matches": null,
+      "needs_review": false,
+      "error": null
+    },
+    "1252": {
+      "model_answer": "A",
+      "calc": "The total cost y is the sum of the first hour's charge ($195), the additional hours' charge ($75 per hour for x−1 hours), and the cost of gas (w). So, y = 195 + 75(x − 1) + w. This matches choice A.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    },
+    "1293": {
+      "model_answer": "28",
+      "calc": "The equation of a circle is $(x-h)^2 + (y-k)^2 = r^2$, where $(h, k)$ is the center and $r$ is the radius. Circle A has the equation $x^2 + (y-5)^2 = 7$, so its center is at $(0, 5)$ and its radius is $\\sqrt{7}$. Circle B has the same radius but is translated 91 units to the right, so its center is at $(91, 5)$. The equation of Circle B is $(x-91)^2 + (y-5)^2 = 7$. Therefore, $a = 7$, and $4a = 4 * 7 = 28$.",
+      "changes": [],
+      "answer_matches": true,
+      "needs_review": false,
+      "error": null
+    }
+  },
+  "claude": {}
+}

@@ -20,6 +20,8 @@ interface MultipleChoiceQuestionProps {
   checkedAnswers?: Record<string, boolean>;
   questionId: number | string;
   subject?: "math" | "reading";
+  struckOutChoiceIds?: string[];
+  onStruckOutChange?: (choiceIds: string[]) => void;
 }
 
 export const MultipleChoiceQuestion = ({ 
@@ -31,15 +33,29 @@ export const MultipleChoiceQuestion = ({
   checkedAnswers = {},
   questionId,
   subject = "math",
+  struckOutChoiceIds,
+  onStruckOutChange,
 }: MultipleChoiceQuestionProps) => {
-  const [struckOut, setStruckOut] = useState<Set<string>>(new Set());
+  const [internalStruckOut, setInternalStruckOut] = useState<Set<string>>(new Set());
   const choiceRefs = useRef<{ [key: string]: HTMLSpanElement | null }>({});
   const hasCorrectAnswerLocked = Object.values(checkedAnswers).some((isCorrect) => isCorrect === true);
+  const struckOut = struckOutChoiceIds
+    ? new Set(struckOutChoiceIds)
+    : internalStruckOut;
+  const updateStruckOut = (next: Set<string>) => {
+    if (onStruckOutChange) {
+      onStruckOutChange([...next]);
+      return;
+    }
+    setInternalStruckOut(next);
+  };
 
   // Reset strikeouts immediately when the question changes to avoid flash of old state
   useLayoutEffect(() => {
-    setStruckOut(new Set());
-  }, [questionId]);
+    if (!onStruckOutChange) {
+      setInternalStruckOut(new Set());
+    }
+  }, [onStruckOutChange, questionId]);
 
   useEffect(() => {
     // Render mixed content (HTML text + KaTeX math) for each choice
@@ -90,18 +106,16 @@ export const MultipleChoiceQuestion = ({
     e.stopPropagation();
     const isCurrentlySelected = selectedAnswer === choiceId;
     
-    setStruckOut(prev => {
-      const newSet = new Set(prev);
-      if (newSet.has(choiceId)) {
-        newSet.delete(choiceId);
-      } else {
-        newSet.add(choiceId);
-        if (isCurrentlySelected && onAnswerChange) {
-          onAnswerChange("");
-        }
+    const newSet = new Set(struckOut);
+    if (newSet.has(choiceId)) {
+      newSet.delete(choiceId);
+    } else {
+      newSet.add(choiceId);
+      if (isCurrentlySelected && onAnswerChange) {
+        onAnswerChange("");
       }
-      return newSet;
-    });
+    }
+    updateStruckOut(newSet);
   };
 
   return (
@@ -125,11 +139,9 @@ export const MultipleChoiceQuestion = ({
                 onClick={(e) => {
                   e.preventDefault();
                   e.stopPropagation();
-                  setStruckOut(prev => {
-                    const newSet = new Set(prev);
-                    newSet.delete(choice.id);
-                    return newSet;
-                  });
+                  const newSet = new Set(struckOut);
+                  newSet.delete(choice.id);
+                  updateStruckOut(newSet);
                   if (onAnswerChange) {
                     onAnswerChange(choice.id);
                   }

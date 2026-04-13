@@ -22,9 +22,19 @@ interface QuestionNavigatorSheetProps {
   isSplitScreenActive?: boolean;
   splitPosition?: number;
   headerActions?: ReactNode;
+  statusMode?: "default" | "answered-unanswered";
 }
 
-const getStatusColor = (status: string) => {
+const getStatusColor = (
+  status: string,
+  statusMode: "default" | "answered-unanswered",
+) => {
+  if (statusMode === "answered-unanswered") {
+    return status === "answered"
+      ? "bg-primary/10 border-primary/40"
+      : "bg-background border-border";
+  }
+
   switch (status) {
     case "correct-first":
       return "bg-[#C8E6C9] border-[#1B5E20] dark:bg-[#1B5E20] dark:border-[#2E7D32]";
@@ -45,6 +55,7 @@ export const QuestionNavigatorSheet = ({
   isSplitScreenActive = false,
   splitPosition = 50,
   headerActions,
+  statusMode = "default",
 }: QuestionNavigatorSheetProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const gridRef = useRef<HTMLDivElement>(null);
@@ -110,22 +121,37 @@ export const QuestionNavigatorSheet = ({
           </div>
 
           <div className="mb-3 flex flex-wrap items-center justify-center gap-3 border-b py-2 text-xs">
-            <div className="flex items-center gap-1.5">
-              <div className="h-4 w-4 rounded border border-[#1B5E20] bg-[#C8E6C9] dark:border-[#2E7D32] dark:bg-[#1B5E20]" />
-              <span>Correct</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <div className="h-4 w-4 rounded border border-[#E65100] bg-[#FFE0B2] dark:border-[#C75C00] dark:bg-[#5F2A00]" />
-              <span>Correct (after attempts)</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <div className="h-4 w-4 rounded border border-[#B71C1C] bg-[#FFCDD2] dark:border-[#8B0000] dark:bg-[#5C1010]" />
-              <span>Incorrect</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <div className="h-4 w-4 rounded border-2 border-border bg-background" />
-              <span>Unanswered</span>
-            </div>
+            {statusMode === "answered-unanswered" ? (
+              <>
+                <div className="flex items-center gap-1.5">
+                  <div className="h-4 w-4 rounded border border-primary/40 bg-primary/10" />
+                  <span>Answered</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="h-4 w-4 rounded border-2 border-border bg-background" />
+                  <span>Unanswered</span>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="flex items-center gap-1.5">
+                  <div className="h-4 w-4 rounded border border-[#1B5E20] bg-[#C8E6C9] dark:border-[#2E7D32] dark:bg-[#1B5E20]" />
+                  <span>Correct</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="h-4 w-4 rounded border border-[#E65100] bg-[#FFE0B2] dark:border-[#C75C00] dark:bg-[#5F2A00]" />
+                  <span>Correct (after attempts)</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="h-4 w-4 rounded border border-[#B71C1C] bg-[#FFCDD2] dark:border-[#8B0000] dark:bg-[#5C1010]" />
+                  <span>Incorrect</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="h-4 w-4 rounded border-2 border-border bg-background" />
+                  <span>Unanswered</span>
+                </div>
+              </>
+            )}
             <div className="flex items-center gap-1.5">
               <Bookmark className="h-4 w-4 bookmark-flag" />
               <span>Marked for Review</span>
@@ -147,7 +173,7 @@ export const QuestionNavigatorSheet = ({
                 title={item.title}
                 className={cn(
                   "relative flex h-9 w-full items-center justify-center rounded border-2 text-[11px] font-medium tabular-nums transition-colors",
-                  getStatusColor(item.status),
+                  getStatusColor(item.status, statusMode),
                   item.isCurrent && "ring-2 ring-primary ring-offset-1"
                 )}
               >

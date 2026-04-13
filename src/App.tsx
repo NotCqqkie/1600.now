@@ -21,7 +21,9 @@ const BankBrowse = lazy(() => import("./pages/BankBrowse"));
 const BankFiltered = lazy(() => import("./pages/BankFiltered"));
 const Analysis = lazy(() => import("./pages/Analysis"));
 const Modules = lazy(() => import("./pages/Modules"));
-const ModuleView = lazy(() => import("./pages/ModuleView"));
+const ModuleStart = lazy(() => import("./pages/ModuleStart"));
+const ModulePracticeReview = lazy(() => import("./pages/ModulePracticeReview"));
+const ModulePracticeResults = lazy(() => import("./pages/ModulePracticeResults"));
 const Vocab = lazy(() => import("./pages/Vocab"));
 const ScoreCalculator = lazy(() => import("./pages/ScoreCalculator"));
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -54,7 +56,10 @@ const App = () => (
             <Route path="/" element={withSuspense(<Home />)} />
             <Route path="/login" element={withSuspense(<Login />)} />
             <Route path="/modules" element={withShellSuspense(<Modules />)} />
-            <Route path="/modules/:moduleId" element={withShellSuspense(<ModuleView />)} />
+            <Route path="/modules/:moduleId" element={withSuspense(<ModuleStart />)} />
+            <Route path="/modules/:moduleId/start" element={withSuspense(<ModuleStart />)} />
+            <Route path="/modules/:moduleId/review" element={withSuspense(<ModulePracticeReview />)} />
+            <Route path="/modules/:moduleId/results" element={withSuspense(<ModulePracticeResults />)} />
             <Route path="/signup" element={withSuspense(<Signup />)} />
             <Route path="/profile" element={withShellSuspense(<Profile />)} />
             <Route path="/score-calculator" element={withShellSuspense(<ScoreCalculator />)} />
