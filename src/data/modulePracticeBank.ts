@@ -703,3 +703,7 @@ export const buildModulePracticeSet = (moduleIdOrSlug: string) => {
     index,
   }));
 };
+
+export const activePastQuestionSourceIds = new Set(
+  getPracticeModules().flatMap((module) => module.questions.map((entry) => entry.bankQuestion.sourceId)),
+);

@@ -1,7 +1,8 @@
 import { useMemo } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { buildModulePracticeSet, getPracticeModule } from "@/data/modulePracticeBank";
+import { getPracticeModule } from "@/data/modulePracticeBank";
 import { classifyModuleCompletion, getModuleProgressCounts } from "@/lib/moduleProgress";
+import { getModulePracticeSession } from "@/lib/modulePracticeSession";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -22,6 +23,10 @@ const ModuleView = () => {
     () => (module ? getModuleProgressCounts(module) : { correct: 0, incorrect: 0, correctAfterReview: 0 }),
     [module],
   );
+  const savedSession = useMemo(
+    () => (module ? getModulePracticeSession(module.slug) : null),
+    [module],
+  );
 
   const totalAnswered = progressCounts.correct + progressCounts.incorrect + progressCounts.correctAfterReview;
   const hasProgress = totalAnswered > 0;
@@ -29,14 +34,7 @@ const ModuleView = () => {
 
   const startModule = () => {
     if (!module) return;
-
-    const practiceSet = buildModulePracticeSet(module.slug);
-    if (!practiceSet || practiceSet.length === 0) return;
-
-    sessionStorage.setItem("practiceExitTo", "/modules");
-    sessionStorage.setItem("practiceSet", JSON.stringify(practiceSet));
-    const first = practiceSet[0];
-    navigate(`/bank/${first.subject}/${first.id}?bankType=past&practice=true&idx=0`);
+    navigate(`/modules/${module.slug}/start`);
   };
 
   if (!module) {
@@ -159,15 +157,17 @@ const ModuleView = () => {
           )}
 
           <div className="rounded-xl border border-border/60 bg-muted/30 p-4 text-sm leading-6 text-muted-foreground">
-            This practice set opens directly in the SAT question flow and keeps the questions in module order.
+            This module opens in the dedicated practice viewer with a timed or untimed option, saved progress, and an end-of-module review flow.
           </div>
 
           <Button size="lg" className="group w-full justify-between" onClick={startModule}>
-            {completionStatus === "completed"
-              ? "Practice again"
-              : completionStatus === "in-progress"
-                ? "Continue practice"
-                : "Start practice"}
+            {savedSession
+              ? "Resume saved session"
+              : completionStatus === "completed"
+                ? "Practice again"
+                : completionStatus === "in-progress"
+                  ? "Continue practice"
+                  : "Start practice"}
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </Button>
         </CardContent>

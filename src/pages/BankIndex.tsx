@@ -12,6 +12,7 @@ import {
   type BankSubject,
   type BankSourceFilter,
 } from "@/data/questionBank";
+import { activePastQuestionSourceIds } from "@/data/modulePracticeBank";
 import {
   getBankPool as getBankPoolOfficial,
   type BankQuestion as OfficialBankQuestion,
@@ -80,7 +81,13 @@ const createEmptySelection = (): TopicSelectionState => {
 };
 
 const topicCheckboxClass =
-  "absolute left-0 top-0 h-5 w-5 rounded-md border border-sky-300/70 bg-white/90 shadow-sm transition-all duration-200 data-[state=checked]:border-sky-400 data-[state=checked]:bg-sky-300 data-[state=checked]:text-slate-900 hover:border-sky-400 hover:bg-sky-50 focus-visible:ring-2 focus-visible:ring-sky-300/70 focus-visible:ring-offset-0 dark:border-slate-500 dark:bg-slate-900 dark:text-slate-100 dark:data-[state=checked]:border-sky-400 dark:data-[state=checked]:bg-sky-400 dark:data-[state=checked]:text-slate-950 dark:hover:border-sky-400 dark:hover:bg-slate-800 dark:shadow-[0_0_0_1px_rgba(148,163,184,0.08)]";
+  "absolute left-0 top-0 h-5 w-5 rounded-md border border-sky-300/70 bg-white/90 text-sky-600 shadow-sm transition-all duration-200 data-[state=checked]:border-sky-400 data-[state=checked]:bg-sky-100 data-[state=checked]:text-sky-700 hover:border-sky-400 hover:bg-sky-50 focus-visible:ring-2 focus-visible:ring-sky-300/70 focus-visible:ring-offset-0 dark:border-slate-500 dark:bg-slate-900 dark:text-sky-200 dark:data-[state=checked]:border-sky-400 dark:data-[state=checked]:bg-slate-800 dark:data-[state=checked]:text-sky-100 dark:hover:border-sky-400 dark:hover:bg-slate-800 dark:shadow-[0_0_0_1px_rgba(148,163,184,0.08)]";
+
+const topicCheckboxIndicatorClass =
+  "h-full w-full";
+
+const multiSelectModeCheckboxClass =
+  "h-5 w-5 rounded-md border-sky-400/80 bg-white text-sky-700 shadow-sm data-[state=checked]:border-sky-500 data-[state=checked]:bg-sky-100 data-[state=checked]:text-sky-700 hover:border-sky-500 hover:bg-sky-50 focus-visible:ring-sky-300/70 dark:border-slate-500 dark:bg-slate-900 dark:text-sky-100 dark:data-[state=checked]:border-sky-400 dark:data-[state=checked]:bg-slate-800";
 
 const TopicCheckboxSlot = ({
   visible,
@@ -98,6 +105,10 @@ const TopicCheckboxSlot = ({
         onCheckedChange={(next) => onCheckedChange(!!next)}
         onClick={(e) => e.stopPropagation()}
         className={topicCheckboxClass}
+        indicatorClassName={topicCheckboxIndicatorClass}
+        indicator={
+          <span className="h-2.5 w-2.5 rounded-[4px] bg-current shadow-[0_0_0_1px_rgba(255,255,255,0.35)]" />
+        }
       />
     )}
   </div>
@@ -168,6 +179,14 @@ const BankIndex = () => {
     setSearchParams(nextParams);
   }, [searchParams, setSearchParams]);
 
+  const isQuestionActive = useCallback((q: BankQuestion): boolean => {
+    if (q.bankType === "past") {
+      return activePastQuestionSourceIds.has(q.sourceId);
+    }
+
+    return q.active === true;
+  }, []);
+
   // Check if question passes filters
   const questionPassesFilters = useCallback((q: BankQuestion, subject: BankSubject): boolean => {
     const progress = getQuestionProgress(q, subject);
@@ -207,8 +226,14 @@ const BankIndex = () => {
       return false;
     }
 
+    if (filters.activeQuestions !== "all") {
+      const isActive = isQuestionActive(q);
+      if (filters.activeQuestions === "active" && !isActive) return false;
+      if (filters.activeQuestions === "exclude-active" && isActive) return false;
+    }
+
     return true;
-  }, [filters, getQuestionProgress]);
+  }, [filters, getQuestionProgress, isQuestionActive]);
 
   // Get filtered questions
   const getFilteredQuestions = useCallback((
@@ -848,6 +873,7 @@ const BankIndex = () => {
           <QuestionBankFilterPanel
             filters={filters}
             onFiltersChange={setFilters}
+            showActivityFilter={!isOfficial}
             rightContent={
               <div className="flex items-center gap-4">
                 {!isOfficial && <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />}
@@ -867,6 +893,7 @@ const BankIndex = () => {
                     id="multi-select-mode"
                     checked={isMultiSelect}
                     onCheckedChange={(checked) => setIsMultiSelect(!!checked)}
+                    className={multiSelectModeCheckboxClass}
                   />
                   <Label htmlFor="multi-select-mode">Select multiple topics</Label>
                 </div>

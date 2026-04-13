@@ -1,7 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { Home } from "lucide-react";
 import { useMemo } from "react";
-import { useNavigate } from "react-router-dom";
 import {
   QuestionNavigatorSheet,
   type QuestionNavigatorItem,
@@ -40,17 +37,7 @@ export const PracticeNavigationSheet = ({
   onJump,
   isSplitScreenActive = false,
   splitPosition = 50,
-  exitTo = "/bank",
 }: PracticeNavigationSheetProps) => {
-  const navigate = useNavigate();
-
-  const handleExitPractice = () => {
-    sessionStorage.removeItem('practiceSet');
-    sessionStorage.removeItem('practiceSetTotal');
-    sessionStorage.removeItem('practiceExitTo');
-    navigate(exitTo);
-  };
-
   const navigatorItems = useMemo<QuestionNavigatorItem[]>(
     () =>
       practiceSet.map((item, idx) => {
@@ -77,12 +64,6 @@ export const PracticeNavigationSheet = ({
       items={navigatorItems}
       isSplitScreenActive={isSplitScreenActive}
       splitPosition={splitPosition}
-      headerActions={(
-        <Button variant="outline" size="sm" onClick={handleExitPractice} className="gap-1">
-          <Home className="h-4 w-4" />
-          Exit Practice
-        </Button>
-      )}
     />
   );
 };

@@ -1,4 +1,8 @@
-import { questions as pastSatQuestionsData, type Question as SourceQuestion } from "./all_questions";
+import type { Question as SourceQuestion } from "./all_questions";
+import mathPastRaw from "./questions/math_past.json";
+import readingPastRaw from "./questions/reading_past.json";
+
+const pastSatQuestionsData = [...mathPastRaw, ...readingPastRaw] as SourceQuestion[];
 import { questions as unofficialQuestionsData } from "./unofficialQuestions";
 import { resolveSatChoiceImage, resolveSatQuestionImages } from "./satQuestionImages";
 import { unofficialCompositePrimaryImageIndex } from "./unofficialCompositeImageSelection";
@@ -81,6 +85,7 @@ export interface BankQuestion {
   rationale?: string | null;
   questionImages?: { src: string; alt: string }[];
   difficulty?: "Easy" | "Medium" | "Hard" | null;
+  active?: boolean | null;
   /** Category classification */
   category: QuestionCategory;
 }
@@ -602,6 +607,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     rationale: normalizedRationale,
     questionImages: normalizedQuestionImages,
     difficulty: normalizeDifficulty(q.difficulty),
+    active: q.active ?? null,
     category,
   };
 };

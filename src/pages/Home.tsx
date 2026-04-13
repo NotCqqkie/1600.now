@@ -572,6 +572,12 @@ const Home = () => {
             >
               Score Calculator
             </Link>
+            <Link
+              to="/modules"
+              className="rounded-md px-3 py-1.5 transition-colors hover:bg-muted hover:text-foreground"
+            >
+              Practice Modules
+            </Link>
           </nav>
 
           <div className="inline-flex flex-shrink-0 items-center gap-2">

@@ -24,6 +24,14 @@ interface DraggableWindowProps {
   isSidebarred?: boolean; // Controlled sidebar state from parent
   onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
   isMaximized?: boolean; // New prop to control maximization externally
+  persistenceKey?: string;
+  persistenceStorage?: Storage;
+}
+
+interface PersistedWindowState {
+  position: { x: number; y: number };
+  size: { width: number; height: number };
+  isMinimized: boolean;
 }
 
 export const DraggableWindow = ({
@@ -46,6 +54,8 @@ export const DraggableWindow = ({
   isSidebarred = false,
   onSidebarToggle,
   isMaximized = false,
+  persistenceKey,
+  persistenceStorage = localStorage,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
@@ -64,6 +74,40 @@ export const DraggableWindow = ({
     position: { x: number; y: number };
     size: { width: number; height: number };
   } | null>(null);
+
+  const readPersistedState = useCallback((): PersistedWindowState | null => {
+    if (!persistenceKey || typeof window === "undefined") return null;
+    try {
+      const raw = persistenceStorage.getItem(persistenceKey);
+      if (!raw) return null;
+      const parsed = JSON.parse(raw) as Partial<PersistedWindowState>;
+      if (
+        !parsed.position ||
+        typeof parsed.position.x !== "number" ||
+        typeof parsed.position.y !== "number" ||
+        !parsed.size ||
+        typeof parsed.size.width !== "number" ||
+        typeof parsed.size.height !== "number"
+      ) {
+        return null;
+      }
+      return {
+        position: parsed.position,
+        size: parsed.size,
+        isMinimized: typeof parsed.isMinimized === "boolean" ? parsed.isMinimized : false,
+      };
+    } catch {
+      return null;
+    }
+  }, [persistenceKey, persistenceStorage]);
+
+  const writePersistedState = useCallback(
+    (nextState: PersistedWindowState) => {
+      if (!persistenceKey || typeof window === "undefined") return;
+      persistenceStorage.setItem(persistenceKey, JSON.stringify(nextState));
+    },
+    [persistenceKey, persistenceStorage],
+  );
   
   // Refs for event handlers to access latest state without re-binding listeners
   const positionRef = useRef(position);
@@ -95,23 +139,41 @@ export const DraggableWindow = ({
         }
         setIsReady(true);
       } else {
-        // Normal window opening - calculate center position
         const availableWidth = constrainToLeft 
           ? (window.innerWidth * constrainToLeft) / 100 
           : window.innerWidth;
-        
-        const actualWidth = constrainToLeft 
-          ? Math.min(defaultWidth * 0.7, availableWidth - 40) 
-          : defaultWidth;
-        const actualHeight = constrainToLeft 
-          ? defaultHeight * 0.7 
-          : defaultHeight;
-        
-        const centerX = (availableWidth - actualWidth) / 2;
-        const centerY = (window.innerHeight - actualHeight) / 2;
-        
-        setPosition({ x: Math.max(20, centerX), y: Math.max(60, centerY) });
-        setSize({ width: actualWidth, height: actualHeight });
+        const bottomBarHeight = 80;
+        const persistedState = readPersistedState();
+
+        if (persistedState) {
+          const clampedWidth = Math.min(persistedState.size.width, availableWidth);
+          const clampedHeight = Math.min(
+            persistedState.size.height,
+            window.innerHeight - bottomBarHeight,
+          );
+          const maxX = Math.max(0, availableWidth - clampedWidth);
+          const maxY = Math.max(0, window.innerHeight - clampedHeight - bottomBarHeight);
+
+          setSize({ width: clampedWidth, height: clampedHeight });
+          setPosition({
+            x: Math.max(0, Math.min(persistedState.position.x, maxX)),
+            y: Math.max(0, Math.min(persistedState.position.y, maxY)),
+          });
+          setIsMinimized(Boolean(persistedState.isMinimized));
+        } else {
+          const actualWidth = constrainToLeft 
+            ? Math.min(defaultWidth * 0.7, availableWidth - 40) 
+            : defaultWidth;
+          const actualHeight = constrainToLeft 
+            ? defaultHeight * 0.7 
+            : defaultHeight;
+          
+          const centerX = (availableWidth - actualWidth) / 2;
+          const centerY = (window.innerHeight - actualHeight) / 2;
+          
+          setPosition({ x: Math.max(20, centerX), y: Math.max(60, centerY) });
+          setSize({ width: actualWidth, height: actualHeight });
+        }
         requestAnimationFrame(() => setIsReady(true));
       }
     }
@@ -129,7 +191,7 @@ export const DraggableWindow = ({
     }
     
     prevIsOpenRef.current = isOpen;
-  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange]);
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange, readPersistedState]);
 
   // Handle sidebar mode changes - position window in sidebar
   useEffect(() => {
@@ -194,6 +256,15 @@ export const DraggableWindow = ({
       }
     }
   }, [isMinimized, isOpen, isSidebarred, isReady, size.width, size.height, position.x, position.y]);
+
+  useEffect(() => {
+    if (!isOpen || isSidebarred || !isReady) return;
+    writePersistedState({
+      position,
+      size,
+      isMinimized,
+    });
+  }, [isOpen, isReady, isSidebarred, position, size, isMinimized, writePersistedState]);
 
   // Handle split divider resizing
   useEffect(() => {
@@ -574,7 +645,7 @@ export const DraggableWindow = ({
                 variant="ghost"
                 size="icon"
                 className={cn("h-8 w-8", isMinimized && "bg-primary/20")}
-                onClick={() => setIsMinimized(!isMinimized)}
+                onClick={() => setIsMinimized((prev) => !prev)}
                 title={isMinimized ? "Maximize" : "Minimize"}
               >
                 {isMinimized ? <Maximize2 className="h-4 w-4" /> : <Minus className="h-4 w-4" />}

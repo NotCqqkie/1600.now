@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label";
 import { BrandLogo } from "@/components/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
-import { Loader2, CheckCircle } from "lucide-react";
+import { Loader2, CheckCircle, ArrowLeft } from "lucide-react";
 
 const GoogleIcon = () => (
   <svg className="h-4 w-4" aria-hidden="true" viewBox="0 0 488 512" fill="currentColor">
@@ -19,7 +19,7 @@ const perks = [
   "Track your progress across every skill",
   "Mark questions for review",
   "See accuracy trends over time",
-  "Completely free — no credit card",
+  "No paid features--- ever",
 ];
 
 const Signup = () => {
@@ -113,7 +113,7 @@ const Signup = () => {
                 maxWidth: 320,
               }}
             >
-              A free account unlocks progress tracking and personalized practice.
+              A free account unlocks progress tracking and question history.
             </p>
 
             <div className="space-y-3">
@@ -139,8 +139,17 @@ const Signup = () => {
 
       {/* ── Right form panel ── */}
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-12 bg-background">
-        <div className="lg:hidden mb-8">
+        <div className="mb-8 flex items-center justify-between">
           <BrandLogo variant="mark" className="h-10 w-10" />
+          <Button
+            variant="ghost"
+            size="sm"
+            className="gap-2 text-white hover:text-white hover:bg-white/10"
+            onClick={() => navigate("/")}
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Back to home
+          </Button>
         </div>
 
         <div className="w-full max-w-sm">
@@ -158,7 +167,7 @@ const Signup = () => {
               Create account
             </h2>
             <p className="text-sm text-muted-foreground">
-              Free forever. No credit card required.
+              No paid features--- ever.
             </p>
           </div>
 
