@@ -3,7 +3,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 1,
     "test_name": "October 2025 International Form B SAT Math Module 1",
     "passage": "The length of a rectangle's diagonal is $\\sqrt{65}$, and the length of one of the rectangle's sides is 4. What is the perimeter of the rectangle?",
@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "The function h is defined by h (x)= 7| x |. What is the value of h (-6)?",
+    "passage": "The function $ h $ is defined by $ h(x) = 7|x| $. What is the value of $ h(-6) $?",
     "question_text": null,
     "choices": [
       {
@@ -70,7 +70,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "lf $\\frac{x}{y}$ = 52 and $\\frac{cx}{4y}$ = 52, what is the value of c?",
+    "passage": "If $\\frac{x}{y} = 52$ and $\\frac{cx}{4y} = 52$, what is the value of $c$?",
     "question_text": null,
     "choices": [
       {
@@ -99,10 +99,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "If 5(8-4 x)+2 = 4(8-4 x)+18, what is the value of 8-4 x?",
+    "passage": "If $5(8 - 4x) + 2 = 4(8 - 4x) + 18$, what is the value of $8 - 4x$?",
     "question_text": null,
     "choices": [
       {
@@ -134,7 +134,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "The function g is defined by g (x)= 16 x + 25. For what value of a does g (x)= 29?",
+    "passage": "The function $ g $ is defined by $ g(x) = 16x + 25 $. For what value of $ a $ does $ g(a) = 29 $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -146,10 +146,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 6,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "The positive number a is 240% of the number b, and a is 70% of the number c. lf c is p % of b, which of the following is closest to the value of p?",
+    "passage": "The positive number $a$ is 240% of the number $b$, and $a$ is 70% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -181,7 +181,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "x + y =48\nThe given equation relates the total number of marble queen pothos stems, x, and the total number of snow queen pothos stems, y, a plant nursery propagates to create pothos plants. If 18 snow queen pothos stems are propagated, how many marble queen pothos stems are propagated?",
+    "passage": "The given equation $x + y = 48$ relates the total number of marble queen pothos stems, $x$, and the total number of snow queen pothos stems, $y$, a plant nursery propagates to create pothos plants. If 18 snow queen pothos stems are propagated, how many marble queen pothos stems are propagated?",
     "question_text": null,
     "choices": [
       {
@@ -213,7 +213,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "If 7 + x = 5, what is the value of -14-2 x?",
+    "passage": "If $7 + x = 5$, what is the value of $-14 - 2x$?",
     "question_text": null,
     "choices": [
       {
@@ -242,10 +242,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "The function k is defined by k(x)= x ³+ 20. What is the value of k (x) when x =2?",
+    "passage": "The function $k$ is defined by $k(x) = x^3 + 20$. What is the value of $k(x)$ when $x = 2$?",
     "question_text": null,
     "choices": [
       {
@@ -274,27 +274,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 10,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "Which expression is a factor of x 4 +14 ax 2 +49 a 2 -64, where a is a positive constant?",
+    "passage": "Which expression is a factor of $x^4 + 14ax^2 + 49a^2 - 64$, where $a$ is a positive constant?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "x ²+7 a +8"
+        "text": "$x^2 + 7a + 8$"
       },
       {
         "label": "B",
-        "text": "x ²-7 a -8"
+        "text": "$x^2 - 7a - 8$"
       },
       {
         "label": "C",
-        "text": "x ²+14a"
+        "text": "$x^2 + 14a$"
       },
       {
         "label": "D",
-        "text": "x ²-8a"
+        "text": "$x^2 - 8a$"
       }
     ],
     "is_fill_in_blank": false,
@@ -309,24 +309,24 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "For the linear function g, g (9)=11 and g (x +1) - g (x)= 2. Which equation defines g?",
+    "passage": "For the linear function $g$, $g(9) = 11$ and $g(x + 1) - g(x) = 2$. Which equation defines $g$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "g (x)=9 x + 2"
+        "text": "$g(x) = 9x + 2$"
       },
       {
         "label": "B",
-        "text": "g (x)=9 x + 11"
+        "text": "$g(x) = 9x + 11$"
       },
       {
         "label": "C",
-        "text": "g (x)=2 x - 18"
+        "text": "$g(x) = 2x - 18$"
       },
       {
         "label": "D",
-        "text": "g (x)=2 x - 7"
+        "text": "$g(x) = 2x - 7$"
       }
     ],
     "is_fill_in_blank": false,
@@ -367,9 +367,9 @@
     "id": "70b33953-aa61-407d-a25a-a438792bed03_12",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M1_Q12_1.png",
+        "src": "/images_labeled/70b33953-aa61-407d-a25a-a438792bed03_12_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M1_Q12_1.png"
+        "local": "images_labeled/70b33953-aa61-407d-a25a-a438792bed03_12_q_01_FIX.png"
       }
     ]
   },
@@ -377,10 +377,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "The function h is defined by h (x)= 7| x |. What is the value of h (-4)?",
+    "passage": "The function $ h $ is defined by $ h(x) = 7|x| $. What is the value of $ h(-4) $?",
     "question_text": null,
     "choices": [
       {
@@ -409,10 +409,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 14,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "In triangle ABC, $\\overline{DE}$ is parallel to $\\overline{AC}$, BD = AD, BE = 9, and AC = 17. What is the length of $\\overline{BC}$?",
+    "passage": "In triangle ABC, $\\overline{DE}$ is parallel to $\\overline{AC}$, BD = AE, BE = 9, and AC = 17. What is the length of $\\overline{BC}$?",
     "question_text": null,
     "choices": [
       {
@@ -438,9 +438,9 @@
     "id": "70b33953-aa61-407d-a25a-a438792bed03_14",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M1_Q14_1.png",
+        "src": "/images_labeled/70b33953-aa61-407d-a25a-a438792bed03_14_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M1_Q14_1.png"
+        "local": "images_labeled/70b33953-aa61-407d-a25a-a438792bed03_14_q_01_FIX.png"
       }
     ]
   },
@@ -451,7 +451,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "If 5(8-2 x) + 3=4(8-2 x) + 15,whatis the value of 8-2 x?",
+    "passage": "If $5(8 - 2x) + 3 = 4(8 - 2x) + 15$, what is the value of $8 - 2x$?",
     "question_text": null,
     "choices": [
       {
@@ -483,7 +483,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "The positive number a is 270% of the number b, and a is 80% of the number c. If c is p % of b, which of the following is closest to the value of p?",
+    "passage": "$a$ is 270% of the number $b$, and $a$ is 80% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -512,10 +512,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 17,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "x + y =53\nThe given equation relates the total number of marble queen pothos stems, x, and the total number of snow queen pothos stems, y, a plant nursery propagates to create pothos plants. If 13 snow queen pothos stems are propagated, how many marble queen pothos stems are propagated?",
+    "passage": "The given equation $x + y = 53$ relates the total number of marble queen pothos stems, $x$, and the total number of snow queen pothos stems, $y$, a plant nursery propagates to create pothos plants. If 13 snow queen pothos stems are propagated, how many marble queen pothos stems are propagated?",
     "question_text": null,
     "choices": [
       {
@@ -544,10 +544,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 18,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "If 7 + x = 5, what is the value of-21-3 x?",
+    "passage": "If $7 + x = 5$, what is the value of $-21 - 3x$?",
     "question_text": null,
     "choices": [
       {
@@ -576,10 +576,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "The function k is defined by k (x)= x ³+ 50. What is the value of k (x) when x = 2?",
+    "passage": "The function $k$ is defined by $k(x) = x^3 + 50$. What is the value of $k(x)$ when $x = 2$?",
     "question_text": null,
     "choices": [
       {
@@ -608,10 +608,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 20,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "x (x -1)(x +7)=0\nWhat is one of the solutions to the given equation?",
+    "passage": "What is one of the solutions to the given equation? $x(x - 1)(x + 7) = 0$",
     "question_text": null,
     "choices": [
       {
@@ -640,10 +640,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "The scatterplot shows the relationship between two variables, x and y. A line of best fit for the data is also shown.\nFor how many of the 9 data points is the actual y -value greater than the y -value predicted by the line of best fit?",
+    "passage": "The scatterplot shows the relationship between two variables, $x$ and $y$. A line of best fit for the data is also shown.\nFor how many of the 9 data points is the actual $y$-value greater than the $y$-value predicted by the line of best fit?",
     "question_text": null,
     "choices": [
       {
@@ -669,9 +669,9 @@
     "id": "70b33953-aa61-407d-a25a-a438792bed03_21",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M1_Q21_1.png",
+        "src": "/images_labeled/70b33953-aa61-407d-a25a-a438792bed03_21_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M1_Q21_1.png"
+        "local": "images_labeled/70b33953-aa61-407d-a25a-a438792bed03_21_q_01_FIX.png"
       }
     ]
   },
@@ -679,10 +679,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "October 2025 International Form B SAT Math Module 1",
-    "passage": "For two acute angles X and Y, the measure of angle Y is 24°and $\\frac{sinX}{cosY}$ =1. What is the measure, in degrees, of angle X?",
+    "passage": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is 24° and $\\frac{\\sin X}{\\cos Y} = 1$. What is the measure, in degrees, of angle $X$?",
     "question_text": null,
     "choices": [
       {

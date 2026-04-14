@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "In the figure, two lines intersect at a point, If w = l28, what is the value of z?",
+    "passage": "In the figure, two lines intersect at a point. If $w = 128$, what is the value of $z$?",
     "question_text": null,
     "choices": [
       {
@@ -32,9 +32,9 @@
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_1",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlC_Math_M1_Q1_1.png",
+        "src": "/images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_1_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlC_Math_M1_Q1_1.png"
+        "local": "images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_1_q_01_FIX.png"
       }
     ]
   },
@@ -45,24 +45,24 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "Sabrina has a goal to save at least \\$240. Sabrina has already saved \\$180. If x represents the additional amount of money, in dollars, Sabrina needs to save to meet her goal, which inequality represents this situation?",
+    "passage": "Sabrina has a goal to save at least $240. Sabrina has already saved $180. If x represents the additional amount of money, in dollars, Sabrina needs to save to meet her goal, which inequality represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{x}{180}\\ge240$"
+        "text": "$\\frac{x}{180} \\ge 240$"
       },
       {
         "label": "B",
-        "text": "$180x\\ge240$"
+        "text": "$180x \\ge 240$"
       },
       {
         "label": "C",
-        "text": "$180+x\\ge240$"
+        "text": "$180 + x \\ge 240$"
       },
       {
         "label": "D",
-        "text": "$180-x\\ge240$"
+        "text": "$180 - x \\ge 240$"
       }
     ],
     "is_fill_in_blank": false,
@@ -77,7 +77,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "The function f is defined by f (x)= 12 x + 18. What is the y -coordinate of the y -intercept of the graph of y = f (x) in the xy- plane?",
+    "passage": "The function $f$ is defined by $f(x) = 12x + 18$. What is the $y$-coordinate of the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -121,7 +121,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 5,
     "test_name": "December 2024 International Form C SAT Math Module 1",
     "passage": "In the given scatterplot, a line of best fit for the data is shown.\nWhich of the following equations best represents this line of best fit?",
@@ -129,19 +129,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "y= 1.1x"
+        "text": "$y = 1.1x$"
       },
       {
         "label": "B",
-        "text": "y= -1.1x"
+        "text": "$y = -1.1x$"
       },
       {
         "label": "C",
-        "text": "y=5.2"
+        "text": "$y = 5.2$"
       },
       {
         "label": "D",
-        "text": "y=-5.2"
+        "text": "$y = -5.2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -150,9 +150,9 @@
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_5",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlC_Math_M1_Q5_1.png",
+        "src": "/images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_5_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlC_Math_M1_Q5_1.png"
+        "local": "images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_5_q_01_FIX.png"
       }
     ]
   },
@@ -163,7 +163,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "The function d is defined by d(x)=200- 6 x. What is the value of d(0)?",
+    "passage": "The function $d$ is defined by $d(x) = 200 - 6x$. What is the value of $d(0)$?",
     "question_text": null,
     "choices": [
       {
@@ -184,7 +184,7 @@
       }
     ],
     "is_fill_in_blank": false,
-    "correct_answer": "C",
+    "correct_answer": "D",
     "rationale": null,
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_6"
   },
@@ -192,10 +192,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "The relationship between the variables r and yis defined by an exponential equation. When x = 0, the value of y is 90, and for every increase in the value of x by 1, the corresponding value of y increases by 20% of its previous value. Which equation represents this relationship?",
+    "passage": "The relationship between the variables $r$ and $y$ is defined by an exponential equation. When $x = 0$, the value of $y$ is 90, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 20% of its previous value. Which equation represents this relationship?",
     "question_text": null,
     "choices": [
       {
@@ -227,24 +227,24 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "Line k is defined by y= 7x + 2. Line j is parallel to line k in the xy-plane and passes through the point (0,3). Which equation defines line j?",
+    "passage": "Line k is defined by $y = 7x + 2$. Line j is parallel to line k in the xy-plane and passes through the point (0, 3). Which equation defines line j?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": ",y=7x+3"
+        "text": "$y = 7x + 3$"
       },
       {
         "label": "B",
-        "text": ",y=-3x+3"
+        "text": "$y = -3x + 3$"
       },
       {
         "label": "C",
-        "text": ",y=-7x+3"
+        "text": "$y = -7x + 3$"
       },
       {
         "label": "D",
-        "text": ",y=3x+3"
+        "text": "$y = 3x + 3$"
       }
     ],
     "is_fill_in_blank": false,
@@ -256,10 +256,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 9,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "If x+4y=41 and7x-20y = -97, what is the value of y?",
+    "passage": "If $x + 4y = 41$ and $7x - 20y = -97$, what is the value of $y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -271,10 +271,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "For the linear function f, the graph of y= f(x) in the xy-plane has a slope of 28 and passes through the point (0, 0). The function f is defined by f(x)= a x, where a is a constant. What is the value of a?",
+    "passage": "For the linear function f, the graph of $y = f(x)$ in the $xy$-plane has a slope of 28 and passes through the point (0, 0). The function f is defined by $f(x) = a x$, where a is a constant. What is the value of a?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -286,10 +286,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "The graph models the number of active projects a company was working on x months after the end of November 2011, where 0 ≤ x ≤ 6. According to the model, what is the predicted number of active projects the company was working on at the end of November 2011?",
+    "passage": "The graph models the number of active projects a company was working on $x$ months after the end of November 2011, where $0 \\leq x \\leq 6$. According to the model, what is the predicted number of active projects the company was working on at the end of November 2011?",
     "question_text": null,
     "choices": [
       {
@@ -315,9 +315,9 @@
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_11",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlC_Math_M1_Q11_1.png",
+        "src": "/images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_11_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlC_Math_M1_Q11_1.png"
+        "local": "images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_11_q_01_FIX.png"
       }
     ]
   },
@@ -325,7 +325,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "December 2024 International Form C SAT Math Module 1",
     "passage": "The list gives the number of individuals in each of 6 groups of ring-tailed lemurs.\n17, 4, 20, 17, 18, 6\nWhat is the range of the numbers of individuals for the 6 groups of ring-tailed lemurs?",
@@ -340,19 +340,19 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "d=15t\nThe given equation relates the distance d, in inches, of an object from its starting position to the time t, in seconds, since the object started moving. What is the rate of change of the object's distance from its starting position over time?",
+    "passage": "$d = 15t$\nThe given equation relates the distance $d$, in inches, of an object from its starting position to the time $t$, in seconds, since the object started moving. What is the rate of change of the object's distance from its starting position over time?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "15t inches per second"
+        "text": "$15t$ inches per second"
       },
       {
         "label": "B",
-        "text": "inches per second"
+        "text": "$15$ inches per second"
       },
       {
         "label": "C",
@@ -375,7 +375,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "What is the slope of the graph of $y=\\frac{1}{2}(15x+12)+3x$ in the xy-plane?",
+    "passage": "What is the slope of the graph of $y=\\frac{1}{2}(15x+12)+3x$ in the $xy$-plane?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -387,10 +387,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 15,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "The table shows three values of x and their corresponding values of f(x), where $f(x)=\\frac{kx+45}{x+2}$ and k is a constant. what is the value of k?",
+    "passage": "The table shows three values of x and their corresponding values of f(x), where $f(x)=\\frac{kx+45}{x+2}$ and k is a constant. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -399,9 +399,9 @@
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlC_Math_M1_Q15_1.png",
+        "src": "/images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlC_Math_M1_Q15_1.png"
+        "local": "images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15_q_01_FIX.png"
       }
     ]
   },
@@ -412,7 +412,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "The function f is defined by $f(x)=\\frac{x+11}{3}$, and f(a)= 16, where a is a constant. What is the value of a?",
+    "passage": "The function f is defined by $f(x)=\\frac{x+11}{3}$, and $f(a)= 16$, where a is a constant. What is the value of a?",
     "question_text": null,
     "choices": [
       {
@@ -441,10 +441,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 17,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "Jasmin grows bean pods in her garden. This year, she harvested 330 bean pods and saved10% of them to plant next year. How many of the harvested bean pods did Jasmin save to plant next year?",
+    "passage": "Jasmin grows bean pods in her garden. This year, she harvested 330 bean pods and saved 10% of them to plant next year. How many of the harvested bean pods did Jasmin save to plant next year?",
     "question_text": null,
     "choices": [
       {
@@ -473,7 +473,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "December 2024 International Form C SAT Math Module 1",
     "passage": "A sphere has a radius of $\\frac{8}{3}$ feet. What is the volume, in cubic feet, of the sphere?",
@@ -505,15 +505,15 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "A company that manufactures stapler's calculates its monthly profit, in dollars, by subtracting its fixed monthly costs, in dollars, from its monthly sales revenue, in dollars. The equation 11,000=2.00 x - 6,500 represents this situation for a month where x staplers are manufactured and sold. Which statement is the best interpretation of 2.00 x in this context?",
+    "passage": "A company that manufactures staplers calculates its monthly profit, in dollars, by subtracting its fixed monthly costs, in dollars, from its monthly sales revenue, in dollars. The equation $11,000 = 2.00x - 6,500$ represents this situation for a month where $x$ staplers are manufactured and sold. Which statement is the best interpretation of $2.00x$ in this context?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The monthly sales revenue, in dollars, from selling x staplers"
+        "text": "The monthly sales revenue, in dollars, from selling $x$ staplers"
       },
       {
         "label": "B",
@@ -525,7 +525,7 @@
       },
       {
         "label": "D",
-        "text": "The monthly cost, in dollars, of manufacturing x staplers"
+        "text": "The monthly cost, in dollars, of manufacturing $x$ staplers"
       }
     ],
     "is_fill_in_blank": false,
@@ -537,7 +537,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 20,
     "test_name": "December 2024 International Form C SAT Math Module 1",
     "passage": "If $\\frac{x-16}{27}=\\frac{x-16}{9}$, what is the value of x + 16?",
@@ -569,10 +569,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "The graph of line h is shown in the xy-plane. Line k (not shown) is defined by sx + 40y=t, where s and t are constants. If line k is graphed in this xy-plane, the result is a graph of two linear equations, This system of two linear equations has no solution. Which of the following is NOT a possible value of t?",
+    "passage": "The graph of line $h$ is shown in the $xy$-plane. Line $k$ (not shown) is defined by $sx + 40y = t$, where $s$ and $t$ are constants. If line $k$ is graphed in this $xy$-plane, the result is a graph of two linear equations. This system of two linear equations has no solution. Which of the following is NOT a possible value of $t$?",
     "question_text": null,
     "choices": [
       {
@@ -598,9 +598,9 @@
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_21",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlC_Math_M1_Q21_1.png",
+        "src": "/images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_21_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlC_Math_M1_Q21_1.png"
+        "local": "images_labeled/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_21_q_01_FIX.png"
       }
     ]
   },
@@ -608,10 +608,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "December 2024 International Form C SAT Math Module 1",
-    "passage": "|7- x|+1=81\nWhat is the sum ofthe solutions to the given equation?",
+    "passage": "$|7 - x| + 1 = 81$\nWhat is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {

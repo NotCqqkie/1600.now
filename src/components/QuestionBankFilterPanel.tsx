@@ -22,6 +22,7 @@ import {
   CheckCircle,
   XCircle,
   BarChart3,
+  Zap,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -33,6 +34,7 @@ export const DEFAULT_TIME_SPENT_RANGE: [number, number] = [0, MAX_TIME_SPENT_FIL
 export interface QuestionBankFilters {
   difficulty: DifficultyFilterValue[];
   timeSpentRange: [number, number];
+  activeQuestions: "all" | "active" | "exclude-active";
   markedForReview: "all" | "yes" | "no";
   solved: "all" | "yes" | "no";
   answeredIncorrectly: "all" | "yes" | "no";
@@ -41,6 +43,7 @@ export interface QuestionBankFilters {
 export const defaultFilters: QuestionBankFilters = {
   difficulty: [],
   timeSpentRange: DEFAULT_TIME_SPENT_RANGE,
+  activeQuestions: "all",
   markedForReview: "all",
   solved: "all",
   answeredIncorrectly: "all",
@@ -50,6 +53,7 @@ export const hasActiveQuestionBankFilters = (filters: QuestionBankFilters): bool
   filters.difficulty.length > 0 ||
   filters.timeSpentRange[0] !== DEFAULT_TIME_SPENT_RANGE[0] ||
   filters.timeSpentRange[1] !== DEFAULT_TIME_SPENT_RANGE[1] ||
+  filters.activeQuestions !== defaultFilters.activeQuestions ||
   filters.markedForReview !== defaultFilters.markedForReview ||
   filters.solved !== defaultFilters.solved ||
   filters.answeredIncorrectly !== defaultFilters.answeredIncorrectly;
@@ -60,11 +64,10 @@ const difficultyOptions = [
   { label: "Hard", value: "hard" },
 ] as const;
 
-const SLIDER_THUMB_SIZE_PX = 24;
-
 interface FilterPanelProps {
   filters: QuestionBankFilters;
   onFiltersChange: (filters: QuestionBankFilters) => void;
+  showActivityFilter?: boolean;
   rightContent?: ReactNode;
 }
 
@@ -76,13 +79,6 @@ const formatTimeSpentValue = (seconds: number, isUpperBound = false): string => 
   const minutes = Math.floor(seconds / 60);
   const remainingSeconds = seconds % 60;
   return remainingSeconds === 0 ? `${minutes}m` : `${minutes}m ${remainingSeconds}s`;
-};
-
-const getSliderBubbleLeft = (seconds: number): string => {
-  const ratio = seconds / MAX_TIME_SPENT_FILTER_SECONDS;
-  const pixelOffset = SLIDER_THUMB_SIZE_PX / 2 - ratio * SLIDER_THUMB_SIZE_PX;
-
-  return `calc(${(ratio * 100).toFixed(4)}% + ${pixelOffset.toFixed(2)}px)`;
 };
 
 // Filter card component for consistent styling
@@ -111,6 +107,7 @@ function FilterCard({
 export function QuestionBankFilterPanel({
   filters,
   onFiltersChange,
+  showActivityFilter = true,
   rightContent,
 }: FilterPanelProps) {
   const [isOpen, setIsOpen] = useState(false);
@@ -148,8 +145,13 @@ export function QuestionBankFilterPanel({
       <Collapsible open={isOpen} onOpenChange={setIsOpen}>
         <CollapsibleContent>
           <div className="border rounded-lg p-4 bg-muted/30 space-y-4">
-            {/* Filter Grid - 2 columns on mobile, 5 on desktop */}
-            <div className="grid grid-cols-2 md:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)] gap-4">
+            {/* Filter Grid - 2 columns on mobile */}
+            <div className={cn(
+              "grid grid-cols-2 gap-4",
+              showActivityFilter
+                ? "md:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]"
+                : "md:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]",
+            )}>
               <FilterCard icon={BarChart3} label="Difficulty" className="min-w-0">
                 <MultiSelect
                   options={[...difficultyOptions]}
@@ -161,23 +163,15 @@ export function QuestionBankFilterPanel({
 
               <FilterCard icon={Clock} label="Time Spent Solving" className="min-w-0">
                 <div className="space-y-3 pt-1">
-                  <div className="relative px-2 pt-11">
-                    <div
-                      className="pointer-events-none absolute left-0 top-0 z-10 -translate-x-1/2"
-                      style={{ left: getSliderBubbleLeft(minTimeSpent) }}
-                    >
-                      <span className="inline-flex min-w-[4.5rem] whitespace-nowrap items-center justify-center rounded-full border border-border/60 bg-background px-3.5 py-1.5 text-xs font-semibold text-foreground shadow-sm">
-                        {formatTimeSpentValue(minTimeSpent)}
-                      </span>
-                    </div>
-                    <div
-                      className="pointer-events-none absolute left-0 top-0 z-10 -translate-x-1/2"
-                      style={{ left: getSliderBubbleLeft(maxTimeSpent) }}
-                    >
-                      <span className="inline-flex min-w-[4.5rem] whitespace-nowrap items-center justify-center rounded-full border border-primary/20 bg-primary/10 px-3.5 py-1.5 text-xs font-semibold text-foreground shadow-sm">
-                        {formatTimeSpentValue(maxTimeSpent, true)}
-                      </span>
-                    </div>
+                  <div className="flex items-center justify-between gap-2 text-xs font-semibold">
+                    <span className="inline-flex min-w-0 items-center justify-center rounded-full border border-border/60 bg-background px-3 py-1 text-foreground shadow-sm">
+                      {formatTimeSpentValue(minTimeSpent)}
+                    </span>
+                    <span className="inline-flex min-w-0 items-center justify-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-foreground shadow-sm">
+                      {formatTimeSpentValue(maxTimeSpent, true)}
+                    </span>
+                  </div>
+                  <div className="px-2">
                     <Slider
                       value={[minTimeSpent, maxTimeSpent]}
                       min={0}
@@ -193,6 +187,24 @@ export function QuestionBankFilterPanel({
                   </p>
                 </div>
               </FilterCard>
+
+              {showActivityFilter && (
+                <FilterCard icon={Zap} label="Question Activity" className="min-w-0">
+                  <Select
+                    value={filters.activeQuestions}
+                    onValueChange={(v) => updateFilter("activeQuestions", v as typeof filters.activeQuestions)}
+                  >
+                    <SelectTrigger className="w-full">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">All Questions</SelectItem>
+                      <SelectItem value="active">Active Questions</SelectItem>
+                      <SelectItem value="exclude-active">Exclude Active Questions</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </FilterCard>
+              )}
 
               <FilterCard icon={Bookmark} label="Marked for Review" className="min-w-0">
                 <Select

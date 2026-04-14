@@ -38,24 +38,24 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "The triangle shown has one side with a length of x inches and two sides each with a length of y inches. The perimeter of the triangle is 69 inches. Which equation represents this situation?",
+    "passage": "The triangle shown has one side with a length of $x$ inches and two sides each with a length of $y$ inches. The perimeter of the triangle is 69 inches. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "x+y=69"
+        "text": "$x+y=69$"
       },
       {
         "label": "B",
-        "text": "2x+y=69"
+        "text": "$2x+y=69$"
       },
       {
         "label": "C",
-        "text": "x+2y=69"
+        "text": "$x+2y=69$"
       },
       {
         "label": "D",
-        "text": "2x+2y=69"
+        "text": "$2x+2y=69$"
       }
     ],
     "is_fill_in_blank": false,
@@ -64,9 +64,9 @@
     "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_2",
     "images": [
       {
-        "src": "/images_labeled/Sep_25_IntlA_Math_M1_Q2_1.png",
+        "src": "/images_labeled/8e440f6e-2b73-40f7-a2ba-12f834f2422e_2_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Sep_25_IntlA_Math_M1_Q2_1.png"
+        "local": "images_labeled/8e440f6e-2b73-40f7-a2ba-12f834f2422e_2_q_01_FIX.png"
       }
     ]
   },
@@ -92,7 +92,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "In the ancient Roman measurement system, a leuga was a unit of length that was equal to 7,500 pedes. In this measurement system, how many pedes were equivalent to 3.8 leugas?",
+    "passage": "In the ancient Roman measurement system, a leuga was a unit of length that was equal to $7,500$ pedes. In this measurement system, how many pedes were equivalent to $3.8$ leugas?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -107,24 +107,24 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "There are a total of 1,200 milligrams of phosphorus in a sample of soil. Each kilogram of this sample contains 600 milligrams of phosphorus. Which equation represents this situation, where x is the mass, in kilograms, of the sample of soil?",
+    "passage": "There are a total of 1,200 milligrams of phosphorus in a sample of soil. Each kilogram of this sample contains 600 milligrams of phosphorus. Which equation represents this situation, where $x$ is the mass, in kilograms, of the sample of soil?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "x+600=1,200"
+        "text": "$x+600=1,200$"
       },
       {
         "label": "B",
-        "text": "1,200x=600"
+        "text": "$1,200x=600$"
       },
       {
         "label": "C",
-        "text": "x+1,200=600"
+        "text": "$x+1,200=600$"
       },
       {
         "label": "D",
-        "text": "600x=1,200"
+        "text": "$600x=1,200$"
       }
     ],
     "is_fill_in_blank": false,
@@ -139,7 +139,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by f(x)= $\\frac{1}{2}$ (x+12). What is the value of f(6)?",
+    "passage": "The function f is defined by $f(x) = \\frac{1}{2}(x + 12)$. What is the value of $f(6)$?",
     "question_text": null,
     "choices": [
       {
@@ -171,7 +171,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "If 9x+4=32, what is the value of 3(9x+4)?",
+    "passage": "If $9x+4=32$, what is the value of $3(9x+4)$?",
     "question_text": null,
     "choices": [
       {
@@ -215,7 +215,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "September 2025 International Form A SAT Math Module 1",
     "passage": "A savings account is opened with an initial deposit of \\$7,000. The amount of money in the account t years after the initial deposit is given by the function $f(t)=7,000(1.01)^{2t}$. Which of the following is the best interpretation of the statement \"f(3) is approximately equal to 7,430.64\" in this context?",
@@ -223,7 +223,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "years after the initial deposit, the amount of money, in dollars, in the account is 7,430.64."
+        "text": "3 years after the initial deposit, the amount of money, in dollars, in the account is 7,430.64."
       },
       {
         "label": "B",
@@ -231,7 +231,7 @@
       },
       {
         "label": "C",
-        "text": "years after the initial deposit, the amount of money, in dollars, in the account has increased by 7,430.64."
+        "text": "3 years after the initial deposit, the amount of money, in dollars, in the account has increased by 7,430.64."
       },
       {
         "label": "D",
@@ -247,27 +247,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "In the linear function f, f(0)=3 and f(5)=3. Which equation defines f?",
+    "passage": "In the linear function $ f $, $ f(0) = 3 $ and $ f(5) = 3 $. Which equation defines $ f $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "f(x)=0"
+        "text": "$ f(x) = 0 $"
       },
       {
         "label": "B",
-        "text": "f(x)=5"
+        "text": "$ f(x) = 5 $"
       },
       {
         "label": "C",
-        "text": "f(x)=3"
+        "text": "$ f(x) = 3 $"
       },
       {
         "label": "D",
-        "text": "f(x)=x+3"
+        "text": "$ f(x) = x + 3 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -279,27 +279,27 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Evaluating statistical claims: Observational studies and experiments",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "An arborist studying forestland in Illinois estimates that there are at least 50 and no more than 60 hickory trees per acre in a certain forest. Which of the following best represents the arborist's estimate of the number of hickory trees, x, that are in a 3-acre section of this forest?",
+    "passage": "An arborist studying forestland in Illinois estimates that there are at least 50 and no more than 60 hickory trees per acre in a certain forest. Which of the following best represents the arborist's estimate of the number of hickory trees, $x$, that are in a 3-acre section of this forest?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$180\\le x\\le360$"
+        "text": "$150 \\leq x \\leq 180$"
       },
       {
         "label": "B",
-        "text": "$150\\le x\\le180$"
+        "text": "$150 \\leq x \\leq 180$"
       },
       {
         "label": "C",
-        "text": "$53\\le x\\le63$"
+        "text": "$150 \\leq x \\leq 180$"
       },
       {
         "label": "D",
-        "text": "$50\\le x\\le60$"
+        "text": "$150 \\leq x \\leq 180$"
       }
     ],
     "is_fill_in_blank": false,
@@ -311,10 +311,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "For the polynomial function p, the graph of y=p(x) in the xy-plane crosses through the points (-4,0), (0,9), (6,0), and (17,0). What is the value of p(0)?",
+    "passage": "For the polynomial function $ p $, the graph of $ y = p(x) $ in the $ xy $-plane crosses through the points $(-4, 0)$, $(0, 9)$, $(6, 0)$, and $(17, 0)$. What is the value of $ p(0) $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -329,7 +329,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "The graph of -6x+4.4y=-660 in the xy-plane has intercepts at (a,0) and (0,b). What is the value of ab?",
+    "passage": "The graph of $-6x + 4.4y = -660$ in the $xy$-plane has intercepts at $(a, 0)$ and $(0, b)$. What is the value of $ab$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -344,7 +344,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "x+24y=60\n5x+3y=27\nThe solution to the given system of equations is (x,y). What is the value of y?",
+    "passage": "$x + 24y = 60$\n$5x + 3y = 27$\nThe solution to the given system of equations is $(x, y)$. What is the value of $y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -385,9 +385,9 @@
     "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_16",
     "images": [
       {
-        "src": "/images_labeled/Sep_25_IntlA_Math_M1_Q16_1.png",
+        "src": "/images_labeled/8e440f6e-2b73-40f7-a2ba-12f834f2422e_16_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Sep_25_IntlA_Math_M1_Q16_1.png"
+        "local": "images_labeled/8e440f6e-2b73-40f7-a2ba-12f834f2422e_16_q_01_FIX.png"
       }
     ]
   },
@@ -395,10 +395,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "$a=\\frac{3}{11}b+6$\nThe given equation relates the positive numbers a and b. Which equation correctly expresses b in terms of a?",
+    "passage": "$a=\\frac{3}{11}b+6$\nThe given equation relates the positive numbers $a$ and $b$. Which equation correctly expresses $b$ in terms of $a$?",
     "question_text": null,
     "choices": [
       {
@@ -427,7 +427,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "September 2025 International Form A SAT Math Module 1",
     "passage": "The shaded region shown represents the solutions to which inequality?",
@@ -435,19 +435,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "y>3x+7"
+        "text": "$y>3x+7$"
       },
       {
         "label": "B",
-        "text": "y>3x-7"
+        "text": "$y>3x-7$"
       },
       {
         "label": "C",
-        "text": "y<3x+7"
+        "text": "$y<3x+7$"
       },
       {
         "label": "D",
-        "text": "y<3x-7"
+        "text": "$y<3x-7$"
       }
     ],
     "is_fill_in_blank": false,
@@ -456,9 +456,9 @@
     "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_18",
     "images": [
       {
-        "src": "/images_labeled/Sep_25_IntlA_Math_M1_Q18_1.png",
+        "src": "/images_labeled/8e440f6e-2b73-40f7-a2ba-12f834f2422e_18_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Sep_25_IntlA_Math_M1_Q18_1.png"
+        "local": "images_labeled/8e440f6e-2b73-40f7-a2ba-12f834f2422e_18_q_01_FIX.png"
       }
     ]
   },
@@ -466,27 +466,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "The measure of an angle, in radians, is (93)(2)π. What is the measure of the angle, in degrees?",
+    "passage": "The measure of an angle, in radians, is $\\frac{93}{2}\\pi$. What is the measure of the angle, in degrees?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(\\frac{93}{2})(360)$"
+        "text": "$\\left(\\frac{93}{2}\\right)(360)$"
       },
       {
         "label": "B",
-        "text": "(93)(360)"
+        "text": "$93(360)$"
       },
       {
         "label": "C",
-        "text": "(93)(2)(360)"
+        "text": "$93(2)(360)$"
       },
       {
         "label": "D",
-        "text": "(180)(93)(360)"
+        "text": "$180(93)(360)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -498,10 +498,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "In triangles RST and XYZ shown, XY is parallel to TS and tanR= $\\frac{216}{713}$. What is the value of sinX in triangle XYZ?",
+    "passage": "In triangles $RST$ and $XYZ$ shown, $XY$ is parallel to $TS$ and $\\tan R = \\frac{216}{713}$. What is the value of $\\sin X$ in triangle $XYZ$?",
     "question_text": null,
     "choices": [
       {
@@ -527,9 +527,9 @@
     "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_20",
     "images": [
       {
-        "src": "/images_labeled/Sep_25_IntlA_Math_M1_Q20_1.png",
+        "src": "/images_labeled/8e440f6e-2b73-40f7-a2ba-12f834f2422e_20_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Sep_25_IntlA_Math_M1_Q20_1.png"
+        "local": "images_labeled/8e440f6e-2b73-40f7-a2ba-12f834f2422e_20_q_01_FIX.png"
       }
     ]
   },
@@ -540,7 +540,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "|x+4|+4=|2x-17|+4\nWhat is the smallest solution to the given equation?",
+    "passage": "$|x+4| + 4 = |2x-17| + 4$\nWhat is the smallest solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -552,7 +552,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "September 2025 International Form A SAT Math Module 1",
     "passage": "$y=3x^{2}-24x+51$\n$y+4=0$\nHow many solutions are there to the given system of equations?",

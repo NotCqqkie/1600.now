@@ -5,6 +5,14 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+const SAT_STYLE_IMAGE_BASE = "/images/SAT-Style Questions/";
+
+const getBasename = (input: string): string => {
+  const normalized = input.replace(/\\/g, "/").trim();
+  const segments = normalized.split("/").filter(Boolean);
+  return segments[segments.length - 1] ?? "";
+};
+
 export function normalizePublicAssetPath(path: string): string {
   if (!path) return path;
 
@@ -15,7 +23,15 @@ export function normalizePublicAssetPath(path: string): string {
 
   const [pathAndQuery, hash = ""] = trimmed.split("#");
   const [pathname, query = ""] = pathAndQuery.split("?");
-  const normalizedPath = pathname.replace(/\\/g, "/");
+  let normalizedPath = pathname.replace(/\\/g, "/");
+
+  if (/^\/?images_labeled\//i.test(normalizedPath)) {
+    const basename = getBasename(normalizedPath);
+    normalizedPath = `${SAT_STYLE_IMAGE_BASE}${basename}`;
+  } else if (/^\/?images\//i.test(normalizedPath) && !normalizedPath.startsWith("/")) {
+    normalizedPath = `/${normalizedPath}`;
+  }
+
   const encodedPath = normalizedPath
     .split("/")
     .map((segment, index) => {

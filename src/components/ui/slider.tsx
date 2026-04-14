@@ -25,7 +25,7 @@ const Slider = React.forwardRef<
       {...props}
     >
       <SliderPrimitive.Track className="relative h-3 w-full grow overflow-hidden rounded-full border border-border/50 bg-muted/60 shadow-[inset_0_1px_3px_rgba(15,23,42,0.08)] transition-colors duration-200 group-hover:bg-muted">
-        <SliderPrimitive.Range className="absolute h-full rounded-full bg-primary transition-all duration-150 ease-out" />
+        <SliderPrimitive.Range className="absolute h-full rounded-full bg-primary" />
       </SliderPrimitive.Track>
       {Array.from({ length: thumbCount }).map((_, index) => (
         <SliderPrimitive.Thumb

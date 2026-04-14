@@ -1,4 +1,5 @@
 import type { PracticeModule } from "@/data/modulePracticeBank";
+import { getLatestModulePracticeResult } from "@/lib/modulePracticeSession";
 
 export interface ModuleProgressCounts {
   correct: number;
@@ -7,6 +8,11 @@ export interface ModuleProgressCounts {
 }
 
 export const getModuleProgressCounts = (module: PracticeModule): ModuleProgressCounts => {
+  const latestResult = getLatestModulePracticeResult(module.slug);
+  if (latestResult) {
+    return latestResult.counts;
+  }
+
   return module.questions.reduce(
     (counts, entry) => {
       const status = localStorage.getItem(`${entry.bankQuestion.stableId}-status`);

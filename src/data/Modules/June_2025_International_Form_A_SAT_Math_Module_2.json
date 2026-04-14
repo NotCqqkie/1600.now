@@ -6,24 +6,24 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "What is the y -intercept of the graph of $y=6x^{2}+4x+3$ in the xy-plane?",
+    "passage": "What is the $y$-intercept of the graph of $y=6x^2+4x+3$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(0, 3)"
+        "text": "$(0, 3)$"
       },
       {
         "label": "B",
-        "text": "(0, 4)"
+        "text": "$(0, 4)$"
       },
       {
         "label": "C",
-        "text": "(0, 6)"
+        "text": "$(0, 6)$"
       },
       {
         "label": "D",
-        "text": "(0, 7)"
+        "text": "$(0, 7)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -35,10 +35,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "The product of a positive number x and the number that is 7 less than x is equal to 18. What is the value of x?",
+    "passage": "The product of a positive number $x$ and the number that is 7 less than $x$ is equal to 18. What is the value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -67,7 +67,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "June 2025 International Form A SAT Math Module 2",
     "passage": "A cylinder has a diameter of 6 inches and a height of 21 inches. What is the volume, in cubic inches, of the cylinder?",
@@ -75,19 +75,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "9π"
+        "text": "$9\\pi$"
       },
       {
         "label": "B",
-        "text": "126π"
+        "text": "$126\\pi$"
       },
       {
         "label": "C",
-        "text": "189π"
+        "text": "$189\\pi$"
       },
       {
         "label": "D",
-        "text": "756π"
+        "text": "$756\\pi$"
       }
     ],
     "is_fill_in_blank": false,
@@ -99,10 +99,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 6,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "Eli used wax to make candles. The function f (x)= - 9 x + 54 approximates the weight, in ounces, of wax Eli had remaining after making x candles. Which statement is the best interpretation of the y-intercept of the graph of y = f (x) in the xy-plane in this context?",
+    "passage": "Eli used wax to make candles. The function $f(x) = -9x + 54$ approximates the weight, in ounces, of wax Eli had remaining after making $x$ candles. Which statement is the best interpretation of the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane in this context?",
     "question_text": null,
     "choices": [
       {
@@ -139,19 +139,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "y=9x+16"
+        "text": "$y = 9x + 16$"
       },
       {
         "label": "B",
-        "text": "9x+16y=720"
+        "text": "$9x + 16y = 720$"
       },
       {
         "label": "C",
-        "text": "y=16x+9"
+        "text": "$y = 16x + 9$"
       },
       {
         "label": "D",
-        "text": "16x+9y=720"
+        "text": "$16x + 9y = 720$"
       }
     ],
     "is_fill_in_blank": false,
@@ -160,9 +160,9 @@
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7",
     "images": [
       {
-        "src": "/images_labeled/Jun_25_IntlA_Math_M2_Q7_1.svg",
+        "src": "/images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7_q_01_FIX.svg",
         "alt": "",
-        "local": "images_labeled/Jun_25_IntlA_Math_M2_Q7_1.svg"
+        "local": "images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7_q_01_FIX.svg"
       }
     ]
   },
@@ -173,7 +173,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$ak=\\frac{b}{12}(8+m)$\nThe given equation relates the positive variables a, b, k, and m. Which equation correctly expresses m in terms of a, b, and k?",
+    "passage": "$a k=\\frac{b}{12}(8+m)$\nThe given equation relates the positive variables $a$, $b$, $k$, and $m$. Which equation correctly expresses $m$ in terms of $a$, $b$, and $k$?",
     "question_text": null,
     "choices": [
       {
@@ -190,7 +190,7 @@
       },
       {
         "label": "D",
-        "text": "$m=\\frac{12ak}{b}$ $-8$"
+        "text": "$m=\\frac{12ak}{b}-8$"
       }
     ],
     "is_fill_in_blank": false,
@@ -205,7 +205,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "The function g is defined by $g(x)=10^{4x-2}$. What is the value of x when g (x) is equal to 10,000?",
+    "passage": "The function $g$ is defined by $g(x)=10^{4x-2}$. What is the value of $x$ when $g(x)$ is equal to 10,000?",
     "question_text": null,
     "choices": [
       {
@@ -269,7 +269,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "A piece of string with a length of 53 inches is cut into two parts. One part has a length of x inches, and the other part has a length of y inches. The value of x is 8 more than 2 times the value of y. What is the value of x?",
+    "passage": "A piece of string with a length of 53 inches is cut into two parts. One part has a length of $x$ inches, and the other part has a length of $y$ inches. The value of $x$ is 8 more than 2 times the value of $y$. What is the value of $x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -281,7 +281,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 12,
     "test_name": "June 2025 International Form A SAT Math Module 2",
     "passage": "Which equation has no solution?",
@@ -313,7 +313,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 13,
     "test_name": "June 2025 International Form A SAT Math Module 2",
     "passage": "$F(x)=\\frac{9}{5}(x-273.15)+32$\nThe function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 13.30 kelvins, by how much did the temperature increase, in degrees Fahrenheit?",
@@ -345,7 +345,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "June 2025 International Form A SAT Math Module 2",
     "passage": "An environmental scientist is investigating the volatility of 175 organic compounds by finding the boiling point of each compound. The mean boiling point of all 175 compounds is 167 degrees Celsius. The scientist classifies each of these compounds as either semivolatile or volatile. Of the 175 compounds, 50 compounds were classified as semivolatile, and these 50 compounds have a mean boiling point of 322 degrees Celsius. The remaining 125 compounds were classified as volatile. What is the mean boiling point, in degrees Celsius, of the 125 compounds classified as volatile compounds?",
@@ -360,10 +360,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$f(x)=26(1.20)^{\\frac{x}{3}}$\nFor the given function f, the value of f (x) increases by p % for every increase of x by 6. What is the value of p?",
+    "passage": "$f(x) = 26(1.20)^{\\frac{x}{3}}$\nFor the given function $f$, the value of $f(x)$ increases by $p\\%$ for every increase of $x$ by 6. What is the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -392,27 +392,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "A carpenter charges a flat rate of \\$228 for the first 2 hours of work and \\$95 for each additional hour of work. Which equation gives the total amount y, in dollars, that the carpenter charges for x hours of work, where x > 2?",
+    "passage": "$y = 95(x - 2) + 228$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y=95x+228"
+        "text": "$y = 95x + 228$"
       },
       {
         "label": "B",
-        "text": "y=228x+418"
+        "text": "$y = 228x + 418$"
       },
       {
         "label": "C",
-        "text": "y=95x+38"
+        "text": "$y = 95x + 38$"
       },
       {
         "label": "D",
-        "text": "y=228x+95"
+        "text": "$y = 228x + 95$"
       }
     ],
     "is_fill_in_blank": false,
@@ -427,7 +427,7 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$y=-6.5$\n$y=x^{2}+8x+a$\nIn the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?",
+    "passage": "In the given system of equations, $a$ is a positive integer constant. The system has no real solutions. What is the least possible value of $a$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -439,14 +439,14 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$5272n\\sqrt{272n}^{2}$\nFor what value of x is the given expression equivalent to $(272n)^{30x}$, where n > 1?",
+    "passage": "For what value of $x$ is the expression $\\sqrt[15]{272n^8}$ equivalent to $(272n)^{30x}$, where $n > 1$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "4/225,.0177,.0178,0.018,0.017",
+    "correct_answer": "4/225",
     "rationale": null,
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_18"
   },
@@ -483,9 +483,9 @@
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_19",
     "images": [
       {
-        "src": "/images_labeled/Jun_25_IntlA_Math_M2_Q19.png",
+        "src": "/images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_19_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Jun_25_IntlA_Math_M2_Q19.png"
+        "local": "images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_19_q_01_FIX.png"
       }
     ]
   },
@@ -496,24 +496,24 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "The table shows three values of x and their corresponding values of g (x), where $g(x)=\\frac{f(x)}{x+4}$? and f is a linear function. What is the y-intercept of the graph of y = f (x) in the xy -plane?",
+    "passage": "The table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+4}$ and $f$ is a linear function. What is the y-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(0, 36)"
+        "text": "$(0, 36)$"
       },
       {
         "label": "B",
-        "text": "(0, 9)"
+        "text": "$(0, 9)$"
       },
       {
         "label": "C",
-        "text": "(0, 4)"
+        "text": "$(0, 4)$"
       },
       {
         "label": "D",
-        "text": "(0, -9)"
+        "text": "$(0, -9)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -522,9 +522,9 @@
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20",
     "images": [
       {
-        "src": "/images_labeled/Jun_25_IntlA_Math_M2_Q20_1.png",
+        "src": "/images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Jun_25_IntlA_Math_M2_Q20_1.png"
+        "local": "images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20_q_01_FIX.png"
       }
     ]
   },
@@ -532,10 +532,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "The mass of object A is 438 % of the mass of object B, and the mass of object A is 0.073 % of the mass of object C. If the mass of object C is p % of the mass of object B, what is the value of $\\frac{P}{1000}$?",
+    "passage": "The mass of object A is 438% of the mass of object B, and the mass of object A is 0.073% of the mass of object C. If the mass of object C is $p$\\% of the mass of object B, what is the value of $\\frac{p}{1000}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -550,7 +550,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$\\frac{1}{cx}=\\frac{x}{72}+\\frac{1}{c}$\nIn the given equation, c is a constant. If the equation has exactly one solution, what is the value of c?",
+    "passage": "$\\frac{1}{c x} = \\frac{x}{72} + \\frac{1}{c}$",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

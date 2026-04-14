@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label";
 import { BrandLogo } from "@/components/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
-import { Loader2, BookOpen, Target, BarChart3 } from "lucide-react";
+import { Loader2, BookOpen, Target, BarChart3, ArrowLeft } from "lucide-react";
 
 // Google SVG icon
 const GoogleIcon = () => (
@@ -57,109 +57,16 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex">
-      {/* ── Left brand panel ── */}
-      <div
-        className="hidden lg:flex lg:flex-col lg:w-[46%] relative overflow-hidden"
-        style={{
-          background: "linear-gradient(155deg, hsl(226,42%,7%) 0%, hsl(220,38%,10%) 55%, hsl(214,34%,13%) 100%)",
-        }}
-      >
-        {/* Subtle grid */}
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px)",
-            backgroundSize: "52px 52px",
-          }}
-        />
-        {/* Glow blob */}
-        <div
-          className="absolute pointer-events-none"
-          style={{
-            top: "-10%", left: "30%", transform: "translateX(-50%)",
-            width: 600, height: 400, borderRadius: "50%",
-            background: "radial-gradient(ellipse, rgba(125,211,252,0.12) 0%, transparent 68%)",
-          }}
-        />
-        <div
-          className="absolute pointer-events-none"
-          style={{
-            bottom: "10%", right: "-10%",
-            width: 300, height: 300, borderRadius: "50%",
-            background: "radial-gradient(ellipse, rgba(251,191,36,0.06) 0%, transparent 68%)",
-          }}
-        />
-
-        {/* Content */}
-        <div className="relative flex flex-col h-full px-12 py-10">
-          <BrandLogo variant="mark" className="h-10 w-10" />
-
-          <div className="flex-1 flex flex-col justify-center">
-            <h1
-              style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
-                fontSize: "clamp(40px, 3.8vw, 56px)",
-                lineHeight: 0.96,
-                color: "hsl(210,40%,98%)",
-                marginBottom: 20,
-                letterSpacing: "-0.025em",
-              }}
-            >
-              Reach your
-              <br />
-              <em style={{ fontStyle: "italic", color: "hsl(201,100%,80%)" }}>
-                best score.
-              </em>
-            </h1>
-            <p
-              style={{
-                fontSize: 15,
-                color: "rgba(255,255,255,0.46)",
-                lineHeight: 1.65,
-                fontWeight: 300,
-                marginBottom: 40,
-                maxWidth: 320,
-              }}
-            >
-              Accurate SAT practice built from real past tests. No fluff. No paywalls.
-            </p>
-
-            <div className="space-y-4">
-              {features.map(({ icon: Icon, text }) => (
-                <div key={text} className="flex items-center gap-3">
-                  <div
-                    className="flex items-center justify-center rounded-lg shrink-0"
-                    style={{
-                      width: 34, height: 34,
-                      background: "rgba(125,211,252,0.1)",
-                      border: "1px solid rgba(125,211,252,0.18)",
-                    }}
-                  >
-                    <Icon className="h-4 w-4" style={{ color: "hsl(201,100%,80%)" }} />
-                  </div>
-                  <span style={{ fontSize: 14, color: "rgba(255,255,255,0.68)", fontWeight: 400 }}>
-                    {text}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <p style={{ fontSize: 12, color: "rgba(255,255,255,0.22)" }}>
-            © 2026 1600.now
-          </p>
-        </div>
+    <div className="min-h-screen flex flex-col bg-background">
+      <div className="flex items-center justify-between px-6 py-4">
+        <BrandLogo variant="mark" className="h-10 w-10" />
+        <Button variant="ghost" size="sm" className="gap-2" onClick={() => navigate("/")}>
+          <ArrowLeft className="h-4 w-4" />
+          Back to home
+        </Button>
       </div>
 
-      {/* ── Right form panel ── */}
-      <div className="flex-1 flex flex-col items-center justify-center px-6 py-12 bg-background">
-        {/* Mobile logo */}
-        <div className="lg:hidden mb-8">
-          <BrandLogo variant="mark" className="h-10 w-10" />
-        </div>
-
+      <div className="flex-1 flex items-center justify-center px-6 py-12">
         <div className="w-full max-w-sm">
           <div className="mb-8">
             <h2
@@ -175,7 +82,7 @@ const Login = () => {
               Welcome back
             </h2>
             <p className="text-sm text-muted-foreground">
-              Sign in to continue your prep.
+              Sign in to continue studying.
             </p>
           </div>
 

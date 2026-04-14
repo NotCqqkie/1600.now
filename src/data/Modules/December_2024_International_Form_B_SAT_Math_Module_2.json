@@ -3,7 +3,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 1,
     "test_name": "December 2024 International Form B SAT Math Module 2",
     "passage": "In the right triangle shown, what is the value of a?",
@@ -32,9 +32,9 @@
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlB_Math_M2_Q1_1.png",
+        "src": "/images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlB_Math_M2_Q1_1.png"
+        "local": "images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1_q_01_FIX.png"
       }
     ]
   },
@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "The graph of the polynomial function f in the xy-plane, where y= f(x), passes through the point (5, 2). What is the value of f(5)?",
+    "passage": "The graph of the polynomial function $f$ in the $xy$-plane, where $y= f(x)$, passes through the point $(5, 2)$. What is the value of $f(5)$?",
     "question_text": null,
     "choices": [
       {
@@ -74,15 +74,15 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "Nicole walks at a speed of 2 miles per hour and runs at a speed of 7 miles per hour. She walks for w hours and runs for r hours for a combined total of 13 miles, Which equation represents this situation?",
+    "passage": "Nicole walks at a speed of 2 miles per hour and runs at a speed of 7 miles per hour. She walks for $w$ hours and runs for $r$ hours for a combined total of 13 miles. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "2w+7r=13"
+        "text": "$2w+7r=13$"
       },
       {
         "label": "B",
@@ -94,7 +94,7 @@
       },
       {
         "label": "D",
-        "text": "2w+7r=117"
+        "text": "$2w+7r=117$"
       }
     ],
     "is_fill_in_blank": false,
@@ -109,7 +109,7 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "$47=\\frac{2K}{v^{2}}$\nFor an object with a mass of 47 kilograms, the given equation relates the kinetic energy k in joules, of the object to the object's speed v, in meters per second, where K and v are positive, Which equation correctly expresses this object's speed, in meters per second, in terms of the object's kinetic energy, in joules?",
+    "passage": "$47=\\frac{2K}{v^{2}}$\nFor an object with a mass of 47 kilograms, the given equation relates the kinetic energy $K$ in joules, of the object to the object's speed $v$, in meters per second, where $K$ and $v$ are positive. Which equation correctly expresses this object's speed, in meters per second, in terms of the object's kinetic energy, in joules?",
     "question_text": null,
     "choices": [
       {
@@ -138,10 +138,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 7,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "A bin contains a mixture of T-shirts for two sports teamns, The table shows the number ofTshirts in the bin, classilied by size and sports team.\nOne T-shirt from the bin will be selected at random. What is the probability of selecting a T-shirt that is medium, given that the T-shirt is a Hawks T-shirt? (Express your answer as a decimal or fraction, not as a percent.)",
+    "passage": "A bin contains a mixture of T-shirts for two sports teams. The table shows the number of T-shirts in the bin, classified by size and sports team.\nOne T-shirt from the bin will be selected at random. What is the probability of selecting a T-shirt that is medium, given that the T-shirt is a Hawks T-shirt? (Express your answer as a decimal or fraction, not as a percent.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -150,9 +150,9 @@
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_7",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlB_Math_M2_Q7_1.png",
+        "src": "/images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_7_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlB_Math_M2_Q7_1.png"
+        "local": "images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_7_q_01_FIX.png"
       }
     ]
   },
@@ -178,7 +178,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "In right triangle ABC, the tangent of ∠C is $\\frac{3}{4}$. what is the length of $\\overline{AB}$?",
+    "passage": "In right triangle $ABC$, the tangent of $\\angle C$ is $\\frac{3}{4}$. What is the length of $\\overline{AB}$?",
     "question_text": null,
     "choices": [
       {
@@ -204,9 +204,9 @@
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlB_Math_M2_Q9_1.png",
+        "src": "/images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlB_Math_M2_Q9_1.png"
+        "local": "images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9_q_01_FIX.png"
       }
     ]
   },
@@ -214,7 +214,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "December 2024 International Form B SAT Math Module 2",
     "passage": "$x^{2}-\\frac{25}{81}=0$\nHow many distinct real solutions does the given equation have?",
@@ -249,7 +249,7 @@
     "difficulty": "Hard",
     "question_number": 11,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "$a(4x-8)+5a=4(ax-2a)-20$\nIn the given equation, a is a constant, The equation has infinitely many solutions. what are all possible values of a?",
+    "passage": "$a(4x - 8) + 5a = 4(ax - 2a) - 20$\nIn the given equation, $a$ is a constant. The equation has infinitely many solutions. What are all possible values of $a$?",
     "question_text": null,
     "choices": [
       {
@@ -258,7 +258,7 @@
       },
       {
         "label": "B",
-        "text": "only"
+        "text": "0 only"
       },
       {
         "label": "C",
@@ -281,7 +281,7 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "$5x^{m}$\nIn the given expression, m is a constant and x > 1, The expression can be rewritten as $4x$ What is the value of m?",
+    "passage": "$5x^m$\nIn the given expression, $m$ is a constant and $x > 1$. The expression can be rewritten as $4x$. What is the value of $m$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -293,27 +293,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$14 for each book after the first. Which equation describes this situation, where y is the total cost, in dollars, for books purchased during a month, x is the number of books purchased during the month,and x>0?",
+    "passage": "$y = 16 + 14(x - 1)$ describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y= x+ 16"
+        "text": "$y = x + 16$"
       },
       {
         "label": "B",
-        "text": "y=14x+16"
+        "text": "$y = 14x + 16$"
       },
       {
         "label": "C",
-        "text": "y=14(x-1)+16"
+        "text": "$y = 14(x - 1) + 16$"
       },
       {
         "label": "D",
-        "text": "y=(x-1)+16"
+        "text": "$y = (x - 1) + 16$"
       }
     ],
     "is_fill_in_blank": false,
@@ -325,10 +325,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "$z(w)=(0.819)^{2w}$\nThe function z is defined by the equation shown. The value of z(w) decreases by p% for each increase by 1 in the value of w, Which of the following is closest to the value of p?",
+    "passage": "$z(w)=(0.819)^{2w}$\nThe function $z$ is defined by the equation shown. The value of $z(w)$ decreases by $p\\%$ for each increase by 1 in the value of $w$. Which of the following is closest to the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -360,24 +360,24 @@
     "difficulty": "Hard",
     "question_number": 16,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "The graph of the linear function y= f(x) + 11 is shown. If c and d are positive constants. which equation could define f?",
+    "passage": "The graph of the linear function $y = f(x) + 11$ is shown. If $c$ and $d$ are positive constants, which equation could define $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "f(x)=-d-cx"
+        "text": "$f(x) = -d - cx$"
       },
       {
         "label": "B",
-        "text": "f(x)=d+cx"
+        "text": "$f(x) = d + cx$"
       },
       {
         "label": "C",
-        "text": "f(x)=-d+cx"
+        "text": "$f(x) = -d + cx$"
       },
       {
         "label": "D",
-        "text": "f(x)=d-cx"
+        "text": "$f(x) = d - cx$"
       }
     ],
     "is_fill_in_blank": false,
@@ -386,9 +386,9 @@
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_16",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlB_Math_M2_Q16_1.png",
+        "src": "/images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_16_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlB_Math_M2_Q16_1.png"
+        "local": "images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_16_q_01_FIX.png"
       }
     ]
   },
@@ -396,10 +396,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "$46x^{2}+(46s+r)x+rs=0$\nIn the given equation, r and s are positive constants. The product of the solutions to the given equation is krs, where k is a constant. What is the value of k?",
+    "passage": "$46x^{2}+(46s+r)x+rs=0$\nIn the given equation, $r$ and $s$ are positive constants. The product of the solutions to the given equation is $krs$, where $k$ is a constant. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -414,24 +414,24 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "−16(5x−2) 2 +6(5x−3) 2\nThe given expresslon can be rewritten as $\\frac{c}{4}x^{2}+\\frac{b}{4}x+\\frac{c}{4}$, where a, b, and c are constants. What is the yalue a+b+c?",
+    "passage": "$-16(5x-2)^2 + 6(5x-3)^2$\nThe given expression can be rewritten as $\\frac{a}{4}x^{2}+\\frac{b}{4}x+\\frac{c}{4}$, where $a$, $b$, and $c$ are constants. What is the value of $a+b+c$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": ",-480"
+        "text": "-480"
       },
       {
         "label": "B",
-        "text": ",-240"
+        "text": "-240"
       },
       {
         "label": "C",
-        "text": ",-120"
+        "text": "-120"
       },
       {
         "label": "D",
-        "text": ",-30"
+        "text": "-30"
       }
     ],
     "is_fill_in_blank": false,
@@ -443,10 +443,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "$f(x)=15(b)^{x}$\nin the glven functlon, b is a posltive constant, for every increase in the value of ae by 1, thevalue of f(z) inereases by e%, where 0 < e < 100, Which expression gives the walue ofe interms of b?",
+    "passage": "$f(x)=15(b)^{x}$\nIn the given function, $b$ is a positive constant. For every increase in the value of $x$ by 1, the value of $f(x)$ increases by $e\\%$, where $0 < e < 100$. Which expression gives the value of $e$ in terms of $b$?",
     "question_text": null,
     "choices": [
       {
@@ -455,15 +455,15 @@
       },
       {
         "label": "B",
-        "text": "b+100"
+        "text": "$b+100$"
       },
       {
         "label": "C",
-        "text": "100(b+1)"
+        "text": "$100(b+1)$"
       },
       {
         "label": "D",
-        "text": "100(b-1)"
+        "text": "$100(b-1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -475,10 +475,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "On average, a certain tree grows 69 centimeters every m months, At this rate, whichexpression represents the number of centimeters, on average, the tree grows every k years?",
+    "passage": "On average, a certain tree grows $69$ centimeters every $m$ months. At this rate, which expression represents the number of centimeters, on average, the tree grows every $k$ years?",
     "question_text": null,
     "choices": [
       {
@@ -507,10 +507,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "December 2024 International Form B SAT Math Module 2",
-    "passage": "In the figure shown, points A, B, C, and E lie on the circle, and AB < BC, Segment AC is perpendicular to segment BE at point D, and BD = $\\sqrt{286}$. The diameter of the circle is 145, If =r, what is the value of r?",
+    "passage": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{286}$. The diameter of the circle is 145. If $r = ?$ what is the value of $r$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -519,9 +519,9 @@
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22",
     "images": [
       {
-        "src": "/images_labeled/Dec_24_IntlB_Math_M2_Q22_1.png",
+        "src": "/images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Dec_24_IntlB_Math_M2_Q22_1.png"
+        "local": "images_labeled/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22_q_01_FIX.png"
       }
     ]
   }

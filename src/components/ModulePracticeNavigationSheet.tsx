@@ -1,0 +1,52 @@
+import { useMemo } from "react";
+import {
+  QuestionNavigatorSheet,
+  type QuestionNavigatorItem,
+} from "@/components/QuestionNavigatorSheet";
+
+interface ModulePracticeNavigationItem {
+  key: string | number;
+  label: string | number;
+  status: string;
+  isFlagged: boolean;
+  isCurrent: boolean;
+  onSelect: () => void;
+  title?: string;
+}
+
+interface ModulePracticeNavigationSheetProps {
+  buttonLabel: string;
+  title: string;
+  subtitle: string;
+  items: ModulePracticeNavigationItem[];
+  isSplitScreenActive?: boolean;
+  splitPosition?: number;
+  statusMode?: "default" | "answered-unanswered";
+}
+
+export const ModulePracticeNavigationSheet = ({
+  buttonLabel,
+  title,
+  subtitle,
+  items,
+  isSplitScreenActive = false,
+  splitPosition = 50,
+  statusMode = "answered-unanswered",
+}: ModulePracticeNavigationSheetProps) => {
+  const navigatorItems = useMemo<QuestionNavigatorItem[]>(
+    () => items.map((item) => ({ ...item })),
+    [items],
+  );
+
+  return (
+    <QuestionNavigatorSheet
+      buttonLabel={buttonLabel}
+      title={title}
+      subtitle={subtitle}
+      items={navigatorItems}
+      isSplitScreenActive={isSplitScreenActive}
+      splitPosition={splitPosition}
+      statusMode={statusMode}
+    />
+  );
+};

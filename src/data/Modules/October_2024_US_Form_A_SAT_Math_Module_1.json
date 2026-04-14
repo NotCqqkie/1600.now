@@ -6,24 +6,24 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "11x+50=160\nWhich equation has the same solution as the given equation?",
+    "passage": "$11x + 50 = 160$\nWhich equation has the same solution as the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "11x=50"
+        "text": "$11x = 50$"
       },
       {
         "label": "B",
-        "text": "11x=60"
+        "text": "$11x = 60$"
       },
       {
         "label": "C",
-        "text": "11x=110"
+        "text": "$11x = 110$"
       },
       {
         "label": "D",
-        "text": "11x=160"
+        "text": "$11x = 160$"
       }
     ],
     "is_fill_in_blank": false,
@@ -43,19 +43,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "（-8，0）"
+        "text": "(-8, 0)"
       },
       {
         "label": "B",
-        "text": "（-5，0）"
+        "text": "(-5, 0)"
       },
       {
         "label": "C",
-        "text": "（0，5）"
+        "text": "(0, 5)"
       },
       {
         "label": "D",
-        "text": "（0，8）"
+        "text": "(0, 8)"
       }
     ],
     "is_fill_in_blank": false,
@@ -64,9 +64,9 @@
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_2",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_USA_Math_M1_Q2_1.png",
+        "src": "/images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_2_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_USA_Math_M1_Q2_1.png"
+        "local": "images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_2_q_01_FIX.png"
       }
     ]
   },
@@ -109,24 +109,24 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to 14($x^{2}$ - 100 $y^{2}$)?",
+    "passage": "Which expression is equivalent to $14(x^2 - 100y^2)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "14(x- 10y)(x- 10y)"
+        "text": "14(x - 10y)(x - 10y)"
       },
       {
         "label": "B",
-        "text": "14(x-10y)(x+ 10y)"
+        "text": "14(x - 10y)(x + 10y)"
       },
       {
         "label": "C",
-        "text": "14(x - 2y)(x-50y)"
+        "text": "14(x - 2y)(x - 50y)"
       },
       {
         "label": "D",
-        "text": "14(x-2y)(x + 50y)"
+        "text": "14(x - 2y)(x + 50y)"
       }
     ],
     "is_fill_in_blank": false,
@@ -141,24 +141,24 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "Which expression is equivalent to(3c+9)-(4c 3 -5)?",
+    "passage": "Which expression is equivalent to $ (3c + 9) - (4c^3 - 5) $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "4c 3 +3c+ 14"
+        "text": "$4c^3 + 3c + 14$"
       },
       {
         "label": "B",
-        "text": "-4c 3 +3c+14"
+        "text": "$-4c^3 + 3c + 14$"
       },
       {
         "label": "C",
-        "text": "4c 3 +3c+4"
+        "text": "$4c^3 + 3c + 4$"
       },
       {
         "label": "D",
-        "text": "-4c 3 +3c+4"
+        "text": "$-4c^3 + 3c + 4$"
       }
     ],
     "is_fill_in_blank": false,
@@ -173,7 +173,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "In $△$ JKL, the measures of both ∠J and ∠K are equal and the measure of ∠L is 136°. What is the measure of ∠J?",
+    "passage": "In $△$ JKL, the measures of both $\\angle$J and $\\angle$K are equal and the measure of $\\angle$L is 136°. What is the measure of $\\angle$J?",
     "question_text": null,
     "choices": [
       {
@@ -202,10 +202,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "A student council group is selling car stickers for a fundraiser. They use the function p(x)= 5x - 190 to determine their profit p(x), in dollars, for selling x car stickers. In order to earn a profit of \\$400, how many car stickers must they sell?",
+    "passage": "A student council group is selling car stickers for a fundraiser. They use the function $p(x)=5x-190$ to determine their profit $p(x)$, in dollars, for selling $x$ car stickers. In order to earn a profit of \\$400, how many car stickers must they sell?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -217,10 +217,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 8,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "Line r is defined by the equation 6x-5y= 6. Line s is parallel to line r in the xy-plane.\nWhat is the slope of line s?",
+    "passage": "Line $r$ is defined by the equation $6x - 5y = 6$. Line $s$ is parallel to line $r$ in the $xy$-plane.\nWhat is the slope of line $s$?",
     "question_text": null,
     "choices": [
       {
@@ -252,7 +252,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "The table shows three values of x and their corresponding values of y. There is a linear relationship between x and y. What is the y-coordinate of the y-intercept of the line in the xy-plane that represents this relationship?",
+    "passage": "The table shows three values of $ x $ and their corresponding values of $ y $. There is a linear relationship between $ x $ and $ y $. What is the $ y $-coordinate of the $ y $-intercept of the line in the $ xy $-plane that represents this relationship?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -261,9 +261,9 @@
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_9",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_USA_Math_M1_Q9_1.png",
+        "src": "/images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_9_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_USA_Math_M1_Q9_1.png"
+        "local": "images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_9_q_01_FIX.png"
       }
     ]
   },
@@ -271,10 +271,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "At how many points do the graphs of the equations y= x+ 13 and y= 4x intersect in the xy-plane?",
+    "passage": "At how many points do the graphs of the equations $y = x + 13$ and $y = 4x$ intersect in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -303,10 +303,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 11,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "A quadratic model gives the predicted instantaneous rate of change, in bacteria per hour, of a bacteria population as a function of the population size. According to the model, the predicted instantaneous rate of change is 0 bacteria per hour for a population size of 0, and the maximum predicted instantaneous rate of change is 0.200 bacteria per hour for a population size of 7,000. Based on this model, what is the predicted instantaneous rate of change, in bacteria per hour, of the bacteria population for a population size of 700?",
+    "passage": "A quadratic model gives the predicted instantaneous rate of change, in bacteria per hour, of a bacteria population as a function of the population size. According to the model, the predicted instantaneous rate of change is $0$ bacteria per hour for a population size of $0$, and the maximum predicted instantaneous rate of change is $0.200$ bacteria per hour for a population size of $7,000$. Based on this model, what is the predicted instantaneous rate of change, in bacteria per hour, of the bacteria population for a population size of $700$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -321,24 +321,24 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "The cost to rent a bus from Company X is \\$950 for the first 2 hours and an additional \\$50 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for t hours, where t> 2, is \\$1,150, which equation represents this situation?",
+    "passage": "The cost to rent a bus from Company X is $950 for the first 2 hours and an additional $50 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for $t$ hours, where $t > 2$, is $1,150, which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "950(t-2)+50t=1,150"
+        "text": "$950(t-2)+50t=1,150$"
       },
       {
         "label": "B",
-        "text": "950(2t)+50t =1,150"
+        "text": "$950(2t)+50t =1,150$"
       },
       {
         "label": "C",
-        "text": "950+50(t-2)= 1,150"
+        "text": "$950+50(t-2)= 1,150$"
       },
       {
         "label": "D",
-        "text": "950+50(2t)=1,150"
+        "text": "$950+50(2t)=1,150$"
       }
     ],
     "is_fill_in_blank": false,
@@ -353,7 +353,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "A machine fills bags with approximately 11 ounces of sugar. To test the accuracy of the filling process, 132 bags of sugar were selected at random and weighed. Based on the sample, it is estimated that the average weight of all bags of sugar filled by the machine in an 8-hour period is 10.83 ounces, with an associated margin of error of0.2 ounce. Which of the following is the best interpretation of this estimate?",
+    "passage": "A machine fills bags with approximately 11 ounces of sugar. To test the accuracy of the filling process, 132 bags of sugar were selected at random and weighed. Based on the sample, it is estimated that the average weight of all bags of sugar filled by the machine in an 8-hour period is 10.83 ounces, with an associated margin of error of 0.2 ounce. Which of the following is the best interpretation of this estimate?",
     "question_text": null,
     "choices": [
       {
@@ -385,24 +385,24 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "In the figure shown, $\\overline{JM}$ is the diameter and $\\overline{LM}$ is a radius of semicircle L, and point K is the midpoint of $\\overline{JL}$. if the length of $\\overline{KL}$ is 13 units and the length of $\\overline{MN}$ is 14 units, which expression represents the area, in square units, of this figure?",
+    "passage": "In the figure shown, $\\overline{JM}$ is the diameter and $\\overline{LM}$ is a radius of semicircle $L$, and point $K$ is the midpoint of $\\overline{JL}$. If the length of $\\overline{KL}$ is 13 units and the length of $\\overline{MN}$ is 14 units, which expression represents the area, in square units, of this figure?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "546+676π"
+        "text": "$546 + 676\\pi$"
       },
       {
         "label": "B",
-        "text": "364+676π"
+        "text": "$364 + 676\\pi$"
       },
       {
         "label": "C",
-        "text": "546+338π"
+        "text": "$546 + 338\\pi$"
       },
       {
         "label": "D",
-        "text": "364+338π"
+        "text": "$364 + 338\\pi$"
       }
     ],
     "is_fill_in_blank": false,
@@ -411,9 +411,9 @@
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_USA_Math_M1_Q14_1.png",
+        "src": "/images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_USA_Math_M1_Q14_1.png"
+        "local": "images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14_q_01_FIX.png"
       }
     ]
   },
@@ -421,10 +421,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 15,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "The kinetic energy K, in joules, of an object is given by the formula K= $\\frac{1}{2}mv^{2}$, where m is the mass of the object, in kilograms, and v is the velocity of the object, in meters per second. If the kinetic energy of a certain object can be found by using the formula K= 34 $v^{2}$, what is the mass of the object, in kilograms?",
+    "passage": "The kinetic energy $K$, in joules, of an object is given by the formula $K= \\frac{1}{2}mv^{2}$, where $m$ is the mass of the object, in kilograms, and $v$ is the velocity of the object, in meters per second. If the kinetic energy of a certain object can be found by using the formula $K= 34 v^{2}$, what is the mass of the object, in kilograms?",
     "question_text": null,
     "choices": [
       {
@@ -453,10 +453,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "The function f(x)= 236(1.022) x models the value, in dollars, of a certain bank account from 1958 through 1973, where x is the number of years after the end of 1958. Which of the following is the best interpretation of“f(5) is approximately equal to 263” in this context?",
+    "passage": "$f(x) = 236(1.022)^x$ models the value, in dollars, of a certain bank account from 1958 through 1973, where $x$ is the number of years after the end of 1958. Which of the following is the best interpretation of “$f(5)$ is approximately equal to 263” in this context?",
     "question_text": null,
     "choices": [
       {
@@ -488,7 +488,7 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "(3x-8) 2 -11(3x-8)+28=0\nWhat is a solution to the given equation?",
+    "passage": "$(3x - 8)^2 - 11(3x - 8) + 28 = 0$\nWhat is a solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -500,10 +500,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "f(x)=-10x+b\nFor the linear function f, b is a constant and f($\\frac{2}{5}$)=-53. What is the value of b?",
+    "passage": "For the linear function $f(x) = -10x + b$, $b$ is a constant and $f\\left(\\frac{2}{5}\\right) = -53$. What is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -515,7 +515,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "October 2024 US Form A SAT Math Module 1",
     "passage": "Which of the following equations is the most appropriate model for the data shown?",
@@ -523,19 +523,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "y=-694+1.2x"
+        "text": "$y = -694 + 1.2x$"
       },
       {
         "label": "B",
-        "text": "y=694-1.2x"
+        "text": "$y = 694 - 1.2x$"
       },
       {
         "label": "C",
-        "text": "y=-694(1.2) x"
+        "text": "$y = -694(1.2)^x$"
       },
       {
         "label": "D",
-        "text": "y=694(1.2) x"
+        "text": "$y = 694(1.2)^x$"
       }
     ],
     "is_fill_in_blank": false,
@@ -544,9 +544,9 @@
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_19",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_USA_Math_M1_Q19_1.png",
+        "src": "/images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_19_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_USA_Math_M1_Q19_1.png"
+        "local": "images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_19_q_01_FIX.png"
       }
     ]
   },
@@ -554,10 +554,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "The function f is defined by f(x)=(x-10)(x-8)(x - 4). In the xy-plane, the graph of y= g(x) is the result of translating the graph of y= f(x) up 6 units. What is the value of g(0)?",
+    "passage": "The function $ f $ is defined by $ f(x) = (x - 10)(x - 8)(x - 4) $. In the $ xy $-plane, the graph of $ y = g(x) $ is the result of translating the graph of $ y = f(x) $ up 6 units. What is the value of $ g(0) $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -569,10 +569,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "(x+3) 2 +(y-18) 2 =169\nThe graph of the given equation is a circle in the xy-plane. The point (a, b) lies on the circle. Which of the following is a possible value for a?",
+    "passage": "$(x+3)^2 + (y-18)^2 = 169$\nThe graph of the given equation is a circle in the $xy$-plane. The point $(a, b)$ lies on the circle. Which of the following is a possible value for $a$?",
     "question_text": null,
     "choices": [
       {
@@ -601,10 +601,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 22,
     "test_name": "October 2024 US Form A SAT Math Module 1",
-    "passage": "Right triangle ABC is shown. What is the value of sin (A)?",
+    "passage": "Right triangle ABC is shown. What is the value of $\\sin(A)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -613,9 +613,9 @@
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_22",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_USA_Math_M1_Q22_1.png",
+        "src": "/images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_22_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_USA_Math_M1_Q22_1.png"
+        "local": "images_labeled/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_22_q_01_FIX.png"
       }
     ]
   }

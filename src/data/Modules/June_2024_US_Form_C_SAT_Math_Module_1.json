@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "The function f is defined by the equation f (x)= 320 x. What is the value of f (10)?",
+    "passage": "The function $f$ is defined by the equation $f(x) = 320x$. What is the value of $f(10)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -53,7 +53,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "If 8 x = 9, what is the value of 56 x?",
+    "passage": "If $8x = 9$, what is the value of $56x$?",
     "question_text": null,
     "choices": [
       {
@@ -82,27 +82,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "A vendor at a market sells bags of tea leaves for \\$7 each and bags of cashews for \\$12 each. The vendor sold a total of 180 bags of tea leaves and cashews last month for \\$1,820. Which system of equations represents this situation, where x is the number of bags of tea leaves sold and y is the number of bags of cashews sold?",
+    "passage": "A vendor at a market sells bags of tea leaves for $7 each and bags of cashews for $12 each. The vendor sold a total of 180 bags of tea leaves and cashews last month for $1,820. Which system of equations represents this situation, where $x$ is the number of bags of tea leaves sold and $y$ is the number of bags of cashews sold?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "x + y = 1,820\n7x + 12y = 180"
+        "text": "$x + y = 1,820$\n$7x + 12y = 180$"
       },
       {
         "label": "B",
-        "text": "7x + y = 1,820\nx + 12y = 180"
+        "text": "$7x + y = 1,820$\n$x + 12y = 180$"
       },
       {
         "label": "C",
-        "text": "7x + 12y = 1,820\nx + y = 180"
+        "text": "$7x + 12y = 1,820$\n$x + y = 180$"
       },
       {
         "label": "D",
-        "text": "7x - 12y = 180\nx - y = 1,820"
+        "text": "$7x - 12y = 180$\n$x - y = 1,820$"
       }
     ],
     "is_fill_in_blank": false,
@@ -114,7 +114,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 6,
     "test_name": "June 2024 US Form C SAT Math Module 1",
     "passage": "5% of w is 901.32. What is the value of w?",
@@ -146,10 +146,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "The function f is defined by f (x)= $\\frac{x-3}{x2-7x+16}$. What is the value of f (6)?",
+    "passage": "The function $f$ is defined by $f(x) = \\frac{x-3}{x^2-7x+16}$. What is the value of $f(6)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -161,10 +161,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 8,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "A club plans to sell tote bags. The club members estimate they will sell 90 tote bags when the bags are priced at \\$11 each. For every price increase of \\$1, they estimate they will sell 9 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at \\$13 each?(revenue = price × number sold)",
+    "passage": "A club plans to sell tote bags. The club members estimate they will sell 90 tote bags when the bags are priced at $11 each. For every price increase of $1, they estimate they will sell 9 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at $13 each? (revenue = $\\text{price} \\times \\text{number sold}$)",
     "question_text": null,
     "choices": [
       {
@@ -209,11 +209,11 @@
       },
       {
         "label": "C",
-        "text": "The first sample took more time on average to preheat to than the second sample."
+        "text": "The first sample took more time on average to preheat to 325°F than the second sample."
       },
       {
         "label": "D",
-        "text": "The first sample took less time on average to preheat to than the second sample."
+        "text": "The first sample took less time on average to preheat to 325°F than the second sample."
       }
     ],
     "is_fill_in_blank": false,
@@ -225,10 +225,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "The ratio 154 to 110 is equivalent to the ratio x to 5. What is the value of x?",
+    "passage": "The ratio $154$ to $110$ is equivalent to the ratio $x$ to $5$. What is the value of $x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -240,10 +240,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "The sum of 3r 4 -2r and 3r 4 +6r+5 can be written in the form ar 4 +br+c, where a, b, and c are constants. What is the value of b?",
+    "passage": "The sum of $3r^4 - 2r$ and $3r^4 + 6r + 5$ can be written in the form $ar^4 + br + c$, where $a$, $b$, and $c$ are constants. What is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -255,7 +255,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "June 2024 US Form C SAT Math Module 1",
     "passage": "The measure of angle Z is 45°. What is the measure, in <u>radians</u>, of angle Z?",
@@ -263,19 +263,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{8}$ π"
+        "text": "$\\frac{1}{8} \\pi$"
       },
       {
         "label": "B",
-        "text": "$\\frac{1}{4}$ π"
+        "text": "$\\frac{1}{4} \\pi$"
       },
       {
         "label": "C",
-        "text": "$\\frac{1}{2}$ π"
+        "text": "$\\frac{1}{2} \\pi$"
       },
       {
         "label": "D",
-        "text": "$\\frac{3}{4}$ π"
+        "text": "$\\frac{3}{4} \\pi$"
       }
     ],
     "is_fill_in_blank": false,
@@ -290,24 +290,24 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "A right circular cylinder has a height of 12 meters (m) and a base with a radius of 14 m. What is the volume, in m 3, of the cylinder?",
+    "passage": "A right circular cylinder has a height of 12 meters (m) and a base with a radius of 14 m. What is the volume, in $m^3$, of the cylinder?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "12π"
+        "text": "$12\\pi$"
       },
       {
         "label": "B",
-        "text": "26π"
+        "text": "$26\\pi$"
       },
       {
         "label": "C",
-        "text": "2,016π"
+        "text": "$2,016\\pi$"
       },
       {
         "label": "D",
-        "text": "2,352π"
+        "text": "$2,352\\pi$"
       }
     ],
     "is_fill_in_blank": false,
@@ -319,19 +319,19 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 14,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "Which expression is equivalent to $(39y)^{\\frac{1}{2}}$ ，where y＞1？",
+    "passage": "Which expression is equivalent to $(39y)^{\\frac{1}{2}}$, where $y > 1$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "39* $\\sqrt{y}$"
+        "text": "$39 \\sqrt{y}$"
       },
       {
         "label": "B",
-        "text": "$\\sqrt{39}$ *y"
+        "text": "$\\sqrt{39} \\cdot y$"
       },
       {
         "label": "C",
@@ -339,7 +339,7 @@
       },
       {
         "label": "D",
-        "text": "$\\sqrt{(39y)2}$"
+        "text": "$\\sqrt{(39y)^2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -351,27 +351,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 15,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "In triangle QRS shown, QR＜RS. Which expression represents the length of $\\overline{QS}$?",
+    "passage": "In triangle QRS shown, $QR < RS$. Which expression represents the length of $\\overline{QS}$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "cosQ"
+        "text": "$\\cos Q$"
       },
       {
         "label": "B",
-        "text": "sinQ"
+        "text": "$\\sin Q$"
       },
       {
         "label": "C",
-        "text": "$\\frac{22}{cosQ}$"
+        "text": "$\\frac{22}{\\cos Q}$"
       },
       {
         "label": "D",
-        "text": "$\\frac{22}{sinQ}$"
+        "text": "$\\frac{22}{\\sin Q}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -380,9 +380,9 @@
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_15",
     "images": [
       {
-        "src": "/images_labeled/Jun_24_USC_Math_M1_Q15_1.png",
+        "src": "/images_labeled/23a951fb-833f-4b27-9978-4eb054f855e2_15_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Jun_24_USC_Math_M1_Q15_1.png"
+        "local": "images_labeled/23a951fb-833f-4b27-9978-4eb054f855e2_15_q_01_FIX.png"
       }
     ]
   },
@@ -390,10 +390,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "Line j is defined by 6x-7y=14. Line k is parallel to line j in the xy -plane. What is the slope of line k?",
+    "passage": "Line $j$ is defined by $6x - 7y = 14$. Line $k$ is parallel to line $j$ in the $xy$-plane. What is the slope of line $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -405,27 +405,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "The length of a rectangle is x +35centimeters and the width is x centimeters. The perimeter of this rectangle is at least 520 centimeters. Which inequality represents this situation?",
+    "passage": "The length of a rectangle is $x + 35$ centimeters and the width is $x$ centimeters. The perimeter of this rectangle is at least 520 centimeters. Which inequality represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "2x + 35 ≤ 520"
+        "text": "$2x + 35 \\leq 520$"
       },
       {
         "label": "B",
-        "text": "2x + 35 ≥ 520"
+        "text": "$2x + 35 \\geq 520$"
       },
       {
         "label": "C",
-        "text": "4x + 70 ≤ 520"
+        "text": "$4x + 70 \\leq 520$"
       },
       {
         "label": "D",
-        "text": "4x + 70 ≥ 520"
+        "text": "$4x + 70 \\geq 520$"
       }
     ],
     "is_fill_in_blank": false,
@@ -437,10 +437,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "9x + 10y = 19\nIf the graph of the given equation is shifted up 6 units in the xy -plane, what is the y -intercept of the resulting graph?",
+    "passage": "$9x + 10y = 19$\nIf the graph of the given equation is shifted up 6 units in the $xy$-plane, what is the $y$-intercept of the resulting graph?",
     "question_text": null,
     "choices": [
       {
@@ -457,7 +457,7 @@
       },
       {
         "label": "D",
-        "text": "(0,25)"
+        "text": "(0, 25)"
       }
     ],
     "is_fill_in_blank": false,
@@ -469,27 +469,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "5x 2 − 9x − 3 = 0\nWhat is the greatest solution to the given equation?",
+    "passage": "$5x^2 - 9x - 3 = 0$\nWhat is the greatest solution to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{9}{10}$ - $\\frac{\\sqrt{141}}{10}$"
+        "text": "$\\frac{9}{10} - \\frac{\\sqrt{141}}{10}$"
       },
       {
         "label": "B",
-        "text": "$\\frac{9}{10}$ + $\\frac{}{10}$"
+        "text": "$\\frac{9}{10} + \\frac{\\sqrt{141}}{10}$"
       },
       {
         "label": "C",
-        "text": "$\\frac{9}{5}$ - $\\frac{\\sqrt{141}}{5}$"
+        "text": "$\\frac{9}{5} - \\frac{\\sqrt{141}}{5}$"
       },
       {
         "label": "D",
-        "text": "$\\frac{9}{5}$ + $\\frac{}{5}$"
+        "text": "$\\frac{9}{5} + \\frac{\\sqrt{141}}{5}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -504,7 +504,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "F (x)= $\\frac{9}{5}$ (x − 273.15)+32\nThe function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 3.40 kelvins, by how much did the temperature increase, in degrees Fahrenhe it?",
+    "passage": "$F(x)= \\frac{9}{5} (x - 273.15) + 32$\nThe function $F$ gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of $x$ kelvins. If a temperature increased by 3.40 kelvins, by how much did the temperature increase, in degrees Fahrenheit?",
     "question_text": null,
     "choices": [
       {
@@ -533,10 +533,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "The quadratic function f has a factor of (x +5.75) and a zero at x=c, where c is a positive constant. The graph of y=f(x) in the xy -plane has its vertex at (-1.75, - d), where d is a positive constant. What is the value of c?",
+    "passage": "The quadratic function $ f $ has a factor of $ (x + 5.75) $ and a zero at $ x = c $, where $ c $ is a positive constant. The graph of $ y = f(x) $ in the $ xy $-plane has its vertex at $ (-1.75, -d) $, where $ d $ is a positive constant. What is the value of $ c $?",
     "question_text": null,
     "choices": [
       {
@@ -565,27 +565,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "June 2024 US Form C SAT Math Module 1",
-    "passage": "In triangle JKL, the measure of angle J is (90b)°, the measure of angle K is (71a)°, and the measure of angle L is (19a)°, where a and b are constants. Which of the following must be true?",
+    "passage": "In triangle JKL, the measure of angle J is $90^\\circ$, the measure of angle K is $71^\\circ$, and the measure of angle L is $19^\\circ$, where $a$ and $b$ are constants. Which of the following must be true?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "cosL > sin K"
+        "text": "$\\cos L > \\sin K$"
       },
       {
         "label": "B",
-        "text": "cosL = sin K"
+        "text": "$\\cos L = \\sin K$"
       },
       {
         "label": "C",
-        "text": "cosL < sin K"
+        "text": "$\\cos L < \\sin K$"
       },
       {
         "label": "D",
-        "text": "There is not enough information to compare the values of cos L and sin K."
+        "text": "There is not enough information to compare the values of $\\cos L$ and $\\sin K$."
       }
     ],
     "is_fill_in_blank": false,

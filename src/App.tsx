@@ -21,9 +21,16 @@ const BankBrowse = lazy(() => import("./pages/BankBrowse"));
 const BankFiltered = lazy(() => import("./pages/BankFiltered"));
 const Analysis = lazy(() => import("./pages/Analysis"));
 const Modules = lazy(() => import("./pages/Modules"));
-const ModuleView = lazy(() => import("./pages/ModuleView"));
+const PracticeTestStart = lazy(() => import("./pages/PracticeTestStart"));
+const PracticeTestTransition = lazy(() => import("./pages/PracticeTestTransition"));
+const PracticeTestReview = lazy(() => import("./pages/PracticeTestReview"));
+const PracticeTestResults = lazy(() => import("./pages/PracticeTestResults"));
+const ModuleStart = lazy(() => import("./pages/ModuleStart"));
+const ModulePracticeReview = lazy(() => import("./pages/ModulePracticeReview"));
+const ModulePracticeResults = lazy(() => import("./pages/ModulePracticeResults"));
 const Vocab = lazy(() => import("./pages/Vocab"));
 const ScoreCalculator = lazy(() => import("./pages/ScoreCalculator"));
+const ExplanationTrial = lazy(() => import("./pages/ExplanationTrial"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const Profile = lazy(() => import("./pages/Profile"));
 
@@ -54,7 +61,15 @@ const App = () => (
             <Route path="/" element={withSuspense(<Home />)} />
             <Route path="/login" element={withSuspense(<Login />)} />
             <Route path="/modules" element={withShellSuspense(<Modules />)} />
-            <Route path="/modules/:moduleId" element={withShellSuspense(<ModuleView />)} />
+            <Route path="/practice-tests/:setId" element={withSuspense(<PracticeTestStart />)} />
+            <Route path="/practice-tests/:setId/start" element={withSuspense(<PracticeTestStart />)} />
+            <Route path="/practice-tests/:setId/transition" element={withSuspense(<PracticeTestTransition />)} />
+            <Route path="/practice-tests/:setId/review" element={withSuspense(<PracticeTestReview />)} />
+            <Route path="/practice-tests/:setId/results" element={withSuspense(<PracticeTestResults />)} />
+            <Route path="/modules/:moduleId" element={withSuspense(<ModuleStart />)} />
+            <Route path="/modules/:moduleId/start" element={withSuspense(<ModuleStart />)} />
+            <Route path="/modules/:moduleId/review" element={withSuspense(<ModulePracticeReview />)} />
+            <Route path="/modules/:moduleId/results" element={withSuspense(<ModulePracticeResults />)} />
             <Route path="/signup" element={withSuspense(<Signup />)} />
             <Route path="/profile" element={withShellSuspense(<Profile />)} />
             <Route path="/score-calculator" element={withShellSuspense(<ScoreCalculator />)} />
@@ -71,7 +86,8 @@ const App = () => (
             <Route path="/official-bank/:subject/:id" element={withSuspense(<Question />)} />
             <Route path="/vocab" element={withShellSuspense(<Vocab />)} />
             <Route path="/analysis" element={withShellSuspense(<Analysis />)} />
-            <Route path="*" element={withShellSuspense(<NotFound />)} />
+            <Route path="/explanation-trial" element={withSuspense(<ExplanationTrial />)} />
+<Route path="*" element={withShellSuspense(<NotFound />)} />
           </Routes>
           <LegalDisclaimer />
         </BrowserRouter>

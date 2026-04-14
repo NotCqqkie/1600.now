@@ -3,27 +3,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 1,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "The shaded region show in the graph represents all the solutions to which inequality?",
+    "passage": "The shaded region shown in the graph represents all the solutions to which inequality?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x\\le29$"
+        "text": "$x \\leq 29$"
       },
       {
         "label": "B",
-        "text": "$x\\ge29$"
+        "text": "$x \\geq 29$"
       },
       {
         "label": "C",
-        "text": "$y\\le29$"
+        "text": "$y \\leq 29$"
       },
       {
         "label": "D",
-        "text": "$y\\ge29$"
+        "text": "$y \\geq 29$"
       }
     ],
     "is_fill_in_blank": false,
@@ -32,9 +32,9 @@
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_1",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlD_Math_M2_Q1_1.png",
+        "src": "/images_labeled/fb11da56-a8c4-4733-a720-f2cea7a98a1a_1_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlD_Math_M2_Q1_1.png"
+        "local": "images_labeled/fb11da56-a8c4-4733-a720-f2cea7a98a1a_1_q_01_FIX.png"
       }
     ]
   },
@@ -42,10 +42,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 2,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "$3.5c+7d=266$\nThe given equation describes the relationship between the number of cats, c, and the number of dogs, d, that can be cared for at a pet care business during a week. If the business cares for 38 dogs during a week, how many cats can it care for during this week?",
+    "passage": "$3.5c+7d=266$\nThe given equation describes the relationship between the number of cats, $c$, and the number of dogs, $d$, that can be cared for at a pet care business during a week. If the business cares for 38 dogs during a week, how many cats can it care for during this week?",
     "question_text": null,
     "choices": [
       {
@@ -74,7 +74,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Inference from sample statistics and margin of error",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "November 2024 International Form D SAT Math Module 2",
     "passage": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
@@ -106,7 +106,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 5,
     "test_name": "November 2024 International Form D SAT Math Module 2",
     "passage": "The gas mileage of a certain car is 35 miles per gallon when driven on the highway. If the car begins with 10 gallons of gas in the tank, which function predicts the amount of gas remaining in the tank, $f(d)$, after the car is driven $d$ miles on the highway?",
@@ -122,7 +122,7 @@
       },
       {
         "label": "C",
-        "text": "$f(d)-10-\\frac{d}{35}$"
+        "text": "$f(d)=10-\\frac{d}{35}$"
       },
       {
         "label": "D",
@@ -138,7 +138,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 6,
     "test_name": "November 2024 International Form D SAT Math Module 2",
     "passage": "The function $f$ is defined by $f(x)=50x$. For what value of x is $f(x)=150$?",
@@ -182,9 +182,9 @@
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_7",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlD_Math_M2_Q7_1.png",
+        "src": "/images_labeled/fb11da56-a8c4-4733-a720-f2cea7a98a1a_7_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlD_Math_M2_Q7_1.png"
+        "local": "images_labeled/fb11da56-a8c4-4733-a720-f2cea7a98a1a_7_q_01_FIX.png"
       }
     ]
   },
@@ -212,7 +212,7 @@
       },
       {
         "label": "D",
-        "text": "1"
+        "text": "$y=90-0.1x$"
       }
     ],
     "is_fill_in_blank": false,
@@ -221,9 +221,9 @@
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_8",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlD_Math_M2_Q8_1.png",
+        "src": "/images_labeled/fb11da56-a8c4-4733-a720-f2cea7a98a1a_8_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlD_Math_M2_Q8_1.png"
+        "local": "images_labeled/fb11da56-a8c4-4733-a720-f2cea7a98a1a_8_q_01_FIX.png"
       }
     ]
   },
@@ -266,7 +266,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "$y\\le x+15$\n$y\\ge-4x-15$\nWhich point ($x$, $y$) is a solution to the given system of inequalities in the $xy$ -plane?",
+    "passage": "$y \\leq x + 15$\n$y \\geq -4x - 15$\nWhich point ($x$, $y$) is a solution to the given system of inequalities in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -307,9 +307,9 @@
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_11",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlD_Math_M2_Q11_1.png",
+        "src": "/images_labeled/fb11da56-a8c4-4733-a720-f2cea7a98a1a_11_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlD_Math_M2_Q11_1.png"
+        "local": "images_labeled/fb11da56-a8c4-4733-a720-f2cea7a98a1a_11_q_01_FIX.png"
       }
     ]
   },
@@ -317,10 +317,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 12,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "An equilateral tiriangle has a height of $47\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
+    "passage": "An equilateral triangle has a height of $47\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
     "question_text": null,
     "choices": [
       {
@@ -352,7 +352,7 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "Line $s$ in the $xy$ -plane is defined by $8x+2y=0$, Line $t$ is perpendicular to line $s$ and passes through the points (6, 0) and ($k,\\frac{5}{4}$). What is the value of $k$?",
+    "passage": "Line $s$ in the $xy$-plane is defined by $8x+2y=0$, Line $t$ is perpendicular to line $s$ and passes through the points $(6, 0)$ and $(k,\\frac{5}{4})$. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -367,7 +367,7 @@
     "difficulty": "Hard",
     "question_number": 14,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\nⅠ. $\\frac{(x^{\\frac{14}{3}})(y^{\\frac{5}{3}})}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
+    "passage": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nⅠ. $\\frac{(x^{\\frac{14}{3}})(y^{\\frac{5}{3}})}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
     "question_text": null,
     "choices": [
       {
@@ -388,7 +388,7 @@
       }
     ],
     "is_fill_in_blank": false,
-    "correct_answer": "C",
+    "correct_answer": "D",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_14"
   },
@@ -396,7 +396,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "November 2024 International Form D SAT Math Module 2",
     "passage": "$f(x)=2,000(1.005)^{3x}$\nThe given function $f$ models the balance of a bank account, in dollars, $x$ years after it is opened. Which statement is the best interpretation of $(1.005)^{3x}$?",
@@ -404,11 +404,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "Every 4 months, the balance increases by about \\$5"
+        "text": "Every 4 months, the balance increases by about $5"
       },
       {
         "label": "B",
-        "text": "At the end of every 4-month interval, the balance increases by about 0.5%of the balance at the beginning of the 4-month interval."
+        "text": "At the end of every 4-month interval, the balance increases by about 0.5% of the balance at the beginning of the 4-month interval."
       },
       {
         "label": "C",
@@ -416,7 +416,7 @@
       },
       {
         "label": "D",
-        "text": "At the end of every3-year interval, the balance increases by about 0.5% of the balance at the beginning of the 3-year interval."
+        "text": "At the end of every 3-year interval, the balance increases by about 0.5% of the balance at the beginning of the 3-year interval."
       }
     ],
     "is_fill_in_blank": false,
@@ -428,10 +428,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "The length of each edge of a box is 48 centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u> meters </u>, of this box without a lid?(1 meter = 100 centimeters)",
+    "passage": "The length of each edge of a box is 48 centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square $meters$, of this box without a lid? (1 meter = 100 centimeters)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -443,7 +443,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "November 2024 International Form D SAT Math Module 2",
     "passage": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A larger version of the same map is printed as a square with the side length 90% longer than the side length of the previous map. On the larger map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
@@ -490,7 +490,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "November 2024 International Form D SAT Math Module 2",
     "passage": "Which expression is equivalent to $10(x+3)$?",
@@ -522,14 +522,14 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, angle $BED$ is congruent to angle $CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
+    "passage": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, angle $\\angle BED$ is congruent to angle $\\angle CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "A",
+    "correct_answer": "6",
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_20"
   },
@@ -540,7 +540,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "The area of a rectangular region is increasing at a rate of 270 square feet per hour. Which of the following is closest to this rate in <u> square meters per minute </u>? (Use 1 meter = 3.28 feet.)",
+    "passage": "The area of a rectangular region is increasing at a rate of $270$ square feet per hour. Which of the following is closest to this rate in <u> square meters per minute </u>? (Use $1$ meter = $3.28$ feet.)",
     "question_text": null,
     "choices": [
       {
@@ -572,7 +572,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "November 2024 International Form D SAT Math Module 2",
-    "passage": "$x(kx-112)=-16$\nIn the given equation, $k$ is an integer constant. If the equation has two distinct real solutions,what is the greatest possible value of $k$?",
+    "passage": "$x(kx - 112) = -16$\nIn the given equation, $k$ is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

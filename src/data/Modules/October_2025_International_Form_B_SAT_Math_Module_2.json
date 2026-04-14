@@ -35,15 +35,15 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 2,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "A sum of 9,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposits or withdrawals were made after that. The function f(x)=9,000 $(1+0.03)^{x}$ gives the value of the CD, in dollars, x years after the investment was initially made, where $x\\le5$. Which of the following is the best interpretation of the statement \"f(2) is approximately equal to 9,474.08\" in this context?",
+    "passage": "A sum of 9,000 dollars was invested in a certificate of deposit (CD) that earns interest, and no other deposits or withdrawals were made after that. The function $f(x)=9,000 (1+0.03)^{x}$ gives the value of the CD, in dollars, $x$ years after the investment was initially made, where $x \\leq 5$. Which of the following is the best interpretation of the statement \"f(2) is approximately equal to 9,474.08\" in this context?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The value of the CD would be approximately 9,474.08 dollars if investedat 2% interest."
+        "text": "The value of the CD would be approximately 9,474.08 dollars if invested at 2% interest."
       },
       {
         "label": "B",
@@ -51,11 +51,11 @@
       },
       {
         "label": "C",
-        "text": "years after the investment was made, the value of the CD was approximately 9,474.08 dollars."
+        "text": "2 years after the investment was made, the value of the CD was approximately 9,474.08 dollars."
       },
       {
         "label": "D",
-        "text": "years after the investment was made, the value of the CD wasapproximately 9,474.08 dollars greater than its initial value."
+        "text": "2 years after the investment was made, the value of the CD was approximately 9,474.08 dollars greater than its initial value."
       }
     ],
     "is_fill_in_blank": false,
@@ -67,7 +67,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "October 2025 International Form B SAT Math Module 2",
     "passage": "What is an equation of the graph shown?",
@@ -96,9 +96,9 @@
     "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_3",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M2_Q3_1.png",
+        "src": "/images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_3_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M2_Q3_1.png"
+        "local": "images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_3_q_01_FIX.png"
       }
     ]
   },
@@ -106,10 +106,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$5y=6x+17$\n$-5y=7x-23$\nThe solution to the given system of equations is (x, y). What is the value of 39 x?",
+    "passage": "$5y=6x+17$\n$-5y=7x-23$\nThe solution to the given system of equations is $(x, y)$. What is the value of $39x$?",
     "question_text": null,
     "choices": [
       {
@@ -154,11 +154,11 @@
       },
       {
         "label": "C",
-        "text": "$y $+$ $3$"
+        "text": "$y > 4x + 3$"
       },
       {
         "label": "D",
-        "text": "$y"
+        "text": "$y > 4x - 3$"
       }
     ],
     "is_fill_in_blank": false,
@@ -167,9 +167,9 @@
     "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_5",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M2_Q5_1.png",
+        "src": "/images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_5_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M2_Q5_1.png"
+        "local": "images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_5_q_01_FIX.png"
       }
     ]
   },
@@ -180,7 +180,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "A circle in the xy -plane has its center at (-5, 2) and the point (-9, 5) lies on thecircle. Which equation represents this circle?",
+    "passage": "A circle in the $xy$-plane has its center at $(-5, 2)$ and the point $(-9, 5)$ lies on the circle. Which equation represents this circle?",
     "question_text": null,
     "choices": [
       {
@@ -212,24 +212,24 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$y\nWhich point (x,y) is a solution to the given inequality in the xy -plane?",
+    "passage": "Which point $(x,y)$ is a solution to the given inequality in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(0,19)"
+        "text": "$(0,19)$"
       },
       {
         "label": "B",
-        "text": "(-1,22)"
+        "text": "$(-1,22)$"
       },
       {
         "label": "C",
-        "text": "(-3,0)"
+        "text": "$(-3,0)$"
       },
       {
         "label": "D",
-        "text": "(7,-1)"
+        "text": "$(7,-1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -276,7 +276,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "The table shows three values of x and their corresponding values of y. There is a quadratic relationship between x and y. An equation that represents this relationship can be written as $y=36x^{2}-bx-120$, where b is a constant. What is the value of b?",
+    "passage": "The table shows three values of $x$ and their corresponding values of $y$. There is a quadratic relationship between $x$ and $y$. An equation that represents this relationship can be written as $y = 36x^2 - bx - 120$, where $b$ is a constant. What is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -285,9 +285,9 @@
     "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_9",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M2_Q9_1.png",
+        "src": "/images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_9_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M2_Q9_1.png"
+        "local": "images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_9_q_01_FIX.png"
       }
     ]
   },
@@ -295,27 +295,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 10,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "Hannah and Wyatt are saving money to purchase a car. Hannah saves $\\frac{1}{5}$ of her salary each month, and Wyatt saves $\\frac{2}{7}$ of his salary each month. Together, they save a total of \\$3,270 from their monthly salaries each month. lf h and w represent Hannah's and Wyatt's monthly salaries, in dollars, respectively, which equation shows the relationship between h and w?",
+    "passage": "Hannah and Wyatt are saving money to purchase a car. Hannah saves $\\frac{1}{5}$ of her salary each month, and Wyatt saves $\\frac{2}{7}$ of his salary each month. Together, they save a total of $\\$3,270$ from their monthly salaries each month. If $h$ and $w$ represent Hannah's and Wyatt's monthly salaries, in dollars, respectively, which equation shows the relationship between $h$ and $w$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "h+w=3,270"
+        "text": "$h + w = 3,270$"
       },
       {
         "label": "B",
-        "text": "h+2w=3,270"
+        "text": "$h + 2w = 3,270$"
       },
       {
         "label": "C",
-        "text": "10h+7w=114,450"
+        "text": "$10h + 7w = 114,450$"
       },
       {
         "label": "D",
-        "text": "7h+10w=114,450"
+        "text": "$7h + 10w = 114,450$"
       }
     ],
     "is_fill_in_blank": false,
@@ -327,27 +327,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 11,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$x-a=(x-a)(x-24)$\nWhich of the following are solutions to the given equation, where a is a constant and a>25?\nl.a\nll.24\nlll.25",
+    "passage": "$x - a = (x - a)(x - 24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a > 25$?\nI. $a$\nII. $24$\nIII. $25$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "l and ll only"
+        "text": "I and II only"
       },
       {
         "label": "B",
-        "text": "l and lll only"
+        "text": "I and III only"
       },
       {
         "label": "C",
-        "text": "ll and lll only"
+        "text": "II and III only"
       },
       {
         "label": "D",
-        "text": "l,ll and lll"
+        "text": "I, II and III"
       }
     ],
     "is_fill_in_blank": false,
@@ -359,10 +359,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "If $\\sqrt{x-1}=2$,what is the vaule of $(x-1)$?",
+    "passage": "If $\\sqrt{x-1}=2$, what is the value of $(x-1)$?",
     "question_text": null,
     "choices": [
       {
@@ -391,10 +391,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 13,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "The figure shows a rectangular pool surrounded by a concrete path that is x feet (ft) wide on all sides. The pool is 21 ft long and 11 ft wide. The area of the concrete path is 144 $ft^{2}$, What is the value of x?",
+    "passage": "The figure shows a rectangular pool surrounded by a concrete path that is $x$ feet (ft) wide on all sides. The pool is 21 ft long and 11 ft wide. The area of the concrete path is 144 $ft^2$. What is the value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -420,9 +420,9 @@
     "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_13",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M2_Q13_1.png",
+        "src": "/images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_13_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M2_Q13_1.png"
+        "local": "images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_13_q_01_FIX.png"
       }
     ]
   },
@@ -430,7 +430,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "October 2025 International Form B SAT Math Module 2",
     "passage": "At a nature preserve, a wildlife biologist counted bald eagles from an observation deck at the same time each day for 21 days. The table summarizes the resulting data set, data set A.\nThe data value 19 was recorded in error and is removed from data set A to create data set B, which consists of the remaining 20 data values. Which statement best compares the median of data set A and the median of data set B?",
@@ -459,9 +459,9 @@
     "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_14",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M2_Q14_1.png",
+        "src": "/images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_14_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M2_Q14_1.png"
+        "local": "images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_14_q_01_FIX.png"
       }
     ]
   },
@@ -469,10 +469,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "One gallon of paint will cover 70 square feet of a surface. A room has a total wall area of w square feet. Which equation represents the total amount of paint P, in gallons, needed to paint the walls of the room twice?",
+    "passage": "One gallon of paint will cover 70 square feet of a surface. A room has a total wall area of $w$ square feet. Which equation represents the total amount of paint $P$, in gallons, needed to paint the walls of the room twice?",
     "question_text": null,
     "choices": [
       {
@@ -501,10 +501,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$f(x)=4^{-5(x+1)}$\nWhich of the following equivalent forms of the given function f displays, as the base or the coefficient, the y- coordinate of the y -intercept of the graph of $y=f(x)$ in the xy -plane?",
+    "passage": "$f(x)=4^{-5(x+1)}$\nWhich of the following equivalent forms of the given function $f$ displays, as the base or the coefficient, the y-coordinate of the y-intercept of the graph of $y=f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -533,10 +533,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "$\\sqrt{117n}\\sqrt{117n}^{2}$\nFor what value of x is the given expression equivalent to $(117n)^{12x}$, where $n>1$?",
+    "passage": "For what value of $x$ is the given expression $\\sqrt{117n}(\\sqrt{117n})^{2}$ equivalent to $(117n)^{12x}$, where $n > 1$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -548,10 +548,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 7 units. The surface area of right circular cylinder A is kπ square units, and the surface area of right circular cylinder B is nπ square units, where k and n are constants. What is the value of $n-k$? (The surface area of a right circular cylinder with radius r and height h is $2\\pi r^{2}+2\\pi rh$.)",
+    "passage": "The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 7 units. The surface area of right circular cylinder A is $k\\pi$ square units, and the surface area of right circular cylinder B is $n\\pi$ square units, where $k$ and $n$ are constants. What is the value of $n-k$? (The surface area of a right circular cylinder with radius $r$ and height $h$ is $2\\pi r^2 + 2\\pi rh$.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -560,9 +560,9 @@
     "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_18",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M2_Q18_1.png",
+        "src": "/images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_18_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M2_Q18_1.png"
+        "local": "images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_18_q_01_FIX.png"
       }
     ]
   },
@@ -570,7 +570,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "October 2025 International Form B SAT Math Module 2",
     "passage": "In the figure, a hollow steel pipe is in the shape of a right circular cylinder. The steel pipe has an outside diameter of 60 inches, a wall thickness of $\\frac{5}{8}$ inches, and a height of 144 inches. Which of the following is closest to the volume, in cubic inches, of the wall of this steel pipe?",
@@ -599,9 +599,9 @@
     "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_19",
     "images": [
       {
-        "src": "/images_labeled/Oct_25_IntlB_Math_M2_Q19_1.png",
+        "src": "/images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_19_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_25_IntlB_Math_M2_Q19_1.png"
+        "local": "images_labeled/659cbbc1-2d38-4d45-8ecb-79f43367862e_19_q_01_FIX.png"
       }
     ]
   },
@@ -609,10 +609,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "If 8(5-2 x)+3=7(5-2 x)+18, what is the value of 5-2 x?",
+    "passage": "If $8(5 - 2x) + 3 = 7(5 - 2x) + 18$, what is the value of $5 - 2x$?",
     "question_text": null,
     "choices": [
       {
@@ -641,10 +641,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 21,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "The measure of angle Z is 45°. What is the measure, in <u>radians</u>, of angle Z?",
+    "passage": "The measure of angle $Z$ is $45^\\circ$. What is the measure, in <u>radians</u>, of angle $Z$?",
     "question_text": null,
     "choices": [
       {
@@ -673,10 +673,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "For a certain type of rope, the equation $y=900ax^{2}$, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 1.75 inches, it has an estimated breaking strength of 3,858.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type thathas a circumference of 3.50 inches?",
+    "passage": "For a certain type of rope, the equation $y = 900ax^2$, where $a$ is a constant, gives the estimated breaking strength $y$, in pounds, of a rope with a circumference of $x$ inches. Based on this equation, if a rope of this type has a circumference of 1.75 inches, it has an estimated breaking strength of 3,858.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 3.50 inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

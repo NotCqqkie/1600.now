@@ -3,7 +3,7 @@
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 1,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe organizers specifically indicated that the conference was intended to focus on children's literature, so despite the education specialist's ______ her expertise on the subject in general, she found that she could speak authoritatively about the works of illustrator Michele Wood, particularly *I See the Rhythm*, which she had used effectively in classroom instruction for many years.",
@@ -35,7 +35,7 @@
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 2,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while traditional literary forms, such as the poem, are recognizable as such even as they evolve, there are more ______ forms that might, for example, borrow elements from both fables and realist narratives to make something unconventional. Davis’s own very short literary pieces arguably fit in this category, since they straddle the line between prose and poetry.",
@@ -99,7 +99,7 @@
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Words in Context",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe sloping tile roofs and picturesque facade of Mission San Luis Rey de Francia in Oceanside, California, exemplify the Spanish contribution to Californian architecture, an influence that is ______ throughout the state—architectural tourists visiting Los Angeles Union Station in Los Angeles, for example, can easily recognize how its style draws inspiration from the Spanish missions.",
@@ -131,7 +131,7 @@
     "section": "Reading and Writing",
     "domain": "Craft and Structure",
     "skill": "Text Structure and Purpose",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "question_number": 5,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is adapted from Matthew Arnold's 1869 nonfiction book *Culture and Anarchy*.\n<u>*The Times*, a British newspaper, replying to some foreign strictures on the dress, looks, and behaviour of the English abroad, urges that the English ideal is that every one should be free to do and to look just as he likes.</u> But culture indefatigably tries, not to make what each raw person may like the rule by which he fashions himself; but to draw ever nearer to a sense of what is indeed beautiful, graceful, and becoming, and to get the raw person to like that.",
@@ -256,9 +256,9 @@
     "id": "dc78fb50-de84-439b-980f-0629b266ff8a_8",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlA_Eng_M2_Q8_1.png",
+        "src": "/images_labeled/dc78fb50-de84-439b-980f-0629b266ff8a_8_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlA_Eng_M2_Q8_1.png"
+        "local": "images_labeled/dc78fb50-de84-439b-980f-0629b266ff8a_8_q_01_FIX.png"
       }
     ]
   },
@@ -298,7 +298,7 @@
     "section": "Reading and Writing",
     "domain": "Information and Ideas",
     "skill": "Command of Evidence",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 10,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "Which finding from the study, if true, would most directly support the team's conclusion?\nNeurobiologists Laura Cuaya, Raúl Hernández-Pérez, and colleagues investigated the language detection abilities of eighteen dogs raised in similar settings. The researchers monitored the brain activity of Barack (a golden retriever), Alma (a mixed breed), and other dogs while the animals listened to three recordings: one of *The Little Prince* being read in Spanish, the second in Hungarian, and a third made up of short, randomly selected fragments of the first two, scrambled so that they didn't resemble human speech. Each dog was familiar with either Spanish or Hungarian, but not both. The team concluded that the amount of previous language exposure a dog has received may influence its ability to distinguish familiar languages from unfamiliar ones.",
@@ -359,9 +359,9 @@
     "id": "dc78fb50-de84-439b-980f-0629b266ff8a_11",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlA_Eng_M2_Q11_1.png",
+        "src": "/images_labeled/dc78fb50-de84-439b-980f-0629b266ff8a_11_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlA_Eng_M2_Q11_1.png"
+        "local": "images_labeled/dc78fb50-de84-439b-980f-0629b266ff8a_11_q_01_FIX.png"
       }
     ]
   },
@@ -497,7 +497,7 @@
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, the Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, \"produced the most outstanding work in an idealistic ______ in 1909, for instance, judges recognized Selma Ottilia Lovisa Lagerlöf “[for] the lofty idealism, vivid imagination and spiritual perception that characterize her writings.”",
@@ -529,7 +529,7 @@
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMathematician Grigori Perelman, sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau, ______ credited with proving the Poincaré conjecture. Having built on Hamilton's previous work to solve the proof, Perelman has insisted that Hamilton receive credit. Yau later found and closed gaps in Perelman's proof, persuading some mathematicians that he deserves credit as well.",
@@ -593,7 +593,7 @@
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nResearchers studying how agricultural fertilizers impact grassland arthropod populations have employed several collection methods. A team led by researcher Maria K. Hartley collected arthropods with ______ another research team, led by Kimberly J. La Pierre, gathered them with bug vacuums.",
@@ -657,7 +657,7 @@
     "section": "Reading and Writing",
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe parks of San Jose, California, seem to be making people happier. In a 2022 study, researchers ______ for a relationship between the physical location in which a social media post was created and the content of that post analyzed geotagged social media posts from San Jose. The team found that posts from the city's parks contained more words associated with happiness than other posts did.",
@@ -721,7 +721,7 @@
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 23,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "The student wants to emphasize how hard fluorite is in relation to other minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n• Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n• Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n• The mineral talc has a Mohs scale number of 1.\n• The mineral fluorite has a Mohs scale number of 4.\n• The mineral quartz has a Mohs scale number of 7.",
@@ -753,7 +753,7 @@
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 24,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "The student wants to emphasize a similarity between *The Prophet* and *The Professor's House*. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A copyright prevents a book's contents from being reproduced (published) without permission from the copyright holder.\n• When a book's copyright expires, the book enters the public domain and can be legally reproduced by anyone.\n• *The Prophet* is a collection of prose poems by Kahlil Gibran.\n• It entered the public domain in 2019.\n• *The Professor's House* is a novel by Willa Cather.\n• It entered the public domain in 2021.",
@@ -817,7 +817,7 @@
     "section": "Reading and Writing",
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 26,
     "test_name": "November 2024 International Form A SAT English Module 2",
     "passage": "The student wants to make a generalization about circumnavigations. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A sailing trip that goes in a complete circle around the world is called a circumnavigation.\n• Most circumnavigations include stops on land.\n• Anne Liardet is a French sailor.\n• Liardet sailed the boat Roxy on a nonstop, 119-day circumnavigation.\n• Asia Pajkowska is a Polish sailor.\n• Pajkowska sailed the boat FanFan on a nonstop, 216-day circumnavigation.",

@@ -6,24 +6,24 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "Line r in the $xy$ -plane has a slope of -8 and passes through the point (0, 60). Which equation defines line r?",
+    "passage": "Line $r$ in the $xy$-plane has a slope of $-8$ and passes through the point $(0, 60)$. Which equation defines line $r$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y=-8x+60"
+        "text": "$y=-8x+60$"
       },
       {
         "label": "B",
-        "text": "y=-8x+52"
+        "text": "$y=-8x+52$"
       },
       {
         "label": "C",
-        "text": "y=-8x-52"
+        "text": "$y=-8x-52$"
       },
       {
         "label": "D",
-        "text": "y=-8x-60"
+        "text": "$y=-8x-60$"
       }
     ],
     "is_fill_in_blank": false,
@@ -38,24 +38,24 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to 19(x 2 -8)?",
+    "passage": "Which expression is equivalent to $19(x^2 - 8)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "19x 2 +11"
+        "text": "$19x^2 + 11$"
       },
       {
         "label": "B",
-        "text": "19x 2 -8"
+        "text": "$19x^2 - 8$"
       },
       {
         "label": "C",
-        "text": "19x 2 -27"
+        "text": "$19x^2 - 27$"
       },
       {
         "label": "D",
-        "text": "19x 2 -152"
+        "text": "$19x^2 - 152$"
       }
     ],
     "is_fill_in_blank": false,
@@ -70,7 +70,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "The function f is defined by f (x) = 5x 3 +3. What is the value of f (2)?",
+    "passage": "The function $f$ is defined by $f(x) = 5x^3 + 3$. What is the value of $f(2)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -90,19 +90,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "x $\\ge$ 40"
+        "text": "$x \\ge 40$"
       },
       {
         "label": "B",
-        "text": "x $\\ge$ 65"
+        "text": "$x \\ge 65$"
       },
       {
         "label": "C",
-        "text": "$\\le$ x $\\le 65$"
+        "text": "$40 \\le x \\le 65$"
       },
       {
         "label": "D",
-        "text": "x $\\le$ 105"
+        "text": "$x \\le 105$"
       }
     ],
     "is_fill_in_blank": false,
@@ -117,7 +117,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "The ratio of k to p is constant. If k = 4, then p = 3. What is the value of k when p =24?",
+    "passage": "The ratio of $ k $ to $ p $ is constant. If $ k = 4 $, then $ p = 3 $. What is the value of $ k $ when $ p = 24 $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -132,7 +132,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "h (x) = x+ b\nFor the linear function h, b is a constant and h (0)= 26. What is the value of b?",
+    "passage": "$h(x) = x + b$\nFor the linear function $h$, $b$ is a constant and $h(0) = 26$. What is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -147,12 +147,12 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to $(x)^{\\frac{1}{17}}$,where $x$ $>$ 0?",
+    "passage": "Which expression is equivalent to $(x)^{\\frac{1}{17}}$, where $x > 0$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{17}$ · $x$"
+        "text": "$\\frac{1}{17} \\cdot x$"
       },
       {
         "label": "B",
@@ -160,11 +160,11 @@
       },
       {
         "label": "C",
-        "text": "· $x$"
+        "text": "$x$"
       },
       {
         "label": "D",
-        "text": "$(x)$ 17"
+        "text": "$x^{17}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -176,7 +176,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 8,
     "test_name": "October 2024 International Form B SAT Math Module 1",
     "passage": "Which of the following is closest to the slope of this line of best fit?",
@@ -188,7 +188,7 @@
       },
       {
         "label": "B",
-        "text": "- $\\frac{1}{6}$"
+        "text": "-$\\frac{1}{6}$"
       },
       {
         "label": "C",
@@ -205,9 +205,9 @@
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_8",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_IntlB_Math_M1_Q8_1.png",
+        "src": "/images_labeled/b79b2afa-5519-4128-ab30-39cfd5c26d43_8_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_IntlB_Math_M1_Q8_1.png"
+        "local": "images_labeled/b79b2afa-5519-4128-ab30-39cfd5c26d43_8_q_01_FIX.png"
       }
     ]
   },
@@ -215,10 +215,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "The $y$ -intercept of the graph of $y$ = $x^{2}$ + 15 in the $xy$ -plane is (0, $y$). What is the value of $y$?",
+    "passage": "The $y$-intercept of the graph of $y = x^2 + 15$ in the $xy$-plane is $(0, y)$. What is the value of $y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -233,7 +233,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "What is the slope ofthe graph of 48 $x$ - 6 $y$ =-32 in the $xy$ -plane?",
+    "passage": "What is the slope of the graph of $48x - 6y = -32$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -242,7 +242,7 @@
       },
       {
         "label": "B",
-        "text": "- $\\frac{3}{2}$"
+        "text": "-$\\frac{3}{2}$"
       },
       {
         "label": "C",
@@ -262,27 +262,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 11,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "-5($v$ -8)($v$ -2)($v$ +9)=0\nWhat value of $v$ is a solution to the given equation?",
+    "passage": "$-5(v - 8)(v - 2)(v + 9)=0$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "-5"
+        "text": "$-5$"
       },
       {
         "label": "B",
-        "text": "-2"
+        "text": "$-2$"
       },
       {
         "label": "C",
-        "text": "8"
+        "text": "$8$"
       },
       {
         "label": "D",
-        "text": "9"
+        "text": "$9$"
       }
     ],
     "is_fill_in_blank": false,
@@ -294,10 +294,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants,the equation $y$ = 0.67 $x$ + 2.6, where 20 $\\le$ $x$ $\\le$ 110, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 53 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+    "passage": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y = 0.67x + 2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 53 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
     "question_text": null,
     "choices": [
       {
@@ -326,7 +326,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "October 2024 International Form B SAT Math Module 1",
     "passage": "In triangle $DEF$, the measure of angle $D$ is 40º and the measure of angle $E$ is 95º. In triangle $RST$, the measure of angle $R$ is 40º and the measure of angle $S$ is 95º. Which of the following additional pieces of information is needed to determine whether triangle $DEF$ is similar to triangle $RST$?",
@@ -342,7 +342,7 @@
       },
       {
         "label": "C",
-        "text": "The measure of angle $F$ and t he measure of angle $T$"
+        "text": "The measure of angle $F$ and the measure of angle $T$"
       },
       {
         "label": "D",
@@ -358,10 +358,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 14,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "If -7(13-5 $x$) + 3 = -8(13-5 $x$) + 21,what is the value of 13 - 5 $x?$",
+    "passage": "If $-7(13 - 5x) + 3 = -8(13 - 5x) + 21$, what is the value of $13 - 5x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -376,7 +376,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "The function $f$ ($x$)= $\\frac{1}{9}$ ($x$ -4) 2 + 5 gives a toy car's height above the ground $f$ ($x$), in inches, $x$ seconds after it started moving on an elevated track, where 0 $\\le x\\le$ 10. Which of the following is the best interpretation of the vertex of the graph of $y$ = $f$ ($x$) in the $xy$ -plane?",
+    "passage": "The function $f(x) = \\frac{1}{9}(x - 4)^2 + 5$ gives a toy car's height above the ground $f(x)$, in inches, $x$ seconds after it started moving on an elevated track, where $0 \\leq x \\leq 10$. Which of the following is the best interpretation of the vertex of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -437,10 +437,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Probability and conditional probability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "A bin contains a mixture of T-shirts for two sports teams. The table shows the number of T-shirts in the bin,classified by size and sports team.\nOne T-shirt from the bin will be selected at random. What is the probability of selecting a T-shirt that is medium, given that the T-shirt is a Flames T-shirt?",
+    "passage": "A bin contains a mixture of T-shirts for two sports teams. The table shows the number of T-shirts in the bin, classified by size and sports team.\nOne T-shirt from the bin will be selected at random. What is the probability of selecting a T-shirt that is medium, given that the T-shirt is a Flames T-shirt?",
     "question_text": null,
     "choices": [
       {
@@ -466,9 +466,9 @@
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_17",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_IntlB_Math_M1_Q17_1.png",
+        "src": "/images_labeled/b79b2afa-5519-4128-ab30-39cfd5c26d43_17_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_IntlB_Math_M1_Q17_1.png"
+        "local": "images_labeled/b79b2afa-5519-4128-ab30-39cfd5c26d43_17_q_01_FIX.png"
       }
     ]
   },
@@ -479,7 +479,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "The measure of angle $R$ is $\\frac{5\\pi}{6}$ radians. The measure of angle T is $\\frac{7\\pi}{12}$ radians greater than the measure of angle $R.$ What is the measure of angle $T$, in <u>degrees</u>?",
+    "passage": "The measure of angle $R$ is $\\frac{5\\pi}{6}$ radians. The measure of angle $T$ is $\\frac{7\\pi}{12}$ radians greater than the measure of angle $R$. What is the measure of angle $T$, in <u>degrees</u>?",
     "question_text": null,
     "choices": [
       {
@@ -511,24 +511,24 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "$g(x)=x^{2}+\\frac{27}{2}x$\nWhich expression represents the minimum value of the given function?",
+    "passage": "$g(x) = x^2 + \\frac{27}{2}x$\nWhich expression represents the minimum value of the given function?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$-(\\frac{27}{2})^{2}$"
+        "text": "$-\\left(\\frac{27}{2}\\right)^2$"
       },
       {
         "label": "B",
-        "text": "$-(\\frac{27}{4})^{2}$"
+        "text": "$-\\left(\\frac{27}{4}\\right)^2$"
       },
       {
         "label": "C",
-        "text": "$(\\frac{27}{4})^{2}$"
+        "text": "$\\left(\\frac{27}{4}\\right)^2$"
       },
       {
         "label": "D",
-        "text": "$(\\frac{27}{2})^{2}$"
+        "text": "$\\left(\\frac{27}{2}\\right)^2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -543,7 +543,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "The expression 0.33 $x$ represents the result of decreasing a positive quantity $x$ by what percent?",
+    "passage": "The expression $0.33 x$ represents the result of decreasing a positive quantity $x$ by what percent?",
     "question_text": null,
     "choices": [
       {
@@ -572,10 +572,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan θ $\\le\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 28.4 inches, what is the least possible value of $x$, in inches?",
+    "passage": "According to a US law, ramps for use by the general public must form an angle with level ground such that $\\tan \\theta \\leq \\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 28.4 inches, what is the least possible value of $x$, in inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -584,9 +584,9 @@
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_21",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_IntlB_Math_M1_Q21_1.png",
+        "src": "/images_labeled/b79b2afa-5519-4128-ab30-39cfd5c26d43_21_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_IntlB_Math_M1_Q21_1.png"
+        "local": "images_labeled/b79b2afa-5519-4128-ab30-39cfd5c26d43_21_q_01_FIX.png"
       }
     ]
   },
@@ -597,7 +597,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "October 2024 International Form B SAT Math Module 1",
-    "passage": "The edge length, in inches, of cube Y is $\\frac{3}{64}$ the edge length, in inches, of cube X. The surface area, in square inches, of cube Y is $n$ times the surface area, in square inches, of cube X.What is the value of $n$?",
+    "passage": "The edge length, in inches, of cube Y is $\\frac{3}{64}$ the edge length, in inches, of cube X. The surface area, in square inches, of cube Y is $n$ times the surface area, in square inches, of cube X. What is the value of $n$?",
     "question_text": null,
     "choices": [
       {
