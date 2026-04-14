@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "The equation $x+y=1,440$ represents the number of minutes of daylight (between sunrise and sunset), x, and the number of minutes of non-daylight, y, on a particular day in Des Moines, Iowa. If this day has 840 minutes of daylight, how many minutes of non-daylight does it have?",
+    "passage": "The equation $x + y = 1440$ represents the number of minutes of daylight (between sunrise and sunset), $x$, and the number of minutes of non-daylight, $y$, on a particular day in Des Moines, Iowa. If this day has 840 minutes of daylight, how many minutes of non-daylight does it have?",
     "question_text": null,
     "choices": [
       {
@@ -38,24 +38,24 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "A car travels at a speed of at least 25 miles per hour but no more than 65 miles per hour for a certain part of a trip. Which inequality represents this situation, where x is the speed of the car, in miles per hour, on this part of the trip?",
+    "passage": "$25 \\leq x \\leq 65$ represents the speed of the car, in miles per hour, on this part of the trip.",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x\\ge25$"
+        "text": "$x \\geq 25$"
       },
       {
         "label": "B",
-        "text": "$x\\ge65$"
+        "text": "$x \\geq 65$"
       },
       {
         "label": "C",
-        "text": "$25\\le x\\le65$"
+        "text": "$25 \\leq x \\leq 65$"
       },
       {
         "label": "D",
-        "text": "$x\\le90$"
+        "text": "$x \\leq 90$"
       }
     ],
     "is_fill_in_blank": false,
@@ -121,7 +121,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 5,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "12, 22, 24, 33, 39, 42, 44\nThe given list shows the 7 values in a data set. Which of the following data sets has the same median as the given list?",
@@ -188,7 +188,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "There are 350 objects in a bag. Of these objects, 4 % are spheres. How many spheres are in the bag?",
+    "passage": "There are 350 objects in a bag. Of these objects, 4% are spheres. How many spheres are in the bag?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -239,10 +239,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "The graph in the xy -plane models the possible combinations of length x, in meters (m), and width y, in meters, for a rectangle with a perimeter of 26 m. Which statement is the best interpretation of the point $(4,9)$ in this context?",
+    "passage": "The graph in the $xy$-plane models the possible combinations of length $x$, in meters (m), and width $y$, in meters, for a rectangle with a perimeter of 26 m. Which statement is the best interpretation of the point $(4,9)$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -278,10 +278,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "$f(x)=x^{4}+8x+13$\nFor the given function $f$, the graph of $y=f(x)$ in the xy -plane passes through the point $(0,b)$, where b is a constant. What is the value of b?",
+    "passage": "$f(x)=x^{4}+8x+13$\nFor the given function $f$, the graph of $y=f(x)$ in the $xy$-plane passes through the point $(0,b)$, where $b$ is a constant. What is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -296,7 +296,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "Line k is defined by $y=-\\frac{22}{3}x+2.$ Line j is perpendicular to line k in the xy -plane. What is the slope of line j?",
+    "passage": "Line k is defined by $y=-\\frac{22}{3}x+2.$ Line j is perpendicular to line k in the $xy$-plane. What is the slope of line j?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -308,7 +308,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "The area A, in square centimeters, of a rectangular painting can be represented by the expression $w(w+79)$, where w is the width, in centimeters, of the painting. Which expression represents the length, in centimeters, of the painting?",
@@ -343,7 +343,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "In triangle QRS, what is the value of $tany^{∘}$?",
+    "passage": "In triangle QRS, what is the value of $\\tan y^{\\circ}$?",
     "question_text": null,
     "choices": [
       {
@@ -429,12 +429,12 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "$x^{2}+52x+y^{2}=0$\nIn the xy -plane, the graph of the given equation is a circle. What are the coordinates $(x,y)$ of the center of the circle?",
+    "passage": "$x^{2} + 52x + y^{2} = 0$\nIn the $xy$-plane, the graph of the given equation is a circle. What are the coordinates $(x, y)$ of the center of the circle?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(0,26)$"
+        "text": "$(0, 26)$"
       },
       {
         "label": "B",
@@ -442,11 +442,11 @@
       },
       {
         "label": "C",
-        "text": "$(26,0)$"
+        "text": "$(26, 0)$"
       },
       {
         "label": "D",
-        "text": "$(-26,0)$"
+        "text": "$(-26, 0)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -458,7 +458,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "$-0.9y=0.8x+2.2$\n$4y=-3x+18$\nThe solution to the given system of equations is $(x,y)$. What is the value of $x$?",
@@ -473,7 +473,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "The shaded region shown represents the solutions to which inequality?",
@@ -481,19 +481,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y"
+        "text": "$y < -4x + 6$"
       },
       {
         "label": "B",
-        "text": "$y"
+        "text": "$y < 6x - 4$"
       },
       {
         "label": "C",
-        "text": "$y>-4x+6$"
+        "text": "$y > -4x + 6$"
       },
       {
         "label": "D",
-        "text": "$y>6x-4$"
+        "text": "$y > 6x - 4$"
       }
     ],
     "is_fill_in_blank": false,
@@ -515,7 +515,7 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "$f(x)=\\frac{a-18}{x}+6$\nIn the given function $f$, a is a constant. The graph of function $f$ in the xy -plane, where $y=f(x)$, is translated 3 units down and 9 units to the right to produce the graph of $y=g(x)$. Which equation defines function g?",
+    "passage": "$f(x)=\\frac{a-18}{x}+6$\nIn the given function $f$, $a$ is a constant. The graph of function $f$ in the $xy$-plane, where $y=f(x)$, is translated 3 units down and 9 units to the right to produce the graph of $y=g(x)$. Which equation defines function $g$?",
     "question_text": null,
     "choices": [
       {
@@ -547,7 +547,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 86 centimeters. If the height of the cone is 43 centimeters and the volume of the cone is $k\\pi$ cubic centimeters, what is the value of k?",
+    "passage": "For the right circular cone shown, $B$ is a point on the circumference of the base, and the length of segment $AB$ (not shown) is 86 centimeters. If the height of the cone is 43 centimeters and the volume of the cone is $k\\pi$ cubic centimeters, what is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -566,7 +566,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "August 2025 International Form B SAT Math Module 1",
     "passage": "The binomial $x+28y$ is a factor of which of the following?",
@@ -598,10 +598,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "August 2025 International Form B SAT Math Module 1",
-    "passage": "If a new graph of three linear equations is created using the system of equations shown and the equation $x-6y=-36$, how many solutions $(x,y)$ will the resulting system of three equations have?",
+    "passage": "If a new graph of three linear equations is created using the system of equations shown and the equation $x - 6y = -36$, how many solutions $(x, y)$ will the resulting system of three equations have?",
     "question_text": null,
     "choices": [
       {

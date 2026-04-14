@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "The length of each side of triangle A is 270 millimeters. The length of each side of triangle B is double the length of each side of triangle A. What is the length, in millimeters, of each side of triangle B?",
+    "passage": "The length of each side of triangle A is $270$ millimeters. The length of each side of triangle B is double the length of each side of triangle A. What is the length, in millimeters, of each side of triangle B?",
     "question_text": null,
     "choices": [
       {
@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "Carrie has c dollars and Marjani has m dollars. Carrie has 4 times as many dollars as Marjani, and together they have a total of \\$ 40.00. Which system of equations represents this situation?",
+    "passage": "Carrie has c dollars and Marjani has m dollars. Carrie has 4 times as many dollars as Marjani, and together they have a total of $40.00. Which system of equations represents this situation?",
     "question_text": null,
     "choices": [
       {
@@ -67,10 +67,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "Anton is selling toys from his toy collection. When he started selling the toys, there were 2,800 toys in the collection. At the end of each week for 3 weeks after Anton started selling the toys, the number of toys in the collection had decreased by $\\frac{1}{2}$ of the toys in the collection at the end of the previous week. Which equation gives the number of toys, c, in the collection w weeks after Anton started selling the toys, where $0\\le w?",
+    "passage": "Anton is selling toys from his toy collection. When he started selling the toys, there were 2,800 toys in the collection. At the end of each week for 3 weeks after Anton started selling the toys, the number of toys in the collection had decreased by $\\frac{1}{2}$ of the toys in the collection at the end of the previous week. Which equation gives the number of toys, $c$, in the collection $w$ weeks after Anton started selling the toys, where $0 \\leq w$?",
     "question_text": null,
     "choices": [
       {
@@ -102,7 +102,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "$\\sqrt{w}+22=28$\nWhat is the solution to the given equation?",
+    "passage": "$\\sqrt{w} + 22 = 28$\nWhat is the solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -149,7 +149,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "The function $f(x)=-30x+310$ gives the predicted height above the ground $f(x)$, in feet, of a model airplane x minutes after it begins to descend. What is the predicted height above the ground, in feet, of the model airplane 2 minutes after it begins to descend?",
+    "passage": "The function $f(x) = -30x + 310$ gives the predicted height above the ground $f(x)$, in feet, of a model airplane $x$ minutes after it begins to descend. What is the predicted height above the ground, in feet, of the model airplane 2 minutes after it begins to descend?",
     "question_text": null,
     "choices": [
       {
@@ -178,10 +178,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "$2x=9+7y$\n$-2x=3+7y$\nThe solution to the given system of equations is $(x,y)$. What is the value of 4 x?",
+    "passage": "$2x=9+7y$\n$-2x=3+7y$\nThe solution to the given system of equations is $(x,y)$. What is the value of $4x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -193,10 +193,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 8,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function $f$ shown, where $y=f(x)$, estimates the account balance, in dollars, in this bank account x months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
+    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function $f$ shown, where $y=f(x)$, estimates the account balance, in dollars, in this bank account $x$ months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -215,7 +215,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "August 2025 International Form A SAT Math Module 1",
     "passage": "$y=-12x+16$\n$y=-20x+24$\nWhat is the solution $(x,y)$ to the given system of equations?",
@@ -247,10 +247,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "A rectangle has a length that is 73 times its width. The function $y=(73w)(w)$ represents this situation, where y is the area, in square feet, of the rectangle and $y>0$. Which of the following is the best interpretation of 73 w in this context?",
+    "passage": "A rectangle has a length that is 73 times its width. The function $y=(73w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y>0$. Which of the following is the best interpretation of $73w$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -282,7 +282,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "An entomologist placed an initial population of 40 Tenebrio molitor, a type of beetle, into a habitat and monitored the population over time. When the number of Tenebrio molitor in the habitat reached 170 % of the initial population, the entomologist moved 75 % of the Tenebrio molitor to a second habitat. How many Tenebrio molitor did the entomologist move to the second habitat at this time?",
+    "passage": "An entomologist placed an initial population of 40 Tenebrio molitor, a type of beetle, into a habitat and monitored the population over time. When the number of Tenebrio molitor in the habitat reached 170% of the initial population, the entomologist moved 75% of the Tenebrio molitor to a second habitat. How many Tenebrio molitor did the entomologist move to the second habitat at this time?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -297,24 +297,24 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "For the polynomial function $f$, the graph of $y=f(x)$ in the xy -plane passes through the points $(-3,0)$, $(1,0)$, and $(4,0)$. Which of the following must be a factor of $f(x)$?",
+    "passage": "For the polynomial function $f$, the graph of $y = f(x)$ in the $xy$-plane passes through the points $(-3, 0)$, $(1, 0)$, and $(4, 0)$. Which of the following must be a factor of $f(x)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x+1$"
+        "text": "$x + 1$"
       },
       {
         "label": "B",
-        "text": "$x+4$"
+        "text": "$x + 4$"
       },
       {
         "label": "C",
-        "text": "$x-1$"
+        "text": "$x - 1$"
       },
       {
         "label": "D",
-        "text": "$x-3$"
+        "text": "$x - 3$"
       }
     ],
     "is_fill_in_blank": false,
@@ -326,10 +326,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "A circle has a circumference of 89 π centimeters. What is the diameter, in centimeters, of the circle?",
+    "passage": "A circle has a circumference of $89\\pi$ centimeters. What is the diameter, in centimeters, of the circle?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -341,7 +341,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 14,
     "test_name": "August 2025 International Form A SAT Math Module 1",
     "passage": "If $\\frac{x-17}{18}=\\frac{x-17}{6}$, what is the value of $x+17$?",
@@ -373,7 +373,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 15,
     "test_name": "August 2025 International Form A SAT Math Module 1",
     "passage": "For what value of a is $ar^{42}$ equivalent to $r^{\\frac{6}{7}}$, where $r>1$?",
@@ -391,7 +391,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "In the xy -plane, line s passes through the point $(0,0)$ and is parallel to the line represented by the equation $y=36x+6$. If line s also passes through the point $(9,d)$, what is the value of d?",
+    "passage": "In the $xy$-plane, line $s$ passes through the point $(0,0)$ and is parallel to the line represented by the equation $y=36x+6$. If line $s$ also passes through the point $(9,d)$, what is the value of $d$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -403,10 +403,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "Circles A and B are graphed in the xy -plane. Circle A is represented by the equation $(x+8)^{2}+(y-8)^{2}=64$ and intersects the x-axis at the point (r, s). Circle B has its center at (r, s) and has a radius of the same length as circle A. Which equation represents circle B?",
+    "passage": "Circles A and B are graphed in the $xy$-plane. Circle A is represented by the equation $(x+8)^{2}+(y-8)^{2}=64$ and intersects the $x$-axis at the point $(r, s)$. Circle B has its center at $(r, s)$ and has a radius of the same length as circle A. Which equation represents circle B?",
     "question_text": null,
     "choices": [
       {
@@ -474,10 +474,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "The scatterplot shows the relationship between two variables, x and y. A line of best fit for the data is also shown.\nFor how many of the 9 data points is the actual y -value greater than the y -value predicted by the line of best fit?",
+    "passage": "The scatterplot shows the relationship between two variables, $x$ and $y$. A line of best fit for the data is also shown.\nFor how many of the 9 data points is the actual $y$-value greater than the $y$-value predicted by the line of best fit?",
     "question_text": null,
     "choices": [
       {
@@ -516,7 +516,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "$RS=504$\n$ST=128$\n$TR=520$\nThe side lengths of right triangle RST are given. Triangle RST is similar to triangle UVW, where S corresponds to V and T corresponds to W. What is the value of $tanW$?",
+    "passage": "$RS=504$\n$ST=128$\n$TR=520$\nThe side lengths of right triangle $RST$ are given. Triangle $RST$ is similar to triangle $UVW$, where $S$ corresponds to $V$ and $T$ corresponds to $W$. What is the value of $\\tan W$?",
     "question_text": null,
     "choices": [
       {
@@ -545,10 +545,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "$f(x)=20(2)^{x}+6(2)^{x}$\nThe function $f$ is defined by the given equation. Which of the following equivalent forms of $f$ displays, as a coefficient or a base, the y -coordinate of the y -intercept of the graph of $y=f(x)$ in the xy -plane?",
+    "passage": "$f(x)=20(2)^{x}+6(2)^{x}$\nThe function $f$ is defined by the given equation. Which of the following equivalent forms of $f$ displays, as a coefficient or a base, the y-coordinate of the y-intercept of the graph of $y=f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -577,10 +577,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "In a set of three consecutive integers, where the integers are ordered from least to greatest, the first integer is represented by x. The sum of 4 and the second integer is less than the product of 17 and the third integer. Which inequality represents this situation?",
+    "passage": "In a set of three consecutive integers, where the integers are ordered from least to greatest, the first integer is represented by $x$. The sum of 4 and the second integer is less than the product of 17 and the third integer. Which inequality represents this situation?",
     "question_text": null,
     "choices": [
       {
@@ -589,7 +589,7 @@
       },
       {
         "label": "B",
-        "text": "$4+(x+1)"
+        "text": "$4+(x+1) < 17(x+2)$"
       },
       {
         "label": "C",
@@ -597,7 +597,7 @@
       },
       {
         "label": "D",
-        "text": "$4+(x+2)"
+        "text": "$4+(x+2) < 17(x+3)$"
       }
     ],
     "is_fill_in_blank": false,

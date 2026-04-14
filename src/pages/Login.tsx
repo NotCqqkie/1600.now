@@ -82,7 +82,7 @@ const Login = () => {
               Welcome back
             </h2>
             <p className="text-sm text-muted-foreground">
-              Sign in to continue your prep.
+              Sign in to continue studying.
             </p>
           </div>
 

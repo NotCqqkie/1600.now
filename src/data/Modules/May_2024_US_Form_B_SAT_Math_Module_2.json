@@ -57,27 +57,27 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "The length, y, of a beluga whale was 157 centimeters (cm) when it was born and increased an average of 4.6cm per month for the first 12 months after it was born. Which equation best represents this situation, where x is the number of months after the whale was born?",
+    "passage": "The length, $ y $, of a beluga whale was 157 centimeters (cm) when it was born and increased an average of 4.6 cm per month for the first 12 months after it was born. Which equation best represents this situation, where $ x $ is the number of months after the whale was born?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y = 157x"
+        "text": "$ y = 157x $"
       },
       {
         "label": "B",
-        "text": "y = 157x + 157"
+        "text": "$ y = 157x + 157 $"
       },
       {
         "label": "C",
-        "text": "y = 4.6x + 4.6"
+        "text": "$ y = 4.6x + 4.6 $"
       },
       {
         "label": "D",
-        "text": "y = 4.6x + 157"
+        "text": "$ y = 4.6x + 157 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -92,7 +92,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "The graph of the exponential function f is shown, where y = f(x). The y -intercept of the graph is (0, y). What is the value of y?",
+    "passage": "The graph of the exponential function $ f $ is shown, where $ y = f(x) $. The $ y $-intercept of the graph is $ (0, y) $. What is the value of $ y $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -114,7 +114,7 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "g(x)= $\\frac{1}{11}$ (5(2) x + 4)\nThe function g is defined by the given equation. For all values of x, the value of g(x) is greater than k, where k is a constant. What is the greatest possible value of k?",
+    "passage": "$g(x)= \\frac{1}{11} (5 \\cdot 2x + 4)$\nThe function $g$ is defined by the given equation. For all values of $x$, the value of $g(x)$ is greater than $k$, where $k$ is a constant. What is the greatest possible value of $k$?",
     "question_text": null,
     "choices": [
       {
@@ -143,7 +143,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 6,
     "test_name": "May 2024 US Form B SAT Math Module 2",
     "passage": "The scatterplot shows the power output, in watts, of a wind turbine for some local wind speeds, in meters per second (m/s).\nWhich of the following is closest to the power output, in watts, of the wind turbine when the local wind speed is 8 m/s?",
@@ -182,10 +182,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 7,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "The function f is defined by f(x)= 60 − 5x. What is the value of f(8)?",
+    "passage": "The function $f$ is defined by $f(x)=60 - 5x$. What is the value of $f(8)$?",
     "question_text": null,
     "choices": [
       {
@@ -214,27 +214,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 8,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "Line r in the xy -plane has a slope of −3 and passes through the point (0, 80). Which equation defines line r?",
+    "passage": "Line $r$ in the $xy$-plane has a slope of $-3$ and passes through the point $(0, 80)$. Which equation defines line $r$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y = −3x + 80"
+        "text": "$y = -3x + 80$"
       },
       {
         "label": "B",
-        "text": "y = −3x + 77"
+        "text": "$y = -3x + 77$"
       },
       {
         "label": "C",
-        "text": "y = −3x − 77"
+        "text": "$y = -3x - 77$"
       },
       {
         "label": "D",
-        "text": "y = −3x − 80"
+        "text": "$y = -3x - 80$"
       }
     ],
     "is_fill_in_blank": false,
@@ -317,10 +317,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "$\\sqrt{w}$ + 38 = 43\nWhat is the solution to the given equation?",
+    "passage": "$\\sqrt{w} + 38 = 43$\nWhat is the solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -332,7 +332,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "May 2024 US Form B SAT Math Module 2",
     "passage": "A cube has an edge length of 3 inches. What is the volume, in cubic inches, of the cube?",
@@ -347,10 +347,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "f(x) = 8x + b\nFor the linear function f, b is a constant and f(9) = 72. What is the value of b?",
+    "passage": "For the linear function $ f $, $ b $ is a constant and $ f(9) = 72 $. What is the value of $ b $?",
     "question_text": null,
     "choices": [
       {
@@ -379,27 +379,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "Which expression is equivalent to 12x 3 + 60x 2 y + xy 2 + 5y 3 ？",
+    "passage": "Which expression is equivalent to $12x^3 + 60x^2y + xy^2 + 5y^3$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(12x 2 + 5y)(x + y 2)"
+        "text": "$(12x^2 + 5y)(x + y^2)$"
       },
       {
         "label": "B",
-        "text": "(12x 2 + y 2)(x + 5y)"
+        "text": "$(12x^2 + y^2)(x + 5y)$"
       },
       {
         "label": "C",
-        "text": "(12x 3 + y 2)(x 2 + 5y 3)"
+        "text": "$(12x^3 + y^2)(x^2 + 5y^3)$"
       },
       {
         "label": "D",
-        "text": "(12x 3 + y 3)(x + 5y)"
+        "text": "$(12x^3 + y^3)(x + 5y)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -411,10 +411,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 15,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "How many solutions does the equation 2x + 5 = 2x have?",
+    "passage": "How many solutions does the equation $2x + 5 = 2x$ have?",
     "question_text": null,
     "choices": [
       {
@@ -468,24 +468,24 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "What is the y -intercept of the graph of y = $\\frac{32}{x-4}$ in the xy -plane?",
+    "passage": "What is the $y$-intercept of the graph of $y = \\frac{32}{x-4}$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(0, −8)"
+        "text": "$(0, -8)$"
       },
       {
         "label": "B",
-        "text": "(0, 0)"
+        "text": "$(0, 0)$"
       },
       {
         "label": "C",
-        "text": "(−4, 0)"
+        "text": "$(-4, 0)$"
       },
       {
         "label": "D",
-        "text": "(32, 0)"
+        "text": "$(32, 0)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -497,27 +497,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 18,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "Which expression is equivalent to 10x 2 + 4 + 2x 2?",
+    "passage": "Which expression is equivalent to $10x^2 + 4 + 2x^2$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "12x 4 + 4"
+        "text": "$12x^4 + 4$"
       },
       {
         "label": "B",
-        "text": "12x 2 + 4"
+        "text": "$12x^2 + 4$"
       },
       {
         "label": "C",
-        "text": "16x 4"
+        "text": "$16x^4$"
       },
       {
         "label": "D",
-        "text": "16x 2"
+        "text": "$16x^2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -532,7 +532,7 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "x 2 − y 2 = 39\nx − y = 3\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "passage": "$x^2 - y^2 = 39$\n$x - y = 3$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
     "question_text": null,
     "choices": [
       {
@@ -561,10 +561,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 20,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "x 2 − 97 = −97 + x 2\nHow many distinct real solutions does the given equation have?",
+    "passage": "$x^2 - 97 = -97 + x^2$",
     "question_text": null,
     "choices": [
       {
@@ -593,27 +593,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "(3x + 8)(4x − 3)= 0\nWhich of the following is a solution to the given equation?",
+    "passage": "$(3x + 8)(4x - 3) = 0$\nWhich of the following is a solution to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "− $\\frac{8}{3}$"
+        "text": "$- \\frac{8}{3}$"
       },
       {
         "label": "B",
-        "text": "− $\\frac{4}{3}$"
+        "text": "$- \\frac{4}{3}$"
       },
       {
         "label": "C",
-        "text": "− $\\frac{3}{4}$"
+        "text": "$- \\frac{3}{4}$"
       },
       {
         "label": "D",
-        "text": "− $\\frac{3}{8}$"
+        "text": "$- \\frac{3}{8}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -625,10 +625,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "For a certain type of rope, the equation y = 900ax 2, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 2.75 inches, it has an estimated breaking strength of 9,528.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 5.50 inches?",
+    "passage": "For a certain type of rope, the equation $y = 900a x^2$, where $a$ is a constant, gives the estimated breaking strength $y$, in pounds, of a rope with a circumference of $x$ inches. Based on this equation, if a rope of this type has a circumference of 2.75 inches, it has an estimated breaking strength of 9,528.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 5.50 inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

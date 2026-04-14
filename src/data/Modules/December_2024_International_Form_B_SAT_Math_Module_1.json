@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "The graph of a system of two linear equations is shown. The solution to the system is (x, y).What is the value of y?",
+    "passage": "The graph of a system of two linear equations is shown. The solution to the system is (x, y). What is the value of y?",
     "question_text": null,
     "choices": [
       {
@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "The function f is defined by f(x)= 25x + 80. What is the value of f(x) when x = 2?",
+    "passage": "The function $f$ is defined by $f(x) = 25x + 80$. What is the value of $f(x)$ when $x = 2$?",
     "question_text": null,
     "choices": [
       {
@@ -77,24 +77,24 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "In the xy-plane, the graph of y= f(x) is a line that passes through (0, 27) and has a slope of 5. Which equation defines f?",
+    "passage": "In the $xy$-plane, the graph of $y = f(x)$ is a line that passes through $(0, 27)$ and has a slope of 5. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=27x$"
+        "text": "$f(x) = 27x$"
       },
       {
         "label": "B",
-        "text": "$f(x)$ $=27x+5$"
+        "text": "$f(x) = 27x + 5$"
       },
       {
         "label": "C",
-        "text": "$f(x)=5x$"
+        "text": "$f(x) = 5x$"
       },
       {
         "label": "D",
-        "text": "$∫(x)=5x+27$"
+        "text": "$f(x) = 5x + 27$"
       }
     ],
     "is_fill_in_blank": false,
@@ -114,19 +114,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "y=20x"
+        "text": "$y = 20x$"
       },
       {
         "label": "B",
-        "text": "y=22x+2"
+        "text": "$y = 22x + 2$"
       },
       {
         "label": "C",
-        "text": "y=22x"
+        "text": "$y = 22x$"
       },
       {
         "label": "D",
-        "text": "y=x+20"
+        "text": "$y = x + 20$"
       }
     ],
     "is_fill_in_blank": false,
@@ -145,27 +145,27 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 5,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "An object was launched upward from a platform. The graph shown models the height above ground, y, in meters, of the object x seconds after it was launched. For which of the following intervals of time was the height of the object increasing for the entire interval?",
+    "passage": "An object was launched upward from a platform. The graph shown models the height above ground, $y$, in meters, of the object $x$ seconds after it was launched. For which of the following intervals of time was the height of the object increasing for the entire interval?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "From x =0 to x =2"
+        "text": "From $x = 0$ to $x = 2$"
       },
       {
         "label": "B",
-        "text": "From x =0 to x =4"
+        "text": "From $x = 0$ to $x = 4$"
       },
       {
         "label": "C",
-        "text": "From x =2 to x =3"
+        "text": "From $x = 2$ to $x = 3$"
       },
       {
         "label": "D",
-        "text": "From x =3 to x =4"
+        "text": "From $x = 3$ to $x = 4$"
       }
     ],
     "is_fill_in_blank": false,
@@ -187,7 +187,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "The relationship between the variables x and y is defined by an exponential equation. When x=0, the value of y is 70, and for every increase in the value of x by l, the corresponding value of y increases by 50%6 of its previous value. Which equation represents this relationship?",
+    "passage": "The relationship between the variables x and y is defined by an exponential equation. When x=0, the value of y is 70, and for every increase in the value of x by 1, the corresponding value of y increases by 50% of its previous value. Which equation represents this relationship?",
     "question_text": null,
     "choices": [
       {
@@ -258,7 +258,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "The function h is defined by h(x)=9|x|.what is the value of h(-8)?",
+    "passage": "$h(x) = 9|x|$. What is the value of $h(-8)$?",
     "question_text": null,
     "choices": [
       {
@@ -287,10 +287,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 9,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.\nWhich of the following is closest to the slope of the line of best fit shown?",
+    "passage": "The scatterplot shows the relationship between two variables, $x$ and $y$. A line of best fit is also shown.\nWhich of the following is closest to the slope of the line of best fit shown?",
     "question_text": null,
     "choices": [
       {
@@ -329,7 +329,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "In the figure, line q is parallel to line r, and both lines are intersected by line s. If y= 2x + 8, what is the value of x?",
+    "passage": "In the figure, line q is parallel to line r, and both lines are intersected by line s. If $ y = 2x + 8 $, what is the value of x?",
     "question_text": null,
     "choices": [
       {
@@ -365,10 +365,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "How many <u> centimeters </u> are equivalent to 2l meters? (l meter = 100 centimeters)",
+    "passage": "How many $\\text{centimeters}$ are equivalent to 21 meters? (1 meter = 100 centimeters)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -383,7 +383,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "Line t in the xy-plane has a slope of $-\\frac{1}{2}$, and passes through the point (6, 4). Which equation defines line t?",
+    "passage": "Line $t$ in the $xy$-plane has a slope of $-\\frac{1}{2}$, and passes through the point $(6, 4)$. Which equation defines line $t$?",
     "question_text": null,
     "choices": [
       {
@@ -392,7 +392,7 @@
       },
       {
         "label": "B",
-        "text": "$y≡6x+4$"
+        "text": "$y=6x+4$"
       },
       {
         "label": "C",
@@ -415,7 +415,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "(x-18)(x-10)(x+3)(x+19)=0\nWhat is a positive solution to the given equation?",
+    "passage": "$(x - 18)(x - 10)(x + 3)(x + 19) = 0$\nWhat is a positive solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -427,10 +427,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 15,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "A linear model estimates the population of a city from l996 to 2020. The model estimates the population was 61 thousand in 1996, 225 thousand in 2016, and x thousand in 2020. To the nearest whole number what is the value of x?",
+    "passage": "A linear model estimates the population of a city from 1996 to 2020. The model estimates the population was 61 thousand in 1996, 225 thousand in 2016, and $x$ thousand in 2020. To the nearest whole number, what is the value of $x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -445,24 +445,24 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "y = 500(3) 2x\nThe equation gives the estimated number of online newsletter subscribers at the end of every six month period, x, starting from the end of January 199l, where 0 ≤ x ≤ 4. Which statement is the best interpretation of the y-intercept of the graph of this equation in the xy-plane?",
+    "passage": "$y = 500(3)^{2x}$\nThe equation gives the estimated number of online newsletter subscribers at the end of every six month period, $x$, starting from the end of January 1991, where $0 \\leq x \\leq 4$. Which statement is the best interpretation of the $y$-intercept of the graph of this equation in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The estimated number of online newsletter subscribers at the end of the first six month peri od was 500."
+        "text": "The estimated number of online newsletter subscribers at the end of the first six month period was 500."
       },
       {
         "label": "B",
-        "text": "The estimated number of online newsletter subscribers at the end of J anua r y 1991 was 500."
+        "text": "The estimated number of online newsletter subscribers at the end of January 1991 was 500."
       },
       {
         "label": "C",
-        "text": "The estimated number of online newsletter subscribers at the end of J anuary 1992 was 1,500."
+        "text": "The estimated number of online newsletter subscribers at the end of January 1992 was 1,500."
       },
       {
         "label": "D",
-        "text": "The estimated number of online newsletter subscribers at the end of J anuary 1991 was 1, 500."
+        "text": "The estimated number of online newsletter subscribers at the end of January 1991 was 1,500."
       }
     ],
     "is_fill_in_blank": false,
@@ -474,10 +474,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "$\\frac{x}{2}+9(y-13)=27\\frac{x}{7}-9(y-13)=45$\nThe solution to the given system of equations is (x, y). What is the value of 9x?",
+    "passage": "$\\frac{x}{2} + 9(y - 13) = 27$ and $\\frac{x}{7} - 9(y - 13) = 45$\nThe solution to the given system of equations is $(x, y)$. What is the value of $9x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -492,24 +492,24 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "When several resistors are connected in series in a circuit, the total resistance of the circuit is the sum of the resistances of these resistors. A certain circuit consists of 5 resistors connected in series, where the resistance of each resistor is positive. This circuit has a total resistance of 90 ohms. The total resistance of 2 resistors in this circuit is 60 ohms. Which inequality best represents all possible values of the resistance x, in ohms, of one of the other 3 resistors in this circuit?",
+    "passage": "When several resistors are connected in series in a circuit, the total resistance of the circuit is the sum of the resistances of these resistors. A certain circuit consists of 5 resistors connected in series, where the resistance of each resistor is positive. This circuit has a total resistance of 90 ohms. The total resistance of 2 resistors in this circuit is 60 ohms. Which inequality best represents all possible values of the resistance $x$, in ohms, of one of the other 3 resistors in this circuit?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "0< x < 10"
+        "text": "0 < $x$ < 10"
       },
       {
         "label": "B",
-        "text": "0< x < 30"
+        "text": "0 < $x$ < 30"
       },
       {
         "label": "C",
-        "text": "30< x < 60"
+        "text": "30 < $x$ < 60"
       },
       {
         "label": "D",
-        "text": "30< x < 90"
+        "text": "30 < $x$ < 90"
       }
     ],
     "is_fill_in_blank": false,
@@ -524,7 +524,7 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "$y=-0.5$\n$y=x^{2}+8x+a$\nIn the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?",
+    "passage": "$y = -0.5$\n$y = x^2 + 8x + a$\nIn the given system of equations, $a$ is a positive integer constant. The system has no real solutions. What is the least possible value of $a$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -536,27 +536,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 20,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "A family has money in an account for renting movies online. Each time the family rents a movie, the cost of the rental is withdrawn from the account, and each rental costs the same amount of money. The function f(m)= 30 - 3m gives the amount of money, in dollars, in the account after the family has rented m movies. Which of the following represents the amount of money, in dollars, withdrawn from the account each time the family rents a movie?",
+    "passage": "A family has money in an account for renting movies online. Each time the family rents a movie, the cost of the rental is withdrawn from the account, and each rental costs the same amount of money. The function $f(m) = 30 - 3m$ gives the amount of money, in dollars, in the account after the family has rented $m$ movies. Which of the following represents the amount of money, in dollars, withdrawn from the account each time the family rents a movie?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "3m"
+        "text": "$3m$"
       },
       {
         "label": "B",
-        "text": "3"
+        "text": "$3$"
       },
       {
         "label": "C",
-        "text": "30"
+        "text": "$30$"
       },
       {
         "label": "D",
-        "text": "30-3m"
+        "text": "$30 - 3m$"
       }
     ],
     "is_fill_in_blank": false,
@@ -568,10 +568,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "If 9 - 8(4 - 7x)= 5 - 9(4 -7x), what is the value of 4 -7x?",
+    "passage": "If $9 - 8(4 - 7x) = 5 - 9(4 - 7x)$, what is the value of $4 - 7x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -583,10 +583,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "December 2024 International Form B SAT Math Module 1",
-    "passage": "On a plot of land, 52,0% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 23.5% of the square footage of the farmland, and there are buildings on exactly l6.0% of the square footage of the pasture. If there are buildings on exactly p% of the square footage of the plot of land, what is the value of p?",
+    "passage": "On a plot of land, $52.0\\%$ of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly $23.5\\%$ of the square footage of the farmland, and there are buildings on exactly $16.0\\%$ of the square footage of the pasture. If there are buildings on exactly $p\\%$ of the square footage of the plot of land, what is the value of $p$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

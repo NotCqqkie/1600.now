@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "In one week in 2017, a technician earned a total of \\$700 by working at her regular job and at a second job doing part-time work. The equation $16h+13c=700$ represents this situation, where h is the number of hours worked at her regular job and c is the number of hours worked at her second job. Which of the following is the best interpretation of 16 in this context?",
+    "passage": "In one week in 2017, a technician earned a total of \\$700 by working at her regular job and at a second job doing part-time work. The equation $16h+13c=700$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 16 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -35,7 +35,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "March 2025 International Form B SAT Math Module 2",
     "passage": "Which of the following lists represents a data set with the smallest standard deviation?",
@@ -67,10 +67,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 4,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is 56 °, and $AE=24(BD)$. What is the measure of angle $CAE$?",
+    "passage": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is $56^\\circ$, and $AE=24(BD)$. What is the measure of angle $CAE$?",
     "question_text": null,
     "choices": [
       {
@@ -83,11 +83,11 @@
       },
       {
         "label": "C",
-        "text": "$(24+56^\\circ)$"
+        "text": "$(24+56)^\\circ$"
       },
       {
         "label": "D",
-        "text": "$(24•56)^\\circ$"
+        "text": "$(24\\cdot56)^\\circ$"
       }
     ],
     "is_fill_in_blank": false,
@@ -106,10 +106,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Probability and conditional probability",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 5,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "At a convention center, there are a total of 375 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is 0.64, and the probability of selecting a visitor who is located in room B is 0.32. How many visitors are located in room C?",
+    "passage": "At a convention center, there are a total of 375 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is $0.64$, and the probability of selecting a visitor who is located in room B is $0.32$. How many visitors are located in room C?",
     "question_text": null,
     "choices": [
       {
@@ -141,7 +141,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "$y=\\frac{x}{4}+6$\n$y=-\\frac{x}{4}+20$\nThe solution to the given system of equations is (x, y). What is the value of 2 y?",
+    "passage": "$y=\\frac{x}{4}+6$\n$y=-\\frac{x}{4}+20$\nThe solution to the given system of equations is $(x, y)$. What is the value of $2y$?",
     "question_text": null,
     "choices": [
       {
@@ -170,27 +170,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 7,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "In 5 days, a polar bear ate 22.0 pounds of fat. Which equation describes the amount of fat y, in pounds, the polar bear ate in these 5 days?",
+    "passage": "In 5 days, a polar bear ate 22.0 pounds of fat. Which equation describes the amount of fat $y$, in pounds, the polar bear ate in these 5 days?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$y=22+5$"
+        "text": "$y = 22 + 5$"
       },
       {
         "label": "B",
-        "text": "$y=22$"
+        "text": "$y = 22$"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{22}{5}$"
+        "text": "$y = \\frac{22}{5}$"
       },
       {
         "label": "D",
-        "text": "$y=5$"
+        "text": "$y = 5$"
       }
     ],
     "is_fill_in_blank": false,
@@ -205,7 +205,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 22 % every 11.11 minutes. Which of the following equations could represent this model, where M is the estimated mass, in grams, of the sample t minutes after the researcher began observing the sample?",
+    "passage": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 22% every 11.11 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
     "question_text": null,
     "choices": [
       {
@@ -234,10 +234,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "Line k is defined by $y=8x+7$. Line j is parallel to line k in the xy -plane and passes through the point (0, 15). Which equation defines line j?",
+    "passage": "Line k is defined by $y=8x+7$. Line j is parallel to line k in the $xy$-plane and passes through the point $(0, 15)$. Which equation defines line j?",
     "question_text": null,
     "choices": [
       {
@@ -266,10 +266,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 10,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "For the linear function p, $p(c)=-6$, where c is a constant, $p(5)=42$, and the slope of the graph of $y=p(x)$ in the xy -plane is 8. For the linear function t, $t(c)=-7$ and $t(6)=56$. What is the slope of the graph of $y=t(x)$ in the xy -plane?",
+    "passage": "For the linear function $p$, $p(c)=-6$, where $c$ is a constant, $p(5)=42$, and the slope of the graph of $y=p(x)$ in the $xy$-plane is 8. For the linear function $t$, $t(c)=-7$ and $t(6)=56$. What is the slope of the graph of $y=t(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -298,7 +298,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 11,
     "test_name": "March 2025 International Form B SAT Math Module 2",
     "passage": "If $2(4-5x)+7(4-5x)+9=8(4-5x)+6$, what is the value of $5x-4$?",
@@ -345,14 +345,14 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "$7p^{4}=t^{\\frac{5}{6}}$\nIn the given equation, $p>1$ and $t>1$. If $t=p^{2n-1}$, where n is a constant, what is the value of n?",
+    "passage": "$p^{\\frac{4}{7}} = t^{\\frac{5}{6}}$\nIn the given equation, $p > 1$ and $t > 1$. If $t = p^{2n - 1}$, where $n$ is a constant, what is the value of $n$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "59/70,0.843,0.842,.8428,.8429",
+    "correct_answer": "59/70",
     "rationale": null,
     "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_14"
   },
@@ -363,7 +363,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "The function $f$ is a quadratic function. In the xy -plane, the graph of $y=f(x)$ has a vertex at $(1,6)$ and passes through the points $(2,40)$ and $(-1,142)$. What is the value of $f(-2)-f(0)$?",
+    "passage": "The function $f$ is a quadratic function. In the $xy$-plane, the graph of $y=f(x)$ has a vertex at $(1,6)$ and passes through the points $(2,40)$ and $(-1,142)$. What is the value of $f(-2)-f(0)$?",
     "question_text": null,
     "choices": [
       {
@@ -392,7 +392,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "March 2025 International Form B SAT Math Module 2",
     "passage": "Which expression is equivalent to $15(x+10)$?",
@@ -424,7 +424,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "March 2025 International Form B SAT Math Module 2",
     "passage": "A square map has a side length of 45 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70 % shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
@@ -459,7 +459,7 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "x 2 (4 x -13) (4 x - u)=0\nIn the given equation, u is a positive constant. The sum of the solutions to the equation is 25. What is the value of u?",
+    "passage": "$x^2 (4x - 13) (4x - u) = 0$\nIn the given equation, $u$ is a positive constant. The sum of the solutions to the equation is 25. What is the value of $u$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -474,7 +474,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 59 square centimeters (cm²), and the surface area of right rectangular prism Y is 1,475 cm ². The volume of right rectangular prism Y is 1,500 cubic centimeters (cm³). What is the sum of the volumes, in cm³, of right rectangular prism X and right rectangular prism Y?",
+    "passage": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 59 square centimeters ($\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 1,475 $\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,500 cubic centimeters ($\text{cm}^3$). What is the sum of the volumes, in $\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -489,7 +489,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$, where a, b, and n are constants, and b and n are integers. If $f(2)=6$ and $f(5)=162$, what is the value of $f(7)$?",
+    "passage": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(2)=6$ and $f(5)=162$, what is the value of $f(7)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -504,7 +504,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "$24x^{2}-(12a+2b)x+ab=0$\nIn the given equation, a and b are positive constants. The sum of the solutions to the given equation is $k(6a+b)$, where k is a constant. What is the value of k?",
+    "passage": "$24x^{2}-(12a+2b)x+ab=0$\nIn the given equation, $a$ and $b$ are positive constants. The sum of the solutions to the given equation is $k(6a+b)$, where $k$ is a constant. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

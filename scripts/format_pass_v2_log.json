@@ -1,0 +1,7323 @@
+[
+  {
+    "index": 0,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_1",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 5,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_6",
+    "changes": [
+      "Wrapped variables and inequalities in $...$",
+      "Fixed spacing in choice B"
+    ]
+  },
+  {
+    "index": 8,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_9",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 9,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_10",
+    "changes": [
+      "Wrapped 'a' in $...$ in the first sentence",
+      "Fixed the equation to use proper superscript notation $2^x$"
+    ]
+  },
+  {
+    "index": 11,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_12",
+    "changes": [
+      "Wrapped the length expression in $...$"
+    ]
+  },
+  {
+    "index": 15,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_16",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 21,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_22",
+    "error": "parse_fail: {\n  \"text\": \"The dot plot shows the distribution of capacity for a set of capacitors, set A, which a researcher used for a certain experiment. For another experiment, the researcher used a different set of capacitors, set B. Set B has the same number of capacitors as set A but the capacity of each c",
+    "changes": []
+  },
+  {
+    "index": 22,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_1",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Corrected choice C to match the original equation format"
+    ]
+  },
+  {
+    "index": 23,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_2",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped points in $...$"
+    ]
+  },
+  {
+    "index": 24,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_3",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Fixed spacing in equations"
+    ]
+  },
+  {
+    "index": 28,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_7",
+    "changes": [
+      "Changed 'z' to 'x' in the question stem"
+    ]
+  },
+  {
+    "index": 29,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_9",
+    "changes": [
+      "Fixed spelling of 'define'",
+      "Wrapped 'kπ' in $...$"
+    ]
+  },
+  {
+    "index": 32,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_12",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 34,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_14",
+    "changes": [
+      "Wrapped table headers in $...$ for consistency"
+    ]
+  },
+  {
+    "index": 35,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_15",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 36,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_16",
+    "changes": [
+      "Replaced '≥' with '\\geq'"
+    ]
+  },
+  {
+    "index": 38,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_18",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 40,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_20",
+    "changes": [
+      "Wrapped '180' in $...$"
+    ]
+  },
+  {
+    "index": 41,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_21",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 45,
+    "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_3",
+    "changes": [
+      "Fixed spacing and formatting of the $y$-intercept point"
+    ]
+  },
+  {
+    "index": 47,
+    "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_5",
+    "changes": [
+      "Replaced \\le with \\leq in choice A",
+      "Replaced \\ge with \\geq in choice B",
+      "Replaced \\le with \\leq in choice C",
+      "Replaced \\ge with \\geq in choice D"
+    ]
+  },
+  {
+    "index": 57,
+    "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_15",
+    "changes": [
+      "Wrapped choices in $...$ for math formatting"
+    ]
+  },
+  {
+    "index": 59,
+    "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_17",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Fixed 'xy-plane' to $xy$-plane"
+    ]
+  },
+  {
+    "index": 69,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_5",
+    "changes": [
+      "Wrapped 'y' and 't' in math mode"
+    ]
+  },
+  {
+    "index": 72,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_8",
+    "changes": [
+      "Corrected the statement in choice B to accurately reflect the relationship between the ranges."
+    ]
+  },
+  {
+    "index": 74,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_10",
+    "error": "parse_fail: {\n  \"text\": \"Triangles $ABC$ and $DEF$ are similar, where $A$ corresponds to $D$, and $B$ corresponds to $E$. The measure of angle $A$ is $26^\\circ$, and $AB = 4$. Which of the following statements must be true?\\nI. The measure of angle $D$ is $26^\\circ$\\nII. $DE = 4$\",\n  \"choices\": [{\"id\": \"A\", \"te",
+    "changes": []
+  },
+  {
+    "index": 80,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_16",
+    "changes": [
+      "Wrapped 'xy' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 81,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_17",
+    "changes": [
+      "Wrapped '94' in $...$"
+    ]
+  },
+  {
+    "index": 82,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_18",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed superscript degree symbol to be within $...$"
+    ]
+  },
+  {
+    "index": 85,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_21",
+    "changes": [
+      "Fixed $\\ge$ to $\\geq$"
+    ]
+  },
+  {
+    "index": 86,
+    "id": "29b11893-ee0c-48ae-8103-403d9652ad14_22",
+    "changes": [
+      "Wrapped '12.1' in $...$",
+      "Wrapped '1' and '1,609' in $...$"
+    ]
+  },
+  {
+    "index": 87,
+    "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_1",
+    "changes": [
+      "Wrapped '270' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 89,
+    "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_3",
+    "changes": [
+      "Wrapped 'c' and 'w' in $...$ in the question stem",
+      "Wrapped '0 \\leq w' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 96,
+    "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_10",
+    "changes": [
+      "Wrapped 'y' in $...$",
+      "Wrapped '73w' in $...$"
+    ]
+  },
+  {
+    "index": 97,
+    "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_11",
+    "changes": [
+      "Replaced '170 %' with '170%' and '75 %' with '75%'"
+    ]
+  },
+  {
+    "index": 99,
+    "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_13",
+    "error": "parse_fail: {\n  \"text\": \"A circle has a circumference of $89 \\pi$ centimeters. What is the diameter, in centimeters, of the circle?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped '89 π' in $...$\"]\n}",
+    "changes": []
+  },
+  {
+    "index": 102,
+    "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_16",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 's' in $...$",
+      "Wrapped 'd' in $...$"
+    ]
+  },
+  {
+    "index": 103,
+    "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_17",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'x-axis' in $...$",
+      "Wrapped point coordinates in $...$"
+    ]
+  },
+  {
+    "index": 108,
+    "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_22",
+    "changes": [
+      "Wrapped 'x' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 109,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_2",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Added context to the question stem"
+    ]
+  },
+  {
+    "index": 110,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_3",
+    "changes": [
+      "Wrapped '9n' in $...$"
+    ]
+  },
+  {
+    "index": 115,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_8",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode",
+      "Wrapped 'xy' in math mode"
+    ]
+  },
+  {
+    "index": 118,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_11",
+    "error": "parse_fail: {\n  \"text\": \"On a plot of land, $48.0\\%$ of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly $23.5\\%$ of the square footage of the farmland, and there are buildings on exactly $16.0\\%$ of the square footage of the pasture. If there are buildi",
+    "changes": []
+  },
+  {
+    "index": 119,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_12",
+    "changes": [
+      "Wrapped 'y' and 'x' in math mode",
+      "Replaced '≤' with '\\leq'"
+    ]
+  },
+  {
+    "index": 121,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_14",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$ in the question stem",
+      "Wrapped 'x' in $...$ in the condition"
+    ]
+  },
+  {
+    "index": 122,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_15",
+    "changes": [
+      "Wrapped 'price × number of products sold' in $...$"
+    ]
+  },
+  {
+    "index": 126,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_19",
+    "changes": [
+      "Wrapped 'w' in $...$"
+    ]
+  },
+  {
+    "index": 128,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_21",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 130,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_1",
+    "changes": [
+      "Fixed comma in equation: '1,440' → '1440'"
+    ]
+  },
+  {
+    "index": 131,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_2",
+    "changes": [
+      "Wrapped inequality in $...$",
+      "Rephrased question stem to include the inequality directly"
+    ]
+  },
+  {
+    "index": 138,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_9",
+    "changes": [
+      "Wrapped 'xy' in $...$",
+      "Wrapped 'x' in $...$",
+      "Wrapped 'y' in $...$"
+    ]
+  },
+  {
+    "index": 140,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_11",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 149,
+    "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_20",
+    "changes": [
+      "Wrapped 'B' in $...$",
+      "Wrapped 'AB' in $...$",
+      "Wrapped 'k' in $...$"
+    ]
+  },
+  {
+    "index": 153,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_2",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Reformatted the text for clarity"
+    ]
+  },
+  {
+    "index": 154,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_3",
+    "changes": [
+      "Wrapped numbers in $...$"
+    ]
+  },
+  {
+    "index": 158,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_7",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode",
+      "Wrapped 'xy' in math mode"
+    ]
+  },
+  {
+    "index": 161,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_10",
+    "error": "parse_fail: {\n  \"text\": \"On a plot of land, $52.0\\%$ of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly $28.5\\%$ of the square footage of the farmland, and there are buildings on exactly $11.0\\%$ of the square footage of the pasture. If there are buildi",
+    "changes": []
+  },
+  {
+    "index": 162,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_11",
+    "changes": [
+      "Wrapped 'a' and 'b' in $...$"
+    ]
+  },
+  {
+    "index": 163,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_12",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$ in the first sentence",
+      "Replaced '≤' with '\\leq' in the inequalities",
+      "Wrapped 'r' and 's' in $...$ in the equation of the line of best fit for data set B"
+    ]
+  },
+  {
+    "index": 165,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_14",
+    "changes": [
+      "Wrapped 'y' and 'x' in math mode in the question stem",
+      "Wrapped 'x' in math mode in the condition"
+    ]
+  },
+  {
+    "index": 166,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_15",
+    "changes": [
+      "Wrapped 'price × number of products sold' in $...$"
+    ]
+  },
+  {
+    "index": 170,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_19",
+    "changes": [
+      "Fixed superscript for degrees: $(9x - 650)^{\\circ}$ and $(-18x + w)^{\\circ}$"
+    ]
+  },
+  {
+    "index": 172,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_21",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'a' in $...$"
+    ]
+  },
+  {
+    "index": 174,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_1",
+    "changes": [
+      "Wrapped (x, y) in $...$",
+      "Wrapped y in $...$"
+    ]
+  },
+  {
+    "index": 176,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_3",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'y = f(x)' in $...$",
+      "Wrapped '(0, 21)' in $...$",
+      "Wrapped 'f' in $...$"
+    ]
+  },
+  {
+    "index": 179,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6",
+    "changes": [
+      "Wrapped 'y' and 'x' in math mode",
+      "Wrapped intervals in math mode"
+    ]
+  },
+  {
+    "index": 180,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_7",
+    "changes": [
+      "Wrapped 'r' and 'x' in math mode",
+      "Wrapped 'x = 0' in math mode",
+      "Wrapped 'x' in math mode"
+    ]
+  },
+  {
+    "index": 184,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_11",
+    "changes": [
+      "Wrapped 'q' and 'r' in $...$"
+    ]
+  },
+  {
+    "index": 186,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_13",
+    "changes": [
+      "Wrapped 't' and 'xy' in $...$",
+      "Wrapped '(9, 4)' in $...$"
+    ]
+  },
+  {
+    "index": 188,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_15",
+    "changes": [
+      "Wrapped pi in choices with $...$"
+    ]
+  },
+  {
+    "index": 189,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_16",
+    "changes": [
+      "Wrapped 'x' in $...$"
+    ]
+  },
+  {
+    "index": 190,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_17",
+    "changes": [
+      "Wrapped 'x' in $...$",
+      "Wrapped '0 < x < 4' in $...$",
+      "Wrapped 'y' in $...$",
+      "Wrapped 'xy' in $...$"
+    ]
+  },
+  {
+    "index": 193,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_20",
+    "changes": [
+      "Wrapped function and variable in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 194,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_21",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 195,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_22",
+    "error": "parse_fail: {\n  \"text\": \"On a plot of land, $52.0\\%$ of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly $21.5\\%$ of the square footage of the farmland, and there are buildings on exactly $14.0\\%$ of the square footage of the pasture. If there are buildi",
+    "changes": []
+  },
+  {
+    "index": 197,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_2",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to $xy$-plane"
+    ]
+  },
+  {
+    "index": 198,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_3",
+    "changes": [
+      "Wrapped '42π' in $...$"
+    ]
+  },
+  {
+    "index": 208,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_13",
+    "changes": [
+      "Wrapped 'x > 1' in $...$",
+      "Wrapped 'm' in $...$"
+    ]
+  },
+  {
+    "index": 209,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_14",
+    "changes": [
+      "Wrapped 'y' and 'x' in math mode in the question stem",
+      "Wrapped 'x' in math mode in the condition 'x > 0'"
+    ]
+  },
+  {
+    "index": 213,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_18",
+    "changes": [
+      "Wrapped variables in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 214,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_19",
+    "changes": [
+      "Wrapped 'a', 'b', and 'c' in $...$"
+    ]
+  },
+  {
+    "index": 215,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_20",
+    "changes": [
+      "Fixed 'l' to '1' in the text"
+    ]
+  },
+  {
+    "index": 216,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_21",
+    "changes": [
+      "Wrapped '87' in $...$",
+      "Wrapped 'm' in $...$",
+      "Wrapped 'k' in $...$"
+    ]
+  },
+  {
+    "index": 217,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22",
+    "changes": [
+      "Wrapped points and segments in $...$"
+    ]
+  },
+  {
+    "index": 220,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_3",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'y = f(x)' in $...$",
+      "Wrapped '(0, 27)' in $...$",
+      "Wrapped 'f' in $...$"
+    ]
+  },
+  {
+    "index": 222,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_5",
+    "changes": [
+      "Wrapped 'y' and 'x' in math mode",
+      "Wrapped intervals in math mode"
+    ]
+  },
+  {
+    "index": 225,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_8",
+    "changes": [
+      "Wrapped function definition in $...$"
+    ]
+  },
+  {
+    "index": 228,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_11",
+    "changes": [
+      "Wrapped 'centimeters' in $...$"
+    ]
+  },
+  {
+    "index": 229,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_12",
+    "changes": [
+      "Wrapped 't' and 'xy' in $...$"
+    ]
+  },
+  {
+    "index": 230,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_13",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 231,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_15",
+    "changes": [
+      "Wrapped 'x' in $...$"
+    ]
+  },
+  {
+    "index": 232,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_16",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped variable $x$ in $...$",
+      "Wrapped inequality in $...$",
+      "Wrapped $y$-intercept in $...$",
+      "Wrapped $xy$-plane in $...$"
+    ]
+  },
+  {
+    "index": 233,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_17",
+    "changes": [
+      "Added missing parentheses around (x, y) in the solution description"
+    ]
+  },
+  {
+    "index": 236,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_20",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped choice A in $...$",
+      "Wrapped choice B in $...$",
+      "Wrapped choice C in $...$",
+      "Wrapped choice D in $...$"
+    ]
+  },
+  {
+    "index": 238,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_22",
+    "error": "parse_fail: {\n  \"text\": \"On a plot of land, $52.0\\%$ of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly $23.5\\%$ of the square footage of the farmland, and there are buildings on exactly $16.0\\%$ of the square footage of the pasture. If there are buildi",
+    "changes": []
+  },
+  {
+    "index": 240,
+    "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_2",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 241,
+    "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_3",
+    "changes": [
+      "Wrapped bare math in $...$ for the variable $w$ and $r$ in the question stem."
+    ]
+  },
+  {
+    "index": 245,
+    "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9",
+    "changes": [
+      "Wrapped 'ABC' in $...$"
+    ]
+  },
+  {
+    "index": 248,
+    "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_13",
+    "changes": [
+      "Wrapped 'm' and 'x > 1' in $...$"
+    ]
+  },
+  {
+    "index": 249,
+    "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_14",
+    "changes": [
+      "Wrapped equation in question stem in $...$",
+      "Wrapped equations in choices in $...$"
+    ]
+  },
+  {
+    "index": 253,
+    "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_19",
+    "changes": [
+      "Wrapped the expression in $...$ for proper math formatting",
+      "Wrapped $a$, $b$, and $c$ in $...$ for proper math formatting"
+    ]
+  },
+  {
+    "index": 255,
+    "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_21",
+    "changes": [
+      "Wrapped '69' in $...$",
+      "Wrapped 'm' in $...$",
+      "Wrapped 'k' in $...$"
+    ]
+  },
+  {
+    "index": 256,
+    "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22",
+    "changes": [
+      "Wrapped points and segments in $...$",
+      "Wrapped $AB < BC$ in $...$",
+      "Wrapped $AC$ and $BE$ in $...$",
+      "Wrapped $BD = \\sqrt{286}$ in $...$",
+      "Wrapped $r = ?$ in $...$"
+    ]
+  },
+  {
+    "index": 257,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_1",
+    "changes": [
+      "Wrapped 'w = 128' in $...$"
+    ]
+  },
+  {
+    "index": 259,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_3",
+    "changes": [
+      "Wrapped function definition in $...$",
+      "Wrapped y-coordinate and xy-plane in $...$"
+    ]
+  },
+  {
+    "index": 261,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_5",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 263,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_7",
+    "changes": [
+      "Wrapped 'r' and 'x' in math mode"
+    ]
+  },
+  {
+    "index": 267,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_11",
+    "error": "parse_fail: {\n  \"text\": \"The graph models the number of active projects a company was working on $x$ months after the end of November 2011, where $0 \\leq x \\leq 6$. According to the model, what is the predicted number of active projects the company was working on at the end of November 2011?\",\n  \"choices\": [{\"i",
+    "changes": []
+  },
+  {
+    "index": 269,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_13",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped 'd' and 't' in $...$ in the question stem",
+      "Wrapped '15t' in $...$ in choice A",
+      "Wrapped '15' in $...$ in choice B"
+    ]
+  },
+  {
+    "index": 270,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_14",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 277,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_21",
+    "changes": [
+      "Wrapped 'h' and 'k' in $...$ for math formatting",
+      "Wrapped 'xy' in $...$ for math formatting",
+      "Wrapped 's', 't', and 'sx + 40y = t' in $...$ for math formatting"
+    ]
+  },
+  {
+    "index": 278,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_22",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 279,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_1",
+    "error": "parse_fail: {\n  \"text\": \"Levi and Marissa each have stamp collections. The number of stamps in Levi's collection is $200\\%$ of the number of stamps in Marissa's collection. If there are 460 stamps in Marissa's collection, how many stamps are in Levi's collection?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"230\"}, {\"id",
+    "changes": []
+  },
+  {
+    "index": 280,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_2",
+    "changes": [
+      "Wrapped coordinates in $...$"
+    ]
+  },
+  {
+    "index": 283,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_5",
+    "error": "parse_fail: {\n  \"text\": \"Circle K has a radius of 2 millimeters (mm). Circle L has an area of $144\\pi$ mm$^2$. What is the total area, in mm$^2$, of circles K and L?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$14\\pi$\"},\n    {\"id\": \"B\", \"text\": \"$28\\pi$\"},\n    {\"id\": \"C\", \"text\": \"$56\\pi$\"},\n    {\"id\": \"D\", \"text",
+    "changes": []
+  },
+  {
+    "index": 284,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_6",
+    "changes": [
+      "Wrapped $x^2$ in choice A with $...$",
+      "Wrapped $2x^2$ in choice B with $...$",
+      "Wrapped $2x^2$ in choice C with $...$",
+      "Wrapped $2x^2$ in choice D with $...$"
+    ]
+  },
+  {
+    "index": 285,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_7",
+    "changes": [
+      "Wrapped coordinates in choices with $...$"
+    ]
+  },
+  {
+    "index": 287,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_9",
+    "changes": [
+      "Wrapped bare $y$ in $...$",
+      "Wrapped $x$ in $...$",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $xy$-plane in $...$"
+    ]
+  },
+  {
+    "index": 290,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_12",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped variable names in $...$"
+    ]
+  },
+  {
+    "index": 291,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_13",
+    "changes": [
+      "Wrapped angle measure in $...$",
+      "Wrapped angle measure in choice C and D in $...$"
+    ]
+  },
+  {
+    "index": 292,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_14",
+    "changes": [
+      "Wrapped 'v' in $...$ in the question stem",
+      "Wrapped 't' in $...$ in the question stem",
+      "Wrapped equations in $...$ in all choices"
+    ]
+  },
+  {
+    "index": 294,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_16",
+    "changes": [
+      "Wrapped 'r' and 's' in math mode"
+    ]
+  },
+  {
+    "index": 296,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_18",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed capitalization and spacing in the question stem"
+    ]
+  },
+  {
+    "index": 297,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_19",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 298,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_20",
+    "changes": [
+      "Wrapped 'p' in $...$ in the function definition",
+      "Wrapped 'xy' in $...$ in 'xy-plane'",
+      "Wrapped 'a' in $...$ in the list of constants"
+    ]
+  },
+  {
+    "index": 299,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_21",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped $n$ in $...$"
+    ]
+  },
+  {
+    "index": 305,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_5",
+    "changes": [
+      "Wrapped '°F' in $...$"
+    ]
+  },
+  {
+    "index": 306,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_6",
+    "changes": [
+      "Wrapped 'n' in the question stem in $...$"
+    ]
+  },
+  {
+    "index": 309,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_9",
+    "changes": [
+      "Wrapped triangle names and variable in $...$"
+    ]
+  },
+  {
+    "index": 310,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_10",
+    "changes": [
+      "Wrapped 'y-intercept' in $...$",
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 315,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_15",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 316,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_16",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped $(12, c)$ in $...$"
+    ]
+  },
+  {
+    "index": 319,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_19",
+    "changes": [
+      "Wrapped function definition in $...$",
+      "Wrapped function name in $...$"
+    ]
+  },
+  {
+    "index": 320,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_20",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$, wrapped points in $...$"
+    ]
+  },
+  {
+    "index": 321,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode",
+      "Wrapped 'A', 'B', and 'C' in math mode"
+    ]
+  },
+  {
+    "index": 328,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_6",
+    "changes": [
+      "Corrected 'Exactly many' to 'Infinitely many'"
+    ]
+  },
+  {
+    "index": 332,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_10",
+    "error": "parse_fail: {\n  \"text\": \"The circumference of the base of a right circular cylinder is $6\\pi$ meters, and the height of the cylinder is 19 meters. What is the volume, in cubic meters, of the cylinder?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$57\\pi$\"},\n    {\"id\": \"B\", \"text\": \"$114\\pi$\"},\n    {\"id\": \"C\", \"text",
+    "changes": []
+  },
+  {
+    "index": 334,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_13",
+    "changes": [
+      "Fixed superscript in $x^2$"
+    ]
+  },
+  {
+    "index": 336,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_15",
+    "changes": [
+      "Fixed variable name from 'a' to 'x' in the question stem"
+    ]
+  },
+  {
+    "index": 339,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_18",
+    "error": "parse_fail: {\n  \"text\": \"A computer program models the population of a certain insect in an environment where the insect has no natural predators. According to the model, the estimated total mass of the population of insects at the end of every 5-week period is $158\\%$ greater than the estimated total mass of t",
+    "changes": []
+  },
+  {
+    "index": 341,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_20",
+    "error": "parse_fail: {\n  \"text\": \"If $n$ and $k$ are numbers greater than 1 and $4n^5 \\cdot 3$ is equivalent to $3k^2$, for what value of $a$ is $n = 2a + 1$ equal to $k$?\",\n  \"choices\": [],\n  \"changes\": [\n    \"Wrapped bare math in $...$\",\n    \"Fixed multiplication symbol in $4n^5 \\cdot 3$\",\n    \"Wrapped $n$ and $k$ in ",
+    "changes": []
+  },
+  {
+    "index": 342,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_21",
+    "changes": [
+      "Wrapped 'ABC' in $...$ for consistency",
+      "Wrapped 'D' in $...$ for consistency"
+    ]
+  },
+  {
+    "index": 343,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_22",
+    "changes": [
+      "Wrapped '280' in $...$",
+      "Wrapped '1' and '3.28' in $...$"
+    ]
+  },
+  {
+    "index": 350,
+    "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_8",
+    "changes": [
+      "Wrapped bare math in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 355,
+    "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_14",
+    "changes": [
+      "Wrapped triangle names and angle names in $...$",
+      "Wrapped angle names in choices A, B, and C in $...$"
+    ]
+  },
+  {
+    "index": 357,
+    "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_16",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to $xy$-plane"
+    ]
+  },
+  {
+    "index": 359,
+    "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_18",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 360,
+    "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_19",
+    "error": "parse_fail: {\n  \"text\": \"A circle has center $O$, and points $A$ and $B$ lie on the circle. The measure of arc $AB$ is $60^\\circ$ and the length of this arc is 4 inches. What is the circumference, in inches, of the circle?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"4\"}, {\"id\": \"B\", \"text\": \"8\"}, {\"id\": \"C\", \"text\": \"",
+    "changes": []
+  },
+  {
+    "index": 361,
+    "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_20",
+    "error": "parse_fail: {\n  \"text\": \"While the mass of an object is the same everywhere, the weight of an object is not the same on different planets. An object has a weight of $170.00$ pounds on Earth and a weight of $186.32$ pounds on Neptune. The object's weight on Jupiter is $252.8\\%$ of its weight on Earth. If the obj",
+    "changes": []
+  },
+  {
+    "index": 364,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_1",
+    "changes": [
+      "Wrapped function definition in $...$"
+    ]
+  },
+  {
+    "index": 365,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_2",
+    "changes": [
+      "Wrapped 'x' in $...$",
+      "Wrapped 'y' in $...$"
+    ]
+  },
+  {
+    "index": 367,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_4",
+    "changes": [
+      "Wrapped '19' in math mode"
+    ]
+  },
+  {
+    "index": 369,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_6",
+    "changes": [
+      "Wrapped 'f' in math mode",
+      "Wrapped 'xy' in math mode"
+    ]
+  },
+  {
+    "index": 370,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_7",
+    "changes": [
+      "Wrapped 'x' in $...$"
+    ]
+  },
+  {
+    "index": 372,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_9",
+    "error": "parse_fail: {\n  \"text\": \"In the figure shown, point $T$ lies on segment $SW$, and segment $TU$ is parallel to segment $VW$. The measure of angle $V$ is $26^\\circ$, and the measure of angle $STU$ is $74^\\circ$. What is the value of $p - r$?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped bare math in $...$\"]\n}",
+    "changes": []
+  },
+  {
+    "index": 376,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_13",
+    "changes": [
+      "Wrapped 'f' in $...$",
+      "Wrapped 'x' in $...$",
+      "Wrapped 'p' in $...$"
+    ]
+  },
+  {
+    "index": 377,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_14",
+    "changes": [
+      "Wrapped 'w' in math mode in the question stem"
+    ]
+  },
+  {
+    "index": 378,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_15",
+    "changes": [
+      "Wrapped the equation in the question stem in $...$",
+      "Wrapped each choice in $...$"
+    ]
+  },
+  {
+    "index": 379,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_16",
+    "changes": [
+      "Wrapped choice A in $...$",
+      "Wrapped choice B in $...$",
+      "Wrapped choice C in $...$",
+      "Wrapped choice D in $...$"
+    ]
+  },
+  {
+    "index": 382,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_19",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 383,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_20",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to '$xy$-plane'",
+      "Fixed inline expressions"
+    ]
+  },
+  {
+    "index": 385,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_22",
+    "error": "parse_fail: {\n  \"text\": \"A researcher investigated two species of mites: a predator and its prey. At the start of a week, there was an equal number of the two species. At the end of the week, the number of prey had increased by $2700\\%$ of the number of prey at the start of the week, and the number of predators",
+    "changes": []
+  },
+  {
+    "index": 394,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_9",
+    "changes": [
+      "Fixed exponent in choice A from $6$ to $2$",
+      "Fixed exponent in choice C from $6$ to $2$"
+    ]
+  },
+  {
+    "index": 395,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_10",
+    "changes": [
+      "Wrapped function in $...$",
+      "Wrapped variable $x$ in $...$"
+    ]
+  },
+  {
+    "index": 398,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_13",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped ($x$, $y$) in $...$"
+    ]
+  },
+  {
+    "index": 399,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_14",
+    "changes": [
+      "Wrapped triangle names and angle names in $...$",
+      "Wrapped angle names in choices in $...$"
+    ]
+  },
+  {
+    "index": 401,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_16",
+    "changes": [
+      "Wrapped 'g' in math mode",
+      "Wrapped 'a' in math mode"
+    ]
+  },
+  {
+    "index": 402,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_17",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 403,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_18",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 404,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_19",
+    "error": "parse_fail: {\n  \"text\": \"A circle has center $O$, and points $A$ and $B$ lie on the circle. The measure of arc $AB$ is $36^\\circ$ and the length of this arc is 3 inches. What is the circumference, in inches, of the circle?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"3\"}, {\"id\": \"B\", \"text\": \"6\"}, {\"id\": \"C\", \"text\": \"",
+    "changes": []
+  },
+  {
+    "index": 405,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_20",
+    "error": "parse_fail: {\n  \"text\": \"While the mass of an object is the same everywhere, the weight of an object is not the same on different planets. An object has a weight of $220.00$ pounds on Earth and a weight of $234.52$ pounds on Saturn. The object's weight on Jupiter is $252.8\\%$ of its weight on Earth. If the obje",
+    "changes": []
+  },
+  {
+    "index": 408,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_1",
+    "changes": [
+      "Wrapped 'x' in $...$"
+    ]
+  },
+  {
+    "index": 409,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_2",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 411,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_4",
+    "changes": [
+      "Replaced \\le with \\leq in the inequality"
+    ]
+  },
+  {
+    "index": 412,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_5",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Replaced 'xy-plane' with '$xy$-plane'",
+      "Wrapped ($x, y$) in $...$"
+    ]
+  },
+  {
+    "index": 415,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_9",
+    "changes": [
+      "Wrapped 'r' and 't' in $...$"
+    ]
+  },
+  {
+    "index": 419,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_13",
+    "changes": [
+      "Wrapped function and variable names in $...$",
+      "Wrapped '62' in $...$"
+    ]
+  },
+  {
+    "index": 424,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_18",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'C' in $...$",
+      "Wrapped 'A' in $...$",
+      "Wrapped 'B' in $...$",
+      "Wrapped 'h+1' in $...$",
+      "Wrapped 'k+ \\sqrt{230}' in $...$",
+      "Wrapped '\\angle ACB' in $...$"
+    ]
+  },
+  {
+    "index": 425,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_19",
+    "changes": [
+      "Wrapped 'k' in $...$ in the second sentence",
+      "Wrapped '4k' in $...$ in the last sentence"
+    ]
+  },
+  {
+    "index": 426,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_20",
+    "changes": [
+      "Wrapped bare numbers in $...$"
+    ]
+  },
+  {
+    "index": 427,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_21",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed run-together words"
+    ]
+  },
+  {
+    "index": 428,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_22",
+    "changes": [
+      "Wrapped 'c' in $...$"
+    ]
+  },
+  {
+    "index": 429,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_1",
+    "changes": [
+      "Wrapped bare equations in $...$",
+      "Wrapped solution pairs in $...$"
+    ]
+  },
+  {
+    "index": 430,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_2",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped numbers in choices with $...$"
+    ]
+  },
+  {
+    "index": 432,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_4",
+    "changes": [
+      "Wrapped 'f' in $...$",
+      "Wrapped 'y = f(x)' in $...$",
+      "Wrapped 'xy' in $...$",
+      "Wrapped '51' in $...$",
+      "Wrapped '0, 0' in $...$",
+      "Wrapped 'f(x) = 51x' in $...$",
+      "Wrapped 'f(x) = 34x' in $...$",
+      "Wrapped 'f(x) = 17x' in $...$",
+      "Wrapped 'f(x) = x' in $...$"
+    ]
+  },
+  {
+    "index": 433,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_5",
+    "changes": [
+      "Wrapped bare equations in $...$"
+    ]
+  },
+  {
+    "index": 435,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_7",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Converted 'x²' to 'x^2'"
+    ]
+  },
+  {
+    "index": 437,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_9",
+    "changes": [
+      "Wrapped variables in $...$",
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 440,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_12",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed run-together words and added spaces after punctuation"
+    ]
+  },
+  {
+    "index": 442,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_14",
+    "changes": [
+      "Wrapped 'a' and 'y' in $...$",
+      "Wrapped 'x' and 'y' in $...$"
+    ]
+  },
+  {
+    "index": 443,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_15",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped variable $a$ in $...$",
+      "Wrapped point $(x, y)$ in $...$",
+      "Wrapped $xy$-plane in $...$"
+    ]
+  },
+  {
+    "index": 444,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_16",
+    "changes": [
+      "Wrapped 'p' in $...$, wrapped 'xy' in $...$, wrapped points in $...$"
+    ]
+  },
+  {
+    "index": 447,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_19",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 450,
+    "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_22",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 452,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_2",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 453,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed missing space after backslash n"
+    ]
+  },
+  {
+    "index": 454,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_4",
+    "changes": [
+      "Wrapped equation in $...$ and variable $x$ in $...$"
+    ]
+  },
+  {
+    "index": 456,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_6",
+    "changes": [
+      "Wrapped function in $...$",
+      "Wrapped $x$ in $...$",
+      "Changed ≤ to $\\leq$"
+    ]
+  },
+  {
+    "index": 457,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 458,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_8",
+    "changes": [
+      "Fixed equation to $7x^2 - 9x + 14x - 18$"
+    ]
+  },
+  {
+    "index": 459,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_9",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed $\\le$ to $\\leq$"
+    ]
+  },
+  {
+    "index": 460,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_10",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 461,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_11",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 465,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_15",
+    "error": "parse_fail: {\n  \"text\": \"For the positive quantities $h$, $j$, and $k$, $94\\%$ of $h$ is equivalent to $47\\%$ of $j$, and $j$ is equivalent to $30\\%$ of $k$. What percentage of $k$ is $h$? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)\",\n  \"choices\": [],\n  \"change",
+    "changes": []
+  },
+  {
+    "index": 466,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_16",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed superscripts in choices"
+    ]
+  },
+  {
+    "index": 467,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_17",
+    "error": "parse_fail: {\n  \"text\": \"In triangle $PQR$, the measure of angle $P$ is $(3x + 5)^\\circ$, the measure of angle $Q$ is $(2x + 9)^\\circ$, and the measure of angle $R$ is $(4y + 5)^\\circ$. If side $QR$ is extended through point $R$ to point $S$, and the measure of angle $PRS$ is $(x + y)^\\circ$, what is the value ",
+    "changes": []
+  },
+  {
+    "index": 469,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_19",
+    "error": "parse_fail: {\n  \"text\": \"A right circular cone has a volume of $2,700 \\pi$ cubic centimeters and the area of its base is $225 \\pi$ square centimeters. What is the slant height, in centimeters, of this cone?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"12\"}, {\"id\": \"B\", \"text\": \"15\"}, {\"id\": \"C\", \"text\": \"36\"}, {\"id\": \"",
+    "changes": []
+  },
+  {
+    "index": 470,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_20",
+    "changes": [
+      "Wrapped numeric values and time in $...$"
+    ]
+  },
+  {
+    "index": 471,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_21",
+    "changes": [
+      "Wrapped $C(d)$ in math mode",
+      "Wrapped $d$ in math mode",
+      "Wrapped equations in math mode"
+    ]
+  },
+  {
+    "index": 473,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_1",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed run-together words and superscripts"
+    ]
+  },
+  {
+    "index": 475,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_3",
+    "changes": [
+      "Wrapped variable names in $...$",
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 476,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_4",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to $xy$-plane",
+      "Wrapped function definitions in $...$"
+    ]
+  },
+  {
+    "index": 479,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_7",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped function and variable names in $...$"
+    ]
+  },
+  {
+    "index": 481,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_9",
+    "changes": [
+      "Wrapped 'c' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 482,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_10",
+    "changes": [
+      "Wrapped triangle names in $...$",
+      "Wrapped 'TUV' and 'XYZ' in $...$ in the perimeter statements"
+    ]
+  },
+  {
+    "index": 484,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_12",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $x$ in $...$"
+    ]
+  },
+  {
+    "index": 485,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_13",
+    "changes": [
+      "Wrapped 'A' in $...$",
+      "Wrapped 'xy' in $...$",
+      "Wrapped coordinates in choices A, B, C, D in $...$"
+    ]
+  },
+  {
+    "index": 488,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_16",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'M' and 'p' in $...$"
+    ]
+  },
+  {
+    "index": 489,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_17",
+    "changes": [
+      "Wrapped 'AB' in $...$",
+      "Wrapped '14sin58°' in $...$",
+      "Wrapped '14cos58°' in $...$"
+    ]
+  },
+  {
+    "index": 491,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_19",
+    "error": "parse_fail: {\n  \"text\": \"Note: Figure not drawn to scale.\\nIn the figure, $AC = CD$. The measure of angle $EBC$ is $29^\\circ$, and the measure of angle $ACD$ is $108^\\circ$. What is the value of $x$?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped 'AC = CD' in $...$\", \"Wrapped 'EBC' and 'ACD' in $...$\", \"Added $^\\cir",
+    "changes": []
+  },
+  {
+    "index": 492,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_20",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 493,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_21",
+    "changes": [
+      "Wrapped 'j' and 'k' in $...$ for consistency",
+      "Wrapped 'xy' in $...$ for consistency"
+    ]
+  },
+  {
+    "index": 494,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_22",
+    "error": "parse_fail: {\n  \"text\": \"The dot plot shows the distribution of capacity for a set of capacitors, set A, which a researcher used for a certain experiment. For another experiment, the researcher used a different set of capacitors, set B. Set B has the same number of capacitors as set A, but the capacity of each ",
+    "changes": []
+  },
+  {
+    "index": 496,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_2",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 499,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_5",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 500,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_6",
+    "changes": [
+      "Wrapped equations in choices A, B, C, and D in $...$"
+    ]
+  },
+  {
+    "index": 501,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_7",
+    "changes": [
+      "Wrapped '30°' in $...$",
+      "Wrapped '60°' in $...$",
+      "Wrapped '90°' in $...$"
+    ]
+  },
+  {
+    "index": 502,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_8",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 503,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_9",
+    "error": "parse_fail: {\n  \"text\": \"An exponential function $f$ is defined by $f(x) = c^x$, where $c$ is a constant greater than 1. If $f(6) = 9 \\cdot f(4)$, what is the value of $c$?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped math expressions in $...$\", \"Fixed 'greaterthan' to 'greater than'\"]\n}",
+    "changes": []
+  },
+  {
+    "index": 504,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_10",
+    "changes": [
+      "Wrapped 'sin x °' in LaTeX and changed '°' to '^\\circ'"
+    ]
+  },
+  {
+    "index": 505,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_11",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Fixed 'xy-plane' to $xy$-plane",
+      "Wrapped point coordinates in $...$"
+    ]
+  },
+  {
+    "index": 507,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_13",
+    "changes": [
+      "Wrapped function in $...$",
+      "Wrapped $t$ in $...$"
+    ]
+  },
+  {
+    "index": 508,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_14",
+    "changes": [
+      "Wrapped function name and variable in $...$",
+      "Wrapped function arguments in $...$",
+      "Wrapped constants and exponents in $...$"
+    ]
+  },
+  {
+    "index": 511,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_17",
+    "changes": [
+      "Wrapped 'PO = 52' and 'NS = 18' in $...$"
+    ]
+  },
+  {
+    "index": 514,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_20",
+    "changes": [
+      "Wrapped $k$ in LaTeX in the question stem",
+      "Wrapped expressions in LaTeX in all choices"
+    ]
+  },
+  {
+    "index": 515,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_21",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed table formatting",
+      "Replaced 'x g(x)' with '$x$ $g(x)$'",
+      "Replaced 'y -intercept' with '$y$-intercept'",
+      "Replaced 'xy -plane' with '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 516,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_22",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed incomplete or broken text: 'n\\ge' → 'n \\geq 25'",
+      "Wrapped function definitions in $...$"
+    ]
+  },
+  {
+    "index": 517,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_1",
+    "changes": [
+      "Corrected choice A to $14x^3 y + 56xy^2$",
+      "Corrected choice B to $14x^2 y + 56xy$",
+      "Corrected choice C to $14x^2 y + 56xy$",
+      "Corrected choice D to $14x^3 y + 56xy^2$"
+    ]
+  },
+  {
+    "index": 519,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_3",
+    "changes": [
+      "Wrapped variable names in $...$",
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 520,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_4",
+    "changes": [
+      "Wrapped 'f' in $...$",
+      "Wrapped 'y = f(x)' in $...$",
+      "Wrapped 'xy' in $...$",
+      "Wrapped '51' in $...$",
+      "Wrapped '0, 0' in $...$",
+      "Wrapped 'f(x) = 51x' in $...$",
+      "Wrapped 'f(x) = 34x' in $...$",
+      "Wrapped 'f(x) = 17x' in $...$",
+      "Wrapped 'f(x) = x' in $...$"
+    ]
+  },
+  {
+    "index": 523,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_7",
+    "changes": [
+      "Wrapped 'f' in math mode",
+      "Wrapped equation in math mode"
+    ]
+  },
+  {
+    "index": 524,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_8",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped function and variable names in $...$"
+    ]
+  },
+  {
+    "index": 525,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_9",
+    "changes": [
+      "Wrapped 'xy' in $...$",
+      "Wrapped '-6' in $...$",
+      "Wrapped '(0,48)' in $...$",
+      "Wrapped 'x' in $...$"
+    ]
+  },
+  {
+    "index": 526,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_10",
+    "changes": [
+      "Wrapped triangle names in $...$"
+    ]
+  },
+  {
+    "index": 528,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_12",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped $(x,y)$ in $...$"
+    ]
+  },
+  {
+    "index": 529,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_13",
+    "changes": [
+      "Wrapped 'A' in $...$",
+      "Wrapped 'xy' in $...$",
+      "Wrapped coordinates in choices A, B, C, and D in $...$"
+    ]
+  },
+  {
+    "index": 531,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_15",
+    "changes": [
+      "Replaced 'α' with '\\alpha' to ensure proper LaTeX formatting"
+    ]
+  },
+  {
+    "index": 534,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_18",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 535,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_19",
+    "changes": [
+      "Wrapped 'AC = CD' in $...$",
+      "Wrapped 'EBC' and 'ACD' in $...$",
+      "Wrapped 'x' in $...$"
+    ]
+  },
+  {
+    "index": 536,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_20",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 538,
+    "id": "e5d516e8-dc0a-449f-9696-276e786df83f_22",
+    "error": "parse_fail: {\n  \"text\": \"The dot plot shows the distribution of capacity for a set of capacitors, set A, which a researcher used for a certain experiment. For another experiment, the researcher used a different set of capacitors, set B. Set B has the same number of capacitors as set A but the capacity of each c",
+    "changes": []
+  },
+  {
+    "index": 542,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_4",
+    "changes": [
+      "Wrapped 'f' in $...$, wrapped 'y = f(x)' in $...$, wrapped 'y' in $...$"
+    ]
+  },
+  {
+    "index": 543,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_5",
+    "changes": [
+      "Wrapped coordinates in $...$"
+    ]
+  },
+  {
+    "index": 546,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_8",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped solution coordinates in $...$"
+    ]
+  },
+  {
+    "index": 549,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_11",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 550,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_12",
+    "changes": [
+      "Wrapped function and variable names in $...$"
+    ]
+  },
+  {
+    "index": 552,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_14",
+    "changes": [
+      "Wrapped 'y' in $...$ in 'y-intercept'",
+      "Wrapped 'xy' in $...$ in 'xy-plane'",
+      "Wrapped coordinates in $...$ in choices"
+    ]
+  },
+  {
+    "index": 553,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_15",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed missing space after backslash in LaTeX"
+    ]
+  },
+  {
+    "index": 556,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_18",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode in the question stem",
+      "Wrapped equations in math mode in all choices"
+    ]
+  },
+  {
+    "index": 557,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_19",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 558,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_20",
+    "changes": [
+      "Wrapped triangle names and angle measures in $...$"
+    ]
+  },
+  {
+    "index": 559,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_21",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 560,
+    "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_22",
+    "changes": [
+      "Wrapped 'f' and 'x' in math mode",
+      "Wrapped exponents in math mode"
+    ]
+  },
+  {
+    "index": 564,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_4",
+    "changes": [
+      "Wrapped 'x' and 'y' in $...$ in the question stem",
+      "Wrapped equations in $...$ in all choices"
+    ]
+  },
+  {
+    "index": 566,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_7",
+    "changes": [
+      "Wrapped 'f' in math mode"
+    ]
+  },
+  {
+    "index": 567,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_8",
+    "changes": [
+      "Wrapped 'price × number sold' in $...$"
+    ]
+  },
+  {
+    "index": 568,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_9",
+    "changes": [
+      "Added '325°F' to choices C and D to complete the sentence."
+    ]
+  },
+  {
+    "index": 569,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_10",
+    "changes": [
+      "Wrapped numbers and variable in $...$"
+    ]
+  },
+  {
+    "index": 571,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_12",
+    "changes": [
+      "Fixed formatting of π in choices"
+    ]
+  },
+  {
+    "index": 572,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_13",
+    "error": "parse_fail: {\n  \"text\": \"A right circular cylinder has a height of 12 meters (m) and a base with a radius of 14 m. What is the volume, in $m^3$, of the cylinder?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$12\\pi$\"},\n    {\"id\": \"B\", \"text\": \"$26\\pi$\"},\n    {\"id\": \"C\", \"text\": \"$2,016\\pi$\"},\n    {\"id\": \"D\", \"text\"",
+    "changes": []
+  },
+  {
+    "index": 573,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_14",
+    "changes": [
+      "Fixed superscript in choice D: $(39y)2$ → $(39y)^2$"
+    ]
+  },
+  {
+    "index": 574,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_15",
+    "changes": [
+      "Wrapped 'QR < RS' in $...$"
+    ]
+  },
+  {
+    "index": 575,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_16",
+    "changes": [
+      "Wrapped 'j' and 'k' in $...$ for consistency",
+      "Changed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 576,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_17",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Replaced ≤ with \\leq and ≥ with \\geq"
+    ]
+  },
+  {
+    "index": 577,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_18",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Replaced 'xy-plane' with '$xy$-plane'",
+      "Wrapped 'y' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 579,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_20",
+    "changes": [
+      "Wrapped function in $...$ for proper LaTeX formatting",
+      "Wrapped variable $x$ in $...$"
+    ]
+  },
+  {
+    "index": 581,
+    "id": "23a951fb-833f-4b27-9978-4eb054f855e2_22",
+    "changes": [
+      "Wrapped '90°', '71°', and '19°' in $...$",
+      "Wrapped 'a' and 'b' in $...$"
+    ]
+  },
+  {
+    "index": 583,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_2",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 585,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_4",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode",
+      "Wrapped equations in math mode"
+    ]
+  },
+  {
+    "index": 589,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_8",
+    "changes": [
+      "Wrapped 'y' in $...$ in 'y-intercept'",
+      "Wrapped 'xy' in $...$ in 'xy-plane'",
+      "Wrapped coordinates in $...$ in all choices"
+    ]
+  },
+  {
+    "index": 590,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_9",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 591,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_10",
+    "changes": [
+      "Wrapped function name in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 593,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_12",
+    "changes": [
+      "Wrapped monetary values in $...$"
+    ]
+  },
+  {
+    "index": 594,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_13",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $y$ in $...$"
+    ]
+  },
+  {
+    "index": 595,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_14",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 596,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_15",
+    "changes": [
+      "Wrapped $v$ in $...$",
+      "Wrapped $K(v)$ in $...$",
+      "Wrapped $K(24)$ in $...$",
+      "Fixed superscript for $v^2$"
+    ]
+  },
+  {
+    "index": 597,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_16",
+    "changes": [
+      "Wrapped 'f' in $...$",
+      "Wrapped 'x' in $...$",
+      "Wrapped 'f(x)' in $...$",
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 600,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_19",
+    "changes": [
+      "Wrapped $m$ in exponents for choices A, B, C, and D",
+      "Replaced ≤ with $\\leq$ in the question stem"
+    ]
+  },
+  {
+    "index": 601,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_20",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 603,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_22",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 605,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_2",
+    "changes": [
+      "Wrapped 's' in $...$ in the question stem",
+      "Replaced '\\le' with '\\leq' in all choices"
+    ]
+  },
+  {
+    "index": 610,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_7",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode",
+      "Wrapped equations in math mode"
+    ]
+  },
+  {
+    "index": 611,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_8",
+    "changes": [
+      "Wrapped 'y' in $...$ in the y-intercept description"
+    ]
+  },
+  {
+    "index": 616,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_14",
+    "error": "parse_fail: {\n  \"text\": \"For $x > 0$, the function $f$ is defined as follows:\\n$f(x) = 293\\%$ of $x$\\nWhich of the following could describe this function?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"Decreasing exponential\"},\n    {\"id\": \"B\", \"text\": \"Decreasing linear\"},\n    {\"id\": \"C\", \"text\": \"Increasing exponen",
+    "changes": []
+  },
+  {
+    "index": 621,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_19",
+    "changes": [
+      "Wrapped triangle and angle names in $...$",
+      "Wrapped $\\tan B$ in $...$"
+    ]
+  },
+  {
+    "index": 622,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_20",
+    "error": "parse_fail: {\n  \"text\": \"A rectangular banner has an area of $3,200$ square inches. A copy of the banner is made in which the length and width of the original banner are each increased by $20\\%$. What is the area of the copy, in square inches?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"3,220\"},\n    {\"id\": \"B\", \"",
+    "changes": []
+  },
+  {
+    "index": 624,
+    "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_22",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 625,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_2",
+    "changes": [
+      "Wrapped 'y -intercept' in $...$",
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 627,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_4",
+    "error": "parse_fail: {\n  \"text\": \"A cylinder has a diameter of 6 inches and a height of 21 inches. What is the volume, in cubic inches, of the cylinder?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$9\\pi$\"},\n    {\"id\": \"B\", \"text\": \"$126\\pi$\"},\n    {\"id\": \"C\", \"text\": \"$189\\pi$\"},\n    {\"id\": \"D\", \"text\": \"$756\\pi$\"}\n  ],\n ",
+    "changes": []
+  },
+  {
+    "index": 628,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_6",
+    "changes": [
+      "Wrapped 'xy' in $...$"
+    ]
+  },
+  {
+    "index": 630,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_8",
+    "changes": [
+      "Wrapped variables in $...$",
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 631,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_9",
+    "changes": [
+      "Wrapped 'g' and 'x' in math mode"
+    ]
+  },
+  {
+    "index": 638,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_16",
+    "changes": [
+      "Wrapped equation in question stem in $...$",
+      "Corrected equation in question stem to $y = 95(x - 2) + 228$"
+    ]
+  },
+  {
+    "index": 642,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20",
+    "changes": [
+      "Wrapped 'x' in $...$ in the first sentence",
+      "Wrapped 'xy' in $...$ in the last sentence"
+    ]
+  },
+  {
+    "index": 643,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_21",
+    "error": "parse_fail: {\n  \"text\": \"The mass of object A is $438\\%$ of the mass of object B, and the mass of object A is $0.073\\%$ of the mass of object C. If the mass of object C is $p\\%$ of the mass of object B, what is the value of $\\\\frac{p}{1000}$?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped percentages in $...$\"]\n}",
+    "changes": []
+  },
+  {
+    "index": 644,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_22",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 645,
+    "id": "9628151f-9763-4abc-8c66-9dc08f82f715_2",
+    "changes": [
+      "Replaced `\\le` with `\\leq` in all choices"
+    ]
+  },
+  {
+    "index": 650,
+    "id": "9628151f-9763-4abc-8c66-9dc08f82f715_7",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode"
+    ]
+  },
+  {
+    "index": 655,
+    "id": "9628151f-9763-4abc-8c66-9dc08f82f715_13",
+    "changes": [
+      "Wrapped 'c' and 'm' in $...$",
+      "Replaced 'm\\le24' with 'm \\leq 24'"
+    ]
+  },
+  {
+    "index": 660,
+    "id": "9628151f-9763-4abc-8c66-9dc08f82f715_18",
+    "changes": [
+      "Wrapped 'k' and 'xy' in $...$",
+      "Wrapped 'j' in $...$"
+    ]
+  },
+  {
+    "index": 661,
+    "id": "9628151f-9763-4abc-8c66-9dc08f82f715_19",
+    "changes": [
+      "Wrapped 'ABC' in $...$, wrapped 'A' and 'B' in $...$, wrapped 'AC' in $...$, wrapped 'BC' in $...$, fixed 'Tan' to '\\tan'"
+    ]
+  },
+  {
+    "index": 664,
+    "id": "9628151f-9763-4abc-8c66-9dc08f82f715_22",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 670,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_6",
+    "changes": [
+      "Wrapped 'g' in math mode",
+      "Wrapped 'x' in math mode",
+      "Wrapped 'xy' in math mode"
+    ]
+  },
+  {
+    "index": 671,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_7",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$ in the graph description"
+    ]
+  },
+  {
+    "index": 673,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_9",
+    "changes": [
+      "Replaced `\\le` with `\\leq` for proper LaTeX formatting"
+    ]
+  },
+  {
+    "index": 675,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_11",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 681,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_17",
+    "changes": [
+      "Wrapped triangle and angle references in $...$"
+    ]
+  },
+  {
+    "index": 683,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_19",
+    "changes": [
+      "Wrapped volume and area in $...$"
+    ]
+  },
+  {
+    "index": 685,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_21",
+    "changes": [
+      "Wrapped dollar amounts in $...$",
+      "Wrapped $C(d)$ in $...$",
+      "Wrapped $d$ in $...$"
+    ]
+  },
+  {
+    "index": 686,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_22",
+    "changes": [
+      "Wrapped 'f' in $...$ in the function definition",
+      "Wrapped 'a', 'b', and 'c' in $...$",
+      "Wrapped 'xy' in $...$ in 'xy-plane'",
+      "Wrapped 'a' in $...$ in the condition 'a is an integer greater than 1'"
+    ]
+  },
+  {
+    "index": 687,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_1",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 688,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_2",
+    "changes": [
+      "Wrapped the expression in the question with $...$",
+      "Fixed superscript formatting in the question and choices"
+    ]
+  },
+  {
+    "index": 689,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_3",
+    "changes": [
+      "Wrapped 'x' and 'y' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 693,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_7",
+    "changes": [
+      "Wrapped 'f' and 'x' in $...$ in the function definition",
+      "Wrapped 'f' in $...$ in the function description",
+      "Wrapped 'x' in $...$ in the function description"
+    ]
+  },
+  {
+    "index": 695,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_9",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed run-on sentence with \\n"
+    ]
+  },
+  {
+    "index": 699,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_13",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped coordinates in choices A, B, C, and D in $...$"
+    ]
+  },
+  {
+    "index": 700,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_14",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$ in the equation description",
+      "Changed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 702,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_16",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'M' and 'P' in $...$"
+    ]
+  },
+  {
+    "index": 705,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_19",
+    "error": "parse_fail: {\n  \"text\": \"In the figure, $AC = CD$. The measure of angle $EBC$ is $29^\\circ$, and the measure of angle $ACD$ is $108^\\circ$. What is the value of $x$?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped AC = CD in $...$\", \"Wrapped angle EBC in $...$ and added degree symbol\", \"Wrapped angle ACD in $...$ and",
+    "changes": []
+  },
+  {
+    "index": 707,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_21",
+    "changes": [
+      "Wrapped 'j' and 'k' in $...$ for consistency",
+      "Changed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 710,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_2",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 713,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_5",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 715,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_7",
+    "changes": [
+      "Wrapped angle measures in $...$"
+    ]
+  },
+  {
+    "index": 716,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_8",
+    "changes": [
+      "Wrapped (x, y) in $...$"
+    ]
+  },
+  {
+    "index": 717,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_9",
+    "error": "parse_fail: {\n  \"text\": \"An exponential function $f$ is defined by $f(x)=c^{x}$, where $c$ is a constant greater than 1. If $f(6)=9 \\cdot f(4)$, what is the value of $c$?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped 'f' in $...$ in the first sentence\", \"Replaced '·' with '\\cdot' for consistent math formatting\"]\n}",
+    "changes": []
+  },
+  {
+    "index": 718,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_10",
+    "changes": [
+      "Wrapped 'sin x °' in LaTeX and changed 'x °' to 'x^\\circ'"
+    ]
+  },
+  {
+    "index": 719,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_11",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 721,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_13",
+    "changes": [
+      "Wrapped 't' in $...$"
+    ]
+  },
+  {
+    "index": 723,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_15",
+    "changes": [
+      "Wrapped 'xy-plane' and 'x-axis' in $...$"
+    ]
+  },
+  {
+    "index": 726,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_18",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 728,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_20",
+    "error": "parse_fail: {\n  \"text\": \"The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was $676\\%$. If this red kangaroo's mass was $k$ grams at 80 days old, which expression represents its mass, in grams, at 160 days old?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$7.76k$\"},\n    {\"id\":",
+    "changes": []
+  },
+  {
+    "index": 729,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_21",
+    "changes": [
+      "Wrapped 'x' in $...$ in the first sentence",
+      "Changed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 730,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_22",
+    "changes": [
+      "Wrapped 'f' and 'n' in math mode",
+      "Wrapped 'n \\geq 25' in math mode"
+    ]
+  },
+  {
+    "index": 731,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_1",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$"
+    ]
+  },
+  {
+    "index": 734,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_5",
+    "changes": [
+      "Wrapped 'y' in $...$ in 'y -intercept'",
+      "Wrapped 'xy' in $...$ in 'xy -plane'"
+    ]
+  },
+  {
+    "index": 736,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_7",
+    "error": "parse_fail: {\n  \"text\": \"The price of an object increased from $\\\\$16$ to $\\\\$80$. What was the percent increase in the price of the object?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$20\\%$\"},\n    {\"id\": \"B\", \"text\": \"$64\\%$\"},\n    {\"id\": \"C\", \"text\": \"$80\\%$\"},\n    {\"id\": \"D\", \"text\": \"$400\\%$\"}\n  ],\n  \"change",
+    "changes": []
+  },
+  {
+    "index": 737,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_8",
+    "changes": [
+      "Wrapped '59 °' in angle measure with $...$ and changed to $59^\\circ$",
+      "Replaced '∙' with '\\cdot' in choice A"
+    ]
+  },
+  {
+    "index": 741,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_13",
+    "changes": [
+      "Wrapped monetary value and percentage in $...$"
+    ]
+  },
+  {
+    "index": 743,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_15",
+    "changes": [
+      "Wrapped 'xy -plane' in $...$ to 'xy$-plane'"
+    ]
+  },
+  {
+    "index": 747,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_20",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 748,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_21",
+    "changes": [
+      "Wrapped math expressions in $...$",
+      "Added missing comma after 'shown'"
+    ]
+  },
+  {
+    "index": 749,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_22",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 753,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_4",
+    "changes": [
+      "Wrapped $y > 0$ in $...$"
+    ]
+  },
+  {
+    "index": 755,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_6",
+    "error": "parse_fail: {\n  \"text\": \"For $x>0$, the function $f$ is defined as follows:\\n$f(x)$ equals $293\\%$ of $x$\\nWhich of the following could describe this function?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"Decreasing exponential\"},\n    {\"id\": \"B\", \"text\": \"Decreasing linear\"},\n    {\"id\": \"C\", \"text\": \"Increasing ex",
+    "changes": []
+  },
+  {
+    "index": 756,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_7",
+    "changes": [
+      "Wrapped probabilities in $...$"
+    ]
+  },
+  {
+    "index": 757,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_8",
+    "changes": [
+      "Replaced '∣' with '|' in the definition of $g(x)$"
+    ]
+  },
+  {
+    "index": 758,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_9",
+    "changes": [
+      "Wrapped 'ABC' in $...$",
+      "Wrapped 'A' and 'B' in $...$",
+      "Wrapped 'AC' in $...$",
+      "Wrapped 'BC' in $...$"
+    ]
+  },
+  {
+    "index": 760,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_11",
+    "changes": [
+      "Fixed 'xy -plane' to 'xy$-plane'"
+    ]
+  },
+  {
+    "index": 762,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_13",
+    "changes": [
+      "Wrapped '7.70' in $...$"
+    ]
+  },
+  {
+    "index": 763,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_14",
+    "changes": [
+      "Fixed 'xy -plane' to 'xy$-plane'"
+    ]
+  },
+  {
+    "index": 766,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_17",
+    "changes": [
+      "Added missing question mark at the end of the question stem"
+    ]
+  },
+  {
+    "index": 769,
+    "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_20",
+    "changes": [
+      "Wrapped math expressions in $...$",
+      "Fixed superscript formatting for units"
+    ]
+  },
+  {
+    "index": 772,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_1",
+    "changes": [
+      "Wrapped 's' and 't' in $...$"
+    ]
+  },
+  {
+    "index": 777,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_7",
+    "error": "parse_fail: {\n  \"text\": \"The price of an object increased from $\\\\$16$ to $\\\\$80$. What was the percent increase in the price of the object?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$20\\%$\"},\n    {\"id\": \"B\", \"text\": \"$64\\%$\"},\n    {\"id\": \"C\", \"text\": \"$80\\%$\"},\n    {\"id\": \"D\", \"text\": \"$400\\%$\"}\n  ],\n  \"change",
+    "changes": []
+  },
+  {
+    "index": 780,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_10",
+    "changes": [
+      "Wrapped 'xy -plane' in $...$"
+    ]
+  },
+  {
+    "index": 782,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_13",
+    "changes": [
+      "Wrapped 'k', 'r', 's', 'w', 'x', 'y', and 'z' in $...$"
+    ]
+  },
+  {
+    "index": 783,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_14",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 785,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_17",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 786,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_18",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 789,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_21",
+    "error": "parse_fail: {\n  \"text\": \"For the right circular cone shown, $B$ is a point on the circumference of the base, and the length of segment $AB$ (not shown) is 32 centimeters. If the height of the cone is 16 centimeters and the volume of the cone is $k\\pi$ cubic centimeters. What is the value of $k$?\",\n  \"choices\": ",
+    "changes": []
+  },
+  {
+    "index": 790,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_22",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'k' and 'l' in $...$"
+    ]
+  },
+  {
+    "index": 791,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_2",
+    "changes": [
+      "Wrapped 'h' and 'c' in $...$"
+    ]
+  },
+  {
+    "index": 793,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_4",
+    "changes": [
+      "Wrapped '56 °' in angle measure in the question stem with $...$"
+    ]
+  },
+  {
+    "index": 794,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_5",
+    "changes": [
+      "Wrapped probabilities in $...$"
+    ]
+  },
+  {
+    "index": 795,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_6",
+    "changes": [
+      "Wrapped (x, y) in $...$"
+    ]
+  },
+  {
+    "index": 798,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_9",
+    "changes": [
+      "Wrapped 'xy' in $...$ to format as $xy$-plane",
+      "Wrapped point coordinates in $...$ to format as $(0, 15)$"
+    ]
+  },
+  {
+    "index": 799,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_10",
+    "changes": [
+      "Wrapped 'xy -plane' in $...$"
+    ]
+  },
+  {
+    "index": 803,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_15",
+    "changes": [
+      "Fixed 'xy -plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 805,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_18",
+    "error": "parse_fail: {\n  \"text\": \"A square map has a side length of $45$ inches, and $1$ inch on the map represents an actual distance of $13$ miles. A smaller version of the same map is printed as a square with the side length $70\\%$ shorter than the side length of the previous map. On the smaller map, which of the fol",
+    "changes": []
+  },
+  {
+    "index": 806,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_19",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped lone math variable $u$ in $...$"
+    ]
+  },
+  {
+    "index": 807,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_20",
+    "changes": [
+      "Wrapped math expressions in $...$",
+      "Fixed units to use LaTeX formatting"
+    ]
+  },
+  {
+    "index": 810,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_1",
+    "changes": [
+      "Wrapped 's' and 't' in math mode"
+    ]
+  },
+  {
+    "index": 817,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_8",
+    "changes": [
+      "Wrapped choice coordinates in $...$"
+    ]
+  },
+  {
+    "index": 820,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_12",
+    "changes": [
+      "Wrapped 'k', 'r', 's', 'w', 'x', 'y', and 'z' in $...$"
+    ]
+  },
+  {
+    "index": 824,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_17",
+    "changes": [
+      "Wrapped '3' and '60' in $...$"
+    ]
+  },
+  {
+    "index": 829,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_22",
+    "changes": [
+      "Wrapped 'a' in $...$",
+      "Wrapped 'b' in $...$",
+      "Wrapped 'c' in $...$"
+    ]
+  },
+  {
+    "index": 831,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_2",
+    "changes": [
+      "Wrapped function and values in $...$"
+    ]
+  },
+  {
+    "index": 833,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_4",
+    "changes": [
+      "Wrapped 'T' in $...$",
+      "Wrapped 'x' in $...$",
+      "Changed '1 $\\le$ x $\\le$ 5' to '1 \\leq x \\leq 5'"
+    ]
+  },
+  {
+    "index": 837,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_8",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 838,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_9",
+    "changes": [
+      "Wrapped the equation in $...$",
+      "Wrapped the solution in $...$ for choice A"
+    ]
+  },
+  {
+    "index": 840,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_11",
+    "changes": [
+      "Wrapped function definition in $...$",
+      "Wrapped $f$ in $...$",
+      "Wrapped $y = f(x)$ in $...$",
+      "Wrapped $xy$-plane in $...$",
+      "Wrapped $y$-coordinate in $...$",
+      "Wrapped $y$-intercept in $...$",
+      "Wrapped $-10$ in $...$"
+    ]
+  },
+  {
+    "index": 841,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_12",
+    "changes": [
+      "Wrapped inequality in $...$",
+      "Wrapped variables $r$ and $t$ in $...$"
+    ]
+  },
+  {
+    "index": 843,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_14",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed missing space after comma in prose",
+      "Corrected $\\$22.80$ to $\\$22.80$",
+      "Fixed choice D to correct the function"
+    ]
+  },
+  {
+    "index": 846,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_17",
+    "error": "parse_fail: {\n  \"text\": \"A square map has a side length of $55$ inches, and $1$ inch on the map represents an actual distance of $13$ miles. A smaller version of the same map is printed as a square with the side length $70\\%$ shorter than the side length of the previous map. On the smaller map, which of the fol",
+    "changes": []
+  },
+  {
+    "index": 849,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_20",
+    "changes": [
+      "Wrapped '876' in $...$"
+    ]
+  },
+  {
+    "index": 852,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_1",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 854,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_3",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 855,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_4",
+    "changes": [
+      "Wrapped bare equations in $...$"
+    ]
+  },
+  {
+    "index": 857,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_6",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 858,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_7",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 859,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_8",
+    "changes": [
+      "Wrapped 'f' in math mode",
+      "Wrapped 'y' in math mode",
+      "Wrapped 'xy' in math mode"
+    ]
+  },
+  {
+    "index": 864,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_13",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 870,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_20",
+    "error": "parse_fail: {\n  \"text\": \"For the right circular cone shown, $B$ is a point on the circumference of the base, and the length of segment $AB$ (not shown) is 84 centimeters. If the height of the cone is 42 centimeters and the volume of the cone is $k\\pi$ cubic centimeters, what is the value of $k$?\",\n  \"choices\": ",
+    "changes": []
+  },
+  {
+    "index": 871,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_21",
+    "changes": [
+      "Wrapped angle measures in $...$ and added degree symbol $^\\circ$"
+    ]
+  },
+  {
+    "index": 872,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_22",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 873,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_1",
+    "error": "parse_fail: {\n  \"text\": \"In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is $56^\\circ$, and $AE = 24(BD)$. What is the measure of angle $CAE$?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"24°\"},\n    {\"id\": \"B\", \"text\": \"56°\"},\n    {\"id\": \"C\", \"text\": \"$(24+56)°\"},\n    {",
+    "changes": []
+  },
+  {
+    "index": 876,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_4",
+    "changes": [
+      "Wrapped ordered pairs in $...$"
+    ]
+  },
+  {
+    "index": 878,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_6",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 881,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_9",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 882,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_10",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 884,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_12",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode",
+      "Wrapped 'P' in math mode"
+    ]
+  },
+  {
+    "index": 889,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_17",
+    "error": "parse_fail: {\n  \"text\": \"A square map has a side length of $35$ inches, and $1$ inch on the map represents an actual distance of $13$ miles. A smaller version of the same map is printed as a square with the side length $70\\%$ shorter than the side length of the previous map. On the smaller map, which of the fol",
+    "changes": []
+  },
+  {
+    "index": 892,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_20",
+    "changes": [
+      "Wrapped '876' in $...$",
+      "Wrapped 'w' in $...$"
+    ]
+  },
+  {
+    "index": 894,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_22",
+    "changes": [
+      "Wrapped 'f' in $...$",
+      "Wrapped 'a', 'b', and 'n' in $...$",
+      "Wrapped 'b' and 'n' in $...$",
+      "Wrapped 'f(5)=7' and 'f(8)= 189' in $...$",
+      "Wrapped 'f(10)' in $...$"
+    ]
+  },
+  {
+    "index": 895,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_1",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 898,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_4",
+    "changes": [
+      "Wrapped function definition and equation in $...$"
+    ]
+  },
+  {
+    "index": 904,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_10",
+    "error": "parse_fail: {\n  \"text\": \"In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is $56^\\circ$, and $AE = 22(BD)$. What is the measure of angle $CAE$?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$22^\\circ$\"},\n    {\"id\": \"B\", \"text\": \"$56^\\circ$\"},\n    {\"id\": \"C\", \"text\": \"$(22",
+    "changes": []
+  },
+  {
+    "index": 907,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_14",
+    "error": "parse_fail: {\n  \"text\": \"Antonia has $\\\\$130$ in an account. Each year she expects to have $2.5\\%$ more money in the account than she had the previous year. Which of the following models best describes how Antonia expects the money in her account to change over time?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"De",
+    "changes": []
+  },
+  {
+    "index": 908,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_15",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 909,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_16",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 911,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_18",
+    "changes": [
+      "Fixed ≤ symbol"
+    ]
+  },
+  {
+    "index": 914,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_21",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'k' and 'l' in $...$"
+    ]
+  },
+  {
+    "index": 915,
+    "id": "11ee667b-8898-4917-b74e-33237205e2ef_22",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 922,
+    "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_8",
+    "changes": [
+      "Wrapped 't' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 928,
+    "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_14",
+    "changes": [
+      "Wrapped variables in $...$",
+      "Wrapped percentages in $...$"
+    ]
+  },
+  {
+    "index": 932,
+    "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_18",
+    "changes": [
+      "Added space after '+' in the equation in the question stem"
+    ]
+  },
+  {
+    "index": 933,
+    "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_19",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped coordinates in $...$"
+    ]
+  },
+  {
+    "index": 934,
+    "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_20",
+    "changes": [
+      "Wrapped prism names in $...$, added $...$ around units, and fixed superscript for cm² and cm³"
+    ]
+  },
+  {
+    "index": 936,
+    "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_22",
+    "changes": [
+      "Wrapped 'a' and 'b' in $...$"
+    ]
+  },
+  {
+    "index": 938,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_2",
+    "changes": [
+      "Wrapped coordinates in $...$"
+    ]
+  },
+  {
+    "index": 940,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_4",
+    "changes": [
+      "Added space after comma in question stem"
+    ]
+  },
+  {
+    "index": 944,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_8",
+    "changes": [
+      "Wrapped the equation in $...$",
+      "Wrapped the variable $t$ in $...$"
+    ]
+  },
+  {
+    "index": 948,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_13",
+    "changes": [
+      "Wrapped the function in $...$"
+    ]
+  },
+  {
+    "index": 949,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_14",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 950,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_15",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped points in $...$"
+    ]
+  },
+  {
+    "index": 952,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_17",
+    "changes": [
+      "Wrapped $x > 2$ in $...$"
+    ]
+  },
+  {
+    "index": 956,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_21",
+    "changes": [
+      "Wrapped '50º' in $...$"
+    ]
+  },
+  {
+    "index": 958,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_1",
+    "changes": [
+      "Added missing parentheses around the coordinates in choice B, C, and D"
+    ]
+  },
+  {
+    "index": 960,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_3",
+    "changes": [
+      "Wrapped monetary value and percentage in $...$"
+    ]
+  },
+  {
+    "index": 962,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_5",
+    "changes": [
+      "Added space after '2' in choice B"
+    ]
+  },
+  {
+    "index": 965,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_8",
+    "changes": [
+      "Wrapped 'tan B' in $...$"
+    ]
+  },
+  {
+    "index": 967,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_10",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$"
+    ]
+  },
+  {
+    "index": 968,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_11",
+    "changes": [
+      "Wrapped 'a' in $...$",
+      "Wrapped 'b' in $...$",
+      "Wrapped 'c' in $...$",
+      "Wrapped 'b' in $...$ in the last sentence"
+    ]
+  },
+  {
+    "index": 970,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 974,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_17",
+    "changes": [
+      "Wrapped coordinates in choices B, C, and D in $...$"
+    ]
+  },
+  {
+    "index": 977,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_20",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 978,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_21",
+    "changes": [
+      "Wrapped prism names in $...$",
+      "Wrapped units in $\\text{...}$"
+    ]
+  },
+  {
+    "index": 979,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_22",
+    "changes": [
+      "Wrapped angle measure in $...$"
+    ]
+  },
+  {
+    "index": 983,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_4",
+    "changes": [
+      "Wrapped original price in $...$"
+    ]
+  },
+  {
+    "index": 984,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_6",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 985,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_7",
+    "changes": [
+      "Wrapped the inequality in the question stem in $...$"
+    ]
+  },
+  {
+    "index": 986,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_8",
+    "changes": [
+      "Wrapped 'mm^2' in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 987,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_9",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'F' and 'G' in $...$",
+      "Wrapped 'p' in $...$"
+    ]
+  },
+  {
+    "index": 990,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_12",
+    "error": "parse_fail: {\n  \"text\": \"In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is $57^\\circ$, and $AE=21(BD)$. What is the measure of angle $CAE$?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$(21 \\\\cdot 57)^\\circ$\"},\n    {\"id\": \"B\", \"text\": \"$(21 + 57)^\\circ$\"},\n    {\"id\": \"",
+    "changes": []
+  },
+  {
+    "index": 991,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_13",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$",
+      "Replaced '1 $\\ge$ x $\\le$ 280' with '1 \\leq x \\leq 280'"
+    ]
+  },
+  {
+    "index": 993,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_16",
+    "changes": [
+      "Replaced 'x' with 'xy' in 'x-plane'"
+    ]
+  },
+  {
+    "index": 995,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_19",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'l' in $...$",
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 996,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_20",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1002,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_4",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 1005,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_7",
+    "changes": [
+      "Fixed the exponent in the function to $\\frac{t}{29}$"
+    ]
+  },
+  {
+    "index": 1007,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_9",
+    "changes": [
+      "Wrapped numeric values in $...$ for LaTeX formatting",
+      "Capitalized 'What' in the question stem"
+    ]
+  },
+  {
+    "index": 1010,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_12",
+    "error": "parse_fail: {\n  \"text\": \"In a collection of items, $10\\%$ are red, $25\\%$ are green, $35\\%$ are blue, and $30\\%$ are yellow. If there are 40 green items, how many blue items are in the collection?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"14\"}, {\"id\": \"B\", \"text\": \"16\"}, {\"id\": \"C\", \"text\": \"48\"}, {\"id\": \"D\", \"text\"",
+    "changes": []
+  },
+  {
+    "index": 1011,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_13",
+    "changes": [
+      "Wrapped 'c' in math mode in the question stem"
+    ]
+  },
+  {
+    "index": 1013,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_15",
+    "changes": [
+      "Replaced 't \\le 5' with 't \\leq 5'"
+    ]
+  },
+  {
+    "index": 1016,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_18",
+    "changes": [
+      "Wrapped 'x' in $...$"
+    ]
+  },
+  {
+    "index": 1017,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_19",
+    "error": "parse_fail: {\n  \"text\": \"A square map has a side length of $30$ inches, and $1$ inch on the map represents an actual distance of $17$ miles. A smaller version of the same map is printed as a square with the side length $65\\%$ shorter than the side length of the previous map. On the smaller map, which of the fol",
+    "changes": []
+  },
+  {
+    "index": 1018,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_20",
+    "changes": [
+      "Wrapped 'f' and 'g' in $...$ for math formatting",
+      "Wrapped 'xy' in $...$ for math formatting",
+      "Wrapped 'y' in $...$ for math formatting"
+    ]
+  },
+  {
+    "index": 1019,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_21",
+    "changes": [
+      "Wrapped 'h' in $...$",
+      "Wrapped 'xy' in $...$",
+      "Wrapped '2' in $...$",
+      "Wrapped '0' in $...$",
+      "Wrapped 'm' in $...$"
+    ]
+  },
+  {
+    "index": 1021,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_1",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 1022,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_2",
+    "changes": [
+      "Wrapped variable $t$ in LaTeX",
+      "Wrapped inequalities in LaTeX"
+    ]
+  },
+  {
+    "index": 1023,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_3",
+    "changes": [
+      "Wrapped monetary values in $...$ for formatting",
+      "Added missing comma after 'dollars'"
+    ]
+  },
+  {
+    "index": 1025,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_5",
+    "error": "parse_fail: {\n  \"text\": \"In 2000, a census was taken to determine the population of a certain town. The graph gives the estimated population $y$, in thousands, of this town $z$ years after the 2000 census was taken, where $0 \\leq x \\leq 5$. Based on the graph, which of the following is the closest to the estima",
+    "changes": []
+  },
+  {
+    "index": 1026,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_6",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1030,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_10",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped ordered pairs in $...$"
+    ]
+  },
+  {
+    "index": 1031,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_11",
+    "changes": [
+      "Wrapped 'P.ohioensis' in math mode",
+      "Wrapped 'x' in math mode",
+      "Wrapped 'y=0.67x + 2.6' in math mode",
+      "Wrapped '20 ≤ x ≤ 110' in math mode",
+      "Wrapped 'y' in math mode"
+    ]
+  },
+  {
+    "index": 1033,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_13",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $2y$ in $...$"
+    ]
+  },
+  {
+    "index": 1037,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_17",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1038,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_18",
+    "error": "parse_fail: {\n  \"text\": \"In the figure, $RT = TU$, the measure of angle $VST$ is $23^\\circ$, and the measure of angle $RVS$ is $34^\\circ$. What is the value of $x$?\",\n  \"choices\": [],\n  \"changes\": [\n    \"Wrapped RT = TU in $...$\",\n    \"Wrapped VST and RVS in $...$\",\n    \"Added degree symbol to 23° and 34°\",\n   ",
+    "changes": []
+  },
+  {
+    "index": 1039,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_19",
+    "changes": [
+      "Wrapped edge length and radius in $...$"
+    ]
+  },
+  {
+    "index": 1041,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_21",
+    "error": "parse_fail: {\n  \"text\": \"$f(x) = k (1.84)^x$\\nThe function $f$ is defined by the given equation, where $k$ is a constant. The value of $f(x)$ increases by $p\\%$ for every increase of $x$ by 1. For which of the following functions, where $k$ is a constant, does the value of $g(x)$ increase by $p\\%$ for every inc",
+    "changes": []
+  },
+  {
+    "index": 1044,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_2",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1045,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_3",
+    "changes": [
+      "Fixed $\\le$ to $\\leq$"
+    ]
+  },
+  {
+    "index": 1047,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_5",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1050,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_8",
+    "changes": [
+      "Wrapped numbers in $...$"
+    ]
+  },
+  {
+    "index": 1054,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_12",
+    "changes": [
+      "Wrapped numeric value in $...$",
+      "Wrapped variable $x$ in $...$"
+    ]
+  },
+  {
+    "index": 1055,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_13",
+    "changes": [
+      "Fixed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 1058,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_16",
+    "changes": [
+      "Wrapped 'XYZ' in $...$",
+      "Wrapped '39°' in $...$",
+      "Fixed 'lf' to 'If'"
+    ]
+  },
+  {
+    "index": 1062,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_20",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1063,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_21",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped $n$ in $...$ where it is a positive integer",
+      "Wrapped $C(x)$ in $...$"
+    ]
+  },
+  {
+    "index": 1064,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_22",
+    "changes": [
+      "Wrapped triangle names and side lengths in $...$",
+      "Wrapped angle measures in $...$"
+    ]
+  },
+  {
+    "index": 1065,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_1",
+    "changes": [
+      "Wrapped '°F' in $...$ for consistent formatting"
+    ]
+  },
+  {
+    "index": 1066,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_2",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Added spaces after punctuation in prose"
+    ]
+  },
+  {
+    "index": 1070,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_6",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1071,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_7",
+    "changes": [
+      "Wrapped triangle name and angle measures in $...$",
+      "Added superscript for degrees"
+    ]
+  },
+  {
+    "index": 1072,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_8",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 1075,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_11",
+    "error": "parse_fail: {\n  \"text\": \"Circle K has a radius of 2 millimeters (mm). Circle L has an area of $121\\pi$ mm$^2$. What is the total area, in mm$^2$, of circles K and L?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$13\\pi$\"},\n    {\"id\": \"B\", \"text\": \"$26\\pi$\"},\n    {\"id\": \"C\", \"text\": \"$52\\pi$\"},\n    {\"id\": \"D\", \"text",
+    "changes": []
+  },
+  {
+    "index": 1079,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_15",
+    "changes": [
+      "Wrapped bare equations in $...$",
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1080,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_16",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Replaced ≤ with $\\leq$",
+      "Replaced y-intercept with $y$-intercept",
+      "Replaced xy-plane with $xy$-plane"
+    ]
+  },
+  {
+    "index": 1081,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_17",
+    "changes": [
+      "Wrapped coordinates in choices with $...$"
+    ]
+  },
+  {
+    "index": 1082,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_18",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped $(x, y)$ in $...$"
+    ]
+  },
+  {
+    "index": 1083,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_19",
+    "changes": [
+      "Wrapped 'r' and 'C' in $...$",
+      "Wrapped 'P' and 't' in $...$"
+    ]
+  },
+  {
+    "index": 1086,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_22",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1089,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_3",
+    "changes": [
+      "Wrapped the equation in the question stem in $...$",
+      "Wrapped each choice in $...$"
+    ]
+  },
+  {
+    "index": 1090,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_4",
+    "changes": [
+      "Wrapped 'f' and 'y=f(x)' in $...$",
+      "Wrapped y-intercept coordinates in $...$"
+    ]
+  },
+  {
+    "index": 1093,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_7",
+    "changes": [
+      "Wrapped function and equation in $...$"
+    ]
+  },
+  {
+    "index": 1098,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_13",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Corrected 'a m/s$^2$' to '$a$ m/s$^2$'"
+    ]
+  },
+  {
+    "index": 1099,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_14",
+    "changes": [
+      "Wrapped function in $...$",
+      "Wrapped variable $t$ in $...$",
+      "Corrected choice D: 'in an hour' to 'in an hour'"
+    ]
+  },
+  {
+    "index": 1100,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_15",
+    "changes": [
+      "Wrapped numbers and variables in $...$"
+    ]
+  },
+  {
+    "index": 1101,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_16",
+    "changes": [
+      "Fixed spacing around 'lines $l$ and $k$'"
+    ]
+  },
+  {
+    "index": 1103,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_18",
+    "changes": [
+      "Wrapped 'y' and 't' in math mode",
+      "Fixed choice C to use \\left( and \\right) for better formatting"
+    ]
+  },
+  {
+    "index": 1104,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_19",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1105,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_20",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1106,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_21",
+    "changes": [
+      "Wrapped 'tan X' in $...$"
+    ]
+  },
+  {
+    "index": 1107,
+    "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_22",
+    "changes": [
+      "Wrapped '88' in $...$",
+      "Wrapped 'k' in $...$"
+    ]
+  },
+  {
+    "index": 1110,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_3",
+    "changes": [
+      "Wrapped 'y-intercept' in $...$"
+    ]
+  },
+  {
+    "index": 1111,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_4",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed incomplete fraction in choice B"
+    ]
+  },
+  {
+    "index": 1116,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_9",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1117,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_10",
+    "changes": [
+      "Wrapped the equation in $...$",
+      "Wrapped the variable $t$ in $...$"
+    ]
+  },
+  {
+    "index": 1118,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_11",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped lone math variable in $...$"
+    ]
+  },
+  {
+    "index": 1121,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_14",
+    "changes": [
+      "Wrapped inequalities in $...$"
+    ]
+  },
+  {
+    "index": 1122,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_15",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Fixed superscript formatting",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $x > 0$ in $...$"
+    ]
+  },
+  {
+    "index": 1123,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_16",
+    "changes": [
+      "Wrapped 't' and 'xy' in $...$",
+      "Wrapped coordinates in $...$"
+    ]
+  },
+  {
+    "index": 1125,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_18",
+    "changes": [
+      "Wrapped 'w', 'x', and 'y' in $...$ in the question stem",
+      "Fixed spacing in choice C and D"
+    ]
+  },
+  {
+    "index": 1126,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_19",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1127,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_20",
+    "changes": [
+      "Wrapped math symbols and expressions in $...$"
+    ]
+  },
+  {
+    "index": 1128,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_21",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped $z(w)$ in $...$",
+      "Wrapped $p$% in $...$"
+    ]
+  },
+  {
+    "index": 1129,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_22",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 1134,
+    "id": "9d845a11-6019-4b88-9309-26d92ced4f70_6",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1139,
+    "id": "9d845a11-6019-4b88-9309-26d92ced4f70_13",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped variable $a$ in $...$",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $xy$-plane in $...$"
+    ]
+  },
+  {
+    "index": 1140,
+    "id": "9d845a11-6019-4b88-9309-26d92ced4f70_14",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped variable $F$ and $a$ in $...$"
+    ]
+  },
+  {
+    "index": 1141,
+    "id": "9d845a11-6019-4b88-9309-26d92ced4f70_15",
+    "changes": [
+      "Wrapped function in $...$",
+      "Wrapped variable $t$ in $...$"
+    ]
+  },
+  {
+    "index": 1142,
+    "id": "9d845a11-6019-4b88-9309-26d92ced4f70_16",
+    "changes": [
+      "Wrapped '250' and 'n' in $...$"
+    ]
+  },
+  {
+    "index": 1143,
+    "id": "9d845a11-6019-4b88-9309-26d92ced4f70_17",
+    "changes": [
+      "Fixed spacing around lines $l$ and $k$"
+    ]
+  },
+  {
+    "index": 1147,
+    "id": "9d845a11-6019-4b88-9309-26d92ced4f70_21",
+    "changes": [
+      "Wrapped 'tan X' in $...$"
+    ]
+  },
+  {
+    "index": 1148,
+    "id": "9d845a11-6019-4b88-9309-26d92ced4f70_22",
+    "changes": [
+      "Wrapped '98' in $...$ for math formatting",
+      "Wrapped 'k' in $...$ for math formatting"
+    ]
+  },
+  {
+    "index": 1149,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_1",
+    "changes": [
+      "Wrapped '°F' in $...$ for math formatting",
+      "Wrapped '33°F' in $...$ for math formatting"
+    ]
+  },
+  {
+    "index": 1150,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_2",
+    "changes": [
+      "Wrapped 'm', 'n', and 'p' in $...$ in the question stem",
+      "Wrapped 'm' in $...$ in choices B, C, and D"
+    ]
+  },
+  {
+    "index": 1152,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_5",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1153,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_6",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1154,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_7",
+    "changes": [
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1155,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_8",
+    "changes": [
+      "Wrapped triangle name and angle measures in $...$",
+      "Added $^\\circ$ to angle measures"
+    ]
+  },
+  {
+    "index": 1156,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_9",
+    "changes": [
+      "Wrapped ordered pairs in $...$"
+    ]
+  },
+  {
+    "index": 1160,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_14",
+    "changes": [
+      "Wrapped bare equations in $...$",
+      "Replaced 'xy-plane' with '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 1161,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_15",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped $x$ in $...$",
+      "Wrapped $0 \\leq x \\leq 4$ in $...$",
+      "Wrapped $y$-intercept in $...$",
+      "Wrapped $xy$-plane in $...$"
+    ]
+  },
+  {
+    "index": 1164,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_18",
+    "changes": [
+      "Wrapped 'u' in math mode",
+      "Wrapped 'u' in math mode in the question stem"
+    ]
+  },
+  {
+    "index": 1165,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_19",
+    "changes": [
+      "Wrapped 'r' and 'C' in $...$",
+      "Wrapped 't' in $...$"
+    ]
+  },
+  {
+    "index": 1166,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_20",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Added '$y$ is a positive integer' to the beginning of the text to match the formatting rule"
+    ]
+  },
+  {
+    "index": 1169,
+    "id": "d2870056-c182-4523-a3f3-884eafe68114_1",
+    "changes": [
+      "Wrapped bill amount in $...$"
+    ]
+  },
+  {
+    "index": 1171,
+    "id": "d2870056-c182-4523-a3f3-884eafe68114_3",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1174,
+    "id": "d2870056-c182-4523-a3f3-884eafe68114_6",
+    "changes": [
+      "Wrapped '32' in $...$"
+    ]
+  },
+  {
+    "index": 1180,
+    "id": "d2870056-c182-4523-a3f3-884eafe68114_12",
+    "changes": [
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1181,
+    "id": "d2870056-c182-4523-a3f3-884eafe68114_13",
+    "changes": [
+      "Wrapped triangle sides in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1187,
+    "id": "d2870056-c182-4523-a3f3-884eafe68114_20",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1191,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_2",
+    "changes": [
+      "Wrapped 'x' in $...$",
+      "Wrapped 'y' in $...$",
+      "Wrapped inequalities in $...$"
+    ]
+  },
+  {
+    "index": 1192,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_3",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 1199,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_10",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1201,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_12",
+    "error": "parse_fail: {\n  \"text\": \"Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y = 0.67x + 2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larv",
+    "changes": []
+  },
+  {
+    "index": 1202,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_13",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to '$xy$-plane'",
+      "Wrapped choice values in $...$"
+    ]
+  },
+  {
+    "index": 1203,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_14",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1204,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_15",
+    "error": "parse_fail: {\n  \"text\": \"The graph models the number of online newsletter subscribers at the end of every six-month period, where $x$ is the number of six-month periods since the end of January 1995 and $0 \\leq x \\leq 4$. Which statement is the best interpretation of the point $(1, 500)$ in this context?\",\n  \"c",
+    "changes": []
+  },
+  {
+    "index": 1205,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_16",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1207,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_18",
+    "changes": [
+      "Wrapped 'xy' in $...$ for 'xy-plane'",
+      "Wrapped '(-16, 0)' in $...$"
+    ]
+  },
+  {
+    "index": 1209,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_20",
+    "changes": [
+      "Wrapped numeric values and variables in $...$",
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1211,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_22",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed superscript in $(1.005)^{2x}$",
+      "Wrapped function and variable in $...$"
+    ]
+  },
+  {
+    "index": 1213,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_2",
+    "changes": [
+      "Removed space before hyphen in '40-pound'"
+    ]
+  },
+  {
+    "index": 1216,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_5",
+    "changes": [
+      "Wrapped function and equation in $...$",
+      "Wrapped $x$ in $...$"
+    ]
+  },
+  {
+    "index": 1217,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_6",
+    "changes": [
+      "Wrapped monetary values in $...$",
+      "Wrapped variable $p$ in $...$ in the question stem",
+      "Wrapped equations in $...$ in the choices"
+    ]
+  },
+  {
+    "index": 1220,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_9",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1221,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_10",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode",
+      "Wrapped 'xy' in math mode",
+      "Wrapped '-1/729' in math mode"
+    ]
+  },
+  {
+    "index": 1222,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_11",
+    "changes": [
+      "Wrapped 'y-intercept' in $...$"
+    ]
+  },
+  {
+    "index": 1225,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_14",
+    "changes": [
+      "Wrapped 'f' in math mode",
+      "Wrapped 'y' in math mode",
+      "Wrapped 'xy' in math mode"
+    ]
+  },
+  {
+    "index": 1227,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_16",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $x > 0$ in $...$"
+    ]
+  },
+  {
+    "index": 1230,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_19",
+    "changes": [
+      "Wrapped 'd' and 'w' in $...$ in the question stem",
+      "Wrapped 'd' and 'w' in $...$ in choice A",
+      "Wrapped 'd' and 'w' in $...$ in choice B",
+      "Wrapped 'd' and 'w' in $...$ in choice C",
+      "Wrapped 'd' and 'w' in $...$ in choice D"
+    ]
+  },
+  {
+    "index": 1231,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_20",
+    "error": "parse_fail: {\n  \"text\": \"An electric vehicle's battery has a charge of $100$ kilowatt-hours (kWh) at the beginning of a trip. At the end of this trip, the electric vehicle's battery has $56\\%$ of the initial charge remaining. What is the battery's remaining charge, in kWh, at the end of this trip?\",\n  \"choices\"",
+    "changes": []
+  },
+  {
+    "index": 1236,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_3",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $y$ in $...$"
+    ]
+  },
+  {
+    "index": 1237,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$"
+    ]
+  },
+  {
+    "index": 1239,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_6",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1242,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_9",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped variable $x$ in $...$"
+    ]
+  },
+  {
+    "index": 1244,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_11",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed inline math expressions"
+    ]
+  },
+  {
+    "index": 1247,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_14",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1250,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_17",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1254,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_21",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1255,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_22",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Replaced 'xy-plane' with '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 1260,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_5",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed multiplication symbol in equation"
+    ]
+  },
+  {
+    "index": 1262,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_7",
+    "changes": [
+      "Wrapped function definition in $...$",
+      "Wrapped function name in $...$"
+    ]
+  },
+  {
+    "index": 1263,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_8",
+    "changes": [
+      "Wrapped 'r' in $...$",
+      "Wrapped 'xy' in $...$",
+      "Wrapped '-3' in $...$",
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1266,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_11",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1270,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_15",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1272,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_17",
+    "changes": [
+      "Wrapped 'y-intercept' in $...$",
+      "Wrapped coordinates in choices in $...$"
+    ]
+  },
+  {
+    "index": 1274,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_19",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1276,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_21",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Fixed spacing in choices"
+    ]
+  },
+  {
+    "index": 1277,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_22",
+    "changes": [
+      "Added space after '900a' in the equation"
+    ]
+  },
+  {
+    "index": 1278,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_1",
+    "changes": [
+      "Wrapped 'kilometers' in $...$"
+    ]
+  },
+  {
+    "index": 1283,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_6",
+    "changes": [
+      "Wrapped 'x' and 'y' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1285,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_8",
+    "changes": [
+      "Wrapped '114 °' in $...$"
+    ]
+  },
+  {
+    "index": 1289,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_12",
+    "changes": [
+      "Wrapped 'y-intercept' in $...$",
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1291,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_14",
+    "changes": [
+      "Wrapped 'g' in $...$"
+    ]
+  },
+  {
+    "index": 1293,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_16",
+    "changes": [
+      "Fixed superscript formatting in the equation of Circle A",
+      "Wrapped variables $h$, $k$, and $a$ in $...$"
+    ]
+  },
+  {
+    "index": 1297,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_20",
+    "error": "parse_fail: {\n  \"text\": \"A rectangular banner has an area of $2,300$ square inches. A copy of the banner is made in which the length and width of the original banner are each increased by $20\\%$. What is the area of the copy, in square inches?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$2,320$\"},\n    {\"id\": \"B\",",
+    "changes": []
+  },
+  {
+    "index": 1301,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_2",
+    "changes": [
+      "Wrapped 'l' and 'm' in $...$ for math formatting",
+      "Wrapped 'x' in $...$ for math formatting"
+    ]
+  },
+  {
+    "index": 1304,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_5",
+    "changes": [
+      "Wrapped 'xy' in $...$",
+      "Wrapped 's' and 't' in $...$"
+    ]
+  },
+  {
+    "index": 1305,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_6",
+    "changes": [
+      "Wrapped 'x' in $...$ in the inequality",
+      "Replaced '\\le' with '\\leq'"
+    ]
+  },
+  {
+    "index": 1306,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_8",
+    "changes": [
+      "Wrapped variable names in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1309,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_11",
+    "changes": [
+      "Wrapped 'x' in inline math: $x$",
+      "Wrapped '0 ≤ x ≤ 10' in inline math: $0 \\leq x \\leq 10$",
+      "Wrapped 'xy' in inline math: $xy$-plane"
+    ]
+  },
+  {
+    "index": 1311,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_13",
+    "error": "parse_fail: {\n  \"text\": \"A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was $71.5\\%$ of the number of postdoctoral students surveyed and the number of graduate students surveyed was $45\\%$ of the number of undergraduate s",
+    "changes": []
+  },
+  {
+    "index": 1314,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_16",
+    "changes": [
+      "Wrapped '0.812' in $...$"
+    ]
+  },
+  {
+    "index": 1317,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_19",
+    "changes": [
+      "Wrapped '56t' in $...$"
+    ]
+  },
+  {
+    "index": 1318,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_20",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1320,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_22",
+    "changes": [
+      "Wrapped $x$ in $...$ in the question stem",
+      "Wrapped $x \\geq 2$ in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1321,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_1",
+    "error": "parse_fail: {\n  \"text\": \"In triangle $ABC$, the measure of angle $A$ is $34^\\circ$ and the measure of angle $B$ is $90^\\circ$. What is the measure, in degrees, of angle $C$?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"$34$\"}, {\"id\": \"B\", \"text\": \"$56$\"}, {\"id\": \"C\", \"text\": \"$90$\"}, {\"id\": \"D\", \"text\": \"$180$\"}],\n  \"c",
+    "changes": []
+  },
+  {
+    "index": 1323,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_3",
+    "changes": [
+      "Fixed spacing after punctuation in the question stem",
+      "Fixed spacing in choice B"
+    ]
+  },
+  {
+    "index": 1325,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_5",
+    "changes": [
+      "Wrapped monetary values in $...$"
+    ]
+  },
+  {
+    "index": 1328,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_8",
+    "changes": [
+      "Wrapped probabilities in $...$"
+    ]
+  },
+  {
+    "index": 1330,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_10",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1334,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_14",
+    "changes": [
+      "Wrapped prices in $...$ for consistency",
+      "Wrapped multiplication symbol in $...$"
+    ]
+  },
+  {
+    "index": 1340,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_20",
+    "changes": [
+      "Wrapped 'y-intercept' in $...$ and 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1341,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_21",
+    "error": "parse_fail: {\n  \"text\": \"A rectangular poster has an area of $330$ square inches. A copy of the poster is made in which the length and width of the original poster are each increased by $50\\%$. What is the area of the copy, in square inches?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped numeric values and percentag",
+    "changes": []
+  },
+  {
+    "index": 1342,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_22",
+    "changes": [
+      "Wrapped 'xy' in $...$"
+    ]
+  },
+  {
+    "index": 1343,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_1",
+    "changes": [
+      "Wrapped 'x' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1344,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_2",
+    "changes": [
+      "Wrapped 'l' in math mode",
+      "Wrapped 'j' and 'k' in math mode"
+    ]
+  },
+  {
+    "index": 1347,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_5",
+    "error": "parse_fail: {\n  \"text\": \"If $350\\%$ of $n$ is $35$, what is the value of $n$?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$12,250$\"},\n    {\"id\": \"B\", \"text\": \"$1,225$\"},\n    {\"id\": \"C\", \"text\": \"$1,000$\"},\n    {\"id\": \"D\", \"text\": \"$10$\"}\n  ],\n  \"changes\": [\n    \"Wrapped '350%' in $...$\",\n    \"Wrapped 'n' in $...$",
+    "changes": []
+  },
+  {
+    "index": 1348,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_6",
+    "changes": [
+      "Wrapped 'x' and 'h(x)' in math mode"
+    ]
+  },
+  {
+    "index": 1349,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_7",
+    "changes": [
+      "Wrapped 'xy -plane' in $...$ to 'xy$-plane'",
+      "Wrapped 'x' in $...$ to '$x$"
+    ]
+  },
+  {
+    "index": 1350,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_8",
+    "changes": [
+      "Wrapped '108' in $...$"
+    ]
+  },
+  {
+    "index": 1354,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_12",
+    "changes": [
+      "Wrapped 'x' in $...$ in the inequality",
+      "Wrapped 'x' in $...$ in the sentence"
+    ]
+  },
+  {
+    "index": 1355,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_13",
+    "changes": [
+      "Wrapped 'y -intercept' in $...$",
+      "Wrapped 'xy -plane' in $...$"
+    ]
+  },
+  {
+    "index": 1357,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_15",
+    "changes": [
+      "Wrapped 's' and 't' in $...$ for math formatting",
+      "Wrapped 'xy' in $...$ for math formatting",
+      "Wrapped 'k' in $...$ for math formatting"
+    ]
+  },
+  {
+    "index": 1358,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_16",
+    "changes": [
+      "Wrapped variable names in $...$"
+    ]
+  },
+  {
+    "index": 1359,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_17",
+    "changes": [
+      "Wrapped mean values in $...$"
+    ]
+  },
+  {
+    "index": 1360,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_18",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$ in the question stem",
+      "Wrapped 'y' and 'x' in $...$ in all choices"
+    ]
+  },
+  {
+    "index": 1361,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_19",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 1364,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_22",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 1366,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_3",
+    "changes": [
+      "Fixed 'xy -plane' to 'xy$-plane'"
+    ]
+  },
+  {
+    "index": 1369,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_6",
+    "changes": [
+      "Replaced ≤ with \\leq in all choices"
+    ]
+  },
+  {
+    "index": 1376,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_13",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1378,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_15",
+    "changes": [
+      "Wrapped 'f' and 'g' in $...$",
+      "Wrapped 'xy' in $...$",
+      "Wrapped 'h', 'j', 'k', and 'm' in $...$"
+    ]
+  },
+  {
+    "index": 1379,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_16",
+    "changes": [
+      "Wrapped '2' and '2.5' in $...$"
+    ]
+  },
+  {
+    "index": 1384,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_21",
+    "error": "parse_fail: {\n  \"text\": \"The mass of object $A$ is $484\\%$ of the mass of object $B$, and the mass of object $A$ is $0.880\\%$ of the mass of object $C$. If the mass of object $C$ is $p\\%$ of the mass of object $B$, what is the value of $p$?\",\n  \"choices\": [],\n  \"changes\": [\"Added backslashes to percentages in m",
+    "changes": []
+  },
+  {
+    "index": 1385,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_22",
+    "changes": [
+      "Wrapped 'f' in $...$",
+      "Wrapped 'x' in $...$",
+      "Wrapped 'c' in $...$",
+      "Wrapped 'f(x)' in $...$"
+    ]
+  },
+  {
+    "index": 1387,
+    "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_2",
+    "changes": [
+      "Wrapped 'r = 61' in $...$"
+    ]
+  },
+  {
+    "index": 1392,
+    "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_7",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Corrected 'defnes' to 'defines'"
+    ]
+  },
+  {
+    "index": 1395,
+    "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_10",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped function name and variable in $...$"
+    ]
+  },
+  {
+    "index": 1397,
+    "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_12",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1407,
+    "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_22",
+    "changes": [
+      "Wrapped 'n' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1408,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_1",
+    "changes": [
+      "Wrapped numbers and ratio in $...$"
+    ]
+  },
+  {
+    "index": 1410,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_4",
+    "changes": [
+      "Wrapped 'f' and 'x' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1411,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_5",
+    "error": "parse_fail: {\n  \"text\": \"Each year, the value of an investment increases by $0.69\\%$ of its value the previous year. Which of the following functions best models how the value of the investment changes over time?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"Decreasing exponential\"},\n    {\"id\": \"B\", \"text\": \"Decrea",
+    "changes": []
+  },
+  {
+    "index": 1412,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_6",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1413,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_7",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1414,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_8",
+    "changes": [
+      "Added missing question mark at the end of the question"
+    ]
+  },
+  {
+    "index": 1418,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_12",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode",
+      "Wrapped 'xy' in math mode",
+      "Wrapped 'a' and 'b' in math mode"
+    ]
+  },
+  {
+    "index": 1419,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_13",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 1420,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_14",
+    "changes": [
+      "Wrapped variable names in $...$"
+    ]
+  },
+  {
+    "index": 1421,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_16",
+    "changes": [
+      "Wrapped '228' in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1425,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_20",
+    "changes": [
+      "Fixed 'l4' to '14'",
+      "Wrapped 'n' in $...$",
+      "Wrapped 'p' in $...$"
+    ]
+  },
+  {
+    "index": 1426,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_21",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1430,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_4",
+    "changes": [
+      "Wrapped 'h' and 'g' in math mode",
+      "Wrapped choice A in math mode",
+      "Wrapped choice B in math mode"
+    ]
+  },
+  {
+    "index": 1431,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_5",
+    "changes": [
+      "Wrapped function in $...$",
+      "Wrapped $f(x)$ in $...$",
+      "Wrapped $x$ in $...$",
+      "Wrapped $0 \\leq x \\leq 10$ in $...$",
+      "Wrapped $y = f(x)$ in $...$",
+      "Wrapped $xy$-plane in $...$"
+    ]
+  },
+  {
+    "index": 1432,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_6",
+    "changes": [
+      "Added missing coefficient 3 to all choices"
+    ]
+  },
+  {
+    "index": 1440,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_14",
+    "changes": [
+      "Wrapped 'g' and 'h' in $...$ in the question stem",
+      "Wrapped '8' and 't' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1442,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_16",
+    "error": "parse_fail: {\n  \"text\": \"A circle has center $O$, and points $A$ and $B$ lie on the circle. The measure of arc $AB$ is $20^\\circ$, and the length of this arc is 4 inches. What is the circumference, in inches, of the circle?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"4\"}, {\"id\": \"B\", \"text\": \"8\"}, {\"id\": \"C\", \"text\": ",
+    "changes": []
+  },
+  {
+    "index": 1443,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_17",
+    "error": "parse_fail: {\n  \"text\": \"For $x > 0$, the function $f$ is defined as follows:\\n$f(x)$ equals $111\\%$ of $x$\\nWhich of the following could describe this function?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"Decreasing exponential\"},\n    {\"id\": \"B\", \"text\": \"Decreasing linear\"},\n    {\"id\": \"C\", \"text\": \"Increasing ",
+    "changes": []
+  },
+  {
+    "index": 1445,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_19",
+    "changes": [
+      "Wrapped 'f' and 'g' in $...$",
+      "Wrapped 'h' in $...$",
+      "Wrapped 'x' in $...$",
+      "Wrapped 'y' in $...$",
+      "Wrapped 'xy' in $...$"
+    ]
+  },
+  {
+    "index": 1447,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_21",
+    "error": "parse_fail: {\n  \"text\": \"A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was $7,450\\%$ of the number of postdoctoral students surveyed, and the number of graduate students surveyed was $24\\%$ of the number of undergraduate",
+    "changes": []
+  },
+  {
+    "index": 1448,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_22",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 1450,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_2",
+    "changes": [
+      "Wrapped 'x' in the question stem in $...$"
+    ]
+  },
+  {
+    "index": 1455,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_7",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1456,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_8",
+    "changes": [
+      "Wrapped triangle name in $...$",
+      "Wrapped angle name in $...$",
+      "Wrapped side names in $...$",
+      "Fixed multiplication dot in choice D to be consistent with LaTeX"
+    ]
+  },
+  {
+    "index": 1458,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_10",
+    "changes": [
+      "Wrapped 'xy' in $...$ for 'xy-plane'",
+      "Wrapped 'x' in $...$ for 'x-intercept'",
+      "Wrapped 'y' in $...$ for 'y-coordinate'",
+      "Wrapped 'y' in $...$ for 'y-intercept'"
+    ]
+  },
+  {
+    "index": 1462,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_14",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1463,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_15",
+    "changes": [
+      "Wrapped data set names in $...$",
+      "Wrapped integer values in $...$"
+    ]
+  },
+  {
+    "index": 1464,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_16",
+    "changes": [
+      "Wrapped math expressions in $...$"
+    ]
+  },
+  {
+    "index": 1466,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_18",
+    "changes": [
+      "Wrapped '250' in $...$"
+    ]
+  },
+  {
+    "index": 1467,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_19",
+    "changes": [
+      "Wrapped numeric values in $...$",
+      "Fixed superscript formatting for $cm^2$"
+    ]
+  },
+  {
+    "index": 1468,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_20",
+    "changes": [
+      "Wrapped '5.70' in $...$"
+    ]
+  },
+  {
+    "index": 1470,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_22",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1471,
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_1",
+    "changes": [
+      "Wrapped 'f' and 'y = f(x)' in $...$"
+    ]
+  },
+  {
+    "index": 1474,
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_4",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Replaced \\le with \\leq"
+    ]
+  },
+  {
+    "index": 1477,
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_7",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed spacing after punctuation in prose"
+    ]
+  },
+  {
+    "index": 1481,
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_11",
+    "changes": [
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1482,
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_12",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1483,
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_13",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1492,
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_22",
+    "changes": [
+      "Wrapped 'n' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1493,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_1",
+    "changes": [
+      "Replaced `\\le` with `\\leq` in choice A",
+      "Replaced `\\ge` with `\\geq` in choice B",
+      "Replaced `\\le` with `\\leq` in choice C",
+      "Replaced `\\ge` with `\\geq` in choice D"
+    ]
+  },
+  {
+    "index": 1495,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_4",
+    "changes": [
+      "Added missing space after 'in' in 'in a county'"
+    ]
+  },
+  {
+    "index": 1504,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_13",
+    "changes": [
+      "Wrapped 's' and 'xy' in $...$"
+    ]
+  },
+  {
+    "index": 1506,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_15",
+    "changes": [
+      "Wrapped 'f' in $...$",
+      "Wrapped 'x' in $...$",
+      "Wrapped $(1.005)^{3x}$ in $...$"
+    ]
+  },
+  {
+    "index": 1507,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_16",
+    "changes": [
+      "Wrapped '48' in $...$"
+    ]
+  },
+  {
+    "index": 1508,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_17",
+    "error": "parse_fail: {\n  \"text\": \"A square map has a side length of $55$ inches, and $1$ inch on the map represents an actual distance of $13$ miles. A larger version of the same map is printed as a square with the side length $90\\%$ longer than the side length of the previous map. On the larger map, which of the follow",
+    "changes": []
+  },
+  {
+    "index": 1509,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_18",
+    "changes": [
+      "Wrapped 'k' in math mode"
+    ]
+  },
+  {
+    "index": 1511,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_20",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1512,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_21",
+    "changes": [
+      "Wrapped bare numbers in $...$"
+    ]
+  },
+  {
+    "index": 1518,
+    "id": "68b576c1-9de8-41d3-9840-538d4edcd113_6",
+    "changes": [
+      "Corrected exponent in choice A from 5 to 2",
+      "Corrected exponent in choice B from 5 to 2",
+      "Corrected exponent in choice C from 45 to 2",
+      "Corrected exponent in choice D from 5 to 2"
+    ]
+  },
+  {
+    "index": 1519,
+    "id": "68b576c1-9de8-41d3-9840-538d4edcd113_7",
+    "changes": [
+      "Fixed spacing in 'xy'-plane"
+    ]
+  },
+  {
+    "index": 1524,
+    "id": "68b576c1-9de8-41d3-9840-538d4edcd113_12",
+    "changes": [
+      "Fixed spacing in 'xy-plane'"
+    ]
+  },
+  {
+    "index": 1534,
+    "id": "68b576c1-9de8-41d3-9840-538d4edcd113_22",
+    "changes": [
+      "Wrapped 'n' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1535,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_1",
+    "changes": [
+      "Replaced `\\le` with `\\leq` in choice A",
+      "Replaced `\\ge` with `\\geq` in choice B",
+      "Replaced `\\le` with `\\leq` in choice C",
+      "Replaced `\\ge` with `\\geq` in choice D"
+    ]
+  },
+  {
+    "index": 1536,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_2",
+    "changes": [
+      "Wrapped 'c' and 'd' in math mode"
+    ]
+  },
+  {
+    "index": 1543,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_10",
+    "changes": [
+      "Fixed spacing in inequalities",
+      "Corrected 'xy -plane' to 'xy$-plane'"
+    ]
+  },
+  {
+    "index": 1546,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_13",
+    "changes": [
+      "Fixed spacing in 'xy' -plane",
+      "Added missing parentheses around points"
+    ]
+  },
+  {
+    "index": 1549,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_16",
+    "changes": [
+      "Fixed 'square $ meters $' to 'square $meters$'"
+    ]
+  },
+  {
+    "index": 1550,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_17",
+    "error": "parse_fail: {\n  \"text\": \"A square map has a side length of $55$ inches, and $1$ inch on the map represents an actual distance of $13$ miles. A larger version of the same map is printed as a square with the side length $90\\%$ longer than the side length of the previous map. On the larger map, which of the follow",
+    "changes": []
+  },
+  {
+    "index": 1553,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_20",
+    "changes": [
+      "Fixed angle notation from 'angle' to '\\angle'"
+    ]
+  },
+  {
+    "index": 1554,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_21",
+    "changes": [
+      "Wrapped '270' in $...$",
+      "Wrapped '1' in $...$",
+      "Wrapped '3.28' in $...$"
+    ]
+  },
+  {
+    "index": 1562,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_7",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped $x^2$ in $...$"
+    ]
+  },
+  {
+    "index": 1563,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_8",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed run-together words and added missing spaces",
+      "Corrected choice A and C to specify the time correctly"
+    ]
+  },
+  {
+    "index": 1564,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_9",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped variable $y$ in $...$"
+    ]
+  },
+  {
+    "index": 1565,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_10",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1568,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_13",
+    "changes": [
+      "Wrapped triangle names in $...$"
+    ]
+  },
+  {
+    "index": 1569,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_14",
+    "changes": [
+      "Fixed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 1570,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_15",
+    "changes": [
+      "Wrapped '96' in $...$"
+    ]
+  },
+  {
+    "index": 1571,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_16",
+    "changes": [
+      "Wrapped numbers in $...$"
+    ]
+  },
+  {
+    "index": 1573,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_18",
+    "changes": [
+      "Wrapped (x, y) in $...$"
+    ]
+  },
+  {
+    "index": 1574,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_19",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1575,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_20",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped fractions in $...$",
+      "Wrapped $p$ and $w$ in $...$"
+    ]
+  },
+  {
+    "index": 1580,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_3",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 1581,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_4",
+    "changes": [
+      "Wrapped y-intercept in $...$",
+      "Wrapped coordinates in choices A, B, C, D in $...$"
+    ]
+  },
+  {
+    "index": 1582,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_6",
+    "changes": [
+      "Wrapped variables in $...$",
+      "Wrapped equations in $...$"
+    ]
+  },
+  {
+    "index": 1584,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_8",
+    "changes": [
+      "Wrapped 'p' and 'xy' in $...$"
+    ]
+  },
+  {
+    "index": 1586,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_10",
+    "changes": [
+      "Wrapped inequalities and variables in $...$"
+    ]
+  },
+  {
+    "index": 1588,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_12",
+    "changes": [
+      "Wrapped 'a' in $...$",
+      "Wrapped 'x' in $...$"
+    ]
+  },
+  {
+    "index": 1589,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_13",
+    "changes": [
+      "Corrected choice A to $4n + n + 15 = 100$"
+    ]
+  },
+  {
+    "index": 1590,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_14",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1592,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_16",
+    "changes": [
+      "Wrapped side lengths and angles in $...$"
+    ]
+  },
+  {
+    "index": 1598,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_22",
+    "error": "parse_fail: {\n  \"text\": \"The mass of object A is $416\\%$ of the mass of object B, and the mass of object A is $0.064\\%$ of the mass of object C. If the mass of object C is $p\\%$ of the mass of object B, what is the value of $\\\\frac{p}{1,000}$?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped percentages in $...$\"]\n}",
+    "changes": []
+  },
+  {
+    "index": 1601,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_3",
+    "changes": [
+      "Wrapped function definition in $...$",
+      "Replaced 'k (x)' with '$k(x)$'",
+      "Replaced 'k (4)' with '$k(4)$'",
+      "Replaced '0\\le x\\le10' with '$0 \\leq x \\leq 10$'"
+    ]
+  },
+  {
+    "index": 1602,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_4",
+    "changes": [
+      "Wrapped $0\\le x\\le5$ in $...$",
+      "Replaced $\\le$ with $\\leq$"
+    ]
+  },
+  {
+    "index": 1606,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_8",
+    "changes": [
+      "Wrapped 'f' in $...$ for consistency",
+      "Wrapped 'a' in $...$"
+    ]
+  },
+  {
+    "index": 1611,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_13",
+    "changes": [
+      "Wrapped 'x' in the question stem in $...$",
+      "Wrapped inequalities in choices A, B, C, and D in $...$"
+    ]
+  },
+  {
+    "index": 1612,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_14",
+    "changes": [
+      "Wrapped equations in choices A, B, C, and D in $...$"
+    ]
+  },
+  {
+    "index": 1614,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_16",
+    "changes": [
+      "Wrapped rectangle names in $...$"
+    ]
+  },
+  {
+    "index": 1616,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_18",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed superscript formatting"
+    ]
+  },
+  {
+    "index": 1618,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_20",
+    "changes": [
+      "Wrapped '3 x + 4 y = 0' in $...$",
+      "Wrapped '(x, y)' in $...$",
+      "Wrapped 'x + y' in $...$"
+    ]
+  },
+  {
+    "index": 1620,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_1",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to '$xy$-plane'",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1621,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_2",
+    "changes": [
+      "Wrapped 'h' and 'f(h)' in $...$"
+    ]
+  },
+  {
+    "index": 1623,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_4",
+    "changes": [
+      "Wrapped 'x' in 'x-intercepts' and 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1628,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_10",
+    "changes": [
+      "Corrected choice A to $f(x) = 33 + (8 - r)x$"
+    ]
+  },
+  {
+    "index": 1630,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_12",
+    "changes": [
+      "Wrapped numeric values and variable in $...$"
+    ]
+  },
+  {
+    "index": 1631,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_13",
+    "changes": [
+      "Wrapped fractions in $...$"
+    ]
+  },
+  {
+    "index": 1633,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_15",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Replaced 'x≥4' with 'x \\geq 4'"
+    ]
+  },
+  {
+    "index": 1634,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_16",
+    "changes": [
+      "Wrapped 'cubic centimeters' in $...$"
+    ]
+  },
+  {
+    "index": 1635,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_17",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1636,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_18",
+    "changes": [
+      "Wrapped function name in $...$"
+    ]
+  },
+  {
+    "index": 1638,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_20",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1639,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_21",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped choice expressions in $...$"
+    ]
+  },
+  {
+    "index": 1640,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_22",
+    "error": "parse_fail: {\n  \"text\": \"The mass of object A is $498\\%$ of the mass of object B, and the mass of object A is $0.830\\%$ of the mass of object C. If the mass of object C is $p\\%$ of the mass of object B, what is the value of $p$?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped percentages in $...$\"]\n}",
+    "changes": []
+  },
+  {
+    "index": 1643,
+    "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_3",
+    "changes": [
+      "Wrapped 'f' and 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1647,
+    "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_9",
+    "error": "parse_fail: {\n  \"text\": \"In triangle $ABC$, the measure of angle $A$ is $47^\\circ$, the measure of angle $B$ is $90^\\circ$, and the measure of angle $C$ is ($\\\\frac{k}{2}$)°. What is the value of $k$?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"43\"}, {\"id\": \"B\", \"text\": \"45\"}, {\"id\": \"C\", \"text\": \"86\"}, {\"id\": \"D\", \"t",
+    "changes": []
+  },
+  {
+    "index": 1651,
+    "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_13",
+    "changes": [
+      "Wrapped 'y' and 'x' in math mode in the context description",
+      "Replaced '≤' with '\\leq' in the inequality",
+      "Wrapped '(x,y)=(1, 58)' in math mode"
+    ]
+  },
+  {
+    "index": 1652,
+    "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_14",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Corrected '146 r' to '146r'"
+    ]
+  },
+  {
+    "index": 1655,
+    "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_17",
+    "changes": [
+      "Wrapped 'f' in math mode",
+      "Wrapped 'xy' in math mode"
+    ]
+  },
+  {
+    "index": 1657,
+    "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_19",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1659,
+    "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_21",
+    "changes": [
+      "Wrapped parallelogram names in $...$",
+      "Wrapped '2' in $...$"
+    ]
+  },
+  {
+    "index": 1662,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_2",
+    "changes": [
+      "Wrapped 'x' and 'f(x)' in $...$"
+    ]
+  },
+  {
+    "index": 1664,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_4",
+    "changes": [
+      "Wrapped 'b' in $...$",
+      "Wrapped 'x' in $...$",
+      "Wrapped 'y' in $...$",
+      "Wrapped 'b' in $...$ in the choices"
+    ]
+  },
+  {
+    "index": 1670,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_10",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1672,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_12",
+    "changes": [
+      "Wrapped 'f' and 'x' in math mode",
+      "Wrapped '91 more than x' in math mode"
+    ]
+  },
+  {
+    "index": 1673,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_13",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped variable $c$ in $...$"
+    ]
+  },
+  {
+    "index": 1674,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_14",
+    "changes": [
+      "Wrapped 'a' in math mode",
+      "Wrapped '(x, y)' in math mode",
+      "Wrapped 'xy-plane' in math mode"
+    ]
+  },
+  {
+    "index": 1676,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_16",
+    "changes": [
+      "Wrapped 'f' and 'g' in $...$",
+      "Added space after 'only' in choice A",
+      "Added space after 'only' in choice B",
+      "Added space after 'Neither' in choice D"
+    ]
+  },
+  {
+    "index": 1679,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_19",
+    "changes": [
+      "Wrapped '96' in $...$",
+      "Wrapped 'k' in $...$"
+    ]
+  },
+  {
+    "index": 1680,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_20",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$",
+      "Replaced 'x\\le5' with 'x \\leq 5'"
+    ]
+  },
+  {
+    "index": 1681,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_21",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed missing space after 'of' in the question stem"
+    ]
+  },
+  {
+    "index": 1683,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_1",
+    "changes": [
+      "Wrapped 'r' in $...$",
+      "Wrapped '-8' in $...$",
+      "Wrapped '(0, 60)' in $...$",
+      "Wrapped equations in choices A, B, C, and D in $...$"
+    ]
+  },
+  {
+    "index": 1686,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_4",
+    "changes": [
+      "Wrapped 'x' in choice A in $...$",
+      "Wrapped 'x' in choice B in $...$",
+      "Wrapped 'x' in choice D in $...$"
+    ]
+  },
+  {
+    "index": 1688,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_6",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1689,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_7",
+    "changes": [
+      "Fixed spacing and added missing $...$ around 'x > 0'",
+      "Fixed choice C to remove extraneous '·'",
+      "Fixed choice D to correctly format the exponent"
+    ]
+  },
+  {
+    "index": 1691,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_9",
+    "changes": [
+      "Added missing parentheses around the coordinates of the y-intercept"
+    ]
+  },
+  {
+    "index": 1693,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_11",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1694,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_12",
+    "error": "parse_fail: {\n  \"text\": \"Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y = 0.67x + 2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larv",
+    "changes": []
+  },
+  {
+    "index": 1697,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_15",
+    "changes": [
+      "Replaced 'x ≤ 10' with '$x \\leq 10$'"
+    ]
+  },
+  {
+    "index": 1699,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_17",
+    "changes": [
+      "Added space after comma in 'classified by size and sports team'"
+    ]
+  },
+  {
+    "index": 1700,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_18",
+    "changes": [
+      "Added space after period in the second sentence"
+    ]
+  },
+  {
+    "index": 1702,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_20",
+    "changes": [
+      "Wrapped '0.33 x' in $...$"
+    ]
+  },
+  {
+    "index": 1703,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_21",
+    "changes": [
+      "Fixed ≤ to \\leq"
+    ]
+  },
+  {
+    "index": 1705,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_1",
+    "changes": [
+      "Wrapped 'y' and 'x' in math mode"
+    ]
+  },
+  {
+    "index": 1709,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_5",
+    "changes": [
+      "Wrapped $x \\leq 5$ in $...$"
+    ]
+  },
+  {
+    "index": 1712,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_8",
+    "changes": [
+      "Wrapped radius in $...$"
+    ]
+  },
+  {
+    "index": 1714,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_10",
+    "changes": [
+      "Wrapped 'h' in $...$ in the function definition",
+      "Wrapped 'xy' in $...$ in 'xy-plane'",
+      "Wrapped '(-6, 0)' in $...$"
+    ]
+  },
+  {
+    "index": 1718,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_14",
+    "changes": [
+      "Fixed superscript formatting: '4x^{2}' → '4x^2'"
+    ]
+  },
+  {
+    "index": 1722,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_19",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1724,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_21",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 1725,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_22",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1727,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_2",
+    "changes": [
+      "Corrected choice A to $8x^2 + 48$",
+      "Corrected choice B to $8x^2 + 14$",
+      "Corrected choice C to $8x^2 + 6$",
+      "Corrected choice D to $8x^2 + 2$"
+    ]
+  },
+  {
+    "index": 1728,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_3",
+    "changes": [
+      "Wrapped 'f' in $...$",
+      "Wrapped 'y = f(x)' in $...$",
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped '(0, 7)' in $...$"
+    ]
+  },
+  {
+    "index": 1730,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_6",
+    "changes": [
+      "Wrapped bare numbers and expressions in $...$",
+      "Replaced '160 *' with '160 \\times' in choices A and B"
+    ]
+  },
+  {
+    "index": 1732,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_8",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1733,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_10",
+    "error": "parse_fail: {\n  \"text\": \"In triangle $ABC$, the measure of angle $A$ is $53^\\circ$, the measure of angle $B$ is $90^\\circ$, and the measure of angle $C$ is ($\\\\frac{k}{2}$)°. What is the value of $k$?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"37\"}, {\"id\": \"B\", \"text\": \"45\"}, {\"id\": \"C\", \"text\": \"74\"}, {\"id\": \"D\", \"t",
+    "changes": []
+  },
+  {
+    "index": 1734,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_11",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode"
+    ]
+  },
+  {
+    "index": 1736,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_13",
+    "changes": [
+      "Added missing space after 'after' in the question stem",
+      "Replaced 'day' with '1 day' in choice C",
+      "Replaced '1l' with '11' in choice D"
+    ]
+  },
+  {
+    "index": 1737,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_14",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Corrected '112 r' to '112r' in the question stem"
+    ]
+  },
+  {
+    "index": 1742,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_19",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped '8k' in $...$"
+    ]
+  },
+  {
+    "index": 1744,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_21",
+    "changes": [
+      "Wrapped parallelogram names in $...$",
+      "Wrapped '2' in $...$"
+    ]
+  },
+  {
+    "index": 1746,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_1",
+    "changes": [
+      "Wrapped 'y' and 'x' in math mode"
+    ]
+  },
+  {
+    "index": 1749,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_4",
+    "changes": [
+      "Wrapped 'p' in $...$ in the question stem",
+      "Replaced 'x\\le5' with $x \\leq 5$",
+      "Wrapped 'a' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1750,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_5",
+    "changes": [
+      "Wrapped monetary values in $...$"
+    ]
+  },
+  {
+    "index": 1752,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_7",
+    "changes": [
+      "Wrapped 'r' and 'w' in the question stem with $...$"
+    ]
+  },
+  {
+    "index": 1755,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_10",
+    "changes": [
+      "Wrapped 'h' in $...$ in the function definition",
+      "Wrapped 'xy' in $...$ in 'xy-plane'",
+      "Wrapped '(-3, 0)' in $...$"
+    ]
+  },
+  {
+    "index": 1762,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_17",
+    "changes": [
+      "Wrapped 'AC = 8' in $...$"
+    ]
+  },
+  {
+    "index": 1764,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_20",
+    "changes": [
+      "Fixed spacing in choice C"
+    ]
+  },
+  {
+    "index": 1765,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_21",
+    "changes": [
+      "Wrapped 'f' in $...$ in the function definition",
+      "Wrapped 'a', 'b', and 'c' in $...$",
+      "Wrapped 'xy' in $...$ in 'xy-plane'",
+      "Wrapped '(10, 0)' and '(-5, 0)' in $...$"
+    ]
+  },
+  {
+    "index": 1766,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_22",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1767,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_1",
+    "changes": [
+      "Wrapped bare equations in $...$"
+    ]
+  },
+  {
+    "index": 1772,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_6",
+    "changes": [
+      "Wrapped angle symbols in $...$"
+    ]
+  },
+  {
+    "index": 1773,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_7",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1777,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_11",
+    "changes": [
+      "Wrapped numbers and math expressions in $...$"
+    ]
+  },
+  {
+    "index": 1778,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_12",
+    "changes": [
+      "Wrapped $t$ in the question stem in $...$"
+    ]
+  },
+  {
+    "index": 1780,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14",
+    "changes": [
+      "Wrapped 'L' in semicircle L in $...$",
+      "Wrapped 'K' in point K in $...$",
+      "Wrapped '546 + 676π' in $...$",
+      "Wrapped '364 + 676π' in $...$",
+      "Wrapped '546 + 338π' in $...$",
+      "Wrapped '364 + 338π' in $...$"
+    ]
+  },
+  {
+    "index": 1781,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_15",
+    "changes": [
+      "Wrapped 'K' in $...$ in the first sentence"
+    ]
+  },
+  {
+    "index": 1782,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_16",
+    "changes": [
+      "Wrapped function in $...$",
+      "Wrapped $f(5)$ in $...$"
+    ]
+  },
+  {
+    "index": 1783,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_17",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 1785,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_19",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Corrected superscript in choice C and D"
+    ]
+  },
+  {
+    "index": 1787,
+    "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_21",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Changed 'xy-plane' to '$xy$-plane'",
+      "Wrapped point coordinates in $...$"
+    ]
+  },
+  {
+    "index": 1790,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_2",
+    "changes": [
+      "Wrapped '250' and 'n' in $...$"
+    ]
+  },
+  {
+    "index": 1793,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_5",
+    "changes": [
+      "Wrapped radius in $...$"
+    ]
+  },
+  {
+    "index": 1795,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_7",
+    "error": "parse_fail: {\n  \"text\": \"An exponential function $f$ is defined by $f(x) = c^x$, where $c$ is a constant greater than 1. If $f(7) = 9 \\cdot f(5)$, what is the value of $c$?\",\n  \"choices\": [],\n  \"changes\": [\n    \"Wrapped math expressions in $...$\",\n    \"Fixed typo: 'defned' to 'defined'\",\n    \"Fixed formatting o",
+    "changes": []
+  },
+  {
+    "index": 1796,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_8",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 1797,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_9",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped points in $...$"
+    ]
+  },
+  {
+    "index": 1798,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_10",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped variable $L$ in $...$",
+      "Wrapped variable $H$ in $...$",
+      "Wrapped variable $L$ in $...$ in choice D"
+    ]
+  },
+  {
+    "index": 1801,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_13",
+    "changes": [
+      "Wrapped 'Q' in $...$"
+    ]
+  },
+  {
+    "index": 1802,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_14",
+    "error": "parse_fail: {\n  \"text\": \"A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was $6950\\%$ of the number of postdoctoral students surveyed and the number of graduate students surveyed was $35\\%$ of the number of undergraduate s",
+    "changes": []
+  },
+  {
+    "index": 1806,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_18",
+    "changes": [
+      "Wrapped 'f' and 'g' in $...$"
+    ]
+  },
+  {
+    "index": 1807,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_19",
+    "changes": [
+      "Wrapped '3x' in $...$",
+      "Wrapped 'y' in $...$"
+    ]
+  },
+  {
+    "index": 1809,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_21",
+    "changes": [
+      "Wrapped 'a' in math mode",
+      "Wrapped 'g(x)' in math mode",
+      "Wrapped 'y' in math mode",
+      "Wrapped 'xy' in math mode"
+    ]
+  },
+  {
+    "index": 1810,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_22",
+    "changes": [
+      "Wrapped points and segments in $...$"
+    ]
+  },
+  {
+    "index": 1811,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_1",
+    "changes": [
+      "Wrapped bare equations in $...$"
+    ]
+  },
+  {
+    "index": 1812,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_2",
+    "changes": [
+      "Wrapped coordinates in $...$"
+    ]
+  },
+  {
+    "index": 1815,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_5",
+    "changes": [
+      "Added missing closing parenthesis in the question stem"
+    ]
+  },
+  {
+    "index": 1817,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_8",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped point coordinates in $...$"
+    ]
+  },
+  {
+    "index": 1821,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_12",
+    "changes": [
+      "Wrapped $t$ in math mode in the question stem",
+      "Added spaces around + in choice A",
+      "Added spaces around + in choice B",
+      "Added spaces around + in choice C",
+      "Added spaces around + in choice D"
+    ]
+  },
+  {
+    "index": 1823,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_14",
+    "changes": [
+      "Added space around \\times in choice B",
+      "Added space around \\times in choice C",
+      "Added space around \\times in choice D"
+    ]
+  },
+  {
+    "index": 1824,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_15",
+    "changes": [
+      "Wrapped 'K' in $...$ in the first sentence"
+    ]
+  },
+  {
+    "index": 1827,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_18",
+    "changes": [
+      "Fixed 'xy-plane' to 'xy$-plane'"
+    ]
+  },
+  {
+    "index": 1829,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_20",
+    "changes": [
+      "Fixed 'xy-plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 1830,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_21",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1833,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_2",
+    "changes": [
+      "Wrapped inequality in $...$",
+      "Replaced ≤ with \\leq",
+      "Wrapped variable names in $...$"
+    ]
+  },
+  {
+    "index": 1835,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_4",
+    "changes": [
+      "Wrapped line names in $...$ for math formatting",
+      "Wrapped equation in $...$ for math formatting"
+    ]
+  },
+  {
+    "index": 1838,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_7",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1839,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_8",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed inline math variables"
+    ]
+  },
+  {
+    "index": 1840,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_9",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1843,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_12",
+    "changes": [
+      "Fixed spacing around variable names"
+    ]
+  },
+  {
+    "index": 1846,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_15",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1849,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_18",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1850,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_19",
+    "changes": [
+      "Wrapped 'x' in $...$"
+    ]
+  },
+  {
+    "index": 1851,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_20",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped $b$ in $...$"
+    ]
+  },
+  {
+    "index": 1852,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_21",
+    "changes": [
+      "Wrapped 'f' and 'g' in $...$",
+      "Wrapped 'a' and 'b' in $...$",
+      "Wrapped 'y = f(x)' and 'y = g(x)' in $...$",
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'y' in $...$"
+    ]
+  },
+  {
+    "index": 1853,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_22",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 1858,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_5",
+    "changes": [
+      "Wrapped angle symbols in $...$"
+    ]
+  },
+  {
+    "index": 1859,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_6",
+    "changes": [
+      "Wrapped 'x' in the fraction in $...$"
+    ]
+  },
+  {
+    "index": 1865,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_12",
+    "changes": [
+      "Wrapped 'M' and 'N' in $...$"
+    ]
+  },
+  {
+    "index": 1869,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_16",
+    "changes": [
+      "Wrapped 'g' and 'h' in $...$",
+      "Wrapped 'g(x) \\cdot h(x)' in $...$"
+    ]
+  },
+  {
+    "index": 1870,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_17",
+    "error": "parse_fail: {\n  \"text\": \"The height of a right circular cylinder is 6 inches longer than its radius, and the surface area of the cylinder is $1,080\\pi$ square inches. What is the cylinder's radius, in inches?\",\n  \"choices\": [{\"id\": \"A\", \"text\": \"15\"}, {\"id\": \"B\", \"text\": \"18\"}, {\"id\": \"C\", \"text\": \"21\"}, {\"id\":",
+    "changes": []
+  },
+  {
+    "index": 1873,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_20",
+    "changes": [
+      "Wrapped math expressions in $...$"
+    ]
+  },
+  {
+    "index": 1875,
+    "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_22",
+    "changes": [
+      "Wrapped bare equation in $...$",
+      "Wrapped choice A in $...$",
+      "Wrapped choice C in $...$"
+    ]
+  },
+  {
+    "index": 1877,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_2",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 1878,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_3",
+    "changes": [
+      "Wrapped 'h' in $...$ in the question stem",
+      "Wrapped inequalities in $...$ in all choices"
+    ]
+  },
+  {
+    "index": 1879,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_4",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $30x$ in $...$"
+    ]
+  },
+  {
+    "index": 1883,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_8",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 1885,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_10",
+    "changes": [
+      "Wrapped 'f' in math mode in the question stem",
+      "Wrapped each choice in math mode"
+    ]
+  },
+  {
+    "index": 1887,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_12",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 1890,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_15",
+    "changes": [
+      "Wrapped 'rx + ty \\geq -77' in $...$",
+      "Wrapped 'r' and 't' in $...$",
+      "Wrapped 'r + t' in $...$"
+    ]
+  },
+  {
+    "index": 1891,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_16",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Wrapped $c$ in $...$"
+    ]
+  },
+  {
+    "index": 1895,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_20",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 1896,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_21",
+    "changes": [
+      "Wrapped 'f' and 'n' in $...$",
+      "Replaced 'n $\\ge$ 25' with '$n \\geq 25$'"
+    ]
+  },
+  {
+    "index": 1897,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_22",
+    "changes": [
+      "Wrapped '28p' in $...$"
+    ]
+  },
+  {
+    "index": 1901,
+    "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_4",
+    "error": "parse_fail: {\n  \"text\": \"For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\degree$ F), when the air temperature is $27\\degree$ F and the wind speed is 20 miles per hour (mph)?",
+    "changes": []
+  },
+  {
+    "index": 1902,
+    "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_5",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 1904,
+    "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_7",
+    "changes": [
+      "Wrapped 'p(x)' and 'x' in $...$"
+    ]
+  },
+  {
+    "index": 1905,
+    "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_8",
+    "changes": [
+      "Wrapped angle variables in $...$",
+      "Fixed \\sin and \\cos to be in math mode"
+    ]
+  },
+  {
+    "index": 1914,
+    "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_17",
+    "changes": [
+      "Wrapped 'pedes' in $...$"
+    ]
+  },
+  {
+    "index": 1918,
+    "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_21",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 1920,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_1",
+    "changes": [
+      "Wrapped inequality symbols in $...$ for choices A, B, C, and D"
+    ]
+  },
+  {
+    "index": 1922,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_3",
+    "changes": [
+      "Wrapped $x$ in $...$ in the function definition",
+      "Replaced $x\\le5$ with $x \\leq 5$",
+      "Wrapped $f(2)$ in $...$ in the statement to be interpreted"
+    ]
+  },
+  {
+    "index": 1926,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_7",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped center coordinates in $...$",
+      "Wrapped point coordinates in $...$"
+    ]
+  },
+  {
+    "index": 1927,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_8",
+    "changes": [
+      "Wrapped 'xy -plane' in $...$"
+    ]
+  },
+  {
+    "index": 1929,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_10",
+    "changes": [
+      "Wrapped 'x' in $...$ in the first sentence",
+      "Fixed superscript in $x^2$"
+    ]
+  },
+  {
+    "index": 1930,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_11",
+    "changes": [
+      "Wrapped $\\$3,270$ in $...$",
+      "Wrapped $h$ and $w$ in $...$"
+    ]
+  },
+  {
+    "index": 1931,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_12",
+    "changes": [
+      "Wrapped 'h' in $...$ in the function definition",
+      "Fixed 'xy -plane' to 'xy$-plane'"
+    ]
+  },
+  {
+    "index": 1932,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_13",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 1936,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_17",
+    "changes": [
+      "Wrapped 'w' in $...$ in the question stem",
+      "Wrapped 'P' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1939,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_20",
+    "changes": [
+      "Fixed superscript in the surface area formula"
+    ]
+  },
+  {
+    "index": 1941,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_22",
+    "error": "parse_fail: {\n  \"text\": \"A researcher investigated two species of mites: a predator and its prey. At the start of a week, there was an equal number of the two species. At the end of the week, the number of prey had increased by $1,900\\%$ of the number of prey at the start of the week, and the number of predator",
+    "changes": []
+  },
+  {
+    "index": 1947,
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_6",
+    "changes": [
+      "Wrapped variables in $...$",
+      "Fixed 'lf' to 'If'",
+      "Wrapped 'p' in $...$"
+    ]
+  },
+  {
+    "index": 1957,
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_16",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 1962,
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_21",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 1963,
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_22",
+    "changes": [
+      "Wrapped angle variables in $...$"
+    ]
+  },
+  {
+    "index": 1965,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_2",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Replaced \\le with \\leq"
+    ]
+  },
+  {
+    "index": 1967,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_4",
+    "changes": [
+      "Wrapped 'x' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1969,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_6",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped coordinates in $...$"
+    ]
+  },
+  {
+    "index": 1970,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_7",
+    "changes": [
+      "Wrapped coordinates in $...$"
+    ]
+  },
+  {
+    "index": 1973,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_10",
+    "changes": [
+      "Wrapped '3,270' in $...$",
+      "Changed 'lf' to 'If'",
+      "Wrapped 'h' and 'w' in $...$"
+    ]
+  },
+  {
+    "index": 1974,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_11",
+    "changes": [
+      "Fixed run-together words in choices"
+    ]
+  },
+  {
+    "index": 1978,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_15",
+    "changes": [
+      "Wrapped 'w' in $...$",
+      "Wrapped 'P' in $...$"
+    ]
+  },
+  {
+    "index": 1979,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_16",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 1980,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_17",
+    "changes": [
+      "Wrapped 'x' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 1981,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_18",
+    "changes": [
+      "Fixed superscript in surface area formula: $r^2$"
+    ]
+  },
+  {
+    "index": 1984,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_21",
+    "changes": [
+      "Wrapped angle Z in $...$ and added degree symbol in $...$"
+    ]
+  },
+  {
+    "index": 1991,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_6",
+    "changes": [
+      "Wrapped 'f' and 'y= f(x)' in $...$"
+    ]
+  },
+  {
+    "index": 1992,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_7",
+    "changes": [
+      "Wrapped '17.700' in $...$",
+      "Wrapped '1,760' in $...$"
+    ]
+  },
+  {
+    "index": 1994,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_9",
+    "changes": [
+      "Wrapped bare math in $...$",
+      "Fixed superscript in $7b^2$"
+    ]
+  },
+  {
+    "index": 1995,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_10",
+    "changes": [
+      "Wrapped equation in $...$",
+      "Wrapped choices in $...$"
+    ]
+  },
+  {
+    "index": 1996,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_11",
+    "error": "parse_fail: {\n  \"text\": \"Circle $K$ has a radius of 8 millimeters (mm). Circle $L$ has an area of $144\\pi$ mm². What is the total area, in mm², of circles $K$ and $L$?\",\n  \"choices\": [\n    {\"id\": \"A\", \"text\": \"$40\\pi$\"},\n    {\"id\": \"B\", \"text\": \"$20\\pi$\"},\n    {\"id\": \"C\", \"text\": \"$80\\pi$\"},\n    {\"id\": \"D\", \"te",
+    "changes": []
+  },
+  {
+    "index": 1997,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_12",
+    "changes": [
+      "Wrapped bare equation in $...$"
+    ]
+  },
+  {
+    "index": 1999,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_14",
+    "changes": [
+      "Wrapped 'xy' in $...$",
+      "Wrapped points in $...$"
+    ]
+  },
+  {
+    "index": 2000,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_15",
+    "changes": [
+      "Wrapped triangle name and angle in $...$"
+    ]
+  },
+  {
+    "index": 2002,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_17",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped coordinates in $...$"
+    ]
+  },
+  {
+    "index": 2007,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_22",
+    "changes": [
+      "Wrapped variables in $...$"
+    ]
+  },
+  {
+    "index": 2008,
+    "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_2",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 2013,
+    "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_7",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 2014,
+    "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_8",
+    "changes": [
+      "Wrapped 'k' and 'p' in math mode"
+    ]
+  },
+  {
+    "index": 2016,
+    "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_10",
+    "changes": [
+      "Wrapped '°F' in $...$"
+    ]
+  },
+  {
+    "index": 2017,
+    "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_11",
+    "error": "parse_fail: {\n  \"text\": \"In a right triangle, the measure of one of the acute angles is $14^\\circ$. What is the measure of the other acute angle, in degrees?\\n(Disregard the degree symbol when entering your answer.)\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped angle measure in $...$\"]\n}",
+    "changes": []
+  },
+  {
+    "index": 2019,
+    "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_13",
+    "changes": [
+      "Wrapped equation in question stem in $...$"
+    ]
+  },
+  {
+    "index": 2025,
+    "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_19",
+    "changes": [
+      "Wrapped 'xy' in $...$ for 'xy-plane'",
+      "Wrapped points in $...$"
+    ]
+  },
+  {
+    "index": 2028,
+    "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_22",
+    "changes": [
+      "Wrapped 'f' in $...$ in the function definition",
+      "Wrapped 'xy' in $...$ in the graph description",
+      "Wrapped '0' and '13' in $...$ in the point description",
+      "Wrapped 'f(0)' in $...$ in the question"
+    ]
+  },
+  {
+    "index": 2030,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_2",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 2032,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_4",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 2033,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_5",
+    "changes": [
+      "Wrapped 'x' in LaTeX in the question stem",
+      "Wrapped equations in LaTeX in all choices"
+    ]
+  },
+  {
+    "index": 2035,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_7",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 2036,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_8",
+    "error": "parse_fail: {\n  \"text\": \"Triangles $ABC$ and $DEF$ are congruent, where $A$ corresponds to $D$, and $B$ and $E$ are right angles. The measure of angle $A$ is $64^\\circ$. What is the measure, in degrees, of angle $F$?\",\n  \"choices\": [],\n  \"changes\": [\"Wrapped triangle names and angle measures in $...$\"]\n}",
+    "changes": []
+  },
+  {
+    "index": 2039,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_12",
+    "changes": [
+      "Wrapped 'x' in the question stem with $...$",
+      "Corrected choice A to $150 \\leq x \\leq 180$",
+      "Corrected choice B to $150 \\leq x \\leq 180$",
+      "Corrected choice C to $150 \\leq x \\leq 180$",
+      "Corrected choice D to $150 \\leq x \\leq 180$"
+    ]
+  },
+  {
+    "index": 2042,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_15",
+    "changes": [
+      "Wrapped equations in $...$",
+      "Wrapped $(x, y)$ in $...$",
+      "Wrapped $y$ in $...$"
+    ]
+  },
+  {
+    "index": 2045,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_18",
+    "changes": [
+      "Wrapped inequalities in $...$"
+    ]
+  },
+  {
+    "index": 2048,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_21",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 2054,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_5",
+    "changes": [
+      "Wrapped 'f' in $...$",
+      "Wrapped 'x' in $...$",
+      "Changed '\\ge' to '\\geq'"
+    ]
+  },
+  {
+    "index": 2055,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_6",
+    "changes": [
+      "Wrapped the equation in $...$"
+    ]
+  },
+  {
+    "index": 2056,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_7",
+    "changes": [
+      "Wrapped rectangle and triangle names in $...$"
+    ]
+  },
+  {
+    "index": 2059,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_10",
+    "error": "parse_fail: {\n  \"text\": \"An exponential function $f$ is defined by $f(x)=c^{x}$, where $c$ is a constant greater than 1. If $f(8)=49 \\cdot f(6)$, what is the value of $c$?\",\n  \"choices\": [],\n  \"changes\": [\n    \"Wrapped 'f' in $...$\",\n    \"Replaced '•' with '\\cdot' for proper multiplication symbol\"\n  ]\n}",
+    "changes": []
+  },
+  {
+    "index": 2060,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_11",
+    "changes": [
+      "Wrapped 'h' and 'v' in $...$"
+    ]
+  },
+  {
+    "index": 2065,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_16",
+    "changes": [
+      "Wrapped equation in $...$"
+    ]
+  },
+  {
+    "index": 2066,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_17",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$"
+    ]
+  },
+  {
+    "index": 2067,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_18",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 2070,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_21",
+    "changes": [
+      "Wrapped bare equations in $...$"
+    ]
+  },
+  {
+    "index": 2071,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_22",
+    "changes": [
+      "Wrapped points and segments in $...$"
+    ]
+  },
+  {
+    "index": 2075,
+    "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_4",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$"
+    ]
+  },
+  {
+    "index": 2079,
+    "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_8",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 2082,
+    "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_11",
+    "changes": [
+      "Wrapped numeric values in $...$",
+      "Wrapped variable names in $...$"
+    ]
+  },
+  {
+    "index": 2084,
+    "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_13",
+    "changes": [
+      "Wrapped 'b' in $...$",
+      "Wrapped 'x' in $...$",
+      "Wrapped 'y' in $...$",
+      "Wrapped 'b' in $...$ in the choices"
+    ]
+  },
+  {
+    "index": 2085,
+    "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_14",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped 'h' in $...$"
+    ]
+  },
+  {
+    "index": 2090,
+    "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_19",
+    "changes": [
+      "Wrapped 'y' and 'xy' in $...$"
+    ]
+  },
+  {
+    "index": 2092,
+    "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_21",
+    "error": "parse_fail: {\n  \"text\": \"The density of a certain type of marble stone is $2.6000$ grams per cubic centimeter. If a sample of this type of stone is in the shape of a sphere with a diameter of $31.000$ centimeters, what is the mass of this sample, in grams, to the nearest whole number? (Use $3.14159$ for $\\pi$.)",
+    "changes": []
+  },
+  {
+    "index": 2100,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_7",
+    "changes": [
+      "Added space after commas in dates",
+      "Wrapped 'x' in $...$ in the question stem"
+    ]
+  },
+  {
+    "index": 2101,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_8",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 2105,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_12",
+    "changes": [
+      "Wrapped 'xy-plane' in $...$",
+      "Wrapped points in $...$"
+    ]
+  },
+  {
+    "index": 2110,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_18",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 2111,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_19",
+    "changes": [
+      "Wrapped 'x -intercept' in $...$",
+      "Wrapped 'xy -plane' in $...$"
+    ]
+  },
+  {
+    "index": 2113,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_21",
+    "changes": [
+      "Wrapped 't' in $...$ for math formatting",
+      "Changed '0\\le t\\le7' to '0 \\leq t \\leq 7' for proper math formatting"
+    ]
+  },
+  {
+    "index": 2117,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_3",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 2118,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_4",
+    "changes": [
+      "Wrapped 'y' and 'x' in $...$"
+    ]
+  },
+  {
+    "index": 2122,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_8",
+    "changes": [
+      "Wrapped numeric values in $...$"
+    ]
+  },
+  {
+    "index": 2124,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_10",
+    "changes": [
+      "Wrapped '37' in $...$"
+    ]
+  },
+  {
+    "index": 2125,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_11",
+    "changes": [
+      "Wrapped 'x' and 'y' in math mode"
+    ]
+  },
+  {
+    "index": 2128,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_14",
+    "changes": [
+      "Wrapped 'xy' in $...$",
+      "Wrapped 'h' in $...$"
+    ]
+  },
+  {
+    "index": 2132,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_18",
+    "changes": [
+      "Wrapped 'A' and 'w' in math mode",
+      "Fixed formatting of choice A to use \\left( and \\right)"
+    ]
+  },
+  {
+    "index": 2133,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_19",
+    "changes": [
+      "Wrapped 'y -intercept' and 'xy -plane' in $...$"
+    ]
+  },
+  {
+    "index": 2134,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_20",
+    "changes": [
+      "Wrapped bare math in $...$"
+    ]
+  },
+  {
+    "index": 2135,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_21",
+    "error": "parse_fail: {\n  \"text\": \"The density of a certain type of marble stone is $2.3000$ grams per cubic centimeter. If a sample of this type of stone is in the shape of a sphere with a diameter of $33.000$ centimeters, what is the mass of this sample, in grams, to the nearest whole number? (Use $3.14159$ for $\\pi$.)",
+    "changes": []
+  },
+  {
+    "index": 2138,
+    "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_2",
+    "changes": [
+      "Fixed 'xy -plane' to '$xy$-plane'"
+    ]
+  },
+  {
+    "index": 2141,
+    "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_6",
+    "changes": [
+      "Added missing space between 'functions' and 'f'"
+    ]
+  },
+  {
+    "index": 2143,
+    "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_8",
+    "changes": [
+      "Wrapped 'k' and 'j' in $...$ for math formatting",
+      "Changed 'xy -plane' to 'xy$-plane'"
+    ]
+  },
+  {
+    "index": 2144,
+    "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_9",
+    "changes": [
+      "Wrapped 'xy -plane' in $...$"
+    ]
+  },
+  {
+    "index": 2149,
+    "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_15",
+    "changes": [
+      "Wrapped $x > 4.0$ in $...$"
+    ]
+  },
+  {
+    "index": 2150,
+    "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_16",
+    "changes": [
+      "Wrapped 'xy' in $...$ to format as $xy$-plane",
+      "Wrapped 'x' in $...$ to format as $x$-intercept",
+      "Wrapped 'y' in $...$ to format as $y$-intercept"
+    ]
+  },
+  {
+    "index": 2151,
+    "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_17",
+    "changes": [
+      "Wrapped 'x' in $...$ in the question stem",
+      "Replaced 'x\\ge4' with 'x \\geq 4'"
+    ]
+  },
+  {
+    "index": 2152,
+    "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_18",
+    "changes": [
+      "Wrapped 'xy' in $...$"
+    ]
+  },
+  {
+    "index": 2155,
+    "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_21",
+    "changes": [
+      "Wrapped '310' in $...$",
+      "Wrapped '1' and '3.28' in $...$"
+    ]
+  }
+]

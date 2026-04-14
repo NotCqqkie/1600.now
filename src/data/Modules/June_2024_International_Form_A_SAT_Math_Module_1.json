@@ -6,24 +6,24 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "x +5 y =21\ny =3\nWhat is the solution (x, y) to the given system of equations?",
+    "passage": "$x + 5y = 21$\n$y = 3$\nWhat is the solution $(x, y)$ to the given system of equations?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(3, 7)"
+        "text": "$(3, 7)$"
       },
       {
         "label": "B",
-        "text": "(3, $\\frac{7}{3}$)"
+        "text": "$(3, \\frac{7}{3})$"
       },
       {
         "label": "C",
-        "text": "($\\frac{8}{5}$, 3)"
+        "text": "$(\\frac{8}{5}, 3)$"
       },
       {
         "label": "D",
-        "text": "(2, 3)"
+        "text": "$(2, 3)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -38,24 +38,24 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "(v -12)(v -3)=0\nWhat are all possible solutions to the given equation?",
+    "passage": "$(v - 12)(v - 3) = 0$\nWhat are all possible solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "-12 and 3"
+        "text": "$-12$ and $3$"
       },
       {
         "label": "B",
-        "text": "-12 and 9"
+        "text": "$-12$ and $9$"
       },
       {
         "label": "C",
-        "text": "-3 and 12"
+        "text": "$-3$ and $12$"
       },
       {
         "label": "D",
-        "text": "and 12"
+        "text": "$3$ and $12$"
       }
     ],
     "is_fill_in_blank": false,
@@ -70,7 +70,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by f (x)= 135 x - 20. What is the value of f (x) when x = 4?",
+    "passage": "The function f is defined by $f(x) = 135x - 20$. What is the value of $f(x)$ when $x = 4$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -85,24 +85,24 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "For the linear function f, the graph of y = f (x) in the xy -plane has a slope of 51 and passes through the point (0, 0). Which equation defines f?",
+    "passage": "For the linear function $f$, the graph of $y = f(x)$ in the $xy$-plane has a slope of 51 and passes through the point $(0, 0)$. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "f(x)= 51 x"
+        "text": "$f(x) = 51x$"
       },
       {
         "label": "B",
-        "text": "f(x)=34 x"
+        "text": "$f(x) = 34x$"
       },
       {
         "label": "C",
-        "text": "f(x)= 17 x"
+        "text": "$f(x) = 17x$"
       },
       {
         "label": "D",
-        "text": "f(x)= x"
+        "text": "$f(x) = x$"
       }
     ],
     "is_fill_in_blank": false,
@@ -122,19 +122,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "q=135"
+        "text": "$q = 135$"
       },
       {
         "label": "B",
-        "text": "r=135"
+        "text": "$r = 135$"
       },
       {
         "label": "C",
-        "text": "s=135"
+        "text": "$s = 135$"
       },
       {
         "label": "D",
-        "text": "t=135"
+        "text": "$t = 135$"
       }
     ],
     "is_fill_in_blank": false,
@@ -156,7 +156,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by f (x)=-5 x 2 - 7. What is the value of f (-1)?",
+    "passage": "The function f is defined by $f(x) = -5x^2 - 7$. What is the value of $f(-1)$?",
     "question_text": null,
     "choices": [
       {
@@ -185,10 +185,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "y =-0.5\ny = x ²+10 x + a\nIn the given system of equations, a is a positive integer constant, The system has no real solutions. What is the least possible value of a?",
+    "passage": "$y = -0.5$\n$y = x^2 + 10x + a$\nIn the given system of equations, $a$ is a positive integer constant. The system has no real solutions. What is the least possible value of $a$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -203,7 +203,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "The expression (6 x 2) (3 x 7) is equivalent to bx 9, where b is a constant. What is the value of b?",
+    "passage": "The expression $(6x^2)(3x^7)$ is equivalent to $bx^9$, where $b$ is a constant. What is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -215,27 +215,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "A teacher is creating an assignment worth 28 points, The assignment will consist ofquestions worth 1 point and questions worth 2 points, Which equation represents thissituation, where x represents the number of 1-point questions and y represents the numberof 2-point questions?",
+    "passage": "A teacher is creating an assignment worth 28 points. The assignment will consist of questions worth 1 point and questions worth 2 points. Which equation represents this situation, where $x$ represents the number of 1-point questions and $y$ represents the number of 2-point questions?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "xy =28"
+        "text": "$xy = 28$"
       },
       {
         "label": "B",
-        "text": "3(x + y)=28"
+        "text": "$3(x + y) = 28$"
       },
       {
         "label": "C",
-        "text": "x+ y =28"
+        "text": "$x + y = 28$"
       },
       {
         "label": "D",
-        "text": "x +2 y =28"
+        "text": "$x + 2y = 28$"
       }
     ],
     "is_fill_in_blank": false,
@@ -247,10 +247,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 10,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.\nWhich of the following is closest to the slope of the line of best fit shown?",
+    "passage": "The scatterplot shows the relationship between two variables, $x$ and $y$. A line of best fit is also shown.\nWhich of the following is closest to the slope of the line of best fit shown?",
     "question_text": null,
     "choices": [
       {
@@ -286,7 +286,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "June 2024 International Form A SAT Math Module 1",
     "passage": "Triangle XYZ shown is a right triangle. Which of the following has the same value as sin X?",
@@ -328,24 +328,24 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "Sam opened a savings account at a bank. The table shows the exponential relationship between the time t, in years, since Sam opened the account and the total amount n, in dollars, in the account. If Sam made no additional deposits or withdrawals, which of the following equations best represents the relationship between t and n?",
+    "passage": "Sam opened a savings account at a bank. The table shows the exponential relationship between the time $t$, in years, since Sam opened the account and the total amount $n$, in dollars, in the account. If Sam made no additional deposits or withdrawals, which of the following equations best represents the relationship between $t$ and $n$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "n=0.004(1+867) t"
+        "text": "$n = 0.004(1 + 867)^t$"
       },
       {
         "label": "B",
-        "text": "n=867(1+0.004) t"
+        "text": "$n = 867(1 + 0.004)^t$"
       },
       {
         "label": "C",
-        "text": "n=(1+0.004) t"
+        "text": "$n = (1 + 0.004)^t$"
       },
       {
         "label": "D",
-        "text": "n=(1+867) t"
+        "text": "$n = (1 + 867)^t$"
       }
     ],
     "is_fill_in_blank": false,
@@ -367,7 +367,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "If 6(8-2 x)+3=5(8-2 x)+ 19, what is the value of 8-2 x?",
+    "passage": "If $6(8 - 2x) + 3 = 5(8 - 2x) + 19$, what is the value of $8 - 2x$?",
     "question_text": null,
     "choices": [
       {
@@ -399,7 +399,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "The table shows four values of a and their corresponding values of y. There is a linear relationship between x and y. Which of the following equations represents this relationship?",
+    "passage": "The table shows four values of $a$ and their corresponding values of $y$. There is a linear relationship between $x$ and $y$. Which of the following equations represents this relationship?",
     "question_text": null,
     "choices": [
       {
@@ -438,7 +438,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "y=2 x 2 -19 x +40\ny= x +a\nIn the given system of equations, a is a constant. The graphs of the equations in the given system intersect at exactly one point, (x, y), in the xy -plane. What is the value of x?",
+    "passage": "$y = 2x^2 - 19x + 40$\n$y = x + a$\nIn the given system of equations, $a$ is a constant. The graphs of the equations in the given system intersect at exactly one point, $(x, y)$, in the $xy$-plane. What is the value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -467,10 +467,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "Line p in the xy -plane is defined by y = x + $\\frac{5}{9}$ and passes through the points (a, 0) and(0, b), where a and b are constants. What is the value of a?",
+    "passage": "Line $p$ in the $xy$-plane is defined by $y = x + \\frac{5}{9}$ and passes through the points $(a, 0)$ and $(0, b)$, where $a$ and $b$ are constants. What is the value of $a$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -482,10 +482,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "The function $f(t)=80,000(2)^{\\frac{t}{790}}$ $\\frac{}{}$ gives the number of bacteria in a population t minutes after an initial observation. How much time, in minutes, does it take for the number of bacteria in the population to double?",
+    "passage": "The function $f(t)=80,000(2)^{\\frac{t}{790}}$ gives the number of bacteria in a population t minutes after an initial observation. How much time, in minutes, does it take for the number of bacteria in the population to double?",
     "question_text": null,
     "choices": [
       {
@@ -514,10 +514,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "Square P has a side length of x inches. Square Q has a perimeter that is 32 inches greater than the perimeter of square P, The function f gives the area of square Q, in square inches.Which of the following defines f?",
+    "passage": "Square P has a side length of x inches. Square Q has a perimeter that is 32 inches greater than the perimeter of square P. The function f gives the area of square Q, in square inches. Which of the following defines f?",
     "question_text": null,
     "choices": [
       {
@@ -546,10 +546,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "3.5x+1.2y=8\n17.5x+6y=40\nHow many solutions does the given system of equations have?",
+    "passage": "$3.5x + 1.2y = 8$\n$17.5x + 6y = 40$\nHow many solutions does the given system of equations have?",
     "question_text": null,
     "choices": [
       {
@@ -578,10 +578,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "Circle A has a radius of 2 x and circle B has a radius of 94 x. The area of circle B is how many times the area of circle A?",
+    "passage": "Circle A has a radius of $2x$ and circle B has a radius of $94x$. The area of circle B is how many times the area of circle A?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -596,7 +596,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "The function g is defined by g (x)=(x + 17)(t - x), where t is a constant. In the xy -plane,the graph of y = g (x) passes through the point (23, 0). What is the value of g (0)?",
+    "passage": "The function $g$ is defined by $g(x) = (x + 17)(t - x)$, where $t$ is a constant. In the $xy$-plane, the graph of $y = g(x)$ passes through the point $(23, 0)$. What is the value of $g(0)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -608,10 +608,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "June 2024 International Form A SAT Math Module 1",
-    "passage": "A circle in the xy -plane has a diameter with endpoints (a, 11) and (a, d), where a and d are constants. An equation of this circle is (x - a) 2 +(y - 17) 2 = r 2, where r is a positive constant. What is the value of d?",
+    "passage": "A circle in the $xy$-plane has a diameter with endpoints $(a, 11)$ and $(a, d)$, where $a$ and $d$ are constants. An equation of this circle is $(x - a)^2 + (y - 17)^2 = r^2$, where $r$ is a positive constant. What is the value of $d$?",
     "question_text": null,
     "choices": [
       {

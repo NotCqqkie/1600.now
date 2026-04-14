@@ -2,33 +2,27 @@
 """
 Double-pass verification for SAT math problem questions.
 
-Processes the ~200 questions that had errors, mismatches, or needed review
-from the first pass (verify_math.py).
+Both models run on the REMOTE Ollama instance at 100.85.13.87 — no local
+inference. Two different model families for independent verification:
+
+  Model A: qwen2.5:14b  (Qwen family — re-runs + CoT tiebreaker)
+  Model B: llama3        (Llama family — independent verification)
 
 Three phases:
-  1. Re-run Qwen3 (local) for the 79 parse_fail errors — fixed prompt,
-     higher token budget, more explicit format constraint.
-  2. Independent solve via Llama3 (remote Ollama at 100.85.13.87) for ALL problem questions.
-  3. Arbitration — 3-way compare: Qwen vs Llama3 vs answer key.
-       - Both agree with key          → unanimous accept
-       - Llama3 alone confirms key    → accept key (Qwen outlier)
-       - Qwen alone confirms key      → accept key (Llama3 outlier)
-       - Both DISAGREE with key       → Qwen CoT tiebreaker
-           CoT sides with key         → accept key
-           CoT sides with models      → flag answer key as suspect
-           CoT splits three ways      → human review
-       - Llama3 can't solve           → image_dependent / human review
-
-Each result includes: verdict, decision, previous_answer, new_answer,
-plus full calc and answer from every model pass — so you can audit
-every decision.
+  1. Re-run Qwen2.5 for the 79 parse_fail errors.
+  2. Independent solve via Llama3 for ALL 200 problem questions.
+  3. Arbitration — 3-way compare: Qwen vs Llama vs answer key.
+       - Both agree with key        → unanimous
+       - One confirms key           → accept key
+       - Both DISAGREE with key     → Qwen2.5 CoT tiebreaker
+       - Full split                 → human review
 
 Run:  python3.11 scripts/verify_double_pass.py
-Resume: just re-run — checkpoint auto-loaded
+Resume: just re-run — checkpoint auto-loaded.
 
 Outputs (in scripts/):
   double_pass_results.json     — full per-question audit trail
-  auto_resolved.json           — confidently resolved (apply to corrected)
+  auto_resolved.json           — confidently resolved
   human_review.json            — needs human eyes
   answer_key_suspects.json     — both models + CoT disagree with key
 """
@@ -39,25 +33,21 @@ import re
 import sys
 import threading
 import time
-import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from openai import OpenAI
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-OLLAMA_URL      = "http://localhost:11434/api/chat"
-QWEN_MODEL      = "qwen3:32b"
+REMOTE_BASE_URL = "http://100.85.13.87:11434/v1"
+REMOTE_API_KEY  = "ollama"
 
-# Remote Ollama instance (OpenAI-compatible endpoint)
-LLAMA_BASE_URL  = "http://100.85.13.87:11434/v1"
-LLAMA_API_KEY   = "ollama"   # ignored by Ollama, required by SDK
-LLAMA_MODEL     = "llama3"
+QWEN_MODEL  = "qwen2.5:14b"
+LLAMA_MODEL = "llama3:latest"
 
 SCRIPT_DIR      = os.path.dirname(os.path.abspath(__file__))
 INPUT_FILE      = os.path.join(SCRIPT_DIR, "math_review.json")
 LOG_FILE        = os.path.join(SCRIPT_DIR, "verification_log.json")
-CORRECTED_FILE  = os.path.join(SCRIPT_DIR, "math_corrected.json")
 CKPT_FILE       = os.path.join(SCRIPT_DIR, "double_pass_checkpoint.json")
 
 OUTPUT_RESULTS  = os.path.join(SCRIPT_DIR, "double_pass_results.json")
@@ -65,25 +55,17 @@ OUTPUT_RESOLVED = os.path.join(SCRIPT_DIR, "auto_resolved.json")
 OUTPUT_REVIEW   = os.path.join(SCRIPT_DIR, "human_review.json")
 OUTPUT_SUSPECTS = os.path.join(SCRIPT_DIR, "answer_key_suspects.json")
 
-WORKERS_CLAUDE = 5   # parallel Claude API requests
-WORKERS_QWEN   = 2   # Qwen re-runs (GPU limited)
+WORKERS_QWEN  = 2    # share one GPU — keep modest
+WORKERS_LLAMA = 2
 MAX_RETRIES    = 4
-CHECKPOINT_EVERY = 25
-
-OLLAMA_HEADERS = {"Content-Type": "application/json"}
+CHECKPOINT_EVERY = 10  # save often — no more 25-question gaps
 
 # ── Prompts ───────────────────────────────────────────────────────────────────
 
-# Used for Qwen re-runs of parse_fail questions.
-# Key changes vs original:
-#   - "IMPORTANT" block at top for emphasis
-#   - More explicit about NOT returning a "corrected" key
-#   - Higher num_predict (2000) so output isn't truncated
-QWEN_RERUN_SYSTEM = """\
-IMPORTANT: Return ONLY the JSON schema shown below. Do NOT return a "corrected" object \
-or any other structure. Only the exact keys shown.
+VERIFY_SYSTEM = """\
+IMPORTANT: Return ONLY the JSON schema shown below. No other structure.
 
-Fix and verify a SAT math question. Input has: text, choices, correctAnswer, type.
+Fix and verify a SAT math question. Input is JSON with: text, choices, correctAnswer, type.
 
 FIX in "text" and choice "text" fields only:
 - Asterisk italics: "*x*"→"$x$", "*x**2*"→"$x^2$", "*f*(*x*)"→"$f(x)$"
@@ -91,68 +73,42 @@ FIX in "text" and choice "text" fields only:
 - Bare symbols: ≤ ≥ ≠ π → wrap in $...$
 - Obvious typos in English prose only
 
-SOLVE it. Compare to correctAnswer.
+SOLVE the question completely. If unsolvable (missing image/table/context), \
+set needs_review to true.
 
 Return ONLY this exact JSON (no markdown fences, no extra keys):
 {
   "fixes": {"text": "corrected text", "choices": [{"id":"A","text":"corrected"}]},
   "changes": ["text:old→new"],
-  "calc": "brief step-by-step",
-  "model_answer": "D",
-  "answer_matches": true,
-  "needs_review": false
-}
-
-Rules:
-- "fixes" contains ONLY fields that changed. If nothing changed, use "fixes": {}
-- "needs_review": true ONLY if question is genuinely incoherent or requires an unseen image/table
-- Do NOT add a "corrected" key. Do NOT wrap in markdown.\
-"""
-
-# Used for Claude API — independent verification of all problem questions.
-CLAUDE_SYSTEM = """\
-You are verifying SAT math questions. Given a question JSON, solve it carefully.
-
-FIX in "text" and choice "text" fields only (if needed):
-- Asterisk italics: "*x*"→"$x$", "*x**2*"→"$x^2$", "*f*(*x*)"→"$f(x)$"
-- Bare math: "y=2x+3"→"$y=2x+3$"
-- Bare symbols: ≤ ≥ ≠ π → wrap in $...$
-
-SOLVE the question completely. If unsolvable due to a missing image, table, or \
-context that is not in the JSON, set needs_review to true.
-
-Return ONLY this JSON (no markdown fences):
-{
-  "fixes": {"text": "...", "choices": [{"id":"A","text":"..."}]},
-  "changes": ["description of each fix"],
   "calc": "complete step-by-step solution",
-  "model_answer": "A",
+  "model_answer": "D",
   "confidence": "high",
   "needs_review": false,
   "review_reason": ""
 }
 
-- "fixes": only changed fields. If nothing changed, use "fixes": {}
-- "confidence": "high" (certain), "medium" (some ambiguity), "low" (guessing)
-- "needs_review": true only if question requires unseen content or is incoherent
-- "review_reason": brief note if needs_review is true, else empty string\
+Rules:
+- "fixes" contains ONLY fields that changed. If nothing changed: "fixes": {}
+- "confidence": "high" (certain), "medium" (ambiguous), "low" (guessing)
+- "needs_review": true ONLY if question requires unseen image/table or is incoherent
+- Do NOT add a "corrected" key. Do NOT wrap in markdown fences.\
 """
 
-# Used for the CoT tiebreaker when Qwen + Claude both disagree with the answer key.
-# Enables Qwen3's extended reasoning chain.
-QWEN_COT_SYSTEM = """\
-Carefully re-examine this SAT math question. Show all work step by step.
+COT_SYSTEM = """\
+Carefully re-examine this SAT math question. Show ALL work step by step.
 
 Context: The official answer key says {answer_key}. \
-Another model solved it and got {models_answer}. \
-One of them is wrong. Re-examine the question carefully — answer keys can have errors.
+Two different models both solved it and got {models_answer} instead. \
+Re-examine from scratch — the answer key may be wrong, or both models may share a mistake.
+
+Think through the problem very carefully. Show every step of your work.
 
 Return ONLY this JSON (no markdown fences):
-{
-  "calc": "detailed step-by-step solution showing all work",
+{{
+  "calc": "detailed step-by-step solution showing ALL work",
   "model_answer": "A",
   "reasoning": "brief explanation of why this is the correct answer"
-}\
+}}\
 """
 
 # ── I/O ───────────────────────────────────────────────────────────────────────
@@ -170,12 +126,11 @@ def save_json(path, data):
 def load_checkpoint():
     if os.path.exists(CKPT_FILE):
         return load_json(CKPT_FILE)
-    return {"qwen_rerun": {}, "claude": {}}
+    return {"qwen": {}, "llama": {}, "cot": {}}
 
 def save_checkpoint(ckpt):
     save_json(CKPT_FILE, ckpt)
 
-# Only send fields the model needs — avoids leaking immutable metadata
 _SEND_FIELDS = {"text", "prompt", "passage", "choices", "correctAnswer", "type", "questionImages"}
 
 def slim(question):
@@ -184,21 +139,15 @@ def slim(question):
 # ── JSON extraction ───────────────────────────────────────────────────────────
 
 def extract_json(text):
-    """Extract the first valid JSON object from a model response."""
     if not text:
         return None
-    # Strip Qwen3 thinking tags
     text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
-    # Strip markdown fences
     text = re.sub(r"^```(?:json)?\s*", "", text.strip())
     text = re.sub(r"\s*```$", "", text.strip()).strip()
-
     try:
         return json.loads(text)
     except json.JSONDecodeError:
         pass
-
-    # Find the outermost { } block
     start = text.find("{")
     if start == -1:
         return None
@@ -222,51 +171,17 @@ def normalize_answer(ans):
         return None
     return str(ans).strip().upper().rstrip(".")
 
-# ── Phase 1: Qwen re-run for parse_fail errors ───────────────────────────────
+# ── Model calls (all remote) ─────────────────────────────────────────────────
 
-def call_qwen_rerun(question, retries=0):
-    payload = {
-        "model": QWEN_MODEL,
-        "think": False,
-        "stream": False,
-        "messages": [
-            {"role": "system", "content": QWEN_RERUN_SYSTEM},
-            {"role": "user",   "content": json.dumps(slim(question), ensure_ascii=False)},
-        ],
-        "options": {
-            "temperature": 0,
-            "num_predict": 2000,   # higher than original 1200 — avoids truncation
-            "repeat_penalty": 1.0,
-        },
-    }
-    try:
-        r = requests.post(OLLAMA_URL, headers=OLLAMA_HEADERS, json=payload, timeout=300)
-        if r.status_code != 200:
-            if retries < MAX_RETRIES:
-                time.sleep(2 ** retries)
-                return call_qwen_rerun(question, retries + 1)
-            return None, f"HTTP {r.status_code}"
-        return r.json()["message"]["content"], None
-    except requests.exceptions.Timeout:
-        if retries < MAX_RETRIES:
-            time.sleep(2 ** retries)
-            return call_qwen_rerun(question, retries + 1)
-        return None, "Timeout"
-    except Exception as e:
-        if retries < MAX_RETRIES:
-            time.sleep(2 ** retries)
-            return call_qwen_rerun(question, retries + 1)
-        return None, str(e)
-
-# ── Phase 2: Llama3 via remote Ollama (OpenAI-compatible) ────────────────────
-
-def call_llama3(question, client, retries=0):
+def call_model(question, client, model, system_prompt, max_tokens=1800, retries=0):
+    """Generic call to any model on the remote Ollama via OpenAI-compat endpoint."""
     try:
         response = client.chat.completions.create(
-            model=LLAMA_MODEL,
-            max_tokens=1800,
+            model=model,
+            max_tokens=max_tokens,
+            temperature=0,
             messages=[
-                {"role": "system", "content": CLAUDE_SYSTEM},
+                {"role": "system", "content": system_prompt},
                 {"role": "user",   "content": json.dumps(slim(question), ensure_ascii=False)},
             ],
         )
@@ -274,75 +189,49 @@ def call_llama3(question, client, retries=0):
         result = extract_json(text)
         if result:
             return result, None
-        return None, f"parse_fail: {text[:200]}"
+        return None, f"parse_fail: {text[:300]}"
     except Exception as e:
         if retries < MAX_RETRIES:
             time.sleep(2 ** retries)
-            return call_llama3(question, client, retries + 1)
+            return call_model(question, client, model, system_prompt, max_tokens, retries + 1)
         return None, str(e)
 
-# ── Phase 3: Qwen CoT tiebreaker ─────────────────────────────────────────────
-
-def call_qwen_cot(question, answer_key, models_answer, retries=0):
-    """Qwen3 with extended reasoning enabled — used when both models disagree with key."""
-    system = QWEN_COT_SYSTEM.format(answer_key=answer_key, models_answer=models_answer)
-    payload = {
-        "model": QWEN_MODEL,
-        "think": True,    # enable Qwen3 chain-of-thought
-        "stream": False,
-        "messages": [
-            {"role": "system", "content": system},
-            {"role": "user",   "content": json.dumps(slim(question), ensure_ascii=False)},
-        ],
-        "options": {
-            "temperature": 0,
-            "num_predict": 4000,   # CoT output can be very long
-            "repeat_penalty": 1.0,
-        },
-    }
+def call_cot(question, client, answer_key, models_answer, retries=0):
+    """Qwen2.5 CoT tiebreaker — detailed step-by-step re-examination."""
+    system = COT_SYSTEM.format(answer_key=answer_key, models_answer=models_answer)
     try:
-        r = requests.post(OLLAMA_URL, headers=OLLAMA_HEADERS, json=payload, timeout=600)
-        if r.status_code != 200:
-            if retries < MAX_RETRIES:
-                time.sleep(2 ** retries)
-                return call_qwen_cot(question, answer_key, models_answer, retries + 1)
-            return None, f"HTTP {r.status_code}"
-        return r.json()["message"]["content"], None
-    except requests.exceptions.Timeout:
-        if retries < MAX_RETRIES:
-            time.sleep(2 ** retries)
-            return call_qwen_cot(question, answer_key, models_answer, retries + 1)
-        return None, "Timeout"
+        response = client.chat.completions.create(
+            model=QWEN_MODEL,
+            max_tokens=3000,
+            temperature=0,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user",   "content": json.dumps(slim(question), ensure_ascii=False)},
+            ],
+        )
+        text = response.choices[0].message.content
+        result = extract_json(text)
+        if result:
+            return result, None
+        return None, f"parse_fail: {text[:300]}"
     except Exception as e:
         if retries < MAX_RETRIES:
             time.sleep(2 ** retries)
-            return call_qwen_cot(question, answer_key, models_answer, retries + 1)
+            return call_cot(question, client, answer_key, models_answer, retries + 1)
         return None, str(e)
 
 # ── Arbitration ───────────────────────────────────────────────────────────────
 
-def arbitrate(index, question, qwen_answer, qwen_calc, claude_result, cot_result, original_category):
-    """
-    3-way arbitration: Qwen vs Claude vs answer key.
+def arbitrate(index, question, qwen_result, llama_result, cot_result, original_category):
+    answer_key = normalize_answer(question.get("correctAnswer"))
+    qwen_ans   = normalize_answer((qwen_result or {}).get("model_answer"))
+    llama_ans  = normalize_answer((llama_result or {}).get("model_answer"))
+    cot_ans    = normalize_answer((cot_result or {}).get("model_answer"))
 
-    Returns a dict with:
-      verdict        — one of the VERDICT_* constants below
-      decision       — human-readable explanation of the ruling
-      previous_answer — what we had before (always the answer key)
-      new_answer     — what to use now (None = don't auto-change, keep key)
-      + all model outputs for auditing
-    """
-    answer_key   = normalize_answer(question.get("correctAnswer"))
-    qwen_ans     = normalize_answer(qwen_answer)
-    claude_ans   = normalize_answer((claude_result or {}).get("model_answer"))
-    cot_ans      = normalize_answer((cot_result or {}).get("model_answer"))
-
-    llama_confidence   = (claude_result or {}).get("confidence", "high")
-    llama_needs_review = (claude_result or {}).get("needs_review", False)
-    llama_review_reason = (claude_result or {}).get("review_reason", "")
-    llama_calc   = (claude_result or {}).get("calc", "")
-    cot_calc     = (cot_result or {}).get("calc", "")
-    cot_reasoning = (cot_result or {}).get("reasoning", "")
+    qwen_confidence  = (qwen_result or {}).get("confidence", "high")
+    llama_confidence = (llama_result or {}).get("confidence", "high")
+    llama_needs_review = (llama_result or {}).get("needs_review", False)
+    qwen_needs_review  = (qwen_result or {}).get("needs_review", False)
 
     base = {
         "index":             index,
@@ -350,111 +239,108 @@ def arbitrate(index, question, qwen_answer, qwen_calc, claude_result, cot_result
         "testName":          question.get("testName"),
         "original_category": original_category,
         "answer_key":        answer_key,
-        "previous_answer":   answer_key,   # before this pass we always used the key
+        "previous_answer":   answer_key,
         "qwen_answer":       qwen_ans,
-        "claude_answer":     claude_ans,
+        "llama_answer":      llama_ans,
         "qwen_cot_answer":   cot_ans,
+        "qwen_confidence":   qwen_confidence,
         "llama_confidence":  llama_confidence,
-        "llama_calc":        llama_calc,
-        "qwen_calc":         qwen_calc or "",
-        "qwen_cot_calc":     cot_calc,
-        "qwen_cot_reasoning": cot_reasoning,
+        "qwen_calc":         (qwen_result or {}).get("calc", ""),
+        "llama_calc":        (llama_result or {}).get("calc", ""),
+        "qwen_cot_calc":     (cot_result or {}).get("calc", ""),
+        "qwen_cot_reasoning": (cot_result or {}).get("reasoning", ""),
     }
 
-    # ── Cannot solve (missing image/table) ───────────────────────────────────
-    if llama_needs_review:
-        return {**base,
-                "verdict":    "image_dependent",
-                "decision":   f"Llama3: {llama_review_reason or 'requires unseen content'}",
-                "new_answer": None}
+    # ── Cannot solve (missing image/table) ────────────────────────────────────
+    if llama_needs_review and qwen_needs_review:
+        reason = (llama_result or {}).get("review_reason", "") or \
+                 (qwen_result or {}).get("review_reason", "requires unseen content")
+        return {**base, "verdict": "image_dependent",
+                "decision": f"Both models: {reason}", "new_answer": None}
 
-    # ── Llama3 call failed entirely ───────────────────────────────────────────
-    if claude_result is None:
-        return {**base,
-                "verdict":    "human_review",
-                "decision":   "Llama3 call failed — cannot verify",
-                "new_answer": None}
-
-    # ── Llama3 returned low confidence ────────────────────────────────────────
-    if llama_confidence == "low":
-        return {**base,
-                "verdict":    "human_review",
-                "decision":   f"Llama3 low confidence ({claude_ans}) — needs human check",
-                "new_answer": None}
-
-    # ── Unanimous: all three agree ────────────────────────────────────────────
-    if qwen_ans == answer_key and claude_ans == answer_key:
-        return {**base,
-                "verdict":    "unanimous",
-                "decision":   f"All agree: {answer_key}",
-                "new_answer": answer_key}
-
-    # ── Llama3 confirms key, Qwen was wrong ──────────────────────────────────
-    if claude_ans == answer_key and qwen_ans != answer_key:
-        return {**base,
-                "verdict":    "accept_key_llama_confirms",
-                "decision":   f"Llama3 confirms key={answer_key}; Qwen was wrong ({qwen_ans})",
-                "new_answer": answer_key}
-
-    # ── Qwen confirms key, Llama3 disagrees ───────────────────────────────────
-    if qwen_ans == answer_key and claude_ans != answer_key:
-        return {**base,
-                "verdict":    "accept_key_qwen_confirms",
-                "decision":   f"Qwen confirms key={answer_key}; Llama3 disagrees ({claude_ans}) — accepting key",
-                "new_answer": answer_key}
-
-    # ── Both models DISAGREE with key ─────────────────────────────────────────
-    # Requires CoT tiebreaker (should already be populated)
-    if qwen_ans and claude_ans and qwen_ans == claude_ans and qwen_ans != answer_key:
-        models_agree_on = qwen_ans
-
-        if cot_result is None:
-            # CoT wasn't run or failed
-            return {**base,
-                    "verdict":    "human_review",
-                    "decision":   (f"Qwen={qwen_ans} and Claude={claude_ans} both disagree with "
-                                   f"key={answer_key} — CoT tiebreaker failed/not run"),
-                    "new_answer": None}
-
-        if cot_ans == answer_key:
-            return {**base,
-                    "verdict":    "accept_key_cot_confirms",
-                    "decision":   (f"Qwen+Claude both said {models_agree_on} but "
-                                   f"Qwen-CoT sided with key={answer_key}"),
+    if llama_needs_review or qwen_needs_review:
+        working = "Qwen" if llama_needs_review else "Llama3"
+        working_ans = qwen_ans if llama_needs_review else llama_ans
+        if working_ans == answer_key:
+            return {**base, "verdict": f"accept_key_{working.lower()}_confirms",
+                    "decision": f"{working} confirms key={answer_key}; other model can't solve",
                     "new_answer": answer_key}
-
-        if cot_ans == models_agree_on:
-            return {**base,
-                    "verdict":    "flag_answer_key",
-                    "decision":   (f"All three model passes (Qwen={qwen_ans}, Claude={claude_ans}, "
-                                   f"Qwen-CoT={cot_ans}) agree on {models_agree_on} — "
-                                   f"answer key ({answer_key}) is likely wrong"),
-                    "new_answer": models_agree_on}
-
-        # CoT gives a third answer — three-way split
-        return {**base,
-                "verdict":    "human_review",
-                "decision":   (f"Three-way split: Qwen={qwen_ans}, Claude={claude_ans}, "
-                               f"Qwen-CoT={cot_ans}, Key={answer_key}"),
+        return {**base, "verdict": "human_review",
+                "decision": f"One model can't solve; {working} says {working_ans} vs key={answer_key}",
                 "new_answer": None}
 
-    # ── Qwen has no answer (re-run also failed) ───────────────────────────────
-    if qwen_ans is None and claude_ans == answer_key:
-        return {**base,
-                "verdict":    "accept_key_llama_confirms",
-                "decision":   f"Llama3 confirms key={answer_key}; Qwen re-run also failed",
+    # ── Both calls failed ─────────────────────────────────────────────────────
+    if qwen_result is None and llama_result is None:
+        return {**base, "verdict": "human_review",
+                "decision": "Both model calls failed", "new_answer": None}
+
+    # ── Low confidence ────────────────────────────────────────────────────────
+    if llama_confidence == "low" and qwen_confidence == "low":
+        return {**base, "verdict": "human_review",
+                "decision": "Both models low confidence", "new_answer": None}
+
+    # ── Unanimous ─────────────────────────────────────────────────────────────
+    if qwen_ans == answer_key and llama_ans == answer_key:
+        return {**base, "verdict": "unanimous",
+                "decision": f"All agree: {answer_key}", "new_answer": answer_key}
+
+    # ── Llama confirms key, Qwen was wrong ────────────────────────────────────
+    if llama_ans == answer_key and qwen_ans != answer_key:
+        return {**base, "verdict": "accept_key_llama_confirms",
+                "decision": f"Llama3 confirms key={answer_key}; Qwen said {qwen_ans}",
                 "new_answer": answer_key}
 
-    if qwen_ans is None and claude_ans and claude_ans != answer_key:
-        return {**base,
-                "verdict":    "human_review",
-                "decision":   f"Qwen failed; Llama3 says {claude_ans} vs key {answer_key}",
+    # ── Qwen confirms key, Llama was wrong ────────────────────────────────────
+    if qwen_ans == answer_key and llama_ans != answer_key:
+        return {**base, "verdict": "accept_key_qwen_confirms",
+                "decision": f"Qwen confirms key={answer_key}; Llama3 said {llama_ans}",
+                "new_answer": answer_key}
+
+    # ── Both DISAGREE with key (same answer) → CoT tiebreaker ─────────────────
+    if qwen_ans and llama_ans and qwen_ans == llama_ans and qwen_ans != answer_key:
+        models_agree_on = qwen_ans
+        if cot_result is None:
+            return {**base, "verdict": "human_review",
+                    "decision": (f"Qwen={qwen_ans} + Llama3={llama_ans} disagree with "
+                                 f"key={answer_key} — CoT tiebreaker failed"),
+                    "new_answer": None}
+        if cot_ans == answer_key:
+            return {**base, "verdict": "accept_key_cot_confirms",
+                    "decision": (f"Qwen+Llama3 both said {models_agree_on} but "
+                                 f"Qwen-CoT sided with key={answer_key}"),
+                    "new_answer": answer_key}
+        if cot_ans == models_agree_on:
+            return {**base, "verdict": "flag_answer_key",
+                    "decision": (f"All 3 passes (Qwen={qwen_ans}, Llama3={llama_ans}, "
+                                 f"CoT={cot_ans}) agree on {models_agree_on} — "
+                                 f"answer key ({answer_key}) likely wrong"),
+                    "new_answer": models_agree_on}
+        return {**base, "verdict": "human_review",
+                "decision": (f"Three-way split: Qwen={qwen_ans}, Llama3={llama_ans}, "
+                             f"CoT={cot_ans}, Key={answer_key}"),
                 "new_answer": None}
 
-    # ── Full disagreement (Qwen≠Claude≠Key, all different) ───────────────────
-    return {**base,
-            "verdict":    "human_review",
-            "decision":   (f"No consensus: Qwen={qwen_ans}, Claude={claude_ans}, Key={answer_key}"),
+    # ── Both disagree with key (different answers) ────────────────────────────
+    if qwen_ans and llama_ans and qwen_ans != llama_ans and \
+       qwen_ans != answer_key and llama_ans != answer_key:
+        return {**base, "verdict": "human_review",
+                "decision": (f"Full split: Qwen={qwen_ans}, Llama3={llama_ans}, "
+                             f"Key={answer_key}"),
+                "new_answer": None}
+
+    # ── One model failed, other confirms key ──────────────────────────────────
+    if qwen_ans is None and llama_ans == answer_key:
+        return {**base, "verdict": "accept_key_llama_confirms",
+                "decision": f"Llama3 confirms key={answer_key}; Qwen failed",
+                "new_answer": answer_key}
+    if llama_ans is None and qwen_ans == answer_key:
+        return {**base, "verdict": "accept_key_qwen_confirms",
+                "decision": f"Qwen confirms key={answer_key}; Llama3 failed",
+                "new_answer": answer_key}
+
+    # ── Fallback ──────────────────────────────────────────────────────────────
+    return {**base, "verdict": "human_review",
+            "decision": f"Unhandled: Qwen={qwen_ans}, Llama3={llama_ans}, Key={answer_key}",
             "new_answer": None}
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -468,7 +354,7 @@ def _original_category(log_entry):
         return "needs_review"
     return "unknown"
 
-def _print_progress(label, done, total, extra=""):
+def _progress(label, done, total, extra=""):
     pct = done / total * 100 if total else 0
     sys.stdout.write(f"\r  {label} [{done}/{total}] {pct:.0f}%  {extra}   ")
     sys.stdout.flush()
@@ -480,6 +366,25 @@ def main():
     log       = load_json(LOG_FILE)
     ckpt      = load_checkpoint()
 
+    client = OpenAI(base_url=REMOTE_BASE_URL, api_key=REMOTE_API_KEY)
+
+    # Quick connectivity check
+    print(f"Remote: {REMOTE_BASE_URL}")
+    print(f"Models: {QWEN_MODEL} + {LLAMA_MODEL}")
+    try:
+        models = client.models.list()
+        available = [m.id for m in models.data]
+        print(f"Available: {available}")
+        for needed in (QWEN_MODEL, LLAMA_MODEL):
+            if needed not in available:
+                print(f"\n✗ Model '{needed}' not found on remote! Pull it first:")
+                print(f"  curl http://100.85.13.87:11434/api/pull -d '{{\"name\":\"{needed}\"}}'")
+                return
+    except Exception as e:
+        print(f"\n✗ Cannot connect to remote Ollama: {e}")
+        return
+    print()
+
     # ── Identify problem questions ────────────────────────────────────────────
     all_problem_idxs = set()
     for e in log:
@@ -487,8 +392,6 @@ def main():
             all_problem_idxs.add(e["index"])
 
     log_by_idx = {e["index"]: e for e in log}
-
-    # Build ordered list, deduped
     problem_entries = [log_by_idx[i] for i in sorted(all_problem_idxs)]
     error_entries   = [e for e in problem_entries if e.get("error") == "parse_fail"]
 
@@ -497,132 +400,112 @@ def main():
     print(f"  Already have Qwen  : {len(problem_entries) - len(error_entries)}")
     print()
 
-    # ── Phase 1: Qwen re-runs for parse_fail errors ───────────────────────────
-    qwen_rerun_cache: dict = {int(k): v for k, v in ckpt.get("qwen_rerun", {}).items()}
-    errors_to_rerun = [e for e in error_entries if e["index"] not in qwen_rerun_cache]
+    # ── Phase 1: Qwen2.5 re-runs for parse_fail errors ──────────────────────
+    qwen_cache: dict = {int(k): v for k, v in ckpt.get("qwen", {}).items()}
+    errors_to_rerun = [e for e in error_entries if e["index"] not in qwen_cache]
 
     if errors_to_rerun:
-        print(f"Phase 1 — Qwen re-run: {len(errors_to_rerun)} errors "
-              f"({len(qwen_rerun_cache)} already cached)")
+        print(f"Phase 1 — Qwen2.5 re-run: {len(errors_to_rerun)} errors "
+              f"({len(qwen_cache)} cached)")
         lock     = threading.Lock()
-        done_ctr = [len(qwen_rerun_cache)]
+        done_ctr = [len(qwen_cache)]
         total_p1 = len(error_entries)
 
-        def rerun_worker(log_entry):
+        def qwen_rerun_worker(log_entry):
             idx = log_entry["index"]
-            raw, err = call_qwen_rerun(questions[idx])
-            result = extract_json(raw) if raw else None
-            entry = {
-                "model_answer":   None,
-                "calc":           "",
-                "changes":        [],
-                "answer_matches": None,
-                "needs_review":   False,
-                "error":          err,
-            }
-            if result and "fixes" in result:
-                entry["model_answer"]   = result.get("model_answer")
-                entry["calc"]           = result.get("calc", "")
-                entry["changes"]        = result.get("changes", [])
-                entry["needs_review"]   = result.get("needs_review", False)
-                entry["error"]          = None
-                ans_key = normalize_answer(questions[idx].get("correctAnswer"))
-                entry["answer_matches"] = (
-                    normalize_answer(result.get("model_answer")) == ans_key
-                )
-            elif result:
-                # Returned unexpected structure — still try to get model_answer
-                entry["model_answer"] = result.get("model_answer") or result.get("answer")
-                if entry["model_answer"]:
-                    ans_key = normalize_answer(questions[idx].get("correctAnswer"))
-                    entry["answer_matches"] = (
-                        normalize_answer(entry["model_answer"]) == ans_key
-                    )
+            result, err = call_model(questions[idx], client, QWEN_MODEL, VERIFY_SYSTEM)
+            entry = {"result": result, "error": err}
             with lock:
-                qwen_rerun_cache[idx] = entry
+                qwen_cache[idx] = entry
                 done_ctr[0] += 1
-                _print_progress("Qwen re-run", done_ctr[0], total_p1)
+                _progress("Qwen re-run", done_ctr[0], total_p1)
                 if done_ctr[0] % CHECKPOINT_EVERY == 0:
-                    ckpt["qwen_rerun"] = {str(k): v for k, v in qwen_rerun_cache.items()}
+                    ckpt["qwen"] = {str(k): v for k, v in qwen_cache.items()}
                     save_checkpoint(ckpt)
 
         with ThreadPoolExecutor(max_workers=WORKERS_QWEN) as pool:
-            futures = [pool.submit(rerun_worker, e) for e in errors_to_rerun]
+            futures = [pool.submit(qwen_rerun_worker, e) for e in errors_to_rerun]
             for f in as_completed(futures):
                 f.result()
 
-        ckpt["qwen_rerun"] = {str(k): v for k, v in qwen_rerun_cache.items()}
+        ckpt["qwen"] = {str(k): v for k, v in qwen_cache.items()}
         save_checkpoint(ckpt)
 
-        success = sum(1 for v in qwen_rerun_cache.values() if v.get("model_answer"))
-        print(f"\n  Recovered: {success}/{len(error_entries)} errors now have a Qwen answer\n")
+        success = sum(1 for v in qwen_cache.values()
+                      if v.get("result", {}) and v["result"].get("model_answer"))
+        print(f"\n  Recovered: {success}/{len(error_entries)}\n")
     else:
         print(f"Phase 1 — Qwen re-run: all {len(error_entries)} cached, skipping\n")
 
-    # ── Phase 2: Claude API for all problem questions ─────────────────────────
-    claude_cache: dict = {int(k): v for k, v in ckpt.get("claude", {}).items()}
-    to_verify = [e for e in problem_entries if e["index"] not in claude_cache]
+    # ── Phase 2: Llama3 for ALL problem questions ────────────────────────────
+    llama_cache: dict = {int(k): v for k, v in ckpt.get("llama", {}).items()}
+    to_verify = [e for e in problem_entries if e["index"] not in llama_cache]
 
     if to_verify:
-        client   = OpenAI(base_url=LLAMA_BASE_URL, api_key=LLAMA_API_KEY)
         lock     = threading.Lock()
-        done_ctr = [len(claude_cache)]
+        done_ctr = [len(llama_cache)]
         total_p2 = len(problem_entries)
 
-        print(f"Phase 2 — Llama3 (remote Ollama): {len(to_verify)} questions "
-              f"({len(claude_cache)} already cached)")
+        print(f"Phase 2 — Llama3: {len(to_verify)} questions "
+              f"({len(llama_cache)} cached)")
 
-        def claude_worker(log_entry):
+        def llama_worker(log_entry):
             idx = log_entry["index"]
-            result, err = call_llama3(questions[idx], client)
+            result, err = call_model(questions[idx], client, LLAMA_MODEL, VERIFY_SYSTEM)
             with lock:
-                claude_cache[idx] = {"result": result, "error": err}
+                llama_cache[idx] = {"result": result, "error": err}
                 done_ctr[0] += 1
-                _print_progress("Llama3", done_ctr[0], total_p2)
+                _progress("Llama3", done_ctr[0], total_p2)
                 if done_ctr[0] % CHECKPOINT_EVERY == 0:
-                    ckpt["claude"] = {str(k): v for k, v in claude_cache.items()}
+                    ckpt["llama"] = {str(k): v for k, v in llama_cache.items()}
                     save_checkpoint(ckpt)
 
-        with ThreadPoolExecutor(max_workers=WORKERS_CLAUDE) as pool:
-            futures = [pool.submit(claude_worker, e) for e in to_verify]
+        with ThreadPoolExecutor(max_workers=WORKERS_LLAMA) as pool:
+            futures = [pool.submit(llama_worker, e) for e in to_verify]
             for f in as_completed(futures):
                 f.result()
 
-        ckpt["claude"] = {str(k): v for k, v in claude_cache.items()}
+        ckpt["llama"] = {str(k): v for k, v in llama_cache.items()}
         save_checkpoint(ckpt)
 
-        errs = sum(1 for v in claude_cache.values() if v.get("error"))
-        print(f"\n  Done — Llama3 errors: {errs}/{len(problem_entries)}\n")
+        errs = sum(1 for v in llama_cache.values() if v.get("error"))
+        print(f"\n  Llama3 errors: {errs}/{len(problem_entries)}\n")
     else:
         print(f"Phase 2 — Llama3: all {len(problem_entries)} cached, skipping\n")
 
-    # ── Phase 3a: Find questions needing CoT tiebreaker ──────────────────────
-    #   Condition: Qwen answer == Claude answer AND both disagree with key
-    #              AND Claude is not needs_review AND Claude confidence != low
+    # ── Build answer maps ─────────────────────────────────────────────────────
 
-    def get_qwen_answer(log_entry):
+    def get_qwen_result(log_entry):
+        """Get Qwen result — from re-run cache if parse_fail, else from original log."""
         idx = log_entry["index"]
         if log_entry.get("error") == "parse_fail":
-            rerun = qwen_rerun_cache.get(idx, {})
-            return rerun.get("model_answer"), rerun.get("calc", "")
-        return log_entry.get("model_answer"), log_entry.get("calc", "")
+            cached = qwen_cache.get(idx, {})
+            return cached.get("result")
+        # Non-error entries: reconstruct from original log
+        return {
+            "model_answer": log_entry.get("model_answer"),
+            "calc":         log_entry.get("calc", ""),
+            "confidence":   "high",
+            "needs_review": log_entry.get("needs_review", False),
+        }
 
+    # ── Phase 3a: Find CoT tiebreaker candidates ────────────────────────────
     needs_cot = []
     for e in problem_entries:
-        idx        = e["index"]
-        q          = questions[idx]
+        idx = e["index"]
+        q   = questions[idx]
         answer_key = normalize_answer(q.get("correctAnswer"))
-        qwen_ans, _  = get_qwen_answer(e)
-        qwen_ans   = normalize_answer(qwen_ans)
-        c_entry    = claude_cache.get(idx, {})
-        claude_res = c_entry.get("result")
-        claude_ans = normalize_answer((claude_res or {}).get("model_answer"))
 
-        if (qwen_ans and claude_ans
-                and qwen_ans == claude_ans
+        qwen_res  = get_qwen_result(e)
+        llama_res = (llama_cache.get(idx) or {}).get("result")
+        qwen_ans  = normalize_answer((qwen_res or {}).get("model_answer"))
+        llama_ans = normalize_answer((llama_res or {}).get("model_answer"))
+
+        if (qwen_ans and llama_ans
+                and qwen_ans == llama_ans
                 and qwen_ans != answer_key
-                and not (claude_res or {}).get("needs_review")
-                and (claude_res or {}).get("confidence", "high") != "low"):
+                and not (llama_res or {}).get("needs_review")
+                and not (qwen_res or {}).get("needs_review")):
             needs_cot.append(e)
 
     cot_cache: dict = {int(k): v for k, v in ckpt.get("cot", {}).items()}
@@ -634,19 +517,21 @@ def main():
     if cot_to_run:
         done_ctr = [len(cot_cache)]
         for e in cot_to_run:
-            idx        = e["index"]
-            q          = questions[idx]
+            idx = e["index"]
+            q   = questions[idx]
             answer_key = normalize_answer(q.get("correctAnswer"))
-            qwen_ans, _ = get_qwen_answer(e)
-            qwen_ans   = normalize_answer(qwen_ans)
+            qwen_res   = get_qwen_result(e)
+            models_ans = normalize_answer((qwen_res or {}).get("model_answer"))
 
-            raw, err = call_qwen_cot(q, answer_key, qwen_ans)
-            cot_result = extract_json(raw) if raw else None
-            cot_cache[idx] = {"result": cot_result, "error": err}
+            result, err = call_cot(q, client, answer_key, models_ans)
+            cot_cache[idx] = {"result": result, "error": err}
 
             done_ctr[0] += 1
-            _print_progress("Qwen CoT", done_ctr[0], len(needs_cot),
-                            f"idx={idx}")
+            _progress("Qwen CoT", done_ctr[0], len(needs_cot), f"idx={idx}")
+
+            if done_ctr[0] % CHECKPOINT_EVERY == 0:
+                ckpt["cot"] = {str(k): v for k, v in cot_cache.items()}
+                save_checkpoint(ckpt)
 
         ckpt["cot"] = {str(k): v for k, v in cot_cache.items()}
         save_checkpoint(ckpt)
@@ -654,51 +539,39 @@ def main():
 
     print()
 
-    # ── Phase 3b: Arbitrate all ───────────────────────────────────────────────
+    # ── Phase 3b: Arbitrate ──────────────────────────────────────────────────
     print("Phase 3b — Arbitrating...")
     all_results = []
 
     for e in problem_entries:
-        idx        = e["index"]
-        q          = questions[idx]
-        qwen_ans, qwen_calc = get_qwen_answer(e)
-        c_entry    = claude_cache.get(idx, {})
-        cot_entry  = cot_cache.get(idx, {})
+        idx = e["index"]
+        q   = questions[idx]
 
-        verdict = arbitrate(
-            index=idx,
-            question=q,
-            qwen_answer=qwen_ans,
-            qwen_calc=qwen_calc,
-            claude_result=c_entry.get("result"),
-            cot_result=cot_entry.get("result") if cot_entry else None,
-            original_category=_original_category(e),
-        )
+        qwen_res  = get_qwen_result(e)
+        llama_res = (llama_cache.get(idx) or {}).get("result")
+        cot_res   = (cot_cache.get(idx) or {}).get("result") if idx in cot_cache else None
+
+        verdict = arbitrate(idx, q, qwen_res, llama_res, cot_res, _original_category(e))
         all_results.append(verdict)
 
     all_results.sort(key=lambda x: x["index"])
 
-    # ── Bucket results ────────────────────────────────────────────────────────
+    # ── Bucket & save ─────────────────────────────────────────────────────────
     RESOLVED_VERDICTS = {
-        "unanimous",
-        "accept_key_claude_confirms",
-        "accept_key_qwen_confirms",
-        "accept_key_cot_confirms",
-        "flag_answer_key",
+        "unanimous", "accept_key_llama_confirms", "accept_key_llama3_confirms",
+        "accept_key_qwen_confirms", "accept_key_cot_confirms", "flag_answer_key",
     }
 
-    auto_resolved  = [r for r in all_results if r["verdict"] in RESOLVED_VERDICTS]
-    human_review   = [r for r in all_results if r["verdict"] == "human_review"]
-    image_dep      = [r for r in all_results if r["verdict"] == "image_dependent"]
-    key_suspects   = [r for r in all_results if r["verdict"] == "flag_answer_key"]
+    auto_resolved = [r for r in all_results if r["verdict"] in RESOLVED_VERDICTS]
+    human_review  = [r for r in all_results if r["verdict"] == "human_review"]
+    image_dep     = [r for r in all_results if r["verdict"] == "image_dependent"]
+    key_suspects  = [r for r in all_results if r["verdict"] == "flag_answer_key"]
 
-    # ── Save outputs ──────────────────────────────────────────────────────────
     save_json(OUTPUT_RESULTS,  all_results)
     save_json(OUTPUT_RESOLVED, auto_resolved)
     save_json(OUTPUT_REVIEW,   human_review + image_dep)
     save_json(OUTPUT_SUSPECTS, key_suspects)
 
-    # Cleanup checkpoint
     if os.path.exists(CKPT_FILE):
         os.remove(CKPT_FILE)
 
@@ -709,9 +582,8 @@ def main():
     print(f"\n{'='*60}")
     print(f"DOUBLE PASS COMPLETE — {len(all_results)} problem questions")
     print()
-    print(f"  Verdict breakdown:")
     for v, n in verdict_counts.most_common():
-        print(f"    {v:<40} {n}")
+        print(f"  {v:<40} {n}")
     print()
     print(f"  Auto-resolved      : {len(auto_resolved)}")
     print(f"  Human review       : {len(human_review)}")
@@ -727,10 +599,10 @@ def main():
         print(f"\n⚠  Answer key suspects (all model passes disagree with key):")
         for r in key_suspects[:15]:
             print(f"  [{r['index']:4d}] Key={r['answer_key']}  "
-                  f"Qwen={r['qwen_answer']}  Claude={r['claude_answer']}  "
+                  f"Qwen={r['qwen_answer']}  Llama3={r['llama_answer']}  "
                   f"CoT={r['qwen_cot_answer']}  |  {r.get('testName','')[:50]}")
         if len(key_suspects) > 15:
-            print(f"  ...+{len(key_suspects) - 15} more — see answer_key_suspects.json")
+            print(f"  ...+{len(key_suspects) - 15} more")
 
 
 if __name__ == "__main__":

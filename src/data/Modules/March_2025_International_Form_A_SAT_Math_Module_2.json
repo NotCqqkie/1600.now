@@ -3,10 +3,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 1,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "$y=3x+13$\n$y=3x^{2}+13$\nWhich ordered pair (x, y) is a solution to the given system of equations?",
+    "passage": "$y=3x+13$\n$y=3x^2+13$\nWhich ordered pair $(x, y)$ is a solution to the given system of equations?",
     "question_text": null,
     "choices": [
       {
@@ -102,7 +102,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "A rectangle has a length that is 31 times its width. The function $y=(31w)(w)$ represents this situation, where y is the area, in square feet, of the rectangle and $y>0$. Which of the following is the best interpretation of 31 w in this context?",
+    "passage": "A rectangle has a length that is 31 times its width. The function $y=(31w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y > 0$. Which of the following is the best interpretation of $31w$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -163,10 +163,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 6,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "For $x>0$, the function $f$ is defined as follows:\n$f(x)$ equals 293 % of x\nWhich of the following could describe this function?",
+    "passage": "For $x>0$, the function $f$ is defined as follows:\n$f(x)$ equals $293\\%$ of $x$\nWhich of the following could describe this function?",
     "question_text": null,
     "choices": [
       {
@@ -195,10 +195,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Probability and conditional probability",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 7,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "At a convention center, there are a total of 225 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is 0.72, and the probability of selecting a visitor who is located in room B is 0.24. How many visitors are located in room C?",
+    "passage": "At a convention center, there are a total of 225 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is $0.72$, and the probability of selecting a visitor who is located in room B is $0.24$. How many visitors are located in room C?",
     "question_text": null,
     "choices": [
       {
@@ -230,7 +230,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "$f(x)=5(g(x))-3$\n$g(x)=∣12x-7∣$\nThe functions $f$ and g are defined by the given equations. What is the value of $f(-10)$?",
+    "passage": "$f(x)=5(g(x))-3$\n$g(x)=|12x-7|$\nThe functions $f$ and $g$ are defined by the given equations. What is the value of $f(-10)$?",
     "question_text": null,
     "choices": [
       {
@@ -259,10 +259,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 9,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "In right triangle ABC, angles A and B are acute, side AC has a length of 28.2, and $tanB=\\frac{1}{3}$. What is the length of side BC rounded to the nearest tenth?",
+    "passage": "In right triangle $ABC$, angles $A$ and $B$ are acute, side $AC$ has a length of 28.2, and $\\tan B=\\frac{1}{3}$. What is the length of side $BC$ rounded to the nearest tenth?",
     "question_text": null,
     "choices": [
       {
@@ -306,10 +306,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 11,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "For the linear function p, $p(c)=-5,$ where c is a constant, $p(3)=23$ and the slope of the graph of $y=p(x)$ in the xy -plane is 7. For the linear function t, $t(c)=-6$ and $t(4)=34$. What is the slope of the graph of $y=t(x)$ in the xy -plane?",
+    "passage": "For the linear function $p$, $p(c)=-5$, where $c$ is a constant, $p(3)=23$ and the slope of the graph of $y=p(x)$ in the $xy$-plane is 7. For the linear function $t$, $t(c)=-6$ and $t(4)=34$. What is the slope of the graph of $y=t(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -341,24 +341,24 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "The positive number a is 2,136 % of the sum of the positive numbers b and c, and b is 89 % of c. What percent of b is a?",
+    "passage": "The positive number $a$ is 2,136% of the sum of the positive numbers $b$ and $c$, and $b$ is 89% of $c$. What percent of $b$ is $a$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$4,536%$"
+        "text": "$4,536\\%$"
       },
       {
         "label": "B",
-        "text": "$2,400%$"
+        "text": "$2,400\\%$"
       },
       {
         "label": "C",
-        "text": "$40.37%$"
+        "text": "$40.37\\%$"
       },
       {
         "label": "D",
-        "text": "$22.25%$"
+        "text": "$22.25\\%$"
       }
     ],
     "is_fill_in_blank": false,
@@ -373,7 +373,7 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "$F(x)=\\frac{9}{5}(x-273.15)+32$\nThe function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 7.70 kelvins. By how much did the temperature increase, in degrees Fahrenheit?",
+    "passage": "$F(x)=\\frac{9}{5}(x-273.15)+32$\nThe function $F$ gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of $x$ kelvins. If a temperature increased by $7.70$ kelvins, by how much did the temperature increase, in degrees Fahrenheit?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -385,10 +385,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "The function $f$ is a quadratic function. In the xy -plane, the graph of $y=f(x)$ has a vertex at $(1,4)$ and passes through the points $(2,27)$ and $(-1,96)$. What is the value of $f(-2)-f(0)$?",
+    "passage": "The function $f$ is a quadratic function. In the $xy$-plane, the graph of $y=f(x)$ has a vertex at $(1,4)$ and passes through the points $(2,27)$ and $(-1,96)$. What is the value of $f(-2)-f(0)$?",
     "question_text": null,
     "choices": [
       {
@@ -420,24 +420,24 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "The table shows three values of x and their corresponding values of y, where s is a constant. There is a linear relationship between x and y. Which of the following equations represents this relationship?",
+    "passage": "The table shows three values of $x$ and their corresponding values of $y$, where $s$ is a constant. There is a linear relationship between $x$ and $y$. Which of the following equations represents this relationship?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$sx+5y=18s$"
+        "text": "$sx + 5y = 18s$"
       },
       {
         "label": "B",
-        "text": "$5x+sy=18s$"
+        "text": "$5x + sy = 18s$"
       },
       {
         "label": "C",
-        "text": "$5x+sy=18$"
+        "text": "$5x + sy = 18$"
       },
       {
         "label": "D",
-        "text": "$sx+5y=18$"
+        "text": "$sx + 5y = 18$"
       }
     ],
     "is_fill_in_blank": false,
@@ -456,7 +456,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "March 2025 International Form A SAT Math Module 2",
     "passage": "The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of 7 and 10, which inequality represents the possible lengths, x, of the third side of the triangle?",
@@ -464,19 +464,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x"
+        "text": "$x < 3$"
       },
       {
         "label": "B",
-        "text": "$x>17$"
+        "text": "$x > 17$"
       },
       {
         "label": "C",
-        "text": "$3"
+        "text": "$3 < x < 17$"
       },
       {
         "label": "D",
-        "text": "$x or $x>17$"
+        "text": "$x < 3$ or $x > 17$"
       }
     ],
     "is_fill_in_blank": false,
@@ -488,27 +488,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "The graph of $y=f(x)+4$ is shown. Which equation defines function $f$ ？",
+    "passage": "The graph of $y=f(x)+4$ is shown. Which equation defines function $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-6^{x}+1$"
+        "text": "$f(x)=-6^x+1$"
       },
       {
         "label": "B",
-        "text": "$f(x)=-6^{x}+5$"
+        "text": "$f(x)=-6^x+5$"
       },
       {
         "label": "C",
-        "text": "$f(x)=-6^{x}+8$"
+        "text": "$f(x)=-6^x+8$"
       },
       {
         "label": "D",
-        "text": "$f(x)=-6^{x}+9$"
+        "text": "$f(x)=-6^x+9$"
       }
     ],
     "is_fill_in_blank": false,
@@ -566,7 +566,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "March 2025 International Form A SAT Math Module 2",
     "passage": "The function g is defined by $g(x)=3x$. For what value of x is $g(x)=12$?",
@@ -581,10 +581,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 59 square centimeters (cm²), and the surface area of right rectangular prism Y is 1,475 cm². The volue of right rectangular prism Y is 1,500 cubic centimeters (cm³). What is the sum of the volumes, in cm³, of right rectangular prism X and right rectangular prism Y?",
+    "passage": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 59 square centimeters ($\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 1,475 $\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,500 cubic centimeters ($\text{cm}^3$). What is the sum of the volumes, in $\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -599,7 +599,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$, where a, b, and n are constants, and b and n are integers, if $f(3)=6$ and $f(5)=150$, what is the value of $f(6)$?",
+    "passage": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(3)=6$ and $f(5)=150$, what is the value of $f(6)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -611,10 +611,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "$24x^{2}-(12a+2b)x+ab=0$\nIn the given equation, a and b are positive constants. The sum of the solutions to the given equation is $k(6a+b)$, where k is a constant. What is the value of k ？",
+    "passage": "$24x^{2}-(12a+2b)x+ab=0$\nIn the given equation, $a$ and $b$ are positive constants. The sum of the solutions to the given equation is $k(6a+b)$, where $k$ is a constant. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -67,10 +67,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "question_number": 3,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "In triangle RST, RS=ST and the length of RT' is 48 units. If tanR= $\\frac{7}{24}$, what is the area, in square units, of triangle RST?",
+    "passage": "In triangle RST, RS = ST and the length of RT is 48 units. If tan R = $\\frac{7}{24}$, what is the area, in square units, of triangle RST?",
     "question_text": null,
     "choices": [
       {
@@ -102,7 +102,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "y=(x-21)(x-42)\ny=0\nThe graphs of the equations in the given system of equations intersect at the point (x,y) in the xy-plane. What is a possible value of x?",
+    "passage": "The graphs of the equations in the given system of equations intersect at the point $(x, y)$ in the $xy$-plane. What is a possible value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -131,27 +131,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 5,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "The cost to rent a kayak consists of a fixed fee for the first hour and an hourly fee for each additional hour. The table shows the rental cost for 4 hours and for 6 hours.\nWhich function f gives the rental cost, in dollars, for x hours rental, where $x\\ge1$?",
+    "passage": "The cost to rent a kayak consists of a fixed fee for the first hour and an hourly fee for each additional hour. The table shows the rental cost for 4 hours and for 6 hours.\nWhich function $f$ gives the rental cost, in dollars, for $x$ hours rental, where $x \\geq 1$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "f(x)=30x"
+        "text": "$f(x) = 30x$"
       },
       {
         "label": "B",
-        "text": "f(x)=20x"
+        "text": "$f(x) = 20x$"
       },
       {
         "label": "C",
-        "text": "f(x)=20x+10"
+        "text": "$f(x) = 20x + 10$"
       },
       {
         "label": "D",
-        "text": "f(x)=20x+90"
+        "text": "$f(x) = 20x + 90$"
       }
     ],
     "is_fill_in_blank": false,
@@ -170,10 +170,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 6,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "g(x)=(36-2x)(10+2x)\nThe function g is defined by the given equation. For what value of x does g(x) reach its maximum?",
+    "passage": "$g(x) = (36 - 2x)(10 + 2x)$\nThe function $g$ is defined by the given equation. For what value of $x$ does $g(x)$ reach its maximum?",
     "question_text": null,
     "choices": [
       {
@@ -205,7 +205,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "Rectangle X has a length of 24 millimeters (mm) and a width of 17.5 mm. Right triangle Y has a base of 20 mm. The area of rectangle X is 3 times the area of right triangle Y. What is the height, in mm, of right triangle Y?",
+    "passage": "Rectangle $X$ has a length of 24 millimeters (mm) and a width of 17.5 mm. Right triangle $Y$ has a base of 20 mm. The area of rectangle $X$ is 3 times the area of right triangle $Y$. What is the height, in mm, of right triangle $Y$?",
     "question_text": null,
     "choices": [
       {
@@ -237,7 +237,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "There is a linear relationship between x and y. The table shows three values of x and their corresponding values of y in terms of a constant n. What is the slope of the line in the xy-plane that represents this relationship?",
+    "passage": "There is a linear relationship between $x$ and $y$. The table shows three values of $x$ and their corresponding values of $y$ in terms of a constant $n$. What is the slope of the line in the $xy$-plane that represents this relationship?",
     "question_text": null,
     "choices": [
       {
@@ -276,24 +276,24 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "If a=3k+5r and b=9k-12r+6, which expression is equivalent to a-b?",
+    "passage": "If $a = 3k + 5r$ and $b = 9k - 12r + 6$, which expression is equivalent to $a - b$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "-6k+17r-6"
+        "text": "$-6k + 17r - 6$"
       },
       {
         "label": "B",
-        "text": "-6k+17r+6"
+        "text": "$-6k + 17r + 6$"
       },
       {
         "label": "C",
-        "text": "-6k-7r+6"
+        "text": "$-6k - 7r + 6$"
       },
       {
         "label": "D",
-        "text": "-6k-7r-6"
+        "text": "$-6k - 7r - 6$"
       }
     ],
     "is_fill_in_blank": false,
@@ -323,7 +323,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "The equation $h=\\frac{9(v-273.15)}{5}+32$ gives the corresponding temperature h, in degrees Fahrenheit, of any substance that has a temperature of v kelvins, where v>0. If a substance has a temperature of 557.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "passage": "The equation $h=\\frac{9(v-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v>0$. If a substance has a temperature of 557.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -338,7 +338,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "$81x^{2}+\\frac{18}{33}x+$ p $=0$\nIn the given equation, p is a constant. The equation has exactly one real solution. What is the value of p?",
+    "passage": "$81x^2 + \\frac{18}{33}x + p = 0$\nIn the given equation, $p$ is a constant. The equation has exactly one real solution. What is the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -370,7 +370,7 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "$f(x)=3,600(0.28)^{\\frac{x}{12}}$\nThe function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value\nthe preceding year, what is the value of p?",
+    "passage": "$f(x)=3,600(0.28)^{\\frac{x}{12}}$\nThe function $f$ gives the value, in dollars, of a certain piece of equipment after $x$ months of use. If the value of the equipment decreases each year by $p\\%$ of its value the preceding year, what is the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -399,7 +399,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "September 2025 International Form A SAT Math Module 2",
     "passage": "An equilateral triangle has a height of $49\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
@@ -431,7 +431,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "September 2025 International Form A SAT Math Module 2",
     "passage": "Which expression is NOT a factor of $7,290x^{4}-1,440$?",
@@ -463,10 +463,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "2,590x=5,180x\nHow many solutions does the given equation have?",
+    "passage": "$2,590x = 5,180x$\nHow many solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {
@@ -498,7 +498,7 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "In the xy-plane, line r passes through the points (2,16) and (7, 17). Line s passes through the point (1, 2) and is perpendicular to line r. An equation of line s is ax+7y=c, where a and c are constants. What is the value of c?",
+    "passage": "In the $xy$-plane, line $r$ passes through the points $(2,16)$ and $(7, 17)$. Line $s$ passes through the point $(1, 2)$ and is perpendicular to line $r$. An equation of line $s$ is $ax + 7y = c$, where $a$ and $c$ are constants. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -510,10 +510,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 18,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "If x-2=3, what is the value of 3(x-2)?",
+    "passage": "If $x-2=3$, what is the value of $3(x-2)$?",
     "question_text": null,
     "choices": [
       {
@@ -542,7 +542,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "September 2025 International Form A SAT Math Module 2",
     "passage": "For 100 neurons, the table summarizes the distribution of classification and cell body diameter.\nOne of these neurons will be selected at random. What is the probability of selecting a neuron with a cell body diameter that is less than or equal to 30 micrometers, given that it is not classified as a motor neuron? (Express your answer as a decimal or fraction, not as a percent.)",
@@ -564,7 +564,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "September 2025 International Form A SAT Math Module 2",
     "passage": "The value of a toy increased by 193% from the end of 2016 to the end of 2017 and then decreased by 31% from the end of 2017 to the end of 2018. What was the net percentage increase in the value of the toy from the end of 2016 to the end of 2018?",
@@ -596,10 +596,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "5x+3y=6\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nI. 7.5x+4.5y=9\nII. 7.5x-4.5y=9",
+    "passage": "$5x + 3y = 6$\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nI. $7.5x + 4.5y = 9$\nII. $7.5x - 4.5y = 9$",
     "question_text": null,
     "choices": [
       {
@@ -628,10 +628,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "In the figure shown, points A, B, C, and E lie on the circle, and AB<BC. Segment AC is perpendicular to segment BE at point D, and BD=DE= $\\sqrt{398}$. The diameter of the circle is 201. If $\\frac{CD}{AD}=r$ what is the value of $r$?",
+    "passage": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = DE = \\sqrt{398}$. The diameter of the circle is 201. If $\\frac{CD}{AD} = r$, what is the value of $r$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

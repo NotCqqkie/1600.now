@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "The amount of Alex’s bill for a food order was \\$30.00. Alex gave a tip of 10% of the amount of the bill. What is the amount,in dollars,of the tip Alex gave?",
+    "passage": "The amount of Alex’s bill for a food order was $\\$30.00$. Alex gave a tip of 10% of the amount of the bill. What is the amount, in dollars, of the tip Alex gave?",
     "question_text": null,
     "choices": [
       {
@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "For a certain school district,the table shows the average number of books in classroom libraries in 2016 by school level. Based on the table,how much greater was the average number of books in elementary school classroom libraries than in high school classroom libraries?",
+    "passage": "For a certain school district, the table shows the average number of books in classroom libraries in 2016 by school level. Based on the table, how much greater was the average number of books in elementary school classroom libraries than in high school classroom libraries?",
     "question_text": null,
     "choices": [
       {
@@ -77,7 +77,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "The function f is defined by the equation f(x) = 100 x + 5. What is the value of f(x) when x = 7?",
+    "passage": "$f(x) = 100x + 5$. What is the value of $f(x)$ when $x = 7$?",
     "question_text": null,
     "choices": [
       {
@@ -109,7 +109,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "If 4 c = 16,what is the value of 4 c − 9?",
+    "passage": "If $4c = 16$, what is the value of $4c - 9$?",
     "question_text": null,
     "choices": [
       {
@@ -138,10 +138,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 5,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "The length, y,of a beluga whale was 160 centimeters (cm) when it was born and increased an average of 4.8 cm per month for the first 12 months after it was born. Which equation best represents this situation,where x is the number of months after the whale was born?",
+    "passage": "The length, $ y $, of a beluga whale was 160 centimeters (cm) when it was born and increased an average of 4.8 cm per month for the first 12 months after it was born. Which equation best represents this situation, where $ x $ is the number of months after the whale was born?",
     "question_text": null,
     "choices": [
       {
@@ -170,10 +170,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 6,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "A dog has a mass of 32 kilograms. What is the dog's mass,in g <u> rams </u>? (1 kilogram = 1,000 grams)",
+    "passage": "A dog has a mass of $32$ kilograms. What is the dog's mass, in grams? (1 kilogram = 1,000 grams)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -188,7 +188,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "Barbara and Maria are each saving for a trip. On January 1,Barbara starts with \\$70 and saves an additional \\$10 each week,and Maria starts with \\$120 and saves an additional \\$5 each week. The graphs give the total amount y, in dollars,that Barbara and Maria have each saved x weeks after January 1. How many weeks after January 1 will Barbara’s and Maria’s savings be equal?",
+    "passage": "Barbara and Maria are each saving for a trip. On January 1, Barbara starts with $70 and saves an additional $10 each week, and Maria starts with $120 and saves an additional $5 each week. The graphs give the total amount $y$, in dollars, that Barbara and Maria have each saved $x$ weeks after January 1. How many weeks after January 1 will Barbara’s and Maria’s savings be equal?",
     "question_text": null,
     "choices": [
       {
@@ -224,10 +224,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Probability and conditional probability",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 8,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "Each of 181 flowers can be classified as one of three colors,as shown in the frequency table.\nIf one of the flowers is selected at random,what is the probability of selecting a flower of color Y?",
+    "passage": "Each of 181 flowers can be classified as one of three colors, as shown in the frequency table.\nIf one of the flowers is selected at random, what is the probability of selecting a flower of color Y?",
     "question_text": null,
     "choices": [
       {
@@ -263,10 +263,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "Points Q,R,and S lie on the circle with center C shown. Segment QS is a diameter of the circle. The length of segment QS is 76 millimeters. What is the length,in millimeters,of segment CR (not shown)?",
+    "passage": "Points Q, R, and S lie on the circle with center C shown. Segment QS is a diameter of the circle. The length of segment QS is 76 millimeters. What is the length, in millimeters, of segment CR (not shown)?",
     "question_text": null,
     "choices": [
       {
@@ -302,27 +302,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "Which expression is equivalent to 7 x 3 + 56 x 2?",
+    "passage": "Which expression is equivalent to $7x^3 + 56x^2$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "x 3 （7+56 x ）"
+        "text": "$x^3(7 + 56x)$"
       },
       {
         "label": "B",
-        "text": "7x 2 （ x +49）"
+        "text": "$7x^2(x + 49)$"
       },
       {
         "label": "C",
-        "text": "7x 2 （ x +8）"
+        "text": "$7x^2(x + 8)$"
       },
       {
         "label": "D",
-        "text": "x 2 （ 7 +56 x ）"
+        "text": "$x^2(7 + 56x)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -373,27 +373,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "Which expression is equivalent to 9 + 8 − 5 x 2 − 2 x 2?",
+    "passage": "Which expression is equivalent to $9 + 8 - 5x^2 - 2x^2$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "+ 7 x 2"
+        "text": "$+ 7x^2$"
       },
       {
         "label": "B",
-        "text": "-7 x 2"
+        "text": "$-7x^2$"
       },
       {
         "label": "C",
-        "text": "+ 10 x 2"
+        "text": "$+ 10x^2$"
       },
       {
         "label": "D",
-        "text": "-10 x 2"
+        "text": "$-10x^2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -405,27 +405,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "In triangle ABC,AB = 4,720 millimeters (mm) and BC = 4,720 mm. Which statement is sufficient to prove that triangle ABC is equilateral?",
+    "passage": "In triangle $ABC$, $AB = 4,720$ millimeters (mm) and $BC = 4,720$ mm. Which statement is sufficient to prove that triangle $ABC$ is equilateral?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "AC = 4.72 mm"
+        "text": "$AC = 4.72$ mm"
       },
       {
         "label": "B",
-        "text": "AC = 47.2 mm"
+        "text": "$AC = 47.2$ mm"
       },
       {
         "label": "C",
-        "text": "AC = 472 mm"
+        "text": "$AC = 472$ mm"
       },
       {
         "label": "D",
-        "text": "AC = 4,720 mm"
+        "text": "$AC = 4,720$ mm"
       }
     ],
     "is_fill_in_blank": false,
@@ -437,27 +437,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 14,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "Line k is defined by y = 3 x − 2. Line j is parallel to line k in the xy -plane and passes through the point (0, 1). Which equation defines line j?",
+    "passage": "Line $k$ is defined by $y = 3x - 2$. Line $j$ is parallel to line $k$ in the $xy$-plane and passes through the point $(0, 1)$. Which equation defines line $j$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y = x − 2"
+        "text": "$y = x - 2$"
       },
       {
         "label": "B",
-        "text": "y = 3 x + 1"
+        "text": "$y = 3x + 1$"
       },
       {
         "label": "C",
-        "text": "y = − x − 2"
+        "text": "$y = -x - 2$"
       },
       {
         "label": "D",
-        "text": "y = −3 x + 1"
+        "text": "$y = -3x + 1$"
       }
     ],
     "is_fill_in_blank": false,
@@ -469,10 +469,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "A line segment that has a length of 112 centimeters (cm) is divided into three parts. One part is 48 cm long. The other two parts have lengths that are equal to each other. What is the length,in cm,of one of the other two parts of equal length?",
+    "passage": "A line segment that has a length of 112 centimeters (cm) is divided into three parts. One part is 48 cm long. The other two parts have lengths that are equal to each other. What is the length, in cm, of one of the other two parts of equal length?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -484,10 +484,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 17,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "The length of the base of a triangle is 4 inches,and the height of the triangle is 17 inches. What is the area,in square inches,of the triangle?",
+    "passage": "The length of the base of a triangle is 4 inches, and the height of the triangle is 17 inches. What is the area, in square inches, of the triangle?",
     "question_text": null,
     "choices": [
       {
@@ -516,19 +516,19 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 18,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "The predicted number, B (t),of a certain type of bacteria cell in a growth medium is given by the function B (t)= 80(2) t,where t is the time,in days,since the number of bacteria cells was first measured. Which of the following is the best interpretation of B (4)= 1,280 in this context?",
+    "passage": "The predicted number, $B(t)$, of a certain type of bacteria cell in a growth medium is given by the function $B(t) = 80(2)^t$, where $t$ is the time, in days, since the number of bacteria cells was first measured. Which of the following is the best interpretation of $B(4) = 1,280$ in this context?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "days after the number of bacteria cells was first measured, the predicted number of bacteria cells was 1,280."
+        "text": "4 days after the number of bacteria cells was first measured, the predicted number of bacteria cells was 1,280."
       },
       {
         "label": "B",
-        "text": "days after the number of bacteria cells was first measured, the predicted number of bacteria cells was 1,280."
+        "text": "4 days after the number of bacteria cells was first measured, the predicted number of bacteria cells was 1,280."
       },
       {
         "label": "C",
@@ -548,10 +548,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "f(x)=(x + 6)(x − 7)\nIf the given function f is graphed in the xy -plane, where y = f (x), what is the x -coordinate of an x -intercept\nof the graph?",
+    "passage": "If the given function $f(x) = (x + 6)(x - 7)$ is graphed in the $xy$-plane, where $y = f(x)$, what is the $x$-coordinate of an $x$-intercept of the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -563,10 +563,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 20,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "x 2 − 49 = 0\nHow many distinct real solutions does the given equation have?",
+    "passage": "$x^2 - 49 = 0$\nHow many distinct real solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {
@@ -595,10 +595,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "What is the value of cos B in the right triangle shown?",
+    "passage": "What is the value of $\\cos B$ in the right triangle shown?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -617,10 +617,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "May 2024 International Form E SAT Math Module 2",
-    "passage": "The graph of the linear equation 6 x + By = 18 is shown,where B is a constant. What is the value of B?",
+    "passage": "The graph of the linear equation $6x + By = 18$ is shown, where $B$ is a constant. What is the value of $B$?",
     "question_text": null,
     "choices": [
       {

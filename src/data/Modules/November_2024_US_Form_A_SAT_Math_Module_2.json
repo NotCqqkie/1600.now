@@ -6,24 +6,24 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "If 44=6+2(x -3), what is the value of 2(x -3)?",
+    "passage": "If $44 = 6 + 2(x - 3)$, what is the value of $2(x - 3)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "6"
+        "text": "$6$"
       },
       {
         "label": "B",
-        "text": "22"
+        "text": "$22$"
       },
       {
         "label": "C",
-        "text": "38"
+        "text": "$38$"
       },
       {
         "label": "D",
-        "text": "41"
+        "text": "$41$"
       }
     ],
     "is_fill_in_blank": false,
@@ -35,10 +35,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "question_number": 2,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "Which expression is equivalent to(x 2 +11) 2 +(x -8)(x +8)?",
+    "passage": "Which expression is equivalent to $(x^2 + 11)^2 + (x - 8)(x + 8)$?",
     "question_text": null,
     "choices": [
       {
@@ -70,7 +70,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "The graph of the polynomial function f in the xy-plane, where y= f(x), passes through the point (9, 7). What is the value of f(9)?",
+    "passage": "The graph of the polynomial function $f$ in the $xy$-plane, where $y= f(x)$, passes through the point $(9, 7)$. What is the value of $f(9)$?",
     "question_text": null,
     "choices": [
       {
@@ -102,24 +102,24 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "What is the y-intercept of the graph of y= 12(5) x +2 in the xy-plane?",
+    "passage": "What is the $y$-intercept of the graph of $y = 12(5)x + 2$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(0,12)"
+        "text": "$(0,12)$"
       },
       {
         "label": "B",
-        "text": "(0,120)"
+        "text": "$(0,120)$"
       },
       {
         "label": "C",
-        "text": "(0,300)"
+        "text": "$(0,300)$"
       },
       {
         "label": "D",
-        "text": "(0,3,600)"
+        "text": "$(0,3,600)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -131,27 +131,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 6,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "The table shows the linear relationship between the number of cars, c, on a commuter train and the maximum number of passengers and crew, p, that the train can carry. Which equation represents the linear relationship between c and p?",
+    "passage": "The table shows the linear relationship between the number of cars, $c$, on a commuter train and the maximum number of passengers and crew, $p$, that the train can carry. Which equation represents the linear relationship between $c$ and $p$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "c - p =-6"
+        "text": "$c - p = -6$"
       },
       {
         "label": "B",
-        "text": "c - p =6"
+        "text": "$c - p = 6$"
       },
       {
         "label": "C",
-        "text": "p - c =-6"
+        "text": "$p - c = -6$"
       },
       {
         "label": "D",
-        "text": "p - c =6"
+        "text": "$p - c = 6$"
       }
     ],
     "is_fill_in_blank": false,
@@ -170,10 +170,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 7,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "The function h is defined by h(x)=2(9x- 10). What is the value of h (10)?",
+    "passage": "The function $ h $ is defined by $ h(x) = 2(9x - 10) $. What is the value of $ h(10) $?",
     "question_text": null,
     "choices": [
       {
@@ -205,7 +205,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "Line p in the xy-plane is defined by y= x + $\\frac{1}{3}$ and passes through the points (a, 0) and (0, b), where a and b are constants. What is the value of a?",
+    "passage": "Line $p$ in the $xy$-plane is defined by $y = x + \\frac{1}{3}$ and passes through the points $(a, 0)$ and $(0, b)$, where $a$ and $b$ are constants. What is the value of $a$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -220,24 +220,24 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "x 2 + 2 x = 72\nWhat is one of the solutions to the given equation?",
+    "passage": "$x^2 + 2x = 72$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "1+ $\\sqrt{73}$"
+        "text": "$1 + \\sqrt{73}$"
       },
       {
         "label": "B",
-        "text": "1+ $\\sqrt{71}$"
+        "text": "$1 + \\sqrt{71}$"
       },
       {
         "label": "C",
-        "text": "-1+ $\\sqrt{73}$"
+        "text": "$-1 + \\sqrt{73}$"
       },
       {
         "label": "D",
-        "text": "-1+ $\\sqrt{71}$"
+        "text": "$-1 + \\sqrt{71}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -257,19 +257,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "q < s"
+        "text": "$q < s$"
       },
       {
         "label": "B",
-        "text": "q > s"
+        "text": "$q > s$"
       },
       {
         "label": "C",
-        "text": "q = s"
+        "text": "$q = s$"
       },
       {
         "label": "D",
-        "text": "The relationship between q and s cannot be determined."
+        "text": "The relationship between $q$ and $s$ cannot be determined."
       }
     ],
     "is_fill_in_blank": false,
@@ -320,10 +320,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 12,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "For an online trivia game, 490 points are awarded for a correct answer if a question is answered in less than 5 seconds from the time the question is asked. Each 5 seconds after the question is asked, the number of points awarded for a correct answer decreases by 20% of the number of points awarded for a correct answer in the previous 5 seconds. Which function gives the number of points awarded for a correct answer a seconds from the time the question is asked, where x is a multiple of 5?",
+    "passage": "For an online trivia game, 490 points are awarded for a correct answer if a question is answered in less than 5 seconds from the time the question is asked. Each 5 seconds after the question is asked, the number of points awarded for a correct answer decreases by 20% of the number of points awarded for a correct answer in the previous 5 seconds. Which function gives the number of points awarded for a correct answer $a$ seconds from the time the question is asked, where $x$ is a multiple of 5?",
     "question_text": null,
     "choices": [
       {
@@ -340,7 +340,7 @@
       },
       {
         "label": "D",
-        "text": "f (x) =490 (0.20) 5x"
+        "text": "$f(x)=490(0.20)^{5x}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -352,27 +352,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 13,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "A machine makes 9-inch, 8-inch, and 3-inch parts. During a certain day, the number of 9-inch parts that the machine makes is 4 times the number n of 8-inch parts, and the number of 3-inch parts is 15. During this day, the machine makes 100 parts total. Which equation represents this situation?",
+    "passage": "A machine makes 9-inch, 8-inch, and 3-inch parts. During a certain day, the number of 9-inch parts that the machine makes is 4 times the number $n$ of 8-inch parts, and the number of 3-inch parts is 15. During this day, the machine makes 100 parts total. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$9(4n)+8n+3(15)=100$"
+        "text": "$4n + n + 15 = 100$"
       },
       {
         "label": "B",
-        "text": "$9n+8n+3n=100$"
+        "text": "$9n + 8n + 3n = 100$"
       },
       {
         "label": "C",
-        "text": "$4n+15=100$"
+        "text": "$4n + 15 = 100$"
       },
       {
         "label": "D",
-        "text": "$5n+15=100$"
+        "text": "$5n + 15 = 100$"
       }
     ],
     "is_fill_in_blank": false,
@@ -387,7 +387,7 @@
     "difficulty": "Hard",
     "question_number": 14,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "A circle in the xy-plane has its center at (3, 7). Line t is tangent to this circle at the point (a,-4), where a is a constant. The slope of line t is $\\frac{5}{4}$. What is the value of a?",
+    "passage": "A circle in the $xy$-plane has its center at $(3, 7)$. Line $t$ is tangent to this circle at the point $(a,-4)$, where $a$ is a constant. The slope of line $t$ is $\\frac{5}{4}$. What is the value of $a$?",
     "question_text": null,
     "choices": [
       {
@@ -419,7 +419,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "The line segment shown in the xy-plane represents one of the legs of a right triangle. The area of this triangle is 48 $\\sqrt{13}$ square units. What is the length, in units, of the other leg of this triangle?",
+    "passage": "The line segment shown in the $xy$-plane represents one of the legs of a right triangle. The area of this triangle is $48\\sqrt{13}$ square units. What is the length, in units, of the other leg of this triangle?",
     "question_text": null,
     "choices": [
       {
@@ -455,27 +455,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "In triangle ABC and triangle DEF, AB and DE are each equal to 5 centimeters, and angles A and D each have measure 35°. Which additional piece of information is sufficient to prove that triangle ABC is congruent to triangle DE F?",
+    "passage": "In triangle ABC and triangle DEF, AB and DE are each equal to 5 centimeters, and angles A and D each have measure 35°. Which additional piece of information is sufficient to prove that triangle ABC is congruent to triangle DEF?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The lengths of sides BC and EF are equal."
+        "text": "The lengths of sides $BC$ and $EF$ are equal."
       },
       {
         "label": "B",
-        "text": "The lengths of sides AC and DF are equal."
+        "text": "The lengths of sides $AC$ and $DF$ are equal."
       },
       {
         "label": "C",
-        "text": "The measures of angles B and C are equal."
+        "text": "The measures of angles $B$ and $C$ are equal."
       },
       {
         "label": "D",
-        "text": "No additional information is necessary to prove that the two triangles arecongruent."
+        "text": "No additional information is necessary to prove that the two triangles are congruent."
       }
     ],
     "is_fill_in_blank": false,
@@ -490,24 +490,24 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "The graph of the linear function y= f(x)- 19 is shown. If c and d are positive constants, which equation could define f?",
+    "passage": "The graph of the linear function $y = f(x) - 19$ is shown. If $c$ and $d$ are positive constants, which equation could define $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=d-cx$"
+        "text": "$f(x) = d - cx$"
       },
       {
         "label": "B",
-        "text": "$f(x)=-d+cx$"
+        "text": "$f(x) = -d + cx$"
       },
       {
         "label": "C",
-        "text": "$f(x)=d+cx$"
+        "text": "$f(x) = d + cx$"
       },
       {
         "label": "D",
-        "text": "$f(x)=-d-cx$"
+        "text": "$f(x) = -d - cx$"
       }
     ],
     "is_fill_in_blank": false,
@@ -526,10 +526,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "One of these neurons will be selected at random, What is the probability of selecting a neuron with a cell body diameter that is less than or equal to 30 micrometers, given that it is not classified as a motor neuron? (Express your answer as a decimal or fraction, not as a percent.)",
+    "passage": "One of these neurons will be selected at random. What is the probability of selecting a neuron with a cell body diameter that is less than or equal to 30 micrometers, given that it is not classified as a motor neuron? (Express your answer as a decimal or fraction, not as a percent.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -548,10 +548,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "$\\sqrt{k-x}=32-x$\nIn the given equation, k is a constant. The equation has exactly one real solution. What is the minimum possible value of 4 k?",
+    "passage": "\\sqrt{k - x} = 32 - x\nIn the given equation, $k$ is a constant. The equation has exactly one real solution. What is the minimum possible value of $4k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -566,7 +566,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "Which of the following expressions has a factor of x + 2 b, where b is a positive integer constant?",
+    "passage": "Which of the following expressions has a factor of $x + 2b$, where $b$ is a positive integer constant?",
     "question_text": null,
     "choices": [
       {
@@ -595,10 +595,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "$x(kx-40)=-8$\nIn the given equation, k is an integer constant. If the equation has two distinct real solutions,what is the greatest possible value of k?",
+    "passage": "$x(kx - 40) = -8$\nIn the given equation, $k$ is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -610,10 +610,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "The mass of object A is 416% of the mass of object B, and the mass of object A is 0.064% of the mass of object C. If the mass of object C is p% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
+    "passage": "The mass of object A is 416% of the mass of object B, and the mass of object A is 0.064% of the mass of object C. If the mass of object C is $p$\\% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

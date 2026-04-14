@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "If 7 +x = 4, what is the value of 42 + 6x?",
+    "passage": "If $7 + x = 4$, what is the value of $42 + 6x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -92,7 +92,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "A furniture company is selling all tables with a 20% discount off their original price for the month of October. What is the discount, in dollars, on a table with an original price of \\$130?",
+    "passage": "A furniture company is selling all tables with a 20% discount off their original price for the month of October. What is the discount, in dollars, on a table with an original price of $\\$130$?",
     "question_text": null,
     "choices": [
       {
@@ -124,7 +124,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "x =16\n−3 x + y =−5\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "passage": "$x = 16$\n$-3x + y = -5$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
     "question_text": null,
     "choices": [
       {
@@ -156,24 +156,24 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "A shopper is purchasing oranges that cost \\$0.67 each. If the shopper has a coupon for \\$2 off the entire purchase and there is no sales tax, which inequality represents the number of oranges, x, that the shopper can purchase for no more than \\$12?",
+    "passage": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than $12.",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$0.67x+2\\le12$"
+        "text": "$0.67x + 2 \\le 12$"
       },
       {
         "label": "B",
-        "text": "$0.67+2\\ge12$"
+        "text": "$0.67 + 2 \\ge 12$"
       },
       {
         "label": "C",
-        "text": "$0.67x-2\\le12$"
+        "text": "$0.67x - 2 \\le 12$"
       },
       {
         "label": "D",
-        "text": "$0.67x-2\\ge12$"
+        "text": "$0.67x - 2 \\ge 12$"
       }
     ],
     "is_fill_in_blank": false,
@@ -185,27 +185,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 8,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "Circle T has a radius of 35 millimeters (mm). What is the area of circle T, in mm 2?",
+    "passage": "Circle T has a radius of 35 millimeters (mm). What is the area of circle T, in $\\text{mm}^2$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "35π"
+        "text": "$35\\pi$"
       },
       {
         "label": "B",
-        "text": "70π"
+        "text": "$70\\pi$"
       },
       {
         "label": "C",
-        "text": "140π"
+        "text": "$140\\pi$"
       },
       {
         "label": "D",
-        "text": "1,225π"
+        "text": "$1,225\\pi$"
       }
     ],
     "is_fill_in_blank": false,
@@ -220,7 +220,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "In the xy-plane, circle F is defined by the equation (x + 7) 2 + (1 + 7) 2 = 36. Circle G has the same center as circle F, and the radius of circle G is 2 units greater than the radius of circle F. Circle G is defined by the equation (x + 7)²+ (y + 7) 2 = p, where p is a constant.What is the value of p?",
+    "passage": "In the $xy$-plane, circle $F$ is defined by the equation $(x + 7)^2 + (y + 7)^2 = 36$. Circle $G$ has the same center as circle $F$, and the radius of circle $G$ is 2 units greater than the radius of circle $F$. Circle $G$ is defined by the equation $(x + 7)^2 + (y + 7)^2 = p$, where $p$ is a constant. What is the value of $p$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -232,10 +232,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to 4yz 3 + 5yz + 3yz 3?",
+    "passage": "Which expression is equivalent to $4yz^3 + 5yz + 3yz^3$?",
     "question_text": null,
     "choices": [
       {
@@ -264,10 +264,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "If $\\frac{x}{y}$ =76 and $\\frac{cx}{4y}$ = 76, what is the value of c?",
+    "passage": "If $\\frac{x}{y} = 76$ and $\\frac{cx}{4y} = 76$, what is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -282,24 +282,24 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "In the figure shown, triangle CAE is similar to triangle CBD. The measure of angle CBD is 57°, and AE=21(BD). What is the measure of angle CAE?",
+    "passage": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is $57^\\circ$, and $AE=21(BD)$. What is the measure of angle $CAE$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(21·57)^\\circ$"
+        "text": "$(21 \\cdot 57)^\\circ$"
       },
       {
         "label": "B",
-        "text": "(21+ 57)°"
+        "text": "$(21 + 57)^\\circ$"
       },
       {
         "label": "C",
-        "text": "57°"
+        "text": "$57^\\circ$"
       },
       {
         "label": "D",
-        "text": "21°"
+        "text": "$21^\\circ$"
       }
     ],
     "is_fill_in_blank": false,
@@ -321,7 +321,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "The graph shows the estimated boiling point y, in degrees Celsius, of a straight-chain alkane with a molecular weight of x grams per mole, where 1 $\\ge$ x $\\le$ 280. Which statement is the best interpretation of the point (141.32, 172.26)?",
+    "passage": "The graph shows the estimated boiling point $y$, in degrees Celsius, of a straight-chain alkane with a molecular weight of $x$ grams per mole, where $1 \\leq x \\leq 280$. Which statement is the best interpretation of the point (141.32, 172.26)?",
     "question_text": null,
     "choices": [
       {
@@ -330,11 +330,11 @@
       },
       {
         "label": "B",
-        "text": "A straight-chain alkane with a molecular weight of l41.32 grams per mole has an estimated boiling point of 172.26 degrees Celsius."
+        "text": "A straight-chain alkane with a molecular weight of 141.32 grams per mole has an estimated boiling point of 172.26 degrees Celsius."
       },
       {
         "label": "C",
-        "text": "The minimum estimated boiling point for straight-chain alkanes corresponds to an alkane with a molecular weight of 14l.32 grams per mole and an estimated boiling point of 172.26 degrees Celsius."
+        "text": "The minimum estimated boiling point for straight-chain alkanes corresponds to an alkane with a molecular weight of 141.32 grams per mole and an estimated boiling point of 172.26 degrees Celsius."
       },
       {
         "label": "D",
@@ -357,10 +357,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "If $\\frac{72}{x}$ = 6x, what is the value of 6x 2?",
+    "passage": "If $\\frac{72}{x} = 6x$, what is the value of $6x^2$?",
     "question_text": null,
     "choices": [
       {
@@ -389,10 +389,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "$y\\le5x-21$\nWhich point (x, y) is a solution to the given inequality in the x-plane?",
+    "passage": "$y \\leq 5x - 21$\nWhich point $(x, y)$ is a solution to the given inequality in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -421,10 +421,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "$f=\\frac{(10x)^{2}}{7g}$\nThe given equation relates the positive numbers f, x, and g. Which equation correctly expresses x in terms of f and g?",
+    "passage": "The given equation $f=\\frac{(10x)^{2}}{7g}$ relates the positive numbers $f$, $x$, and $g$. Which equation correctly expresses $x$ in terms of $f$ and $g$?",
     "question_text": null,
     "choices": [
       {
@@ -453,10 +453,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "In the xy-plane, line l passes through the point (0, 0) and is parallel to the line represented by the equation y= 8x + 4. If line l also passes through the point (6, d), what is the value of d?",
+    "passage": "In the $xy$-plane, line $l$ passes through the point $(0, 0)$ and is parallel to the line represented by the equation $y=8x + 4$. If line $l$ also passes through the point $(6, d)$, what is the value of $d$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -468,27 +468,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "A circle in the xy-plane has its center at (14, 19) and has a radius of 7k. Which equation represents this circle?",
+    "passage": "A circle in the $xy$-plane has its center at $(14, 19)$ and has a radius of $7k$. Which equation represents this circle?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(x-14)2+(y-19)2=49k$"
+        "text": "$(x-14)^2+(y-19)^2=49k$"
       },
       {
         "label": "B",
-        "text": "$(x-14)2+(y-19)2=49k$ 2"
+        "text": "$(x-14)^2+(y-19)^2=49k^2$"
       },
       {
         "label": "C",
-        "text": "$(x-14)2+(y-19)2=7k$"
+        "text": "$(x-14)^2+(y-19)^2=7k$"
       },
       {
         "label": "D",
-        "text": "$(x-14)2+(y-19)2=7k$ 2"
+        "text": "$(x-14)^2+(y-19)^2=7k^2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -503,7 +503,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan θ < $\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 29.1 inches, what is the least possible value of x, in inches?",
+    "passage": "According to a US law, ramps for use by the general public must form an angle with level ground such that $\\tan \\theta < \\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 29.1 inches, what is the least possible value of $x$, in inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -522,10 +522,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "The equation of the graph shown is y= a z + b, where a and b are constants. What is the value of a-b?",
+    "passage": "The equation of the graph shown is $ y = az + b $, where $ a $ and $ b $ are constants. What is the value of $ a - b $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

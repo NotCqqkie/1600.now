@@ -3,10 +3,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 1,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "The function g is defined by g(x)= -18- 9x. For what value of x does g(x)=-216?",
+    "passage": "The function $g$ is defined by $g(x) = -18 - 9x$. For what value of $x$ does $g(x) = -216$?",
     "question_text": null,
     "choices": [
       {
@@ -35,7 +35,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 2,
     "test_name": "December 2024 US Form A SAT Math Module 2",
     "passage": "The population of a certain city doubled every 25 years from 1660 to 1760. The population of this city was 208,000 in 1760. What was the population of this city in 1660?",
@@ -67,10 +67,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "The function $f(x)=600(0.5)^{\\frac{x}{11}}$ gives the predicted intensity of a beam f(x), in number of photons in the beam, x millimeters below the surface of a certain material. What is the bestinterpretation of f(11)= 300?",
+    "passage": "The function $f(x)=600(0.5)^{\\frac{x}{11}}$ gives the predicted intensity of a beam $f(x)$, in number of photons in the beam, $x$ millimeters below the surface of a certain material. What is the best interpretation of $f(11)= 300$?",
     "question_text": null,
     "choices": [
       {
@@ -99,10 +99,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "For the linear function h, h(0)=0 and h(11)= 5. Which equation defines h?",
+    "passage": "For the linear function h, h(0) = 0 and h(11) = 5. Which equation defines h?",
     "question_text": null,
     "choices": [
       {
@@ -131,10 +131,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 5,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "Hassan put up wire fencing along each edge of a rectangular garden with a length of x feet and a width of y feet, Hassan put up a total length of 44 feet of wire fencing. Which equation represents this situation?",
+    "passage": "Hassan put up wire fencing along each edge of a rectangular garden with a length of $x$ feet and a width of $y$ feet. Hassan put up a total length of 44 feet of wire fencing. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
@@ -163,10 +163,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 6,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "How many solutions does the equation7x -19=19-7x have?",
+    "passage": "How many solutions does the equation $7x - 19 = 19 - 7x$ have?",
     "question_text": null,
     "choices": [
       {
@@ -183,7 +183,7 @@
       },
       {
         "label": "D",
-        "text": "Exactly many"
+        "text": "Infinitely many"
       }
     ],
     "is_fill_in_blank": false,
@@ -195,10 +195,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 7,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "$y>17$\n$4x+y\nThe point (x, 54) is a solution to the given system of inequalities in the xy-plane. Which of the following could be the value of x?",
+    "passage": "$y > 17$\n$4x + y$\nThe point $(x, 54)$ is a solution to the given system of inequalities in the $xy$-plane. Which of the following could be the value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -227,10 +227,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 8,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is \\$190 when it sells 4 items, and its profit is \\$670 when it sells 10 items. which equation defnes f?",
+    "passage": "A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is $190 when it sells 4 items, and its profit is $670 when it sells 10 items. Which equation defines f?",
     "question_text": null,
     "choices": [
       {
@@ -294,24 +294,24 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "The circumference of the base of a right circular cylinder is 6π meters, and the height of the cylinder is 19 meters. What is the volume, in cubic meters, of the cylinder?",
+    "passage": "The circumference of the base of a right circular cylinder is $6\\pi$ meters, and the height of the cylinder is 19 meters. What is the volume, in cubic meters, of the cylinder?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "57π"
+        "text": "$57\\pi$"
       },
       {
         "label": "B",
-        "text": "114π"
+        "text": "$114\\pi$"
       },
       {
         "label": "C",
-        "text": "171π"
+        "text": "$171\\pi$"
       },
       {
         "label": "D",
-        "text": "684π"
+        "text": "$684\\pi$"
       }
     ],
     "is_fill_in_blank": false,
@@ -323,10 +323,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 12,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "A carnival receives \\$10 for each adult admission ticket sold and \\$5 for each child admission ticket sold. On a particular day, the carnival received a total of \\$4,100 from selling adult andchild admission tickets. If 220 adult admission tickets were sold on that day, how many child admission tickets were sold?",
+    "passage": "A carnival receives $10 for each adult admission ticket sold and $5 for each child admission ticket sold. On a particular day, the carnival received a total of $4,100 from selling adult and child admission tickets. If 220 adult admission tickets were sold on that day, how many child admission tickets were sold?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -341,7 +341,7 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "$y-x=32$\n$y=x^{2}-30x$\nThe graphs of the equations in the given system intersect at the point (x, y) in the xy-plane. What is a possible value of y?",
+    "passage": "$y - x = 32$\n$y = x^2 - 30x$\nThe graphs of the equations in the given system intersect at the point $(x, y)$ in the $xy$-plane. What is a possible value of $y$?",
     "question_text": null,
     "choices": [
       {
@@ -373,7 +373,7 @@
     "difficulty": "Hard",
     "question_number": 14,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "$c(r)=\\frac{2}{5}(2\\pi r)$\nThe function c gives the partial length, in centimeters (cm), of the circumference of a circle with a radius that measures r cm. According to the function, for each increase of 18 cm inthe length of the radius, this partial length of the circumference increases by kπ cm. What isthe value of k?",
+    "passage": "$c(r)=\\frac{2}{5}(2\\pi r)$\nThe function $c$ gives the partial length, in centimeters (cm), of the circumference of a circle with a radius that measures $r$ cm. According to the function, for each increase of 18 cm in the length of the radius, this partial length of the circumference increases by $k\\pi$ cm. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -385,10 +385,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "$f(x)=25(1.40)^{\\frac{x}{3}}$\nFor the given function f, the value of f(x) increases by p% for every increase of a by 6. What is the value of p?",
+    "passage": "$f(x) = 25(1.40)^{\\frac{x}{3}}$\nFor the given function $f$, the value of $f(x)$ increases by $p\\%$ for every increase of $x$ by 6. What is the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -420,7 +420,7 @@
     "difficulty": "Hard",
     "question_number": 16,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "The function k is defined by $k(s)=\\sqrt{s+110}$. If k(53p)= p, where p is a constant, what is the value of p?",
+    "passage": "The function k is defined by $k(s)=\\sqrt{s+110}$. If $k(53p)= p$, where p is a constant, what is the value of p?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -432,10 +432,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "If 121x 2 =-110x+ 56, what is the value of 11x + 5, where 11x +5 > 0?",
+    "passage": "If $121x^2 = -110x + 56$, what is the value of $11x + 5$, where $11x + 5 > 0$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -447,10 +447,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "A computer program models the population of a certain insect in an environment where theinsect has no natural predators. According to the model, the estimated total mass of the population of insects at the end of every 5-week period is 158% greater than the estimatedtotal mass of the population of insects at the end of the previous 5-week period. The estimated total mass of the population of insects at the end of 15 weeks is 627.7 grams. Which equation best represents this model, where M is the estimated total mass, in grams, of the population of insects at the end oft weeks?",
+    "passage": "A computer program models the population of a certain insect in an environment where the insect has no natural predators. According to the model, the estimated total mass of the population of insects at the end of every 5-week period is 158% greater than the estimated total mass of the population of insects at the end of the previous 5-week period. The estimated total mass of the population of insects at the end of 15 weeks is 627.7 grams. Which equation best represents this model, where $M$ is the estimated total mass, in grams, of the population of insects at the end of $t$ weeks?",
     "question_text": null,
     "choices": [
       {
@@ -479,10 +479,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "The value of an autographed baseball increased by 178% from the end of 2012 to the end of 2013 and then decreased by 21% from the end of 2013 to the end of 2014. What was the netpercentage increase in the value of the autographed baseball from the end of 2012 to the end of 2014?",
+    "passage": "The value of an autographed baseball increased by 178% from the end of 2012 to the end of 2013 and then decreased by 21% from the end of 2013 to the end of 2014. What was the net percentage increase in the value of the autographed baseball from the end of 2012 to the end of 2014?",
     "question_text": null,
     "choices": [
       {
@@ -514,7 +514,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "If n and k are numbers greater than 1 and $4n^{5}3$ is equivalent to $3k^{2}$, for what value of a is n 2a+1 equal to k?",
+    "passage": "If $n$ and $k$ are numbers greater than 1 and $4n^5 \\cdot 3$ is equivalent to $3k^2$, for what value of $a$ is $n = 2a + 1$ equal to $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -526,10 +526,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "For triangle ABC, the length of $\\overline{AB}$ is 11 less than the length of $\\overline{AC}$. Point D (not shown) lies on $\\overline{AC}$ such that $\\overline{BD}$ (not shown) is perpendicular to $\\overline{AC}$. What is the value of $\\frac{BC}{BD}$?",
+    "passage": "For triangle $ABC$, the length of $\\overline{AB}$ is 11 less than the length of $\\overline{AC}$. Point $D$ (not shown) lies on $\\overline{AC}$ such that $\\overline{BD}$ (not shown) is perpendicular to $\\overline{AC}$. What is the value of $\\frac{BC}{BD}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -548,10 +548,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "The area of a rectangular region is increasing at a rate of 280 square feet per hour. Which of the following is closest to this rate in sgpare meters per minute? (Use 1 meter 3.28 feet.)",
+    "passage": "The area of a rectangular region is increasing at a rate of $280$ square feet per hour. Which of the following is closest to this rate in square meters per minute? (Use $1$ meter = $3.28$ feet.)",
     "question_text": null,
     "choices": [
       {

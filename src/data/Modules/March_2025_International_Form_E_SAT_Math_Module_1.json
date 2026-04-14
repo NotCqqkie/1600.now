@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "The cost y, in dollars, for a manufacturer to make x rings is represented by the line shown.\nWhat is the cost, in dollars, for the manufacturer to make 50 rings?",
+    "passage": "The cost $y$, in dollars, for a manufacturer to make $x$ rings is represented by the line shown.\nWhat is the cost, in dollars, for the manufacturer to make 50 rings?",
     "question_text": null,
     "choices": [
       {
@@ -116,7 +116,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "The function fis deñned by f(x)= 8(2x + 2). For what value of x does f(x)= 80?",
+    "passage": "$f(x) = 8(2x + 2)$. For what value of $x$ does $f(x) = 80$?",
     "question_text": null,
     "choices": [
       {
@@ -180,7 +180,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "A line segment that has a length of 125 centimeters (cm) is divided into three parts. One part is 49 cm long. The other two parts have lengths that are equal to each other what is thelength, in cm, of one of the other two parts ofequal length?",
+    "passage": "A line segment that has a length of 125 centimeters (cm) is divided into three parts. One part is 49 cm long. The other two parts have lengths that are equal to each other. What is the length, in cm, of one of the other two parts of equal length?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -192,27 +192,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "Circle N has a radius of 9 millimeters (mm). Circle M has an area of 25π mm 2. What is the\ntotal area, in mm 2, of circles N and M?",
+    "passage": "Circle N has a radius of 9 millimeters (mm). Circle M has an area of $25\\pi$ mm$^2$. What is the total area, in mm$^2$, of circles N and M?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "106π"
+        "text": "$106\\pi$"
       },
       {
         "label": "B",
-        "text": "61π"
+        "text": "$61\\pi$"
       },
       {
         "label": "C",
-        "text": "43π"
+        "text": "$43\\pi$"
       },
       {
         "label": "D",
-        "text": "14π"
+        "text": "$14\\pi$"
       }
     ],
     "is_fill_in_blank": false,
@@ -227,7 +227,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "The list gives the inass, in grams, of 5 ruffed lemurs.\n3,710; 3,710; 3,130; 3,750; 3,150\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
+    "passage": "The list gives the mass, in grams, of 5 ruffed lemurs.\n3,710; 3,710; 3,130; 3,750; 3,150\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -239,7 +239,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "$2x(x-3)(x+5)=0$\nWhat is one of the solutions to the given equation?",
@@ -271,10 +271,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "In the fgure shown, triangle CAE is similar to triangle CBD. The measure of angle CBDis 56, and AE= 22(BD). What is the measure of angle CAE?",
+    "passage": "In the figure shown, triangle CAE is similar to triangle CBD. The measure of angle CBD is 56°, and AE = 22(BD). What is the measure of angle CAE?",
     "question_text": null,
     "choices": [
       {
@@ -310,14 +310,14 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 11,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "A clothing store buys shirts at a wholesale price of 6,00 dollars each and resells them each ata retail price that is 310% of the wholesale price. At the end ofthe season, any remainingshirts are marked at a discounted price that is 75% of the retail price. What is thediscounted price of each remaining shirt, in dollars?",
+    "passage": "A clothing store buys shirts at a wholesale price of $6.00 each and resells them at a retail price that is 310% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 75% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "4.65,93/20",
+    "correct_answer": "4.65",
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_11"
   },
@@ -328,24 +328,24 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "A sample of a certain isotope takes 29 years to decay to half its original mass. The functions $s(t)=136(0.5)^{\\frac{t}{29}}$ gives the approximate mass of this isotope, in grams, that remains t yearsafter a 136 gram sample starts to decay Which statement is the best interpretation of s(58)= 34 in this context?",
+    "passage": "A sample of a certain isotope takes 29 years to decay to half its original mass. The function $s(t)=136(0.5)^{\\frac{t}{29}}$ gives the approximate mass of this isotope, in grams, that remains $t$ years after a 136 gram sample starts to decay. Which statement is the best interpretation of $s(58)= 34$ in this context?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Approximately 34 grams of the sample remains 58 years after the sample startsto decay."
+        "text": "Approximately 34 grams of the sample remains 58 years after the sample starts to decay."
       },
       {
         "label": "B",
-        "text": "The mass of the sample has decreased by approximately 34 grams 58 years afterthe samnple starts to decay."
+        "text": "The mass of the sample has decreased by approximately 34 grams 58 years after the sample starts to decay."
       },
       {
         "label": "C",
-        "text": "The mass of the sample has decreased by approximately 58 grams 34 years after the saunple starts to decay."
+        "text": "The mass of the sample has decreased by approximately 58 grams 34 years after the sample starts to decay."
       },
       {
         "label": "D",
-        "text": "Approximately 58 grams of the sample remains 34 years after the sample startsto decay."
+        "text": "Approximately 58 grams of the sample remains 34 years after the sample starts to decay."
       }
     ],
     "is_fill_in_blank": false,
@@ -360,7 +360,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "Antonia has \\$130 in an account. Each year she expects to have 2.5% more money in the account than she had the previous year. Which of the following models best describes how Antonia expects the money in her account to change over time?",
+    "passage": "Antonia has $\\$130$ in an account. Each year she expects to have $2.5\\%$ more money in the account than she had the previous year. Which of the following models best describes how Antonia expects the money in her account to change over time?",
     "question_text": null,
     "choices": [
       {
@@ -389,27 +389,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 15,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "In the xy-plane, which of the following does NOT contain any points that are part of the solution set to $2x-6y>12$?",
+    "passage": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $2x - 6y > 12$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The region where x < 0 and y> 0"
+        "text": "The region where $x < 0$ and $y > 0$"
       },
       {
         "label": "B",
-        "text": "The region where z < O and y< 0"
+        "text": "The region where $x < 0$ and $y < 0$"
       },
       {
         "label": "C",
-        "text": "The region where r > 0 and y > 0"
+        "text": "The region where $x > 0$ and $y > 0$"
       },
       {
         "label": "D",
-        "text": "The x-axis"
+        "text": "The $x$-axis"
       }
     ],
     "is_fill_in_blank": false,
@@ -424,7 +424,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "A circle in the xy-plane has its center at (18, 16) and has a radius of 6k. Which equation represents this circle?",
+    "passage": "A circle in the $xy$-plane has its center at $(18, 16)$ and has a radius of $6k$. Which equation represents this circle?",
     "question_text": null,
     "choices": [
       {
@@ -453,7 +453,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "$x^{2}-24x-8=0$\nWhat is the sum of the solutions to the given equation?",
@@ -488,7 +488,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "According to a US law, ramps for use by the general public must form an angle with level ground such that tan $Θ\\le\\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 22.7 inches, what is the least possible value of x, in inches?",
+    "passage": "According to a US law, ramps for use by the general public must form an angle with level ground such that $\\tan \\theta \\leq \\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 22.7 inches, what is the least possible value of $x$, in inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -507,10 +507,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "In the figure, two lines intersect at a pointI if w = 112, what is the value of x?",
+    "passage": "In the figure, two lines intersect at a point. If $ w = 112 $, what is the value of $ x $?",
     "question_text": null,
     "choices": [
       {
@@ -546,7 +546,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "March 2025 International Form E SAT Math Module 1",
     "passage": "If $3(2-7x)+5(2-7x)+6=7(2-7x)+2$, what is the value of $7x-2$?",
@@ -561,27 +561,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "In the xy-plane, line k and line l are perpendicular and intersect at the point (2, 9). If line kis defined by the equation y= mx + b, where m and b are constants and m > l, which of the following points lies on line l?",
+    "passage": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 9)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m > 1$, which of the following points lies on line $l$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(3, 9- $\\frac{1}{m}$)"
+        "text": "$(3, 9 - \\frac{1}{m})$"
       },
       {
         "label": "B",
-        "text": "$(39+\\frac{1}{m})$"
+        "text": "$(3, 9 + \\frac{1}{m})$"
       },
       {
         "label": "C",
-        "text": "$(3,9-m)$"
+        "text": "$(3, 9 - m)$"
       },
       {
         "label": "D",
-        "text": "$(3,9+m)$"
+        "text": "$(3, 9 + m)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -596,7 +596,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "March 2025 International Form E SAT Math Module 1",
-    "passage": "A sphere has a volume of 245,00 cubic yards. What is the volume of the sphere, in cubic meters?(Use 1 yard = 0.9l4 meter.)",
+    "passage": "A sphere has a volume of $245,000$ cubic yards. What is the volume of the sphere, in cubic meters? (Use $1$ yard = $0.914$ meter.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
