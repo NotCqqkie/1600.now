@@ -6,16 +6,16 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "In one week in 2017, a technician earned a total of \\$900 by working at her regular job andat a second job doing part-time work. The equation 21h + 10c = 900 represents this situation, where h is the number of hour's worked at her regular job and c is the number of hours worked at her second job. Which of the following is the best inrerpretation of 21 inthis context?",
+    "passage": "In one week in 2017, a technician earned a total of $900 by working at her regular job and at a second job doing part-time work. The equation $21h + 10c = 900$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 21 in this context?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The amount, in dollars, the techmician earned for each hour she worked at herregular job"
+        "text": "The amount, in dollars, the technician earned for each hour she worked at her regular job"
       },
       {
         "label": "B",
-        "text": "The amout, in dollars, the techician earned for each hour she worked at hersecond job"
+        "text": "The amount, in dollars, the technician earned for each hour she worked at her second job"
       },
       {
         "label": "C",
@@ -35,7 +35,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 2,
     "test_name": "March 2025 International Form E SAT Math Module 2",
     "passage": "The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.\nWhich of the following equations best represents the line of best fit shown?",
@@ -64,9 +64,9 @@
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_2",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_IntlE_Math_M2_Q2_1.png",
+        "src": "/images_labeled/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_2_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Mar_25_IntlE_Math_M2_Q2_1.png"
+        "local": "images_labeled/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_2_q_01_FIX.png"
       }
     ]
   },
@@ -74,27 +74,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "At what point (x, y) do the graphs of the equations y= 3x + 1 and y= 4x - 6 intersect in the xy-plane?",
+    "passage": "At what point $(x, y)$ do the graphs of the equations $y = 3x + 1$ and $y = 4x - 6$ intersect in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(3, 4)"
+        "text": "$(3, 4)$"
       },
       {
         "label": "B",
-        "text": "(4, 3)"
+        "text": "$(4, 3)$"
       },
       {
         "label": "C",
-        "text": "(7, 22)"
+        "text": "$(7, 22)$"
       },
       {
         "label": "D",
-        "text": "(22, 7)"
+        "text": "$(22, 7)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -106,10 +106,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "$y=\\frac{2}{7}x+3$\nOne of the two equations in a system of linear equations is given. The system has infnitelymany solutions. If the second equation in the system is y= mx + b, where m and b are constants, what is tlle walue of b?",
+    "passage": "$y=\\frac{2}{7}x+3$\nOne of the two equations in a system of linear equations is given. The system has infinitely many solutions. If the second equation in the system is $y = mx + b$, where $m$ and $b$ are constants, what is the value of $b$?",
     "question_text": null,
     "choices": [
       {
@@ -138,10 +138,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Probability and conditional probability",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 6,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "At a convention center, there are a total of 325 visitors. Each visitor is located in either roomA, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is 0.64, and the probability of selecting a visitorwho is located in room B is 0.32. How many visitors are located in room C?",
+    "passage": "At a convention center, there are a total of 325 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is 0.64, and the probability of selecting a visitor who is located in room B is 0.32. How many visitors are located in room C?",
     "question_text": null,
     "choices": [
       {
@@ -202,10 +202,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 8,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "An object is launched from a height of 124 feet above the ground. A quadratic function models the height above the ground, in feet, of the object t seconds after it is launched. According to the model, 3 seconds after the object is launched, it reaches a maximum height of 268 feet above the ground. Which equation defnes f?",
+    "passage": "An object is launched from a height of 124 feet above the ground. A quadratic function models the height above the ground, in feet, of the object $t$ seconds after it is launched. According to the model, 3 seconds after the object is launched, it reaches a maximum height of 268 feet above the ground. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
@@ -237,7 +237,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "The graph of y= f(x) is shown, where f(x)= ab 2 + c, and a, b, and c are constants. For how many values of x does f(x)=0?",
+    "passage": "The graph of $ y = f(x) $ is shown, where $ f(x) = ab^2 + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
     "question_text": null,
     "choices": [
       {
@@ -263,9 +263,9 @@
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_IntlE_Math_M2_Q9_1.png",
+        "src": "/images_labeled/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Mar_25_IntlE_Math_M2_Q9_1.png"
+        "local": "images_labeled/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9_q_01_FIX.png"
       }
     ]
   },
@@ -276,7 +276,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "The equation $h=\\frac{9(u-273.15)}{5}+32$ gives the corresponding temperature h, in degrees Fahrenheit, of any substance that has a temperature ofv kelvins, where u > 0. If a substance has a temperature of 809.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "passage": "The equation $h=\\frac{9(u-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $u$ kelvins, where $u > 0$. If a substance has a temperature of 809.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -291,7 +291,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "$x(r-7)+3=17x+25$\nIn the given equation, r, is a positive integer. If the given equation has exactly one solution.\nwhat CANNOT be te value of r?",
+    "passage": "$x(r - 7) + 3 = 17x + 25$\nIn the given equation, $r$ is a positive integer. If the given equation has exactly one solution, what CANNOT be the value of $r$?",
     "question_text": null,
     "choices": [
       {
@@ -320,27 +320,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 12,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "Which expression is equivalent to $9x^{6}-63x^{2}$.where x >0?",
+    "passage": "Which expression is equivalent to $9x^6 - 63x^2$, where $x > 0$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$9(x^{3}-7x^{2})^{2}$"
+        "text": "$9(x^3 - 7x^2)^2$"
       },
       {
         "label": "B",
-        "text": "$x^{2}(9x-7)^{4}$"
+        "text": "$x^2(9x - 7)^4$"
       },
       {
         "label": "C",
-        "text": "$9x^{2}(x-7)^{4}$"
+        "text": "$9x^2(x - 7)^4$"
       },
       {
         "label": "D",
-        "text": "$9x^{2}(x^{4}-7)$"
+        "text": "$9x^2(x^4 - 7)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -352,10 +352,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 13,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "In the figure shown, $\\overline{WZ}$ and $\\overline{XY}$ intersect at point Q, YQ=27,WQ = 90,WX = 60, and XQ=110. What is the length of $\\overline{YZ}$?",
+    "passage": "In the figure shown, $\\overline{WZ}$ and $\\overline{XY}$ intersect at point Q, YQ = 27, WQ = 90, WX = 60, and XQ = 110. What is the length of $\\overline{YZ}$?",
     "question_text": null,
     "choices": [
       {
@@ -381,9 +381,9 @@
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_13",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_IntlE_Math_M2_Q13_1.png",
+        "src": "/images_labeled/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_13_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Mar_25_IntlE_Math_M2_Q13_1.png"
+        "local": "images_labeled/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_13_q_01_FIX.png"
       }
     ]
   },
@@ -394,7 +394,7 @@
     "difficulty": "Hard",
     "question_number": 14,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "The positive number a is 2,184% of the sum of the positive numbers b and c, and b is 84% of c. What percent of b is a?",
+    "passage": "$a$ is 2,184% of the sum of the positive numbers $b$ and $c$, and $b$ is 84% of $c$. What percent of $b$ is $a$?",
     "question_text": null,
     "choices": [
       {
@@ -423,10 +423,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "$7p^{4}=x^{\\frac{5}{4}}$\nIn the glven eqatlon, p > l and t > l. If t = p 2n-l, where n is a constant. What is the value of n?",
+    "passage": "$7p^{4}=x^{\\frac{5}{4}}$\nIn the given equation, $p > 1$ and $t > 1$. If $t = p^{2n-1}$, where $n$ is a constant, what is the value of $n$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -438,27 +438,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "A painting studio is offering a promotion ivhere the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. lf the regular price of aclass is \\$26.40, which function f gives the total cost, in dollars, of a classes taken using thispromotion,where x>2?",
+    "passage": "A painting studio is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is $26.40, which function f gives the total cost, in dollars, of x classes taken using this promotion, where x > 2?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=26.40(x-1)+13.20$"
+        "text": "$f(x) = 26.40(x - 1) + 13.20$"
       },
       {
         "label": "B",
-        "text": "$f(x)=26.40(x-2)+13.20$"
+        "text": "$f(x) = 26.40(x - 2) + 13.20$"
       },
       {
         "label": "C",
-        "text": "$f(x)=26.40(x-1)+13.20(x-2)$"
+        "text": "$f(x) = 26.40(x - 1) + 13.20(x - 2)$"
       },
       {
         "label": "D",
-        "text": "$f(x)=26.40(x-2)+13.20(x-1)$"
+        "text": "$f(x) = 26.40(x - 2) + 13.20(x - 1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -470,27 +470,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "The triangle inequality theorem states that the sum ofany two sides of a triangle must begreater than the length of the third side. if a triangle has side lengths of 10 and 12, which in equality represents the possible lengths, x, of the third side of the triangle?",
+    "passage": "The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of 10 and 12, which inequality represents the possible lengths, $x$, of the third side of the triangle?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x"
+        "text": "$x < 2$"
       },
       {
         "label": "B",
-        "text": "$x>22$"
+        "text": "$x > 22$"
       },
       {
         "label": "C",
-        "text": "$2"
+        "text": "$2 < x < 22$"
       },
       {
         "label": "D",
-        "text": "$x 22$"
+        "text": "$x < 2$ or $x > 22$"
       }
     ],
     "is_fill_in_blank": false,
@@ -502,27 +502,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "The graph of y = f(x)+ 2 is shown. Which equation defnes function f?",
+    "passage": "The graph of $y = f(x) + 2$ is shown. Which equation defines function $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-4^{x}+3$"
+        "text": "$f(x)=-4^x + 3$"
       },
       {
         "label": "B",
-        "text": "$f(x)=-4^{x}+5$"
+        "text": "$f(x)=-4^x + 5$"
       },
       {
         "label": "C",
-        "text": "$f(x)=-4^{x}+6$"
+        "text": "$f(x)=-4^x + 6$"
       },
       {
         "label": "D",
-        "text": "$f(x)=-4^{x}+7$"
+        "text": "$f(x)=-4^x + 7$"
       }
     ],
     "is_fill_in_blank": false,
@@ -531,9 +531,9 @@
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_18",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_IntlE_Math_M2_Q18_1.png",
+        "src": "/images_labeled/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_18_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Mar_25_IntlE_Math_M2_Q18_1.png"
+        "local": "images_labeled/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_18_q_01_FIX.png"
       }
     ]
   },
@@ -541,10 +541,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "A circle in the xy-plane has its center at (-2, 2). Line t is tangent to this circle at the point(3,-1). Which of the following points also lies on line t?",
+    "passage": "A circle in the $xy$-plane has its center at $(-2, 2)$. Line $t$ is tangent to this circle at the point $(3, -1)$. Which of the following points also lies on line $t$?",
     "question_text": null,
     "choices": [
       {
@@ -553,15 +553,15 @@
       },
       {
         "label": "B",
-        "text": "(1, 7)"
+        "text": "$(1, 7)$"
       },
       {
         "label": "C",
-        "text": "(6, 4)"
+        "text": "$(6, 4)$"
       },
       {
         "label": "D",
-        "text": "(8, 2)"
+        "text": "$(8, 2)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -576,7 +576,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 55 square centimeters (cm 2), and the surface area of right rectangular prism Y is 880 cm 2, The volume of right rectangular prisrn y is1,600 cubic centimeters (cm 3). What is the sum of the volumes, in cm³, of right rectangular prism X and right rectangular prism Y?",
+    "passage": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 55 square centimeters ($\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 880 $\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,600 cubic centimeters ($\text{cm}^3$). What is the sum of the volumes, in $\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -591,7 +591,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "The function f is defined by $f(x)=\\frac{|x|}{a}$, where a < 0, what is the product of f(17)a and f(8a)?",
+    "passage": "The function $ f $ is defined by $ f(x) = \\frac{|x|}{a} $, where $ a < 0 $. What is the product of $ f(17)a $ and $ f(8a) $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -606,7 +606,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "$125x^{2}-(25a+56)x+ab=0$\nIn the glven eqmatlon, a and b are positve constants. The sum of the solutions to the given equation is k(5a + b), where k is a constant, what is the value of k?",
+    "passage": "$125x^2-(25a+56)x+ab=0$\nIn the given equation, $a$ and $b$ are positive constants. The sum of the solutions to the given equation is $k(5a + b)$, where $k$ is a constant. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

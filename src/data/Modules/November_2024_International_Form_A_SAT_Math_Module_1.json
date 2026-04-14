@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "The graph of the function f is shown, where y = f (x). What is the value of f (0)?",
+    "passage": "The graph of the function $f$ is shown, where $y = f(x)$. What is the value of $f(0)$?",
     "question_text": null,
     "choices": [
       {
@@ -32,9 +32,9 @@
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_1",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlA_Math_M1_Q1_1.png",
+        "src": "/images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_1_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlA_Math_M1_Q1_1.png"
+        "local": "images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_1_q_01_FIX.png"
       }
     ]
   },
@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "In the figure, two lines intersect at a point, lf r = 61, what is the value of s?",
+    "passage": "In the figure, two lines intersect at a point. If $r = 61$, what is the value of $s$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -54,9 +54,9 @@
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_2",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlA_Math_M1_Q2_1.png",
+        "src": "/images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_2_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlA_Math_M1_Q2_1.png"
+        "local": "images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_2_q_01_FIX.png"
       }
     ]
   },
@@ -67,7 +67,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by f(x)= 5x 2, What is the value of f (7)?",
+    "passage": "The function f is defined by $f(x) = 5x^2$. What is the value of $f(7)$?",
     "question_text": null,
     "choices": [
       {
@@ -96,7 +96,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "November 2024 International Form A SAT Math Module 1",
     "passage": "$x+5y=5$\n$x-5y=7$\nThe solution to the given system of equations is (x, y). What is the value of x?",
@@ -163,7 +163,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by f (x) = 3 x 5. In the xy-plane, the graph of y = g(x) is the result of shifting the graph of y= f (x) up 9 units. Which equation defines the function g?",
+    "passage": "The function f is defined by $f(x) = 3x^5$. In the xy-plane, the graph of $y = g(x)$ is the result of shifting the graph of $y = f(x)$ up 9 units. Which equation defines the function g?",
     "question_text": null,
     "choices": [
       {
@@ -195,7 +195,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "For the linear function f, the graph of y= f(x) in the xy-plane has a slope of 69 and f(0)= 3. Which equation defnes f?",
+    "passage": "For the linear function $f$, the graph of $y= f(x)$ in the $xy$-plane has a slope of 69 and $f(0)= 3$. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
@@ -224,7 +224,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 8,
     "test_name": "November 2024 International Form A SAT Math Module 1",
     "passage": "5% of w is 741.41. What is the value of w?",
@@ -259,7 +259,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "The graph of a system of a linear and a quadratic equation is shown, What system is represented by the graph?",
+    "passage": "The graph of a system of a linear and a quadratic equation is shown. What system is represented by the graph?",
     "question_text": null,
     "choices": [
       {
@@ -285,9 +285,9 @@
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_9",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlA_Math_M1_Q9_1.png",
+        "src": "/images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_9_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlA_Math_M1_Q9_1.png"
+        "local": "images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_9_q_01_FIX.png"
       }
     ]
   },
@@ -295,10 +295,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "W (x)=4x+ 80\nThe function W gives the total time, in minutes, it takes for a gardener to water x plants and mow the grass. According to the function, how many minutes does it take the gardener to mow the grass?",
+    "passage": "$W(x) = 4x + 80$\nThe function $W$ gives the total time, in minutes, it takes for a gardener to water $x$ plants and mow the grass. According to the function, how many minutes does it take the gardener to mow the grass?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -313,7 +313,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "$19=x+y$\n$x-y=9$\nThe solution to the given system of equations is (x, y). What is the value of x?",
+    "passage": "The solution to the given system of equations is (x, y). What is the value of x?\n$$19 = x + y$$\n$$x - y = 9$$",
     "question_text": null,
     "choices": [
       {
@@ -345,7 +345,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "$x^{2}-16x+y^{2}-10y-55=0$\nIn the xy-plane, the graph of the given equation is a circle, If this circle is inscribed in asquare, what is the perimeter of the square?",
+    "passage": "$x^2-16x+y^2-10y-55=0$\nIn the $xy$-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -377,7 +377,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "If 5(3 x +6)=3(3 x +6)+ 78, what is the value of 3 x + 6?",
+    "passage": "If $5(3x + 6) = 3(3x + 6) + 78$, what is the value of $3x + 6$?",
     "question_text": null,
     "choices": [
       {
@@ -406,10 +406,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 14,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "If f(x)= x + 5 and g(x)= 5x, what is the value of 7 f (4) - g(4)?",
+    "passage": "If $f(x) = x + 5$ and $g(x) = 5x$, what is the value of $7f(4) - g(4)$?",
     "question_text": null,
     "choices": [
       {
@@ -441,7 +441,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "$C(t)=240(\\frac{53}{52})^{t-15}+7$\nThe function C gives the estimated number of cephalopods, a class of marine animal, in acertain area, where t is the number of months since a study began, How many months after the study began was the number of cephalopods in the area estimated to be 247?",
+    "passage": "$C(t)=240\\left(\\frac{53}{52}\\right)^{t-15}+7$\nThe function $C$ gives the estimated number of cephalopods, a class of marine animal, in a certain area, where $t$ is the number of months since a study began. How many months after the study began was the number of cephalopods in the area estimated to be 247?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -453,10 +453,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "An object moves at a speed of $\\frac{3}{17}$ feet per second. What is this speed in yards per second? (3 feet = l yard)",
+    "passage": "An object moves at a speed of $\\frac{3}{17}$ feet per second. What is this speed in yards per second? (3 feet = 1 yard)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -468,10 +468,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "For the linear function g, the table shows four values of z and their corresponding values of g (x). The function can be written as g (x)= xm + b, where m and b are constants. What is the value of b?",
+    "passage": "For the linear function $ g $, the table shows four values of $ x $ and their corresponding values of $ g(x) $. The function can be written as $ g(x) = mx + b $, where $ m $ and $ b $ are constants. What is the value of $ b $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -480,9 +480,9 @@
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_17",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlA_Math_M1_Q17_1.png",
+        "src": "/images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_17_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlA_Math_M1_Q17_1.png"
+        "local": "images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_17_q_01_FIX.png"
       }
     ]
   },
@@ -490,10 +490,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "The current value of a house is \\$174,000, and this value increases by 2.4% each year from the value of the previous year. Which function f gives the value, in dollars, of the house cyears from now?",
+    "passage": "The current value of a house is $174,000, and this value increases by 2.4% each year from the value of the previous year. Which function f gives the value, in dollars, of the house c years from now?",
     "question_text": null,
     "choices": [
       {
@@ -522,10 +522,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "What is the value of sin 18π?",
+    "passage": "What is the value of $\\sin 18\\pi$?",
     "question_text": null,
     "choices": [
       {
@@ -554,7 +554,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "November 2024 International Form A SAT Math Module 1",
     "passage": "In triangle QRS shown, QR < RS. Which expression represents the length of $\\overline{QS}$?",
@@ -562,19 +562,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$17cosQ$"
+        "text": "$17\\cos Q$"
       },
       {
         "label": "B",
-        "text": "$17sinQ$"
+        "text": "$17\\sin Q$"
       },
       {
         "label": "C",
-        "text": "$\\frac{17}{cosQ}$"
+        "text": "$\\frac{17}{\\cos Q}$"
       },
       {
         "label": "D",
-        "text": "$\\frac{17}{sinQ}$"
+        "text": "$\\frac{17}{\\sin Q}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -583,9 +583,9 @@
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_20",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlA_Math_M1_Q20_1.png",
+        "src": "/images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_20_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlA_Math_M1_Q20_1.png"
+        "local": "images_labeled/d327ac24-d8f4-466e-a351-90aa6dbe87e3_20_q_01_FIX.png"
       }
     ]
   },
@@ -593,10 +593,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "$\\frac{1}{9}x-\\frac{3r}{7}y=34$\nOne of the equations in a system of two linear equations is given, where r is a nonzero constant. The system has no solution. lf the other equation in the system is graphed in the xy-plane, what is the slope of the graph?",
+    "passage": "One of the equations in a system of two linear equations is given, where $r$ is a nonzero constant. The system has no solution. If the other equation in the system is graphed in the $xy$-plane, what is the slope of the graph?",
     "question_text": null,
     "choices": [
       {
@@ -625,10 +625,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 22,
     "test_name": "November 2024 International Form A SAT Math Module 1",
-    "passage": "A machine makes 8-inch, 9-inch, and 3-inch parts. During a certain day, the number of 8.inch parts that the machine makes is 4 times the number n of 9-inch parts, and the number of 3-inch parts is 30. During this day, the machine makes 100 parts total. Which equation represents this situation?",
+    "passage": "A machine makes 8-inch, 9-inch, and 3-inch parts. During a certain day, the number of 8-inch parts that the machine makes is 4 times the number $n$ of 9-inch parts, and the number of 3-inch parts is 30. During this day, the machine makes 100 parts total. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {

@@ -70,24 +70,24 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to $30x^{2}+6x+6$ ？",
+    "passage": "Which expression is equivalent to $30x^2+6x+6$ ？",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$5x^{2}(6x+6)$"
+        "text": "$5x^2(6x+6)$"
       },
       {
         "label": "B",
-        "text": "$30x$ $($ $x+1)$"
+        "text": "$30x(x+1)$"
       },
       {
         "label": "C",
-        "text": "$6(5x^{2}+x+1)$"
+        "text": "$6(5x^2+x+1)$"
       },
       {
         "label": "D",
-        "text": "$4(2x^{2}+x+1)$"
+        "text": "$4(2x^2+x+1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -131,10 +131,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 5,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "A gym charges its members a onetime \\$34 enrollment fee and a membership fee of \\$16 per month. If there are no charges other than the enrollment fee and the membership fee, after how many months will a member have been charged a total of \\$178 at the gym?",
+    "passage": "A gym charges its members a onetime $\\$34$ enrollment fee and a membership fee of $\\$16$ per month. If there are no charges other than the enrollment fee and the membership fee, after how many months will a member have been charged a total of $\\$178$ at the gym?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -213,7 +213,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "At a convention center, there are a total of 375 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is 0.48, and the probability of selecting a visitor who is located in room B is 0.24. How many visitors are located in room C?",
+    "passage": "At a convention center, there are a total of 375 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is $0.48$, and the probability of selecting a visitor who is located in room B is $0.24$. How many visitors are located in room C?",
     "question_text": null,
     "choices": [
       {
@@ -242,7 +242,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "May 2025 International Form B SAT Math Module 1",
     "passage": "$x^{2}-28x=0$\nWhich of the following is a solution to the given equation?",
@@ -277,7 +277,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "A right square pyramid has a height of 12 inches and a volume of 196 cubic inches. What is the perimeter, in inches, of the base of this pyramid?",
+    "passage": "A right square pyramid has a height of $12$ inches and a volume of $196$ cubic inches. What is the perimeter, in inches, of the base of this pyramid?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -292,24 +292,24 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "The value of a share of stock was \\$240 on the day it was purchased. Every year, the value of the share of stock increases by 1 % of its value the previous year. Which function V gives the value, in dollars, of the share of stock t years after the day it was purchased?",
+    "passage": "The value of a share of stock was $240 on the day it was purchased. Every year, the value of the share of stock increases by 1% of its value the previous year. Which function V gives the value, in dollars, of the share of stock t years after the day it was purchased?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$V(t)=240(1.01t)$"
+        "text": "$V(t) = 240(1.01t)$"
       },
       {
         "label": "B",
-        "text": "$V(t)=240(1.1t)$"
+        "text": "$V(t) = 240(1.1t)$"
       },
       {
         "label": "C",
-        "text": "$V(t)=240(1.01)^{t}$"
+        "text": "$V(t) = 240(1.01)^t$"
       },
       {
         "label": "D",
-        "text": "$V(t)=240(1.1)^{t}$"
+        "text": "$V(t) = 240(1.1)^t$"
       }
     ],
     "is_fill_in_blank": false,
@@ -388,7 +388,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "A club plans to sell tote bags. The club members estimate they will sell 80 tote bags when the bags are priced at \\$9 each. For every price increase of \\$1, they estimate they will sell 8 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at \\$12 each? (revenue = price × number sold)",
+    "passage": "A club plans to sell tote bags. The club members estimate they will sell 80 tote bags when the bags are priced at $\\$9$ each. For every price increase of $\\$1$, they estimate they will sell 8 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at $\\$12$ each? (revenue = price $\\times$ number sold)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -415,7 +415,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "May 2025 International Form B SAT Math Module 1",
     "passage": "What value of w is the solution to the equation $0.7w-0.57=7(w-0.001)$?",
@@ -462,7 +462,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "May 2025 International Form B SAT Math Module 1",
     "passage": "Quinidra drove her car on a straight road to a certain location. The graph models Quinidra's distance, in miles, from her home as a function of time, in hours. Which of the following could the model describe?",
@@ -491,9 +491,9 @@
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_18",
     "images": [
       {
-        "src": "/images_labeled/May_25_IntlB_Math_M1_Q18_1.png",
+        "src": "/images_labeled/bd71c8f3-94e3-411f-929a-013a2ca9a277_18_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/May_25_IntlB_Math_M1_Q18_1.png"
+        "local": "images_labeled/bd71c8f3-94e3-411f-929a-013a2ca9a277_18_q_01_FIX.png"
       }
     ]
   },
@@ -501,7 +501,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "May 2025 International Form B SAT Math Module 1",
     "passage": "The frequency table summarizes the mass, in grams, of 35 objects. What is the mean mass, in grams, of these objects?",
@@ -513,9 +513,9 @@
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_19",
     "images": [
       {
-        "src": "/images_labeled/May_25_IntlB_Math_M1_Q19_1.png",
+        "src": "/images_labeled/bd71c8f3-94e3-411f-929a-013a2ca9a277_19_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/May_25_IntlB_Math_M1_Q19_1.png"
+        "local": "images_labeled/bd71c8f3-94e3-411f-929a-013a2ca9a277_19_q_01_FIX.png"
       }
     ]
   },
@@ -523,10 +523,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 20,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "What is the y -intercept of $y=-(4)^{x}-39$ in the xy -plane?",
+    "passage": "What is the $y$-intercept of $y=-(4)^{x}-39$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -555,7 +555,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "May 2025 International Form B SAT Math Module 1",
     "passage": "A rectangular poster has an area of 330 square inches. A copy of the poster is made in which the length and width of the original poster are each increased by 50 %. What is the area of the copy, in square inches?",
@@ -573,7 +573,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "May 2025 International Form B SAT Math Module 1",
-    "passage": "A circle in the xy -plane has center $(28,5)$ and y -intercepts $(0,-16)$ and $(0,26)$. What is the radius of this circle?",
+    "passage": "A circle in the $xy$-plane has center $(28,5)$ and $y$-intercepts $(0,-16)$ and $(0,26)$. What is the radius of this circle?",
     "question_text": null,
     "choices": [
       {

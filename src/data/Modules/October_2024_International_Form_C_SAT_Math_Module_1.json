@@ -3,10 +3,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Probability and conditional probability",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 1,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "The table summarizes members of a local organization by age and whether they live north or south of Center St, if a member of the organization is selected at random, what is the probability that the selected member is at least 45 years old?",
+    "passage": "The table summarizes members of a local organization by age and whether they live north or south of Center St. If a member of the organization is selected at random, what is the probability that the selected member is at least 45 years old?",
     "question_text": null,
     "choices": [
       {
@@ -32,9 +32,9 @@
     "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_1",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_IntlC_Math_M1_Q1_1.png",
+        "src": "/images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_1_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_IntlC_Math_M1_Q1_1.png"
+        "local": "images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_1_q_01_FIX.png"
       }
     ]
   },
@@ -45,24 +45,24 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "Which expression is equivalent to 8(x 2 +6)?",
+    "passage": "Which expression is equivalent to $8(x^2 + 6)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "x ²+ 48"
+        "text": "$8x^2 + 48$"
       },
       {
         "label": "B",
-        "text": "x 2 + 14"
+        "text": "$8x^2 + 14$"
       },
       {
         "label": "C",
-        "text": "x 2 + 6"
+        "text": "$8x^2 + 6$"
       },
       {
         "label": "D",
-        "text": "x 2 + 2"
+        "text": "$8x^2 + 2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -77,24 +77,24 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "For the linear function f, the graph of y = f (x) in the xy-plane has a slope of $\\frac{1}{3}$ and passes through the point (0, 7). Which equation defines f?",
+    "passage": "For the linear function $f$, the graph of $y = f(x)$ in the $xy$-plane has a slope of $\\frac{1}{3}$ and passes through the point $(0, 7)$. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "f (x) = $\\frac{1}{3}$ x +7"
+        "text": "$f(x) = \\frac{1}{3}x + 7$"
       },
       {
         "label": "B",
-        "text": "f (x) = $\\frac{1}{3}$ x + $\\frac{1}{7}$"
+        "text": "$f(x) = \\frac{1}{3}x + \\frac{1}{7}$"
       },
       {
         "label": "C",
-        "text": "f (x) = $\\frac{1}{3}$ x - $\\frac{7}{3}$"
+        "text": "$f(x) = \\frac{1}{3}x - \\frac{7}{3}$"
       },
       {
         "label": "D",
-        "text": "f (x) = $\\frac{1}{3}$ x - 7"
+        "text": "$f(x) = \\frac{1}{3}x - 7$"
       }
     ],
     "is_fill_in_blank": false,
@@ -109,7 +109,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "The function f is defined by f (x) = 7 + $\\sqrt{x}$. What is the value of f (36)?",
+    "passage": "The function $f$ is defined by $f(x) = 7 + \\sqrt{x}$. What is the value of $f(36)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -118,9 +118,9 @@
     "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_4",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_IntlC_Math_M1_Q4_1.png",
+        "src": "/images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_4_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_IntlC_Math_M1_Q4_1.png"
+        "local": "images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_4_q_01_FIX.png"
       }
     ]
   },
@@ -128,27 +128,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 6,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "A geologist estimates that the volume of a boulder is greater than 14.6 cubic feet but less than 18.6 cubic feet, The geologist also estimates that the boulder weighs 160 pounds per cubic foot of volume. Which inequality represents this situation, where x represents the estimated total weight, in pounds, of the boulder?",
+    "passage": "A geologist estimates that the volume of a boulder is greater than $14.6$ cubic feet but less than $18.6$ cubic feet. The geologist also estimates that the boulder weighs $160$ pounds per cubic foot of volume. Which inequality represents this situation, where $x$ represents the estimated total weight, in pounds, of the boulder?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "- 18.6 < x < 168 - 14.6"
+        "text": "$18.6 < x < 160 \\times 14.6$"
       },
       {
         "label": "B",
-        "text": "+ 14. 6< x < 160 + 18.6"
+        "text": "$14.6 < x < 160 \\times 18.6$"
       },
       {
         "label": "C",
-        "text": "160(14.6) < x < 160(18.6)"
+        "text": "$160(14.6) < x < 160(18.6)$"
       },
       {
         "label": "D",
-        "text": "$\\frac{160}{18.6}$ < x < $\\frac{160}{14.6}$"
+        "text": "$\\frac{160}{18.6} < x < \\frac{160}{14.6}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -160,10 +160,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "question_number": 7,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "A rectangular region of land is divided into 88 square lots of equal area R, in square units.The length of the region is 5.5 times the width of the region. If the width of the region is $X\\sqrt{R}$ units, what is the value of x?",
+    "passage": "A rectangular region of land is divided into 88 square lots of equal area $R$, in square units. The length of the region is 5.5 times the width of the region. If the width of the region is $X\\sqrt{R}$ units, what is the value of $X$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -175,10 +175,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 8,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "If 48 = 18 + 2(x - 9), what is the value of 2(x - 9)?",
+    "passage": "If $48 = 18 + 2(x - 9)$, what is the value of $2(x - 9)$?",
     "question_text": null,
     "choices": [
       {
@@ -207,7 +207,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "October 2024 International Form C SAT Math Module 1",
     "passage": "In triangle ABC, the measure of angle A is 53°, the measure of angle B is 90°, and the measure of angle C is ($\\frac{k}{2}$)°. What is the value of k?",
@@ -242,7 +242,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.\nWhich of the following is closest to the slope of this line of best fit?",
+    "passage": "The scatterplot shows the relationship between two variables, $x$ and $y$. A line of best fit is also shown.\nWhich of the following is closest to the slope of this line of best fit?",
     "question_text": null,
     "choices": [
       {
@@ -268,9 +268,9 @@
     "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_11",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_IntlC_Math_M1_Q11_1.png",
+        "src": "/images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_11_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_IntlC_Math_M1_Q11_1.png"
+        "local": "images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_11_q_01_FIX.png"
       }
     ]
   },
@@ -293,27 +293,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "$y=0.25x^{2}-7.5x+77.25$\nThe equation gives the estimated stock price y, in dollars, for a certain company x days afterthe company went public, where $0\\le x\\le20$. Which statement is the best interpretation of (x,y)=(1, 70) in this context?",
+    "passage": "$y=0.25x^{2}-7.5x+77.25$\nThe equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x \\leq 20$. Which statement is the best interpretation of $(x,y)=(1, 70)$ in this context?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The company's estimated stock price increased \\$70 every day after the company went public."
+        "text": "The company's estimated stock price increased $70 every day after the company went public."
       },
       {
         "label": "B",
-        "text": "The company's estimated stock price increased \\$1 every 70 days after the company went public."
+        "text": "The company's estimated stock price increased $1 every 70 days after the company went public."
       },
       {
         "label": "C",
-        "text": "day after the company went public, the company's estimated stock price is \\$70"
+        "text": "1 day after the company went public, the company's estimated stock price is $70"
       },
       {
         "label": "D",
-        "text": "days after the company went public, the company's estimated stock price is \\$1l"
+        "text": "11 days after the company went public, the company's estimated stock price is $11"
       }
     ],
     "is_fill_in_blank": false,
@@ -325,19 +325,19 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 14,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "T'he total mass, in kilograms, of r identical objects is t. Which expression represents the total mass, in kilograms, of 112 r of these objects?",
+    "passage": "The total mass, in kilograms, of $r$ identical objects is $t$. Which expression represents the total mass, in kilograms, of $112r$ of these objects?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "112-t"
+        "text": "$112 - t$"
       },
       {
         "label": "B",
-        "text": "112+t"
+        "text": "$112 + t$"
       },
       {
         "label": "C",
@@ -345,7 +345,7 @@
       },
       {
         "label": "D",
-        "text": "112t"
+        "text": "$112t$"
       }
     ],
     "is_fill_in_blank": false,
@@ -360,7 +360,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "If $\\frac{48}{x}=6x$, what is the value of 6x 2?",
+    "passage": "If $\\frac{48}{x}=6x$, what is the value of $6x^2$?",
     "question_text": null,
     "choices": [
       {
@@ -389,10 +389,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "$w(t)=600-3t$\nThe function w models the volume of water, in milliliters, in a container t seconds after itbegins draining from a hole at the bottom, According to the model, what is the predictedvolume,in milliliters, draining from the container each second?",
+    "passage": "$w(t) = 600 - 3t$\nThe function $w$ models the volume of water, in milliliters, in a container $t$ seconds after it begins draining from a hole at the bottom. According to the model, what is the predicted volume, in milliliters, draining from the container each second?",
     "question_text": null,
     "choices": [
       {
@@ -421,10 +421,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "Line k is shown in the xy-plane. Line, J (not shown) is perpendicular to line k. What is the slope of line J?",
+    "passage": "Line $k$ is shown in the $xy$-plane. Line $J$ (not shown) is perpendicular to line $k$. What is the slope of line $J$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -433,9 +433,9 @@
     "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_17",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_IntlC_Math_M1_Q17_1.png",
+        "src": "/images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_17_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_IntlC_Math_M1_Q17_1.png"
+        "local": "images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_17_q_01_FIX.png"
       }
     ]
   },
@@ -443,10 +443,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "The equation $h=\\frac{9(v-273.15)}{5}+32$ gives the corresponding temperature h, in degrees Fahrenheit, of any substance that has a temperature ofv kelvins, where v > 0. If a substancehas a temperature of 539.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "passage": "The equation $h=\\frac{9(v-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v > 0$. If a substance has a temperature of 539.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -458,27 +458,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "A circle in the xy-plane has its center at (19, 16) and has a radius of 8k. Which equation represents this circle?",
+    "passage": "A circle in the $xy$-plane has its center at $(19, 16)$ and has a radius of $8k$. Which equation represents this circle?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(x-19)^{2}+(y-16)^{2}=64k$"
+        "text": "$(x-19)^2 + (y-16)^2 = 64k$"
       },
       {
         "label": "B",
-        "text": "$(x-19)^{2}+(y-16)^{2}=64k$ 2"
+        "text": "$(x-19)^2 + (y-16)^2 = 64k^2$"
       },
       {
         "label": "C",
-        "text": "$(x-19)^{2}+(y-16)^{2}=8k$"
+        "text": "$(x-19)^2 + (y-16)^2 = 8k$"
       },
       {
         "label": "D",
-        "text": "$(x-19)^{2}+(y-16)^{2}=8k2$"
+        "text": "$(x-19)^2 + (y-16)^2 = 8k^2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -493,7 +493,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "In the triangle shown, $RS=\\sqrt{167}$. What is the value of sin R?",
+    "passage": "In the triangle shown, $RS=\\sqrt{167}$. What is the value of $\\sin R$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -502,9 +502,9 @@
     "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_20",
     "images": [
       {
-        "src": "/images_labeled/Oct_24_IntlC_Math_M1_Q20_1.png",
+        "src": "/images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_20_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Oct_24_IntlC_Math_M1_Q20_1.png"
+        "local": "images_labeled/ceb2e234-3ab3-4376-b66a-cf8535278d77_20_q_01_FIX.png"
       }
     ]
   },
@@ -512,10 +512,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "Parallelogram ABCD is similar to parallelogram PQRS. The length of each side of parallelogram PQRS is 2 times the length of its corresponding side of parallelogram ABCD, The area of parallelogram ABCD is 30 square centimeters. What is the area, insquare centimeters, of parallelogram PQRS?",
+    "passage": "Parallelogram $ABCD$ is similar to parallelogram $PQRS$. The length of each side of parallelogram $PQRS$ is 2 times the length of its corresponding side of parallelogram $ABCD$. The area of parallelogram $ABCD$ is 30 square centimeters. What is the area, in square centimeters, of parallelogram $PQRS$?",
     "question_text": null,
     "choices": [
       {
@@ -544,27 +544,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "October 2024 International Form C SAT Math Module 1",
-    "passage": "$r(t)=53t-2t^{2}$\nThe function r is defined by the given equation. The function s is defined by $s(t)=r(t)+1$. Which expression represents the maximum value of s(t)?",
+    "passage": "$r(t) = 53t - 2t^2$\nThe function $r$ is defined by the given equation. The function $s$ is defined by $s(t) = r(t) + 1$. Which expression represents the maximum value of $s(t)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$1-(\\frac{53}{2})^{2}$"
+        "text": "$1 - \\left(\\frac{53}{2}\\right)^2$"
       },
       {
         "label": "B",
-        "text": "$1-2(\\frac{53}{4})^{2}$"
+        "text": "$1 - 2\\left(\\frac{53}{4}\\right)^2$"
       },
       {
         "label": "C",
-        "text": "$1+2(\\frac{53}{4})^{2}$"
+        "text": "$1 + 2\\left(\\frac{53}{4}\\right)^2$"
       },
       {
         "label": "D",
-        "text": "$1+(\\frac{53}{2})^{2}$"
+        "text": "$1 + \\left(\\frac{53}{2}\\right)^2$"
       }
     ],
     "is_fill_in_blank": false,

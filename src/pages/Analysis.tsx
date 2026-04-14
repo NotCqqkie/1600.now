@@ -932,6 +932,13 @@ const Analysis = () => {
               isDarkMode={isDarkMode}
             />
             <StatTile
+              value={fmtTime(stats.totalTime)}
+              label="Time Studied"
+              icon={<Clock size={13} />}
+              empty={isEmpty}
+              isDarkMode={isDarkMode}
+            />
+            <StatTile
               value={fmtTime(Math.round(stats.avgTimePerQuestion.math ?? 0))}
               label="Math Time / Q"
               icon={<Clock size={13} />}
@@ -959,13 +966,6 @@ const Analysis = () => {
               icon={<TrendingDown size={13} />}
               color={accuracyColor(stats.subjectAccuracy.reading ?? 0)}
               empty={isEmpty || stats.subjectAccuracy.reading == null}
-              isDarkMode={isDarkMode}
-            />
-            <StatTile
-              value={fmtTime(stats.totalTime)}
-              label="Time Studied"
-              icon={<Clock size={13} />}
-              empty={isEmpty}
               isDarkMode={isDarkMode}
             />
           </div>
@@ -1258,7 +1258,7 @@ const Analysis = () => {
                   accent="#60a5fa"
                   groups={[
                     { title: "Least accurate sections", items: stats.mathAccuracyLow },
-                    { title: "Greatest accuracy sections", items: stats.mathAccuracyHigh },
+                    { title: "Highest accuracy sections", items: stats.mathAccuracyHigh },
                   ]}
                 />
                 <SubjectInsightCard
@@ -1266,7 +1266,7 @@ const Analysis = () => {
                   accent="#fb923c"
                   groups={[
                     { title: "Least accurate sections", items: stats.readingAccuracyLow },
-                    { title: "Greatest accuracy sections", items: stats.readingAccuracyHigh },
+                    { title: "Highest accuracy sections", items: stats.readingAccuracyHigh },
                   ]}
                 />
               </div>

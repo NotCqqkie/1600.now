@@ -1,0 +1,10 @@
+{
+  "input": "scripts/math_review.json",
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "selected_count": 1,
+  "completed_count": 1,
+  "error_count": 0,
+  "needs_review_count": 0,
+  "fix_count": 1,
+  "answer_mismatch_count": 0
+}

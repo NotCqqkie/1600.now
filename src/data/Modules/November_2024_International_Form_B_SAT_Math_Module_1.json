@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "The function h is defined by h (x) = 5 x -9. What is the value of h (-3)?",
+    "passage": "The function $ h $ is defined by $ h(x) = 5x - 9 $. What is the value of $ h(-3) $?",
     "question_text": null,
     "choices": [
       {
@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "If 8 x +7=79, what is the value of 80 x +70?",
+    "passage": "If $8x + 7 = 79$, what is the value of $80x + 70$?",
     "question_text": null,
     "choices": [
       {
@@ -70,24 +70,24 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "Casey is raising h horses and g goats, Each horse requires 2 acres of land, and each goat requires 1 acre of land, The h horses and g goats require a total of 21 acres of land. Which equation represents this situation?",
+    "passage": "$h$ horses and $g$ goats. Each horse requires 2 acres of land, and each goat requires 1 acre of land. The $h$ horses and $g$ goats require a total of 21 acres of land. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "g + h = 21"
+        "text": "$g + h = 21$"
       },
       {
         "label": "B",
-        "text": "g + 2 h = 21"
+        "text": "$g + 2h = 21$"
       },
       {
         "label": "C",
-        "text": "$g+\\frac{h}{2}=21$"
+        "text": "$g + \\frac{h}{2} = 21$"
       },
       {
         "label": "D",
-        "text": "$\\frac{g}{2}+h=21$"
+        "text": "$\\frac{g}{2} + h = 21$"
       }
     ],
     "is_fill_in_blank": false,
@@ -99,10 +99,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 5,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "The function f (x) = $\\frac{1}{9}$ （ x - 6) 2 + 3 gives a toy car's height above the ground f (x), in inches, x seconds after it started moving on an elevated track, where $0\\le x\\le10$. Which of the following is the best interpretation of the vertex of the graph of y = f (x) in the xy -plane?",
+    "passage": "The function $f(x) = \\frac{1}{9}(x - 6)^2 + 3$ gives a toy car's height above the ground $f(x)$, in inches, $x$ seconds after it started moving on an elevated track, where $0 \\leq x \\leq 10$. Which of the following is the best interpretation of the vertex of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -131,27 +131,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 6,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to (w +7)(3 w - 10)?",
+    "passage": "Which expression is equivalent to $(w + 7)(3w - 10)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "w 2 - 3 w - 3"
+        "text": "$3w^2 - 3w - 70$"
       },
       {
         "label": "B",
-        "text": "w 2 - 10 w - 3"
+        "text": "$3w^2 - 10w - 70$"
       },
       {
         "label": "C",
-        "text": "w 2 + 11 w - 70"
+        "text": "$3w^2 + 11w - 70$"
       },
       {
         "label": "D",
-        "text": "w 2 + 21 w - 70"
+        "text": "$3w^2 + 21w - 70$"
       }
     ],
     "is_fill_in_blank": false,
@@ -166,24 +166,24 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "Two numbers have a product y, such that one number is x and the other number is 99 less than x. Which of the following equations represents the relationship between y and w?",
+    "passage": "Two numbers have a product $y$, such that one number is $x$ and the other number is 99 less than $x$. Which of the following equations represents the relationship between $y$ and $x$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y = x (x) + 99"
+        "text": "$y = x(x) + 99$"
       },
       {
         "label": "B",
-        "text": "y = x (x) - 99"
+        "text": "$y = x(x) - 99$"
       },
       {
         "label": "C",
-        "text": "y = x (x + 99)"
+        "text": "$y = x(x + 99)$"
       },
       {
         "label": "D",
-        "text": "y = x (x - 99)"
+        "text": "$y = x(x - 99)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -198,7 +198,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "A bank account was opened with an initial deposit. Over the next several months,regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function f shown, where y = f (x),estimates the account balance, in dollars, in this bank account a months since the initial deposit, To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
+    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function $f$ shown, where $y = f(x)$, estimates the account balance, in dollars, in this bank account $x$ months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -207,9 +207,9 @@
     "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_8",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlB_Math_M1_Q8_1.png",
+        "src": "/images_labeled/816fedc1-1434-4eb8-aa3b-6715a1e738ae_8_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlB_Math_M1_Q8_1.png"
+        "local": "images_labeled/816fedc1-1434-4eb8-aa3b-6715a1e738ae_8_q_01_FIX.png"
       }
     ]
   },
@@ -217,10 +217,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "The function F(m) = 7 m models the force, in newtons, acting on each object in a certain field as a function of the object's mass m, in kilograms. Which statement is the best interpretation of F (4) = 28 in this context?",
+    "passage": "The function $F(m) = 7m$ models the force, in newtons, acting on each object in a certain field as a function of the object's mass $m$, in kilograms. Which statement is the best interpretation of $F(4) = 28$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -249,27 +249,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": null,
+    "passage": "If $x$ and $y$ are supplementary angles, which of the following must be true?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$y"
+        "text": "$y = 180 - x$"
       },
       {
         "label": "B",
-        "text": "$y>26$"
+        "text": "$y > 26$"
       },
       {
         "label": "C",
-        "text": "$x+y"
+        "text": "$x + y = 180$"
       },
       {
         "label": "D",
-        "text": "$x+y>180$"
+        "text": "$x + y > 180$"
       }
     ],
     "is_fill_in_blank": false,
@@ -278,9 +278,9 @@
     "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_10",
     "images": [
       {
-        "src": "/images_labeled/Nov_24_IntlB_Math_M1_Q10_1.png",
+        "src": "/images_labeled/816fedc1-1434-4eb8-aa3b-6715a1e738ae_10_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Nov_24_IntlB_Math_M1_Q10_1.png"
+        "local": "images_labeled/816fedc1-1434-4eb8-aa3b-6715a1e738ae_10_q_01_FIX.png"
       }
     ]
   },
@@ -288,10 +288,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "The graph of a polynomial function y = f (x) in the xy-plane passes through the point (5, 7). What is the value of f (5)?",
+    "passage": "The graph of a polynomial function $ y = f(x) $ in the $ xy $-plane passes through the point $ (5, 7) $. What is the value of $ f(5) $?",
     "question_text": null,
     "choices": [
       {
@@ -320,7 +320,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "November 2024 International Form B SAT Math Module 1",
     "passage": "$y=-\\frac{1}{7}x$\n$y=\\frac{1}{5}x$\nThe solution to the given system of equations is (x, y). What is the value of x?",
@@ -352,7 +352,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "November 2024 International Form B SAT Math Module 1",
     "passage": "If $5(3x+6)=3(3x+6)+78$, what is the value of $3x+6?$",
@@ -360,19 +360,19 @@
     "choices": [
       {
         "label": "A",
-        "text": ",78"
+        "text": "78"
       },
       {
         "label": "B",
-        "text": ",39"
+        "text": "39"
       },
       {
         "label": "C",
-        "text": ",33"
+        "text": "33"
       },
       {
         "label": "D",
-        "text": ",11"
+        "text": "11"
       }
     ],
     "is_fill_in_blank": false,
@@ -384,10 +384,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 14,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "The functions g and h are defined by the given equations.\n$g(x)=\\sqrt{(x-11)^{2}+45}$\n$h(x)=364+\\frac{x^{2}}{2}$\nIf g (8) = t, where t is a constant, what is the value of h (t)?",
+    "passage": "The functions $g$ and $h$ are defined by the given equations.\n$g(x)=\\sqrt{(x-11)^{2}+45}$\n$h(x)=364+\\frac{x^{2}}{2}$\nIf $g(8) = t$, where $t$ is a constant, what is the value of $h(t)$?",
     "question_text": null,
     "choices": [
       {
@@ -416,10 +416,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 15,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "If ($\\frac{1}{2}x-\\frac{33}{2}$) 2 - 64 = 0, what is the value of (x - 33) 2?",
+    "passage": "If $\\left(\\frac{1}{2}x - \\frac{33}{2}\\right)^2 - 64 = 0$, what is the value of $(x - 33)^2$?",
     "question_text": null,
     "choices": [
       {
@@ -451,7 +451,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "A circle has center O, and points A and B lie on the circle. The measure of arc AB is 20°， and the length of this arc is 4 inches. What is the circumference, in inches, of the circle?",
+    "passage": "A circle has center O, and points A and B lie on the circle. The measure of arc AB is 20°, and the length of this arc is 4 inches. What is the circumference, in inches, of the circle?",
     "question_text": null,
     "choices": [
       {
@@ -480,10 +480,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 17,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "For x >0, the function f is defined as follows:\nf (x) equals 111% of x\nWhich of the following could describe this function?",
+    "passage": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)$ equals 111% of $x$\nWhich of the following could describe this function?",
     "question_text": null,
     "choices": [
       {
@@ -512,14 +512,14 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "x + 33 y - 200 = -359\n2 wx +11 y = -53\nIn the given system of equations, w is a constant, The system has infnitely many solutions. What is the value of w?",
+    "passage": "$x + 33y - 200 = -359$\n$2wx + 11y = -53$\nIn the given system of equations, $w$ is a constant. The system has infinitely many solutions. What is the value of $w$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "7.5,15/2",
+    "correct_answer": "7.5",
     "rationale": null,
     "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_18"
   },
@@ -527,27 +527,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "The functions f and g are defined as f (x) = $\\frac{1}{5}x$ - 9 and g (x) = $\\frac{4}{5}x$ + 27. If the function h is defined as h (x) = f (x)+ g (x), what is the x -intercept of the graph of y = h (x) in the xy-plane?",
+    "passage": "The functions $f$ and $g$ are defined as $f(x) = \\frac{1}{5}x - 9$ and $g(x) = \\frac{4}{5}x + 27$. If the function $h$ is defined as $h(x) = f(x) + g(x)$, what is the $x$-intercept of the graph of $y = h(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(-\\frac{135}{4},0)$"
+        "text": "$(-\\frac{135}{4}, 0)$"
       },
       {
         "label": "B",
-        "text": "$(-18,0)$"
+        "text": "$(-18, 0)$"
       },
       {
         "label": "C",
-        "text": "$(\\frac{48}{4},0)$"
+        "text": "$(\\frac{48}{4}, 0)$"
       },
       {
         "label": "D",
-        "text": "(18,0)"
+        "text": "$(18, 0)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -562,7 +562,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "A beaker containing a liquid is placed on a table. The functiong (t) = 294 + (363-294) (2.72) -0.103t gives the approximate temperature, in kelvins, of the liquid t minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?",
+    "passage": "A beaker containing a liquid is placed on a table. The function $g(t) = 294 + (363 - 294)(2.72)^{-0.103t}$ gives the approximate temperature, in kelvins, of the liquid $t$ minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -574,10 +574,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 7,450% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 24% of the number of undergraduate students surveyed, If there were 3,576 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
+    "passage": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was $7450\\%$ of the number of postdoctoral students surveyed, and the number of graduate students surveyed was $24\\%$ of the number of undergraduate students surveyed. If there were $3{,}576$ graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -592,7 +592,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "f (x) = (2 x - 20) (2 x + 8)\nWhat is the minimum value of the given function?",
+    "passage": "$f(x) = (2x - 20)(2x + 8)$\nWhat is the minimum value of the given function?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "s=10+4t\nThe equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 5 seconds after it began to accelerate?",
+    "passage": "The equation $s = 10 + 4t$ gives the speed $s$, in miles per hour, of a certain car $t$ seconds after it began to accelerate. What is the speed, in miles per hour, of the car 5 seconds after it began to accelerate?",
     "question_text": null,
     "choices": [
       {
@@ -43,19 +43,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "(-9,0)"
+        "text": "$(-9,0)$"
       },
       {
         "label": "B",
-        "text": "(-6,0)"
+        "text": "$(-6,0)$"
       },
       {
         "label": "C",
-        "text": "(0,6)"
+        "text": "$(0,6)$"
       },
       {
         "label": "D",
-        "text": "(0,9)"
+        "text": "$(0,9)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -64,9 +64,9 @@
     "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_2",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_USA_Math_M1_Q2_1.png",
+        "src": "/images_labeled/9c629a63-5faf-46a6-929d-d4196f7c3150_2_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Mar_25_USA_Math_M1_Q2_1.png"
+        "local": "images_labeled/9c629a63-5faf-46a6-929d-d4196f7c3150_2_q_01_FIX.png"
       }
     ]
   },
@@ -109,7 +109,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "If $6+x=3$,what is the value of $42+7x$?",
+    "passage": "If $6+x=3$, what is the value of $42+7x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -121,7 +121,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "question_number": 5,
     "test_name": "March 2025 US Form A SAT Math Module 1",
     "passage": "In the right triangle shown, what is the value of $x$?",
@@ -150,9 +150,9 @@
     "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_5",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_USA_Math_M1_Q5_1.png",
+        "src": "/images_labeled/9c629a63-5faf-46a6-929d-d4196f7c3150_5_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Mar_25_USA_Math_M1_Q5_1.png"
+        "local": "images_labeled/9c629a63-5faf-46a6-929d-d4196f7c3150_5_q_01_FIX.png"
       }
     ]
   },
@@ -163,7 +163,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "If $\\frac{x}{y}$ =87 and $\\frac{cx}{3y}$ =87, what is the value of c?",
+    "passage": "If $\\frac{x}{y} = 87$ and $\\frac{cx}{3y} = 87$, what is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -175,7 +175,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "March 2025 US Form A SAT Math Module 1",
     "passage": "In right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is 90 degrees. The value of sin($R$) is $\\frac{4\\sqrt{2}}{9}$. What is the value of cos($S$)?",
@@ -210,7 +210,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "Antwon's hair will grow at a constant rate from a length of 3 inches to a length of 5 inches. The equation 0.3t + 3 = 5 describes this situation, where t is the number of months it will take for Antwon's hair to reach a length of 5 inches. Which of the following is the best interpretation of 0.3 in this context?",
+    "passage": "$0.3t + 3 = 5$ describes this situation, where $t$ is the number of months it will take for Antwon's hair to reach a length of 5 inches. Which of the following is the best interpretation of $0.3$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -239,27 +239,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "In the linear function $f$, $f(0)$ =7 and $f(2)$ = 7. Which equation defines $f$?",
+    "passage": "In the linear function $f$, $f(0) = 7$ and $f(2) = 7$. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=0$"
+        "text": "$f(x) = 0$"
       },
       {
         "label": "B",
-        "text": "$f(x)=2$"
+        "text": "$f(x) = 2$"
       },
       {
         "label": "C",
-        "text": "$f(x)=7$"
+        "text": "$f(x) = 7$"
       },
       {
         "label": "D",
-        "text": "$f(x)=$ $x+7$"
+        "text": "$f(x) = x + 7$"
       }
     ],
     "is_fill_in_blank": false,
@@ -271,10 +271,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 11,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "The product of a positive number s and the number that is 1 less than s is equal to 272. What is the value of $x$?",
+    "passage": "The product of a positive number $s$ and the number that is 1 less than $s$ is equal to 272. What is the value of $s$?",
     "question_text": null,
     "choices": [
       {
@@ -306,7 +306,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "$4x^{2}-x=18$\nWhat is the positive solution to the given equation?",
+    "passage": "$4x^2 - x = 18$\nWhat is the positive solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -321,7 +321,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "A sample of a certain isotope takes 29 years to decay to half its original mass. The function\n$s(t)=184(0.5)^{\\frac{t}{29}}$ gives the approximate mass of this isotope, in grams, that remains t years after a 184 -gram sample starts to decay. Which statement is the best interpretation of s(58)= 46 in this context?",
+    "passage": "$s(t)=184(0.5)^{\\frac{t}{29}}$ gives the approximate mass of this isotope, in grams, that remains $t$ years after a 184-gram sample starts to decay. Which statement is the best interpretation of $s(58)= 46$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -358,19 +358,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$65x+30y=5$\n$x+y=290$"
+        "text": "$65x + 30y = 5$\n$x + y = 290$"
       },
       {
         "label": "B",
-        "text": "$65x+30y=290$\n$x+y=5$"
+        "text": "$65x + 30y = 290$\n$x + y = 5$"
       },
       {
         "label": "C",
-        "text": "$30x+65y=5$\n$x+y=290$"
+        "text": "$30x + 65y = 5$\n$x + y = 290$"
       },
       {
         "label": "D",
-        "text": "$30x+65y=290$\n$x+y=5$"
+        "text": "$30x + 65y = 290$\n$x + y = 5$"
       }
     ],
     "is_fill_in_blank": false,
@@ -385,24 +385,24 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "$y\nWhich point $(x,y)$ is a solution to the given inequality in the xy-plane?",
+    "passage": "$y$ Which point $(x,y)$ is a solution to the given inequality in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(0,15)"
+        "text": "$(0,15)$"
       },
       {
         "label": "B",
-        "text": "(-1,17)"
+        "text": "$(-1,17)$"
       },
       {
         "label": "C",
-        "text": "(-2,0)"
+        "text": "$(-2,0)$"
       },
       {
         "label": "D",
-        "text": "(8,-1)"
+        "text": "$(8,-1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -414,10 +414,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "$(x-35)^{2}=1$\nWhat is the sum of the solutions to the given equation?",
+    "passage": "$(x - 35)^2 = 1$\nWhat is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -429,27 +429,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged \\$150. Another student took 17 lessons and was charged \\$480, Which function $f$ gives the total charge, indollars, for any student who took $x$ lessons, where $x$ >2?",
+    "passage": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged $150. Another student took 17 lessons and was charged $480. Which function $f$ gives the total charge, in dollars, for any student who took $x$ lessons, where $x > 2$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=25x$"
+        "text": "$f(x) = 25x$"
       },
       {
         "label": "B",
-        "text": "$f(x)=25x$ +55"
+        "text": "$f(x) = 25x + 55$"
       },
       {
         "label": "C",
-        "text": "$f(x)=30x$"
+        "text": "$f(x) = 30x$"
       },
       {
         "label": "D",
-        "text": "$f(x)=30x$ -30"
+        "text": "$f(x) = 30x - 30$"
       }
     ],
     "is_fill_in_blank": false,
@@ -461,10 +461,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 18,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "How many centimeters are equivalent to 35 meters? (1 meter =100 centimeters)",
+    "passage": "How many centimeters are equivalent to 35 meters? (1 meter = 100 centimeters)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -476,10 +476,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 23% every 11.69 minutes. Which of the following equations could represent this model, where M is the estimated mass, in grams, of the sample t minutes after the researcher began observing the sample?",
+    "passage": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 23% every 11.69 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
     "question_text": null,
     "choices": [
       {
@@ -508,10 +508,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "Data set A:8,11,12,15,21,27\nData set B:9,12,13,16,22,h\nData sets A and B each consist of 6 values as shown, where h is a constant. If the standard deviation of data set A is greater than the standard deviation of data set B，which of the following could be the value of h?\nI. 23\nII. 28\nIII. 29",
+    "passage": "Data set A: 8, 11, 12, 15, 21, 27\nData set B: 9, 12, 13, 16, 22, $h$\nData sets A and B each consist of 6 values as shown, where $h$ is a constant. If the standard deviation of data set A is greater than the standard deviation of data set B, which of the following could be the value of $h$?\nI. 23\nII. 28\nIII. 29",
     "question_text": null,
     "choices": [
       {
@@ -543,7 +543,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "In triangle $RST$,the measure of angle $R$ is 50º, the measure of angle S is $xº,$ and the measure of angle T is $(4x-5)$ º. Point L lies on $\\overline{RS}$, point K lies on $\\overline{ST}$,and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle $SKL$? (Disregard the degree symbol when entering your answer.)",
+    "passage": "In triangle $RST$, the measure of angle $R$ is $50º$, the measure of angle $S$ is $xº,$ and the measure of angle $T$ is $(4x - 5)º$. Point $L$ lies on $\\overline{RS}$, point $K$ lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle $SKL$? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

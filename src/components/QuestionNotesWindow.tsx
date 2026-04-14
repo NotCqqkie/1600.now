@@ -5,6 +5,8 @@ interface QuestionNotesWindowProps {
   isOpen: boolean;
   onClose: () => void;
   storageKey: string;
+  storageArea?: Storage;
+  windowStateKey?: string;
   onFocus?: () => void;
   zIndex?: number;
   constrainToLeft?: number;
@@ -14,6 +16,8 @@ export const QuestionNotesWindow = ({
   isOpen,
   onClose,
   storageKey,
+  storageArea = localStorage,
+  windowStateKey,
   onFocus,
   zIndex = 50,
   constrainToLeft,
@@ -22,13 +26,13 @@ export const QuestionNotesWindow = ({
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    setNote(localStorage.getItem(storageKey) || "");
-  }, [storageKey]);
+    setNote(storageArea.getItem(storageKey) || "");
+  }, [storageArea, storageKey]);
 
   const handleChange = (value: string) => {
     setNote(value);
     if (typeof window !== "undefined") {
-      localStorage.setItem(storageKey, value);
+      storageArea.setItem(storageKey, value);
     }
   };
 
@@ -44,6 +48,8 @@ export const QuestionNotesWindow = ({
       onFocus={onFocus}
       zIndex={zIndex}
       constrainToLeft={constrainToLeft}
+      persistenceKey={windowStateKey}
+      persistenceStorage={storageArea}
     >
       <div className="flex h-full flex-col bg-background">
         <div className="flex-1 p-4">

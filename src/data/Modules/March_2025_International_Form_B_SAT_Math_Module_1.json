@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "$s=40+2t$\nThe equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 4 seconds after it began to accelerate?",
+    "passage": "$s=40+2t$\nThe equation gives the speed $s$, in miles per hour, of a certain car $t$ seconds after it began to accelerate. What is the speed, in miles per hour, of the car 4 seconds after it began to accelerate?",
     "question_text": null,
     "choices": [
       {
@@ -35,7 +35,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "March 2025 International Form B SAT Math Module 1",
     "passage": "The histogram shows the distribution of 20 lengths, in feet, in a data set. The first bar represents the lengths that are less than 50 feet, the second bar represents the lengths that are at least 50 feet but less than 100 feet, and so on. Which of the following could be the maximum length, in feet, in this data set?",
@@ -64,9 +64,9 @@
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_3",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_IntlB_Math_M1_Q3_1.png",
+        "src": "/images_labeled/a16355d1-6cca-4c4e-8e0a-f405892830f1_3_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Mar_25_IntlB_Math_M1_Q3_1.png"
+        "local": "images_labeled/a16355d1-6cca-4c4e-8e0a-f405892830f1_3_q_01_FIX.png"
       }
     ]
   },
@@ -106,10 +106,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "question_number": 5,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "$y=-0.5$\n$y=x^{2}+8x+a$\nIn the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?",
+    "passage": "In the given system of equations, $a$ is a positive integer constant. The system has no real solutions. What is the least possible value of $a$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -136,27 +136,27 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "The price of an object increased from \\$16 to \\$80. What was the percent increase in the price of the object?",
+    "passage": "The price of an object increased from $\\$16$ to $\\$80$. What was the percent increase in the price of the object?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$20%$"
+        "text": "$20\\%$"
       },
       {
         "label": "B",
-        "text": "$64%$"
+        "text": "$64\\%$"
       },
       {
         "label": "C",
-        "text": "$80%$"
+        "text": "$80\\%$"
       },
       {
         "label": "D",
-        "text": "$400%$"
+        "text": "$400\\%$"
       }
     ],
     "is_fill_in_blank": false,
@@ -168,7 +168,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 8,
     "test_name": "March 2025 International Form B SAT Math Module 1",
     "passage": "The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.\nWhich of the following equations best represents the line of best fit shown?",
@@ -197,9 +197,9 @@
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_8",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_IntlB_Math_M1_Q8_1.svg",
+        "src": "/images_labeled/a16355d1-6cca-4c4e-8e0a-f405892830f1_8_q_01_FIX.svg",
         "alt": "",
-        "local": "images_labeled/Mar_25_IntlB_Math_M1_Q8_1.svg"
+        "local": "images_labeled/a16355d1-6cca-4c4e-8e0a-f405892830f1_8_q_01_FIX.svg"
       }
     ]
   },
@@ -207,7 +207,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "March 2025 International Form B SAT Math Module 1",
     "passage": "The expression $7x^{6}+9x^{6}-8x^{6}$ is equivalent to $bx^{6}$, where b is a constant. What is the value of b?",
@@ -222,10 +222,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "At what point (x, y) do the graphs of the equations $y=5x+8$ and $y=6x-2$ intersect in the xy -plane?",
+    "passage": "At what point $(x, y)$ do the graphs of the equations $y=5x+8$ and $y=6x-2$ intersect in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -254,10 +254,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "A rectangle has a length that is 72 times its width. The function $y=(72w)(w)$ represents this situation, where y is the area, in square feet, of the rectangle and $y> 0$. Which of the following is the best interpretation of 72 w in this context?",
+    "passage": "A rectangle has a length that is 72 times its width. The function $y=(72w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y > 0$. Which of the following is the best interpretation of $72w$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -289,7 +289,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "In the figure shown, line k intersects lines r and s, if w = 160, which additional piece of information is sufficient to prove that lines r and s are parallel?",
+    "passage": "In the figure shown, line $k$ intersects lines $r$ and $s$, if $w = 160$, which additional piece of information is sufficient to prove that lines $r$ and $s$ are parallel?",
     "question_text": null,
     "choices": [
       {
@@ -315,9 +315,9 @@
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_13",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_IntlB_Math_M1_Q13_1.png",
+        "src": "/images_labeled/a16355d1-6cca-4c4e-8e0a-f405892830f1_13_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Mar_25_IntlB_Math_M1_Q13_1.png"
+        "local": "images_labeled/a16355d1-6cca-4c4e-8e0a-f405892830f1_13_q_01_FIX.png"
       }
     ]
   },
@@ -328,7 +328,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "$x^{2}-4x+y^{2}-8y-80=0$\nIn the xy -plane, the graph of the given equation is a circle. If this circle is inscribed in a square. What is the perimeter of the square?",
+    "passage": "$x^2 - 4x + y^2 - 8y - 80 = 0$\nIn the $xy$-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -357,10 +357,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "A real estate company offers a series of three webinars. 1,250 people attended the first webinar. 46 % of the people who attended the first webinar attended the second webinar, and 32 % of the people who attended the first and second webinars attended the third webinar. How many people attended all three webinars?",
+    "passage": "A real estate company offers a series of three webinars. 1,250 people attended the first webinar. 46% of the people who attended the first webinar attended the second webinar, and 32% of the people who attended the first and second webinars attended the third webinar. How many people attended all three webinars?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -372,27 +372,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "A circle in the xy -plane has its center at (18, 16) and has a radius of 6 k. Which equation represents this circle?",
+    "passage": "A circle in the $xy$-plane has its center at $(18, 16)$ and has a radius of $6k$. Which equation represents this circle?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(x-18)^{2}+(y-16)^{2}=36k$"
+        "text": "$(x-18)^2 + (y-16)^2 = 36k$"
       },
       {
         "label": "B",
-        "text": "$(x-18)^{2}+(y-16)^{2}=36k^{2}$"
+        "text": "$(x-18)^2 + (y-16)^2 = 36k^2$"
       },
       {
         "label": "C",
-        "text": "$(x-18)^{2}+(y-16)^{2}=6k$"
+        "text": "$(x-18)^2 + (y-16)^2 = 6k$"
       },
       {
         "label": "D",
-        "text": "$(x-18)^{2}+(y-16)^{2}=6k^{2}$"
+        "text": "$(x-18)^2 + (y-16)^2 = 6k^2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -404,10 +404,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Evaluating statistical claims: Observational studies and experiments",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 18,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "To study fluctuations in leaf water potential, samples of wood were taken from 22 trees cut in the shape of a cube. The length of the edge of one of these cubes is 3.000 centimeters. This cube has a density of 0.250 grams per cubic centimeter. What is the mass of this cube in grams?",
+    "passage": "To study fluctuations in leaf water potential, samples of wood were taken from 22 trees cut in the shape of a cube. The length of the edge of one of these cubes is $3.000$ centimeters. This cube has a density of $0.250$ grams per cubic centimeter. What is the mass of this cube in grams?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -419,7 +419,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "March 2025 International Form B SAT Math Module 1",
     "passage": "The difference between the measure of angle A and the measure of angle B is $-\\frac{5}{12}\\pi$ radians. Which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
@@ -427,19 +427,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$-\\frac{5}{12}•\\frac{180^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12} \\cdot \\frac{180^\\circ}{\\pi}$"
       },
       {
         "label": "B",
-        "text": "$-\\frac{5}{12}\\pi•\\frac{\\pi}{180^\\circ}$"
+        "text": "$-\\frac{5}{12}\\pi \\cdot \\frac{\\pi}{180^\\circ}$"
       },
       {
         "label": "C",
-        "text": "$-\\frac{5}{12}\\pi•\\frac{180^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi \\cdot \\frac{180^\\circ}{\\pi}$"
       },
       {
         "label": "D",
-        "text": "$-\\frac{5}{12}\\pi•\\frac{360^\\circ}{\\pi}$"
+        "text": "$-\\frac{5}{12}\\pi \\cdot \\frac{360^\\circ}{\\pi}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -451,7 +451,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "March 2025 International Form B SAT Math Module 1",
     "passage": "$x^{2}-84x-14=0$\nWhat is the sum of the solutions to the given equation?",
@@ -483,10 +483,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 32 centimeters. If the height of the cone is 16 centimeters and the volume of the cone is kπ cubic centimeters. What is the value of k?",
+    "passage": "For the right circular cone shown, $B$ is a point on the circumference of the base, and the length of segment $AB$ (not shown) is 32 centimeters. If the height of the cone is 16 centimeters and the volume of the cone is $k\\pi$ cubic centimeters. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -495,9 +495,9 @@
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_21",
     "images": [
       {
-        "src": "/images_labeled/Mar_25_IntlB_Math_M1_Q21_1.svg",
+        "src": "/images_labeled/a16355d1-6cca-4c4e-8e0a-f405892830f1_21_q_01_FIX.svg",
         "alt": "",
-        "local": "images_labeled/Mar_25_IntlB_Math_M1_Q21_1.svg"
+        "local": "images_labeled/a16355d1-6cca-4c4e-8e0a-f405892830f1_21_q_01_FIX.svg"
       }
     ]
   },
@@ -508,24 +508,24 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "March 2025 International Form B SAT Math Module 1",
-    "passage": "In the xy -plane, line k and line l are perpendicular and intersect at the point (2, 8). If line k is defined by the equation $y=mx+b$, where m and b are constants and $m>1,$ which of the following points lies on line l?",
+    "passage": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 8)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m > 1$, which of the following points lies on line $l$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(3,8-\\frac{1}{m})$"
+        "text": "$(3, 8 - \\frac{1}{m})$"
       },
       {
         "label": "B",
-        "text": "$(3,8+\\frac{1}{m})$"
+        "text": "$(3, 8 + \\frac{1}{m})$"
       },
       {
         "label": "C",
-        "text": "$(3,8-m)$"
+        "text": "$(3, 8 - m)$"
       },
       {
         "label": "D",
-        "text": "$(3,8+m)$"
+        "text": "$(3, 8 + m)$"
       }
     ],
     "is_fill_in_blank": false,

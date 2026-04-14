@@ -1,0 +1,4440 @@
+[
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_6",
+    "testName": "August 2024 International Form A SAT Math Module 1",
+    "text": "To win a game show, a contestant needs to score at least 100 total points from two rounds. Correct responses in the first round are worth 2 points each, and correct responses in the second round are worth 5 points each. Which inequality models this situation, where * f * is the number of correct responses in the first round and * s * is the number of correct responses in the second round?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "f+s ≤ 100"
+      },
+      {
+        "id": "B",
+        "text": "2f+ 5s ≥ 100"
+      },
+      {
+        "id": "C",
+        "text": "5f+s ≥ 100"
+      },
+      {
+        "id": "D",
+        "text": "5f+ 2s ≤ 100"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 5
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_10",
+    "testName": "August 2024 International Form A SAT Math Module 1",
+    "text": "The table shows three values of a and their corresponding values of * y * for the equation * y * = 4(2) *x* + 5. In the table, a is a constant. What is the value of * a *?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "69"
+      },
+      {
+        "id": "B",
+        "text": "37"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "29"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 9
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_15",
+    "testName": "August 2024 International Form A SAT Math Module 1",
+    "text": "For the linear function * g *, the table shows four values of * x * and their corresponding values of * g(** x **) *. The function can be written as * g(** x **)= m ** x ** + b *, where * m * and * b * are constants. What is the value of * b *?",
+    "choices": [],
+    "correctAnswer": "49",
+    "type": "free-response",
+    "originalIndex": 14
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_3",
+    "testName": "August 2024 International Form A SAT Math Module 2",
+    "text": "If *f(x)=x+ 3* and* g(x)= 3x*, what is the value of 7*f(4)- g(4*)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-5"
+      },
+      {
+        "id": "B",
+        "text": "19"
+      },
+      {
+        "id": "C",
+        "text": "21"
+      },
+      {
+        "id": "D",
+        "text": "37"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 24
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_9",
+    "testName": "August 2024 International Form A SAT Math Module 2",
+    "text": "The three points shown defne a circle. The circumference of this circle is *kπ*, where *k* is a constant. What is the value of *k*?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 29
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_13",
+    "testName": "August 2024 International Form A SAT Math Module 2",
+    "text": "A rectangle is inscribed in a circle such that the length of the diagonal of the rectangle is twice the length of its shortest side. The circumference of the circle is 114π units. What is the area, in square units, of the rectangle?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$57\\sqrt{2}$"
+      },
+      {
+        "id": "B",
+        "text": "$57\\sqrt{3}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{2}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{3}$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 33
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_13",
+    "testName": "August 2025 International Form A SAT Math Module 1",
+    "text": "A circle has a circumference of 89 π centimeters. What is the diameter, in centimeters, of the circle?",
+    "choices": [],
+    "correctAnswer": "89",
+    "type": "free-response",
+    "originalIndex": 99
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_9",
+    "testName": "August 2025 International Form A SAT Math Module 2",
+    "text": "If $(\\frac{1}{2}x-\\frac{21}{2})^{2}-81=0$, what is the value of $(x-21)^{2}$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$324$"
+      },
+      {
+        "id": "B",
+        "text": "$162$"
+      },
+      {
+        "id": "C",
+        "text": "$21$"
+      },
+      {
+        "id": "D",
+        "text": "$9$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 116
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_8",
+    "testName": "August 2025 International Form B SAT Math Module 2",
+    "text": "If $(\\frac{1}{2}x-\\frac{41}{2})^{2}-64=0$, what is the value of $(x-41)^{2}$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$256$"
+      },
+      {
+        "id": "B",
+        "text": "$128$"
+      },
+      {
+        "id": "C",
+        "text": "$41$"
+      },
+      {
+        "id": "D",
+        "text": "$8$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 159
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "979898ba-60c7-4531-ac45-29c4db2b3361_16",
+    "testName": "August 2025 International Form B SAT Math Module 2",
+    "text": "The equation of the graph shown is $y=a^{x}+b$, where a and b are constants. What is the value of $a-b$?",
+    "choices": [],
+    "correctAnswer": "12",
+    "type": "free-response",
+    "originalIndex": 167
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_11",
+    "testName": "December 2024 International Form A SAT Math Module 1",
+    "text": "In the figure, line q is parallel to line r, and both lines are intersected by line s. lf y= 2x + 7, what is the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "35"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "58"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 184
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_3",
+    "testName": "December 2024 International Form A SAT Math Module 2",
+    "text": "A circle has a circumference of 42π centimeters. What is the diameter, incentimeters, of the circle?",
+    "choices": [],
+    "correctAnswer": "42",
+    "type": "free-response",
+    "originalIndex": 198
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_19",
+    "testName": "December 2024 International Form A SAT Math Module 2",
+    "text": "$-16(5x-3)^{2}+4(5x-2)^{2}$\nThe given expression can be rewritten as $\\frac{a}{4}x^{2}+\\frac{b}{4}x+\\frac{c}{4}$, where a, b, and c are constants.\nWhat is the value of a +b+c?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-112"
+      },
+      {
+        "id": "B",
+        "text": "-56"
+      },
+      {
+        "id": "C",
+        "text": "-28"
+      },
+      {
+        "id": "D",
+        "text": "-7"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 214
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22",
+    "testName": "December 2024 International Form A SAT Math Module 2",
+    "text": "In the figure shown, points A, B, C, and E lie on the circle, and AB < BC. Segment AC is perpendicular to segment BE at point D, and BD= $\\sqrt{346}$. The diameter of the circle is 175. If $\\frac{CD}{AD}$ = r, what is the value of r?",
+    "choices": [],
+    "correctAnswer": "86.5,173/2",
+    "type": "free-response",
+    "originalIndex": 217
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_10",
+    "testName": "December 2024 International Form B SAT Math Module 1",
+    "text": "In the figure, line q is parallel to line r, and both lines are intersected by line s. If y= 2x + 8, what is the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "33"
+      },
+      {
+        "id": "B",
+        "text": "41"
+      },
+      {
+        "id": "C",
+        "text": "49"
+      },
+      {
+        "id": "D",
+        "text": "59"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 227
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22",
+    "testName": "December 2024 International Form B SAT Math Module 2",
+    "text": "In the figure shown, points A, B, C, and E lie on the circle, and AB < BC, Segment AC is perpendicular to segment BE at point D, and BD = $\\sqrt{286}$. The diameter of the circle is 145, If =r, what is the value of r?",
+    "choices": [],
+    "correctAnswer": "71.5,143/2",
+    "type": "free-response",
+    "originalIndex": 256
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_6",
+    "testName": "December 2024 International Form C SAT Math Module 1",
+    "text": "The function d is defined by d(x)=200- 6 x. What is the value of d(0)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "140"
+      },
+      {
+        "id": "B",
+        "text": "194"
+      },
+      {
+        "id": "C",
+        "text": "199"
+      },
+      {
+        "id": "D",
+        "text": "200"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 262
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_11",
+    "testName": "December 2024 International Form C SAT Math Module 1",
+    "text": "The graph models the number of active projects a company was working on x months after the end of November 2011, where 0 ≤ x ≤ 6. According to the model, what is the predicted number of active projects the company was working on at the end of November 2011?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 267
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_5",
+    "testName": "December 2024 International Form C SAT Math Module 2",
+    "text": "Circle K has a radius of 2 millimeters (mm). Circle L has an area of l44π mm 2. What is the total area, in mm 2, of circles K and L?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "14π"
+      },
+      {
+        "id": "B",
+        "text": "28π"
+      },
+      {
+        "id": "C",
+        "text": "56π"
+      },
+      {
+        "id": "D",
+        "text": "148π"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 283
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_7",
+    "testName": "December 2024 International Form C SAT Math Module 2",
+    "text": "The function f is defined by f (x)=(-7)(4) x + 31. What is the y -intercept of the graph of y=f(x) in the xy -plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(0,24)"
+      },
+      {
+        "id": "B",
+        "text": "(0,4)"
+      },
+      {
+        "id": "C",
+        "text": "(0,31)"
+      },
+      {
+        "id": "D",
+        "text": "(0,-7)"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 285
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_11",
+    "testName": "December 2024 International Form C SAT Math Module 2",
+    "text": "A property owner wants to find the length x, in feet, across a pond as represented in the figure, $\\overline{PR}$ intersects $\\overline{ST}$ at point Q, and ∠PTQ is congruent to ∠RSQ. The lengths represented by PQ, TQ, QS, and RS were determined to be 4,200 feet, 8,400 feet, 1,400 feet, and 1,600 feet, respectively. What is the value of x?",
+    "choices": [],
+    "correctAnswer": "9600",
+    "type": "free-response",
+    "originalIndex": 289
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_18",
+    "testName": "December 2024 International Form C SAT Math Module 2",
+    "text": "The equation N(m) = $65(Q)^{\\frac{m}{4}}$ gives the predicted population N(m), in thousands, of a certain bacteria colony m minutes after the initial measurement, where Q is a constant greater than 1. The predicted population increases by p% every 120 seconds. what is the value of p in terms of Q?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$100(Q^{\\frac{3}{2}}+1)$"
+      },
+      {
+        "id": "B",
+        "text": "$100(Q^{30}+1)$"
+      },
+      {
+        "id": "C",
+        "text": "$100(Q^{\\frac{1}{2}}-1)$"
+      },
+      {
+        "id": "D",
+        "text": "$100(Q^{30}-1)$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 296
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_10",
+    "testName": "December 2024 US Form A SAT Math Module 1",
+    "text": "What is the y-intercept of the graph of y = 16 x+3 in the xy-plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(0,4,096)"
+      },
+      {
+        "id": "B",
+        "text": "(0,0)"
+      },
+      {
+        "id": "C",
+        "text": "(0,16)"
+      },
+      {
+        "id": "D",
+        "text": "(0,3)"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 310
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_10",
+    "testName": "December 2024 US Form A SAT Math Module 2",
+    "text": "The circumference of the base of a right circular cylinder is 6π meters, and the height of the cylinder is 19 meters. What is the volume, in cubic meters, of the cylinder?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "57π"
+      },
+      {
+        "id": "B",
+        "text": "114π"
+      },
+      {
+        "id": "C",
+        "text": "171π"
+      },
+      {
+        "id": "D",
+        "text": "684π"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 332
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_20",
+    "testName": "December 2024 US Form A SAT Math Module 2",
+    "text": "If n and k are numbers greater than 1 and $4n^{5}3$ is equivalent to $3k^{2}$, for what value of a is n 2a+1 equal to k?",
+    "choices": [],
+    "correctAnswer": "7/16",
+    "type": "free-response",
+    "originalIndex": 341
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_6",
+    "testName": "December 2024 US Form B SAT Math Module 1",
+    "text": "The table shows the amount of time it took a participant in a study to complete each of 5 tasks. What was the mean time, in minutes, for this participant to complete a task?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 348
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_3",
+    "testName": "December 2024 US Form B SAT Math Module 2",
+    "text": "For a linear relationship between x and y, the table gives three values of x and their corresponding values of y, Which equation represents this relationship?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "y=10x+95"
+      },
+      {
+        "id": "B",
+        "text": "y=x+105"
+      },
+      {
+        "id": "C",
+        "text": "y=x+10"
+      },
+      {
+        "id": "D",
+        "text": "y=10x"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 366
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_9",
+    "testName": "December 2024 US Form B SAT Math Module 2",
+    "text": "In the figure shown, point T lies on segment SW, and segment TU is parallel to segment VW. The measure of angle V is 26°, and the measure of angle STU is 74°. What is the value of p-r?",
+    "choices": [],
+    "correctAnswer": "80",
+    "type": "free-response",
+    "originalIndex": 372
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "32388549-e820-4b4a-91a9-d9c32e611098_20",
+    "testName": "December 2024 US Form B SAT Math Module 2",
+    "text": "Function f is a quadratic function. The graph of y= f(x) in the xy-plane has a vertex at (4,-6), contains the point (3, -8), and has a y-intercept at (0, a). The graph of y= 5 · f(x) has a y-intercept at (0, b). What is the positive difference between a and b?",
+    "choices": [],
+    "correctAnswer": "152",
+    "type": "free-response",
+    "originalIndex": 383
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_7",
+    "testName": "December 2024 US Form C SAT Math Module 1",
+    "text": "The table shows the amount of time it took a participant in a study to complete each of 5 tasks. What was the mean time, in minutes, for this participant to complete a task?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 392
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_4",
+    "testName": "December 2024 US Form C SAT Math Module 2",
+    "text": "$y=0.25x^{2}-7.5x+95.25$\nThe equation gives the estimated stock price y, in dollars, for a certain company x days after the company went public, where $0\\le x\\le20$, Which statement is the bestinterpretation of (x,y) = (l, 88) in this context?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "day after the company went public, the company's estimated stock price is \\$88."
+      },
+      {
+        "id": "B",
+        "text": "days after the company went public, the company's estimated stock price is \\$1."
+      },
+      {
+        "id": "C",
+        "text": "The company's estimated stock price increased \\$88 every day after the company went public."
+      },
+      {
+        "id": "D",
+        "text": "The company's estimated stock price increased \\$1 every 88 days after the company went public."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 411
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_17",
+    "testName": "June 2024 International Form A SAT Math Module 2",
+    "text": "In triangle PQR, the measure of angle P is (3 x + 5)°,the measure of angle Q is (2 x + 9)°, and the measure of angle R is (4 y + 5)°. If side QR is extended through point R to point S, and the measure of angle PRS is (x + y)°, what is the value of x + y?",
+    "choices": [],
+    "correctAnswer": "39",
+    "type": "free-response",
+    "originalIndex": 467
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_1",
+    "testName": "June 2024 US Form A SAT Math Module 1",
+    "text": "Which expression is equivalent to 6 xy （2 x 2 +5 y ）？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "x 3 y +11 xy 2"
+      },
+      {
+        "id": "B",
+        "text": "x 2 y +5 y"
+      },
+      {
+        "id": "C",
+        "text": "12x 2 y+30 xy"
+      },
+      {
+        "id": "D",
+        "text": "x 3 y +30 xy 2"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 473
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_9",
+    "testName": "June 2024 US Form A SAT Math Module 2",
+    "text": "An exponential function f is defined by f (x)= c x, where c is a constant greaterthan 1. If f (6)= 9 · f (4), what is the value of c?",
+    "choices": [],
+    "correctAnswer": "3",
+    "type": "free-response",
+    "originalIndex": 503
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_21",
+    "testName": "June 2024 US Form A SAT Math Module 2",
+    "text": "x g(x) -21 2 -9 0 15 4\nThe table shows three values of x and their corresponding values of g (x), where g (x)= $\\frac{f(x)}{x+3}$ and f is a linear function. What is the y -intercept of the graph of y = f (x) in the xy -plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(0, -9)"
+      },
+      {
+        "id": "B",
+        "text": "(0, 3)"
+      },
+      {
+        "id": "C",
+        "text": "(0, 9)"
+      },
+      {
+        "id": "D",
+        "text": "(0, 27)"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 515
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_22",
+    "testName": "June 2024 US Form A SAT Math Module 2",
+    "text": "For groups of 25 or more people, a museum charges \\$28 per person for the first 25 people and \\$17 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people,where $n\\ge$ 25?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "f (n)=17 n +275"
+      },
+      {
+        "id": "B",
+        "text": "f (n)=17 n +28"
+      },
+      {
+        "id": "C",
+        "text": "f (n)=17 n +700"
+      },
+      {
+        "id": "D",
+        "text": "f (n)=45 n -425"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 516
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_15",
+    "testName": "June 2024 US Form C SAT Math Module 2",
+    "text": "The kinetic energy, in joules, of an object with mass 7 kilograms traveling at a speed of v meters per second is given by the function K, where K (v)= $\\frac{7}{2}$ v 2. Which of the following is the best interpretation of K (24)= 2,016 in this context?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The object traveling at 24 meters per second has a kinetic energy of 2,016 joules."
+      },
+      {
+        "id": "B",
+        "text": "The object traveling at 240 meters per second has a kinetic energy of 2,016 joules."
+      },
+      {
+        "id": "C",
+        "text": "The object traveling at 2,016 meters per second has a kinetic energy of 24 joules."
+      },
+      {
+        "id": "D",
+        "text": "The object traveling at 7,056 meters per second has a kinetic energy of 24 joules."
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 596
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "10c690aa-0aad-48ab-952b-855b2555b311_18",
+    "testName": "June 2024 US Form C SAT Math Module 2",
+    "text": "The point with coordinates(7, c) lies on the line shown. What is the value of c?",
+    "choices": [],
+    "correctAnswer": "4.5,9/2",
+    "type": "free-response",
+    "originalIndex": 599
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_18",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "$5272n\\sqrt{272n}^{2}$\nFor what value of x is the given expression equivalent to $(272n)^{30x}$, where n > 1?",
+    "choices": [],
+    "correctAnswer": "4/225,.0177,.0178,0.018,0.017",
+    "type": "free-response",
+    "originalIndex": 640
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_19",
+    "testName": "June 2025 International Form A SAT Math Module 2",
+    "text": "One of these participants will be selected at random. What is the probability of selecting a participant from group A, given that the participant is at least 10 years of age?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{5}{21}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{5}{14}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{17}{35}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{5}{7}$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 641
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_1",
+    "testName": "June 2025 US Form A SAT Math Module 1",
+    "text": "Which expression is equivalent to 6 $xy$ $(2x^{2}+5y)?$",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$8x^{3}y+11xy^{2}$"
+      },
+      {
+        "id": "B",
+        "text": "$12x^{2}y+5y$"
+      },
+      {
+        "id": "C",
+        "text": "$12x^{2}y+30xy$"
+      },
+      {
+        "id": "D",
+        "text": "$12x^{3}y+30xy^{2}$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 687
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_10",
+    "testName": "June 2025 US Form A SAT Math Module 1",
+    "text": "The table gives the perimeters of similar triangles $TUV$ and $XYZ$, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 6.\nWhat is the length of $\\overline{XY}$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$2$"
+      },
+      {
+        "id": "B",
+        "text": "$6$"
+      },
+      {
+        "id": "C",
+        "text": "$18$"
+      },
+      {
+        "id": "D",
+        "text": "$56$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 696
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_15",
+    "testName": "June 2025 US Form A SAT Math Module 1",
+    "text": "The graph of $y=f(x)$ is shown where $f(x)=ax^{3}+bx^{2}+cx+d$ and a, b, c, and d are constants. For how many distinct values of x does $f(x)=0$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "One"
+      },
+      {
+        "id": "B",
+        "text": "Two"
+      },
+      {
+        "id": "C",
+        "text": "Three"
+      },
+      {
+        "id": "D",
+        "text": "Four"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 701
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "a7146625-47ea-49cb-9061-578e226240d5_19",
+    "testName": "June 2025 US Form A SAT Math Module 1",
+    "text": "In the figure, AC = CD. The measure of angle EBC is 29 °, and the measure of angle ACD is 108 °. What is the value of x?",
+    "choices": [],
+    "correctAnswer": "65",
+    "type": "free-response",
+    "originalIndex": 705
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_9",
+    "testName": "June 2025 US Form A SAT Math Module 2",
+    "text": "An exponential function f is defined by $f(x)=c^{x}$, where c is a constant greater than 1. If $f(6)=9·f(4)$, what is the value of c?",
+    "choices": [],
+    "correctAnswer": "3",
+    "type": "free-response",
+    "originalIndex": 717
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_17",
+    "testName": "June 2025 US Form A SAT Math Module 2",
+    "text": "In the given figure, $\\overline{NP}$ is the diameter of semicircle O. Angles Q, R, and S are right angles, and point P is the midpoint of $\\overline{NQ}$. If PQ = 52 feet and NS = 18 feet, the area of the figure can be expressed as $a\\pi+b$ square feet, where a and b are integers. What is the value of $a-b$?",
+    "choices": [],
+    "correctAnswer": "-1534",
+    "type": "free-response",
+    "originalIndex": 725
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_18",
+    "testName": "June 2025 US Form A SAT Math Module 2",
+    "text": "$\\frac{1}{5xy}+xyz=\\frac{1}{4yz}$\nIn the given equation, x, y, and z are positive numbers. Which expression is equivalent to y?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{5x-4z}{20x^{2}z^{2}}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{\\frac{5x-4z}{20x^{2}z^{2}}}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{4xz^{2}-5x^{2}-z}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{\\frac{1}{4xz^{2}-5x^{2}-z}}$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 726
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_22",
+    "testName": "June 2025 US Form A SAT Math Module 2",
+    "text": "For groups of 25 or more people, a museum charges \\$28 per person for the first 25 people and \\$17 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people, where $n\\ge25$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$f(n)=17n+275$"
+      },
+      {
+        "id": "B",
+        "text": "$f(n)=17n+28$"
+      },
+      {
+        "id": "C",
+        "text": "$f(n)=17n+700$"
+      },
+      {
+        "id": "D",
+        "text": "$f(n)=45n-425$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 730
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_1",
+    "testName": "March 2025 International Form A SAT Math Module 1",
+    "text": "The cost y, in dollars, for a manufacturer to make x rings is represented by the line shown.\nWhat is the cost, in dollars, for the manufacturer to make 50 rings?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$100$"
+      },
+      {
+        "id": "B",
+        "text": "$125$"
+      },
+      {
+        "id": "C",
+        "text": "$175$"
+      },
+      {
+        "id": "D",
+        "text": "$225$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 731
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_8",
+    "testName": "March 2025 International Form A SAT Math Module 1",
+    "text": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is 59 °, and $AE=28(BD).$ What is the measure of angle $CAE$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$(28∙59)^\\circ$"
+      },
+      {
+        "id": "B",
+        "text": "$(28+59)^\\circ$"
+      },
+      {
+        "id": "C",
+        "text": "$59^\\circ$"
+      },
+      {
+        "id": "D",
+        "text": "$28^\\circ$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 737
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_21",
+    "testName": "March 2025 International Form A SAT Math Module 1",
+    "text": "For the right circular cone shown. B is a point on the circumference of the base, and the length of segment AB (not shown) is 84 centimeters. If the height of the cone is 42 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
+    "choices": [],
+    "correctAnswer": "74088",
+    "type": "free-response",
+    "originalIndex": 748
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_13",
+    "testName": "March 2025 International Form B SAT Math Module 1",
+    "text": "In the figure shown, line k intersects lines r and s, if w = 160, which additional piece of information is sufficient to prove that lines r and s are parallel?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$x=20$"
+      },
+      {
+        "id": "B",
+        "text": "$y=160$"
+      },
+      {
+        "id": "C",
+        "text": "$w+y=180$"
+      },
+      {
+        "id": "D",
+        "text": "$y+z=180$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 782
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_21",
+    "testName": "March 2025 International Form B SAT Math Module 1",
+    "text": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 32 centimeters. If the height of the cone is 16 centimeters and the volume of the cone is kπ cubic centimeters. What is the value of k?",
+    "choices": [],
+    "correctAnswer": "4096",
+    "type": "free-response",
+    "originalIndex": 789
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_14",
+    "testName": "March 2025 International Form B SAT Math Module 2",
+    "text": "$7p^{4}=t^{\\frac{5}{6}}$\nIn the given equation, $p>1$ and $t>1$. If $t=p^{2n-1}$, where n is a constant, what is the value of n?",
+    "choices": [],
+    "correctAnswer": "59/70,0.843,0.842,.8428,.8429",
+    "type": "free-response",
+    "originalIndex": 802
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_6",
+    "testName": "March 2025 International Form C SAT Math Module 1",
+    "text": "The table shows the frequency of values in a data set.\nWhat is the minimum value of the data set?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "26"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 815
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_10",
+    "testName": "March 2025 International Form C SAT Math Module 1",
+    "text": "The point (v,-5) lies on the line shown. What is the value of v?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-\\frac{72}{11}$"
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{11}{12}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{72}{11}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{192}{11}$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 819
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_11",
+    "testName": "March 2025 International Form C SAT Math Module 2",
+    "text": "The function f is defined by f(x)=-10(3) x + $\\frac{1}{k}$, where k is a constant. If y= f(x) is graphed in the xy-plane, what is the y-coordinate of the y-intercept of the graph?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-10"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1-10k}{k}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{1}{k}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{1-k}{k}$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 840
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_12",
+    "testName": "March 2025 International Form C SAT Math Module 2",
+    "text": "The shaded region shown represents the solutions to rx + ty $\\ge$ -77, where r and t are constants. What is the value of r+t?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "-6"
+      },
+      {
+        "id": "D",
+        "text": "-7"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 841
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_14",
+    "testName": "March 2025 International Form C SAT Math Module 2",
+    "text": "A cooking school is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. if the regular price of a class is \\$22.80, which function f gives the total cost, in dollars, of x classes taken using this promotion,where x $\\ge$ 2?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$f(x)=22.80(x-1)+11.40$"
+      },
+      {
+        "id": "B",
+        "text": "$f(x)=22.80(x-1)+11.40$"
+      },
+      {
+        "id": "C",
+        "text": "$f(x)=22.80(x-1)+11.40(x-2)$"
+      },
+      {
+        "id": "D",
+        "text": "$f(x)=22.80(-2)+11.40(x-1)$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 843
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_21",
+    "testName": "March 2025 International Form C SAT Math Module 2",
+    "text": "The function f is defined by f(x)= $\\frac{|x|}{a}$ - 14, where a < 0. What is the product of f(15a) and f(8a)?",
+    "choices": [],
+    "correctAnswer": "638",
+    "type": "free-response",
+    "originalIndex": 850
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_22",
+    "testName": "March 2025 International Form C SAT Math Module 2",
+    "text": "The function f is defined by $f(x)=ab^{\\frac{\\pi}{n}}$, where a, b, and n are constants, and b and n are integers. If f(4)=5 and f(7)= 135, what is the value of f(9)?",
+    "choices": [],
+    "correctAnswer": "1215",
+    "type": "free-response",
+    "originalIndex": 851
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_20",
+    "testName": "March 2025 International Form D SAT Math Module 1",
+    "text": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment A B (not shown) is 84 centimeters, if the height of the cone is 42 centieters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
+    "choices": [],
+    "correctAnswer": "74088",
+    "type": "free-response",
+    "originalIndex": 870
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_21",
+    "testName": "March 2025 International Form D SAT Math Module 1",
+    "text": "in triangle RST, the measure of angle R is 39 ∠, the measure of angle S is x ∠, and the measure of angle T is (5 x - 3) ∠. Point L lies on $\\overline{RS}$, point K lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle SKL? (Disregard the degree symbol when entering your answer)",
+    "choices": [],
+    "correctAnswer": "117",
+    "type": "free-response",
+    "originalIndex": 871
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_10",
+    "testName": "March 2025 International Form D SAT Math Module 2",
+    "text": "$-4|5x+6|+4=-20$\nWhat are all solutions to the given equation?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "and $-\\frac{2}{5}$"
+      },
+      {
+        "id": "C",
+        "text": "and $-\\frac{12}{5}$"
+      },
+      {
+        "id": "D",
+        "text": "There is no solution."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 882
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_13",
+    "testName": "March 2025 International Form D SAT Math Module 2",
+    "text": "The shaded reglon show represents the solutions to $rx+ty\\ge-36$, where r and t areconstants. What is the value of r + t?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "-2"
+      },
+      {
+        "id": "D",
+        "text": "-4"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 885
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_21",
+    "testName": "March 2025 International Form D SAT Math Module 2",
+    "text": "The function f is defined by $f(x)=\\frac{|x|}{a}-16$, where a < 0, What is the product of f(17a) and f(8a)?",
+    "choices": [],
+    "correctAnswer": "792,1701",
+    "type": "free-response",
+    "originalIndex": 893
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_22",
+    "testName": "March 2025 International Form D SAT Math Module 2",
+    "text": "The function f is defined by $f(x)=ab^{\\frac{x}{n}}$ where a, b, and n are constants, and b and n are integers. If f(5)=7 and f(8)= 189, what is the value of f(10)?",
+    "choices": [],
+    "correctAnswer": "1701",
+    "type": "free-response",
+    "originalIndex": 894
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_14",
+    "testName": "March 2025 International Form E SAT Math Module 2",
+    "text": "The positive number a is 2,184% of the sum of the positive numbers b and c, and b is 84% of c. What percent of b is a?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4,784%"
+      },
+      {
+        "id": "B",
+        "text": "2,600%"
+      },
+      {
+        "id": "C",
+        "text": "40.19%"
+      },
+      {
+        "id": "D",
+        "text": "22.68%"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 928
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_15",
+    "testName": "March 2025 International Form E SAT Math Module 2",
+    "text": "$7p^{4}=x^{\\frac{5}{4}}$\nIn the glven eqatlon, p > l and t > l. If t = p 2n-l, where n is a constant. What is the value of n?",
+    "choices": [],
+    "correctAnswer": "6/7",
+    "type": "free-response",
+    "originalIndex": 929
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_21",
+    "testName": "March 2025 International Form E SAT Math Module 2",
+    "text": "The function f is defined by $f(x)=\\frac{|x|}{a}$, where a < 0, what is the product of f(17)a and f(8a)?",
+    "choices": [],
+    "correctAnswer": "792",
+    "type": "free-response",
+    "originalIndex": 935
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_5",
+    "testName": "March 2025 US Form A SAT Math Module 1",
+    "text": "In the right triangle shown, what is the value of $x$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\sqrt{58}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{116}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\sqrt{720}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\sqrt{1,924}$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 941
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_15",
+    "testName": "March 2025 US Form A SAT Math Module 1",
+    "text": "$y\nWhich point $(x,y)$ is a solution to the given inequality in the xy-plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(0,15)"
+      },
+      {
+        "id": "B",
+        "text": "(-1,17)"
+      },
+      {
+        "id": "C",
+        "text": "(-2,0)"
+      },
+      {
+        "id": "D",
+        "text": "(8,-1)"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 950
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_21",
+    "testName": "March 2025 US Form A SAT Math Module 1",
+    "text": "In triangle $RST$,the measure of angle $R$ is 50º, the measure of angle S is $xº,$ and the measure of angle T is $(4x-5)$ º. Point L lies on $\\overline{RS}$, point K lies on $\\overline{ST}$,and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle $SKL$? (Disregard the degree symbol when entering your answer.)",
+    "choices": [],
+    "correctAnswer": "103",
+    "type": "free-response",
+    "originalIndex": 956
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_11",
+    "testName": "March 2025 US Form A SAT Math Module 2",
+    "text": "The positive number a is 2,106% of the sum of the positive numbers b and c, and b is 81% of c. What percent of b is a?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4,706%"
+      },
+      {
+        "id": "B",
+        "text": "2,600%"
+      },
+      {
+        "id": "C",
+        "text": "38.12%"
+      },
+      {
+        "id": "D",
+        "text": "21.87%"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 968
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_12",
+    "testName": "March 2025 US Form A SAT Math Module 2",
+    "text": "The shaded region shown represents the solutions to rx + ty $\\ge$ -65, where r and t are constants. what is the value of r +t",
+    "choices": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "-4"
+      },
+      {
+        "id": "D",
+        "text": "-5"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 969
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_15",
+    "testName": "March 2025 US Form A SAT Math Module 2",
+    "text": "For the function $f$, for every increase of 2 in the value of $x$, the value of $f(x)$ increases by a factor of $c$, where $c$ is a constant. Which of the following equivalent forms of function $f$ displays the value of $c$ as the base or the coefficient?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$f(x)=42(2)^{6x}$"
+      },
+      {
+        "id": "B",
+        "text": "$f(x)=42(8)^{2x}$"
+      },
+      {
+        "id": "C",
+        "text": "$f(x)=42(64)^{x}$"
+      },
+      {
+        "id": "D",
+        "text": "$f(x)=42(4,096)^{\\frac{x}{2}}$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 972
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_6",
+    "testName": "March 2025 US Form B SAT Math Module 1",
+    "text": "x =16\n−3 x + y =−5\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-21"
+      },
+      {
+        "id": "B",
+        "text": "-11"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "21"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 984
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "00907d99-e579-47a8-ac65-658aadef4aa7_12",
+    "testName": "March 2025 US Form B SAT Math Module 1",
+    "text": "In the figure shown, triangle CAE is similar to triangle CBD. The measure of angle CBD is 57°, and AE=21(BD). What is the measure of angle CAE?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$(21·57)^\\circ$"
+      },
+      {
+        "id": "B",
+        "text": "(21+ 57)°"
+      },
+      {
+        "id": "C",
+        "text": "57°"
+      },
+      {
+        "id": "D",
+        "text": "21°"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 990
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_6",
+    "testName": "March 2025 US Form B SAT Math Module 2",
+    "text": "For the linear function f, the table shows three values of x and their corresponding values of f(x). which equation defines f?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$f(x)=-5(5x-3)$"
+      },
+      {
+        "id": "B",
+        "text": "$f(x)=-5(5x-4)$"
+      },
+      {
+        "id": "C",
+        "text": "$f(x)=-5(x+3)$"
+      },
+      {
+        "id": "D",
+        "text": "$f(x)=-5(x-4)$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1004
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_9",
+    "testName": "March 2025 US Form B SAT Math Module 2",
+    "text": "A right circular cone has a base diameter of 28 inches and a height of 6 inches. The volume of this cone is kπ cubic inches. what is the value of k?",
+    "choices": [],
+    "correctAnswer": "392",
+    "type": "free-response",
+    "originalIndex": 1007
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_18",
+    "testName": "March 2025 US Form B SAT Math Module 2",
+    "text": "In a set of four consecutive odd integers, where the integers are ordered from least to greatest, the first integer is represented by x. The product of 28 and the third odd integer in the set is at most the value of 50 less than the sum of the first and fourth odd integers in the set. What is the greatest possible value of x?",
+    "choices": [],
+    "correctAnswer": "-7",
+    "type": "free-response",
+    "originalIndex": 1016
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "35bd5fb1-7659-4393-b736-241352b7187e_22",
+    "testName": "March 2025 US Form B SAT Math Module 2",
+    "text": "The function f is defined by f(x)= $\\frac{|x|}{a}$ - 14, where a < 0. What is the product of f(15a) and f(8a)?",
+    "choices": [],
+    "correctAnswer": "638",
+    "type": "free-response",
+    "originalIndex": 1020
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_3",
+    "testName": "May 2024 International Form A SAT Math Module 1",
+    "text": "Javier deposits \\$ 45 in a savings account at the end of each week, At the beginning of the 1st week of a year there was \\$ 700 in that savings account. How much money, in dollars.will be in the account at the end of the 6th week of the year?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "430"
+      },
+      {
+        "id": "B",
+        "text": "745"
+      },
+      {
+        "id": "C",
+        "text": "751"
+      },
+      {
+        "id": "D",
+        "text": "970"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1023
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_5",
+    "testName": "May 2024 International Form A SAT Math Module 1",
+    "text": "In 2000, a census was taken to determine the population of a certain town. The graph gives the estimated population y, in thousands, of this town z years after the 2000 census was taken, where 0 $\\le$ x $\\le$ 5. Based on the graph, which of the following is the closest to the estimated population 2 years after the 2000 census was taken?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7,400"
+      },
+      {
+        "id": "B",
+        "text": "6,200"
+      },
+      {
+        "id": "C",
+        "text": "4,300"
+      },
+      {
+        "id": "D",
+        "text": "3,000"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1025
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_8",
+    "testName": "May 2024 International Form A SAT Math Module 1",
+    "text": "What is the minimum value of the data set?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "13"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1028
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_11",
+    "testName": "May 2024 International Form A SAT Math Module 1",
+    "text": "Scientists collected fallen acorns that each housed a colony of the ant species P.ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants, the equation y =0.67 x + 2.6, where 20 $\\le$ x $\\le$ 110, gives the predicted number of larvae, y, in the colony, If one of these colonies has 46 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "33"
+      },
+      {
+        "id": "B",
+        "text": "49"
+      },
+      {
+        "id": "C",
+        "text": "65"
+      },
+      {
+        "id": "D",
+        "text": "150"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1031
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_18",
+    "testName": "May 2024 International Form A SAT Math Module 1",
+    "text": "In the figure, RT = TU, the measure of angle V ST is 23 °, and the measure of angle RV S is 34°. What is the value of x ？",
+    "choices": [],
+    "correctAnswer": "158",
+    "type": "free-response",
+    "originalIndex": 1038
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_20",
+    "testName": "May 2024 International Form A SAT Math Module 1",
+    "text": "The function h is defined by h(x)= a x + b, where a and b are positive constants. The graph of y= h(x) in the xy -plane passes through the points (0, 8) and (2, 32). What is the value of ab?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "32"
+      },
+      {
+        "id": "B",
+        "text": "35"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 1040
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_16",
+    "testName": "May 2024 International Form A SAT Math Module 2",
+    "text": "In triangle XY Z, angle Y is a right angle, the measure of angle Z is 39°, and the length of $\\overline{YZ}$ is 22 units. lf the area, in square units, of triangle XY Z can be represented by the expression k tan 39°, where k is a constant, what is the value of k?",
+    "choices": [],
+    "correctAnswer": "242",
+    "type": "free-response",
+    "originalIndex": 1058
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_11",
+    "testName": "May 2024 International Form C SAT Math Module 1",
+    "text": "Circle K has a radius of 2 millimeters (mm). Circle L has an area of 121π mm 2. What is the total area, in mm 2, of circles K and L?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "13π"
+      },
+      {
+        "id": "B",
+        "text": "26π"
+      },
+      {
+        "id": "C",
+        "text": "52π"
+      },
+      {
+        "id": "D",
+        "text": "125π"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1075
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_2",
+    "testName": "May 2024 International Form D SAT Math Module 1",
+    "text": "The function b is defined by b (x)= 2 (x +1). Which expression is equivalent to b (x) when x = 6?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1109
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_7",
+    "testName": "May 2024 International Form D SAT Math Module 1",
+    "text": "x = 15\n−2 x + y = −5\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-20"
+      },
+      {
+        "id": "B",
+        "text": "-10"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1114
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_20",
+    "testName": "May 2024 International Form D SAT Math Module 1",
+    "text": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 78 centimeters. If the height of the cone is 39 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
+    "choices": [],
+    "correctAnswer": "59319",
+    "type": "free-response",
+    "originalIndex": 1127
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_21",
+    "testName": "May 2024 International Form D SAT Math Module 1",
+    "text": "z (w)= (0.835) 3 w\nThe function z is defined by the equation shown. The value of z(w) decreases by p % for each increase by 1 in the value of w. Which of the following is closest to the value of p?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "41.8"
+      },
+      {
+        "id": "B",
+        "text": "16.5"
+      },
+      {
+        "id": "C",
+        "text": "0.835"
+      },
+      {
+        "id": "D",
+        "text": "0.165"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1128
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_6",
+    "testName": "May 2024 International Form E SAT Math Module 1",
+    "text": "In the xy -plane,the graph of the given equation is a circle. If this circle is inscribed in a square,what is the perimeter of the square?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "18"
+      },
+      {
+        "id": "B",
+        "text": "36"
+      },
+      {
+        "id": "C",
+        "text": "72"
+      },
+      {
+        "id": "D",
+        "text": "144"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1153
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_7",
+    "testName": "May 2024 International Form E SAT Math Module 1",
+    "text": "Which of the following is equivalent to the given equation?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "x =2"
+      },
+      {
+        "id": "B",
+        "text": "x =-2"
+      },
+      {
+        "id": "C",
+        "text": "x =4"
+      },
+      {
+        "id": "D",
+        "text": "x =-1"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 1154
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_17",
+    "testName": "May 2024 International Form E SAT Math Module 1",
+    "text": "The solution to the given system of equations is (x,y). What is the value of xy?",
+    "choices": [],
+    "correctAnswer": "1.2,6/5",
+    "type": "free-response",
+    "originalIndex": 1163
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_18",
+    "testName": "May 2024 International Form E SAT Math Module 1",
+    "text": "In the given equation, u is a positive constant. The sum of the solutions to the equation is 9. What is the value of u?",
+    "choices": [],
+    "correctAnswer": "23",
+    "type": "free-response",
+    "originalIndex": 1164
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_22",
+    "testName": "May 2024 International Form E SAT Math Module 1",
+    "text": "What is the sum of the solutions to the given equation?",
+    "choices": [],
+    "correctAnswer": "4.8,24/5,48/10",
+    "type": "free-response",
+    "originalIndex": 1168
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "d2870056-c182-4523-a3f3-884eafe68114_2",
+    "testName": "May 2024 International Form E SAT Math Module 2",
+    "text": "For a certain school district,the table shows the average number of books in classroom libraries in 2016 by school level. Based on the table,how much greater was the average number of books in elementary school classroom libraries than in high school classroom libraries?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "103"
+      },
+      {
+        "id": "B",
+        "text": "149"
+      },
+      {
+        "id": "C",
+        "text": "252"
+      },
+      {
+        "id": "D",
+        "text": "466"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1170
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "d2870056-c182-4523-a3f3-884eafe68114_11",
+    "testName": "May 2024 International Form E SAT Math Module 2",
+    "text": "What is the solution to the given equation?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "84"
+      },
+      {
+        "id": "D",
+        "text": "1,323"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 1179
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "d2870056-c182-4523-a3f3-884eafe68114_22",
+    "testName": "May 2024 International Form E SAT Math Module 2",
+    "text": "The graph of the linear equation 6 x + By = 18 is shown,where B is a constant. What is the value of B?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{2}{3}$"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1189
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_3",
+    "testName": "May 2024 US Form A SAT Math Module 1",
+    "text": "m = 6(n + p)\nThe given equation relates the positive numbers m, n, and p. Which equation correctly gives m in terms of n and p?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "m = $\\frac{6(n+p)}{11}$"
+      },
+      {
+        "id": "B",
+        "text": "m = 6(n + p)"
+      },
+      {
+        "id": "C",
+        "text": "m = 6(n + p)−11"
+      },
+      {
+        "id": "D",
+        "text": "m = 6 − n − p − 11"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1192
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_12",
+    "testName": "May 2024 US Form A SAT Math Module 1",
+    "text": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants, the equation y = 0.67 x + 2.6, where 20 ≤ x ≤ 110, gives the predicted number of larvae, y, in the colony. If one of these colonies has 41 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "44"
+      },
+      {
+        "id": "C",
+        "text": "57"
+      },
+      {
+        "id": "D",
+        "text": "134"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1201
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "08df3b47-9273-4ad6-9301-332804bc6404_22",
+    "testName": "May 2024 US Form A SAT Math Module 1",
+    "text": "f(x) = 7,000(1.005) 2X\nThe given function f models the balance of a bank account, in dollars, x years after it is opened. Which statement is the best interpretation of (1.005) 2X?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Every 6 months, the balance increases by about \\$5."
+      },
+      {
+        "id": "B",
+        "text": "Every 2 months, the balance increases by about \\$5."
+      },
+      {
+        "id": "C",
+        "text": "At the end of every 6-month interval, the balance increases by about 0.5% of the balance at the beginning of the 6-month interval."
+      },
+      {
+        "id": "D",
+        "text": "At the end of every 2-month interval, the balance increases by about 0.5% of the balance at the beginning of the 2-month interval."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1211
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_7",
+    "testName": "May 2024 US Form A SAT Math Module 2",
+    "text": "In the figure, two lines intersect at a point. If r = 68, what is the value of s?",
+    "choices": [],
+    "correctAnswer": "68",
+    "type": "free-response",
+    "originalIndex": 1218
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_10",
+    "testName": "May 2024 US Form A SAT Math Module 2",
+    "text": "The table shows three values of x and their corresponding values of y. There is a linear relationship between x and y. In the xy -plane, what is the x -intercept of the graph that represents this relationship?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(− $\\frac{1}{729}$, 0)"
+      },
+      {
+        "id": "B",
+        "text": "(27, 0)"
+      },
+      {
+        "id": "C",
+        "text": "(-27, 0)"
+      },
+      {
+        "id": "D",
+        "text": "(729, 0)"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1221
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_19",
+    "testName": "May 2024 US Form B SAT Math Module 1",
+    "text": "A moving truck rental company charges its customers \\$195 for the first hour of renting a truck and \\$75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where y is the total cost, in dollars, of renting a truck from this company for x hours, w is the cost, in dollars, of gas used, and x ≥ 1?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "y = 195 + 75(x − 1)+ w"
+      },
+      {
+        "id": "B",
+        "text": "y = 195 + 75 x + w"
+      },
+      {
+        "id": "C",
+        "text": "y = 195 + 75 + w"
+      },
+      {
+        "id": "D",
+        "text": "y = 75(x − 1) + w"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1252
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_2",
+    "testName": "May 2024 US Form B SAT Math Module 2",
+    "text": "The table shown summarizes the distribution of 73 employees based on the number of complete years they have worked at a certain company.\nHow many of the 73 employees have worked at the company for 17 or more complete years?",
+    "choices": [],
+    "correctAnswer": "31",
+    "type": "free-response",
+    "originalIndex": 1257
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_10",
+    "testName": "May 2024 US Form B SAT Math Module 2",
+    "text": "In the figure, line g is parallel to line h. Line l intersects both lines. What is the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "44"
+      },
+      {
+        "id": "B",
+        "text": "54"
+      },
+      {
+        "id": "C",
+        "text": "144"
+      },
+      {
+        "id": "D",
+        "text": "324"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1265
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_16",
+    "testName": "May 2025 International Form A SAT Math Module 1",
+    "text": "Circle A shown is defined by the equation $x^{2}+(y-5)^{2}=7$. Circle B (not shown) has the same radius but is translated 91 units to the right. If the equation of circle B is $(x-h)^{2}+(y-k)^{2}=a$, where h, k, and a are constants, what is the value of $4a$?",
+    "choices": [],
+    "correctAnswer": "28",
+    "type": "free-response",
+    "originalIndex": 1293
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_2",
+    "testName": "May 2025 International Form A SAT Math Module 2",
+    "text": "In the figure, line l is parallel to line m. What is the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$31$"
+      },
+      {
+        "id": "B",
+        "text": "$69$"
+      },
+      {
+        "id": "C",
+        "text": "$111$"
+      },
+      {
+        "id": "D",
+        "text": "$131$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1301
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_10",
+    "testName": "May 2025 International Form A SAT Math Module 2",
+    "text": "The figure shown is a right rectangular pyramid, where $l=18$ units, $w=9$ units, and $h=12$ units. What is the surface area, in square units, of the pyramid?",
+    "choices": [],
+    "correctAnswer": "527.7,527.6",
+    "type": "free-response",
+    "originalIndex": 1308
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_22",
+    "testName": "May 2025 International Form A SAT Math Module 2",
+    "text": "A computer repair specialist charges \\$160 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 6 hours of repair is \\$360. Which function $f$ gives the total cost, in dollars, for x hours of repair, where $x\\ge2$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$f(x)=50x+60$"
+      },
+      {
+        "id": "B",
+        "text": "$f(x)=50x+160$"
+      },
+      {
+        "id": "C",
+        "text": "$f(x)=60x$"
+      },
+      {
+        "id": "D",
+        "text": "$f(x)=60x+160$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1320
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_19",
+    "testName": "May 2025 International Form B SAT Math Module 1",
+    "text": "The frequency table summarizes the mass, in grams, of 35 objects. What is the mean mass, in grams, of these objects?",
+    "choices": [],
+    "correctAnswer": "24",
+    "type": "free-response",
+    "originalIndex": 1339
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_1",
+    "testName": "May 2025 International Form B SAT Math Module 2",
+    "text": "The total cost $f(x)$, in dollars, to lease a car for 24 months from a particular car dealership is given by $f(x)=24x+1,000$, where x is the monthly payment, in dollars. What is the total cost to lease a car when the monthly payment is \\$300?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\$6,200$"
+      },
+      {
+        "id": "B",
+        "text": "$\\$7,000$"
+      },
+      {
+        "id": "C",
+        "text": "$\\$8,200$"
+      },
+      {
+        "id": "D",
+        "text": "$\\$25,300$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1343
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_14",
+    "testName": "May 2025 US Form A SAT Math Module 1",
+    "text": "",
+    "choices": [
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "$3\\sqrt{17}$"
+      },
+      {
+        "id": "D",
+        "text": "$24\\sqrt{17}$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 1377
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_19",
+    "testName": "May 2025 US Form A SAT Math Module 1",
+    "text": "The solutions to $x^{2}+6x+6=0$ are r and s, where $r. The solutions to $x^{2}+10x+13=0$ are t and u, where $t<u$. The solutions to $x^{2}+16x+c=0$, where c is a constant, are $r+u$ and $s+t$. What is the value of c?",
+    "choices": [],
+    "correctAnswer": "61",
+    "type": "free-response",
+    "originalIndex": 1382
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_20",
+    "testName": "May 2025 US Form A SAT Math Module 1",
+    "text": "In triangle $XYZ$, the measure of angle $X$ is 90°. Point $W$ lies on segment $YZ$, and segment $WX$ is perpendicular to segment $YZ$. The length of segment $YW$ is 612, and the length of segment $WX$ is 459. What is the value of $tanZ$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{4}{3}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{4}{5}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{4}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{3}{5}$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1383
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "87a75825-ef1b-4b13-8fde-816390546062_21",
+    "testName": "May 2025 US Form A SAT Math Module 1",
+    "text": "The mass of object $A$ is $484%$ of the mass of object $B$, and the mass of object $A$ is 0.880% of the mass of object $C$. If the mass of object $C$ is $p%$ of the mass of object $B$, what is the value of $p$?",
+    "choices": [],
+    "correctAnswer": "55000",
+    "type": "free-response",
+    "originalIndex": 1384
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_17",
+    "testName": "November 2024 International Form A SAT Math Module 1",
+    "text": "For the linear function g, the table shows four values of z and their corresponding values of g (x). The function can be written as g (x)= xm + b, where m and b are constants. What is the value of b?",
+    "choices": [],
+    "correctAnswer": "37",
+    "type": "free-response",
+    "originalIndex": 1402
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_20",
+    "testName": "November 2024 International Form A SAT Math Module 2",
+    "text": "The function $f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, n, in the sequence, where n is a whole number. The value of the term in position l4 is p% more than the value of the term in position 10. What is the value of p?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "20.44"
+      },
+      {
+        "id": "B",
+        "text": "44"
+      },
+      {
+        "id": "C",
+        "text": "1,944"
+      },
+      {
+        "id": "D",
+        "text": "2,044"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1425
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_14",
+    "testName": "November 2024 International Form B SAT Math Module 1",
+    "text": "The functions g and h are defined by the given equations.\n$g(x)=\\sqrt{(x-11)^{2}+45}$\n$h(x)=364+\\frac{x^{2}}{2}$\nIf g (8) = t, where t is a constant, what is the value of h (t)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$36$"
+      },
+      {
+        "id": "B",
+        "text": "22"
+      },
+      {
+        "id": "C",
+        "text": "31"
+      },
+      {
+        "id": "D",
+        "text": "51"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1440
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_18",
+    "testName": "November 2024 International Form B SAT Math Module 1",
+    "text": "x + 33 y - 200 = -359\n2 wx +11 y = -53\nIn the given system of equations, w is a constant, The system has infnitely many solutions. What is the value of w?",
+    "choices": [],
+    "correctAnswer": "7.5,15/2",
+    "type": "free-response",
+    "originalIndex": 1444
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_14",
+    "testName": "November 2024 International Form B SAT Math Module 2",
+    "text": "x 2 - 12 x - 13 = 0\nOne solution to the given equation can be written as x = h- $\\frac{1}{2}\\sqrt{k}$, where h and k are integer constants. What is the value of h + k?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "14"
+      },
+      {
+        "id": "C",
+        "text": "31"
+      },
+      {
+        "id": "D",
+        "text": "65"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1462
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_2",
+    "testName": "November 2024 International Form C SAT Math Module 1",
+    "text": "In the figure, two lines intersect at a point, If r = 61, what is the value of s?",
+    "choices": [],
+    "correctAnswer": "61",
+    "type": "free-response",
+    "originalIndex": 1472
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_7",
+    "testName": "November 2024 International Form C SAT Math Module 2",
+    "text": "The graph of the linear equation 10x + By= 50 is shown, where B is a constant. What is the value of B?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1498
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_11",
+    "testName": "November 2024 International Form C SAT Math Module 2",
+    "text": "A researcher created a data set by recording the daily low temperature, to the nearestinteger, for each of the 31 days in December 2022 in a town in llinois. The frequency tablesummarizes this data set.\nBased on the frequency table, what could be the median of the recorded daily low temperatures, in degrees Fahrenheit?",
+    "choices": [],
+    "correctAnswer": "25,26,27,28,29,30,31,32,33,34",
+    "type": "free-response",
+    "originalIndex": 1502
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_14",
+    "testName": "November 2024 International Form C SAT Math Module 2",
+    "text": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\nFor all positive values of x and y, the given expression is equivalent to which of the following?\nⅠ. $\\frac{(x^{\\frac{14}{3}}y^{\\frac{5}{3}})}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ⅰ only"
+      },
+      {
+        "id": "B",
+        "text": "Ⅱ only"
+      },
+      {
+        "id": "C",
+        "text": "Ⅰand Ⅱ"
+      },
+      {
+        "id": "D",
+        "text": "NeitherⅠ nor Ⅱ"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1505
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_15",
+    "testName": "November 2024 International Form C SAT Math Module 2",
+    "text": "$f(x)=2,000(1.005)^{3x}$\nThe given function f models the balance of a bank account, in dollars, x years after it is opened. Which statement is the best interpretation of (1.005) 3x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Every 4 months, the balance increases by about \\$5."
+      },
+      {
+        "id": "B",
+        "text": "At the end of every 4-month interval, the balance increases by about 0.5% of the balance at the beginning of the 4-month interval."
+      },
+      {
+        "id": "C",
+        "text": "Every 3 years, the balance increases by about \\$5."
+      },
+      {
+        "id": "D",
+        "text": "At the end of every 3-year interval, the balance increases by about 0.5% of the balance at the beginning of the 3-year interval."
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 1506
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_16",
+    "testName": "November 2024 International Form C SAT Math Module 2",
+    "text": "The length of each edge of a box is 48 centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u>meters</u>, of this box without a lid?(1 meter=100 centimeters)",
+    "choices": [],
+    "correctAnswer": "1.152",
+    "type": "free-response",
+    "originalIndex": 1507
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "68b576c1-9de8-41d3-9840-538d4edcd113_6",
+    "testName": "November 2024 International Form D SAT Math Module 1",
+    "text": "The function $f$ is defined by $f(x)3x^{2}$. In the $xy$ -plane, the graph of $y=g(x)$ is the result of shifting the graph of $y=f(x)$ up 9 units. Which equation defines the function $g$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$g(x)=3x^{5}+9$"
+      },
+      {
+        "id": "B",
+        "text": "$g(x)=3x^{5}-9$"
+      },
+      {
+        "id": "C",
+        "text": "$g(x)=3x^{45}$"
+      },
+      {
+        "id": "D",
+        "text": "$g(x)=27x^{5}$"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1518
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "68b576c1-9de8-41d3-9840-538d4edcd113_17",
+    "testName": "November 2024 International Form D SAT Math Module 1",
+    "text": "For the linear function $g$, the table shows four values of $x$ and their corresponding values of $g(x)$. The function can be written as $g(x)=mx+b$, where $m$ and $b$ are constants. What is the value of $b$?",
+    "choices": [],
+    "correctAnswer": "37",
+    "type": "free-response",
+    "originalIndex": 1529
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_7",
+    "testName": "November 2024 International Form D SAT Math Module 2",
+    "text": "The graph of the linear equation $10x+By=50$ is shown, where $B$ is a constant. What is the value of $B$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1540
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_11",
+    "testName": "November 2024 International Form D SAT Math Module 2",
+    "text": "A researcher created a data set by recording the daily low temperature, to the nearest integer, for each of the 31 days in December 2022 in a town in Illinois. The frequency table summarizes this data set.\nBased on the frequency table, what could be the median of the recorded daily low temperatures, in degrees Fahrenheit?",
+    "choices": [],
+    "correctAnswer": "33",
+    "type": "free-response",
+    "originalIndex": 1544
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_20",
+    "testName": "November 2024 International Form D SAT Math Module 2",
+    "text": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, angle $BED$ is congruent to angle $CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
+    "choices": [],
+    "correctAnswer": "A",
+    "type": "free-response",
+    "originalIndex": 1553
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_13",
+    "testName": "November 2024 US Form A SAT Math Module 1",
+    "text": "The table gives the perimeters of similar triangles TUV and XYZ, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 16.\nWhat is the length of $\\overline{XY}$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "60"
+      },
+      {
+        "id": "D",
+        "text": "128"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1568
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_4",
+    "testName": "November 2024 US Form A SAT Math Module 2",
+    "text": "What is the y-intercept of the graph of y= 12(5) x +2 in the xy-plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "(0,12)"
+      },
+      {
+        "id": "B",
+        "text": "(0,120)"
+      },
+      {
+        "id": "C",
+        "text": "(0,300)"
+      },
+      {
+        "id": "D",
+        "text": "(0,3,600)"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1581
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_10",
+    "testName": "November 2024 US Form A SAT Math Module 2",
+    "text": "The standard deviation of data set X is q, and the standard deviation of data set Y is s. Which of the following statements about the standard deviation of the data sets is true?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "q < s"
+      },
+      {
+        "id": "B",
+        "text": "q > s"
+      },
+      {
+        "id": "C",
+        "text": "q = s"
+      },
+      {
+        "id": "D",
+        "text": "The relationship between q and s cannot be determined."
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1586
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_19",
+    "testName": "November 2024 US Form B SAT Math Module 1",
+    "text": "The measure of angle S is $\\frac{8\\pi}{13}$ radians. The measure of angle T is 3 times the measure of angle S. Which expression represents the measure, in degrees, of angle T?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{8}{13}(90)(3)$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{8}{13}(180)(3)$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{8}{13\\pi}(90)(3)$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{8\\pi}{13}(180)(3)$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 1617
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_20",
+    "testName": "November 2024 US Form B SAT Math Module 1",
+    "text": "$\\frac{x-7}{5}+\\frac{y+8}{4}=0$\n3 x + 4 y = 0\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-12"
+      },
+      {
+        "id": "B",
+        "text": "-5"
+      },
+      {
+        "id": "C",
+        "text": "-4"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1618
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_3",
+    "testName": "November 2024 US Form B SAT Math Module 2",
+    "text": "The table shows the frequency of values in a data set.\nWhat is the minimum value of the data set?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "44"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1622
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "e5001da0-8895-4b72-8d22-da29586dc907_18",
+    "testName": "November 2024 US Form B SAT Math Module 2",
+    "text": "The function f is defined by f(x)= a x - b, where a and b are constants. In the xy-plane, the graph of y= f(x) passes through the points (c, 7) and (2c, 117), where c is a constant. Which of the following could be the value of b?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "17"
+      },
+      {
+        "id": "C",
+        "text": "110"
+      },
+      {
+        "id": "D",
+        "text": "124"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1636
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_14",
+    "testName": "October 2024 International Form A SAT Math Module 1",
+    "text": "The total mass, in kilograms, of r identical objects is t. Which expression represents thetotal mass, in kilograms, of 146 r of these objects?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "146- t"
+      },
+      {
+        "id": "B",
+        "text": "146+ t"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{t}{146}$"
+      },
+      {
+        "id": "D",
+        "text": "t"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1652
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_21",
+    "testName": "October 2024 International Form A SAT Math Module 2",
+    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of these eight angles is (7x - 250)°. The sum of the measures of four ofthe eight angles is k°. Which of the following could NOT be equivalent to k, for all values ofw?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-14x+1,540$"
+      },
+      {
+        "id": "B",
+        "text": "$14x-320$"
+      },
+      {
+        "id": "C",
+        "text": "$-28x+1,720$"
+      },
+      {
+        "id": "D",
+        "text": "360"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1681
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_7",
+    "testName": "October 2024 International Form B SAT Math Module 1",
+    "text": "Which expression is equivalent to $(x)^{\\frac{1}{17}}$,where $x$ $>$ 0?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{17}$ · $x$"
+      },
+      {
+        "id": "B",
+        "text": "$17x$"
+      },
+      {
+        "id": "C",
+        "text": "· $x$"
+      },
+      {
+        "id": "D",
+        "text": "$(x)$ 17"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 1689
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_12",
+    "testName": "October 2024 International Form B SAT Math Module 1",
+    "text": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has x worker ants,the equation $y$ = 0.67 $x$ + 2.6, where 20 $\\le$ $x$ $\\le$ 110, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 53 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "173"
+      },
+      {
+        "id": "B",
+        "text": "75"
+      },
+      {
+        "id": "C",
+        "text": "56"
+      },
+      {
+        "id": "D",
+        "text": "38"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1694
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_17",
+    "testName": "October 2024 International Form B SAT Math Module 1",
+    "text": "A bin contains a mixture of T-shirts for two sports teams. The table shows the number of T-shirts in the bin,classified by size and sports team.\nOne T-shirt from the bin will be selected at random. What is the probability of selecting a T-shirt that is medium, given that the T-shirt is a Flames T-shirt?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0.20"
+      },
+      {
+        "id": "B",
+        "text": "0.22"
+      },
+      {
+        "id": "C",
+        "text": "0.39"
+      },
+      {
+        "id": "D",
+        "text": "0.5"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1699
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_11",
+    "testName": "October 2024 International Form B SAT Math Module 2",
+    "text": "If $x\\ge -8$ represents all solutions to the inequality $ax-18\\le14$, where a is a constant, what is the greatest possible value of a?",
+    "choices": [],
+    "correctAnswer": "-4",
+    "type": "free-response",
+    "originalIndex": 1715
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_15",
+    "testName": "October 2024 International Form B SAT Math Module 2",
+    "text": "For the function f, for every increase of 2 in the value of a, the value of f(a) increases by a factor of c, where c is a constant. Which of the following equivalent forms of function f displays the value of c as the base or the coefficient?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$f(x)=48(2)^{6x}$"
+      },
+      {
+        "id": "B",
+        "text": "$f(x)=48(8)^{2x}$"
+      },
+      {
+        "id": "C",
+        "text": "$f(x)=48(64)^{x}$"
+      },
+      {
+        "id": "D",
+        "text": "$f(x)=48(4,096)^{\\frac{x}{2}}$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1719
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "e3fe84c7-8083-48b8-863b-841355113ba0_17",
+    "testName": "October 2024 International Form B SAT Math Module 2",
+    "text": "The graph of line g is shown in the xy -plane. Line k is defned by 165x + py= w, where p and w are constants. If line k is graphed in this xy-plane, resulting in thegraph of a system of two linear equations, the system of two linear equations will have infinitely many solutions, What is the value of p + w?",
+    "choices": [],
+    "correctAnswer": "300",
+    "type": "free-response",
+    "originalIndex": 1721
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_11",
+    "testName": "October 2024 International Form C SAT Math Module 1",
+    "text": "The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.\nWhich of the following is closest to the slope of this line of best fit?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-4.5"
+      },
+      {
+        "id": "B",
+        "text": "-1.1"
+      },
+      {
+        "id": "C",
+        "text": "1.1"
+      },
+      {
+        "id": "D",
+        "text": "4.5"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 1734
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_13",
+    "testName": "October 2024 International Form C SAT Math Module 1",
+    "text": "$y=0.25x^{2}-7.5x+77.25$\nThe equation gives the estimated stock price y, in dollars, for a certain company x days afterthe company went public, where $0\\le x\\le20$. Which statement is the best interpretation of (x,y)=(1, 70) in this context?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The company's estimated stock price increased \\$70 every day after the company went public."
+      },
+      {
+        "id": "B",
+        "text": "The company's estimated stock price increased \\$1 every 70 days after the company went public."
+      },
+      {
+        "id": "C",
+        "text": "day after the company went public, the company's estimated stock price is \\$70"
+      },
+      {
+        "id": "D",
+        "text": "days after the company went public, the company's estimated stock price is \\$1l"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1736
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_11",
+    "testName": "October 2024 International Form C SAT Math Module 2",
+    "text": "If $x\\ge-6$ represents all solutions to the inequality $ax-27\\le15$, where a is a constant, what is the greatest possible value of a?",
+    "choices": [],
+    "correctAnswer": "-7",
+    "type": "free-response",
+    "originalIndex": 1756
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_17",
+    "testName": "October 2024 International Form C SAT Math Module 2",
+    "text": "In the figure shown, $AB=\\sqrt{89}$ units, AC = 8 units, and CE = 24 units. What is the area, in square units,of triangle ADE?",
+    "choices": [],
+    "correctAnswer": "320",
+    "type": "free-response",
+    "originalIndex": 1762
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_7",
+    "testName": "October 2024 US Form A SAT Math Module 2",
+    "text": "An exponential function f is defned by f(x)= c x, where c is a constant greater than 1. If f(7)= 9 · f(5), what is the value of c?",
+    "choices": [],
+    "correctAnswer": "3",
+    "type": "free-response",
+    "originalIndex": 1795
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_16",
+    "testName": "October 2024 US Form A SAT Math Module 2",
+    "text": "The function q is defined by q(x)=a|x -9| 2 - 87|x - 9| + b, where a and b are constants, and a > b > 87. If q(639)=h and q(-621)= k, where h and k are constants, what is the value of 9(-639) h-k +621(9) k-h?",
+    "choices": [],
+    "correctAnswer": "630",
+    "type": "free-response",
+    "originalIndex": 1804
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_20",
+    "testName": "October 2024 US Form A SAT Math Module 2",
+    "text": "The perimeter of an isosceles right triangle is $52+52\\sqrt{2}$ inches. What is the length, in inches, of the hypotenuse of this triangle?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$26$"
+      },
+      {
+        "id": "B",
+        "text": "$26\\sqrt{2}$"
+      },
+      {
+        "id": "C",
+        "text": "$52$"
+      },
+      {
+        "id": "D",
+        "text": "$52\\sqrt{2}$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1808
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_7",
+    "testName": "October 2024 US Form B SAT Math Module 1",
+    "text": "A student council group is selling car stickers for a fundraiser. They use the function p(x) = 5 x - 240 to determine their profit p(x), in dollars, for selling x car stickers. In order to earn a profit of \\$700, how many car stickers must they sell?",
+    "choices": [],
+    "correctAnswer": "188",
+    "type": "free-response",
+    "originalIndex": 1816
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_11",
+    "testName": "October 2024 US Form B SAT Math Module 2",
+    "text": "A certain open star cluster contains M-type stars and K-type stars. The estimated total mass of M-type and K-type stars in this open star cluster is 129,492 quettagrams. The graph shown models the possible combinations of the number of M-type stars, x, and K-type stars, y, that could be in this open star cluster if all the M-type stars have the same estimated mass and all the K-type stars have the same estimated mass. Based on the graph, which of the following is closest to the estimated mass, in quettagrams, of each M-type star in this cluster?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "830"
+      },
+      {
+        "id": "B",
+        "text": "959"
+      },
+      {
+        "id": "C",
+        "text": "55,622"
+      },
+      {
+        "id": "D",
+        "text": "73,870"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1842
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_16",
+    "testName": "October 2024 US Form B SAT Math Module 2",
+    "text": "A science class studied the feeding behavior of the birds that visited a bird feeder each school day for a period of time. The table summarizes the number of birds the class observed visiting the bird feeder each school day during this period of time, what is the median number of birds the class observed visiting the bird feeder each school day during this period of time?",
+    "choices": [],
+    "correctAnswer": "18",
+    "type": "free-response",
+    "originalIndex": 1847
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_19",
+    "testName": "October 2024 US Form B SAT Math Module 2",
+    "text": "In a set of four consecutive odd integers, where the integers are ordered from least to greatest, the first integer is represented by x. The product of 28 and the third odd integer in the set is at most the value of 50 less than the sum of the first and fourth odd integers in the set. What is the greatest possible value of x?",
+    "choices": [],
+    "correctAnswer": "-7",
+    "type": "free-response",
+    "originalIndex": 1850
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_4",
+    "testName": "October 2024 US Form C SAT Math Module 2",
+    "text": "3y=8x+ 18\n-3y=7x-26\nThe solution to the given system of equations is (x, y). What is the value of 30x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-16"
+      },
+      {
+        "id": "B",
+        "text": "-8"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1879
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_15",
+    "testName": "October 2024 US Form C SAT Math Module 2",
+    "text": "The shaded region shown represents the solutions to rx + ty $\\ge$ -77, where r and t are constants. What is the value of r+ t?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "-6"
+      },
+      {
+        "id": "D",
+        "text": "-7"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1890
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_21",
+    "testName": "October 2024 US Form C SAT Math Module 2",
+    "text": "For groups of 25 or more people, a museum charges \\$22 per person for the first 25 people and \\$14 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people,where n $\\ge$ 25?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "f(n)=14n+200"
+      },
+      {
+        "id": "B",
+        "text": "f(n)=14n+22"
+      },
+      {
+        "id": "C",
+        "text": "f(n)=14n+550"
+      },
+      {
+        "id": "D",
+        "text": "f(n)=36n-350"
+      }
+    ],
+    "correctAnswer": "A",
+    "type": "multiple-choice",
+    "originalIndex": 1896
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_18",
+    "testName": "October 2025 International Form A SAT Math Module 1",
+    "text": "For the linear function $f$, the table shows three values of x and their corresponding values of $f(x)$. Function $f$ is defined by $f(x)=rx+s$, where r and s are constants. What is the value of rs?",
+    "choices": [],
+    "correctAnswer": "216",
+    "type": "free-response",
+    "originalIndex": 1915
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_21",
+    "testName": "October 2025 International Form A SAT Math Module 1",
+    "text": "The positive number a is 290% of the number b and a is 90% of the number c. If c is p % of b, which of the following is closest to the value of p?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$211$"
+      },
+      {
+        "id": "B",
+        "text": "$222$"
+      },
+      {
+        "id": "C",
+        "text": "$261$"
+      },
+      {
+        "id": "D",
+        "text": "$322$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1918
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_8",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "$y\nWhich point $(x,y)$ is a solution to the given inequality in the xy -plane?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$(0,19)$"
+      },
+      {
+        "id": "B",
+        "text": "$(-1,22)$"
+      },
+      {
+        "id": "C",
+        "text": "$(-3,0)$"
+      },
+      {
+        "id": "D",
+        "text": "$(7,-1)$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 1927
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_19",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "$3117n(4117n)^{2}$\nFor what value of x is the given expression equivalent to $(117n)^{12x}$ where $n>1$?",
+    "choices": [],
+    "correctAnswer": "5/72,0.069,.0694",
+    "type": "free-response",
+    "originalIndex": 1938
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_20",
+    "testName": "October 2025 International Form A SAT Math Module 2",
+    "text": "The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 7 units. The surface area of right circular cylinder A is $k\\pi$ square units, and the surface area of right circular cylinder B is $n\\pi$ square units, where k and n are constants. What is the value of $n-k$? (The surface area of a right circular cylinder with radius r and height h is $2\\pi r^{2}+2\\pi rh$.)",
+    "choices": [],
+    "correctAnswer": "1680",
+    "type": "free-response",
+    "originalIndex": 1939
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "70b33953-aa61-407d-a25a-a438792bed03_6",
+    "testName": "October 2025 International Form B SAT Math Module 1",
+    "text": "The positive number a is 240% of the number b, and a is 70% of the number c. lf c is p % of b, which of the following is closest to the value of p?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "168"
+      },
+      {
+        "id": "B",
+        "text": "200"
+      },
+      {
+        "id": "C",
+        "text": "243"
+      },
+      {
+        "id": "D",
+        "text": "343"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1947
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_10",
+    "testName": "October 2025 International Form B SAT Math Module 2",
+    "text": "Hannah and Wyatt are saving money to purchase a car. Hannah saves $\\frac{1}{5}$ of her salary each month, and Wyatt saves $\\frac{2}{7}$ of his salary each month. Together, they save a total of \\$3,270 from their monthly salaries each month. lf h and w represent Hannah's and Wyatt's monthly salaries, in dollars, respectively, which equation shows the relationship between h and w?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "h+w=3,270"
+      },
+      {
+        "id": "B",
+        "text": "h+2w=3,270"
+      },
+      {
+        "id": "C",
+        "text": "10h+7w=114,450"
+      },
+      {
+        "id": "D",
+        "text": "7h+10w=114,450"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1973
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_13",
+    "testName": "October 2025 US Form A SAT Math Module 1",
+    "text": "A model estimates that the initial number of photons in an X-ray beam is 800 when the beam reaches the surface of a certain material. The model also estimates that when the beam passes through this material, the number of photons in the beam decreases by 50% for each 7 millimeters of the material the beam passes through. Which equation represents this model, where I is the estimated number of photons in the beam when the beam reaches a point x millimeters from the surface?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$I=800(7)^{\\frac{x}{2}}$"
+      },
+      {
+        "id": "B",
+        "text": "$I=800(0.5)^{x}$"
+      },
+      {
+        "id": "C",
+        "text": "$I=800(2)^{\\frac{x}{7}}$"
+      },
+      {
+        "id": "D",
+        "text": "$I=800(0.5)^{\\frac{x}{7}}$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 1998
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_8",
+    "testName": "September 2025 International Form A SAT Math Module 1",
+    "text": "Triangles ABC and DEF are congruent, where A corresponds to D, and B and E are right angles. The measure of angle A is 64°. What is the measure, in degrees, of angle F?",
+    "choices": [],
+    "correctAnswer": "26",
+    "type": "free-response",
+    "originalIndex": 2036
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_20",
+    "testName": "September 2025 International Form A SAT Math Module 1",
+    "text": "In triangles RST and XYZ shown, XY is parallel to TS and tanR= $\\frac{216}{713}$. What is the value of sinX in triangle XYZ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{216}{929}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{216}{745}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{713}{745}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{713}{216}$"
+      }
+    ],
+    "correctAnswer": "C",
+    "type": "multiple-choice",
+    "originalIndex": 2047
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_10",
+    "testName": "September 2025 International Form A SAT Math Module 2",
+    "text": "An exponential function f is defined by $f(x)=c^{x}$, where c is a constant greater than 1. If f(8)=(49) • f(6), what is the value of c?",
+    "choices": [],
+    "correctAnswer": "7",
+    "type": "free-response",
+    "originalIndex": 2059
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_2",
+    "testName": "September 2025 US Form A SAT Math Module 1",
+    "text": "In the figure shown, line r is parallel to line s, and line t intersects both lines. What is the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$90$"
+      },
+      {
+        "id": "B",
+        "text": "$180$"
+      },
+      {
+        "id": "C",
+        "text": "$17$"
+      },
+      {
+        "id": "D",
+        "text": "$107$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 2073
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_12",
+    "testName": "September 2025 US Form A SAT Math Module 1",
+    "text": "In trangle JKL, $cosy^\\circ=\\frac{58}{59}$. What is the length of $\\overline{KL}$?",
+    "choices": [],
+    "correctAnswer": "58",
+    "type": "free-response",
+    "originalIndex": 2083
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "rationale": null,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_6",
+    "testName": "September 2025 US Form A SAT Math Module 2",
+    "text": "Which expression represents the product of $(x^{-9}y^{6}z^{5})$ and $(x^{4}z^{5}+y^{8}z^{-7})$?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$x^{-5}y^{6}z^{10}+y^{8}z^{-7}$"
+      },
+      {
+        "id": "B",
+        "text": "$x^{-5}y^{6}z^{10}+x^{-9}y^{14}z^{-2}$"
+      },
+      {
+        "id": "C",
+        "text": "$x^{-5}z^{10}+x^{-9}z^{-2}$"
+      },
+      {
+        "id": "D",
+        "text": "$x^{-5}z^{10}+x^{14}z^{-2}$"
+      }
+    ],
+    "correctAnswer": "B",
+    "type": "multiple-choice",
+    "originalIndex": 2099
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
+    "rationale": null,
+    "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_21",
+    "testName": "September 2025 US Form A SAT Math Module 2",
+    "text": "A quadratic function gives the estimated length of daylight $d(t)$, in hours, in a certain city t months after March 1, where $0\\le t\\le7$. According to the function, the estimated length of daylight is 12.66 hours 6 months after March 1 and the maximum estimated length of daylight is 13.91 hours 3.5 months after March 1. Based on this function, what is the estimated length of daylight, in hours, on March 1?",
+    "choices": [],
+    "correctAnswer": "11.46",
+    "type": "free-response",
+    "originalIndex": 2113
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
+    "rationale": null,
+    "id": "7d110811-1651-49a9-9be6-62e088b71c73_2",
+    "testName": "September 2025 US Form B SAT Math Module 1",
+    "text": "In the figure shown, line r is parallel to line s, and line t intersects both lines. What is the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$15$"
+      },
+      {
+        "id": "B",
+        "text": "$180$"
+      },
+      {
+        "id": "C",
+        "text": "$90$"
+      },
+      {
+        "id": "D",
+        "text": "$105$"
+      }
+    ],
+    "correctAnswer": "D",
+    "type": "multiple-choice",
+    "originalIndex": 2116
+  }
+]

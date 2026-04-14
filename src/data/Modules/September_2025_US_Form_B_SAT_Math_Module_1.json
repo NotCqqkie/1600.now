@@ -35,7 +35,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 2,
     "test_name": "September 2025 US Form B SAT Math Module 1",
     "passage": "In the figure shown, line r is parallel to line s, and line t intersects both lines. What is the value of x?",
@@ -64,9 +64,9 @@
     "id": "7d110811-1651-49a9-9be6-62e088b71c73_2",
     "images": [
       {
-        "src": "/images_labeled/Sep_25_USB_Math_M1_Q2_1.png",
+        "src": "/images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_2_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Sep_25_USB_Math_M1_Q2_1.png"
+        "local": "images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_2_q_01_FIX.png"
       }
     ]
   },
@@ -77,7 +77,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "The width of a rectangle is 9 centimeters. The length of the rectangle is 50 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?",
+    "passage": "The width of a rectangle is $9$ centimeters. The length of the rectangle is $50$ centimeters longer than the width. What is the area, in square centimeters, of this rectangle?",
     "question_text": null,
     "choices": [
       {
@@ -106,10 +106,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "For the first hours of an experiment, the scatterplot shows the temperature y, in degrees Fahrenheit (°F) of an object at various times x, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
+    "passage": "For the first hours of an experiment, the scatterplot shows the temperature $y$, in degrees Fahrenheit ($°F$) of an object at various times $x$, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
     "question_text": null,
     "choices": [
       {
@@ -135,9 +135,9 @@
     "id": "7d110811-1651-49a9-9be6-62e088b71c73_4",
     "images": [
       {
-        "src": "/images_labeled/Sep_25_USB_Math_M1_Q4_1.png",
+        "src": "/images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_4_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Sep_25_USB_Math_M1_Q4_1.png"
+        "local": "images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_4_q_01_FIX.png"
       }
     ]
   },
@@ -145,10 +145,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 5,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function $f$ shown, where $y=f(x)$, estimates the account balance, in dollars, in this bank account x months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
+    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function $f$ shown, where $y = f(x)$, estimates the account balance, in dollars, in this bank account $x$ months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -157,9 +157,9 @@
     "id": "7d110811-1651-49a9-9be6-62e088b71c73_5",
     "images": [
       {
-        "src": "/images_labeled/Sep_25_USB_Math_M1_Q5_1.png",
+        "src": "/images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_5_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Sep_25_USB_Math_M1_Q5_1.png"
+        "local": "images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_5_q_01_FIX.png"
       }
     ]
   },
@@ -202,7 +202,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "$f(x)=-16x^{2}+76$\nThe function $f$ gives the estimated height, in feet, of an acorn x seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?",
+    "passage": "The function $f(x) = -16x^2 + 76$ gives the estimated height, in feet, of an acorn $x$ seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -214,10 +214,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 8,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 338 pounds when entering hibernation and lost weight at a rate of 0.7 pound per day. At this rate, how many days after entering hibernation did the black bear weigh 310 pounds?",
+    "passage": "During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed $338$ pounds when entering hibernation and lost weight at a rate of $0.7$ pound per day. At this rate, how many days after entering hibernation did the black bear weigh $310$ pounds?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -229,7 +229,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "September 2025 US Form B SAT Math Module 1",
     "passage": "The graph of the polynomial function $f$ is shown, where $y=f(x)$. What is the value of $f(2)$?",
@@ -258,9 +258,9 @@
     "id": "7d110811-1651-49a9-9be6-62e088b71c73_9",
     "images": [
       {
-        "src": "/images_labeled/Sep_25_USB_Math_M1_Q9_1.png",
+        "src": "/images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_9_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Sep_25_USB_Math_M1_Q9_1.png"
+        "local": "images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_9_q_01_FIX.png"
       }
     ]
   },
@@ -268,10 +268,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "A dog's mass is 37 kilograms. What is the dog's mass, in grams? (1 kilogram = 1,000 grams)",
+    "passage": "A dog's mass is $37$ kilograms. What is the dog's mass, in grams? (1 kilogram = 1,000 grams)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -286,24 +286,24 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "A freight elevator can hold a maximum weight of 4,840 pounds during one trip. A 170-pound person needs to deliver several boxes using the freight elevator. Some of these boxes weigh 21 pounds each and the others weigh 62 pounds each. Which inequality represents the possible combinations of the number of 21-pound boxes, x, and the number of 62-pound boxes, y, the person can deliver during one trip if only the person and the boxes are on the freight elevator?",
+    "passage": "A freight elevator can hold a maximum weight of 4,840 pounds during one trip. A 170-pound person needs to deliver several boxes using the freight elevator. Some of these boxes weigh 21 pounds each and the others weigh 62 pounds each. Which inequality represents the possible combinations of the number of 21-pound boxes, $x$, and the number of 62-pound boxes, $y$, the person can deliver during one trip if only the person and the boxes are on the freight elevator?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$21x+62y\\ge4,670$"
+        "text": "$21x + 62y \\ge 4,670$"
       },
       {
         "label": "B",
-        "text": "$21x+62y\\le4,670$"
+        "text": "$21x + 62y \\le 4,670$"
       },
       {
         "label": "C",
-        "text": "$62x+21y\\ge4,840$"
+        "text": "$62x + 21y \\ge 4,840$"
       },
       {
         "label": "D",
-        "text": "$62x+21y\\le4,840$"
+        "text": "$62x + 21y \\le 4,840$"
       }
     ],
     "is_fill_in_blank": false,
@@ -318,7 +318,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "In triangle JKL, $cosy^\\circ=\\frac{23}{24}$.What is the length of $\\overline{KL}$?",
+    "passage": "In triangle JKL, $\\cos y^\\circ = \\frac{23}{24}$. What is the length of $\\overline{KL}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -327,9 +327,9 @@
     "id": "7d110811-1651-49a9-9be6-62e088b71c73_12",
     "images": [
       {
-        "src": "/images_labeled/Sep_25_USB_Math_M1_Q12_1.png",
+        "src": "/images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_12_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/Sep_25_USB_Math_M1_Q12_1.png"
+        "local": "images_labeled/7d110811-1651-49a9-9be6-62e088b71c73_12_q_01_FIX.png"
       }
     ]
   },
@@ -369,10 +369,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 14,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "In the xy -plane, the graph of the linear function h contains the points (0, 0) and (1, 40). Which equation defines h, where $y=h(x)$?",
+    "passage": "In the $xy$-plane, the graph of the linear function $h$ contains the points $(0, 0)$ and $(1, 40)$. Which equation defines $h$, where $y=h(x)$?",
     "question_text": null,
     "choices": [
       {
@@ -401,7 +401,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 15,
     "test_name": "September 2025 US Form B SAT Math Module 1",
     "passage": "$3x+y=13$\n$4x-y=15$\nHow many solutions does the given system of equations have?",
@@ -465,7 +465,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 17,
     "test_name": "September 2025 US Form B SAT Math Module 1",
     "passage": "The measure of angle K is $\\frac{\\pi}{2(16)}$ radians. The measure of angle L is 16 times the measure of angle K. What is the measure, in degrees, of angle L?",
@@ -497,15 +497,15 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 18,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "All the sidewalk paving stones in a neighborhood are rectangular. The length of each of these paving stones is 41 centimeters greater than the width. Which equation gives the area A, in square centimeters, of a sidewalk paving stone in terms of the width w, in centimeters, of that paving stone?",
+    "passage": "All the sidewalk paving stones in a neighborhood are rectangular. The length of each of these paving stones is 41 centimeters greater than the width. Which equation gives the area $A$, in square centimeters, of a sidewalk paving stone in terms of the width $w$, in centimeters, of that paving stone?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$A=(w)(\\frac{w}{41})$"
+        "text": "$A=(w)\\left(\\frac{w}{41}\\right)$"
       },
       {
         "label": "B",
@@ -517,7 +517,7 @@
       },
       {
         "label": "D",
-        "text": "$A=w^{2}$"
+        "text": "$A=w^2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -529,10 +529,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "What is the y -intercept of the graph of $y=10^{x}+22$ in the xy -plane?",
+    "passage": "What is the $y$-intercept of the graph of $y=10^{x}+22$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -564,7 +564,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "$-3x+18px=90$\nIn the given equation, p is a constant. The equation has no solution. What is the value of p?",
+    "passage": "$-3x + 18px = 90$\nIn the given equation, $p$ is a constant. The equation has no solution. What is the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -593,10 +593,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "The density of a certain type of marble stone is 2.3000 grams per cubic centimeter. If a sample of this type of stone is in the shape of a sphere with a diameter of 33.000 centimeters, what is the mass of this sample, in grams, to the nearest whole number? (Use 3.14159 for π.)",
+    "passage": "The density of a certain type of marble stone is 2.3000 grams per cubic centimeter. If a sample of this type of stone is in the shape of a sphere with a diameter of 33.000 centimeters, what is the mass of this sample, in grams, to the nearest whole number? (Use 3.14159 for $\\pi$.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -608,10 +608,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "September 2025 US Form B SAT Math Module 1",
-    "passage": "The function w is defined by $w(r)=\\frac{1}{r-5}-\\frac{r-4}{-r+4.25}$. What is the greatest possible value of r such that $w(r)=0$?",
+    "passage": "The function $w$ is defined by $w(r)=\\frac{1}{r-5}-\\frac{r-4}{-r+4.25}$. What is the greatest possible value of $r$ such that $w(r)=0$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

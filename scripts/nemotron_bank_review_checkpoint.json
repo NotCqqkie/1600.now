@@ -1,0 +1,84 @@
+{
+  "results": {
+    "0": {
+      "index": 0,
+      "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_1",
+      "testName": "August 2024 International Form A SAT Math Module 1",
+      "answer_key": "D",
+      "model_answer": "D",
+      "answer_matches": true,
+      "confidence": "high",
+      "needs_review": false,
+      "review_reason": "",
+      "has_fixes": true,
+      "fixes": {
+        "text": "$s=50+4t$\nThe equation gives the speed $s$, in miles per hour, of a certain car $t$ seconds after it began to accelerate. What is the speed, in miles per hour, of the car 5 seconds after it began to accelerate?"
+      },
+      "changes": [
+        "text:s=50+4t→$s=50+4t$",
+        "text:*s*→$s$",
+        "text:*t*→$t$"
+      ],
+      "calc": "To find the speed at t = 5 seconds, substitute t = 5 into the equation s = 50 + 4t. This gives s = 50 + 4(5) = 50 + 20 = 70 miles per hour.",
+      "error": null
+    },
+    "1": {
+      "index": 1,
+      "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_2",
+      "testName": "August 2024 International Form A SAT Math Module 1",
+      "answer_key": "D",
+      "model_answer": "D",
+      "answer_matches": true,
+      "confidence": "high",
+      "needs_review": false,
+      "review_reason": "",
+      "has_fixes": true,
+      "fixes": {
+        "text": "The function $f$ is defined by f($x$)= $x^2$+ 15. What is the value of $f(2)$?"
+      },
+      "changes": [
+        "text:The function * f * is defined by f(* x *)= * x ** 2 *+ 15. What is the value of * f *(2)? → The function $f$ is defined by f($x$)= $x^2$+ 15. What is the value of $f(2)?"
+      ],
+      "calc": "f(x) = x^2 + 15. Substitute x = 2: f(2) = 2^2 + 15 = 4 + 15 = 19.",
+      "error": null
+    },
+    "2": {
+      "index": 2,
+      "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_3",
+      "testName": "August 2024 International Form A SAT Math Module 1",
+      "answer_key": "D",
+      "model_answer": "D",
+      "answer_matches": true,
+      "confidence": "high",
+      "needs_review": false,
+      "review_reason": "",
+      "has_fixes": false,
+      "fixes": {},
+      "changes": [],
+      "calc": "Subtract 34 from both sides: √w = 40 - 34 = 6. Square both sides: w = 6^2 = 36.",
+      "error": null
+    },
+    "3": {
+      "index": 3,
+      "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_4",
+      "testName": "August 2024 International Form A SAT Math Module 1",
+      "answer_key": "A",
+      "model_answer": "A",
+      "answer_matches": true,
+      "confidence": "high",
+      "needs_review": false,
+      "review_reason": "",
+      "has_fixes": true,
+      "fixes": {
+        "text": "An aquarium uses small and large tanks to temporarily hold a total of 37 fish. Each small tank holds 1 fish, and each large tank holds 2 fish. Which equation represents this situation, where $s$ is the number of small tanks and $b$ is the number of large tanks the aquarium uses?",
+        "choices": []
+      },
+      "changes": [
+        "text:* s * → $s$",
+        "text:* b * → $b$"
+      ],
+      "calc": "Let s = number of small tanks (1 fish each) and b = number of large tanks (2 fish each). Total fish = 1·s + 2·b = s + 2b. Given total fish = 37, the equation is s + 2b = 37.",
+      "error": null
+    }
+  }
+}

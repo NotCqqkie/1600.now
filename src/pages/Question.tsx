@@ -1,10 +1,11 @@
 import { useParams, useNavigate, useLocation, useSearchParams } from "react-router-dom";
-import { useState, useEffect, useRef, useLayoutEffect, useMemo } from "react";
+import { useState, useEffect, useRef, useLayoutEffect, useMemo, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
 import { OfficialPracticeNavigationSheet } from "@/components/OfficialPracticeNavigationSheet"; 
 import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet"; 
+import { ModulePracticeNavigationSheet } from "@/components/ModulePracticeNavigationSheet";
 import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationWindow } from "@/components/ExplanationWindow";
@@ -32,6 +33,17 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 import { questions as originalQuestions } from "@/data/100 Hard";
 import {
   getBankCounts as getBankCountsNormal,
@@ -49,6 +61,34 @@ import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
 import { applyTheme } from "@/lib/theme";
+import { getPracticeModule, getPracticeSet } from "@/data/modulePracticeBank";
+import {
+  buildModulePracticeResult,
+  clearModulePracticeSession,
+  getModulePracticeAnnotationStorageKey,
+  getModulePracticeNoteStorageKey,
+  getModulePracticeQuestionState,
+  getModulePracticeSession,
+  saveModulePracticeQuestionState,
+  saveModulePracticeResult,
+  saveModulePracticeSession,
+  type ModulePracticeQuestionState,
+  type ModulePracticeSessionMeta,
+} from "@/lib/modulePracticeSession";
+import {
+  buildPracticeTestSessionAfterCurrentModuleSubmit,
+  buildPracticeTestResult,
+  clearPracticeTestSession,
+  getPracticeTestAnnotationStorageKey,
+  getPracticeTestNoteStorageKey,
+  getPracticeTestQuestionState,
+  getPracticeTestSession,
+  savePracticeTestQuestionState,
+  savePracticeTestResult,
+  savePracticeTestSession,
+  tickPracticeTestActiveModule,
+  type PracticeTestSessionMeta,
+} from "@/lib/practiceTestSession";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import "katex/dist/katex.min.css";
@@ -102,6 +142,13 @@ type PracticeSetItem = {
   bankType?: BankSourceFilter;
   sourceId?: string;
   storageId?: string;
+  practiceSetId?: string;
+  practiceSetNumber?: number;
+  moduleSlug?: string;
+  moduleNumber?: 1 | 2;
+  moduleTitle?: string;
+  moduleQuestionNumber?: number;
+  globalQuestionNumber?: number;
 };
 
 type QuestionInfoField = {
@@ -163,6 +210,44 @@ const formatTimer = (totalSeconds: number) => {
   const minutes = Math.floor(totalSeconds / 60);
   const seconds = totalSeconds % 60;
   return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+};
+
+const readTimerState = (storageKey: string) => {
+  try {
+    const raw = sessionStorage.getItem(storageKey);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw) as {
+      elapsedSeconds?: unknown;
+      isPaused?: unknown;
+      isVisible?: unknown;
+    };
+
+    return {
+      elapsedSeconds: typeof parsed.elapsedSeconds === "number" ? parsed.elapsedSeconds : 0,
+      isPaused: parsed.isPaused === true,
+      isVisible: parsed.isVisible !== false,
+    };
+  } catch {
+    return null;
+  }
+};
+
+const saveTimerState = (
+  storageKey: string,
+  {
+    elapsedSeconds,
+    isPaused,
+    isVisible,
+  }: { elapsedSeconds: number; isPaused: boolean; isVisible: boolean },
+) => {
+  sessionStorage.setItem(
+    storageKey,
+    JSON.stringify({
+      elapsedSeconds,
+      isPaused,
+      isVisible,
+    }),
+  );
 };
 
 const QUESTION_SENTENCE_PATTERNS = [
@@ -247,6 +332,32 @@ const extractLeadingQuestionSentence = (text: string): { sentence?: string; rema
   return { sentence, remainder };
 };
 
+const escapeRegExp = (value: string): string =>
+  value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+const stripDuplicatedLeadingQuestion = (
+  passage: string,
+  questionSentence?: string,
+): string => {
+  const trimmedPassage = passage.trim();
+  const trimmedQuestion = questionSentence?.trim();
+
+  if (!trimmedPassage || !trimmedQuestion) {
+    return trimmedPassage;
+  }
+
+  if (trimmedPassage === trimmedQuestion) {
+    return trimmedPassage;
+  }
+
+  const duplicatePrefixPattern = new RegExp(
+    `^${escapeRegExp(trimmedQuestion)}(?:\\s+|\\n+)+`,
+    "i",
+  );
+
+  return trimmedPassage.replace(duplicatePrefixPattern, "").trim();
+};
+
 type QuestionViewMode = "vertical" | "horizontal";
 
 const getDefaultQuestionViewMode = (
@@ -288,6 +399,10 @@ function Question() {
   const is100Hard = !isBank && !isOfficialBank;
 
   const isPracticeMode = searchParams.get('practice') === 'true';
+  const modulePracticeSlug = searchParams.get("modulePractice");
+  const modulePracticeSessionId = searchParams.get("moduleSession");
+  const practiceTestSetId = searchParams.get("practiceTest");
+  const practiceTestSessionId = searchParams.get("practiceTestSession");
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
   const bankQuerySuffix = isBank ? `?bankType=${bankSource}` : "";
   const practiceSet = useMemo<PracticeSetItem[]>(() => {
@@ -301,6 +416,20 @@ function Question() {
   const practiceExitTo = useMemo(
     () => sessionStorage.getItem("practiceExitTo"),
     [location.key],
+  );
+  const modulePracticeModule = useMemo(
+    () => (modulePracticeSlug ? getPracticeModule(modulePracticeSlug) : null),
+    [modulePracticeSlug],
+  );
+  const practiceTestSet = useMemo(
+    () => (practiceTestSetId ? getPracticeSet(practiceTestSetId) : null),
+    [practiceTestSetId],
+  );
+  const [modulePracticeSessionMeta, setModulePracticeSessionMeta] = useState<ModulePracticeSessionMeta | null>(() =>
+    modulePracticeSlug ? getModulePracticeSession(modulePracticeSlug) : null,
+  );
+  const [practiceTestSessionMeta, setPracticeTestSessionMeta] = useState<PracticeTestSessionMeta | null>(() =>
+    practiceTestSetId ? getPracticeTestSession(practiceTestSetId) : null,
   );
 
   const questionNumber = parseInt(id || "1", 10);
@@ -334,12 +463,60 @@ function Question() {
     );
   }, [isPracticeMode, practiceSet, questionNumber, subject, isOfficialBank, bankSource, currentQuestion]);
   const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
+  const modulePracticeStateSessionId = modulePracticeSessionId || modulePracticeSessionMeta?.sessionId || null;
+  const practiceTestStateSessionId = practiceTestSessionId || practiceTestSessionMeta?.sessionId || null;
+  const isModulePracticeMode = Boolean(
+    effectivePracticeMode &&
+      modulePracticeSlug &&
+      modulePracticeStateSessionId,
+  );
+  const isPracticeTestMode = Boolean(
+    effectivePracticeMode &&
+      practiceTestSetId &&
+      practiceTestStateSessionId,
+  );
+  const isAssessmentMode = isModulePracticeMode || isPracticeTestMode;
+  const timerStorageKey = isAssessmentMode
+    ? null
+    : is100Hard
+    ? "question-timer:hard"
+    : isOfficialBank
+    ? "question-timer:official"
+    : isBank
+    ? `question-timer:bank:${bankSource}`
+    : "question-timer:default";
+  const modulePracticeAllowsChecking = Boolean(
+    isModulePracticeMode && modulePracticeSessionMeta?.settings.allowCheckingAnswers,
+  );
+  const practiceTestAllowsChecking = Boolean(
+    isPracticeTestMode && practiceTestSessionMeta?.settings.allowCheckingAnswers,
+  );
+  const assessmentAllowsChecking = modulePracticeAllowsChecking || practiceTestAllowsChecking;
+  const practiceTestIsTimed = Boolean(
+    isPracticeTestMode && practiceTestSessionMeta?.settings.timed,
+  );
+  const practiceTestReviewPhase = Boolean(
+    isPracticeTestMode && practiceTestSessionMeta?.phase === "review",
+  );
+  const practiceTestActiveModuleIndex = practiceTestSessionMeta?.activeModuleIndex ?? -1;
+  const practiceTestActiveModule = useMemo(() => {
+    if (!practiceTestSessionMeta || practiceTestActiveModuleIndex < 0) return null;
+    return practiceTestSessionMeta.modules[practiceTestActiveModuleIndex] ?? null;
+  }, [practiceTestActiveModuleIndex, practiceTestSessionMeta]);
+  const practiceTestCurrentModuleStartIndex = practiceTestActiveModule?.startIndex ?? -1;
+  const practiceTestCurrentModuleEndIndex = practiceTestActiveModule?.endIndex ?? -1;
+  const practiceTestModuleQuestionCount = practiceTestActiveModule?.questionCount ?? 0;
+  const practiceTestQuestionNumberInModule =
+    practiceTestActiveModule && currentPracticeIndex >= 0
+      ? currentPracticeIndex - practiceTestActiveModule.startIndex + 1
+      : 0;
 
   const { progress, addAttempt, toggleReview } = useUserProgress();
   
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
   const [freeResponseAnswer, setFreeResponseAnswer] = useState<string>("");
   const [strikeoutMode, setStrikeoutMode] = useState(false);
+  const [struckOutChoiceIds, setStruckOutChoiceIds] = useState<string[]>([]);
   const [checkButtonState, setCheckButtonState] = useState<"idle" | "incorrect" | "correct-first" | "correct-later">("idle");
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
@@ -362,6 +539,7 @@ function Question() {
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [isTimerPaused, setIsTimerPaused] = useState(false);
   const [isTimerVisible, setIsTimerVisible] = useState(true);
+  const [isTimerExpiredOpen, setIsTimerExpiredOpen] = useState(false);
   const [groupedOrderVersion, setGroupedOrderVersion] = useState(0);
   const [isQuestionInfoOpen, setIsQuestionInfoOpen] = useState(false);
   const [isNoteWindowOpen, setIsNoteWindowOpen] = useState(false);
@@ -370,6 +548,7 @@ function Question() {
     const stored = localStorage.getItem(READING_ANNOTATION_MODE_STORAGE_KEY);
     return stored === null ? true : stored === "true";
   });
+  const [modulePracticeMarkedForReview, setModulePracticeMarkedForReview] = useState(false);
   const bottomNavRef = useRef<HTMLDivElement>(null);
   const bottomNavGridRef = useRef<HTMLDivElement>(null);
   const bottomNavLeftRef = useRef<HTMLDivElement>(null);
@@ -388,14 +567,76 @@ function Question() {
   const bottomCenterPinnedRef = useRef(true);
   const topTimerPinnedRef = useRef(true);
   const startTimeRef = useRef(Date.now());
+  const questionVisitStartedAtRef = useRef(Date.now());
+  const hasTimerExpiredRef = useRef(false);
+
+  useEffect(() => {
+    if (!modulePracticeSlug) {
+      setModulePracticeSessionMeta(null);
+      return;
+    }
+    setModulePracticeSessionMeta(getModulePracticeSession(modulePracticeSlug));
+  }, [location.key, modulePracticeSlug]);
+
+  useEffect(() => {
+    if (!practiceTestSetId) {
+      setPracticeTestSessionMeta(null);
+      return;
+    }
+    setPracticeTestSessionMeta(getPracticeTestSession(practiceTestSetId));
+  }, [location.key, practiceTestSetId]);
 
   const currentProgress = currentQuestion ? (progress[currentQuestion.uuid] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
-  const markedForReview = currentProgress.isMarkedForReview;
   const localStateKey = currentQuestion
     ? (is100Hard ? `question-${questionNumber}` : currentQuestion.uuid)
     : `question-${questionNumber}`;
+  const readModulePracticeQuestionState = (): ModulePracticeQuestionState | null => {
+    if (!currentQuestion) return null;
+    if (isPracticeTestMode && practiceTestStateSessionId) {
+      return getPracticeTestQuestionState(practiceTestStateSessionId, currentQuestion.uuid);
+    }
+    if (isModulePracticeMode && modulePracticeStateSessionId) {
+      return getModulePracticeQuestionState(modulePracticeStateSessionId, currentQuestion.uuid);
+    }
+    return null;
+  };
+  const persistModulePracticeQuestionState = (
+    updater: (
+      previous: ModulePracticeQuestionState,
+    ) => ModulePracticeQuestionState,
+  ) => {
+    if (!currentQuestion) return null;
+    if (isPracticeTestMode && practiceTestStateSessionId) {
+      const previous = getPracticeTestQuestionState(
+        practiceTestStateSessionId,
+        currentQuestion.uuid,
+      );
+      const next = updater(previous);
+      savePracticeTestQuestionState(
+        practiceTestStateSessionId,
+        currentQuestion.uuid,
+        next,
+      );
+      return next;
+    }
+    if (!isModulePracticeMode || !modulePracticeStateSessionId) return null;
+    const previous = getModulePracticeQuestionState(
+      modulePracticeStateSessionId,
+      currentQuestion.uuid,
+    );
+    const next = updater(previous);
+    saveModulePracticeQuestionState(
+      modulePracticeStateSessionId,
+      currentQuestion.uuid,
+      next,
+    );
+    return next;
+  };
+  const markedForReview = isAssessmentMode
+    ? modulePracticeMarkedForReview
+    : currentProgress.isMarkedForReview;
   const questionInfo = useMemo(() => {
-    if (!currentQuestion || is100Hard) return null;
+    if (!currentQuestion || is100Hard || isAssessmentMode) return null;
 
     const questionWithMetadata = currentQuestion as Partial<{
       bankLabel: string;
@@ -422,7 +663,7 @@ function Question() {
     return {
       fields,
     };
-  }, [currentQuestion, is100Hard, subject]);
+  }, [currentQuestion, is100Hard, isAssessmentMode, subject]);
   const baseNavigationItems = useMemo<OrderedNavigationItem[]>(() => {
     if (is100Hard) {
       return Array.from({ length: 100 }, (_, i) => ({
@@ -513,19 +754,136 @@ function Question() {
 
   useEffect(() => {
     startTimeRef.current = Date.now();
+    questionVisitStartedAtRef.current = Date.now();
+    hasTimerExpiredRef.current = false;
+    setIsTimerExpiredOpen(false);
+
+    if (isPracticeTestMode && practiceTestActiveModule) {
+      setElapsedSeconds(practiceTestActiveModule.elapsedSeconds);
+      setIsTimerPaused(false);
+      return;
+    }
+
+    if (isModulePracticeMode && modulePracticeSessionMeta) {
+      setElapsedSeconds(modulePracticeSessionMeta.elapsedSeconds);
+      setIsTimerPaused(false);
+      return;
+    }
+
+    if (timerStorageKey) {
+      const storedTimerState = readTimerState(timerStorageKey);
+      setElapsedSeconds(storedTimerState?.elapsedSeconds ?? 0);
+      setIsTimerPaused(storedTimerState?.isPaused ?? false);
+      setIsTimerVisible(storedTimerState?.isVisible ?? true);
+      return;
+    }
+
     setElapsedSeconds(0);
     setIsTimerPaused(false);
-  }, [questionNumber, subject, isBank, isOfficialBank]);
+    setIsTimerVisible(true);
+  }, [
+    isPracticeTestMode,
+    practiceTestActiveModule,
+    isModulePracticeMode,
+    modulePracticeSessionMeta?.sessionId,
+    timerStorageKey,
+  ]);
 
   useEffect(() => {
+    if (isPracticeTestMode && practiceTestSessionMeta && practiceTestActiveModule) {
+      if (practiceTestSessionMeta.status !== "active") {
+        return;
+      }
+
+      const timerId = window.setInterval(() => {
+        setPracticeTestSessionMeta((previous) => {
+          if (!previous || previous.status !== "active") return previous;
+
+          const next = tickPracticeTestActiveModule(previous);
+          const nextActiveModule = next.modules[next.activeModuleIndex];
+          if (!nextActiveModule) return previous;
+
+          savePracticeTestSession(next);
+          setElapsedSeconds(nextActiveModule.elapsedSeconds);
+          return next;
+        });
+      }, 1000);
+
+      return () => window.clearInterval(timerId);
+    }
+
+    if (isModulePracticeMode && modulePracticeSessionMeta) {
+      const timerId = window.setInterval(() => {
+        setModulePracticeSessionMeta((previous) => {
+          if (!previous) return previous;
+          if (previous.settings.timed && previous.remainingSeconds === 0) {
+            if (!hasTimerExpiredRef.current) {
+              hasTimerExpiredRef.current = true;
+              setIsTimerExpiredOpen(true);
+            }
+            return previous;
+          }
+
+          const nextElapsed = previous.elapsedSeconds + 1;
+          const nextRemaining =
+            previous.settings.timed && previous.remainingSeconds !== null
+              ? Math.max(0, previous.remainingSeconds - 1)
+              : null;
+          const next = {
+            ...previous,
+            elapsedSeconds: nextElapsed,
+            remainingSeconds: nextRemaining,
+          };
+          saveModulePracticeSession(next);
+          setElapsedSeconds(nextElapsed);
+          if (nextRemaining === 0 && previous.remainingSeconds !== 0 && !hasTimerExpiredRef.current) {
+            hasTimerExpiredRef.current = true;
+            setIsTimerExpiredOpen(true);
+          }
+          return next;
+        });
+      }, 1000);
+
+      return () => window.clearInterval(timerId);
+    }
+
     if (isTimerPaused) return;
 
     const timerId = window.setInterval(() => {
-      setElapsedSeconds((prev) => prev + 1);
+      setElapsedSeconds((prev) => {
+        const next = prev + 1;
+        if (timerStorageKey) {
+          saveTimerState(timerStorageKey, {
+            elapsedSeconds: next,
+            isPaused: false,
+            isVisible: isTimerVisible,
+          });
+        }
+        return next;
+      });
     }, 1000);
 
     return () => window.clearInterval(timerId);
-  }, [isTimerPaused]);
+  }, [
+    isPracticeTestMode,
+    practiceTestSessionMeta,
+    practiceTestActiveModule,
+    isModulePracticeMode,
+    isTimerPaused,
+    isTimerVisible,
+    modulePracticeSessionMeta?.sessionId,
+    timerStorageKey,
+  ]);
+
+  useEffect(() => {
+    if (!timerStorageKey || isAssessmentMode) return;
+
+    saveTimerState(timerStorageKey, {
+      elapsedSeconds,
+      isPaused: isTimerPaused,
+      isVisible: isTimerVisible,
+    });
+  }, [elapsedSeconds, isAssessmentMode, isTimerPaused, isTimerVisible, timerStorageKey]);
 
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
@@ -773,12 +1131,33 @@ function Question() {
   }
 
   useLayoutEffect(() => {
+    if (isAssessmentMode) {
+      const state = readModulePracticeQuestionState();
+      setSelectedAnswer(state?.answer || "");
+      setFreeResponseAnswer(state?.freeResponseAnswer || "");
+      setCheckedAnswers(state?.checkedAnswers || {});
+      setAttemptCount(state?.attemptCount || 0);
+      setStruckOutChoiceIds(state?.struckOutChoiceIds || []);
+      setModulePracticeMarkedForReview(Boolean(state?.isMarkedForReview));
+      if (
+        state?.status === "incorrect" ||
+        state?.status === "correct-first" ||
+        state?.status === "correct-later"
+      ) {
+        setCheckButtonState(state.status);
+      } else {
+        setCheckButtonState("idle");
+      }
+      return;
+    }
+
     setSelectedAnswer("");
     setFreeResponseAnswer("");
     setCheckedAnswers({});
     setCheckButtonState("idle");
     setAttemptCount(0);
-  }, [questionNumber]);
+    setStruckOutChoiceIds([]);
+  }, [isAssessmentMode, questionNumber, currentQuestion?.uuid]);
 
   const emphasizeReadingHeaders = (content: string): string => {
     const fullLineHeaderPatterns = [
@@ -903,31 +1282,209 @@ function Question() {
     () => orderedQuestionIds.indexOf(questionNumber),
     [orderedQuestionIds, questionNumber],
   );
-  const displayQuestionNumber = effectivePracticeMode ? currentPracticeIndex + 1 : questionNumber;
+  const displayQuestionNumber = isPracticeTestMode
+    ? practiceTestQuestionNumberInModule || currentPracticeIndex + 1
+    : effectivePracticeMode
+      ? currentPracticeIndex + 1
+      : questionNumber;
+  const isAtPracticeTestModuleEnd = Boolean(
+    isPracticeTestMode &&
+      practiceTestCurrentModuleEndIndex >= 0 &&
+      currentPracticeIndex === practiceTestCurrentModuleEndIndex,
+  );
   const canGoPrevious = is100Hard
     ? currentOrderedQuestionIndex > 0
+    : isPracticeTestMode
+      ? practiceTestReviewPhase
+        ? currentPracticeIndex > practiceTestCurrentModuleStartIndex
+        : currentPracticeIndex > practiceTestCurrentModuleStartIndex
     : effectivePracticeMode
       ? currentPracticeIndex > 0
       : currentOrderedQuestionIndex > 0;
   const canGoNext = is100Hard
     ? currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1
+    : isPracticeTestMode
+      ? practiceTestReviewPhase
+        ? currentPracticeIndex < practiceTestCurrentModuleEndIndex
+        : currentPracticeIndex < practiceTestCurrentModuleEndIndex
     : effectivePracticeMode
       ? currentPracticeIndex < totalQuestions - 1
       : currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1;
+
+  const flushModulePracticeQuestionTime = () => {
+    if (!isAssessmentMode || !currentQuestion) return;
+    const delta = Math.max(
+      0,
+      Math.round((Date.now() - questionVisitStartedAtRef.current) / 1000),
+    );
+    if (!delta) return;
+    persistModulePracticeQuestionState((previous) => ({
+      ...previous,
+      timeSpentSeconds: previous.timeSpentSeconds + delta,
+    }));
+    questionVisitStartedAtRef.current = Date.now();
+  };
+
+  useEffect(() => {
+    if (isPracticeTestMode && practiceTestSessionMeta) {
+      const nextCurrentIndex = currentPracticeIndex >= 0 ? currentPracticeIndex : 0;
+
+      if (practiceTestSessionMeta.currentIndex === nextCurrentIndex) {
+        return;
+      }
+
+      const nextSession = {
+        ...practiceTestSessionMeta,
+        currentIndex: nextCurrentIndex,
+      };
+      setPracticeTestSessionMeta(nextSession);
+      savePracticeTestSession(nextSession);
+      return;
+    }
+
+    if (!isModulePracticeMode || !modulePracticeSessionMeta) return;
+
+    const nextSession = {
+      ...modulePracticeSessionMeta,
+      currentIndex: currentPracticeIndex >= 0 ? currentPracticeIndex : 0,
+    };
+    setModulePracticeSessionMeta(nextSession);
+    saveModulePracticeSession(nextSession);
+  }, [
+    currentPracticeIndex,
+    isPracticeTestMode,
+    practiceTestSessionMeta,
+    isModulePracticeMode,
+  ]);
+
+  useEffect(() => {
+    if (!isAssessmentMode || !currentQuestion) return;
+    questionVisitStartedAtRef.current = Date.now();
+    return () => {
+      flushModulePracticeQuestionTime();
+    };
+  }, [currentQuestion?.uuid, isAssessmentMode]);
 
   const navigateToPracticeIndex = (idx: number) => {
     if (!effectivePracticeMode || idx < 0 || idx >= practiceSet.length) return;
     const target = practiceSet[idx];
     const base = isOfficialBank ? '/official-bank' : '/bank';
-    const sourceQuery = !isOfficialBank && target.bankType ? `bankType=${target.bankType}&` : "";
-    navigate(`${base}/${target.subject}/${target.id}?${sourceQuery}practice=true&idx=${idx + 1}`);
+    const params = new URLSearchParams();
+
+    if (!isOfficialBank && target.bankType) {
+      params.set("bankType", target.bankType);
+    }
+
+    params.set("practice", "true");
+    params.set("idx", String(idx + 1));
+
+    if (modulePracticeSlug) {
+      params.set("modulePractice", modulePracticeSlug);
+    }
+
+    if (modulePracticeStateSessionId) {
+      params.set("moduleSession", modulePracticeStateSessionId);
+    }
+
+    if (practiceTestSetId) {
+      params.set("practiceTest", practiceTestSetId);
+    }
+
+    if (practiceTestStateSessionId) {
+      params.set("practiceTestSession", practiceTestStateSessionId);
+    }
+
+    navigate(`${base}/${target.subject}/${target.id}?${params.toString()}`);
   };
+
+  const submitPracticeTestCurrentModule = useCallback((sessionToSubmit: PracticeTestSessionMeta) => {
+    if (!isPracticeTestMode || !practiceTestSet) return;
+
+    flushModulePracticeQuestionTime();
+
+    const nextSession = buildPracticeTestSessionAfterCurrentModuleSubmit(sessionToSubmit);
+    if (!nextSession) {
+      const result = buildPracticeTestResult(practiceTestSet, {
+        ...sessionToSubmit,
+        status: "submitted",
+      });
+      savePracticeTestResult(result);
+      clearPracticeTestSession(practiceTestSet.id);
+      sessionStorage.removeItem("practiceSet");
+      sessionStorage.removeItem("practiceExitTo");
+      navigate(`/practice-tests/${practiceTestSet.id}/results?session=${result.sessionId}`);
+      return;
+    }
+
+    setPracticeTestSessionMeta(nextSession);
+    savePracticeTestSession(nextSession);
+    navigate(
+      `/practice-tests/${practiceTestSet.id}/transition?session=${sessionToSubmit.sessionId}&kind=${sessionToSubmit.activeModuleIndex === 1 ? "break" : "module"}`,
+    );
+  }, [flushModulePracticeQuestionTime, isPracticeTestMode, navigate, practiceTestSet]);
+
+  const handlePracticeTestPhaseAdvance = useCallback(() => {
+    if (!isPracticeTestMode || !practiceTestSessionMeta || !practiceTestSet || !practiceTestActiveModule) return;
+
+    flushModulePracticeQuestionTime();
+
+    if (practiceTestReviewPhase) {
+      navigate(`/practice-tests/${practiceTestSet.id}/review?session=${practiceTestSessionMeta.sessionId}`);
+      return;
+    }
+
+    const nextSession = {
+      ...practiceTestSessionMeta,
+      phase: "review" as const,
+      currentIndex: currentPracticeIndex >= 0 ? currentPracticeIndex : practiceTestSessionMeta.currentIndex,
+    };
+    setPracticeTestSessionMeta(nextSession);
+    savePracticeTestSession(nextSession);
+    navigate(`/practice-tests/${practiceTestSet.id}/review?session=${practiceTestSessionMeta.sessionId}`);
+  }, [
+    currentPracticeIndex,
+    flushModulePracticeQuestionTime,
+    isPracticeTestMode,
+    navigate,
+    practiceTestActiveModule,
+    practiceTestReviewPhase,
+    practiceTestSessionMeta,
+    practiceTestSet,
+  ]);
+
+  useEffect(() => {
+    if (
+      !isPracticeTestMode ||
+      !practiceTestIsTimed ||
+      !practiceTestSessionMeta ||
+      practiceTestSessionMeta.status !== "active" ||
+      !practiceTestActiveModule ||
+      practiceTestActiveModule.remainingSeconds !== 0 ||
+      hasTimerExpiredRef.current
+    ) {
+      return;
+    }
+
+    hasTimerExpiredRef.current = true;
+    submitPracticeTestCurrentModule(practiceTestSessionMeta);
+  }, [
+    isPracticeTestMode,
+    practiceTestIsTimed,
+    practiceTestSessionMeta,
+    practiceTestActiveModule,
+    submitPracticeTestCurrentModule,
+  ]);
 
   const handlePrevious = () => {
     if (!canGoPrevious) return;
+    flushModulePracticeQuestionTime();
     if (is100Hard) {
       const previousQuestionId = orderedQuestionIds[currentOrderedQuestionIndex - 1];
       if (previousQuestionId) navigate(`/hard/${previousQuestionId}`);
+      return;
+    }
+    if (isPracticeTestMode) {
+      navigateToPracticeIndex(currentPracticeIndex - 1);
       return;
     }
     if (effectivePracticeMode) {
@@ -943,9 +1500,14 @@ function Question() {
 
   const handleNext = () => {
     if (!canGoNext) return;
+    flushModulePracticeQuestionTime();
     if (is100Hard) {
       const nextQuestionId = orderedQuestionIds[currentOrderedQuestionIndex + 1];
       if (nextQuestionId) navigate(`/hard/${nextQuestionId}`);
+      return;
+    }
+    if (isPracticeTestMode) {
+      navigateToPracticeIndex(currentPracticeIndex + 1);
       return;
     }
     if (effectivePracticeMode) {
@@ -957,6 +1519,25 @@ function Question() {
     if (nextQuestionId) {
       navigate(`${base}/${subject}/${nextQuestionId}${isBank ? bankQuerySuffix : ""}`);
     }
+  };
+
+  const handleModulePracticeReview = () => {
+    if (!isModulePracticeMode || !modulePracticeSessionMeta || !modulePracticeModule) return;
+    flushModulePracticeQuestionTime();
+    if (modulePracticeAllowsChecking) {
+      const result = buildModulePracticeResult(modulePracticeModule, {
+        ...modulePracticeSessionMeta,
+        status: "submitted",
+      });
+      saveModulePracticeResult(result);
+      sessionStorage.removeItem("practiceSet");
+      sessionStorage.removeItem("practiceExitTo");
+      clearModulePracticeSession(modulePracticeModule.slug);
+      navigate(`/modules/${modulePracticeModule.slug}/results?session=${result.sessionId}`);
+      return;
+    }
+
+    navigate(`/modules/${modulePracticeModule.slug}/review?session=${modulePracticeSessionMeta.sessionId}`);
   };
 
   const handleGroupAnswered = () => {
@@ -987,12 +1568,22 @@ function Question() {
 
   const handleToggleReview = () => {
     if (!currentQuestion) return;
+    if (isAssessmentMode) {
+      const nextMarkedState = !modulePracticeMarkedForReview;
+      setModulePracticeMarkedForReview(nextMarkedState);
+      persistModulePracticeQuestionState((previous) => ({
+        ...previous,
+        isMarkedForReview: nextMarkedState,
+      }));
+      return;
+    }
     const nextMarkedState = !markedForReview;
     toggleReview(currentQuestion.uuid);
     localStorage.setItem(`${currentQuestion.uuid}-flagged`, String(nextMarkedState));
   };
 
   const handleCheck = (overrideAnswer?: string) => {
+    if (isAssessmentMode && !assessmentAllowsChecking) return;
     const userAnswer = overrideAnswer || (currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer);
     
     if (!userAnswer) {
@@ -1019,24 +1610,50 @@ function Question() {
       }
     }
     
-    const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
-    addAttempt(currentQuestion.uuid, isCorrect ? "correct" : "incorrect", duration, formattedAnswer);
-
     const newCheckedAnswers = { ...checkedAnswers, [userAnswer]: isCorrect };
     setCheckedAnswers(newCheckedAnswers);
     const newAttemptCount = attemptCount + 1;
     setAttemptCount(newAttemptCount);
 
-    localStorage.setItem(`${localStateKey}-answer`, userAnswer);
-    localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
-
     if (isCorrect) {
       const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
       setCheckButtonState(status);
-      localStorage.setItem(`${localStateKey}-status`, status);
+      if (isAssessmentMode) {
+        persistModulePracticeQuestionState((previous) => ({
+          ...previous,
+          answer: currentQuestion.type === "multiple-choice" ? userAnswer : previous.answer,
+          freeResponseAnswer:
+            currentQuestion.type === "free-response" ? userAnswer : previous.freeResponseAnswer,
+          checkedAnswers: newCheckedAnswers,
+          attemptCount: newAttemptCount,
+          status,
+        }));
+      } else {
+        const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
+        addAttempt(currentQuestion.uuid, "correct", duration, formattedAnswer);
+        localStorage.setItem(`${localStateKey}-answer`, userAnswer);
+        localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
+        localStorage.setItem(`${localStateKey}-status`, status);
+      }
     } else {
       setCheckButtonState("incorrect");
-      localStorage.setItem(`${localStateKey}-status`, 'incorrect');
+      if (isAssessmentMode) {
+        persistModulePracticeQuestionState((previous) => ({
+          ...previous,
+          answer: currentQuestion.type === "multiple-choice" ? userAnswer : previous.answer,
+          freeResponseAnswer:
+            currentQuestion.type === "free-response" ? userAnswer : previous.freeResponseAnswer,
+          checkedAnswers: newCheckedAnswers,
+          attemptCount: newAttemptCount,
+          status: "incorrect",
+        }));
+      } else {
+        const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
+        addAttempt(currentQuestion.uuid, "incorrect", duration, formattedAnswer);
+        localStorage.setItem(`${localStateKey}-answer`, userAnswer);
+        localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
+        localStorage.setItem(`${localStateKey}-status`, 'incorrect');
+      }
     }
   };
 
@@ -1048,7 +1665,7 @@ function Question() {
       }
 
       if (target.tagName === 'INPUT') {
-        if (e.key === 'Enter') {
+        if (e.key === 'Enter' && (!isAssessmentMode || assessmentAllowsChecking)) {
           e.preventDefault();
           handleCheck();
         }
@@ -1060,11 +1677,15 @@ function Question() {
           handlePrevious();
           break;
         case 'ArrowRight':
-          handleNext();
+          if (canGoNext) {
+            handleNext();
+          }
           break;
         case 'Enter':
-          e.preventDefault();
-          handleCheck();
+          if (!isAssessmentMode || assessmentAllowsChecking) {
+            e.preventDefault();
+            handleCheck();
+          }
           break;
         case 'ArrowUp':
         case 'ArrowDown':
@@ -1088,7 +1709,23 @@ function Question() {
             
             const nextId = choiceIds[nextIndex];
             setSelectedAnswer(nextId);
-            localStorage.setItem(`${localStateKey}-answer`, nextId);
+            if (isAssessmentMode) {
+              persistModulePracticeQuestionState((previous) => ({
+                ...previous,
+                answer: nextId,
+                status:
+                  assessmentAllowsChecking &&
+                  (previous.status === "incorrect" ||
+                    previous.status === "correct-first" ||
+                    previous.status === "correct-later")
+                    ? previous.status
+                    : nextId
+                      ? "answered"
+                      : "unanswered",
+              }));
+            } else {
+              localStorage.setItem(`${localStateKey}-answer`, nextId);
+            }
           }
           break;
       }
@@ -1096,7 +1733,19 @@ function Question() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleNext, handlePrevious, handleCheck, currentQuestion, selectedAnswer, questionNumber]);
+  }, [
+    handleNext,
+    handlePrevious,
+    handleCheck,
+    currentQuestion,
+    selectedAnswer,
+    questionNumber,
+    canGoNext,
+    isPracticeTestMode,
+    isModulePracticeMode,
+    isAssessmentMode,
+    assessmentAllowsChecking,
+  ]);
 
   const hasSelection = currentQuestion.type === 'multiple-choice' ? Boolean(selectedAnswer) : Boolean(freeResponseAnswer);
   const isCheckDisabled = !hasSelection || checkButtonState === "correct-first" || checkButtonState === "correct-later";
@@ -1165,14 +1814,29 @@ function Question() {
     : Boolean(questionTextContent) &&
       (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
   const readingPassageContent = subject === "reading"
-    ? (passageContent ?? stemContent)
+    ? stripDuplicatedLeadingQuestion(passageContent ?? stemContent, readingQuestionSentence)
     : undefined;
   const readingPassageHtml = readingPassageContent
     ? getRenderedContentHtml(readingPassageContent)
     : "";
-  const annotationStorageKey = `${localStateKey}-passage-annotations`;
-  const noteStorageKey = `${localStateKey}-note`;
+  const annotationStorageKey =
+    isPracticeTestMode && practiceTestStateSessionId
+      ? getPracticeTestAnnotationStorageKey(practiceTestStateSessionId, localStateKey)
+      : isModulePracticeMode && modulePracticeStateSessionId
+      ? getModulePracticeAnnotationStorageKey(modulePracticeStateSessionId, localStateKey)
+      : `${localStateKey}-passage-annotations`;
+  const noteStorageKey =
+    isPracticeTestMode && practiceTestStateSessionId
+      ? getPracticeTestNoteStorageKey(practiceTestStateSessionId, localStateKey)
+      : isModulePracticeMode && modulePracticeStateSessionId
+      ? getModulePracticeNoteStorageKey(modulePracticeStateSessionId, localStateKey)
+      : `${localStateKey}-note`;
+  const noteWindowStateKey = `${noteStorageKey}:window`;
+  const noteWindowOpenKey = `${noteStorageKey}:open`;
+  const noteStorageArea = isAssessmentMode ? sessionStorage : localStorage;
+  const shouldPersistAnnotationNotes = isModulePracticeMode;
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
+  const shouldReduceQuestionImageSize = isBank || isOfficialBank;
       
   const renderQuestionImages = () => {
     if (!questionImages?.length) return null;
@@ -1184,8 +1848,13 @@ function Question() {
             <TransparentAwareImage
               src={normalizePublicAssetPath(img.src)}
               alt={img.alt || `Question image ${idx + 1}`}
-              className="max-w-full h-auto max-h-[340px] rounded-[8px] object-contain border border-border"
-              wrapperClassName="max-w-full"
+              className={cn(
+                "h-auto rounded-[8px] object-contain border border-border",
+                shouldReduceQuestionImageSize
+                  ? "max-w-[91%] max-h-[309px]"
+                  : "max-w-full max-h-[340px]",
+              )}
+              wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
               loading="lazy"
               trimWhitespace={isBank && bankSource === 'unofficial'}
             />
@@ -1196,13 +1865,68 @@ function Question() {
   };
   
   const backDestination = practiceExitTo || (isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/bank");
+
+  useEffect(() => {
+    setIsNoteWindowOpen(noteStorageArea.getItem(noteWindowOpenKey) === "true");
+  }, [noteStorageArea, noteWindowOpenKey]);
+
   const openNoteWindow = () => {
     bringToFront("note");
     setIsNoteWindowOpen(true);
+    noteStorageArea.setItem(noteWindowOpenKey, "true");
+  };
+  const handleCloseNoteWindow = () => {
+    setIsNoteWindowOpen(false);
+    noteStorageArea.setItem(noteWindowOpenKey, "false");
   };
   const toggleTheme = () => {
     applyTheme(!isDark);
   };
+  const handleSaveAndExit = () => {
+    if (isPracticeTestMode && practiceTestSessionMeta && practiceTestSet) {
+      flushModulePracticeQuestionTime();
+      const pausedSession = {
+        ...practiceTestSessionMeta,
+        status: "paused" as const,
+        currentIndex: currentPracticeIndex >= 0 ? currentPracticeIndex : 0,
+      };
+      setPracticeTestSessionMeta(pausedSession);
+      savePracticeTestSession(pausedSession);
+      navigate(`/practice-tests/${practiceTestSet.id}/start`);
+      return;
+    }
+
+    if (!isModulePracticeMode || !modulePracticeSessionMeta || !modulePracticeModule) {
+      navigate(backDestination);
+      return;
+    }
+
+    flushModulePracticeQuestionTime();
+    const pausedSession = {
+      ...modulePracticeSessionMeta,
+      status: "paused" as const,
+      currentIndex: currentPracticeIndex >= 0 ? currentPracticeIndex : 0,
+    };
+    setModulePracticeSessionMeta(pausedSession);
+    saveModulePracticeSession(pausedSession);
+    navigate("/modules");
+  };
+  const handleTimerExpiredSubmit = () => {
+    setIsTimerExpiredOpen(false);
+    if (isModulePracticeMode && modulePracticeAllowsChecking) {
+      handleModulePracticeReview();
+      return;
+    }
+    handleModulePracticeReview();
+  };
+  const displayedTimerSeconds =
+    isPracticeTestMode
+      ? practiceTestIsTimed
+        ? practiceTestActiveModule?.remainingSeconds ?? 0
+        : practiceTestActiveModule?.elapsedSeconds ?? elapsedSeconds
+      : isModulePracticeMode && modulePracticeSessionMeta?.settings.timed
+      ? modulePracticeSessionMeta.remainingSeconds ?? 0
+      : elapsedSeconds;
   const timerControls = (
     <>
       <Button
@@ -1215,17 +1939,19 @@ function Question() {
         {isTimerVisible ? <Eye className="h-5 w-5" /> : <EyeOff className="h-5 w-5" />}
       </Button>
       <span className="min-w-[5ch] text-center text-xl font-semibold tabular-nums">
-        {isTimerVisible ? formatTimer(elapsedSeconds) : "-:--"}
+        {isTimerVisible ? formatTimer(displayedTimerSeconds) : "-:--"}
       </span>
-      <Button
-        variant="ghost"
-        size="icon"
-        className="h-9 w-9"
-        onClick={() => setIsTimerPaused((prev) => !prev)}
-        title={isTimerPaused ? "Resume timer" : "Pause timer"}
-      >
-        {isTimerPaused ? <Play className="h-5 w-5" /> : <Pause className="h-5 w-5" />}
-      </Button>
+      {!isAssessmentMode && (
+        <Button
+          variant="ghost"
+          size="icon"
+          className="h-9 w-9"
+          onClick={() => setIsTimerPaused((prev) => !prev)}
+          title={isTimerPaused ? "Resume timer" : "Pause timer"}
+        >
+          {isTimerPaused ? <Play className="h-5 w-5" /> : <Pause className="h-5 w-5" />}
+        </Button>
+      )}
     </>
   );
   const questionInfoDialog = questionInfo ? (
@@ -1256,14 +1982,186 @@ function Question() {
       </DialogContent>
     </Dialog>
   ) : null;
+  const timerExpiredDialog = (
+    <AlertDialog open={isTimerExpiredOpen} onOpenChange={setIsTimerExpiredOpen}>
+      <AlertDialogContent>
+        <AlertDialogHeader>
+          <AlertDialogTitle>Time has expired</AlertDialogTitle>
+          <AlertDialogDescription>
+            {isPracticeTestMode
+              ? "On the real SAT, this module would end when time runs out. You can move to the next phase now or continue working."
+              : "On the real SAT, this module would auto-submit when time runs out. You can submit now or continue working."}
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <AlertDialogCancel onClick={() => setIsTimerExpiredOpen(false)}>
+            Continue working
+          </AlertDialogCancel>
+          <AlertDialogAction onClick={handleTimerExpiredSubmit}>
+            Submit module
+          </AlertDialogAction>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+  );
+  const handleAnswerSelectionChange = (answer: string) => {
+    setSelectedAnswer(answer);
+    if (isAssessmentMode) {
+      persistModulePracticeQuestionState((previous) => ({
+        ...previous,
+        answer,
+        status:
+          assessmentAllowsChecking &&
+          (previous.status === "incorrect" ||
+            previous.status === "correct-first" ||
+            previous.status === "correct-later")
+            ? previous.status
+            : answer
+              ? "answered"
+              : "unanswered",
+      }));
+      return;
+    }
+    localStorage.setItem(`${localStateKey}-answer`, answer);
+  };
+  const handleFreeResponseChange = (answer: string) => {
+    setFreeResponseAnswer(answer);
+    if (isAssessmentMode) {
+      persistModulePracticeQuestionState((previous) => ({
+        ...previous,
+        freeResponseAnswer: answer,
+        status:
+          assessmentAllowsChecking &&
+          (previous.status === "incorrect" ||
+            previous.status === "correct-first" ||
+            previous.status === "correct-later")
+            ? previous.status
+            : answer
+              ? "answered"
+              : "unanswered",
+      }));
+    }
+  };
+  const handleStrikeoutChange = (choiceIds: string[]) => {
+    setStruckOutChoiceIds(choiceIds);
+    if (!isAssessmentMode) return;
+    persistModulePracticeQuestionState((previous) => ({
+      ...previous,
+      struckOutChoiceIds: choiceIds,
+    }));
+  };
+  const modulePracticeNavigatorItems = useMemo(() => {
+    if (isPracticeTestMode && practiceTestStateSessionId) {
+      const navigatorItems = practiceSet
+        .slice(practiceTestCurrentModuleStartIndex, practiceTestCurrentModuleEndIndex + 1)
+        .map((item, idx) => ({ item, absoluteIndex: practiceTestCurrentModuleStartIndex + idx }));
+
+      return navigatorItems.map(({ item, absoluteIndex }, idx) => {
+        const storageId = item.storageId || `bank-${item.subject}-${item.sourceId || item.id}`;
+        const state = getPracticeTestQuestionState(practiceTestStateSessionId, storageId);
+        const answer = state.answer || state.freeResponseAnswer;
+        const status = practiceTestAllowsChecking
+          ? state.status === "correct-first" ||
+            state.status === "correct-later" ||
+            state.status === "incorrect"
+            ? state.status
+            : "unanswered"
+          : answer
+            ? "answered"
+            : "unanswered";
+
+        return {
+          key: `${item.subject}-${item.id}-${absoluteIndex}`,
+          label: item.moduleQuestionNumber ?? idx + 1,
+          status,
+          isFlagged: state.isMarkedForReview,
+          isCurrent: absoluteIndex === currentPracticeIndex,
+          onSelect: () => navigateToPracticeIndex(absoluteIndex),
+          title: `${item.moduleTitle || (item.subject === "math" ? "Math" : "Reading")} · Q${item.moduleQuestionNumber ?? idx + 1}`,
+        };
+      });
+    }
+
+    if (!isModulePracticeMode || !modulePracticeStateSessionId) return [];
+
+    return practiceSet.map((item, idx) => {
+      const storageId = item.storageId || `bank-${item.subject}-${item.sourceId || item.id}`;
+      const state = getModulePracticeQuestionState(modulePracticeStateSessionId, storageId);
+      const answer = item.subject === "math" || item.subject === "reading"
+        ? state.answer || state.freeResponseAnswer
+        : state.answer;
+      const status = modulePracticeAllowsChecking
+        ? state.status === "correct-first" ||
+          state.status === "correct-later" ||
+          state.status === "incorrect"
+          ? state.status
+          : "unanswered"
+        : answer
+          ? "answered"
+          : "unanswered";
+
+      return {
+        key: `${item.subject}-${item.id}`,
+        label: idx + 1,
+        status,
+        isFlagged: state.isMarkedForReview,
+        isCurrent: idx === currentPracticeIndex,
+        onSelect: () => navigateToPracticeIndex(idx),
+        title: `${item.subject === "math" ? "Math" : "Reading"} Q${item.id}`,
+      };
+    });
+  }, [
+    currentPracticeIndex,
+    isPracticeTestMode,
+    practiceTestAllowsChecking,
+    practiceTestStateSessionId,
+    practiceTestReviewPhase,
+    practiceTestCurrentModuleStartIndex,
+    practiceTestCurrentModuleEndIndex,
+    isModulePracticeMode,
+    modulePracticeAllowsChecking,
+    modulePracticeStateSessionId,
+    navigateToPracticeIndex,
+    practiceSet,
+  ]);
+  const practiceTestAdvanceLabel =
+    isPracticeTestMode && !canGoNext
+      ? practiceTestSessionMeta && practiceTestSessionMeta.activeModuleIndex === 1
+          ? "Take Break"
+          : practiceTestSessionMeta && practiceTestSessionMeta.activeModuleIndex === practiceTestSessionMeta.modules.length - 1
+            ? "Review"
+            : "Next Module"
+      : isModulePracticeMode && !canGoNext
+        ? "Review"
+        : "Next";
+  const handlePrimaryAdvance =
+    isPracticeTestMode && !canGoNext
+      ? handlePracticeTestPhaseAdvance
+      : isModulePracticeMode && !canGoNext
+        ? handleModulePracticeReview
+        : handleNext;
+  const practiceTestNavigatorTitle = practiceTestReviewPhase
+    ? practiceTestActiveModule?.moduleTitle || "Review Questions"
+    : practiceTestActiveModule?.moduleTitle || "Test Navigator";
+  const practiceTestNavigatorSubtitle = practiceTestReviewPhase
+    ? assessmentAllowsChecking
+      ? `${practiceTestModuleQuestionCount} questions in this module`
+      : `${practiceTestModuleQuestionCount} questions in this module · answered and unanswered only`
+    : assessmentAllowsChecking
+      ? `${practiceTestModuleQuestionCount} questions in this module`
+      : `${practiceTestModuleQuestionCount} questions in this module · answered and unanswered only`;
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
       {questionInfoDialog}
+      {isModulePracticeMode && modulePracticeSessionMeta?.settings.timed ? timerExpiredDialog : null}
       <QuestionNotesWindow
+        key={noteStorageKey}
         isOpen={isNoteWindowOpen}
-        onClose={() => setIsNoteWindowOpen(false)}
+        onClose={handleCloseNoteWindow}
         storageKey={noteStorageKey}
+        storageArea={noteStorageArea}
+        windowStateKey={noteWindowStateKey}
         onFocus={() => bringToFront("note")}
         zIndex={getZIndex("note")}
         constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
@@ -1275,14 +2173,42 @@ function Question() {
         >
           <div className="relative flex items-center justify-between gap-3" ref={topNavRef}>
             <div ref={topLeftRef} data-header-left className="flex-shrink-0">
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => navigate(backDestination)}
-              >
-                <ChevronLeft className={topShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-                {!topShouldCompress && "Home"}
-              </Button>
+              {isAssessmentMode ? (
+                <AlertDialog>
+                  <AlertDialogTrigger asChild>
+                    <Button variant="ghost" size="sm">
+                      <ChevronLeft className={topShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+                      {!topShouldCompress && "Save & Exit"}
+                    </Button>
+                  </AlertDialogTrigger>
+                  <AlertDialogContent>
+                    <AlertDialogHeader>
+                      <AlertDialogTitle>
+                        {isPracticeTestMode ? "Save and exit this practice test?" : "Save and exit this module?"}
+                      </AlertDialogTitle>
+                      <AlertDialogDescription>
+                        Your selected answers, notes, highlights, and marked questions will stay saved.
+                        {isPracticeTestMode
+                          ? "The current test session will pause until you come back."
+                          : "The timer will stop until you come back."}
+                      </AlertDialogDescription>
+                    </AlertDialogHeader>
+                    <AlertDialogFooter>
+                      <AlertDialogCancel>Keep working</AlertDialogCancel>
+                      <AlertDialogAction onClick={handleSaveAndExit}>Save and exit</AlertDialogAction>
+                    </AlertDialogFooter>
+                  </AlertDialogContent>
+                </AlertDialog>
+              ) : (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => navigate(backDestination)}
+                >
+                  <ChevronLeft className={topShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+                  {!topShouldCompress && "Home"}
+                </Button>
+              )}
             </div>
             {shouldPinTopTimerCenter && (
               <div ref={topTimerRef} className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2">
@@ -1321,8 +2247,14 @@ function Question() {
                 )}
                 {isReadingPassageAnnotatable && (
                   <Button
-                    variant={isAnnotationModeEnabled ? "default" : "outline"}
+                    variant="outline"
                     size="sm"
+                    className={cn(
+                      topShouldCompress ? "w-9 px-0" : "min-w-[112px]",
+                      isAnnotationModeEnabled
+                        ? "bg-[#B4E1FF] text-foreground hover:bg-[#95D4FF] hover:text-foreground"
+                        : "bg-background text-foreground",
+                    )}
                     onClick={() => setIsAnnotationModeEnabled((prev) => !prev)}
                     title={isAnnotationModeEnabled ? "Turn annotation mode off" : "Turn annotation mode on"}
                   >
@@ -1377,7 +2309,7 @@ function Question() {
                       ) : (
                         <Sun className="mr-2 h-4 w-4" />
                       )}
-                      Dark Mode
+                      {isDark ? "Light Mode" : "Dark Mode"}
                     </DropdownMenuCheckboxItem>
                     <DropdownMenuItem onClick={toggleFullscreen}>
                       {isFullscreen ? (
@@ -1400,7 +2332,7 @@ function Question() {
             >
               <Button variant="ghost" size="sm">
                 <ChevronLeft className="mr-1 h-4 w-4" />
-                Home
+                {isAssessmentMode ? "Save & Exit" : "Home"}
               </Button>
             </div>
             <div 
@@ -1462,6 +2394,8 @@ function Question() {
                     html={readingPassageHtml}
                     storageKey={annotationStorageKey}
                     enabled={isAnnotationModeEnabled}
+                    storageArea={noteStorageArea}
+                    persistNotes={shouldPersistAnnotationNotes}
                   />
                 ) : (
                   renderContent(stemContent)
@@ -1520,14 +2454,13 @@ function Question() {
                   <MultipleChoiceQuestion 
                     choices={currentQuestion.choices}
                     selectedAnswer={selectedAnswer}
-                    onAnswerChange={(answer) => {
-                      setSelectedAnswer(answer);
-                      localStorage.setItem(`${localStateKey}-answer`, answer);
-                    }}
-                    onCheck={handleCheck}
+                    onAnswerChange={handleAnswerSelectionChange}
+                    onCheck={assessmentAllowsChecking || !isAssessmentMode ? handleCheck : undefined}
                     strikeoutMode={strikeoutMode}
                     checkedAnswers={checkedAnswers}
                     questionId={is100Hard ? questionNumber : currentQuestion.uuid}
+                    struckOutChoiceIds={isAssessmentMode ? struckOutChoiceIds : undefined}
+                    onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
                   />
                 ) : (
                   <div className="space-y-3">
@@ -1535,7 +2468,7 @@ function Question() {
                     <Input
                       type="text"
                       value={freeResponseAnswer}
-                      onChange={(e) => setFreeResponseAnswer(e.target.value)}
+                      onChange={(e) => handleFreeResponseChange(e.target.value)}
                       placeholder="Enter your answer"
                       className="max-w-md"
                     />
@@ -1584,6 +2517,8 @@ function Question() {
                         html={readingPassageHtml}
                         storageKey={annotationStorageKey}
                         enabled={isAnnotationModeEnabled}
+                        storageArea={noteStorageArea}
+                        persistNotes={shouldPersistAnnotationNotes}
                       />
                       {showQuestionTextAboveChoices && readingQuestionSentence && (
                         <div className="mt-4">{renderContent(readingQuestionSentence, { emphasizeHeaders: false })}</div>
@@ -1597,6 +2532,8 @@ function Question() {
                           html={readingPassageHtml}
                           storageKey={annotationStorageKey}
                           enabled={isAnnotationModeEnabled}
+                          storageArea={noteStorageArea}
+                          persistNotes={shouldPersistAnnotationNotes}
                         />
                       ) : (
                         renderContent(stemContent)
@@ -1609,15 +2546,14 @@ function Question() {
                 <MultipleChoiceQuestion 
                   choices={currentQuestion.choices}
                   selectedAnswer={selectedAnswer}
-                  onAnswerChange={(answer) => {
-                    setSelectedAnswer(answer);
-                    localStorage.setItem(`${localStateKey}-answer`, answer);
-                  }}
-                  onCheck={handleCheck}
+                  onAnswerChange={handleAnswerSelectionChange}
+                  onCheck={assessmentAllowsChecking || !isAssessmentMode ? handleCheck : undefined}
                   strikeoutMode={strikeoutMode}
                   checkedAnswers={checkedAnswers}
                   questionId={is100Hard ? questionNumber : currentQuestion.uuid}
                   subject={subject}
+                  struckOutChoiceIds={isAssessmentMode ? struckOutChoiceIds : undefined}
+                  onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
                 />
               ) : (
                 <div className="space-y-3">
@@ -1625,7 +2561,7 @@ function Question() {
                   <Input
                     type="text"
                     value={freeResponseAnswer}
-                    onChange={(e) => setFreeResponseAnswer(e.target.value)}
+                    onChange={(e) => handleFreeResponseChange(e.target.value)}
                     placeholder="Enter your answer"
                     className="max-w-md"
                   />
@@ -1665,7 +2601,7 @@ function Question() {
                   : "justify-self-end"
               )}
             >
-              <PreviousAttemptsDialog attempts={currentProgress.attempts} />
+              {!isAssessmentMode && <PreviousAttemptsDialog attempts={currentProgress.attempts} />}
               {is100Hard ? (
                   <BankNavigationSheet
                     currentQuestion={questionNumber}
@@ -1681,6 +2617,27 @@ function Question() {
                     )}
                   />
               ) : effectivePracticeMode ? (
+                 isAssessmentMode ? (
+                      <ModulePracticeNavigationSheet
+                        buttonLabel={
+                          isPracticeTestMode
+                            ? practiceTestReviewPhase
+                              ? `Review ${practiceTestQuestionNumberInModule} of ${practiceTestModuleQuestionCount}`
+                              : `Question ${practiceTestQuestionNumberInModule} of ${practiceTestModuleQuestionCount}`
+                            : `Q${currentPracticeIndex + 1} · Module ${modulePracticeModule?.moduleNumber ?? ""}`
+                        }
+                        title={isPracticeTestMode ? practiceTestNavigatorTitle : modulePracticeModule?.publicTitle || "Module Navigator"}
+                        subtitle={isPracticeTestMode ? practiceTestNavigatorSubtitle : (
+                          modulePracticeAllowsChecking
+                            ? `${practiceSet.length} questions in this module`
+                            : `${practiceSet.length} questions · answered and unanswered only`
+                        )}
+                        items={modulePracticeNavigatorItems}
+                        isSplitScreenActive={isSplitScreenActive}
+                        splitPosition={splitPosition}
+                        statusMode={assessmentAllowsChecking ? "default" : "answered-unanswered"}
+                     />
+                 ) : (
                  isOfficialBank ? (
                      <OfficialPracticeNavigationSheet 
                         currentIndex={currentPracticeIndex}
@@ -1699,6 +2656,7 @@ function Question() {
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition} 
                      />
+                 )
                  )
               ) : (
                  <BankNavigationSheet
@@ -1725,38 +2683,46 @@ function Question() {
               className="ml-auto flex gap-2 shrink-0 justify-end"
               style={{ minWidth: shouldCompress ? undefined : '280px' }}
             >
-              <ExplanationWindow 
-                onSplitScreenChange={handleSplitScreenChange}
-                onSplitPositionChange={handleSplitPositionChange}
-                splitPosition={splitPosition}
-                compressed={shouldCompress}
-                onFocus={() => bringToFront('explanation')}
-                zIndex={getZIndex('explanation')}
-                constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
-                isSidebarred={sidebarredWindows.has('explanation')}
-                onSidebarToggle={handleSidebarToggle}
-                correctAnswer={currentQuestion?.correctAnswer}
-                rationale={currentQuestion?.rationale}
-                questionType={currentQuestion?.type}
-                choices={currentQuestion?.choices}
-                questionId={currentQuestion?.uuid || currentQuestion?.id}
-              />
-              <Button 
-                onClick={() => handleCheck()}
-                disabled={isCheckDisabled}
-                variant="outline"
-                className={cn("h-10 border-2 transition-colors", getCheckButtonClasses())}
-              >
-                <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-                {!shouldCompress && <span>Check</span>}
-              </Button>
+              {!isAssessmentMode && (
+                <ExplanationWindow 
+                  onSplitScreenChange={handleSplitScreenChange}
+                  onSplitPositionChange={handleSplitPositionChange}
+                  splitPosition={splitPosition}
+                  compressed={shouldCompress}
+                  onFocus={() => bringToFront('explanation')}
+                  zIndex={getZIndex('explanation')}
+                  constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+                  isSidebarred={sidebarredWindows.has('explanation')}
+                  onSidebarToggle={handleSidebarToggle}
+                  correctAnswer={currentQuestion?.correctAnswer}
+                  rationale={currentQuestion?.rationale}
+                  questionType={currentQuestion?.type}
+                  choices={currentQuestion?.choices}
+                  questionId={currentQuestion?.uuid || currentQuestion?.id}
+                />
+              )}
+              {(!isAssessmentMode || assessmentAllowsChecking) && (
+                <Button 
+                  onClick={() => handleCheck()}
+                  disabled={isCheckDisabled}
+                  variant="outline"
+                  className={cn("h-10 border-2 transition-colors", getCheckButtonClasses())}
+                >
+                  <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+                  {!shouldCompress && <span>Check</span>}
+                </Button>
+              )}
               <Button
-                onClick={handleNext}
-                disabled={!canGoNext}
+                onClick={handlePrimaryAdvance}
+                disabled={isAssessmentMode ? false : !canGoNext}
                 variant="outline"
                 className="h-10 transition-colors duration-200 ease-out"
               >
-                {!shouldCompress && <span>Next</span>}
+                {!shouldCompress && (
+                  <span>
+                    {practiceTestAdvanceLabel}
+                  </span>
+                )}
                 <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
               </Button>
             </div>
@@ -1767,16 +2733,20 @@ function Question() {
               className="absolute -left-[9999px] flex gap-2 whitespace-nowrap"
               style={{ visibility: 'hidden', pointerEvents: 'none' }}
             >
-              <Button variant="secondary" size="default">
-                <span className="mr-2 h-4 w-4">▶</span>
-                Explanation
-              </Button>
+              {!isAssessmentMode && (
+                <Button variant="secondary" size="default">
+                  <span className="mr-2 h-4 w-4">▶</span>
+                  Explanation
+                </Button>
+              )}
+              {(!isAssessmentMode || assessmentAllowsChecking) && (
+                <Button size="default">
+                  <Check className="mr-1 h-4 w-4" />
+                  <span>Check</span>
+                </Button>
+              )}
               <Button size="default">
-                <Check className="mr-1 h-4 w-4" />
-                <span>Check</span>
-              </Button>
-              <Button size="default">
-                <span>Next</span>
+                <span>{practiceTestAdvanceLabel}</span>
                 <ChevronRight className="ml-1 h-4 w-4" />
               </Button>
             </div>

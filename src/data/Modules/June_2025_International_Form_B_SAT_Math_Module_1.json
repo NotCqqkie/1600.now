@@ -6,24 +6,24 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "During a portion of a flight, a small airplane's cruising speed varied between 175 miles per hour and 195 miles per hour. Which inequality best represents this situation, where s is the cruising speed, in miles per hour; during this portion of the flight?",
+    "passage": "During a portion of a flight, a small airplane's cruising speed varied between 175 miles per hour and 195 miles per hour. Which inequality best represents this situation, where $s$ is the cruising speed, in miles per hour, during this portion of the flight?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$s\\le20$"
+        "text": "$s \\leq 20$"
       },
       {
         "label": "B",
-        "text": "$s\\le175$"
+        "text": "$s \\leq 175$"
       },
       {
         "label": "C",
-        "text": "$s\\le195$"
+        "text": "$s \\leq 195$"
       },
       {
         "label": "D",
-        "text": "$175\\le s\\le195$"
+        "text": "$175 \\leq s \\leq 195$"
       }
     ],
     "is_fill_in_blank": false,
@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "If 5 x = 9, what is the value of 20 x?",
+    "passage": "If $5x = 9$, what is the value of $20x$?",
     "question_text": null,
     "choices": [
       {
@@ -102,7 +102,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "The function f is defined by $f(x)=x^{3}+9$. What is the value of f (2)?",
+    "passage": "The function $f$ is defined by $f(x)=x^3+9$. What is the value of $f(2)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -117,7 +117,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "The function $g$ is defined by $g(x)=\\frac{x}{2}$. For what value of x does $g(x)=620$?",
+    "passage": "The function $g$ is defined by $g(x) = \\frac{x}{2}$. For what value of $x$ does $g(x) = 620$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -129,10 +129,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "The scatterplot shows the relationship between two variables, x and y.\nWhich of the following equations is the most appropriate linear model for the data shown?",
+    "passage": "The scatterplot shows the relationship between two variables, $x$ and $y$.\nWhich of the following equations is the most appropriate linear model for the data shown?",
     "question_text": null,
     "choices": [
       {
@@ -158,9 +158,9 @@
     "id": "9628151f-9763-4abc-8c66-9dc08f82f715_7",
     "images": [
       {
-        "src": "/images_labeled/Jun_25_IntlB_Math_M1_Q7_1.svg",
+        "src": "/images_labeled/9628151f-9763-4abc-8c66-9dc08f82f715_7_q_01_FIX.svg",
         "alt": "",
-        "local": "images_labeled/Jun_25_IntlB_Math_M1_Q7_1.svg"
+        "local": "images_labeled/9628151f-9763-4abc-8c66-9dc08f82f715_7_q_01_FIX.svg"
       }
     ]
   },
@@ -168,7 +168,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "June 2025 International Form B SAT Math Module 1",
     "passage": "A chemist combines water and isopropanol to make a mixture with a volume of 41 milliliters (mL). The volume of isopropanol in the mixture is 10 mL. What is the volume of water, in mL, in the mixture? (Assume that the volume of the mixture is the sum of the volumes of water and isopropanol before they were mixed.)",
@@ -186,7 +186,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "A clothing store buys shirts at a wholesale price of 4.00 dollars each and resells them each at a retail price that is 280% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 80% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
+    "passage": "A clothing store buys shirts at a wholesale price of $4.00 each and resells them at a retail price that is 280% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 80% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -230,10 +230,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 12,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "$PC=N(18-C)$\nThe given equation relates the variables P, N, and C. Which expression represents the value of C for distinct positive values of P and N?",
+    "passage": "The given equation relates the variables $P$, $N$, and $C$: $PC = N(18 - C)$. Which expression represents the value of $C$ for distinct positive values of $P$ and $N$?",
     "question_text": null,
     "choices": [
       {
@@ -242,15 +242,15 @@
       },
       {
         "label": "B",
-        "text": "$\\frac{PC}{18-C}$"
+        "text": "$\\frac{PC}{18 - C}$"
       },
       {
         "label": "C",
-        "text": "$\\frac{18N}{N+P}$"
+        "text": "$\\frac{18N}{N + P}$"
       },
       {
         "label": "D",
-        "text": "$\\frac{18N}{P+1}$"
+        "text": "$\\frac{18N}{P + 1}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -265,7 +265,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "A company has a customer loyalty program. In January 2018, there were 200 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 4% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where $m\\le24$?",
+    "passage": "A company has a customer loyalty program. In January 2018, there were 200 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 4% greater than the total number enrolled the previous month. Which equation gives the total number of customers, $c$, enrolled in the company's loyalty program $m$ months after January 2018, where $m \\leq 24$?",
     "question_text": null,
     "choices": [
       {
@@ -297,7 +297,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "The function $f(t)=8,000(2)^{\\frac{t}{300}}$ gives the number of bacteria in a population t minutes after an initial observation. How much time, in minutes, does it take for the number of bacteria in the population to double?",
+    "passage": "The function $f(t)=8000(2)^{\\frac{t}{300}}$ gives the number of bacteria in a population $t$ minutes after an initial observation. How much time, in minutes, does it take for the number of bacteria in the population to double?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -341,10 +341,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "$If 3x^{2}-6x-30=0, what is the value ofx^{2}-2x$?",
+    "passage": "If $3x^2 - 6x - 30 = 0$, what is the value of $x^2 - 2x$?",
     "question_text": null,
     "choices": [
       {
@@ -376,7 +376,7 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "The function f is defined by $f(x)=(x-4)(x-11)(x+k)$, where k is a constant. In the xy-plane, the graph of $y=f(x)$ passes through the point $(-2,0)$. What is the value of f $(0)$?",
+    "passage": "The function $f$ is defined by $f(x)=(x-4)(x-11)(x+k)$, where $k$ is a constant. In the $xy$-plane, the graph of $y=f(x)$ passes through the point $(-2,0)$. What is the value of $f(0)$?",
     "question_text": null,
     "choices": [
       {
@@ -408,24 +408,24 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "Line k is shown in the xy-plane. Line j (not shown) is perpendicular to line k and passes through the point $(-15,-28)$. Which equation defines line j?",
+    "passage": "Line $k$ is shown in the $xy$-plane. Line $j$ (not shown) is perpendicular to line $k$ and passes through the point $(-15, -28)$. Which equation defines line $j$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$y=\\frac{4}{3}x-8$"
+        "text": "$y=\\frac{4}{3}x - 8$"
       },
       {
         "label": "B",
-        "text": "$y=\\frac{4}{3}x-48$"
+        "text": "$y=\\frac{4}{3}x - 48$"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{3}{4}x-8$"
+        "text": "$y=\\frac{3}{4}x - 8$"
       },
       {
         "label": "D",
-        "text": "$y=\\frac{3}{4}x-48$"
+        "text": "$y=\\frac{3}{4}x - 48$"
       }
     ],
     "is_fill_in_blank": false,
@@ -434,9 +434,9 @@
     "id": "9628151f-9763-4abc-8c66-9dc08f82f715_18",
     "images": [
       {
-        "src": "/images_labeled/Jun_25_IntlB_Math_M1_Q18_1.svg",
+        "src": "/images_labeled/9628151f-9763-4abc-8c66-9dc08f82f715_18_q_01_FIX.svg",
         "alt": "",
-        "local": "images_labeled/Jun_25_IntlB_Math_M1_Q18_1.svg"
+        "local": "images_labeled/9628151f-9763-4abc-8c66-9dc08f82f715_18_q_01_FIX.svg"
       }
     ]
   },
@@ -444,10 +444,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "In right triangle ABC, angles A and B are acute, side AC has a length of 23.2, and $TanB=\\frac{1}{7}$. What is the length of side BC, rounded to the nearest tenth?",
+    "passage": "In right triangle $ABC$, angles $A$ and $B$ are acute, side $AC$ has a length of 23.2, and $\\tan B=\\frac{1}{7}$. What is the length of side $BC$, rounded to the nearest tenth?",
     "question_text": null,
     "choices": [
       {
@@ -476,7 +476,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "June 2025 International Form B SAT Math Module 1",
     "passage": "A rectangular banner has an area of 3,500 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 40%. What is the area of the copy, in square inches?",
@@ -508,7 +508,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 21,
     "test_name": "June 2025 International Form B SAT Math Module 1",
     "passage": "$f(x)=(x-1)^{2}+7$\nWhat is the minimum value of the given function?",
@@ -543,7 +543,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "June 2025 International Form B SAT Math Module 1",
-    "passage": "Point F lies on a unit circle in the xy-plane and has coordinates $(1,0)$. Point G is the center of the circle and has coordinates $(0,0).$ Point H also lies on the circle and has coordinates $(-1,y)$, where $y$ is a constant. Which of the following could be the positive measure of angle FGH, in radians?",
+    "passage": "Point $F$ lies on a unit circle in the $xy$-plane and has coordinates $(1,0)$. Point $G$ is the center of the circle and has coordinates $(0,0)$. Point $H$ also lies on the circle and has coordinates $(-1,y)$, where $y$ is a constant. Which of the following could be the positive measure of angle $FGH$, in radians?",
     "question_text": null,
     "choices": [
       {

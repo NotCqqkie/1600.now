@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "Line * r * in the * xy *-plane has a slope of 2 and passes through the point (0, 12). Which equation defines line * r *?",
+    "passage": "Line $r$ in the $xy$-plane has a slope of 2 and passes through the point (0, 12). Which equation defines line $r$?",
     "question_text": null,
     "choices": [
       {
@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "In the figure, line * p * is parallel to line * q *, and line * t * intersects both lines. What is the value of* x * + 142?",
+    "passage": "In the figure, line $p$ is parallel to line $q$, and line $t$ intersects both lines. What is the value of $x + 142$?",
     "question_text": null,
     "choices": [
       {
@@ -77,7 +77,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "The * y *-intercept of the graph of * y *= * x * 2 + 38 in the * xy *-plane is (0, * y *). What is the value of * y *?",
+    "passage": "The $y$-intercept of the graph of $y = x^2 + 38$ in the $xy$-plane is $(0, y)$. What is the value of $y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -92,7 +92,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "A large square has an area of 36 square centimeters (cm 2). Small squares of area 4 cm 2 are cut out of the large square one by one. Which function * f * gives the area of the resulting figure, in cm 2, after * x * small squares are cut out?",
+    "passage": "A large square has an area of 36 square centimeters (cm²). Small squares of area 4 cm² are cut out of the large square one by one. Which function $f$ gives the area of the resulting figure, in cm², after $x$ small squares are cut out?",
     "question_text": null,
     "choices": [
       {
@@ -121,7 +121,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 5,
     "test_name": "August 2024 US Form B SAT Math Module 1",
     "passage": "The shaded region shown in the graph represents all the solutions to which inequality?",
@@ -129,19 +129,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x\\le33$"
+        "text": "$x \\leq 33$"
       },
       {
         "label": "B",
-        "text": "$x\\ge33$"
+        "text": "$x \\geq 33$"
       },
       {
         "label": "C",
-        "text": "$y\\le33$"
+        "text": "$y \\leq 33$"
       },
       {
         "label": "D",
-        "text": "$y\\ge33$"
+        "text": "$y \\geq 33$"
       }
     ],
     "is_fill_in_blank": false,
@@ -163,7 +163,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "How many solutions does the equation 5* x * +3 = 5* x * +7 have?",
+    "passage": "How many solutions does the equation $5x + 3 = 5x + 7$ have?",
     "question_text": null,
     "choices": [
       {
@@ -195,7 +195,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "$h(x)=x+b$\nFor the linear function * h, b * is a constant and * h *(0)= 21. What is the value of * b? *",
+    "passage": "$h(x)=x+b$\nFor the linear function $h$, $b$ is a constant and $h(0)= 21$. What is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -210,7 +210,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "The function * g * is defined by* g(** x **) *= 2* x * - 148. For what value of * x * does * g(** x **) *= 76?",
+    "passage": "The function $g$ is defined by $g(x) = 2x - 148$. For what value of $x$ does $g(x) = 76$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -222,7 +222,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Probability and conditional probability",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "August 2024 US Form B SAT Math Module 1",
     "passage": "A district school board in a certain state is proposing a change to the time school starts for all high schools in the district. A sample of 353 high school students was selected at random from all high school students in the district. The selected students were asked whether they approved of the proposed change, and 300 students responded that they did not approve. Which of the following is the largest population to which the results of the survey can be generalized?",
@@ -254,10 +254,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "The Mars Perseverance rover is a robot designed to collect samples of rock and soil. During an experiment, the rover moves at a constant speed on a straight path toward a designated target. The equation * y ** *= 390 - 142* x * gives the rover's remaining distance from its target * y **, * in meters, * x * hours after the start of the experiment. What is the best interpretation of 390 in this context?",
+    "passage": "The Mars Perseverance rover is a robot designed to collect samples of rock and soil. During an experiment, the rover moves at a constant speed on a straight path toward a designated target. The equation $ y = 390 - 142x $ gives the rover's remaining distance from its target $ y $, in meters, $ x $ hours after the start of the experiment. What is the best interpretation of 390 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -286,10 +286,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "The graph of a polynomial function * y=f(** x **) * in the* xy *-plane passes through the point (8,9). What is the value of * f *(8)?",
+    "passage": "The graph of a polynomial function $ y = f(x) $ in the $ xy $-plane passes through the point (8,9). What is the value of $ f(8) $?",
     "question_text": null,
     "choices": [
       {
@@ -318,7 +318,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Inference from sample statistics and margin of error",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 12,
     "test_name": "August 2024 US Form B SAT Math Module 1",
     "passage": "A company that produces only one type of item wants to estimate the percent of the items produced in a typical week that are defective. A random sample of 400 of the items produced in a certain week were tested. Based on the sample, it is estimated that 8.5% of all items produced by the company in this week are defective, with an associated margin of error of 2.73%. Based on the estimate and associated margin of error, which of the following is the most appropriate conclusion about all items produced by the company during this week?",
@@ -353,7 +353,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "The graph of the linear equation 4* x * + * By * = 12 is shown, where * B *is a constant. What is the value of * B *?",
+    "passage": "The graph of the linear equation $4x + By = 12$ is shown, where $B$ is a constant. What is the value of $B$?",
     "question_text": null,
     "choices": [
       {
@@ -421,10 +421,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 15,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "$x^{2}+y+3=3$\n$8x+16-y=0$\nThe solution to the given system of equations is (* x **, y *). What is the value of * x *?",
+    "passage": "$x^{2}+y+3=3$\n$8x+16-y=0$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -433,15 +433,15 @@
       },
       {
         "label": "B",
-        "text": "-4"
+        "text": "$-4$"
       },
       {
         "label": "C",
-        "text": "2"
+        "text": "$2$"
       },
       {
         "label": "D",
-        "text": "8"
+        "text": "$8$"
       }
     ],
     "is_fill_in_blank": false,
@@ -453,10 +453,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 16,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to $\\frac{20\\pi^{2}}{\\pi^{2}-x^{2}}-\\frac{20\\pi}{x+\\pi}$, where * x * >* π *?",
+    "passage": "Which expression is equivalent to $\\frac{20\\pi^{2}}{\\pi^{2}-x^{2}}-\\frac{20\\pi}{x+\\pi}$, where $x > \\pi$?",
     "question_text": null,
     "choices": [
       {
@@ -485,10 +485,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "The equation * y ** *= -4.9(* x *-9.1) 2 + 10,700 gives the estimated height above ground, * y *, in meters, of a plane, where * x * is the number of seconds since it started a parabolic maneuver. If this equation is graphed in the * xy *-plane, which of the following is the best interpretation of the vertex of the graph?",
+    "passage": "The equation $y = -4.9(x - 9.1)^2 + 10,700$ gives the estimated height above ground, $y$, in meters, of a plane, where $x$ is the number of seconds since it started a parabolic maneuver. If this equation is graphed in the $xy$-plane, which of the following is the best interpretation of the vertex of the graph?",
     "question_text": null,
     "choices": [
       {
@@ -517,10 +517,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "In the triangle shown, * RS *= $\\sqrt{157}$. What is the value of sin * R *?",
+    "passage": "In the triangle shown, $ RS = \\sqrt{157} $. What is the value of $\\sin R$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -539,27 +539,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "The figure shown is a right circular cylinder with a radius of* r * and height of * h *. A second right circular cylinder (not shown) has a volume that is 576 times as large as the volume of the cylinder shown. Which of the following could represent the radius * R *, in terms of * r *, and the height* H *, in terms of h, of the second cylinder?",
+    "passage": "The figure shown is a right circular cylinder with a radius of $r$ and height of $h$. A second right circular cylinder (not shown) has a volume that is 576 times as large as the volume of the cylinder shown. Which of the following could represent the radius $R$, in terms of $r$, and the height $H$, in terms of $h$, of the second cylinder?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$R=9randH=8h$"
+        "text": "$R=9r$ and $H=8h$"
       },
       {
         "label": "B",
-        "text": "$R=9randH=64h$"
+        "text": "$R=9r$ and $H=64h$"
       },
       {
         "label": "C",
-        "text": "$R=8randH=9h$"
+        "text": "$R=8r$ and $H=9h$"
       },
       {
         "label": "D",
-        "text": "$R=64randH=9h$"
+        "text": "$R=64r$ and $H=9h$"
       }
     ],
     "is_fill_in_blank": false,
@@ -581,7 +581,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "$(x-3)^{2}+(y+7)^{2}=25$\nThe given equation represents circle * P * in the * xy *-plane. Circle* Q * has a center that is 1 unit to the right of and 2 units below the center of circle * P *. Circle * Q * has a diameter that is double the diameter of circle * P *. Which equation represents circle * Q *?",
+    "passage": "$(x-3)^{2}+(y+7)^{2}=25$\nThe given equation represents circle $P$ in the $xy$-plane. Circle $Q$ has a center that is 1 unit to the right of and 2 units below the center of circle $P$. Circle $Q$ has a diameter that is double the diameter of circle $P$. Which equation represents circle $Q$?",
     "question_text": null,
     "choices": [
       {
@@ -610,10 +610,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "$(x-2)-8(y+3)=123$\n$(x-2) +8(y+3)=432$\nThe solution to the given system of equations is (* x **, y *). What is the value of 10(* x * -2)?",
+    "passage": "$(x - 2) - 8(y + 3) = 123$\n$(x - 2) + 8(y + 3) = 432$\nThe solution to the given system of equations is $(x, y)$. What is the value of $10(x - 2)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -625,10 +625,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "August 2024 US Form B SAT Math Module 1",
-    "passage": "On average, a certain tree grows 51 centimeters every * m * months. At this rate, which expression represents the number of centimeters, on average, the tree grows every * k * years?",
+    "passage": "On average, a certain tree grows 51 centimeters every $m$ months. At this rate, which expression represents the number of centimeters, on average, the tree grows every $k$ years?",
     "question_text": null,
     "choices": [
       {
