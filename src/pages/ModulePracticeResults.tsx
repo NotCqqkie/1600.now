@@ -1,8 +1,9 @@
 import { useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ArrowLeft, ArrowRight, ChevronDown, Clock3 } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, Clock3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { getPracticeModule } from "@/data/modulePracticeBank";
 import {
@@ -35,6 +36,10 @@ const statusClasses = (question: ModulePracticeQuestionResult) => {
 };
 
 const answerLabel = (answer: string) => (answer?.trim() ? answer : "No answer");
+const getQuestionCorrectnessRank = (question: ModulePracticeQuestionResult) => {
+  if (!question.isAnswered) return -1;
+  return question.isCorrect ? 1 : 0;
+};
 const getRenderedContentHtml = (
   subject: "math" | "reading",
   content: string,
@@ -51,6 +56,8 @@ const ModulePracticeResults = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
   const [searchParams] = useSearchParams();
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(() => new Set());
+  const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
+  const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
   const sessionId = searchParams.get("session");
   const module = useMemo(
     () => (moduleId ? getPracticeModule(moduleId) : null),
@@ -139,6 +146,19 @@ const ModulePracticeResults = () => {
     .sort((left, right) => right.timeSpentSeconds - left.timeSpentSeconds);
   const highestTimeQuestions = timedQuestions.slice(0, 3);
   const lowestTimeQuestions = [...timedQuestions].reverse().slice(0, 3);
+  const orderedQuestions = useMemo(() => {
+    const directionMultiplier = questionSortDirection === "asc" ? 1 : -1;
+
+    return [...result.questions].sort((left, right) => {
+      if (questionSortMode === "correct") {
+        const correctnessDifference =
+          (getQuestionCorrectnessRank(left) - getQuestionCorrectnessRank(right)) * directionMultiplier;
+        if (correctnessDifference !== 0) return correctnessDifference;
+      }
+
+      return (left.questionNumber - right.questionNumber) * directionMultiplier;
+    });
+  }, [questionSortDirection, questionSortMode, result.questions]);
 
   const scrollToQuestion = (storageId: string) => {
     setExpandedQuestions((previous) => {
@@ -325,10 +345,43 @@ const ModulePracticeResults = () => {
 
       <Card className="border-border/70">
         <CardHeader className="pb-4">
-          <CardTitle className="text-2xl tracking-[-0.03em]">Question Breakdown</CardTitle>
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+            <CardTitle className="text-2xl tracking-[-0.03em]">Question Breakdown</CardTitle>
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+              <div className="w-full sm:w-[180px]">
+                <Select
+                  value={questionSortMode}
+                  onValueChange={(value: "seen" | "correct") => setQuestionSortMode(value)}
+                >
+                  <SelectTrigger>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="seen">Order Seen</SelectItem>
+                    <SelectItem value="correct">Correct</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+              <Button
+                type="button"
+                variant="outline"
+                className="gap-2 bg-transparent"
+                onClick={() =>
+                  setQuestionSortDirection((previous) => (previous === "asc" ? "desc" : "asc"))
+                }
+              >
+                {questionSortDirection === "asc" ? (
+                  <ArrowUp className="h-4 w-4" />
+                ) : (
+                  <ArrowDown className="h-4 w-4" />
+                )}
+                {questionSortDirection === "asc" ? "Ascending" : "Descending"}
+              </Button>
+            </div>
+          </div>
         </CardHeader>
         <CardContent className="space-y-0">
-          {result.questions.map((question, index) => {
+          {orderedQuestions.map((question, index) => {
             const sourceQuestion = module.questions.find(
               (entry) => entry.bankQuestion.stableId === question.storageId,
             )?.bankQuestion;
@@ -340,7 +393,7 @@ const ModulePracticeResults = () => {
                 id={`question-review-${question.storageId}`}
                 className={cn(
                   "py-5",
-                  index !== result.questions.length - 1 && "border-b border-border/60",
+                  index !== orderedQuestions.length - 1 && "border-b border-border/60",
                 )}
               >
                 <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">

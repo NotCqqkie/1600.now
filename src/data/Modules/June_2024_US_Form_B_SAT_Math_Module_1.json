@@ -6,24 +6,24 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to 7 xy (2x 2 + 8y)?",
+    "passage": "Which expression is equivalent to $7xy(2x^2 + 8y)$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "x 3 y + 15 xy 2"
+        "text": "$14x^3 y + 56xy^2$"
       },
       {
         "label": "B",
-        "text": "x 2 y + 8 y"
+        "text": "$14x^2 y + 56xy$"
       },
       {
         "label": "C",
-        "text": "x 2 y + 56 xy"
+        "text": "$14x^2 y + 56xy$"
       },
       {
         "label": "D",
-        "text": "x 3 y + 56 xy 2"
+        "text": "$14x^3 y + 56xy^2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -35,27 +35,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 2,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "Which expression is equivalent to 7 x 5 − 5 x 4 + 9 x 3?",
+    "passage": "Which expression is equivalent to $7x^5 - 5x^4 + 9x^3$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "x 4 (7 x − 5)"
+        "text": "$x^4(7x - 5)$"
       },
       {
         "label": "B",
-        "text": "x 3 (7 x 2 − 5 x + 9)"
+        "text": "$x^3(7x^2 - 5x + 9)$"
       },
       {
         "label": "C",
-        "text": "x 3 (7 x 2 − 5 x + 1)"
+        "text": "$x^3(7x^2 - 5x + 1)$"
       },
       {
         "label": "D",
-        "text": "x 5 (−5 x 4 + 9 x 3 + 1)"
+        "text": "$x^5(-5x^4 + 9x^3 + 1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -70,24 +70,24 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The height of a certain vehicle is 76 inches. The vehicle’s length is 4 times its height. Which of the following systems of equations represents this situation, where x is the length of the vehicle, in inches, and y is the height of the vehicle, in inches?",
+    "passage": "The height of a certain vehicle is 76 inches. The vehicle’s length is 4 times its height. Which of the following systems of equations represents this situation, where $x$ is the length of the vehicle, in inches, and $y$ is the height of the vehicle, in inches?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "x = 4 y\nx = 76"
+        "text": "$x = 4y$\n$x = 76$"
       },
       {
         "label": "B",
-        "text": "x = 4 y\ny = 76"
+        "text": "$x = 4y$\n$y = 76$"
       },
       {
         "label": "C",
-        "text": "y = 4 x\nx = 76"
+        "text": "$y = 4x$\n$x = 76$"
       },
       {
         "label": "D",
-        "text": "y = 4 x\ny = 76"
+        "text": "$y = 4x$\n$y = 76$"
       }
     ],
     "is_fill_in_blank": false,
@@ -102,24 +102,24 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "For the linear function f, the graph of y = f(x) in the xy -plane has a slope of 51 and passes through the point (0, 0). Which equation defines f?",
+    "passage": "For the linear function $f$, the graph of $y = f(x)$ in the $xy$-plane has a slope of 51 and passes through the point $(0, 0)$. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "f(x) = 51 x"
+        "text": "$f(x) = 51x$"
       },
       {
         "label": "B",
-        "text": "f(x) = 34 x"
+        "text": "$f(x) = 34x$"
       },
       {
         "label": "C",
-        "text": "f(x) = 17 x"
+        "text": "$f(x) = 17x$"
       },
       {
         "label": "D",
-        "text": "f(x) = x"
+        "text": "$f(x) = x$"
       }
     ],
     "is_fill_in_blank": false,
@@ -134,7 +134,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The function g is defined by g(x) = $\\frac{8}{9}x$ - $\\frac{4}{9}$. What is the value of g (18)?",
+    "passage": "The function g is defined by g(x) = $\\frac{8}{9}x - \\frac{4}{9}$. What is the value of g(18)?",
     "question_text": null,
     "choices": [
       {
@@ -163,10 +163,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 6,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "$\\frac{5}{2}x$ - $\\frac{1}{5}y$ =48 x +2 y =-12\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "passage": "$\\frac{5}{2}x - \\frac{1}{5}y = 48$\n$x + 2y = -12$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
     "question_text": null,
     "choices": [
       {
@@ -198,7 +198,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The function f is defined by f(x) = x 2 + x + 31. What is the value of f (2)?",
+    "passage": "The function $f$ is defined by $f(x) = x^2 + x + 31$. What is the value of $f(2)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -213,7 +213,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "f(x) = 8 x + 4\nThe function f gives the estimated height, in feet, of a willow tree x years after its height was first measured. Which statement is the best interpretation of 4 in this context?",
+    "passage": "$f(x) = 8x + 4$\nThe function $f$ gives the estimated height, in feet, of a willow tree $x$ years after its height was first measured. Which statement is the best interpretation of 4 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -245,7 +245,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "In the xy-plane, line k has a slope of -6 and a y -intercept of (0,48). What is the x -coordinate of the x -intercept of line k?",
+    "passage": "In the $xy$-plane, line $k$ has a slope of $-6$ and a $y$-intercept of $(0,48)$. What is the $x$-coordinate of the $x$-intercept of line $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -257,10 +257,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The table gives the perimeters of similar triangles TUV and XYZ, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 9.\nWhat is the length of $\\overline{XY}$?",
+    "passage": "The table gives the perimeters of similar triangles $TUV$ and $XYZ$, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 9.\nWhat is the length of $\\overline{XY}$?",
     "question_text": null,
     "choices": [
       {
@@ -299,7 +299,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "If 4(5-7 x) + 3 = 3(5-7 x) +15. what is the value of 5 - 7 x?",
+    "passage": "If $4(5 - 7x) + 3 = 3(5 - 7x) + 15$, what is the value of $5 - 7x$?",
     "question_text": null,
     "choices": [
       {
@@ -328,10 +328,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 12,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "x + 48 = y\n(x + 48) 2 = y\nA solution to the given system of equations is (x,y). What is a possible value of x?",
+    "passage": "$x + 48 = y$\n$(x + 48)^2 = y$\nA solution to the given system of equations is $(x,y)$. What is a possible value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -360,27 +360,27 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "A circle in the xy -plane has the equation (x - 14) 2 + (y - k) 2 = 81. Which of the following gives the center of the circle and its radius?",
+    "passage": "$A$ circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 81$. Which of the following gives the center of the circle and its radius?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The center is at (14, k) and the radius is 9."
+        "text": "The center is at $(14, k)$ and the radius is 9."
       },
       {
         "label": "B",
-        "text": "The center is at (k, 14)and the radius is 9."
+        "text": "The center is at $(k, 14)$ and the radius is 9."
       },
       {
         "label": "C",
-        "text": "The center is at (14, k)and the radius is 81."
+        "text": "The center is at $(14, k)$ and the radius is 81."
       },
       {
         "label": "D",
-        "text": "The center is at (k, 14)and the radius is 81."
+        "text": "The center is at $(k, 14)$ and the radius is 81."
       }
     ],
     "is_fill_in_blank": false,
@@ -395,7 +395,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The town of Fillmore is planning its annual fireworks show. The equation y = -16 (x - 6.9) 2 + 762 gives the estimated height y, in feet, of a type of firework x seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the xy-plane?",
+    "passage": "The town of Fillmore is planning its annual fireworks show. The equation $y = -16 (x - 6.9)^2 + 762$ gives the estimated height $y$, in feet, of a type of firework $x$ seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -427,7 +427,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The graph of y = f (x) is shown where f(x) = $αx3+ bx2+ cx + d$ and $α,b,c,$ and $d$ are constants. For how many distinct values of x does f(x) =0?",
+    "passage": "The graph of $y = f(x)$ is shown where $f(x) = \\alpha x^3 + bx^2 + cx + d$ and $\\alpha, b, c,$ and $d$ are constants. For how many distinct values of $x$ does $f(x) = 0$?",
     "question_text": null,
     "choices": [
       {
@@ -471,19 +471,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "sin 57°"
+        "text": "$\\sin 57^\\circ$"
       },
       {
         "label": "B",
-        "text": "$\\frac{18}{sin57^\\circ}$"
+        "text": "$\\frac{18}{\\sin 57^\\circ}$"
       },
       {
         "label": "C",
-        "text": "cos 57°"
+        "text": "$\\cos 57^\\circ$"
       },
       {
         "label": "D",
-        "text": "$\\frac{18}{cos57^\\circ}$"
+        "text": "$\\frac{18}{\\cos 57^\\circ}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -502,10 +502,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The product of a positive number x and the number that is 13 less than x is equal to 378. What is the value of x?",
+    "passage": "The product of a positive number $x$ and the number that is 13 less than $x$ is equal to 378. What is the value of $x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -520,24 +520,24 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "Point O is the center of a unit circle in the xy -plane, and its coordinates are (0,0). Point A lies on the unit circle, and its coordinates are (0,1). Point P on the unit circle is obtained by rotating point A $\\frac{7\\pi}{6}$ radians about the origin in the counterclockwise direction. What are the coordinates of point P?",
+    "passage": "Point O is the center of a unit circle in the $xy$-plane, and its coordinates are $(0,0)$. Point A lies on the unit circle, and its coordinates are $(0,1)$. Point P on the unit circle is obtained by rotating point A $\\frac{7\\pi}{6}$ radians about the origin in the counterclockwise direction. What are the coordinates of point P?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$（-\\frac{\\sqrt{3}}{2}，-\\frac{1}{2}）$"
+        "text": "$\\left(-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2}\\right)$"
       },
       {
         "label": "B",
-        "text": "$（-\\frac{1}{2}，-\\frac{\\sqrt{3}}{2}）$"
+        "text": "$\\left(-\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)$"
       },
       {
         "label": "C",
-        "text": "$（-\\frac{\\sqrt{3}}{2}，\\frac{1}{2}）$"
+        "text": "$\\left(-\\frac{\\sqrt{3}}{2}, \\frac{1}{2}\\right)$"
       },
       {
         "label": "D",
-        "text": "$（\\frac{1}{2}，-\\frac{\\sqrt{3}}{2}）$"
+        "text": "$\\left(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -552,7 +552,7 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "In the figure, AC = CD. The measure of angle EBC is 42°, and the measure of angle ACD is 108°. What is the value of x?",
+    "passage": "In the figure, $AC = CD$. The measure of angle $EBC$ is 42°, and the measure of angle $ACD$ is 108°. What is the value of $x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -574,7 +574,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "The positive number a is 3,900% of the number c, and c is 25% of the number b. If a − b = wc, where w is a constant, what is the value of w?",
+    "passage": "The positive number $a$ is 3,900% of the number $c$, and $c$ is 25% of the number $b$. If $a - b = wc$, where $w$ is a constant, what is the value of $w$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -589,7 +589,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "June 2024 US Form B SAT Math Module 1",
-    "passage": "Line j is defined by 3 x + 4 y = 28. Line k is parallel to line j in the xy -plane. An equation of line k is 24 x + ry = 24, where r is a constant. If line k passes through the point (0, b), what is the value of b?",
+    "passage": "Line $j$ is defined by $3x + 4y = 28$. Line $k$ is parallel to line $j$ in the $xy$-plane. An equation of line $k$ is $24x + ry = 24$, where $r$ is a constant. If line $k$ passes through the point $(0, b)$, what is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -601,7 +601,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "June 2024 US Form B SAT Math Module 1",
     "passage": "The dot plot shows the distribution of capacity for a set of capacitors, set A, which a researcher used for a certain experiment. For another experiment, the researcher used a different set of capacitors, set B. Set B has the same number of capacitors as set A but the capacity of each capacitor of set B is 13 microfarads (μF) greater than the capacity of each respective capacitor in set A. Which of the following is true about the capacities of the capacitors in set B?",

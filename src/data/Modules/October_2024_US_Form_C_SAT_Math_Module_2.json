@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "X 2 +100=0\nHow many distinct real solutions does the given equation have?",
+    "passage": "$x^2 + 100 = 0$\nHow many distinct real solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {
@@ -74,27 +74,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "A plant nursery classifies a perennial flower species as tall if its typical height when fully grown is more than 100 centimeters. Each of the following inequalities represents the possible heights h, in centimeters, for a specific perennial flower species when fully grown. Which inequality represents the possible heights h, in centimeters, for a tall perennial flower species?",
+    "passage": "A plant nursery classifies a perennial flower species as tall if its typical height when fully grown is more than 100 centimeters. Each of the following inequalities represents the possible heights $h$, in centimeters, for a specific perennial flower species when fully grown. Which inequality represents the possible heights $h$, in centimeters, for a tall perennial flower species?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "107<h< 158"
+        "text": "$107 < h < 158$"
       },
       {
         "label": "B",
-        "text": "<h< 100"
+        "text": "$50 < h < 100$"
       },
       {
         "label": "C",
-        "text": "<h< 95"
+        "text": "$40 < h < 95$"
       },
       {
         "label": "D",
-        "text": "16< h< 91"
+        "text": "$16 < h < 91$"
       }
     ],
     "is_fill_in_blank": false,
@@ -106,10 +106,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "3y=8x+ 18\n-3y=7x-26\nThe solution to the given system of equations is (x, y). What is the value of 30x?",
+    "passage": "$3y=8x+18$\n$-3y=7x-26$\nThe solution to the given system of equations is $(x, y)$. What is the value of $30x$?",
     "question_text": null,
     "choices": [
       {
@@ -170,10 +170,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 6,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "y=5x+7\ny=-4x-11\nThe solution to the given system of equations is (x, y). What is the value of y?",
+    "passage": "The solution to the given system of equations is $ (x, y) $. What is the value of $ y $?",
     "question_text": null,
     "choices": [
       {
@@ -202,7 +202,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 7,
     "test_name": "October 2024 US Form C SAT Math Module 2",
     "passage": "Which of the following equations has exactly one solution?",
@@ -210,19 +210,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{44}+x=x$"
+        "text": "$\\frac{1}{44} + x = x$"
       },
       {
         "label": "B",
-        "text": "$\\frac{1}{44}+x$ $=-x-\\frac{1}{44}$"
+        "text": "$\\frac{1}{44} + x = -x - \\frac{1}{44}$"
       },
       {
         "label": "C",
-        "text": "$\\frac{1}{44}-x=\\frac{1}{44}-x$"
+        "text": "$\\frac{1}{44} - x = \\frac{1}{44} - x$"
       },
       {
         "label": "D",
-        "text": "$\\frac{1}{44}-x = -x$"
+        "text": "$\\frac{1}{44} - x = -x$"
       }
     ],
     "is_fill_in_blank": false,
@@ -237,7 +237,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "0.10x+0.20y=0.19(x+y)\nThe equation gives a volume x, in gallons, of a 10% saltwater solution that could be mixed with a volume y, in gallons, of a 20% saltwater solution to produce a 19% saltwater solution. According to this equation, what volume, in gallons, of the 20% saltwater solution could be mixed with 50.0 gallons of the 10% saltwater solution to produce a 19% saltwater solution? (Assume that the volume of the mixture is the sum of the volumes of the two solutions before they were mixed.)",
+    "passage": "$0.10x + 0.20y = 0.19(x + y)$\nThe equation gives a volume $x$, in gallons, of a 10% saltwater solution that could be mixed with a volume $y$, in gallons, of a 20% saltwater solution to produce a 19% saltwater solution. According to this equation, what volume, in gallons, of the 20% saltwater solution could be mixed with 50.0 gallons of the 10% saltwater solution to produce a 19% saltwater solution? (Assume that the volume of the mixture is the sum of the volumes of the two solutions before they were mixed.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -249,10 +249,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 9,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "f(x)=-(x-6) 2 +4\nThe function f is defined by the given equation. For what value of x does f(x) reach its maximum?",
+    "passage": "The function $ f $ is defined by the given equation. For what value of $ x $ does $ f(x) $ reach its maximum?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -264,27 +264,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "Which equation defines the linear function f?",
+    "passage": "Which equation defines the linear function $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "f(x)=-15x -11"
+        "text": "$f(x)=-15x -11$"
       },
       {
         "label": "B",
-        "text": "f(x)=-4x +9"
+        "text": "$f(x)=-4x +9$"
       },
       {
         "label": "C",
-        "text": "f(x)=-15x+9"
+        "text": "$f(x)=-15x+9$"
       },
       {
         "label": "D",
-        "text": "f(x)=-4x-11"
+        "text": "$f(x)=-4x-11$"
       }
     ],
     "is_fill_in_blank": false,
@@ -306,24 +306,24 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "The variables x and y have a quadratic relationship. When x = 0, y= 45. When x =6, y= 81. When x= 15, y=0. Which equation represents this relationship?",
+    "passage": "The variables $x$ and $y$ have a quadratic relationship. When $x = 0$, $y = 45$. When $x = 6$, $y = 81$. When $x = 15$, $y = 0$. Which equation represents this relationship?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y=x 2 -18x+45"
+        "text": "$y = x^2 - 18x + 45$"
       },
       {
         "label": "B",
-        "text": "y=-x 2 +12x+45"
+        "text": "$y = -x^2 + 12x + 45$"
       },
       {
         "label": "C",
-        "text": "y=x 2 +45"
+        "text": "$y = x^2 + 45$"
       },
       {
         "label": "D",
-        "text": "y=-3x 2 +48x-45"
+        "text": "$y = -3x^2 + 48x - 45$"
       }
     ],
     "is_fill_in_blank": false,
@@ -335,10 +335,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Evaluating statistical claims: Observational studies and experiments",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "To study fluctuations in leaf water potential, samples of wood were taken from 26 trees and cut in the shape of a cube. The length of the edge of one of these cubes is 2.00 centimeters. If this cube has a mass of 5.12 grams, what is the density of this cube, in grams per cubic centimeter?",
+    "passage": "To study fluctuations in leaf water potential, samples of wood were taken from 26 trees and cut in the shape of a cube. The length of the edge of one of these cubes is $2.00$ centimeters. If this cube has a mass of $5.12$ grams, what is the density of this cube, in grams per cubic centimeter?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -389,10 +389,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "x(9x-2a)+b(9x-2a)-(x+b)=0\nIn the given equation, a and b are positive constants. A solution to the equation is x = 42. What is the value of a?",
+    "passage": "In the given equation, $ x(9x - 2a) + b(9x - 2a) - (x + b) = 0 $, $ a $ and $ b $ are positive constants. A solution to the equation is $ x = 42 $. What is the value of $ a $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -407,7 +407,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge$ -77, where r and t are constants. What is the value of r+ t?",
+    "passage": "The shaded region shown represents the solutions to $rx + ty \\geq -77$, where $r$ and $t$ are constants. What is the value of $r + t$?",
     "question_text": null,
     "choices": [
       {
@@ -446,7 +446,7 @@
     "difficulty": "Hard",
     "question_number": 16,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "3w 2 +11w-c=0\nIn the given equation, c is a constant. A solution to the equation is $\\frac{-11+\\sqrt{433}}{6}$, What is the value of c?",
+    "passage": "$3w^2 + 11w - c = 0$\nIn the given equation, $c$ is a constant. A solution to the equation is $\\frac{-11+\\sqrt{433}}{6}$. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -458,7 +458,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "October 2024 US Form C SAT Math Module 2",
     "passage": "The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined the buffalo had 139.2 kilograms of muscle, which made up approximately 67.7% of its composition. Of the remaining composition of this buffalo, approximately 51.4% was bone, and the remainder was fat. Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?",
@@ -476,7 +476,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is (7x - 610)°. The sum of the measures of one of the acute angles and three of the obtuse angles is (-14x + w)°. What is the value of w?",
+    "passage": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $7x - 610$°. The sum of the measures of one of the acute angles and three of the obtuse angles is $-14x + w$°. What is the value of $w$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -488,27 +488,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "$\\frac{49}{p}=\\frac{49}{q}-\\frac{49}{r}-\\frac{49}{s}$\nThe given equation relates the positive variables p, q, r, and s. Which of the following is equivalent to q?",
+    "passage": "The given equation relates the positive variables $p$, $q$, $r$, and $s$. Which of the following is equivalent to $q$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "p+r+s"
+        "text": "$p + r + s$"
       },
       {
         "label": "B",
-        "text": "49(p+r+s)"
+        "text": "$49(p + r + s)$"
       },
       {
         "label": "C",
-        "text": "$\\frac{prs}{pr+ps+rs}$"
+        "text": "$\\frac{prs}{pr + ps + rs}$"
       },
       {
         "label": "D",
-        "text": "$\\frac{prs}{49p+49r+49s}$"
+        "text": "$\\frac{prs}{49p + 49r + 49s}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -520,10 +520,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "-2x 2 +bx-32=0\nIn the given equation, b is a positive integer The equation has no real solution. what is the largest possible value of b?",
+    "passage": "$-2x^2 + bx - 32 = 0$\nIn the given equation, $b$ is a positive integer. The equation has no real solution. What is the largest possible value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -535,27 +535,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "For groups of 25 or more people, a museum charges \\$22 per person for the first 25 people and \\$14 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people,where n $\\ge$ 25?",
+    "passage": "For groups of 25 or more people, a museum charges \\$22 per person for the first 25 people and \\$14 for each additional person. Which function $f$ gives the total charge, in dollars, for a tour group with $n$ people, where $n \\geq 25$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "f(n)=14n+200"
+        "text": "$f(n)=14n+200$"
       },
       {
         "label": "B",
-        "text": "f(n)=14n+22"
+        "text": "$f(n)=14n+22$"
       },
       {
         "label": "C",
-        "text": "f(n)=14n+550"
+        "text": "$f(n)=14n+550$"
       },
       {
         "label": "D",
-        "text": "f(n)=36n-350"
+        "text": "$f(n)=36n-350$"
       }
     ],
     "is_fill_in_blank": false,
@@ -567,10 +567,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "October 2024 US Form C SAT Math Module 2",
-    "passage": "A right rectangular prism has a base area of 28p square centimeters (cm 2). The length of the base of the rectangular prism is 12 cm, and the height of the rectangular prism is 4 cm. Which expression represents the surface area, in cm 2, of the right rectangular prism?",
+    "passage": "A right rectangular prism has a base area of $28p$ square centimeters (cm²). The length of the base of the rectangular prism is 12 cm, and the height of the rectangular prism is 4 cm. Which expression represents the surface area, in cm², of the right rectangular prism?",
     "question_text": null,
     "choices": [
       {
@@ -583,11 +583,11 @@
       },
       {
         "label": "C",
-        "text": "56p+192"
+        "text": "$56p+192$"
       },
       {
         "label": "D",
-        "text": "560p+96"
+        "text": "$560p+96$"
       }
     ],
     "is_fill_in_blank": false,

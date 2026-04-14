@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The function g is defined by g(x)=-8x + 60. What is the value of g(x) when x =-3?",
+    "passage": "The function $g$ is defined by $g(x) = -8x + 60$. What is the value of $g(x)$ when $x = -3$?",
     "question_text": null,
     "choices": [
       {
@@ -35,10 +35,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 2,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "A certain blue whale calf weighed 5,600 pounds when it was born, and its weight increased at an average rate of 250 pounds per day for the first n days after birth, where n is an integer. If the calf’s weight was greater than 8,850 pounds but less than 9,850 pounds n days after birth, what is one possible value of n?",
+    "passage": "A certain blue whale calf weighed 5,600 pounds when it was born, and its weight increased at an average rate of $250$ pounds per day for the first $n$ days after birth, where $n$ is an integer. If the calf’s weight was greater than 8,850 pounds but less than 9,850 pounds $n$ days after birth, what is one possible value of $n$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -82,7 +82,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "October 2024 US Form A SAT Math Module 2",
     "passage": "$y=\\frac{x}{3}+4$\n$y=-\\frac{x}{3}+40$\nThe solution to the given system of equations is (x, y). What is the value of 2y?",
@@ -117,7 +117,7 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "A hemisphere is half of a sphere. If a hemisphere has a radius of 69 inches, which of the following is closest to the volume, in cubic inches, of this hemisphere?",
+    "passage": "A hemisphere is half of a sphere. If a hemisphere has a radius of $69$ inches, which of the following is closest to the volume, in cubic inches, of this hemisphere?",
     "question_text": null,
     "choices": [
       {
@@ -149,7 +149,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "$f(x)=18x^{2}-45x+13$\nThe given equation defines the function. For what value of a does f(x) reach its minimum?",
+    "passage": "$f(x) = 18x^2 - 45x + 13$\nThe given equation defines the function. For what value of $x$ does $f(x)$ reach its minimum?",
     "question_text": null,
     "choices": [
       {
@@ -181,7 +181,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "An exponential function f is defned by f(x)= c x, where c is a constant greater than 1. If f(7)= 9 · f(5), what is the value of c?",
+    "passage": "An exponential function $f$ is defined by $f(x) = c^x$, where $c$ is a constant greater than $1$. If $f(7)= 9 \\cdot f(5)$, what is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -196,7 +196,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "How many solutions does the equation 10(x+15)+5x = 15(x+ 10) have?",
+    "passage": "$10(x+15)+5x = 15(x+ 10)$",
     "question_text": null,
     "choices": [
       {
@@ -225,10 +225,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 9,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "A line in the xy-plane passes through the points (7, 1), (0, 4), and (c, 0). What is the value of c?",
+    "passage": "A line in the $xy$-plane passes through the points $(7, 1)$, $(0, 4)$, and $(c, 0)$. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -243,12 +243,12 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "H = 2.403L + 23.31\nA group of biology students conducted an experiment to study the relationship between a person’s femur length and the person's height. The given equation describes the relationship between the length L, in inches, of a student's femur and the student's estimated height H, in inches, for the students in the group. Which of the following is the best interpretation of 2.403 in this context?",
+    "passage": "$H = 2.403L + 23.31$\nA group of biology students conducted an experiment to study the relationship between a person’s femur length and the person's height. The given equation describes the relationship between the length $L$, in inches, of a student's femur and the student's estimated height $H$, in inches, for the students in the group. Which of the following is the best interpretation of 2.403 in this context?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The increase in a student ’ s estimated height, in inches, for each increase of 1 inch in the student ’ s femur length"
+        "text": "The increase in a student's estimated height, in inches, for each increase of 1 inch in the student's femur length"
       },
       {
         "label": "B",
@@ -256,11 +256,11 @@
       },
       {
         "label": "C",
-        "text": "The increase in a student's femur length, in inches, for each increase of 23.31inches in the student's estimated height"
+        "text": "The increase in a student's femur length, in inches, for each increase of 23.31 inches in the student's estimated height"
       },
       {
         "label": "D",
-        "text": "The estimated height, in inches, of a student whose femur has a length of L inches"
+        "text": "The estimated height, in inches, of a student whose femur has a length of $L$ inches"
       }
     ],
     "is_fill_in_blank": false,
@@ -307,7 +307,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The histogram summarizes a data set of the weights, in pounds, of 14 salmon. If an additional weight of 85 pounds is added to the original data set to create a new data set of 15weights of salmon, which of the following measures must be greater for the new data set than for the original data set?\nI. The median\nII. The mean",
+    "passage": "The histogram summarizes a data set of the weights, in pounds, of 14 salmon. If an additional weight of 85 pounds is added to the original data set to create a new data set of 15 weights of salmon, which of the following measures must be greater for the new data set than for the original data set?\nI. The median\nII. The mean",
     "question_text": null,
     "choices": [
       {
@@ -346,7 +346,7 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "In the figure shown, $\\overline{WZ}$ and $\\overline{XY}$ intersect at point Q, YQ = 36, WQ = 90, WX = 70, and XQ = 150. What is the length of $\\overline{YZ}$?",
+    "passage": "In the figure shown, $\\overline{WZ}$ and $\\overline{XY}$ intersect at point $Q$, $YQ = 36$, $WQ = 90$, $WX = 70$, and $XQ = 150$. What is the length of $\\overline{YZ}$?",
     "question_text": null,
     "choices": [
       {
@@ -382,10 +382,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 6,950% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 35% of the number of undergraduate students surveyed. If there were 4,865 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
+    "passage": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 6950% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 35% of the number of undergraduate students surveyed. If there were 4,865 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -397,10 +397,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The function $T(x)=\\frac{22,000-6.5x}{1,000}$ gives the estimated air temperature T(x), in degrees Celsius (°C), surrounding a hot air balloon at an altitude of c meters. If the estimated air temperature surrounding the hot air balloon is 16°C, which of the following is closest to the altitude, in meters, of the hot air balloon?",
+    "passage": "The function $T(x)=\\frac{22,000-6.5x}{1,000}$ gives the estimated air temperature T(x), in degrees Celsius (°C), surrounding a hot air balloon at an altitude of x meters. If the estimated air temperature surrounding the hot air balloon is 16°C, which of the following is closest to the altitude, in meters, of the hot air balloon?",
     "question_text": null,
     "choices": [
       {
@@ -432,7 +432,7 @@
     "difficulty": "Hard",
     "question_number": 16,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The function q is defined by q(x)=a|x -9| 2 - 87|x - 9| + b, where a and b are constants, and a > b > 87. If q(639)=h and q(-621)= k, where h and k are constants, what is the value of 9(-639) h-k +621(9) k-h?",
+    "passage": "The function $ q $ is defined by $ q(x) = a|x - 9| + 2 - 87|x - 9| + b $, where $ a $ and $ b $ are constants, and $ a > b > 87 $. If $ q(639) = h $ and $ q(-621) = k $, where $ h $ and $ k $ are constants, what is the value of $ 9(-639)h - k + 621(9)k - h $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -444,27 +444,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The graph of the linear function y= f(x)+ 13 is shown. If c and d are positive constants, which equation could define f?",
+    "passage": "The graph of the linear function $y = f(x) + 13$ is shown. If $c$ and $d$ are positive constants, which equation could define $f$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=-d-cx$"
+        "text": "$f(x) = -d - cx$"
       },
       {
         "label": "B",
-        "text": "$f(x)=d-cx$"
+        "text": "$f(x) = d - cx$"
       },
       {
         "label": "C",
-        "text": "$f(x)=d+cx$"
+        "text": "$f(x) = d + cx$"
       },
       {
         "label": "D",
-        "text": "$f(x)=-d+cx$"
+        "text": "$f(x) = -d + cx$"
       }
     ],
     "is_fill_in_blank": false,
@@ -483,10 +483,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The functions f and g are defined by the given equations below, where x ≥ 0. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where x ≥ 0?\nⅠ. $f(x)=16(1.3)^{x+5}$\nⅠⅠ. $g(x)=16(1.09)(1.3)^{x+3}$",
+    "passage": "The functions $f$ and $g$ are defined by the given equations below, where $x \\geq 0$. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where $x \\geq 0$?\nⅠ. $f(x)=16(1.3)^{x+5}$\nⅠⅠ. $g(x)=16(1.09)(1.3)^{x+3}$",
     "question_text": null,
     "choices": [
       {
@@ -518,7 +518,7 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "A set designer is hammering nails along the top edge of a wall with a length of 3x feet, where a is an integer, that will be used to hang garland. The designer hammers the first nail at the left edge of the wall. The designer then hammers an additional nail every $\\frac{3}{8}$ feet along the entire length of the wall, starting from the first nail and with the last nail being hammered at the right edge of the wall. Which equation best represents this situation, where y is the number of nails the designer hammers along the entire length of the wall?",
+    "passage": "A set designer is hammering nails along the top edge of a wall with a length of $3x$ feet, where $x$ is an integer, that will be used to hang garland. The designer hammers the first nail at the left edge of the wall. The designer then hammers an additional nail every $\\frac{3}{8}$ feet along the entire length of the wall, starting from the first nail and with the last nail being hammered at the right edge of the wall. Which equation best represents this situation, where $y$ is the number of nails the designer hammers along the entire length of the wall?",
     "question_text": null,
     "choices": [
       {
@@ -547,7 +547,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "October 2024 US Form A SAT Math Module 2",
     "passage": "The perimeter of an isosceles right triangle is $52+52\\sqrt{2}$ inches. What is the length, in inches, of the hypotenuse of this triangle?",
@@ -579,27 +579,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The table shows three values of a and their corresponding values of g(x), where $g(x)=\\frac{f(x)}{x+3}$ and f is a linear function. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+    "passage": "The table shows three values of $a$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(0,-6)"
+        "text": "$(0,-6)$"
       },
       {
         "label": "B",
-        "text": "(0,4)"
+        "text": "$(0,4)$"
       },
       {
         "label": "C",
-        "text": "(0,8)"
+        "text": "$(0,8)$"
       },
       {
         "label": "D",
-        "text": "(0,24)"
+        "text": "$(0,24)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -621,7 +621,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "In the figure shown, points A, B, C, and E lie on the circle, and AB < BC. Segment AC is perpendicular to segment BE at point D, and BD = $\\sqrt{226}$. The diameter of the circle is 115. If $\\frac{CD}{AD}=r$, what is the value of r?",
+    "passage": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{226}$. The diameter of the circle is 115. If $\\frac{CD}{AD}=r$, what is the value of $r$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

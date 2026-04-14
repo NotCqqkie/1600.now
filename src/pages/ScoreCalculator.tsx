@@ -111,6 +111,7 @@ const ScoreCalculator = () => {
     () => ({
       pageBg: isDarkMode ? "hsl(var(--background))" : "#ffffff",
       surfaceBg: isDarkMode ? "rgba(15,23,42,0.8)" : "#ffffff",
+      innerSurfaceBg: isDarkMode ? "hsl(var(--background))" : "#ffffff",
       textColor: isDarkMode ? "#f8fafc" : "#0f172a",
       mutedText: isDarkMode ? "rgba(226,232,240,0.72)" : "#64748b",
       borderColor: isDarkMode ? "rgba(148,163,184,0.16)" : "rgba(15,23,42,0.08)",
@@ -209,6 +210,7 @@ interface ScoreSummaryCardProps {
   onReset: () => void;
   themeColors: {
     surfaceBg: string;
+    innerSurfaceBg: string;
     textColor: string;
     mutedText: string;
     borderColor: string;
@@ -400,7 +402,7 @@ const ScoreSummaryCard = ({
               width: "100%",
               height: "100%",
               borderRadius: "50%",
-              background: themeColors.surfaceBg,
+              background: themeColors.innerSurfaceBg,
               display: "grid",
               placeItems: "center",
               textAlign: "center",

@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The cost y, in dollars, for a manufacturer to make x rings is represented by the line shown.\nWhat is the cost, in dollars, for the manufacturer to make 50 rings?",
+    "passage": "The cost $y$, in dollars, for a manufacturer to make $x$ rings is represented by the line shown.\nWhat is the cost, in dollars, for the manufacturer to make 50 rings?",
     "question_text": null,
     "choices": [
       {
@@ -77,7 +77,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$7x+21=7x+k$\nIn the given equation, k is a constant. The equation has infinitely many solutions. What is the value of k?",
+    "passage": "$7x + 21 = 7x + k$\nIn the given equation, $k$ is a constant. The equation has infinitely many solutions. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -92,7 +92,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The function $f$ is defined by $f(x)=2x-\\frac{1}{4}$. What is the y -intercept of the graph of $y=f(x)$ in the xy -plane?",
+    "passage": "The function $f$ is defined by $f(x)=2x-\\frac{1}{4}$. What is the $y$-intercept of the graph of $y=f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -124,7 +124,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The list gives the mass, in grams, of 5 ruffed lemurs.\n3,810 ; 3,810 ; 3,530 ; 3,850 ; 3,550\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
+    "passage": "The list gives the mass, in grams, of 5 ruffed lemurs.\n3,810; 3,810; 3,530; 3,850; 3,550\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -136,27 +136,27 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The price of an object increased from \\$16 to \\$80. What was the percent increase in the price of the object?",
+    "passage": "The price of an object increased from $\\$16$ to $\\$80$. What was the percent increase in the price of the object?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$20%$"
+        "text": "$20\\%$"
       },
       {
         "label": "B",
-        "text": "$64%$"
+        "text": "$64\\%$"
       },
       {
         "label": "C",
-        "text": "$80%$"
+        "text": "$80\\%$"
       },
       {
         "label": "D",
-        "text": "$400%$"
+        "text": "$400\\%$"
       }
     ],
     "is_fill_in_blank": false,
@@ -171,16 +171,16 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is 59 °, and $AE=28(BD).$ What is the measure of angle $CAE$?",
+    "passage": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is $59^\\circ$, and $AE=28(BD)$. What is the measure of angle $CAE$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(28∙59)^\\circ$"
+        "text": "$(28 \\cdot 59)^\\circ$"
       },
       {
         "label": "B",
-        "text": "$(28+59)^\\circ$"
+        "text": "$(28 + 59)^\\circ$"
       },
       {
         "label": "C",
@@ -207,27 +207,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "A student needs at least 190 signatures from classmates to run for class president. The student collects 30 signatures on Monday and collects enough additional signatures on Tuesday to run for class president. Which inequality represents the number of additional signatures, s, that the student collects on Tuesday?",
+    "passage": "A student needs at least 190 signatures from classmates to run for class president. The student collects 30 signatures on Monday and collects enough additional signatures on Tuesday to run for class president. Which inequality represents the number of additional signatures, $s$, that the student collects on Tuesday?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$s+30\\le190$"
+        "text": "$s + 30 \\le 190$"
       },
       {
         "label": "B",
-        "text": "$s+30\\ge190$"
+        "text": "$s + 30 \\ge 190$"
       },
       {
         "label": "C",
-        "text": "$s-30\\le190$"
+        "text": "$s - 30 \\le 190$"
       },
       {
         "label": "D",
-        "text": "$s-30\\ge190$"
+        "text": "$s - 30 \\ge 190$"
       }
     ],
     "is_fill_in_blank": false,
@@ -271,10 +271,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$8x^{2}+13x=6$\nWhat is the positive solution to the given equation?",
+    "passage": "What is the positive solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -289,7 +289,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "Harper has \\$110 in an account. Each year she expects to have 2.7 % more money in the account than she had the previous year. Which of the following models best describes how Harper expects the money in her account to change over time?",
+    "passage": "Harper has $\\$110$ in an account. Each year she expects to have $2.7\\%$ more money in the account than she had the previous year. Which of the following models best describes how Harper expects the money in her account to change over time?",
     "question_text": null,
     "choices": [
       {
@@ -350,10 +350,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 15,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "Line t is defined by $y=-\\frac{1}{2}x+14$. Line s is perpendicular to line t in the xy -plane. What is the slope of line s?",
+    "passage": "Line t is defined by $y=-\\frac{1}{2}x+14$. Line s is perpendicular to line t in the $xy$-plane. What is the slope of line s?",
     "question_text": null,
     "choices": [
       {
@@ -382,7 +382,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 17,
     "test_name": "March 2025 International Form A SAT Math Module 1",
     "passage": "The measure of angle $C$ is $\\frac{3\\pi}{4}$ radians. What is the value of $cos(C)$?",
@@ -414,10 +414,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$7y=-6x+2,170$\n$24x-28y=1,400$\nThe solution to the given system of equations is $(x,y).$ What is the value of $x+y$?",
+    "passage": "$7y = -6x + 2170$\n$24x - 28y = 1400$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -429,10 +429,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 23 % every 11.69 minutes. Which of the following equations could represent this model, where M is the estimated mass, in grams, of the sample t minutes after the researcher began observing the sample?",
+    "passage": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 23% every 11.69 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
     "question_text": null,
     "choices": [
       {
@@ -464,20 +464,20 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "$-4∣5x+4∣+2=-14$\nWhat are all solutions to the given equation?",
+    "passage": "$-4|5x+4|+2=-14$\nWhat are all solutions to the given equation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$0$"
+        "text": "0"
       },
       {
         "label": "B",
-        "text": "$0$ and $-\\frac{1}{5}$"
+        "text": "0 and $-\\frac{1}{5}$"
       },
       {
         "label": "C",
-        "text": "$0$ and $-\\frac{8}{5}$"
+        "text": "0 and $-\\frac{8}{5}$"
       },
       {
         "label": "D",
@@ -493,10 +493,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "For the right circular cone shown. B is a point on the circumference of the base, and the length of segment AB (not shown) is 84 centimeters. If the height of the cone is 42 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
+    "passage": "For the right circular cone shown, $B$ is a point on the circumference of the base, and the length of segment $AB$ (not shown) is 84 centimeters. If the height of the cone is 42 centimeters and the volume of the cone is $k\\pi$ cubic centimeters, what is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -515,10 +515,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "A sphere has a volume of 247.00 cubic yards. What is the volume of the sphere, in cubic <u>meters</u>? (Use 1 yard = 0.914 meter.)",
+    "passage": "A sphere has a volume of $247.00$ cubic yards. What is the volume of the sphere, in cubic <u>meters</u>? (Use $1$ yard = $0.914$ meter.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

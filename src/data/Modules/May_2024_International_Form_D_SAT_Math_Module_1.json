@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "The function b is defined by b (x)= 2 (x +1). Which expression is equivalent to b (x) when x = 6?",
+    "passage": "The function $b$ is defined by $b(x) = 2(x + 1)$. Which expression is equivalent to $b(x)$ when $x = 6$?",
     "question_text": null,
     "choices": [
       {
@@ -70,20 +70,20 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "The graph shown gives the estimated value, in dollars, of a mountain bike as a function of the number of months since it was purchased. What is the best interpretation of the y -intercept of the graph in this context?",
+    "passage": "The graph shown gives the estimated value, in dollars, of a mountain bike as a function of the number of months since it was purchased. What is the best interpretation of the $y$-intercept of the graph in this context?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The estimated value of the bike was \\$250 when it was purchased."
+        "text": "The estimated value of the bike was $250 when it was purchased."
       },
       {
         "label": "B",
-        "text": "The estimated value of the bike 24 months after it was purchased was \\$250."
+        "text": "The estimated value of the bike 24 months after it was purchased was $250."
       },
       {
         "label": "C",
-        "text": "The estimated value of the bike had decreased by \\$250 in the 24 months after it was purchased."
+        "text": "The estimated value of the bike had decreased by $250 in the 24 months after it was purchased."
       },
       {
         "label": "D",
@@ -109,24 +109,24 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "A certain rectangular flag is produced in several different sizes. The flag is designed so that its length is always 1.59 times its width. Which equation gives the area A, in square feet, of this flag if it has a width of w feet?",
+    "passage": "$A$ is the area of the flag, in square feet, and $w$ is the width of the flag, in feet. The length of the flag is $1.59w$. Which equation gives the area $A$ of this flag if it has a width of $w$ feet?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "A=(1.59 w)(w)"
+        "text": "$A = (1.59w)(w)$"
       },
       {
         "label": "B",
-        "text": "A=($\\frac{}{w}$)(w)"
+        "text": "$A = \\left(\\frac{1.59w}{w}\\right)(w)$"
       },
       {
         "label": "C",
-        "text": "A=(w- 1.59)(w)"
+        "text": "$A = (w - 1.59)(w)$"
       },
       {
         "label": "D",
-        "text": "A=(w+ 1.59)(w)"
+        "text": "$A = (w + 1.59)(w)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -138,27 +138,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "question_number": 5,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "The graph of y = f (x) is shown. Which equation defines f?",
+    "passage": "The graph of $ y = f(x) $ is shown. Which equation defines $ f $?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "f (x)= 5(x + 1) 2 + 2"
+        "text": "$ f(x) = 5(x + 1)^2 + 2 $"
       },
       {
         "label": "B",
-        "text": "f (x)= 5(x + 1) 2"
+        "text": "$ f(x) = 5(x + 1)^2 $"
       },
       {
         "label": "C",
-        "text": "f (x)= 5 x 2 +3"
+        "text": "$ f(x) = 5x^2 + 3 $"
       },
       {
         "label": "D",
-        "text": "f (x)= 5 x 2"
+        "text": "$ f(x) = 5x^2 $"
       }
     ],
     "is_fill_in_blank": false,
@@ -180,24 +180,24 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "One minute after the start of an experiment, the volume of a mixture is 95% of its volume at the start of the experiment. Which expression best represents the volume of the mixture one minute after the start of the experiment, where v is its volume at the start of the experiment?",
+    "passage": "One minute after the start of an experiment, the volume of a mixture is 95% of its volume at the start of the experiment. Which expression best represents the volume of the mixture one minute after the start of the experiment, where $v$ is its volume at the start of the experiment?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "0.095 v"
+        "text": "$0.095v$"
       },
       {
         "label": "B",
-        "text": "0.95 v"
+        "text": "$0.95v$"
       },
       {
         "label": "C",
-        "text": "9.5 v"
+        "text": "$9.5v$"
       },
       {
         "label": "D",
-        "text": "v"
+        "text": "$v$"
       }
     ],
     "is_fill_in_blank": false,
@@ -212,7 +212,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "x = 15\n−2 x + y = −5\nThe solution to the given system of equations is (x, y). What is the value of x + y?",
+    "passage": "Given the system of equations:\n$ x = 15 $\n$ -2x + y = -5 $\nWhat is the value of $ x + y $?",
     "question_text": null,
     "choices": [
       {
@@ -244,7 +244,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function f shown, where y = f (x), estimates the account balance, in dollars, in this bank account x months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
+    "passage": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function $f$ shown, where $y = f(x)$, estimates the account balance, in dollars, in this bank account $x$ months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -271,19 +271,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "y = −1.8 x − 0.2"
+        "text": "$y = -1.8x - 0.2$"
       },
       {
         "label": "B",
-        "text": "y = −0.2 x − 1.8"
+        "text": "$y = -0.2x - 1.8$"
       },
       {
         "label": "C",
-        "text": "y = 0.2 x+ 1.8"
+        "text": "$y = 0.2x + 1.8$"
       },
       {
         "label": "D",
-        "text": "y = 1.80 x + 0. 2"
+        "text": "$y = 1.80x + 0.2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -302,10 +302,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "Antwon's hair will grow at a constant rate from a length of 3 inches to a length of 6 inches. The equation 0.2 t + 3 = 6 describes this situation, where t is the number of months it will take for Antwon's hair to reach a length of 6 inches. Which of the following is the best interpretation of 0.2 in this context?",
+    "passage": "$0.2 t + 3 = 6$ describes this situation, where $t$ is the number of months it will take for Antwon's hair to reach a length of 6 inches. Which of the following is the best interpretation of $0.2$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -337,7 +337,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "x 2 (2 x − 11)(2 x − u)= 0\nIn the given equation, u is a positive constant. The sum of the solutions to the equation is 16. What is the value of u?",
+    "passage": "$x^2 (2x - 11)(2x - u) = 0$\nIn the given equation, $u$ is a positive constant. The sum of the solutions to the equation is 16. What is the value of $u$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -349,10 +349,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "If 2 x + 5 = 9, what is the value of 8 x − 4?",
+    "passage": "If $2x + 5 = 9$, what is the value of $8x - 4$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -364,10 +364,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 13,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "x + 78 = r (3 x + 6)\nIn the given equation, r is a positive integer. If this equation has more than one solution, what is the value of r?",
+    "passage": "In the given equation, $ r $ is a positive integer. If this equation has more than one solution, what is the value of $ r $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -382,24 +382,24 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "A plant nursery classifies a perennial flower species as tall if its typical height when fully grown is more than 100 centimeters. Each of the following inequalities represents the possible heights h, in centimeters, for a specific perennial flower species when fully grown. Which inequality represents the possible heights h, in centimeters, for a tall perennial flower species?",
+    "passage": "A plant nursery classifies a perennial flower species as tall if its typical height when fully grown is more than 100 centimeters. Each of the following inequalities represents the possible heights $h$, in centimeters, for a specific perennial flower species when fully grown. Which inequality represents the possible heights $h$, in centimeters, for a tall perennial flower species?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "< h < 86"
+        "text": "$86 < h < 86$"
       },
       {
         "label": "B",
-        "text": "< h < 89"
+        "text": "$86 < h < 89$"
       },
       {
         "label": "C",
-        "text": "< h < 100"
+        "text": "$86 < h < 100$"
       },
       {
         "label": "D",
-        "text": "< h < 154"
+        "text": "$86 < h < 154$"
       }
     ],
     "is_fill_in_blank": false,
@@ -414,7 +414,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "y = 8x\ny = x 2 − 20\nA solution to the given system of equations is (x, y), where x > 0. What is the value of x?",
+    "passage": "$y = 8x$\n$y = x^2 - 20$\nA solution to the given system of equations is $(x, y)$, where $x > 0$. What is the value of $x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -429,24 +429,24 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "Line t in the xy -plane has a slope of $\\frac{1}{8}$ and passes through the point (40, −6). Which equation defines line t?",
+    "passage": "Line $t$ in the $xy$-plane has a slope of $\\frac{1}{8}$ and passes through the point $(40, -6)$. Which equation defines line $t$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y =-11+ $\\frac{1}{8}$"
+        "text": "$y = -11 + \\frac{1}{8}x$"
       },
       {
         "label": "B",
-        "text": "y = $\\frac{x}{8}$ -11"
+        "text": "$y = \\frac{x}{8} - 11$"
       },
       {
         "label": "C",
-        "text": "y = $\\frac{x}{8}$ -6"
+        "text": "$y = \\frac{x}{8} - 6$"
       },
       {
         "label": "D",
-        "text": "y =40 x -6"
+        "text": "$y = 40x - 6$"
       }
     ],
     "is_fill_in_blank": false,
@@ -458,10 +458,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "For a certain type of rope, the equation y = 900 ax 2, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 1.25 inches, it has an estimated breaking strength of 1,968.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 4.50 inches?",
+    "passage": "For a certain type of rope, the equation $y = 900 a x^2$, where $a$ is a constant, gives the estimated breaking strength $y$, in pounds, of a rope with a circumference of $x$ inches. Based on this equation, if a rope of this type has a circumference of 1.25 inches, it has an estimated breaking strength of 1,968.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 4.50 inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -473,10 +473,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "$\\frac{12x}{6y}=2\\sqrt{w+22}$\nThe given equation relates the distinct positive real numbers w, x, and y. Which equation correctly expresses w in terms of x and y?",
+    "passage": "$\\frac{12x}{6y}=2\\sqrt{w+22}$\nThe given equation relates the distinct positive real numbers $w$, $x$, and $y$. Which equation correctly expresses $w$ in terms of $x$ and $y$?",
     "question_text": null,
     "choices": [
       {
@@ -505,10 +505,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "RS = 504\nST = 128\nT R = 520\nThe side lengths of right triangle RST are given. Triangle RST is similar to triangle UV W, where S corresponds to V and T corresponds to W. What is the value of tan W?",
+    "passage": "$RS = 504$\n$ST = 128$\n$TR = 520$\nThe side lengths of right triangle $RST$ are given. Triangle $RST$ is similar to triangle $UVW$, where $S$ corresponds to $V$ and $T$ corresponds to $W$. What is the value of $\\tan W$?",
     "question_text": null,
     "choices": [
       {
@@ -537,10 +537,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 78 centimeters. If the height of the cone is 39 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?",
+    "passage": "For the right circular cone shown, $B$ is a point on the circumference of the base, and the length of segment $AB$ (not shown) is 78 centimeters. If the height of the cone is 39 centimeters and the volume of the cone is $k\\pi$ cubic centimeters, what is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -562,7 +562,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "z (w)= (0.835) 3 w\nThe function z is defined by the equation shown. The value of z(w) decreases by p % for each increase by 1 in the value of w. Which of the following is closest to the value of p?",
+    "passage": "$z(w) = (0.835)^{3w}$\nThe function $z$ is defined by the equation shown. The value of $z(w)$ decreases by $p$% for each increase by 1 in the value of $w$. Which of the following is closest to the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -591,15 +591,15 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "−2|x − 7|= −8x\nWhat are all possible solutions to the given equation?",
+    "passage": "$-2|x - 7| = -8x$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "- $\\frac{7}{3}$"
+        "text": "$-\\frac{7}{3}$"
       },
       {
         "label": "B",
@@ -607,7 +607,7 @@
       },
       {
         "label": "C",
-        "text": "- $\\frac{7}{3}$ and $\\frac{7}{5}$"
+        "text": "$-\\frac{7}{3}$ and $\\frac{7}{5}$"
       },
       {
         "label": "D",

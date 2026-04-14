@@ -41,8 +41,8 @@ const primaryItems = [
   { label: "Home", href: "/", icon: Home, match: (pathname: string) => pathname === "/" },
   { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank") || pathname.startsWith("/official-bank") },
   { label: "100 Hard Math Questions", href: "/hard", icon: Target, match: (pathname: string) => pathname.startsWith("/hard") },
-  { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator") },
   { label: "Practice Modules", href: "/modules", icon: GraduationCap, match: (pathname: string) => pathname.startsWith("/modules") },
+  { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator") },
   { label: "Vocabulary", href: "/vocab", icon: SpellCheck, match: (pathname: string) => pathname.startsWith("/vocab") },
 ];
 

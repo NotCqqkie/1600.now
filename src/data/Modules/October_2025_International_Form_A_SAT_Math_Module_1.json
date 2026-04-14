@@ -116,7 +116,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (° F), when the air temperature is 27° F and the wind speed is 20 miles per hour (mph)?\n(Disregard the degree symbol when entering your answer.)",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\degree$ F), when the air temperature is $27\\degree$ F and the wind speed is 20 miles per hour (mph)?\n(Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -135,10 +135,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 5,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "$\\frac{j}{5}=k+9m$\nThe given equation relates the distinct positive numbers j, k, and m. Which equation correctly expresses j in terms of k and m?",
+    "passage": "$\\frac{j}{5}=k+9m$\nThe given equation relates the distinct positive numbers $j$, $k$, and $m$. Which equation correctly expresses $j$ in terms of $k$ and $m$?",
     "question_text": null,
     "choices": [
       {
@@ -199,10 +199,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "A student council group is selling car stickers for a fundraiser. They use the function $p(x)=5x-210$ to determine their profit p (x), in dollars, for selling x car stickers. In order to earn a profit of \\$800, how many car stickers must they sell?",
+    "passage": "A student council group is selling car stickers for a fundraiser. They use the function $p(x)=5x-210$ to determine their profit $p(x)$, in dollars, for selling $x$ car stickers. In order to earn a profit of \\$800, how many car stickers must they sell?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -214,10 +214,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 8,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "For two acute angles X and Y, the measure of angle Y is 32° and $\\frac{sinX}{cosY}=1$. What is the measure, in degrees, of angle X?",
+    "passage": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is $32°$ and $\\frac{\\sin X}{\\cos Y}=1$. What is the measure, in degrees, of angle $X$?",
     "question_text": null,
     "choices": [
       {
@@ -246,7 +246,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "October 2025 International Form A SAT Math Module 1",
     "passage": "Charles saves $\\frac{4}{5}$ of the \\$230 he earns each week from his summer job. If Charles continues to save at this rate, how much money, in dollars, will Charles save in 3 weeks?",
@@ -261,7 +261,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "October 2025 International Form A SAT Math Module 1",
     "passage": "If $\\frac{x}{y}=64$ and $\\frac{cx}{4y}=64$, what is the value of c?",
@@ -296,24 +296,24 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "Line k is shown in the xy -plane. Line n (not shown) is perpendicular to line k and passes through the point (4, 7). Which equation defines line n?",
+    "passage": "Line $k$ is shown in the $xy$-plane. Line $n$ (not shown) is perpendicular to line $k$ and passes through the point $(4, 7)$. Which equation defines line $n$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$y=-\\frac{5}{4}x+2$"
+        "text": "$y = -\\frac{5}{4}x + 2$"
       },
       {
         "label": "B",
-        "text": "$y=-\\frac{5}{4}x+12$"
+        "text": "$y = -\\frac{5}{4}x + 12$"
       },
       {
         "label": "C",
-        "text": "$y=\\frac{5}{4}x+2$"
+        "text": "$y = \\frac{5}{4}x + 2$"
       },
       {
         "label": "D",
-        "text": "$y=\\frac{5}{4}x+12$"
+        "text": "$y = \\frac{5}{4}x + 12$"
       }
     ],
     "is_fill_in_blank": false,
@@ -332,7 +332,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 12,
     "test_name": "October 2025 International Form A SAT Math Module 1",
     "passage": "If $7(6-9x)+4=6(6-9x)+19$, what is the value of $6-9x$?",
@@ -364,7 +364,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "October 2025 International Form A SAT Math Module 1",
     "passage": "Trapezoid CDEF is similar to trapezoid JKLM, such that C, D, E, and F correspond to J, K, L, and M, respectively. The length of each side of trapezoid JKLM is 4 times the length of its corresponding side in trapezoid CDEF. The measure of angle C is 42°. What is the measure of angle J?",
@@ -396,7 +396,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 14,
     "test_name": "October 2025 International Form A SAT Math Module 1",
     "passage": "The table gives the average time t, in minutes, it takes Adriana to travel a certain distance d, in miles. Which equation could represent this linear relationship?",
@@ -506,10 +506,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 17,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "In the ancient Roman measurement system, a leuga was a unit of length that was equal to 7,500 pedes. In this measurement system, how many <u>pedes</u> were equivalent to 3.8 leugas?",
+    "passage": "In the ancient Roman measurement system, a leuga was a unit of length that was equal to 7,500 pedes. In this measurement system, how many $pedes$ were equivalent to 3.8 leugas?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -524,7 +524,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "For the linear function $f$, the table shows three values of x and their corresponding values of $f(x)$. Function $f$ is defined by $f(x)=rx+s$, where r and s are constants. What is the value of rs?",
+    "passage": "For the linear function $f$, the table shows three values of $x$ and their corresponding values of $f(x)$. Function $f$ is defined by $f(x) = rx + s$, where $r$ and $s$ are constants. What is the value of $rs$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -575,10 +575,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "$2|5x-5|=11$\nWhat is the sum of the solutions to the given equation?",
+    "passage": "What is the sum of the solutions to the given equation $2|5x - 5| = 11$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -590,10 +590,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "The positive number a is 290% of the number b and a is 90% of the number c. If c is p % of b, which of the following is closest to the value of p?",
+    "passage": "The positive number $a$ is 290% of the number $b$ and $a$ is 90% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -622,10 +622,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "October 2025 International Form A SAT Math Module 1",
-    "passage": "A computer program models the total mass of the population of a certain type of algae after the algae was placed in an environment where it has no natural predators. According to the model, the estimated total mass of this population of algae at the end of every 6-hour period is 129% greater than the estimated total mass of this population of algae at the end of the previous 6-hour period, and the estimated total mass of this population of algae is 613.90 grams after 18 hours. Which equation best represents this model, where A is the estimated total mass, in grams, of the population of algae after x hours, and $x?",
+    "passage": "A computer program models the total mass of the population of a certain type of algae after the algae was placed in an environment where it has no natural predators. According to the model, the estimated total mass of this population of algae at the end of every 6-hour period is 129% greater than the estimated total mass of this population of algae at the end of the previous 6-hour period, and the estimated total mass of this population of algae is 613.90 grams after 18 hours. Which equation best represents this model, where $A$ is the estimated total mass, in grams, of the population of algae after $x$ hours?",
     "question_text": null,
     "choices": [
       {

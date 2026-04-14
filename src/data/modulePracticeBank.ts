@@ -155,6 +155,21 @@ export interface PracticeSet {
   modules: PracticeModule[];
 }
 
+export interface PracticeTestQuestionItem {
+  id: number;
+  subject: BankSubject;
+  bankType: "past";
+  sourceId: string;
+  storageId: string;
+  practiceSetId: string;
+  practiceSetNumber: number;
+  moduleSlug: string;
+  moduleNumber: 1 | 2;
+  moduleTitle: string;
+  moduleQuestionNumber: number;
+  globalQuestionNumber: number;
+}
+
 const isRawModuleQuestion = (value: unknown): value is RawModuleQuestion =>
   Boolean(
     value &&
@@ -684,6 +699,17 @@ export const modulePracticeBankSummary: ModulePracticeBankSummary = {
 
 export const getPracticeSets = (): PracticeSet[] => practiceSets;
 
+export const getPracticeSet = (setIdOrNumber: string | number): PracticeSet | null => {
+  const normalized =
+    typeof setIdOrNumber === "number"
+      ? setIdOrNumber
+      : Number.parseInt(String(setIdOrNumber).replace(/^practice-set-/, ""), 10);
+
+  return practiceSets.find((practiceSet) =>
+    practiceSet.id === String(setIdOrNumber) || practiceSet.setNumber === normalized,
+  ) ?? null;
+};
+
 export const getPracticeModules = (): PracticeModule[] =>
   practiceSets.flatMap((practiceSet) => practiceSet.modules);
 
@@ -702,6 +728,36 @@ export const buildModulePracticeSet = (moduleIdOrSlug: string) => {
     storageId: entry.bankQuestion.stableId,
     index,
   }));
+};
+
+export const buildPracticeTestQuestionSet = (
+  setIdOrNumber: string | number,
+): PracticeTestQuestionItem[] | null => {
+  const practiceSet = getPracticeSet(setIdOrNumber);
+  if (!practiceSet) return null;
+
+  let globalQuestionNumber = 0;
+
+  return practiceSet.modules.flatMap((module) =>
+    module.questions.map((entry) => {
+      globalQuestionNumber += 1;
+
+      return {
+        subject: module.subject,
+        id: entry.bankQuestion.id,
+        sourceId: entry.bankQuestion.sourceId,
+        bankType: "past" as const,
+        storageId: entry.bankQuestion.stableId,
+        practiceSetId: practiceSet.id,
+        practiceSetNumber: practiceSet.setNumber,
+        moduleSlug: module.slug,
+        moduleNumber: module.moduleNumber,
+        moduleTitle: module.publicTitle,
+        moduleQuestionNumber: entry.slot,
+        globalQuestionNumber,
+      };
+    }),
+  );
 };
 
 export const activePastQuestionSourceIds = new Set(

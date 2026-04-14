@@ -196,7 +196,17 @@ const Modules = () => {
         {filteredPracticeSets.map((practiceSet) => (
           <Card key={practiceSet.id} className="border-border/70 bg-background/90">
             <CardHeader className="pb-3">
-              <div className="text-lg font-semibold">Practice Set {practiceSet.setNumber}</div>
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <div className="text-lg font-semibold">Practice Set {practiceSet.setNumber}</div>
+                <Button
+                  variant="outline"
+                  className="gap-2 self-start border-[#95D4FF] bg-[#B4E1FF] text-foreground hover:border-[#95D4FF] hover:bg-[#95D4FF] hover:text-foreground sm:self-auto"
+                  onClick={() => navigate(`/practice-tests/${practiceSet.id}/start`)}
+                >
+                  Full test browser
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </div>
             </CardHeader>
             <CardContent className="flex flex-col">
               {practiceSet.modules.map((module) => {
@@ -253,7 +263,7 @@ const Modules = () => {
                       </div>
 
                       <div className="flex shrink-0 items-center gap-2">
-                        <Button className="group/btn gap-2" onClick={() => openModule(module)}>
+                        <Button variant="outline" className="group/btn gap-2" onClick={() => openModule(module)}>
                           Enter module
                           <ArrowRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-0.5" />
                         </Button>

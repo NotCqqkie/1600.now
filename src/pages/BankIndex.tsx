@@ -81,13 +81,13 @@ const createEmptySelection = (): TopicSelectionState => {
 };
 
 const topicCheckboxClass =
-  "absolute left-0 top-0 h-5 w-5 rounded-md border border-sky-300/70 bg-white/90 text-sky-600 shadow-sm transition-all duration-200 data-[state=checked]:border-sky-400 data-[state=checked]:bg-sky-100 data-[state=checked]:text-sky-700 hover:border-sky-400 hover:bg-sky-50 focus-visible:ring-2 focus-visible:ring-sky-300/70 focus-visible:ring-offset-0 dark:border-slate-500 dark:bg-slate-900 dark:text-sky-200 dark:data-[state=checked]:border-sky-400 dark:data-[state=checked]:bg-slate-800 dark:data-[state=checked]:text-sky-100 dark:hover:border-sky-400 dark:hover:bg-slate-800 dark:shadow-[0_0_0_1px_rgba(148,163,184,0.08)]";
+  "absolute left-0 top-0 h-5 w-5 overflow-hidden rounded-[5px] border border-border bg-background text-primary shadow-sm transition-all duration-200 data-[state=checked]:border-primary/50 data-[state=checked]:bg-primary/10 data-[state=checked]:text-primary hover:border-primary/40 hover:bg-muted/60 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:ring-offset-0 dark:data-[state=checked]:border-primary/40 dark:data-[state=checked]:bg-primary/15";
 
 const topicCheckboxIndicatorClass =
-  "h-full w-full";
+  "absolute inset-[2px] flex items-center justify-center";
 
 const multiSelectModeCheckboxClass =
-  "h-5 w-5 rounded-md border-sky-400/80 bg-white text-sky-700 shadow-sm data-[state=checked]:border-sky-500 data-[state=checked]:bg-sky-100 data-[state=checked]:text-sky-700 hover:border-sky-500 hover:bg-sky-50 focus-visible:ring-sky-300/70 dark:border-slate-500 dark:bg-slate-900 dark:text-sky-100 dark:data-[state=checked]:border-sky-400 dark:data-[state=checked]:bg-slate-800";
+  "h-5 w-5 rounded-[5px] border-border bg-background text-primary shadow-sm data-[state=checked]:border-primary/50 data-[state=checked]:bg-primary/10 data-[state=checked]:text-primary hover:border-primary/40 hover:bg-muted/60 focus-visible:ring-ring/50 dark:data-[state=checked]:border-primary/40 dark:data-[state=checked]:bg-primary/15";
 
 const TopicCheckboxSlot = ({
   visible,
@@ -107,7 +107,7 @@ const TopicCheckboxSlot = ({
         className={topicCheckboxClass}
         indicatorClassName={topicCheckboxIndicatorClass}
         indicator={
-          <span className="h-2.5 w-2.5 rounded-[4px] bg-current shadow-[0_0_0_1px_rgba(255,255,255,0.35)]" />
+          <span className="block h-full w-full rounded-[2px] bg-current" />
         }
       />
     )}
@@ -921,7 +921,7 @@ const BankIndex = () => {
           <Button 
             size="lg" 
             onClick={() => handleCreatePracticeSet(false)}
-            className="shadow-lg gap-2"
+            className="shadow-lg gap-2 bg-[#B4E1FF] text-foreground hover:bg-[#95D4FF] border border-[#95D4FF]"
           >
             <Play className="h-4 w-4" />
             Create Practice Set ({selectedQuestions.length} questions)

@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "$s=40+2t$\nThe equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?",
+    "passage": "$s=40+2t$\nThe equation gives the speed $s$, in miles per hour, of a certain car $t$ seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?",
     "question_text": null,
     "choices": [
       {
@@ -35,7 +35,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 2,
     "test_name": "March 2025 International Form C SAT Math Module 1",
     "passage": "Which of the following equations best represents the line of best fit shown?",
@@ -109,7 +109,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "If 7+ x = 3, what is the value of 56+8 x?",
+    "passage": "If $7 + x = 3$, what is the value of $56 + 8x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -124,7 +124,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "In one week in 2017, a technician earned a total of \\$1,055 by working at her regular job and at a second job doing part-time work. The equation 20 h + 17 c =1,055 represents this situation, where h is the number of hours worked at her regular job and c is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
+    "passage": "In one week in 2017, a technician earned a total of $1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1,055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -210,24 +210,24 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "$x+7=13$\n$y=5x^{2}+5$\nAt what point (x, y) do the graphs of the equations in the given system intersect?",
+    "passage": "$x + 7 = 13$\n$y = 5x^2 + 5$\nAt what point $(x, y)$ do the graphs of the equations in the given system intersect?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(6,180)"
+        "text": "$(6,180)$"
       },
       {
         "label": "B",
-        "text": "(6,185)"
+        "text": "$(6,185)$"
       },
       {
         "label": "C",
-        "text": "(13,5)"
+        "text": "$(13,5)$"
       },
       {
         "label": "D",
-        "text": "(13,850)"
+        "text": "$(13,850)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -239,7 +239,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "March 2025 International Form C SAT Math Module 1",
     "passage": "The expression $19x^{5}+20x^{5}-10x^{5}$ is equivalent to $bx^{5}$, where b is a constant. What is the value of b?",
@@ -254,7 +254,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 10,
     "test_name": "March 2025 International Form C SAT Math Module 1",
     "passage": "The point (v,-5) lies on the line shown. What is the value of v?",
@@ -293,10 +293,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 12,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "In the figure shown, line k intersects lines r and s. If w = 146, which additional piece of information is sufficient to prove that lines r and s are parallel?",
+    "passage": "In the figure shown, line $k$ intersects lines $r$ and $s$. If $w = 146$, which additional piece of information is sufficient to prove that lines $r$ and $s$ are parallel?",
     "question_text": null,
     "choices": [
       {
@@ -332,7 +332,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 13,
     "test_name": "March 2025 International Form C SAT Math Module 1",
     "passage": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where y > 1?",
@@ -364,7 +364,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 15,
     "test_name": "March 2025 International Form C SAT Math Module 1",
     "passage": "The measure of angle B is $\\frac{3\\pi}{4}$ radians. What is the value of sin(B)?",
@@ -396,10 +396,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "A school is ordering tablet computers for its students. The tablets cost \\$164 each.and 6% tax is added to the total cost of the order. If the school can spend no more than 44,800 dollars on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+    "passage": "A school is ordering tablet computers for its students. The tablets cost $164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than $44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -411,10 +411,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "A triangular prism has a height of 3 centimeters (cm) and a volume of 60 cm 3. What is the area, in cm 2, of the base of the prism? (The volume of a triangular prism is equal to Bh, where B is the area of the base and h is the height of the prism.)",
+    "passage": "A triangular prism has a height of $3$ centimeters (cm) and a volume of $60$ cm$^3$. What is the area, in cm$^2$, of the base of the prism? (The volume of a triangular prism is equal to $Bh$, where $B$ is the area of the base and $h$ is the height of the prism.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -426,10 +426,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "The graph of y= f(x) is shown, where f(x)= ab x + c, and a, b, and c are constants. For how many values of x does f(x)=0?",
+    "passage": "The graph of $ y = f(x) $ is shown, where $ f(x) = abx + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
     "question_text": null,
     "choices": [
       {
@@ -465,7 +465,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in one variable",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "March 2025 International Form C SAT Math Module 1",
     "passage": "$x(x+4)-140=3x(x-10)$\nWhat is the sum of the solutions to the given equation?",
@@ -497,7 +497,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "March 2025 International Form C SAT Math Module 1",
     "passage": "$-3x^{2}-7x+1=0$\nWhat is the greatest solution to the given equation?",
@@ -529,10 +529,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "In triangle ABC, BC = 36 $\\sqrt{3}$. What is the value of cos A?",
+    "passage": "In triangle ABC, BC = $36\\sqrt{3}$. What is the value of $\\cos A$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -554,7 +554,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "The positive number a is 2,047% of the sum of the positive numbers b and c, and b is 89% of c. What percent of b is a?",
+    "passage": "$a$ is 2,047% of the sum of the positive numbers $b$ and $c$, and $b$ is 89% of $c$. What percent of $b$ is $a$?",
     "question_text": null,
     "choices": [
       {

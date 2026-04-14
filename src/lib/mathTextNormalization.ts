@@ -312,6 +312,56 @@ const normalizeBareMathFragments = (content: string): string => {
 const normalizeMalformedComparatorCommands = (content: string): string =>
   content.replace(/\\(le|ge|lt|gt)([A-Za-pr-zA-PR-Z0-9])(?=[^A-Za-z]|$)/g, "\\$1 $2");
 
+const normalizeImplicitFunctionArguments = (content: string): string =>
+  content.replace(
+    /\\(arccos|arcsin|arctan|arcsec|arccsc|arccot|cosh|sinh|tanh|coth|sech|csch|cos|sin|tan|cot|sec|csc|log|ln)(?=[A-Za-z0-9])/g,
+    "\\$1 ",
+  );
+
+const normalizePlainTextWrappedMath = (content: string): string => {
+  let result = "";
+  let cursor = 0;
+
+  while (cursor < content.length) {
+    if (content[cursor] !== "$" || isEscapedAt(content, cursor)) {
+      result += content[cursor];
+      cursor += 1;
+      continue;
+    }
+
+    const isDisplayMath =
+      content[cursor + 1] === "$" &&
+      !isEscapedAt(content, cursor + 1);
+    const delimiterLength: 1 | 2 = isDisplayMath ? 2 : 1;
+    const closing = findClosingMathDelimiter(content, cursor, delimiterLength);
+
+    if (closing === -1) {
+      result += content[cursor];
+      cursor += 1;
+      continue;
+    }
+
+    const candidate = content.slice(cursor + delimiterLength, closing).trim();
+    const plainTextMatch = candidate.match(/^\\(?:text|mathrm)\{([^{}]+)\}$/);
+    const plainText = plainTextMatch?.[1]?.trim();
+
+    if (
+      plainText &&
+      /\s/.test(plainText) &&
+      /[A-Za-z]/.test(plainText) &&
+      !/[\\^_=]/.test(plainText)
+    ) {
+      result += plainText;
+    } else {
+      result += content.slice(cursor, closing + delimiterLength);
+    }
+
+    cursor = closing + delimiterLength;
+  }
+
+  return result;
+};
+
 export function normalizeTextForMathRendering(text: string | null | undefined): string {
   if (!text) return text || "";
 
@@ -319,11 +369,13 @@ export function normalizeTextForMathRendering(text: string | null | undefined): 
     normalizeMathWrappedCurrency(
       normalizeMathWrappedPercentages(
         normalizeMalformedComparatorCommands(
-          normalizeBareMathFragments(
-            normalizeImplicitMathExponents(
-              normalizeDecimalCommas(
-                normalizeFullWidthMathPunctuation(
-                  normalizeAsteriskWrappedMath(text),
+          normalizeImplicitFunctionArguments(
+            normalizeBareMathFragments(
+              normalizeImplicitMathExponents(
+                normalizeDecimalCommas(
+                  normalizeFullWidthMathPunctuation(
+                    normalizeAsteriskWrappedMath(text),
+                  ),
                 ),
               ),
             ),
@@ -332,21 +384,22 @@ export function normalizeTextForMathRendering(text: string | null | undefined): 
       ),
     ),
   );
+  const normalizedPlainText = normalizePlainTextWrappedMath(normalizedCurrency);
   let result = "";
   let cursor = 0;
 
-  while (cursor < normalizedCurrency.length) {
-    if (normalizedCurrency[cursor] !== "$" || isEscapedAt(normalizedCurrency, cursor)) {
-      result += normalizedCurrency[cursor];
+  while (cursor < normalizedPlainText.length) {
+    if (normalizedPlainText[cursor] !== "$" || isEscapedAt(normalizedPlainText, cursor)) {
+      result += normalizedPlainText[cursor];
       cursor += 1;
       continue;
     }
 
     const isDisplayMath =
-      normalizedCurrency[cursor + 1] === "$" &&
-      !isEscapedAt(normalizedCurrency, cursor + 1);
+      normalizedPlainText[cursor + 1] === "$" &&
+      !isEscapedAt(normalizedPlainText, cursor + 1);
     const delimiterLength: 1 | 2 = isDisplayMath ? 2 : 1;
-    const closing = findClosingMathDelimiter(normalizedCurrency, cursor, delimiterLength);
+    const closing = findClosingMathDelimiter(normalizedPlainText, cursor, delimiterLength);
 
     if (closing === -1) {
       result += delimiterLength === 2 ? "\\$\\$" : "\\$";
@@ -354,9 +407,9 @@ export function normalizeTextForMathRendering(text: string | null | undefined): 
       continue;
     }
 
-    const mathCandidate = normalizedCurrency.slice(cursor + delimiterLength, closing);
+    const mathCandidate = normalizedPlainText.slice(cursor + delimiterLength, closing);
     if (isLikelyInlineMath(mathCandidate)) {
-      result += normalizedCurrency.slice(cursor, closing + delimiterLength);
+      result += normalizedPlainText.slice(cursor, closing + delimiterLength);
       cursor = closing + delimiterLength;
       continue;
     }

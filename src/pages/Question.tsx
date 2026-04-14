@@ -1,5 +1,5 @@
 import { useParams, useNavigate, useLocation, useSearchParams } from "react-router-dom";
-import { useState, useEffect, useRef, useLayoutEffect, useMemo } from "react";
+import { useState, useEffect, useRef, useLayoutEffect, useMemo, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
@@ -61,7 +61,7 @@ import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
 import { applyTheme } from "@/lib/theme";
-import { getPracticeModule } from "@/data/modulePracticeBank";
+import { getPracticeModule, getPracticeSet } from "@/data/modulePracticeBank";
 import {
   buildModulePracticeResult,
   clearModulePracticeSession,
@@ -75,6 +75,20 @@ import {
   type ModulePracticeQuestionState,
   type ModulePracticeSessionMeta,
 } from "@/lib/modulePracticeSession";
+import {
+  buildPracticeTestSessionAfterCurrentModuleSubmit,
+  buildPracticeTestResult,
+  clearPracticeTestSession,
+  getPracticeTestAnnotationStorageKey,
+  getPracticeTestNoteStorageKey,
+  getPracticeTestQuestionState,
+  getPracticeTestSession,
+  savePracticeTestQuestionState,
+  savePracticeTestResult,
+  savePracticeTestSession,
+  tickPracticeTestActiveModule,
+  type PracticeTestSessionMeta,
+} from "@/lib/practiceTestSession";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import "katex/dist/katex.min.css";
@@ -128,6 +142,13 @@ type PracticeSetItem = {
   bankType?: BankSourceFilter;
   sourceId?: string;
   storageId?: string;
+  practiceSetId?: string;
+  practiceSetNumber?: number;
+  moduleSlug?: string;
+  moduleNumber?: 1 | 2;
+  moduleTitle?: string;
+  moduleQuestionNumber?: number;
+  globalQuestionNumber?: number;
 };
 
 type QuestionInfoField = {
@@ -189,6 +210,44 @@ const formatTimer = (totalSeconds: number) => {
   const minutes = Math.floor(totalSeconds / 60);
   const seconds = totalSeconds % 60;
   return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+};
+
+const readTimerState = (storageKey: string) => {
+  try {
+    const raw = sessionStorage.getItem(storageKey);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw) as {
+      elapsedSeconds?: unknown;
+      isPaused?: unknown;
+      isVisible?: unknown;
+    };
+
+    return {
+      elapsedSeconds: typeof parsed.elapsedSeconds === "number" ? parsed.elapsedSeconds : 0,
+      isPaused: parsed.isPaused === true,
+      isVisible: parsed.isVisible !== false,
+    };
+  } catch {
+    return null;
+  }
+};
+
+const saveTimerState = (
+  storageKey: string,
+  {
+    elapsedSeconds,
+    isPaused,
+    isVisible,
+  }: { elapsedSeconds: number; isPaused: boolean; isVisible: boolean },
+) => {
+  sessionStorage.setItem(
+    storageKey,
+    JSON.stringify({
+      elapsedSeconds,
+      isPaused,
+      isVisible,
+    }),
+  );
 };
 
 const QUESTION_SENTENCE_PATTERNS = [
@@ -342,6 +401,8 @@ function Question() {
   const isPracticeMode = searchParams.get('practice') === 'true';
   const modulePracticeSlug = searchParams.get("modulePractice");
   const modulePracticeSessionId = searchParams.get("moduleSession");
+  const practiceTestSetId = searchParams.get("practiceTest");
+  const practiceTestSessionId = searchParams.get("practiceTestSession");
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
   const bankQuerySuffix = isBank ? `?bankType=${bankSource}` : "";
   const practiceSet = useMemo<PracticeSetItem[]>(() => {
@@ -360,8 +421,15 @@ function Question() {
     () => (modulePracticeSlug ? getPracticeModule(modulePracticeSlug) : null),
     [modulePracticeSlug],
   );
+  const practiceTestSet = useMemo(
+    () => (practiceTestSetId ? getPracticeSet(practiceTestSetId) : null),
+    [practiceTestSetId],
+  );
   const [modulePracticeSessionMeta, setModulePracticeSessionMeta] = useState<ModulePracticeSessionMeta | null>(() =>
     modulePracticeSlug ? getModulePracticeSession(modulePracticeSlug) : null,
+  );
+  const [practiceTestSessionMeta, setPracticeTestSessionMeta] = useState<PracticeTestSessionMeta | null>(() =>
+    practiceTestSetId ? getPracticeTestSession(practiceTestSetId) : null,
   );
 
   const questionNumber = parseInt(id || "1", 10);
@@ -396,14 +464,52 @@ function Question() {
   }, [isPracticeMode, practiceSet, questionNumber, subject, isOfficialBank, bankSource, currentQuestion]);
   const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
   const modulePracticeStateSessionId = modulePracticeSessionId || modulePracticeSessionMeta?.sessionId || null;
+  const practiceTestStateSessionId = practiceTestSessionId || practiceTestSessionMeta?.sessionId || null;
   const isModulePracticeMode = Boolean(
     effectivePracticeMode &&
       modulePracticeSlug &&
       modulePracticeStateSessionId,
   );
+  const isPracticeTestMode = Boolean(
+    effectivePracticeMode &&
+      practiceTestSetId &&
+      practiceTestStateSessionId,
+  );
+  const isAssessmentMode = isModulePracticeMode || isPracticeTestMode;
+  const timerStorageKey = isAssessmentMode
+    ? null
+    : is100Hard
+    ? "question-timer:hard"
+    : isOfficialBank
+    ? "question-timer:official"
+    : isBank
+    ? `question-timer:bank:${bankSource}`
+    : "question-timer:default";
   const modulePracticeAllowsChecking = Boolean(
     isModulePracticeMode && modulePracticeSessionMeta?.settings.allowCheckingAnswers,
   );
+  const practiceTestAllowsChecking = Boolean(
+    isPracticeTestMode && practiceTestSessionMeta?.settings.allowCheckingAnswers,
+  );
+  const assessmentAllowsChecking = modulePracticeAllowsChecking || practiceTestAllowsChecking;
+  const practiceTestIsTimed = Boolean(
+    isPracticeTestMode && practiceTestSessionMeta?.settings.timed,
+  );
+  const practiceTestReviewPhase = Boolean(
+    isPracticeTestMode && practiceTestSessionMeta?.phase === "review",
+  );
+  const practiceTestActiveModuleIndex = practiceTestSessionMeta?.activeModuleIndex ?? -1;
+  const practiceTestActiveModule = useMemo(() => {
+    if (!practiceTestSessionMeta || practiceTestActiveModuleIndex < 0) return null;
+    return practiceTestSessionMeta.modules[practiceTestActiveModuleIndex] ?? null;
+  }, [practiceTestActiveModuleIndex, practiceTestSessionMeta]);
+  const practiceTestCurrentModuleStartIndex = practiceTestActiveModule?.startIndex ?? -1;
+  const practiceTestCurrentModuleEndIndex = practiceTestActiveModule?.endIndex ?? -1;
+  const practiceTestModuleQuestionCount = practiceTestActiveModule?.questionCount ?? 0;
+  const practiceTestQuestionNumberInModule =
+    practiceTestActiveModule && currentPracticeIndex >= 0
+      ? currentPracticeIndex - practiceTestActiveModule.startIndex + 1
+      : 0;
 
   const { progress, addAttempt, toggleReview } = useUserProgress();
   
@@ -472,20 +578,48 @@ function Question() {
     setModulePracticeSessionMeta(getModulePracticeSession(modulePracticeSlug));
   }, [location.key, modulePracticeSlug]);
 
+  useEffect(() => {
+    if (!practiceTestSetId) {
+      setPracticeTestSessionMeta(null);
+      return;
+    }
+    setPracticeTestSessionMeta(getPracticeTestSession(practiceTestSetId));
+  }, [location.key, practiceTestSetId]);
+
   const currentProgress = currentQuestion ? (progress[currentQuestion.uuid] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
   const localStateKey = currentQuestion
     ? (is100Hard ? `question-${questionNumber}` : currentQuestion.uuid)
     : `question-${questionNumber}`;
   const readModulePracticeQuestionState = (): ModulePracticeQuestionState | null => {
-    if (!isModulePracticeMode || !modulePracticeStateSessionId || !currentQuestion) return null;
-    return getModulePracticeQuestionState(modulePracticeStateSessionId, currentQuestion.uuid);
+    if (!currentQuestion) return null;
+    if (isPracticeTestMode && practiceTestStateSessionId) {
+      return getPracticeTestQuestionState(practiceTestStateSessionId, currentQuestion.uuid);
+    }
+    if (isModulePracticeMode && modulePracticeStateSessionId) {
+      return getModulePracticeQuestionState(modulePracticeStateSessionId, currentQuestion.uuid);
+    }
+    return null;
   };
   const persistModulePracticeQuestionState = (
     updater: (
       previous: ModulePracticeQuestionState,
     ) => ModulePracticeQuestionState,
   ) => {
-    if (!isModulePracticeMode || !modulePracticeStateSessionId || !currentQuestion) return null;
+    if (!currentQuestion) return null;
+    if (isPracticeTestMode && practiceTestStateSessionId) {
+      const previous = getPracticeTestQuestionState(
+        practiceTestStateSessionId,
+        currentQuestion.uuid,
+      );
+      const next = updater(previous);
+      savePracticeTestQuestionState(
+        practiceTestStateSessionId,
+        currentQuestion.uuid,
+        next,
+      );
+      return next;
+    }
+    if (!isModulePracticeMode || !modulePracticeStateSessionId) return null;
     const previous = getModulePracticeQuestionState(
       modulePracticeStateSessionId,
       currentQuestion.uuid,
@@ -498,11 +632,11 @@ function Question() {
     );
     return next;
   };
-  const markedForReview = isModulePracticeMode
+  const markedForReview = isAssessmentMode
     ? modulePracticeMarkedForReview
     : currentProgress.isMarkedForReview;
   const questionInfo = useMemo(() => {
-    if (!currentQuestion || is100Hard || isModulePracticeMode) return null;
+    if (!currentQuestion || is100Hard || isAssessmentMode) return null;
 
     const questionWithMetadata = currentQuestion as Partial<{
       bankLabel: string;
@@ -529,7 +663,7 @@ function Question() {
     return {
       fields,
     };
-  }, [currentQuestion, is100Hard, isModulePracticeMode, subject]);
+  }, [currentQuestion, is100Hard, isAssessmentMode, subject]);
   const baseNavigationItems = useMemo<OrderedNavigationItem[]>(() => {
     if (is100Hard) {
       return Array.from({ length: 100 }, (_, i) => ({
@@ -624,17 +758,60 @@ function Question() {
     hasTimerExpiredRef.current = false;
     setIsTimerExpiredOpen(false);
 
+    if (isPracticeTestMode && practiceTestActiveModule) {
+      setElapsedSeconds(practiceTestActiveModule.elapsedSeconds);
+      setIsTimerPaused(false);
+      return;
+    }
+
     if (isModulePracticeMode && modulePracticeSessionMeta) {
       setElapsedSeconds(modulePracticeSessionMeta.elapsedSeconds);
       setIsTimerPaused(false);
       return;
     }
 
+    if (timerStorageKey) {
+      const storedTimerState = readTimerState(timerStorageKey);
+      setElapsedSeconds(storedTimerState?.elapsedSeconds ?? 0);
+      setIsTimerPaused(storedTimerState?.isPaused ?? false);
+      setIsTimerVisible(storedTimerState?.isVisible ?? true);
+      return;
+    }
+
     setElapsedSeconds(0);
     setIsTimerPaused(false);
-  }, [isModulePracticeMode, modulePracticeSessionMeta?.sessionId, questionNumber, subject, isBank, isOfficialBank]);
+    setIsTimerVisible(true);
+  }, [
+    isPracticeTestMode,
+    practiceTestActiveModule,
+    isModulePracticeMode,
+    modulePracticeSessionMeta?.sessionId,
+    timerStorageKey,
+  ]);
 
   useEffect(() => {
+    if (isPracticeTestMode && practiceTestSessionMeta && practiceTestActiveModule) {
+      if (practiceTestSessionMeta.status !== "active") {
+        return;
+      }
+
+      const timerId = window.setInterval(() => {
+        setPracticeTestSessionMeta((previous) => {
+          if (!previous || previous.status !== "active") return previous;
+
+          const next = tickPracticeTestActiveModule(previous);
+          const nextActiveModule = next.modules[next.activeModuleIndex];
+          if (!nextActiveModule) return previous;
+
+          savePracticeTestSession(next);
+          setElapsedSeconds(nextActiveModule.elapsedSeconds);
+          return next;
+        });
+      }, 1000);
+
+      return () => window.clearInterval(timerId);
+    }
+
     if (isModulePracticeMode && modulePracticeSessionMeta) {
       const timerId = window.setInterval(() => {
         setModulePracticeSessionMeta((previous) => {
@@ -673,11 +850,40 @@ function Question() {
     if (isTimerPaused) return;
 
     const timerId = window.setInterval(() => {
-      setElapsedSeconds((prev) => prev + 1);
+      setElapsedSeconds((prev) => {
+        const next = prev + 1;
+        if (timerStorageKey) {
+          saveTimerState(timerStorageKey, {
+            elapsedSeconds: next,
+            isPaused: false,
+            isVisible: isTimerVisible,
+          });
+        }
+        return next;
+      });
     }, 1000);
 
     return () => window.clearInterval(timerId);
-  }, [isModulePracticeMode, isTimerPaused, modulePracticeSessionMeta?.sessionId]);
+  }, [
+    isPracticeTestMode,
+    practiceTestSessionMeta,
+    practiceTestActiveModule,
+    isModulePracticeMode,
+    isTimerPaused,
+    isTimerVisible,
+    modulePracticeSessionMeta?.sessionId,
+    timerStorageKey,
+  ]);
+
+  useEffect(() => {
+    if (!timerStorageKey || isAssessmentMode) return;
+
+    saveTimerState(timerStorageKey, {
+      elapsedSeconds,
+      isPaused: isTimerPaused,
+      isVisible: isTimerVisible,
+    });
+  }, [elapsedSeconds, isAssessmentMode, isTimerPaused, isTimerVisible, timerStorageKey]);
 
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
@@ -925,7 +1131,7 @@ function Question() {
   }
 
   useLayoutEffect(() => {
-    if (isModulePracticeMode) {
+    if (isAssessmentMode) {
       const state = readModulePracticeQuestionState();
       setSelectedAnswer(state?.answer || "");
       setFreeResponseAnswer(state?.freeResponseAnswer || "");
@@ -951,7 +1157,7 @@ function Question() {
     setCheckButtonState("idle");
     setAttemptCount(0);
     setStruckOutChoiceIds([]);
-  }, [isModulePracticeMode, questionNumber, currentQuestion?.uuid]);
+  }, [isAssessmentMode, questionNumber, currentQuestion?.uuid]);
 
   const emphasizeReadingHeaders = (content: string): string => {
     const fullLineHeaderPatterns = [
@@ -1076,20 +1282,37 @@ function Question() {
     () => orderedQuestionIds.indexOf(questionNumber),
     [orderedQuestionIds, questionNumber],
   );
-  const displayQuestionNumber = effectivePracticeMode ? currentPracticeIndex + 1 : questionNumber;
+  const displayQuestionNumber = isPracticeTestMode
+    ? practiceTestQuestionNumberInModule || currentPracticeIndex + 1
+    : effectivePracticeMode
+      ? currentPracticeIndex + 1
+      : questionNumber;
+  const isAtPracticeTestModuleEnd = Boolean(
+    isPracticeTestMode &&
+      practiceTestCurrentModuleEndIndex >= 0 &&
+      currentPracticeIndex === practiceTestCurrentModuleEndIndex,
+  );
   const canGoPrevious = is100Hard
     ? currentOrderedQuestionIndex > 0
+    : isPracticeTestMode
+      ? practiceTestReviewPhase
+        ? currentPracticeIndex > practiceTestCurrentModuleStartIndex
+        : currentPracticeIndex > practiceTestCurrentModuleStartIndex
     : effectivePracticeMode
       ? currentPracticeIndex > 0
       : currentOrderedQuestionIndex > 0;
   const canGoNext = is100Hard
     ? currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1
+    : isPracticeTestMode
+      ? practiceTestReviewPhase
+        ? currentPracticeIndex < practiceTestCurrentModuleEndIndex
+        : currentPracticeIndex < practiceTestCurrentModuleEndIndex
     : effectivePracticeMode
       ? currentPracticeIndex < totalQuestions - 1
       : currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1;
 
   const flushModulePracticeQuestionTime = () => {
-    if (!isModulePracticeMode || !currentQuestion) return;
+    if (!isAssessmentMode || !currentQuestion) return;
     const delta = Math.max(
       0,
       Math.round((Date.now() - questionVisitStartedAtRef.current) / 1000),
@@ -1103,6 +1326,22 @@ function Question() {
   };
 
   useEffect(() => {
+    if (isPracticeTestMode && practiceTestSessionMeta) {
+      const nextCurrentIndex = currentPracticeIndex >= 0 ? currentPracticeIndex : 0;
+
+      if (practiceTestSessionMeta.currentIndex === nextCurrentIndex) {
+        return;
+      }
+
+      const nextSession = {
+        ...practiceTestSessionMeta,
+        currentIndex: nextCurrentIndex,
+      };
+      setPracticeTestSessionMeta(nextSession);
+      savePracticeTestSession(nextSession);
+      return;
+    }
+
     if (!isModulePracticeMode || !modulePracticeSessionMeta) return;
 
     const nextSession = {
@@ -1111,15 +1350,20 @@ function Question() {
     };
     setModulePracticeSessionMeta(nextSession);
     saveModulePracticeSession(nextSession);
-  }, [currentPracticeIndex, isModulePracticeMode]);
+  }, [
+    currentPracticeIndex,
+    isPracticeTestMode,
+    practiceTestSessionMeta,
+    isModulePracticeMode,
+  ]);
 
   useEffect(() => {
-    if (!isModulePracticeMode || !currentQuestion) return;
+    if (!isAssessmentMode || !currentQuestion) return;
     questionVisitStartedAtRef.current = Date.now();
     return () => {
       flushModulePracticeQuestionTime();
     };
-  }, [currentQuestion?.uuid, isModulePracticeMode]);
+  }, [currentQuestion?.uuid, isAssessmentMode]);
 
   const navigateToPracticeIndex = (idx: number) => {
     if (!effectivePracticeMode || idx < 0 || idx >= practiceSet.length) return;
@@ -1142,8 +1386,94 @@ function Question() {
       params.set("moduleSession", modulePracticeStateSessionId);
     }
 
+    if (practiceTestSetId) {
+      params.set("practiceTest", practiceTestSetId);
+    }
+
+    if (practiceTestStateSessionId) {
+      params.set("practiceTestSession", practiceTestStateSessionId);
+    }
+
     navigate(`${base}/${target.subject}/${target.id}?${params.toString()}`);
   };
+
+  const submitPracticeTestCurrentModule = useCallback((sessionToSubmit: PracticeTestSessionMeta) => {
+    if (!isPracticeTestMode || !practiceTestSet) return;
+
+    flushModulePracticeQuestionTime();
+
+    const nextSession = buildPracticeTestSessionAfterCurrentModuleSubmit(sessionToSubmit);
+    if (!nextSession) {
+      const result = buildPracticeTestResult(practiceTestSet, {
+        ...sessionToSubmit,
+        status: "submitted",
+      });
+      savePracticeTestResult(result);
+      clearPracticeTestSession(practiceTestSet.id);
+      sessionStorage.removeItem("practiceSet");
+      sessionStorage.removeItem("practiceExitTo");
+      navigate(`/practice-tests/${practiceTestSet.id}/results?session=${result.sessionId}`);
+      return;
+    }
+
+    setPracticeTestSessionMeta(nextSession);
+    savePracticeTestSession(nextSession);
+    navigate(
+      `/practice-tests/${practiceTestSet.id}/transition?session=${sessionToSubmit.sessionId}&kind=${sessionToSubmit.activeModuleIndex === 1 ? "break" : "module"}`,
+    );
+  }, [flushModulePracticeQuestionTime, isPracticeTestMode, navigate, practiceTestSet]);
+
+  const handlePracticeTestPhaseAdvance = useCallback(() => {
+    if (!isPracticeTestMode || !practiceTestSessionMeta || !practiceTestSet || !practiceTestActiveModule) return;
+
+    flushModulePracticeQuestionTime();
+
+    if (practiceTestReviewPhase) {
+      navigate(`/practice-tests/${practiceTestSet.id}/review?session=${practiceTestSessionMeta.sessionId}`);
+      return;
+    }
+
+    const nextSession = {
+      ...practiceTestSessionMeta,
+      phase: "review" as const,
+      currentIndex: currentPracticeIndex >= 0 ? currentPracticeIndex : practiceTestSessionMeta.currentIndex,
+    };
+    setPracticeTestSessionMeta(nextSession);
+    savePracticeTestSession(nextSession);
+    navigate(`/practice-tests/${practiceTestSet.id}/review?session=${practiceTestSessionMeta.sessionId}`);
+  }, [
+    currentPracticeIndex,
+    flushModulePracticeQuestionTime,
+    isPracticeTestMode,
+    navigate,
+    practiceTestActiveModule,
+    practiceTestReviewPhase,
+    practiceTestSessionMeta,
+    practiceTestSet,
+  ]);
+
+  useEffect(() => {
+    if (
+      !isPracticeTestMode ||
+      !practiceTestIsTimed ||
+      !practiceTestSessionMeta ||
+      practiceTestSessionMeta.status !== "active" ||
+      !practiceTestActiveModule ||
+      practiceTestActiveModule.remainingSeconds !== 0 ||
+      hasTimerExpiredRef.current
+    ) {
+      return;
+    }
+
+    hasTimerExpiredRef.current = true;
+    submitPracticeTestCurrentModule(practiceTestSessionMeta);
+  }, [
+    isPracticeTestMode,
+    practiceTestIsTimed,
+    practiceTestSessionMeta,
+    practiceTestActiveModule,
+    submitPracticeTestCurrentModule,
+  ]);
 
   const handlePrevious = () => {
     if (!canGoPrevious) return;
@@ -1151,6 +1481,10 @@ function Question() {
     if (is100Hard) {
       const previousQuestionId = orderedQuestionIds[currentOrderedQuestionIndex - 1];
       if (previousQuestionId) navigate(`/hard/${previousQuestionId}`);
+      return;
+    }
+    if (isPracticeTestMode) {
+      navigateToPracticeIndex(currentPracticeIndex - 1);
       return;
     }
     if (effectivePracticeMode) {
@@ -1170,6 +1504,10 @@ function Question() {
     if (is100Hard) {
       const nextQuestionId = orderedQuestionIds[currentOrderedQuestionIndex + 1];
       if (nextQuestionId) navigate(`/hard/${nextQuestionId}`);
+      return;
+    }
+    if (isPracticeTestMode) {
+      navigateToPracticeIndex(currentPracticeIndex + 1);
       return;
     }
     if (effectivePracticeMode) {
@@ -1230,7 +1568,7 @@ function Question() {
 
   const handleToggleReview = () => {
     if (!currentQuestion) return;
-    if (isModulePracticeMode) {
+    if (isAssessmentMode) {
       const nextMarkedState = !modulePracticeMarkedForReview;
       setModulePracticeMarkedForReview(nextMarkedState);
       persistModulePracticeQuestionState((previous) => ({
@@ -1245,7 +1583,7 @@ function Question() {
   };
 
   const handleCheck = (overrideAnswer?: string) => {
-    if (isModulePracticeMode && !modulePracticeAllowsChecking) return;
+    if (isAssessmentMode && !assessmentAllowsChecking) return;
     const userAnswer = overrideAnswer || (currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer);
     
     if (!userAnswer) {
@@ -1280,7 +1618,7 @@ function Question() {
     if (isCorrect) {
       const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
       setCheckButtonState(status);
-      if (isModulePracticeMode) {
+      if (isAssessmentMode) {
         persistModulePracticeQuestionState((previous) => ({
           ...previous,
           answer: currentQuestion.type === "multiple-choice" ? userAnswer : previous.answer,
@@ -1299,7 +1637,7 @@ function Question() {
       }
     } else {
       setCheckButtonState("incorrect");
-      if (isModulePracticeMode) {
+      if (isAssessmentMode) {
         persistModulePracticeQuestionState((previous) => ({
           ...previous,
           answer: currentQuestion.type === "multiple-choice" ? userAnswer : previous.answer,
@@ -1327,7 +1665,7 @@ function Question() {
       }
 
       if (target.tagName === 'INPUT') {
-        if (e.key === 'Enter' && (!isModulePracticeMode || modulePracticeAllowsChecking)) {
+        if (e.key === 'Enter' && (!isAssessmentMode || assessmentAllowsChecking)) {
           e.preventDefault();
           handleCheck();
         }
@@ -1339,14 +1677,12 @@ function Question() {
           handlePrevious();
           break;
         case 'ArrowRight':
-          if (isModulePracticeMode && !canGoNext) {
-            handleModulePracticeReview();
-          } else {
+          if (canGoNext) {
             handleNext();
           }
           break;
         case 'Enter':
-          if (!isModulePracticeMode || modulePracticeAllowsChecking) {
+          if (!isAssessmentMode || assessmentAllowsChecking) {
             e.preventDefault();
             handleCheck();
           }
@@ -1373,12 +1709,12 @@ function Question() {
             
             const nextId = choiceIds[nextIndex];
             setSelectedAnswer(nextId);
-            if (isModulePracticeMode) {
+            if (isAssessmentMode) {
               persistModulePracticeQuestionState((previous) => ({
                 ...previous,
                 answer: nextId,
                 status:
-                  modulePracticeAllowsChecking &&
+                  assessmentAllowsChecking &&
                   (previous.status === "incorrect" ||
                     previous.status === "correct-first" ||
                     previous.status === "correct-later")
@@ -1397,7 +1733,19 @@ function Question() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleNext, handlePrevious, handleCheck, currentQuestion, selectedAnswer, questionNumber, canGoNext, isModulePracticeMode, modulePracticeAllowsChecking]);
+  }, [
+    handleNext,
+    handlePrevious,
+    handleCheck,
+    currentQuestion,
+    selectedAnswer,
+    questionNumber,
+    canGoNext,
+    isPracticeTestMode,
+    isModulePracticeMode,
+    isAssessmentMode,
+    assessmentAllowsChecking,
+  ]);
 
   const hasSelection = currentQuestion.type === 'multiple-choice' ? Boolean(selectedAnswer) : Boolean(freeResponseAnswer);
   const isCheckDisabled = !hasSelection || checkButtonState === "correct-first" || checkButtonState === "correct-later";
@@ -1472,17 +1820,23 @@ function Question() {
     ? getRenderedContentHtml(readingPassageContent)
     : "";
   const annotationStorageKey =
-    isModulePracticeMode && modulePracticeStateSessionId
+    isPracticeTestMode && practiceTestStateSessionId
+      ? getPracticeTestAnnotationStorageKey(practiceTestStateSessionId, localStateKey)
+      : isModulePracticeMode && modulePracticeStateSessionId
       ? getModulePracticeAnnotationStorageKey(modulePracticeStateSessionId, localStateKey)
       : `${localStateKey}-passage-annotations`;
   const noteStorageKey =
-    isModulePracticeMode && modulePracticeStateSessionId
+    isPracticeTestMode && practiceTestStateSessionId
+      ? getPracticeTestNoteStorageKey(practiceTestStateSessionId, localStateKey)
+      : isModulePracticeMode && modulePracticeStateSessionId
       ? getModulePracticeNoteStorageKey(modulePracticeStateSessionId, localStateKey)
       : `${localStateKey}-note`;
   const noteWindowStateKey = `${noteStorageKey}:window`;
   const noteWindowOpenKey = `${noteStorageKey}:open`;
-  const noteStorageArea = isModulePracticeMode ? sessionStorage : localStorage;
+  const noteStorageArea = isAssessmentMode ? sessionStorage : localStorage;
+  const shouldPersistAnnotationNotes = isModulePracticeMode;
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
+  const shouldReduceQuestionImageSize = isBank || isOfficialBank;
       
   const renderQuestionImages = () => {
     if (!questionImages?.length) return null;
@@ -1494,8 +1848,13 @@ function Question() {
             <TransparentAwareImage
               src={normalizePublicAssetPath(img.src)}
               alt={img.alt || `Question image ${idx + 1}`}
-              className="max-w-full h-auto max-h-[340px] rounded-[8px] object-contain border border-border"
-              wrapperClassName="max-w-full"
+              className={cn(
+                "h-auto rounded-[8px] object-contain border border-border",
+                shouldReduceQuestionImageSize
+                  ? "max-w-[91%] max-h-[309px]"
+                  : "max-w-full max-h-[340px]",
+              )}
+              wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
               loading="lazy"
               trimWhitespace={isBank && bankSource === 'unofficial'}
             />
@@ -1524,6 +1883,19 @@ function Question() {
     applyTheme(!isDark);
   };
   const handleSaveAndExit = () => {
+    if (isPracticeTestMode && practiceTestSessionMeta && practiceTestSet) {
+      flushModulePracticeQuestionTime();
+      const pausedSession = {
+        ...practiceTestSessionMeta,
+        status: "paused" as const,
+        currentIndex: currentPracticeIndex >= 0 ? currentPracticeIndex : 0,
+      };
+      setPracticeTestSessionMeta(pausedSession);
+      savePracticeTestSession(pausedSession);
+      navigate(`/practice-tests/${practiceTestSet.id}/start`);
+      return;
+    }
+
     if (!isModulePracticeMode || !modulePracticeSessionMeta || !modulePracticeModule) {
       navigate(backDestination);
       return;
@@ -1548,7 +1920,11 @@ function Question() {
     handleModulePracticeReview();
   };
   const displayedTimerSeconds =
-    isModulePracticeMode && modulePracticeSessionMeta?.settings.timed
+    isPracticeTestMode
+      ? practiceTestIsTimed
+        ? practiceTestActiveModule?.remainingSeconds ?? 0
+        : practiceTestActiveModule?.elapsedSeconds ?? elapsedSeconds
+      : isModulePracticeMode && modulePracticeSessionMeta?.settings.timed
       ? modulePracticeSessionMeta.remainingSeconds ?? 0
       : elapsedSeconds;
   const timerControls = (
@@ -1565,7 +1941,7 @@ function Question() {
       <span className="min-w-[5ch] text-center text-xl font-semibold tabular-nums">
         {isTimerVisible ? formatTimer(displayedTimerSeconds) : "-:--"}
       </span>
-      {!isModulePracticeMode && (
+      {!isAssessmentMode && (
         <Button
           variant="ghost"
           size="icon"
@@ -1612,8 +1988,9 @@ function Question() {
         <AlertDialogHeader>
           <AlertDialogTitle>Time has expired</AlertDialogTitle>
           <AlertDialogDescription>
-            On the real SAT, this module would auto-submit when time runs out.
-            You can submit now or continue working.
+            {isPracticeTestMode
+              ? "On the real SAT, this module would end when time runs out. You can move to the next phase now or continue working."
+              : "On the real SAT, this module would auto-submit when time runs out. You can submit now or continue working."}
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
@@ -1629,12 +2006,12 @@ function Question() {
   );
   const handleAnswerSelectionChange = (answer: string) => {
     setSelectedAnswer(answer);
-    if (isModulePracticeMode) {
+    if (isAssessmentMode) {
       persistModulePracticeQuestionState((previous) => ({
         ...previous,
         answer,
         status:
-          modulePracticeAllowsChecking &&
+          assessmentAllowsChecking &&
           (previous.status === "incorrect" ||
             previous.status === "correct-first" ||
             previous.status === "correct-later")
@@ -1649,12 +2026,12 @@ function Question() {
   };
   const handleFreeResponseChange = (answer: string) => {
     setFreeResponseAnswer(answer);
-    if (isModulePracticeMode) {
+    if (isAssessmentMode) {
       persistModulePracticeQuestionState((previous) => ({
         ...previous,
         freeResponseAnswer: answer,
         status:
-          modulePracticeAllowsChecking &&
+          assessmentAllowsChecking &&
           (previous.status === "incorrect" ||
             previous.status === "correct-first" ||
             previous.status === "correct-later")
@@ -1667,13 +2044,44 @@ function Question() {
   };
   const handleStrikeoutChange = (choiceIds: string[]) => {
     setStruckOutChoiceIds(choiceIds);
-    if (!isModulePracticeMode) return;
+    if (!isAssessmentMode) return;
     persistModulePracticeQuestionState((previous) => ({
       ...previous,
       struckOutChoiceIds: choiceIds,
     }));
   };
   const modulePracticeNavigatorItems = useMemo(() => {
+    if (isPracticeTestMode && practiceTestStateSessionId) {
+      const navigatorItems = practiceSet
+        .slice(practiceTestCurrentModuleStartIndex, practiceTestCurrentModuleEndIndex + 1)
+        .map((item, idx) => ({ item, absoluteIndex: practiceTestCurrentModuleStartIndex + idx }));
+
+      return navigatorItems.map(({ item, absoluteIndex }, idx) => {
+        const storageId = item.storageId || `bank-${item.subject}-${item.sourceId || item.id}`;
+        const state = getPracticeTestQuestionState(practiceTestStateSessionId, storageId);
+        const answer = state.answer || state.freeResponseAnswer;
+        const status = practiceTestAllowsChecking
+          ? state.status === "correct-first" ||
+            state.status === "correct-later" ||
+            state.status === "incorrect"
+            ? state.status
+            : "unanswered"
+          : answer
+            ? "answered"
+            : "unanswered";
+
+        return {
+          key: `${item.subject}-${item.id}-${absoluteIndex}`,
+          label: item.moduleQuestionNumber ?? idx + 1,
+          status,
+          isFlagged: state.isMarkedForReview,
+          isCurrent: absoluteIndex === currentPracticeIndex,
+          onSelect: () => navigateToPracticeIndex(absoluteIndex),
+          title: `${item.moduleTitle || (item.subject === "math" ? "Math" : "Reading")} · Q${item.moduleQuestionNumber ?? idx + 1}`,
+        };
+      });
+    }
+
     if (!isModulePracticeMode || !modulePracticeStateSessionId) return [];
 
     return practiceSet.map((item, idx) => {
@@ -1702,7 +2110,46 @@ function Question() {
         title: `${item.subject === "math" ? "Math" : "Reading"} Q${item.id}`,
       };
     });
-  }, [currentPracticeIndex, isModulePracticeMode, modulePracticeAllowsChecking, modulePracticeStateSessionId, navigateToPracticeIndex, practiceSet]);
+  }, [
+    currentPracticeIndex,
+    isPracticeTestMode,
+    practiceTestAllowsChecking,
+    practiceTestStateSessionId,
+    practiceTestReviewPhase,
+    practiceTestCurrentModuleStartIndex,
+    practiceTestCurrentModuleEndIndex,
+    isModulePracticeMode,
+    modulePracticeAllowsChecking,
+    modulePracticeStateSessionId,
+    navigateToPracticeIndex,
+    practiceSet,
+  ]);
+  const practiceTestAdvanceLabel =
+    isPracticeTestMode && !canGoNext
+      ? practiceTestSessionMeta && practiceTestSessionMeta.activeModuleIndex === 1
+          ? "Take Break"
+          : practiceTestSessionMeta && practiceTestSessionMeta.activeModuleIndex === practiceTestSessionMeta.modules.length - 1
+            ? "Review"
+            : "Next Module"
+      : isModulePracticeMode && !canGoNext
+        ? "Review"
+        : "Next";
+  const handlePrimaryAdvance =
+    isPracticeTestMode && !canGoNext
+      ? handlePracticeTestPhaseAdvance
+      : isModulePracticeMode && !canGoNext
+        ? handleModulePracticeReview
+        : handleNext;
+  const practiceTestNavigatorTitle = practiceTestReviewPhase
+    ? practiceTestActiveModule?.moduleTitle || "Review Questions"
+    : practiceTestActiveModule?.moduleTitle || "Test Navigator";
+  const practiceTestNavigatorSubtitle = practiceTestReviewPhase
+    ? assessmentAllowsChecking
+      ? `${practiceTestModuleQuestionCount} questions in this module`
+      : `${practiceTestModuleQuestionCount} questions in this module · answered and unanswered only`
+    : assessmentAllowsChecking
+      ? `${practiceTestModuleQuestionCount} questions in this module`
+      : `${practiceTestModuleQuestionCount} questions in this module · answered and unanswered only`;
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
@@ -1726,7 +2173,7 @@ function Question() {
         >
           <div className="relative flex items-center justify-between gap-3" ref={topNavRef}>
             <div ref={topLeftRef} data-header-left className="flex-shrink-0">
-              {isModulePracticeMode ? (
+              {isAssessmentMode ? (
                 <AlertDialog>
                   <AlertDialogTrigger asChild>
                     <Button variant="ghost" size="sm">
@@ -1736,10 +2183,14 @@ function Question() {
                   </AlertDialogTrigger>
                   <AlertDialogContent>
                     <AlertDialogHeader>
-                      <AlertDialogTitle>Save and exit this module?</AlertDialogTitle>
+                      <AlertDialogTitle>
+                        {isPracticeTestMode ? "Save and exit this practice test?" : "Save and exit this module?"}
+                      </AlertDialogTitle>
                       <AlertDialogDescription>
                         Your selected answers, notes, highlights, and marked questions will stay saved.
-                        The timer will stop until you come back.
+                        {isPracticeTestMode
+                          ? "The current test session will pause until you come back."
+                          : "The timer will stop until you come back."}
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <AlertDialogFooter>
@@ -1796,9 +2247,14 @@ function Question() {
                 )}
                 {isReadingPassageAnnotatable && (
                   <Button
-                    variant={isAnnotationModeEnabled ? "default" : "outline"}
+                    variant="outline"
                     size="sm"
-                    className={topShouldCompress ? "w-9 px-0" : "min-w-[112px]"}
+                    className={cn(
+                      topShouldCompress ? "w-9 px-0" : "min-w-[112px]",
+                      isAnnotationModeEnabled
+                        ? "bg-[#B4E1FF] text-foreground hover:bg-[#95D4FF] hover:text-foreground"
+                        : "bg-background text-foreground",
+                    )}
                     onClick={() => setIsAnnotationModeEnabled((prev) => !prev)}
                     title={isAnnotationModeEnabled ? "Turn annotation mode off" : "Turn annotation mode on"}
                   >
@@ -1876,7 +2332,7 @@ function Question() {
             >
               <Button variant="ghost" size="sm">
                 <ChevronLeft className="mr-1 h-4 w-4" />
-                {isModulePracticeMode ? "Save & Exit" : "Home"}
+                {isAssessmentMode ? "Save & Exit" : "Home"}
               </Button>
             </div>
             <div 
@@ -1938,7 +2394,8 @@ function Question() {
                     html={readingPassageHtml}
                     storageKey={annotationStorageKey}
                     enabled={isAnnotationModeEnabled}
-                    storageArea={isModulePracticeMode ? sessionStorage : localStorage}
+                    storageArea={noteStorageArea}
+                    persistNotes={shouldPersistAnnotationNotes}
                   />
                 ) : (
                   renderContent(stemContent)
@@ -1998,12 +2455,12 @@ function Question() {
                     choices={currentQuestion.choices}
                     selectedAnswer={selectedAnswer}
                     onAnswerChange={handleAnswerSelectionChange}
-                    onCheck={modulePracticeAllowsChecking || !isModulePracticeMode ? handleCheck : undefined}
+                    onCheck={assessmentAllowsChecking || !isAssessmentMode ? handleCheck : undefined}
                     strikeoutMode={strikeoutMode}
                     checkedAnswers={checkedAnswers}
                     questionId={is100Hard ? questionNumber : currentQuestion.uuid}
-                    struckOutChoiceIds={isModulePracticeMode ? struckOutChoiceIds : undefined}
-                    onStruckOutChange={isModulePracticeMode ? handleStrikeoutChange : undefined}
+                    struckOutChoiceIds={isAssessmentMode ? struckOutChoiceIds : undefined}
+                    onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
                   />
                 ) : (
                   <div className="space-y-3">
@@ -2060,7 +2517,8 @@ function Question() {
                         html={readingPassageHtml}
                         storageKey={annotationStorageKey}
                         enabled={isAnnotationModeEnabled}
-                        storageArea={isModulePracticeMode ? sessionStorage : localStorage}
+                        storageArea={noteStorageArea}
+                        persistNotes={shouldPersistAnnotationNotes}
                       />
                       {showQuestionTextAboveChoices && readingQuestionSentence && (
                         <div className="mt-4">{renderContent(readingQuestionSentence, { emphasizeHeaders: false })}</div>
@@ -2074,7 +2532,8 @@ function Question() {
                           html={readingPassageHtml}
                           storageKey={annotationStorageKey}
                           enabled={isAnnotationModeEnabled}
-                          storageArea={isModulePracticeMode ? sessionStorage : localStorage}
+                          storageArea={noteStorageArea}
+                          persistNotes={shouldPersistAnnotationNotes}
                         />
                       ) : (
                         renderContent(stemContent)
@@ -2088,13 +2547,13 @@ function Question() {
                   choices={currentQuestion.choices}
                   selectedAnswer={selectedAnswer}
                   onAnswerChange={handleAnswerSelectionChange}
-                  onCheck={modulePracticeAllowsChecking || !isModulePracticeMode ? handleCheck : undefined}
+                  onCheck={assessmentAllowsChecking || !isAssessmentMode ? handleCheck : undefined}
                   strikeoutMode={strikeoutMode}
                   checkedAnswers={checkedAnswers}
                   questionId={is100Hard ? questionNumber : currentQuestion.uuid}
                   subject={subject}
-                  struckOutChoiceIds={isModulePracticeMode ? struckOutChoiceIds : undefined}
-                  onStruckOutChange={isModulePracticeMode ? handleStrikeoutChange : undefined}
+                  struckOutChoiceIds={isAssessmentMode ? struckOutChoiceIds : undefined}
+                  onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
                 />
               ) : (
                 <div className="space-y-3">
@@ -2142,7 +2601,7 @@ function Question() {
                   : "justify-self-end"
               )}
             >
-              {!isModulePracticeMode && <PreviousAttemptsDialog attempts={currentProgress.attempts} />}
+              {!isAssessmentMode && <PreviousAttemptsDialog attempts={currentProgress.attempts} />}
               {is100Hard ? (
                   <BankNavigationSheet
                     currentQuestion={questionNumber}
@@ -2158,19 +2617,25 @@ function Question() {
                     )}
                   />
               ) : effectivePracticeMode ? (
-                 isModulePracticeMode ? (
-                     <ModulePracticeNavigationSheet
-                        buttonLabel={`Question ${currentPracticeIndex + 1} of ${practiceSet.length}`}
-                        title={modulePracticeModule?.publicTitle || "Module Navigator"}
-                        subtitle={
+                 isAssessmentMode ? (
+                      <ModulePracticeNavigationSheet
+                        buttonLabel={
+                          isPracticeTestMode
+                            ? practiceTestReviewPhase
+                              ? `Review ${practiceTestQuestionNumberInModule} of ${practiceTestModuleQuestionCount}`
+                              : `Question ${practiceTestQuestionNumberInModule} of ${practiceTestModuleQuestionCount}`
+                            : `Q${currentPracticeIndex + 1} · Module ${modulePracticeModule?.moduleNumber ?? ""}`
+                        }
+                        title={isPracticeTestMode ? practiceTestNavigatorTitle : modulePracticeModule?.publicTitle || "Module Navigator"}
+                        subtitle={isPracticeTestMode ? practiceTestNavigatorSubtitle : (
                           modulePracticeAllowsChecking
                             ? `${practiceSet.length} questions in this module`
                             : `${practiceSet.length} questions · answered and unanswered only`
-                        }
+                        )}
                         items={modulePracticeNavigatorItems}
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition}
-                        statusMode={modulePracticeAllowsChecking ? "default" : "answered-unanswered"}
+                        statusMode={assessmentAllowsChecking ? "default" : "answered-unanswered"}
                      />
                  ) : (
                  isOfficialBank ? (
@@ -2218,7 +2683,7 @@ function Question() {
               className="ml-auto flex gap-2 shrink-0 justify-end"
               style={{ minWidth: shouldCompress ? undefined : '280px' }}
             >
-              {!isModulePracticeMode && (
+              {!isAssessmentMode && (
                 <ExplanationWindow 
                   onSplitScreenChange={handleSplitScreenChange}
                   onSplitPositionChange={handleSplitPositionChange}
@@ -2236,7 +2701,7 @@ function Question() {
                   questionId={currentQuestion?.uuid || currentQuestion?.id}
                 />
               )}
-              {(!isModulePracticeMode || modulePracticeAllowsChecking) && (
+              {(!isAssessmentMode || assessmentAllowsChecking) && (
                 <Button 
                   onClick={() => handleCheck()}
                   disabled={isCheckDisabled}
@@ -2248,14 +2713,14 @@ function Question() {
                 </Button>
               )}
               <Button
-                onClick={isModulePracticeMode && !canGoNext ? handleModulePracticeReview : handleNext}
-                disabled={isModulePracticeMode ? false : !canGoNext}
+                onClick={handlePrimaryAdvance}
+                disabled={isAssessmentMode ? false : !canGoNext}
                 variant="outline"
                 className="h-10 transition-colors duration-200 ease-out"
               >
                 {!shouldCompress && (
                   <span>
-                    {isModulePracticeMode && !canGoNext ? "Review" : "Next"}
+                    {practiceTestAdvanceLabel}
                   </span>
                 )}
                 <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
@@ -2268,20 +2733,20 @@ function Question() {
               className="absolute -left-[9999px] flex gap-2 whitespace-nowrap"
               style={{ visibility: 'hidden', pointerEvents: 'none' }}
             >
-              {!isModulePracticeMode && (
+              {!isAssessmentMode && (
                 <Button variant="secondary" size="default">
                   <span className="mr-2 h-4 w-4">▶</span>
                   Explanation
                 </Button>
               )}
-              {(!isModulePracticeMode || modulePracticeAllowsChecking) && (
+              {(!isAssessmentMode || assessmentAllowsChecking) && (
                 <Button size="default">
                   <Check className="mr-1 h-4 w-4" />
                   <span>Check</span>
                 </Button>
               )}
               <Button size="default">
-                <span>{isModulePracticeMode && !canGoNext ? "Review" : "Next"}</span>
+                <span>{practiceTestAdvanceLabel}</span>
                 <ChevronRight className="ml-1 h-4 w-4" />
               </Button>
             </div>

@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (°F), when the air temperature is 33°F and the wind speed is 20 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\text{°F}$), when the air temperature is $33\text{°F}$ and the wind speed is $20$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -28,7 +28,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "The given equation relates the positive numbers m, n, and p. Which equation correctly gives m in terms of n and p?",
+    "passage": "The given equation relates the positive numbers $m$, $n$, and $p$. Which equation correctly gives $m$ in terms of $n$ and $p$?",
     "question_text": null,
     "choices": [
       {
@@ -37,15 +37,15 @@
       },
       {
         "label": "B",
-        "text": "m =9(n + p)"
+        "text": "$m = 9(n + p)$"
       },
       {
         "label": "C",
-        "text": "m =9(n + p)-11"
+        "text": "$m = 9(n + p) - 11$"
       },
       {
         "label": "D",
-        "text": "m =9- n - p -11"
+        "text": "$m = 9 - n - p - 11$"
       }
     ],
     "is_fill_in_blank": false,
@@ -64,10 +64,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Line v is defined by y =7 x +10. Line w is perpendicular to line v in the xy -plane. What is the slope of line w ？",
+    "passage": "Line $v$ is defined by $y = 7x + 10$. Line $w$ is perpendicular to line $v$ in the $xy$-plane. What is the slope of line $w$?",
     "question_text": null,
     "choices": [
       {
@@ -96,10 +96,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Ratios, rates, proportional relationships, and units",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 5,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "During a trip,Bill drove his car for 22.0 miles and then began driving at a constant speed of 70.0 miles per hour. After 2 hours of driving at this speed,what is the total distance,in miles,Bill has traveled during this trip?",
+    "passage": "During a trip, Bill drove his car for $22.0$ miles and then began driving at a constant speed of $70.0$ miles per hour. After $2$ hours of driving at this speed, what is the total distance, in miles, Bill has traveled during this trip?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -111,10 +111,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 6,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "In the xy -plane,the graph of the given equation is a circle. If this circle is inscribed in a square,what is the perimeter of the square?",
+    "passage": "In the $xy$-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?",
     "question_text": null,
     "choices": [
       {
@@ -158,19 +158,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "x =2"
+        "text": "$x = 2$"
       },
       {
         "label": "B",
-        "text": "x =-2"
+        "text": "$x = -2$"
       },
       {
         "label": "C",
-        "text": "x =4"
+        "text": "$x = 4$"
       },
       {
         "label": "D",
-        "text": "x =-1"
+        "text": "$x = -1$"
       }
     ],
     "is_fill_in_blank": false,
@@ -189,10 +189,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 8,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "In triangle JKL, the measures of ∠K and ∠L are each 43°. What is the measure of ∠J, in degrees? (Disregard the degree symbol when entering your answer.)",
+    "passage": "In triangle $JKL$, the measures of $\\angle K$ and $\\angle L$ are each $43^\\circ$. What is the measure of $\\angle J$, in degrees? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -204,7 +204,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 9,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "Which ordered pair (x,y) is a solution to the given system of equations?",
@@ -212,19 +212,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "(2, 49)"
+        "text": "$(2, 49)$"
       },
       {
         "label": "B",
-        "text": "(2, 2)"
+        "text": "$(2, 2)$"
       },
       {
         "label": "C",
-        "text": "(2, 35)"
+        "text": "$(2, 35)$"
       },
       {
         "label": "D",
-        "text": "(2, 7)"
+        "text": "$(2, 7)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -246,7 +246,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "The value of z is 1.27 times 100. The value of z is what percent greater than 100?",
+    "passage": "The value of $ z $ is 1.27 times 100. The value of $ z $ is what percent greater than 100?",
     "question_text": null,
     "choices": [
       {
@@ -310,7 +310,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "What is the sum of the solutions to the equation 2x 2 − 6x + 9 = 17?",
+    "passage": "What is the sum of the solutions to the equation $2x^2 - 6x + 9 = 17$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -322,10 +322,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 14,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "y = 9\ny = −(x − 9) 2 + 8\nIf the given equations are graphed in the xy-plane, at how many points do the graphs of the equations intersect?",
+    "passage": "$y = 9$\n$y = -(x - 9)^2 + 8$\nIf the given equations are graphed in the $xy$-plane, at how many points do the graphs of the equations intersect?",
     "question_text": null,
     "choices": [
       {
@@ -354,10 +354,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 15,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "y = 500(2) 2x\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, x, starting from the end of January 1996, where 0 ≤ x ≤ 4. Which statement is the best interpretation of the y- intercept of the graph of this equation in the xy-plane?",
+    "passage": "$y = 500(2)^{2x}$\n\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, $x$, starting from the end of January 1996, where $0 \\leq x \\leq 4$. Which statement is the best interpretation of the $y$-intercept of the graph of this equation in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -386,27 +386,27 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 16,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "The function f is defined by f (x) = (−5)(6) x + 25. What is the y -intercept of the graph of y = f(x) in the xy - plane?",
+    "passage": "The function $f$ is defined by $f(x) = (-5)(6)x + 25$. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "(0, 20)"
+        "text": "$(0, 20)$"
       },
       {
         "label": "B",
-        "text": "(0, 6)"
+        "text": "$(0, 6)$"
       },
       {
         "label": "C",
-        "text": "(0, 25)"
+        "text": "$(0, 25)$"
       },
       {
         "label": "D",
-        "text": "(0,-5)"
+        "text": "$(0, -5)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -418,10 +418,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "The solution to the given system of equations is (x,y). What is the value of xy?",
+    "passage": "The solution to the given system of equations is $(x, y)$. What is the value of $xy$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -440,10 +440,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "In the given equation, u is a positive constant. The sum of the solutions to the equation is 9. What is the value of u?",
+    "passage": "$u$ is a positive constant. The sum of the solutions to the equation is 9. What is the value of $u$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -462,10 +462,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 19,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "A scientist initially measures 9,000 bacteria in a growth medium. 10 hours later,the scientist measures 18,000 bacteria. Assuming exponential growth,the formula P = C(2) rt gives the number of bacteria in the growth medium,where r and C are constants and P is the number of bacteria t hours after the initial measurement. What is the value of r?",
+    "passage": "A scientist initially measures 9,000 bacteria in a growth medium. 10 hours later, the scientist measures 18,000 bacteria. Assuming exponential growth, the formula $P = C(2)^{rt}$ gives the number of bacteria in the growth medium, where $r$ and $C$ are constants and $P$ is the number of bacteria $t$ hours after the initial measurement. What is the value of $r$?",
     "question_text": null,
     "choices": [
       {
@@ -494,27 +494,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Two variables, x and y,are related such that for each increase of 1 in the value of x,the value of y increases by a factor of 4. When x = 0, y = 150. Which equation represents this relationship?",
+    "passage": "$y$ is a positive integer and two variables, $x$ and $y$, are related such that for each increase of 1 in the value of $x$, the value of $y$ increases by a factor of 4. When $x = 0$, $y = 150$. Which equation represents this relationship?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y =150(x) 4"
+        "text": "$y = 150(4)^x$"
       },
       {
         "label": "B",
-        "text": "y =150(4) x"
+        "text": "$y = 150(4)^x$"
       },
       {
         "label": "C",
-        "text": "y = 4(x) 150"
+        "text": "$y = 4(150)^x$"
       },
       {
         "label": "D",
-        "text": "y = 4(150) x"
+        "text": "$y = 4(150)^x$"
       }
     ],
     "is_fill_in_blank": false,
@@ -526,7 +526,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "The shaded region shown represents the solutions to which inequality?",
@@ -534,19 +534,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "y > 5x − 35"
+        "text": "$y > 5x - 35$"
       },
       {
         "label": "B",
-        "text": "y < 5x − 35"
+        "text": "$y < 5x - 35$"
       },
       {
         "label": "C",
-        "text": "y > 25x − 35"
+        "text": "$y > 25x - 35$"
       },
       {
         "label": "D",
-        "text": "y < 25x − 35"
+        "text": "$y < 25x - 35$"
       }
     ],
     "is_fill_in_blank": false,
@@ -565,7 +565,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "May 2024 International Form E SAT Math Module 1",
     "passage": "What is the sum of the solutions to the given equation?",

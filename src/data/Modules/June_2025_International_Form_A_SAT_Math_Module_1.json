@@ -3,10 +3,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 1,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "In the figure, line n intersects lines r and s. Line r is parallel to line s. What is the value of x?",
+    "passage": "In the figure, line $ n $ intersects lines $ r $ and $ s $. Line $ r $ is parallel to line $ s $. What is the value of $ x $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -28,24 +28,24 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "During a portion of a flight, a small airplane's cruising speed varied between 125 miles per hour and 145 miles per hour. Which inequality best represents this situation, where s is the cruising speed, in miles per hour, during this portion of the flight?",
+    "passage": "During a portion of a flight, a small airplane's cruising speed varied between 125 miles per hour and 145 miles per hour. Which inequality best represents this situation, where $s$ is the cruising speed, in miles per hour, during this portion of the flight?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$s\\le20$"
+        "text": "$s \\leq 20$"
       },
       {
         "label": "B",
-        "text": "$s\\le125$"
+        "text": "$s \\leq 125$"
       },
       {
         "label": "C",
-        "text": "$s\\le145$"
+        "text": "$s \\leq 145$"
       },
       {
         "label": "D",
-        "text": "$125\\le s\\le145$"
+        "text": "$125 \\leq s \\leq 145$"
       }
     ],
     "is_fill_in_blank": false,
@@ -60,7 +60,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "If 4 x = 7, what is the value of 24 x?",
+    "passage": "If $4x = 7$, what is the value of $24x$?",
     "question_text": null,
     "choices": [
       {
@@ -89,7 +89,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "June 2025 International Form A SAT Math Module 1",
     "passage": "Which expression is equivalent to $(x^{3}+8x^{2}-7x)+6(x^{2}+5)$?",
@@ -124,7 +124,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by $f(x)=x^{3}+19$. What is the value of f (2)?",
+    "passage": "The function $f$ is defined by $f(x)=x^3+19$. What is the value of $f(2)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -151,27 +151,27 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: Models and scatterplots",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 7,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "The scatterplot shows the relationship between two variables, x and y.\nWhich of the following equations is the most appropriate linear model for the data shown?",
+    "passage": "The scatterplot shows the relationship between two variables, $x$ and $y$.\nWhich of the following equations is the most appropriate linear model for the data shown?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "y=0.8+8.5x"
+        "text": "$y=0.8+8.5x$"
       },
       {
         "label": "B",
-        "text": "y=0.8-8.5x"
+        "text": "$y=0.8-8.5x$"
       },
       {
         "label": "C",
-        "text": "y=8.5+0.8x"
+        "text": "$y=8.5+0.8x$"
       },
       {
         "label": "D",
-        "text": "y=8.5-0.8x"
+        "text": "$y=8.5-0.8x$"
       }
     ],
     "is_fill_in_blank": false,
@@ -193,7 +193,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "The y -intercept of the graph of $y=x^{2}+15$ in the xy - plane is (0, y). What is the value of y?",
+    "passage": "The $y$-intercept of the graph of $y = x^2 + 15$ in the $xy$-plane is $(0, y)$. What is the value of $y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -205,7 +205,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Area and volume",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 10,
     "test_name": "June 2025 International Form A SAT Math Module 1",
     "passage": "A chemist combines water and isopropanol to make a mixture with a volume of 38 milliliters (mL). The volume of isopropanol in the mixture is 10 mL. What is the volume of water, in mL, in the mixture? (Assume that the volume of the mixture is the sum of the volumes of water and isopropanol before they were mixed.)",
@@ -220,7 +220,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 11,
     "test_name": "June 2025 International Form A SAT Math Module 1",
     "passage": "$y=-\\frac{1}{8}x$\n$y=\\frac{1}{10}x$\nThe solution to the given system of equations is (x, y). What is the value of x?",
@@ -255,7 +255,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5 % greater than the total number enrolled the previous month, Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where m < 24?",
+    "passage": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where m < 24?",
     "question_text": null,
     "choices": [
       {
@@ -284,10 +284,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 13,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "The function $f(t)=60,000(2)^{\\frac{t}{580}}$ gives the number of bacteria in a population t minutes after an initial observation, How much time, in minutes, does it take for the number of bacteria in the population to double?",
+    "passage": "The function $f(t)=60,000(2)^{\\frac{t}{580}}$ gives the number of bacteria in a population $t$ minutes after an initial observation. How much time, in minutes, does it take for the number of bacteria in the population to double?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -302,7 +302,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "For x > 0, the function f is defined as follows:\nf (x) equals 293 % of x\nWhich of the following could describe this function?",
+    "passage": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)$ equals 293% of $x$\nWhich of the following could describe this function?",
     "question_text": null,
     "choices": [
       {
@@ -331,7 +331,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "question_number": 15,
     "test_name": "June 2025 International Form A SAT Math Module 1",
     "passage": "$y=\\frac{3}{8}x+2$\nOne of two equations in a system of linear equations is given. The system has infinitely many solutions. What is the slope of the graph of the second equation?",
@@ -398,7 +398,7 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "The function f is defined by f (x)=(x - 5)(x - 9)(x + k), where k is a constant. In the xy -plane, the graph of y = f (x) passes through the point (-3, 0). What is the value of f (0)?",
+    "passage": "The function $ f $ is defined by $ f(x) = (x - 5)(x - 9)(x + k) $, where $ k $ is a constant. In the $ xy $-plane, the graph of $ y = f(x) $ passes through the point $ (-3, 0) $. What is the value of $ f(0) $?",
     "question_text": null,
     "choices": [
       {
@@ -427,10 +427,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "Line k is shown in the xy -plane. Line j (not shown) is perpendicular to line k and passes through the point (-20, -23). Which equation defines line j?",
+    "passage": "Line $k$ is shown in the $xy$-plane. Line $j$ (not shown) is perpendicular to line $k$ and passes through the point $(-20, -23)$. Which equation defines line $j$?",
     "question_text": null,
     "choices": [
       {
@@ -469,7 +469,7 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "In right triangle ABC, angles A and B are acute, side AC has a length of 29.5, and tan B = $\\frac{1}{9}$. What is the length of side BC, rounded to the nearest tenth?",
+    "passage": "In right triangle $ABC$, angles $A$ and $B$ are acute, side $AC$ has a length of 29.5, and $\\tan B = \\frac{1}{9}$. What is the length of side $BC$, rounded to the nearest tenth?",
     "question_text": null,
     "choices": [
       {
@@ -498,10 +498,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "A rectangular banner has an area of 3, 200 square inches, A copy of the banner is made in which the length and width of the original banner are each increased by 20 %. What is the area of the copy, in square inches?",
+    "passage": "A rectangular banner has an area of 3,200 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20%. What is the area of the copy, in square inches?",
     "question_text": null,
     "choices": [
       {
@@ -530,7 +530,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 21,
     "test_name": "June 2025 International Form A SAT Math Module 1",
     "passage": "$f(x)=(x-4)^{2}+6$\nWhat is the minimum value of the given function?",
@@ -562,10 +562,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 22,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "Point F lies on a unit circle in the xy-plane and has coordinates (1, 0). Point G is the center of the circle and has coordinates (0, 0), Point H also lies on the circle and has coordinates (-1, y), where y is a constant. Which of the following could be the positive measure of angle FGH, in radians?",
+    "passage": "Point $F$ lies on a unit circle in the $xy$-plane and has coordinates $(1, 0)$. Point $G$ is the center of the circle and has coordinates $(0, 0)$. Point $H$ also lies on the circle and has coordinates $(-1, y)$, where $y$ is a constant. Which of the following could be the positive measure of angle $FGH$, in radians?",
     "question_text": null,
     "choices": [
       {
@@ -578,11 +578,11 @@
       },
       {
         "label": "C",
-        "text": "34π"
+        "text": "$34\\pi$"
       },
       {
         "label": "D",
-        "text": "35π"
+        "text": "$35\\pi$"
       }
     ],
     "is_fill_in_blank": false,

@@ -6,24 +6,24 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "The function $f$ is defined by $f(x)$ = $6x-\\frac{1}{8}$. What is the y-intercept of the graph of $y=f(x)$ in the $xy$ -plane?",
+    "passage": "The function $f$ is defined by $f(x) = 6x - \\frac{1}{8}$. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(0,-\\frac{1}{8})$"
+        "text": "$(0, -\\frac{1}{8})$"
       },
       {
         "label": "B",
-        "text": "(0,-6)"
+        "text": "$(0, -6)$"
       },
       {
         "label": "C",
-        "text": "(0,6)"
+        "text": "$(0, 6)$"
       },
       {
         "label": "D",
-        "text": "(0,8)"
+        "text": "$(0, 8)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -38,16 +38,16 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "Which expression is equivalent to $(57y)^{\\frac{1}{2}}$, where y $>$ 1?",
+    "passage": "Which expression is equivalent to $(57y)^{\\frac{1}{2}}$, where $y > 1$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "57· $\\sqrt{y}$"
+        "text": "$57 \\cdot \\sqrt{y}$"
       },
       {
         "label": "B",
-        "text": "$\\sqrt{57}$ ·y"
+        "text": "$\\sqrt{57} \\cdot y$"
       },
       {
         "label": "C",
@@ -55,7 +55,7 @@
       },
       {
         "label": "D",
-        "text": "$\\sqrt{(57y)^{2}}$"
+        "text": "$\\sqrt{(57y)^2}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -67,10 +67,10 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Percentages",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "Luis has \\$150 in an account. Each year he expects to have 1.1% more money in the account than he had the previous year. Which of the following models best describes how Luis expects the money in his account to change over time?",
+    "passage": "Luis has $\\$150$ in an account. Each year he expects to have $1.1\\%$ more money in the account than he had the previous year. Which of the following models best describes how Luis expects the money in his account to change over time?",
     "question_text": null,
     "choices": [
       {
@@ -99,10 +99,10 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 4,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "The function m is defined by m(x)= 5x + 3, and the function p is defined by p(x)= 3- x. What is the value of 2m(3)- p(3)?",
+    "passage": "The function $m$ is defined by $m(x) = 5x + 3$, and the function $p$ is defined by $p(x) = 3 - x$. What is the value of $2m(3) - p(3)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -126,7 +126,7 @@
       },
       {
         "label": "B",
-        "text": "$y=2$ $(48,000)^{t}$"
+        "text": "$y=2 \\times (48,000)^{t}$"
       },
       {
         "label": "C",
@@ -213,7 +213,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "In right triangle $ABC$, angles $A$ and $B$ are acute, side $AC$ has a length of 23.3, and tan B= $\\frac{1}{4}$. What is the length of side BC, rounded to the nearest tenth?",
+    "passage": "In right triangle $ABC$, angles $A$ and $B$ are acute, side $AC$ has a length of 23.3, and $\\tan B= \\frac{1}{4}$. What is the length of side $BC$, rounded to the nearest tenth?",
     "question_text": null,
     "choices": [
       {
@@ -242,7 +242,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 9,
     "test_name": "March 2025 US Form A SAT Math Module 2",
     "passage": "$-3|5x+7|+9=-12$\nwhat are all solutions to the given equation?",
@@ -258,7 +258,7 @@
       },
       {
         "label": "C",
-        "text": "and $-$ $\\frac{14}{5}$"
+        "text": "$-\\frac{4}{5}$ and $-\\frac{14}{5}$"
       },
       {
         "label": "D",
@@ -277,7 +277,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "While walking on a path, Maksim stopped at a water fountain. The graph shows the total distance y, in meters, Maksim had walked on the path x minutes after leaving the water fountain.\nWhat distance, in meters, did Maksim walk on the path in the 10 minutes after he left the water fountain?",
+    "passage": "While walking on a path, Maksim stopped at a water fountain. The graph shows the total distance $y$, in meters, Maksim had walked on the path $x$ minutes after leaving the water fountain.\nWhat distance, in meters, did Maksim walk on the path in the 10 minutes after he left the water fountain?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -299,7 +299,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "The positive number a is 2,106% of the sum of the positive numbers b and c, and b is 81% of c. What percent of b is a?",
+    "passage": "$a$ is 2,106% of the sum of the positive numbers $b$ and $c$, and $b$ is 81% of $c$. What percent of $b$ is $a$?",
     "question_text": null,
     "choices": [
       {
@@ -331,7 +331,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "The shaded region shown represents the solutions to rx + ty $\\ge$ -65, where r and t are constants. what is the value of r +t",
+    "passage": "The shaded region shown represents the solutions to $rx + ty \\ge -65$, where $r$ and $t$ are constants. What is the value of $r + t$?",
     "question_text": null,
     "choices": [
       {
@@ -367,27 +367,27 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 13,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "In the xy-plane, line k and line $γ$ are perpendicular and intersect at the point (7, 5). If line k is defined by the equation y= mx + b, where m and b are constants and m > 1, which of the following points lies on line $γ$?",
+    "passage": "In the $xy$-plane, line $k$ and line $\\gamma$ are perpendicular and intersect at the point $(7, 5)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m > 1$, which of the following points lies on line $\\gamma$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(8,5-\\frac{1}{m})$"
+        "text": "$(8, 5 - \\frac{1}{m})$"
       },
       {
         "label": "B",
-        "text": "$(8,5+\\frac{1}{m})$"
+        "text": "$(8, 5 + \\frac{1}{m})$"
       },
       {
         "label": "C",
-        "text": "$(8,5-m)$"
+        "text": "$(8, 5 - m)$"
       },
       {
         "label": "D",
-        "text": "$(8,5+m)$"
+        "text": "$(8, 5 + m)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -399,7 +399,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: Distributions and measures of center and spread",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 14,
     "test_name": "March 2025 US Form A SAT Math Module 2",
     "passage": "The histogram summarizes a data set of the weights, in pounds, of 14 salmon. If an additional weight of 32 pounds is added to the original data set to create a new data set of 15 weights, which of the following measures must be less for the new data set than for the original data set?\nI. The median\nII. The mean",
@@ -470,7 +470,7 @@
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Probability and conditional probability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 16,
     "test_name": "March 2025 US Form A SAT Math Module 2",
     "passage": "To investigate the effect of magnesium supplementation on the sleep quality of adults, a researcher selected 190 adults at random from a community center to participate in a study. The researcher first measured the sleep efficiency of each participant. Each participant was then randomly assigned to take a magnesium supplement or a placebo each day for 6 weeks. At the end of the 6 weeks, the researcher measured the sleep efficiency of all participants again and found that the magnesium supplement caused statistically significant improved sleep quality for the adults at the community center. What feature of this study allowed the researcher to conclude that the magnesium supplement caused the improved sleep quality?",
@@ -502,10 +502,10 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Circles",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 17,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "A circle in the $xy$ -plane has its center at (-1, 1). Line $t$ is tangent to this circle at the point(7,-6). Which of the following points also lies on line $t$?",
+    "passage": "A circle in the $xy$-plane has its center at (-1, 1). Line $t$ is tangent to this circle at the point (7, -6). Which of the following points also lies on line $t$?",
     "question_text": null,
     "choices": [
       {
@@ -514,15 +514,15 @@
       },
       {
         "label": "B",
-        "text": "(6,9)"
+        "text": "$(6, 9)$"
       },
       {
         "label": "C",
-        "text": "(14,2)"
+        "text": "$(14, 2)$"
       },
       {
         "label": "D",
-        "text": "(15,1)"
+        "text": "$(15, 1)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -534,10 +534,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 18,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "The function $f$ is defined by $f(x)=\\frac{x^{2}+ax+b}{2x+c}$, where a, b, and c are constants. The graph of the function $f$ in the xy-plane, where $y=f(x)$, does not intersect the line $x=4$. If $f(5)=f(6)=0$, what is the value of a + b+ c?",
+    "passage": "The function $f$ is defined by $f(x)=\\frac{x^2 + ax + b}{2x + c}$, where $a$, $b$, and $c$ are constants. The graph of the function $f$ in the $xy$-plane, where $y = f(x)$, does not intersect the line $x = 4$. If $f(5) = f(6) = 0$, what is the value of $a + b + c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -549,10 +549,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "question_number": 19,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "If $4x+7=15$,what is the value of $8x-3$?",
+    "passage": "If $4x + 7 = 15$, what is the value of $8x - 3$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -564,10 +564,10 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 20,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "kx 2 -16x=24x 2 -8\nIn the given equation, $k$ is an integer constant. If the equation has two distinct real solutions,what is the greatest possible value of $k$?",
+    "passage": "$kx^2 - 16x = 24x^2 - 8$\nIn the given equation, $k$ is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -582,7 +582,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 56 square centimeters (cm 2), and the surface area of right rectangular prism Y is 896 cm 2. The volume of right rectangular prism Y is 1,536 cubic centimeters (cm 3). What is the sum of the volumes, in cm 3, of right rectangular prism X and right rectangular prism Y?",
+    "passage": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 56 square centimeters ($\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 896 $\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,536 cubic centimeters ($\text{cm}^3$). What is the sum of the volumes, in $\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -597,7 +597,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "March 2025 US Form A SAT Math Module 2",
-    "passage": "In triangle $ABC,$ the measure of angle B is 90º and $\\overline{BD}$ is an altitude of the triangle. The length of $\\overline{AB}$ is 24 and the length of $\\overline{AC}$ is 13 greater than the length of $\\overline{AB}$. What is the value of $\\frac{BC}{BD}$?",
+    "passage": "In triangle $ABC,$ the measure of angle $B$ is $90^\\circ$ and $\\overline{BD}$ is an altitude of the triangle. The length of $\\overline{AB}$ is 24 and the length of $\\overline{AC}$ is 13 greater than the length of $\\overline{AB}$. What is the value of $\\frac{BC}{BD}$?",
     "question_text": null,
     "choices": [
       {
