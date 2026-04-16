@@ -19,7 +19,7 @@ const perks = [
   "Track your progress across every skill",
   "Mark questions for review",
   "See accuracy trends over time",
-  "No paid features--- ever",
+  "No paid features — ever",
 ];
 
 const Signup = () => {
@@ -144,7 +144,7 @@ const Signup = () => {
           <Button
             variant="ghost"
             size="sm"
-            className="gap-2 text-white hover:text-white hover:bg-white/10"
+            className="gap-2"
             onClick={() => navigate("/")}
           >
             <ArrowLeft className="h-4 w-4" />
@@ -167,7 +167,7 @@ const Signup = () => {
               Create account
             </h2>
             <p className="text-sm text-muted-foreground">
-              No paid features--- ever.
+              No paid features — ever.
             </p>
           </div>
 

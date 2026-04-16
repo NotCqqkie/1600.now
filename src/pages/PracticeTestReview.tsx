@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { Bookmark } from "lucide-react";
+import { Bookmark, Eye, EyeOff, Pause, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   AlertDialog,
@@ -50,6 +50,8 @@ const PracticeTestReview = () => {
     [practiceSet],
   );
   const activeModule = session ? session.modules[session.activeModuleIndex] : null;
+  const [isTimerVisible, setIsTimerVisible] = useState(true);
+  const [isTimerPaused, setIsTimerPaused] = useState(false);
 
   useEffect(() => {
     if (!practiceSet || !questionSet) return;
@@ -158,10 +160,29 @@ const PracticeTestReview = () => {
     <div className="min-h-screen bg-background text-foreground">
       {/* Fixed timer header */}
       <div className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-          <div className="text-sm font-medium text-muted-foreground">Time Remaining</div>
-          <div className="rounded-full border border-border bg-card px-4 py-2 font-mono text-lg font-semibold tabular-nums text-foreground">
-            {formatClock(displayedTimerSeconds)}
+        <div className="mx-auto flex w-full max-w-6xl items-center justify-center px-4 py-2 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-2">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="h-9 w-9"
+              onClick={() => setIsTimerVisible((prev) => !prev)}
+              title={isTimerVisible ? "Hide timer" : "Show timer"}
+            >
+              {isTimerVisible ? <Eye className="h-5 w-5" /> : <EyeOff className="h-5 w-5" />}
+            </Button>
+            <span className="min-w-[5ch] text-center text-xl font-semibold tabular-nums">
+              {isTimerVisible ? formatClock(displayedTimerSeconds) : "-:--"}
+            </span>
+            <Button
+              variant="ghost"
+              size="icon"
+              className="h-9 w-9"
+              onClick={() => setIsTimerPaused((prev) => !prev)}
+              title={isTimerPaused ? "Resume timer" : "Pause timer"}
+            >
+              {isTimerPaused ? <Play className="h-5 w-5" /> : <Pause className="h-5 w-5" />}
+            </Button>
           </div>
         </div>
       </div>

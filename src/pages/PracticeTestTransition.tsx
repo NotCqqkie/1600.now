@@ -132,7 +132,7 @@ const PracticeTestTransition = () => {
             {formatClock(session.breakRemainingSeconds)}
           </div>
           <p className="text-sm text-muted-foreground">
-            On the real SAT, you need to wait this out.
+            On the real SAT, this break is mandatory.
           </p>
           <Button variant="outline" onClick={skipBreak}>
             Skip break

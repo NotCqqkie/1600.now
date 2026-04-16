@@ -212,44 +212,6 @@ const formatTimer = (totalSeconds: number) => {
   return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 };
 
-const readTimerState = (storageKey: string) => {
-  try {
-    const raw = sessionStorage.getItem(storageKey);
-    if (!raw) return null;
-    const parsed = JSON.parse(raw) as {
-      elapsedSeconds?: unknown;
-      isPaused?: unknown;
-      isVisible?: unknown;
-    };
-
-    return {
-      elapsedSeconds: typeof parsed.elapsedSeconds === "number" ? parsed.elapsedSeconds : 0,
-      isPaused: parsed.isPaused === true,
-      isVisible: parsed.isVisible !== false,
-    };
-  } catch {
-    return null;
-  }
-};
-
-const saveTimerState = (
-  storageKey: string,
-  {
-    elapsedSeconds,
-    isPaused,
-    isVisible,
-  }: { elapsedSeconds: number; isPaused: boolean; isVisible: boolean },
-) => {
-  sessionStorage.setItem(
-    storageKey,
-    JSON.stringify({
-      elapsedSeconds,
-      isPaused,
-      isVisible,
-    }),
-  );
-};
-
 const QUESTION_SENTENCE_PATTERNS = [
   /^which choice\b/i,
   /^based on the\b/i,
@@ -387,6 +349,15 @@ const getDefaultQuestionSplitPosition = (subject: "math" | "reading") =>
 
 const READING_ANNOTATION_MODE_STORAGE_KEY = "question-reading-annotation-mode";
 
+const EPHEMERAL_STORAGE: Storage = {
+  length: 0,
+  clear: () => {},
+  getItem: () => null,
+  setItem: () => {},
+  removeItem: () => {},
+  key: () => null,
+};
+
 function Question() {
   const { id, subject: rawSubject } = useParams<{ id: string; subject?: string }>();
   const navigate = useNavigate();
@@ -476,15 +447,6 @@ function Question() {
       practiceTestStateSessionId,
   );
   const isAssessmentMode = isModulePracticeMode || isPracticeTestMode;
-  const timerStorageKey = isAssessmentMode
-    ? null
-    : is100Hard
-    ? "question-timer:hard"
-    : isOfficialBank
-    ? "question-timer:official"
-    : isBank
-    ? `question-timer:bank:${bankSource}`
-    : "question-timer:default";
   const modulePracticeAllowsChecking = Boolean(
     isModulePracticeMode && modulePracticeSessionMeta?.settings.allowCheckingAnswers,
   );
@@ -521,7 +483,7 @@ function Question() {
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
   const [sidebarredWindows, setSidebarredWindows] = useState<Set<string>>(new Set());
-  const [splitPosition, setSplitPosition] = useState(50);
+  const [splitPosition, setSplitPosition] = useState(70);
   const [attemptCount, setAttemptCount] = useState(0);
   const [shouldCompress, setShouldCompress] = useState(false);
   const [topShouldCompress, setTopShouldCompress] = useState(false);
@@ -770,14 +732,6 @@ function Question() {
       return;
     }
 
-    if (timerStorageKey) {
-      const storedTimerState = readTimerState(timerStorageKey);
-      setElapsedSeconds(storedTimerState?.elapsedSeconds ?? 0);
-      setIsTimerPaused(storedTimerState?.isPaused ?? false);
-      setIsTimerVisible(storedTimerState?.isVisible ?? true);
-      return;
-    }
-
     setElapsedSeconds(0);
     setIsTimerPaused(false);
     setIsTimerVisible(true);
@@ -786,7 +740,7 @@ function Question() {
     practiceTestActiveModule,
     isModulePracticeMode,
     modulePracticeSessionMeta?.sessionId,
-    timerStorageKey,
+    currentQuestion?.uuid,
   ]);
 
   useEffect(() => {
@@ -850,17 +804,7 @@ function Question() {
     if (isTimerPaused) return;
 
     const timerId = window.setInterval(() => {
-      setElapsedSeconds((prev) => {
-        const next = prev + 1;
-        if (timerStorageKey) {
-          saveTimerState(timerStorageKey, {
-            elapsedSeconds: next,
-            isPaused: false,
-            isVisible: isTimerVisible,
-          });
-        }
-        return next;
-      });
+      setElapsedSeconds((prev) => prev + 1);
     }, 1000);
 
     return () => window.clearInterval(timerId);
@@ -870,20 +814,8 @@ function Question() {
     practiceTestActiveModule,
     isModulePracticeMode,
     isTimerPaused,
-    isTimerVisible,
     modulePracticeSessionMeta?.sessionId,
-    timerStorageKey,
   ]);
-
-  useEffect(() => {
-    if (!timerStorageKey || isAssessmentMode) return;
-
-    saveTimerState(timerStorageKey, {
-      elapsedSeconds,
-      isPaused: isTimerPaused,
-      isVisible: isTimerVisible,
-    });
-  }, [elapsedSeconds, isAssessmentMode, isTimerPaused, isTimerVisible, timerStorageKey]);
 
   const isSplitScreenActive = splitScreenWindows.size > 0;
 
@@ -1116,7 +1048,7 @@ function Question() {
 
   useEffect(() => {
     if (!isSplitScreenActive) {
-      setSplitPosition(50);
+      setSplitPosition(70);
     }
   }, [isSplitScreenActive]);
 
@@ -1833,8 +1765,11 @@ function Question() {
       : `${localStateKey}-note`;
   const noteWindowStateKey = `${noteStorageKey}:window`;
   const noteWindowOpenKey = `${noteStorageKey}:open`;
-  const noteStorageArea = isAssessmentMode ? sessionStorage : localStorage;
-  const shouldPersistAnnotationNotes = isModulePracticeMode;
+  const noteStorageArea = isAssessmentMode
+    ? sessionStorage
+    : (isBank || isOfficialBank)
+      ? EPHEMERAL_STORAGE
+      : localStorage;
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
   const shouldReduceQuestionImageSize = isBank || isOfficialBank;
       
@@ -2130,7 +2065,7 @@ function Question() {
           ? "Take Break"
           : practiceTestSessionMeta && practiceTestSessionMeta.activeModuleIndex === practiceTestSessionMeta.modules.length - 1
             ? "Review"
-            : "Next Module"
+            : "Review Questions"
       : isModulePracticeMode && !canGoNext
         ? "Review"
         : "Next";
@@ -2146,10 +2081,10 @@ function Question() {
   const practiceTestNavigatorSubtitle = practiceTestReviewPhase
     ? assessmentAllowsChecking
       ? `${practiceTestModuleQuestionCount} questions in this module`
-      : `${practiceTestModuleQuestionCount} questions in this module · answered and unanswered only`
+      : `${practiceTestModuleQuestionCount} questions in this module`
     : assessmentAllowsChecking
       ? `${practiceTestModuleQuestionCount} questions in this module`
-      : `${practiceTestModuleQuestionCount} questions in this module · answered and unanswered only`;
+      : `${practiceTestModuleQuestionCount} questions in this module`;
 
   return (
     <div className="min-h-screen bg-background flex flex-col relative">
@@ -2395,7 +2330,6 @@ function Question() {
                     storageKey={annotationStorageKey}
                     enabled={isAnnotationModeEnabled}
                     storageArea={noteStorageArea}
-                    persistNotes={shouldPersistAnnotationNotes}
                   />
                 ) : (
                   renderContent(stemContent)
@@ -2518,7 +2452,6 @@ function Question() {
                         storageKey={annotationStorageKey}
                         enabled={isAnnotationModeEnabled}
                         storageArea={noteStorageArea}
-                        persistNotes={shouldPersistAnnotationNotes}
                       />
                       {showQuestionTextAboveChoices && readingQuestionSentence && (
                         <div className="mt-4">{renderContent(readingQuestionSentence, { emphasizeHeaders: false })}</div>
@@ -2533,7 +2466,6 @@ function Question() {
                           storageKey={annotationStorageKey}
                           enabled={isAnnotationModeEnabled}
                           storageArea={noteStorageArea}
-                          persistNotes={shouldPersistAnnotationNotes}
                         />
                       ) : (
                         renderContent(stemContent)
@@ -2624,13 +2556,13 @@ function Question() {
                             ? practiceTestReviewPhase
                               ? `Review ${practiceTestQuestionNumberInModule} of ${practiceTestModuleQuestionCount}`
                               : `Question ${practiceTestQuestionNumberInModule} of ${practiceTestModuleQuestionCount}`
-                            : `Q${currentPracticeIndex + 1} · Module ${modulePracticeModule?.moduleNumber ?? ""}`
+                            : `Question ${currentPracticeIndex + 1} of ${practiceSet.length}`
                         }
                         title={isPracticeTestMode ? practiceTestNavigatorTitle : modulePracticeModule?.publicTitle || "Module Navigator"}
                         subtitle={isPracticeTestMode ? practiceTestNavigatorSubtitle : (
                           modulePracticeAllowsChecking
                             ? `${practiceSet.length} questions in this module`
-                            : `${practiceSet.length} questions · answered and unanswered only`
+                            : `${practiceSet.length} questions in this module`
                         )}
                         items={modulePracticeNavigatorItems}
                         isSplitScreenActive={isSplitScreenActive}
@@ -2684,7 +2616,7 @@ function Question() {
               style={{ minWidth: shouldCompress ? undefined : '280px' }}
             >
               {!isAssessmentMode && (
-                <ExplanationWindow 
+                <ExplanationWindow
                   onSplitScreenChange={handleSplitScreenChange}
                   onSplitPositionChange={handleSplitPositionChange}
                   splitPosition={splitPosition}
@@ -2699,6 +2631,12 @@ function Question() {
                   questionType={currentQuestion?.type}
                   choices={currentQuestion?.choices}
                   questionId={currentQuestion?.uuid || currentQuestion?.id}
+                  questionSection={currentQuestion?.section}
+                  questionText={currentQuestion?.prompt}
+                  questionDomain={currentQuestion?.domain}
+                  questionSkill={currentQuestion?.skill}
+                  questionDifficulty={currentQuestion?.difficulty}
+                  questionImages={questionImages}
                 />
               )}
               {(!isAssessmentMode || assessmentAllowsChecking) && (

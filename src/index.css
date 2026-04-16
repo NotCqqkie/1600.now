@@ -115,6 +115,10 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+    scrollbar-gutter: stable;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-family: 'Outfit', system-ui, sans-serif;
@@ -214,6 +218,109 @@ All colors MUST be HSL.
     stroke-width: 1.4;
     fill: #9c7de0;
     filter: drop-shadow(0 0 0.6px #7f5cc8);
+  }
+
+  /* ── Step transition animation ────────────────────────────── */
+  @keyframes step-slide-in {
+    from {
+      opacity: 0;
+      transform: translateY(calc(18px * var(--step-dir, 1)));
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .step-animate {
+    animation: step-slide-in 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  /* ── Explanation content styling ─────────────────────────── */
+  .explanation-content {
+    line-height: 1.7;
+  }
+
+  .explanation-content p {
+    margin-bottom: 0.6rem;
+  }
+
+  /* Display math blocks — generous spacing */
+  .explanation-content .katex-display {
+    margin: 0.75rem 0;
+    padding: 0.5rem 0.75rem;
+    background: hsl(var(--primary) / 0.04);
+    border-left: 3px solid hsl(var(--primary) / 0.3);
+    border-radius: 0 0.375rem 0.375rem 0;
+  }
+
+  .dark .explanation-content .katex-display {
+    background: hsl(var(--primary) / 0.08);
+    border-left-color: hsl(var(--primary) / 0.4);
+  }
+
+  /* Lists inside explanations */
+  .explanation-content ul,
+  .explanation-content ol {
+    margin: 0.5rem 0;
+    padding-left: 1.25rem;
+  }
+
+  .explanation-content ul {
+    list-style-type: disc;
+  }
+
+  .explanation-content ol {
+    list-style-type: decimal;
+  }
+
+  .explanation-content li {
+    margin-bottom: 0.35rem;
+    padding-left: 0.25rem;
+  }
+
+  /* Callout / key-point boxes */
+  .explanation-content .callout {
+    margin: 0.75rem 0;
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid hsl(var(--primary) / 0.25);
+    background: hsl(var(--primary) / 0.06);
+    font-size: 0.9em;
+  }
+
+  .explanation-content .callout-tip {
+    margin: 0.75rem 0;
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid hsl(39 100% 57% / 0.35);
+    background: hsl(39 100% 57% / 0.06);
+    font-size: 0.9em;
+  }
+
+  .dark .explanation-content .callout {
+    background: hsl(var(--primary) / 0.1);
+    border-color: hsl(var(--primary) / 0.3);
+  }
+
+  .dark .explanation-content .callout-tip {
+    background: hsl(39 100% 57% / 0.1);
+    border-color: hsl(39 100% 57% / 0.4);
+  }
+
+  /* Arrow / flow indicators */
+  .explanation-content .arrow {
+    display: inline-block;
+    margin: 0 0.25rem;
+    color: hsl(var(--primary));
+    font-weight: 600;
+  }
+
+  /* Separator lines between logical blocks */
+  .explanation-content hr {
+    border: none;
+    border-top: 1px dashed hsl(var(--border));
+    margin: 0.75rem 0;
   }
 }
 

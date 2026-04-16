@@ -27,6 +27,12 @@ export const isLikelyInlineMath = (candidate: string): boolean => {
   if (/^\(\s*[-\dA-Za-z.,\s]+\)$/.test(trimmed) && trimmed.includes(",")) return true;
   if (/[\dA-Za-z)]\s*-\s*[\dA-Za-z(]/.test(trimmed)) return true;
 
+  // Comma-separated list of numbers, e.g. "4, 10, 18, 4, 4, 5, 6, 5"
+  if (/^-?\d+(?:\.\d+)?(?:\s*,\s*-?\d+(?:\.\d+)?)+$/.test(trimmed)) return true;
+
+  // Bracketed list of numbers, e.g. "[4, 4, 4, 5, 5, 6, 10, 18]"
+  if (/^\[\s*-?\d+(?:\.\d+)?(?:\s*,\s*-?\d+(?:\.\d+)?)*\s*\]$/.test(trimmed)) return true;
+
   if (/\s/.test(trimmed) && !/[=<>+*/\\^_{}]/.test(trimmed)) return false;
   if (/\b(and|or|the|of|to|for|in|is|are)\b/i.test(trimmed)) return false;
 
@@ -318,6 +324,24 @@ const normalizeImplicitFunctionArguments = (content: string): string =>
     "\\$1 ",
   );
 
+const wrapBareLatexSegments = (content: string): string => {
+  // Split on <br/> or newlines, wrap any segment containing a bare LaTeX
+  // command with braces (e.g. \text{Median} = \frac{5+5}{2} = 5) in $...$.
+  const separator = /(<br\s*\/?\s*>|\n)/i;
+  const parts = content.split(separator);
+  return parts
+    .map((part) => {
+      if (/^(<br\s*\/?\s*>|\n)$/i.test(part)) return part;
+      const trimmed = part.trim();
+      if (!trimmed || trimmed.includes("$")) return part;
+      if (!/\\[a-zA-Z]+\s*\{/.test(trimmed)) return part;
+      const leading = part.match(/^\s*/)?.[0] ?? "";
+      const trailing = part.match(/\s*$/)?.[0] ?? "";
+      return `${leading}$${trimmed}$${trailing}`;
+    })
+    .join("");
+};
+
 const normalizePlainTextWrappedMath = (content: string): string => {
   let result = "";
   let cursor = 0;
@@ -374,7 +398,9 @@ export function normalizeTextForMathRendering(text: string | null | undefined): 
               normalizeImplicitMathExponents(
                 normalizeDecimalCommas(
                   normalizeFullWidthMathPunctuation(
-                    normalizeAsteriskWrappedMath(text),
+                    wrapBareLatexSegments(
+                      normalizeAsteriskWrappedMath(text),
+                    ),
                   ),
                 ),
               ),

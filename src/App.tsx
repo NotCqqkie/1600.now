@@ -30,7 +30,6 @@ const ModulePracticeReview = lazy(() => import("./pages/ModulePracticeReview"));
 const ModulePracticeResults = lazy(() => import("./pages/ModulePracticeResults"));
 const Vocab = lazy(() => import("./pages/Vocab"));
 const ScoreCalculator = lazy(() => import("./pages/ScoreCalculator"));
-const ExplanationTrial = lazy(() => import("./pages/ExplanationTrial"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const Profile = lazy(() => import("./pages/Profile"));
 
@@ -86,7 +85,6 @@ const App = () => (
             <Route path="/official-bank/:subject/:id" element={withSuspense(<Question />)} />
             <Route path="/vocab" element={withShellSuspense(<Vocab />)} />
             <Route path="/analysis" element={withShellSuspense(<Analysis />)} />
-            <Route path="/explanation-trial" element={withSuspense(<ExplanationTrial />)} />
 <Route path="*" element={withShellSuspense(<NotFound />)} />
           </Routes>
           <LegalDisclaimer />
