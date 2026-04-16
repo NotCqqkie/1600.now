@@ -27,6 +27,7 @@ interface MultiSelectProps {
   onChange: (selected: string[]) => void
   placeholder?: string
   className?: string
+  hideSearch?: boolean
 }
 
 export function MultiSelect({
@@ -35,6 +36,7 @@ export function MultiSelect({
   onChange,
   placeholder = "Select items...",
   className,
+  hideSearch = false,
 }: MultiSelectProps) {
   const [open, setOpen] = React.useState(false)
   const selectedLabels = selected
@@ -73,7 +75,7 @@ export function MultiSelect({
       </PopoverTrigger>
       <PopoverContent className="w-[var(--radix-popover-trigger-width)] min-w-[16rem] p-0">
         <Command>
-          <CommandInput placeholder="Search..." />
+          {!hideSearch && <CommandInput placeholder="Search..." />}
           <CommandList>
             <CommandEmpty>No item found.</CommandEmpty>
             <CommandGroup className="max-h-64 overflow-auto">
