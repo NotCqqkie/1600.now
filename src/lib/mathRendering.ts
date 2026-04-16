@@ -8,16 +8,19 @@ import { normalizePublicAssetPath } from "@/lib/utils";
 
 type RenderMixedContentOptions = {
   normalizeMath?: boolean;
+  convertTexLineBreaks?: boolean;
 };
 
 export function renderMixedContent(text: string, options: RenderMixedContentOptions = {}): string {
   if (!text) return "";
-  const { normalizeMath = true } = options;
+  const { normalizeMath = true, convertTexLineBreaks = true } = options;
 
   let processedText = text;
-  processedText = processedText.replace(/\\\\\\\\/g, "<br /><br />");
-  processedText = processedText.replace(/\\\\/g, "<br />");
-  processedText = processedText.replace(/\\n/g, "<br />");
+  if (convertTexLineBreaks) {
+    processedText = processedText.replace(/\\\\\\\\/g, "<br /><br />");
+    processedText = processedText.replace(/\\\\/g, "<br />");
+    processedText = processedText.replace(/\\n/g, "<br />");
+  }
   processedText = processedText.replace(/\n/g, "<br />");
   if (normalizeMath) {
     processedText = normalizeTextForMathRendering(processedText);

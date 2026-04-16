@@ -1,9 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Youtube } from "lucide-react";
+import { Lightbulb } from "lucide-react";
 import { DraggableWindow } from "./DraggableWindow";
-import { normalizePublicAssetPath } from "@/lib/utils";
-import { renderMixedContent } from "@/lib/mathRendering";
+import { StepByStepExplanation } from "./StepByStepExplanation";
 
 interface ExplanationWindowProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
@@ -21,9 +20,16 @@ interface ExplanationWindowProps {
   questionType?: "multiple-choice" | "free-response";
   choices?: { id: string; text?: string; image?: string }[];
   questionId?: string | number;
+  // Question data for step-by-step explanation
+  questionSection?: string;
+  questionText?: string;
+  questionDomain?: string;
+  questionSkill?: string;
+  questionDifficulty?: string | null;
+  questionImages?: { src: string; alt: string }[];
 }
 
-export const ExplanationWindow = ({ 
+export const ExplanationWindow = ({
   onSplitScreenChange,
   onSplitPositionChange,
   splitPosition = 50,
@@ -38,85 +44,51 @@ export const ExplanationWindow = ({
   rationale,
   questionType,
   choices,
-  questionId
+  questionId,
+  questionSection,
+  questionText,
+  questionDomain,
+  questionSkill,
+  questionDifficulty,
+  questionImages,
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isAnswerRevealed, setIsAnswerRevealed] = useState(false);
-
-  useEffect(() => {
-    setIsAnswerRevealed(false);
-  }, [questionId, correctAnswer]);
 
   const handleToggle = () => {
-    if (!isOpen && onFocus) {
-      onFocus(); // Bring to front when opening
+    if (!isOpen) {
+      // Opening — always enter sidebar mode immediately (batches with setIsOpen in React 18)
+      if (onFocus) onFocus();
+      if (onSplitScreenChange) onSplitScreenChange(true, windowId);
+      if (onSidebarToggle) onSidebarToggle(windowId, true);
+    } else if (isSidebarred) {
+      if (onSplitScreenChange) onSplitScreenChange(false, windowId);
     }
-    // Keep split-screen state in sync when toggling from a sidebarred state
-    if (isOpen && isSidebarred && onSplitScreenChange) {
-      onSplitScreenChange(false, windowId);
-    }
-    setIsOpen(!isOpen);
+    setIsOpen(prev => !prev);
   };
 
-  const renderRationale = () => {
-    if (!rationale) return null;
-    return (
-      <div className="flex flex-col gap-2">
-        <div className="font-bold text-lg">Rationale</div>
-        <div 
-          className="pl-4 border-l-2 border-primary/50 text-muted-foreground"
-          dangerouslySetInnerHTML={{ __html: renderMixedContent(rationale) }}
-        />
-      </div>
-    );
-  };
-
-  const getAnswerContent = () => {
-    if (!correctAnswer) return null;
-
-    if (questionType === "multiple-choice") {
-      const choice = choices?.find(c => c.id === correctAnswer);
-      const content = choice?.text || (
-        choice?.image
-          ? `<img src="${normalizePublicAssetPath(choice.image)}" alt="SAT question ${questionId ?? "unknown"} choice ${correctAnswer} image" class="max-w-full h-auto" />`
-          : ""
-      );
-      
-      return (
-        <div className="flex flex-col gap-2">
-          <div className="font-bold text-lg">Correct Answer: {correctAnswer}</div>
-          {content && (
-            <div 
-              className="pl-4 border-l-2 border-primary/50 text-muted-foreground"
-              dangerouslySetInnerHTML={{ __html: renderMixedContent(content) }}
-            />
-          )}
-        </div>
-      );
-    } else {
-      return (
-        <div className="flex flex-col gap-2">
-          <div className="font-bold text-lg">Correct Answer:</div>
-          <div className="pl-4 border-l-2 border-primary/50 text-muted-foreground text-lg">
-             {correctAnswer}
-          </div>
-        </div>
-      );
-    }
-  };
+  // Build the question object for the explanation API
+  const explanationQuestion = questionText && correctAnswer ? {
+    section: questionSection || "Math",
+    passage: questionText,
+    choices: choices?.map(c => ({ label: c.id, text: c.text || "", image: c.image })),
+    correctAnswer: correctAnswer,
+    domain: questionDomain,
+    skill: questionSkill,
+    difficulty: questionDifficulty ?? undefined,
+  } : null;
 
   return (
     <>
       <Button variant="outline" size="sm" onClick={handleToggle} className="h-10">
-        <Youtube className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+        <Lightbulb className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
         {!compressed && "Explanation"}
       </Button>
       <DraggableWindow
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         title="Explanation"
-        defaultWidth={700}
-        defaultHeight={440}
+        defaultWidth={420}
+        defaultHeight={500}
         onSplitScreenChange={onSplitScreenChange}
         onSplitPositionChange={onSplitPositionChange}
         splitPosition={splitPosition}
@@ -130,12 +102,18 @@ export const ExplanationWindow = ({
         isSidebarred={isSidebarred}
         onSidebarToggle={onSidebarToggle}
       >
-        <div className="w-full h-full flex flex-col overflow-y-auto">
-          {/* Answer Section Removed Temporarily */}
-          
-          <div className="flex-1 w-full flex items-center justify-center bg-muted min-h-[300px]">
-            <p className="text-muted-foreground">Explanation coming soon.</p>
-          </div>
+        <div className="w-full h-full flex flex-col overflow-hidden">
+          {explanationQuestion ? (
+            <StepByStepExplanation
+              questionId={String(questionId || "")}
+              question={explanationQuestion}
+              questionImages={questionImages}
+            />
+          ) : (
+            <div className="flex-1 w-full flex items-center justify-center">
+              <p className="text-muted-foreground text-sm">No question data available.</p>
+            </div>
+          )}
         </div>
       </DraggableWindow>
     </>

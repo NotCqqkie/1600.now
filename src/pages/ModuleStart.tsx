@@ -51,7 +51,7 @@ const ModuleStart = () => {
         <Button variant="ghost" asChild className="w-fit gap-2 px-0">
           <Link to="/modules">
             <ArrowLeft className="h-4 w-4" />
-            Back to module practice
+            Back to modules
           </Link>
         </Button>
         <Card className="border-dashed border-border/70">
@@ -82,7 +82,7 @@ const ModuleStart = () => {
       <Button variant="ghost" asChild className="w-fit gap-2 px-0">
         <Link to="/modules">
           <ArrowLeft className="h-4 w-4" />
-          Back to module practice
+          Back to modules
         </Link>
       </Button>
 

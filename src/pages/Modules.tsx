@@ -199,8 +199,8 @@ const Modules = () => {
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <div className="text-lg font-semibold">Practice Set {practiceSet.setNumber}</div>
                 <Button
-                  variant="outline"
-                  className="gap-2 self-start border-[#95D4FF] bg-[#B4E1FF] text-foreground hover:border-[#95D4FF] hover:bg-[#95D4FF] hover:text-foreground sm:self-auto"
+                  variant="default"
+                  className="gap-2 self-start sm:self-auto"
                   onClick={() => navigate(`/practice-tests/${practiceSet.id}/start`)}
                 >
                   Full test browser

@@ -80,14 +80,11 @@ const createEmptySelection = (): TopicSelectionState => {
   };
 };
 
-const topicCheckboxClass =
-  "absolute left-0 top-0 h-5 w-5 overflow-hidden rounded-[5px] border border-border bg-background text-primary shadow-sm transition-all duration-200 data-[state=checked]:border-primary/50 data-[state=checked]:bg-primary/10 data-[state=checked]:text-primary hover:border-primary/40 hover:bg-muted/60 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:ring-offset-0 dark:data-[state=checked]:border-primary/40 dark:data-[state=checked]:bg-primary/15";
-
-const topicCheckboxIndicatorClass =
-  "absolute inset-[2px] flex items-center justify-center";
-
 const multiSelectModeCheckboxClass =
-  "h-5 w-5 rounded-[5px] border-border bg-background text-primary shadow-sm data-[state=checked]:border-primary/50 data-[state=checked]:bg-primary/10 data-[state=checked]:text-primary hover:border-primary/40 hover:bg-muted/60 focus-visible:ring-ring/50 dark:data-[state=checked]:border-primary/40 dark:data-[state=checked]:bg-primary/15";
+  "h-5 w-5 rounded-[5px] border-2 border-primary/45 bg-primary/5 text-primary shadow-sm transition-colors data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground hover:border-primary/70 hover:bg-primary/10 focus-visible:ring-2 focus-visible:ring-ring/50 dark:border-primary/55 dark:bg-primary/10 dark:data-[state=checked]:border-primary dark:data-[state=checked]:bg-primary";
+
+const topicCheckboxClass =
+  `absolute left-0 top-0 ${multiSelectModeCheckboxClass}`;
 
 const TopicCheckboxSlot = ({
   visible,
@@ -105,10 +102,6 @@ const TopicCheckboxSlot = ({
         onCheckedChange={(next) => onCheckedChange(!!next)}
         onClick={(e) => e.stopPropagation()}
         className={topicCheckboxClass}
-        indicatorClassName={topicCheckboxIndicatorClass}
-        indicator={
-          <span className="block h-full w-full rounded-[2px] bg-current" />
-        }
       />
     )}
   </div>
@@ -540,9 +533,9 @@ const BankIndex = () => {
   const renderBrowseView = () => (
     <div className="grid md:grid-cols-2 gap-6">
       {/* Math Section */}
-      <div className="p-6">
+      <div className="p-6 md:order-2">
         <div className="flex items-center gap-3 mb-4">
-          <div 
+          <div
             className={`flex items-center gap-3 flex-1 ${isMultiSelect ? 'cursor-pointer' : ''}`}
             onClick={() => {
               if (isMultiSelect) {
@@ -688,7 +681,7 @@ const BankIndex = () => {
       </div>
 
       {/* Reading Section */}
-      <div className="p-6">
+      <div className="p-6 md:order-1">
         <div className="flex items-center gap-3 mb-4">
           <div 
             className={`flex items-center gap-3 flex-1 ${isMultiSelect ? 'cursor-pointer' : ''}`}
@@ -888,14 +881,16 @@ const BankIndex = () => {
                     Reset Filters
                   </Button>
                 )}
-                <div className="flex items-center space-x-2 border-l pl-4">
+                <div className="flex items-center gap-2">
                   <Checkbox
                     id="multi-select-mode"
                     checked={isMultiSelect}
                     onCheckedChange={(checked) => setIsMultiSelect(!!checked)}
                     className={multiSelectModeCheckboxClass}
                   />
-                  <Label htmlFor="multi-select-mode">Select multiple topics</Label>
+                  <Label htmlFor="multi-select-mode" className="cursor-pointer text-sm font-medium text-foreground">
+                    Select multiple topics
+                  </Label>
                 </div>
               </div>
             }

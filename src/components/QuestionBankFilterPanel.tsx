@@ -28,7 +28,7 @@ import { cn } from "@/lib/utils";
 
 // Filter state types
 export type DifficultyFilterValue = "easy" | "medium" | "hard";
-export const MAX_TIME_SPENT_FILTER_SECONDS = 600;
+export const MAX_TIME_SPENT_FILTER_SECONDS = 180;
 export const DEFAULT_TIME_SPENT_RANGE: [number, number] = [0, MAX_TIME_SPENT_FILTER_SECONDS];
 
 export interface QuestionBankFilters {
@@ -72,7 +72,7 @@ interface FilterPanelProps {
 }
 
 const formatTimeSpentValue = (seconds: number, isUpperBound = false): string => {
-  if (seconds === MAX_TIME_SPENT_FILTER_SECONDS && isUpperBound) return "10m+";
+  if (seconds === MAX_TIME_SPENT_FILTER_SECONDS && isUpperBound) return "3m+";
   if (seconds === 0) return "0s";
   if (seconds < 60) return `${seconds}s`;
 
@@ -131,7 +131,7 @@ export function QuestionBankFilterPanel({
           onClick={() => setIsOpen(!isOpen)}
           className={cn(
             "gap-2 transition-colors",
-            isHighlighted && "border-[#B4E1FF] bg-[#B4E1FF] text-foreground hover:bg-[#9BD8FF] hover:border-[#9BD8FF] dark:border-[#2D5A87] dark:bg-[#1E3A5F] dark:text-foreground dark:hover:bg-[#24476F] dark:hover:border-[#356796]",
+            isHighlighted && "border-primary bg-primary text-primary-foreground hover:bg-primary/90 hover:border-primary/90",
           )}
         >
           <Filter className="h-4 w-4" />
@@ -194,7 +194,7 @@ export function QuestionBankFilterPanel({
                     value={filters.activeQuestions}
                     onValueChange={(v) => updateFilter("activeQuestions", v as typeof filters.activeQuestions)}
                   >
-                    <SelectTrigger className="w-full">
+                    <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
@@ -211,7 +211,7 @@ export function QuestionBankFilterPanel({
                   value={filters.markedForReview}
                   onValueChange={(v) => updateFilter("markedForReview", v as typeof filters.markedForReview)}
                 >
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
@@ -227,7 +227,7 @@ export function QuestionBankFilterPanel({
                   value={filters.solved}
                   onValueChange={(v) => updateFilter("solved", v as typeof filters.solved)}
                 >
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
@@ -243,7 +243,7 @@ export function QuestionBankFilterPanel({
                   value={filters.answeredIncorrectly}
                   onValueChange={(v) => updateFilter("answeredIncorrectly", v as typeof filters.answeredIncorrectly)}
                 >
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>

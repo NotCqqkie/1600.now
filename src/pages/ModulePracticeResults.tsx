@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, Clock3 } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, Clock3, Eye, EyeOff } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -56,6 +56,8 @@ const ModulePracticeResults = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
   const [searchParams] = useSearchParams();
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(() => new Set());
+  const [hideCorrectAnswers, setHideCorrectAnswers] = useState(false);
+  const [revealedAnswers, setRevealedAnswers] = useState<Set<string>>(() => new Set());
   const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
   const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
   const sessionId = searchParams.get("session");
@@ -77,7 +79,7 @@ const ModulePracticeResults = () => {
         <Button variant="ghost" asChild className="w-fit gap-2 px-0">
           <Link to="/modules">
             <ArrowLeft className="h-4 w-4" />
-            Back to module practice
+            Back to modules
           </Link>
         </Button>
         <Card className="border-dashed border-border/70">
@@ -91,6 +93,17 @@ const ModulePracticeResults = () => {
 
   const toggleExpandedQuestion = (storageId: string) => {
     setExpandedQuestions((previous) => {
+      const next = new Set(previous);
+      if (next.has(storageId)) {
+        next.delete(storageId);
+      } else {
+        next.add(storageId);
+      }
+      return next;
+    });
+  };
+  const toggleRevealedAnswer = (storageId: string) => {
+    setRevealedAnswers((previous) => {
       const next = new Set(previous);
       if (next.has(storageId)) {
         next.delete(storageId);
@@ -179,7 +192,7 @@ const ModulePracticeResults = () => {
       <Button variant="ghost" asChild className="w-fit gap-2 px-0">
         <Link to="/modules">
           <ArrowLeft className="h-4 w-4" />
-          Back to module list
+          Back to modules
         </Link>
       </Button>
 
@@ -348,6 +361,18 @@ const ModulePracticeResults = () => {
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <CardTitle className="text-2xl tracking-[-0.03em]">Question Breakdown</CardTitle>
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+              <Button
+                type="button"
+                variant="outline"
+                className={cn("gap-2 bg-transparent", hideCorrectAnswers && "border-primary text-primary")}
+                onClick={() => {
+                  setHideCorrectAnswers((prev) => !prev);
+                  setRevealedAnswers(new Set());
+                }}
+              >
+                {hideCorrectAnswers ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+                {hideCorrectAnswers ? "Answers Hidden" : "Hide Answers"}
+              </Button>
               <div className="w-full sm:w-[180px]">
                 <Select
                   value={questionSortMode}
@@ -386,6 +411,8 @@ const ModulePracticeResults = () => {
               (entry) => entry.bankQuestion.stableId === question.storageId,
             )?.bankQuestion;
             const isExpanded = expandedQuestions.has(question.storageId);
+            const isAnswerRevealed = revealedAnswers.has(question.storageId);
+            const showCorrect = !hideCorrectAnswers || isAnswerRevealed;
 
             return (
               <div
@@ -428,7 +455,10 @@ const ModulePracticeResults = () => {
                         Chosen: <span className="font-medium text-foreground">{answerLabel(question.userAnswer)}</span>
                       </span>
                       <span className="text-muted-foreground">
-                        Correct: <span className="font-medium text-foreground">{answerLabel(question.correctAnswer)}</span>
+                        Correct:{" "}
+                        <span className={cn("font-medium", showCorrect ? "text-foreground" : "text-muted-foreground")}>
+                          {showCorrect ? answerLabel(question.correctAnswer) : "—"}
+                        </span>
                       </span>
                     </div>
                   </div>
@@ -488,8 +518,23 @@ const ModulePracticeResults = () => {
                     </div>
 
                     <div>
-                      <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-                        Answer Choices
+                      <div className="flex items-center justify-between">
+                        <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                          Answer Choices
+                        </div>
+                        {hideCorrectAnswers && (
+                          <button
+                            type="button"
+                            onClick={() => toggleRevealedAnswer(question.storageId)}
+                            className="flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
+                          >
+                            {isAnswerRevealed ? (
+                              <><EyeOff className="h-3.5 w-3.5" /> Hide answer</>
+                            ) : (
+                              <><Eye className="h-3.5 w-3.5" /> Show answer</>
+                            )}
+                          </button>
+                        )}
                       </div>
                       <div className="mt-3 space-y-2">
                         {sourceQuestion.type === "multiple-choice" && sourceQuestion.choices?.length ? (
@@ -504,7 +549,7 @@ const ModulePracticeResults = () => {
                                 key={choice.id}
                                 className={cn(
                                   "rounded-xl px-3 py-3 text-sm",
-                                  isCorrect
+                                  showCorrect && isCorrect
                                     ? "bg-emerald-500/10 text-foreground ring-1 ring-emerald-500/30"
                                     : isChosen
                                       ? "bg-rose-500/10 text-foreground ring-1 ring-rose-500/30"

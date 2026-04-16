@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { MessageSquareText, Trash2 } from "lucide-react";
+import { Trash2 } from "lucide-react";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
@@ -11,7 +11,6 @@ type PassageAnnotation = {
   end: number;
   color: AnnotationColor;
   text: string;
-  note: string;
 };
 
 type FloatingPoint = {
@@ -26,7 +25,6 @@ interface ReadingPassageAnnotatorProps {
   enabled: boolean;
   className?: string;
   storageArea?: Storage;
-  persistNotes?: boolean;
 }
 
 const ANNOTATION_COLORS: Record<
@@ -78,7 +76,7 @@ const loadAnnotations = (storageArea: Storage, storageKey: string): PassageAnnot
 
     return parsed
       .filter(
-        (item): item is Omit<PassageAnnotation, "note"> & { note?: string } =>
+        (item): item is PassageAnnotation =>
           Boolean(item) &&
           typeof item.id === "string" &&
           typeof item.start === "number" &&
@@ -87,10 +85,6 @@ const loadAnnotations = (storageArea: Storage, storageKey: string): PassageAnnot
           typeof item.text === "string" &&
           isAnnotationColor(item.color),
       )
-      .map((item) => ({
-        ...item,
-        note: typeof item.note === "string" ? item.note : "",
-      }))
       .sort((a, b) => a.start - b.start);
   } catch {
     return [];
@@ -101,18 +95,9 @@ const saveAnnotations = (
   storageArea: Storage,
   storageKey: string,
   annotations: PassageAnnotation[],
-  persistNotes: boolean,
 ) => {
   if (typeof window === "undefined") return;
-  storageArea.setItem(
-    storageKey,
-    JSON.stringify(
-      annotations.map((annotation) => ({
-        ...annotation,
-        note: persistNotes ? annotation.note : "",
-      })),
-    ),
-  );
+  storageArea.setItem(storageKey, JSON.stringify(annotations));
 };
 
 const getTextLength = (root: HTMLElement) => root.textContent?.length ?? 0;
@@ -213,7 +198,6 @@ export const ReadingPassageAnnotator = ({
   enabled,
   className,
   storageArea = localStorage,
-  persistNotes = true,
 }: ReadingPassageAnnotatorProps) => {
   const rootRef = useRef<HTMLDivElement>(null);
   const selectionPopupRef = useRef<HTMLDivElement>(null);
@@ -226,13 +210,10 @@ export const ReadingPassageAnnotator = ({
     end: number;
     text: string;
     anchor: FloatingPoint;
-    note: string;
-    noteVisible: boolean;
   } | null>(null);
   const [activeAnnotation, setActiveAnnotation] = useState<{
     id: string;
     anchor: FloatingPoint;
-    noteVisible: boolean;
   } | null>(null);
 
   useEffect(() => {
@@ -242,8 +223,8 @@ export const ReadingPassageAnnotator = ({
   }, [storageArea, storageKey]);
 
   useEffect(() => {
-    saveAnnotations(storageArea, storageKey, annotations, persistNotes);
-  }, [annotations, persistNotes, storageArea, storageKey]);
+    saveAnnotations(storageArea, storageKey, annotations);
+  }, [annotations, storageArea, storageKey]);
 
   useEffect(() => {
     if (enabled) return;
@@ -342,8 +323,6 @@ export const ReadingPassageAnnotator = ({
         aboveY: clampPopupY(rect.top - 14),
         belowY: rect.bottom + 14,
       },
-      note: "",
-      noteVisible: false,
     });
   };
 
@@ -366,14 +345,12 @@ export const ReadingPassageAnnotator = ({
       end: pendingSelection.end,
       color,
       text: pendingSelection.text,
-      note: pendingSelection.note,
     };
 
     setAnnotations((prev) => [...prev, nextAnnotation].sort((a, b) => a.start - b.start));
     setActiveAnnotation({
       id: nextAnnotation.id,
       anchor: pendingSelection.anchor,
-      noteVisible: false,
     });
     setPendingSelection(null);
     window.getSelection()?.removeAllRanges();
@@ -401,7 +378,6 @@ export const ReadingPassageAnnotator = ({
         aboveY: clampPopupY(rect.top - 14),
         belowY: rect.bottom + 14,
       },
-      noteVisible: false,
     });
   };
 
@@ -425,10 +401,10 @@ export const ReadingPassageAnnotator = ({
     ? annotations.find((annotation) => annotation.id === activeAnnotation.id) ?? null
     : null;
   const pendingSelectionPlacement = pendingSelection
-    ? getPopupPlacement(pendingSelection.anchor, pendingSelection.noteVisible)
+    ? getPopupPlacement(pendingSelection.anchor, false)
     : null;
   const activeAnnotationPlacement = activeAnnotation
-    ? getPopupPlacement(activeAnnotation.anchor, activeAnnotation.noteVisible)
+    ? getPopupPlacement(activeAnnotation.anchor, false)
     : null;
 
   return (
@@ -454,15 +430,12 @@ export const ReadingPassageAnnotator = ({
         <div
           ref={selectionPopupRef}
           className={cn(
-            "fixed z-[90] border border-border bg-background/95 backdrop-blur",
+            "fixed z-[90] border border-border bg-background/95 backdrop-blur rounded-full px-2 py-1.5",
             POPUP_SHADOW,
-            pendingSelection.noteVisible
-              ? "w-[min(22rem,calc(100vw-2rem))] rounded-[1.75rem] p-3"
-              : "rounded-full px-2 py-1.5",
           )}
           style={pendingSelectionPlacement ?? undefined}
         >
-          <div className={cn("flex items-center", pendingSelection.noteVisible ? "gap-3" : "gap-2")}>
+          <div className="flex items-center gap-2">
             {(
               Object.entries(ANNOTATION_COLORS) as Array<
                 [AnnotationColor, (typeof ANNOTATION_COLORS)[AnnotationColor]]
@@ -480,41 +453,7 @@ export const ReadingPassageAnnotator = ({
                 <span className={cn("h-7 w-7 rounded-full", meta.chip)} />
               </button>
             ))}
-
-            <div className="ml-auto flex items-center gap-2">
-              <button
-                type="button"
-                className={cn(
-                  "flex h-10 w-10 items-center justify-center rounded-full border border-foreground/15 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary",
-                  pendingSelection.noteVisible
-                    ? "bg-muted text-foreground"
-                    : "text-muted-foreground hover:bg-muted hover:text-foreground",
-                )}
-                aria-label={pendingSelection.noteVisible ? "Hide note" : "Add note"}
-                title={pendingSelection.noteVisible ? "Hide note" : "Add note"}
-                onClick={() =>
-                  setPendingSelection((prev) =>
-                    prev ? { ...prev, noteVisible: !prev.noteVisible } : prev,
-                  )
-                }
-              >
-                <MessageSquareText className="h-4 w-4" />
-              </button>
-            </div>
           </div>
-
-          {pendingSelection.noteVisible && (
-            <textarea
-              value={pendingSelection.note}
-              onChange={(event) =>
-                setPendingSelection((prev) =>
-                  prev ? { ...prev, note: event.target.value } : prev,
-                )
-              }
-              placeholder="Add a note..."
-              className="mt-3 min-h-24 w-full resize-none border-0 bg-transparent px-1 text-base text-foreground outline-none placeholder:text-muted-foreground/80"
-            />
-          )}
         </div>
       )}
 
@@ -522,15 +461,12 @@ export const ReadingPassageAnnotator = ({
         <div
           ref={annotationPopupRef}
           className={cn(
-            "fixed z-[90] border border-border bg-background/95 backdrop-blur",
+            "fixed z-[90] border border-border bg-background/95 backdrop-blur rounded-full px-2 py-1.5",
             POPUP_SHADOW,
-            activeAnnotation.noteVisible
-              ? "w-[min(22rem,calc(100vw-2rem))] rounded-[1.75rem] p-3"
-              : "rounded-full px-2 py-1.5",
           )}
           style={activeAnnotationPlacement ?? undefined}
         >
-          <div className={cn("flex items-center", activeAnnotation.noteVisible ? "gap-3" : "gap-2")}>
+          <div className="flex items-center gap-2">
             {(
               Object.entries(ANNOTATION_COLORS) as Array<
                 [AnnotationColor, (typeof ANNOTATION_COLORS)[AnnotationColor]]
@@ -566,51 +502,16 @@ export const ReadingPassageAnnotator = ({
               );
             })}
 
-            <div className="ml-auto flex items-center gap-2">
-              <button
-                type="button"
-                className={cn(
-                  "flex h-10 w-10 items-center justify-center rounded-full border border-foreground/15 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary",
-                  activeAnnotation.noteVisible
-                    ? "bg-muted text-foreground"
-                    : "text-muted-foreground hover:bg-muted hover:text-foreground",
-                )}
-                aria-label={activeAnnotation.noteVisible ? "Hide note" : "Add note"}
-                title={activeAnnotation.noteVisible ? "Hide note" : "Add note"}
-                onClick={() =>
-                  setActiveAnnotation((prev) =>
-                    prev ? { ...prev, noteVisible: !prev.noteVisible } : prev,
-                  )
-                }
-              >
-                <MessageSquareText className="h-4 w-4" />
-              </button>
-
-              <button
-                type="button"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-foreground/15 text-muted-foreground transition-colors hover:bg-red-50 hover:text-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-400 dark:hover:bg-red-950/50"
-                aria-label="Delete annotation"
-                title="Delete annotation"
-                onClick={removeAnnotation}
-              >
-                <Trash2 className="h-4 w-4" />
-              </button>
-            </div>
+            <button
+              type="button"
+              className="ml-auto flex h-10 w-10 items-center justify-center rounded-full border border-foreground/15 text-muted-foreground transition-colors hover:bg-red-50 hover:text-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-400 dark:hover:bg-red-950/50"
+              aria-label="Delete annotation"
+              title="Delete annotation"
+              onClick={removeAnnotation}
+            >
+              <Trash2 className="h-4 w-4" />
+            </button>
           </div>
-
-          {activeAnnotation.noteVisible && (
-            <textarea
-              value={selectedAnnotation.note}
-              onChange={(event) =>
-                updateActiveAnnotation((annotation) => ({
-                  ...annotation,
-                  note: event.target.value,
-                }))
-              }
-              placeholder="Add a note..."
-              className="mt-3 min-h-24 w-full resize-none border-0 bg-transparent px-1 text-base text-foreground outline-none placeholder:text-muted-foreground/80"
-            />
-          )}
         </div>
       )}
     </>

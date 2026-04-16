@@ -37,10 +37,8 @@ export const BrandLogo = ({
             src={fullSrc}
             alt="1600.now"
             className={cn(
-              "absolute inset-0 h-full w-full object-contain object-left transition-[opacity,transform] duration-200 ease-out will-change-[opacity,transform]",
-              collapsed
-                ? "pointer-events-none opacity-0 -translate-x-1 scale-[0.985]"
-                : "opacity-100 translate-x-0 scale-100",
+              "absolute inset-0 h-full w-full object-contain object-left",
+              collapsed ? "pointer-events-none opacity-0" : "opacity-100",
               imageClassName,
             )}
             loading="eager"
@@ -52,10 +50,8 @@ export const BrandLogo = ({
             alt=""
             aria-hidden="true"
             className={cn(
-              "absolute left-0 top-0 h-full w-9 object-contain object-left transition-[opacity,transform] duration-200 ease-out will-change-[opacity,transform]",
-              collapsed
-                ? "opacity-100 translate-x-0 scale-100"
-                : "pointer-events-none opacity-0 translate-x-1 scale-[0.985]",
+              "absolute left-0 top-0 h-full w-9 object-contain object-left",
+              collapsed ? "opacity-100" : "pointer-events-none opacity-0",
             )}
             loading="eager"
             decoding="sync"

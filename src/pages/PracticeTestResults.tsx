@@ -86,7 +86,7 @@ const PracticeTestResults = () => {
         <Button variant="ghost" asChild className="w-fit gap-2 px-0">
           <Link to="/modules">
             <ArrowLeft className="h-4 w-4" />
-            Back to module practice
+            Back to modules
           </Link>
         </Button>
         <Card className="border-dashed border-border/70">
@@ -138,7 +138,7 @@ const PracticeTestResults = () => {
       <Button variant="ghost" asChild className="w-fit gap-2 px-0">
         <Link to="/modules">
           <ArrowLeft className="h-4 w-4" />
-          Back to module list
+          Back to modules
         </Link>
       </Button>
 
@@ -297,6 +297,8 @@ const PracticeTestResults = () => {
           {orderedQuestions.map((question, index) => {
             const sourceQuestion = sourceQuestionMap.get(question.storageId);
             const isExpanded = expandedQuestions.has(question.storageId);
+            const isAnswerRevealed = revealedAnswers.has(question.storageId);
+            const showCorrect = !hideCorrectAnswers || isAnswerRevealed;
 
             return (
               <div
@@ -319,11 +321,23 @@ const PracticeTestResults = () => {
                             {question.moduleTitle} · Question {question.moduleQuestionNumber}
                           </span>
                           <span className="text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
-                            #{question.globalQuestionNumber} overall
-                          </span>
-                          <span className="text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
                             {question.skill}
                           </span>
+                          {sourceQuestion?.difficulty && (
+                            <span
+                              className={cn(
+                                "inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider",
+                                sourceQuestion.difficulty === "Easy" &&
+                                  "border-emerald-500/30 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400",
+                                sourceQuestion.difficulty === "Medium" &&
+                                  "border-amber-500/30 bg-amber-500/10 text-amber-600 dark:text-amber-400",
+                                sourceQuestion.difficulty === "Hard" &&
+                                  "border-rose-500/30 bg-rose-500/10 text-rose-600 dark:text-rose-400",
+                              )}
+                            >
+                              {sourceQuestion.difficulty}
+                            </span>
+                          )}
                         </div>
                       </div>
                       <ChevronDown
@@ -333,38 +347,19 @@ const PracticeTestResults = () => {
                         )}
                       />
                     </button>
-                    <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+                    <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
                       <span className="text-muted-foreground">
                         Time: <span className="font-medium text-foreground">{formatTime(question.timeSpentSeconds)}</span>
                       </span>
                       <span className="text-muted-foreground">
                         Chosen: <span className="font-medium text-foreground">{answerLabel(question.userAnswer)}</span>
                       </span>
-                      <div className="flex items-center gap-2">
-                        <span className="text-muted-foreground">
-                          Correct:
-                          {hiddenAnswers.has(question.storageId) ? (
-                            <span className="font-medium text-muted-foreground ml-1">Hidden</span>
-                          ) : (
-                            <span className="font-medium text-foreground ml-1">{answerLabel(question.correctAnswer)}</span>
-                          )}
+                      <span className="text-muted-foreground">
+                        Correct:{" "}
+                        <span className={cn("font-medium", showCorrect ? "text-foreground" : "text-muted-foreground")}>
+                          {showCorrect ? answerLabel(question.correctAnswer) : "—"}
                         </span>
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            toggleHiddenAnswer(question.storageId);
-                          }}
-                          className="inline-flex items-center justify-center rounded p-1 text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
-                          title={hiddenAnswers.has(question.storageId) ? "Show answer" : "Hide answer"}
-                        >
-                          {hiddenAnswers.has(question.storageId) ? (
-                            <Eye className="h-4 w-4" />
-                          ) : (
-                            <EyeOff className="h-4 w-4" />
-                          )}
-                        </button>
-                      </div>
+                      </span>
                     </div>
                   </div>
                   <div
@@ -423,8 +418,23 @@ const PracticeTestResults = () => {
                     </div>
 
                     <div>
-                      <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-                        Answer Choices
+                      <div className="flex items-center justify-between">
+                        <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                          Answer Choices
+                        </div>
+                        {hideCorrectAnswers && (
+                          <button
+                            type="button"
+                            onClick={() => toggleRevealedAnswer(question.storageId)}
+                            className="flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
+                          >
+                            {isAnswerRevealed ? (
+                              <><EyeOff className="h-3.5 w-3.5" /> Hide answer</>
+                            ) : (
+                              <><Eye className="h-3.5 w-3.5" /> Show answer</>
+                            )}
+                          </button>
+                        )}
                       </div>
                       <div className="mt-3 space-y-2">
                         {sourceQuestion.type === "multiple-choice" && sourceQuestion.choices?.length ? (
@@ -439,7 +449,7 @@ const PracticeTestResults = () => {
                                 key={choice.id}
                                 className={cn(
                                   "rounded-xl px-3 py-3 text-sm",
-                                  isCorrect
+                                  showCorrect && isCorrect
                                     ? "bg-emerald-500/10 text-foreground ring-1 ring-emerald-500/30"
                                     : isChosen
                                       ? "bg-rose-500/10 text-foreground ring-1 ring-rose-500/30"
@@ -480,6 +490,20 @@ const PracticeTestResults = () => {
                         )}
                       </div>
                     </div>
+
+                    {sourceQuestion.rationale && (
+                      <div className="col-span-full mt-1 rounded-xl border border-border/60 bg-muted/20 p-4">
+                        <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                          Rationale
+                        </div>
+                        <div
+                          className="question-html mt-2 break-words prose prose-stone max-w-none text-sm leading-7 text-foreground dark:prose-invert [&_img]:my-3 [&_img]:block [&_img]:max-w-full [&_img]:h-auto [&_img]:mx-auto [&_img]:object-contain"
+                          dangerouslySetInnerHTML={{
+                            __html: getRenderedContentHtml(question.subject, sourceQuestion.rationale),
+                          }}
+                        />
+                      </div>
+                    )}
                   </div>
                 ) : null}
               </div>

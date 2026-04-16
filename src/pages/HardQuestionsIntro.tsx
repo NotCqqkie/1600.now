@@ -18,7 +18,7 @@ const HardQuestionsIntro = () => {
           </h1>
 
           <p className="mt-5 max-w-3xl text-base leading-8 text-muted-foreground sm:text-lg">
-            The 100 Hard Math Questions are based off the most challenging SAT Math questions, appearing from questions 17-22 on math modules. With full completion of all 100 questions, you can expect to confidently know around 80% of all questions appearing at the ends of both math modules, saving you significant time. All problems were hand-written by the creator of 1600.now.
+            These 100 questions are based on the most challenging SAT Math content — the types that appear in positions 17–22 of each math module. Master all 100 and you can expect to confidently handle around 80% of the hardest questions on both modules, saving you significant time on test day. Every problem was hand-written by the creator of 1600.now.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">

@@ -63,7 +63,7 @@ const ModuleView = () => {
       <Button variant="ghost" asChild className="w-fit gap-2 px-0">
         <Link to="/modules">
           <ArrowLeft className="h-4 w-4" />
-          Back to SAT Module Practice
+          Back to modules
         </Link>
       </Button>
 
