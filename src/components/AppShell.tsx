@@ -260,7 +260,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
           <div className={cn("overflow-hidden", footerSlotHeightClass)}>
             <div className="space-y-1.5">
               <FooterActionButton
-                label="Theme"
+                label={isDark ? "Dark" : "Light"}
                 icon={SunMoon}
                 expanded={showExpandedContent}
                 onClick={handleThemeToggle}

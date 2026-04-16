@@ -158,6 +158,7 @@ export function QuestionBankFilterPanel({
                   selected={filters.difficulty}
                   onChange={(value) => updateFilter("difficulty", value as QuestionBankFilters["difficulty"])}
                   placeholder="Any Difficulty"
+                  hideSearch
                 />
               </FilterCard>
 
@@ -177,7 +178,7 @@ export function QuestionBankFilterPanel({
                       min={0}
                       max={MAX_TIME_SPENT_FILTER_SECONDS}
                       step={5}
-                      minStepsBetweenThumbs={1}
+                      minStepsBetweenThumbs={3}
                       onValueChange={(value) => updateFilter("timeSpentRange", value as [number, number])}
                       aria-label={["Minimum time spent", "Maximum time spent"]}
                     />
