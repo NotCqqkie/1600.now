@@ -6,7 +6,7 @@ Pick the FIRST unchecked task. One PR per task. Refill when fewer than 3 remain.
 ## Active tasks
 
 ### Bootstrap
-- [ ] Create `CODEX_BANK_MAP.md` at the repo root. Document every question-bank source file: path, format (JSON/TS), number of questions, schema/shape, and how it's imported/consumed in the app. Do NOT modify any question data in this task. This map will be referenced by all future audit tasks.
+- [x] Create `CODEX_BANK_MAP.md` at the repo root. Document every question-bank source file: path, format (JSON/TS), number of questions, schema/shape, and how it's imported/consumed in the app. Do NOT modify any question data in this task. This map will be referenced by all future audit tasks.
 
 ### Bank audit — LaTeX / formatting pass (fast wins, low risk)
 - [ ] Scan `src/data/questions/math_past.json` for LaTeX issues: unclosed `$`, mismatched `{}`, unmatched `\left`/`\right`, stray backslashes. Fix up to 20 and PR. List IDs in the PR body.
