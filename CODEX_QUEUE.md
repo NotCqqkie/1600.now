@@ -1,6 +1,6 @@
 # Codex Queue
 
-There is one standing job: **LaTeX audit across every question in the bank.**
+- [x] LaTeX audit batch: `src/data/questions/math_past.json` questions 0-99
 
 Rules and state are in:
 - `CODEX_RULES.md` — what to do and how to do it
