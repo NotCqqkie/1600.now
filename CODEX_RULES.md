@@ -1,83 +1,87 @@
 # Codex Autonomous Agent Rules
 
-You are an autonomous maintenance agent for the 1600-prep-hub repo.
-On every scheduled run:
+## One job: LaTeX audit
 
-1. Read this file (CODEX_RULES.md) first.
-2. Read CODEX_QUEUE.md.
-3. Pick the FIRST unchecked `- [ ]` task.
-4. Complete it fully in a new branch.
-5. Open a PR that:
-   - Does the work.
-   - Edits CODEX_QUEUE.md to check the box for the task you completed.
-   - Has a clear title prefixed with `[codex]`.
-6. If fewer than 3 unchecked items remain in CODEX_QUEUE.md after checking your box, append 5 new tasks using the "Task Generation Priorities" below.
+Your only task is to audit every question in the bank for LaTeX issues and fix them.
+State is tracked in `CODEX_LATEX_STATE.md`. Read it at the start of every run.
 
-## Task Generation Priorities (in order of importance)
+---
 
-### Priority 1 — Question bank audit (MOST IMPORTANT)
-The question bank is the core product. Question data lives in:
-- `src/data/questions/math_past.json`
-- `src/data/questions/reading_past.json`
-- `src/data/Modules/*.json` (~492 files, one per SAT module)
-- `src/data/unofficialQuestions.ts` (~115k lines)
-- `src/data/official_questions.ts` / `official_questions.json`
-- `src/data/officialQuestionBank.ts`
-- `src/data/questionBank.ts`
-- `src/data/modulePracticeBank.ts`
+## Every run — exact steps
 
-Question shape (example):
-```
-{
-  "section": "Math" | "Reading and Writing",
-  "domain": string,
-  "skill": string,
-  "difficulty": "Easy" | "Medium" | "Hard",
-  "rationale": string | null,
-  "id": string,
-  "testName": string,
-  "text": string,               // LaTeX via $...$, may contain newlines
-  "choices": [{"id": "A"|"B"|"C"|"D", "text": string}],
-  "correctAnswer": "A"|"B"|"C"|"D",
-  "type": "multiple-choice" | "student-produced-response"
-}
-```
+1. Read `CODEX_LATEX_STATE.md` to get `source`, `offset`, and `batch_size`.
+2. Load questions `[offset]` through `[offset + batch_size - 1]` (0-indexed) from the current source.
+3. Check each question's `text`, `rationale`, and `choices[].text` for LaTeX issues (see below).
+4. Fix every issue you find in the source file.
+5. Update `CODEX_LATEX_STATE.md`:
+   - Add a line to "Completed batches": `source | offset | offset+batch_size-1 | N issues fixed`
+   - Advance `offset` by `batch_size`.
+   - If `offset` >= total questions in that source, mark the source as `done` in the table and move to the next source (reset offset to 0).
+   - If all sources are done, write `AUDIT COMPLETE` at the top of the file.
+6. Create branch `codex/latex-<source-slug>-<offset>`, commit all changes, push, open PR via `gh`.
+7. PR title: `[codex] LaTeX audit: <source> questions <offset>–<offset+batch_size-1>`
+8. PR body must include:
+   - `## Summary` — how many questions audited, how many had issues, how many fixes made
+   - `## Issues fixed` — list of question IDs and what was wrong/changed (or "No issues found" if clean)
 
-Audit for:
-- Mathematically wrong answers or wrong correctAnswer labels
-- Broken LaTeX: unclosed `$`, mismatched `{}`, bad escapes, `\\` vs `\`, unmatched `\left`/`\right`
-- Malformed HTML/JSX inside `text` or `rationale`
-- Duplicate questions (same `text` or near-duplicates across files)
-- Missing required fields (no `correctAnswer`, no `choices` for MC, empty `text`)
-- Inconsistent formatting: trailing whitespace, smart quotes vs straight quotes, double spaces
-- Answer choices where `correctAnswer` doesn't align with `rationale`
-- For MC: fewer than 4 choices, duplicate choice text, choices not labeled A/B/C/D
+---
 
-When auditing, work in batches of ~20 questions per PR. Always include a summary comment in the PR body listing the question IDs reviewed and the issues found/fixed.
+## Source loading instructions
 
-### Priority 2 — Test coverage
-Write vitest tests for untested files in `src/components/` and `src/pages/`. Use React Testing Library (already likely installed; if not, add as devDependency in the same PR). One component per PR.
+**JSON files** (`math_past.json`, `reading_past.json`, `Modules/*.json`):
+- Parse the JSON array. Questions are 0-indexed in the array.
+- For `Modules/*.json`, process files alphabetically. Treat the combined list of all questions across all files as one flat sequence. Track which file + index you're in via the offset.
 
-### Priority 3 — Type safety
-Remove `any` and implicit `any` in `src/lib/` and `src/components/`. Tighten types. One file per PR.
+**TypeScript files** (`official_questions.ts`, `unofficialQuestions.ts`):
+- The exported array is the question list. Extract the array literal directly from the file.
+- Edit the source `.ts` file in place.
 
-### Priority 4 — Accessibility
-Add missing `aria-*` labels, fix keyboard navigation, fix obvious color contrast issues in `src/pages/` and `src/components/`.
+---
 
-### Priority 5 — Dead code
-Remove unused exports, unused imports, and unreferenced components.
+## LaTeX issues to fix
+
+Fix ALL of the following:
+
+### Delimiter errors (highest priority)
+- Unclosed `$` (odd number of unescaped `$` in a field)
+- Unclosed `$$` pairs
+- Mixed delimiters: `$...$` and `\(...\)` used inconsistently within the same question — standardize to `$...$`
+- `$$...$$` display math — standardize to `\[...\]`
+
+### Brace errors
+- Unmatched `{` or `}` inside a math expression
+- Missing `{}` argument for commands that require one: `\frac{}{}`, `\sqrt{}`, `\text{}`, `\overline{}`, `\underline{}`
+
+### Escape errors
+- `\left` without a matching `\right` (or vice versa) in the same expression
+- `\\` used where `\` is needed for a command, e.g. `\\frac` instead of `\frac`
+- Bare `\` at end of a math expression with no command following
+
+### Text content inside math
+- Plain English words inside `$...$` without `\text{}`, e.g. `$price = 5$` should be `$\text{price} = 5$`
+- Exception: single letters used as variables are fine (e.g. `$x$`, `$n$`)
+
+### Stray characters
+- HTML entities inside math: `&lt;` → `<`, `&gt;` → `>`, `&amp;` → `&`
+- Literal `<br>` or `<br/>` inside math expressions
+
+---
 
 ## Hard rules
-- NEVER modify `CODEX_RULES.md` itself.
-- NEVER touch `.env`, `.env.*`, secrets, `netlify.toml`, `vercel.json`, `supabase-proxy/`, or CI config.
-- NEVER change `package.json` dependencies except to add a clearly-needed devDependency (testing libs).
-- NEVER run destructive git operations (force push, reset --hard, etc.).
-- One PR per task. Do not bundle unrelated work.
-- If a task is ambiguous or you cannot complete it safely, skip it: leave the box unchecked, add a short comment line `<!-- codex-skipped: reason -->` below the task, and move to the next.
-- Run `npm run build` before opening a PR to catch type errors. If it fails because of the change, fix it; if it fails for an unrelated reason, note that in the PR.
-- Keep diffs small and focused. A PR touching >20 files for a single task is too big — split it.
 
-## Commit / PR format
-- Branch name: `codex/<short-slug>`
-- PR title: `[codex] <short description>`
-- PR body must contain a `## Summary` section and, for bank-audit PRs, a `## Questions reviewed` section listing IDs.
+- NEVER change the mathematical content or meaning of a question.
+- NEVER change `correctAnswer` values.
+- NEVER change `rationale` content beyond fixing LaTeX syntax.
+- NEVER modify `CODEX_RULES.md` or `CODEX_LATEX_STATE.md` except the state update in step 5.
+- NEVER touch `.env`, secrets, CI config, `package.json`, or any file outside the question data files and the two CODEX_ files.
+- One PR per batch. Do not skip ahead or do multiple batches per run.
+- If a source file is malformed and cannot be parsed, log the error in the state file and skip to the next source.
+- Run `git diff --stat` before pushing to confirm the only changed files are the question source and `CODEX_LATEX_STATE.md`.
+
+---
+
+## Branch / PR format
+
+- Branch: `codex/latex-<source-slug>-<offset>` (e.g. `codex/latex-math-past-0`)
+- Title: `[codex] LaTeX audit: <source> questions <offset>–<end>`
+- One PR per run. No bundling.
