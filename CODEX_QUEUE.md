@@ -8,3 +8,5 @@ Rules and state are in:
 
 Every run: read `CODEX_RULES.md`, then `CODEX_LATEX_STATE.md`, then execute.
 No task list needed — the state file tracks everything.
+
+- [x] `src/data/questions/math_past.json` questions 0-99
