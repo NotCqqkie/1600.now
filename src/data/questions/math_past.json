@@ -951,7 +951,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_16",
     "testName": "August 2024 International Form A SAT Math Module 2",
-    "text": "For groups of 5 or more people, a tour guide charges $9 for the first person in the group and $6 for each additional person. Which function $g$ gives the total charge, in dollars, for a tour with a group of $n$ people, where $n \\geq 5$?",
+    "text": "For groups of 5 or more people, a tour guide charges \\$9 for the first person in the group and \\$6 for each additional person. Which function $g$ gives the total charge, in dollars, for a tour with a group of $n$ people, where $n \\geq 5$?",
     "choices": [
       {
         "id": "A",
@@ -1951,7 +1951,7 @@
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_11",
     "testName": "August 2024 US Form B SAT Math Module 2",
-    "text": "A clothing store buys shirts at a wholesale price of $7.00 each and resells them each at a retail price that is 260% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 75% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
+    "text": "A clothing store buys shirts at a wholesale price of \\$7.00 each and resells them each at a retail price that is 260% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 75% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
     "choices": [],
     "correctAnswer": "4.55",
     "type": "free-response"
@@ -2256,7 +2256,7 @@
     "rationale": null,
     "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_2",
     "testName": "August 2025 International Form A SAT Math Module 1",
-    "text": "Carrie has c dollars and Marjani has m dollars. Carrie has 4 times as many dollars as Marjani, and together they have a total of $40.00. Which system of equations represents this situation?",
+    "text": "Carrie has c dollars and Marjani has m dollars. Carrie has 4 times as many dollars as Marjani, and together they have a total of \\$40.00. Which system of equations represents this situation?",
     "choices": [
       {
         "id": "A",

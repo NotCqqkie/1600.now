@@ -6,7 +6,7 @@ This file is updated by Codex on every run. Do NOT edit manually.
 
 | # | Source | Format | Questions | Status |
 |---|--------|--------|----------:|--------|
-| 1 | `src/data/questions/math_past.json` | JSON array | 2,157 | not started |
+| 1 | `src/data/questions/math_past.json` | JSON array | 2,157 | in progress |
 | 2 | `src/data/questions/reading_past.json` | JSON array | 3,869 | not started |
 | 3 | `src/data/official_questions.ts` | TS export | 411 | not started |
 | 4 | `src/data/Modules/*.json` | JSON files | 6,173 | not started |
@@ -16,10 +16,10 @@ This file is updated by Codex on every run. Do NOT edit manually.
 
 ```
 source:      src/data/questions/math_past.json
-offset:      0
+offset:      100
 batch_size:  100
 ```
 
 ## Completed batches
 
-(none yet)
+src/data/questions/math_past.json | 0 | 99 | 3 issues fixed
