@@ -6,5 +6,5 @@ Rules and state are in:
 - `CODEX_RULES.md` — what to do and how to do it
 - `CODEX_LATEX_STATE.md` — current position (source file + offset)
 
-Every run: read `CODEX_RULES.md`, then `CODEX_LATEX_STATE.md`, then execute.
+- [x] Run current LaTeX audit batch from `CODEX_LATEX_STATE.md`.
 No task list needed — the state file tracks everything.
