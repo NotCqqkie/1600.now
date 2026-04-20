@@ -4,7 +4,7 @@
 
 ```
 source:      src/data/Modules/*.json
-offset:      400
+offset:      500
 batch_size:  100
 total:       6173
 status:      in progress
@@ -20,3 +20,4 @@ Track file + local index via the global offset.
 - src/data/Modules/*.json | 100 | 199 | 4 issues fixed
 - src/data/Modules/*.json | 200 | 299 | 4 issues fixed
 - src/data/Modules/*.json | 300 | 399 | 6 issues fixed
+- src/data/Modules/*.json | 400 | 499 | 5 issues fixed
