@@ -385,7 +385,7 @@
     "difficulty": "Easy",
     "question_number": 17,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "The measure of angle $C$ is $\\frac{3\\pi}{4}$ radians. What is the value of $cos(C)$?",
+    "passage": "The measure of angle $C$ is $\\frac{3\\pi}{4}$ radians. What is the value of $\\cos(C)$?",
     "question_text": null,
     "choices": [
       {
