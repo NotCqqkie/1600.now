@@ -16,6 +16,7 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
   const containerRef = useRef<HTMLDivElement>(null);
   const buttonRefs = useRef<Map<BankSourceFilter, HTMLButtonElement>>(new Map());
   const [slider, setSlider] = useState({ left: 0, width: 0 });
+  const [hasMeasured, setHasMeasured] = useState(false);
 
   const measureSlider = useCallback(() => {
     const container = containerRef.current;
@@ -27,6 +28,7 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
       left: btnRect.left - containerRect.left,
       width: btnRect.width,
     });
+    setHasMeasured(true);
   }, [value]);
 
   useLayoutEffect(() => {
@@ -40,7 +42,10 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
     >
       {/* Animated slider background */}
       <div
-        className="absolute top-1 bottom-1 rounded-md bg-primary shadow-sm transition-all duration-300 ease-out"
+        className={cn(
+          "absolute top-1 bottom-1 rounded-md bg-primary shadow-sm ease-out",
+          hasMeasured ? "transition-all duration-300" : "transition-none",
+        )}
         style={{ left: slider.left, width: slider.width }}
       />
 

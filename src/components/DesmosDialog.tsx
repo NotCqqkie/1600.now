@@ -85,7 +85,7 @@ export const DesmosDialog = ({
       expressionsCollapsed: false,
 
       // Colors and theming — follow app theme
-      backgroundColor: document.documentElement.classList.contains("dark") ? "#1a1a2e" : "#ffffff",
+      backgroundColor: "#ffffff",
     });
 
     calcRef.current = calc;

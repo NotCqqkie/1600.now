@@ -201,11 +201,15 @@ export const TransparentAwareImage = ({
 }: TransparentAwareImageProps) => {
   const [hasTransparency, setHasTransparency] = useState(false);
   const [resolvedSrc, setResolvedSrc] = useState(src);
+  const cachedTrimmedInitial = trimWhitespace ? trimmedImageCache.get(src) : undefined;
+  const [isReady, setIsReady] = useState(() => !trimWhitespace || Boolean(cachedTrimmedInitial));
 
   useEffect(() => {
     let cancelled = false;
 
-    setResolvedSrc(src);
+    const cachedTrimmed = trimWhitespace ? trimmedImageCache.get(src) : undefined;
+    setResolvedSrc(cachedTrimmed ?? src);
+    setIsReady(!trimWhitespace || Boolean(cachedTrimmed));
     const shouldDetectTransparency = isPngAsset(src);
     if (!shouldDetectTransparency) {
       setHasTransparency(false);
@@ -216,11 +220,6 @@ export const TransparentAwareImage = ({
       setHasTransparency(cached);
     } else if (shouldDetectTransparency) {
       setHasTransparency(false);
-    }
-
-    const cachedTrimmed = trimWhitespace ? trimmedImageCache.get(src) : undefined;
-    if (cachedTrimmed) {
-      setResolvedSrc(cachedTrimmed);
     }
 
     if (cached !== undefined && (!trimWhitespace || cachedTrimmed)) {
@@ -248,6 +247,7 @@ export const TransparentAwareImage = ({
       }
 
       if (!trimWhitespace || trimmedImageCache.has(src)) {
+        setIsReady(true);
         return;
       }
 
@@ -260,6 +260,11 @@ export const TransparentAwareImage = ({
       } catch {
         // Keep the original image if client-side trimming fails.
       }
+      setIsReady(true);
+    };
+    img.onerror = () => {
+      if (cancelled) return;
+      setIsReady(true);
     };
     img.src = src;
 
@@ -281,6 +286,7 @@ export const TransparentAwareImage = ({
         alt={alt}
         className={className}
         loading={loading}
+        style={isReady ? undefined : { visibility: "hidden" }}
       />
     </span>
   );

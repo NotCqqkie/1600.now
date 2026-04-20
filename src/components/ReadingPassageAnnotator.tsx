@@ -416,7 +416,7 @@ export const ReadingPassageAnnotator = ({
           enabled && "selection:bg-amber-200/60 dark:selection:bg-amber-500/40",
           className,
         )}
-        style={{ fontFamily: "'Noto Serif', serif", fontSize: "1rem", lineHeight: "1.73" }}
+        style={{ fontFamily: "var(--question-font-family, 'Noto Serif', serif)", fontSize: "calc(1rem * var(--question-font-scale, 1))", lineHeight: "1.73" }}
         onMouseUp={handleMouseUp}
         onClick={handleAnnotationClick}
       >

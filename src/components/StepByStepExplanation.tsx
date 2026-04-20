@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -43,7 +43,6 @@ export function StepByStepExplanation({ questionId, question, questionImages }: 
   const [error, setError] = useState<string | null>(null);
   const [direction, setDirection] = useState<1 | -1>(1);
   const [animKey, setAnimKey] = useState(0);
-  const isWheelCooldownRef = useRef(false);
 
   useEffect(() => {
     const cached = getCachedExplanation(questionId);
@@ -82,17 +81,6 @@ export function StepByStepExplanation({ questionId, question, questionImages }: 
     }
   }, [currentStep, goToStep]);
 
-  // Wheel / trackpad snap: one page per scroll gesture
-  const handleWheel = useCallback((e: React.WheelEvent) => {
-    e.preventDefault();
-    if (isWheelCooldownRef.current) return;
-    const threshold = 30;
-    if (Math.abs(e.deltaY) < threshold) return;
-    isWheelCooldownRef.current = true;
-    if (e.deltaY > 0) handleNext();
-    else handlePrev();
-    setTimeout(() => { isWheelCooldownRef.current = false; }, 400);
-  }, [handleNext, handlePrev]);
 
   const handleGenerate = async () => {
     setLoading(true);
@@ -191,7 +179,6 @@ export function StepByStepExplanation({ questionId, question, questionImages }: 
       {/* Single full-page step view — one step visible at a time, fills entire panel */}
       <div
         className="flex-1 overflow-hidden relative"
-        onWheel={handleWheel}
       >
         <div
           key={animKey}

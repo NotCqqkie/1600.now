@@ -73,8 +73,6 @@ const ScoreCalculator = () => {
       math,
       total,
       totalColor: getScoreAccent(total, 1600),
-      readingWritingColor: getScoreAccent(readingWriting, 800),
-      mathColor: getScoreAccent(math, 800),
     };
   }, [rawScores]);
 
@@ -198,8 +196,6 @@ interface ScoreSummaryCardProps {
     math: number;
     total: number;
     totalColor: string;
-    readingWritingColor: string;
-    mathColor: string;
   };
   modules: {
     title: string;
@@ -445,12 +441,8 @@ const ScoreSummaryCard = ({
       {/* Section scores */}
       <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 20 }}>
         {[
-          {
-            label: "Reading & Writing",
-            value: scores.readingWriting,
-            color: scores.readingWritingColor,
-          },
-          { label: "Math", value: scores.math, color: scores.mathColor },
+          { label: "Reading & Writing", value: scores.readingWriting },
+          { label: "Math", value: scores.math },
         ].map((item) => (
           <div
             key={item.label}
@@ -473,9 +465,8 @@ const ScoreSummaryCard = ({
                 fontFamily: "'Space Mono', monospace",
                 fontSize: 22,
                 fontWeight: 700,
-                color: item.color,
+                color: themeColors.textColor,
                 flexShrink: 0,
-                transition: SCORE_TRANSITION,
               }}
             >
               {item.value}
@@ -525,8 +516,8 @@ const ScoreSummaryCard = ({
                   height: "100%",
                   width: `${module.progress}%`,
                   borderRadius: 999,
-                  background: `linear-gradient(90deg, ${scores.totalColor}99, ${scores.totalColor})`,
-                  transition: "width 0.24s ease, background 0.24s ease",
+                  background: scores.totalColor,
+                  transition: "width 0.45s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.45s cubic-bezier(0.22, 1, 0.36, 1)",
                 }}
               />
             </div>

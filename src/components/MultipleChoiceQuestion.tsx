@@ -66,7 +66,7 @@ export const MultipleChoiceQuestion = ({
         const renderedHtml = renderMixedContent(choice.text, {
           normalizeMath: subject === "math",
         });
-        element.innerHTML = `<span style="font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.54; display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
+        element.innerHTML = `<span style="line-height: 1.54; display: inline-block; max-width: 100%;">${renderedHtml}</span>`;
       }
     });
   }, [choices, questionId, subject]);

@@ -147,10 +147,10 @@ All colors MUST be HSL.
     -ms-user-select: none;
   }
 
-  /* Question text font - Minion Pro with fallback */
+  /* Question text font - user-customizable via Personalization settings */
   #question-content,
   .choice-content {
-    font-family: "Minion Pro", "Source Serif 4", Georgia, serif;
+    font-family: var(--question-font-family, "Minion Pro", "Source Serif 4", Georgia, serif);
   }
 
   /* KaTeX content styling for responsive LaTeX with wrapping */
@@ -170,9 +170,11 @@ All colors MUST be HSL.
     white-space: normal !important;
   }
 
-  /* Match text size with KaTeX - use same clamp for consistency */
+  /* Match text size with KaTeX - use same clamp for consistency.
+     Scaled by --question-font-scale so the Personalization page can resize
+     question text without losing the responsive clamp behavior. */
   #question-content {
-    font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+    font-size: calc(clamp(0.7rem, 1.5vw, 0.9rem) * var(--question-font-scale, 1));
   }
 
   #question-content .katex {
@@ -181,7 +183,7 @@ All colors MUST be HSL.
 
   /* Answer choices - matching sizes */
   .choice-content {
-    font-size: clamp(0.65rem, 1.2vw, 0.8rem);
+    font-size: calc(clamp(0.65rem, 1.2vw, 0.8rem) * var(--question-font-scale, 1));
     font-weight: 400;
   }
 

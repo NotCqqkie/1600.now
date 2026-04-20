@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label";
 import { BrandLogo } from "@/components/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
-import { Loader2, CheckCircle, ArrowLeft } from "lucide-react";
+import { Loader2, CheckCircle } from "lucide-react";
 
 const GoogleIcon = () => (
   <svg className="h-4 w-4" aria-hidden="true" viewBox="0 0 488 512" fill="currentColor">
@@ -17,7 +17,7 @@ const GoogleIcon = () => (
 
 const perks = [
   "Track your progress across every skill",
-  "Mark questions for review",
+  "Take timed practice tests by skill",
   "See accuracy trends over time",
   "No paid features — ever",
 ];
@@ -139,19 +139,6 @@ const Signup = () => {
 
       {/* ── Right form panel ── */}
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-12 bg-background">
-        <div className="mb-8 flex items-center justify-between">
-          <BrandLogo variant="mark" className="h-10 w-10" />
-          <Button
-            variant="ghost"
-            size="sm"
-            className="gap-2"
-            onClick={() => navigate("/")}
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to home
-          </Button>
-        </div>
-
         <div className="w-full max-w-sm">
           <div className="mb-8">
             <h2

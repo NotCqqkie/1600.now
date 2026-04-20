@@ -42,9 +42,7 @@ export function InlineDesmos({ expressions, height = 360 }: InlineDesmosProps) {
       lockViewport: false,
       border: false,
       expressionsCollapsed: false,
-      backgroundColor: document.documentElement.classList.contains("dark")
-        ? "#1a1a2e"
-        : "#ffffff",
+      backgroundColor: "#ffffff",
     }) as DesmosCalc;
 
     expressions.forEach((latex, i) => {

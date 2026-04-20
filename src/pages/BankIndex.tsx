@@ -916,7 +916,7 @@ const BankIndex = () => {
           <Button 
             size="lg" 
             onClick={() => handleCreatePracticeSet(false)}
-            className="shadow-lg gap-2 bg-[#B4E1FF] text-foreground hover:bg-[#95D4FF] border border-[#95D4FF]"
+            className="shadow-lg gap-2 bg-[#B4E1FF] text-[#0a0a0a] hover:bg-[#95D4FF] border border-[#95D4FF] dark:bg-[#1a6fa3] dark:text-white dark:hover:bg-[#1d7db5] dark:border-[#1d7db5]"
           >
             <Play className="h-4 w-4" />
             Create Practice Set ({selectedQuestions.length} questions)
