@@ -13395,7 +13395,7 @@
     "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_13",
     "testName": "June 2024 US Form B SAT Math Module 1",
-    "text": "$A$ circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 81$. Which of the following gives the center of the circle and its radius?",
+    "text": "A circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 81$. Which of the following gives the center of the circle and its radius?",
     "choices": [
       {
         "id": "A",
@@ -14155,7 +14155,7 @@
     "rationale": null,
     "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_22",
     "testName": "June 2024 US Form B SAT Math Module 2",
-    "text": "The current value of a house is $181,000, and this value increases by 4.5% each year from the value of the previous year. Which function $f$ gives the value, in dollars, of the house $x$ years from now?",
+    "text": "The current value of a house is \\$181,000, and this value increases by 4.5% each year from the value of the previous year. Which function $f$ gives the value, in dollars, of the house $x$ years from now?",
     "choices": [
       {
         "id": "A",
@@ -14258,7 +14258,7 @@
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_4",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "A vendor at a market sells bags of tea leaves for $7 each and bags of cashews for $12 each. The vendor sold a total of 180 bags of tea leaves and cashews last month for $1,820. Which system of equations represents this situation, where $x$ is the number of bags of tea leaves sold and $y$ is the number of bags of cashews sold?",
+    "text": "A vendor at a market sells bags of tea leaves for \\$7 each and bags of cashews for \\$12 each. The vendor sold a total of 180 bags of tea leaves and cashews last month for \\$1,820. Which system of equations represents this situation, where $x$ is the number of bags of tea leaves sold and $y$ is the number of bags of cashews sold?",
     "choices": [
       {
         "id": "A",
@@ -14331,7 +14331,7 @@
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_8",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "A club plans to sell tote bags. The club members estimate they will sell 90 tote bags when the bags are priced at $11 each. For every price increase of $1, they estimate they will sell 9 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at $13 each? (revenue = $\\text{price} \\times \\text{number sold}$)",
+    "text": "A club plans to sell tote bags. The club members estimate they will sell 90 tote bags when the bags are priced at \\$11 each. For every price increase of \\$1, they estimate they will sell 9 fewer bags. What is the estimated revenue, in dollars, when the bags are priced at \\$13 each? (revenue = $\\text{price} \\times \\text{number sold}$)",
     "choices": [
       {
         "id": "A",
@@ -14867,19 +14867,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "g(x) = $\\frac{1}{4}$x − 5"
+        "text": "$g(x) = \\frac{1}{4}x - 5$"
       },
       {
         "id": "B",
-        "text": "g(x) = $\\frac{1}{4}$x + 5"
+        "text": "$g(x) = \\frac{1}{4}x + 5$"
       },
       {
         "id": "C",
-        "text": "g(x) = −$\\frac{1}{4}$x − 5"
+        "text": "$g(x) = -\\frac{1}{4}x - 5$"
       },
       {
         "id": "D",
-        "text": "g(x) = −$\\frac{1}{4}$x + 5"
+        "text": "$g(x) = -\\frac{1}{4}x + 5$"
       }
     ],
     "correctAnswer": "B",
