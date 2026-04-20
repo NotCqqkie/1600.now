@@ -60,6 +60,20 @@ Fix ALL of the following:
 - Plain English words inside `$...$` without `\text{}`, e.g. `$price = 5$` should be `$\text{price} = 5$`
 - Exception: single letters used as variables are fine (e.g. `$x$`, `$n$`)
 
+### Word-form math (IMPORTANT — high priority)
+Some questions have mathematical content written out in plain English words instead of LaTeX. Convert these to proper LaTeX expressions.
+
+Patterns to detect and fix:
+- Equations written as words: `"negative x plus y, equals negative 3 point 5"` → `$-x + y = -3.5$`
+- Coordinates written as words: `"x comma y"` → `$(x, y)$`
+- Fractions written as words: `"3 point 5"` → `$3.5$`, `"one half"` → `$\frac{1}{2}$`
+- Variables written as words mixed with math: `"the value of y"` → `"the value of $y$"`
+- Ordered pairs as words: `"ordered pair x comma y"` → `"ordered pair $(x, y)$"`
+- Function notation as words: `"f of x"` → `$f(x)$`
+- Common word patterns to search for: `"equals negative"`, `"equals positive"`, `"x comma y"`, `"y comma x"`, `"point 5"`, `"point 2 5"`, `"point 7 5"`, `"negative x"`, `"plus y"`, `"minus y"`
+
+These are a separate class of error from broken LaTeX — the math was never LaTeXified in the first place.
+
 ### Stray characters
 - HTML entities inside math: `&lt;` → `<`, `&gt;` → `>`, `&amp;` → `&`
 - Literal `<br>` or `<br/>` inside math expressions
