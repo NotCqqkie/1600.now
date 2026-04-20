@@ -13,3 +13,4 @@ No task list needed — the state file tracks everything.
 
 - [x] `src/data/questions/math_past.json` questions 0-99
 - [x] `src/data/questions/math_past.json` questions 100-199
+- [x] `src/data/questions/math_past.json` questions 200-299
