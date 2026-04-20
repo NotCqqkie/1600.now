@@ -16,7 +16,7 @@ This file is updated by Codex on every run. Do NOT edit manually.
 
 ```
 source:      src/data/questions/reading_past.json
-offset:      0
+offset:      100
 batch_size:  100
 ```
 
