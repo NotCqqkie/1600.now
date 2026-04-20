@@ -321,7 +321,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "March 2025 International Form A SAT Math Module 1",
-    "passage": "In right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is 90 degrees. The value of $sin(R)$ is $\\frac{2\\sqrt{10}}{7}$. What is the value of $cos(S)$?",
+    "passage": "In right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is 90 degrees. The value of $\\sin(R)$ is $\\frac{2\\sqrt{10}}{7}$. What is the value of $\\cos(S)$?",
     "question_text": null,
     "choices": [
       {
