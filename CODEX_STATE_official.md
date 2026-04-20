@@ -4,7 +4,7 @@
 
 ```
 source:      src/data/official_questions.ts
-offset:      300
+offset:      400
 batch_size:  100
 total:       411
 status:      in progress
@@ -15,3 +15,4 @@ status:      in progress
 src/data/official_questions.ts | 0 | 99 | 7 issues fixed
 src/data/official_questions.ts | 100 | 199 | 0 issues fixed
 src/data/official_questions.ts | 200 | 299 | 0 issues fixed
+src/data/official_questions.ts | 300 | 399 | 0 issues fixed
