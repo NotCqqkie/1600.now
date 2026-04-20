@@ -30762,7 +30762,7 @@
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_4",
     "testName": "May 2024 US Form A SAT Math Module 2",
-    "text": "A customer spent $12 to purchase apples at $3 per pound. How many pounds of apples did the customer purchase?",
+    "text": "A customer spent \\$12 to purchase apples at \\$3 per pound. How many pounds of apples did the customer purchase?",
     "choices": [],
     "correctAnswer": "4",
     "type": "free-response"
@@ -31685,7 +31685,7 @@
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_19",
     "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "A moving truck rental company charges its customers $195 for the first hour of renting a truck and $75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where $y$ is the total cost, in dollars, of renting a truck from this company for $x$ hours, $w$ is the cost, in dollars, of gas used, and $x \\geq 1$?",
+    "text": "A moving truck rental company charges its customers \\$195 for the first hour of renting a truck and \\$75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where $y$ is the total cost, in dollars, of renting a truck from this company for $x$ hours, $w$ is the cost, in dollars, of gas used, and $x \\geq 1$?",
     "choices": [
       {
         "id": "A",
@@ -32513,7 +32513,7 @@
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_6",
     "testName": "May 2025 International Form A SAT Math Module 1",
-    "text": "A group of students purchase ice cream cones and ice cream sundaes. The cones cost $1.40 each, and the cost for 19 sundaes is $64.60. The total cost for the cones and sundaes is $85.60. Which equation represents this situation, where $x$ is the number of cones purchased and $y$ is the number of sundaes purchased?",
+    "text": "A group of students purchase ice cream cones and ice cream sundaes. The cones cost \\$1.40 each, and the cost for 19 sundaes is \\$64.60. The total cost for the cones and sundaes is \\$85.60. Which equation represents this situation, where $x$ is the number of cones purchased and $y$ is the number of sundaes purchased?",
     "choices": [
       {
         "id": "A",
@@ -32556,7 +32556,7 @@
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_8",
     "testName": "May 2025 International Form A SAT Math Module 1",
-    "text": "In $△DEF$, the measure of $∠D$ is $114°$. Which of the following could be the measure, in degrees, of $∠E$?",
+    "text": "In $\\triangle DEF$, the measure of $∠D$ is $114°$. Which of the following could be the measure, in degrees, of $∠E$?",
     "choices": [
       {
         "id": "A",
@@ -32646,7 +32646,7 @@
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_11",
     "testName": "May 2025 International Form A SAT Math Module 1",
-    "text": "A company opens an account with an initial balance of $35,600.00. The account earns interest, and no additional deposits or withdrawals are made. The account balance is given by an exponential function A, where A(t) is the account balance, in dollars, t years after the account is opened. The account balance after 15 years is $129,672.38. Which equation could define A?",
+    "text": "A company opens an account with an initial balance of \\$35,600.00. The account earns interest, and no additional deposits or withdrawals are made. The account balance is given by an exponential function A, where A(t) is the account balance, in dollars, t years after the account is opened. The account balance after 15 years is \\$129,672.38. Which equation could define A?",
     "choices": [
       {
         "id": "A",
