@@ -7763,7 +7763,7 @@
     "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_5",
     "testName": "December 2024 US Form A SAT Math Module 1",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\text{°F}$), when the air temperature is 26$\text{°F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is 26$\\text{°F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer)",
     "choices": [],
     "correctAnswer": "14",
     "type": "free-response"
@@ -8484,7 +8484,7 @@
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_12",
     "testName": "December 2024 US Form A SAT Math Module 2",
-    "text": "A carnival receives $10 for each adult admission ticket sold and $5 for each child admission ticket sold. On a particular day, the carnival received a total of $4,100 from selling adult and child admission tickets. If 220 adult admission tickets were sold on that day, how many child admission tickets were sold?",
+    "text": "A carnival receives \\$10 for each adult admission ticket sold and \\$5 for each child admission ticket sold. On a particular day, the carnival received a total of \\$4,100 from selling adult and child admission tickets. If 220 adult admission tickets were sold on that day, how many child admission tickets were sold?",
     "choices": [],
     "correctAnswer": "380",
     "type": "free-response"
