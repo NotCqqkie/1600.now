@@ -16,7 +16,7 @@ This file is updated by Codex on every run. Do NOT edit manually.
 
 ```
 source:      src/data/questions/math_past.json
-offset:      1600
+offset:      1700
 batch_size:  100
 ```
 
@@ -38,3 +38,4 @@ src/data/questions/math_past.json | 1200 | 1299 | 10 issues fixed
 src/data/questions/math_past.json | 1300 | 1399 | 5 issues fixed
 src/data/questions/math_past.json | 1400 | 1499 | 9 issues fixed
 src/data/questions/math_past.json | 1500 | 1599 | 9 issues fixed
+src/data/questions/math_past.json | 1600 | 1699 | 17 issues fixed
