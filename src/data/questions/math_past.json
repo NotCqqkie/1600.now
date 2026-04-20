@@ -17837,19 +17837,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$14sin58^\\circ$"
+        "text": "$14\\sin58^\\circ$"
       },
       {
         "id": "B",
-        "text": "$\\frac{14}{sin58^\\circ}$"
+        "text": "$\\frac{14}{\\sin58^\\circ}$"
       },
       {
         "id": "C",
-        "text": "$14cos58^\\circ$"
+        "text": "$14\\cos58^\\circ$"
       },
       {
         "id": "D",
-        "text": "$\\frac{14}{cos58^\\circ}$"
+        "text": "$\\frac{14}{\\cos58^\\circ}$"
       }
     ],
     "correctAnswer": "A",
@@ -18408,7 +18408,7 @@
       },
       {
         "id": "B",
-        "text": "$-5 or 5$"
+        "text": "$-5 \\text{ or } 5$"
       },
       {
         "id": "C",
@@ -18799,7 +18799,7 @@
     "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_14",
     "testName": "March 2025 International Form A SAT Math Module 1",
-    "text": "In right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is 90 degrees. The value of $sin(R)$ is $\\frac{2\\sqrt{10}}{7}$. What is the value of $cos(S)$?",
+    "text": "In right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is 90 degrees. The value of $\\sin(R)$ is $\\frac{2\\sqrt{10}}{7}$. What is the value of $\\cos(S)$?",
     "choices": [
       {
         "id": "A",
@@ -18859,7 +18859,7 @@
     "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_17",
     "testName": "March 2025 International Form A SAT Math Module 1",
-    "text": "The measure of angle $C$ is $\\frac{3\\pi}{4}$ radians. What is the value of $cos(C)$?",
+    "text": "The measure of angle $C$ is $\\frac{3\\pi}{4}$ radians. What is the value of $\\cos(C)$?",
     "choices": [
       {
         "id": "A",
@@ -19507,7 +19507,7 @@
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_20",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 59 square centimeters ($\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 1,475 $\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,500 cubic centimeters ($\text{cm}^3$). What is the sum of the volumes, in $\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
+    "text": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 59 square centimeters ($\\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 1,475 $\\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,500 cubic centimeters ($\\text{cm}^3$). What is the sum of the volumes, in $\\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
     "choices": [],
     "correctAnswer": "1512",
     "type": "free-response"
