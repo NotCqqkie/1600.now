@@ -3093,7 +3093,7 @@
     "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_14",
     "testName": "August 2025 International Form A SAT Math Module 2",
-    "text": "A book-of-the-month club charges $16 for the first book purchased during the month and an additional $11 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
+    "text": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$11 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
     "choices": [
       {
         "id": "A",
@@ -3123,7 +3123,7 @@
     "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_15",
     "testName": "August 2025 International Form A SAT Math Module 2",
-    "text": "A company developed a plan to set the selling price of a product. The company determined that for a selling price of $120.00, zero products would be sold. For each $2.50 decrease in the selling price, the number of products sold would increase by one. For a revenue of exactly $1,437.50, which of the following could be the number of products sold? (revenue = price $\\times$ number of products sold)",
+    "text": "A company developed a plan to set the selling price of a product. The company determined that for a selling price of \\$120.00, zero products would be sold. For each \\$2.50 decrease in the selling price, the number of products sold would increase by one. For a revenue of exactly \\$1,437.50, which of the following could be the number of products sold? (revenue = price $\\times$ number of products sold)",
     "choices": [
       {
         "id": "A",
@@ -4209,7 +4209,7 @@
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_14",
     "testName": "August 2025 International Form B SAT Math Module 2",
-    "text": "A book-of-the-month club charges $16 for the first book purchased during the month and an additional $12 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
+    "text": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$12 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
     "choices": [
       {
         "id": "A",
@@ -4239,7 +4239,7 @@
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_15",
     "testName": "August 2025 International Form B SAT Math Module 2",
-    "text": "A company developed a plan to set the selling price of a product. The company determined that for a selling price of $90.00, zero products would be sold. For each $1.50 decrease in the selling price, the number of products sold would increase by one. For a revenue of exactly $1,336.50, which of the following could be the number of products sold?\n(revenue = price $\\times$ number of products sold)",
+    "text": "A company developed a plan to set the selling price of a product. The company determined that for a selling price of \\$90.00, zero products would be sold. For each \\$1.50 decrease in the selling price, the number of products sold would increase by one. For a revenue of exactly \\$1,336.50, which of the following could be the number of products sold?\n(revenue = price $\\times$ number of products sold)",
     "choices": [
       {
         "id": "A",
@@ -4758,7 +4758,7 @@
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_12",
     "testName": "December 2024 International Form A SAT Math Module 1",
-    "text": "Raheem bought 9 shirts that were each the same price. He used a coupon for $54 off the entire purchase. The cost for the entire purchase after using the coupon was $108. What was the original price, in dollars, for 1 shirt?",
+    "text": "Raheem bought 9 shirts that were each the same price. He used a coupon for \\$54 off the entire purchase. The cost for the entire purchase after using the coupon was \\$108. What was the original price, in dollars, for 1 shirt?",
     "choices": [],
     "correctAnswer": "18",
     "type": "free-response"
