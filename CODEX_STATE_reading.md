@@ -4,12 +4,12 @@
 
 ```
 source:      src/data/questions/reading_past.json
-offset:      0
+offset:      100
 batch_size:  100
 total:       3869
-status:      not started
+status:      in progress
 ```
 
 ## Completed batches
 
-(none yet)
+- src/data/questions/reading_past.json | 0 | 99 | 5 issues fixed
