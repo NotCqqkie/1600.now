@@ -22873,7 +22873,7 @@
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_11",
     "testName": "March 2025 International Form E SAT Math Module 1",
-    "text": "A clothing store buys shirts at a wholesale price of $6.00 each and resells them at a retail price that is 310% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 75% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
+    "text": "A clothing store buys shirts at a wholesale price of \\$6.00 each and resells them at a retail price that is 310% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 75% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
     "choices": [],
     "correctAnswer": "4.65",
     "type": "free-response"
@@ -23135,7 +23135,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_1",
     "testName": "March 2025 International Form E SAT Math Module 2",
-    "text": "In one week in 2017, a technician earned a total of $900 by working at her regular job and at a second job doing part-time work. The equation $21h + 10c = 900$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 21 in this context?",
+    "text": "In one week in 2017, a technician earned a total of \\$900 by working at her regular job and at a second job doing part-time work. The equation $21h + 10c = 900$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 21 in this context?",
     "choices": [
       {
         "id": "A",
@@ -23521,7 +23521,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_16",
     "testName": "March 2025 International Form E SAT Math Module 2",
-    "text": "A painting studio is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is $26.40, which function f gives the total cost, in dollars, of x classes taken using this promotion, where x > 2?",
+    "text": "A painting studio is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is \\$26.40, which function f gives the total cost, in dollars, of x classes taken using this promotion, where x > 2?",
     "choices": [
       {
         "id": "A",
@@ -23641,7 +23641,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_20",
     "testName": "March 2025 International Form E SAT Math Module 2",
-    "text": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 55 square centimeters ($\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 880 $\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,600 cubic centimeters ($\text{cm}^3$). What is the sum of the volumes, in $\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
+    "text": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 55 square centimeters ($\\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 880 $\\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,600 cubic centimeters ($\\text{cm}^3$). What is the sum of the volumes, in $\\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
     "choices": [],
     "correctAnswer": "1625",
     "type": "free-response"
@@ -24062,7 +24062,7 @@
     "rationale": null,
     "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_17",
     "testName": "March 2025 US Form A SAT Math Module 1",
-    "text": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged $150. Another student took 17 lessons and was charged $480. Which function $f$ gives the total charge, in dollars, for any student who took $x$ lessons, where $x > 2$?",
+    "text": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged \\$150. Another student took 17 lessons and was charged \\$480. Which function $f$ gives the total charge, in dollars, for any student who took $x$ lessons, where $x > 2$?",
     "choices": [
       {
         "id": "A",
@@ -24723,7 +24723,7 @@
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_21",
     "testName": "March 2025 US Form A SAT Math Module 2",
-    "text": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 56 square centimeters ($\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 896 $\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,536 cubic centimeters ($\text{cm}^3$). What is the sum of the volumes, in $\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
+    "text": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 56 square centimeters ($\\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 896 $\\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,536 cubic centimeters ($\\text{cm}^3$). What is the sum of the volumes, in $\\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
     "choices": [],
     "correctAnswer": "1560",
     "type": "free-response"
@@ -24899,7 +24899,7 @@
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_7",
     "testName": "March 2025 US Form B SAT Math Module 1",
-    "text": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than $12.",
+    "text": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than \\$12.",
     "choices": [
       {
         "id": "A",
