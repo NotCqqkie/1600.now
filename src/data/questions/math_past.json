@@ -26088,7 +26088,7 @@
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_12",
     "testName": "May 2024 International Form A SAT Math Module 1",
-    "text": "Liam has $150 in an account. Each year he expects to have 2.8% more money in the account than he had the previous year. Which of the following models best describes how Liam expects the money in his account to change over time?",
+    "text": "Liam has \\$150 in an account. Each year he expects to have 2.8% more money in the account than he had the previous year. Which of the following models best describes how Liam expects the money in his account to change over time?",
     "choices": [
       {
         "id": "A",
@@ -26174,7 +26174,7 @@
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_16",
     "testName": "May 2024 International Form A SAT Math Module 1",
-    "text": "Raheem bought 9 shirts that were each the same price. He used a coupon for $54 off the entire purchase. The cost for the entire purchase after using the coupon was $108. What was the original price, in dollars, for 1 shirt?",
+    "text": "Raheem bought 9 shirts that were each the same price. He used a coupon for \\$54 off the entire purchase. The cost for the entire purchase after using the coupon was \\$108. What was the original price, in dollars, for 1 shirt?",
     "choices": [],
     "correctAnswer": "18",
     "type": "free-response"
@@ -26766,7 +26766,7 @@
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_16",
     "testName": "May 2024 International Form A SAT Math Module 2",
-    "text": "In triangle $XYZ$, angle $Y$ is a right angle, the measure of angle $Z$ is $39°$, and the length of $\\overline{YZ}$ is 22 units. If the area, in square units, of triangle $XYZ$ can be represented by the expression $k \tan 39°$, where $k$ is a constant, what is the value of $k$?",
+    "text": "In triangle $XYZ$, angle $Y$ is a right angle, the measure of angle $Z$ is $39°$, and the length of $\\overline{YZ}$ is 22 units. If the area, in square units, of triangle $XYZ$ can be represented by the expression $k \\tan 39°$, where $k$ is a constant, what is the value of $k$?",
     "choices": [],
     "correctAnswer": "242",
     "type": "free-response"
@@ -26942,7 +26942,7 @@
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_1",
     "testName": "May 2024 International Form C SAT Math Module 1",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\text{°F}$), when the air temperature is $38\text{°F}$ and the wind speed is $60$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is $38\\text{°F}$ and the wind speed is $60$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "22",
     "type": "free-response"
@@ -27513,7 +27513,7 @@
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_2",
     "testName": "May 2024 International Form C SAT Math Module 2",
-    "text": "A customer spent $18 to purchase oranges at $3 per pound. How many pounds of oranges did the customer purchase?",
+    "text": "A customer spent \\$18 to purchase oranges at \\$3 per pound. How many pounds of oranges did the customer purchase?",
     "choices": [],
     "correctAnswer": "6",
     "type": "free-response"
