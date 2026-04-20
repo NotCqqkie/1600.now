@@ -18,11 +18,10 @@ State is tracked in `CODEX_LATEX_STATE.md`. Read it at the start of every run.
    - Advance `offset` by `batch_size`.
    - If `offset` >= total questions in that source, mark the source as `done` in the table and move to the next source (reset offset to 0).
    - If all sources are done, write `AUDIT COMPLETE` at the top of the file.
-6. Create branch `codex/latex-<source-slug>-<offset>`, commit all changes, push, open PR via `gh`.
-7. PR title: `[codex] LaTeX audit: <source> questions <offset>–<offset+batch_size-1>`
-8. PR body must include:
-   - `## Summary` — how many questions audited, how many had issues, how many fixes made
-   - `## Issues fixed` — list of question IDs and what was wrong/changed (or "No issues found" if clean)
+6. Commit all changes directly to `main` and push to `origin/main`. No branches, no PRs.
+   - `git add <changed files>`
+   - `git commit -m "[codex] LaTeX audit: <source> questions <offset>–<end> (<N> fixes)"`
+   - `git push origin main`
 
 ---
 
@@ -80,8 +79,8 @@ Fix ALL of the following:
 
 ---
 
-## Branch / PR format
+## Commit format
 
-- Branch: `codex/latex-<source-slug>-<offset>` (e.g. `codex/latex-math-past-0`)
-- Title: `[codex] LaTeX audit: <source> questions <offset>–<end>`
-- One PR per run. No bundling.
+- Commit directly to `main`. No branches, no PRs.
+- Message: `[codex] LaTeX audit: <source> questions <offset>–<end> (<N> fixes)`
+- Push immediately after committing: `git push origin main`
