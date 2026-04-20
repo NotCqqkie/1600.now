@@ -8,7 +8,7 @@ batch_size:  100
 status:      not started
 
 ## Current position
-offset:      6000
+offset:      6100
 
 ## Completed batches
-(none yet)
+6000-6099 | 0 issues fixed
