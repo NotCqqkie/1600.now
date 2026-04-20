@@ -51330,7 +51330,7 @@
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_17",
     "testName": "October 2025 US Form A SAT Math Module 2",
-    "text": "Charles saves $\\frac{3}{5}$ of the $225 he earns each week from his summer job. If Charles continues to save at this rate, how much money, in dollars, will Charles save in 3 weeks?",
+    "text": "Charles saves $\\frac{3}{5}$ of the \\$225 he earns each week from his summer job. If Charles continues to save at this rate, how much money, in dollars, will Charles save in 3 weeks?",
     "choices": [],
     "correctAnswer": "405",
     "type": "free-response"
