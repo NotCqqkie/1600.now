@@ -4,12 +4,12 @@
 
 ```
 source:      src/data/official_questions.ts
-offset:      0
+offset:      100
 batch_size:  100
 total:       411
-status:      not started
+status:      in progress
 ```
 
 ## Completed batches
 
-(none yet)
+src/data/official_questions.ts | 0 | 99 | 7 issues fixed
