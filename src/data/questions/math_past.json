@@ -20443,7 +20443,7 @@
     "rationale": null,
     "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_20",
     "testName": "March 2025 International Form B SAT Math Module 2",
-    "text": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 59 square centimeters ($\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 1,475 $\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,500 cubic centimeters ($\text{cm}^3$). What is the sum of the volumes, in $\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
+    "text": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 59 square centimeters ($\\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 1,475 $\\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,500 cubic centimeters ($\\text{cm}^3$). What is the sum of the volumes, in $\\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
     "choices": [],
     "correctAnswer": "1512",
     "type": "free-response"
@@ -20585,7 +20585,7 @@
     "rationale": null,
     "id": "ba06b998-d854-4b29-830c-15d877280c75_5",
     "testName": "March 2025 International Form C SAT Math Module 1",
-    "text": "In one week in 2017, a technician earned a total of $1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1,055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
+    "text": "In one week in 2017, a technician earned a total of \\$1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1,055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
     "choices": [
       {
         "id": "A",
@@ -20821,7 +20821,7 @@
     "rationale": null,
     "id": "ba06b998-d854-4b29-830c-15d877280c75_16",
     "testName": "March 2025 International Form C SAT Math Module 1",
-    "text": "A school is ordering tablet computers for its students. The tablets cost $164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than $44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+    "text": "A school is ordering tablet computers for its students. The tablets cost \\$164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than \\$44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
     "choices": [],
     "correctAnswer": "257",
     "type": "free-response"
@@ -21538,7 +21538,7 @@
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_1",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "In one week in 2017, a technician earned a total of $716 by working at her regular job and at a second job doing part-time work. The equation $20h + 14c = 716$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
+    "text": "In one week in 2017, a technician earned a total of \\$716 by working at her regular job and at a second job doing part-time work. The equation $20h + 14c = 716$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
     "choices": [
       {
         "id": "A",
@@ -21886,7 +21886,7 @@
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_17",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "A school is ordering tablet computers for its students. The tablets cost $170 each, and 7% tax is added to the total cost of the order. If the school can spend no more than $3,400 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+    "text": "A school is ordering tablet computers for its students. The tablets cost \\$170 each, and 7% tax is added to the total cost of the order. If the school can spend no more than \\$3,400 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
     "choices": [],
     "correctAnswer": "293",
     "type": "free-response"
@@ -22027,11 +22027,11 @@
       },
       {
         "id": "C",
-        "text": "$(24+56)°"
+        "text": "$(24+56)^\\circ$"
       },
       {
         "id": "D",
-        "text": "$(24 \\cdot 56)°"
+        "text": "$(24 \\cdot 56)^\\circ$"
       }
     ],
     "correctAnswer": "B",
