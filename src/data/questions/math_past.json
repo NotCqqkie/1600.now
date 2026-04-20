@@ -5308,7 +5308,7 @@
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_14",
     "testName": "December 2024 International Form A SAT Math Module 2",
-    "text": "A book-of-the-month club charges $13 for the first book purchased during the month and an additional $11 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
+    "text": "A book-of-the-month club charges \\$13 for the first book purchased during the month and an additional \\$11 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
     "choices": [
       {
         "id": "A",
@@ -6540,7 +6540,7 @@
     "rationale": null,
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_2",
     "testName": "December 2024 International Form C SAT Math Module 1",
-    "text": "Sabrina has a goal to save at least $240. Sabrina has already saved $180. If x represents the additional amount of money, in dollars, Sabrina needs to save to meet her goal, which inequality represents this situation?",
+    "text": "Sabrina has a goal to save at least \\$240. Sabrina has already saved \\$180. If x represents the additional amount of money, in dollars, Sabrina needs to save to meet her goal, which inequality represents this situation?",
     "choices": [
       {
         "id": "A",
@@ -7308,7 +7308,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_9",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "$y$ \\frac{$y$}{7} > 10$ Which inequality represents the $x$ values for all solutions $(x, y)$ that satisfy the given system of inequalities in the $xy$-plane?",
+    "text": "$y \\frac{y}{7} > 10$ Which inequality represents the $x$ values for all solutions $(x, y)$ that satisfy the given system of inequalities in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
