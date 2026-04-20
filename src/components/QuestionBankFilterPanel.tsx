@@ -178,7 +178,6 @@ export function QuestionBankFilterPanel({
                       min={0}
                       max={MAX_TIME_SPENT_FILTER_SECONDS}
                       step={5}
-                      minStepsBetweenThumbs={3}
                       onValueChange={(value) => updateFilter("timeSpentRange", value as [number, number])}
                       aria-label={["Minimum time spent", "Maximum time spent"]}
                     />

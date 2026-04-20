@@ -810,8 +810,8 @@ function Question() {
     return () => window.clearInterval(timerId);
   }, [
     isPracticeTestMode,
-    practiceTestSessionMeta,
-    practiceTestActiveModule,
+    practiceTestSessionMeta?.sessionId,
+    practiceTestSessionMeta?.status,
     isModulePracticeMode,
     isTimerPaused,
     modulePracticeSessionMeta?.sessionId,
@@ -1190,7 +1190,7 @@ function Question() {
     return (
       <div 
         className={cn("text-foreground break-words prose prose-stone dark:prose-invert max-w-none", center && "text-center")}
-        style={{ fontFamily: "'Noto Serif', serif", fontSize: "1rem", lineHeight: "1.73" }}
+        style={{ fontFamily: "var(--question-font-family, 'Noto Serif', serif)", fontSize: "calc(1rem * var(--question-font-scale, 1))", lineHeight: "1.73" }}
       >
         <span 
           style={{ display: "block", width: "100%" }}
@@ -2061,11 +2061,9 @@ function Question() {
   ]);
   const practiceTestAdvanceLabel =
     isPracticeTestMode && !canGoNext
-      ? practiceTestSessionMeta && practiceTestSessionMeta.activeModuleIndex === 1
-          ? "Take Break"
-          : practiceTestSessionMeta && practiceTestSessionMeta.activeModuleIndex === practiceTestSessionMeta.modules.length - 1
-            ? "Review"
-            : "Review Questions"
+      ? practiceTestSessionMeta && practiceTestSessionMeta.activeModuleIndex === practiceTestSessionMeta.modules.length - 1
+          ? "Review"
+          : "Review"
       : isModulePracticeMode && !canGoNext
         ? "Review"
         : "Next";
@@ -2187,7 +2185,7 @@ function Question() {
                     className={cn(
                       topShouldCompress ? "w-9 px-0" : "min-w-[112px]",
                       isAnnotationModeEnabled
-                        ? "bg-[#B4E1FF] text-foreground hover:bg-[#95D4FF] hover:text-foreground"
+                        ? "bg-[#B4E1FF] text-slate-900 hover:bg-[#95D4FF] hover:text-slate-900"
                         : "bg-background text-foreground",
                     )}
                     onClick={() => setIsAnnotationModeEnabled((prev) => !prev)}

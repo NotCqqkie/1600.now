@@ -110,36 +110,38 @@ const Modules = () => {
   };
 
   return (
-    <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-      <div className="max-w-3xl">
-        <h1
-          style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
-            fontSize: "clamp(32px, 4vw, 48px)",
-            fontWeight: 400,
-            letterSpacing: "-0.03em",
-            lineHeight: 1,
-            color: "hsl(var(--foreground))",
-          }}
-        >
-          SAT Module Practice
-        </h1>
-        <p className="mt-3 text-sm leading-6 text-muted-foreground sm:text-base">
-          Practice full SAT modules grouped into complete reading and math sets.
-        </p>
+    <div className="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-5 sm:px-6 lg:px-8">
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+        <div className="max-w-3xl">
+          <h1
+            style={{
+              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontSize: "clamp(26px, 3vw, 34px)",
+              fontWeight: 400,
+              letterSpacing: "-0.03em",
+              lineHeight: 1,
+              color: "hsl(var(--foreground))",
+            }}
+          >
+            SAT Module Practice
+          </h1>
+          <p className="mt-1 text-xs leading-5 text-muted-foreground sm:text-sm">
+            Practice full SAT modules grouped into complete reading and math sets.
+          </p>
+        </div>
       </div>
 
       {mostRecentSession ? (
         <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30">
-          <CardContent className="flex flex-col gap-4 py-6 sm:flex-row sm:items-center sm:justify-between">
+          <CardContent className="flex flex-col gap-2 py-3 sm:flex-row sm:items-center sm:justify-between">
             <div className="min-w-0">
-              <div className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+              <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
                 Resume Most Recent Module
               </div>
-              <div className="mt-2 text-xl font-semibold tracking-[-0.02em] text-foreground">
+              <div className="mt-0.5 text-base font-semibold tracking-[-0.02em] text-foreground">
                 {mostRecentSession.module.publicTitle}
               </div>
-              <div className="mt-1 text-sm text-muted-foreground">
+              <div className="text-xs text-muted-foreground">
                 Question {mostRecentSession.session.currentIndex + 1} of {mostRecentSession.session.questionCount}
                 {" · "}
                 {mostRecentSession.session.settings.timed
@@ -148,7 +150,7 @@ const Modules = () => {
               </div>
             </div>
 
-            <Button className="gap-2 self-start sm:self-auto" onClick={resumeMostRecentSession}>
+            <Button size="sm" className="gap-2 self-start sm:self-auto" onClick={resumeMostRecentSession}>
               <PlayCircle className="h-4 w-4" />
               Continue
             </Button>
@@ -156,9 +158,9 @@ const Modules = () => {
         </Card>
       ) : null}
 
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-2 sm:grid-cols-3">
         <Select value={subjectFilter} onValueChange={(value) => setSubjectFilter(value as typeof subjectFilter)}>
-          <SelectTrigger>
+          <SelectTrigger className="h-9">
             <SelectValue placeholder="Subject" />
           </SelectTrigger>
           <SelectContent>
@@ -169,7 +171,7 @@ const Modules = () => {
         </Select>
 
         <Select value={moduleFilter} onValueChange={(value) => setModuleFilter(value as typeof moduleFilter)}>
-          <SelectTrigger>
+          <SelectTrigger className="h-9">
             <SelectValue placeholder="Module" />
           </SelectTrigger>
           <SelectContent>
@@ -180,7 +182,7 @@ const Modules = () => {
         </Select>
 
         <Select value={completionFilter} onValueChange={(value) => setCompletionFilter(value as typeof completionFilter)}>
-          <SelectTrigger>
+          <SelectTrigger className="h-9">
             <SelectValue placeholder="Status" />
           </SelectTrigger>
           <SelectContent>
@@ -192,86 +194,75 @@ const Modules = () => {
         </Select>
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-3">
         {filteredPracticeSets.map((practiceSet) => (
           <Card key={practiceSet.id} className="border-border/70 bg-background/90">
-            <CardHeader className="pb-3">
-              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                <div className="text-lg font-semibold">Practice Set {practiceSet.setNumber}</div>
+            <CardHeader className="py-3">
+              <div className="flex flex-row items-center gap-3">
+                <div className="w-32 shrink-0 text-base font-semibold">Practice Set {practiceSet.setNumber}</div>
                 <Button
+                  size="sm"
                   variant="default"
-                  className="gap-2 self-start sm:self-auto"
+                  className="gap-2"
                   onClick={() => navigate(`/practice-tests/${practiceSet.id}/start`)}
                 >
-                  Full test browser
+                  Full Practice Test
                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </div>
             </CardHeader>
-            <CardContent className="flex flex-col">
-              {practiceSet.modules.map((module) => {
-                const progressCounts = moduleProgressBySlug.get(module.slug) ?? {
-                  correct: 0,
-                  incorrect: 0,
-                  correctAfterReview: 0,
-                };
-                const totalAnswered =
-                  progressCounts.correct + progressCounts.incorrect + progressCounts.correctAfterReview;
-                const hasProgress = totalAnswered > 0;
-                const isCompleted = totalAnswered >= module.questionCount;
+            <CardContent className="pb-3 pt-0">
+              <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
+                {practiceSet.modules.map((module) => {
+                  const progressCounts = moduleProgressBySlug.get(module.slug) ?? {
+                    correct: 0,
+                    incorrect: 0,
+                    correctAfterReview: 0,
+                  };
+                  const totalAnswered =
+                    progressCounts.correct + progressCounts.incorrect + progressCounts.correctAfterReview;
+                  const hasProgress = totalAnswered > 0;
+                  const isCompleted = totalAnswered >= module.questionCount;
 
-                return (
-                  <div
-                    key={module.slug}
-                    className="group border-b border-border/60 py-4 last:border-b-0"
-                  >
-                    <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                      <div className="min-w-0 flex-1">
-                        <div className="text-base font-semibold">{module.publicTitle}</div>
-                        <div className="mt-2">
-                          <div className="flex h-1.5 w-full overflow-hidden rounded-full bg-muted">
-                            {hasProgress && (
-                              <>
-                                <div
-                                  className="bg-emerald-500 transition-all"
-                                  style={{
-                                    width: `${(progressCounts.correct / module.questionCount) * 100}%`,
-                                  }}
-                                />
-                                <div
-                                  className="bg-amber-400 transition-all"
-                                  style={{
-                                    width: `${(progressCounts.correctAfterReview / module.questionCount) * 100}%`,
-                                  }}
-                                />
-                                <div
-                                  className="bg-rose-500 transition-all"
-                                  style={{
-                                    width: `${(progressCounts.incorrect / module.questionCount) * 100}%`,
-                                  }}
-                                />
-                              </>
-                            )}
-                          </div>
-                          <div className="mt-1 text-xs text-muted-foreground">
-                            {totalAnswered}/{module.questionCount} answered
-                            {isCompleted && (
-                              <span className="ml-1.5 font-medium text-emerald-600">· Complete</span>
-                            )}
-                          </div>
-                        </div>
+                  return (
+                    <button
+                      key={module.slug}
+                      type="button"
+                      onClick={() => openModule(module)}
+                      className="group flex flex-col gap-1.5 rounded-md border border-border/60 bg-card px-3 py-2 text-left transition-colors hover:border-border hover:bg-muted/40"
+                    >
+                      <div className="flex items-center justify-between gap-2">
+                        <div className="truncate text-sm font-semibold">{module.publicTitle}</div>
+                        <ArrowRight className="h-3.5 w-3.5 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
                       </div>
-
-                      <div className="flex shrink-0 items-center gap-2">
-                        <Button variant="outline" className="group/btn gap-2" onClick={() => openModule(module)}>
-                          Enter module
-                          <ArrowRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-0.5" />
-                        </Button>
+                      <div className="flex h-1 w-full overflow-hidden rounded-full bg-muted">
+                        {hasProgress && (
+                          <>
+                            <div
+                              className="bg-emerald-500 transition-all"
+                              style={{ width: `${(progressCounts.correct / module.questionCount) * 100}%` }}
+                            />
+                            <div
+                              className="bg-amber-400 transition-all"
+                              style={{ width: `${(progressCounts.correctAfterReview / module.questionCount) * 100}%` }}
+                            />
+                            <div
+                              className="bg-rose-500 transition-all"
+                              style={{ width: `${(progressCounts.incorrect / module.questionCount) * 100}%` }}
+                            />
+                          </>
+                        )}
                       </div>
-                    </div>
-                  </div>
-                );
-              })}
+                      <div className="text-[11px] text-muted-foreground">
+                        {totalAnswered}/{module.questionCount}
+                        {isCompleted && (
+                          <span className="ml-1 font-medium text-emerald-600">· Complete</span>
+                        )}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
             </CardContent>
           </Card>
         ))}

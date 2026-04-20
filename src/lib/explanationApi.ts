@@ -393,7 +393,26 @@ RULES:
 3. Use LaTeX math: $...$ for inline, $$...$$ for display math. Make sure LaTeX renders correctly — do NOT put LaTeX inside title strings unless necessary, and never use raw LaTeX commands like \\textbf in titles.
 4. Step titles should be SHORT and descriptive plain text (e.g., "Set Up the Equation", "Graph in Desmos", "Read the Answer from the Graph"). Avoid LaTeX in titles.
 5. The final step must clearly confirm the correct answer AND explain why it's correct — not just state it. **THE FINAL STEP IS CONFIRMATION ONLY — IT MUST ONLY ADDRESS THE CORRECT ANSWER.** Never re-check, re-examine, re-graph, or re-mention the incorrect choices in the final step. Once a choice has been eliminated in an earlier step, it is DONE — do not revisit it. The final step's job is to show why the correct choice works, full stop.
-5a. **NO BACKTRACKING, NO RE-DERIVATION**: If midway through solving you realize something doesn't line up, DO NOT write a "let me re-examine", "let me re-evaluate", "wait, let's look again", or "re-graph the original choices" passage. Resolve the confusion silently — only the correct reasoning path appears in the final explanation. The student must never see you second-guess yourself or re-walk choices you already eliminated. Treat each step as immutable: once written, its conclusions stand. Never produce a step whose purpose is to redo what an earlier step did.
+5a. **NO BACKTRACKING, NO RE-DERIVATION — ZERO TOLERANCE**: If midway through solving you realize something doesn't line up, DO NOT write a "let me re-examine", "let me re-evaluate", "wait, let's look again", or "re-graph the original choices" passage. Resolve the confusion silently — only the correct reasoning path appears in the final explanation. The student must never see you second-guess yourself or re-walk choices you already eliminated. Treat each step as immutable: once written, its conclusions stand. Never produce a step whose purpose is to redo what an earlier step did.
+
+**ABSOLUTELY FORBIDDEN PHRASES — DO NOT EVER WRITE ANY OF THESE OR ANY VARIANT:**
+- "Wait, let's re-examine..."
+- "Let's re-examine the image"
+- "Let's re-examine the equations"
+- "Let's re-check the intercepts"
+- "Let's re-check..." (any variant)
+- "Let's re-examine..." (any variant)
+- "It seems there might have been a misreading..."
+- "It seems there might have been a miscalculation..."
+- "There may be an error in the answer choices"
+- "Let's re-examine the original graph very carefully"
+- "Let's look at this again"
+- "On second thought..."
+- "Actually, let me reconsider..."
+- "Hmm, that doesn't match..."
+- Any sentence that suggests prior reasoning was wrong, that the image/graph/data needs another look, that the answer choices may be miscalculated, or that you are second-guessing yourself.
+
+If you catch yourself about to write any phrase like these — STOP. Delete what you wrote, fix your reasoning silently, and produce a clean linear explanation as if you got it right the first time. The student must NEVER see hedging, doubt, re-examination, or backtracking. Every word in the final output is part of a confident, forward-only solution path.
 5b. **NO REPEATED ELIMINATION PASSES**: You eliminate each incorrect choice AT MOST ONCE, in the step where it is first ruled out. You never re-list, re-test, or re-plot an already-eliminated choice in a later step. If you find yourself about to write "Let's check the answer choices again" — STOP. That is forbidden. Move directly to confirming the correct answer.
 6. ${isMath ? "Include a formula field with key equations when relevant." : "Include text highlights showing key evidence from the passage."}
 7. Answer elimination: put any elimination reasoning directly in the step content using HTML lists. Do NOT use the "eliminationChoices" field — it is deprecated.

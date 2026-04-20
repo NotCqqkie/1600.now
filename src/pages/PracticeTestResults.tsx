@@ -15,6 +15,17 @@ import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
 
+const lerp = (start: number, end: number, amount: number) =>
+  start + (end - start) * amount;
+
+const getScoreAccent = (score: number, maxScore: number) => {
+  const normalized = Math.max(0, Math.min(score / maxScore, 1));
+  const hue = lerp(8, 268, normalized);
+  const saturation = lerp(68, 78, normalized);
+  const lightness = lerp(48, 58, normalized);
+  return `hsl(${hue.toFixed(1)} ${saturation.toFixed(1)}% ${lightness.toFixed(1)}%)`;
+};
+
 const formatTime = (seconds: number) => {
   if (!seconds) return "0s";
   const minutes = Math.floor(seconds / 60);
@@ -62,6 +73,7 @@ const PracticeTestResults = () => {
   const [revealedAnswers, setRevealedAnswers] = useState<Set<string>>(() => new Set());
   const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
   const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
+  const [moduleFilter, setModuleFilter] = useState<string>("all");
   const sessionId = searchParams.get("session");
   const practiceSet = useMemo(() => (setId ? getPracticeSet(setId) : null), [setId]);
   const result = useMemo(() => {
@@ -101,7 +113,12 @@ const PracticeTestResults = () => {
   const orderedQuestions = useMemo(() => {
     const directionMultiplier = questionSortDirection === "asc" ? 1 : -1;
 
-    return [...result.questions].sort((left, right) => {
+    const filtered =
+      moduleFilter === "all"
+        ? result.questions
+        : result.questions.filter((question) => question.moduleSlug === moduleFilter);
+
+    return [...filtered].sort((left, right) => {
       if (questionSortMode === "correct") {
         const correctnessDifference =
           (getQuestionCorrectnessRank(left) - getQuestionCorrectnessRank(right)) * directionMultiplier;
@@ -110,7 +127,7 @@ const PracticeTestResults = () => {
 
       return (left.globalQuestionNumber - right.globalQuestionNumber) * directionMultiplier;
     });
-  }, [questionSortDirection, questionSortMode, result.questions]);
+  }, [moduleFilter, questionSortDirection, questionSortMode, result.questions]);
 
   const toggleExpandedQuestion = (storageId: string) => {
     setExpandedQuestions((previous) => {
@@ -165,11 +182,14 @@ const PracticeTestResults = () => {
             <CardTitle>Total Score</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
-            <div className="text-7xl font-semibold tracking-[-0.08em] text-foreground">
+            <div
+              className="text-7xl font-semibold tracking-[-0.08em]"
+              style={{ color: getScoreAccent(result.totalScore, 1600) }}
+            >
               {result.totalScore}
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
-              <div className="rounded-2xl border border-border/60 bg-background/70 p-4">
+              <div>
                 <div className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
                   Reading and Writing
                 </div>
@@ -177,7 +197,7 @@ const PracticeTestResults = () => {
                   {result.readingWritingScore}
                 </div>
               </div>
-              <div className="rounded-2xl border border-border/60 bg-background/70 p-4">
+              <div>
                 <div className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
                   Math
                 </div>
@@ -261,6 +281,24 @@ const PracticeTestResults = () => {
                 {hideCorrectAnswers ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
                 {hideCorrectAnswers ? "Answers Hidden" : "Hide Answers"}
               </Button>
+              <div className="w-full sm:w-[200px]">
+                <Select
+                  value={moduleFilter}
+                  onValueChange={(value: string) => setModuleFilter(value)}
+                >
+                  <SelectTrigger>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="all">All Modules</SelectItem>
+                    {result.modules.map((module) => (
+                      <SelectItem key={module.moduleSlug} value={module.moduleSlug}>
+                        {module.moduleTitle}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
               <div className="w-full sm:w-[180px]">
                 <Select
                   value={questionSortMode}
@@ -308,13 +346,12 @@ const PracticeTestResults = () => {
                   index !== orderedQuestions.length - 1 && "border-b border-border/60",
                 )}
               >
-                <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                <div
+                  className="flex cursor-pointer flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+                  onClick={() => toggleExpandedQuestion(question.storageId)}
+                >
                   <div className="min-w-0 flex-1">
-                    <button
-                      type="button"
-                      onClick={() => toggleExpandedQuestion(question.storageId)}
-                      className="flex w-full items-start justify-between gap-3 text-left"
-                    >
+                    <div className="flex w-full items-start justify-between gap-3 text-left">
                       <div className="min-w-0">
                         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                           <span className="text-base font-semibold tracking-[-0.01em] text-foreground">
@@ -346,7 +383,7 @@ const PracticeTestResults = () => {
                           isExpanded && "rotate-180",
                         )}
                       />
-                    </button>
+                    </div>
                     <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
                       <span className="text-muted-foreground">
                         Time: <span className="font-medium text-foreground">{formatTime(question.timeSpentSeconds)}</span>

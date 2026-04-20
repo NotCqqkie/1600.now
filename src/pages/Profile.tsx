@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { AlertCircle, LogOut, Settings } from "lucide-react";
+import { AlertCircle, ChevronRight, LogOut, Settings, Type } from "lucide-react";
 
 import { useAuth } from "@/contexts/AuthContext";
 import { useThemeMode } from "@/hooks/useThemeMode";
@@ -75,6 +75,7 @@ const Profile = () => {
           user={user}
           handleResetProgress={resetProgress}
           isDarkMode={isDarkMode}
+          onOpenPersonalization={() => navigate("/profile/personalization")}
         />
       </div>
     </div>
@@ -85,10 +86,12 @@ const SettingsView = ({
   user,
   handleResetProgress,
   isDarkMode,
+  onOpenPersonalization,
 }: {
   user: { email?: string | null; id?: string | null } | null;
   handleResetProgress: () => void;
   isDarkMode: boolean;
+  onOpenPersonalization: () => void;
 }) => {
   const headingColor = isDarkMode ? "#f8fafc" : "#0f172a";
   const mutedColor = isDarkMode ? "rgba(226,232,240,0.72)" : "#64748b";
@@ -121,6 +124,29 @@ const SettingsView = ({
             <label className="text-sm font-medium" style={{ color: mutedColor }}>User ID</label>
             <div className="break-all font-mono text-xs" style={{ color: mutedColor }}>{user?.id || "-"}</div>
           </div>
+        </CardContent>
+      </Card>
+
+      <Card style={cardStyle}>
+        <CardHeader>
+          <CardTitle style={{ color: headingColor }}>Preferences</CardTitle>
+          <CardDescription style={{ color: mutedColor }}>Customize how the app looks and feels.</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <button
+            type="button"
+            onClick={onOpenPersonalization}
+            className="flex w-full items-center justify-between gap-4 rounded-lg border-2 border-border p-4 text-left transition-colors hover:bg-muted/40"
+          >
+            <div className="flex items-center gap-3">
+              <Type className="h-5 w-5" style={{ color: headingColor }} />
+              <div>
+                <div className="font-medium" style={{ color: headingColor }}>Personalization</div>
+                <div className="text-sm" style={{ color: mutedColor }}>Question font and text size</div>
+              </div>
+            </div>
+            <ChevronRight className="h-5 w-5" style={{ color: mutedColor }} />
+          </button>
         </CardContent>
       </Card>
 

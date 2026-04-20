@@ -9,6 +9,7 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 import { LegalDisclaimer } from "@/components/LegalDisclaimer";
 import { AppShell } from "@/components/AppShell";
 import { Seo } from "@/components/Seo";
+import "@/lib/personalization";
 
 const Home = lazy(() => import("./pages/Home"));
 const Login = lazy(() => import("./pages/Login"));
@@ -32,11 +33,12 @@ const Vocab = lazy(() => import("./pages/Vocab"));
 const ScoreCalculator = lazy(() => import("./pages/ScoreCalculator"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const Profile = lazy(() => import("./pages/Profile"));
+const Personalization = lazy(() => import("./pages/Personalization"));
 
 const queryClient = new QueryClient();
 
 const Loading = () => (
-  <div className="flex h-screen items-center justify-center">
+  <div className="flex h-screen items-center justify-center bg-background text-foreground">
     <div className="animate-spin h-8 w-8 border-4 border-primary border-t-transparent rounded-full" />
   </div>
 );
@@ -71,6 +73,7 @@ const App = () => (
             <Route path="/modules/:moduleId/results" element={withSuspense(<ModulePracticeResults />)} />
             <Route path="/signup" element={withSuspense(<Signup />)} />
             <Route path="/profile" element={withShellSuspense(<Profile />)} />
+            <Route path="/profile/personalization" element={withShellSuspense(<Personalization />)} />
             <Route path="/score-calculator" element={withShellSuspense(<ScoreCalculator />)} />
             <Route path="/browse" element={withShellSuspense(<Index />)} />
             <Route path="/hard" element={withShellSuspense(<HardQuestionsIntro />)} />
