@@ -10283,7 +10283,7 @@
     "rationale": null,
     "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_21",
     "testName": "December 2024 US Form C SAT Math Module 1",
-    "text": "$-x - wy = -411$\n$2x - wy = 81$\nIn the given system of equations, $w$ is a constant. In the $xy$-plane, the graphs of these equations intersect at the point $(q, 19)$, where $q$ is a constant. What is the value of $w?",
+    "text": "$-x - wy = -411$\n$2x - wy = 81$\nIn the given system of equations, $w$ is a constant. In the $xy$-plane, the graphs of these equations intersect at the point $(q, 19)$, where $q$ is a constant. What is the value of $w$?",
     "choices": [],
     "correctAnswer": "13",
     "type": "free-response"
@@ -10420,19 +10420,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "1 day after the company went public, the company's estimated stock price is $88."
+        "text": "1 day after the company went public, the company's estimated stock price is \\$88."
       },
       {
         "id": "B",
-        "text": "88 days after the company went public, the company's estimated stock price is $1."
+        "text": "88 days after the company went public, the company's estimated stock price is \\$1."
       },
       {
         "id": "C",
-        "text": "The company's estimated stock price increased $88 every day after the company went public."
+        "text": "The company's estimated stock price increased \\$88 every day after the company went public."
       },
       {
         "id": "D",
-        "text": "The company's estimated stock price increased $1 every 88 days after the company went public."
+        "text": "The company's estimated stock price increased \\$1 every 88 days after the company went public."
       }
     ],
     "correctAnswer": "A",
@@ -12262,7 +12262,7 @@
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_13",
     "testName": "June 2024 US Form A SAT Math Module 1",
-    "text": "$A$ circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 36$. Which of the following gives the center of the circle and its radius?",
+    "text": "A circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 36$. Which of the following gives the center of the circle and its radius?",
     "choices": [
       {
         "id": "A",
