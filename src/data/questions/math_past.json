@@ -33715,7 +33715,7 @@
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_11",
     "testName": "May 2025 International Form B SAT Math Module 1",
-    "text": "The value of a share of stock was $240 on the day it was purchased. Every year, the value of the share of stock increases by 1% of its value the previous year. Which function V gives the value, in dollars, of the share of stock t years after the day it was purchased?",
+    "text": "The value of a share of stock was \\$240 on the day it was purchased. Every year, the value of the share of stock increases by 1% of its value the previous year. Which function V gives the value, in dollars, of the share of stock t years after the day it was purchased?",
     "choices": [
       {
         "id": "A",
@@ -34466,7 +34466,7 @@
     "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_18",
     "testName": "May 2025 International Form B SAT Math Module 2",
-    "text": "A carpenter charges a flat rate of $216 for the first 3 hours of work and $60 for each additional hour of work. Which equation gives the total amount $y$, in dollars, that the carpenter charges for $x$ hours of work, where $x > 3$?",
+    "text": "A carpenter charges a flat rate of \\$216 for the first 3 hours of work and \\$60 for each additional hour of work. Which equation gives the total amount $y$, in dollars, that the carpenter charges for $x$ hours of work, where $x > 3$?",
     "choices": [
       {
         "id": "A",
@@ -35071,7 +35071,7 @@
     "rationale": null,
     "id": "87a75825-ef1b-4b13-8fde-816390546062_20",
     "testName": "May 2025 US Form A SAT Math Module 1",
-    "text": "In triangle $XYZ$, the measure of angle $X$ is 90°. Point $W$ lies on segment $YZ$, and segment $WX$ is perpendicular to segment $YZ$. The length of segment $YW$ is 612, and the length of segment $WX$ is 459. What is the value of $tanZ$?",
+    "text": "In triangle $XYZ$, the measure of angle $X$ is 90°. Point $W$ lies on segment $YZ$, and segment $WX$ is perpendicular to segment $YZ$. The length of segment $YW$ is 612, and the length of segment $WX$ is 459. What is the value of $\\tan Z$?",
     "choices": [
       {
         "id": "A",
@@ -35410,7 +35410,7 @@
     "rationale": null,
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_11",
     "testName": "November 2024 International Form A SAT Math Module 1",
-    "text": "The solution to the given system of equations is (x, y). What is the value of x?\n$$19 = x + y$$\n$$x - y = 9$$",
+    "text": "The solution to the given system of equations is (x, y). What is the value of x?\n\\[19 = x + y\\]\n\\[x - y = 9\\]",
     "choices": [
       {
         "id": "A",
