@@ -6,8 +6,8 @@ This file is updated by Codex on every run. Do NOT edit manually.
 
 | # | Source | Format | Questions | Status |
 |---|--------|--------|----------:|--------|
-| 1 | `src/data/questions/math_past.json` | JSON array | 2,157 | in progress |
-| 2 | `src/data/questions/reading_past.json` | JSON array | 3,869 | not started |
+| 1 | `src/data/questions/math_past.json` | JSON array | 2,157 | done |
+| 2 | `src/data/questions/reading_past.json` | JSON array | 3,869 | in progress |
 | 3 | `src/data/official_questions.ts` | TS export | 411 | not started |
 | 4 | `src/data/Modules/*.json` | JSON files | 6,173 | not started |
 | 5 | `src/data/unofficialQuestions.ts` | TS export | 15,859 | not started |
@@ -15,8 +15,8 @@ This file is updated by Codex on every run. Do NOT edit manually.
 ## Current position
 
 ```
-source:      src/data/questions/math_past.json
-offset:      2100
+source:      src/data/questions/reading_past.json
+offset:      0
 batch_size:  100
 ```
 
@@ -43,3 +43,4 @@ src/data/questions/math_past.json | 1700 | 1799 | 4 issues fixed
 src/data/questions/math_past.json | 1800 | 1899 | 2 issues fixed
 src/data/questions/math_past.json | 1900 | 1999 | 0 issues fixed
 src/data/questions/math_past.json | 2000 | 2099 | 1 issues fixed
+src/data/questions/math_past.json | 2100 | 2199 | 1 issues fixed
