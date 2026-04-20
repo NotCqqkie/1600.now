@@ -3,7 +3,7 @@
 ## Fixed range
 source:      src/data/unofficialQuestions.ts
 range_start: 2800
-range_end:   4399
+range_end:   3263
 batch_size:  100
 status:      not started
 
