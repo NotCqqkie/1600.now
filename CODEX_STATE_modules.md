@@ -4,10 +4,10 @@
 
 ```
 source:      src/data/Modules/*.json
-offset:      0
+offset:      100
 batch_size:  100
 total:       6173
-status:      not started
+status:      in progress
 ```
 
 ## Notes
@@ -16,4 +16,4 @@ Track file + local index via the global offset.
 
 ## Completed batches
 
-(none yet)
+- src/data/Modules/*.json | 0 | 99 | 1 issue fixed
