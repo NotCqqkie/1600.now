@@ -12,7 +12,7 @@ Process all JSON files in src/data/Modules/ alphabetically as one flat sequence.
 Start from global index 3600 within that sequence.
 
 ## Current position
-offset:      3600
+offset:      3700
 
 ## Completed batches
-(none yet)
+src/data/Modules/*.json | 3600 | 3699 | 0 issues fixed
