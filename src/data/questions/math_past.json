@@ -7956,7 +7956,7 @@
     "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_12",
     "testName": "December 2024 US Form A SAT Math Module 1",
-    "text": "In the right triangle shown, the value of tan x° is $\\frac{c}{39}$. What is the value of c?",
+    "text": "In the right triangle shown, the value of $\\tan x^\\circ$ is $\\frac{c}{39}$. What is the value of $c$?",
     "choices": [
       {
         "id": "A",
@@ -9416,7 +9416,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_9",
     "testName": "December 2024 US Form B SAT Math Module 2",
-    "text": "In the figure shown, point T lies on segment SW, and segment TU is parallel to segment VW. The measure of angle V is 26°, and the measure of angle STU is 74°. What is the value of p - r?",
+    "text": "In the figure shown, point T lies on segment SW, and segment TU is parallel to segment VW. The measure of angle V is 26°, and the measure of angle STU is 74°. What is the value of $p - r$?",
     "choices": [],
     "correctAnswer": "80",
     "type": "free-response"
