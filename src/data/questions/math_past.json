@@ -7338,7 +7338,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_10",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "In the xy-plane, an equation of circle A is $(x - 2)^2 + (y - 3)^2 = 9$. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?",
+    "text": "In the $xy$-plane, an equation of circle A is $(x - 2)^2 + (y - 3)^2 = 9$. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?",
     "choices": [
       {
         "id": "A",
