@@ -5,10 +5,10 @@ source:      src/data/questions/reading_past.json
 range_start: 3500
 range_end:   3869
 batch_size:  100
-status:      not started
+status:      in progress
 
 ## Current position
-offset:      3500
+offset:      3600
 
 ## Completed batches
-(none yet)
+src/data/questions/reading_past.json | 3500 | 3599 | 1 issues fixed
