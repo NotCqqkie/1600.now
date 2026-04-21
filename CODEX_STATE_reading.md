@@ -5,7 +5,7 @@ source:      src/data/questions/reading_past.json
 range_start: 0
 range_end:   499
 batch_size:  100
-status:      not started
+status:      done
 
 ## Current position
 offset:      500
