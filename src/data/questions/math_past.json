@@ -18155,7 +18155,7 @@
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_6",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "For $x>0$, the function $f$ is defined as follows:\n$f(x)$ equals $293\\%$ of $x$\nWhich of the following could describe this function?",
+    "text": "For $x>0$, the function $f$ is defined as follows:\n$f(x)=293\\% \\text{ of } x$\nWhich of the following could describe this function?",
     "choices": [
       {
         "id": "A",
