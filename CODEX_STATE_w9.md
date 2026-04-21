@@ -1,18 +1,14 @@
-# LaTeX Audit State — Worker 9: Modules/*.json (range 1200–2399)
+# LaTeX Audit State — Worker 9: src/data/questions/reading_past.json (range 1500–1999)
 
 ## Fixed range
-source:      src/data/Modules/*.json
-range_start: 1200
-range_end:   2399
+source:      src/data/questions/reading_past.json
+range_start: 1500
+range_end:   1999
 batch_size:  100
 status:      not started
 
-## Notes
-Process all JSON files in src/data/Modules/ alphabetically as one flat sequence.
-Start from global index 1200 within that sequence.
-
 ## Current position
-offset:      1300
+offset:      1500
 
 ## Completed batches
-src/data/Modules/*.json | 1200 | 1299 | 0 issues fixed
+(none yet)
