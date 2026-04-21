@@ -6845,7 +6845,7 @@
     "rationale": null,
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15",
     "testName": "December 2024 International Form C SAT Math Module 1",
-    "text": "The table shows three values of x and their corresponding values of f(x), where $f(x)=\\frac{kx+45}{x+2}$ and k is a constant. What is the value of k?",
+    "text": "The table shows three values of $x$ and their corresponding values of $f(x)$, where $f(x)=\\frac{kx+45}{x+2}$ and $k$ is a constant. What is the value of $k$?",
     "choices": [],
     "correctAnswer": "5",
     "type": "free-response"
