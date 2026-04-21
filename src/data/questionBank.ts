@@ -675,6 +675,40 @@ const getSourceIdsForFilter = (bankSource: BankSourceFilter): BankSourceId[] => 
 
 const makePoolCacheKey = (subject: BankSubject, bankSource: BankSourceFilter) => `${subject}:${bankSource}`;
 
+const nearDuplicateSignature = (question: Record<string, unknown>): string => {
+  const raw =
+    (typeof question.prompt === "string" && question.prompt) ||
+    (typeof question.questionText === "string" && question.questionText) ||
+    (typeof question.text === "string" && question.text) ||
+    "";
+  return raw
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .replace(/[-+]?\d[\d,]*(?:\.\d+)?/g, "N")
+    .trim();
+};
+
+export const spaceOutNearDuplicates = <T extends Record<string, unknown>>(items: T[]): T[] => {
+  if (items.length < 2) return items;
+  const result = [...items];
+  for (let i = 1; i < result.length; i++) {
+    if (nearDuplicateSignature(result[i]) !== nearDuplicateSignature(result[i - 1])) continue;
+    let swapIdx = -1;
+    for (let j = i + 1; j < result.length; j++) {
+      const sj = nearDuplicateSignature(result[j]);
+      if (sj === nearDuplicateSignature(result[i - 1])) continue;
+      const nextSig = i + 1 < result.length ? nearDuplicateSignature(result[i + 1]) : null;
+      if (nextSig !== null && sj === nextSig) continue;
+      swapIdx = j;
+      break;
+    }
+    if (swapIdx !== -1) {
+      [result[i], result[swapIdx]] = [result[swapIdx], result[i]];
+    }
+  }
+  return result;
+};
+
 export const getBankPool = (
   subject: BankSubject,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
@@ -683,12 +717,13 @@ export const getBankPool = (
   const cached = poolCache.get(cacheKey);
   if (cached) return cached;
 
-  const pool = getSourceIdsForFilter(bankSource)
-    .flatMap((sourceId) => getNormalizedSourceSubjectQuestions(sourceId, subject))
-    .map((question, index) => ({
-      ...question,
-      id: index + 1,
-    }));
+  const rawPool = getSourceIdsForFilter(bankSource)
+    .flatMap((sourceId) => getNormalizedSourceSubjectQuestions(sourceId, subject));
+
+  const pool = spaceOutNearDuplicates(rawPool).map((question, index) => ({
+    ...question,
+    id: index + 1,
+  }));
 
   poolCache.set(cacheKey, pool);
   return pool;

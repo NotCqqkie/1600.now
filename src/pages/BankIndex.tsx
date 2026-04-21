@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback, useEffect } from "react";
 import { useNavigate, useSearchParams, useLocation } from "react-router-dom";
 import {
   getBankPool as getBankPoolNormal,
+  spaceOutNearDuplicates,
   mathDomainSkills,
   englishDomainSkills,
   allMathDomains,
@@ -503,6 +504,7 @@ const BankIndex = () => {
       }
       questions = shuffled;
     }
+    questions = spaceOutNearDuplicates(questions);
 
     startPracticeSession(questions);
   }, [startPracticeSession, getSelectedQuestions]);
@@ -519,6 +521,7 @@ const BankIndex = () => {
       }
       questions = shuffled;
     }
+    questions = spaceOutNearDuplicates(questions);
 
     startPracticeSession(questions);
   }, [startPracticeSession, getSelectedQuestions]);
