@@ -7278,7 +7278,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_8",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "In right triangle RST, the sum of the measures of angle R and angle S is 90 degrees. The value of sin(R) is $\\frac{2\\sqrt{10}}{7}$. What is the value of cos(S)?",
+    "text": "In right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is 90 degrees. The value of $\\sin(R)$ is $\\frac{2\\sqrt{10}}{7}$. What is the value of $\\cos(S)$?",
     "choices": [
       {
         "id": "A",
