@@ -5,10 +5,10 @@ source:      src/data/unofficialQuestions.ts
 range_start: 1600
 range_end:   1799
 batch_size:  100
-status:      not started
+status:      in progress
 
 ## Current position
-offset:      1600
+offset:      1700
 
 ## Completed batches
-(none yet)
+- src/data/unofficialQuestions.ts | 1600 | 1699 | 12 issues fixed
