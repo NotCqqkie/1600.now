@@ -6703,7 +6703,7 @@
     "rationale": null,
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_8",
     "testName": "December 2024 International Form C SAT Math Module 1",
-    "text": "Line k is defined by $y = 7x + 2$. Line j is parallel to line k in the xy-plane and passes through the point (0, 3). Which equation defines line j?",
+    "text": "Line k is defined by $y = 7x + 2$. Line j is parallel to line k in the $xy$-plane and passes through the point (0, 3). Which equation defines line j?",
     "choices": [
       {
         "id": "A",
