@@ -1,11 +1,11 @@
-# LaTeX Audit State — Worker 5: unofficialQuestions.ts (range 0–1199)
+# LaTeX Audit State — Worker 5: unofficialQuestions.ts (range 0–1299)
 
 ## Fixed range
 range_start: 0
-range_end:   1199
+range_end:   1299
 
 ## Current position
-offset:      1200
+offset:      1300
 batch_size:  100
 total:       15859
 status:      in progress
@@ -23,3 +23,4 @@ status:      in progress
 - src/data/unofficialQuestions.ts | 900 | 999 | 0 issues fixed
 - src/data/unofficialQuestions.ts | 1000 | 1099 | 0 issues fixed
 - src/data/unofficialQuestions.ts | 1100 | 1199 | 0 issues fixed
+- src/data/unofficialQuestions.ts | 1200 | 1299 | 1 issues fixed
