@@ -6,6 +6,7 @@ import {
   getSkillCounts as getSkillCountsNormal,
   getQuestionsByDomain as getQuestionsByDomainNormal,
   getQuestionsBySkill as getQuestionsBySkillNormal,
+  spaceOutNearDuplicates,
   mathDomainSkills,
   englishDomainSkills,
   allMathDomains,
@@ -131,13 +132,13 @@ const BankBrowse = () => {
     }
   };
 
-  const shuffleArray = <T,>(arr: T[]): T[] => {
+  const shuffleArray = <T extends Record<string, unknown>>(arr: T[]): T[] => {
     const shuffled = [...arr];
     for (let i = shuffled.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-    return shuffled;
+    return spaceOutNearDuplicates(shuffled);
   };
 
   const handleShuffleDomain = (domain: string) => {
