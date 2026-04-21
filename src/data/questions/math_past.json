@@ -11721,7 +11721,7 @@
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_13",
     "testName": "June 2024 International Form A SAT Math Module 2",
-    "text": "Raheem bought 9 shirts that were each the same price. He used a coupon for $54 off the entire purchase. The cost for the entire purchase after using the coupon was $108. What was the original price, in dollars, for 1 shirt?",
+    "text": "Raheem bought 9 shirts that were each the same price. He used a coupon for \\$54 off the entire purchase. The cost for the entire purchase after using the coupon was \\$108. What was the original price, in dollars, for 1 shirt?",
     "choices": [],
     "correctAnswer": "18",
     "type": "free-response"
@@ -11893,7 +11893,7 @@
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_21",
     "testName": "June 2024 International Form A SAT Math Module 2",
-    "text": "The cost of renting a power washer is $92 for the first day and $46 for each additional day. Which of the following functions gives the cost $C(d)$, in dollars, of renting the power washer for $d$ days, where $d$ is a positive integer?",
+    "text": "The cost of renting a power washer is \\$92 for the first day and \\$46 for each additional day. Which of the following functions gives the cost $C(d)$, in dollars, of renting the power washer for $d$ days, where $d$ is a positive integer?",
     "choices": [
       {
         "id": "A",
