@@ -14288,7 +14288,7 @@
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_6",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "5% of w is 901.32. What is the value of w?",
+    "text": "5% of $w$ is 901.32. What is the value of $w$?",
     "choices": [
       {
         "id": "A",
@@ -15189,7 +15189,7 @@
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_18",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "The point with coordinates (7, c) lies on the line shown. What is the value of c?",
+    "text": "The point with coordinates $(7, c)$ lies on the line shown. What is the value of $c$?",
     "choices": [],
     "correctAnswer": "4.5,9/2",
     "type": "free-response"
