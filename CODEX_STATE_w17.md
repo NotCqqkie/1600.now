@@ -8,8 +8,9 @@ batch_size:  100
 status:      not started
 
 ## Current position
-offset:      2300
-status:      in progress
+offset:      2400
+status:      done
 
 ## Completed batches
 - src/data/unofficialQuestions.ts | 2200 | 2299 | 38 issues fixed
+- src/data/unofficialQuestions.ts | 2300 | 2399 | 54 issues fixed
