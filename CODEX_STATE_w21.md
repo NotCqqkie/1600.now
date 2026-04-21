@@ -5,11 +5,13 @@ source:      src/data/unofficialQuestions.ts
 range_start: 3000
 range_end:   3262
 batch_size:  100
-status:      not started
+status:      done
 
 ## Current position
-offset:      3200
+offset:      3300
+status:      done
 
 ## Completed batches
-src/data/unofficialQuestions.ts | 3000 | 3099 | 28 issues fixed
-src/data/unofficialQuestions.ts | 3100 | 3199 | 51 issues fixed
+- src/data/unofficialQuestions.ts | 3200 | 3262 | 47 issues fixed
+- src/data/unofficialQuestions.ts | 3000 | 3099 | 28 issues fixed
+- src/data/unofficialQuestions.ts | 3100 | 3199 | 51 issues fixed
