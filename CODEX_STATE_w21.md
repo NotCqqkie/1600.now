@@ -1,7 +1,14 @@
-# LaTeX Audit State — Worker 21: CANCELLED
+# LaTeX Audit State — Worker 21: src/data/unofficialQuestions.ts (range 3000–3262)
 
-status: done
-range_end: 0
-offset: 0
+## Fixed range
+source:      src/data/unofficialQuestions.ts
+range_start: 3000
+range_end:   3262
+batch_size:  100
+status:      not started
 
-Note: Range was beyond actual question count (3,263 unofficial). Nothing to do.
+## Current position
+offset:      3000
+
+## Completed batches
+(none yet)

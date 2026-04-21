@@ -1,14 +1,14 @@
-# LaTeX Audit State — Worker 8: src/data/questions/reading_past.json (range 3000–3499)
+# LaTeX Audit State — Worker 4: src/data/questions/reading_past.json (range 500–999)
 
 ## Fixed range
 source:      src/data/questions/reading_past.json
-range_start: 3000
-range_end:   3499
+range_start: 500
+range_end:   999
 batch_size:  100
 status:      not started
 
 ## Current position
-offset:      3100
+offset:      500
 
 ## Completed batches
 (none yet)

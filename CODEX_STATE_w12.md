@@ -1,18 +1,14 @@
-# LaTeX Audit State — Worker 12: Modules/*.json (range 4800–5999)
+# LaTeX Audit State — Worker 12: src/data/unofficialQuestions.ts (range 1400–1599)
 
 ## Fixed range
-source:      src/data/Modules/*.json
-range_start: 4800
-range_end:   5999
+source:      src/data/unofficialQuestions.ts
+range_start: 1400
+range_end:   1599
 batch_size:  100
-status:      in progress
-
-## Notes
-Process all JSON files in src/data/Modules/ alphabetically as one flat sequence.
-Start from global index 4800 within that sequence.
+status:      not started
 
 ## Current position
-offset:      4900
+offset:      1400
 
 ## Completed batches
-- 4800-4899: 0 issues fixed
+(none yet)
