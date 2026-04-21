@@ -6858,7 +6858,7 @@
     "rationale": null,
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_16",
     "testName": "December 2024 International Form C SAT Math Module 1",
-    "text": "The function f is defined by $f(x)=\\frac{x+11}{3}$, and $f(a)= 16$, where a is a constant. What is the value of a?",
+    "text": "The function $f$ is defined by $f(x)=\\frac{x+11}{3}$, and $f(a)= 16$, where $a$ is a constant. What is the value of $a$?",
     "choices": [
       {
         "id": "A",
