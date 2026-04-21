@@ -8,9 +8,10 @@ batch_size:  100
 status:      not started
 
 ## Current position
-offset:      2800
+offset:      2900
 
 ## Completed batches
 - src/data/questions/reading_past.json | 2500 | 2599 | 0 issues fixed
 - src/data/questions/reading_past.json | 2600 | 2699 | 1 issues fixed
 - src/data/questions/reading_past.json | 2700 | 2799 | 0 issues fixed
+- src/data/questions/reading_past.json | 2800 | 2899 | 0 issues fixed
