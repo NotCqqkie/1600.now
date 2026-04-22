@@ -2,6 +2,13 @@ import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { db } from '@/lib/firebase';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
+import {
+  applyPersonalizationPreferences,
+  getPersonalizationPreferences,
+  type PersonalizationPreferences,
+} from '@/lib/personalization';
+
+const VOCAB_STORAGE_KEY = 'vocab-progress';
 
 export interface Attempt {
   timestamp: number;
@@ -47,6 +54,53 @@ export const getQuestionProgressStatic = (questionId: string): QuestionProgress 
     attempts: [],
     totalTimeSpentSeconds: 0
   };
+};
+
+// Merge two progress maps without losing data.
+// - attempts: unioned and deduped by timestamp
+// - totalTimeSpentSeconds: max (avoids losing time tracked without attempts,
+//   avoids double-counting if attempts overlap)
+// - isMarkedForReview: OR
+const mergeProgress = (
+  local: Record<string, QuestionProgress>,
+  remote: Record<string, QuestionProgress>,
+): Record<string, QuestionProgress> => {
+  const merged: Record<string, QuestionProgress> = { ...remote };
+  for (const id of Object.keys(local)) {
+    const l = local[id];
+    const r = merged[id];
+    if (!r) {
+      merged[id] = l;
+      continue;
+    }
+    const seen = new Set<number>();
+    const attempts: Attempt[] = [];
+    for (const a of [...r.attempts, ...l.attempts]) {
+      if (seen.has(a.timestamp)) continue;
+      seen.add(a.timestamp);
+      attempts.push(a);
+    }
+    attempts.sort((a, b) => a.timestamp - b.timestamp);
+    merged[id] = {
+      questionId: id,
+      isMarkedForReview: l.isMarkedForReview || r.isMarkedForReview,
+      attempts,
+      totalTimeSpentSeconds: Math.max(
+        l.totalTimeSpentSeconds,
+        r.totalTimeSpentSeconds,
+      ),
+    };
+  }
+  return merged;
+};
+
+const readVocabLocal = (): Record<string, unknown> => {
+  try {
+    const raw = localStorage.getItem(VOCAB_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
 };
 
 // Filter helpers
@@ -101,30 +155,49 @@ export const useUserProgress = () => {
       try {
         const progressRef = doc(db, 'user_progress', user.id);
         const progressSnap = await getDoc(progressRef);
-        const remoteProgress = progressSnap.data()?.data as Record<string, QuestionProgress> | undefined;
+        const remote = progressSnap.data() as
+          | {
+              data?: Record<string, QuestionProgress>;
+              vocab?: Record<string, unknown>;
+              personalization?: PersonalizationPreferences;
+            }
+          | undefined;
 
-        if (remoteProgress) {
-          // Check if we have local data that needs to be merged or if we should just take server data
-          // For now, simple strategy: If server has data, use it. 
-          // If server is empty but we have local data (first sync), upload local.
-          
-          if (Object.keys(remoteProgress).length > 0) {
-              setProgress(remoteProgress);
-              localStorage.setItem(STORAGE_KEY, JSON.stringify(remoteProgress));
-          } else if (Object.keys(progress).length > 0) {
-             // Server empty, upload current local
-             await setDoc(progressRef, { user_id: user.id, data: progress }, { merge: true });
-          }
-        } else if (Object.keys(progress).length > 0) {
-           // No document exists, upload local data
-            await setDoc(progressRef, { user_id: user.id, data: progress }, { merge: true });
-        }
+        const localProgress = getStoredProgress();
+        const remoteProgress = remote?.data ?? {};
+        const mergedProgress = mergeProgress(localProgress, remoteProgress);
+
+        const localVocab = readVocabLocal();
+        const remoteVocab = remote?.vocab ?? {};
+        const mergedVocab = { ...remoteVocab, ...localVocab };
+
+        const localPers = getPersonalizationPreferences();
+        const remotePers = remote?.personalization;
+        // Personalization is small + last-write-wins; prefer remote if present.
+        const mergedPers = remotePers ?? localPers;
+
+        setProgress(mergedProgress);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(mergedProgress));
+        localStorage.setItem(VOCAB_STORAGE_KEY, JSON.stringify(mergedVocab));
+        if (remotePers) applyPersonalizationPreferences(remotePers);
+
+        await setDoc(
+          progressRef,
+          {
+            user_id: user.id,
+            data: mergedProgress,
+            vocab: mergedVocab,
+            personalization: mergedPers,
+          },
+          { merge: true },
+        );
       } catch (err) {
         console.error('Failed to sync progress:', err);
       }
     };
 
     fetchProgress();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
   const persist = useCallback(async (newProgress: Record<string, QuestionProgress>) => {

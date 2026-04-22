@@ -1,4 +1,4 @@
-import { type ReactNode, useMemo, useState } from "react";
+import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import {
   BarChart3,
@@ -10,6 +10,7 @@ import {
   Home,
   LogIn,
   LogOut,
+  Menu,
   Settings,
   SpellCheck,
   SunMoon,
@@ -31,6 +32,7 @@ import {
 } from "@/components/ui/alert-dialog";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/contexts/AuthContext";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { applyTheme } from "@/lib/theme";
 
@@ -39,7 +41,7 @@ const COLLAPSED_DESKTOP_PADDING_CLASS = "lg:pl-[4.5rem]";
 
 const primaryItems = [
   { label: "Home", href: "/", icon: Home, match: (pathname: string) => pathname === "/" },
-  { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank") || pathname.startsWith("/official-bank") },
+  { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank") },
   { label: "100 Hard Math Questions", href: "/hard", icon: Target, match: (pathname: string) => pathname.startsWith("/hard") },
   { label: "Practice Modules", href: "/modules", icon: GraduationCap, match: (pathname: string) => pathname.startsWith("/modules") },
   { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator") },
@@ -144,11 +146,28 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
   const isDark = useThemeMode();
-  const [isSidebarHidden, setIsSidebarHidden] = useState(false);
+  const isMobile = useIsMobile();
+  const [isSidebarHidden, setIsSidebarHidden] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return window.matchMedia("(max-width: 1023px)").matches;
+  });
+  const lastIsMobileRef = useRef<boolean | null>(null);
+  useEffect(() => {
+    if (lastIsMobileRef.current === null) {
+      lastIsMobileRef.current = isMobile;
+      return;
+    }
+    if (lastIsMobileRef.current !== isMobile) {
+      lastIsMobileRef.current = isMobile;
+      setIsSidebarHidden(isMobile);
+    }
+  }, [isMobile]);
+  useEffect(() => {
+    if (isMobile) setIsSidebarHidden(true);
+  }, [location.pathname, isMobile]);
   const [isLogoutDialogOpen, setIsLogoutDialogOpen] = useState(false);
   const isDesktopCollapsed = isSidebarHidden;
   const showExpandedContent = !isDesktopCollapsed;
-  const footerSlotHeightClass = user ? "h-[4.875rem]" : "h-[7.5rem]";
 
   const activePrimary = useMemo(
     () => primaryItems.find((item) => item.match(location.pathname))?.label,
@@ -257,47 +276,45 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
         </div>
 
         <div className="border-t border-border/70 pt-2.5">
-          <div className={cn("overflow-hidden", footerSlotHeightClass)}>
-            <div className="space-y-1.5">
-              <FooterActionButton
-                label={isDark ? "Dark" : "Light"}
-                icon={SunMoon}
-                expanded={showExpandedContent}
-                onClick={handleThemeToggle}
-                variant="outline"
-                title={isDark ? "Switch to light mode" : "Switch to dark mode"}
-              />
+          <div className="space-y-1.5 pb-1">
+            <FooterActionButton
+              label={isDark ? "Light" : "Dark"}
+              icon={SunMoon}
+              expanded={showExpandedContent}
+              onClick={handleThemeToggle}
+              variant="outline"
+              title={isDark ? "Switch to light mode" : "Switch to dark mode"}
+            />
 
-              {user ? (
+            {user ? (
+              <FooterActionButton
+                label="Log out"
+                icon={LogOut}
+                expanded={showExpandedContent}
+                onClick={() => setIsLogoutDialogOpen(true)}
+                variant="outline"
+                className="text-red-600 hover:text-red-700"
+                title={user.email ? `Log out (${user.email})` : "Log out"}
+              />
+            ) : (
+              <>
                 <FooterActionButton
-                  label="Log out"
-                  icon={LogOut}
+                  label="Log In"
+                  icon={LogIn}
                   expanded={showExpandedContent}
-                  onClick={() => setIsLogoutDialogOpen(true)}
+                  onClick={() => navigate("/login")}
                   variant="outline"
-                  className="text-red-600 hover:text-red-700"
-                  title={user.email ? `Log out (${user.email})` : "Log out"}
+                  className="text-foreground hover:text-foreground"
                 />
-              ) : (
-                <>
-                  <FooterActionButton
-                    label="Log In"
-                    icon={LogIn}
-                    expanded={showExpandedContent}
-                    onClick={() => navigate("/login")}
-                    variant="outline"
-                    className="text-foreground hover:text-foreground"
-                  />
-                  <FooterActionButton
-                    label="Sign Up"
-                    icon={UserPlus}
-                    expanded={showExpandedContent}
-                    onClick={() => navigate("/signup")}
-                    className="bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 hover:text-primary-foreground"
-                  />
-                </>
-              )}
-            </div>
+                <FooterActionButton
+                  label="Sign Up"
+                  icon={UserPlus}
+                  expanded={showExpandedContent}
+                  onClick={() => navigate("/signup")}
+                  className="bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 hover:text-primary-foreground"
+                />
+              </>
+            )}
           </div>
         </div>
       </aside>
@@ -322,18 +339,18 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
         variant="outline"
         size="icon"
         className={cn(
-          "fixed left-0 top-5 z-50 h-12 w-7 rounded-l-none rounded-r-xl border-l-0 bg-card/95 pr-1.5 shadow-lg backdrop-blur transition-transform duration-300 lg:hidden",
-          isSidebarHidden ? "translate-x-0" : "-translate-x-full",
+          "fixed left-3 top-3 z-50 h-11 w-11 rounded-xl bg-card/95 shadow-md backdrop-blur lg:hidden",
+          isSidebarHidden ? "opacity-100" : "opacity-0 pointer-events-none",
         )}
-        onClick={() => setIsSidebarHidden((hidden) => !hidden)}
-        aria-label={isSidebarHidden ? "Show sidebar" : "Hide sidebar"}
+        onClick={() => setIsSidebarHidden(false)}
+        aria-label="Open menu"
       >
-        <ChevronRight className="h-4 w-4" />
+        <Menu className="h-5 w-5" />
       </Button>
 
       <div
         className={cn(
-          "min-h-screen transition-[padding] duration-200 ease-out",
+          "min-h-screen pt-14 transition-[padding] duration-200 ease-out lg:pt-0",
           isSidebarHidden ? COLLAPSED_DESKTOP_PADDING_CLASS : "lg:pl-64",
         )}
       >

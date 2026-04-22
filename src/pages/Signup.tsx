@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { BrandLogo } from "@/components/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
+import { getAuthReturnTo } from "@/components/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, CheckCircle } from "lucide-react";
 
@@ -31,7 +32,7 @@ const Signup = () => {
   const { toast } = useToast();
 
   useEffect(() => {
-    if (!authLoading && user) navigate("/");
+    if (!authLoading && user) navigate(getAuthReturnTo(), { replace: true });
   }, [user, authLoading, navigate]);
 
   const handleSignup = async (e: React.FormEvent) => {
@@ -40,7 +41,7 @@ const Signup = () => {
     try {
       await signUpWithEmailPassword(email, password);
       toast({ title: "Account created!", description: "Your account is ready." });
-      navigate("/");
+      navigate(getAuthReturnTo(), { replace: true });
     } catch (error: any) {
       toast({ variant: "destructive", title: "Error creating account", description: error.message });
     } finally {
@@ -51,7 +52,7 @@ const Signup = () => {
   const handleGoogleLogin = async () => {
     try {
       await signInWithGoogle();
-      navigate("/");
+      navigate(getAuthReturnTo(), { replace: true });
     } catch (error: any) {
       toast({ variant: "destructive", title: "Error signing up with Google", description: error.message });
     }

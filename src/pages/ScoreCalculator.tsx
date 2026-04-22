@@ -2,6 +2,7 @@ import { type CSSProperties, useEffect, useMemo, useState } from "react";
 import { RotateCcw } from "lucide-react";
 
 import { Slider } from "@/components/ui/slider";
+import { ScoreCalculatorSeoContent } from "@/components/seo/ScoreCalculatorSeoContent";
 import { satCalculatorYears } from "@/data/satCalculator";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { cn } from "@/lib/utils";
@@ -27,6 +28,18 @@ const getScoreAccent = (score: number, maxScore: number) => {
 const SCORE_TRANSITION = "color 0.24s ease, background 0.24s ease, box-shadow 0.24s ease";
 const ScoreCalculator = () => {
   const isDarkMode = useThemeMode();
+  const [isPhone, setIsPhone] = useState<boolean>(() =>
+    typeof window !== "undefined"
+      ? window.matchMedia("(max-width: 767px)").matches
+      : false,
+  );
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const mql = window.matchMedia("(max-width: 767px)");
+    const onChange = (e: MediaQueryListEvent) => setIsPhone(e.matches);
+    mql.addEventListener("change", onChange);
+    return () => mql.removeEventListener("change", onChange);
+  }, []);
   const [rawScores, setRawScores] = useState<Record<string, number>>(() =>
     Object.fromEntries(
       digitalSatSections.map((section, secIdx) => [
@@ -131,11 +144,11 @@ const ScoreCalculator = () => {
 
   return (
     <div className="min-h-screen" style={{ fontFamily: "'Outfit', sans-serif", backgroundColor: themeColors.pageBg }}>
-      <main style={{ maxWidth: 1100, margin: "0 auto", padding: "32px 24px 80px" }}>
+      <main style={{ maxWidth: 1100, margin: "0 auto", padding: isPhone ? "20px 12px 56px" : "32px 24px 80px" }}>
         {/* Side-by-side: sliders left, score info right — both stretch to equal height */}
-        <div style={{ display: "flex", gap: 28, alignItems: "stretch" }}>
+        <div style={{ display: "flex", flexDirection: isPhone ? "column" : "row", gap: isPhone ? 18 : 28, alignItems: "stretch" }}>
           {/* Left: all 4 sliders */}
-          <div style={{ flex: "1 1 0", display: "flex", flexDirection: "column", gap: 24, minWidth: 0 }}>
+          <div style={{ flex: "1 1 0", display: "flex", flexDirection: "column", gap: isPhone ? 16 : 24, minWidth: 0 }}>
             <SubjectPanel
               label="Reading & Writing"
               accent="#60a5fa"
@@ -158,7 +171,7 @@ const ScoreCalculator = () => {
           </div>
 
           {/* Right: score summary, stretches to match slider column height */}
-          <div style={{ flexShrink: 0, width: 420, display: "flex", flexDirection: "column" }}>
+          <div style={{ flexShrink: 0, width: isPhone ? "100%" : 420, display: "flex", flexDirection: "column" }}>
             <ScoreSummaryCard
               scores={scores}
               modules={moduleProgress}
@@ -168,6 +181,7 @@ const ScoreCalculator = () => {
           </div>
         </div>
       </main>
+      <ScoreCalculatorSeoContent />
     </div>
   );
 };

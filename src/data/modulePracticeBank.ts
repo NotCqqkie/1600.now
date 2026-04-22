@@ -1,8 +1,10 @@
 import {
+  buildBankQuestionKey,
   getAllBankQuestions,
   type BankQuestion,
   type BankSubject,
 } from "@/data/questionBank";
+import type { QuestionCategory } from "@/data/questionCategories";
 
 const rawModuleImports = import.meta.glob("./Modules/*.json", {
   eager: true,
@@ -225,6 +227,47 @@ const sortPracticeModules = (left: PracticeModule, right: PracticeModule) => {
 const pastMathBank = getAllBankQuestions("math", "past");
 const pastReadingBank = getAllBankQuestions("reading", "past");
 
+const synthesizeBankQuestion = (
+  rawQuestion: RawModuleQuestion,
+  subject: BankSubject,
+): BankQuestion => {
+  const type: BankQuestion["type"] = rawQuestion.is_fill_in_blank ? "free-response" : "multiple-choice";
+  const category: QuestionCategory = {
+    subject: subject === "math" ? "Math" : "English",
+    domain: rawQuestion.domain as QuestionCategory["domain"],
+    skill: rawQuestion.skill as QuestionCategory["skill"],
+    confidence: "high",
+  };
+  const difficulty: BankQuestion["difficulty"] = (() => {
+    const d = (rawQuestion.difficulty ?? "").trim().toLowerCase();
+    if (d === "easy") return "Easy";
+    if (d === "medium") return "Medium";
+    if (d === "hard") return "Hard";
+    return null;
+  })();
+  return {
+    id: 0,
+    stableId: buildBankQuestionKey("past", subject, rawQuestion.id),
+    bankType: "past",
+    bankLabel: "Official Bluebook",
+    subject,
+    sourceId: rawQuestion.id,
+    questionNumber: rawQuestion.question_number,
+    testName: rawQuestion.test_name,
+    prompt: rawQuestion.question_text ?? rawQuestion.passage ?? "",
+    passage: rawQuestion.passage ?? undefined,
+    questionText: rawQuestion.question_text ?? undefined,
+    choices: rawQuestion.choices?.map((c) => ({ id: c.label, text: c.text ?? "" })),
+    type,
+    correctAnswer: rawQuestion.correct_answer ?? null,
+    rationale: rawQuestion.rationale ?? null,
+    questionImages: rawQuestion.images?.map((img) => ({ src: img.src, alt: img.alt ?? "" })),
+    difficulty,
+    active: true,
+    category,
+  };
+};
+
 const bankQuestionIndexBySubject: Record<BankSubject, Map<string, BankQuestion>> = {
   math: new Map(pastMathBank.map((question) => [question.sourceId, question])),
   reading: new Map(pastReadingBank.map((question) => [question.sourceId, question])),
@@ -436,14 +479,14 @@ const practiceModules = rawModuleSources
       const rawQuestion = questionsBySlot.get(slot);
 
       if (rawQuestion) {
-        const bankQuestion = bankQuestionIndexBySubject[moduleSource.subject].get(rawQuestion.id);
-        if (bankQuestion) {
-          practiceQuestions.push({
-            slot,
-            bankQuestion,
-            isReplacement: false,
-          });
-        }
+        const bankQuestion =
+          bankQuestionIndexBySubject[moduleSource.subject].get(rawQuestion.id) ??
+          synthesizeBankQuestion(rawQuestion, moduleSource.subject);
+        practiceQuestions.push({
+          slot,
+          bankQuestion,
+          isReplacement: false,
+        });
         continue;
       }
 

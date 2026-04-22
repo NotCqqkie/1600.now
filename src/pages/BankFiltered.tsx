@@ -1,8 +1,8 @@
-import { useNavigate, useParams, useSearchParams, useLocation } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useState, useMemo, useEffect } from "react";
 import {
-  getQuestionsByDomain as getQuestionsByDomainNormal,
-  getQuestionsBySkill as getQuestionsBySkillNormal,
+  getQuestionsByDomain,
+  getQuestionsBySkill,
   normalizeBankSource,
   BANK_SOURCE_LABELS,
   type BankSubject,
@@ -13,11 +13,6 @@ import {
   type MathSkill,
   type EnglishSkill,
 } from "@/data/questionBank";
-import {
-  getQuestionsByDomain as getQuestionsByDomainOfficial,
-  getQuestionsBySkill as getQuestionsBySkillOfficial,
-  type BankQuestion as OfficialBankQuestion,
-} from "@/data/officialQuestionBank";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -34,11 +29,8 @@ import {
 } from "lucide-react";
 import { BankSourceToggle } from "@/components/BankSourceToggle";
 
-type AnyBankQuestion = BankQuestion | OfficialBankQuestion;
-
 const BankFiltered = () => {
   const navigate = useNavigate();
-  const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
   const { subject, filterType, filterValue } = useParams<{
     subject: BankSubject;
@@ -50,45 +42,37 @@ const BankFiltered = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const questionsPerPage = 50;
 
-  const isOfficial = location.pathname.startsWith("/official-bank");
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
   const isMath = validSubject === "math";
   const decodedFilter = decodeURIComponent(filterValue || "");
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
-  const basePath = isOfficial ? "/official-bank" : "/bank";
-  const bankQuerySuffix = isOfficial ? "" : `?bankType=${bankSource}`;
+  const basePath = "/bank";
+  const bankQuerySuffix = `?bankType=${bankSource}`;
 
   useEffect(() => {
-    const prefix = isOfficial ? "official" : "bank";
-    sessionStorage.removeItem(`question-view-mode:${prefix}:math`);
-    sessionStorage.removeItem(`question-view-mode:${prefix}:reading`);
-  }, [isOfficial]);
+    sessionStorage.removeItem(`question-view-mode:bank:math`);
+    sessionStorage.removeItem(`question-view-mode:bank:reading`);
+  }, []);
 
-  const questions = useMemo((): AnyBankQuestion[] => {
+  const questions = useMemo((): BankQuestion[] => {
     if (filterType === "domain") {
-      return isOfficial
-        ? getQuestionsByDomainOfficial(validSubject, decodedFilter as MathDomain | EnglishDomain)
-        : getQuestionsByDomainNormal(validSubject, decodedFilter as MathDomain | EnglishDomain, bankSource);
+      return getQuestionsByDomain(validSubject, decodedFilter as MathDomain | EnglishDomain, bankSource);
     } else {
-      return isOfficial
-        ? getQuestionsBySkillOfficial(validSubject, decodedFilter as MathSkill | EnglishSkill)
-        : getQuestionsBySkillNormal(validSubject, decodedFilter as MathSkill | EnglishSkill, bankSource);
+      return getQuestionsBySkill(validSubject, decodedFilter as MathSkill | EnglishSkill, bankSource);
     }
-  }, [validSubject, filterType, decodedFilter, bankSource, isOfficial]);
+  }, [validSubject, filterType, decodedFilter, bankSource]);
 
-  const getQuestionState = (q: AnyBankQuestion) => {
-    if (isOfficial) {
-      const prefix = `official-bank-${validSubject}`;
-      const answered = localStorage.getItem(`${prefix}-answer-${q.id}`);
-      const flagged = localStorage.getItem(`${prefix}-flag-${q.id}`) === "true";
-      return { answered: !!answered, flagged };
-    } else {
-      const stableId = (q as BankQuestion).stableId;
-      const answered = localStorage.getItem(`${stableId}-answer`);
-      const flagged = localStorage.getItem(`${stableId}-flagged`) === "true";
-      return { answered: !!answered, flagged };
-    }
+  const getQuestionState = (q: BankQuestion) => {
+    const stableId = q.stableId;
+    const answered = localStorage.getItem(`${stableId}-answer`);
+    const flagged = localStorage.getItem(`${stableId}-flagged`) === "true";
+    return { answered: !!answered, flagged };
   };
+
+  const answeredCount = useMemo(
+    () => questions.filter((q) => getQuestionState(q).answered).length,
+    [questions]
+  );
 
   const handleBankSourceChange = (nextSource: BankSourceFilter) => {
     const nextParams = new URLSearchParams(searchParams);
@@ -103,11 +87,9 @@ const BankFiltered = () => {
       (q) =>
         q.prompt.toLowerCase().includes(lower) ||
         q.testName.toLowerCase().includes(lower) ||
-        (isOfficial
-          ? (q as OfficialBankQuestion).questionNumber.toString().includes(lower)
-          : (q as BankQuestion).sourceId.toLowerCase().includes(lower))
+        q.sourceId.toLowerCase().includes(lower)
     );
-  }, [questions, search, isOfficial]);
+  }, [questions, search]);
 
   const totalPages = Math.ceil(filteredQuestions.length / questionsPerPage);
   const paginatedQuestions = filteredQuestions.slice(
@@ -115,11 +97,9 @@ const BankFiltered = () => {
     currentPage * questionsPerPage
   );
 
-  const handleQuestionClick = (q: AnyBankQuestion) => {
+  const handleQuestionClick = (q: BankQuestion) => {
     navigate(`${basePath}/${validSubject}/${q.id}${bankQuerySuffix}`);
   };
-
-  const answeredCount = questions.filter((q) => getQuestionState(q).answered).length;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted">
@@ -148,7 +128,7 @@ const BankFiltered = () => {
               </div>
               <div>
                 <p className="text-xs text-muted-foreground uppercase tracking-wider">
-                  {!isOfficial && `${BANK_SOURCE_LABELS[bankSource]} \u2022 `}{filterType === "domain" ? "Domain" : "Skill"}
+                  {`${BANK_SOURCE_LABELS[bankSource]} \u2022 `}{filterType === "domain" ? "Domain" : "Skill"}
                 </p>
                 <h1 className="text-xl font-bold">{decodedFilter}</h1>
               </div>
@@ -159,7 +139,7 @@ const BankFiltered = () => {
             </div>
           </div>
 
-          {!isOfficial && <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />}
+          <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
 
           {/* Stats Bar */}
           <Card className="p-4 flex items-center gap-6">
@@ -239,7 +219,7 @@ const BankFiltered = () => {
                           <div className="flex items-center gap-2 mb-1">
                             <span className="text-xs font-medium text-muted-foreground line-clamp-1">
                               {q.testName}
-                              {!isOfficial && ` \u2022 ${(q as BankQuestion).bankLabel} \u2022 ID ${(q as BankQuestion).sourceId}`}
+                              {` \u2022 ${q.bankLabel} \u2022 ID ${q.sourceId}`}
                             </span>
                             {state.flagged && <Flag className="h-3 w-3 text-red-500 fill-red-500" />}
                           </div>

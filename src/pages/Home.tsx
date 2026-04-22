@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { BrandLogo } from "@/components/BrandLogo";
@@ -6,7 +6,6 @@ import {
   ArrowRight,
   BarChart3,
   BookOpen,
-  Bookmark,
   ChevronDown,
   ChevronUp,
   LogOut,
@@ -23,277 +22,152 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { InlineDesmos } from "@/components/InlineDesmos";
 import { useThemeMode } from "@/hooks/useThemeMode";
+import { renderMixedContent } from "@/lib/mathRendering";
+import "katex/dist/katex.min.css";
 
 const DEFAULT_QUESTION_BANK_TOTAL = 5880;
 
-// ─── Demo state machine ────────────────────────────────────────────────────
-
-type Phase =
-  | "reading"
-  | "movingToChoice"
-  | "clickedChoice"
-  | "movingToCheck"
-  | "clickedCheck"
-  | "explained"
-  | "fadingOut";
-
-const PHASES: { phase: Phase; duration: number }[] = [
-  { phase: "reading", duration: 1600 },
-  { phase: "movingToChoice", duration: 900 },
-  { phase: "clickedChoice", duration: 560 },
-  { phase: "movingToCheck", duration: 780 },
-  { phase: "clickedCheck", duration: 460 },
-  { phase: "explained", duration: 3400 },
-  { phase: "fadingOut", duration: 600 },
-];
-
+// Pinned to a real bank question: past/math/(x-4)^2+6, minimum value
+const DEMO_Q_SOURCE_ID = "6197d48e-7c76-4333-af39-0b9aa39e924c_21";
 const DEMO_Q = {
-  text: "A quadratic function f is defined by f(x) = −2(x − 3)² + 8. What is the maximum value of f(x)?",
+  text: "$f(x)=(x-4)^{2}+6$\nWhat is the minimum value of the given function?",
   choices: [
-    { id: "A", text: "−2" },
-    { id: "B", text: "3" },
-    { id: "C", text: "8" },
-    { id: "D", text: "14" },
+    { id: "A", text: "$2$" },
+    { id: "B", text: "$4$" },
+    { id: "C", text: "$6$" },
+    { id: "D", text: "$10$" },
   ],
   correctId: "C",
 };
 
-// ─── Animated cursor dot ───────────────────────────────────────────────────
+// ─── Hero question preview — iframes the real /bank viewer in embed mode ──
 
-const CursorDot = ({ clicking }: { clicking: boolean }) => (
-  <div style={{ position: "relative", width: 22, height: 26 }}>
-    <svg width="22" height="26" viewBox="0 0 22 26" fill="none">
-      <path
-        d="M3 2.5L18.5 13.5L11.5 15L8.5 23L3 2.5Z"
-        fill="white"
-        stroke="rgba(0,0,0,0.55)"
-        strokeWidth="1.5"
-        strokeLinejoin="round"
-      />
-    </svg>
-    {clicking && (
-      <div
-        key={`ripple-${Date.now()}`}
-        style={{
-          position: "absolute",
-          top: 4,
-          left: 4,
-          width: 18,
-          height: 18,
-          borderRadius: "50%",
-          border: "2px solid rgba(255,255,255,0.75)",
-          animation: "demoClickRipple 0.45s ease-out forwards",
-        }}
-      />
-    )}
-  </div>
-);
+// Cache pool scans so every filter flip doesn't re-scan the bank.
+const heroQuestionIdCache = new Map<string, number>();
+const resolveHeroQuestionId = async (
+  subject: "math" | "reading",
+  difficulty: "Easy" | "Medium" | "Hard" | null,
+): Promise<number> => {
+  const cacheKey = `${subject}|${difficulty ?? ""}`;
+  const cached = heroQuestionIdCache.get(cacheKey);
+  if (cached !== undefined) return cached;
+  try {
+    const { getBankPool } = await import("@/data/questionBank");
+    const pool = getBankPool(subject, "past");
+    let id = 1;
+    if (subject === "math" && !difficulty) {
+      const pinnedIdx = pool.findIndex((q) => q.sourceId === DEMO_Q_SOURCE_ID);
+      if (pinnedIdx >= 0) id = pinnedIdx + 1;
+    } else {
+      const firstMatch = pool.find(
+        (q) => !difficulty || q.difficulty === difficulty,
+      );
+      id = firstMatch?.id ?? 1;
+    }
+    heroQuestionIdCache.set(cacheKey, id);
+    return id;
+  } catch {
+    return 1;
+  }
+};
 
-// ─── Product demo window ───────────────────────────────────────────────────
+const HERO_PREVIEW_SCALE = 0.85;
+const HERO_PREVIEW_LOGICAL_HEIGHT = 760;
+const HERO_PREVIEW_MOBILE_SCALE = 0.55;
+const HERO_PREVIEW_MOBILE_LOGICAL_HEIGHT = 640;
 
-const ProductDemo = ({ isDarkMode }: { isDarkMode: boolean }) => {
-  const [phaseIdx, setPhaseIdx] = useState(0);
-  const cardRef = useRef<HTMLDivElement>(null);
-  const mcqRef = useRef<HTMLDivElement>(null);
-  const [rowPos, setRowPos] = useState<{ rowTop: number; checkX: number; choiceX: number } | null>(null);
-
+const HeroQuestionPreview = memo(({
+  isDarkMode,
+  subject,
+  difficulty,
+}: {
+  isDarkMode: boolean;
+  subject: "math" | "reading";
+  difficulty: "Easy" | "Medium" | "Hard" | null;
+}) => {
+  const [questionId, setQuestionId] = useState<number>(() => {
+    const cached = heroQuestionIdCache.get(`${subject}|${difficulty ?? ""}`);
+    return cached ?? 1;
+  });
   useEffect(() => {
-    const { duration } = PHASES[phaseIdx];
-    const t = setTimeout(
-      () => setPhaseIdx((i) => (i + 1) % PHASES.length),
-      duration
-    );
-    return () => clearTimeout(t);
-  }, [phaseIdx]);
-
-  // Measure the actual correct-choice row & check-button column for accurate cursor placement
-  useEffect(() => {
-    const measure = () => {
-      const card = cardRef.current;
-      const mcq = mcqRef.current;
-      if (!card || !mcq) return;
-      const correctIdx = DEMO_Q.choices.findIndex((c) => c.id === DEMO_Q.correctId);
-      const targetRow = mcq.firstElementChild?.children[correctIdx] as HTMLElement | undefined;
-      if (!targetRow) return;
-      const cardRect = card.getBoundingClientRect();
-      const rowRect = targetRow.getBoundingClientRect();
-      setRowPos({
-        rowTop: rowRect.top - cardRect.top + rowRect.height / 2,
-        choiceX: 36,
-        checkX: rowRect.right - cardRect.left - 48,
-      });
+    let cancelled = false;
+    void resolveHeroQuestionId(subject, difficulty).then((id) => {
+      if (!cancelled) setQuestionId(id);
+    });
+    return () => {
+      cancelled = true;
     };
-    measure();
-    const t = setTimeout(measure, 60);
-    window.addEventListener("resize", measure);
-    return () => { clearTimeout(t); window.removeEventListener("resize", measure); };
-  }, [phaseIdx]);
-
-  const { phase } = PHASES[phaseIdx];
-  const isAnswerSelected = ["clickedChoice", "movingToCheck", "clickedCheck", "explained"].includes(phase);
-  const isChecked = ["clickedCheck", "explained"].includes(phase);
-  const showExplanation = phase === "explained";
-  const isInvisible = phase === "fadingOut";
-  const isCursorClicking = phase === "clickedChoice" || phase === "clickedCheck";
-
-  const chromeBorder = isDarkMode
-    ? "1px solid rgba(255,255,255,0.05)"
-    : "1px solid rgba(15,23,42,0.08)";
-  const progressInactive = isDarkMode ? "rgba(255,255,255,0.09)" : "rgba(15,23,42,0.09)";
-  const progressText = isDarkMode ? "rgba(255,255,255,0.28)" : "rgba(15,23,42,0.38)";
+  }, [subject, difficulty]);
+  const src = `/bank/${subject}/${questionId}?bankType=past&embed=1${
+    difficulty ? `&difficulty=${difficulty}` : ""
+  }`;
   const windowShadow = isDarkMode
     ? "0 0 0 1px rgba(255,255,255,0.07), 0 40px 100px rgba(0,0,0,0.55), 0 0 80px rgba(125,211,252,0.07)"
     : "0 0 0 1px rgba(15,23,42,0.08), 0 24px 64px rgba(15,23,42,0.12), 0 0 48px rgba(56,189,248,0.1)";
 
-  // Cursor position anchored to the MEASURED row/column of the correct answer
-  const cPos = ((): { left: string; top: string } => {
-    const rowTop = rowPos ? `${rowPos.rowTop}px` : "50%";
-    const checkLeft = rowPos ? `${rowPos.checkX}px` : "88%";
-    const choiceLeft = rowPos ? `${rowPos.choiceX}px` : "10%";
-    switch (phase) {
-      case "reading":        return { left: "50%", top: "80px" };
-      case "movingToChoice": return { left: choiceLeft, top: rowTop };
-      case "clickedChoice":  return { left: choiceLeft, top: rowTop };
-      case "movingToCheck":  return { left: checkLeft,  top: rowTop };
-      case "clickedCheck":   return { left: checkLeft,  top: rowTop };
-      case "explained":      return { left: "50%", top: rowTop };
-      case "fadingOut":      return { left: "50%", top: "80px" };
-    }
-  })();
+  // Forward wheel events from the embedded viewer so the page scrolls even
+  // while the user is hovering the preview.
+  useEffect(() => {
+    const onMsg = (e: MessageEvent) => {
+      const data = e.data;
+      if (!data || data.type !== "heroWheel") return;
+      const dy = typeof data.deltaY === "number" ? data.deltaY : 0;
+      const dx = typeof data.deltaX === "number" ? data.deltaX : 0;
+      window.scrollBy({ top: dy, left: dx });
+    };
+    window.addEventListener("message", onMsg);
+    return () => window.removeEventListener("message", onMsg);
+  }, []);
 
-  const selectedAnswer = isAnswerSelected ? DEMO_Q.correctId : "";
-  const checkedAnswers = isChecked ? { [DEMO_Q.correctId]: true } : {};
-
+  // Scale the iframe down: render at logical size then transform. The
+  // outer box clamps visual size; internal coordinates (used by the auto-demo
+  // cursor) remain in the iframe's own viewport and stay aligned.
+  // Mobile gets a smaller scale so the preview doesn't dominate the screen.
+  const [isPhone, setIsPhone] = useState<boolean>(() =>
+    typeof window !== "undefined" ? window.matchMedia("(max-width: 767px)").matches : false,
+  );
+  useEffect(() => {
+    const mql = window.matchMedia("(max-width: 767px)");
+    const onChange = (e: MediaQueryListEvent) => setIsPhone(e.matches);
+    mql.addEventListener("change", onChange);
+    return () => mql.removeEventListener("change", onChange);
+  }, []);
+  const activeScale = isPhone ? HERO_PREVIEW_MOBILE_SCALE : HERO_PREVIEW_SCALE;
+  const activeLogicalHeight = isPhone ? HERO_PREVIEW_MOBILE_LOGICAL_HEIGHT : HERO_PREVIEW_LOGICAL_HEIGHT;
+  const visibleHeight = activeLogicalHeight * activeScale;
   return (
-    <div style={{ position: "relative", userSelect: "none" }}>
-      {/* Window */}
-      <div
-        ref={cardRef}
-        className="bg-card"
+    <div
+      className="bg-card"
+      style={{
+        borderRadius: 14,
+        overflow: "hidden",
+        boxShadow: windowShadow,
+        width: "100%",
+        height: visibleHeight,
+        position: "relative",
+      }}
+    >
+      <iframe
+        key={src}
+        src={src}
+        title="Live question preview"
+        scrolling="no"
         style={{
-          borderRadius: 14,
-          overflow: "hidden",
-          boxShadow: windowShadow,
-          opacity: isInvisible ? 0 : 1,
-          transition: "opacity 0.5s ease",
+          width: `${100 / activeScale}%`,
+          height: activeLogicalHeight,
+          border: 0,
+          display: "block",
+          background: "transparent",
+          transform: `scale(${activeScale})`,
+          transformOrigin: "top left",
         }}
-      >
-        {/* Progress strip */}
-        <div
-          style={{
-            borderBottom: chromeBorder,
-            padding: "9px 18px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-          }}
-        >
-          <div style={{ display: "flex", gap: 3 }}>
-            {Array.from({ length: 10 }).map((_, i) => (
-              <div
-                key={i}
-                style={{
-                  width: 22,
-                  height: 4,
-                  borderRadius: 2,
-                  background: i < 6 ? "hsl(201, 100%, 70%)" : progressInactive,
-                }}
-              />
-            ))}
-          </div>
-          <span
-            style={{
-              fontSize: 11,
-              color: progressText,
-              fontFamily: "'Space Mono', monospace",
-            }}
-          >
-            Q 47 / 100
-          </span>
-        </div>
-
-        {/* Real question header — mirrors /question page */}
-        <div className="px-5 pt-4">
-          <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
-            <div className="flex items-center h-full gap-2">
-              <div className="bg-white dark:bg-black text-black dark:text-white h-full min-w-[3.5rem] px-2 flex items-center justify-center font-bold text-base tabular-nums border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
-                47
-              </div>
-              <div className="h-7 rounded px-3 gap-2 font-normal text-muted-foreground inline-flex items-center">
-                <Bookmark className="h-3.5 w-3.5" />
-                <span className="text-xs font-medium">Mark for Review</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Body — uses the REAL MultipleChoiceQuestion */}
-        <div className="px-5 pt-4 pb-5">
-          <div className="mb-5 text-[15px] leading-relaxed text-foreground">
-            {DEMO_Q.text}
-          </div>
-
-          <div ref={mcqRef} className="pointer-events-none">
-            <MultipleChoiceQuestion
-              choices={DEMO_Q.choices}
-              selectedAnswer={selectedAnswer}
-              checkedAnswers={checkedAnswers}
-              onCheck={() => {}}
-              questionId="hero-demo"
-              subject="math"
-            />
-          </div>
-
-          {/* Inline success banner — reserves space so page height doesn't jump */}
-          <div
-            style={{
-              marginTop: 14,
-              minHeight: 88,
-              opacity: showExplanation ? 1 : 0,
-              transition: "opacity 0.4s ease",
-            }}
-          >
-            <div className="rounded-xl border border-[#2E7D32]/40 bg-[#C8E6C9]/20 dark:border-[#2E7D32]/50 dark:bg-[#1B5E20]/20 px-4 py-3">
-              <div className="flex items-center gap-2 mb-1">
-                <div className="w-5 h-5 rounded-full bg-[#1B5E20] dark:bg-[#2E7D32] flex items-center justify-center text-white text-xs font-bold">
-                  ✓
-                </div>
-                <span className="text-sm font-semibold text-[#1B5E20] dark:text-[#4ade80]">
-                  Correct — Choice {DEMO_Q.correctId}
-                </span>
-              </div>
-              <p className="text-[13px] text-muted-foreground leading-snug m-0 pl-7">
-                Vertex form −2(x − 3)² + 8 opens downward, so the vertex (3, 8)
-                is a maximum. Therefore f(x)<sub>max</sub> = 8.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Cursor */}
-      <div
-        style={{
-          position: "absolute",
-          left: cPos.left,
-          top: cPos.top,
-          transition:
-            "left 0.72s cubic-bezier(0.25,0.46,0.45,0.94), top 0.72s cubic-bezier(0.25,0.46,0.45,0.94), opacity 0.4s ease",
-          pointerEvents: "none",
-          zIndex: 20,
-          opacity: isInvisible ? 0 : 1,
-          filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.6))",
-        }}
-      >
-        <CursorDot clicking={isCursorClicking} />
-      </div>
+      />
     </div>
   );
-};
-
+});
+HeroQuestionPreview.displayName = "HeroQuestionPreview";
 // ─── Auto-cycling explanation demo ─────────────────────────────────────────
 
 const EXPLANATION_STEPS: {
@@ -302,45 +176,36 @@ const EXPLANATION_STEPS: {
   desmos?: string[];
 }[] = [
   {
-    title: "Set up the equation",
-    body: "We have f(x) = −2(x − 3)² + 8 in vertex form. The vertex of the parabola is at (3, 8).",
+    title: "Recognize vertex form",
+    body: "$f(x) = (x-4)^2 + 6$ is already written in <strong>vertex form</strong> $a(x-h)^2 + k$.\n\nMatching terms: $h = 4$ and $k = 6$, so the vertex is at $(4,\\, 6)$.",
   },
   {
-    title: "Locate the maximum",
-    body: "The leading coefficient −2 is negative, so the parabola opens downward. The vertex is therefore a maximum point.",
+    title: "Minimum or maximum?",
+    body: "The leading coefficient is $a = 1 > 0$, so the parabola <strong>opens upward</strong>.\n\nAn upward-opening parabola has its vertex as the <strong>lowest point</strong> — meaning the vertex gives a minimum, not a maximum.",
   },
   {
-    title: "Interpret the graph",
-    body: "Graphing confirms the peak: the curve tops out at y = 8, making the maximum value of f(x) equal to 8.",
-    desmos: ["y=-2(x-3)^2+8", "(3,8)"],
+    title: "Read the answer from the vertex",
+    body: "The minimum value of $f(x)$ is the $y$-coordinate of the vertex. Since $k = 6$:\n\n$$f(4) = (4-4)^2 + 6 = 0 + 6 = 6$$\n\nThe minimum value is $\\boxed{6}$ — choice <strong>C</strong>.",
+    desmos: ["y=(x-4)^2+6", "(4,6)"],
   },
 ];
 
-const AnimatedExplanation = ({ isDarkMode }: { isDarkMode: boolean }) => {
-  const [currentStep, setCurrentStep] = useState(0);
-  const [direction, setDirection] = useState<1 | -1>(1);
-  const [animKey, setAnimKey] = useState(0);
-  const [paused, setPaused] = useState(false);
-
+const AnimatedExplanation = memo(({
+  isDarkMode,
+  currentStep,
+  direction,
+  animKey,
+  onNavigate,
+  scale = 1,
+}: {
+  isDarkMode: boolean;
+  currentStep: number;
+  direction: 1 | -1;
+  animKey: number;
+  onNavigate?: (target: number) => void;
+  scale?: number;
+}) => {
   const totalSteps = EXPLANATION_STEPS.length;
-
-  useEffect(() => {
-    if (paused) return;
-    const t = setInterval(() => {
-      setDirection(1);
-      setCurrentStep((s) => (s + 1) % totalSteps);
-      setAnimKey((k) => k + 1);
-    }, 3600);
-    return () => clearInterval(t);
-  }, [paused, totalSteps]);
-
-  const goTo = (target: number) => {
-    setPaused(true);
-    setDirection(target > currentStep ? 1 : -1);
-    setCurrentStep(Math.max(0, Math.min(totalSteps - 1, target)));
-    setAnimKey((k) => k + 1);
-  };
-
   const step = EXPLANATION_STEPS[currentStep];
   const isLast = currentStep === totalSteps - 1;
 
@@ -348,10 +213,13 @@ const AnimatedExplanation = ({ isDarkMode }: { isDarkMode: boolean }) => {
     <div
       className="rounded-[14px] overflow-hidden border border-border bg-card flex flex-col"
       style={{
-        height: 440,
+        height: 520,
+        transform: `scale(${scale})`,
+        transformOrigin: "center center",
+        transition: "transform 0.5s cubic-bezier(0.22, 1, 0.36, 1)",
         boxShadow: isDarkMode
-          ? "0 20px 60px rgba(0,0,0,0.5)"
-          : "0 20px 50px rgba(15,23,42,0.1)",
+          ? "0 30px 90px rgba(0,0,0,0.6)"
+          : "0 30px 80px rgba(15,23,42,0.2)",
       }}
     >
       {/* Header — identical to StepByStepExplanation */}
@@ -363,7 +231,7 @@ const AnimatedExplanation = ({ isDarkMode }: { isDarkMode: boolean }) => {
           {EXPLANATION_STEPS.map((_, i) => (
             <button
               key={i}
-              onClick={() => goTo(i)}
+              onClick={() => onNavigate?.(i)}
               className={`rounded-full transition-all duration-300 ${
                 i === currentStep
                   ? "w-3 h-1.5 bg-primary"
@@ -375,11 +243,11 @@ const AnimatedExplanation = ({ isDarkMode }: { isDarkMode: boolean }) => {
         </div>
       </div>
 
-      {/* Step content — identical to StepByStepExplanation with scroll-between-steps animation */}
+      {/* Step content — overflow hidden so no scrollbar appears on step 3 */}
       <div className="flex-1 overflow-hidden relative">
         <div
           key={animKey}
-          className="absolute inset-0 overflow-y-auto px-3 py-4 explanation-step-slide"
+          className="absolute inset-0 overflow-hidden px-3 py-4 explanation-step-slide"
           style={{ "--step-dir": direction } as React.CSSProperties}
         >
           <div className="space-y-2">
@@ -396,12 +264,14 @@ const AnimatedExplanation = ({ isDarkMode }: { isDarkMode: boolean }) => {
                 </span>
               </div>
             </div>
-            <div className="text-[15px] leading-snug pl-9 explanation-content text-foreground/90">
-              {step.body}
-            </div>
+            <div
+              className="text-[15px] leading-snug pl-9 explanation-content text-foreground/90"
+              // renderMixedContent output is app-owned static data, not user input
+              dangerouslySetInnerHTML={{ __html: renderMixedContent(step.body) }}
+            />
             {step.desmos && (
               <div className="ml-9 mt-2">
-                <InlineDesmos expressions={step.desmos} height={220} />
+                <InlineDesmos expressions={step.desmos} height={260} />
               </div>
             )}
           </div>
@@ -413,7 +283,7 @@ const AnimatedExplanation = ({ isDarkMode }: { isDarkMode: boolean }) => {
         <Button
           variant="ghost"
           size="sm"
-          onClick={() => goTo(currentStep - 1)}
+          onClick={() => onNavigate?.(currentStep - 1)}
           disabled={currentStep === 0}
           className="flex-1 gap-1"
         >
@@ -427,7 +297,7 @@ const AnimatedExplanation = ({ isDarkMode }: { isDarkMode: boolean }) => {
         ) : (
           <Button
             size="sm"
-            onClick={() => goTo(currentStep + 1)}
+            onClick={() => onNavigate?.(currentStep + 1)}
             className="flex-1 gap-1"
           >
             Next Step
@@ -437,605 +307,24 @@ const AnimatedExplanation = ({ isDarkMode }: { isDarkMode: boolean }) => {
       </div>
     </div>
   );
-};
+});
+AnimatedExplanation.displayName = "AnimatedExplanation";
 
-// ─── Scroll-driven question interface ──────────────────────────────────────
+// ─── Scroll-driven explanation feature section (spotlight + scroll-through steps)
 
-const SCROLL_DEMO_Q = {
-  text: "In a linear function f, f(2) = 7 and f(5) = 19. What is the value of f(9)?",
-  choices: [
-    { id: "A", text: "27" },
-    { id: "B", text: "31" },
-    { id: "C", text: "35" },
-    { id: "D", text: "39" },
-  ],
-  correctId: "C",
-  explanation:
-    "Slope = (19 − 7)/(5 − 2) = 4. Using f(x) = 4x + b with f(2) = 7 gives b = −1, so f(9) = 4(9) − 1 = 35.",
-};
-
-const ScrollQuestionDemo = ({ isDarkMode }: { isDarkMode: boolean }) => {
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const [progress, setProgress] = useState(0);
-
-  useEffect(() => {
-    const update = () => {
-      const el = sectionRef.current;
-      if (!el) return;
-      const rect = el.getBoundingClientRect();
-      const total = rect.height - window.innerHeight;
-      const raw = total > 0 ? -rect.top / total : 0;
-      setProgress(Math.max(0, Math.min(1, raw)));
-    };
-    update();
-    window.addEventListener("scroll", update, { passive: true });
-    window.addEventListener("resize", update);
-    return () => {
-      window.removeEventListener("scroll", update);
-      window.removeEventListener("resize", update);
-    };
-  }, []);
-
-  const answerSelected = progress > 0.3;
-  const checked = progress > 0.55;
-  const explained = progress > 0.72;
-
-  const cardRef = useRef<HTMLDivElement>(null);
-  const mcqRef = useRef<HTMLDivElement>(null);
-  const [rowPos, setRowPos] = useState<{ rowTop: number; checkX: number; choiceX: number } | null>(null);
-
-  useEffect(() => {
-    const measure = () => {
-      const card = cardRef.current;
-      const mcq = mcqRef.current;
-      if (!card || !mcq) return;
-      const correctIdx = SCROLL_DEMO_Q.choices.findIndex(
-        (c) => c.id === SCROLL_DEMO_Q.correctId,
-      );
-      const targetRow = mcq.firstElementChild?.children[correctIdx] as HTMLElement | undefined;
-      if (!targetRow) return;
-      const cardRect = card.getBoundingClientRect();
-      const rowRect = targetRow.getBoundingClientRect();
-      setRowPos({
-        rowTop: rowRect.top - cardRect.top + rowRect.height / 2,
-        choiceX: 36,
-        checkX: rowRect.right - cardRect.left - 48,
-      });
-    };
-    measure();
-    const t = setTimeout(measure, 60);
-    window.addEventListener("resize", measure);
-    return () => { clearTimeout(t); window.removeEventListener("resize", measure); };
-  }, []);
-
-  // Cursor anchored to measured row for the correct-answer choice
-  const cursor = ((): { left: string; top: string } => {
-    const rowTop = rowPos ? `${rowPos.rowTop}px` : "50%";
-    const checkLeft = rowPos ? `${rowPos.checkX}px` : "88%";
-    const choiceLeft = rowPos ? `${rowPos.choiceX}px` : "10%";
-    if (progress < 0.28) return { left: "50%", top: "60px" };
-    if (progress < 0.55) return { left: choiceLeft, top: rowTop };
-    if (progress < 0.72) return { left: checkLeft,  top: rowTop };
-    return { left: "50%", top: rowTop };
-  })();
-  const cursorClicking =
-    (progress > 0.26 && progress < 0.32) || (progress > 0.53 && progress < 0.58);
-
-  const selectedAnswer = answerSelected ? SCROLL_DEMO_Q.correctId : "";
-  const checkedAnswers = checked ? { [SCROLL_DEMO_Q.correctId]: true } : {};
-
-  return (
-    <section
-      ref={sectionRef}
-      style={{ position: "relative", height: "240vh" }}
-    >
-      <div
-        style={{
-          position: "sticky",
-          top: 0,
-          height: "100vh",
-          display: "flex",
-          alignItems: "center",
-          padding: "0 24px",
-        }}
-      >
-        <div
-          style={{
-            maxWidth: 1200,
-            margin: "0 auto",
-            width: "100%",
-            display: "grid",
-            gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.1fr)",
-            gap: 64,
-            alignItems: "center",
-          }}
-        >
-          {/* Left: big text */}
-          <div>
-            <div
-              style={{
-                fontSize: 11,
-                letterSpacing: "0.18em",
-                textTransform: "uppercase",
-                color: "hsl(201,100%,60%)",
-                fontWeight: 600,
-                marginBottom: 18,
-              }}
-            >
-              — Scroll to play
-            </div>
-            <h2
-              style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
-                fontSize: "clamp(44px, 6vw, 76px)",
-                lineHeight: 0.98,
-                letterSpacing: "-0.025em",
-                color: "hsl(var(--foreground))",
-                margin: "0 0 22px",
-              }}
-            >
-              Real questions.
-              <br />
-              <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>
-                Real feedback.
-              </em>
-            </h2>
-            <p
-              style={{
-                fontSize: 16,
-                lineHeight: 1.65,
-                fontWeight: 300,
-                color: isDarkMode
-                  ? "rgba(255,255,255,0.55)"
-                  : "rgba(15,23,42,0.62)",
-                maxWidth: 420,
-                margin: 0,
-              }}
-            >
-              Every question is answer-checked with a full written
-              explanation — tailored to the exact choice you made.
-            </p>
-
-            {/* Progress indicator */}
-            <div
-              style={{
-                marginTop: 34,
-                display: "flex",
-                alignItems: "center",
-                gap: 12,
-              }}
-            >
-              <div
-                style={{
-                  flex: 1,
-                  maxWidth: 200,
-                  height: 3,
-                  borderRadius: 2,
-                  background: isDarkMode
-                    ? "rgba(255,255,255,0.08)"
-                    : "rgba(15,23,42,0.1)",
-                  overflow: "hidden",
-                }}
-              >
-                <div
-                  style={{
-                    width: `${progress * 100}%`,
-                    height: "100%",
-                    background: "hsl(201,100%,70%)",
-                    transition: "width 0.08s linear",
-                  }}
-                />
-              </div>
-              <span
-                style={{
-                  fontSize: 11,
-                  fontFamily: "'Space Mono', monospace",
-                  color: isDarkMode
-                    ? "rgba(255,255,255,0.4)"
-                    : "rgba(15,23,42,0.5)",
-                }}
-              >
-                {explained
-                  ? "solved"
-                  : checked
-                  ? "checking"
-                  : answerSelected
-                  ? "answering"
-                  : "reading"}
-              </span>
-            </div>
-          </div>
-
-          {/* Right: demo window */}
-          <div style={{ position: "relative" }}>
-            <div
-              style={{
-                position: "absolute",
-                inset: "-30px",
-                background: isDarkMode
-                  ? "radial-gradient(ellipse at 50% 50%, rgba(125,211,252,0.12) 0%, transparent 65%)"
-                  : "radial-gradient(ellipse at 50% 50%, rgba(56,189,248,0.15) 0%, transparent 65%)",
-                pointerEvents: "none",
-              }}
-            />
-            <div
-              ref={cardRef}
-              className="relative bg-card"
-              style={{
-                borderRadius: 14,
-                overflow: "hidden",
-                boxShadow: isDarkMode
-                  ? "0 0 0 1px rgba(255,255,255,0.07), 0 40px 100px rgba(0,0,0,0.55)"
-                  : "0 0 0 1px rgba(15,23,42,0.08), 0 24px 64px rgba(15,23,42,0.12)",
-              }}
-            >
-              {/* Question header, mirrors /question page */}
-              <div className="px-5 pt-4">
-                <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
-                  <div className="flex items-center h-full gap-2">
-                    <div className="bg-white dark:bg-black text-black dark:text-white h-full min-w-[3.5rem] px-2 flex items-center justify-center font-bold text-base tabular-nums border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
-                      284
-                    </div>
-                    <div className="h-7 rounded px-3 gap-2 font-normal text-muted-foreground inline-flex items-center">
-                      <Bookmark className="h-3.5 w-3.5" />
-                      <span className="text-xs font-medium">Mark for Review</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="px-5 pt-4 pb-5">
-                <div className="mb-5 text-[15px] leading-relaxed text-foreground">
-                  {SCROLL_DEMO_Q.text}
-                </div>
-
-                <div ref={mcqRef} className="pointer-events-none">
-                  <MultipleChoiceQuestion
-                    choices={SCROLL_DEMO_Q.choices}
-                    selectedAnswer={selectedAnswer}
-                    checkedAnswers={checkedAnswers}
-                    onCheck={() => {}}
-                    questionId="scroll-demo"
-                    subject="math"
-                  />
-                </div>
-
-                <div
-                  style={{
-                    marginTop: 14,
-                    minHeight: 96,
-                    opacity: explained ? 1 : 0,
-                    transition: "opacity 0.45s ease",
-                  }}
-                >
-                  <div className="rounded-xl border border-[#2E7D32]/40 bg-[#C8E6C9]/20 dark:border-[#2E7D32]/50 dark:bg-[#1B5E20]/20 px-4 py-3">
-                    <div className="flex items-center gap-2 mb-1">
-                      <div className="w-5 h-5 rounded-full bg-[#1B5E20] dark:bg-[#2E7D32] flex items-center justify-center text-white text-xs font-bold">
-                        ✓
-                      </div>
-                      <span className="text-sm font-semibold text-[#1B5E20] dark:text-[#4ade80]">
-                        Correct — Choice {SCROLL_DEMO_Q.correctId}
-                      </span>
-                    </div>
-                    <p className="text-[13px] text-muted-foreground leading-snug m-0 pl-7">
-                      {SCROLL_DEMO_Q.explanation}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Cursor overlay */}
-            <div
-              style={{
-                position: "absolute",
-                left: cursor.left,
-                top: cursor.top,
-                transition:
-                  "left 0.5s cubic-bezier(0.25,0.46,0.45,0.94), top 0.5s cubic-bezier(0.25,0.46,0.45,0.94)",
-                pointerEvents: "none",
-                zIndex: 20,
-                filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.6))",
-              }}
-            >
-              <CursorDot clicking={cursorClicking} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// ─── Animated filter bank demo ─────────────────────────────────────────────
-
-type DifficultyPill = "easy" | "medium" | "hard";
-type SubjectPill = "math" | "reading";
-
-const AnimatedFilterBank = ({
-  isDarkMode,
-  totalQuestions,
-  mathCount,
-  readingCount,
-}: {
-  isDarkMode: boolean;
-  totalQuestions: number;
-  mathCount: number;
-  readingCount: number;
-}) => {
-  const [difficulties, setDifficulties] = useState<DifficultyPill[]>([]);
-  const [subjects, setSubjects] = useState<SubjectPill[]>([]);
-
-  const toggle = <T extends string>(list: T[], value: T): T[] =>
-    list.includes(value) ? list.filter((v) => v !== value) : [...list, value];
-
-  // Count reacts to subject (exact) and difficulty (proportional — SAT bank splits ~roughly even)
-  const matchingCount = useMemo(() => {
-    const subjectTotal =
-      subjects.length === 0
-        ? totalQuestions
-        : subjects.reduce(
-            (acc, s) => acc + (s === "math" ? mathCount : readingCount),
-            0,
-          );
-    const difficultyFraction =
-      difficulties.length === 0 ? 1 : difficulties.length / 3;
-    return Math.round(subjectTotal * difficultyFraction);
-  }, [subjects, difficulties, totalQuestions, mathCount, readingCount]);
-
-  return (
-    <div
-      className="rounded-[14px] overflow-hidden border border-border bg-card"
-      style={{
-        boxShadow: isDarkMode
-          ? "0 20px 60px rgba(0,0,0,0.5)"
-          : "0 20px 50px rgba(15,23,42,0.1)",
-      }}
-    >
-      <div className="p-5 sm:p-6 space-y-5">
-        <FilterPillRow
-          icon={<BarChart3 className="h-4 w-4" />}
-          label="Difficulty"
-          options={[
-            { value: "easy", label: "Easy" },
-            { value: "medium", label: "Medium" },
-            { value: "hard", label: "Hard" },
-          ]}
-          selected={difficulties}
-          onToggle={(v) => setDifficulties((d) => toggle(d, v as DifficultyPill))}
-        />
-
-        <FilterPillRow
-          icon={<BookOpen className="h-4 w-4" />}
-          label="Subject"
-          options={[
-            { value: "math", label: "Math" },
-            { value: "reading", label: "Reading & Writing" },
-          ]}
-          selected={subjects}
-          onToggle={(v) => setSubjects((s) => toggle(s, v as SubjectPill))}
-        />
-
-        <div className="pt-4 border-t border-border flex items-baseline gap-2">
-          <span className="font-mono text-3xl font-bold text-primary transition-colors tabular-nums">
-            {matchingCount.toLocaleString()}
-          </span>
-          <span className="text-[11px] text-muted-foreground tracking-widest uppercase">
-            matching questions
-          </span>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-// ─── Rotating skill-count orbit ────────────────────────────────────────────
-
-const SKILL_ORBIT: { label: string; count: number }[] = [
-  { label: "Linear functions", count: 612 },
-  { label: "Nonlinear functions", count: 548 },
-  { label: "Equivalent expressions", count: 421 },
-  { label: "Ratios & rates", count: 376 },
-  { label: "Percentages", count: 289 },
-  { label: "One-variable data", count: 312 },
-  { label: "Probability", count: 244 },
-  { label: "Area & volume", count: 268 },
-  { label: "Right triangles", count: 231 },
-  { label: "Circles", count: 198 },
-  { label: "Words in Context", count: 487 },
-  { label: "Transitions", count: 403 },
-  { label: "Inferences", count: 356 },
-  { label: "Boundaries", count: 298 },
-  { label: "Form & Structure", count: 342 },
-  { label: "Central Ideas", count: 274 },
-];
-
-const SkillOrbit = ({
-  visible,
-  totalQuestions,
-  isDarkMode,
-}: {
-  visible: boolean;
-  totalQuestions: number;
-  isDarkMode: boolean;
-}) => {
-  const [rotation, setRotation] = useState(0);
-  useEffect(() => {
-    let frame = 0;
-    let last = performance.now();
-    const tick = (now: number) => {
-      const dt = now - last;
-      last = now;
-      setRotation((r) => (r + dt * 0.012) % 360); // ~4.3°/s, gentle drift
-      frame = requestAnimationFrame(tick);
-    };
-    frame = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(frame);
-  }, []);
-
-  const radius = 200;
-  const chips = SKILL_ORBIT;
-
-  return (
-    <div
-      style={{
-        position: "absolute",
-        inset: 0,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        pointerEvents: "none",
-        opacity: visible ? 1 : 0,
-        transform: visible ? "scale(1)" : "scale(0.88)",
-        transition: "opacity 0.55s ease, transform 0.55s cubic-bezier(0.22, 1, 0.36, 1)",
-        zIndex: 5,
-      }}
-    >
-      {/* Faint guide ring */}
-      <div
-        style={{
-          position: "absolute",
-          width: radius * 2 + 40,
-          height: radius * 2 + 40,
-          borderRadius: "50%",
-          border: isDarkMode
-            ? "1px dashed rgba(125,211,252,0.18)"
-            : "1px dashed rgba(56,189,248,0.22)",
-        }}
-      />
-      <div
-        style={{
-          position: "relative",
-          width: radius * 2,
-          height: radius * 2,
-          transform: `rotate(${rotation}deg)`,
-        }}
-      >
-        {chips.map((chip, i) => {
-          const angle = (i / chips.length) * 2 * Math.PI;
-          const x = Math.cos(angle) * radius;
-          const y = Math.sin(angle) * radius;
-          return (
-            <div
-              key={chip.label}
-              style={{
-                position: "absolute",
-                left: "50%",
-                top: "50%",
-                transform: `translate(calc(-50% + ${x}px), calc(-50% + ${y}px)) rotate(${-rotation}deg)`,
-                display: "flex",
-                alignItems: "center",
-                gap: 8,
-                padding: "6px 12px",
-                borderRadius: 999,
-                background: isDarkMode
-                  ? "rgba(20, 30, 48, 0.88)"
-                  : "rgba(255,255,255,0.95)",
-                border: isDarkMode
-                  ? "1px solid rgba(125,211,252,0.25)"
-                  : "1px solid rgba(56,189,248,0.3)",
-                boxShadow: isDarkMode
-                  ? "0 4px 14px rgba(0,0,0,0.4)"
-                  : "0 4px 14px rgba(15,23,42,0.08)",
-                whiteSpace: "nowrap",
-                fontSize: 12,
-                fontWeight: 500,
-                color: "hsl(var(--foreground))",
-              }}
-            >
-              <span>{chip.label}</span>
-              <span
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  minWidth: 36,
-                  height: 22,
-                  padding: "0 8px",
-                  borderRadius: 999,
-                  background: "hsl(201,100%,70%)",
-                  color: "hsl(210,50%,12%)",
-                  fontFamily: "'Space Mono', monospace",
-                  fontSize: 11,
-                  fontWeight: 700,
-                  fontVariantNumeric: "tabular-nums",
-                }}
-              >
-                {chip.count}
-              </span>
-            </div>
-          );
-        })}
-      </div>
-      {/* Center total */}
-      <div
-        style={{
-          position: "absolute",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          gap: 4,
-          padding: "14px 22px",
-          borderRadius: 16,
-          background: isDarkMode
-            ? "rgba(10,18,32,0.9)"
-            : "rgba(255,255,255,0.95)",
-          border: isDarkMode
-            ? "1px solid rgba(125,211,252,0.3)"
-            : "1px solid rgba(56,189,248,0.35)",
-          boxShadow: isDarkMode
-            ? "0 10px 40px rgba(0,0,0,0.5)"
-            : "0 10px 40px rgba(15,23,42,0.1)",
-        }}
-      >
-        <span
-          style={{
-            fontFamily: "'Space Mono', monospace",
-            fontSize: 30,
-            fontWeight: 700,
-            color: "hsl(201,100%,70%)",
-            lineHeight: 1,
-            fontVariantNumeric: "tabular-nums",
-          }}
-        >
-          {totalQuestions.toLocaleString()}
-        </span>
-        <span
-          style={{
-            fontSize: 10,
-            letterSpacing: "0.12em",
-            textTransform: "uppercase",
-            color: isDarkMode
-              ? "rgba(255,255,255,0.5)"
-              : "rgba(15,23,42,0.55)",
-          }}
-        >
-          tagged questions
-        </span>
-      </div>
-    </div>
-  );
-};
-
-// ─── Scroll-driven filter feature section ─────────────────────────────────
-
-const FilterFeatureSection = ({
-  isDarkMode,
-  totalQuestions,
-  mathCount,
-  readingCount,
-}: {
-  isDarkMode: boolean;
-  totalQuestions: number;
-  mathCount: number;
-  readingCount: number;
-}) => {
+const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const navigate = useNavigate();
   const sectionRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
+  const prevStepRef = useRef(0);
+  const [direction, setDirection] = useState<1 | -1>(1);
+  const [animKey, setAnimKey] = useState(0);
 
   useEffect(() => {
-    const update = () => {
+    let rafId = 0;
+    let pending = false;
+    const compute = () => {
+      pending = false;
       const el = sectionRef.current;
       if (!el) return;
       const rect = el.getBoundingClientRect();
@@ -1043,40 +332,94 @@ const FilterFeatureSection = ({
       const raw = total > 0 ? -rect.top / total : 0;
       setProgress(Math.max(0, Math.min(1, raw)));
     };
-    update();
-    window.addEventListener("scroll", update, { passive: true });
-    window.addEventListener("resize", update);
+    const schedule = () => {
+      if (pending) return;
+      pending = true;
+      rafId = requestAnimationFrame(compute);
+    };
+    compute();
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
     return () => {
-      window.removeEventListener("scroll", update);
-      window.removeEventListener("resize", update);
+      cancelAnimationFrame(rafId);
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
     };
   }, []);
 
-  // Orbit is visible during the middle of the scroll, then fades out
-  const orbitVisible = progress > 0.28 && progress < 0.72;
+  const totalSteps = EXPLANATION_STEPS.length;
+
+  // Map scroll progress to a step index.
+  // 0..0.15  → intro (step 0, card small)
+  // 0.15..0.85 → step 0→N (card full-size, spotlight)
+  // 0.85..1  → outro (card small)
+  const spotlight = progress > 0.12 && progress < 0.88;
+  const stepProgress = Math.max(0, Math.min(1, (progress - 0.15) / 0.70));
+  const currentStep = Math.min(totalSteps - 1, Math.floor(stepProgress * totalSteps));
+
+  useEffect(() => {
+    if (currentStep !== prevStepRef.current) {
+      setDirection(currentStep > prevStepRef.current ? 1 : -1);
+      setAnimKey((k) => k + 1);
+      prevStepRef.current = currentStep;
+    }
+  }, [currentStep]);
+
+  // Map a target step index back to the scroll-position whose progress lands
+  // inside that step's slice. We aim slightly past the slice's start so the
+  // browser's scroll-snap can't drift back into the previous step.
+  const scrollToStep = useCallback((target: number) => {
+    const clamped = Math.max(0, Math.min(totalSteps - 1, target));
+    const el = sectionRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const total = rect.height - window.innerHeight;
+    if (total <= 0) return;
+    const sectionTopAbs = rect.top + window.scrollY;
+    // Slice center: progress = 0.15 + (step + 0.5)/totalSteps * 0.70
+    const targetProgress = 0.15 + ((clamped + 0.5) / totalSteps) * 0.70;
+    window.scrollTo({
+      top: sectionTopAbs + targetProgress * total,
+      behavior: "smooth",
+    });
+  }, [totalSteps]);
+
+  // Card scales up as it enters the spotlight, and down as it leaves
+  const scale = spotlight ? 1 : 0.9;
+  // Dim overlay opacity ramps up/down around the spotlight window
+  const dimOpacity = spotlight
+    ? Math.min(1, (progress - 0.12) / 0.08) * Math.min(1, (0.88 - progress) / 0.08)
+    : 0;
 
   return (
-    <div ref={sectionRef} style={{ position: "relative", height: "260vh" }}>
+    <div ref={sectionRef} style={{ position: "relative", height: "320vh" }}>
       <div
         style={{
           position: "sticky",
           top: 0,
           height: "100vh",
-          display: "flex",
-          alignItems: "center",
           overflow: "hidden",
         }}
       >
-        {/* Rotating skill orbit overlay */}
-        <SkillOrbit
-          visible={orbitVisible}
-          totalQuestions={totalQuestions}
-          isDarkMode={isDarkMode}
-        />
-
-        {/* Feature content (fades when orbit is active) */}
+        {/* Full-screen spotlight dim overlay */}
         <div
           style={{
+            position: "absolute",
+            inset: 0,
+            background: isDarkMode
+              ? "radial-gradient(ellipse at 68% 50%, transparent 18%, rgba(0,0,0,0.78) 58%)"
+              : "radial-gradient(ellipse at 68% 50%, transparent 18%, rgba(10,18,32,0.55) 58%)",
+            opacity: dimOpacity * 0.95,
+            pointerEvents: "none",
+            zIndex: 2,
+          }}
+        />
+
+        <div
+          style={{
+            position: "relative",
+            zIndex: 3,
+            height: "100%",
             display: "grid",
             gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.1fr)",
             gap: 64,
@@ -1084,12 +427,10 @@ const FilterFeatureSection = ({
             padding: "0 24px",
             maxWidth: 1200,
             margin: "0 auto",
-            width: "100%",
-            opacity: orbitVisible ? 0.12 : 1,
-            transition: "opacity 0.45s ease",
           }}
         >
-          <div>
+          {/* Left: headline */}
+          <div style={{ opacity: spotlight ? 0.35 : 1, transition: "opacity 0.5s ease" }}>
             <div
               style={{
                 fontSize: 11,
@@ -1100,7 +441,7 @@ const FilterFeatureSection = ({
                 marginBottom: 18,
               }}
             >
-              — {totalQuestions.toLocaleString()} questions
+              — Walk-through explanations
             </div>
             <h2
               style={{
@@ -1112,10 +453,10 @@ const FilterFeatureSection = ({
                 margin: "0 0 22px",
               }}
             >
-              Every question,
+              See how every
               <br />
               <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>
-                instantly filterable.
+                answer is built.
               </em>
             </h2>
             <p
@@ -1123,17 +464,15 @@ const FilterFeatureSection = ({
                 fontSize: 16,
                 lineHeight: 1.65,
                 fontWeight: 300,
-                color: isDarkMode
-                  ? "rgba(255,255,255,0.55)"
-                  : "rgba(15,23,42,0.62)",
+                color: isDarkMode ? "rgba(255,255,255,0.55)" : "rgba(15,23,42,0.62)",
                 maxWidth: 420,
                 margin: "0 0 28px",
               }}
             >
-              Slice the bank by domain, skill, or difficulty. Numbers update as you tap — nothing to configure, nothing to wait for.
+              Every question unfolds step by step — the setup, the key move, the interpretation. Scroll to walk through the reasoning.
             </p>
             <button
-              onClick={() => navigate("/bank")}
+              onClick={() => navigate("/hard")}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -1148,112 +487,451 @@ const FilterFeatureSection = ({
                 fontFamily: "'Outfit', sans-serif",
               }}
             >
-              Open the question bank
+              Try a hard question
               <ArrowRight size={14} />
             </button>
           </div>
+
+          {/* Right: the scroll-driven explanation card */}
           <div style={{ position: "relative" }}>
+            <AnimatedExplanation
+              isDarkMode={isDarkMode}
+              currentStep={currentStep}
+              direction={direction}
+              animKey={animKey}
+              scale={scale}
+              onNavigate={scrollToStep}
+            />
+            {/* Scroll progress hint */}
             <div
               style={{
-                position: "absolute",
-                inset: "-30px",
-                background: isDarkMode
-                  ? "radial-gradient(ellipse at 50% 50%, rgba(125,211,252,0.1) 0%, transparent 65%)"
-                  : "radial-gradient(ellipse at 50% 50%, rgba(56,189,248,0.13) 0%, transparent 65%)",
-                pointerEvents: "none",
+                marginTop: 14,
+                display: "flex",
+                justifyContent: "center",
+                gap: 4,
+                opacity: spotlight ? 1 : 0,
+                transition: "opacity 0.4s ease",
               }}
-            />
-            <div style={{ position: "relative" }}>
-              <AnimatedFilterBank
-                isDarkMode={isDarkMode}
-                totalQuestions={totalQuestions}
-                mathCount={mathCount}
-                readingCount={readingCount}
-              />
+            >
+              {EXPLANATION_STEPS.map((_, i) => (
+                <div
+                  key={i}
+                  style={{
+                    width: 28,
+                    height: 3,
+                    borderRadius: 2,
+                    background: i <= currentStep
+                      ? "hsl(201,100%,70%)"
+                      : isDarkMode
+                      ? "rgba(255,255,255,0.12)"
+                      : "rgba(15,23,42,0.14)",
+                    transition: "background 0.3s",
+                  }}
+                />
+              ))}
             </div>
           </div>
         </div>
       </div>
     </div>
   );
+});
+ExplanationFeatureSection.displayName = "ExplanationFeatureSection";
+
+// ─── Question bank feature section ───────────────────────────────────────────
+
+type DifficultyPill = "easy" | "medium" | "hard";
+type SubjectPill = "math" | "reading";
+
+type SkillEntry = {
+  label: string;       // display label
+  bankSkill: string;   // exact skill name in questionBank
+  bankDomain: string;  // exact domain name in questionBank
+  count: number;       // approximate total across all difficulties
+  subject: SubjectPill;
 };
 
-const FilterPillRow = ({
-  icon,
-  label,
-  options,
-  selected,
-  onToggle,
+const SKILL_ORBIT: SkillEntry[] = [
+  { label: "Linear functions",       bankSkill: "Linear functions",                                                   bankDomain: "Algebra",                            count: 612, subject: "math" },
+  { label: "Nonlinear functions",    bankSkill: "Nonlinear functions",                                                bankDomain: "Advanced Math",                      count: 548, subject: "math" },
+  { label: "Equivalent expressions", bankSkill: "Equivalent expressions",                                             bankDomain: "Advanced Math",                      count: 421, subject: "math" },
+  { label: "Ratios & rates",         bankSkill: "Ratios, rates, proportional relationships, and units",               bankDomain: "Problem-Solving and Data Analysis",  count: 376, subject: "math" },
+  { label: "Percentages",            bankSkill: "Percentages",                                                        bankDomain: "Problem-Solving and Data Analysis",  count: 289, subject: "math" },
+  { label: "One-variable data",      bankSkill: "One-variable data: Distributions and measures of center and spread", bankDomain: "Problem-Solving and Data Analysis",  count: 312, subject: "math" },
+  { label: "Probability",            bankSkill: "Probability and conditional probability",                             bankDomain: "Problem-Solving and Data Analysis",  count: 244, subject: "math" },
+  { label: "Area & volume",          bankSkill: "Area and volume",                                                    bankDomain: "Geometry and Trigonometry",          count: 268, subject: "math" },
+  { label: "Right triangles",        bankSkill: "Right triangles and trigonometry",                                   bankDomain: "Geometry and Trigonometry",          count: 231, subject: "math" },
+  { label: "Circles",                bankSkill: "Circles",                                                            bankDomain: "Geometry and Trigonometry",          count: 198, subject: "math" },
+  { label: "Words in Context",       bankSkill: "Words in Context",                                                   bankDomain: "Craft and Structure",                count: 487, subject: "reading" },
+  { label: "Transitions",            bankSkill: "Transitions",                                                        bankDomain: "Expression of Ideas",               count: 403, subject: "reading" },
+  { label: "Inferences",             bankSkill: "Inferences",                                                         bankDomain: "Information and Ideas",             count: 356, subject: "reading" },
+  { label: "Boundaries",             bankSkill: "Boundaries",                                                         bankDomain: "Standard English Conventions",       count: 298, subject: "reading" },
+  { label: "Form & Structure",       bankSkill: "Form, Structure, and Sense",                                         bankDomain: "Standard English Conventions",       count: 342, subject: "reading" },
+  { label: "Central Ideas",          bankSkill: "Central Ideas and Details",                                          bankDomain: "Information and Ideas",             count: 274, subject: "reading" },
+];
+
+const DIFFICULTY_COLORS: Record<DifficultyPill, { bg: string; border: string; text: string }> = {
+  easy:   { bg: "rgba(34,197,94,0.15)",   border: "rgba(34,197,94,0.5)",   text: "#16a34a" },
+  medium: { bg: "rgba(234,179,8,0.15)",   border: "rgba(234,179,8,0.5)",   text: "#ca8a04" },
+  hard:   { bg: "rgba(239,68,68,0.15)",   border: "rgba(239,68,68,0.5)",   text: "#dc2626" },
+};
+
+const FilterFeatureSection = memo(({
+  isDarkMode,
+  totalQuestions,
 }: {
-  icon: React.ReactNode;
-  label: string;
-  options: { value: string; label: string }[];
-  selected: string[];
-  onToggle: (value: string) => void;
-}) => (
-  <div className="space-y-2">
-    <div className="flex items-center gap-2 text-sm text-muted-foreground">
-      {icon}
-      <span>{label}</span>
-    </div>
-    <div className="flex flex-wrap gap-2">
-      {options.map((opt) => {
-        const isSelected = selected.includes(opt.value);
-        return (
-          <button
-            key={opt.value}
-            type="button"
-            onClick={() => onToggle(opt.value)}
-            className={`rounded-full border px-4 py-1.5 text-sm transition-colors ${
-              isSelected
-                ? "border-primary bg-primary text-primary-foreground"
-                : "border-border bg-background hover:bg-muted text-foreground"
-            }`}
+  isDarkMode: boolean;
+  totalQuestions: number;
+}) => {
+  const navigate = useNavigate();
+  const [selectedDifficulties, setSelectedDifficulties] = useState<DifficultyPill[]>(["easy", "medium", "hard"]);
+  const [selectedSkills, setSelectedSkills] = useState<Set<string>>(new Set());
+
+  const toggleDifficulty = useCallback((d: DifficultyPill) => {
+    setSelectedDifficulties((prev) =>
+      prev.includes(d) ? prev.filter((x) => x !== d) : [...prev, d],
+    );
+  }, []);
+
+  const toggleSkill = useCallback((label: string) => {
+    setSelectedSkills((prev) => {
+      const next = new Set(prev);
+      if (next.has(label)) next.delete(label);
+      else next.add(label);
+      return next;
+    });
+  }, []);
+
+  const matchingCount = useMemo(() => {
+    const diffFraction = selectedDifficulties.length === 0 ? 1 : selectedDifficulties.length / 3;
+    if (selectedSkills.size === 0) {
+      return Math.round(totalQuestions * diffFraction);
+    }
+    const skillTotal = SKILL_ORBIT.filter((s) => selectedSkills.has(s.label)).reduce(
+      (acc, s) => acc + s.count,
+      0,
+    );
+    return Math.round(skillTotal * diffFraction);
+  }, [selectedDifficulties, selectedSkills, totalQuestions]);
+
+  const openBank = useCallback(() => {
+    if (selectedDifficulties.length > 0 || selectedSkills.size > 0) {
+      const preset = {
+        difficulties: selectedDifficulties,
+        skills: SKILL_ORBIT
+          .filter((s) => selectedSkills.has(s.label))
+          .map((s) => ({ bankSkill: s.bankSkill, bankDomain: s.bankDomain, subject: s.subject })),
+      };
+      sessionStorage.setItem("bankFilterPreset", JSON.stringify(preset));
+    }
+    navigate("/bank");
+  }, [navigate, selectedDifficulties, selectedSkills]);
+
+  const chipBase: React.CSSProperties = {
+    display: "inline-flex",
+    alignItems: "center",
+    gap: 7,
+    padding: "5px 11px",
+    borderRadius: 999,
+    fontSize: 12,
+    fontWeight: 500,
+    cursor: "pointer",
+    transition: "border-color 0.15s, background 0.15s, color 0.15s",
+    border: "1px solid",
+    userSelect: "none",
+  };
+
+  return (
+    <div className="pt-6 pb-24 px-4">
+      <div className="mx-auto" style={{ maxWidth: 900 }}>
+
+        {/* Header */}
+        <div className="text-center mb-10">
+          <h2
+            style={{
+              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontSize: "clamp(30px, 4vw, 52px)",
+              lineHeight: 1,
+              letterSpacing: "-0.025em",
+              color: "hsl(var(--foreground))",
+              margin: "0 0 14px",
+            }}
           >
-            {opt.label}
+            Every question,{" "}
+            <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>
+              instantly filterable.
+            </em>
+          </h2>
+          <p style={{ fontSize: 15, color: "hsl(var(--muted-foreground))", margin: 0 }}>
+            Toggle skills and difficulty below, then jump straight to what you need.
+          </p>
+        </div>
+
+        {/* Difficulty toggles */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: 10,
+            marginBottom: 24,
+          }}
+        >
+          {(["easy", "medium", "hard"] as DifficultyPill[]).map((d) => {
+            const active = selectedDifficulties.includes(d);
+            const colors = DIFFICULTY_COLORS[d];
+            return (
+              <button
+                key={d}
+                type="button"
+                onClick={() => toggleDifficulty(d)}
+                style={{
+                  ...chipBase,
+                  padding: "7px 18px",
+                  fontSize: 13,
+                  fontWeight: 600,
+                  background: active ? colors.bg : isDarkMode ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.03)",
+                  borderColor: active ? colors.border : isDarkMode ? "rgba(255,255,255,0.12)" : "rgba(0,0,0,0.12)",
+                  color: active ? colors.text : "hsl(var(--muted-foreground))",
+                  boxShadow: active ? `0 0 0 2px ${colors.border}` : "none",
+                }}
+              >
+                {d.charAt(0).toUpperCase() + d.slice(1)}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Skill chips */}
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: 9,
+            justifyContent: "center",
+            marginBottom: 32,
+          }}
+        >
+          {SKILL_ORBIT.map((chip) => {
+            const active = selectedSkills.has(chip.label);
+            const diffFraction = selectedDifficulties.length === 0 ? 1 : selectedDifficulties.length / 3;
+            const displayCount = Math.round(chip.count * diffFraction);
+            return (
+              <button
+                key={chip.label}
+                type="button"
+                onClick={() => toggleSkill(chip.label)}
+                style={{
+                  ...chipBase,
+                  background: active
+                    ? isDarkMode ? "rgba(125,211,252,0.18)" : "rgba(56,189,248,0.12)"
+                    : isDarkMode ? "rgba(20,30,48,0.6)" : "rgba(255,255,255,0.85)",
+                  borderColor: active
+                    ? isDarkMode ? "rgba(125,211,252,0.6)" : "rgba(56,189,248,0.65)"
+                    : isDarkMode ? "rgba(125,211,252,0.18)" : "rgba(56,189,248,0.22)",
+                  color: active
+                    ? isDarkMode ? "rgba(125,211,252,1)" : "hsl(201,100%,30%)"
+                    : "hsl(var(--foreground))",
+                  boxShadow: active
+                    ? isDarkMode
+                      ? "0 0 0 2px rgba(125,211,252,0.25)"
+                      : "0 0 0 2px rgba(56,189,248,0.2)"
+                    : isDarkMode
+                    ? "0 2px 6px rgba(0,0,0,0.25)"
+                    : "0 2px 6px rgba(15,23,42,0.06)",
+                }}
+              >
+                <span>{chip.label}</span>
+                <span
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    minWidth: 32,
+                    height: 19,
+                    padding: "0 6px",
+                    borderRadius: 999,
+                    background: active ? "hsl(201,100%,70%)" : isDarkMode ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.07)",
+                    color: active ? "hsl(210,50%,12%)" : "hsl(var(--muted-foreground))",
+                    fontFamily: "'Space Mono', monospace",
+                    fontSize: 10,
+                    fontWeight: 700,
+                    fontVariantNumeric: "tabular-nums",
+                    transition: "background 0.15s, color 0.15s",
+                  }}
+                >
+                  {displayCount}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Live count + CTA */}
+        <div className="flex flex-col items-center gap-4">
+          <div
+            style={{
+              display: "flex",
+              alignItems: "baseline",
+              gap: 8,
+              padding: "12px 24px",
+              borderRadius: 12,
+              background: isDarkMode ? "rgba(125,211,252,0.06)" : "rgba(56,189,248,0.06)",
+              border: isDarkMode ? "1px solid rgba(125,211,252,0.15)" : "1px solid rgba(56,189,248,0.18)",
+            }}
+          >
+            <span
+              style={{
+                fontFamily: "'Space Mono', monospace",
+                fontSize: 28,
+                fontWeight: 700,
+                color: "hsl(var(--foreground))",
+                fontVariantNumeric: "tabular-nums",
+                letterSpacing: "-0.02em",
+              }}
+            >
+              {matchingCount.toLocaleString()}
+            </span>
+            <span
+              style={{
+                fontSize: 12,
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                color: "hsl(var(--muted-foreground))",
+                fontWeight: 500,
+              }}
+            >
+              {selectedSkills.size > 0 || selectedDifficulties.length > 0 ? "matching questions" : "total questions"}
+            </span>
+          </div>
+
+          <button
+            type="button"
+            onClick={openBank}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "12px 28px",
+              borderRadius: 10,
+              background: "hsl(201,100%,42%)",
+              color: "#fff",
+              fontWeight: 600,
+              fontSize: 14,
+              border: "none",
+              cursor: "pointer",
+              transition: "background 0.15s",
+            }}
+            onMouseEnter={(e) =>
+              ((e.currentTarget as HTMLButtonElement).style.background = "hsl(201,100%,36%)")
+            }
+            onMouseLeave={(e) =>
+              ((e.currentTarget as HTMLButtonElement).style.background = "hsl(201,100%,42%)")
+            }
+          >
+            Open question bank
+            <ArrowRight className="h-4 w-4" />
           </button>
-        );
-      })}
+        </div>
+
+      </div>
     </div>
-  </div>
-);
+  );
+});
+FilterFeatureSection.displayName = "FilterFeatureSection";
 
 // ─── Animated accuracy sparkline ───────────────────────────────────────────
 
-const AnimatedAccuracyChart = ({ isDarkMode }: { isDarkMode: boolean }) => {
+type AccuracyPoint = { day: number; value: number };
+
+const AnimatedAccuracyChart = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const VISIBLE_POINTS = 14;
-  const [series, setSeries] = useState<number[]>(() => {
-    // Gradually climbing baseline with some noise
-    const out: number[] = [];
-    let v = 58;
-    for (let i = 0; i < VISIBLE_POINTS; i++) {
-      v += (Math.random() - 0.35) * 3.2;
-      v = Math.max(52, Math.min(94, v));
-      out.push(v);
+  const TICK_MS = 1600; // time between new points
+  // Upward trend with visible fluctuation: mean drift is small, jitter is wide
+  // so individual steps can dip while the series still climbs overall.
+  const STEP_MEAN = 1.6;
+  const STEP_JITTER = 6; // ± STEP_JITTER/2 noise
+  const START_MIN = 50;
+  const START_MAX = 54;
+  const RESET_AT = 95;
+  // Buffer points off each side so new data slides in from the right smoothly
+  const SERIES_LEN = VISIBLE_POINTS + 2;
+
+  const seed = (startDay: number): AccuracyPoint[] => {
+    const out: AccuracyPoint[] = [];
+    for (let i = 0; i < SERIES_LEN; i++) {
+      const v = START_MIN + Math.random() * (START_MAX - START_MIN);
+      out.push({ day: startDay + i, value: v });
     }
     return out;
-  });
+  };
 
-  // Continuously stream new data in (no reset — graph keeps marching forward)
+  // Random start date; each series.day is a chronological offset from here
+  const baseDateRef = useRef<Date | null>(null);
+  if (!baseDateRef.current) {
+    const d = new Date();
+    d.setDate(d.getDate() - (60 + Math.floor(Math.random() * 700)));
+    baseDateRef.current = d;
+  }
+  const formatDay = (dayOffset: number) => {
+    const d = new Date(baseDateRef.current!);
+    d.setDate(d.getDate() + dayOffset);
+    return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  };
+
+  // One buffer point off each side for smooth slide-in animation
+  const seriesRef = useRef<AccuracyPoint[]>([]);
+  if (seriesRef.current.length === 0) seriesRef.current = seed(0);
+  const [series, setSeries] = useState<AccuracyPoint[]>(seriesRef.current);
+  const [offset, setOffset] = useState(0); // 0 → 1 per tick (continuous)
+  const [hoverIdx, setHoverIdx] = useState<number | null>(null);
+  const [paused, setPaused] = useState(false);
+
+  // Smoothly animate offset with RAF; when it crosses 1, shift a new point in
   useEffect(() => {
-    const id = setInterval(() => {
-      setSeries((prev) => {
-        const last = prev[prev.length - 1];
-        const drift = 0.35; // gentle upward bias
-        let next = last + (Math.random() - 0.5 + drift * 0.2) * 4.2;
-        next = Math.max(52, Math.min(94, next));
-        return [...prev.slice(1), next];
+    if (paused) return;
+    let raf = 0;
+    let last = performance.now();
+    const tick = (now: number) => {
+      // Clamp dt so tab-blur pauses resume cleanly instead of fast-forwarding
+      // through a huge backlog (which puts the series off-screen for ~0.5s).
+      const dt = Math.min(now - last, TICK_MS);
+      last = now;
+      setOffset((o) => {
+        const next = o + dt / TICK_MS;
+        if (next >= 1) {
+          setSeries((prev) => {
+            const tail = prev[prev.length - 1];
+            // Hit the ceiling → reset the climb with a fresh run of days
+            if (tail.value >= RESET_AT) {
+              return seed(tail.day + 1);
+            }
+            const nextVal = Math.min(
+              RESET_AT,
+              tail.value + STEP_MEAN + (Math.random() - 0.5) * STEP_JITTER
+            );
+            return [...prev.slice(1), { day: tail.day + 1, value: nextVal }];
+          });
+          return next - 1;
+        }
+        return next;
       });
-    }, 900);
-    return () => clearInterval(id);
-  }, []);
+      raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [paused]);
 
   const width = 420;
   const height = 160;
-  const step = width / (series.length - 1);
+  // Visible range spans indexes 1..VISIBLE_POINTS (index 0 sits off-screen to the left)
+  const step = width / (VISIBLE_POINTS - 1);
   const toY = (v: number) => height - ((v - 50) / 45) * height + 6;
+  // Sliding: at offset=0, point i=1 is at x=0; point i=VISIBLE_POINTS at x=width.
+  // At offset=1 (about to commit), everything has shifted left by one step.
+  const xFor = (i: number) => (i - 1 - offset) * step;
+
   const path = series
-    .map((y, i) => `${i === 0 ? "M" : "L"}${(i * step).toFixed(2)},${toY(y).toFixed(2)}`)
+    .map((p, i) => `${i === 0 ? "M" : "L"}${xFor(i).toFixed(2)},${toY(p.value).toFixed(2)}`)
     .join(" ");
 
   const bg = isDarkMode ? "hsl(222,30%,13%)" : "hsl(0,0%,100%)";
@@ -1267,9 +945,40 @@ const AnimatedAccuracyChart = ({ isDarkMode }: { isDarkMode: boolean }) => {
     ? "rgba(255,255,255,0.85)"
     : "rgba(15,23,42,0.85)";
 
-  const current = series[series.length - 1];
-  const windowStart = series[0];
-  const delta = current - windowStart;
+  // Value and y at the right edge (x = width). Between indices VISIBLE_POINTS and
+  // VISIBLE_POINTS+1, interpolated by `offset` so the head bubble and the big
+  // number track the line exactly as it slides in from the right.
+  const rightEdgeValue =
+    series[VISIBLE_POINTS].value +
+    offset * (series[VISIBLE_POINTS + 1].value - series[VISIBLE_POINTS].value);
+  const current = rightEdgeValue;
+  const windowStart = series[1].value; // left edge of visible range
+  const delta = rightEdgeValue - windowStart; // matches what the chart shows
+  const currentDay = series[VISIBLE_POINTS].day;
+
+  const svgRef = useRef<SVGSVGElement>(null);
+  const onMove = (e: React.MouseEvent) => {
+    const svg = svgRef.current;
+    if (!svg) return;
+    const rect = svg.getBoundingClientRect();
+    const px = ((e.clientX - rect.left) / rect.width) * width;
+    // Find the visible point closest to px (indices 1..VISIBLE_POINTS are visible)
+    let closest = -1;
+    let closestD = Infinity;
+    for (let i = 1; i <= VISIBLE_POINTS; i++) {
+      const d = Math.abs(xFor(i) - px);
+      if (d < closestD) {
+        closestD = d;
+        closest = i;
+      }
+    }
+    setHoverIdx(closest);
+    setPaused(true);
+  };
+  const onLeave = () => {
+    setHoverIdx(null);
+    setPaused(false);
+  };
 
   return (
     <div
@@ -1301,10 +1010,9 @@ const AnimatedAccuracyChart = ({ isDarkMode }: { isDarkMode: boolean }) => {
                 color: bodyText,
                 lineHeight: 1,
                 fontVariantNumeric: "tabular-nums",
-                transition: "color 0.3s",
               }}
             >
-              {Math.round(current)}%
+              {Math.round(hoverIdx !== null ? series[hoverIdx].value : current)}%
             </div>
             <div
               style={{
@@ -1315,7 +1023,7 @@ const AnimatedAccuracyChart = ({ isDarkMode }: { isDarkMode: boolean }) => {
                 textTransform: "uppercase",
               }}
             >
-              live accuracy
+              {hoverIdx !== null ? formatDay(series[hoverIdx].day) : `live accuracy · ${formatDay(currentDay)}`}
             </div>
           </div>
           <div
@@ -1328,70 +1036,139 @@ const AnimatedAccuracyChart = ({ isDarkMode }: { isDarkMode: boolean }) => {
               fontWeight: 600,
               color: delta >= 0 ? "#4ade80" : "#f87171",
               fontVariantNumeric: "tabular-nums",
-              transition: "all 0.3s",
             }}
           >
             {delta >= 0 ? "↑" : "↓"} {delta >= 0 ? "+" : ""}{delta.toFixed(1)}%
           </div>
         </div>
 
-        <svg width="100%" viewBox={`0 0 ${width} ${height + 12}`} style={{ display: "block" }}>
-          <defs>
-            <linearGradient id="accFill" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="hsl(201,100%,70%)" stopOpacity="0.3" />
-              <stop offset="100%" stopColor="hsl(201,100%,70%)" stopOpacity="0" />
-            </linearGradient>
-            {/* Fade the trailing edge so new points appear to scroll in smoothly */}
-            <linearGradient id="leftFade" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0%" stopColor={bg} stopOpacity="1" />
-              <stop offset="100%" stopColor={bg} stopOpacity="0" />
-            </linearGradient>
-          </defs>
-          <path
-            d={`${path} L ${width},${height + 12} L 0,${height + 12} Z`}
-            fill="url(#accFill)"
-            style={{ transition: "d 0.9s linear" }}
-          />
-          <path
-            d={path}
-            fill="none"
-            stroke="hsl(201,100%,70%)"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            style={{ transition: "d 0.9s linear" }}
-          />
-          {/* Pulsing head point */}
-          <circle
-            cx={(series.length - 1) * step}
-            cy={toY(current)}
-            r={4}
-            fill="hsl(201,100%,70%)"
-            style={{ transition: "cy 0.9s linear" }}
-          />
-          <circle
-            cx={(series.length - 1) * step}
-            cy={toY(current)}
-            r={9}
-            fill="hsl(201,100%,70%)"
-            opacity={0.25}
-            style={{
-              transition: "cy 0.9s linear",
-              animation: "accuracyPulse 1.6s ease-in-out infinite",
-              transformOrigin: "center",
-            }}
-          />
-          {/* Left fade mask */}
-          <rect x={0} y={0} width={60} height={height + 12} fill="url(#leftFade)" />
-        </svg>
+        <div style={{ position: "relative" }}>
+          <svg
+            ref={svgRef}
+            width="100%"
+            viewBox={`0 0 ${width} ${height + 12}`}
+            style={{ display: "block", cursor: "crosshair" }}
+            onMouseMove={onMove}
+            onMouseLeave={onLeave}
+          >
+            <defs>
+              <linearGradient id="accFill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor="hsl(201,100%,70%)" stopOpacity="0.3" />
+                <stop offset="100%" stopColor="hsl(201,100%,70%)" stopOpacity="0" />
+              </linearGradient>
+              <clipPath id="accClip">
+                <rect x="0" y="0" width={width} height={height + 12} />
+              </clipPath>
+            </defs>
+            <g clipPath="url(#accClip)">
+              <path
+                d={`${path} L ${xFor(series.length - 1)},${height + 12} L ${xFor(0)},${height + 12} Z`}
+                fill="url(#accFill)"
+              />
+              <path
+                d={path}
+                fill="none"
+                stroke="hsl(201,100%,70%)"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              {/* Hover-aware point markers */}
+              {series.map((p, i) => {
+                const x = xFor(i);
+                if (x < -step || x > width + step) return null;
+                const isHover = hoverIdx === i;
+                return (
+                  <circle
+                    key={i}
+                    cx={x}
+                    cy={toY(p.value)}
+                    r={isHover ? 5 : 2.5}
+                    fill={isHover ? "hsl(201,100%,82%)" : "hsl(201,100%,70%)"}
+                    stroke={isHover ? bg : "none"}
+                    strokeWidth={isHover ? 2 : 0}
+                  />
+                );
+              })}
+              {/* Pulsing head point — pinned to the right edge, y tracks the line */}
+              {hoverIdx === null && (
+                <>
+                  <circle cx={width} cy={toY(rightEdgeValue)} r={4} fill="hsl(201,100%,70%)" />
+                  <circle
+                    cx={width}
+                    cy={toY(rightEdgeValue)}
+                    r={9}
+                    fill="hsl(201,100%,70%)"
+                    opacity={0.25}
+                    style={{ animation: "accuracyPulse 1.6s ease-in-out infinite", transformOrigin: "center" }}
+                  />
+                </>
+              )}
+              {/* Hover crosshair line */}
+              {hoverIdx !== null && (
+                <line
+                  x1={xFor(hoverIdx)}
+                  x2={xFor(hoverIdx)}
+                  y1={0}
+                  y2={height + 12}
+                  stroke={isDarkMode ? "rgba(255,255,255,0.14)" : "rgba(15,23,42,0.15)"}
+                  strokeDasharray="3,3"
+                />
+              )}
+            </g>
+          </svg>
+
+          {/* Tooltip */}
+          {hoverIdx !== null && (() => {
+            const hovered = series[hoverIdx];
+            const x = xFor(hoverIdx);
+            const y = toY(hovered.value);
+            const xPct = (x / width) * 100;
+            const yPct = (y / (height + 12)) * 100;
+            return (
+              <div
+                style={{
+                  position: "absolute",
+                  left: `${xPct}%`,
+                  top: `${yPct}%`,
+                  transform: "translate(-50%, calc(-100% - 12px))",
+                  padding: "6px 10px",
+                  borderRadius: 8,
+                  background: isDarkMode ? "hsl(222,30%,18%)" : "hsl(0,0%,100%)",
+                  border: isDarkMode ? "1px solid rgba(255,255,255,0.12)" : "1px solid rgba(15,23,42,0.12)",
+                  boxShadow: "0 8px 24px rgba(0,0,0,0.2)",
+                  pointerEvents: "none",
+                  whiteSpace: "nowrap",
+                  zIndex: 5,
+                }}
+              >
+                <div
+                  style={{
+                    fontFamily: "'Space Mono', monospace",
+                    fontSize: 14,
+                    fontWeight: 700,
+                    color: bodyText,
+                    fontVariantNumeric: "tabular-nums",
+                  }}
+                >
+                  {hovered.value.toFixed(1)}%
+                </div>
+                <div style={{ fontSize: 10, color: mutedText, marginTop: 2 }}>
+                  {formatDay(hovered.day)}
+                </div>
+              </div>
+            );
+          })()}
+        </div>
       </div>
     </div>
   );
-};
+});
+AnimatedAccuracyChart.displayName = "AnimatedAccuracyChart";
 
 // ─── Feature row (big text left, demo right) ──────────────────────────────
 
-const FeatureRow = ({
+const FeatureRow = memo(({
   eyebrow,
   title,
   titleEm,
@@ -1503,7 +1280,8 @@ const FeatureRow = ({
       </div>
     </div>
   );
-};
+});
+FeatureRow.displayName = "FeatureRow";
 
 // ─── Home page ─────────────────────────────────────────────────────────────
 
@@ -1511,13 +1289,20 @@ const Home = () => {
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
   const [questionBankTotal, setQuestionBankTotal] = useState(DEFAULT_QUESTION_BANK_TOTAL);
-  const [bankBreakdown, setBankBreakdown] = useState<{ math: number; reading: number }>({
-    math: Math.round(DEFAULT_QUESTION_BANK_TOTAL * 0.5),
-    reading: Math.round(DEFAULT_QUESTION_BANK_TOTAL * 0.5),
-  });
-  const [countValue, setCountValue] = useState(0);
+  const countValueRef = useRef<HTMLDivElement>(null);
+  const [difficulties, setDifficulties] = useState<DifficultyPill[]>([]);
+  const [subjects, setSubjects] = useState<SubjectPill[]>([]);
+  const [isHeaderScrolled, setIsHeaderScrolled] = useState(false);
   const isDarkMode = useThemeMode();
-  const totalQuestions = questionBankTotal + 100;
+  const totalQuestions = questionBankTotal;
+
+  const heroSubject: "math" | "reading" =
+    subjects.length === 1 ? subjects[0] : "math";
+  const heroDifficulty: "Easy" | "Medium" | "Hard" | null =
+    difficulties.length === 1
+      ? ((difficulties[0].charAt(0).toUpperCase() +
+          difficulties[0].slice(1)) as "Easy" | "Medium" | "Hard")
+      : null;
 
   // Font + animation injection
   useEffect(() => {
@@ -1564,6 +1349,46 @@ const Home = () => {
       .h-fade-5 { animation: homeFadeUp 0.75s ease 0.64s both; }
       .h-fade-6 { animation: homeFadeUp 0.85s ease 0.8s both; }
       .demo-float { animation: demoFloat 5.5s ease-in-out infinite; }
+
+      /* Mobile-only overrides for the home page. Desktop keeps its
+         lavish spacing and animations. */
+      @media (max-width: 767px) {
+        .h-fade-1, .h-fade-2, .h-fade-3, .h-fade-4, .h-fade-5, .h-fade-6,
+        .demo-float, .explanation-step-slide {
+          animation: none !important;
+          opacity: 1 !important;
+          transform: none !important;
+        }
+        .home-hero {
+          padding: 32px 16px 0 !important;
+        }
+        .home-hero h1 {
+          font-size: clamp(40px, 12vw, 64px) !important;
+          margin: 0 0 16px !important;
+        }
+        .home-hero p.home-subtitle {
+          font-size: 15px !important;
+          margin: 0 auto 22px !important;
+        }
+        .home-cta-row {
+          flex-direction: column !important;
+          align-items: stretch !important;
+          gap: 10px !important;
+          margin-bottom: 32px !important;
+        }
+        .home-cta-row button {
+          width: 100% !important;
+          padding: 14px 22px !important;
+          justify-content: center !important;
+        }
+        .home-counter { margin-bottom: 40px !important; }
+        .home-counter .home-count-num { font-size: 40px !important; }
+        .home-demo-wrap { padding: 0 12px !important; }
+        .home-demo-title { font-size: clamp(22px, 6vw, 28px) !important; }
+        .home-demo-subtitle { font-size: 14px !important; margin-top: 10px !important; }
+        .home-cta-final h2 { font-size: clamp(30px, 9vw, 42px) !important; }
+        .home-cta-final button { padding: 14px 28px !important; }
+      }
     `;
     document.head.appendChild(style);
 
@@ -1580,7 +1405,6 @@ const Home = () => {
       const { bankCounts } = await import("@/data/questionBank");
       if (!cancelled) {
         setQuestionBankTotal(bankCounts.math + bankCounts.reading);
-        setBankBreakdown({ math: bankCounts.math, reading: bankCounts.reading });
       }
     };
 
@@ -1593,28 +1417,72 @@ const Home = () => {
     };
   }, []);
 
-  // Count-up animation
+  // Count-up animation — writes directly to a DOM ref to avoid re-rendering
+  // the entire page on every frame. Starts at 85% of target so the element
+  // never shows 0 — even if rendered before the CSS fade-in completes.
+  const countTargetRef = useRef(totalQuestions);
+  countTargetRef.current = totalQuestions;
   useEffect(() => {
     let frame = 0;
     let startTime = 0;
-    const duration = 3200;
+    const catchUpDuration = 400;
+    const node = countValueRef.current;
+    if (!node) return;
+    let displayed = 0;
+    let from = Math.round(countTargetRef.current * 0.85);
+    let to = countTargetRef.current;
+    let duration = 900;
+    // Pre-fill immediately so the node never renders as empty or "0".
+    node.textContent = from.toLocaleString();
     const tick = (time: number) => {
       if (!startTime) startTime = time;
       const progress = Math.min((time - startTime) / duration, 1);
       const eased = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
-      setCountValue(Math.floor(eased * totalQuestions));
-      if (progress < 1) frame = requestAnimationFrame(tick);
+      displayed = Math.floor(from + eased * (to - from));
+      node.textContent = displayed.toLocaleString();
+      // Target changed mid-flight (e.g. async data load) — re-aim without rewinding.
+      if (progress >= 1 && countTargetRef.current !== to) {
+        from = displayed;
+        to = countTargetRef.current;
+        startTime = 0;
+        duration = catchUpDuration;
+      }
+      if (progress < 1 || countTargetRef.current !== displayed) {
+        frame = requestAnimationFrame(tick);
+      }
     };
+    // Start immediately — the h-fade-5 element is opacity-0 during its 640ms
+    // CSS delay, so by the time it fades in the count is already near-final.
     frame = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(frame);
-  }, [totalQuestions]);
+    return () => {
+      cancelAnimationFrame(frame);
+    };
+  }, []);
+
+  useEffect(() => {
+    const updateHeaderState = () => {
+      setIsHeaderScrolled(window.scrollY > 12);
+    };
+
+    updateHeaderState();
+    window.addEventListener("scroll", updateHeaderState, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", updateHeaderState);
+    };
+  }, []);
 
   return (
     <div
       className="min-h-screen flex flex-col"
       style={{ fontFamily: "'Outfit', sans-serif" }}
     >
-      <header className="sticky top-0 z-20 border-b border-border bg-card/95 backdrop-blur">
+      <header
+        className={`sticky top-0 z-20 border-b transition-[background-color,border-color,box-shadow,backdrop-filter] duration-300 ${
+          isHeaderScrolled
+            ? "border-border/45 bg-card/85 shadow-[0_10px_32px_rgba(15,23,42,0.06)] backdrop-blur-xl supports-[backdrop-filter]:bg-card/78"
+            : "border-border bg-card/95 backdrop-blur"
+        }`}
+      >
         <div className="container mx-auto flex h-16 items-center justify-between gap-3 px-3 sm:px-4">
           <BrandLogo variant="mark" className="h-9 w-9" />
 
@@ -1755,6 +1623,7 @@ const Home = () => {
 
         {/* Hero text */}
         <div
+          className="home-hero"
           style={{
             position: "relative",
             maxWidth: 860,
@@ -1789,7 +1658,7 @@ const Home = () => {
 
           {/* Subtitle */}
           <p
-            className="h-fade-3"
+            className="h-fade-3 home-subtitle"
             style={{
               fontSize: "clamp(15px, 2.2vw, 19px)",
               color: isDarkMode
@@ -1808,7 +1677,7 @@ const Home = () => {
 
           {/* CTAs */}
           <div
-            className="h-fade-4"
+            className="h-fade-4 home-cta-row"
             style={{
               display: "flex",
               flexWrap: "wrap",
@@ -1900,8 +1769,10 @@ const Home = () => {
           </div>
 
           {/* Counter */}
-          <div className="h-fade-5" style={{ marginBottom: 64 }}>
+          <div className="h-fade-5 home-counter" style={{ marginBottom: 88 }}>
             <div
+              ref={countValueRef}
+              className="home-count-num"
               style={{
               fontSize: "clamp(38px, 5.5vw, 64px)",
               fontFamily: "'Space Mono', monospace",
@@ -1912,7 +1783,7 @@ const Home = () => {
               fontVariantNumeric: "tabular-nums",
               }}
             >
-              {countValue.toLocaleString()}
+              0
             </div>
             <div
               style={{
@@ -1933,14 +1804,51 @@ const Home = () => {
 
         {/* Floating demo */}
         <div
-          className="h-fade-6"
+          className="h-fade-6 home-demo-wrap"
           style={{
-            maxWidth: 960,
+            maxWidth: 1200,
             margin: "0 auto",
             padding: "0 24px",
             position: "relative",
           }}
         >
+          {/* Section header */}
+          <div
+            style={{
+              textAlign: "center",
+              margin: "0 auto 28px",
+              maxWidth: 720,
+            }}
+          >
+            <h2
+              className="home-demo-title"
+              style={{
+                fontSize: "clamp(26px, 3.4vw, 40px)",
+                fontWeight: 600,
+                letterSpacing: "-0.02em",
+                lineHeight: 1.15,
+                color: "hsl(var(--foreground))",
+                margin: 0,
+              }}
+            >
+              An interface so easy, you can use it right here.
+            </h2>
+            <p
+              className="home-demo-subtitle"
+              style={{
+                marginTop: 14,
+                fontSize: 16,
+                lineHeight: 1.55,
+                color: isDarkMode
+                  ? "rgba(255,255,255,0.6)"
+                  : "rgba(15,23,42,0.62)",
+              }}
+            >
+              Seriously &mdash; that little window below is the real thing.
+              Click around.
+            </p>
+          </div>
+
           {/* Ambient glow behind the window */}
           <div
             style={{
@@ -1952,50 +1860,37 @@ const Home = () => {
               pointerEvents: "none",
             }}
           />
-          <div className="demo-float">
-            <ProductDemo isDarkMode={isDarkMode} />
-          </div>
+          <HeroQuestionPreview
+            isDarkMode={isDarkMode}
+            subject={heroSubject}
+            difficulty={heroDifficulty}
+          />
         </div>
 
-        {/* Fade gradient into next section */}
+        {/* Fade gradient into next section — tall + immediate so the
+            hero's blue tint blends smoothly into the page background instead
+            of meeting it at a hard band. */}
         <div
           style={{
-            height: 90,
-            marginTop: 48,
+            height: 240,
+            marginTop: 64,
             background:
-              "linear-gradient(to bottom, transparent, hsl(var(--background)))",
+              "linear-gradient(to bottom, transparent 0%, hsl(var(--background)) 92%)",
           }}
         />
       </section>
-
-      {/* ── SCROLL-DRIVEN QUESTION INTERFACE ──────────────────────────── */}
-      <div className="bg-background">
-        <ScrollQuestionDemo isDarkMode={isDarkMode} />
-      </div>
 
       {/* ── FEATURE ROW — BANK FILTERS ────────────────────────────────── */}
       <section className="bg-background">
         <FilterFeatureSection
           isDarkMode={isDarkMode}
           totalQuestions={questionBankTotal}
-          mathCount={bankBreakdown.math}
-          readingCount={bankBreakdown.reading}
         />
       </section>
 
-      {/* ── FEATURE ROW — EXPLANATIONS ─────────────────────────────────── */}
+      {/* ── SCROLL-DRIVEN EXPLANATION WITH SPOTLIGHT ─────────────────── */}
       <section className="bg-background">
-        <FeatureRow
-          eyebrow="Walk-through explanations"
-          title="See how every"
-          titleEm="answer is built."
-          body="Every question unfolds step by step — the setup, the key move, the interpretation. No walls of text, just the reasoning you'd write yourself."
-          ctaLabel="Try a hard question"
-          ctaHref="/hard"
-          demo={<AnimatedExplanation isDarkMode={isDarkMode} />}
-          reverse
-          isDarkMode={isDarkMode}
-        />
+        <ExplanationFeatureSection isDarkMode={isDarkMode} />
       </section>
 
       {/* ── FEATURE ROW — PROGRESS ─────────────────────────────────────── */}
@@ -2008,12 +1903,13 @@ const Home = () => {
           ctaLabel={user ? "View your stats" : "Create free account"}
           ctaHref={user ? "/analysis" : "/signup"}
           demo={<AnimatedAccuracyChart isDarkMode={isDarkMode} />}
+          reverse
           isDarkMode={isDarkMode}
         />
       </section>
 
       {/* ── CTA ────────────────────────────────────────────────────────── */}
-      <section style={{ padding: "40px 24px 96px" }}>
+      <section className="home-cta-final" style={{ padding: "40px 24px 96px" }}>
         <div style={{ maxWidth: 960, margin: "0 auto", textAlign: "center" }}>
           <h2
             style={{
@@ -2027,10 +1923,10 @@ const Home = () => {
             }}
           >
             {user ? (
-              <>Keep going.</>
+              <>Practice Now.</>
             ) : (
               <>
-                Start for{" "}
+                Always{" "}
                 <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>
                   free.
                 </em>

@@ -1,4 +1,4 @@
-import { useRef, useState, useLayoutEffect, useCallback } from "react";
+import { useRef, useState, useLayoutEffect, useEffect, useCallback } from "react";
 import {
   BANK_SOURCE_LABELS,
   type BankSourceFilter,
@@ -17,6 +17,7 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
   const buttonRefs = useRef<Map<BankSourceFilter, HTMLButtonElement>>(new Map());
   const [slider, setSlider] = useState({ left: 0, width: 0 });
   const [hasMeasured, setHasMeasured] = useState(false);
+  const [transitionsEnabled, setTransitionsEnabled] = useState(false);
 
   const measureSlider = useCallback(() => {
     const container = containerRef.current;
@@ -35,6 +36,12 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
     measureSlider();
   }, [measureSlider]);
 
+  useEffect(() => {
+    if (!hasMeasured || transitionsEnabled) return;
+    const id = window.setTimeout(() => setTransitionsEnabled(true), 0);
+    return () => window.clearTimeout(id);
+  }, [hasMeasured, transitionsEnabled]);
+
   return (
     <div
       ref={containerRef}
@@ -44,7 +51,7 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
       <div
         className={cn(
           "absolute top-1 bottom-1 rounded-md bg-primary shadow-sm ease-out",
-          hasMeasured ? "transition-all duration-300" : "transition-none",
+          transitionsEnabled ? "transition-all duration-300" : "transition-none",
         )}
         style={{ left: slider.left, width: slider.width }}
       />

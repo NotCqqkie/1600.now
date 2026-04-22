@@ -1,8 +1,11 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { getPracticeModule } from "@/data/modulePracticeBank";
 import { classifyModuleCompletion, getModuleProgressCounts } from "@/lib/moduleProgress";
-import { getModulePracticeSession } from "@/lib/modulePracticeSession";
+import {
+  clearModulePracticeSession,
+  getModulePracticeSession,
+} from "@/lib/modulePracticeSession";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -11,11 +14,24 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { ArrowLeft, ArrowRight, BookOpen, Calculator } from "lucide-react";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
+import { ArrowLeft, ArrowRight, BookOpen, Calculator, Trash2 } from "lucide-react";
 
 const ModuleView = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
   const navigate = useNavigate();
+
+  const [sessionRefreshKey, setSessionRefreshKey] = useState(0);
+  const [discardDialogOpen, setDiscardDialogOpen] = useState(false);
 
   const module = useMemo(() => (moduleId ? getPracticeModule(moduleId) : null), [moduleId]);
 
@@ -25,7 +41,8 @@ const ModuleView = () => {
   );
   const savedSession = useMemo(
     () => (module ? getModulePracticeSession(module.slug) : null),
-    [module],
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [module, sessionRefreshKey],
   );
 
   const totalAnswered = progressCounts.correct + progressCounts.incorrect + progressCounts.correctAfterReview;
@@ -35,6 +52,12 @@ const ModuleView = () => {
   const startModule = () => {
     if (!module) return;
     navigate(`/modules/${module.slug}/start`);
+  };
+
+  const discardSession = () => {
+    if (!module) return;
+    clearModulePracticeSession(module.slug);
+    setSessionRefreshKey((k) => k + 1);
   };
 
   if (!module) {
@@ -160,16 +183,53 @@ const ModuleView = () => {
             This module opens in the dedicated practice viewer with a timed or untimed option, saved progress, and an end-of-module review flow.
           </div>
 
-          <Button size="lg" className="group w-full justify-between" onClick={startModule}>
-            {savedSession
-              ? "Resume saved session"
-              : completionStatus === "completed"
-                ? "Practice again"
-                : completionStatus === "in-progress"
-                  ? "Continue practice"
-                  : "Start practice"}
-            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-          </Button>
+          <div className="flex flex-col gap-2">
+            <Button size="lg" className="group w-full justify-between" onClick={startModule}>
+              {savedSession
+                ? "Resume saved session"
+                : completionStatus === "completed"
+                  ? "Practice again"
+                  : completionStatus === "in-progress"
+                    ? "Continue practice"
+                    : "Start practice"}
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+            </Button>
+
+            {savedSession ? (
+              <Button
+                size="sm"
+                variant="ghost"
+                className="w-full gap-2 text-muted-foreground hover:text-destructive"
+                onClick={() => setDiscardDialogOpen(true)}
+              >
+                <Trash2 className="h-3.5 w-3.5" />
+                Discard saved session
+              </Button>
+            ) : null}
+          </div>
+
+          <AlertDialog open={discardDialogOpen} onOpenChange={setDiscardDialogOpen}>
+            <AlertDialogContent>
+              <AlertDialogHeader>
+                <AlertDialogTitle>Discard saved session?</AlertDialogTitle>
+                <AlertDialogDescription>
+                  This will permanently delete your saved progress for{" "}
+                  <strong>{module.publicTitle}</strong> (question{" "}
+                  {savedSession ? savedSession.currentIndex + 1 : "–"} of{" "}
+                  {savedSession ? savedSession.questionCount : "–"}). This cannot be undone.
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel>Cancel</AlertDialogCancel>
+                <AlertDialogAction
+                  className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+                  onClick={discardSession}
+                >
+                  Discard session
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
         </CardContent>
       </Card>
     </div>

@@ -5,6 +5,7 @@ import {
   normalizeTextForMathRendering,
 } from "@/lib/mathTextNormalization";
 import { normalizePublicAssetPath } from "@/lib/utils";
+import { sanitizeHtml } from "@/lib/sanitizeHtml";
 
 type RenderMixedContentOptions = {
   normalizeMath?: boolean;
@@ -138,7 +139,7 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
     return html;
   };
 
-  return parts
+  const rendered = parts
     .map((part) => {
       if (part.type === "math") {
         try {
@@ -158,4 +159,6 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
       return applyInlineFormatting(part.value).replace(/\\\$/g, "$");
     })
     .join("");
+
+  return sanitizeHtml(rendered);
 }

@@ -1,8 +1,7 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
-import { useNavigate, useSearchParams, useLocation } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import {
   getBankPool as getBankPoolNormal,
-  spaceOutNearDuplicates,
   mathDomainSkills,
   englishDomainSkills,
   allMathDomains,
@@ -14,10 +13,6 @@ import {
   type BankSourceFilter,
 } from "@/data/questionBank";
 import { activePastQuestionSourceIds } from "@/data/modulePracticeBank";
-import {
-  getBankPool as getBankPoolOfficial,
-  type BankQuestion as OfficialBankQuestion,
-} from "@/data/officialQuestionBank";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -26,7 +21,6 @@ import {
   FileText,
   ChevronRight,
   ChevronDown,
-  Home,
   Play,
   Shuffle,
   RotateCcw,
@@ -39,6 +33,7 @@ import {
   MAX_TIME_SPENT_FILTER_SECONDS,
 } from "@/components/QuestionBankFilterPanel";
 import { BankSourceToggle } from "@/components/BankSourceToggle";
+import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/nearDuplicateSpacing";
 import {
   getUserProgressStatic,
   isQuestionSolved,
@@ -110,26 +105,52 @@ const TopicCheckboxSlot = ({
 
 const BankIndex = () => {
   const navigate = useNavigate();
-  const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
-  const isOfficial = location.pathname.startsWith("/official-bank");
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
-  const basePath = isOfficial ? "/official-bank" : "/bank";
+  const basePath = "/bank";
 
   useEffect(() => {
-    const prefix = isOfficial ? "official" : "bank";
-    sessionStorage.removeItem(`question-view-mode:${prefix}:math`);
-    sessionStorage.removeItem(`question-view-mode:${prefix}:reading`);
-  }, [isOfficial]);
+    sessionStorage.removeItem(`question-view-mode:bank:math`);
+    sessionStorage.removeItem(`question-view-mode:bank:reading`);
+  }, []);
   
   // Selection Mode State
   const [isMultiSelect, setIsMultiSelect] = useState(false);
   
-  // Filter state
-  const [filters, setFilters] = useState<QuestionBankFilters>(defaultFilters);
-  
-  // Topic selection state (inline checkboxes)
-  const [topicSelection, setTopicSelection] = useState<TopicSelectionState>(createEmptySelection);
+  // Filter state — may be pre-populated from home page via sessionStorage
+  const [filters, setFilters] = useState<QuestionBankFilters>(() => {
+    try {
+      const raw = sessionStorage.getItem("bankFilterPreset");
+      if (!raw) return defaultFilters;
+      const preset = JSON.parse(raw) as { difficulties?: string[] };
+      if (preset.difficulties?.length) {
+        return { ...defaultFilters, difficulty: preset.difficulties as QuestionBankFilters["difficulty"] };
+      }
+    } catch { /* ignore */ }
+    return defaultFilters;
+  });
+
+  // Topic selection state (inline checkboxes) — may be pre-populated from home page
+  const [topicSelection, setTopicSelection] = useState<TopicSelectionState>(() => {
+    const base = createEmptySelection();
+    try {
+      const raw = sessionStorage.getItem("bankFilterPreset");
+      if (!raw) return base;
+      sessionStorage.removeItem("bankFilterPreset");
+      const preset = JSON.parse(raw) as {
+        skills?: { bankSkill: string; bankDomain: string; subject: string }[];
+      };
+      if (!preset.skills?.length) return base;
+      for (const { bankSkill, bankDomain, subject } of preset.skills) {
+        const subj = subject as "math" | "reading";
+        if (!base[subj]?.domains[bankDomain]) continue;
+        base[subj].domains[bankDomain].skills[bankSkill] = true;
+        // Mark domain selected if any skill is selected
+        base[subj].domains[bankDomain].selected = true;
+      }
+    } catch { /* ignore */ }
+    return base;
+  });
   // Initialize with all domains expanded by default
   const createDefaultExpandedDomains = () => {
     const expanded: Record<string, boolean> = {};
@@ -145,27 +166,27 @@ const BankIndex = () => {
   
   // Get all questions
   const allMathQuestions = useMemo(
-    () => isOfficial ? getBankPoolOfficial("math") as unknown as BankQuestion[] : getBankPoolNormal("math", bankSource),
-    [bankSource, isOfficial]
+    () => getBankPoolNormal("math", bankSource),
+    [bankSource]
   );
   const allReadingQuestions = useMemo(
-    () => isOfficial ? getBankPoolOfficial("reading") as unknown as BankQuestion[] : getBankPoolNormal("reading", bankSource),
-    [bankSource, isOfficial]
+    () => getBankPoolNormal("reading", bankSource),
+    [bankSource]
   );
 
   // Get user progress for filtering
   const userProgress = useMemo(() => getUserProgressStatic(), []);
 
   // Helper to get progress for a question
-  const getQuestionProgress = useCallback((q: BankQuestion, subject: BankSubject): QuestionProgress => {
-    const key = isOfficial ? `official-bank-${subject}-${q.sourceId}` : q.stableId;
+  const getQuestionProgress = useCallback((q: BankQuestion, _subject: BankSubject): QuestionProgress => {
+    const key = q.stableId;
     return userProgress[key] || {
       questionId: key,
       isMarkedForReview: false,
       attempts: [],
       totalTimeSpentSeconds: 0,
     };
-  }, [userProgress, isOfficial]);
+  }, [userProgress]);
 
   const handleBankSourceChange = useCallback((nextSource: BankSourceFilter) => {
     const nextParams = new URLSearchParams(searchParams);
@@ -463,34 +484,22 @@ const BankIndex = () => {
   const startPracticeSession = useCallback((questions: BankQuestion[]) => {
     if (questions.length === 0) return;
 
-    if (isOfficial) {
-      const practiceSet = questions.map((q, index) => ({
-        subject: (q as unknown as OfficialBankQuestion).category.subject === "Math" ? "math" : "reading",
-        id: q.id,
-        sourceId: q.sourceId,
-        index: index + 1,
-        isOfficial: true,
-      }));
-      sessionStorage.setItem('officialPracticeSet', JSON.stringify(practiceSet));
-      sessionStorage.setItem('officialPracticeSetTotal', String(practiceSet.length));
-      const first = practiceSet[0];
-      navigate(`/official-bank/${first.subject}/${first.id}?practice=true&idx=1`);
-    } else {
-      const practiceSet = questions.map((q, index) => ({
-        subject: q.subject,
-        id: q.id,
-        sourceId: q.sourceId,
-        bankType: bankSource,
-        storageId: q.stableId,
-        index: index + 1,
-      }));
-      sessionStorage.removeItem('practiceExitTo');
-      sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
-      sessionStorage.setItem('practiceSetTotal', String(practiceSet.length));
-      const first = practiceSet[0];
-      navigate(`/bank/${first.subject}/${first.id}?bankType=${first.bankType}&practice=true&idx=1`);
-    }
-  }, [bankSource, navigate, isOfficial]);
+    questions = spaceOutNearDuplicates(questions, questionFingerprint);
+
+    const practiceSet = questions.map((q, index) => ({
+      subject: q.subject,
+      id: q.id,
+      sourceId: q.sourceId,
+      bankType: bankSource,
+      storageId: q.stableId,
+      index: index + 1,
+    }));
+    sessionStorage.removeItem('practiceExitTo');
+    sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
+    sessionStorage.setItem('practiceSetTotal', String(practiceSet.length));
+    const first = practiceSet[0];
+    navigate(`/bank/${first.subject}/${first.id}?bankType=${first.bankType}&practice=true&idx=1`);
+  }, [bankSource, navigate]);
 
   const handleCreatePracticeSet = useCallback((shuffle: boolean = false) => {
     let questions = getSelectedQuestions();
@@ -504,11 +513,11 @@ const BankIndex = () => {
       }
       questions = shuffled;
     }
-    questions = spaceOutNearDuplicates(questions);
+    questions = spaceOutNearDuplicates(questions, questionFingerprint);
 
     startPracticeSession(questions);
   }, [startPracticeSession, getSelectedQuestions]);
-  
+
   const handleQuickStart = useCallback((subject: "math" | "reading", domain?: string, skill?: string, shuffle: boolean = false) => {
     let questions = getSelectedQuestions(subject, domain, skill);
 
@@ -521,7 +530,7 @@ const BankIndex = () => {
       }
       questions = shuffled;
     }
-    questions = spaceOutNearDuplicates(questions);
+    questions = spaceOutNearDuplicates(questions, questionFingerprint);
 
     startPracticeSession(questions);
   }, [startPracticeSession, getSelectedQuestions]);
@@ -536,7 +545,7 @@ const BankIndex = () => {
   const renderBrowseView = () => (
     <div className="grid md:grid-cols-2 gap-6">
       {/* Math Section */}
-      <div className="p-6 md:order-2">
+      <div className="min-w-0 p-3 sm:p-6 md:order-2">
         <div className="flex items-center gap-3 mb-4">
           <div
             className={`flex items-center gap-3 flex-1 ${isMultiSelect ? 'cursor-pointer' : ''}`}
@@ -684,7 +693,7 @@ const BankIndex = () => {
       </div>
 
       {/* Reading Section */}
-      <div className="p-6 md:order-1">
+      <div className="min-w-0 p-3 sm:p-6 md:order-1">
         <div className="flex items-center gap-3 mb-4">
           <div 
             className={`flex items-center gap-3 flex-1 ${isMultiSelect ? 'cursor-pointer' : ''}`}
@@ -841,11 +850,6 @@ const BankIndex = () => {
         <div className="max-w-6xl mx-auto space-y-6">
           {/* Header */}
           <div className="flex items-center gap-4">
-            {isOfficial && (
-              <Button variant="ghost" size="icon" onClick={() => navigate("/")}>
-                <Home className="h-5 w-5" />
-              </Button>
-            )}
             <div>
               <h1
                 style={{
@@ -857,10 +861,10 @@ const BankIndex = () => {
                   marginBottom: 4,
                 }}
               >
-                {isOfficial ? "Official Question Bank" : "Question Bank"}
+                Question Bank
               </h1>
               <p className="text-sm text-muted-foreground">
-                {!isOfficial && `${BANK_SOURCE_LABELS[bankSource]} \u00b7 `}{questionCounts.math.total + questionCounts.reading.total} questions available
+                {`${BANK_SOURCE_LABELS[bankSource]} \u00b7 `}{questionCounts.math.total + questionCounts.reading.total} questions available
               </p>
             </div>
           </div>
@@ -869,10 +873,10 @@ const BankIndex = () => {
           <QuestionBankFilterPanel
             filters={filters}
             onFiltersChange={setFilters}
-            showActivityFilter={!isOfficial}
+            showActivityFilter={true}
             rightContent={
               <div className="flex items-center gap-4">
-                {!isOfficial && <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />}
+                <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
                 {hasActiveQuestionBankFilters(filters) && (
                   <Button 
                     variant="ghost" 

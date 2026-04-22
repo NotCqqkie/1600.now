@@ -1,6 +1,7 @@
 
 import React, { createContext, useContext, useEffect, useState } from "react";
 import type { Auth, User as FirebaseUser } from "firebase/auth";
+import { identifyUser, trackLogin, trackSignUp } from "@/lib/analytics";
 
 export interface AppUser {
   id: string;
@@ -97,9 +98,17 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
       // Process any pending redirect result (from signInWithRedirect flow).
       // onAuthStateChanged will fire afterward with the signed-in user.
-      authModule.getRedirectResult(auth).catch(() => {
-        // No redirect pending — ignore.
-      });
+      authModule
+        .getRedirectResult(auth)
+        .then((result) => {
+          if (!result) return;
+          const info = authModule.getAdditionalUserInfo(result);
+          if (info?.isNewUser) trackSignUp("google");
+          else trackLogin("google");
+        })
+        .catch(() => {
+          // No redirect pending — ignore.
+        });
 
       unsubscribe = authModule.onAuthStateChanged(auth, (firebaseUser) => {
         if (cancelled) return;
@@ -108,6 +117,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         setSession(appUser);
         setUser(appUser);
         setLoading(false);
+        void identifyUser(appUser?.uid ?? null);
       });
     };
 
@@ -136,12 +146,14 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
     await authModule.signInWithEmailAndPassword(auth, email, password);
+    trackLogin("password");
   };
 
   const signUpWithEmailPassword = async (email: string, password: string) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
     await authModule.createUserWithEmailAndPassword(auth, email, password);
+    trackSignUp("password");
   };
 
   const signInWithGoogle = async () => {
@@ -152,7 +164,10 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     provider.setCustomParameters({ prompt: "select_account" });
 
     try {
-      await authModule.signInWithPopup(auth, provider);
+      const result = await authModule.signInWithPopup(auth, provider);
+      const info = authModule.getAdditionalUserInfo(result);
+      if (info?.isNewUser) trackSignUp("google");
+      else trackLogin("google");
     } catch (error: any) {
       const code = error?.code;
       if (

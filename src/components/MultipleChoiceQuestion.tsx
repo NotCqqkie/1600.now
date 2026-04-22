@@ -119,7 +119,7 @@ export const MultipleChoiceQuestion = ({
   };
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-2 sm:space-y-3">
       {choices.map((choice) => {
         const isSelected = selectedAnswer === choice.id;
         const isStruckOut = struckOut.has(choice.id);
@@ -131,9 +131,9 @@ export const MultipleChoiceQuestion = ({
         if (isStruckOut) {
           return (
             <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
-              <div 
+              <div
                 className={cn(
-                  "flex-1 flex gap-3 rounded-xl border-2 border-border bg-muted/30 p-4 cursor-pointer hover:bg-muted/50 transition-colors",
+                  "flex-1 flex gap-3 rounded-xl border-2 border-border bg-muted/30 p-3 sm:p-4 cursor-pointer hover:bg-muted/50 transition-colors",
                   hasImage ? "items-start" : "items-center"
                 )}
                 onClick={(e) => {
@@ -178,7 +178,7 @@ export const MultipleChoiceQuestion = ({
           <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
             <div
               className={cn(
-                "group flex-1 flex gap-3 rounded-xl border-2 border-border p-4 transition-colors",
+                "group flex-1 flex gap-3 rounded-xl border-2 border-border p-3 sm:p-4 transition-colors",
                 hasImage ? "items-start" : "items-center",
                 !isLocked && "hover:bg-muted/50 cursor-pointer",
                 isLocked && "cursor-not-allowed opacity-80",
@@ -215,7 +215,7 @@ export const MultipleChoiceQuestion = ({
               </div>
 
               {onCheck && (
-                <div className="ml-2 flex w-[84px] shrink-0 justify-end self-center">
+                <div className="ml-2 hidden w-[84px] shrink-0 justify-end self-center md:flex">
                   {!wasChecked && !hasCorrectAnswerLocked ? (
                     <Button
                       size="sm"

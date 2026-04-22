@@ -9,7 +9,10 @@ import {
   classifyModuleCompletion,
   getModuleProgressCounts,
 } from "@/lib/moduleProgress";
-import { getModulePracticeSession } from "@/lib/modulePracticeSession";
+import {
+  clearModulePracticeSession,
+  getModulePracticeSession,
+} from "@/lib/modulePracticeSession";
 import { launchModulePractice } from "@/lib/modulePracticeNavigation";
 import { Button } from "@/components/ui/button";
 import {
@@ -18,13 +21,23 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
+import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { ArrowRight, PlayCircle } from "lucide-react";
+import { ArrowRight, PlayCircle, Trash2 } from "lucide-react";
 
 const practiceSets = getPracticeSets();
 
@@ -34,6 +47,7 @@ const Modules = () => {
   const [moduleFilter, setModuleFilter] = useState<"all" | "1" | "2">("all");
   const [completionFilter, setCompletionFilter] = useState<"all" | "not-started" | "in-progress" | "completed">("all");
   const [progressRefreshKey, setProgressRefreshKey] = useState(0);
+  const [discardDialogOpen, setDiscardDialogOpen] = useState(false);
 
   useEffect(() => {
     const handleVisibility = () => {
@@ -44,6 +58,24 @@ const Modules = () => {
     document.addEventListener("visibilitychange", handleVisibility);
     return () => document.removeEventListener("visibilitychange", handleVisibility);
   }, []);
+
+  useEffect(() => {
+    const stored = sessionStorage.getItem("modules:returnScrollY");
+    if (stored === null) return;
+    sessionStorage.removeItem("modules:returnScrollY");
+    const y = Number.parseInt(stored, 10);
+    if (Number.isNaN(y)) return;
+    // Defer past ScrollToTop's navigation-driven scrollTo(0,0) with a microtask
+    // chain that survives tab-backgrounding (rAF stalls when tab is hidden).
+    const run = () => window.scrollTo(0, y);
+    setTimeout(run, 0);
+    setTimeout(run, 50);
+  }, []);
+
+  const rememberScrollAnd = (run: () => void) => {
+    sessionStorage.setItem("modules:returnScrollY", String(window.scrollY));
+    run();
+  };
 
   const moduleProgressBySlug = useMemo(() => {
     return new Map(
@@ -109,8 +141,14 @@ const Modules = () => {
     });
   };
 
+  const discardMostRecentSession = () => {
+    if (!mostRecentSession) return;
+    clearModulePracticeSession(mostRecentSession.module.slug);
+    setProgressRefreshKey((k) => k + 1);
+  };
+
   return (
-    <div className="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-5 sm:px-6 lg:px-8">
+    <div className="mx-auto flex w-full max-w-5xl flex-col gap-4 px-4 py-5 sm:px-6 lg:px-8">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
         <div className="max-w-3xl">
           <h1
@@ -132,30 +170,66 @@ const Modules = () => {
       </div>
 
       {mostRecentSession ? (
-        <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30">
-          <CardContent className="flex flex-col gap-2 py-3 sm:flex-row sm:items-center sm:justify-between">
-            <div className="min-w-0">
-              <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                Resume Most Recent Module
+        <>
+          <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30">
+            <CardContent className="flex flex-col gap-2 py-3 sm:flex-row sm:items-center sm:justify-between">
+              <div className="min-w-0">
+                <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                  Resume Most Recent Module
+                </div>
+                <div className="mt-0.5 text-base font-semibold tracking-[-0.02em] text-foreground">
+                  {mostRecentSession.module.publicTitle}
+                </div>
+                <div className="text-xs text-muted-foreground">
+                  Question {mostRecentSession.session.currentIndex + 1} of {mostRecentSession.session.questionCount}
+                  {" · "}
+                  {mostRecentSession.session.settings.timed
+                    ? `${Math.max(0, Math.floor((mostRecentSession.session.remainingSeconds ?? 0) / 60))} min remaining`
+                    : "Untimed"}
+                </div>
               </div>
-              <div className="mt-0.5 text-base font-semibold tracking-[-0.02em] text-foreground">
-                {mostRecentSession.module.publicTitle}
-              </div>
-              <div className="text-xs text-muted-foreground">
-                Question {mostRecentSession.session.currentIndex + 1} of {mostRecentSession.session.questionCount}
-                {" · "}
-                {mostRecentSession.session.settings.timed
-                  ? `${Math.max(0, Math.floor((mostRecentSession.session.remainingSeconds ?? 0) / 60))} min remaining`
-                  : "Untimed"}
-              </div>
-            </div>
 
-            <Button size="sm" className="gap-2 self-start sm:self-auto" onClick={resumeMostRecentSession}>
-              <PlayCircle className="h-4 w-4" />
-              Continue
-            </Button>
-          </CardContent>
-        </Card>
+              <div className="flex items-center gap-2 self-start sm:self-auto">
+                <Button
+                  size="sm"
+                  variant="ghost"
+                  className="gap-1.5 text-muted-foreground hover:text-destructive"
+                  onClick={() => setDiscardDialogOpen(true)}
+                >
+                  <Trash2 className="h-3.5 w-3.5" />
+                  Discard
+                </Button>
+                <Button size="sm" className="gap-2" onClick={resumeMostRecentSession}>
+                  <PlayCircle className="h-4 w-4" />
+                  Continue
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <AlertDialog open={discardDialogOpen} onOpenChange={setDiscardDialogOpen}>
+            <AlertDialogContent>
+              <AlertDialogHeader>
+                <AlertDialogTitle>Discard saved session?</AlertDialogTitle>
+                <AlertDialogDescription>
+                  This will permanently delete your saved progress for{" "}
+                  <strong>{mostRecentSession.module.publicTitle}</strong> (question{" "}
+                  {mostRecentSession.session.currentIndex + 1} of{" "}
+                  {mostRecentSession.session.questionCount}). This cannot be undone.
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel>Cancel</AlertDialogCancel>
+                <AlertDialogAction
+                  className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+                  onClick={discardMostRecentSession}
+                >
+                  Discard session
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
+        </>
       ) : null}
 
       <div className="grid gap-2 sm:grid-cols-3">
@@ -194,78 +268,84 @@ const Modules = () => {
         </Select>
       </div>
 
-      <div className="flex flex-col gap-3">
-        {filteredPracticeSets.map((practiceSet) => (
-          <Card key={practiceSet.id} className="border-border/70 bg-background/90">
-            <CardHeader className="py-3">
-              <div className="flex flex-row items-center gap-3">
-                <div className="w-32 shrink-0 text-base font-semibold">Practice Set {practiceSet.setNumber}</div>
-                <Button
-                  size="sm"
-                  variant="default"
-                  className="gap-2"
-                  onClick={() => navigate(`/practice-tests/${practiceSet.id}/start`)}
-                >
-                  Full Practice Test
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
+      <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+        {filteredPracticeSets.map((practiceSet) => {
+          const rwModules = practiceSet.modules.filter((m) => m.subject === "reading");
+          const mathModules = practiceSet.modules.filter((m) => m.subject === "math");
+          return (
+            <div
+              key={practiceSet.id}
+              className="group flex flex-col gap-3 rounded-xl border border-border/60 bg-card/60 p-4 transition-colors hover:border-border hover:bg-card"
+            >
+              <div
+                className="text-2xl leading-none tracking-[-0.02em] text-foreground"
+                style={{ fontFamily: "'Instrument Serif', Georgia, serif", fontWeight: 400 }}
+              >
+                Practice Set {practiceSet.setNumber}
               </div>
-            </CardHeader>
-            <CardContent className="pb-3 pt-0">
-              <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
-                {practiceSet.modules.map((module) => {
-                  const progressCounts = moduleProgressBySlug.get(module.slug) ?? {
-                    correct: 0,
-                    incorrect: 0,
-                    correctAfterReview: 0,
-                  };
-                  const totalAnswered =
-                    progressCounts.correct + progressCounts.incorrect + progressCounts.correctAfterReview;
-                  const hasProgress = totalAnswered > 0;
-                  const isCompleted = totalAnswered >= module.questionCount;
 
-                  return (
-                    <button
-                      key={module.slug}
-                      type="button"
-                      onClick={() => openModule(module)}
-                      className="group flex flex-col gap-1.5 rounded-md border border-border/60 bg-card px-3 py-2 text-left transition-colors hover:border-border hover:bg-muted/40"
-                    >
-                      <div className="flex items-center justify-between gap-2">
-                        <div className="truncate text-sm font-semibold">{module.publicTitle}</div>
-                        <ArrowRight className="h-3.5 w-3.5 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
+              <Button
+                size="sm"
+                variant="default"
+                className="h-9 w-full justify-between gap-2 text-sm"
+                onClick={() =>
+                  rememberScrollAnd(() => navigate(`/practice-tests/${practiceSet.id}/start`))
+                }
+              >
+                Full Practice Test
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+
+              <div className="flex flex-col gap-1.5 border-t border-border/50 pt-3">
+                <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground font-medium">
+                  Individual Modules
+                </div>
+                <div className="grid grid-cols-[auto_1fr] items-center gap-x-3 gap-y-1.5">
+                  {rwModules.length > 0 && (
+                    <>
+                      <span className="text-xs text-muted-foreground font-medium">
+                        Reading
+                      </span>
+                      <div className="flex items-center gap-1.5">
+                        {rwModules.map((module) => (
+                          <Button
+                            key={module.slug}
+                            size="sm"
+                            variant="outline"
+                            className="h-7 flex-1 text-xs font-semibold tabular-nums"
+                            onClick={() => rememberScrollAnd(() => openModule(module))}
+                          >
+                            Module {module.moduleNumber}
+                          </Button>
+                        ))}
                       </div>
-                      <div className="flex h-1 w-full overflow-hidden rounded-full bg-muted">
-                        {hasProgress && (
-                          <>
-                            <div
-                              className="bg-emerald-500 transition-all"
-                              style={{ width: `${(progressCounts.correct / module.questionCount) * 100}%` }}
-                            />
-                            <div
-                              className="bg-amber-400 transition-all"
-                              style={{ width: `${(progressCounts.correctAfterReview / module.questionCount) * 100}%` }}
-                            />
-                            <div
-                              className="bg-rose-500 transition-all"
-                              style={{ width: `${(progressCounts.incorrect / module.questionCount) * 100}%` }}
-                            />
-                          </>
-                        )}
+                    </>
+                  )}
+                  {mathModules.length > 0 && (
+                    <>
+                      <span className="text-xs text-muted-foreground font-medium">
+                        Math
+                      </span>
+                      <div className="flex items-center gap-1.5">
+                        {mathModules.map((module) => (
+                          <Button
+                            key={module.slug}
+                            size="sm"
+                            variant="outline"
+                            className="h-7 flex-1 text-xs font-semibold tabular-nums"
+                            onClick={() => rememberScrollAnd(() => openModule(module))}
+                          >
+                            Module {module.moduleNumber}
+                          </Button>
+                        ))}
                       </div>
-                      <div className="text-[11px] text-muted-foreground">
-                        {totalAnswered}/{module.questionCount}
-                        {isCompleted && (
-                          <span className="ml-1 font-medium text-emerald-600">· Complete</span>
-                        )}
-                      </div>
-                    </button>
-                  );
-                })}
+                    </>
+                  )}
+                </div>
               </div>
-            </CardContent>
-          </Card>
-        ))}
+            </div>
+          );
+        })}
       </div>
 
       {filteredPracticeSets.length === 0 && (

@@ -197,7 +197,7 @@ export function QuestionBankFilterPanel({
                     <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="w-[var(--radix-select-trigger-width)] min-w-0">
                       <SelectItem value="all">All Questions</SelectItem>
                       <SelectItem value="active">Active Questions</SelectItem>
                       <SelectItem value="exclude-active">Exclude Active Questions</SelectItem>
@@ -214,7 +214,7 @@ export function QuestionBankFilterPanel({
                   <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                     <SelectValue />
                   </SelectTrigger>
-                  <SelectContent>
+                  <SelectContent className="w-[var(--radix-select-trigger-width)] min-w-0">
                     <SelectItem value="all">Any</SelectItem>
                     <SelectItem value="yes">Marked Only</SelectItem>
                     <SelectItem value="no">Not Marked</SelectItem>
@@ -230,7 +230,7 @@ export function QuestionBankFilterPanel({
                   <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                     <SelectValue />
                   </SelectTrigger>
-                  <SelectContent>
+                  <SelectContent className="w-[var(--radix-select-trigger-width)] min-w-0">
                     <SelectItem value="all">Any</SelectItem>
                     <SelectItem value="yes">Solved Only</SelectItem>
                     <SelectItem value="no">Unsolved Only</SelectItem>
@@ -246,7 +246,7 @@ export function QuestionBankFilterPanel({
                   <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                     <SelectValue />
                   </SelectTrigger>
-                  <SelectContent>
+                  <SelectContent className="w-[var(--radix-select-trigger-width)] min-w-0">
                     <SelectItem value="all">Any</SelectItem>
                     <SelectItem value="yes">Incorrect Only</SelectItem>
                     <SelectItem value="no">Not Incorrect</SelectItem>

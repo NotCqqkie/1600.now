@@ -117,11 +117,7 @@ All colors MUST be HSL.
 
   html {
     scrollbar-gutter: stable;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-    font-family: 'Outfit', system-ui, sans-serif;
+    background-color: hsl(var(--background));
     background-image:
       radial-gradient(circle at 20% 20%, hsla(201 100% 85% / 0.25), transparent 35%),
       radial-gradient(circle at 80% 0%, hsla(39 100% 57% / 0.2), transparent 40%),
@@ -130,14 +126,19 @@ All colors MUST be HSL.
     background-attachment: fixed;
   }
 
-  .dark body {
-    background-color: hsl(var(--background));
+  html.dark {
+    background-color: hsl(220 28% 22%);
     background-image:
       radial-gradient(circle at 20% 20%, hsla(201 100% 80% / 0.14), transparent 32%),
       radial-gradient(circle at 80% 0%, hsla(39 100% 60% / 0.12), transparent 38%),
       radial-gradient(circle at 50% 90%, hsla(201 90% 72% / 0.12), transparent 34%),
       linear-gradient(180deg, hsl(220 28% 24%), hsl(220 24% 18%));
     background-attachment: fixed;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Outfit', system-ui, sans-serif;
   }
 
   /* Disable text selection during drag operations */
@@ -183,7 +184,7 @@ All colors MUST be HSL.
 
   /* Answer choices - matching sizes */
   .choice-content {
-    font-size: calc(clamp(0.65rem, 1.2vw, 0.8rem) * var(--question-font-scale, 1));
+    font-size: calc(clamp(0.8rem, 1.5vw, 1rem) * var(--question-font-scale, 1));
     font-weight: 400;
   }
 
@@ -193,7 +194,7 @@ All colors MUST be HSL.
 
   /* Answer choice labels (A, B, C, D) */
   .choice-label {
-    font-size: clamp(0.65rem, 1.2vw, 0.8rem);
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
   }
 
   /* Prevent text overflow in all contexts */
@@ -249,7 +250,7 @@ All colors MUST be HSL.
 
   /* Display math blocks — generous spacing */
   .explanation-content .katex-display {
-    margin: 0.75rem 0;
+    margin: 0.75rem 0 0.75rem 0.5rem;
     padding: 0.5rem 0.75rem;
     background: hsl(var(--primary) / 0.04);
     border-left: 3px solid hsl(var(--primary) / 0.3);
@@ -568,4 +569,91 @@ All colors MUST be HSL.
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+/* ========================================
+   MOBILE-ONLY OVERRIDES  (max-width: 767px)
+   Single authoritative block — keep desktop
+   styling untouched above; tune phones here.
+   ========================================
+*/
+@media (max-width: 767px) {
+  /* Kill ambient/entrance animations that churn GPU on phones.
+     Explicit targets so interaction-driven transitions (focus rings,
+     hover on tablets, etc.) stay usable. */
+  .vocab-flashcard-container,
+  .vocab-match-grid > *,
+  .vocab-float,
+  .vocab-success-glow::after,
+  .vocab-shimmer,
+  .demo-float,
+  .h-fade-1, .h-fade-2, .h-fade-3,
+  .h-fade-4, .h-fade-5, .h-fade-6,
+  .explanation-step-slide,
+  .step-animate,
+  .vocab-page-enter,
+  .vocab-content-fade {
+    animation: none !important;
+  }
+
+  /* Hover lifts feel broken on touch — no cursor to leave */
+  .vocab-match-card:hover:not(.matched):not(.revealed),
+  .vocab-browse-card:hover,
+  .vocab-test-option:hover:not(:disabled),
+  .vocab-flashcard:not(.flipped):hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Slower transitions burn battery — clamp to snappy */
+  .vocab-match-card,
+  .vocab-test-option,
+  .vocab-browse-card,
+  .vocab-tab-indicator,
+  .vocab-progress-bar {
+    transition-duration: 0.15s !important;
+  }
+
+  /* Bigger question / choice text — vw scaling was illegibly small on phones */
+  #question-content {
+    font-size: calc(1rem * var(--question-font-scale, 1)) !important;
+  }
+  .choice-content {
+    font-size: calc(1rem * var(--question-font-scale, 1)) !important;
+  }
+  .choice-label {
+    font-size: 0.95rem !important;
+  }
+
+  /* Native text-size behaviour + safe-area room at the bottom */
+  html, body {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Stop images / media from blowing past the viewport */
+  img, video, canvas, svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* KaTeX display math on phones — allow horizontal scroll inside the
+     math block instead of blowing past the viewport edge. */
+  .katex-display {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    max-width: 100%;
+  }
+}
+
+/* Honour users who asked the OS to reduce motion, on any viewport */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }

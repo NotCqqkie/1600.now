@@ -26,7 +26,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 3,
-    text: "An exorbitant tutor charges each student &dollar;800 for the first hour and &dollar;500 for each additional hour. Which of the following functions accurately represents the total payment of all students, $P(h)$, in dollars, for $h$ hours and $n$ students, where $h$ and $n$ are positive integers?",
+    text: "An overpriced tutor charges each student &dollar;800 for the first hour and &dollar;500 for each additional hour. Which of the following functions accurately represents the total payment of all students, $P(h)$, in dollars, for $h$ hours and $n$ students, where $h$ and $n$ are positive integers?",
     choices: [
       { id: "A", text: "$P(h) = 500nh + 300n$" },
       { id: "B", text: "$P(h) = 500nh + 800n$" },

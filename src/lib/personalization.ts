@@ -43,11 +43,11 @@ export const TEXT_SIZE_OPTIONS: {
   label: string;
   scale: number;
 }[] = [
-  { id: "xsmall", label: "Extra Small", scale: 0.82 },
-  { id: "small", label: "Small", scale: 0.92 },
-  { id: "default", label: "Default", scale: 1 },
-  { id: "large", label: "Large", scale: 1.15 },
-  { id: "xlarge", label: "Extra Large", scale: 1.35 },
+  { id: "xsmall", label: "Extra Small", scale: 0.94 },
+  { id: "small", label: "Small", scale: 1.06 },
+  { id: "default", label: "Default", scale: 1.15 },
+  { id: "large", label: "Large", scale: 1.32 },
+  { id: "xlarge", label: "Extra Large", scale: 1.55 },
 ];
 
 const fontStackFor = (id: QuestionFontId) =>

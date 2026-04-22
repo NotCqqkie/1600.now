@@ -3,18 +3,18 @@ import { useState, useEffect, useRef, useLayoutEffect, useMemo, useCallback } fr
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { BankNavigationSheet } from "@/components/BankNavigationSheet";
-import { OfficialPracticeNavigationSheet } from "@/components/OfficialPracticeNavigationSheet"; 
-import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet"; 
+import { PracticeNavigationSheet } from "@/components/PracticeNavigationSheet";
 import { ModulePracticeNavigationSheet } from "@/components/ModulePracticeNavigationSheet";
 import { FormulaSheetDialog } from "@/components/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/DesmosDialog";
 import { ExplanationWindow } from "@/components/ExplanationWindow";
 import { ReadingPassageAnnotator } from "@/components/ReadingPassageAnnotator";
 import { QuestionNotesWindow } from "@/components/QuestionNotesWindow";
+import { ReportQuestionDialog } from "@/components/ReportQuestionDialog";
 import { MultipleChoiceQuestion } from "@/components/MultipleChoiceQuestion";
 import { PreviousAttemptsDialog } from "@/components/PreviousAttemptsDialog";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
-import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info, Highlighter, Moon, MoreHorizontal, StickyNote, Sun } from "lucide-react";
+import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Flag, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info, Highlighter, Moon, MoreHorizontal, StickyNote, Sun } from "lucide-react";
 import { toast } from "sonner";
 import {
   DropdownMenu,
@@ -46,17 +46,12 @@ import {
 } from "@/components/ui/alert-dialog";
 import { questions as originalQuestions } from "@/data/100 Hard";
 import {
-  getBankCounts as getBankCountsNormal,
-  getBankPool as getBankPoolNormal,
-  getBankQuestion as getBankQuestionNormal,
+  getBankCounts,
+  getBankPool,
+  getBankQuestion,
   normalizeBankSource,
   type BankSourceFilter,
 } from "@/data/questionBank";
-import {
-  getBankPool as getBankPoolOfficial,
-  getBankQuestion as getBankQuestionOfficial,
-  bankCounts as officialBankCounts,
-} from "@/data/officialQuestionBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
@@ -166,17 +161,14 @@ const getStoredQuestionStatus = (storageId: string): string =>
 
 const getGroupedQuestionOrderStorageKey = ({
   is100Hard,
-  isOfficialBank,
   subject,
   bankSource,
 }: {
   is100Hard: boolean;
-  isOfficialBank: boolean;
   subject: "math" | "reading";
   bankSource: BankSourceFilter;
 }) => {
   if (is100Hard) return "question-order:hard";
-  if (isOfficialBank) return `question-order:official:${subject}`;
   return `question-order:bank:${subject}:${bankSource}`;
 };
 
@@ -271,6 +263,20 @@ const extractLeadingQuestionSentence = (text: string): { sentence?: string; rema
     }
   }
 
+  const lastNewlineIndex = trimmed.lastIndexOf("\n");
+  if (lastNewlineIndex !== -1 && trimmed.endsWith("?")) {
+    const before = trimmed.slice(0, lastNewlineIndex).trim();
+    const lastLine = trimmed.slice(lastNewlineIndex + 1).trim();
+    if (
+      before &&
+      lastLine &&
+      looksLikeQuestionSentence(lastLine) &&
+      looksLikePassageBlock(before)
+    ) {
+      return { sentence: lastLine, remainder: before };
+    }
+  }
+
   if (looksLikePassageBlock(trimmed)) {
     return { remainder: trimmed };
   }
@@ -325,9 +331,8 @@ type QuestionViewMode = "vertical" | "horizontal";
 const getDefaultQuestionViewMode = (
   subject: "math" | "reading",
   isBank: boolean,
-  isOfficialBank: boolean,
 ): QuestionViewMode => {
-  if (isBank || isOfficialBank) {
+  if (isBank) {
     return subject === "reading" ? "horizontal" : "vertical";
   }
 
@@ -337,9 +342,7 @@ const getDefaultQuestionViewMode = (
 const getQuestionViewModeStorageKey = (
   subject: "math" | "reading",
   isBank: boolean,
-  isOfficialBank: boolean,
 ) => {
-  if (isOfficialBank) return `question-view-mode:official:${subject}`;
   if (isBank) return `question-view-mode:bank:${subject}`;
   return "question-view-mode:hard";
 };
@@ -363,11 +366,55 @@ function Question() {
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();
-  const isDark = useThemeMode();
+  const isEmbed = searchParams.get("embed") === "1";
+  const sharedIsDark = useThemeMode();
+  const embedThemeParam = searchParams.get("theme");
+  const [embedIsDark, setEmbedIsDark] = useState<boolean>(() =>
+    embedThemeParam === "dark"
+      ? true
+      : embedThemeParam === "light"
+        ? false
+        : sharedIsDark,
+  );
+  // In embed mode: apply theme to THIS iframe's document only (no localStorage,
+  // no event dispatch, so toggling inside the preview won't flip the parent).
+  useEffect(() => {
+    if (!isEmbed || typeof document === "undefined") return;
+    const root = document.documentElement;
+    root.classList.toggle("dark", embedIsDark);
+    root.style.colorScheme = embedIsDark ? "dark" : "light";
+  }, [isEmbed, embedIsDark]);
+  // In embed mode: disable internal scrolling + forward wheel to parent page.
+  // preventDefault + passive:false stops the browser from also bubbling the
+  // wheel natively, which would double-scroll the parent.
+  useEffect(() => {
+    if (!isEmbed || typeof document === "undefined") return;
+    const prevHtml = document.documentElement.style.overflow;
+    const prevBody = document.body.style.overflow;
+    document.documentElement.style.overflow = "hidden";
+    document.body.style.overflow = "hidden";
+    const forwardWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      try {
+        window.parent?.postMessage(
+          { type: "heroWheel", deltaY: e.deltaY, deltaX: e.deltaX },
+          "*",
+        );
+      } catch {
+        /* noop */
+      }
+    };
+    window.addEventListener("wheel", forwardWheel, { passive: false });
+    return () => {
+      document.documentElement.style.overflow = prevHtml;
+      document.body.style.overflow = prevBody;
+      window.removeEventListener("wheel", forwardWheel);
+    };
+  }, [isEmbed]);
+  const isDark = isEmbed ? embedIsDark : sharedIsDark;
 
   const isBank = location.pathname.startsWith('/bank');
-  const isOfficialBank = location.pathname.startsWith('/official-bank');
-  const is100Hard = !isBank && !isOfficialBank;
+  const is100Hard = !isBank;
 
   const isPracticeMode = searchParams.get('practice') === 'true';
   const modulePracticeSlug = searchParams.get("modulePractice");
@@ -375,7 +422,14 @@ function Question() {
   const practiceTestSetId = searchParams.get("practiceTest");
   const practiceTestSessionId = searchParams.get("practiceTestSession");
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
-  const bankQuerySuffix = isBank ? `?bankType=${bankSource}` : "";
+  const rawDifficulty = searchParams.get("difficulty");
+  const difficultyFilter: "Easy" | "Medium" | "Hard" | null =
+    rawDifficulty === "Easy" || rawDifficulty === "Medium" || rawDifficulty === "Hard"
+      ? rawDifficulty
+      : null;
+  const bankQuerySuffix = isBank
+    ? `?bankType=${bankSource}${isEmbed ? "&embed=1" : ""}${difficultyFilter ? `&difficulty=${difficultyFilter}` : ""}`
+    : "";
   const practiceSet = useMemo<PracticeSetItem[]>(() => {
     if (!isPracticeMode) return [];
     try {
@@ -411,16 +465,15 @@ function Question() {
       return hardQuestions.find(q => q.id === questionNumber);
     }
     
-    const getter = isOfficialBank ? getBankQuestionOfficial : getBankQuestionNormal;
-    const q = isOfficialBank ? getter(subject, questionNumber) : getter(subject, questionNumber, bankSource);
-    
+    const q = getBankQuestion(subject, questionNumber, bankSource);
+
     if (!q) return null;
     return {
       ...q,
-      uuid: isOfficialBank ? `official-${subject}-${q.id}` : q.stableId,
+      uuid: q.stableId,
     };
 
-  }, [is100Hard, isBank, isOfficialBank, questionNumber, subject, bankSource]);
+  }, [is100Hard, questionNumber, subject, bankSource]);
   const currentQuestion = questionData;
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || practiceSet.length === 0) return -1;
@@ -430,9 +483,9 @@ function Question() {
         (q.storageId
           ? q.storageId === currentQuestion?.uuid
           : q.id === questionNumber &&
-            (isOfficialBank || !q.bankType || q.bankType === bankSource)),
+            (!q.bankType || q.bankType === bankSource)),
     );
-  }, [isPracticeMode, practiceSet, questionNumber, subject, isOfficialBank, bankSource, currentQuestion]);
+  }, [isPracticeMode, practiceSet, questionNumber, subject, bankSource, currentQuestion]);
   const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
   const modulePracticeStateSessionId = modulePracticeSessionId || modulePracticeSessionMeta?.sessionId || null;
   const practiceTestStateSessionId = practiceTestSessionId || practiceTestSessionMeta?.sessionId || null;
@@ -492,7 +545,7 @@ function Question() {
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation', 'note']);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [questionViewMode, setQuestionViewMode] = useState<QuestionViewMode>(() =>
-    getDefaultQuestionViewMode(subject, isBank, isOfficialBank),
+    getDefaultQuestionViewMode(subject, isBank),
   );
   const [questionSplitPosition, setQuestionSplitPosition] = useState(() =>
     getDefaultQuestionSplitPosition(subject),
@@ -504,6 +557,7 @@ function Question() {
   const [isTimerExpiredOpen, setIsTimerExpiredOpen] = useState(false);
   const [groupedOrderVersion, setGroupedOrderVersion] = useState(0);
   const [isQuestionInfoOpen, setIsQuestionInfoOpen] = useState(false);
+  const [isReportOpen, setIsReportOpen] = useState(false);
   const [isNoteWindowOpen, setIsNoteWindowOpen] = useState(false);
   const [isAnnotationModeEnabled, setIsAnnotationModeEnabled] = useState<boolean>(() => {
     if (typeof window === "undefined") return true;
@@ -634,32 +688,26 @@ function Question() {
       }));
     }
 
-    if (isOfficialBank) {
-      return getBankPoolOfficial(subject).map((question) => ({
-        id: question.id,
-        storageId: `official-${subject}-${question.id}`,
-      }));
-    }
-
     if (isBank) {
-      return getBankPoolNormal(subject, bankSource).map((question) => ({
-        id: question.id,
-        storageId: question.stableId,
-      }));
+      return getBankPool(subject, bankSource)
+        .filter((question) => !difficultyFilter || question.difficulty === difficultyFilter)
+        .map((question) => ({
+          id: question.id,
+          storageId: question.stableId,
+        }));
     }
 
     return [];
-  }, [bankSource, is100Hard, isBank, isOfficialBank, subject]);
+  }, [bankSource, difficultyFilter, is100Hard, isBank, subject]);
 
   const groupedOrderStorageKey = useMemo(
     () =>
       getGroupedQuestionOrderStorageKey({
         is100Hard,
-        isOfficialBank,
         subject,
         bankSource,
       }),
-    [bankSource, is100Hard, isOfficialBank, subject],
+    [bankSource, is100Hard, subject],
   );
 
   const orderedNavigationItems = useMemo<OrderedNavigationItem[]>(() => {
@@ -686,20 +734,20 @@ function Question() {
   );
 
   useEffect(() => {
-    const storageKey = getQuestionViewModeStorageKey(subject, isBank, isOfficialBank);
+    const storageKey = getQuestionViewModeStorageKey(subject, isBank);
     const storedMode = sessionStorage.getItem(storageKey);
-    const defaultMode = getDefaultQuestionViewMode(subject, isBank, isOfficialBank);
+    const defaultMode = getDefaultQuestionViewMode(subject, isBank);
     setQuestionViewMode(
       storedMode === "horizontal" || storedMode === "vertical"
         ? storedMode
         : defaultMode,
     );
-  }, [isBank, isOfficialBank, subject]);
+  }, [isBank, subject]);
 
   useEffect(() => {
     if (questionViewMode !== "horizontal") return;
     setQuestionSplitPosition(getDefaultQuestionSplitPosition(subject));
-  }, [questionNumber, questionViewMode, subject, isBank, isOfficialBank]);
+  }, [questionNumber, questionViewMode, subject, isBank]);
 
   useEffect(() => {
     localStorage.setItem(
@@ -709,7 +757,7 @@ function Question() {
   }, [isAnnotationModeEnabled]);
 
   const handleQuestionViewModeChange = (mode: QuestionViewMode) => {
-    const storageKey = getQuestionViewModeStorageKey(subject, isBank, isOfficialBank);
+    const storageKey = getQuestionViewModeStorageKey(subject, isBank);
     sessionStorage.setItem(storageKey, mode);
     setQuestionViewMode(mode);
   };
@@ -1053,7 +1101,7 @@ function Question() {
   }, [isSplitScreenActive]);
 
   if (!currentQuestion) {
-    const fallbackDestination = practiceExitTo || (isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/bank");
+    const fallbackDestination = practiceExitTo || (isBank ? `/bank?bankType=${bankSource}` : "/bank");
     return <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">Question not found</h1>
@@ -1204,11 +1252,11 @@ function Question() {
     if (is100Hard) return 100;
     if (effectivePracticeMode) return practiceSet.length;
     if (subject) {
-      const counts = isOfficialBank ? officialBankCounts : getBankCountsNormal(bankSource);
+      const counts = getBankCounts(bankSource);
       return counts[subject] || 0;
     }
     return 0;
-  }, [is100Hard, effectivePracticeMode, practiceSet, isOfficialBank, subject, bankSource]);
+  }, [is100Hard, effectivePracticeMode, practiceSet, subject, bankSource]);
 
   const currentOrderedQuestionIndex = useMemo(
     () => orderedQuestionIds.indexOf(questionNumber),
@@ -1300,10 +1348,10 @@ function Question() {
   const navigateToPracticeIndex = (idx: number) => {
     if (!effectivePracticeMode || idx < 0 || idx >= practiceSet.length) return;
     const target = practiceSet[idx];
-    const base = isOfficialBank ? '/official-bank' : '/bank';
+    const base = '/bank';
     const params = new URLSearchParams();
 
-    if (!isOfficialBank && target.bankType) {
+    if (target.bankType) {
       params.set("bankType", target.bankType);
     }
 
@@ -1423,7 +1471,7 @@ function Question() {
       navigateToPracticeIndex(currentPracticeIndex - 1);
       return;
     }
-    const base = isOfficialBank ? '/official-bank' : '/bank';
+    const base = '/bank';
     const previousQuestionId = orderedQuestionIds[currentOrderedQuestionIndex - 1];
     if (previousQuestionId) {
       navigate(`${base}/${subject}/${previousQuestionId}${isBank ? bankQuerySuffix : ""}`);
@@ -1446,7 +1494,7 @@ function Question() {
       navigateToPracticeIndex(currentPracticeIndex + 1);
       return;
     }
-    const base = isOfficialBank ? '/official-bank' : '/bank';
+    const base = '/bank';
     const nextQuestionId = orderedQuestionIds[currentOrderedQuestionIndex + 1];
     if (nextQuestionId) {
       navigate(`${base}/${subject}/${nextQuestionId}${isBank ? bankQuerySuffix : ""}`);
@@ -1494,7 +1542,7 @@ function Question() {
       return;
     }
 
-    const base = isOfficialBank ? "/official-bank" : "/bank";
+    const base = "/bank";
     navigate(`${base}/${subject}/${nextQuestionId}${isBank ? bankQuerySuffix : ""}`);
   };
 
@@ -1560,7 +1608,7 @@ function Question() {
           attemptCount: newAttemptCount,
           status,
         }));
-      } else {
+      } else if (!isEmbed) {
         const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
         addAttempt(currentQuestion.uuid, "correct", duration, formattedAnswer);
         localStorage.setItem(`${localStateKey}-answer`, userAnswer);
@@ -1579,7 +1627,7 @@ function Question() {
           attemptCount: newAttemptCount,
           status: "incorrect",
         }));
-      } else {
+      } else if (!isEmbed) {
         const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
         addAttempt(currentQuestion.uuid, "incorrect", duration, formattedAnswer);
         localStorage.setItem(`${localStateKey}-answer`, userAnswer);
@@ -1746,7 +1794,7 @@ function Question() {
     : Boolean(questionTextContent) &&
       (passageContent !== undefined || !promptContent || questionTextContent !== promptContent);
   const readingPassageContent = subject === "reading"
-    ? stripDuplicatedLeadingQuestion(passageContent ?? stemContent, readingQuestionSentence)
+    ? stripDuplicatedLeadingQuestion(stemContent, readingQuestionSentence)
     : undefined;
   const readingPassageHtml = readingPassageContent
     ? getRenderedContentHtml(readingPassageContent)
@@ -1767,11 +1815,11 @@ function Question() {
   const noteWindowOpenKey = `${noteStorageKey}:open`;
   const noteStorageArea = isAssessmentMode
     ? sessionStorage
-    : (isBank || isOfficialBank)
+    : isBank
       ? EPHEMERAL_STORAGE
       : localStorage;
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
-  const shouldReduceQuestionImageSize = isBank || isOfficialBank;
+  const shouldReduceQuestionImageSize = isBank;
       
   const renderQuestionImages = () => {
     if (!questionImages?.length) return null;
@@ -1785,9 +1833,13 @@ function Question() {
               alt={img.alt || `Question image ${idx + 1}`}
               className={cn(
                 "h-auto rounded-[8px] object-contain border border-border",
-                shouldReduceQuestionImageSize
-                  ? "max-w-[91%] max-h-[309px]"
-                  : "max-w-full max-h-[340px]",
+                subject === "reading"
+                  ? shouldReduceQuestionImageSize
+                    ? "max-w-[91%] max-h-[420px]"
+                    : "max-w-full max-h-[460px]"
+                  : shouldReduceQuestionImageSize
+                    ? "max-w-[91%] max-h-[309px]"
+                    : "max-w-full max-h-[340px]",
               )}
               wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
               loading="lazy"
@@ -1799,7 +1851,7 @@ function Question() {
     );
   };
   
-  const backDestination = practiceExitTo || (isOfficialBank ? "/official-bank" : isBank ? `/bank?bankType=${bankSource}` : "/bank");
+  const backDestination = practiceExitTo || (isBank ? `/bank?bankType=${bankSource}` : "/bank");
 
   useEffect(() => {
     setIsNoteWindowOpen(noteStorageArea.getItem(noteWindowOpenKey) === "true");
@@ -1815,6 +1867,10 @@ function Question() {
     noteStorageArea.setItem(noteWindowOpenKey, "false");
   };
   const toggleTheme = () => {
+    if (isEmbed) {
+      setEmbedIsDark((prev) => !prev);
+      return;
+    }
     applyTheme(!isDark);
   };
   const handleSaveAndExit = () => {
@@ -2085,9 +2141,14 @@ function Question() {
       : `${practiceTestModuleQuestionCount} questions in this module`;
 
   return (
-    <div className="min-h-screen bg-background flex flex-col relative">
+    <div className={cn("min-h-screen bg-background flex flex-col relative", isEmbed && "h-screen overflow-hidden")}>
       {questionInfoDialog}
       {isModulePracticeMode && modulePracticeSessionMeta?.settings.timed ? timerExpiredDialog : null}
+      <ReportQuestionDialog
+        open={isReportOpen}
+        onOpenChange={setIsReportOpen}
+        questionId={currentQuestion?.uuid}
+      />
       <QuestionNotesWindow
         key={noteStorageKey}
         isOpen={isNoteWindowOpen}
@@ -2104,9 +2165,9 @@ function Question() {
           className="container mx-auto px-4 py-4"
           style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : undefined}
         >
-          <div className="relative flex items-center justify-between gap-3" ref={topNavRef}>
+          <div className="relative flex items-center justify-between gap-1 sm:gap-3" ref={topNavRef}>
             <div ref={topLeftRef} data-header-left className="flex-shrink-0">
-              {isAssessmentMode ? (
+              {isEmbed ? null : isAssessmentMode ? (
                 <AlertDialog>
                   <AlertDialogTrigger asChild>
                     <Button variant="ghost" size="sm">
@@ -2148,13 +2209,13 @@ function Question() {
                 {timerControls}
               </div>
             )}
-            <div ref={topRightRef} className="flex items-center gap-2">
+            <div ref={topRightRef} className="flex items-center gap-1 sm:gap-2">
               {!shouldPinTopTimerCenter && (
-                <div ref={topTimerRef} className="flex items-center gap-2 mr-1">
+                <div ref={topTimerRef} className="flex items-center gap-1 sm:gap-2 mr-0 sm:mr-1">
                   {timerControls}
                 </div>
               )}
-              <div ref={topRightControlsRef} className="flex items-center gap-2">
+              <div ref={topRightControlsRef} className="flex items-center gap-1 sm:gap-2">
                 {subject === "math" && (
                   <>
                     <FormulaSheetDialog
@@ -2214,6 +2275,10 @@ function Question() {
                         Question Info
                       </DropdownMenuItem>
                     )}
+                    <DropdownMenuItem onClick={() => setIsReportOpen(true)}>
+                      <Flag className="mr-2 h-4 w-4" />
+                      Report Question
+                    </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuLabel>View Mode</DropdownMenuLabel>
                     <DropdownMenuRadioGroup
@@ -2232,26 +2297,24 @@ function Question() {
                       </DropdownMenuRadioItem>
                     </DropdownMenuRadioGroup>
                     <DropdownMenuSeparator />
-                    <DropdownMenuCheckboxItem
-                      checked={isDark}
-                      onSelect={(event) => event.preventDefault()}
-                      onCheckedChange={toggleTheme}
-                    >
+                    <DropdownMenuItem onClick={toggleTheme}>
                       {isDark ? (
                         <Moon className="mr-2 h-4 w-4" />
                       ) : (
                         <Sun className="mr-2 h-4 w-4" />
                       )}
                       {isDark ? "Light Mode" : "Dark Mode"}
-                    </DropdownMenuCheckboxItem>
-                    <DropdownMenuItem onClick={toggleFullscreen}>
-                      {isFullscreen ? (
-                        <Minimize2 className="mr-2 h-4 w-4" />
-                      ) : (
-                        <Maximize2 className="mr-2 h-4 w-4" />
-                      )}
-                      {isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen"}
                     </DropdownMenuItem>
+                    {!isEmbed && (
+                      <DropdownMenuItem onClick={toggleFullscreen}>
+                        {isFullscreen ? (
+                          <Minimize2 className="mr-2 h-4 w-4" />
+                        ) : (
+                          <Maximize2 className="mr-2 h-4 w-4" />
+                        )}
+                        {isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen"}
+                      </DropdownMenuItem>
+                    )}
                   </DropdownMenuContent>
                 </DropdownMenu>
               </div>
@@ -2318,7 +2381,7 @@ function Question() {
           {questionViewMode === 'horizontal' ? (
             <div className="flex relative" style={{ minHeight: '400px' }}>
               <div
-                className="pr-4 overflow-y-auto space-y-4"
+                className={cn("pr-4 space-y-4", isEmbed && "overflow-y-auto")}
                 style={{ width: `${questionSplitPosition}%` }}
               >
                 {renderQuestionImages()}
@@ -2341,8 +2404,8 @@ function Question() {
                 <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors rounded" />
               </div>
 
-              <div 
-                className="pl-4 overflow-y-auto"
+              <div
+                className={cn("pl-4", isEmbed && "overflow-y-auto")}
                 style={{ width: `${100 - questionSplitPosition}%` }}
               >
                 <div className="bg-slate-100 dark:bg-slate-800 flex items-center justify-between mb-4 rounded-md overflow-hidden h-10 shadow-sm border border-slate-200 dark:border-slate-700 px-1">
@@ -2383,7 +2446,7 @@ function Question() {
                 )}
 
                 {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
-                  <MultipleChoiceQuestion 
+                  <MultipleChoiceQuestion
                     choices={currentQuestion.choices}
                     selectedAnswer={selectedAnswer}
                     onAnswerChange={handleAnswerSelectionChange}
@@ -2473,7 +2536,7 @@ function Question() {
               </div>
 
               {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
-                <MultipleChoiceQuestion 
+                <MultipleChoiceQuestion
                   choices={currentQuestion.choices}
                   selectedAnswer={selectedAnswer}
                   onAnswerChange={handleAnswerSelectionChange}
@@ -2531,8 +2594,8 @@ function Question() {
                   : "justify-self-end"
               )}
             >
-              {!isAssessmentMode && <PreviousAttemptsDialog attempts={currentProgress.attempts} />}
-              {is100Hard ? (
+              {!isEmbed && !isAssessmentMode && <PreviousAttemptsDialog attempts={currentProgress.attempts} />}
+              {!isEmbed && (is100Hard ? (
                   <BankNavigationSheet
                     currentQuestion={questionNumber}
                     totalQuestions={100}
@@ -2566,34 +2629,34 @@ function Question() {
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition}
                         statusMode={assessmentAllowsChecking ? "default" : "answered-unanswered"}
+                        headerActions={
+                          isPracticeTestMode && !practiceTestReviewPhase ? (
+                            <Button variant="outline" size="sm" onClick={handlePracticeTestPhaseAdvance}>
+                              Review Questions
+                            </Button>
+                          ) : isModulePracticeMode && !modulePracticeAllowsChecking ? (
+                            <Button variant="outline" size="sm" onClick={handleModulePracticeReview}>
+                              Review Questions
+                            </Button>
+                          ) : null
+                        }
                      />
                  ) : (
-                 isOfficialBank ? (
-                     <OfficialPracticeNavigationSheet 
-                        currentIndex={currentPracticeIndex}
-                        practiceSet={practiceSet}
-                        onJump={(idx) => navigateToPracticeIndex(idx)}
-                        storagePrefix={`official-bank-${subject}`}
-                        isSplitScreenActive={isSplitScreenActive}
-                        splitPosition={splitPosition}
-                     />
-                 ) : (
-                     <PracticeNavigationSheet 
+                     <PracticeNavigationSheet
                         currentIndex={currentPracticeIndex}
                         practiceSet={practiceSet}
                         onJump={(idx) => navigateToPracticeIndex(idx)}
                         exitTo={practiceExitTo || `/bank?bankType=${bankSource}`}
                         isSplitScreenActive={isSplitScreenActive}
-                        splitPosition={splitPosition} 
+                        splitPosition={splitPosition}
                      />
-                 )
                  )
               ) : (
                  <BankNavigationSheet
                     currentQuestion={questionNumber}
                     totalQuestions={totalQuestions}
                     onJump={(qNum) => {
-                       const base = isOfficialBank ? '/official-bank' : '/bank';
+                       const base = '/bank';
                        navigate(`${base}/${subject}/${qNum}${isBank ? bankQuerySuffix : ""}`);
                     }}
                     items={orderedNavigationItems}
@@ -2605,7 +2668,7 @@ function Question() {
                       </Button>
                     )}
                  />
-              )}
+              ))}
             </div>
 
             <div

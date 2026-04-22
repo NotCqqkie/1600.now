@@ -1,8 +1,16 @@
 import { useEffect, useMemo } from "react";
 import { matchPath, useLocation } from "react-router-dom";
+import { hreflangGroup } from "@/lib/countryHubData";
+import {
+  BRAND_ALTERNATE,
+  BRAND_NAME,
+  BRAND_SAME_AS,
+  BRAND_URL,
+  brandedTitle,
+} from "@/lib/brand";
 
-const SITE_NAME = "1600.now";
-const SITE_URL = "https://1600.now";
+const SITE_NAME = BRAND_NAME;
+const SITE_URL = BRAND_URL;
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 type RouteMetadata = {
@@ -15,9 +23,9 @@ type RouteMetadata = {
 const routeMetadata: RouteMetadata[] = [
   {
     pattern: "/",
-    title: "1600.now | SAT Practice Questions, Modules, and Score Tools",
+    title: "1600.now — Free SAT Prep Question Bank & Practice Tests",
     description:
-      "Prep for the digital SAT with timed practice questions, full SAT modules, answer explanations, vocabulary review, and a score calculator.",
+      "1600.now is a free SAT prep platform with a filterable question bank, full digital SAT modules, score calculator, vocabulary review, and detailed explanations.",
   },
   {
     pattern: "/modules",
@@ -70,33 +78,6 @@ const routeMetadata: RouteMetadata[] = [
       `Review a ${formatSubject(subject)} SAT practice question with answer choices, explanations, and study context.`,
   },
   {
-    pattern: "/official-bank",
-    title: "Official SAT Question Bank | Official Practice Questions",
-    description:
-      "Study official SAT practice questions with filters for subject, skill, and difficulty to build a targeted prep plan.",
-  },
-  {
-    pattern: "/official-bank/:subject/browse",
-    title: ({ subject }) =>
-      `Official ${formatSubject(subject)} SAT Questions | Browse`,
-    description: ({ subject }) =>
-      `Browse official ${formatSubject(subject)} SAT practice questions with structured filters and fast navigation.`,
-  },
-  {
-    pattern: "/official-bank/:subject/:filterType/:filterValue",
-    title: ({ subject }) =>
-      `Official ${formatSubject(subject)} SAT Questions | Filtered Bank`,
-    description: ({ subject }) =>
-      `Explore filtered official ${formatSubject(subject)} SAT questions and focus on the exact concepts you need to strengthen.`,
-  },
-  {
-    pattern: "/official-bank/:subject/:id",
-    title: ({ subject }) =>
-      `Official ${formatSubject(subject)} SAT Practice Question`,
-    description: ({ subject }) =>
-      `Review an official ${formatSubject(subject)} SAT practice question with answer choices and explanation context.`,
-  },
-  {
     pattern: "/vocab",
     title: "SAT Vocabulary Practice | High-Frequency SAT Words",
     description:
@@ -107,6 +88,60 @@ const routeMetadata: RouteMetadata[] = [
     title: "SAT Performance Analysis | Review Accuracy and Trends",
     description:
       "Analyze SAT practice performance, track strengths and weaknesses, and identify the next highest-impact study areas.",
+  },
+  {
+    pattern: "/sat-vocabulary",
+    title: "SAT Vocabulary List | 260+ Digital SAT Words in Context",
+    description:
+      "Complete Digital SAT vocabulary list with definitions, grouped by difficulty, covering every high-frequency SAT Words-in-Context word.",
+  },
+  {
+    pattern: "/sat-score",
+    title: "SAT Score Breakdowns | Every 400–1600 Score Explained",
+    description:
+      "See percentile, target colleges, and a study plan for every Digital SAT score from 400 to 1600.",
+  },
+  {
+    pattern: "/sat-score/:score",
+    title: ({ score }) => `${score} SAT Score | Percentile, Sections & Colleges`,
+    description: ({ score }) =>
+      `A ${score} Digital SAT score breakdown — percentile, section targets, competitive colleges, and a study plan to raise it.`,
+  },
+  {
+    pattern: "/sat-skill",
+    title: "Digital SAT Skills List | Every Math & Reading Skill Tested",
+    description:
+      "Complete list of every skill tested on the Digital SAT, with tips and targeted practice for each.",
+  },
+  {
+    pattern: "/sat-skill/:slug",
+    title: "Digital SAT Skill Guide | Tips, Examples, and Practice",
+    description:
+      "Master a specific Digital SAT skill with a focused guide, key tips, and practice resources.",
+  },
+  {
+    pattern: "/blog",
+    title: "1600.now Blog | Digital SAT Prep Guides and Strategy",
+    description:
+      "In-depth Digital SAT guides on scoring, adaptive testing, math formulas, vocabulary strategy, and more.",
+  },
+  {
+    pattern: "/blog/:slug",
+    title: "1600.now Blog | Digital SAT Prep Article",
+    description:
+      "Digital SAT prep article from the 1600.now blog.",
+  },
+  {
+    pattern: "/privacy",
+    title: "Privacy Policy | 1600.now",
+    description:
+      "Privacy Policy for 1600.now, including information collection, usage, sharing, retention, choices, and contact details.",
+  },
+  {
+    pattern: "/terms",
+    title: "Terms of Service | 1600.now",
+    description:
+      "Terms of Service for using 1600.now SAT prep tools, practice modules, score calculator, and question bank.",
   },
   {
     pattern: "/login",
@@ -204,7 +239,7 @@ export const Seo = () => {
           "Digital SAT prep with question banks, modules, score tools, and explanations.";
 
     return {
-      title,
+      title: pathname === "/" ? title : brandedTitle(title),
       description,
       noindex: matchedRoute?.noindex ?? false,
       canonicalUrl: `${SITE_URL}${pathname === "/" ? "" : pathname}`,
@@ -259,11 +294,45 @@ export const Seo = () => {
       href: metadata.canonicalUrl,
     });
 
+    // Bidirectional hreflang: the site root declares alternates for every
+    // country hub so Google can swap locales from the English home to /in or
+    // /ae. Country hubs declare the same group on their end. Other routes do
+    // not have localized alternates, so we remove any stale tags.
+    document.head
+      .querySelectorAll('link[rel="alternate"][data-seo-hreflang]')
+      .forEach((el) => el.remove());
+    if (location.pathname === "/") {
+      hreflangGroup.forEach((a) => {
+        const el = document.createElement("link");
+        el.setAttribute("rel", "alternate");
+        el.setAttribute("hreflang", a.hreflang);
+        el.setAttribute("href", a.href);
+        el.setAttribute("data-seo-hreflang", "root");
+        document.head.appendChild(el);
+      });
+    }
+
     upsertJsonLd("website", {
       "@context": "https://schema.org",
       "@type": "WebSite",
       name: SITE_NAME,
+      alternateName: BRAND_ALTERNATE,
       url: SITE_URL,
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${SITE_URL}/bank?q={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    });
+
+    upsertJsonLd("organization", {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: SITE_NAME,
+      alternateName: BRAND_ALTERNATE,
+      url: SITE_URL,
+      logo: `${SITE_URL}/logo_b.png`,
+      ...(BRAND_SAME_AS.length > 0 ? { sameAs: BRAND_SAME_AS } : {}),
     });
 
     upsertJsonLd("webpage", {
