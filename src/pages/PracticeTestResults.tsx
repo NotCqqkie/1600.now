@@ -182,10 +182,7 @@ const PracticeTestResults = () => {
             <CardTitle>Total Score</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
-            <div
-              className="text-7xl font-semibold tracking-[-0.08em]"
-              style={{ color: getScoreAccent(result.totalScore, 1600) }}
-            >
+            <div className="text-7xl font-semibold tracking-[-0.08em]">
               {result.totalScore}
             </div>
             <div className="grid gap-4 sm:grid-cols-2">

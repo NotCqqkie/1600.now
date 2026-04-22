@@ -262,6 +262,19 @@ function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; s
           <InlineDesmos expressions={step.desmosExpressions} />
         </div>
       )}
+
+      {step.desmosGraphs && step.desmosGraphs.length > 0 && (
+        <div className="ml-9 mt-2 flex flex-col gap-4">
+          {step.desmosGraphs.map((g, i) => (
+            <div key={i} className="space-y-1">
+              {g.label && (
+                <div className="text-sm font-semibold text-muted-foreground">{g.label}</div>
+              )}
+              <InlineDesmos expressions={g.expressions} height={420} />
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

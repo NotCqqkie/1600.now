@@ -1,3 +1,29 @@
+User-agent: *
+Allow: /
+
+# Functional / user-specific routes: block crawling so they don't burn crawl budget.
+Disallow: /login
+Disallow: /signup
+Disallow: /profile
+Disallow: /analysis
+
+# Interactive practice flows (state-dependent, no stable content to index).
+Disallow: /modules/*/start
+Disallow: /modules/*/review
+Disallow: /modules/*/results
+Disallow: /practice-tests/*/start
+Disallow: /practice-tests/*/transition
+Disallow: /practice-tests/*/review
+Disallow: /practice-tests/*/results
+
+# Individual raw question pages are thin; prefer concept pages over one-per-question.
+Disallow: /hard/
+
+# Search / filter URL parameters (never part of canonical content).
+Disallow: /*?q=
+Disallow: /*&q=
+
+# Common crawler hints (all follow the shared rules above).
 User-agent: Googlebot
 Allow: /
 
@@ -8,9 +34,6 @@ User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
-Allow: /
-
-User-agent: *
 Allow: /
 
 Sitemap: https://1600.now/sitemap.xml

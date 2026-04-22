@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { useThemeMode } from "@/hooks/useThemeMode";
 
@@ -18,6 +18,8 @@ export const BrandLogo = ({
   collapsed = false,
 }: BrandLogoProps) => {
   const isDark = useThemeMode();
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const markSrc = isDark ? "/optimized/logo_mark_w_320.png" : "/optimized/logo_mark_b_320.png";
   const fullSrc = isDark ? "/optimized/logo_text_w_1200.png" : "/optimized/logo_text_b_1200.png";
@@ -79,6 +81,26 @@ export const BrandLogo = ({
       to={href}
       className="inline-flex items-center no-underline"
       aria-label="1600.now homepage"
+      onClick={(event) => {
+        if (event.defaultPrevented) return;
+        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        if (location.pathname === href) {
+          const startY = window.scrollY || document.documentElement.scrollTop;
+          if (startY <= 0) return;
+          const duration = 500;
+          const startTime = performance.now();
+          const step = (now: number) => {
+            const t = Math.min((now - startTime) / duration, 1);
+            const eased = 1 - Math.pow(1 - t, 3);
+            window.scrollTo(0, startY * (1 - eased));
+            if (t < 1) requestAnimationFrame(step);
+          };
+          requestAnimationFrame(step);
+        } else {
+          navigate(href);
+        }
+      }}
     >
       {content}
     </Link>

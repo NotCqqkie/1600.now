@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Trash2 } from "lucide-react";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
+import { sanitizeHtml } from "@/lib/sanitizeHtml";
 
 type AnnotationColor = "yellow" | "green" | "blue" | "pink";
 
@@ -265,7 +266,10 @@ export const ReadingPassageAnnotator = ({
     };
   }, []);
 
-  const annotatedHtml = useMemo(() => createAnnotationMarkup(html, annotations), [annotations, html]);
+  const annotatedHtml = useMemo(
+    () => sanitizeHtml(createAnnotationMarkup(html, annotations)),
+    [annotations, html],
+  );
 
   const handleMouseUp = () => {
     if (!enabled || !rootRef.current) {

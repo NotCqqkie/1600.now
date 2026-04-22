@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Calculator } from "lucide-react";
 import { DraggableWindow } from "./DraggableWindow";
+import { loadDesmos } from "@/lib/desmosLoader";
 
 declare global {
   interface Window {
@@ -56,42 +57,54 @@ export const DesmosDialog = ({
 
   // Initialize Desmos calculator when the window opens
   useEffect(() => {
-    if (!isOpen || !containerRef.current || !window.Desmos) return;
+    if (!isOpen) return;
 
-    // SAT-matching configuration:
-    // Mirrors College Board's Desmos restrictions for the Digital SAT
-    const calc = window.Desmos.GraphingCalculator(containerRef.current, {
-      // Core graphing features
-      expressions: true,
-      expressionsTopbar: true,
-      settingsMenu: true,
-      zoomButtons: true,
-      pointsOfInterest: true,
-      trace: true,
+    let cancelled = false;
+    let calc: DesmosCalculator | null = null;
 
-      // Angle mode: degrees by default (SAT standard)
-      degreeMode: true,
+    loadDesmos()
+      .then(() => {
+        if (cancelled || !containerRef.current || !window.Desmos) return;
 
-      // Disabled features (matching CB SAT restrictions)
-      images: false,          // No image upload
-      folders: false,         // No folders
-      notes: false,           // No notes
-      links: false,           // No sharing links
-      qwertyKeyboard: true,   // On-screen keyboard available
+        // SAT-matching configuration:
+        // Mirrors College Board's Desmos restrictions for the Digital SAT
+        calc = window.Desmos.GraphingCalculator(containerRef.current, {
+          // Core graphing features
+          expressions: true,
+          expressionsTopbar: true,
+          settingsMenu: true,
+          zoomButtons: true,
+          pointsOfInterest: true,
+          trace: true,
 
-      // UI restrictions
-      lockViewport: false,    // Allow panning/zooming
-      border: false,          // Clean look
-      expressionsCollapsed: false,
+          // Angle mode: degrees by default (SAT standard)
+          degreeMode: true,
 
-      // Colors and theming — follow app theme
-      backgroundColor: "#ffffff",
-    });
+          // Disabled features (matching CB SAT restrictions)
+          images: false,          // No image upload
+          folders: false,         // No folders
+          notes: false,           // No notes
+          links: false,           // No sharing links
+          qwertyKeyboard: true,   // On-screen keyboard available
 
-    calcRef.current = calc;
+          // UI restrictions
+          lockViewport: false,    // Allow panning/zooming
+          border: false,          // Clean look
+          expressionsCollapsed: false,
+
+          // Colors and theming — follow app theme
+          backgroundColor: "#ffffff",
+        });
+
+        calcRef.current = calc;
+      })
+      .catch(() => {
+        // Desmos failed to load — dialog stays open but graph area is empty
+      });
 
     return () => {
-      calc.destroy();
+      cancelled = true;
+      calc?.destroy();
       calcRef.current = null;
     };
   }, [isOpen]);

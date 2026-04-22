@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { type ReactNode, useMemo } from "react";
 import {
   QuestionNavigatorSheet,
   type QuestionNavigatorItem,
@@ -22,6 +22,7 @@ interface ModulePracticeNavigationSheetProps {
   isSplitScreenActive?: boolean;
   splitPosition?: number;
   statusMode?: "default" | "answered-unanswered";
+  headerActions?: ReactNode;
 }
 
 export const ModulePracticeNavigationSheet = ({
@@ -32,6 +33,7 @@ export const ModulePracticeNavigationSheet = ({
   isSplitScreenActive = false,
   splitPosition = 50,
   statusMode = "answered-unanswered",
+  headerActions,
 }: ModulePracticeNavigationSheetProps) => {
   const navigatorItems = useMemo<QuestionNavigatorItem[]>(
     () => items.map((item) => ({ ...item })),
@@ -47,6 +49,7 @@ export const ModulePracticeNavigationSheet = ({
       isSplitScreenActive={isSplitScreenActive}
       splitPosition={splitPosition}
       statusMode={statusMode}
+      headerActions={headerActions}
     />
   );
 };

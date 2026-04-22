@@ -296,6 +296,7 @@ const normalizeBareMathFragments = (content: string): string => {
     .map((line) => {
       const trimmed = line.trim();
       if (!trimmed || trimmed.includes("$")) return line;
+      if (/<\/?[a-zA-Z]/.test(trimmed)) return line;
       if (!/[=<>|]/.test(trimmed)) return line;
       if (!/^[A-Za-z0-9().,^+\-−=<>|/ ]+$/.test(trimmed)) return line;
       return line.replace(trimmed, wrapMath(trimmed));

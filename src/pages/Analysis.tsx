@@ -30,7 +30,10 @@ import { useThemeMode } from "@/hooks/useThemeMode";
 
 type CategoryMapItem = { subject: BankSubject; domain: string; skill: string };
 
+let cachedLiveCategoryMap: Record<string, CategoryMapItem> | null = null;
+
 const buildLiveCategoryMap = (): Record<string, CategoryMapItem> => {
+  if (cachedLiveCategoryMap) return cachedLiveCategoryMap;
   const map: Record<string, CategoryMapItem> = {};
   try {
     for (const q of getBankPool("math", "all")) {
@@ -50,10 +53,9 @@ const buildLiveCategoryMap = (): Record<string, CategoryMapItem> => {
   } catch {
     // Bank not loaded yet
   }
+  cachedLiveCategoryMap = map;
   return map;
 };
-
-const liveCategoryMap = buildLiveCategoryMap();
 
 // ─── Helpers ──────────────────────────────────────────────────────────────
 
@@ -530,6 +532,7 @@ const Analysis = () => {
   const { user } = useAuth();
   const { progress } = useUserProgress();
   const isDarkMode = useThemeMode();
+  const liveCategoryMap = useMemo(() => buildLiveCategoryMap(), []);
 
   useEffect(() => {
     const link = document.createElement("link");
