@@ -17,7 +17,7 @@ dist-ssr
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea
-.DS_Store
+**/.DS_Store
 .claude/
 *.suo
 *.ntvs*
@@ -30,3 +30,8 @@ dist-ssr
 __pycache__/
 *.pyc
 scripts/reports/
+scripts/**/*.log
+scripts/**/*_checkpoint.json
+scripts/**/*_log.json
+*.bak
+rescraped_images_*/
