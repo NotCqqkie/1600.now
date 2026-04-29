@@ -11,4 +11,11 @@ status:      done
 offset:      1400
 
 ## Completed batches
+src/data/unofficialQuestions.ts | 1200 | 1249 | 1 issue fixed
+src/data/unofficialQuestions.ts | 1250 | 1299 | 1 issue fixed
 src/data/unofficialQuestions.ts | 1300 | 1399 | 0 issues fixed
+
+## Summary
+Total issues fixed: 2
+- Question 1218 (rationale): &rsquo; → apostrophe
+- Question 1250: HTML entity replacement
