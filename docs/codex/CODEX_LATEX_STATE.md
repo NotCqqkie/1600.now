@@ -64,3 +64,4 @@ src/data/questions/math_past.json | 1500 | 1599 | 8 issues fixed
 src/data/questions/math_past.json | 1600 | 1699 | 6 issues fixed
 src/data/questions/math_past.json | 1700 | 1799 | 4 issues fixed
 src/data/questions/math_past.json | 1800 | 1899 | 3 issues fixed
+src/data/questions/math_past.json | 1900 | 1984 | 1 issues fixed
