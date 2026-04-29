@@ -3741,5 +3741,33 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
         "alt": ""
       }
     ]
+  },
+  "36200a38": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/36200a38_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/36200a38_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "d62ad380": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/d62ad380_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "0366d965": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/0366d965_q_01.png",
+        "alt": ""
+      }
+    ]
   }
 };
